@@ -31,7 +31,11 @@ self.addEventListener("fetch", (event) => {
     return;
   }
 
-  if (url.pathname.startsWith("/api/pages/") || url.pathname.startsWith("/api/manifest")) {
+  if (
+    url.pathname === "/manifest.json" ||
+    url.pathname === "/manifest.webmanifest" ||
+    url.pathname.startsWith("/api/pages/")
+  ) {
     event.respondWith(staleWhileRevalidate(request, DATA_CACHE));
     return;
   }

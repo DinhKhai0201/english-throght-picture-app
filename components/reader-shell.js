@@ -55,6 +55,8 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const scrollSyncRafRef = useRef(null);
   const scrubberMoveRafRef = useRef(null);
   const pendingScrubberPageRef = useRef(null);
+  const lastHistoryUpdateRef = useRef(0);
+  const currentPageNumberRef = useRef(initialPageNumber);
 
   const totalChunks = Math.ceil(manifestPages.length / CHUNK_SIZE);
   const visibleEntries = useMemo(
@@ -211,6 +213,10 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   }, [hydrated, pageDataMap, preloadPageNumbers]);
 
   useEffect(() => {
+    currentPageNumberRef.current = currentPageNumber;
+  }, [currentPageNumber]);
+
+  useEffect(() => {
     const observer = new IntersectionObserver(
       (entries) => {
         const candidates = entries
@@ -220,7 +226,8 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
         const top = candidates[0];
         if (!top) return;
         const pageNumber = Number(top.target.getAttribute("data-page"));
-        if (!pageNumber || pageNumber === currentPageNumber) return;
+        if (!pageNumber || pageNumber === currentPageNumberRef.current) return;
+        
         setCurrentPageNumber(pageNumber);
         setSelectedRegion(null);
         setPronunciationCard(null);
@@ -236,7 +243,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
     }
 
     return () => observer.disconnect();
-  }, [visibleEntries, currentPageNumber, pageDataMap]);
+  }, [visibleEntries]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -270,9 +277,20 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
 
   useEffect(() => {
     if (!hydrated || !currentPageNumber) return;
-    window.localStorage.setItem(LAST_PAGE_KEY, String(currentPageNumber));
+
+    // Throttle history and storage updates to prevent iOS SecurityError (Rate Limiting)
+    const now = Date.now();
+    if (now - lastHistoryUpdateRef.current > 500) {
+      try {
+        window.localStorage.setItem(LAST_PAGE_KEY, String(currentPageNumber));
+        window.history.replaceState({}, "", `/?page=${currentPageNumber}`);
+        lastHistoryUpdateRef.current = now;
+      } catch (e) {
+        console.warn("Silent history update failure:", e);
+      }
+    }
+
     setSavedPageNumber(currentPageNumber);
-    window.history.replaceState({}, "", `/?page=${currentPageNumber}`);
 
     const currentIndex = manifestPages.findIndex((entry) => entry.page === currentPageNumber);
     if (currentIndex >= 0) {
