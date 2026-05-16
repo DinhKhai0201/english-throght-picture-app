@@ -329,8 +329,8 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   }
 
   async function openPronunciationCard(text, rect) {
-    const x = Math.min(window.innerWidth - 24, rect.left + rect.width / 2);
-    const y = Math.max(18, rect.top - 12);
+    const x = Math.min(window.innerWidth - 20, Math.max(20, rect.left + rect.width / 2));
+    const y = Math.max(72, rect.top - 10);
     setPronunciationCard({
       text,
       x,
@@ -531,31 +531,13 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
             top: `${pronunciationCard.y}px`,
           }}
         >
-          <div className="pronunciation-card-head">
-            <strong>{pronunciationCard.text}</strong>
-            <button type="button" className="icon-button" onClick={() => setPronunciationCard(null)}>
-              Close
-            </button>
-          </div>
-
-          {pronunciationCard.loading ? <p>Loading pronunciation…</p> : null}
-          {pronunciationCard.error ? <p>{pronunciationCard.error}</p> : null}
-
+          <strong className="pronunciation-title">{pronunciationCard.text}</strong>
+          {pronunciationCard.loading ? <p className="pronunciation-ipa">Loading…</p> : null}
+          {pronunciationCard.error ? <p className="pronunciation-ipa">{pronunciationCard.error}</p> : null}
           {pronunciationCard.data ? (
-            <div className="pronunciation-list">
-              <div className="pronunciation-row">
-                <strong>ARPABET</strong>
-                <span>{pronunciationCard.data.arpabet || "No CMU entry"}</span>
-              </div>
-              <div className="pronunciation-row">
-                <strong>IPA</strong>
-                <span>{pronunciationCard.data.ipa ? `/${pronunciationCard.data.ipa}/` : "No IPA available"}</span>
-              </div>
-              <div className="pronunciation-row">
-                <strong>Vietnamese Approx</strong>
-                <span>{pronunciationCard.data.vietnameseApprox || "No approximation"}</span>
-              </div>
-            </div>
+            <p className="pronunciation-ipa">
+              {pronunciationCard.data.ipa ? `/${pronunciationCard.data.ipa}/` : "No IPA available"}
+            </p>
           ) : null}
         </div>
       ) : null}
