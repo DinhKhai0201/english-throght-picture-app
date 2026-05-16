@@ -5,7 +5,7 @@ const IMAGE_CACHE = `${CACHE_VERSION}-images`;
 
 self.addEventListener("install", (event) => {
   event.waitUntil(
-    caches.open(SHELL_CACHE).then((cache) => cache.addAll(["/", "/manifest.webmanifest"])),
+    caches.open(SHELL_CACHE).then((cache) => cache.addAll(["/", "/manifest.json"])),
   );
   self.skipWaiting();
 });
