@@ -6,9 +6,13 @@ export const metadata = {
   description: "Interactive reader with OCR JSON and click-to-speak playback.",
   manifest: "/manifest.webmanifest",
   applicationName: "English Through Pictures",
+  other: {
+    "mobile-web-app-capable": "yes",
+    "apple-mobile-web-app-capable": "yes",
+  },
   appleWebApp: {
     capable: true,
-    statusBarStyle: "default",
+    statusBarStyle: "black-translucent",
     title: "English Through Pictures",
   },
   formatDetection: {
@@ -17,6 +21,13 @@ export const metadata = {
   icons: {
     apple: "/apple-icon",
   },
+};
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  viewportFit: "cover",
+  themeColor: "#fbf7ee",
 };
 
 export default function RootLayout({ children }) {

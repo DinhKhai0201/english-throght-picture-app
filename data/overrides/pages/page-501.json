@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Life on Earth is about two billion years old. There may be life on other planets, like Mars, or on millions of other Earth-like worlds.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.22 },
+    { "text": "Mars shows color changes that might be caused by seasonal plant growth. (Illustration: Two views of a planet showing changing patterns).", "x": 0.1, "y": 0.32, "w": 0.85, "h": 0.42 },
+    { "text": "Humans are the newest and highest development of life. A million years ago, early men began a new chapter in Earth's history.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.15 }
+  ]
+}

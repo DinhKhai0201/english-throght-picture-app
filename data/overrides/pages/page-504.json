@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "(Illustration: Statue of Gautama Buddha). In India: Buddha and the Bhagavad-Gita.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.38 },
+    { "text": "(Illustration: Confucius). In China: Confucius and Mencius.", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.15 },
+    { "text": "Through speech and writing, humans created visions of what we should become. We have lived by these ideas ever since.", "x": 0.1, "y": 0.62, "w": 0.85, "h": 0.12 },
+    { "text": "You can now read 'The Wrath of Achilles', 'The Republic of Plato', and parts of the Bible in simple or Basic English.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.2 }
+  ]
+}
