@@ -9,7 +9,7 @@ export const metadata = {
   applicationName: "English Through Pictures",
   appleWebApp: {
     capable: true,
-    statusBarStyle: "black-translucent",
+    statusBarStyle: "black",
     title: "ETP Reader",
   },
   formatDetection: {
