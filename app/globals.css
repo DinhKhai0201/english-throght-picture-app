@@ -45,7 +45,7 @@ button {
 
 .reader-layout {
   min-height: 100vh;
-  padding: 16px 24px 48px;
+  padding: env(safe-area-inset-top, 16px) 24px calc(env(safe-area-inset-bottom, 0px) + 48px);
 }
 
 .topbar {
