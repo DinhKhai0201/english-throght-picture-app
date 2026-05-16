@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Our bodies govern themselves, but we also need conscious control. Education helps a person govern themselves as they grow.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.2 },
+    { "text": "As population grows, complex facts require machines for measuring and counting. (Diagram: A large 'ELECTRIC BRAIN' computer).", "x": 0.1, "y": 0.28, "w": 0.85, "h": 0.35 },
+    { "text": "Can machines think? They can answer questions if we have built the power to do so into them.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.15 },
+    { "text": "education: the process of learning to be more able and responsible. (Introductory concept of computing and AI).", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
+  ]
+}

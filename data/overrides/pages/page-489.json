@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "How do we develop ideas about better and worse? How do we judge what's important? (Illustration: Scales with question marks).", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.2 },
+    { "text": "Humans evolved from simple cells through long-term growth and change. (Illustrations: A thoughtful man and a single-celled amoeba).", "x": 0.1, "y": 0.28, "w": 0.85, "h": 0.35 },
+    { "text": "Even simple life forms have self-control and direction. They don't have complex ideas, but they can regulate themselves within limits.", "x": 0.45, "y": 0.52, "w": 0.5, "h": 0.25 },
+    { "text": "come by: to develop. judge: to decide what is best. FUTURE: will judge. PRESENT: judge(s). PAST: judged.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
+  ]
+}

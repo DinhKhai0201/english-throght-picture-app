@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "James Watt invented the Flyball Governor in 1788. This device allowed steam engines to control their own speed, making them safe.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "(Diagram: A flyball governor with two spinning balls. Left: Valve closed as balls fly out. Right: Valve open as balls fly lower).", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.38 },
+    { "text": "The engine spins the balls. If it goes too fast, the balls fly out and shut off the steam. If it goes slowly, the balls drop and open the valve.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.22 }
+  ]
+}

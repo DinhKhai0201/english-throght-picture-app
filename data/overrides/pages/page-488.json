@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Machines work for us, but they cannot decide what work should be done. Humans must provide the direction.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "People need to know when and why to do things. A machine only does what it's made for. (Illustration: A sequence showing the voting process).", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.25 },
+    { "text": "Free people must make up their own minds. We learn to think by watching and talking to others. Early education is vital.", "x": 0.1, "y": 0.5, "w": 0.85, "h": 0.3 },
+    { "text": "should: what is best for man. direction: giving orders and being responsible for the outcome.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
+  ]
+}

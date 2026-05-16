@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "In a free country, government officials are responsible to the people. Power must be limited, just like a flyball governor limits an engine.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.2 },
+    { "text": "(Diagram: A government panel and the Lady Justice statue with scales and a sword).", "x": 0.1, "y": 0.25, "w": 0.85, "h": 0.15 },
+    { "text": "The law is a main control on government power. Everyone is equal under the law. Police and judges help keep the law in place.", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.3 },
+    { "text": "judges: legal experts who decide how to apply the law to those who break it.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
+  ]
+}

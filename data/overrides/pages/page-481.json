@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Vending machines sell many things automatically in public places, from food to books.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.25 },
+    { "text": "(Diagram: Using a vending machine). Automating buying and selling makes life simpler.", "x": 0.55, "y": 0.05, "w": 0.35, "h": 0.2 },
+    { "text": "Shopping can take up too much time. Self-service frees people from waiting in line. (Illustration: People shopping together).", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.45 },
+    { "text": "shop/store: place to buy things. FUTURE: will shop. PRESENT: shop(s). PAST: shopped.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
+  ]
+}
