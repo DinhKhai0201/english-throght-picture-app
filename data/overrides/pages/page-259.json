@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Noises and songs are sounds. What are sounds? They are the effects of waves in the air. These are waves in the sea.", "x": 0.12, "y": 0.14, "w": 0.35, "h": 0.35 },
+    { "text": "These are waves in a cord. One end of the cord is fixed to a tree and the boy has the other end. He is shaking it up and down.", "x": 0.52, "y": 0.24, "w": 0.4, "h": 0.2 },
+    { "text": "With every shake he sends a wave down the cord to the tree.", "x": 0.12, "y": 0.65, "w": 0.35, "h": 0.1 },
+    { "text": "As the wave goes down the cord this part, which was up, goes down. And this part, which was down, goes up.", "x": 0.51, "y": 0.52, "w": 0.4, "h": 0.25 }
+  ]
+}

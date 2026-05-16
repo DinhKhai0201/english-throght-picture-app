@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "People can have only a few cans of meat and fruit and other things “on hand,” as we say, on their shelves. They may have a cupboard with two or three shelves of canned food, but most people have no room for more than that. If supplies do not come into the city day by day their supply of canned food is quickly used up.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.4 },
+    { "text": "can't: cannot. few: a small number of, not many.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.05 },
+    { "text": "cupboard: walled-in shelves with doors in front of them.", "x": 0.1, "y": 0.83, "w": 0.85, "h": 0.05 }
+  ]
+}

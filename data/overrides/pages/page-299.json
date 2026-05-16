@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Which are the countries with the most people in them? China, India, the U.S.S.R. and the U.S.A. all have populations of over a hundred million. Some countries have less room in them than these four, but these have the greatest populations.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "China: more than 600,000,000. India: more than 300,000,000. U.S.S.R.: more than 200,000,000. U.S.A.: more than 150,000,000.", "x": 0.45, "y": 0.5, "w": 0.45, "h": 0.2 },
+    { "text": "It is not good for a country if it does not have enough room for all its people. A person who does not have enough room to live in may not be able to keep well.", "x": 0.1, "y": 0.7, "w": 0.85, "h": 0.1 },
+    { "text": "over: more than. room: space available. well: healthy in body and mind.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
+  ]
+}

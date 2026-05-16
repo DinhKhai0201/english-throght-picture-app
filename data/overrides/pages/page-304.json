@@ -1,0 +1,7 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "World map showing locations of major cities marked 1 to 10.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.35 },
+    { "text": "Populations in Millions: 1. Berlin, 2. Calcutta, 3. Leningrad, 4. London, 5. Mexico City, 6. Moscow, 7. New York, 8. Paris, 9. Shanghai, 10. Tokyo.", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.5 }
+  ]
+}

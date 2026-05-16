@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This city has great buildings, some of which have machines in them for doing many sorts of work by steam or electric power. These are factories. One of them is a factory where furniture is made. In it men make tables and chairs in great numbers.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.2 },
+    { "text": "machine: instrument which does work for men. power: a thing's power is the work it is able to do. electric power: power which gives us electric light, heat, telephones. factory: building where men and machines make things.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.15 },
+    { "text": "furniture: beds, tables, chests of drawers, bookshelves, etc. chair: seat for one person.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.08 }
+  ]
+}

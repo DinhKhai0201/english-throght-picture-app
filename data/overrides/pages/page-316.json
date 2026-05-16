@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The milk must be kept clean and cold and put into bottles and taken to the stores and houses in the city. City governments see that milk is kept clean and has enough butterfat in it.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "Some city-born children have never seen a cow and have to be taught where milk comes from.", "x": 0.1, "y": 0.58, "w": 0.85, "h": 0.1 },
+    { "text": "away: off, from that place. fat: the part of milk from which butter is made is butterfat. never: not ever.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.1 },
+    { "text": "FUTURE: will teach. PRESENT: teach(es). PAST: taught.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Milk is the best food there is for babies. It is good for children and for older people too. It has in it fat, which gives energy, and it has the most important of the materials needed for building up our bodies. Milk makes strong bones and strong teeth too. It is good for a child to drink two or three glasses of it every day.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.2 },
+    { "text": "In addition, milk has in it most of the vitamins which are needed to keep us healthy. Vitamins are a discovery of this century. A hundred years ago no one knew anything about them.", "x": 0.1, "y": 0.5, "w": 0.85, "h": 0.15 },
+    { "text": "too: in addition. energy: power. build: putting up a building. drink: take in by mouth. know: have knowledge of.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.15 },
+    { "text": "FUTURE: will build/drink/know. PRESENT: build(s)/drink(s)/know(s). PAST: built/drank,drunk/knew,known.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.08 }
+  ]
+}

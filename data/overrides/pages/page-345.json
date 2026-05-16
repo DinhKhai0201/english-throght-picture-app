@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Writing is a very much newer invention than talking. Nobody knows when men first began to talk, but they did not begin to write, so far as we know, until seven or eight thousand years ago.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.12 },
+    { "text": "IN EGYPT, IN MESOPOTAMIA, IN CHINA: Ancient writing systems developed independently in these regions.", "x": 0.1, "y": 0.18, "w": 0.85, "h": 0.35 },
+    { "text": "In Egypt, Mesopotamia, and China, and later in Palestine and Greece, men began to make marks and pictures with sticks and sharp stones from which others, or they themselves, later, could see what they had thought.", "x": 0.1, "y": 0.55, "w": 0.85, "h": 0.15 },
+    { "text": "invention: some new thing. began: started. sharp: cutting. stone: a hard material. later: opposite of earlier. FUTURE: will begin. PRESENT: begin(s). PAST: began, begun.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.25 }
+  ]
+}

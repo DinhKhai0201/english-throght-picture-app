@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "\"Pleasure\"? What is that? \"Pain\"? What is that? Put your finger in the flame. No, I will not. Why not? Because of the pain.", "x": 0.12, "y": 0.09, "w": 0.35, "h": 0.35 },
+    { "text": "Here is a nail. You put your finger nail over this nail, and I will give it a blow with this hammer.", "x": 0.52, "y": 0.16, "w": 0.25, "h": 0.25 },
+    { "text": "No, you will not. I see what pain is now. I see what the sense of the word \"pain\" is now. This is another use of the word \"sense\".", "x": 0.11, "y": 0.72, "w": 0.4, "h": 0.2 },
+    { "text": "That is pain. Pleasure is the opposite of pain. \"Opposite\"? Good is the opposite of bad.", "x": 0.53, "y": 0.62, "w": 0.4, "h": 0.15 }
+  ]
+}

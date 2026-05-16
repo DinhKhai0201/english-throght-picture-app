@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Here are some people of different countries. This is a Japanese girl. She lives in Japan. Japan is her country. She is Japanese.", "x": 0.1, "y": 0.05, "w": 0.35, "h": 0.4 },
+    { "text": "This is an Indian boy. He lives in India. India is his country.", "x": 0.1, "y": 0.45, "w": 0.25, "h": 0.2 },
+    { "text": "Are you Japanese?... Chinese?... German?... French?... Polish?... Swiss? What is your country?", "x": 0.1, "y": 0.72, "w": 0.5, "h": 0.15 },
+    { "text": "people: men and women and boys and girls are people.", "x": 0.1, "y": 0.88, "w": 0.8, "h": 0.05 }
+  ]
+}

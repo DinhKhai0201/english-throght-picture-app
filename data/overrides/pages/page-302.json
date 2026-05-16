@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "There were over two billion six hundred million (2,600,000,000) people in the world in 1954. Less than half of them could get as much food as they needed. Many of them because of this are not healthy.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "There are some people everywhere who take more food than is good for them, but many more get less than they need. People are asking one another what the world population will be in 2050 if it goes on increasing like this.", "x": 0.1, "y": 0.5, "w": 0.85, "h": 0.15 },
+    { "text": "It will be very great. It will be much greater in some parts of the world than in others. Some people say it will be between five and ten billion and some that it may be as much as thirty billion.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.15 },
+    { "text": "healthy: well, right in body and mind. everywhere: in every place.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
+  ]
+}

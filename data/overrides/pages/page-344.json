@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "We need good pictures to teach us meanings in the new language and good motion pictures to help many more people to learn languages quickly and well. The learners will then be able to work in groups with the help of teachers or by themselves, using books, records, radio, sound motion pictures and television.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.25 },
+    { "text": "A teacher can help a learner to learn. Reading and writing can help us to think.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.1 },
+    { "text": "well: in a good way. help: something which does part of our work for us. in groups: together with others. group: those doing something together.", "x": 0.1, "y": 0.68, "w": 0.6, "h": 0.2 },
+    { "text": "FUTURE: will help. PRESENT: help(s). PAST: helped.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
+  ]
+}

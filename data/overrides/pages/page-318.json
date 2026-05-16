@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The vitamins are named by letters of the alphabet. Vitamin A is needed by the eyes. There is Vitamin A in milk, butter and green vegetables. It can be stored by the body.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.3 },
+    { "text": "Vitamin B cannot be stored. It must be supplied all the time by some of the food we eat. The skins of grain of all sorts have Vitamin B in them.", "x": 0.3, "y": 0.35, "w": 0.65, "h": 0.25 },
+    { "text": "alphabet: all the letters used in writing (see page 61). eat: take food by the mouth.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.1 },
+    { "text": "FUTURE: will eat. PRESENT: eat(s). PAST: ate, eaten.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
+  ]
+}

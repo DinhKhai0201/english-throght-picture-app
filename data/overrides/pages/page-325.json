@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "If there were enough good food in every country every day for every person, would the world be a better place than it is?", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
+    { "text": "We say, “If there were enough food,” not, “If there is enough food,” because there is not enough, and we know it.", "x": 0.1, "y": 0.2, "w": 0.85, "h": 0.1 },
+    { "text": "We say, “If there were something in this hand you would see it,” because we know that there is nothing in the hand. But with this hand, which is shut, we say, “If there is something in this hand you will see it.”", "x": 0.1, "y": 0.35, "w": 0.5, "h": 0.3 },
+    { "text": "Now the hand is open. There is something in it and you do see it.", "x": 0.1, "y": 0.7, "w": 0.5, "h": 0.1 }
+  ]
+}

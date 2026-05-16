@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Here are the twenty-six letters used in English with the English names for them spelled out after them: a (ay), b (bee), c (see), d (dee), e (ee), f (eff), g (jee), h (aich), i (eye), j (jay), k (kay), l (ell), m (emm), n (enn), o (oh), p (pee), q (kyou), r (are), s (ess), t (tee), u (you), v (vee), w (double-U), x (eks), y (wy), z (zee/zed).", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.35 },
+    { "text": "Some letters represent multiple sounds. For example, 'a' sounds different in bag, part, again, say, was, any, and fall.", "x": 0.1, "y": 0.42, "w": 0.85, "h": 0.12 },
+    { "text": "The letter 'e' varies in bell, week, older, earth, or hear, and can be silent. Letters like 'a' and 'g' sound different in bag versus age.", "x": 0.1, "y": 0.58, "w": 0.85, "h": 0.15 },
+    { "text": "Reading English is easier than Chinese but harder than purely phonetic languages. The book 'First Steps in Reading English' is recommended for beginners.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.12 }
+  ]
+}

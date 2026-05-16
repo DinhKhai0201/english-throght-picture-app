@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "If all the people alive on the earth today were hand in hand like this, the line they would make would go more than fifty times round the earth. The line of people would go out to the moon and back three times. It would be long enough to do that.", "x": 0.1, "y": 0.05, "w": 0.5, "h": 0.25 },
+    { "text": "But there isn’t a line of people which goes out to the moon and back. And the people of the earth aren’t hand in hand; far from it! That is why we said “were” (not “are”) and “They would go” (not “they go”).", "x": 0.25, "y": 0.38, "w": 0.7, "h": 0.25 },
+    { "text": "We say: If the angles in this triangle are equal, then the sides will be equal. But we say: If the angles in this triangle were equal, the sides would be equal.", "x": 0.1, "y": 0.65, "w": 0.6, "h": 0.15 },
+    { "text": "triangle: this is another triangle.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.05 }
+  ]
+}

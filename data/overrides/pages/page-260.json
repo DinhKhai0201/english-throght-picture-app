@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "These are waves in the air. They come to our ears. They have effects in our ears and brains. Those effects are sounds.", "x": 0.12, "y": 0.27, "w": 0.38, "h": 0.15 },
+    { "text": "Here is a brain. The part of the brain which does the most work in hearing has the word HEARING on it.", "x": 0.54, "y": 0.27, "w": 0.4, "h": 0.15 },
+    { "text": "\"The most\"? Some things have water in them. This cup has some water in it. This bucket has more water in it. The sea has the most water in it.", "x": 0.1, "y": 0.48, "w": 0.38, "h": 0.35 },
+    { "text": "Some animals have brains: a horse has some brains; a monkey has more brains; and a man has the most brains of the three.", "x": 0.54, "y": 0.57, "w": 0.35, "h": 0.25 }
+  ]
+}

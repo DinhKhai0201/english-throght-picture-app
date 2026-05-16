@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Our senses—seeing, hearing, touching, tasting, and smelling—are ways through which we get knowledge. Our ideas come to us through our senses.", "x": 0.08, "y": 0.15, "w": 0.4, "h": 0.25 },
+    { "text": "This is a doorway. The way into the room is through the door. The way out of the room is through the door.", "x": 0.52, "y": 0.1, "w": 0.4, "h": 0.35 },
+    { "text": "\"Which is the way to the station?\" \"Take the first street to the right.\" This man had no knowledge of the way to the station. Now he has the knowledge.", "x": 0.08, "y": 0.5, "w": 0.4, "h": 0.4 },
+    { "text": "The station. The way to the station.", "x": 0.51, "y": 0.5, "w": 0.42, "h": 0.42 }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This is a great painting by Leonardo. Its name is the Mona Lisa.", "x": 0.12, "y": 0.12, "w": 0.35, "h": 0.35 },
+    { "text": "The picture is beautiful. That is certain. Was the woman beautiful? Was Lisa herself beautiful? That is not certain.", "x": 0.54, "y": 0.12, "w": 0.4, "h": 0.25 },
+    { "text": "I have my idea of that. He has his idea.", "x": 0.12, "y": 0.51, "w": 0.35, "h": 0.3 },
+    { "text": "She had her idea. We may have different ideas of how beautiful that woman was. There is no measure of the beautiful.", "x": 0.52, "y": 0.65, "w": 0.4, "h": 0.25 }
+  ]
+}

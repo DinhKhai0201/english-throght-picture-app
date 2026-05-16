@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Today millions of people, young and old, go into foreign countries every year on business or for pleasure.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
+    { "text": "That is a quicker way to get about than on one’s mother’s back. Here is a woman who is carrying her baby on her back. She carries the child with her wherever she goes. In the last hundred years men have learnt to go over land and sea through the air as almost all birds and many insects can. Men are carried through the air in airplanes.", "x": 0.1, "y": 0.3, "w": 0.6, "h": 0.35 },
+    { "text": "one: a person. one’s: a person’s. carrying: taking from place to place. insect: these are insects.", "x": 0.1, "y": 0.75, "w": 0.5, "h": 0.12 },
+    { "text": "FUTURE: will carry. PRESENT: carries. PAST: carried.", "x": 0.1, "y": 0.88, "w": 0.5, "h": 0.05 }
+  ]
+}

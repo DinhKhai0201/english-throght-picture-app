@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "What is he doing? He is hammering. This is his hammer. These are nails of different sizes.", "x": 0.1, "y": 0.22, "w": 0.38, "h": 0.25 },
+    { "text": "He is putting the cover on a box. He is nailing down the cover of the box. The cover is on the top of the box.", "x": 0.53, "y": 0.32, "w": 0.4, "h": 0.15 },
+    { "text": "The blows of the hammer make a noise. He is making a very loud noise.", "x": 0.1, "y": 0.78, "w": 0.38, "h": 0.15 },
+    { "text": "Mary has her hands over her ears. \"What a noise!\" She is saying, \"What a noise you are making.\"", "x": 0.52, "y": 0.71, "w": 0.4, "h": 0.15 }
+  ]
+}

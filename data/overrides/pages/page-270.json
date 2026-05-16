@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "A smile is like a laugh. But a laugh makes a sound. This girl is laughing. She is happy.", "x": 0.1, "y": 0.18, "w": 0.38, "h": 0.25 },
+    { "text": "She has a fall. She gives a cry. Now she is crying. She is not laughing now. She is crying. Why?", "x": 0.52, "y": 0.35, "w": 0.42, "h": 0.12 },
+    { "text": "Because she gave her knee a blow in her fall. This is her knee. She was on her feet. Then she was on her face. She had a fall.", "x": 0.1, "y": 0.5, "w": 0.38, "h": 0.4 },
+    { "text": "The fall was the cause of the blow to her knee. The blow was the cause of the pain in her knee. And the pain in her knee was the cause of her crying.", "x": 0.52, "y": 0.5, "w": 0.42, "h": 0.38 }
+  ]
+}

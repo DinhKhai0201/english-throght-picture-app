@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "There are 50,000,000 more people in Europe today than there were twenty-five years ago. The increase in population in twenty-five years is 50,000,000. Europe has increased her population by 50,000,000 in the last twenty-five years.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "This map gives a picture of the number of people in each country of Europe today. Legend: less than 1 million, 1-6 millions, 6-11 millions, 11-36 millions, 36-70 millions.", "x": 0.1, "y": 0.2, "w": 0.85, "h": 0.35 },
+    { "text": "ago: before now, before the present. increase: amount by which something gets greater. each: every, all, one by one.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.1 },
+    { "text": "FUTURE: will increase. PRESENT: increase(s). PAST: increased.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.05 }
+  ]
+}

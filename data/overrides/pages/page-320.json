@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Every person must have air and water and food to keep him alive and he must have these vitamins to keep him well. How do we know this? How do we know what food keeps a man well and healthy? We know from the effects on men and animals of going without one sort of food or another. That is how we see which foods give us energy, which make us fat and which make us able to keep healthy.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.25 },
+    { "text": "Men of science are putting together more and more knowledge about the sorts and amounts of food that our bodies need. Too little food or too much of the wrong food is bad for a person. The right amount of the right food (the food best for him) will keep him feeling well and strong.", "x": 0.1, "y": 0.5, "w": 0.85, "h": 0.2 },
+    { "text": "Some people need a little more or a little less of one or another sort of food than others.", "x": 0.1, "y": 0.7, "w": 0.85, "h": 0.05 },
+    { "text": "alive: living. going without: not getting. too little: less than enough. too much: overmuch.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
+  ]
+}

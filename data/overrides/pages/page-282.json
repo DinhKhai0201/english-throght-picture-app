@@ -1,0 +1,7 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Every statement or question in this book has one or more of these sixteen words in it: be, come, give, make, have, go, get, send, do, put, keep, see, seem, take, let, say.", "x": 0.1, "y": 0.15, "w": 0.8, "h": 0.25 },
+    { "text": "The first of these words, BE, comes into more statements than any other. Here it is. It goes like this: Past, Present, Future. I was, am, will be. He/She/It was, is, will be. We/You/They were, are, will be.", "x": 0.1, "y": 0.45, "w": 0.8, "h": 0.45 }
+  ]
+}

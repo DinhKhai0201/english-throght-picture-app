@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Men are not hand in hand, but their minds today are being put increasingly into touch with one another through reading and writing and in many other ways. We are in touch with other people everywhere through pictures of them. Newspapers give us photographs of almost everything. The faces of important people can be seen by the public everywhere.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.2 },
+    { "text": "Before 1800 nobody could take photographs. Nobody had had the idea of using the knowledge of how light is bent by glass to make pictures.", "x": 0.1, "y": 0.25, "w": 0.85, "h": 0.1 },
+    { "text": "Here is a camera which is taking a picture of a man. You will see that the picture inside the camera is upside down.", "x": 0.1, "y": 0.4, "w": 0.85, "h": 0.35 },
+    { "text": "increasingly: more and more. photograph: picture taken with a camera. camera: instrument for taking photographs.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.1 }
+  ]
+}

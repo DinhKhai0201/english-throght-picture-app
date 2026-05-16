@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This is a picture of the increasing population of the United States in the last hundred years. One man in the picture represents ten million (10,000,000) people. This picture is a graph. This graph lets us see relations between times and numbers of people.", "x": 0.45, "y": 0.05, "w": 0.5, "h": 0.3 },
+    { "text": "1850, 1860, 1870, 1880, 1890, 1900, 1910, 1920, 1930, 1940, 1950", "x": 0.1, "y": 0.05, "w": 0.1, "h": 0.7 },
+    { "text": "represents: takes the place of; puts before the mind. graph: picture which represents changes in amounts in relation to other changes. relation: there is the same relation between 2 and 4 as there is between 3 and 6.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.1 },
+    { "text": "FUTURE: will represent. PRESENT: represent(s). PAST: represented.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
+  ]
+}

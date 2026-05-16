@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Men are persons. They have their work. They put and take things and give and get them. They come and go.", "x": 0.08, "y": 0.08, "w": 0.4, "h": 0.35 },
+    { "text": "They see and say things, keep things, and let them (go), make and send them", "x": 0.52, "y": 0.08, "w": 0.42, "h": 0.35 },
+    { "text": "Some seem happier than others. All these sorts of things are done by men and women. Things are put and taken by them. Things are given and got by them. Things are seen and said by them. Things are kept and let go by them. Things are made and sent by them.", "x": 0.08, "y": 0.55, "w": 0.85, "h": 0.35 }
+  ]
+}

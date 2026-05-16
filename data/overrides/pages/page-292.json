@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "\"When were you born? Give me the date of your birth. What is your age?\" \"I was born on January 10, 1920. I am thirty-seven (years old).\"", "x": 0.08, "y": 0.05, "w": 0.5, "h": 0.2 },
+    { "text": "\"When were you at school? How long were you there? How many years were you at school?\" \"I was at school eight years.\"", "x": 0.08, "y": 0.25, "w": 0.5, "h": 0.2 },
+    { "text": "\"What work do you do? What is your occupation?\" \"I am a cook.\"", "x": 0.08, "y": 0.45, "w": 0.5, "h": 0.2 },
+    { "text": "date: day of the month and year. age: your age is the number of years you have lived. how many: what number of. occupation: work. cook: person who makes food ready by heating.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.2 }
+  ]
+}

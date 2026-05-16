@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "More people will learn more languages as better ways of teaching them are worked out. This book, English Through Pictures 2, is itself part of an attempt to teach English better.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.2 },
+    { "text": "We need better books to learn from and better records of good voices to teach us how to listen to the sentences of a language and say them. Recordings of sounds are made on disks and on tapes.", "x": 0.1, "y": 0.28, "w": 0.5, "h": 0.35 },
+    { "text": "listen: attempt to hear. attempt: make an attempt. record: played on a machine. sentence: a thought put in words. Starts with capital letter, ends with full stop. disk: played with a needle. tape: long narrow roll.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.2 },
+    { "text": "FUTURE: will listen/attempt. PRESENT: listen(s)/attempt(s). PAST: listened/attempted.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
+  ]
+}

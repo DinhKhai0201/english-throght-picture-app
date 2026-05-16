@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Birds and many insects have wings. It is their wings which take them up into the air. The wings of birds have long feathers on them. Their bones and the stems of their wing feathers are hollow. This keeps them light.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "Here is a bee. Here is a beetle. Here is a fly. And here is a butterfly. Bees, beetles and flies are insects. There are very many different sorts of insects.", "x": 0.1, "y": 0.22, "w": 0.5, "h": 0.45 },
+    { "text": "wings: a bird has wings where a man has arms. feathers: these are feathers. hollow: with space inside. light: of little weight.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.12 },
+    { "text": "bee, beetle, fly, butterfly: different sorts of insects.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
+  ]
+}

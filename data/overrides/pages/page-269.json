@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "She may or may not be beautiful. But it is certain that she has a smile on her lips. That is certain. It is not certain that she is beautiful.", "x": 0.1, "y": 0.14, "w": 0.38, "h": 0.35 },
+    { "text": "2 + 2 = 4. Two and two are equal to four. That is certain. 2 + 2 = 5. Two and two are not equal to five. That is certain. It is certain that 2 + 2 = 4.", "x": 0.52, "y": 0.1, "w": 0.4, "h": 0.35 },
+    { "text": "a = b = c = d. a is equal to b, and b is equal to c, and c is equal to d. So a is equal to d. Things which are equal to the same things are equal to one another.", "x": 0.1, "y": 0.51, "w": 0.38, "h": 0.35 },
+    { "text": "Things which are like one another may be equal or they may not. These two are like one another but they are not equal.", "x": 0.52, "y": 0.53, "w": 0.4, "h": 0.25 }
+  ]
+}

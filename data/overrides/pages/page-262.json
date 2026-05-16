@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This mine is deep. This mine is deeper. This mine is the deepest of the three.", "x": 0.1, "y": 0.27, "w": 0.38, "h": 0.18 },
+    { "text": "This plate has some salt on it. This plate has more salt on it. This plate has the most salt on it. It has more salt on it than the other plates.", "x": 0.52, "y": 0.1, "w": 0.4, "h": 0.35 },
+    { "text": "This is a good book. These are two other good books. One of them is better than the others. It is the best book of the three.", "x": 0.12, "y": 0.52, "w": 0.38, "h": 0.4 },
+    { "text": "This is a bad fire. This is a worse fire. This is the worst fire of the three.", "x": 0.52, "y": 0.51, "w": 0.4, "h": 0.35 }
+  ]
+}

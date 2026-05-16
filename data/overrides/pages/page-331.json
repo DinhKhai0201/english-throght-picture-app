@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "But people can’t know what any man is saying if they don’t know his language.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.05 },
+    { "text": "Up to a hundred years ago few people needed to learn foreign languages because not many people went into foreign countries. Now, the need to learn other people’s languages is becoming greater every day.", "x": 0.1, "y": 0.12, "w": 0.85, "h": 0.15 },
+    { "text": "learn: get knowledge of, be learning. foreign language: a language different from the language of your family. foreign country: a country which is not yours.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.12 },
+    { "text": "FUTURE: will learn. PRESENT: learn(s). PAST: learned, learnt.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
+  ]
+}

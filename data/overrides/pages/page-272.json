@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Pleasure and pain are feelings. When we put our fingers on things we have feelings—feelings of touch or of heat and cold. But this is another use of the word \"feeling.\"", "x": 0.08, "y": 0.12, "w": 0.4, "h": 0.28 },
+    { "text": "The man is feeling the bit of wood with his fingers. Is it rough or is it smooth? This is rough. This is smooth.", "x": 0.51, "y": 0.1, "w": 0.4, "h": 0.38 },
+    { "text": "Things which give us pleasure have an attraction for us. But it is not the same sort of attraction as the attraction between the earth and the moon. (See pages 202-203.)", "x": 0.08, "y": 0.55, "w": 0.4, "h": 0.25 },
+    { "text": "Our feeling of this attraction is named \"desire.\" When we have pleasure we have a desire for the pleasure to go on and go on... Time goes on. The hands of the clock go on. Our feelings may or may not go on.", "x": 0.52, "y": 0.53, "w": 0.4, "h": 0.35 }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "At school he sees his friends and does his work.", "x": 0.12, "y": 0.25, "w": 0.35, "h": 0.1 },
+    { "text": "He keeps his thoughts on his work. He does not let his thoughts go off to other things.", "x": 0.52, "y": 0.21, "w": 0.42, "h": 0.15 },
+    { "text": "At play after school he sends the ball a long way. He makes it go a long way.", "x": 0.12, "y": 0.51, "w": 0.38, "h": 0.38 },
+    { "text": "Then he comes back from school. Here he is with the family again.", "x": 0.52, "y": 0.51, "w": 0.42, "h": 0.32 }
+  ]
+}

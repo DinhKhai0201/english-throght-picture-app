@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "She is looking at herself in a looking glass. Again and again, every day, she takes a look at herself in a glass.", "x": 0.12, "y": 0.32, "w": 0.38, "h": 0.15 },
+    { "text": "Whenever she sees a looking glass she goes to it and takes a look at herself. Why?", "x": 0.52, "y": 0.14, "w": 0.4, "h": 0.35 },
+    { "text": "Because looking at herself in the glass gives her pleasure. She is beautiful. She sees that she is beautiful.", "x": 0.12, "y": 0.52, "w": 0.38, "h": 0.15 },
+    { "text": "Looking at himself in the glass gives him no pleasure. It gives him pain. Why? He sees himself. Is he beautiful?", "x": 0.53, "y": 0.51, "w": 0.4, "h": 0.25 }
+  ]
+}

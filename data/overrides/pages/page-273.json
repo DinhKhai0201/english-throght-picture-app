@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Some desires are stronger than others. This baby sees the cat and he sees his ball. The cat has an attraction for him. He has a desire for the cat.", "x": 0.1, "y": 0.09, "w": 0.38, "h": 0.35 },
+    { "text": "His ball has an attraction for him. He has a desire for the ball. Which will he go to? If his desire for the cat is stronger than his desire for the ball, he will go to the cat.", "x": 0.52, "y": 0.09, "w": 0.4, "h": 0.35 },
+    { "text": "He went to the cat. His desire for the cat was stronger.", "x": 0.1, "y": 0.72, "w": 0.38, "h": 0.1 },
+    { "text": "All our desires are for things which seem good to us. They may not be good. Our ideas of them may be wrong.", "x": 0.52, "y": 0.61, "w": 0.4, "h": 0.25 }
+  ]
+}

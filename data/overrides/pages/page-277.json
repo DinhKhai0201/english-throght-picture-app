@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This is a boy. He will be a man. He was a baby. He seems to be about twelve years old now.", "x": 0.12, "y": 0.09, "w": 0.35, "h": 0.4 },
+    { "text": "Every night he has a long sleep in his bed. He goes to bed at eight every night.", "x": 0.54, "y": 0.1, "w": 0.38, "h": 0.25 },
+    { "text": "He gets up every morning at seven. He gets out of bed and gives himself a good wash.", "x": 0.12, "y": 0.55, "w": 0.38, "h": 0.38 },
+    { "text": "He puts his clothing on. He says \"Good morning\" to his mother and father and takes his place at the table.", "x": 0.54, "y": 0.52, "w": 0.4, "h": 0.42 }
+  ]
+}

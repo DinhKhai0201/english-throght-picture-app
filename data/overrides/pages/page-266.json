@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Which of these is a high building? What is the other?", "x": 0.1, "y": 0.2, "w": 0.25, "h": 0.15 },
+    { "text": "What is the opposite of narrow? Is this street narrow?", "x": 0.52, "y": 0.12, "w": 0.4, "h": 0.1 },
+    { "text": "Up is the opposite of down. In is the opposite of out. OUT IN OUT OUT", "x": 0.1, "y": 0.5, "w": 0.38, "h": 0.4 },
+    { "text": "To is the opposite of from. Pleasure is the opposite of pain.", "x": 0.52, "y": 0.72, "w": 0.4, "h": 0.15 }
+  ]
+}

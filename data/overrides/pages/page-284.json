@@ -1,0 +1,6 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "He/She/It conjugation table: Past, Present, Future. had/has/will have; did/does/will do; seemed/seems/will seem; came/comes/will come; went/goes/will go; put/puts/will put; took/takes/will take; gave/gives/will give; got/gets/will get; kept/keeps/will keep; let/lets/will let; made/makes/will make; sent/sends/will send; saw/sees/will see; said/says/will say.", "x": 0.1, "y": 0.15, "w": 0.8, "h": 0.75 }
+  ]
+}

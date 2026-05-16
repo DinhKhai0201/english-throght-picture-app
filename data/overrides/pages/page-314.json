@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Here is a supply of meat, vegetables, milk, butter, cheese, bread, fruit and eggs, enough for a family of four persons for one day in the U.S.A. If a person does not get enough food of the right sorts, he will not keep well. He will not be able to work or play well.", "x": 0.1, "y": 0.05, "w": 0.5, "h": 0.25 },
+    { "text": "Fresh food must be supplied to a city day by day. It will not keep good very long if it is open to the air. If uncovered, it may get flies on it. Flies get on dirty things. Their dirty feet make food dirty. Canned food will keep good for a long time. It can be stored.", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.2 },
+    { "text": "fresh: new, not kept for a long time. must: has to. uncovered: not covered. stored: kept for use when needed.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.1 },
+    { "text": "FUTURE: will store/work/play. PRESENT: store(s)/work(s)/play(s). PAST: stored/worked/played.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.1 }
+  ]
+}

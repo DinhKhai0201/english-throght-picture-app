@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "In picture writing, each picture represents a word; you need a different picture or mark for each word. In present-day Chinese writing most of the marks are not pictures of anything, and a reader has to learn how the Chinese write about two thousand of these words before he can read a newspaper.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.22 },
+    { "text": "The sun and moon (明): meanings include 'bright' and 'open'. A man and two marks (仁): meaning is 'what men have in common'.", "x": 0.1, "y": 0.28, "w": 0.85, "h": 0.25 },
+    { "text": "Learning to read Chinese is much harder than learning to read English. But the same marks can be read as having the same meaning in different languages, like Mandarin, Cantonese and Japanese.", "x": 0.1, "y": 0.58, "w": 0.85, "h": 0.15 },
+    { "text": "has to: must.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.05 }
+  ]
+}

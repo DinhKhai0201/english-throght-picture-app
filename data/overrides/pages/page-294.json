@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Here are some people who live in the United States of America, the U.S.A. The fathers and mothers of these people went to the U.S.A. from England, France, Italy, Switzerland, Poland, Russia and other countries. Some of them sailed there in sailing ships before the days of steamships.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.2 },
+    { "text": "Now the sons and daughters live in the U.S.A. and most of them are Americans. Some of them were born in the U.S.A. They got their start in America, but they have many relations in the old country.", "x": 0.1, "y": 0.55, "w": 0.85, "h": 0.15 },
+    { "text": "sail: sailing ships have sails and sail by using the push of the wind. start: the very first step. Being born is the start of a person.", "x": 0.1, "y": 0.72, "w": 0.55, "h": 0.15 },
+    { "text": "FUTURE: will sail. PRESENT: sail(s). PAST: sailed.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "We get knowledge by putting questions. That is one way of getting knowledge. The answers may give us knowledge or they may not.", "x": 0.12, "y": 0.14, "w": 0.35, "h": 0.25 },
+    { "text": "When the answers are right, they give us knowledge. When they are wrong they do not give us knowledge. 2 + 2 = 4 Right 2 + 2 = 5 Wrong", "x": 0.54, "y": 0.14, "w": 0.38, "h": 0.25 },
+    { "text": "How far is the sun from the earth? Which is the right answer: \"It is two miles away.\" or \"It is much more than two miles away\"? Which is the wrong answer to the question?", "x": 0.12, "y": 0.58, "w": 0.38, "h": 0.3 },
+    { "text": "Which is his right hand? Which is his left hand? He is facing you. Now he has his back to you. Which is his left hand now, and which is his right?", "x": 0.53, "y": 0.5, "w": 0.4, "h": 0.4 }
+  ]
+}
