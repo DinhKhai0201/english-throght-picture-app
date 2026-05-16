@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Men need to make beautiful things. Today cities have public art galleries and museums for everyone to see art through the centuries.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
+    { "text": "artist: worker at one of the arts. art gallery: building where works of art are kept for people to look at.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.1 },
+    { "text": "museum: building where important works of art, science, history, etc., are housed.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.08 }
+  ]
+}

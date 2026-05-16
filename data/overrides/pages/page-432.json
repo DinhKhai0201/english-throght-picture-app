@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "We need to be alone sometimes, but we also need other people to know them and ourselves better. The more men know one another, the better they can live together.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.12 },
+    { "text": "Nations—Chinese, Indians, British, Russians, Germans, Americans, French—know little of one another and live in different worlds.", "x": 0.1, "y": 0.18, "w": 0.85, "h": 0.15 },
+    { "text": "This is good only if they have bridges between their separate worlds and know enough about each other.", "x": 0.1, "y": 0.68, "w": 0.85, "h": 0.1 },
+    { "text": "alone: by oneself. nations: countries under independent government. independent: not dependent.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
+  ]
+}

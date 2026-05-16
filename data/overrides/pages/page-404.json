@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "People are the most complex of all organisms, far more complex than any plant. A man would die if his cells did not work together. The cells are dependent upon one another and the man is dependent upon his cells.", "x": 0.1, "y": 0.05, "w": 0.35, "h": 0.3 },
+    { "text": "The picture below shows what the word dependent can mean. The girl in the middle is dependent on both men to keep her from falling.", "x": 0.1, "y": 0.42, "w": 0.85, "h": 0.1 },
+    { "text": "The man holding her feet is letting go as the other takes her hands. She was dependent on the first man; she will be dependent on the second. Their act depends on timing.", "x": 0.1, "y": 0.62, "w": 0.85, "h": 0.15 },
+    { "text": "their act: what they do. depends: is dependent on. letting go: letting them go. FUTURE: will depend. PRESENT: depend(s). PAST: depended.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
+  ]
+}

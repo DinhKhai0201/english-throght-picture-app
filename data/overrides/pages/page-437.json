@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "A teacher tried to teach her students about greetings. They said: 'When you say Good morning to us, we say it back to you.'", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.12 },
+    { "text": "Next morning, she saw a student and said: 'Good morning?' (with a question in her mind). The student answered: 'Yes, it is!'", "x": 0.1, "y": 0.18, "w": 0.85, "h": 0.3 },
+    { "text": "The teacher realized she seemed to be asking a question, so he gave an answer. She saw another student and tried again. student: learner.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.35 }
+  ]
+}

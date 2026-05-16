@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Life began, men think, in the salt sea. Near the land, where the waters were not deep, very small one-celled organisms came into being.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
+    { "text": "The cells in our bodies all have water in them. Our bodies are seventy per cent water. This water has about the same amount of salt as the early sea.", "x": 0.1, "y": 0.32, "w": 0.85, "h": 0.1 },
+    { "text": "Even if we eat a great amount of salt the body automatically controls how much it will keep. When we lose salt through sweat we have to eat more. organism: living body. per cent: in a hundred.", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.35 }
+  ]
+}

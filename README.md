@@ -2,6 +2,8 @@
 
 An interactive web application designed to help language learners study English using the classic "English Through Pictures" methodology.
 
+Live site: [https://english-throgh-picture.vercel.app/](https://english-throgh-picture.vercel.app/)
+
 > [!IMPORTANT]
 > **Non-Commercial & Educational Purpose Only**
 > This application is strictly for personal learning and educational research. It is not intended for commercial use or distribution. All rights to the original book materials belong to their respective copyright holders.

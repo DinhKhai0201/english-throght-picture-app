@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "But no. Priestley said: 'When it had gone on growing for some months, I found that the air would neither put out a candle nor was it bad for a mouse.'", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "In other words, the green plant had not used up all the oxygen in the air. A Dutch scientist found that Priestley’s experiment would not work without light.", "x": 0.1, "y": 0.5, "w": 0.85, "h": 0.15 },
+    { "text": "In the light a plant gives out oxygen and builds up sugars. In the dark it gives out carbon dioxide and water.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.12 },
+    { "text": "either, or: one or the other. neither, nor: not one and not the other. grownup: person who has grown up.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
+  ]
+}

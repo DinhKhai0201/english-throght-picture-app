@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Plants and animals need air. One fifth is oxygen; four fifths is nitrogen. Organisms cannot take nitrogen from the air themselves.", "x": 0.1, "y": 0.05, "w": 0.65, "h": 0.15 },
+    { "text": "Small organisms in soil and water 'fix' nitrogen into materials plants can use. Animals get nitrogen by eating plants.", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.15 },
+    { "text": "Nitrogen returns to soil in animal waste, helping plants grow. soil: earth for plants. fix: make fixed. FUTURE: will fix. PRESENT: fix(es). PAST: fixed.", "x": 0.1, "y": 0.38, "w": 0.85, "h": 0.45 }
+  ]
+}

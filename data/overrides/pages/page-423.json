@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "All our lives we need other people. In many parts of the world families do everything for themselves. Until the nineteenth century families were self-supporting.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.2 },
+    { "text": "They grew their food, built their houses, made their clothing and furniture, candles for lighting, and plows and carts for work on the farm.", "x": 0.1, "y": 0.25, "w": 0.5, "h": 0.5 },
+    { "text": "In every way they took care of themselves. Living like this, a family is very like a simple organism.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.15 }
+  ]
+}

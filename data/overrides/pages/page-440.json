@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "We say the earth is getting smaller because we can travel about it more easily. Many people travel outside their own countries.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
+    { "text": "We get news from any part of the world in seconds. Interest in other nations is good if it goes deep enough. We need to know more.", "x": 0.1, "y": 0.38, "w": 0.85, "h": 0.15 },
+    { "text": "Wider knowledge will help the world to better days. understand something: have a clear, true idea of it.", "x": 0.1, "y": 0.55, "w": 0.85, "h": 0.2 },
+    { "text": "travel: make a journey. FUTURE: will travel. PRESENT: travel(s). PAST: traveled.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
+  ]
+}

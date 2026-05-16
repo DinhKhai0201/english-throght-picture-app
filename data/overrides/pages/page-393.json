@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The thinking of scientists has become clearer and truer as their instruments have become better. Galileo made one of the first microscopes as well as the first telescope.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
+    { "text": "By the middle of the seventeenth century this new instrument had opened up to man another world, a world of things too small for our eyes by themselves to see.", "x": 0.1, "y": 0.15, "w": 0.85, "h": 0.1 },
+    { "text": "The microscope made possible the discovery of the cell structure of all living things. Even the body of man himself could be pictured now as a great machine with millions of working parts, each part a cell.", "x": 0.1, "y": 0.25, "w": 0.85, "h": 0.2 },
+    { "text": "structure: how a thing is made up; the way its parts are put together. The structure of the plant stem is made clearer by the microscope.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
+  ]
+}

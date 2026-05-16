@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The most important materials in our bodies are the proteins. We can see how complex they are by comparing their formula with water (H2O) or carbon dioxide (CO2).", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "Formula for a protein from milk: C1864 H3012 N468 S21 O576. Water: H2O. Carbon dioxide: CO2.", "x": 0.1, "y": 0.25, "w": 0.85, "h": 0.2 },
+    { "text": "The letter N represents nitrogen and S represents sulphur. among: being part of a group. nitrogen: a gas in the air. sulphur: a yellow material.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.25 }
+  ]
+}

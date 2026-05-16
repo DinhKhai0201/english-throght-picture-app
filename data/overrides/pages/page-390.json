@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Galileo could let men look through his telescope but he could not make most of them see the picture of the universe that was becoming clear in his mind.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.12 },
+    { "text": "He could not do that any more than Copernicus had been able to do it. Men’s ideas were changing, but not as quickly as his.", "x": 0.1, "y": 0.4, "w": 0.85, "h": 0.1 },
+    { "text": "Galileo was put in prison for saying that the ideas written down by Ptolemy fifteen hundred years before did not make sense to him.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.12 },
+    { "text": "universe: everything there is. prison: place where wrongdoers are locked up.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.1 }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "When parting, people say 'Good morning!', 'Good afternoon!', 'Good evening!', or 'Good night!' instead of 'Good-by!'. They mean 'May all be well with you!'", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "'Good-by!' is a short way of saying 'God be with you!'. In the past, this was taught to children as part of their English knowledge.", "x": 0.1, "y": 0.18, "w": 0.85, "h": 0.12 },
+    { "text": "parting: going away from one another. afternoon: after 12:00. evening: late afternoon. noon: 12:00.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.1 },
+    { "text": "God: Being on Whom all depend. religion: interest in man’s deepest needs.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
+  ]
+}

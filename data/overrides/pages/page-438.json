@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The teacher smiled and said 'Good morning!' to another student. He answered: 'Thank you very much!'", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.12 },
+    { "text": "She thought she sounded like she was giving him something. She tried a third student with a hard, sharp voice: 'Good morning!' He answered: 'Please!'", "x": 0.1, "y": 0.28, "w": 0.85, "h": 0.35 },
+    { "text": "One person may not know what is in another’s mind even when they try to show it. thank: say 'Thank you'. please: may it be your pleasure.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.15 },
+    { "text": "FUTURE: will thank, will please. PRESENT: thank(s), please(s). PAST: thanked, pleased.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
+  ]
+}

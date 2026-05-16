@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "There may be as many as 100,000 different sorts of proteins in a man’s body. A protein in our blood carries oxygen to the cells. Others make bones strong or muscles move.", "x": 0.1, "y": 0.05, "w": 0.55, "h": 0.25 },
+    { "text": "Proteins in our hair, skin, and nails make them what they are. Others help in the digestion of food and keeping us healthy.", "x": 0.1, "y": 0.32, "w": 0.55, "h": 0.25 },
+    { "text": "Proteins make children become surprisingly like their parents. nail: finger nail, toe nail. digestion: the changing of food so it can be used by the body.", "x": 0.1, "y": 0.62, "w": 0.85, "h": 0.25 }
+  ]
+}

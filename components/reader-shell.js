@@ -5,7 +5,6 @@ import { useEffect, useMemo, useRef, useState } from "react";
 const LAST_PAGE_KEY = "english-through-pictures:last-page";
 const SETTINGS_KEY = "english-through-pictures:settings";
 const CHUNK_SIZE = 50;
-const CHUNK_EDGE_BUFFER = 5;
 const defaultStatus = "Idle";
 const LONG_PRESS_MS = 420;
 
@@ -33,6 +32,11 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const [voiceUri, setVoiceUri] = useState("");
   const [pronunciationCard, setPronunciationCard] = useState(null);
   const [renderablePages, setRenderablePages] = useState(() => new Set([initialPage.page]));
+  const [showScrollAnchor, setShowScrollAnchor] = useState(false);
+  const [isScrubbing, setIsScrubbing] = useState(false);
+  const [scrubberPreviewPage, setScrubberPreviewPage] = useState(initialPage.page);
+  const [pagePickerOpen, setPagePickerOpen] = useState(false);
+  const [pagePickerValue, setPagePickerValue] = useState(String(initialPage.page));
 
   const synthRef = useRef(null);
   const pageNodesRef = useRef(new Map());
@@ -42,6 +46,8 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const voiceUriRef = useRef("");
   const longPressTimerRef = useRef(null);
   const longPressTriggeredRef = useRef(false);
+  const hideScrollAnchorTimerRef = useRef(null);
+  const scrollSyncRafRef = useRef(null);
 
   const totalChunks = Math.ceil(manifestPages.length / CHUNK_SIZE);
   const visibleEntries = useMemo(
@@ -237,12 +243,69 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
         setCurrentChunkIndex(nextChunkIndex);
       }
 
-      setMountedChunkIndexes((current) => {
-        const next = computeMountedChunkIndexes(nextChunkIndex, currentIndex, manifestPages.length);
-        return arraysEqual(current, next) ? current : next;
-      });
+      setMountedChunkIndexes((current) => (current[0] === nextChunkIndex && current.length === 1 ? current : [nextChunkIndex]));
     }
   }, [currentChunkIndex, currentPageNumber, hydrated, manifestPages]);
+
+  useEffect(() => {
+    if (!isScrubbing) {
+      setScrubberPreviewPage(currentPageNumber);
+    }
+  }, [currentPageNumber]);
+
+  useEffect(() => {
+    setPagePickerValue(String(currentPageNumber));
+  }, [currentPageNumber]);
+
+  useEffect(() => {
+    if (!hydrated) return;
+
+    const showWithTimeout = () => {
+      setShowScrollAnchor(true);
+      if (!isScrubbing) {
+        if (scrollSyncRafRef.current) {
+          cancelAnimationFrame(scrollSyncRafRef.current);
+        }
+        scrollSyncRafRef.current = requestAnimationFrame(() => {
+          let bestPage = null;
+          let bestDistance = Number.POSITIVE_INFINITY;
+          const viewportAnchor = window.innerHeight * 0.22;
+
+          for (const [pageNumber, node] of pageNodesRef.current.entries()) {
+            const rect = node.getBoundingClientRect();
+            const distance = Math.abs(rect.top - viewportAnchor);
+            if (rect.bottom > 0 && rect.top < window.innerHeight && distance < bestDistance) {
+              bestPage = pageNumber;
+              bestDistance = distance;
+            }
+          }
+
+          if (bestPage && bestPage !== currentPageNumber) {
+            setCurrentPageNumber(bestPage);
+            setSelectedRegion(null);
+            setPronunciationCard(null);
+          }
+        });
+      }
+      if (hideScrollAnchorTimerRef.current) {
+        clearTimeout(hideScrollAnchorTimerRef.current);
+      }
+      hideScrollAnchorTimerRef.current = setTimeout(() => {
+        setShowScrollAnchor(false);
+      }, 2000);
+    };
+
+    window.addEventListener("scroll", showWithTimeout, { passive: true });
+    return () => {
+      window.removeEventListener("scroll", showWithTimeout);
+      if (hideScrollAnchorTimerRef.current) {
+        clearTimeout(hideScrollAnchorTimerRef.current);
+      }
+      if (scrollSyncRafRef.current) {
+        cancelAnimationFrame(scrollSyncRafRef.current);
+      }
+    };
+  }, [currentPageNumber, hydrated, isScrubbing]);
 
   useEffect(() => {
     const targetPage = hydratedTargetRef.current;
@@ -266,6 +329,15 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const currentChunkStartPage = currentChunkEntries[0]?.page;
   const currentChunkEndPage = currentChunkEntries.at(-1)?.page;
   const selectedRegionText = resolveSelectedRegionText(selectedRegion, pageDataMap);
+  const scrubberDisplayPage = isScrubbing ? scrubberPreviewPage : currentPageNumber;
+  const scrubberDisplayIndex = Math.max(
+    0,
+    currentChunkEntries.findIndex((entry) => entry.page === scrubberDisplayPage),
+  );
+  const scrubberProgress = currentChunkEntries.length <= 1
+    ? 0
+    : scrubberDisplayIndex / (currentChunkEntries.length - 1);
+  const pagePickerJumpPages = buildPagePickerJumpPages(currentChunkEntries, currentPageNumber);
 
   function chooseVoice() {
     const availableVoices = voices.length ? voices : synthRef.current?.getVoices?.() || [];
@@ -432,6 +504,79 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
     setPronunciationCard(null);
   }
 
+  function goToNearestPageInChunk(rawPageNumber) {
+    const parsed = Number(rawPageNumber);
+    if (!Number.isFinite(parsed) || !currentChunkEntries.length) return;
+
+    const clamped = Math.max(currentChunkStartPage, Math.min(currentChunkEndPage, Math.round(parsed)));
+    let nearest = currentChunkEntries[0].page;
+    let distance = Math.abs(nearest - clamped);
+
+    for (const entry of currentChunkEntries) {
+      const nextDistance = Math.abs(entry.page - clamped);
+      if (nextDistance < distance) {
+        nearest = entry.page;
+        distance = nextDistance;
+      }
+    }
+
+    scrollToChunkPage(nearest);
+  }
+
+  function scrollToChunkPage(pageNumber) {
+    const node = pageNodesRef.current.get(pageNumber);
+    if (node) {
+      node.scrollIntoView({ behavior: "auto", block: "start" });
+      setCurrentPageNumber(pageNumber);
+      return;
+    }
+
+    jumpToPage(pageNumber);
+  }
+
+  function updateScrubberFromClientY(clientY, rail) {
+    if (!rail || !currentChunkEntries.length) return;
+    const rect = rail.getBoundingClientRect();
+    const relative = Math.max(0, Math.min(1, (clientY - rect.top) / rect.height));
+    const targetIndex = Math.round(relative * Math.max(0, currentChunkEntries.length - 1));
+    const targetPage = currentChunkEntries[targetIndex]?.page;
+    if (!targetPage) return;
+    setScrubberPreviewPage(targetPage);
+    if (targetPage !== currentPageNumber) {
+      scrollToChunkPage(targetPage);
+    }
+  }
+
+  function handleScrubberPointerDown(event) {
+    const rail = event.currentTarget;
+    event.preventDefault();
+    setIsScrubbing(true);
+    setShowScrollAnchor(true);
+    if (hideScrollAnchorTimerRef.current) {
+      clearTimeout(hideScrollAnchorTimerRef.current);
+    }
+    updateScrubberFromClientY(event.clientY, rail);
+
+    const handleMove = (moveEvent) => {
+      updateScrubberFromClientY(moveEvent.clientY, rail);
+    };
+
+    const handleUp = () => {
+      setIsScrubbing(false);
+      if (hideScrollAnchorTimerRef.current) {
+        clearTimeout(hideScrollAnchorTimerRef.current);
+      }
+      hideScrollAnchorTimerRef.current = setTimeout(() => {
+        setShowScrollAnchor(false);
+      }, 2000);
+      window.removeEventListener("pointermove", handleMove);
+      window.removeEventListener("pointerup", handleUp);
+    };
+
+    window.addEventListener("pointermove", handleMove);
+    window.addEventListener("pointerup", handleUp);
+  }
+
   function rememberPageNode(pageNumber, node) {
     if (!node) {
       pageNodesRef.current.delete(pageNumber);
@@ -555,6 +700,95 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
         })}
       </main>
 
+      {showScrollAnchor || isScrubbing ? (
+        <div className={["page-scrubber", isScrubbing ? "is-scrubbing" : ""].filter(Boolean).join(" ")}>
+          <div className="page-scrubber-rail" onPointerDown={handleScrubberPointerDown}>
+            <div className="page-scrubber-track" />
+            <button
+              type="button"
+              className="page-scrubber-thumb"
+              style={{ "--scrubber-top": `${scrubberProgress * 100}%` }}
+              aria-label={`Current page ${scrubberDisplayPage}`}
+              onClick={(event) => {
+                event.stopPropagation();
+                setPagePickerOpen(true);
+                setShowScrollAnchor(true);
+              }}
+            >
+              <span>{scrubberDisplayPage}</span>
+            </button>
+          </div>
+        </div>
+      ) : null}
+
+      {pagePickerOpen ? (
+        <div className="page-picker-modal" role="dialog" aria-modal="true" aria-label="Choose page">
+          <button
+            type="button"
+            className="page-picker-backdrop"
+            aria-label="Close page picker"
+            onClick={() => setPagePickerOpen(false)}
+          />
+          <div className="page-picker-sheet">
+            <div className="page-picker-head">
+              <div>
+                <strong>Choose page</strong>
+                <p>Chunk {currentChunkIndex + 1}: {currentChunkStartPage} - {currentChunkEndPage}</p>
+              </div>
+              <button type="button" className="icon-button" onClick={() => setPagePickerOpen(false)}>
+                Close
+              </button>
+            </div>
+
+            <label className="field">
+              <span>Page in current chunk</span>
+              <input
+                type="range"
+                min={currentChunkStartPage}
+                max={currentChunkEndPage}
+                step="1"
+                value={Number(pagePickerValue)}
+                onChange={(event) => setPagePickerValue(event.target.value)}
+              />
+            </label>
+
+            <form
+              className="page-scrubber-form"
+              onSubmit={(event) => {
+                event.preventDefault();
+                goToNearestPageInChunk(pagePickerValue);
+                setPagePickerOpen(false);
+              }}
+            >
+              <input
+                type="number"
+                min={currentChunkStartPage}
+                max={currentChunkEndPage}
+                value={pagePickerValue}
+                onChange={(event) => setPagePickerValue(event.target.value)}
+              />
+              <button type="submit" className="ghost-button">Go</button>
+            </form>
+
+            <div className="page-scrubber-jumps">
+              {pagePickerJumpPages.map((page) => (
+                <button
+                  key={page}
+                  type="button"
+                  className={["ghost-button", page === currentPageNumber ? "is-active" : ""].filter(Boolean).join(" ")}
+                  onClick={() => {
+                    scrollToChunkPage(page);
+                    setPagePickerOpen(false);
+                  }}
+                >
+                  {page}
+                </button>
+              ))}
+            </div>
+          </div>
+        </div>
+      ) : null}
+
       {pronunciationCard ? (
         <div
           className="pronunciation-card"
@@ -670,6 +904,22 @@ function buildJumpPages(entries, currentIndex, currentChunkEntries) {
     .map((index) => entries[index]);
 }
 
+function buildPagePickerJumpPages(currentChunkEntries, currentPageNumber) {
+  if (!currentChunkEntries.length) return [];
+  const pages = new Set([
+    currentChunkEntries[0].page,
+    currentChunkEntries.at(-1).page,
+    currentPageNumber,
+  ]);
+
+  const stride = Math.max(1, Math.floor(currentChunkEntries.length / 6));
+  for (let index = 0; index < currentChunkEntries.length; index += stride) {
+    pages.add(currentChunkEntries[index].page);
+  }
+
+  return [...pages].sort((a, b) => a - b);
+}
+
 function resolveSelectedRegionText(regionKey, pageDataMap) {
   if (!regionKey) return "";
   const [pageNumberText, regionId] = regionKey.split(":");
@@ -697,25 +947,4 @@ function chunkIndexFromPageIndex(index) {
 function getChunkEntries(entries, chunkIndex) {
   const start = chunkIndex * CHUNK_SIZE;
   return entries.slice(start, start + CHUNK_SIZE);
-}
-
-function computeMountedChunkIndexes(chunkIndex, pageIndex, totalPages) {
-  const indexes = [chunkIndex];
-  const positionInChunk = pageIndex % CHUNK_SIZE;
-  const totalChunks = Math.ceil(totalPages / CHUNK_SIZE);
-
-  if (positionInChunk <= CHUNK_EDGE_BUFFER && chunkIndex > 0) {
-    indexes.unshift(chunkIndex - 1);
-  }
-
-  if (positionInChunk >= CHUNK_SIZE - CHUNK_EDGE_BUFFER - 1 && chunkIndex < totalChunks - 1) {
-    indexes.push(chunkIndex + 1);
-  }
-
-  return [...new Set(indexes)];
-}
-
-function arraysEqual(a, b) {
-  if (a.length !== b.length) return false;
-  return a.every((value, index) => value === b[index]);
 }

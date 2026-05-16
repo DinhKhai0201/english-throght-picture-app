@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The first living things were eating, growing organisms which divided to become others like them. Under a microscope, a cell looks like a bit of clear jelly with a thin wall round it.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.12 },
+    { "text": "Very small openings in the walls of the cell let food in and waste out. In every cell there is a nucleus, which organizes the work of the cell.", "x": 0.1, "y": 0.18, "w": 0.45, "h": 0.2 },
+    { "text": "The nucleus is the seat of government. It is to the cell what London is to Britain. jelly: soft material. nucleus: cell center. organize: give every part its work.", "x": 0.1, "y": 0.38, "w": 0.85, "h": 0.4 },
+    { "text": "FUTURE: will organize. PRESENT: organize(s). PAST: organized.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.08 }
+  ]
+}

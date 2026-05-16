@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Men need to hear beautiful things. Music may go back farther than other arts, but we have no records before the discovery of writing.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "The writing of music may have started with pictures. Today we can write down music and make copies of the sound as it is played.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.15 },
+    { "text": "art: work done to feed the mind and heart through senses and feelings. examples: painting, sculpture, music.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
+  ]
+}

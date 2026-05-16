@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "He was able to do this only because he was carried forward on the shoulders of such men as Galileo, Kepler and Copernicus. His Law of Gravitation says that all things in the universe have an attraction for one another.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "It was only by standing on Newton’s and other men’s shoulders that Einstein (1879-1955) was able to get his picture of the universe and work out new ideas about time and space and energy.", "x": 0.1, "y": 0.25, "w": 0.6, "h": 0.25 },
+    { "text": "Their work made it possible for him to see farther into the laws of the universe than they could. Younger men in their turn are developing new ideas made possible by Einstein.", "x": 0.1, "y": 0.5, "w": 0.5, "h": 0.25 },
+    { "text": "about: of. shoulder: part of body between arm and neck.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
+  ]
+}

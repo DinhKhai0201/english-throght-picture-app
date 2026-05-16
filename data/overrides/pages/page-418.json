@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Coal and oil are sun’s energy stored by plants millions of years ago. Coal comes from dead plants under pressure in the earth.", "x": 0.1, "y": 0.05, "w": 0.55, "h": 0.15 },
+    { "text": "We are using coal and oil very quickly. Soon we may use up all that is easy to get.", "x": 0.1, "y": 0.22, "w": 0.55, "h": 0.15 },
+    { "text": "Men have been taking oil since 1860. Without oil there would be no cars or airplanes. car: automobile.", "x": 0.1, "y": 0.48, "w": 0.55, "h": 0.2 },
+    { "text": "It is strange to think that planes depend on what plants were doing millions of years ago.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.1 }
+  ]
+}

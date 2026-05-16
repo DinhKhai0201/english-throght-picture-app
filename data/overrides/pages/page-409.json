@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Even the simplest living organism is far more complex than any machines men have made. Organisms are built up of parts which are the most complex things chemistry knows.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "Chemistry is about the different ways in which materials are built up. For example: Water is made up of oxygen and hydrogen (H2O). Carbon dioxide is carbon and oxygen (CO2).", "x": 0.1, "y": 0.25, "w": 0.85, "h": 0.15 },
+    { "text": "Chemists use formulas to represent the structure of all material things. formula: chemists’ way of representing structures.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.25 }
+  ]
+}

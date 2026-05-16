@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "A little knowledge about other nations can make them seem bad. We cannot turn back the clock to when nations could keep to themselves.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.25 },
+    { "text": "We must get more knowledge about other peoples. Knowledge of other languages is necessary. We need people who know other languages well.", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.2 },
+    { "text": "We have to know a language well to know what people mean and think. have to: must. are to: are to become able to.", "x": 0.1, "y": 0.58, "w": 0.85, "h": 0.3 }
+  ]
+}

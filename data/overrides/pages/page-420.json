@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Nitrogen, carbon, oxygen, and hydrogen are used over and over again. Plants build them up; animals eat plants; waste and dead plants are broken down again.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "The great round goes on without end, made possible by solar energy. Oxygen and carbon dioxide in the air are there because of photosynthesis.", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.2 },
+    { "text": "fallen: leaves which fell from trees. FUTURE: will fall. PRESENT: fall(s). PAST: fell, fallen.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.15 }
+  ]
+}

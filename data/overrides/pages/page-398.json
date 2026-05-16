@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The earth itself is thought to be more than twice as old as life on it. Two billion years ago it was a great ball as hot on its surface as boiling water.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.12 },
+    { "text": "In time, as the earth’s surface became less hot, the thick clouds got thinner. Then more sunlight could get through. Sunlight is necessary for life.", "x": 0.1, "y": 0.2, "w": 0.85, "h": 0.15 },
+    { "text": "life: that which only living things have. surface: outside part.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.08 }
+  ]
+}

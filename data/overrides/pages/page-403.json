@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The more the parts of a thing need one another, the more complex it is. Take one little wheel out of a watch and see if the other parts can work without it.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "Which is more complex—a stone or a plant? The parts of the plant work together to keep it alive. Each part is dependent upon the others.", "x": 0.1, "y": 0.18, "w": 0.85, "h": 0.25 },
+    { "text": "The parts of a stone do not work in this way for one another. A stone is much simpler than a plant.", "x": 0.1, "y": 0.6, "w": 0.85, "h": 0.1 },
+    { "text": "Any living thing, however small or simple it may seem, is far more complex than anything which has no life.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.1 }
+  ]
+}

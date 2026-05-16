@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Every hour of our lives we do things possible only because of work done for us by other people. Who grew the cotton? Who made the sheets?", "x": 0.1, "y": 0.05, "w": 0.5, "h": 0.12 },
+    { "text": "Who watched the sheep? Who washed the wool? Who made the blankets for your bed? Whose work are you using when you turn on the light?", "x": 0.1, "y": 0.18, "w": 0.85, "h": 0.15 },
+    { "text": "Who mined the coal which gives the power to heat and light your room? Men need to do things for other people. They need someone to love.", "x": 0.1, "y": 0.48, "w": 0.5, "h": 0.25 },
+    { "text": "sheet: cotton bed cover. blanket: warm wool cover. verbs: wash, mine, light, love.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.2 }
+  ]
+}

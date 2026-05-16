@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Great cities have theaters for plays, music buildings for great works, and libraries for the best that has been thought and written.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.25 },
+    { "text": "Art, music, and poetry come from man’s greatest hours with himself and give others their greatest hours.", "x": 0.1, "y": 0.48, "w": 0.45, "h": 0.15 },
+    { "text": "theater: building for plays. acted: when a play is given. library: building for keeping books.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.1 },
+    { "text": "poetry: words put together in the best way for others to feel. FUTURE: will act. PRESENT: act(s). PAST: acted.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.1 }
+  ]
+}

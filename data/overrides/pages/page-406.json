@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "You can put a paper cube this size together for yourself. To make a paper cube, make six one-centimeter squares like this. Now take your scissors and cut round the outer lines.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.25 },
+    { "text": "Do not cut the broken lines but make folds there. Put the edges together to make a hollow paper cube. Your cube will be a cubic centimeter in size.", "x": 0.1, "y": 0.3, "w": 0.55, "h": 0.2 },
+    { "text": "A cube has six sides; its sides are equal squares. The surface of a one-centimeter cube is six square centimeters. fold: a page folded down. edge: the edge of the page.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.2 }
+  ]
+}

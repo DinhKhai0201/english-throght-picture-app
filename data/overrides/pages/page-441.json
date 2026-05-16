@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The earth seems to be getting smaller because men’s experience is getting wider. New ways of living have come in the last fifty years.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.12 },
+    { "text": "Stranger things are coming. Men can today travel through space to the moon.", "x": 0.1, "y": 0.18, "w": 0.5, "h": 0.35 },
+    { "text": "What is Space? It is hard to say what Space and Time are. We and the sun and the moon are all in Space and Time.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.12 },
+    { "text": "But no one understands what Space and Time are. Not even the best philosophers are clear about them.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.1 }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "We may learn from photosynthesis how to grow more food. More than half the population is short of food. The need for new supplies will increase.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.12 },
+    { "text": "Much photosynthesis (90 per cent) goes on in microscopic plants in the sea. Future food may come from the oceans.", "x": 0.1, "y": 0.18, "w": 0.85, "h": 0.12 },
+    { "text": "Making food from carbon, hydrogen, and oxygen may become a new industry. At present we burn coal and oil for energy. microscopic: too small to see without a microscope. maybe: possibly.", "x": 0.1, "y": 0.32, "w": 0.85, "h": 0.35 },
+    { "text": "oil: liquids used for fuel. Gasoline is 'gas' in the U.S.A. and 'petrol' in Britain.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.15 }
+  ]
+}

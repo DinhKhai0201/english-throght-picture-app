@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "All living things are developments from these one-celled organisms. They have developed step by step through change upon change from these first, simple, living things.", "x": 0.1, "y": 0.05, "w": 0.5, "h": 0.2 },
+    { "text": "Our bodies and the bodies of plants and animals are highly complex in their structure. They have millions of cells, each with its own work to do.", "x": 0.1, "y": 0.25, "w": 0.5, "h": 0.2 },
+    { "text": "What do the words simple and complex mean? simple: not complex. complex: not simple (see next page).", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.2 }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "It can be hard for people from different countries to understand one another. In the past, few knew anything about other countries.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "Today men hear more about other countries, but often about how bad governments are or about wrong ideas others have of them.", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.12 },
+    { "text": "If we knew them better, we would see people are like ourselves. Men’s minds are as like one another as their bodies are.", "x": 0.1, "y": 0.62, "w": 0.85, "h": 0.15 },
+    { "text": "to understand a person: to see what his ideas and feelings are. FUTURE: will understand. PRESENT: understand(s). PAST: understood.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
+  ]
+}

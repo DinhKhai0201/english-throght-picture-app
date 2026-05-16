@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "People need work and play for the body and for the mind. They need music and dancing, rest and change.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.12 },
+    { "text": "They need books and talk with other men: with old friends and new people. They need new knowledge to keep their old knowledge clear and living.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.12 },
+    { "text": "A friend is someone you know and love and with whom you have much in common. dancing: moving in time to music.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.15 },
+    { "text": "FUTURE: will dance. PRESENT: dance(s). PAST: danced.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
+  ]
+}
