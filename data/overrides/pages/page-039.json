@@ -1,0 +1,22 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "What is this?", "x": 0.15, "y": 0.31, "w": 0.2, "h": 0.03 },
+    { "text": "This is a clock.", "x": 0.15, "y": 0.33, "w": 0.2, "h": 0.03 },
+    { "text": "What is the time?", "x": 0.15, "y": 0.36, "w": 0.25, "h": 0.03 },
+    { "text": "The time is one (1:00).", "x": 0.15, "y": 0.39, "w": 0.3, "h": 0.03 },
+    { "text": "One hand is at one.", "x": 0.15, "y": 0.41, "w": 0.3, "h": 0.03 },
+    { "text": "What is the time?", "x": 0.58, "y": 0.31, "w": 0.25, "h": 0.03 },
+    { "text": "The time is two (2:00).", "x": 0.58, "y": 0.34, "w": 0.3, "h": 0.03 },
+    { "text": "It was one (1:00).", "x": 0.58, "y": 0.36, "w": 0.3, "h": 0.03 },
+    { "text": "It will be three (3:00).", "x": 0.58, "y": 0.39, "w": 0.3, "h": 0.03 },
+    { "text": "What is the time?", "x": 0.15, "y": 0.74, "w": 0.25, "h": 0.03 },
+    { "text": "The time is four (4:00).", "x": 0.15, "y": 0.76, "w": 0.3, "h": 0.03 },
+    { "text": "It was three (3:00).", "x": 0.15, "y": 0.79, "w": 0.3, "h": 0.03 },
+    { "text": "It will be five (5:00).", "x": 0.15, "y": 0.81, "w": 0.3, "h": 0.03 },
+    { "text": "What is the time?", "x": 0.58, "y": 0.74, "w": 0.25, "h": 0.03 },
+    { "text": "Now the time is six (6:00).", "x": 0.58, "y": 0.76, "w": 0.35, "h": 0.05 },
+    { "text": "It was five (5:00).", "x": 0.58, "y": 0.81, "w": 0.3, "h": 0.03 },
+    { "text": "It will be seven (7:00).", "x": 0.58, "y": 0.84, "w": 0.35, "h": 0.03 }
+  ]
+}

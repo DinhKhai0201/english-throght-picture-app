@@ -1,0 +1,20 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "What is the time?", "x": 0.15, "y": 0.32, "w": 0.25, "h": 0.03 },
+    { "text": "Now the time is eight (8:00).", "x": 0.15, "y": 0.35, "w": 0.35, "h": 0.05 },
+    { "text": "It was seven (7:00).", "x": 0.15, "y": 0.4, "w": 0.3, "h": 0.03 },
+    { "text": "It will be nine (9:00).", "x": 0.15, "y": 0.42, "w": 0.3, "h": 0.03 },
+    { "text": "What is the time?", "x": 0.55, "y": 0.32, "w": 0.25, "h": 0.03 },
+    { "text": "Now the time is ten (10:00).", "x": 0.55, "y": 0.35, "w": 0.35, "h": 0.05 },
+    { "text": "It was nine (9:00).", "x": 0.55, "y": 0.4, "w": 0.3, "h": 0.03 },
+    { "text": "It will be eleven (11:00).", "x": 0.55, "y": 0.42, "w": 0.35, "h": 0.03 },
+    { "text": "What is the time?", "x": 0.15, "y": 0.72, "w": 0.25, "h": 0.03 },
+    { "text": "The time is twelve (12:00).", "x": 0.15, "y": 0.75, "w": 0.3, "h": 0.05 },
+    { "text": "It was eleven (11:00).", "x": 0.15, "y": 0.8, "w": 0.35, "h": 0.03 },
+    { "text": "It will be one (1:00).", "x": 0.15, "y": 0.82, "w": 0.3, "h": 0.03 },
+    { "text": "The two hands are at twelve now.", "x": 0.15, "y": 0.85, "w": 0.35, "h": 0.05 },
+    { "text": "These are the numbers from one to twelve.", "x": 0.53, "y": 0.68, "w": 0.4, "h": 0.05 },
+    { "text": "One, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve.", "x": 0.53, "y": 0.75, "w": 0.35, "h": 0.15 }
+  ]
+}

@@ -63,7 +63,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
           setVoiceUri(savedSettings.voiceUri);
         }
       }
-    } catch {}
+    } catch { }
 
     if (!queryPageNumber) {
       const savedPage = Number(window.localStorage.getItem(LAST_PAGE_KEY));
