@@ -123,7 +123,7 @@ button {
 }
 
 .page-section {
-  padding: 10px;
+  padding: 4px;
   border: 1px solid transparent;
   border-radius: 28px;
   background: rgba(255, 253, 247, 0.34);
@@ -135,27 +135,10 @@ button {
   background: rgba(255, 253, 247, 0.62);
 }
 
-.page-section-head {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  gap: 12px;
-  margin-bottom: 8px;
-}
-
-.page-section-head h2,
 .settings-head h2,
 .details h3 {
   margin: 0;
   font-size: 1rem;
-}
-
-.page-kicker {
-  margin: 0 0 6px;
-  color: var(--muted);
-  font-size: 0.85rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
 }
 
 .page-head-actions,
@@ -169,17 +152,15 @@ button {
 .page-stage {
   display: grid;
   place-items: center;
-  padding: 8px;
-  border: 1px solid var(--line);
+  padding: 4px;
+  border: 0;
   border-radius: 28px;
-  background:
-    linear-gradient(180deg, rgba(255,255,255,0.58), rgba(255,255,255,0.78)),
-    repeating-linear-gradient(-45deg, transparent, transparent 18px, rgba(32, 28, 23, 0.02) 18px, rgba(32, 28, 23, 0.02) 36px);
+  background: transparent;
 }
 
 .page-canvas {
   position: relative;
-  width: min(1080px, 100%);
+  width: 100%;
 }
 
 .page-image {
@@ -191,13 +172,31 @@ button {
 }
 
 .page-loading {
-  width: min(1080px, 100%);
+  width: 100%;
   min-height: 60vh;
   display: grid;
   place-items: center;
   border-radius: 18px;
   background: rgba(255, 255, 255, 0.72);
   color: var(--muted);
+}
+
+.page-play-button {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  z-index: 3;
+  width: 44px;
+  min-width: 44px;
+  height: 44px;
+  min-height: 44px;
+  padding: 0;
+  border-radius: 999px;
+  border: 1px solid var(--line-strong);
+  background: rgba(255, 253, 247, 0.92);
+  box-shadow: var(--shadow);
+  font-size: 1rem;
+  line-height: 1;
 }
 
 .region-layer {
@@ -377,7 +376,6 @@ button:disabled {
   }
 
   .topbar,
-  .page-section-head,
   .chunk-toolbar {
     align-items: flex-start;
     flex-direction: column;

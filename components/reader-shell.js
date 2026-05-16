@@ -457,24 +457,18 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
                 .filter(Boolean)
                 .join(" ")}
             >
-              <div className="page-section-head">
-                <div>
-                  <p className="page-kicker">Page {entry.page}</p>
-                  <h2>{page ? `${page.stats.wordCount} words, ${page.stats.regionCount} regions` : "Loading page..."}</h2>
-                </div>
-                <div className="page-head-actions">
-                  <button type="button" className="ghost-button" onClick={() => jumpToPage(entry.page)}>
-                    Focus Page
-                  </button>
-                  <button type="button" className="ghost-button" onClick={() => page && playPage(page)} disabled={!page}>
-                    Play Page
-                  </button>
-                </div>
-              </div>
-
               <div className="page-stage">
                 {page ? (
                   <div className="page-canvas">
+                    <button
+                      type="button"
+                      className="page-play-button"
+                      onClick={() => playPage(page)}
+                      aria-label={`Play page ${page.page}`}
+                      title={`Play page ${page.page}`}
+                    >
+                      ▶
+                    </button>
                     <img
                       src={page.imageApiPath || `/api/books/${encodeURIComponent(`page ${page.page}.png`)}`}
                       alt={`Page ${page.page}`}
