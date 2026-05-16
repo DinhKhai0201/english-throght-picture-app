@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "When drawing a circle, each part of the curve guides the next. You learn by doing. (Illustration: A hand drawing a curve).", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.22 },
+    { "text": "A good speaker designs their speech based on what they've said and how the audience reacts. They can change the design if needed.", "x": 0.1, "y": 0.32, "w": 0.85, "h": 0.18 },
+    { "text": "Everything we do starts with a purpose, though we aren't always fully aware of it at the time. Reflection often reveals deeper meaning later.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.25 },
+    { "text": "design: to plan what should be done and how. FUTURE: will design. PRESENT: design(s). PAST: designed.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
+  ]
+}

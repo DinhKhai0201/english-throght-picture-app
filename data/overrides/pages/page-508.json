@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Our ideas depend on each other, just like the parts of a bridge. (Illustration: A suspension bridge).", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.35 },
+    { "text": "This is true for language too: words only work because other words work with them.", "x": 0.1, "y": 0.42, "w": 0.85, "h": 0.12 },
+    { "text": "Every step involves muscles depending on other muscles, controlled by nerves, which in turn depend on healthy blood flow.", "x": 0.1, "y": 0.65, "w": 0.55, "h": 0.32 },
+    { "text": "(Illustration: Human body showing the coordination of the muscular and nervous systems during a walk).", "x": 0.68, "y": 0.55, "w": 0.25, "h": 0.42 }
+  ]
+}

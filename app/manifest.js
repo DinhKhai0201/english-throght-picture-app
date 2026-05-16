@@ -1,10 +1,13 @@
 export default function manifest() {
   return {
+    id: "/",
     name: "English Through Pictures",
     short_name: "ETP Reader",
     description: "Interactive English Through Pictures reader with tap-to-speak playback.",
-    start_url: "/?source=pwa",
+    start_url: "/",
+    scope: "/",
     display: "standalone",
+    display_override: ["standalone", "minimal-ui"],
     background_color: "#efe7d8",
     theme_color: "#fbf7ee",
     orientation: "portrait",

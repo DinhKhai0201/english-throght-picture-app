@@ -1,6 +1,8 @@
 import "./globals.css";
 import RegisterSw from "../components/register-sw";
 
+export const metadataBase = new URL("https://english-throgh-picture.vercel.app");
+
 export const metadata = {
   title: "English Through Pictures",
   description: "Interactive reader with OCR JSON and click-to-speak playback.",
@@ -19,7 +21,9 @@ export const metadata = {
     telephone: false,
   },
   icons: {
+    icon: "/icon",
     apple: "/apple-icon",
+    shortcut: "/icon",
   },
 };
 
