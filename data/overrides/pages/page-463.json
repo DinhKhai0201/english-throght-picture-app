@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Here is a right-angled triangle with sides of three and four units. How long is the longest side without measuring?", "x": 0.4, "y": 0.05, "w": 0.55, "h": 0.2 },
+    { "text": "Pythagoras (500 B.C.) proved that the square of the longest side equals the sum of the squares of the other two sides.", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.15 },
+    { "text": "Multiply the shorter sides by themselves, add them, and find the number that, when multiplied by itself, equals that sum.", "x": 0.1, "y": 0.48, "w": 0.85, "h": 0.15 },
+    { "text": "(Diagram: Showing how a trapezoid and a triangle can be subdivided into identical rectangles and smaller triangles to prove area equality).", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.25 }
+  ]
+}

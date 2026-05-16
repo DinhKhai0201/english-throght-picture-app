@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Geometry starts with ideas about lines and spaces. Here are two circles and two squares.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.05 },
+    { "text": "The circle on the left is inside a square. The square on the right is inside a circle. These are relations.", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.15 },
+    { "text": "Statements that tally with facts are true. If they don't, they are untrue. To say the right square is outside the circle is a false statement.", "x": 0.1, "y": 0.55, "w": 0.85, "h": 0.2 },
+    { "text": "fact: something that is true. untrue: not true, false.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.08 }
+  ]
+}

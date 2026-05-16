@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "They saw how to split fields in half horizontally or vertically before they knew formal geometry.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.25 },
+    { "text": "Can you see if these two fields have the same area? (Trapezoid and Triangle)", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.4 },
+    { "text": "Put in lines to prove if they are equal. rectangle: a shape with four straight sides and four right angles.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.12 }
+  ]
+}

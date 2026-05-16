@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "What is a circle? If you turn a straight line around one end like a watch hand, it covers a circle.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.25 },
+    { "text": "If you pull a line down a distance equal to its length, it makes a square. A square has equal sides and right angles.", "x": 0.1, "y": 0.35, "w": 0.55, "h": 0.2 },
+    { "text": "A shape with equal sides but no right angles is not a square. A shape with right angles but unequal sides is not a square.", "x": 0.1, "y": 0.6, "w": 0.55, "h": 0.2 },
+    { "text": "rest: the other parts. length: distance long.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.08 }
+  ]
+}

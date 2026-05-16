@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Fields were not always square. Men knew their land size by working it long before they could measure it.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.25 },
+    { "text": "They saw that fields of different shapes could be the same size. Later, they learned to calculate area by multiplying length by width.", "x": 0.1, "y": 0.42, "w": 0.55, "h": 0.4 },
+    { "text": "FUTURE: will plant. PRESENT: plant(s). PAST: planted.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "A windmill works similarly, using wind to turn sails. Without wind, the miller cannot turn the millstones to make flour.", "x": 0.1, "y": 0.05, "w": 0.5, "h": 0.3 },
+    { "text": "An old song tells of a lonely miller: 'I care for nobody, no not I, and nobody cares for me.'", "x": 0.1, "y": 0.42, "w": 0.85, "h": 0.15 },
+    { "text": "He meant he did not love or fear anyone, and had no hopes. (Illustration: A windmill with rotating sails).", "x": 0.1, "y": 0.6, "w": 0.85, "h": 0.15 },
+    { "text": "push: give a push. hope: desire for something. fear: opposite of hope. FUTURE: will push, hope, fear. PRESENT: push(es), hope(s), fear(s). PAST: pushed, hoped, feared.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.2 }
+  ]
+}

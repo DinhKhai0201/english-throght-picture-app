@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Machines are now our 'work horses.' They save our muscles, but we need a 'new design for living' to find our life's direction.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "Before wheels and chains, men carried water by hand. Using a cord and wheel was easier than pulling by hand.", "x": 0.1, "y": 0.25, "w": 0.55, "h": 0.15 },
+    { "text": "Steps in technology come slowly. A later step was using two buckets so the empty one helps the full one come up.", "x": 0.1, "y": 0.45, "w": 0.55, "h": 0.15 },
+    { "text": "often: time after time. design: a plan or 'blueprint' for a house or machine. (Illustrations show the evolution of water lifting).", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.15 }
+  ]
+}

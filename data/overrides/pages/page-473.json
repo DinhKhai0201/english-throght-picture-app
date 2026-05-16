@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "When it's too cold, the metal shrinks, moving the arm to turn on the heat. The thermostat's purpose is temperature control.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "(Diagram: Thermostat arm moving to activate a radiator which emits heat waves).", "x": 0.1, "y": 0.2, "w": 0.85, "h": 0.25 },
+    { "text": "In hot climates, we cool and dry indoor air. Ice chests use heat (electric or gas) to stay cold. Soon, solar heat may be used for cooling.", "x": 0.1, "y": 0.48, "w": 0.85, "h": 0.32 },
+    { "text": "FUTURE: will dry. PRESENT: dry(ies). PAST: dried.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
+  ]
+}

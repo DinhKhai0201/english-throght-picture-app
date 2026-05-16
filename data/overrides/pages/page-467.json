@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "In a story, Br’er Rabbit gets into a well-bucket and goes to the bottom. As he goes down, the empty bucket comes up.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.25 },
+    { "text": "Br’er Rabbit wonders how he will get back up. Then Br’er Fox comes along and asks what he is doing down there.", "x": 0.5, "y": 0.35, "w": 0.45, "h": 0.25 },
+    { "text": "Br'er: Brother. (Illustrations show Br'er Rabbit trapped in the well and Br'er Fox looking down).", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
+  ]
+}
