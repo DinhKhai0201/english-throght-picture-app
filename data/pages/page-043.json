@@ -2,179 +2,295 @@
   "page": 43,
   "image": "/books/page 43.png",
   "imageApiPath": "/api/books/page%2043.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 8,
-    "wordCount": 57,
+    "regionCount": 35,
+    "wordCount": 121,
     "imageWidth": 1171,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r7",
+        "r18",
+        "r19"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
         "r3",
-        "r4",
         "r5",
         "r6",
-        "r7",
-        "r8"
+        "r8",
+        "r17",
+        "r20",
+        "r21",
+        "r22",
+        "r23",
+        "r24"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r11",
+        "r13",
+        "r15",
+        "r25",
+        "r26",
+        "r27",
+        "r30"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r12",
+        "r14",
+        "r16",
+        "r28",
+        "r29",
+        "r31",
+        "r32",
+        "r33",
+        "r34",
+        "r35"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
-      "text": "They are going from the window.",
+      "text": "They are going from the",
       "x": 0.5602,
       "y": 0.0936,
       "w": 0.3783,
-      "h": 0.043,
+      "h": 0.0231,
       "words": [
         "They",
         "are",
         "going",
         "from",
-        "the",
-        "window."
-      ],
-      "conf": 96.2769,
-      "source": "psm-11"
+        "the"
+      ]
     },
     {
       "id": "r2",
-      "order": 1,
-      "text": "The girl and the boy will go from the window.",
+      "text": "The girl and the boy will",
       "x": 0.0974,
       "y": 0.114,
       "w": 0.3851,
-      "h": 0.0479,
+      "h": 0.0242,
       "words": [
         "The",
         "girl",
         "and",
         "the",
         "boy",
-        "will",
+        "will"
+      ]
+    },
+    {
+      "id": "r3",
+      "text": "window.",
+      "x": 0.5611,
+      "y": 0.1183,
+      "w": 0.1289,
+      "h": 0.0183,
+      "words": [
+        "window."
+      ]
+    },
+    {
+      "id": "r4",
+      "text": "go from the window.",
+      "x": 0.0999,
+      "y": 0.1393,
+      "w": 0.3202,
+      "h": 0.0226,
+      "words": [
         "go",
         "from",
         "the",
         "window."
-      ],
-      "conf": 96.458,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "They were at the window.",
+      "id": "r5",
+      "text": "They were at the",
       "x": 0.5594,
       "y": 0.1436,
       "w": 0.2622,
-      "h": 0.0436,
+      "h": 0.0231,
       "words": [
         "They",
         "were",
         "at",
-        "the",
-        "window."
-      ],
-      "conf": 96.5535,
-      "source": "psm-11"
+        "the"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "They went from the window.",
-      "x": 0.1341,
-      "y": 0.5159,
-      "w": 0.3006,
-      "h": 0.0451,
+      "id": "r6",
+      "text": "window.",
+      "x": 0.5594,
+      "y": 0.1689,
+      "w": 0.1289,
+      "h": 0.0183,
       "words": [
-        "They",
-        "went",
-        "from",
-        "the",
         "window."
-      ],
-      "conf": 96.6523,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "Now they are at the door together.",
-      "x": 0.5602,
+      "id": "r7",
+      "text": "ee",
+      "x": 0.4919,
+      "y": 0.49,
+      "w": 0.0342,
+      "h": 0.0043,
+      "words": [
+        "ee"
+      ]
+    },
+    {
+      "id": "r8",
+      "text": "Now they are at the",
+      "x": 0.5619,
       "y": 0.4997,
-      "w": 0.3125,
-      "h": 0.0485,
+      "w": 0.3108,
+      "h": 0.0242,
       "words": [
         "Now",
         "they",
         "are",
         "at",
-        "the",
-        "door",
-        "together."
-      ],
-      "conf": 96.5111,
-      "source": "psm-11"
+        "the"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "The boy is with the girl at the door.",
+      "id": "r9",
+      "text": "They went from the",
+      "x": 0.1341,
+      "y": 0.5159,
+      "w": 0.3006,
+      "h": 0.0242,
+      "words": [
+        "They",
+        "went",
+        "from",
+        "the"
+      ]
+    },
+    {
+      "id": "r10",
+      "text": "door together.",
+      "x": 0.5602,
+      "y": 0.5256,
+      "w": 0.2229,
+      "h": 0.0226,
+      "words": [
+        "door",
+        "together."
+      ]
+    },
+    {
+      "id": "r11",
+      "text": "window.",
+      "x": 0.1341,
+      "y": 0.5422,
+      "w": 0.1298,
+      "h": 0.0188,
+      "words": [
+        "window."
+      ]
+    },
+    {
+      "id": "r12",
+      "text": "The boy is with the girl",
       "x": 0.5594,
       "y": 0.5508,
       "w": 0.3535,
-      "h": 0.0447,
+      "h": 0.0247,
       "words": [
         "The",
         "boy",
         "is",
         "with",
         "the",
-        "girl",
-        "at",
-        "the",
-        "door."
-      ],
-      "conf": 96.8691,
-      "source": "psm-11"
+        "girl"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "She went with him and he went with her.",
+      "id": "r13",
+      "text": "She went with him and",
       "x": 0.1315,
       "y": 0.5718,
       "w": 0.3527,
-      "h": 0.0441,
+      "h": 0.0194,
       "words": [
         "She",
         "went",
         "with",
         "him",
-        "and",
+        "and"
+      ]
+    },
+    {
+      "id": "r14",
+      "text": "at the door.",
+      "x": 0.5602,
+      "y": 0.5767,
+      "w": 0.1793,
+      "h": 0.0188,
+      "words": [
+        "at",
+        "the",
+        "door."
+      ]
+    },
+    {
+      "id": "r15",
+      "text": "he went with her.",
+      "x": 0.1324,
+      "y": 0.5971,
+      "w": 0.2673,
+      "h": 0.0188,
+      "words": [
         "he",
         "went",
         "with",
         "her."
-      ],
-      "conf": 96.3696,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r16",
       "text": "She is at the door again.",
       "x": 0.5585,
       "y": 0.6009,
@@ -187,9 +303,260 @@
         "the",
         "door",
         "again."
-      ],
-      "conf": 96.8576,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "id": "r17",
+      "text": "They are going from the",
+      "x": 0.5602,
+      "y": 0.0936,
+      "w": 0.3783,
+      "h": 0.0231,
+      "words": [
+        "They",
+        "are",
+        "going",
+        "from",
+        "the"
+      ]
+    },
+    {
+      "id": "r18",
+      "text": "The girl and the boy will window.",
+      "x": 0.0974,
+      "y": 0.114,
+      "w": 0.5927,
+      "h": 0.0242,
+      "words": [
+        "The",
+        "girl",
+        "and",
+        "the",
+        "boy",
+        "will",
+        "window."
+      ]
+    },
+    {
+      "id": "r19",
+      "text": "go from the window. | They were at the",
+      "x": 0.0999,
+      "y": 0.1393,
+      "w": 0.7216,
+      "h": 0.0274,
+      "words": [
+        "go",
+        "from",
+        "the",
+        "window.",
+        "|",
+        "They",
+        "were",
+        "at",
+        "the"
+      ]
+    },
+    {
+      "id": "r20",
+      "text": "| window.",
+      "x": 0.5192,
+      "y": 0.1678,
+      "w": 0.1691,
+      "h": 0.0226,
+      "words": [
+        "|",
+        "window."
+      ]
+    },
+    {
+      "id": "r21",
+      "text": "-",
+      "x": 0.7763,
+      "y": 0.3287,
+      "w": 0.012,
+      "h": 0.0043,
+      "words": [
+        "-"
+      ]
+    },
+    {
+      "id": "r22",
+      "text": "’",
+      "x": 0.5175,
+      "y": 0.3545,
+      "w": 0.0043,
+      "h": 0.0097,
+      "words": [
+        "’"
+      ]
+    },
+    {
+      "id": "r23",
+      "text": "—",
+      "x": 0.8514,
+      "y": 0.4099,
+      "w": 0.0871,
+      "h": 0.021,
+      "words": [
+        "—"
+      ]
+    },
+    {
+      "id": "r24",
+      "text": "i}",
+      "x": 0.5167,
+      "y": 0.4718,
+      "w": 0.0034,
+      "h": 0.0086,
+      "words": [
+        "i}"
+      ]
+    },
+    {
+      "id": "r25",
+      "text": "window. 1 The boy is with the girl",
+      "x": 0.1289,
+      "y": 0.5422,
+      "w": 0.7839,
+      "h": 0.0334,
+      "words": [
+        "window.",
+        "1",
+        "The",
+        "boy",
+        "is",
+        "with",
+        "the",
+        "girl"
+      ]
+    },
+    {
+      "id": "r26",
+      "text": "She went with him and ' at the door.",
+      "x": 0.1315,
+      "y": 0.5718,
+      "w": 0.608,
+      "h": 0.0312,
+      "words": [
+        "She",
+        "went",
+        "with",
+        "him",
+        "and",
+        "'",
+        "at",
+        "the",
+        "door."
+      ]
+    },
+    {
+      "id": "r27",
+      "text": "he went with her. She is at the door again.",
+      "x": 0.1324,
+      "y": 0.5971,
+      "w": 0.8044,
+      "h": 0.0285,
+      "words": [
+        "he",
+        "went",
+        "with",
+        "her.",
+        "She",
+        "is",
+        "at",
+        "the",
+        "door",
+        "again."
+      ]
+    },
+    {
+      "id": "r28",
+      "text": "t",
+      "x": 0.5184,
+      "y": 0.6654,
+      "w": 0.0051,
+      "h": 0.0091,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r29",
+      "text": "|",
+      "x": 0.5201,
+      "y": 0.7961,
+      "w": 0.0034,
+      "h": 0.0097,
+      "words": [
+        "|"
+      ]
+    },
+    {
+      "id": "r30",
+      "text": "oN",
+      "x": 0.1631,
+      "y": 0.8101,
+      "w": 0.0666,
+      "h": 0.0221,
+      "words": [
+        "oN"
+      ]
+    },
+    {
+      "id": "r31",
+      "text": "1",
+      "x": 0.5192,
+      "y": 0.8397,
+      "w": 0.0043,
+      "h": 0.0097,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r32",
+      "text": "' jo",
+      "x": 0.5201,
+      "y": 0.8553,
+      "w": 0.1853,
+      "h": 0.0108,
+      "words": [
+        "'",
+        "jo"
+      ]
+    },
+    {
+      "id": "r33",
+      "text": "i]",
+      "x": 0.5201,
+      "y": 0.8843,
+      "w": 0.0051,
+      "h": 0.0091,
+      "words": [
+        "i]"
+      ]
+    },
+    {
+      "id": "r34",
+      "text": "t",
+      "x": 0.5192,
+      "y": 0.8983,
+      "w": 0.0068,
+      "h": 0.0102,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r35",
+      "text": "39",
+      "x": 0.9155,
+      "y": 0.9268,
+      "w": 0.0265,
+      "h": 0.0129,
+      "words": [
+        "39"
+      ]
     }
   ]
 }

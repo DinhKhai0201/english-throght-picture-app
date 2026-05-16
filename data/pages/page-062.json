@@ -2,39 +2,98 @@
   "page": 62,
   "image": "/books/page 62.png",
   "imageApiPath": "/api/books/page%2062.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 54,
+    "regionCount": 40,
+    "wordCount": 126,
     "imageWidth": 1267,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
         "r2",
         "r3",
         "r4",
-        "r5",
         "r6",
-        "r7",
         "r8",
         "r9",
-        "r10"
+        "r10",
+        "r15",
+        "r16",
+        "r17",
+        "r18",
+        "r19",
+        "r20",
+        "r22"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r7",
+        "r21",
+        "r23",
+        "r24",
+        "r25",
+        "r26",
+        "r27",
+        "r28",
+        "r29"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r12",
+        "r13",
+        "r31",
+        "r32",
+        "r40"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r11",
+        "r14",
+        "r30",
+        "r33",
+        "r34",
+        "r35",
+        "r36",
+        "r37",
+        "r38",
+        "r39"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
       "text": "Who is this?",
       "x": 0.1657,
       "y": 0.085,
@@ -44,13 +103,10 @@
         "Who",
         "is",
         "this?"
-      ],
-      "conf": 94.8101,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r2",
-      "order": 1,
       "text": "He is John Smith.",
       "x": 0.1657,
       "y": 0.1097,
@@ -61,13 +117,10 @@
         "is",
         "John",
         "Smith."
-      ],
-      "conf": 96.472,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r3",
-      "order": 2,
       "text": "His name is John Smith.",
       "x": 0.1657,
       "y": 0.135,
@@ -79,13 +132,10 @@
         "is",
         "John",
         "Smith."
-      ],
-      "conf": 95.8988,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r4",
-      "order": 3,
       "text": "Where is John Smith?",
       "x": 0.165,
       "y": 0.1603,
@@ -96,54 +146,76 @@
         "is",
         "John",
         "Smith?"
-      ],
-      "conf": 95.8888,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r5",
-      "order": 4,
-      "text": "He has his hand in his pocket.",
+      "text": "He has his hand in",
       "x": 0.6054,
       "y": 0.1549,
       "w": 0.2612,
-      "h": 0.0489,
+      "h": 0.0188,
       "words": [
         "He",
         "has",
         "his",
         "hand",
-        "in",
-        "his",
-        "pocket."
-      ],
-      "conf": 95.5858,
-      "source": "psm-11"
+        "in"
+      ]
     },
     {
       "id": "r6",
-      "order": 5,
-      "text": "He is at the door of his house.",
-      "x": 0.1657,
+      "text": "He is at the door of",
+      "x": 0.1665,
       "y": 0.1861,
-      "w": 0.2794,
-      "h": 0.0436,
+      "w": 0.2786,
+      "h": 0.0188,
       "words": [
         "He",
         "is",
         "at",
         "the",
         "door",
-        "of",
-        "his",
-        "house."
-      ],
-      "conf": 96.4946,
-      "source": "psm-11"
+        "of"
+      ]
     },
     {
       "id": "r7",
-      "order": 6,
+      "text": "his pocket.",
+      "x": 0.6062,
+      "y": 0.1807,
+      "w": 0.1476,
+      "h": 0.0231,
+      "words": [
+        "his",
+        "pocket."
+      ]
+    },
+    {
+      "id": "r8",
+      "text": "his house.",
+      "x": 0.1657,
+      "y": 0.2109,
+      "w": 0.1381,
+      "h": 0.0188,
+      "words": [
+        "his",
+        "house."
+      ]
+    },
+    {
+      "id": "r9",
+      "text": "ee",
+      "x": 0.1705,
+      "y": 0.2695,
+      "w": 0.0434,
+      "h": 0.0086,
+      "words": [
+        "ee"
+      ]
+    },
+    {
+      "id": "r10",
       "text": "eww eee ee Zee e wee eww",
       "x": 0.2407,
       "y": 0.4804,
@@ -157,34 +229,10 @@
         "e",
         "wee",
         "eww"
-      ],
-      "conf": 52.5873,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "He is taking a key from his pocket.",
-      "x": 0.1594,
-      "y": 0.5541,
-      "w": 0.3268,
-      "h": 0.0484,
-      "words": [
-        "He",
-        "is",
-        "taking",
-        "a",
-        "key",
-        "from",
-        "his",
-        "pocket."
-      ],
-      "conf": 95.4918,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
+      "id": "r11",
       "text": "This is a key.",
       "x": 0.6425,
       "y": 0.5342,
@@ -195,13 +243,38 @@
         "is",
         "a",
         "key."
-      ],
-      "conf": 96.0749,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r12",
+      "text": "He is taking a key from",
+      "x": 0.1594,
+      "y": 0.5541,
+      "w": 0.3268,
+      "h": 0.0247,
+      "words": [
+        "He",
+        "is",
+        "taking",
+        "a",
+        "key",
+        "from"
+      ]
+    },
+    {
+      "id": "r13",
+      "text": "his pocket.",
+      "x": 0.1594,
+      "y": 0.5783,
+      "w": 0.1515,
+      "h": 0.0242,
+      "words": [
+        "his",
+        "pocket."
+      ]
+    },
+    {
+      "id": "r14",
       "text": "These are other keys.",
       "x": 0.5841,
       "y": 0.6541,
@@ -212,9 +285,338 @@
         "are",
         "other",
         "keys."
-      ],
-      "conf": 96.8736,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "id": "r15",
+      "text": "Who is this? i",
+      "x": 0.1657,
+      "y": 0.0818,
+      "w": 0.3607,
+      "h": 0.0231,
+      "words": [
+        "Who",
+        "is",
+        "this?",
+        "i"
+      ]
+    },
+    {
+      "id": "r16",
+      "text": "He is John Smith. |",
+      "x": 0.1657,
+      "y": 0.1092,
+      "w": 0.3599,
+      "h": 0.0242,
+      "words": [
+        "He",
+        "is",
+        "John",
+        "Smith.",
+        "|"
+      ]
+    },
+    {
+      "id": "r17",
+      "text": "His name is John Smith. ! .",
+      "x": 0.1657,
+      "y": 0.135,
+      "w": 0.5699,
+      "h": 0.0264,
+      "words": [
+        "His",
+        "name",
+        "is",
+        "John",
+        "Smith.",
+        "!",
+        "."
+      ]
+    },
+    {
+      "id": "r18",
+      "text": "Where is John Smith? 1 He has his hand in",
+      "x": 0.165,
+      "y": 0.1549,
+      "w": 0.7017,
+      "h": 0.0312,
+      "words": [
+        "Where",
+        "is",
+        "John",
+        "Smith?",
+        "1",
+        "He",
+        "has",
+        "his",
+        "hand",
+        "in"
+      ]
+    },
+    {
+      "id": "r19",
+      "text": "He is at the door of his pocket.",
+      "x": 0.1665,
+      "y": 0.1807,
+      "w": 0.5872,
+      "h": 0.0242,
+      "words": [
+        "He",
+        "is",
+        "at",
+        "the",
+        "door",
+        "of",
+        "his",
+        "pocket."
+      ]
+    },
+    {
+      "id": "r20",
+      "text": "his house.",
+      "x": 0.1657,
+      "y": 0.2109,
+      "w": 0.1381,
+      "h": 0.0188,
+      "words": [
+        "his",
+        "house."
+      ]
+    },
+    {
+      "id": "r21",
+      "text": "3 i",
+      "x": 0.5209,
+      "y": 0.2265,
+      "w": 0.3504,
+      "h": 0.1011,
+      "words": [
+        "3",
+        "i"
+      ]
+    },
+    {
+      "id": "r22",
+      "text": "/",
+      "x": 0.1784,
+      "y": 0.3034,
+      "w": 0.0292,
+      "h": 0.0441,
+      "words": [
+        "/"
+      ]
+    },
+    {
+      "id": "r23",
+      "text": "i]",
+      "x": 0.5209,
+      "y": 0.3233,
+      "w": 0.0039,
+      "h": 0.0091,
+      "words": [
+        "i]"
+      ]
+    },
+    {
+      "id": "r24",
+      "text": "i",
+      "x": 0.5209,
+      "y": 0.3378,
+      "w": 0.0039,
+      "h": 0.0091,
+      "words": [
+        "i"
+      ]
+    },
+    {
+      "id": "r25",
+      "text": "t",
+      "x": 0.5201,
+      "y": 0.3808,
+      "w": 0.0055,
+      "h": 0.0091,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r26",
+      "text": "’",
+      "x": 0.5201,
+      "y": 0.4088,
+      "w": 0.0047,
+      "h": 0.0102,
+      "words": [
+        "’"
+      ]
+    },
+    {
+      "id": "r27",
+      "text": "i]",
+      "x": 0.5201,
+      "y": 0.4389,
+      "w": 0.0047,
+      "h": 0.0091,
+      "words": [
+        "i]"
+      ]
+    },
+    {
+      "id": "r28",
+      "text": "i]",
+      "x": 0.5201,
+      "y": 0.4524,
+      "w": 0.0047,
+      "h": 0.0097,
+      "words": [
+        "i]"
+      ]
+    },
+    {
+      "id": "r29",
+      "text": "1",
+      "x": 0.5209,
+      "y": 0.468,
+      "w": 0.0039,
+      "h": 0.0086,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r30",
+      "text": "This is a key.",
+      "x": 0.6425,
+      "y": 0.5342,
+      "w": 0.1831,
+      "h": 0.0237,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "key."
+      ]
+    },
+    {
+      "id": "r31",
+      "text": "He is taking akey from |",
+      "x": 0.1594,
+      "y": 0.5541,
+      "w": 0.3662,
+      "h": 0.028,
+      "words": [
+        "He",
+        "is",
+        "taking",
+        "akey",
+        "from",
+        "|"
+      ]
+    },
+    {
+      "id": "r32",
+      "text": "his pocket |",
+      "x": 0.1594,
+      "y": 0.5783,
+      "w": 0.3662,
+      "h": 0.0323,
+      "words": [
+        "his",
+        "pocket",
+        "|"
+      ]
+    },
+    {
+      "id": "r33",
+      "text": "1 These are other keys.",
+      "x": 0.5209,
+      "y": 0.6541,
+      "w": 0.3686,
+      "h": 0.0296,
+      "words": [
+        "1",
+        "These",
+        "are",
+        "other",
+        "keys."
+      ]
+    },
+    {
+      "id": "r34",
+      "text": "’",
+      "x": 0.5201,
+      "y": 0.7316,
+      "w": 0.0047,
+      "h": 0.0097,
+      "words": [
+        "’"
+      ]
+    },
+    {
+      "id": "r35",
+      "text": "1}",
+      "x": 0.5201,
+      "y": 0.7606,
+      "w": 0.0055,
+      "h": 0.0097,
+      "words": [
+        "1}"
+      ]
+    },
+    {
+      "id": "r36",
+      "text": "i",
+      "x": 0.5201,
+      "y": 0.8306,
+      "w": 0.0039,
+      "h": 0.0091,
+      "words": [
+        "i"
+      ]
+    },
+    {
+      "id": "r37",
+      "text": "'",
+      "x": 0.5193,
+      "y": 0.8591,
+      "w": 0.0055,
+      "h": 0.0097,
+      "words": [
+        "'"
+      ]
+    },
+    {
+      "id": "r38",
+      "text": "'",
+      "x": 0.5193,
+      "y": 0.8731,
+      "w": 0.0047,
+      "h": 0.0091,
+      "words": [
+        "'"
+      ]
+    },
+    {
+      "id": "r39",
+      "text": "!",
+      "x": 0.5185,
+      "y": 0.8876,
+      "w": 0.0047,
+      "h": 0.0091,
+      "words": [
+        "!"
+      ]
+    },
+    {
+      "id": "r40",
+      "text": "58",
+      "x": 0.1302,
+      "y": 0.9263,
+      "w": 0.026,
+      "h": 0.0134,
+      "words": [
+        "58"
+      ]
     }
   ]
 }

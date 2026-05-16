@@ -2,42 +2,105 @@
   "page": 31,
   "image": "/books/page 31.png",
   "imageApiPath": "/api/books/page%2031.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 62,
+    "regionCount": 47,
+    "wordCount": 149,
     "imageWidth": 1188,
     "imageHeight": 1846
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
         "r3",
         "r4",
         "r5",
+        "r24",
+        "r26",
+        "r31",
+        "r33"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
         "r6",
+        "r22",
+        "r23",
+        "r25",
+        "r27",
+        "r28",
+        "r29",
+        "r30",
+        "r32"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r7",
+        "r11",
+        "r13",
+        "r14",
+        "r15",
+        "r17",
+        "r18",
+        "r34",
+        "r37",
+        "r38",
+        "r39",
+        "r40",
+        "r44",
+        "r45"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r8",
         "r9",
         "r10",
-        "r11",
         "r12",
-        "r13"
+        "r16",
+        "r19",
+        "r20",
+        "r21",
+        "r35",
+        "r36",
+        "r41",
+        "r42",
+        "r43",
+        "r46",
+        "r47"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
       "text": "This door is open.",
       "x": 0.17,
       "y": 0.169,
@@ -48,13 +111,10 @@
         "door",
         "is",
         "open."
-      ],
-      "conf": 96.4901,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r2",
-      "order": 1,
       "text": "This door is shut.",
       "x": 0.6195,
       "y": 0.1674,
@@ -65,91 +125,118 @@
         "door",
         "is",
         "shut."
-      ],
-      "conf": 94.6645,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r3",
-      "order": 2,
-      "text": "ww we ewe",
+      "text": "AS",
+      "x": 0.112,
+      "y": 0.2351,
+      "w": 0.33,
+      "h": 0.1939,
+      "words": [
+        "AS"
+      ]
+    },
+    {
+      "id": "r4",
+      "text": "ww we ewe =",
       "x": 0.4697,
       "y": 0.4664,
-      "w": 0.4209,
+      "w": 0.4697,
       "h": 0.0152,
       "words": [
         "ww",
         "we",
-        "ewe"
-      ],
-      "conf": 38.977,
-      "source": "psm-11"
+        "ewe",
+        "="
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "This is a wall of the room.",
+      "id": "r5",
+      "text": "This is a wall of the",
       "x": 0.1582,
       "y": 0.4946,
       "w": 0.2955,
-      "h": 0.0439,
+      "h": 0.019,
       "words": [
         "This",
         "is",
         "a",
         "wall",
         "of",
-        "the",
-        "room."
-      ],
-      "conf": 95.7382,
-      "source": "psm-11"
+        "the"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "This is a picture of aman and a woman.",
-      "x": 0.5833,
+      "id": "r6",
+      "text": "This is a picture of",
+      "x": 0.6086,
       "y": 0.4957,
-      "w": 0.3249,
-      "h": 0.0444,
+      "w": 0.2769,
+      "h": 0.0244,
       "words": [
         "This",
         "is",
         "a",
         "picture",
-        "of",
+        "of"
+      ]
+    },
+    {
+      "id": "r7",
+      "text": "room.",
+      "x": 0.1582,
+      "y": 0.5271,
+      "w": 0.0867,
+      "h": 0.0114,
+      "words": [
+        "room."
+      ]
+    },
+    {
+      "id": "r8",
+      "text": "aman and a woman.",
+      "x": 0.5833,
+      "y": 0.5222,
+      "w": 0.3249,
+      "h": 0.0179,
+      "words": [
         "aman",
         "and",
         "a",
         "woman."
-      ],
-      "conf": 94.341,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "This is the cord of the picture.",
+      "id": "r9",
+      "text": "This is the cord",
       "x": 0.7121,
       "y": 0.5883,
       "w": 0.2247,
-      "h": 0.0498,
+      "h": 0.0195,
       "words": [
         "This",
         "is",
         "the",
-        "cord",
+        "cord"
+      ]
+    },
+    {
+      "id": "r10",
+      "text": "of the picture.",
+      "x": 0.7189,
+      "y": 0.6148,
+      "w": 0.2113,
+      "h": 0.0233,
+      "words": [
         "of",
         "the",
         "picture."
-      ],
-      "conf": 96.8876,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r11",
       "text": "This is!",
       "x": 0.4242,
       "y": 0.6593,
@@ -158,13 +245,10 @@
       "words": [
         "This",
         "is!"
-      ],
-      "conf": 89.3731,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r12",
       "text": "This is a hook,",
       "x": 0.5404,
       "y": 0.649,
@@ -175,13 +259,22 @@
         "is",
         "a",
         "hook,"
-      ],
-      "conf": 89.08,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r13",
+      "text": "a wall.",
+      "x": 0.4175,
+      "y": 0.6847,
+      "w": 0.1094,
+      "h": 0.0184,
+      "words": [
+        "a",
+        "wall."
+      ]
+    },
+    {
+      "id": "r14",
       "text": "A picture is",
       "x": 0.1456,
       "y": 0.6983,
@@ -191,28 +284,10 @@
         "A",
         "picture",
         "is"
-      ],
-      "conf": 96.7331,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "a wall.",
-      "x": 0.4175,
-      "y": 0.6847,
-      "w": 0.1094,
-      "h": 0.0184,
-      "words": [
-        "a",
-        "wall."
-      ],
-      "conf": 77.2415,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
+      "id": "r15",
       "text": "on this wall.",
       "x": 0.1456,
       "y": 0.7232,
@@ -222,18 +297,375 @@
         "on",
         "this",
         "wall."
-      ],
-      "conf": 93.0084,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "This is the floor of the room.",
+      "id": "r16",
+      "text": "-_",
+      "x": 0.6886,
+      "y": 0.7324,
+      "w": 0.0194,
+      "h": 0.0043,
+      "words": [
+        "-_"
+      ]
+    },
+    {
+      "id": "r17",
+      "text": "This is the floor of the",
       "x": 0.1599,
       "y": 0.8169,
       "w": 0.33,
-      "h": 0.0445,
+      "h": 0.0195,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "floor",
+        "of",
+        "the"
+      ]
+    },
+    {
+      "id": "r18",
+      "text": "room.",
+      "x": 0.1599,
+      "y": 0.8489,
+      "w": 0.0867,
+      "h": 0.0125,
+      "words": [
+        "room."
+      ]
+    },
+    {
+      "id": "r19",
+      "text": "This is the frame of the",
+      "x": 0.5673,
+      "y": 0.8548,
+      "w": 0.346,
+      "h": 0.026,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "frame",
+        "of",
+        "the"
+      ]
+    },
+    {
+      "id": "r20",
+      "text": "picture.",
+      "x": 0.5665,
+      "y": 0.8841,
+      "w": 0.1145,
+      "h": 0.0228,
+      "words": [
+        "picture."
+      ]
+    },
+    {
+      "id": "r21",
+      "text": "27",
+      "x": 0.9082,
+      "y": 0.928,
+      "w": 0.0261,
+      "h": 0.013,
+      "words": [
+        "27"
+      ]
+    },
+    {
+      "id": "r22",
+      "text": "1",
+      "x": 0.5219,
+      "y": 0.1116,
+      "w": 0.0059,
+      "h": 0.0092,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r23",
+      "text": "‘",
+      "x": 0.521,
+      "y": 0.1251,
+      "w": 0.0076,
+      "h": 0.0233,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r24",
+      "text": "This door is open. ' This door is shut.",
+      "x": 0.17,
+      "y": 0.1674,
+      "w": 0.7012,
+      "h": 0.0249,
+      "words": [
+        "This",
+        "door",
+        "is",
+        "open.",
+        "'",
+        "This",
+        "door",
+        "is",
+        "shut."
+      ]
+    },
+    {
+      "id": "r25",
+      "text": "t",
+      "x": 0.521,
+      "y": 0.2389,
+      "w": 0.0067,
+      "h": 0.0098,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r26",
+      "text": "g",
+      "x": 0.3485,
+      "y": 0.2351,
+      "w": 0.0749,
+      "h": 0.1528,
+      "words": [
+        "g"
+      ]
+    },
+    {
+      "id": "r27",
+      "text": "t",
+      "x": 0.521,
+      "y": 0.3099,
+      "w": 0.0059,
+      "h": 0.0092,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r28",
+      "text": "5",
+      "x": 0.521,
+      "y": 0.325,
+      "w": 0.0059,
+      "h": 0.0087,
+      "words": [
+        "5"
+      ]
+    },
+    {
+      "id": "r29",
+      "text": "t",
+      "x": 0.521,
+      "y": 0.3386,
+      "w": 0.0059,
+      "h": 0.0092,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r30",
+      "text": "t",
+      "x": 0.521,
+      "y": 0.3527,
+      "w": 0.0059,
+      "h": 0.0092,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r31",
+      "text": "“",
+      "x": 0.112,
+      "y": 0.4166,
+      "w": 0.0311,
+      "h": 0.0125,
+      "words": [
+        "“"
+      ]
+    },
+    {
+      "id": "r32",
+      "text": "i",
+      "x": 0.5219,
+      "y": 0.4393,
+      "w": 0.0042,
+      "h": 0.0087,
+      "words": [
+        "i"
+      ]
+    },
+    {
+      "id": "r33",
+      "text": "This is a wall of the This is a picture of",
+      "x": 0.1582,
+      "y": 0.4946,
+      "w": 0.7273,
+      "h": 0.0255,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "wall",
+        "of",
+        "the",
+        "This",
+        "is",
+        "a",
+        "picture",
+        "of"
+      ]
+    },
+    {
+      "id": "r34",
+      "text": "room. 1 aman and a woman.",
+      "x": 0.1582,
+      "y": 0.5195,
+      "w": 0.75,
+      "h": 0.0358,
+      "words": [
+        "room.",
+        "1",
+        "aman",
+        "and",
+        "a",
+        "woman."
+      ]
+    },
+    {
+      "id": "r35",
+      "text": "t",
+      "x": 0.5227,
+      "y": 0.5601,
+      "w": 0.0051,
+      "h": 0.0087,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r36",
+      "text": "This is the cord",
+      "x": 0.7121,
+      "y": 0.5883,
+      "w": 0.2247,
+      "h": 0.0195,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "cord"
+      ]
+    },
+    {
+      "id": "r37",
+      "text": "A ' of the picture.",
+      "x": 0.2702,
+      "y": 0.6148,
+      "w": 0.6599,
+      "h": 0.0293,
+      "words": [
+        "A",
+        "'",
+        "of",
+        "the",
+        "picture."
+      ]
+    },
+    {
+      "id": "r38",
+      "text": "This is! This is a hook,",
+      "x": 0.4242,
+      "y": 0.6463,
+      "w": 0.3291,
+      "h": 0.0379,
+      "words": [
+        "This",
+        "is!",
+        "This",
+        "is",
+        "a",
+        "hook,"
+      ]
+    },
+    {
+      "id": "r39",
+      "text": "A picture is 9 wall.",
+      "x": 0.1456,
+      "y": 0.6826,
+      "w": 0.3813,
+      "h": 0.046,
+      "words": [
+        "A",
+        "picture",
+        "is",
+        "9",
+        "wall."
+      ]
+    },
+    {
+      "id": "r40",
+      "text": "on this wall.",
+      "x": 0.1456,
+      "y": 0.7232,
+      "w": 0.1818,
+      "h": 0.0195,
+      "words": [
+        "on",
+        "this",
+        "wall."
+      ]
+    },
+    {
+      "id": "r41",
+      "text": "| yy",
+      "x": 0.5219,
+      "y": 0.7459,
+      "w": 0.2988,
+      "h": 0.0233,
+      "words": [
+        "|",
+        "yy"
+      ]
+    },
+    {
+      "id": "r42",
+      "text": "t",
+      "x": 0.5219,
+      "y": 0.7887,
+      "w": 0.0042,
+      "h": 0.0087,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r43",
+      "text": "ALAAN",
+      "x": 0.6776,
+      "y": 0.7741,
+      "w": 0.1507,
+      "h": 0.0509,
+      "words": [
+        "ALAAN"
+      ]
+    },
+    {
+      "id": "r44",
+      "text": "This is the floor of the | \\ A",
+      "x": 0.1599,
+      "y": 0.7866,
+      "w": 0.6801,
+      "h": 0.0574,
       "words": [
         "This",
         "is",
@@ -241,30 +673,50 @@
         "floor",
         "of",
         "the",
-        "room."
-      ],
-      "conf": 96.6371,
-      "source": "psm-11"
+        "|",
+        "\\",
+        "A"
+      ]
     },
     {
-      "id": "r13",
-      "order": 12,
-      "text": "This is the frame of the picture.",
-      "x": 0.5665,
-      "y": 0.8548,
-      "w": 0.3468,
-      "h": 0.0521,
+      "id": "r45",
+      "text": "room. This is the frame of the",
+      "x": 0.1599,
+      "y": 0.8467,
+      "w": 0.7534,
+      "h": 0.0368,
       "words": [
+        "room.",
         "This",
         "is",
         "the",
         "frame",
         "of",
-        "the",
+        "the"
+      ]
+    },
+    {
+      "id": "r46",
+      "text": "' picture.",
+      "x": 0.5202,
+      "y": 0.8841,
+      "w": 0.1608,
+      "h": 0.0228,
+      "words": [
+        "'",
         "picture."
-      ],
-      "conf": 95.7663,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "id": "r47",
+      "text": "27",
+      "x": 0.9082,
+      "y": 0.928,
+      "w": 0.0261,
+      "h": 0.013,
+      "words": [
+        "27"
+      ]
     }
   ]
 }

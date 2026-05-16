@@ -2,96 +2,196 @@
   "page": 89,
   "image": "/books/page 89.png",
   "imageApiPath": "/api/books/page%2089.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 6,
-    "wordCount": 36,
+    "regionCount": 22,
+    "wordCount": 83,
     "imageWidth": 1150,
     "imageHeight": 1838
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
         "r2",
         "r3",
         "r4",
         "r5",
-        "r6"
+        "r14",
+        "r15",
+        "r16",
+        "r17",
+        "r18",
+        "r19"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r7",
+        "r8",
+        "r9"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r11",
+        "r20",
+        "r21"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r12",
+        "r13",
+        "r22"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
-      "text": "These are the arms of the coat.",
+      "text": "These are the arms of",
       "x": 0.1217,
       "y": 0.1355,
       "w": 0.347,
-      "h": 0.0451,
+      "h": 0.0196,
       "words": [
         "These",
         "are",
         "the",
         "arms",
-        "of",
-        "the",
-        "coat."
-      ],
-      "conf": 96.4254,
-      "source": "psm-11"
+        "of"
+      ]
     },
     {
       "id": "r2",
-      "order": 1,
-      "text": "These are the sides ot the coat.",
-      "x": 0.1209,
+      "text": "the coat.",
+      "x": 0.1226,
+      "y": 0.161,
+      "w": 0.1391,
+      "h": 0.0196,
+      "words": [
+        "the",
+        "coat."
+      ]
+    },
+    {
+      "id": "r3",
+      "text": "gt",
+      "x": 0.0878,
+      "y": 0.2274,
+      "w": 0.1139,
+      "h": 0.0598,
+      "words": [
+        "gt"
+      ]
+    },
+    {
+      "id": "r4",
+      "text": "These are the sides ot",
+      "x": 0.1217,
       "y": 0.3912,
-      "w": 0.3443,
-      "h": 0.0451,
+      "w": 0.3435,
+      "h": 0.0196,
       "words": [
         "These",
         "are",
         "the",
         "sides",
-        "ot",
-        "the",
-        "coat."
-      ],
-      "conf": 96.5567,
-      "source": "psm-11"
+        "ot"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "And this is the back of the coat.",
+      "id": "r5",
+      "text": "the coat.",
+      "x": 0.1209,
+      "y": 0.4162,
+      "w": 0.1383,
+      "h": 0.0201,
+      "words": [
+        "the",
+        "coat."
+      ]
+    },
+    {
+      "id": "r6",
+      "text": "And this is the back of",
       "x": 0.5696,
       "y": 0.3972,
       "w": 0.3522,
-      "h": 0.0457,
+      "h": 0.0201,
       "words": [
         "And",
         "this",
         "is",
         "the",
         "back",
-        "of",
-        "the",
-        "coat."
-      ],
-      "conf": 96.6363,
-      "source": "psm-11"
+        "of"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
+      "id": "r7",
+      "text": "the coat.",
+      "x": 0.5696,
+      "y": 0.4266,
+      "w": 0.1383,
+      "h": 0.0163,
+      "words": [
+        "the",
+        "coat."
+      ]
+    },
+    {
+      "id": "r8",
+      "text": "+",
+      "x": 0.5026,
+      "y": 0.4864,
+      "w": 0.0174,
+      "h": 0.0141,
+      "words": [
+        "+"
+      ]
+    },
+    {
+      "id": "r9",
+      "text": "eee Gee",
+      "x": 0.6235,
+      "y": 0.4891,
+      "w": 0.1757,
+      "h": 0.0071,
+      "words": [
+        "eee",
+        "Gee"
+      ]
+    },
+    {
+      "id": "r10",
       "text": "These are a man's arms.",
       "x": 0.0748,
       "y": 0.5696,
@@ -103,13 +203,10 @@
         "a",
         "man's",
         "arms."
-      ],
-      "conf": 91.2827,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r11",
       "text": "These are his sides.",
       "x": 0.1226,
       "y": 0.7514,
@@ -120,13 +217,10 @@
         "are",
         "his",
         "sides."
-      ],
-      "conf": 94.3997,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
+      "id": "r12",
       "text": "And this ts his back.",
       "x": 0.62,
       "y": 0.7655,
@@ -138,9 +232,150 @@
         "ts",
         "his",
         "back."
-      ],
-      "conf": 96.3405,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "id": "r13",
+      "text": "85",
+      "x": 0.9052,
+      "y": 0.9402,
+      "w": 0.0287,
+      "h": 0.0136,
+      "words": [
+        "85"
+      ]
+    },
+    {
+      "id": "r14",
+      "text": "These are the arms of",
+      "x": 0.1217,
+      "y": 0.1355,
+      "w": 0.347,
+      "h": 0.0196,
+      "words": [
+        "These",
+        "are",
+        "the",
+        "arms",
+        "of"
+      ]
+    },
+    {
+      "id": "r15",
+      "text": "the coat. '",
+      "x": 0.1226,
+      "y": 0.161,
+      "w": 0.3948,
+      "h": 0.0316,
+      "words": [
+        "the",
+        "coat.",
+        "'"
+      ]
+    },
+    {
+      "id": "r16",
+      "text": "m",
+      "x": 0.3678,
+      "y": 0.2242,
+      "w": 0.0122,
+      "h": 0.0294,
+      "words": [
+        "m"
+      ]
+    },
+    {
+      "id": "r17",
+      "text": "gt VW UN",
+      "x": 0.0817,
+      "y": 0.2051,
+      "w": 0.3991,
+      "h": 0.0941,
+      "words": [
+        "gt",
+        "VW",
+        "UN"
+      ]
+    },
+    {
+      "id": "r18",
+      "text": "These are the sides And this is the back of",
+      "x": 0.1217,
+      "y": 0.3912,
+      "w": 0.8,
+      "h": 0.0261,
+      "words": [
+        "These",
+        "are",
+        "the",
+        "sides",
+        "And",
+        "this",
+        "is",
+        "the",
+        "back",
+        "of"
+      ]
+    },
+    {
+      "id": "r19",
+      "text": "the coat. the coat.",
+      "x": 0.1209,
+      "y": 0.4162,
+      "w": 0.587,
+      "h": 0.0267,
+      "words": [
+        "the",
+        "coat.",
+        "the",
+        "coat."
+      ]
+    },
+    {
+      "id": "r20",
+      "text": "These are a man's arms. SL",
+      "x": 0.0748,
+      "y": 0.5696,
+      "w": 0.8313,
+      "h": 0.0881,
+      "words": [
+        "These",
+        "are",
+        "a",
+        "man's",
+        "arms.",
+        "SL"
+      ]
+    },
+    {
+      "id": "r21",
+      "text": "These are his sides. And this is his back.",
+      "x": 0.1226,
+      "y": 0.7514,
+      "w": 0.8104,
+      "h": 0.0348,
+      "words": [
+        "These",
+        "are",
+        "his",
+        "sides.",
+        "And",
+        "this",
+        "is",
+        "his",
+        "back."
+      ]
+    },
+    {
+      "id": "r22",
+      "text": "85",
+      "x": 0.9052,
+      "y": 0.9402,
+      "w": 0.0287,
+      "h": 0.0136,
+      "words": [
+        "85"
+      ]
     }
   ]
 }

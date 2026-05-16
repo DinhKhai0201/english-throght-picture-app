@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2087.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 98,
+    "regionCount": 63,
+    "wordCount": 223,
     "imageWidth": 1146,
     "imageHeight": 1867
   },
@@ -18,8 +18,22 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r4",
+        "r5",
+        "r6",
+        "r8",
+        "r10",
+        "r12",
+        "r14",
+        "r16",
+        "r41",
+        "r43",
+        "r44",
+        "r45",
+        "r46",
+        "r47",
+        "r48",
+        "r49"
       ]
     },
     {
@@ -30,9 +44,21 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r1",
+        "r2",
         "r3",
-        "r4",
-        "r5"
+        "r7",
+        "r9",
+        "r11",
+        "r13",
+        "r15",
+        "r35",
+        "r36",
+        "r37",
+        "r38",
+        "r39",
+        "r40",
+        "r42"
       ]
     },
     {
@@ -43,11 +69,22 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r8",
-        "r9",
-        "r11",
-        "r12"
+        "r17",
+        "r19",
+        "r20",
+        "r23",
+        "r27",
+        "r28",
+        "r29",
+        "r31",
+        "r52",
+        "r53",
+        "r55",
+        "r58",
+        "r60",
+        "r61",
+        "r62",
+        "r63"
       ]
     },
     {
@@ -58,69 +95,103 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r10"
+        "r18",
+        "r21",
+        "r22",
+        "r24",
+        "r25",
+        "r26",
+        "r30",
+        "r32",
+        "r33",
+        "r34",
+        "r50",
+        "r51",
+        "r54",
+        "r56",
+        "r57",
+        "r59"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
-      "text": "When was the apple on the branch?",
+      "text": "Need",
+      "x": 0.7661,
+      "y": 0.1993,
+      "w": 0.0288,
+      "h": 0.007,
+      "words": [
+        "Need"
+      ]
+    },
+    {
+      "id": "r2",
+      "text": "_",
+      "x": 0.849,
+      "y": 0.2132,
+      "w": 0.0227,
+      "h": 0.0032,
+      "words": [
+        "_"
+      ]
+    },
+    {
+      "id": "r3",
+      "text": "\\y",
+      "x": 0.7757,
+      "y": 0.2389,
+      "w": 0.0384,
+      "h": 0.0252,
+      "words": [
+        "\\y"
+      ]
+    },
+    {
+      "id": "r4",
+      "text": "When was the apple on",
       "x": 0.1169,
       "y": 0.2791,
       "w": 0.3805,
-      "h": 0.045,
+      "h": 0.0257,
       "words": [
         "When",
         "was",
         "the",
         "apple",
-        "on",
-        "the",
-        "branch?"
-      ],
-      "conf": 95.0282,
-      "source": "psm-11"
+        "on"
+      ]
     },
     {
-      "id": "r2",
-      "order": 1,
-      "text": "When was it over her hea It was on the branch before she took it. It was on the branch then.",
+      "id": "r5",
+      "text": "the branch?",
+      "x": 0.1178,
+      "y": 0.3048,
+      "w": 0.1902,
+      "h": 0.0193,
+      "words": [
+        "the",
+        "branch?"
+      ]
+    },
+    {
+      "id": "r6",
+      "text": "When was it over her",
       "x": 0.1178,
       "y": 0.3299,
-      "w": 0.3927,
-      "h": 0.12,
+      "w": 0.3429,
+      "h": 0.0198,
       "words": [
         "When",
         "was",
         "it",
         "over",
-        "her",
-        "hea",
-        "It",
-        "was",
-        "on",
-        "the",
-        "branch",
-        "before",
-        "she",
-        "took",
-        "it.",
-        "It",
-        "was",
-        "on",
-        "the",
-        "branch",
-        "then."
-      ],
-      "conf": 96.4936,
-      "source": "psm-11"
+        "her"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
+      "id": "r7",
       "text": "When did she take it?",
       "x": 0.5567,
       "y": 0.3401,
@@ -132,35 +203,83 @@
         "she",
         "take",
         "it?"
-      ],
-      "conf": 89.3032,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "She took it after she put her hand up.",
-      "x": 0.5576,
-      "y": 0.3658,
-      "w": 0.3883,
-      "h": 0.0568,
+      "id": "r8",
+      "text": "hea",
+      "x": 0.1195,
+      "y": 0.3557,
+      "w": 0.0576,
+      "h": 0.0187,
       "words": [
+        "hea"
+      ]
+    },
+    {
+      "id": "r9",
+      "text": "1 She took it after she put",
+      "x": 0.5201,
+      "y": 0.3658,
+      "w": 0.4258,
+      "h": 0.0332,
+      "words": [
+        "1",
         "She",
         "took",
         "it",
         "after",
         "she",
-        "put",
+        "put"
+      ]
+    },
+    {
+      "id": "r10",
+      "text": "It was on the branch",
+      "x": 0.1213,
+      "y": 0.3803,
+      "w": 0.3229,
+      "h": 0.0198,
+      "words": [
+        "It",
+        "was",
+        "on",
+        "the",
+        "branch"
+      ]
+    },
+    {
+      "id": "r11",
+      "text": "1 her hand up.",
+      "x": 0.5209,
+      "y": 0.3883,
+      "w": 0.2382,
+      "h": 0.0343,
+      "words": [
+        "1",
         "her",
         "hand",
         "up."
-      ],
-      "conf": 95.2569,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r12",
+      "text": "before she took it. It was",
+      "x": 0.1204,
+      "y": 0.4049,
+      "w": 0.3901,
+      "h": 0.0204,
+      "words": [
+        "before",
+        "she",
+        "took",
+        "it.",
+        "It",
+        "was"
+      ]
+    },
+    {
+      "id": "r13",
       "text": "She took it then.",
       "x": 0.5576,
       "y": 0.4162,
@@ -171,55 +290,88 @@
         "took",
         "it",
         "then."
-      ],
-      "conf": 96.5063,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "When did she put it in the",
+      "id": "r14",
+      "text": "on the branch then.",
+      "x": 0.1204,
+      "y": 0.4306,
+      "w": 0.3098,
+      "h": 0.0193,
+      "words": [
+        "on",
+        "the",
+        "branch",
+        "then."
+      ]
+    },
+    {
+      "id": "r15",
+      "text": "H",
+      "x": 0.5218,
+      "y": 0.4462,
+      "w": 0.007,
+      "h": 0.0236,
+      "words": [
+        "H"
+      ]
+    },
+    {
+      "id": "r16",
+      "text": "Fee",
+      "x": 0.2565,
+      "y": 0.4912,
+      "w": 0.0637,
+      "h": 0.0064,
+      "words": [
+        "Fee"
+      ]
+    },
+    {
+      "id": "r17",
+      "text": "When did she put it in",
       "x": 0.1431,
       "y": 0.5619,
       "w": 0.3525,
-      "h": 0.045,
+      "h": 0.0257,
       "words": [
         "When",
         "did",
         "she",
         "put",
         "it",
-        "in",
-        "the"
-      ],
-      "conf": 95.6418,
-      "source": "psm-11"
+        "in"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "When did she have the apple in her hand?",
+      "id": "r18",
+      "text": "When did she have the",
       "x": 0.5768,
       "y": 0.5635,
       "w": 0.3674,
-      "h": 0.0509,
+      "h": 0.0209,
       "words": [
         "When",
         "did",
         "she",
         "have",
-        "the",
-        "apple",
-        "in",
-        "her",
-        "hand?"
-      ],
-      "conf": 96.2435,
-      "source": "psm-11"
+        "the"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r19",
+      "text": "the",
+      "x": 0.1431,
+      "y": 0.5876,
+      "w": 0.0497,
+      "h": 0.0193,
+      "words": [
+        "the"
+      ]
+    },
+    {
+      "id": "r20",
       "text": "sket?",
       "x": 0.2461,
       "y": 0.5881,
@@ -227,13 +379,40 @@
       "h": 0.0193,
       "words": [
         "sket?"
-      ],
-      "conf": 92.7339,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r21",
+      "text": "apple in her hand?",
+      "x": 0.5768,
+      "y": 0.5892,
+      "w": 0.3045,
+      "h": 0.0252,
+      "words": [
+        "apple",
+        "in",
+        "her",
+        "hand?"
+      ]
+    },
+    {
+      "id": "r22",
+      "text": "She had it in her hand",
+      "x": 0.5742,
+      "y": 0.7268,
+      "w": 0.3551,
+      "h": 0.0209,
+      "words": [
+        "She",
+        "had",
+        "it",
+        "in",
+        "her",
+        "hand"
+      ]
+    },
+    {
+      "id": "r23",
       "text": "f\\_{ Y",
       "x": 0.3002,
       "y": 0.7386,
@@ -242,52 +421,71 @@
       "words": [
         "f\\_{",
         "Y"
-      ],
-      "conf": 40.3137,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "She had it in her hand after she took it from the branch and before she put it in the basket",
+      "id": "r24",
+      "text": "after she took it from",
       "x": 0.5733,
-      "y": 0.7268,
-      "w": 0.3604,
-      "h": 0.1018,
+      "y": 0.7531,
+      "w": 0.3333,
+      "h": 0.0198,
       "words": [
-        "She",
-        "had",
-        "it",
-        "in",
-        "her",
-        "hand",
         "after",
         "she",
         "took",
         "it",
-        "from",
+        "from"
+      ]
+    },
+    {
+      "id": "r25",
+      "text": "the branch and before",
+      "x": 0.5733,
+      "y": 0.7783,
+      "w": 0.3604,
+      "h": 0.0209,
+      "words": [
         "the",
         "branch",
         "and",
-        "before",
+        "before"
+      ]
+    },
+    {
+      "id": "r26",
+      "text": "she put it in the basket",
+      "x": 0.5742,
+      "y": 0.8034,
+      "w": 0.3595,
+      "h": 0.0252,
+      "words": [
         "she",
         "put",
         "it",
         "in",
         "the",
         "basket"
-      ],
-      "conf": 96.0429,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "She put it in the basket after",
+      "id": "r27",
+      "text": "after",
+      "x": 0.1335,
+      "y": 0.8565,
+      "w": 0.0777,
+      "h": 0.0193,
+      "words": [
+        "after"
+      ]
+    },
+    {
+      "id": "r28",
+      "text": "She put it in the basket !",
       "x": 0.1335,
       "y": 0.8302,
-      "w": 0.3682,
-      "h": 0.0456,
+      "w": 0.3979,
+      "h": 0.0257,
       "words": [
         "She",
         "put",
@@ -295,28 +493,480 @@
         "in",
         "the",
         "basket",
-        "after"
-      ],
-      "conf": 94.2847,
-      "source": "psm-11"
+        "!"
+      ]
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "took it from the branch",
-      "x": 0.1344,
+      "id": "r29",
+      "text": "took it from",
+      "x": 0.2827,
       "y": 0.8581,
-      "w": 0.3342,
-      "h": 0.0439,
+      "w": 0.1859,
+      "h": 0.0198,
       "words": [
         "took",
         "it",
-        "from",
+        "from"
+      ]
+    },
+    {
+      "id": "r30",
+      "text": "‘",
+      "x": 0.5244,
+      "y": 0.8656,
+      "w": 0.007,
+      "h": 0.0107,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r31",
+      "text": "the branch",
+      "x": 0.1344,
+      "y": 0.8822,
+      "w": 0.1693,
+      "h": 0.0198,
+      "words": [
         "the",
         "branch"
-      ],
-      "conf": 95.5062,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "id": "r32",
+      "text": "6",
+      "x": 0.5227,
+      "y": 0.9073,
+      "w": 0.0105,
+      "h": 0.0102,
+      "words": [
+        "6"
+      ]
+    },
+    {
+      "id": "r33",
+      "text": "‘",
+      "x": 0.5244,
+      "y": 0.8934,
+      "w": 0.0061,
+      "h": 0.0107,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r34",
+      "text": "83",
+      "x": 0.9302,
+      "y": 0.9309,
+      "w": 0.0297,
+      "h": 0.0129,
+      "words": [
+        "83"
+      ]
+    },
+    {
+      "id": "r35",
+      "text": "t",
+      "x": 0.5157,
+      "y": 0.0889,
+      "w": 0.0079,
+      "h": 0.0102,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r36",
+      "text": "¢",
+      "x": 0.5166,
+      "y": 0.1028,
+      "w": 0.007,
+      "h": 0.0112,
+      "words": [
+        "¢"
+      ]
+    },
+    {
+      "id": "r37",
+      "text": "‘",
+      "x": 0.5166,
+      "y": 0.1173,
+      "w": 0.007,
+      "h": 0.0102,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r38",
+      "text": "‘",
+      "x": 0.5175,
+      "y": 0.1318,
+      "w": 0.007,
+      "h": 0.0102,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r39",
+      "text": "t",
+      "x": 0.5175,
+      "y": 0.1457,
+      "w": 0.007,
+      "h": 0.0107,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r40",
+      "text": "t",
+      "x": 0.5175,
+      "y": 0.1601,
+      "w": 0.007,
+      "h": 0.0096,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r41",
+      "text": "—",
+      "x": 0.3735,
+      "y": 0.196,
+      "w": 0.0297,
+      "h": 0.0048,
+      "words": [
+        "—"
+      ]
+    },
+    {
+      "id": "r42",
+      "text": "C3",
+      "x": 0.7757,
+      "y": 0.2389,
+      "w": 0.0384,
+      "h": 0.0252,
+      "words": [
+        "C3"
+      ]
+    },
+    {
+      "id": "r43",
+      "text": "When was the apple on |",
+      "x": 0.1169,
+      "y": 0.2742,
+      "w": 0.4101,
+      "h": 0.0305,
+      "words": [
+        "When",
+        "was",
+        "the",
+        "apple",
+        "on",
+        "|"
+      ]
+    },
+    {
+      "id": "r44",
+      "text": "the branch?",
+      "x": 0.1178,
+      "y": 0.3048,
+      "w": 0.1902,
+      "h": 0.0193,
+      "words": [
+        "the",
+        "branch?"
+      ]
+    },
+    {
+      "id": "r45",
+      "text": "Wher wos itoverher | When did she take if?",
+      "x": 0.1178,
+      "y": 0.3299,
+      "w": 0.7862,
+      "h": 0.045,
+      "words": [
+        "Wher",
+        "wos",
+        "itoverher",
+        "|",
+        "When",
+        "did",
+        "she",
+        "take",
+        "if?"
+      ]
+    },
+    {
+      "id": "r46",
+      "text": "It was on the branch she jrock oe the put",
+      "x": 0.1213,
+      "y": 0.3637,
+      "w": 0.8246,
+      "h": 0.0627,
+      "words": [
+        "It",
+        "was",
+        "on",
+        "the",
+        "branch",
+        "she",
+        "jrock",
+        "oe",
+        "the",
+        "put"
+      ]
+    },
+    {
+      "id": "r47",
+      "text": "before she took it. It was ah",
+      "x": 0.1204,
+      "y": 0.4049,
+      "w": 0.6387,
+      "h": 0.0204,
+      "words": [
+        "before",
+        "she",
+        "took",
+        "it.",
+        "It",
+        "was",
+        "ah"
+      ]
+    },
+    {
+      "id": "r48",
+      "text": "on the branch then. She took it then.",
+      "x": 0.1204,
+      "y": 0.4162,
+      "w": 0.6937,
+      "h": 0.0337,
+      "words": [
+        "on",
+        "the",
+        "branch",
+        "then.",
+        "She",
+        "took",
+        "it",
+        "then."
+      ]
+    },
+    {
+      "id": "r49",
+      "text": "eee",
+      "x": 0.1867,
+      "y": 0.4906,
+      "w": 0.062,
+      "h": 0.0064,
+      "words": [
+        "eee"
+      ]
+    },
+    {
+      "id": "r50",
+      "text": "1",
+      "x": 0.5227,
+      "y": 0.5062,
+      "w": 0.007,
+      "h": 0.0107,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r51",
+      "text": "A",
+      "x": 0.5227,
+      "y": 0.5212,
+      "w": 0.007,
+      "h": 0.0102,
+      "words": [
+        "A"
+      ]
+    },
+    {
+      "id": "r52",
+      "text": "When did she put itin | When did she have the",
+      "x": 0.1431,
+      "y": 0.5619,
+      "w": 0.801,
+      "h": 0.0289,
+      "words": [
+        "When",
+        "did",
+        "she",
+        "put",
+        "itin",
+        "|",
+        "When",
+        "did",
+        "she",
+        "have",
+        "the"
+      ]
+    },
+    {
+      "id": "r53",
+      "text": "the basket? {apple in her hand?",
+      "x": 0.1431,
+      "y": 0.5876,
+      "w": 0.7382,
+      "h": 0.0327,
+      "words": [
+        "the",
+        "basket?",
+        "{apple",
+        "in",
+        "her",
+        "hand?"
+      ]
+    },
+    {
+      "id": "r54",
+      "text": ";",
+      "x": 0.7653,
+      "y": 0.7049,
+      "w": 0.007,
+      "h": 0.0016,
+      "words": [
+        ";"
+      ]
+    },
+    {
+      "id": "r55",
+      "text": "AZ '",
+      "x": 0.3595,
+      "y": 0.7124,
+      "w": 0.171,
+      "h": 0.0273,
+      "words": [
+        "AZ",
+        "'"
+      ]
+    },
+    {
+      "id": "r56",
+      "text": "1 She had it in her hand",
+      "x": 0.5236,
+      "y": 0.7268,
+      "w": 0.4058,
+      "h": 0.0214,
+      "words": [
+        "1",
+        "She",
+        "had",
+        "it",
+        "in",
+        "her",
+        "hand"
+      ]
+    },
+    {
+      "id": "r57",
+      "text": "| after she took it from",
+      "x": 0.5236,
+      "y": 0.7509,
+      "w": 0.3831,
+      "h": 0.0257,
+      "words": [
+        "|",
+        "after",
+        "she",
+        "took",
+        "it",
+        "from"
+      ]
+    },
+    {
+      "id": "r58",
+      "text": "i the branch and before",
+      "x": 0.4738,
+      "y": 0.7718,
+      "w": 0.4599,
+      "h": 0.0332,
+      "words": [
+        "i",
+        "the",
+        "branch",
+        "and",
+        "before"
+      ]
+    },
+    {
+      "id": "r59",
+      "text": "she put it in the basket.",
+      "x": 0.5742,
+      "y": 0.8034,
+      "w": 0.3691,
+      "h": 0.0252,
+      "words": [
+        "she",
+        "put",
+        "it",
+        "in",
+        "the",
+        "basket."
+      ]
+    },
+    {
+      "id": "r60",
+      "text": "She put it in the basket",
+      "x": 0.1335,
+      "y": 0.8302,
+      "w": 0.3682,
+      "h": 0.0257,
+      "words": [
+        "She",
+        "put",
+        "it",
+        "in",
+        "the",
+        "basket"
+      ]
+    },
+    {
+      "id": "r61",
+      "text": "after she took itfrom =|",
+      "x": 0.1335,
+      "y": 0.8565,
+      "w": 0.3979,
+      "h": 0.0214,
+      "words": [
+        "after",
+        "she",
+        "took",
+        "itfrom",
+        "=|"
+      ]
+    },
+    {
+      "id": "r62",
+      "text": "the branch. \\",
+      "x": 0.1344,
+      "y": 0.8795,
+      "w": 0.3988,
+      "h": 0.038,
+      "words": [
+        "the",
+        "branch.",
+        "\\"
+      ]
+    },
+    {
+      "id": "r63",
+      "text": "4* 83",
+      "x": 0.0986,
+      "y": 0.9304,
+      "w": 0.8613,
+      "h": 0.0134,
+      "words": [
+        "4*",
+        "83"
+      ]
     }
   ]
 }

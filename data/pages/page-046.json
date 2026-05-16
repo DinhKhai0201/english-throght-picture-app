@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2046.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 76,
+    "regionCount": 57,
+    "wordCount": 200,
     "imageWidth": 1267,
     "imageHeight": 1892
   },
@@ -19,7 +19,19 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3"
+        "r4",
+        "r5",
+        "r6",
+        "r8",
+        "r9",
+        "r10",
+        "r32",
+        "r33",
+        "r34",
+        "r35",
+        "r37",
+        "r38",
+        "r40"
       ]
     },
     {
@@ -31,7 +43,14 @@
       "h": 0.5,
       "regionIds": [
         "r2",
-        "r4"
+        "r3",
+        "r7",
+        "r11",
+        "r12",
+        "r36",
+        "r39",
+        "r41",
+        "r42"
       ]
     },
     {
@@ -42,9 +61,22 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r7",
-        "r10"
+        "r13",
+        "r14",
+        "r16",
+        "r21",
+        "r27",
+        "r29",
+        "r31",
+        "r43",
+        "r44",
+        "r45",
+        "r49",
+        "r52",
+        "r54",
+        "r55",
+        "r56",
+        "r57"
       ]
     },
     {
@@ -55,84 +87,163 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r8",
-        "r9",
-        "r11"
+        "r15",
+        "r17",
+        "r18",
+        "r19",
+        "r20",
+        "r22",
+        "r23",
+        "r24",
+        "r25",
+        "r26",
+        "r28",
+        "r30",
+        "r46",
+        "r47",
+        "r48",
+        "r50",
+        "r51",
+        "r53"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
-      "text": "A man has two eyes have two eyes These are my eyes",
+      "text": "A man has two eyes",
       "x": 0.1728,
       "y": 0.1332,
       "w": 0.2857,
-      "h": 0.1104,
+      "h": 0.0233,
       "words": [
         "A",
         "man",
         "has",
         "two",
-        "eyes",
-        "have",
-        "two",
-        "eyes",
-        "These",
-        "are",
-        "my",
         "eyes"
-      ],
-      "conf": 96.2116,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r2",
-      "order": 1,
-      "text": "Aman has a mouth J have a mouth",
+      "text": "Aman has a mouth",
       "x": 0.5856,
       "y": 0.1327,
       "w": 0.2786,
-      "h": 0.0444,
+      "h": 0.019,
       "words": [
         "Aman",
         "has",
         "a",
-        "mouth",
+        "mouth"
+      ]
+    },
+    {
+      "id": "r3",
+      "text": "J have a mouth",
+      "x": 0.588,
+      "y": 0.1575,
+      "w": 0.2123,
+      "h": 0.0196,
+      "words": [
         "J",
         "have",
         "a",
         "mouth"
-      ],
-      "conf": 91.9448,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "A man has a nose have a nose.",
+      "id": "r4",
+      "text": "| have two eyes",
+      "x": 0.1752,
+      "y": 0.1591,
+      "w": 0.2186,
+      "h": 0.0222,
+      "words": [
+        "|",
+        "have",
+        "two",
+        "eyes"
+      ]
+    },
+    {
+      "id": "r5",
+      "text": "+",
+      "x": 0.3418,
+      "y": 0.1871,
+      "w": 0.1018,
+      "h": 0.028,
+      "words": [
+        "+"
+      ]
+    },
+    {
+      "id": "r6",
+      "text": "These are my eyes",
+      "x": 0.1823,
+      "y": 0.2209,
+      "w": 0.2628,
+      "h": 0.0227,
+      "words": [
+        "These",
+        "are",
+        "my",
+        "eyes"
+      ]
+    },
+    {
+      "id": "r7",
+      "text": "wal",
+      "x": 0.7245,
+      "y": 0.2844,
+      "w": 0.0434,
+      "h": 0.0143,
+      "words": [
+        "wal"
+      ]
+    },
+    {
+      "id": "r8",
+      "text": "A man has a nose",
       "x": 0.1957,
       "y": 0.2949,
       "w": 0.2549,
-      "h": 0.0434,
+      "h": 0.0185,
       "words": [
         "A",
         "man",
         "has",
         "a",
-        "nose",
+        "nose"
+      ]
+    },
+    {
+      "id": "r9",
+      "text": "| have a nose.",
+      "x": 0.1981,
+      "y": 0.3203,
+      "w": 0.1886,
+      "h": 0.018,
+      "words": [
+        "|",
         "have",
         "a",
         "nose."
-      ],
-      "conf": 85.5458,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
+      "id": "r10",
+      "text": "||",
+      "x": 0.2336,
+      "y": 0.3494,
+      "w": 0.0931,
+      "h": 0.0476,
+      "words": [
+        "||"
+      ]
+    },
+    {
+      "id": "r11",
       "text": "This is my mouth.",
       "x": 0.6638,
       "y": 0.3879,
@@ -143,56 +254,127 @@
         "is",
         "my",
         "mouth."
-      ],
-      "conf": 94.3997,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "This man’s mouth is open He is saying “mouth.”",
+      "id": "r12",
+      "text": "ee ew eee ee ee =",
+      "x": 0.573,
+      "y": 0.4921,
+      "w": 0.3307,
+      "h": 0.0148,
+      "words": [
+        "ee",
+        "ew",
+        "eee",
+        "ee",
+        "ee",
+        "="
+      ]
+    },
+    {
+      "id": "r13",
+      "text": "This man’s mouth is",
       "x": 0.1815,
       "y": 0.5111,
-      "w": 0.3063,
-      "h": 0.073,
+      "w": 0.2731,
+      "h": 0.019,
       "words": [
         "This",
         "man’s",
         "mouth",
-        "is",
-        "open",
+        "is"
+      ]
+    },
+    {
+      "id": "r14",
+      "text": "open",
+      "x": 0.1823,
+      "y": 0.5423,
+      "w": 0.071,
+      "h": 0.0174,
+      "words": [
+        "open"
+      ]
+    },
+    {
+      "id": "r15",
+      "text": "id",
+      "x": 0.8619,
+      "y": 0.5534,
+      "w": 0.0189,
+      "h": 0.0132,
+      "words": [
+        "id"
+      ]
+    },
+    {
+      "id": "r16",
+      "text": "He is saying “mouth.”",
+      "x": 0.1839,
+      "y": 0.5608,
+      "w": 0.3039,
+      "h": 0.0233,
+      "words": [
         "He",
         "is",
         "saying",
         "“mouth.”"
-      ],
-      "conf": 96.0517,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "His mouth is shut He will say “mouths",
-      "x": 0.543,
+      "id": "r17",
+      "text": "1 His mouth is shut",
+      "x": 0.513,
       "y": 0.5592,
-      "w": 0.277,
-      "h": 0.0486,
+      "w": 0.2668,
+      "h": 0.0196,
       "words": [
+        "1",
         "His",
         "mouth",
         "is",
-        "shut",
+        "shut"
+      ]
+    },
+    {
+      "id": "r18",
+      "text": "He will say “mouths",
+      "x": 0.543,
+      "y": 0.5835,
+      "w": 0.277,
+      "h": 0.0243,
+      "words": [
         "He",
         "will",
         "say",
         "“mouths"
-      ],
-      "conf": 95.5072,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r19",
+      "text": "i]",
+      "x": 0.5146,
+      "y": 0.6945,
+      "w": 0.0047,
+      "h": 0.009,
+      "words": [
+        "i]"
+      ]
+    },
+    {
+      "id": "r20",
+      "text": "'",
+      "x": 0.5146,
+      "y": 0.7077,
+      "w": 0.0047,
+      "h": 0.0238,
+      "words": [
+        "'"
+      ]
+    },
+    {
+      "id": "r21",
       "text": "His mouth is shut",
       "x": 0.1918,
       "y": 0.7283,
@@ -203,13 +385,10 @@
         "mouth",
         "is",
         "shut"
-      ],
-      "conf": 96.6435,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r22",
       "text": "He is saying “mouths.”",
       "x": 0.5414,
       "y": 0.7336,
@@ -220,67 +399,485 @@
         "is",
         "saying",
         "“mouths.”"
-      ],
-      "conf": 95.3099,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "He said “mouths He is not saying “mouths” now.",
-      "x": 0.5375,
+      "id": "r23",
+      "text": "He said “mouths",
+      "x": 0.5391,
       "y": 0.7912,
-      "w": 0.2321,
-      "h": 0.0693,
+      "w": 0.2305,
+      "h": 0.019,
       "words": [
         "He",
         "said",
-        "“mouths",
+        "“mouths"
+      ]
+    },
+    {
+      "id": "r24",
+      "text": "' He is not saying",
+      "x": 0.5138,
+      "y": 0.8187,
+      "w": 0.251,
+      "h": 0.0217,
+      "words": [
+        "'",
         "He",
         "is",
         "not",
-        "saying",
-        "“mouths”",
-        "now."
-      ],
-      "conf": 95.6782,
-      "source": "psm-11"
+        "saying"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "He is not saying mouth",
+      "id": "r25",
+      "text": ">",
+      "x": 0.8571,
+      "y": 0.8182,
+      "w": 0.0197,
+      "h": 0.0137,
+      "words": [
+        ">"
+      ]
+    },
+    {
+      "id": "r26",
+      "text": "“mouths” now.",
+      "x": 0.5493,
+      "y": 0.8425,
+      "w": 0.1807,
+      "h": 0.018,
+      "words": [
+        "“mouths”",
+        "now."
+      ]
+    },
+    {
+      "id": "r27",
+      "text": "He is not saying",
       "x": 0.2005,
       "y": 0.8584,
       "w": 0.2273,
-      "h": 0.0417,
+      "h": 0.0227,
       "words": [
         "He",
         "is",
         "not",
-        "saying",
-        "mouth"
-      ],
-      "conf": 96.6394,
-      "source": "psm-11"
+        "saying"
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "His mouth is shut again",
-      "x": 0.5351,
+      "id": "r28",
+      "text": "1 His mouth is shut again",
+      "x": 0.5138,
       "y": 0.8668,
-      "w": 0.3291,
+      "w": 0.3504,
       "h": 0.0217,
       "words": [
+        "1",
         "His",
         "mouth",
         "is",
         "shut",
         "again"
-      ],
-      "conf": 96.534,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "id": "r29",
+      "text": "mouth",
+      "x": 0.2123,
+      "y": 0.8821,
+      "w": 0.0868,
+      "h": 0.018,
+      "words": [
+        "mouth"
+      ]
+    },
+    {
+      "id": "r30",
+      "text": "1",
+      "x": 0.5138,
+      "y": 0.9022,
+      "w": 0.0055,
+      "h": 0.0085,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r31",
+      "text": "42",
+      "x": 0.1373,
+      "y": 0.9286,
+      "w": 0.026,
+      "h": 0.0127,
+      "words": [
+        "42"
+      ]
+    },
+    {
+      "id": "r32",
+      "text": "A man has two eyes. | A man has a mouth.",
+      "x": 0.1728,
+      "y": 0.1279,
+      "w": 0.7017,
+      "h": 0.0285,
+      "words": [
+        "A",
+        "man",
+        "has",
+        "two",
+        "eyes.",
+        "|",
+        "A",
+        "man",
+        "has",
+        "a",
+        "mouth."
+      ]
+    },
+    {
+      "id": "r33",
+      "text": "| have two eyes. i have a mouth.",
+      "x": 0.1752,
+      "y": 0.1575,
+      "w": 0.6338,
+      "h": 0.0238,
+      "words": [
+        "|",
+        "have",
+        "two",
+        "eyes.",
+        "i",
+        "have",
+        "a",
+        "mouth."
+      ]
+    },
+    {
+      "id": "r34",
+      "text": "<a :",
+      "x": 0.18,
+      "y": 0.1892,
+      "w": 0.3346,
+      "h": 0.0307,
+      "words": [
+        "<a",
+        ":"
+      ]
+    },
+    {
+      "id": "r35",
+      "text": "These are my eyes. |",
+      "x": 0.1823,
+      "y": 0.2209,
+      "w": 0.3323,
+      "h": 0.0275,
+      "words": [
+        "These",
+        "are",
+        "my",
+        "eyes.",
+        "|"
+      ]
+    },
+    {
+      "id": "r36",
+      "text": "! “|",
+      "x": 0.5091,
+      "y": 0.2458,
+      "w": 0.2999,
+      "h": 0.0391,
+      "words": [
+        "!",
+        "“|"
+      ]
+    },
+    {
+      "id": "r37",
+      "text": "Aman | =",
+      "x": 0.1957,
+      "y": 0.2844,
+      "w": 0.5722,
+      "h": 0.0344,
+      "words": [
+        "Aman",
+        "|",
+        "="
+      ]
+    },
+    {
+      "id": "r38",
+      "text": "| have a nose. !",
+      "x": 0.1981,
+      "y": 0.3203,
+      "w": 0.3165,
+      "h": 0.027,
+      "words": [
+        "|",
+        "have",
+        "a",
+        "nose.",
+        "!"
+      ]
+    },
+    {
+      "id": "r39",
+      "text": "This is my mouth,",
+      "x": 0.6638,
+      "y": 0.3879,
+      "w": 0.2447,
+      "h": 0.0243,
+      "words": [
+        "This",
+        "is",
+        "my",
+        "mouth,"
+      ]
+    },
+    {
+      "id": "r40",
+      "text": "This is my nose. !",
+      "x": 0.2755,
+      "y": 0.4191,
+      "w": 0.2399,
+      "h": 0.0275,
+      "words": [
+        "This",
+        "is",
+        "my",
+        "nose.",
+        "!"
+      ]
+    },
+    {
+      "id": "r41",
+      "text": "'",
+      "x": 0.5107,
+      "y": 0.4514,
+      "w": 0.0063,
+      "h": 0.0227,
+      "words": [
+        "'"
+      ]
+    },
+    {
+      "id": "r42",
+      "text": "t",
+      "x": 0.5114,
+      "y": 0.4794,
+      "w": 0.0055,
+      "h": 0.009,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r43",
+      "text": "This man’s mouth",
+      "x": 0.1815,
+      "y": 0.5111,
+      "w": 0.2415,
+      "h": 0.019,
+      "words": [
+        "This",
+        "man’s",
+        "mouth"
+      ]
+    },
+    {
+      "id": "r44",
+      "text": "open.",
+      "x": 0.1823,
+      "y": 0.5338,
+      "w": 0.0797,
+      "h": 0.0285,
+      "words": [
+        "open."
+      ]
+    },
+    {
+      "id": "r45",
+      "text": "He is saying “mouth.” 1 His mouth is shut.",
+      "x": 0.1839,
+      "y": 0.5592,
+      "w": 0.6038,
+      "h": 0.0248,
+      "words": [
+        "He",
+        "is",
+        "saying",
+        "“mouth.”",
+        "1",
+        "His",
+        "mouth",
+        "is",
+        "shut."
+      ]
+    },
+    {
+      "id": "r46",
+      "text": "He will say “mouths.”",
+      "x": 0.543,
+      "y": 0.5835,
+      "w": 0.2983,
+      "h": 0.0243,
+      "words": [
+        "He",
+        "will",
+        "say",
+        "“mouths.”"
+      ]
+    },
+    {
+      "id": "r47",
+      "text": "3",
+      "x": 0.5138,
+      "y": 0.6237,
+      "w": 0.0047,
+      "h": 0.0238,
+      "words": [
+        "3"
+      ]
+    },
+    {
+      "id": "r48",
+      "text": "'",
+      "x": 0.5146,
+      "y": 0.6517,
+      "w": 0.0047,
+      "h": 0.01,
+      "words": [
+        "'"
+      ]
+    },
+    {
+      "id": "r49",
+      "text": "His mouth is shut. ' He is saying “mouths.”",
+      "x": 0.1918,
+      "y": 0.7283,
+      "w": 0.6661,
+      "h": 0.0312,
+      "words": [
+        "His",
+        "mouth",
+        "is",
+        "shut.",
+        "'",
+        "He",
+        "is",
+        "saying",
+        "“mouths.”"
+      ]
+    },
+    {
+      "id": "r50",
+      "text": "‘",
+      "x": 0.5138,
+      "y": 0.7637,
+      "w": 0.0055,
+      "h": 0.0106,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r51",
+      "text": "t",
+      "x": 0.5146,
+      "y": 0.778,
+      "w": 0.0039,
+      "h": 0.0095,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r52",
+      "text": ". | He said “mouths.”",
+      "x": 0.0931,
+      "y": 0.7907,
+      "w": 0.6969,
+      "h": 0.0243,
+      "words": [
+        ".",
+        "|",
+        "He",
+        "said",
+        "“mouths.”"
+      ]
+    },
+    {
+      "id": "r53",
+      "text": "| He is not saying »",
+      "x": 0.5138,
+      "y": 0.8182,
+      "w": 0.3631,
+      "h": 0.0243,
+      "words": [
+        "|",
+        "He",
+        "is",
+        "not",
+        "saying",
+        "»"
+      ]
+    },
+    {
+      "id": "r54",
+      "text": "Hei “mouths” now.",
+      "x": 0.2005,
+      "y": 0.8425,
+      "w": 0.5375,
+      "h": 0.0328,
+      "words": [
+        "Hei",
+        "“mouths”",
+        "now."
+      ]
+    },
+    {
+      "id": "r55",
+      "text": "He is not saying + His mouth is shut again.",
+      "x": 0.1997,
+      "y": 0.8589,
+      "w": 0.674,
+      "h": 0.0307,
+      "words": [
+        "He",
+        "is",
+        "not",
+        "saying",
+        "+",
+        "His",
+        "mouth",
+        "is",
+        "shut",
+        "again."
+      ]
+    },
+    {
+      "id": "r56",
+      "text": "mouth. '",
+      "x": 0.2123,
+      "y": 0.88,
+      "w": 0.307,
+      "h": 0.0307,
+      "words": [
+        "mouth.",
+        "'"
+      ]
+    },
+    {
+      "id": "r57",
+      "text": "42",
+      "x": 0.1373,
+      "y": 0.9286,
+      "w": 0.026,
+      "h": 0.0127,
+      "words": [
+        "42"
+      ]
     }
   ]
 }

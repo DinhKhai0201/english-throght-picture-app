@@ -2,76 +2,164 @@
   "page": 25,
   "image": "/books/page 25.png",
   "imageApiPath": "/api/books/page%2025.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 5,
-    "wordCount": 30,
+    "regionCount": 27,
+    "wordCount": 78,
     "imageWidth": 1171,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
         "r3",
+        "r5",
+        "r6",
+        "r13",
+        "r14",
+        "r16"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
         "r4",
-        "r5"
+        "r12",
+        "r15"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r10",
+        "r17",
+        "r19",
+        "r20",
+        "r21",
+        "r22",
+        "r23",
+        "r24",
+        "r25",
+        "r26"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r8",
+        "r11",
+        "r18",
+        "r27"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
-      "text": "The woman will put the hat on the table.",
+      "text": "The woman will put the",
       "x": 0.1238,
       "y": 0.1494,
       "w": 0.3604,
-      "h": 0.044,
+      "h": 0.023,
       "words": [
         "The",
         "woman",
         "will",
         "put",
-        "the",
-        "hat",
-        "on",
-        "the",
-        "table."
-      ],
-      "conf": 96.5881,
-      "source": "psm-11"
+        "the"
+      ]
     },
     {
       "id": "r2",
-      "order": 1,
-      "text": "She is putting it on the table.",
+      "text": "She is putting it on the",
       "x": 0.5295,
       "y": 0.1468,
       "w": 0.3595,
-      "h": 0.046,
+      "h": 0.0279,
       "words": [
         "She",
         "is",
         "putting",
         "it",
         "on",
-        "the",
-        "table."
-      ],
-      "conf": 96.6145,
-      "source": "psm-11"
+        "the"
+      ]
     },
     {
       "id": "r3",
-      "order": 2,
+      "text": "hat on the table.",
+      "x": 0.1238,
+      "y": 0.1741,
+      "w": 0.2733,
+      "h": 0.0193,
+      "words": [
+        "hat",
+        "on",
+        "the",
+        "table."
+      ]
+    },
+    {
+      "id": "r4",
+      "text": "table.",
+      "x": 0.5329,
+      "y": 0.1741,
+      "w": 0.0965,
+      "h": 0.0187,
+      "words": [
+        "table."
+      ]
+    },
+    {
+      "id": "r5",
+      "text": "anh",
+      "x": 0.1076,
+      "y": 0.2116,
+      "w": 0.3706,
+      "h": 0.2175,
+      "words": [
+        "anh"
+      ]
+    },
+    {
+      "id": "r6",
+      "text": "See Be",
+      "x": 0.1144,
+      "y": 0.4526,
+      "w": 0.3894,
+      "h": 0.0059,
+      "words": [
+        "See",
+        "Be"
+      ]
+    },
+    {
+      "id": "r7",
       "text": "It was in her hand.",
       "x": 0.5278,
       "y": 0.5501,
@@ -83,13 +171,10 @@
         "in",
         "her",
         "hand."
-      ],
-      "conf": 91.4646,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
+      "id": "r8",
       "text": "It is on the table.",
       "x": 0.5269,
       "y": 0.5747,
@@ -101,13 +186,10 @@
         "on",
         "the",
         "table."
-      ],
-      "conf": 95.3643,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r9",
       "text": "She put it the",
       "x": 0.1025,
       "y": 0.6219,
@@ -118,9 +200,232 @@
         "put",
         "it",
         "the"
-      ],
-      "conf": 94.8052,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "id": "r10",
+      "text": "al",
+      "x": 0.1067,
+      "y": 0.6743,
+      "w": 0.2109,
+      "h": 0.1243,
+      "words": [
+        "al"
+      ]
+    },
+    {
+      "id": "r11",
+      "text": "4",
+      "x": 0.918,
+      "y": 0.9186,
+      "w": 0.0154,
+      "h": 0.0112,
+      "words": [
+        "4"
+      ]
+    },
+    {
+      "id": "r12",
+      "text": "i]",
+      "x": 0.503,
+      "y": 0.0771,
+      "w": 0.0051,
+      "h": 0.0091,
+      "words": [
+        "i]"
+      ]
+    },
+    {
+      "id": "r13",
+      "text": "The woman will put the | She fs putting it on the",
+      "x": 0.1204,
+      "y": 0.1414,
+      "w": 0.7643,
+      "h": 0.0332,
+      "words": [
+        "The",
+        "woman",
+        "will",
+        "put",
+        "the",
+        "|",
+        "She",
+        "fs",
+        "putting",
+        "it",
+        "on",
+        "the"
+      ]
+    },
+    {
+      "id": "r14",
+      "text": "hat on the table. table.",
+      "x": 0.1238,
+      "y": 0.1741,
+      "w": 0.5056,
+      "h": 0.0193,
+      "words": [
+        "hat",
+        "on",
+        "the",
+        "table.",
+        "table."
+      ]
+    },
+    {
+      "id": "r15",
+      "text": "'",
+      "x": 0.5004,
+      "y": 0.2485,
+      "w": 0.0051,
+      "h": 0.0214,
+      "words": [
+        "'"
+      ]
+    },
+    {
+      "id": "r16",
+      "text": "‘",
+      "x": 0.4996,
+      "y": 0.3021,
+      "w": 0.0051,
+      "h": 0.0091,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r17",
+      "text": "1",
+      "x": 0.4987,
+      "y": 0.5083,
+      "w": 0.0051,
+      "h": 0.0096,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r18",
+      "text": "It was in her hand.",
+      "x": 0.5278,
+      "y": 0.5501,
+      "w": 0.3032,
+      "h": 0.0193,
+      "words": [
+        "It",
+        "was",
+        "in",
+        "her",
+        "hand."
+      ]
+    },
+    {
+      "id": "r19",
+      "text": ") It is on the table.",
+      "x": 0.4979,
+      "y": 0.5747,
+      "w": 0.3057,
+      "h": 0.0236,
+      "words": [
+        ")",
+        "It",
+        "is",
+        "on",
+        "the",
+        "table."
+      ]
+    },
+    {
+      "id": "r20",
+      "text": "i]",
+      "x": 0.4979,
+      "y": 0.6026,
+      "w": 0.006,
+      "h": 0.0102,
+      "words": [
+        "i]"
+      ]
+    },
+    {
+      "id": "r21",
+      "text": "She put it Ui",
+      "x": 0.1059,
+      "y": 0.5999,
+      "w": 0.3621,
+      "h": 0.2067,
+      "words": [
+        "She",
+        "put",
+        "it",
+        "Ui"
+      ]
+    },
+    {
+      "id": "r22",
+      "text": "a",
+      "x": 0.497,
+      "y": 0.7247,
+      "w": 0.006,
+      "h": 0.0091,
+      "words": [
+        "a"
+      ]
+    },
+    {
+      "id": "r23",
+      "text": "'",
+      "x": 0.497,
+      "y": 0.7375,
+      "w": 0.006,
+      "h": 0.0096,
+      "words": [
+        "'"
+      ]
+    },
+    {
+      "id": "r24",
+      "text": "'",
+      "x": 0.497,
+      "y": 0.7949,
+      "w": 0.0077,
+      "h": 0.0209,
+      "words": [
+        "'"
+      ]
+    },
+    {
+      "id": "r25",
+      "text": "’",
+      "x": 0.497,
+      "y": 0.8195,
+      "w": 0.0077,
+      "h": 0.0102,
+      "words": [
+        "’"
+      ]
+    },
+    {
+      "id": "r26",
+      "text": ":",
+      "x": 0.497,
+      "y": 0.834,
+      "w": 0.0077,
+      "h": 0.022,
+      "words": [
+        ":"
+      ]
+    },
+    {
+      "id": "r27",
+      "text": "24",
+      "x": 0.9137,
+      "y": 0.9181,
+      "w": 0.0196,
+      "h": 0.0118,
+      "words": [
+        "24"
+      ]
     }
   ]
 }

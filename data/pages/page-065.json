@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2065.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 68,
+    "regionCount": 43,
+    "wordCount": 162,
     "imageWidth": 1171,
     "imageHeight": 1867
   },
@@ -19,7 +19,12 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3"
+        "r3",
+        "r5",
+        "r20",
+        "r21",
+        "r22",
+        "r25"
       ]
     },
     {
@@ -31,7 +36,16 @@
       "h": 0.5,
       "regionIds": [
         "r2",
-        "r4"
+        "r4",
+        "r6",
+        "r7",
+        "r23",
+        "r24",
+        "r26",
+        "r27",
+        "r28",
+        "r29",
+        "r30"
       ]
     },
     {
@@ -42,8 +56,13 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r8"
+        "r8",
+        "r10",
+        "r13",
+        "r14",
+        "r31",
+        "r32",
+        "r39"
       ]
     },
     {
@@ -54,56 +73,82 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r7",
         "r9",
-        "r10",
-        "r11"
+        "r11",
+        "r12",
+        "r15",
+        "r16",
+        "r17",
+        "r18",
+        "r19",
+        "r33",
+        "r34",
+        "r35",
+        "r36",
+        "r37",
+        "r38",
+        "r40",
+        "r41",
+        "r42",
+        "r43"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
-      "text": "He is coming into the room.",
-      "x": 0.1554,
+      "text": "He is coming into the",
+      "x": 0.1563,
       "y": 0.1125,
-      "w": 0.3254,
-      "h": 0.0445,
+      "w": 0.3245,
+      "h": 0.023,
       "words": [
         "He",
         "is",
         "coming",
         "into",
-        "the",
-        "room."
-      ],
-      "conf": 96.7348,
-      "source": "psm-11"
+        "the"
+      ]
     },
     {
       "id": "r2",
-      "order": 1,
-      "text": "Mr. Smith came into the room.",
+      "text": "Mr. Smith came into",
       "x": 0.5961,
       "y": 0.1125,
       "w": 0.31,
-      "h": 0.0445,
+      "h": 0.0198,
       "words": [
         "Mr.",
         "Smith",
         "came",
-        "into",
-        "the",
-        "room."
-      ],
-      "conf": 94.3371,
-      "source": "psm-11"
+        "into"
+      ]
     },
     {
       "id": "r3",
-      "order": 2,
+      "text": "room.",
+      "x": 0.1554,
+      "y": 0.1441,
+      "w": 0.088,
+      "h": 0.0129,
+      "words": [
+        "room."
+      ]
+    },
+    {
+      "id": "r4",
+      "text": "the room.",
+      "x": 0.5961,
+      "y": 0.1377,
+      "w": 0.1443,
+      "h": 0.0193,
+      "words": [
+        "the",
+        "room."
+      ]
+    },
+    {
+      "id": "r5",
       "text": "He will go to the table.",
       "x": 0.1563,
       "y": 0.1623,
@@ -116,13 +161,10 @@
         "to",
         "the",
         "table."
-      ],
-      "conf": 96.6723,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
+      "id": "r6",
       "text": "He went to the table.",
       "x": 0.5978,
       "y": 0.1628,
@@ -134,78 +176,107 @@
         "to",
         "the",
         "table."
-      ],
-      "conf": 95.3252,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "She is in the house but she is not in the room.",
-      "x": 0.6132,
+      "id": "r7",
+      "text": "She is in the house but",
+      "x": 0.614,
       "y": 0.4906,
-      "w": 0.3415,
-      "h": 0.045,
+      "w": 0.3407,
+      "h": 0.0198,
       "words": [
         "She",
         "is",
         "in",
         "the",
         "house",
-        "but",
+        "but"
+      ]
+    },
+    {
+      "id": "r8",
+      "text": "{Is Mrs. Smith in the",
+      "x": 0.1845,
+      "y": 0.5121,
+      "w": 0.2929,
+      "h": 0.0187,
+      "words": [
+        "{Is",
+        "Mrs.",
+        "Smith",
+        "in",
+        "the"
+      ]
+    },
+    {
+      "id": "r9",
+      "text": "she is not in the room.",
+      "x": 0.6132,
+      "y": 0.5158,
+      "w": 0.3356,
+      "h": 0.0198,
+      "words": [
         "she",
         "is",
         "not",
         "in",
         "the",
         "room."
-      ],
-      "conf": 96.7254,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "{Is Mrs. Smith in the room?",
+      "id": "r10",
+      "text": "room?",
       "x": 0.1845,
-      "y": 0.5121,
-      "w": 0.2929,
-      "h": 0.0433,
+      "y": 0.5372,
+      "w": 0.0974,
+      "h": 0.0182,
       "words": [
-        "{Is",
-        "Mrs.",
-        "Smith",
-        "in",
-        "the",
         "room?"
-      ],
-      "conf": 87.6151,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "She is in another room in the house.",
+      "id": "r11",
+      "text": "She is in another room",
       "x": 0.6132,
       "y": 0.5415,
       "w": 0.345,
-      "h": 0.0444,
+      "h": 0.0193,
       "words": [
         "She",
         "is",
         "in",
         "another",
-        "room",
+        "room"
+      ]
+    },
+    {
+      "id": "r12",
+      "text": "in the house.",
+      "x": 0.6149,
+      "y": 0.5661,
+      "w": 0.193,
+      "h": 0.0198,
+      "words": [
         "in",
         "the",
         "house."
-      ],
-      "conf": 96.1183,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r13",
+      "text": "a",
+      "x": 0.31,
+      "y": 0.6202,
+      "w": 0.0564,
+      "h": 0.0337,
+      "words": [
+        "a"
+      ]
+    },
+    {
+      "id": "r14",
       "text": "No, she is",
       "x": 0.2152,
       "y": 0.7874,
@@ -215,13 +286,10 @@
         "No,",
         "she",
         "is"
-      ],
-      "conf": 96.7637,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r15",
       "text": "Who is this?",
       "x": 0.5841,
       "y": 0.7922,
@@ -231,34 +299,38 @@
         "Who",
         "is",
         "this?"
-      ],
-      "conf": 95.0442,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "This is Mary Smith. She is Mrs. Smith.",
+      "id": "r16",
+      "text": "This is Mary Smith. She",
       "x": 0.585,
       "y": 0.8174,
       "w": 0.357,
-      "h": 0.0444,
+      "h": 0.0246,
       "words": [
         "This",
         "is",
         "Mary",
         "Smith.",
-        "She",
+        "She"
+      ]
+    },
+    {
+      "id": "r17",
+      "text": "is Mrs. Smith.",
+      "x": 0.5858,
+      "y": 0.8431,
+      "w": 0.2007,
+      "h": 0.0187,
+      "words": [
         "is",
         "Mrs.",
         "Smith."
-      ],
-      "conf": 96.4182,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
+      "id": "r18",
       "text": "Her name is Mary Smith,",
       "x": 0.5824,
       "y": 0.8682,
@@ -270,9 +342,350 @@
         "is",
         "Mary",
         "Smith,"
-      ],
-      "conf": 93.6793,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "id": "r19",
+      "text": "61",
+      "x": 0.9385,
+      "y": 0.9186,
+      "w": 0.0239,
+      "h": 0.0129,
+      "words": [
+        "61"
+      ]
+    },
+    {
+      "id": "r20",
+      "text": "He is coming into the | Mr. Smith came into",
+      "x": 0.1563,
+      "y": 0.1055,
+      "w": 0.7498,
+      "h": 0.03,
+      "words": [
+        "He",
+        "is",
+        "coming",
+        "into",
+        "the",
+        "|",
+        "Mr.",
+        "Smith",
+        "came",
+        "into"
+      ]
+    },
+    {
+      "id": "r21",
+      "text": "room, 1 theroom. .",
+      "x": 0.1554,
+      "y": 0.1339,
+      "w": 0.626,
+      "h": 0.03,
+      "words": [
+        "room,",
+        "1",
+        "theroom.",
+        "."
+      ]
+    },
+    {
+      "id": "r22",
+      "text": "He will go to the table. | He went to the table,",
+      "x": 0.1563,
+      "y": 0.1623,
+      "w": 0.7643,
+      "h": 0.0246,
+      "words": [
+        "He",
+        "will",
+        "go",
+        "to",
+        "the",
+        "table.",
+        "|",
+        "He",
+        "went",
+        "to",
+        "the",
+        "table,"
+      ]
+    },
+    {
+      "id": "r23",
+      "text": "1",
+      "x": 0.5363,
+      "y": 0.1912,
+      "w": 0.0051,
+      "h": 0.0091,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r24",
+      "text": "1",
+      "x": 0.5371,
+      "y": 0.2057,
+      "w": 0.0051,
+      "h": 0.0091,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r25",
+      "text": "1",
+      "x": 0.3997,
+      "y": 0.1982,
+      "w": 0.0803,
+      "h": 0.2051,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r26",
+      "text": "t",
+      "x": 0.5371,
+      "y": 0.2475,
+      "w": 0.0051,
+      "h": 0.0107,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r27",
+      "text": "i]",
+      "x": 0.538,
+      "y": 0.3182,
+      "w": 0.0051,
+      "h": 0.0091,
+      "words": [
+        "i]"
+      ]
+    },
+    {
+      "id": "r28",
+      "text": "1",
+      "x": 0.5389,
+      "y": 0.4328,
+      "w": 0.0051,
+      "h": 0.0091,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r29",
+      "text": "‘",
+      "x": 0.5397,
+      "y": 0.4612,
+      "w": 0.0051,
+      "h": 0.0091,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r30",
+      "text": "1 She is in the house but",
+      "x": 0.5397,
+      "y": 0.4906,
+      "w": 0.415,
+      "h": 0.0262,
+      "words": [
+        "1",
+        "She",
+        "is",
+        "in",
+        "the",
+        "house",
+        "but"
+      ]
+    },
+    {
+      "id": "r31",
+      "text": "Is Mrs. Smith inthe 1 she is not in the room.",
+      "x": 0.1845,
+      "y": 0.5121,
+      "w": 0.7643,
+      "h": 0.0236,
+      "words": [
+        "Is",
+        "Mrs.",
+        "Smith",
+        "inthe",
+        "1",
+        "she",
+        "is",
+        "not",
+        "in",
+        "the",
+        "room."
+      ]
+    },
+    {
+      "id": "r32",
+      "text": "room? | She is in another room",
+      "x": 0.1845,
+      "y": 0.5345,
+      "w": 0.7737,
+      "h": 0.0284,
+      "words": [
+        "room?",
+        "|",
+        "She",
+        "is",
+        "in",
+        "another",
+        "room"
+      ]
+    },
+    {
+      "id": "r33",
+      "text": "+ the house.",
+      "x": 0.5397,
+      "y": 0.5656,
+      "w": 0.2681,
+      "h": 0.0246,
+      "words": [
+        "+",
+        "the",
+        "house."
+      ]
+    },
+    {
+      "id": "r34",
+      "text": "yr",
+      "x": 0.5713,
+      "y": 0.5694,
+      "w": 0.3689,
+      "h": 0.2314,
+      "words": [
+        "yr"
+      ]
+    },
+    {
+      "id": "r35",
+      "text": "1",
+      "x": 0.5397,
+      "y": 0.6224,
+      "w": 0.006,
+      "h": 0.0096,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r36",
+      "text": "| f",
+      "x": 0.5406,
+      "y": 0.6449,
+      "w": 0.3416,
+      "h": 0.0707,
+      "words": [
+        "|",
+        "f"
+      ]
+    },
+    {
+      "id": "r37",
+      "text": "t",
+      "x": 0.5397,
+      "y": 0.7092,
+      "w": 0.006,
+      "h": 0.0091,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r38",
+      "text": "i]",
+      "x": 0.5406,
+      "y": 0.737,
+      "w": 0.0051,
+      "h": 0.0102,
+      "words": [
+        "i]"
+      ]
+    },
+    {
+      "id": "r39",
+      "text": "No, she is not. | Who is this?",
+      "x": 0.2152,
+      "y": 0.7874,
+      "w": 0.5551,
+      "h": 0.03,
+      "words": [
+        "No,",
+        "she",
+        "is",
+        "not.",
+        "|",
+        "Who",
+        "is",
+        "this?"
+      ]
+    },
+    {
+      "id": "r40",
+      "text": "t This is Mary Smith. She",
+      "x": 0.5397,
+      "y": 0.8174,
+      "w": 0.4022,
+      "h": 0.0289,
+      "words": [
+        "t",
+        "This",
+        "is",
+        "Mary",
+        "Smith.",
+        "She"
+      ]
+    },
+    {
+      "id": "r41",
+      "text": "1 is Mrs. Smith.",
+      "x": 0.5397,
+      "y": 0.8431,
+      "w": 0.2468,
+      "h": 0.0187,
+      "words": [
+        "1",
+        "is",
+        "Mrs.",
+        "Smith."
+      ]
+    },
+    {
+      "id": "r42",
+      "text": ": Her name is Mary Smith,",
+      "x": 0.538,
+      "y": 0.864,
+      "w": 0.4244,
+      "h": 0.0289,
+      "words": [
+        ":",
+        "Her",
+        "name",
+        "is",
+        "Mary",
+        "Smith,"
+      ]
+    },
+    {
+      "id": "r43",
+      "text": "61",
+      "x": 0.9385,
+      "y": 0.9186,
+      "w": 0.0239,
+      "h": 0.0129,
+      "words": [
+        "61"
+      ]
     }
   ]
 }

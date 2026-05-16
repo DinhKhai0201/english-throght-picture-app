@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2056.png",
   "layout": "single",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 6,
+    "regionCount": 9,
+    "wordCount": 20,
     "imageWidth": 1221,
     "imageHeight": 1846
   },
@@ -20,14 +20,30 @@
       "regionIds": [
         "r1",
         "r2",
-        "r3"
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
+      "text": "Ly",
+      "x": 0.6118,
+      "y": 0.1284,
+      "w": 0.3153,
+      "h": 0.1343,
+      "words": [
+        "Ly"
+      ]
+    },
+    {
+      "id": "r2",
       "text": "ses est eae es",
       "x": 0.1327,
       "y": 0.4729,
@@ -38,13 +54,61 @@
         "est",
         "eae",
         "es"
-      ],
-      "conf": 53.7655,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r2",
-      "order": 1,
+      "id": "r3",
+      "text": "“Ys",
+      "x": 0.2269,
+      "y": 0.3104,
+      "w": 0.5872,
+      "h": 0.1609,
+      "words": [
+        "“Ys"
+      ]
+    },
+    {
+      "id": "r4",
+      "text": "nn mw ow ow ee",
+      "x": 0.2195,
+      "y": 0.6782,
+      "w": 0.6134,
+      "h": 0.0033,
+      "words": [
+        "nn",
+        "mw",
+        "ow",
+        "ow",
+        "ee"
+      ]
+    },
+    {
+      "id": "r5",
+      "text": "awa &",
+      "x": 0.1294,
+      "y": 0.7026,
+      "w": 0.706,
+      "h": 0.1544,
+      "words": [
+        "awa",
+        "&"
+      ]
+    },
+    {
+      "id": "r6",
+      "text": "ww er te",
+      "x": 0.199,
+      "y": 0.8722,
+      "w": 0.5577,
+      "h": 0.0049,
+      "words": [
+        "ww",
+        "er",
+        "te"
+      ]
+    },
+    {
+      "id": "r7",
       "text": "ese",
       "x": 0.4201,
       "y": 0.8857,
@@ -52,23 +116,30 @@
       "h": 0.0125,
       "words": [
         "ese"
-      ],
-      "conf": 94.793,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "page",
+      "id": "r8",
+      "text": "page 56",
       "x": 0.7338,
       "y": 0.8781,
-      "w": 0.0753,
+      "w": 0.131,
       "h": 0.0271,
       "words": [
-        "page"
-      ],
-      "conf": 96.7188,
-      "source": "psm-11"
+        "page",
+        "56"
+      ]
+    },
+    {
+      "id": "r9",
+      "text": "MT",
+      "x": 0.131,
+      "y": 0.5271,
+      "w": 0.3489,
+      "h": 0.1544,
+      "words": [
+        "MT"
+      ]
     }
   ]
 }

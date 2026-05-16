@@ -2,35 +2,89 @@
   "page": 79,
   "image": "/books/page 79.png",
   "imageApiPath": "/api/books/page%2079.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 6,
-    "wordCount": 29,
+    "regionCount": 17,
+    "wordCount": 69,
     "imageWidth": 1125,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
         "r2",
+        "r11",
+        "r12"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
         "r4",
-        "r5",
-        "r6"
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r9",
+        "r13",
+        "r16"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r8",
+        "r10",
+        "r14",
+        "r15",
+        "r17"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
+      "text": "I was coming here.",
+      "x": 0.1316,
+      "y": 0.1232,
+      "w": 0.3049,
+      "h": 0.0236,
+      "words": [
+        "I",
+        "was",
+        "coming",
+        "here."
+      ]
+    },
+    {
+      "id": "r2",
       "text": "i was in the street.",
       "x": 0.1324,
       "y": 0.0975,
@@ -42,13 +96,23 @@
         "in",
         "the",
         "street."
-      ],
-      "conf": 86.4483,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r2",
-      "order": 1,
+      "id": "r3",
+      "text": "my hat off.",
+      "x": 0.5529,
+      "y": 0.1269,
+      "w": 0.176,
+      "h": 0.0198,
+      "words": [
+        "my",
+        "hat",
+        "off."
+      ]
+    },
+    {
+      "id": "r4",
       "text": "The wind came. It took",
       "x": 0.5529,
       "y": 0.0959,
@@ -60,80 +124,189 @@
         "came.",
         "It",
         "took"
-      ],
-      "conf": 96.526,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "I was coming here.",
-      "x": 0.1316,
-      "y": 0.1232,
-      "w": 0.3049,
-      "h": 0.0236,
-      "words": [
-        "I",
-        "was",
-        "coming",
-        "here."
-      ],
-      "conf": 85.1582,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "my hat off.",
-      "x": 0.5529,
-      "y": 0.1269,
-      "w": 0.176,
-      "h": 0.0198,
-      "words": [
-        "my",
-        "hat",
-        "off."
-      ],
-      "conf": 95.628,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r5",
-      "order": 4,
-      "text": "went after my hat.",
-      "x": 0.1227,
+      "text": "3",
+      "x": 0.6231,
+      "y": 0.2255,
+      "w": 0.1067,
+      "h": 0.0284,
+      "words": [
+        "3"
+      ]
+    },
+    {
+      "id": "r6",
+      "text": "| went after my hat.",
+      "x": 0.104,
       "y": 0.5479,
-      "w": 0.3013,
+      "w": 0.32,
       "h": 0.0445,
       "words": [
+        "|",
         "went",
         "after",
         "my",
         "hat."
-      ],
-      "conf": 90.5208,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "When took it up, there was this money.",
-      "x": 0.5582,
-      "y": 0.5726,
-      "w": 0.3876,
-      "h": 0.0498,
+      "id": "r7",
+      "text": "When | took it up, there",
+      "x": 0.5609,
+      "y": 0.5699,
+      "w": 0.3849,
+      "h": 0.0295,
       "words": [
         "When",
+        "|",
         "took",
         "it",
         "up,",
-        "there",
+        "there"
+      ]
+    },
+    {
+      "id": "r8",
+      "text": "was this money.",
+      "x": 0.5582,
+      "y": 0.5983,
+      "w": 0.256,
+      "h": 0.0241,
+      "words": [
         "was",
         "this",
         "money."
-      ],
-      "conf": 96.0973,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "id": "r9",
+      "text": "(ies",
+      "x": 0.0542,
+      "y": 0.6272,
+      "w": 0.432,
+      "h": 0.2517,
+      "words": [
+        "(ies"
+      ]
+    },
+    {
+      "id": "r10",
+      "text": "75",
+      "x": 0.9156,
+      "y": 0.9191,
+      "w": 0.0293,
+      "h": 0.0129,
+      "words": [
+        "75"
+      ]
+    },
+    {
+      "id": "r11",
+      "text": "I was in the street. The wind came. It took",
+      "x": 0.1324,
+      "y": 0.0969,
+      "w": 0.7893,
+      "h": 0.0209,
+      "words": [
+        "I",
+        "was",
+        "in",
+        "the",
+        "street.",
+        "The",
+        "wind",
+        "came.",
+        "It",
+        "took"
+      ]
+    },
+    {
+      "id": "r12",
+      "text": "Iwas coming here. { my hat off.",
+      "x": 0.1316,
+      "y": 0.1227,
+      "w": 0.5973,
+      "h": 0.0241,
+      "words": [
+        "Iwas",
+        "coming",
+        "here.",
+        "{",
+        "my",
+        "hat",
+        "off."
+      ]
+    },
+    {
+      "id": "r13",
+      "text": "| went after my hat,",
+      "x": 0.104,
+      "y": 0.5512,
+      "w": 0.32,
+      "h": 0.0241,
+      "words": [
+        "|",
+        "went",
+        "after",
+        "my",
+        "hat,"
+      ]
+    },
+    {
+      "id": "r14",
+      "text": "t When I took it up, there",
+      "x": 0.5049,
+      "y": 0.5699,
+      "w": 0.4409,
+      "h": 0.0332,
+      "words": [
+        "t",
+        "When",
+        "I",
+        "took",
+        "it",
+        "up,",
+        "there"
+      ]
+    },
+    {
+      "id": "r15",
+      "text": "1 was this money.",
+      "x": 0.5049,
+      "y": 0.5983,
+      "w": 0.3093,
+      "h": 0.0305,
+      "words": [
+        "1",
+        "was",
+        "this",
+        "money."
+      ]
+    },
+    {
+      "id": "r16",
+      "text": "VR",
+      "x": 0.1458,
+      "y": 0.7108,
+      "w": 0.3627,
+      "h": 0.0798,
+      "words": [
+        "VR"
+      ]
+    },
+    {
+      "id": "r17",
+      "text": "75",
+      "x": 0.9156,
+      "y": 0.9191,
+      "w": 0.0293,
+      "h": 0.0129,
+      "words": [
+        "75"
+      ]
     }
   ]
 }

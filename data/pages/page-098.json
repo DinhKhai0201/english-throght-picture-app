@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2098.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 72,
+    "regionCount": 48,
+    "wordCount": 180,
     "imageWidth": 1246,
     "imageHeight": 1859
   },
@@ -20,7 +20,20 @@
       "regionIds": [
         "r3",
         "r4",
-        "r5"
+        "r5",
+        "r6",
+        "r7",
+        "r10",
+        "r11",
+        "r25",
+        "r27",
+        "r29",
+        "r30",
+        "r31",
+        "r32",
+        "r33",
+        "r34",
+        "r35"
       ]
     },
     {
@@ -33,8 +46,10 @@
       "regionIds": [
         "r1",
         "r2",
-        "r6",
-        "r7"
+        "r8",
+        "r9",
+        "r26",
+        "r28"
       ]
     },
     {
@@ -45,9 +60,22 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r11",
-        "r13"
+        "r13",
+        "r15",
+        "r22",
+        "r23",
+        "r24",
+        "r36",
+        "r37",
+        "r38",
+        "r41",
+        "r42",
+        "r43",
+        "r44",
+        "r45",
+        "r46",
+        "r47",
+        "r48"
       ]
     },
     {
@@ -58,16 +86,22 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r10",
-        "r12"
+        "r12",
+        "r14",
+        "r16",
+        "r17",
+        "r18",
+        "r19",
+        "r20",
+        "r21",
+        "r39",
+        "r40"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
       "text": "Ice is solid.",
       "x": 0.626,
       "y": 0.1162,
@@ -77,13 +111,10 @@
         "Ice",
         "is",
         "solid."
-      ],
-      "conf": 94.1098,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r2",
-      "order": 1,
       "text": "This is ice.",
       "x": 0.622,
       "y": 0.1625,
@@ -93,13 +124,22 @@
         "This",
         "is",
         "ice."
-      ],
-      "conf": 96.3783,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r3",
-      "order": 2,
+      "text": "«. 00",
+      "x": 0.325,
+      "y": 0.2561,
+      "w": 0.0554,
+      "h": 0.0151,
+      "words": [
+        "«.",
+        "00"
+      ]
+    },
+    {
+      "id": "r4",
       "text": "This water is boiling.",
       "x": 0.0835,
       "y": 0.3572,
@@ -110,13 +150,10 @@
         "water",
         "is",
         "boiling."
-      ],
-      "conf": 96.3442,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
+      "id": "r5",
       "text": "It is giving off steam.",
       "x": 0.0867,
       "y": 0.383,
@@ -128,18 +165,26 @@
         "giving",
         "off",
         "steam."
-      ],
-      "conf": 94.1761,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "The heat of the flame is making it give off steam.",
+      "id": "r6",
+      "text": "‘",
+      "x": 0.4551,
+      "y": 0.3878,
+      "w": 0.0056,
+      "h": 0.0108,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r7",
+      "text": "The heat of the flame is :",
       "x": 0.0859,
       "y": 0.4077,
-      "w": 0.3603,
-      "h": 0.0501,
+      "w": 0.3748,
+      "h": 0.021,
       "words": [
         "The",
         "heat",
@@ -147,18 +192,11 @@
         "the",
         "flame",
         "is",
-        "making",
-        "it",
-        "give",
-        "off",
-        "steam."
-      ],
-      "conf": 92.8054,
-      "source": "psm-11"
+        ":"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
+      "id": "r8",
       "text": "Water is a liquid.",
       "x": 0.5706,
       "y": 0.4153,
@@ -169,13 +207,10 @@
         "is",
         "a",
         "liquid."
-      ],
-      "conf": 93.7921,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r9",
       "text": "This is water.",
       "x": 0.5722,
       "y": 0.4416,
@@ -185,13 +220,36 @@
         "This",
         "is",
         "water."
-      ],
-      "conf": 96.1813,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r10",
+      "text": "SSS",
+      "x": 0.2167,
+      "y": 0.4766,
+      "w": 0.0522,
+      "h": 0.0065,
+      "words": [
+        "SSS"
+      ]
+    },
+    {
+      "id": "r11",
+      "text": "making it give off steam.",
+      "x": 0.0883,
+      "y": 0.4336,
+      "w": 0.3579,
+      "h": 0.0242,
+      "words": [
+        "making",
+        "it",
+        "give",
+        "off",
+        "steam."
+      ]
+    },
+    {
+      "id": "r12",
       "text": "The room is warm.",
       "x": 0.5136,
       "y": 0.5089,
@@ -202,13 +260,10 @@
         "room",
         "is",
         "warm."
-      ],
-      "conf": 95.1583,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r13",
       "text": "This is a tray.",
       "x": 0.122,
       "y": 0.5331,
@@ -219,43 +274,26 @@
         "is",
         "a",
         "tray."
-      ],
-      "conf": 92.7725,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "The heat of the flame Is making the room warm, The things in the room are warm.",
+      "id": "r14",
+      "text": "The heat of the flame Is",
       "x": 0.512,
       "y": 0.5342,
-      "w": 0.3539,
-      "h": 0.0973,
+      "w": 0.3491,
+      "h": 0.0215,
       "words": [
         "The",
         "heat",
         "of",
         "the",
         "flame",
-        "Is",
-        "making",
-        "the",
-        "room",
-        "warm,",
-        "The",
-        "things",
-        "in",
-        "the",
-        "room",
-        "are",
-        "warm."
-      ],
-      "conf": 95.8234,
-      "source": "psm-11"
+        "Is"
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
+      "id": "r15",
       "text": "It is a tray of Ice..",
       "x": 0.1236,
       "y": 0.5594,
@@ -268,33 +306,100 @@
         "tray",
         "of",
         "Ice.."
-      ],
-      "conf": 79.4622,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "ice is not warm. It Is co",
+      "id": "r16",
+      "text": "making the room warm,",
+      "x": 0.5144,
+      "y": 0.56,
+      "w": 0.3515,
+      "h": 0.0242,
+      "words": [
+        "making",
+        "the",
+        "room",
+        "warm,"
+      ]
+    },
+    {
+      "id": "r17",
+      "text": "The things in the room",
+      "x": 0.5128,
+      "y": 0.5847,
+      "w": 0.3274,
+      "h": 0.0247,
+      "words": [
+        "The",
+        "things",
+        "in",
+        "the",
+        "room"
+      ]
+    },
+    {
+      "id": "r18",
+      "text": "are warm.",
+      "x": 0.5136,
+      "y": 0.617,
+      "w": 0.1525,
+      "h": 0.0145,
+      "words": [
+        "are",
+        "warm."
+      ]
+    },
+    {
+      "id": "r19",
+      "text": "ice is not warm. It Is",
       "x": 0.5144,
       "y": 0.6374,
       "w": 0.2905,
-      "h": 0.0436,
+      "h": 0.0199,
       "words": [
         "ice",
         "is",
         "not",
         "warm.",
         "It",
-        "Is",
-        "co"
-      ],
-      "conf": 91.4024,
-      "source": "psm-11"
+        "Is"
+      ]
     },
     {
-      "id": "r13",
-      "order": 12,
+      "id": "r20",
+      "text": "co",
+      "x": 0.5152,
+      "y": 0.6676,
+      "w": 0.0337,
+      "h": 0.0134,
+      "words": [
+        "co"
+      ]
+    },
+    {
+      "id": "r21",
+      "text": "80",
+      "x": 0.8202,
+      "y": 0.6891,
+      "w": 0.0425,
+      "h": 0.0226,
+      "words": [
+        "80"
+      ]
+    },
+    {
+      "id": "r22",
+      "text": "ice",
+      "x": 0.1918,
+      "y": 0.7547,
+      "w": 0.0409,
+      "h": 0.0178,
+      "words": [
+        "ice"
+      ]
+    },
+    {
+      "id": "r23",
       "text": "cold.",
       "x": 0.175,
       "y": 0.8037,
@@ -302,9 +407,358 @@
       "h": 0.0199,
       "words": [
         "cold."
-      ],
-      "conf": 86.427,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "id": "r24",
+      "text": "94",
+      "x": 0.077,
+      "y": 0.922,
+      "w": 0.0265,
+      "h": 0.0134,
+      "words": [
+        "94"
+      ]
+    },
+    {
+      "id": "r25",
+      "text": "4 ’",
+      "x": 0.3355,
+      "y": 0.0904,
+      "w": 0.126,
+      "h": 0.0124,
+      "words": [
+        "4",
+        "’"
+      ]
+    },
+    {
+      "id": "r26",
+      "text": "Ice is solid.",
+      "x": 0.626,
+      "y": 0.1162,
+      "w": 0.1581,
+      "h": 0.0194,
+      "words": [
+        "Ice",
+        "is",
+        "solid."
+      ]
+    },
+    {
+      "id": "r27",
+      "text": "' This is ice,",
+      "x": 0.4551,
+      "y": 0.1608,
+      "w": 0.3154,
+      "h": 0.0247,
+      "words": [
+        "'",
+        "This",
+        "is",
+        "ice,"
+      ]
+    },
+    {
+      "id": "r28",
+      "text": "\\",
+      "x": 0.7777,
+      "y": 0.1883,
+      "w": 0.0112,
+      "h": 0.043,
+      "words": [
+        "\\"
+      ]
+    },
+    {
+      "id": "r29",
+      "text": "This waters boing. |",
+      "x": 0.0835,
+      "y": 0.3297,
+      "w": 0.3772,
+      "h": 0.0602,
+      "words": [
+        "This",
+        "waters",
+        "boing.",
+        "|"
+      ]
+    },
+    {
+      "id": "r30",
+      "text": "is water is boiling. - ~ -",
+      "x": 0.1204,
+      "y": 0.3588,
+      "w": 0.6982,
+      "h": 0.0221,
+      "words": [
+        "is",
+        "water",
+        "is",
+        "boiling.",
+        "-",
+        "~",
+        "-"
+      ]
+    },
+    {
+      "id": "r31",
+      "text": "It is giving off steam. ee, ~",
+      "x": 0.0867,
+      "y": 0.3556,
+      "w": 0.7231,
+      "h": 0.0565,
+      "words": [
+        "It",
+        "is",
+        "giving",
+        "off",
+        "steam.",
+        "ee,",
+        "~"
+      ]
+    },
+    {
+      "id": "r32",
+      "text": "The heat of the flame Is ' Water is a liquid.",
+      "x": 0.0859,
+      "y": 0.4056,
+      "w": 0.744,
+      "h": 0.0371,
+      "words": [
+        "The",
+        "heat",
+        "of",
+        "the",
+        "flame",
+        "Is",
+        "'",
+        "Water",
+        "is",
+        "a",
+        "liquid."
+      ]
+    },
+    {
+      "id": "r33",
+      "text": "making it give off steam. This is water.",
+      "x": 0.0883,
+      "y": 0.4336,
+      "w": 0.6758,
+      "h": 0.028,
+      "words": [
+        "making",
+        "it",
+        "give",
+        "off",
+        "steam.",
+        "This",
+        "is",
+        "water."
+      ]
+    },
+    {
+      "id": "r34",
+      "text": "®eeeee@ee 2820208",
+      "x": 0.0682,
+      "y": 0.4734,
+      "w": 0.3547,
+      "h": 0.0134,
+      "words": [
+        "®eeeee@ee",
+        "2820208"
+      ]
+    },
+    {
+      "id": "r35",
+      "text": "i}",
+      "x": 0.4567,
+      "y": 0.4927,
+      "w": 0.0048,
+      "h": 0.0108,
+      "words": [
+        "i}"
+      ]
+    },
+    {
+      "id": "r36",
+      "text": "| The room is warm.",
+      "x": 0.4567,
+      "y": 0.5078,
+      "w": 0.3274,
+      "h": 0.0247,
+      "words": [
+        "|",
+        "The",
+        "room",
+        "is",
+        "warm."
+      ]
+    },
+    {
+      "id": "r37",
+      "text": "This is a tray. The heat of the flame is",
+      "x": 0.122,
+      "y": 0.5331,
+      "w": 0.7392,
+      "h": 0.0258,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "tray.",
+        "The",
+        "heat",
+        "of",
+        "the",
+        "flame",
+        "is"
+      ]
+    },
+    {
+      "id": "r38",
+      "text": "It is a tray of Ice. making the room warm,",
+      "x": 0.1236,
+      "y": 0.5594,
+      "w": 0.7424,
+      "h": 0.0247,
+      "words": [
+        "It",
+        "is",
+        "a",
+        "tray",
+        "of",
+        "Ice.",
+        "making",
+        "the",
+        "room",
+        "warm,"
+      ]
+    },
+    {
+      "id": "r39",
+      "text": "The things in the room",
+      "x": 0.5128,
+      "y": 0.5847,
+      "w": 0.3274,
+      "h": 0.0247,
+      "words": [
+        "The",
+        "things",
+        "in",
+        "the",
+        "room"
+      ]
+    },
+    {
+      "id": "r40",
+      "text": "warm.",
+      "x": 0.5738,
+      "y": 0.6181,
+      "w": 0.0923,
+      "h": 0.0134,
+      "words": [
+        "warm."
+      ]
+    },
+    {
+      "id": "r41",
+      "text": ": is not warm. It is",
+      "x": 0.4575,
+      "y": 0.6364,
+      "w": 0.3475,
+      "h": 0.0242,
+      "words": [
+        ":",
+        "is",
+        "not",
+        "warm.",
+        "It",
+        "is"
+      ]
+    },
+    {
+      "id": "r42",
+      "text": "t cold.",
+      "x": 0.4575,
+      "y": 0.6611,
+      "w": 0.1284,
+      "h": 0.0285,
+      "words": [
+        "t",
+        "cold."
+      ]
+    },
+    {
+      "id": "r43",
+      "text": "40 '",
+      "x": 0.3796,
+      "y": 0.7364,
+      "w": 0.0827,
+      "h": 0.0188,
+      "words": [
+        "40",
+        "'"
+      ]
+    },
+    {
+      "id": "r44",
+      "text": "Ice - ‘",
+      "x": 0.1918,
+      "y": 0.7079,
+      "w": 0.2705,
+      "h": 0.0845,
+      "words": [
+        "Ice",
+        "-",
+        "‘"
+      ]
+    },
+    {
+      "id": "r45",
+      "text": "x (I",
+      "x": 0.3796,
+      "y": 0.7789,
+      "w": 0.0827,
+      "h": 0.0247,
+      "words": [
+        "x",
+        "(I"
+      ]
+    },
+    {
+      "id": "r46",
+      "text": "i} .",
+      "x": 0.4518,
+      "y": 0.8343,
+      "w": 0.0939,
+      "h": 0.0151,
+      "words": [
+        "i}",
+        "."
+      ]
+    },
+    {
+      "id": "r47",
+      "text": "i)",
+      "x": 0.4551,
+      "y": 0.8795,
+      "w": 0.0096,
+      "h": 0.0108,
+      "words": [
+        "i)"
+      ]
+    },
+    {
+      "id": "r48",
+      "text": "94",
+      "x": 0.077,
+      "y": 0.922,
+      "w": 0.0265,
+      "h": 0.0134,
+      "words": [
+        "94"
+      ]
     }
   ]
 }

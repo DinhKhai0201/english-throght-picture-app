@@ -2,42 +2,110 @@
   "page": 29,
   "image": "/books/page 29.png",
   "imageApiPath": "/api/books/page%2029.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 56,
+    "regionCount": 41,
+    "wordCount": 143,
     "imageWidth": 1188,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
         "r2",
-        "r3",
         "r4",
         "r5",
-        "r6",
         "r7",
+        "r10",
+        "r23",
+        "r24",
+        "r25",
+        "r29",
+        "r31",
+        "r33"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r6",
         "r8",
         "r9",
-        "r10",
         "r11",
+        "r22",
+        "r26",
+        "r27",
+        "r28",
+        "r30",
+        "r32"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r15",
+        "r17",
+        "r20",
+        "r38",
+        "r40"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r12",
-        "r13"
+        "r13",
+        "r14",
+        "r16",
+        "r18",
+        "r19",
+        "r21",
+        "r34",
+        "r35",
+        "r36",
+        "r37",
+        "r39",
+        "r41"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
+      "text": "‘",
+      "x": 0.5227,
+      "y": 0.0763,
+      "w": 0.0059,
+      "h": 0.0085,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r2",
       "text": "This is a man.",
       "x": 0.1936,
       "y": 0.0949,
@@ -48,13 +116,10 @@
         "is",
         "a",
         "man."
-      ],
-      "conf": 95.944,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r2",
-      "order": 1,
+      "id": "r3",
       "text": "This i an arm.",
       "x": 0.5715,
       "y": 0.1056,
@@ -65,13 +130,10 @@
         "i",
         "an",
         "arm."
-      ],
-      "conf": 94.3226,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
+      "id": "r4",
       "text": "These are his arms.",
       "x": 0.2079,
       "y": 0.1461,
@@ -82,13 +144,10 @@
         "are",
         "his",
         "arms."
-      ],
-      "conf": 96.0217,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
+      "id": "r5",
       "text": "These are his",
       "x": 0.2121,
       "y": 0.2576,
@@ -98,13 +157,21 @@
         "These",
         "are",
         "his"
-      ],
-      "conf": 95.3075,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r6",
+      "text": ":",
+      "x": 0.5219,
+      "y": 0.3387,
+      "w": 0.0076,
+      "h": 0.0229,
+      "words": [
+        ":"
+      ]
+    },
+    {
+      "id": "r7",
       "text": "These are his feet.",
       "x": 0.1532,
       "y": 0.3536,
@@ -115,13 +182,10 @@
         "are",
         "his",
         "feet."
-      ],
-      "conf": 96.4799,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
+      "id": "r8",
       "text": "This is a",
       "x": 0.5598,
       "y": 0.3877,
@@ -131,13 +195,21 @@
         "This",
         "is",
         "a"
-      ],
-      "conf": 95.048,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r9",
+      "text": "'",
+      "x": 0.5227,
+      "y": 0.4064,
+      "w": 0.0059,
+      "h": 0.0213,
+      "words": [
+        "'"
+      ]
+    },
+    {
+      "id": "r10",
       "text": "This is a table.",
       "x": 0.1894,
       "y": 0.4853,
@@ -148,13 +220,10 @@
         "is",
         "a",
         "table."
-      ],
-      "conf": 95.7997,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r11",
       "text": "This is a seat.",
       "x": 0.6002,
       "y": 0.4869,
@@ -165,29 +234,25 @@
         "is",
         "a",
         "seat."
-      ],
-      "conf": 95.3929,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "These are its",
-      "x": 0.7323,
-      "y": 0.5781,
-      "w": 0.1928,
-      "h": 0.0176,
+      "id": "r12",
+      "text": "\\ _\\ These are its",
+      "x": 0.6162,
+      "y": 0.5557,
+      "w": 0.3089,
+      "h": 0.048,
       "words": [
+        "\\",
+        "_\\",
         "These",
         "are",
         "its"
-      ],
-      "conf": 95.8605,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r13",
       "text": "arms",
       "x": 0.8434,
       "y": 0.6075,
@@ -195,32 +260,72 @@
       "h": 0.0128,
       "words": [
         "arms"
-      ],
-      "conf": 95.2033,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "-These are are its its legs.——",
+      "id": "r14",
+      "text": "i",
+      "x": 0.7163,
+      "y": 0.6821,
+      "w": 0.0059,
+      "h": 0.0064,
+      "words": [
+        "i"
+      ]
+    },
+    {
+      "id": "r15",
+      "text": "=",
+      "x": 0.1456,
+      "y": 0.5163,
+      "w": 0.3872,
+      "h": 0.1856,
+      "words": [
+        "="
+      ]
+    },
+    {
+      "id": "r16",
+      "text": "_}",
+      "x": 0.6633,
+      "y": 0.6624,
+      "w": 0.053,
+      "h": 0.0421,
+      "words": [
+        "_}"
+      ]
+    },
+    {
+      "id": "r17",
+      "text": "-These are are its its legs.—— — 1",
       "x": 0.149,
-      "y": 0.696,
-      "w": 0.3544,
-      "h": 0.0309,
+      "y": 0.6907,
+      "w": 0.3838,
+      "h": 0.0363,
       "words": [
         "-These",
         "are",
         "are",
         "its",
         "its",
-        "legs.——"
-      ],
-      "conf": 85.0765,
-      "source": "psm-11"
+        "legs.——",
+        "—",
+        "1"
+      ]
     },
     {
-      "id": "r12",
-      "order": 11,
+      "id": "r18",
+      "text": "‘",
+      "x": 0.5269,
+      "y": 0.7296,
+      "w": 0.0067,
+      "h": 0.0229,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r19",
       "text": "These are its legs.",
       "x": 0.5556,
       "y": 0.7173,
@@ -231,13 +336,10 @@
         "are",
         "its",
         "legs."
-      ],
-      "conf": 95.8229,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r13",
-      "order": 12,
+      "id": "r20",
       "text": "Its feet are on the floor. Its feet are on the floor.",
       "x": 0.1397,
       "y": 0.7664,
@@ -256,9 +358,293 @@
         "on",
         "the",
         "floor."
-      ],
-      "conf": 91.6596,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "id": "r21",
+      "text": "25",
+      "x": 0.9082,
+      "y": 0.9168,
+      "w": 0.0269,
+      "h": 0.0128,
+      "words": [
+        "25"
+      ]
+    },
+    {
+      "id": "r22",
+      "text": "a",
+      "x": 0.5227,
+      "y": 0.0763,
+      "w": 0.0059,
+      "h": 0.0085,
+      "words": [
+        "a"
+      ]
+    },
+    {
+      "id": "r23",
+      "text": "ee a",
+      "x": 0.2298,
+      "y": 0.0891,
+      "w": 0.2997,
+      "h": 0.0107,
+      "words": [
+        "ee",
+        "a"
+      ]
+    },
+    {
+      "id": "r24",
+      "text": "This is a man. This is on arm.",
+      "x": 0.1936,
+      "y": 0.0949,
+      "w": 0.612,
+      "h": 0.0315,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "man.",
+        "This",
+        "is",
+        "on",
+        "arm."
+      ]
+    },
+    {
+      "id": "r25",
+      "text": "These are his arms.:",
+      "x": 0.2079,
+      "y": 0.1424,
+      "w": 0.3207,
+      "h": 0.0229,
+      "words": [
+        "These",
+        "are",
+        "his",
+        "arms.:"
+      ]
+    },
+    {
+      "id": "r26",
+      "text": "‘",
+      "x": 0.5219,
+      "y": 0.2069,
+      "w": 0.0067,
+      "h": 0.0085,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r27",
+      "text": "a",
+      "x": 0.521,
+      "y": 0.2192,
+      "w": 0.0076,
+      "h": 0.0096,
+      "words": [
+        "a"
+      ]
+    },
+    {
+      "id": "r28",
+      "text": ":",
+      "x": 0.521,
+      "y": 0.2331,
+      "w": 0.0076,
+      "h": 0.0224,
+      "words": [
+        ":"
+      ]
+    },
+    {
+      "id": "r29",
+      "text": "These are his is a leg.",
+      "x": 0.2121,
+      "y": 0.2512,
+      "w": 0.5884,
+      "h": 0.0251,
+      "words": [
+        "These",
+        "are",
+        "his",
+        "is",
+        "a",
+        "leg."
+      ]
+    },
+    {
+      "id": "r30",
+      "text": "t",
+      "x": 0.5219,
+      "y": 0.3131,
+      "w": 0.0067,
+      "h": 0.0085,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r31",
+      "text": "These are his feet. }",
+      "x": 0.1532,
+      "y": 0.3525,
+      "w": 0.3763,
+      "h": 0.0229,
+      "words": [
+        "These",
+        "are",
+        "his",
+        "feet.",
+        "}"
+      ]
+    },
+    {
+      "id": "r32",
+      "text": "| This is a foot. if",
+      "x": 0.5219,
+      "y": 0.368,
+      "w": 0.3838,
+      "h": 0.0555,
+      "words": [
+        "|",
+        "This",
+        "is",
+        "a",
+        "foot.",
+        "if"
+      ]
+    },
+    {
+      "id": "r33",
+      "text": "This is a table. ‘This is a seat.",
+      "x": 0.1894,
+      "y": 0.4853,
+      "w": 0.6279,
+      "h": 0.0277,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "table.",
+        "‘This",
+        "is",
+        "a",
+        "seat."
+      ]
+    },
+    {
+      "id": "r34",
+      "text": "4",
+      "x": 0.5244,
+      "y": 0.5563,
+      "w": 0.0067,
+      "h": 0.0107,
+      "words": [
+        "4"
+      ]
+    },
+    {
+      "id": "r35",
+      "text": "\\ These are its",
+      "x": 0.6162,
+      "y": 0.5557,
+      "w": 0.3089,
+      "h": 0.0491,
+      "words": [
+        "\\",
+        "These",
+        "are",
+        "its"
+      ]
+    },
+    {
+      "id": "r36",
+      "text": "arms.",
+      "x": 0.8434,
+      "y": 0.6075,
+      "w": 0.0816,
+      "h": 0.0128,
+      "words": [
+        "arms."
+      ]
+    },
+    {
+      "id": "r37",
+      "text": "|",
+      "x": 0.7332,
+      "y": 0.6133,
+      "w": 0.0488,
+      "h": 0.0363,
+      "words": [
+        "|"
+      ]
+    },
+    {
+      "id": "r38",
+      "text": "-These are its legs.— 1",
+      "x": 0.149,
+      "y": 0.6976,
+      "w": 0.3838,
+      "h": 0.0213,
+      "words": [
+        "-These",
+        "are",
+        "its",
+        "legs.—",
+        "1"
+      ]
+    },
+    {
+      "id": "r39",
+      "text": "+ These are its legs. —_",
+      "x": 0.5269,
+      "y": 0.7173,
+      "w": 0.4015,
+      "h": 0.0213,
+      "words": [
+        "+",
+        "These",
+        "are",
+        "its",
+        "legs.",
+        "—_"
+      ]
+    },
+    {
+      "id": "r40",
+      "text": "Its feet are on the floor. Its feet are on the floor.",
+      "x": 0.1397,
+      "y": 0.7664,
+      "w": 0.7811,
+      "h": 0.0283,
+      "words": [
+        "Its",
+        "feet",
+        "are",
+        "on",
+        "the",
+        "floor.",
+        "Its",
+        "feet",
+        "are",
+        "on",
+        "the",
+        "floor."
+      ]
+    },
+    {
+      "id": "r41",
+      "text": "25",
+      "x": 0.9082,
+      "y": 0.9168,
+      "w": 0.0269,
+      "h": 0.0128,
+      "words": [
+        "25"
+      ]
     }
   ]
 }

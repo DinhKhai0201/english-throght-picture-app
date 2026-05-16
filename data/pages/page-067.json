@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2067.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 75,
+    "regionCount": 48,
+    "wordCount": 178,
     "imageWidth": 1159,
     "imageHeight": 1842
   },
@@ -20,7 +20,18 @@
       "regionIds": [
         "r1",
         "r4",
-        "r5"
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r11",
+        "r14",
+        "r28",
+        "r29",
+        "r30",
+        "r31",
+        "r35",
+        "r36"
       ]
     },
     {
@@ -33,7 +44,16 @@
       "regionIds": [
         "r2",
         "r3",
-        "r6"
+        "r5",
+        "r10",
+        "r12",
+        "r13",
+        "r27",
+        "r32",
+        "r33",
+        "r34",
+        "r37",
+        "r38"
       ]
     },
     {
@@ -44,8 +64,15 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r10"
+        "r16",
+        "r18",
+        "r20",
+        "r22",
+        "r24",
+        "r39",
+        "r40",
+        "r46",
+        "r47"
       ]
     },
     {
@@ -56,36 +83,52 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r9",
-        "r11"
+        "r15",
+        "r17",
+        "r19",
+        "r21",
+        "r23",
+        "r25",
+        "r26",
+        "r41",
+        "r42",
+        "r43",
+        "r44",
+        "r45",
+        "r48"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
-      "text": "Mrs. Smith is not in the room.",
+      "text": "Mrs. Smith is not in the",
       "x": 0.1286,
       "y": 0.1107,
       "w": 0.3572,
-      "h": 0.0457,
+      "h": 0.0195,
       "words": [
         "Mrs.",
         "Smith",
         "is",
         "not",
         "in",
-        "the",
-        "room."
-      ],
-      "conf": 95.9032,
-      "source": "psm-11"
+        "the"
+      ]
     },
     {
       "id": "r2",
-      "order": 1,
+      "text": "‘",
+      "x": 0.5306,
+      "y": 0.1265,
+      "w": 0.0052,
+      "h": 0.0087,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r3",
       "text": "Mr. Smith is in the room.",
       "x": 0.5617,
       "y": 0.1151,
@@ -98,13 +141,21 @@
         "in",
         "the",
         "room."
-      ],
-      "conf": 96.0017,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
+      "id": "r4",
+      "text": "room.",
+      "x": 0.1294,
+      "y": 0.1439,
+      "w": 0.0897,
+      "h": 0.0125,
+      "words": [
+        "room."
+      ]
+    },
+    {
+      "id": "r5",
       "text": "He came into the room.",
       "x": 0.5634,
       "y": 0.1401,
@@ -116,110 +167,175 @@
         "into",
         "the",
         "room."
-      ],
-      "conf": 96.3751,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "She went out of the room.",
+      "id": "r6",
+      "text": "She went out of the",
       "x": 0.1303,
       "y": 0.1623,
       "w": 0.302,
-      "h": 0.0451,
+      "h": 0.0201,
       "words": [
         "She",
         "went",
         "out",
         "of",
-        "the",
-        "room."
-      ],
-      "conf": 96.8557,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "She went through this door.",
-      "x": 0.1242,
-      "y": 0.3974,
-      "w": 0.277,
-      "h": 0.0445,
-      "words": [
-        "She",
-        "went",
-        "through",
-        "this",
-        "door."
-      ],
-      "conf": 96.4604,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "He came through this door.",
-      "x": 0.6083,
-      "y": 0.4229,
-      "w": 0.2674,
-      "h": 0.045,
-      "words": [
-        "He",
-        "came",
-        "through",
-        "this",
-        "door."
-      ],
-      "conf": 96.1916,
-      "source": "psm-11"
+        "the"
+      ]
     },
     {
       "id": "r7",
-      "order": 6,
-      "text": "Mr. Smith is putting his hat on the table.",
-      "x": 0.1208,
-      "y": 0.5364,
-      "w": 0.3607,
-      "h": 0.0444,
+      "text": "room.",
+      "x": 0.1303,
+      "y": 0.1949,
+      "w": 0.0871,
+      "h": 0.0125,
       "words": [
-        "Mr.",
-        "Smith",
-        "is",
-        "putting",
-        "his",
-        "hat",
-        "on",
-        "the",
-        "table."
-      ],
-      "conf": 95.8235,
-      "source": "psm-11"
+        "room."
+      ]
     },
     {
       "id": "r8",
-      "order": 7,
-      "text": "He put his hat on the table.",
-      "x": 0.5764,
+      "text": "7",
+      "x": 0.1544,
+      "y": 0.3588,
+      "w": 0.0198,
+      "h": 0.0217,
+      "words": [
+        "7"
+      ]
+    },
+    {
+      "id": "r9",
+      "text": "She went through",
+      "x": 0.126,
+      "y": 0.3974,
+      "w": 0.2752,
+      "h": 0.0223,
+      "words": [
+        "She",
+        "went",
+        "through"
+      ]
+    },
+    {
+      "id": "r10",
+      "text": "<",
+      "x": 0.8292,
+      "y": 0.3985,
+      "w": 0.0475,
+      "h": 0.0174,
+      "words": [
+        "<"
+      ]
+    },
+    {
+      "id": "r11",
+      "text": "this door.",
+      "x": 0.1242,
+      "y": 0.4229,
+      "w": 0.1467,
+      "h": 0.019,
+      "words": [
+        "this",
+        "door."
+      ]
+    },
+    {
+      "id": "r12",
+      "text": "He came through",
+      "x": 0.61,
+      "y": 0.4229,
+      "w": 0.2657,
+      "h": 0.0239,
+      "words": [
+        "He",
+        "came",
+        "through"
+      ]
+    },
+    {
+      "id": "r13",
+      "text": "this door.",
+      "x": 0.6083,
+      "y": 0.4484,
+      "w": 0.145,
+      "h": 0.0195,
+      "words": [
+        "this",
+        "door."
+      ]
+    },
+    {
+      "id": "r14",
+      "text": "ewe",
+      "x": 0.2053,
+      "y": 0.4929,
+      "w": 0.0552,
+      "h": 0.0043,
+      "words": [
+        "ewe"
+      ]
+    },
+    {
+      "id": "r15",
+      "text": "He put his hat on the",
+      "x": 0.5781,
       "y": 0.5288,
-      "w": 0.3244,
-      "h": 0.0445,
+      "w": 0.3227,
+      "h": 0.0244,
       "words": [
         "He",
         "put",
         "his",
         "hat",
         "on",
-        "the",
-        "table."
-      ],
-      "conf": 96.1089,
-      "source": "psm-11"
+        "the"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r16",
+      "text": "Mr. Smith is putting his",
+      "x": 0.1217,
+      "y": 0.5364,
+      "w": 0.3598,
+      "h": 0.0244,
+      "words": [
+        "Mr.",
+        "Smith",
+        "is",
+        "putting",
+        "his"
+      ]
+    },
+    {
+      "id": "r17",
+      "text": "table.",
+      "x": 0.5764,
+      "y": 0.5548,
+      "w": 0.0889,
+      "h": 0.0185,
+      "words": [
+        "table."
+      ]
+    },
+    {
+      "id": "r18",
+      "text": "hat on the table.",
+      "x": 0.1208,
+      "y": 0.5613,
+      "w": 0.258,
+      "h": 0.0195,
+      "words": [
+        "hat",
+        "on",
+        "the",
+        "table."
+      ]
+    },
+    {
+      "id": "r19",
       "text": "It is on the table now.",
       "x": 0.5781,
       "y": 0.5803,
@@ -232,18 +348,371 @@
         "the",
         "table",
         "now."
-      ],
-      "conf": 96.2886,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "He will go out of the room through this door.",
+      "id": "r20",
+      "text": "Ad]",
+      "x": 0.1001,
+      "y": 0.5896,
+      "w": 0.4193,
+      "h": 0.2302,
+      "words": [
+        "Ad]"
+      ]
+    },
+    {
+      "id": "r21",
+      "text": "al",
+      "x": 0.547,
+      "y": 0.5961,
+      "w": 0.4107,
+      "h": 0.2199,
+      "words": [
+        "al"
+      ]
+    },
+    {
+      "id": "r22",
+      "text": "He will go out of the",
       "x": 0.1208,
       "y": 0.8312,
-      "w": 0.3719,
-      "h": 0.0488,
+      "w": 0.3227,
+      "h": 0.0223,
+      "words": [
+        "He",
+        "will",
+        "go",
+        "out",
+        "of",
+        "the"
+      ]
+    },
+    {
+      "id": "r23",
+      "text": "He went out of the room",
+      "x": 0.572,
+      "y": 0.8268,
+      "w": 0.3788,
+      "h": 0.019,
+      "words": [
+        "He",
+        "went",
+        "out",
+        "of",
+        "the",
+        "room"
+      ]
+    },
+    {
+      "id": "r24",
+      "text": "room through this door.",
+      "x": 0.1217,
+      "y": 0.8567,
+      "w": 0.371,
+      "h": 0.0233,
+      "words": [
+        "room",
+        "through",
+        "this",
+        "door."
+      ]
+    },
+    {
+      "id": "r25",
+      "text": "through this door.",
+      "x": 0.5695,
+      "y": 0.8523,
+      "w": 0.2796,
+      "h": 0.0233,
+      "words": [
+        "through",
+        "this",
+        "door."
+      ]
+    },
+    {
+      "id": "r26",
+      "text": "63",
+      "x": 0.9258,
+      "y": 0.9316,
+      "w": 0.0293,
+      "h": 0.0136,
+      "words": [
+        "63"
+      ]
+    },
+    {
+      "id": "r27",
+      "text": "'",
+      "x": 0.5306,
+      "y": 0.082,
+      "w": 0.0052,
+      "h": 0.0092,
+      "words": [
+        "'"
+      ]
+    },
+    {
+      "id": "r28",
+      "text": "Mrs. Smith is not in the | Mr. Smith is in the room.",
+      "x": 0.1286,
+      "y": 0.1107,
+      "w": 0.8154,
+      "h": 0.0244,
+      "words": [
+        "Mrs.",
+        "Smith",
+        "is",
+        "not",
+        "in",
+        "the",
+        "|",
+        "Mr.",
+        "Smith",
+        "is",
+        "in",
+        "the",
+        "room."
+      ]
+    },
+    {
+      "id": "r29",
+      "text": "room, He came into the room.",
+      "x": 0.1294,
+      "y": 0.1352,
+      "w": 0.7964,
+      "h": 0.0277,
+      "words": [
+        "room,",
+        "He",
+        "came",
+        "into",
+        "the",
+        "room."
+      ]
+    },
+    {
+      "id": "r30",
+      "text": "She went out of the ‘",
+      "x": 0.1303,
+      "y": 0.1623,
+      "w": 0.4055,
+      "h": 0.0201,
+      "words": [
+        "She",
+        "went",
+        "out",
+        "of",
+        "the",
+        "‘"
+      ]
+    },
+    {
+      "id": "r31",
+      "text": "room.",
+      "x": 0.1303,
+      "y": 0.1949,
+      "w": 0.0871,
+      "h": 0.0125,
+      "words": [
+        "room."
+      ]
+    },
+    {
+      "id": "r32",
+      "text": "t",
+      "x": 0.5306,
+      "y": 0.2128,
+      "w": 0.0052,
+      "h": 0.0092,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r33",
+      "text": "\\ -",
+      "x": 0.5306,
+      "y": 0.228,
+      "w": 0.3244,
+      "h": 0.0233,
+      "words": [
+        "\\",
+        "-"
+      ]
+    },
+    {
+      "id": "r34",
+      "text": "!",
+      "x": 0.5298,
+      "y": 0.3442,
+      "w": 0.0035,
+      "h": 0.0375,
+      "words": [
+        "!"
+      ]
+    },
+    {
+      "id": "r35",
+      "text": "She went through <_",
+      "x": 0.126,
+      "y": 0.3974,
+      "w": 0.7506,
+      "h": 0.0223,
+      "words": [
+        "She",
+        "went",
+        "through",
+        "<_"
+      ]
+    },
+    {
+      "id": "r36",
+      "text": "this door. 1 He came through",
+      "x": 0.1242,
+      "y": 0.4229,
+      "w": 0.7515,
+      "h": 0.0239,
+      "words": [
+        "this",
+        "door.",
+        "1",
+        "He",
+        "came",
+        "through"
+      ]
+    },
+    {
+      "id": "r37",
+      "text": "\\ this door.",
+      "x": 0.5306,
+      "y": 0.4468,
+      "w": 0.2226,
+      "h": 0.0228,
+      "words": [
+        "\\",
+        "this",
+        "door."
+      ]
+    },
+    {
+      "id": "r38",
+      "text": "1",
+      "x": 0.5306,
+      "y": 0.4756,
+      "w": 0.0043,
+      "h": 0.0092,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r39",
+      "text": "Mr. Smith is putting his | He put his hat on the",
+      "x": 0.1217,
+      "y": 0.5288,
+      "w": 0.7791,
+      "h": 0.0331,
+      "words": [
+        "Mr.",
+        "Smith",
+        "is",
+        "putting",
+        "his",
+        "|",
+        "He",
+        "put",
+        "his",
+        "hat",
+        "on",
+        "the"
+      ]
+    },
+    {
+      "id": "r40",
+      "text": "hat on the table. 1 table.",
+      "x": 0.1208,
+      "y": 0.5548,
+      "w": 0.5444,
+      "h": 0.0261,
+      "words": [
+        "hat",
+        "on",
+        "the",
+        "table.",
+        "1",
+        "table."
+      ]
+    },
+    {
+      "id": "r41",
+      "text": "| It is on the table now.",
+      "x": 0.5306,
+      "y": 0.5803,
+      "w": 0.3814,
+      "h": 0.0261,
+      "words": [
+        "|",
+        "It",
+        "is",
+        "on",
+        "the",
+        "table",
+        "now."
+      ]
+    },
+    {
+      "id": "r42",
+      "text": "!",
+      "x": 0.5289,
+      "y": 0.6699,
+      "w": 0.0052,
+      "h": 0.0098,
+      "words": [
+        "!"
+      ]
+    },
+    {
+      "id": "r43",
+      "text": "i)",
+      "x": 0.5298,
+      "y": 0.6857,
+      "w": 0.0043,
+      "h": 0.0092,
+      "words": [
+        "i)"
+      ]
+    },
+    {
+      "id": "r44",
+      "text": "|",
+      "x": 0.5298,
+      "y": 0.7714,
+      "w": 0.0035,
+      "h": 0.0098,
+      "words": [
+        "|"
+      ]
+    },
+    {
+      "id": "r45",
+      "text": "4",
+      "x": 0.5289,
+      "y": 0.7861,
+      "w": 0.0043,
+      "h": 0.0087,
+      "words": [
+        "4"
+      ]
+    },
+    {
+      "id": "r46",
+      "text": "He will go out of the | He went out of the room",
+      "x": 0.1208,
+      "y": 0.8268,
+      "w": 0.83,
+      "h": 0.0266,
       "words": [
         "He",
         "will",
@@ -251,35 +720,43 @@
         "out",
         "of",
         "the",
-        "room",
-        "through",
-        "this",
-        "door."
-      ],
-      "conf": 96.5175,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "He went out of the room through this door.",
-      "x": 0.5695,
-      "y": 0.8268,
-      "w": 0.3813,
-      "h": 0.0488,
-      "words": [
+        "|",
         "He",
         "went",
         "out",
         "of",
         "the",
+        "room"
+      ]
+    },
+    {
+      "id": "r47",
+      "text": "room through this door, | through this door.",
+      "x": 0.1217,
+      "y": 0.8523,
+      "w": 0.7274,
+      "h": 0.0288,
+      "words": [
         "room",
         "through",
         "this",
+        "door,",
+        "|",
+        "through",
+        "this",
         "door."
-      ],
-      "conf": 96.5661,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "id": "r48",
+      "text": "63",
+      "x": 0.9258,
+      "y": 0.9316,
+      "w": 0.0293,
+      "h": 0.0136,
+      "words": [
+        "63"
+      ]
     }
   ]
 }

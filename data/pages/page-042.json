@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2042.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 77,
+    "regionCount": 44,
+    "wordCount": 174,
     "imageWidth": 1300,
     "imageHeight": 1884
   },
@@ -18,9 +18,15 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r4",
-        "r7"
+        "r3",
+        "r5",
+        "r6",
+        "r9",
+        "r10",
+        "r30",
+        "r31",
+        "r32",
+        "r33"
       ]
     },
     {
@@ -31,10 +37,12 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r1",
         "r2",
-        "r3",
-        "r5",
-        "r6"
+        "r4",
+        "r7",
+        "r8",
+        "r11"
       ]
     },
     {
@@ -45,9 +53,21 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r11",
-        "r12"
+        "r14",
+        "r16",
+        "r18",
+        "r21",
+        "r24",
+        "r27",
+        "r29",
+        "r37",
+        "r38",
+        "r39",
+        "r40",
+        "r41",
+        "r42",
+        "r43",
+        "r44"
       ]
     },
     {
@@ -58,35 +78,37 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r10"
+        "r12",
+        "r13",
+        "r15",
+        "r17",
+        "r19",
+        "r20",
+        "r22",
+        "r23",
+        "r25",
+        "r26",
+        "r28",
+        "r34",
+        "r35",
+        "r36"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
-      "text": "The girl is going to the window.",
-      "x": 0.1608,
-      "y": 0.0865,
-      "w": 0.3154,
-      "h": 0.0436,
+      "text": "‘",
+      "x": 0.5177,
+      "y": 0.0955,
+      "w": 0.0046,
+      "h": 0.008,
       "words": [
-        "The",
-        "girl",
-        "is",
-        "going",
-        "to",
-        "the",
-        "window."
-      ],
-      "conf": 95.1444,
-      "source": "psm-11"
+        "‘"
+      ]
     },
     {
       "id": "r2",
-      "order": 1,
       "text": "She went to the window.",
       "x": 0.5431,
       "y": 0.0865,
@@ -98,13 +120,26 @@
         "to",
         "the",
         "window."
-      ],
-      "conf": 96.3298,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r3",
-      "order": 2,
+      "text": "The girl is going to the",
+      "x": 0.1608,
+      "y": 0.0865,
+      "w": 0.3154,
+      "h": 0.0223,
+      "words": [
+        "The",
+        "girl",
+        "is",
+        "going",
+        "to",
+        "the"
+      ]
+    },
+    {
+      "id": "r4",
       "text": "Where is she now?",
       "x": 0.5446,
       "y": 0.1115,
@@ -115,13 +150,21 @@
         "is",
         "she",
         "now?"
-      ],
-      "conf": 95.3945,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
+      "id": "r5",
+      "text": "window.",
+      "x": 0.1623,
+      "y": 0.1131,
+      "w": 0.1154,
+      "h": 0.017,
+      "words": [
+        "window."
+      ]
+    },
+    {
+      "id": "r6",
       "text": "Where was she?",
       "x": 0.1623,
       "y": 0.1359,
@@ -131,50 +174,47 @@
         "Where",
         "was",
         "she?"
-      ],
-      "conf": 95.8709,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "She is at the window now.",
+      "id": "r7",
+      "text": "She is at the window",
       "x": 0.5438,
       "y": 0.1364,
       "w": 0.29,
-      "h": 0.043,
+      "h": 0.0186,
       "words": [
         "She",
         "is",
         "at",
         "the",
-        "window",
-        "now."
-      ],
-      "conf": 96.3221,
-      "source": "psm-11"
+        "window"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "She is with the boy",
-      "x": 0.5685,
-      "y": 0.4023,
-      "w": 0.2708,
-      "h": 0.0467,
+      "id": "r8",
+      "text": "now.",
+      "x": 0.5438,
+      "y": 0.1683,
+      "w": 0.0654,
+      "h": 0.0111,
       "words": [
-        "She",
-        "is",
-        "with",
-        "the",
-        "boy"
-      ],
-      "conf": 94.3614,
-      "source": "psm-11"
+        "now."
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r9",
+      "text": "-",
+      "x": 0.4046,
+      "y": 0.3301,
+      "w": 0.01,
+      "h": 0.0037,
+      "words": [
+        "-"
+      ]
+    },
+    {
+      "id": "r10",
       "text": "She was at the door.",
       "x": 0.1785,
       "y": 0.4252,
@@ -186,105 +226,455 @@
         "at",
         "the",
         "door."
-      ],
-      "conf": 96.0135,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "These books are together on the shelf.",
+      "id": "r11",
+      "text": "She is with the boy",
+      "x": 0.5685,
+      "y": 0.4023,
+      "w": 0.2708,
+      "h": 0.0467,
+      "words": [
+        "She",
+        "is",
+        "with",
+        "the",
+        "boy"
+      ]
+    },
+    {
+      "id": "r12",
+      "text": "These books are together",
       "x": 0.5492,
       "y": 0.5833,
       "w": 0.3454,
-      "h": 0.043,
+      "h": 0.0223,
       "words": [
         "These",
         "books",
         "are",
-        "together",
+        "together"
+      ]
+    },
+    {
+      "id": "r13",
+      "text": "on the shelf.",
+      "x": 0.5492,
+      "y": 0.6083,
+      "w": 0.1708,
+      "h": 0.018,
+      "words": [
         "on",
         "the",
         "shelf."
-      ],
-      "conf": 96.3092,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "They are at the window together.",
+      "id": "r14",
+      "text": "They are at the window",
       "x": 0.1615,
       "y": 0.7447,
       "w": 0.3346,
-      "h": 0.0472,
+      "h": 0.0228,
       "words": [
         "They",
         "are",
         "at",
         "the",
-        "window",
-        "together."
-      ],
-      "conf": 96.3934,
-      "source": "psm-11"
+        "window"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "These books are not together. They are on the shelf, but they are not together.",
-      "x": 0.5608,
+      "id": "r15",
+      "text": "These books are not",
+      "x": 0.5623,
       "y": 0.7622,
-      "w": 0.3092,
-      "h": 0.0966,
+      "w": 0.2815,
+      "h": 0.018,
       "words": [
         "These",
         "books",
         "are",
-        "not",
-        "together.",
-        "They",
-        "are",
-        "on",
-        "the",
-        "shelf,",
-        "but",
-        "they",
-        "are",
-        "not",
-        "together."
-      ],
-      "conf": 96.0657,
-      "source": "psm-11"
+        "not"
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "She is with him at the window.",
+      "id": "r16",
+      "text": "together.",
+      "x": 0.1615,
+      "y": 0.7696,
+      "w": 0.1262,
+      "h": 0.0223,
+      "words": [
+        "together."
+      ]
+    },
+    {
+      "id": "r17",
+      "text": "i]",
+      "x": 0.5169,
+      "y": 0.7967,
+      "w": 0.0046,
+      "h": 0.008,
+      "words": [
+        "i]"
+      ]
+    },
+    {
+      "id": "r18",
+      "text": "She is with him at the",
       "x": 0.1615,
       "y": 0.7946,
       "w": 0.2977,
-      "h": 0.0435,
+      "h": 0.0196,
       "words": [
         "She",
         "is",
         "with",
         "him",
         "at",
-        "the",
-        "window."
-      ],
-      "conf": 96.3397,
-      "source": "psm-11"
+        "the"
+      ]
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "He is with her at the window.",
+      "id": "r19",
+      "text": "1",
+      "x": 0.5169,
+      "y": 0.8094,
+      "w": 0.0046,
+      "h": 0.0096,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r20",
+      "text": "together. They are on",
+      "x": 0.5608,
+      "y": 0.7872,
+      "w": 0.3077,
+      "h": 0.0239,
+      "words": [
+        "together.",
+        "They",
+        "are",
+        "on"
+      ]
+    },
+    {
+      "id": "r21",
+      "text": "window.",
       "x": 0.1615,
+      "y": 0.8195,
+      "w": 0.1169,
+      "h": 0.0186,
+      "words": [
+        "window."
+      ]
+    },
+    {
+      "id": "r22",
+      "text": "‘",
+      "x": 0.5169,
+      "y": 0.8238,
+      "w": 0.0046,
+      "h": 0.009,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r23",
+      "text": "the shelf, but they are",
+      "x": 0.5615,
+      "y": 0.8121,
+      "w": 0.3085,
+      "h": 0.0234,
+      "words": [
+        "the",
+        "shelf,",
+        "but",
+        "they",
+        "are"
+      ]
+    },
+    {
+      "id": "r24",
+      "text": "He is with her at the",
+      "x": 0.1623,
       "y": 0.8418,
-      "w": 0.2831,
-      "h": 0.0462,
+      "w": 0.2823,
+      "h": 0.0223,
+      "words": [
+        "He",
+        "is",
+        "with",
+        "her",
+        "at",
+        "the"
+      ]
+    },
+    {
+      "id": "r25",
+      "text": "'",
+      "x": 0.5169,
+      "y": 0.8519,
+      "w": 0.0054,
+      "h": 0.0096,
+      "words": [
+        "'"
+      ]
+    },
+    {
+      "id": "r26",
+      "text": "not together.",
+      "x": 0.5608,
+      "y": 0.8365,
+      "w": 0.1823,
+      "h": 0.0223,
+      "words": [
+        "not",
+        "together."
+      ]
+    },
+    {
+      "id": "r27",
+      "text": "window.",
+      "x": 0.1615,
+      "y": 0.8694,
+      "w": 0.1169,
+      "h": 0.0186,
+      "words": [
+        "window."
+      ]
+    },
+    {
+      "id": "r28",
+      "text": "a",
+      "x": 0.5162,
+      "y": 0.8795,
+      "w": 0.0054,
+      "h": 0.0074,
+      "words": [
+        "a"
+      ]
+    },
+    {
+      "id": "r29",
+      "text": "38",
+      "x": 0.13,
+      "y": 0.9103,
+      "w": 0.0238,
+      "h": 0.0127,
+      "words": [
+        "38"
+      ]
+    },
+    {
+      "id": "r30",
+      "text": "The girl is going to the 1 She went to the window. _",
+      "x": 0.1608,
+      "y": 0.0823,
+      "w": 0.7569,
+      "h": 0.0271,
+      "words": [
+        "The",
+        "girl",
+        "is",
+        "going",
+        "to",
+        "the",
+        "1",
+        "She",
+        "went",
+        "to",
+        "the",
+        "window.",
+        "_"
+      ]
+    },
+    {
+      "id": "r31",
+      "text": "window. Where is she now?",
+      "x": 0.1623,
+      "y": 0.1083,
+      "w": 0.6446,
+      "h": 0.0281,
+      "words": [
+        "window.",
+        "Where",
+        "is",
+        "she",
+        "now?"
+      ]
+    },
+    {
+      "id": "r32",
+      "text": "Where was she? ' She is at the window",
+      "x": 0.1623,
+      "y": 0.1359,
+      "w": 0.6715,
+      "h": 0.0239,
+      "words": [
+        "Where",
+        "was",
+        "she?",
+        "'",
+        "She",
+        "is",
+        "at",
+        "the",
+        "window"
+      ]
+    },
+    {
+      "id": "r33",
+      "text": "She was atthe door. . She is with the boy.",
+      "x": 0.1785,
+      "y": 0.4252,
+      "w": 0.6615,
+      "h": 0.0239,
+      "words": [
+        "She",
+        "was",
+        "atthe",
+        "door.",
+        ".",
+        "She",
+        "is",
+        "with",
+        "the",
+        "boy."
+      ]
+    },
+    {
+      "id": "r34",
+      "text": "t",
+      "x": 0.5177,
+      "y": 0.5414,
+      "w": 0.0046,
+      "h": 0.0085,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r35",
+      "text": "; These books are together",
+      "x": 0.5177,
+      "y": 0.5833,
+      "w": 0.3769,
+      "h": 0.0239,
+      "words": [
+        ";",
+        "These",
+        "books",
+        "are",
+        "together"
+      ]
+    },
+    {
+      "id": "r36",
+      "text": "' on the shelf.",
+      "x": 0.5177,
+      "y": 0.6083,
+      "w": 0.2023,
+      "h": 0.0265,
+      "words": [
+        "'",
+        "on",
+        "the",
+        "shelf."
+      ]
+    },
+    {
+      "id": "r37",
+      "text": "—",
+      "x": 0.17,
+      "y": 0.7224,
+      "w": 0.0562,
+      "h": 0.0064,
+      "words": [
+        "—"
+      ]
+    },
+    {
+      "id": "r38",
+      "text": "Th at the window |",
+      "x": 0.1615,
+      "y": 0.7394,
+      "w": 0.36,
+      "h": 0.0244,
+      "words": [
+        "Th",
+        "at",
+        "the",
+        "window",
+        "|"
+      ]
+    },
+    {
+      "id": "r39",
+      "text": "together. © window These books are not",
+      "x": 0.1615,
+      "y": 0.7489,
+      "w": 0.6823,
+      "h": 0.0451,
+      "words": [
+        "together.",
+        "©",
+        "window",
+        "These",
+        "books",
+        "are",
+        "not"
+      ]
+    },
+    {
+      "id": "r40",
+      "text": "She is withhim at the | together. They are on",
+      "x": 0.1615,
+      "y": 0.7872,
+      "w": 0.7069,
+      "h": 0.0318,
+      "words": [
+        "She",
+        "is",
+        "withhim",
+        "at",
+        "the",
+        "|",
+        "together.",
+        "They",
+        "are",
+        "on"
+      ]
+    },
+    {
+      "id": "r41",
+      "text": "window. 1 the shelf, but they are",
+      "x": 0.1615,
+      "y": 0.8121,
+      "w": 0.7085,
+      "h": 0.026,
+      "words": [
+        "window.",
+        "1",
+        "the",
+        "shelf,",
+        "but",
+        "they",
+        "are"
+      ]
+    },
+    {
+      "id": "r42",
+      "text": "He is with her at the ' not together.",
+      "x": 0.1623,
+      "y": 0.8365,
+      "w": 0.5808,
+      "h": 0.0276,
       "words": [
         "He",
         "is",
@@ -292,10 +682,33 @@
         "her",
         "at",
         "the",
-        "window."
-      ],
-      "conf": 96.5533,
-      "source": "psm-11"
+        "'",
+        "not",
+        "together."
+      ]
+    },
+    {
+      "id": "r43",
+      "text": "window. :",
+      "x": 0.1615,
+      "y": 0.8646,
+      "w": 0.36,
+      "h": 0.0297,
+      "words": [
+        "window.",
+        ":"
+      ]
+    },
+    {
+      "id": "r44",
+      "text": "38",
+      "x": 0.13,
+      "y": 0.9103,
+      "w": 0.0238,
+      "h": 0.0127,
+      "words": [
+        "38"
+      ]
     }
   ]
 }

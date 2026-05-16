@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2049.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 87,
+    "regionCount": 47,
+    "wordCount": 197,
     "imageWidth": 1196,
     "imageHeight": 1875
   },
@@ -19,8 +19,14 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r5",
-        "r6"
+        "r6",
+        "r7",
+        "r9",
+        "r25",
+        "r26",
+        "r31",
+        "r32",
+        "r33"
       ]
     },
     {
@@ -34,7 +40,14 @@
         "r2",
         "r3",
         "r4",
-        "r7"
+        "r5",
+        "r8",
+        "r27",
+        "r28",
+        "r29",
+        "r30",
+        "r34",
+        "r35"
       ]
     },
     {
@@ -45,9 +58,19 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r12",
-        "r13"
+        "r10",
+        "r15",
+        "r18",
+        "r20",
+        "r22",
+        "r23",
+        "r36",
+        "r41",
+        "r42",
+        "r43",
+        "r44",
+        "r45",
+        "r46"
       ]
     },
     {
@@ -58,16 +81,26 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r10",
-        "r11"
+        "r11",
+        "r12",
+        "r13",
+        "r14",
+        "r16",
+        "r17",
+        "r19",
+        "r21",
+        "r24",
+        "r37",
+        "r38",
+        "r39",
+        "r40",
+        "r47"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
       "text": "This is his",
       "x": 0.2584,
       "y": 0.1051,
@@ -77,13 +110,10 @@
         "This",
         "is",
         "his"
-      ],
-      "conf": 96.1754,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r2",
-      "order": 1,
       "text": "These are his ears.",
       "x": 0.5661,
       "y": 0.1077,
@@ -94,13 +124,21 @@
         "are",
         "his",
         "ears."
-      ],
-      "conf": 94.1152,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r3",
-      "order": 2,
+      "text": "-",
+      "x": 0.7918,
+      "y": 0.1749,
+      "w": 0.0301,
+      "h": 0.0117,
+      "words": [
+        "-"
+      ]
+    },
+    {
+      "id": "r4",
       "text": "Where are her ears?",
       "x": 0.5452,
       "y": 0.232,
@@ -111,13 +149,10 @@
         "are",
         "her",
         "ears?"
-      ],
-      "conf": 96.2809,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
+      "id": "r5",
       "text": "They are under her hair,",
       "x": 0.5452,
       "y": 0.2565,
@@ -129,13 +164,10 @@
         "under",
         "her",
         "hair,"
-      ],
-      "conf": 95.5689,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r6",
       "text": "This is her hair.",
       "x": 0.2592,
       "y": 0.2901,
@@ -146,13 +178,10 @@
         "is",
         "her",
         "hair."
-      ],
-      "conf": 96.2595,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
+      "id": "r7",
       "text": "It is long.",
       "x": 0.2609,
       "y": 0.3152,
@@ -162,13 +191,10 @@
         "It",
         "is",
         "long."
-      ],
-      "conf": 93.5585,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r8",
       "text": "Her hair is over her ears.",
       "x": 0.5468,
       "y": 0.44,
@@ -181,13 +207,24 @@
         "over",
         "her",
         "ears."
-      ],
-      "conf": 95.0959,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r9",
+      "text": "ewe wee eee eee",
+      "x": 0.2542,
+      "y": 0.4869,
+      "w": 0.459,
+      "h": 0.0043,
+      "words": [
+        "ewe",
+        "wee",
+        "eee",
+        "eee"
+      ]
+    },
+    {
+      "id": "r10",
       "text": "This is his head,",
       "x": 0.1296,
       "y": 0.5189,
@@ -198,13 +235,10 @@
         "is",
         "his",
         "head,"
-      ],
-      "conf": 93.384,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r11",
       "text": "This is a sock",
       "x": 0.5803,
       "y": 0.56,
@@ -215,13 +249,10 @@
         "is",
         "a",
         "sock"
-      ],
-      "conf": 75.3974,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r12",
       "text": "it has a face.",
       "x": 0.5426,
       "y": 0.6688,
@@ -232,56 +263,82 @@
         "has",
         "a",
         "face."
-      ],
-      "conf": 92.2142,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "This is the face of the clock. The clock has two hands, a long hand and a short hand. The long hand is at The short hand is between and",
-      "x": 0.541,
+      "id": "r13",
+      "text": "This is the face of the",
+      "x": 0.5426,
       "y": 0.6933,
-      "w": 0.3737,
-      "h": 0.1462,
+      "w": 0.3211,
+      "h": 0.0197,
       "words": [
         "This",
         "is",
         "the",
         "face",
         "of",
-        "the",
+        "the"
+      ]
+    },
+    {
+      "id": "r14",
+      "text": "clock. The clock has two",
+      "x": 0.5418,
+      "y": 0.7195,
+      "w": 0.3729,
+      "h": 0.0197,
+      "words": [
         "clock.",
         "The",
         "clock",
         "has",
-        "two",
+        "two"
+      ]
+    },
+    {
+      "id": "r15",
+      "text": "&",
+      "x": 0.1998,
+      "y": 0.6768,
+      "w": 0.1028,
+      "h": 0.088,
+      "words": [
+        "&"
+      ]
+    },
+    {
+      "id": "r16",
+      "text": "hands, a long hand and",
+      "x": 0.5418,
+      "y": 0.7445,
+      "w": 0.3629,
+      "h": 0.0235,
+      "words": [
         "hands,",
         "a",
         "long",
         "hand",
-        "and",
+        "and"
+      ]
+    },
+    {
+      "id": "r17",
+      "text": "a short hand. The long",
+      "x": 0.541,
+      "y": 0.7701,
+      "w": 0.3428,
+      "h": 0.0229,
+      "words": [
         "a",
         "short",
         "hand.",
         "The",
-        "long",
-        "hand",
-        "is",
-        "at",
-        "The",
-        "short",
-        "hand",
-        "is",
-        "between",
-        "and"
-      ],
-      "conf": 96.6581,
-      "source": "psm-11"
+        "long"
+      ]
     },
     {
-      "id": "r12",
-      "order": 11,
+      "id": "r18",
       "text": "This is his face.",
       "x": 0.1187,
       "y": 0.7797,
@@ -292,34 +349,422 @@
         "is",
         "his",
         "face."
-      ],
-      "conf": 96.1023,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r13",
-      "order": 12,
-      "text": "His eyes, his nose, and his mouth are parts of his face.",
-      "x": 0.1187,
+      "id": "r19",
+      "text": "hand is at 5. The short",
+      "x": 0.5426,
+      "y": 0.7963,
+      "w": 0.3528,
+      "h": 0.0187,
+      "words": [
+        "hand",
+        "is",
+        "at",
+        "5.",
+        "The",
+        "short"
+      ]
+    },
+    {
+      "id": "r20",
+      "text": "His eyes, his nose, and",
+      "x": 0.1204,
       "y": 0.8048,
-      "w": 0.3478,
-      "h": 0.0688,
+      "w": 0.3411,
+      "h": 0.024,
       "words": [
         "His",
         "eyes,",
         "his",
         "nose,",
+        "and"
+      ]
+    },
+    {
+      "id": "r21",
+      "text": "hand is between 7 and 8.",
+      "x": 0.5426,
+      "y": 0.8203,
+      "w": 0.3721,
+      "h": 0.0192,
+      "words": [
+        "hand",
+        "is",
+        "between",
+        "7",
         "and",
+        "8."
+      ]
+    },
+    {
+      "id": "r22",
+      "text": "his mouth are parts of",
+      "x": 0.1187,
+      "y": 0.8299,
+      "w": 0.3478,
+      "h": 0.024,
+      "words": [
+        "his",
+        "mouth",
+        "are",
+        "parts",
+        "of"
+      ]
+    },
+    {
+      "id": "r23",
+      "text": "his face.",
+      "x": 0.1196,
+      "y": 0.8544,
+      "w": 0.1237,
+      "h": 0.0192,
+      "words": [
+        "his",
+        "face."
+      ]
+    },
+    {
+      "id": "r24",
+      "text": "45",
+      "x": 0.8863,
+      "y": 0.9227,
+      "w": 0.0276,
+      "h": 0.0128,
+      "words": [
+        "45"
+      ]
+    },
+    {
+      "id": "r25",
+      "text": "This is his hair. These are his ears.",
+      "x": 0.2584,
+      "y": 0.1051,
+      "w": 0.5853,
+      "h": 0.0203,
+      "words": [
+        "This",
+        "is",
+        "his",
+        "hair.",
+        "These",
+        "are",
+        "his",
+        "ears."
+      ]
+    },
+    {
+      "id": "r26",
+      "text": "it is short. '",
+      "x": 0.26,
+      "y": 0.1285,
+      "w": 0.245,
+      "h": 0.0261,
+      "words": [
+        "it",
+        "is",
+        "short.",
+        "'"
+      ]
+    },
+    {
+      "id": "r27",
+      "text": "'",
+      "x": 0.5008,
+      "y": 0.1547,
+      "w": 0.0042,
+      "h": 0.0091,
+      "words": [
+        "'"
+      ]
+    },
+    {
+      "id": "r28",
+      "text": "t",
+      "x": 0.5017,
+      "y": 0.2123,
+      "w": 0.005,
+      "h": 0.0091,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r29",
+      "text": "1 Where are her ears?",
+      "x": 0.5017,
+      "y": 0.2267,
+      "w": 0.3604,
+      "h": 0.0245,
+      "words": [
+        "1",
+        "Where",
+        "are",
+        "her",
+        "ears?"
+      ]
+    },
+    {
+      "id": "r30",
+      "text": "They are under her hair,",
+      "x": 0.5452,
+      "y": 0.2565,
+      "w": 0.3712,
+      "h": 0.0245,
+      "words": [
+        "They",
+        "are",
+        "under",
+        "her",
+        "hair,"
+      ]
+    },
+    {
+      "id": "r31",
+      "text": "This is her hair. :",
+      "x": 0.2592,
+      "y": 0.2843,
+      "w": 0.2475,
+      "h": 0.0261,
+      "words": [
+        "This",
+        "is",
+        "her",
+        "hair.",
+        ":"
+      ]
+    },
+    {
+      "id": "r32",
+      "text": "It is long.",
+      "x": 0.2609,
+      "y": 0.3152,
+      "w": 0.1363,
+      "h": 0.0235,
+      "words": [
+        "It",
+        "is",
+        "long."
+      ]
+    },
+    {
+      "id": "r33",
+      "text": "1",
+      "x": 0.4975,
+      "y": 0.3547,
+      "w": 0.0109,
+      "h": 0.0229,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r34",
+      "text": "/",
+      "x": 0.76,
+      "y": 0.3904,
+      "w": 0.0059,
+      "h": 0.0043,
+      "words": [
+        "/"
+      ]
+    },
+    {
+      "id": "r35",
+      "text": "| Her hair is over her ears.",
+      "x": 0.505,
+      "y": 0.44,
+      "w": 0.4122,
+      "h": 0.024,
+      "words": [
+        "|",
+        "Her",
+        "hair",
+        "is",
+        "over",
+        "her",
+        "ears."
+      ]
+    },
+    {
+      "id": "r36",
+      "text": "This is his head,",
+      "x": 0.1296,
+      "y": 0.5189,
+      "w": 0.24,
+      "h": 0.0213,
+      "words": [
+        "This",
+        "is",
+        "his",
+        "head,"
+      ]
+    },
+    {
+      "id": "r37",
+      "text": "1",
+      "x": 0.505,
+      "y": 0.5461,
+      "w": 0.0067,
+      "h": 0.0101,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r38",
+      "text": "is a clock.",
+      "x": 0.6505,
+      "y": 0.56,
+      "w": 0.148,
+      "h": 0.0187,
+      "words": [
+        "is",
+        "a",
+        "clock."
+      ]
+    },
+    {
+      "id": "r39",
+      "text": "1 a face.",
+      "x": 0.5059,
+      "y": 0.6613,
+      "w": 0.2324,
+      "h": 0.0261,
+      "words": [
+        "1",
+        "a",
+        "face."
+      ]
+    },
+    {
+      "id": "r40",
+      "text": "| This is the face of the",
+      "x": 0.5067,
+      "y": 0.6912,
+      "w": 0.357,
+      "h": 0.0219,
+      "words": [
+        "|",
+        "This",
+        "is",
+        "the",
+        "face",
+        "of",
+        "the"
+      ]
+    },
+    {
+      "id": "r41",
+      "text": "/ , The clock has two",
+      "x": 0.3077,
+      "y": 0.7195,
+      "w": 0.607,
+      "h": 0.0245,
+      "words": [
+        "/",
+        ",",
+        "The",
+        "clock",
+        "has",
+        "two"
+      ]
+    },
+    {
+      "id": "r42",
+      "text": "* ; hands, a long hand and",
+      "x": 0.1998,
+      "y": 0.7445,
+      "w": 0.7048,
+      "h": 0.0235,
+      "words": [
+        "*",
+        ";",
+        "hands,",
+        "a",
+        "long",
+        "hand",
+        "and"
+      ]
+    },
+    {
+      "id": "r43",
+      "text": "Thi : ‘a short hand. The long",
+      "x": 0.1154,
+      "y": 0.7691,
+      "w": 0.7684,
+      "h": 0.0309,
+      "words": [
+        "Thi",
+        ":",
+        "‘a",
+        "short",
+        "hand.",
+        "The",
+        "long"
+      ]
+    },
+    {
+      "id": "r44",
+      "text": "and | hand is at 5. The short",
+      "x": 0.4013,
+      "y": 0.7963,
+      "w": 0.4941,
+      "h": 0.0283,
+      "words": [
+        "and",
+        "|",
+        "hand",
+        "is",
+        "at",
+        "5.",
+        "The",
+        "short"
+      ]
+    },
+    {
+      "id": "r45",
+      "text": "his mouth are parts of handis between 7 and 8.",
+      "x": 0.1187,
+      "y": 0.8171,
+      "w": 0.796,
+      "h": 0.0389,
+      "words": [
         "his",
         "mouth",
         "are",
         "parts",
         "of",
+        "handis",
+        "between",
+        "7",
+        "and",
+        "8."
+      ]
+    },
+    {
+      "id": "r46",
+      "text": "his face.",
+      "x": 0.1196,
+      "y": 0.8544,
+      "w": 0.1237,
+      "h": 0.0192,
+      "words": [
         "his",
         "face."
-      ],
-      "conf": 96.6946,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "id": "r47",
+      "text": "45",
+      "x": 0.8863,
+      "y": 0.9227,
+      "w": 0.0276,
+      "h": 0.0128,
+      "words": [
+        "45"
+      ]
     }
   ]
 }

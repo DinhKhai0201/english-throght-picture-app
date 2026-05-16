@@ -2,35 +2,84 @@
   "page": 82,
   "image": "/books/page 82.png",
   "imageApiPath": "/api/books/page%2082.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 6,
-    "wordCount": 39,
+    "regionCount": 26,
+    "wordCount": 96,
     "imageWidth": 1238,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
         "r3",
+        "r12",
+        "r13"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
         "r4",
+        "r14"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8",
+        "r10",
+        "r11",
+        "r16",
+        "r17",
+        "r20",
+        "r24",
+        "r26"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r5",
-        "r6"
+        "r7",
+        "r9",
+        "r15",
+        "r18",
+        "r19",
+        "r21",
+        "r22",
+        "r23",
+        "r25"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
       "text": "Mary is getting the soup.",
       "x": 0.1074,
       "y": 0.1243,
@@ -42,34 +91,25 @@
         "getting",
         "the",
         "soup."
-      ],
-      "conf": 93.5435,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r2",
-      "order": 1,
-      "text": "John is taking the seats to the table.",
+      "text": "John is taking the seats",
       "x": 0.5428,
       "y": 0.135,
       "w": 0.3546,
-      "h": 0.0452,
+      "h": 0.0237,
       "words": [
         "John",
         "is",
         "taking",
         "the",
-        "seats",
-        "to",
-        "the",
-        "table."
-      ],
-      "conf": 91.5409,
-      "source": "psm-11"
+        "seats"
+      ]
     },
     {
       "id": "r3",
-      "order": 2,
       "text": "These are plates of soup.",
       "x": 0.1115,
       "y": 0.1668,
@@ -81,13 +121,23 @@
         "plates",
         "of",
         "soup."
-      ],
-      "conf": 95.7512,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r4",
-      "order": 3,
+      "text": "to the table.",
+      "x": 0.5428,
+      "y": 0.1608,
+      "w": 0.185,
+      "h": 0.0194,
+      "words": [
+        "to",
+        "the",
+        "table."
+      ]
+    },
+    {
+      "id": "r5",
       "text": "John is in his seat.",
       "x": 0.5533,
       "y": 0.5352,
@@ -99,51 +149,290 @@
         "in",
         "his",
         "seat."
-      ],
-      "conf": 95.648,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "Mary is in her seat at the table.",
-      "x": 0.1276,
+      "id": "r6",
+      "text": "Mary is in her seat at",
+      "x": 0.1292,
       "y": 0.5627,
-      "w": 0.3215,
-      "h": 0.0468,
+      "w": 0.3199,
+      "h": 0.0247,
       "words": [
         "Mary",
         "is",
         "in",
         "her",
         "seat",
-        "at",
-        "the",
-        "table."
-      ],
-      "conf": 95.3422,
-      "source": "psm-11"
+        "at"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "They are in their seats at the table.",
-      "x": 0.5477,
+      "id": "r7",
+      "text": "They are in their seats",
+      "x": 0.5525,
       "y": 0.5616,
-      "w": 0.3408,
-      "h": 0.0468,
+      "w": 0.336,
+      "h": 0.0242,
       "words": [
         "They",
         "are",
         "in",
         "their",
-        "seats",
+        "seats"
+      ]
+    },
+    {
+      "id": "r8",
+      "text": "the table.",
+      "x": 0.1276,
+      "y": 0.5901,
+      "w": 0.1438,
+      "h": 0.0194,
+      "words": [
+        "the",
+        "table."
+      ]
+    },
+    {
+      "id": "r9",
+      "text": "at the table.",
+      "x": 0.5477,
+      "y": 0.5874,
+      "w": 0.1866,
+      "h": 0.021,
+      "words": [
         "at",
         "the",
         "table."
-      ],
-      "conf": 96.4231,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "id": "r10",
+      "text": "Wass",
+      "x": 0.2165,
+      "y": 0.7133,
+      "w": 0.2351,
+      "h": 0.0699,
+      "words": [
+        "Wass"
+      ]
+    },
+    {
+      "id": "r11",
+      "text": "78",
+      "x": 0.0985,
+      "y": 0.9268,
+      "w": 0.0267,
+      "h": 0.0129,
+      "words": [
+        "78"
+      ]
+    },
+    {
+      "id": "r12",
+      "text": "Mary is getting the soup. John Is taking the seats",
+      "x": 0.1074,
+      "y": 0.1243,
+      "w": 0.79,
+      "h": 0.0436,
+      "words": [
+        "Mary",
+        "is",
+        "getting",
+        "the",
+        "soup.",
+        "John",
+        "Is",
+        "taking",
+        "the",
+        "seats"
+      ]
+    },
+    {
+      "id": "r13",
+      "text": "These are plates of 0 the table.",
+      "x": 0.1115,
+      "y": 0.1608,
+      "w": 0.6163,
+      "h": 0.0312,
+      "words": [
+        "These",
+        "are",
+        "plates",
+        "of",
+        "0",
+        "the",
+        "table."
+      ]
+    },
+    {
+      "id": "r14",
+      "text": "i",
+      "x": 0.5008,
+      "y": 0.4233,
+      "w": 0.0057,
+      "h": 0.0097,
+      "words": [
+        "i"
+      ]
+    },
+    {
+      "id": "r15",
+      "text": "| John is in his seat.",
+      "x": 0.504,
+      "y": 0.5315,
+      "w": 0.3207,
+      "h": 0.0242,
+      "words": [
+        "|",
+        "John",
+        "is",
+        "in",
+        "his",
+        "seat."
+      ]
+    },
+    {
+      "id": "r16",
+      "text": "Mary is in her seatat | They are in their seats",
+      "x": 0.1292,
+      "y": 0.5616,
+      "w": 0.7593,
+      "h": 0.0258,
+      "words": [
+        "Mary",
+        "is",
+        "in",
+        "her",
+        "seatat",
+        "|",
+        "They",
+        "are",
+        "in",
+        "their",
+        "seats"
+      ]
+    },
+    {
+      "id": "r17",
+      "text": "the table. ' at the table.",
+      "x": 0.1276,
+      "y": 0.5874,
+      "w": 0.6066,
+      "h": 0.029,
+      "words": [
+        "the",
+        "table.",
+        "'",
+        "at",
+        "the",
+        "table."
+      ]
+    },
+    {
+      "id": "r18",
+      "text": "'",
+      "x": 0.504,
+      "y": 0.6218,
+      "w": 0.0057,
+      "h": 0.0097,
+      "words": [
+        "'"
+      ]
+    },
+    {
+      "id": "r19",
+      "text": "many V,",
+      "x": 0.5048,
+      "y": 0.681,
+      "w": 0.1373,
+      "h": 0.0328,
+      "words": [
+        "many",
+        "V,"
+      ]
+    },
+    {
+      "id": "r20",
+      "text": "K ul",
+      "x": 0.1244,
+      "y": 0.6735,
+      "w": 0.1462,
+      "h": 0.0974,
+      "words": [
+        "K",
+        "ul"
+      ]
+    },
+    {
+      "id": "r21",
+      "text": "' <j",
+      "x": 0.5048,
+      "y": 0.7402,
+      "w": 0.1373,
+      "h": 0.0156,
+      "words": [
+        "'",
+        "<j"
+      ]
+    },
+    {
+      "id": "r22",
+      "text": "|! N",
+      "x": 0.5048,
+      "y": 0.7526,
+      "w": 0.164,
+      "h": 0.0403,
+      "words": [
+        "|!",
+        "N"
+      ]
+    },
+    {
+      "id": "r23",
+      "text": "\\",
+      "x": 0.5048,
+      "y": 0.7983,
+      "w": 0.0065,
+      "h": 0.0231,
+      "words": [
+        "\\"
+      ]
+    },
+    {
+      "id": "r24",
+      "text": "The",
+      "x": 0.4338,
+      "y": 0.8268,
+      "w": 0.0775,
+      "h": 0.0258,
+      "words": [
+        "The"
+      ]
+    },
+    {
+      "id": "r25",
+      "text": "i]",
+      "x": 0.5048,
+      "y": 0.8999,
+      "w": 0.0065,
+      "h": 0.0097,
+      "words": [
+        "i]"
+      ]
+    },
+    {
+      "id": "r26",
+      "text": "78 '",
+      "x": 0.0985,
+      "y": 0.9145,
+      "w": 0.4128,
+      "h": 0.0253,
+      "words": [
+        "78",
+        "'"
+      ]
     }
   ]
 }

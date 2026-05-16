@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2078.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 15,
-    "wordCount": 77,
+    "regionCount": 47,
+    "wordCount": 178,
     "imageWidth": 1196,
     "imageHeight": 1859
   },
@@ -18,10 +18,17 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
+        "r3",
         "r4",
         "r6",
-        "r9"
+        "r8",
+        "r10",
+        "r25",
+        "r26",
+        "r28",
+        "r31",
+        "r32",
+        "r33"
       ]
     },
     {
@@ -33,10 +40,15 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3",
+        "r2",
         "r5",
         "r7",
-        "r8"
+        "r9",
+        "r11",
+        "r24",
+        "r27",
+        "r29",
+        "r30"
       ]
     },
     {
@@ -47,9 +59,19 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r11",
-        "r13",
-        "r15"
+        "r14",
+        "r15",
+        "r17",
+        "r18",
+        "r21",
+        "r22",
+        "r23",
+        "r36",
+        "r37",
+        "r38",
+        "r39",
+        "r44",
+        "r47"
       ]
     },
     {
@@ -60,16 +82,25 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r10",
         "r12",
-        "r14"
+        "r13",
+        "r16",
+        "r19",
+        "r20",
+        "r34",
+        "r35",
+        "r40",
+        "r41",
+        "r42",
+        "r43",
+        "r45",
+        "r46"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
       "text": "Where was the hat?",
       "x": 0.5945,
       "y": 0.1377,
@@ -80,30 +111,10 @@
         "was",
         "the",
         "hat?"
-      ],
-      "conf": 96.0566,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r2",
-      "order": 1,
-      "text": "What does she see?",
-      "x": 0.1179,
-      "y": 0.1743,
-      "w": 0.3102,
-      "h": 0.0194,
-      "words": [
-        "What",
-        "does",
-        "she",
-        "see?"
-      ],
-      "conf": 96.0237,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
       "text": "it was on the table,",
       "x": 0.5945,
       "y": 0.163,
@@ -115,13 +126,24 @@
         "on",
         "the",
         "table,"
-      ],
-      "conf": 92.582,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "id": "r3",
+      "text": "What does she see?",
+      "x": 0.1179,
+      "y": 0.1743,
+      "w": 0.3102,
+      "h": 0.0194,
+      "words": [
+        "What",
+        "does",
+        "she",
+        "see?"
+      ]
     },
     {
       "id": "r4",
-      "order": 3,
       "text": "One thousand dollars.",
       "x": 0.1171,
       "y": 0.1996,
@@ -131,13 +153,10 @@
         "One",
         "thousand",
         "dollars."
-      ],
-      "conf": 96.1609,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r5",
-      "order": 4,
       "text": "What did she see?",
       "x": 0.6028,
       "y": 0.3556,
@@ -148,32 +167,25 @@
         "did",
         "she",
         "see?"
-      ],
-      "conf": 96.6498,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r6",
-      "order": 5,
-      "text": "The money is in her hand.",
-      "x": 0.1388,
+      "text": "The money is in her",
+      "x": 0.1396,
       "y": 0.3808,
-      "w": 0.3043,
-      "h": 0.0447,
+      "w": 0.3035,
+      "h": 0.0242,
       "words": [
         "The",
         "money",
         "is",
         "in",
-        "her",
-        "hand."
-      ],
-      "conf": 96.1357,
-      "source": "psm-11"
+        "her"
+      ]
     },
     {
       "id": "r7",
-      "order": 6,
       "text": "She saw the hat.",
       "x": 0.6037,
       "y": 0.3814,
@@ -184,32 +196,36 @@
         "saw",
         "the",
         "hat."
-      ],
-      "conf": 96.284,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r8",
-      "order": 7,
-      "text": "She did not see the money.",
-      "x": 0.6012,
+      "text": "hand.",
+      "x": 0.1388,
+      "y": 0.4067,
+      "w": 0.0861,
+      "h": 0.0188,
+      "words": [
+        "hand."
+      ]
+    },
+    {
+      "id": "r9",
+      "text": "She did not see the",
+      "x": 0.6028,
       "y": 0.4072,
-      "w": 0.2984,
-      "h": 0.0506,
+      "w": 0.2968,
+      "h": 0.0204,
       "words": [
         "She",
         "did",
         "not",
         "see",
-        "the",
-        "money."
-      ],
-      "conf": 94.6837,
-      "source": "psm-11"
+        "the"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r10",
       "text": "It was in the hat.",
       "x": 0.1405,
       "y": 0.4325,
@@ -221,53 +237,75 @@
         "in",
         "the",
         "hat."
-      ],
-      "conf": 93.7357,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "Does she see fhe money now?",
+      "id": "r11",
+      "text": "money.",
+      "x": 0.6012,
+      "y": 0.44,
+      "w": 0.1112,
+      "h": 0.0178,
+      "words": [
+        "money."
+      ]
+    },
+    {
+      "id": "r12",
+      "text": "Does she see fhe money",
       "x": 0.5552,
       "y": 0.5449,
       "w": 0.3721,
-      "h": 0.0468,
+      "h": 0.0247,
       "words": [
         "Does",
         "she",
         "see",
         "fhe",
-        "money",
-        "now?"
-      ],
-      "conf": 94.9854,
-      "source": "psm-11"
+        "money"
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "She put the hat in the other room.",
+      "id": "r13",
+      "text": "now?",
+      "x": 0.5552,
+      "y": 0.5729,
+      "w": 0.0819,
+      "h": 0.0188,
+      "words": [
+        "now?"
+      ]
+    },
+    {
+      "id": "r14",
+      "text": "She put the hat in the",
       "x": 0.1221,
       "y": 0.5756,
       "w": 0.3378,
-      "h": 0.0457,
+      "h": 0.0237,
       "words": [
         "She",
         "put",
         "the",
         "hat",
         "in",
-        "the",
-        "other",
-        "room."
-      ],
-      "conf": 96.5796,
-      "source": "psm-11"
+        "the"
+      ]
     },
     {
-      "id": "r12",
-      "order": 11,
+      "id": "r15",
+      "text": "other room.",
+      "x": 0.1221,
+      "y": 0.6019,
+      "w": 0.1806,
+      "h": 0.0194,
+      "words": [
+        "other",
+        "room."
+      ]
+    },
+    {
+      "id": "r16",
       "text": "Yes, she sees it.",
       "x": 0.556,
       "y": 0.5987,
@@ -278,52 +316,74 @@
         "she",
         "sees",
         "it."
-      ],
-      "conf": 96.5972,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r13",
-      "order": 12,
-      "text": "John went there and got it.",
+      "id": "r17",
+      "text": "John went there and",
       "x": 0.1221,
       "y": 0.6283,
       "w": 0.3219,
-      "h": 0.0484,
+      "h": 0.0194,
       "words": [
         "John",
         "went",
         "there",
-        "and",
-        "got",
-        "it."
-      ],
-      "conf": 96.1889,
-      "source": "psm-11"
+        "and"
+      ]
     },
     {
-      "id": "r14",
-      "order": 13,
-      "text": "Oh John! Where did you get it?",
-      "x": 0.5694,
+      "id": "r18",
+      "text": "got it.",
+      "x": 0.1221,
+      "y": 0.6557,
+      "w": 0.0895,
+      "h": 0.021,
+      "words": [
+        "got",
+        "it."
+      ]
+    },
+    {
+      "id": "r19",
+      "text": "Oh John! Where did",
+      "x": 0.5811,
       "y": 0.7219,
-      "w": 0.3378,
-      "h": 0.0543,
+      "w": 0.3261,
+      "h": 0.0237,
       "words": [
         "Oh",
         "John!",
         "Where",
-        "did",
+        "did"
+      ]
+    },
+    {
+      "id": "r20",
+      "text": "you get it?",
+      "x": 0.5694,
+      "y": 0.7531,
+      "w": 0.1656,
+      "h": 0.0231,
+      "words": [
         "you",
         "get",
         "it?"
-      ],
-      "conf": 95.3902,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r15",
-      "order": 14,
+      "id": "r21",
+      "text": "Jig",
+      "x": 0.0819,
+      "y": 0.7036,
+      "w": 0.3436,
+      "h": 0.1011,
+      "words": [
+        "Jig"
+      ]
+    },
+    {
+      "id": "r22",
       "text": "Who got it? John did.",
       "x": 0.1196,
       "y": 0.8338,
@@ -335,9 +395,357 @@
         "it?",
         "John",
         "did."
-      ],
-      "conf": 96.0493,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "id": "r23",
+      "text": "74",
+      "x": 0.0911,
+      "y": 0.9274,
+      "w": 0.0276,
+      "h": 0.0129,
+      "words": [
+        "74"
+      ]
+    },
+    {
+      "id": "r24",
+      "text": "+ Where was the hat?",
+      "x": 0.5092,
+      "y": 0.1356,
+      "w": 0.393,
+      "h": 0.0247,
+      "words": [
+        "+",
+        "Where",
+        "was",
+        "the",
+        "hat?"
+      ]
+    },
+    {
+      "id": "r25",
+      "text": "What does she see? ' It was on the table.",
+      "x": 0.1179,
+      "y": 0.163,
+      "w": 0.7742,
+      "h": 0.0307,
+      "words": [
+        "What",
+        "does",
+        "she",
+        "see?",
+        "'",
+        "It",
+        "was",
+        "on",
+        "the",
+        "table."
+      ]
+    },
+    {
+      "id": "r26",
+      "text": "One thousand dollars. :",
+      "x": 0.1171,
+      "y": 0.1942,
+      "w": 0.398,
+      "h": 0.0253,
+      "words": [
+        "One",
+        "thousand",
+        "dollars.",
+        ":"
+      ]
+    },
+    {
+      "id": "r27",
+      "text": "t",
+      "x": 0.51,
+      "y": 0.2684,
+      "w": 0.0042,
+      "h": 0.0091,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r28",
+      "text": "x ! (—)",
+      "x": 0.1087,
+      "y": 0.2496,
+      "w": 0.7734,
+      "h": 0.085,
+      "words": [
+        "x",
+        "!",
+        "(—)"
+      ]
+    },
+    {
+      "id": "r29",
+      "text": "t",
+      "x": 0.51,
+      "y": 0.3276,
+      "w": 0.0042,
+      "h": 0.0091,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r30",
+      "text": "What did she see?",
+      "x": 0.6028,
+      "y": 0.3556,
+      "w": 0.2901,
+      "h": 0.0199,
+      "words": [
+        "What",
+        "did",
+        "she",
+        "see?"
+      ]
+    },
+    {
+      "id": "r31",
+      "text": "The money | She saw the hat.",
+      "x": 0.1396,
+      "y": 0.3814,
+      "w": 0.7207,
+      "h": 0.0296,
+      "words": [
+        "The",
+        "money",
+        "|",
+        "She",
+        "saw",
+        "the",
+        "hat."
+      ]
+    },
+    {
+      "id": "r32",
+      "text": "hand. She did not see the",
+      "x": 0.1388,
+      "y": 0.4045,
+      "w": 0.7609,
+      "h": 0.028,
+      "words": [
+        "hand.",
+        "She",
+        "did",
+        "not",
+        "see",
+        "the"
+      ]
+    },
+    {
+      "id": "r33",
+      "text": "It was in the hat. money.",
+      "x": 0.1405,
+      "y": 0.4325,
+      "w": 0.5719,
+      "h": 0.0253,
+      "words": [
+        "It",
+        "was",
+        "in",
+        "the",
+        "hat.",
+        "money."
+      ]
+    },
+    {
+      "id": "r34",
+      "text": "2en",
+      "x": 0.5293,
+      "y": 0.5083,
+      "w": 0.0627,
+      "h": 0.0065,
+      "words": [
+        "2en"
+      ]
+    },
+    {
+      "id": "r35",
+      "text": "| Does she see the money",
+      "x": 0.5125,
+      "y": 0.539,
+      "w": 0.4147,
+      "h": 0.0307,
+      "words": [
+        "|",
+        "Does",
+        "she",
+        "see",
+        "the",
+        "money"
+      ]
+    },
+    {
+      "id": "r36",
+      "text": "She put the hat inthe | now?",
+      "x": 0.1221,
+      "y": 0.5707,
+      "w": 0.5151,
+      "h": 0.0285,
+      "words": [
+        "She",
+        "put",
+        "the",
+        "hat",
+        "inthe",
+        "|",
+        "now?"
+      ]
+    },
+    {
+      "id": "r37",
+      "text": "other room. \\ Yes, she sees it.",
+      "x": 0.1221,
+      "y": 0.5987,
+      "w": 0.6722,
+      "h": 0.0269,
+      "words": [
+        "other",
+        "room.",
+        "\\",
+        "Yes,",
+        "she",
+        "sees",
+        "it."
+      ]
+    },
+    {
+      "id": "r38",
+      "text": "John went there and =!",
+      "x": 0.1221,
+      "y": 0.6283,
+      "w": 0.3963,
+      "h": 0.0253,
+      "words": [
+        "John",
+        "went",
+        "there",
+        "and",
+        "=!"
+      ]
+    },
+    {
+      "id": "r39",
+      "text": "got it. '",
+      "x": 0.1221,
+      "y": 0.6557,
+      "w": 0.3963,
+      "h": 0.029,
+      "words": [
+        "got",
+        "it.",
+        "'"
+      ]
+    },
+    {
+      "id": "r40",
+      "text": "t",
+      "x": 0.5117,
+      "y": 0.6907,
+      "w": 0.0059,
+      "h": 0.0091,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r41",
+      "text": "|",
+      "x": 0.5117,
+      "y": 0.7058,
+      "w": 0.005,
+      "h": 0.0231,
+      "words": [
+        "|"
+      ]
+    },
+    {
+      "id": "r42",
+      "text": "Oh John! Where did",
+      "x": 0.5811,
+      "y": 0.7219,
+      "w": 0.3261,
+      "h": 0.0237,
+      "words": [
+        "Oh",
+        "John!",
+        "Where",
+        "did"
+      ]
+    },
+    {
+      "id": "r43",
+      "text": "i \\ you get it?",
+      "x": 0.5117,
+      "y": 0.7477,
+      "w": 0.2232,
+      "h": 0.0312,
+      "words": [
+        "i",
+        "\\",
+        "you",
+        "get",
+        "it?"
+      ]
+    },
+    {
+      "id": "r44",
+      "text": "Who got it? John did. | 6 €)",
+      "x": 0.1196,
+      "y": 0.7881,
+      "w": 0.7483,
+      "h": 0.0839,
+      "words": [
+        "Who",
+        "got",
+        "it?",
+        "John",
+        "did.",
+        "|",
+        "6",
+        "€)"
+      ]
+    },
+    {
+      "id": "r45",
+      "text": "1 2S",
+      "x": 0.5117,
+      "y": 0.8445,
+      "w": 0.1472,
+      "h": 0.0371,
+      "words": [
+        "1",
+        "2S"
+      ]
+    },
+    {
+      "id": "r46",
+      "text": "t",
+      "x": 0.5109,
+      "y": 0.8967,
+      "w": 0.0059,
+      "h": 0.0097,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r47",
+      "text": "74",
+      "x": 0.0911,
+      "y": 0.9274,
+      "w": 0.0276,
+      "h": 0.0129,
+      "words": [
+        "74"
+      ]
     }
   ]
 }

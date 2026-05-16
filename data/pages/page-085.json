@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2085.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 9,
-    "wordCount": 58,
+    "regionCount": 49,
+    "wordCount": 170,
     "imageWidth": 1155,
     "imageHeight": 1850
   },
@@ -19,7 +19,18 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3"
+        "r2",
+        "r4",
+        "r5",
+        "r6",
+        "r8",
+        "r12",
+        "r25",
+        "r26",
+        "r27",
+        "r28",
+        "r29",
+        "r35"
       ]
     },
     {
@@ -30,8 +41,17 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r4"
+        "r3",
+        "r7",
+        "r9",
+        "r10",
+        "r11",
+        "r24",
+        "r30",
+        "r31",
+        "r32",
+        "r33",
+        "r34"
       ]
     },
     {
@@ -42,9 +62,16 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r6",
-        "r9"
+        "r13",
+        "r14",
+        "r19",
+        "r20",
+        "r21",
+        "r22",
+        "r40",
+        "r41",
+        "r48",
+        "r49"
       ]
     },
     {
@@ -55,39 +82,58 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r8"
+        "r15",
+        "r16",
+        "r17",
+        "r18",
+        "r23",
+        "r36",
+        "r37",
+        "r38",
+        "r39",
+        "r42",
+        "r43",
+        "r44",
+        "r45",
+        "r46",
+        "r47"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
-      "text": "Mary is getting the new dress. She is in a store.",
+      "text": "dress. She is in a store.",
       "x": 0.1126,
-      "y": 0.0924,
-      "w": 0.3723,
-      "h": 0.0449,
+      "y": 0.1178,
+      "w": 0.3567,
+      "h": 0.0195,
       "words": [
-        "Mary",
-        "is",
-        "getting",
-        "the",
-        "new",
         "dress.",
         "She",
         "is",
         "in",
         "a",
         "store."
-      ],
-      "conf": 96.3554,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r2",
-      "order": 1,
+      "text": "Mary is getting the new",
+      "x": 0.1126,
+      "y": 0.0924,
+      "w": 0.3723,
+      "h": 0.0238,
+      "words": [
+        "Mary",
+        "is",
+        "getting",
+        "the",
+        "new"
+      ]
+    },
+    {
+      "id": "r3",
       "text": "This is the store.",
       "x": 0.6104,
       "y": 0.1076,
@@ -98,60 +144,132 @@
         "is",
         "the",
         "store."
-      ],
-      "conf": 89.7504,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "The other woman has two dresses in her hands.",
+      "id": "r4",
+      "text": "The other woman has",
       "x": 0.1117,
       "y": 0.1432,
       "w": 0.3385,
-      "h": 0.0698,
+      "h": 0.0195,
       "words": [
         "The",
         "other",
         "woman",
-        "has",
+        "has"
+      ]
+    },
+    {
+      "id": "r5",
+      "text": "two dresses in her",
+      "x": 0.1117,
+      "y": 0.1686,
+      "w": 0.2779,
+      "h": 0.0189,
+      "words": [
         "two",
         "dresses",
         "in",
-        "her",
-        "hands."
-      ],
-      "conf": 96.3704,
-      "source": "psm-11"
+        "her"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "Dresses and hats and shoes are in the window of the store.",
-      "x": 0.5584,
+      "id": "r6",
+      "text": "hands.",
+      "x": 0.1126,
+      "y": 0.1941,
+      "w": 0.1013,
+      "h": 0.0189,
+      "words": [
+        "hands."
+      ]
+    },
+    {
+      "id": "r7",
+      "text": "68",
+      "x": 0.8009,
+      "y": 0.3054,
+      "w": 0.0338,
+      "h": 0.0162,
+      "words": [
+        "68"
+      ]
+    },
+    {
+      "id": "r8",
+      "text": "f",
+      "x": 0.1082,
+      "y": 0.2249,
+      "w": 0.0597,
+      "h": 0.1697,
+      "words": [
+        "f"
+      ]
+    },
+    {
+      "id": "r9",
+      "text": "Dresses and hats and",
+      "x": 0.5602,
       "y": 0.3703,
-      "w": 0.387,
-      "h": 0.0714,
+      "w": 0.3333,
+      "h": 0.02,
       "words": [
         "Dresses",
         "and",
         "hats",
-        "and",
+        "and"
+      ]
+    },
+    {
+      "id": "r10",
+      "text": "shoes are in the window",
+      "x": 0.5584,
+      "y": 0.3957,
+      "w": 0.387,
+      "h": 0.0205,
+      "words": [
         "shoes",
         "are",
         "in",
         "the",
-        "window",
+        "window"
+      ]
+    },
+    {
+      "id": "r11",
+      "text": "of the store.",
+      "x": 0.5593,
+      "y": 0.4222,
+      "w": 0.1861,
+      "h": 0.0195,
+      "words": [
         "of",
         "the",
         "store."
-      ],
-      "conf": 96.4216,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r12",
+      "text": "9 0 OC 6 08 008 0 $ 892028",
+      "x": 0.0952,
+      "y": 0.4854,
+      "w": 0.5645,
+      "h": 0.013,
+      "words": [
+        "9",
+        "0",
+        "OC",
+        "6",
+        "08",
+        "008",
+        "0",
+        "$",
+        "892028"
+      ]
+    },
+    {
+      "id": "r13",
       "text": "These are shoes.",
       "x": 0.1056,
       "y": 0.6357,
@@ -161,13 +279,10 @@
         "These",
         "are",
         "shoes."
-      ],
-      "conf": 96.3489,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
+      "id": "r14",
       "text": "They are women’s shoes.",
       "x": 0.1056,
       "y": 0.6611,
@@ -178,13 +293,10 @@
         "are",
         "women’s",
         "shoes."
-      ],
-      "conf": 88.9193,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r15",
       "text": "These are gloves.",
       "x": 0.5732,
       "y": 0.7108,
@@ -194,35 +306,60 @@
         "These",
         "are",
         "gloves."
-      ],
-      "conf": 95.565,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "Dresses and stockings and shoes and gloves are clothing.",
-      "x": 0.5714,
+      "id": "r16",
+      "text": "Dresses and stockings",
+      "x": 0.574,
       "y": 0.7368,
-      "w": 0.3437,
-      "h": 0.0756,
+      "w": 0.3411,
+      "h": 0.0232,
       "words": [
         "Dresses",
         "and",
-        "stockings",
+        "stockings"
+      ]
+    },
+    {
+      "id": "r17",
+      "text": "and shoes and gloves",
+      "x": 0.5732,
+      "y": 0.7622,
+      "w": 0.3403,
+      "h": 0.0249,
+      "words": [
         "and",
         "shoes",
         "and",
-        "gloves",
-        "are",
-        "clothing."
-      ],
-      "conf": 96.354,
-      "source": "psm-11"
+        "gloves"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r18",
+      "text": "are clothing.",
+      "x": 0.5714,
+      "y": 0.7886,
+      "w": 0.2017,
+      "h": 0.0238,
+      "words": [
+        "are",
+        "clothing."
+      ]
+    },
+    {
+      "id": "r19",
+      "text": "LE",
+      "x": 0.1091,
+      "y": 0.733,
+      "w": 0.31,
+      "h": 0.1476,
+      "words": [
+        "LE"
+      ]
+    },
+    {
+      "id": "r20",
       "text": "These are stockings,",
       "x": 0.1316,
       "y": 0.8859,
@@ -232,9 +369,397 @@
         "These",
         "are",
         "stockings,"
-      ],
-      "conf": 95.3008,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "id": "r21",
+      "text": "4",
+      "x": 0.1004,
+      "y": 0.9314,
+      "w": 0.013,
+      "h": 0.0124,
+      "words": [
+        "4"
+      ]
+    },
+    {
+      "id": "r22",
+      "text": "3aka3 1633",
+      "x": 0.1602,
+      "y": 0.9346,
+      "w": 0.1177,
+      "h": 0.0103,
+      "words": [
+        "3aka3",
+        "1633"
+      ]
+    },
+    {
+      "id": "r23",
+      "text": "81",
+      "x": 0.9221,
+      "y": 0.933,
+      "w": 0.0242,
+      "h": 0.0124,
+      "words": [
+        "81"
+      ]
+    },
+    {
+      "id": "r24",
+      "text": "'",
+      "x": 0.5117,
+      "y": 0.0827,
+      "w": 0.0052,
+      "h": 0.0086,
+      "words": [
+        "'"
+      ]
+    },
+    {
+      "id": "r25",
+      "text": "Mary is getting the new !",
+      "x": 0.1126,
+      "y": 0.0924,
+      "w": 0.4043,
+      "h": 0.0238,
+      "words": [
+        "Mary",
+        "is",
+        "getting",
+        "the",
+        "new",
+        "!"
+      ]
+    },
+    {
+      "id": "r26",
+      "text": "dress. She is ina store. | This is the store.",
+      "x": 0.1126,
+      "y": 0.1076,
+      "w": 0.7455,
+      "h": 0.0297,
+      "words": [
+        "dress.",
+        "She",
+        "is",
+        "ina",
+        "store.",
+        "|",
+        "This",
+        "is",
+        "the",
+        "store."
+      ]
+    },
+    {
+      "id": "r27",
+      "text": "The other womanhas |",
+      "x": 0.1117,
+      "y": 0.1395,
+      "w": 0.4061,
+      "h": 0.0238,
+      "words": [
+        "The",
+        "other",
+        "womanhas",
+        "|"
+      ]
+    },
+    {
+      "id": "r28",
+      "text": "two di inh",
+      "x": 0.1117,
+      "y": 0.1686,
+      "w": 0.245,
+      "h": 0.0189,
+      "words": [
+        "two",
+        "di",
+        "inh"
+      ]
+    },
+    {
+      "id": "r29",
+      "text": "hed | | CLOTHING STORE",
+      "x": 0.1126,
+      "y": 0.1724,
+      "w": 0.7896,
+      "h": 0.0492,
+      "words": [
+        "hed",
+        "|",
+        "|",
+        "CLOTHING",
+        "STORE"
+      ]
+    },
+    {
+      "id": "r30",
+      "text": "1",
+      "x": 0.5117,
+      "y": 0.2254,
+      "w": 0.0061,
+      "h": 0.0232,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r31",
+      "text": "' a CG",
+      "x": 0.5117,
+      "y": 0.2541,
+      "w": 0.4017,
+      "h": 0.0097,
+      "words": [
+        "'",
+        "a",
+        "CG"
+      ]
+    },
+    {
+      "id": "r32",
+      "text": "| Dresses and hats and",
+      "x": 0.5117,
+      "y": 0.3692,
+      "w": 0.3818,
+      "h": 0.0243,
+      "words": [
+        "|",
+        "Dresses",
+        "and",
+        "hats",
+        "and"
+      ]
+    },
+    {
+      "id": "r33",
+      "text": "! shoes are in the window",
+      "x": 0.5126,
+      "y": 0.3957,
+      "w": 0.4329,
+      "h": 0.0265,
+      "words": [
+        "!",
+        "shoes",
+        "are",
+        "in",
+        "the",
+        "window"
+      ]
+    },
+    {
+      "id": "r34",
+      "text": "of the store.",
+      "x": 0.5593,
+      "y": 0.4222,
+      "w": 0.1861,
+      "h": 0.0195,
+      "words": [
+        "of",
+        "the",
+        "store."
+      ]
+    },
+    {
+      "id": "r35",
+      "text": "9 0 OC 6 08 008 0 $ 892028",
+      "x": 0.0952,
+      "y": 0.4854,
+      "w": 0.5645,
+      "h": 0.013,
+      "words": [
+        "9",
+        "0",
+        "OC",
+        "6",
+        "08",
+        "008",
+        "0",
+        "$",
+        "892028"
+      ]
+    },
+    {
+      "id": "r36",
+      "text": "‘",
+      "x": 0.5134,
+      "y": 0.5038,
+      "w": 0.0061,
+      "h": 0.0092,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r37",
+      "text": "1 :",
+      "x": 0.5134,
+      "y": 0.5486,
+      "w": 0.4511,
+      "h": 0.0124,
+      "words": [
+        "1",
+        ":"
+      ]
+    },
+    {
+      "id": "r38",
+      "text": "i]",
+      "x": 0.5143,
+      "y": 0.5638,
+      "w": 0.0052,
+      "h": 0.0097,
+      "words": [
+        "i]"
+      ]
+    },
+    {
+      "id": "r39",
+      "text": "'",
+      "x": 0.5143,
+      "y": 0.5784,
+      "w": 0.0052,
+      "h": 0.0092,
+      "words": [
+        "'"
+      ]
+    },
+    {
+      "id": "r40",
+      "text": "These are shoes. ' WN",
+      "x": 0.1056,
+      "y": 0.5568,
+      "w": 0.7801,
+      "h": 0.1086,
+      "words": [
+        "These",
+        "are",
+        "shoes.",
+        "'",
+        "WN"
+      ]
+    },
+    {
+      "id": "r41",
+      "text": "They are women's shoes. !",
+      "x": 0.1056,
+      "y": 0.6611,
+      "w": 0.4165,
+      "h": 0.0286,
+      "words": [
+        "They",
+        "are",
+        "women's",
+        "shoes.",
+        "!"
+      ]
+    },
+    {
+      "id": "r42",
+      "text": "1",
+      "x": 0.5134,
+      "y": 0.6946,
+      "w": 0.0061,
+      "h": 0.0092,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r43",
+      "text": "| These are gloves,",
+      "x": 0.5143,
+      "y": 0.7081,
+      "w": 0.3325,
+      "h": 0.027,
+      "words": [
+        "|",
+        "These",
+        "are",
+        "gloves,"
+      ]
+    },
+    {
+      "id": "r44",
+      "text": "| Dresses and stockings",
+      "x": 0.5134,
+      "y": 0.7368,
+      "w": 0.4017,
+      "h": 0.0249,
+      "words": [
+        "|",
+        "Dresses",
+        "and",
+        "stockings"
+      ]
+    },
+    {
+      "id": "r45",
+      "text": "‘and shoes and gloves",
+      "x": 0.5126,
+      "y": 0.7622,
+      "w": 0.4009,
+      "h": 0.0286,
+      "words": [
+        "‘and",
+        "shoes",
+        "and",
+        "gloves"
+      ]
+    },
+    {
+      "id": "r46",
+      "text": "' are clothing. .",
+      "x": 0.5126,
+      "y": 0.7865,
+      "w": 0.3939,
+      "h": 0.033,
+      "words": [
+        "'",
+        "are",
+        "clothing.",
+        "."
+      ]
+    },
+    {
+      "id": "r47",
+      "text": "'",
+      "x": 0.5134,
+      "y": 0.8541,
+      "w": 0.0069,
+      "h": 0.0249,
+      "words": [
+        "'"
+      ]
+    },
+    {
+      "id": "r48",
+      "text": "These are stockings. i",
+      "x": 0.1316,
+      "y": 0.8832,
+      "w": 0.3879,
+      "h": 0.0346,
+      "words": [
+        "These",
+        "are",
+        "stockings.",
+        "i"
+      ]
+    },
+    {
+      "id": "r49",
+      "text": "4 1633 81",
+      "x": 0.1004,
+      "y": 0.9314,
+      "w": 0.8459,
+      "h": 0.0141,
+      "words": [
+        "4",
+        "1633",
+        "81"
+      ]
     }
   ]
 }

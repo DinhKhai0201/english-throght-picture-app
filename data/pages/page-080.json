@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2080.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 46,
+    "regionCount": 37,
+    "wordCount": 121,
     "imageWidth": 1230,
     "imageHeight": 1850
   },
@@ -19,7 +19,17 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r5"
+        "r3",
+        "r7",
+        "r9",
+        "r10",
+        "r11",
+        "r21",
+        "r22",
+        "r24",
+        "r26",
+        "r27",
+        "r28"
       ]
     },
     {
@@ -31,8 +41,12 @@
       "h": 0.5,
       "regionIds": [
         "r2",
-        "r3",
-        "r4"
+        "r4",
+        "r5",
+        "r6",
+        "r8",
+        "r23",
+        "r25"
       ]
     },
     {
@@ -43,9 +57,21 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r9",
-        "r10"
+        "r12",
+        "r14",
+        "r17",
+        "r18",
+        "r19",
+        "r20",
+        "r29",
+        "r30",
+        "r31",
+        "r32",
+        "r33",
+        "r34",
+        "r35",
+        "r36",
+        "r37"
       ]
     },
     {
@@ -56,75 +82,107 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r8"
+        "r13",
+        "r15",
+        "r16"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
-      "text": "The money was under the hat.",
+      "text": "The money was under",
       "x": 0.1195,
       "y": 0.1022,
       "w": 0.335,
-      "h": 0.0465,
+      "h": 0.0259,
       "words": [
         "The",
         "money",
         "was",
-        "under",
-        "the",
-        "hat."
-      ],
-      "conf": 96.7927,
-      "source": "psm-11"
+        "under"
+      ]
     },
     {
       "id": "r2",
-      "order": 1,
-      "text": "The wind came. My hat went up.",
-      "x": 0.5309,
+      "text": "The wind came. My hat",
+      "x": 0.5325,
       "y": 0.0941,
-      "w": 0.3642,
-      "h": 0.0519,
+      "w": 0.3626,
+      "h": 0.0259,
       "words": [
         "The",
         "wind",
         "came.",
         "My",
-        "hat",
-        "went",
-        "up."
-      ],
-      "conf": 92.9938,
-      "source": "psm-11"
+        "hat"
+      ]
     },
     {
       "id": "r3",
-      "order": 2,
-      "text": "When the wind came, my hat went up.",
+      "text": "the hat.",
+      "x": 0.1195,
+      "y": 0.1292,
+      "w": 0.1154,
+      "h": 0.0195,
+      "words": [
+        "the",
+        "hat."
+      ]
+    },
+    {
+      "id": "r4",
+      "text": "went up.",
       "x": 0.5309,
+      "y": 0.1249,
+      "w": 0.1333,
+      "h": 0.0211,
+      "words": [
+        "went",
+        "up."
+      ]
+    },
+    {
+      "id": "r5",
+      "text": "When the wind came,",
+      "x": 0.5317,
       "y": 0.1476,
-      "w": 0.3374,
-      "h": 0.0513,
+      "w": 0.3366,
+      "h": 0.0227,
       "words": [
         "When",
         "the",
         "wind",
-        "came,",
+        "came,"
+      ]
+    },
+    {
+      "id": "r6",
+      "text": "my hat went up.",
+      "x": 0.5309,
+      "y": 0.1735,
+      "w": 0.2488,
+      "h": 0.0254,
+      "words": [
         "my",
         "hat",
         "went",
         "up."
-      ],
-      "conf": 96.137,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
+      "id": "r7",
+      "text": "REN",
+      "x": 0.0772,
+      "y": 0.2314,
+      "w": 0.1618,
+      "h": 0.0816,
+      "words": [
+        "REN"
+      ]
+    },
+    {
+      "id": "r8",
       "text": "UP",
       "x": 0.8366,
       "y": 0.3265,
@@ -132,50 +190,66 @@
       "h": 0.02,
       "words": [
         "UP"
-      ],
-      "conf": 96.5108,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "The hat was over the money.",
-      "x": 0.1138,
+      "id": "r9",
+      "text": "The hat was over the",
+      "x": 0.1146,
       "y": 0.3514,
-      "w": 0.3203,
-      "h": 0.0518,
+      "w": 0.3195,
+      "h": 0.0216,
       "words": [
         "The",
         "hat",
         "was",
         "over",
-        "the",
-        "money."
-      ],
-      "conf": 95.9514,
-      "source": "psm-11"
+        "the"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "The hat came down again.",
-      "x": 0.1228,
+      "id": "r10",
+      "text": "money.",
+      "x": 0.1138,
+      "y": 0.3859,
+      "w": 0.1106,
+      "h": 0.0173,
+      "words": [
+        "money."
+      ]
+    },
+    {
+      "id": "r11",
+      "text": "ee ae + 2 e 2223",
+      "x": 0.1463,
+      "y": 0.4881,
+      "w": 0.6423,
+      "h": 0.0178,
+      "words": [
+        "ee",
+        "ae",
+        "+",
+        "2",
+        "e",
+        "2223"
+      ]
+    },
+    {
+      "id": "r12",
+      "text": "The hat came down",
+      "x": 0.1236,
       "y": 0.5638,
-      "w": 0.3041,
-      "h": 0.0508,
+      "w": 0.3033,
+      "h": 0.0205,
       "words": [
         "The",
         "hat",
         "came",
-        "down",
-        "again."
-      ],
-      "conf": 96.3344,
-      "source": "psm-11"
+        "down"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r13",
       "text": "It was over the money.",
       "x": 0.5285,
       "y": 0.5605,
@@ -187,32 +261,47 @@
         "over",
         "the",
         "money."
-      ],
-      "conf": 89.576,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "The money was under the hat.",
+      "id": "r14",
+      "text": "again.",
+      "x": 0.1228,
+      "y": 0.5924,
+      "w": 0.0976,
+      "h": 0.0222,
+      "words": [
+        "again."
+      ]
+    },
+    {
+      "id": "r15",
+      "text": "The money was under",
       "x": 0.526,
       "y": 0.5865,
       "w": 0.339,
-      "h": 0.047,
+      "h": 0.0254,
       "words": [
         "The",
         "money",
         "was",
-        "under",
-        "the",
-        "hat."
-      ],
-      "conf": 95.9575,
-      "source": "psm-11"
+        "under"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r16",
+      "text": "the hat.",
+      "x": 0.526,
+      "y": 0.613,
+      "w": 0.1171,
+      "h": 0.0205,
+      "words": [
+        "the",
+        "hat."
+      ]
+    },
+    {
+      "id": "r17",
       "text": "coo.",
       "x": 0.1667,
       "y": 0.6416,
@@ -220,23 +309,276 @@
       "h": 0.0389,
       "words": [
         "coo."
-      ],
-      "conf": 43.3874,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "DOWN",
+      "id": "r18",
+      "text": "a",
+      "x": 0.1236,
+      "y": 0.7151,
+      "w": 0.0228,
+      "h": 0.0157,
+      "words": [
+        "a"
+      ]
+    },
+    {
+      "id": "r19",
+      "text": "DOWN :",
       "x": 0.2431,
       "y": 0.7611,
-      "w": 0.1163,
+      "w": 0.1382,
       "h": 0.02,
       "words": [
-        "DOWN"
-      ],
-      "conf": 93.1791,
-      "source": "psm-11"
+        "DOWN",
+        ":"
+      ]
+    },
+    {
+      "id": "r20",
+      "text": "76",
+      "x": 0.0837,
+      "y": 0.9227,
+      "w": 0.0252,
+      "h": 0.013,
+      "words": [
+        "76"
+      ]
+    },
+    {
+      "id": "r21",
+      "text": "The money was under The wind came. My hat",
+      "x": 0.1195,
+      "y": 0.0941,
+      "w": 0.7756,
+      "h": 0.0341,
+      "words": [
+        "The",
+        "money",
+        "was",
+        "under",
+        "The",
+        "wind",
+        "came.",
+        "My",
+        "hat"
+      ]
+    },
+    {
+      "id": "r22",
+      "text": "the hat. ; went up.",
+      "x": 0.1195,
+      "y": 0.1232,
+      "w": 0.5447,
+      "h": 0.0324,
+      "words": [
+        "the",
+        "hat.",
+        ";",
+        "went",
+        "up."
+      ]
+    },
+    {
+      "id": "r23",
+      "text": "When the wind came,",
+      "x": 0.5317,
+      "y": 0.1476,
+      "w": 0.3366,
+      "h": 0.0227,
+      "words": [
+        "When",
+        "the",
+        "wind",
+        "came,"
+      ]
+    },
+    {
+      "id": "r24",
+      "text": "| + my hat went up.",
+      "x": 0.2675,
+      "y": 0.1735,
+      "w": 0.5122,
+      "h": 0.1119,
+      "words": [
+        "|",
+        "+",
+        "my",
+        "hat",
+        "went",
+        "up."
+      ]
+    },
+    {
+      "id": "r25",
+      "text": "/",
+      "x": 0.7065,
+      "y": 0.2784,
+      "w": 0.0163,
+      "h": 0.0157,
+      "words": [
+        "/"
+      ]
+    },
+    {
+      "id": "r26",
+      "text": "' UP",
+      "x": 0.4886,
+      "y": 0.3265,
+      "w": 0.3919,
+      "h": 0.0254,
+      "words": [
+        "'",
+        "UP"
+      ]
+    },
+    {
+      "id": "r27",
+      "text": "The hat was over the ‘",
+      "x": 0.1146,
+      "y": 0.3514,
+      "w": 0.3797,
+      "h": 0.0303,
+      "words": [
+        "The",
+        "hat",
+        "was",
+        "over",
+        "the",
+        "‘"
+      ]
+    },
+    {
+      "id": "r28",
+      "text": "money. '",
+      "x": 0.1138,
+      "y": 0.3762,
+      "w": 0.3797,
+      "h": 0.0346,
+      "words": [
+        "money.",
+        "'"
+      ]
+    },
+    {
+      "id": "r29",
+      "text": "The hat came down | It was over the money.",
+      "x": 0.1236,
+      "y": 0.5551,
+      "w": 0.752,
+      "h": 0.0324,
+      "words": [
+        "The",
+        "hat",
+        "came",
+        "down",
+        "|",
+        "It",
+        "was",
+        "over",
+        "the",
+        "money."
+      ]
+    },
+    {
+      "id": "r30",
+      "text": "again. 1 The money was under",
+      "x": 0.1228,
+      "y": 0.5849,
+      "w": 0.7423,
+      "h": 0.0319,
+      "words": [
+        "again.",
+        "1",
+        "The",
+        "money",
+        "was",
+        "under"
+      ]
+    },
+    {
+      "id": "r31",
+      "text": "| the hat.",
+      "x": 0.4837,
+      "y": 0.613,
+      "w": 0.1593,
+      "h": 0.0243,
+      "words": [
+        "|",
+        "the",
+        "hat."
+      ]
+    },
+    {
+      "id": "r32",
+      "text": "H UP DOWN :",
+      "x": 0.1049,
+      "y": 0.7595,
+      "w": 0.2772,
+      "h": 0.0319,
+      "words": [
+        "H",
+        "UP",
+        "DOWN",
+        ":"
+      ]
+    },
+    {
+      "id": "r33",
+      "text": "‘",
+      "x": 0.4789,
+      "y": 0.8476,
+      "w": 0.0057,
+      "h": 0.0092,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r34",
+      "text": "‘ 3",
+      "x": 0.4789,
+      "y": 0.8632,
+      "w": 0.0163,
+      "h": 0.0146,
+      "words": [
+        "‘",
+        "3"
+      ]
+    },
+    {
+      "id": "r35",
+      "text": "‘",
+      "x": 0.4789,
+      "y": 0.8784,
+      "w": 0.0057,
+      "h": 0.0092,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r36",
+      "text": "‘",
+      "x": 0.4789,
+      "y": 0.893,
+      "w": 0.0057,
+      "h": 0.0092,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r37",
+      "text": "16 :",
+      "x": 0.0837,
+      "y": 0.9092,
+      "w": 0.4016,
+      "h": 0.0265,
+      "words": [
+        "16",
+        ":"
+      ]
     }
   ]
 }

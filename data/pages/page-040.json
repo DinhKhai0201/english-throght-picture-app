@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2040.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 9,
-    "wordCount": 71,
+    "regionCount": 54,
+    "wordCount": 190,
     "imageWidth": 1302,
     "imageHeight": 1846
   },
@@ -19,7 +19,15 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3"
+        "r3",
+        "r5",
+        "r7",
+        "r9",
+        "r31",
+        "r32",
+        "r33",
+        "r34",
+        "r35"
       ]
     },
     {
@@ -32,7 +40,17 @@
       "regionIds": [
         "r2",
         "r4",
-        "r5"
+        "r6",
+        "r8",
+        "r10",
+        "r11",
+        "r26",
+        "r27",
+        "r28",
+        "r29",
+        "r30",
+        "r36",
+        "r37"
       ]
     },
     {
@@ -43,8 +61,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r8"
+        "r14",
+        "r16",
+        "r17",
+        "r19",
+        "r21",
+        "r23",
+        "r24",
+        "r25",
+        "r44",
+        "r47",
+        "r48",
+        "r49",
+        "r50",
+        "r51",
+        "r52",
+        "r53",
+        "r54"
       ]
     },
     {
@@ -55,15 +88,26 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r9"
+        "r12",
+        "r13",
+        "r15",
+        "r18",
+        "r20",
+        "r22",
+        "r38",
+        "r39",
+        "r40",
+        "r41",
+        "r42",
+        "r43",
+        "r45",
+        "r46"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "order": 0,
       "text": "What is the time?",
       "x": 0.1644,
       "y": 0.312,
@@ -74,13 +118,10 @@
         "is",
         "the",
         "time?"
-      ],
-      "conf": 95.8008,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r2",
-      "order": 1,
       "text": "What is the time?",
       "x": 0.5591,
       "y": 0.3137,
@@ -91,38 +132,25 @@
         "is",
         "the",
         "time?"
-      ],
-      "conf": 96.0711,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r3",
-      "order": 2,
-      "text": "Now the time is eight It was seven It will be nine",
+      "text": "Now the time is eight",
       "x": 0.1659,
       "y": 0.3369,
       "w": 0.2988,
-      "h": 0.0943,
+      "h": 0.0233,
       "words": [
         "Now",
         "the",
         "time",
         "is",
-        "eight",
-        "It",
-        "was",
-        "seven",
-        "It",
-        "will",
-        "be",
-        "nine"
-      ],
-      "conf": 96.2211,
-      "source": "psm-11"
+        "eight"
+      ]
     },
     {
       "id": "r4",
-      "order": 3,
       "text": "Now the time is ten",
       "x": 0.5607,
       "y": 0.3402,
@@ -134,51 +162,128 @@
         "time",
         "is",
         "ten"
-      ],
-      "conf": 96.3717,
-      "source": "psm-11"
+      ]
     },
     {
       "id": "r5",
-      "order": 4,
-      "text": "It will be eleven",
+      "text": "(8:00).",
+      "x": 0.1644,
+      "y": 0.3629,
+      "w": 0.0922,
+      "h": 0.0222,
+      "words": [
+        "(8:00)."
+      ]
+    },
+    {
+      "id": "r6",
+      "text": "(10:00).",
       "x": 0.5591,
-      "y": 0.415,
-      "w": 0.2204,
-      "h": 0.0206,
+      "y": 0.3651,
+      "w": 0.1098,
+      "h": 0.0233,
+      "words": [
+        "(10:00)."
+      ]
+    },
+    {
+      "id": "r7",
+      "text": "It was seven (7:00).",
+      "x": 0.1667,
+      "y": 0.3879,
+      "w": 0.268,
+      "h": 0.0233,
+      "words": [
+        "It",
+        "was",
+        "seven",
+        "(7:00)."
+      ]
+    },
+    {
+      "id": "r8",
+      "text": "was'nine (9:00).",
+      "x": 0.5868,
+      "y": 0.3922,
+      "w": 0.2227,
+      "h": 0.0233,
+      "words": [
+        "was'nine",
+        "(9:00)."
+      ]
+    },
+    {
+      "id": "r9",
+      "text": "It will be nine (9:00).",
+      "x": 0.1667,
+      "y": 0.4122,
+      "w": 0.288,
+      "h": 0.0244,
       "words": [
         "It",
         "will",
         "be",
-        "eleven"
-      ],
-      "conf": 94.6332,
-      "source": "psm-11"
+        "nine",
+        "(9:00)."
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "These are the numbers from one to twelve.",
+      "id": "r10",
+      "text": "It will be eleven (11:00).",
+      "x": 0.5591,
+      "y": 0.415,
+      "w": 0.3379,
+      "h": 0.0271,
+      "words": [
+        "It",
+        "will",
+        "be",
+        "eleven",
+        "(11:00)."
+      ]
+    },
+    {
+      "id": "r11",
+      "text": "ee ee",
+      "x": 0.5891,
+      "y": 0.4902,
+      "w": 0.1743,
+      "h": 0.0043,
+      "words": [
+        "ee",
+        "ee"
+      ]
+    },
+    {
+      "id": "r12",
+      "text": "These are the numbers",
       "x": 0.5445,
       "y": 0.6625,
       "w": 0.318,
-      "h": 0.0472,
+      "h": 0.0217,
       "words": [
         "These",
         "are",
         "the",
-        "numbers",
+        "numbers"
+      ]
+    },
+    {
+      "id": "r13",
+      "text": "from one to twelve.",
+      "x": 0.5453,
+      "y": 0.688,
+      "w": 0.2704,
+      "h": 0.0217,
+      "words": [
         "from",
         "one",
         "to",
         "twelve."
-      ],
-      "conf": 96.6353,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r14",
       "text": "What is the time?",
       "x": 0.1628,
       "y": 0.7145,
@@ -189,65 +294,547 @@
         "is",
         "the",
         "time?"
-      ],
-      "conf": 96.4231,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "The time is twelve it was eleven It will be one The two hands are at twelve now.",
-      "x": 0.1613,
+      "id": "r15",
+      "text": "One, two, three, four,",
+      "x": 0.5507,
+      "y": 0.7308,
+      "w": 0.3026,
+      "h": 0.0244,
+      "words": [
+        "One,",
+        "two,",
+        "three,",
+        "four,"
+      ]
+    },
+    {
+      "id": "r16",
+      "text": "The time is twelve",
+      "x": 0.1621,
       "y": 0.7389,
+      "w": 0.2512,
+      "h": 0.0222,
+      "words": [
+        "The",
+        "time",
+        "is",
+        "twelve"
+      ]
+    },
+    {
+      "id": "r17",
+      "text": "(12:00).",
+      "x": 0.1628,
+      "y": 0.7654,
+      "w": 0.1098,
+      "h": 0.0233,
+      "words": [
+        "(12:00)."
+      ]
+    },
+    {
+      "id": "r18",
+      "text": "five, six, seven, eight,",
+      "x": 0.5499,
+      "y": 0.7557,
+      "w": 0.2972,
+      "h": 0.026,
+      "words": [
+        "five,",
+        "six,",
+        "seven,",
+        "eight,"
+      ]
+    },
+    {
+      "id": "r19",
+      "text": "it was eleven (11:00).",
+      "x": 0.1636,
+      "y": 0.7914,
+      "w": 0.3011,
+      "h": 0.0255,
+      "words": [
+        "it",
+        "was",
+        "eleven",
+        "(11:00)."
+      ]
+    },
+    {
+      "id": "r20",
+      "text": "nine, ten, eleven,",
+      "x": 0.5507,
+      "y": 0.7828,
+      "w": 0.2373,
+      "h": 0.0222,
+      "words": [
+        "nine,",
+        "ten,",
+        "eleven,"
+      ]
+    },
+    {
+      "id": "r21",
+      "text": "It will be one (1:00).",
+      "x": 0.1636,
+      "y": 0.8164,
+      "w": 0.2826,
+      "h": 0.026,
+      "words": [
+        "It",
+        "will",
+        "be",
+        "one",
+        "(1:00)."
+      ]
+    },
+    {
+      "id": "r22",
+      "text": "twelve.",
+      "x": 0.5492,
+      "y": 0.8066,
+      "w": 0.0975,
+      "h": 0.0195,
+      "words": [
+        "twelve."
+      ]
+    },
+    {
+      "id": "r23",
+      "text": "The two hands are at",
+      "x": 0.1613,
+      "y": 0.8407,
       "w": 0.2988,
-      "h": 0.1478,
+      "h": 0.0222,
+      "words": [
+        "The",
+        "two",
+        "hands",
+        "are",
+        "at"
+      ]
+    },
+    {
+      "id": "r24",
+      "text": "twelve now.",
+      "x": 0.1621,
+      "y": 0.8667,
+      "w": 0.1651,
+      "h": 0.02,
+      "words": [
+        "twelve",
+        "now."
+      ]
+    },
+    {
+      "id": "r25",
+      "text": "36",
+      "x": 0.1321,
+      "y": 0.9301,
+      "w": 0.0238,
+      "h": 0.013,
+      "words": [
+        "36"
+      ]
+    },
+    {
+      "id": "r26",
+      "text": "‘",
+      "x": 0.51,
+      "y": 0.1078,
+      "w": 0.0054,
+      "h": 0.0092,
+      "words": [
+        "‘"
+      ]
+    },
+    {
+      "id": "r27",
+      "text": "5",
+      "x": 0.51,
+      "y": 0.123,
+      "w": 0.0054,
+      "h": 0.0087,
+      "words": [
+        "5"
+      ]
+    },
+    {
+      "id": "r28",
+      "text": "v",
+      "x": 0.5108,
+      "y": 0.1371,
+      "w": 0.0046,
+      "h": 0.0087,
+      "words": [
+        "v"
+      ]
+    },
+    {
+      "id": "r29",
+      "text": "'",
+      "x": 0.5108,
+      "y": 0.1658,
+      "w": 0.0038,
+      "h": 0.0092,
+      "words": [
+        "'"
+      ]
+    },
+    {
+      "id": "r30",
+      "text": "t",
+      "x": 0.51,
+      "y": 0.2974,
+      "w": 0.0054,
+      "h": 0.0092,
+      "words": [
+        "t"
+      ]
+    },
+    {
+      "id": "r31",
+      "text": "What is the time? | What is the time?",
+      "x": 0.1644,
+      "y": 0.3104,
+      "w": 0.6413,
+      "h": 0.0249,
+      "words": [
+        "What",
+        "is",
+        "the",
+        "time?",
+        "|",
+        "What",
+        "is",
+        "the",
+        "time?"
+      ]
+    },
+    {
+      "id": "r32",
+      "text": "Now the time is eight | Now the time is ten",
+      "x": 0.1659,
+      "y": 0.3369,
+      "w": 0.6636,
+      "h": 0.0287,
+      "words": [
+        "Now",
+        "the",
+        "time",
+        "is",
+        "eight",
+        "|",
+        "Now",
+        "the",
+        "time",
+        "is",
+        "ten"
+      ]
+    },
+    {
+      "id": "r33",
+      "text": "(8:00). | (10:00).",
+      "x": 0.1644,
+      "y": 0.3602,
+      "w": 0.5046,
+      "h": 0.0282,
+      "words": [
+        "(8:00).",
+        "|",
+        "(10:00)."
+      ]
+    },
+    {
+      "id": "r34",
+      "text": "It was seven (7:00). (9:00).",
+      "x": 0.1667,
+      "y": 0.3879,
+      "w": 0.6429,
+      "h": 0.0276,
+      "words": [
+        "It",
+        "was",
+        "seven",
+        "(7:00).",
+        "(9:00)."
+      ]
+    },
+    {
+      "id": "r35",
+      "text": "It will be nine (9:00). | It will be eleven (11:00).",
+      "x": 0.1667,
+      "y": 0.4112,
+      "w": 0.7304,
+      "h": 0.0309,
+      "words": [
+        "It",
+        "will",
+        "be",
+        "nine",
+        "(9:00).",
+        "|",
+        "It",
+        "will",
+        "be",
+        "eleven",
+        "(11:00)."
+      ]
+    },
+    {
+      "id": "r36",
+      "text": "1",
+      "x": 0.5115,
+      "y": 0.4426,
+      "w": 0.0038,
+      "h": 0.0092,
+      "words": [
+        "1"
+      ]
+    },
+    {
+      "id": "r37",
+      "text": "I",
+      "x": 0.5123,
+      "y": 0.455,
+      "w": 0.0031,
+      "h": 0.0092,
+      "words": [
+        "I"
+      ]
+    },
+    {
+      "id": "r38",
+      "text": "i",
+      "x": 0.51,
+      "y": 0.5184,
+      "w": 0.0046,
+      "h": 0.0103,
+      "words": [
+        "i"
+      ]
+    },
+    {
+      "id": "r39",
+      "text": "ue,",
+      "x": 0.6782,
+      "y": 0.533,
+      "w": 0.0776,
+      "h": 0.0173,
+      "words": [
+        "ue,"
+      ]
+    },
+    {
+      "id": "r40",
+      "text": "2",
+      "x": 0.7704,
+      "y": 0.5569,
+      "w": 0.0123,
+      "h": 0.0119,
+      "words": [
+        "2"
+      ]
+    },
+    {
+      "id": "r41",
+      "text": "i 9 3",
+      "x": 0.5092,
+      "y": 0.5775,
+      "w": 0.2811,
+      "h": 0.0135,
+      "words": [
+        "i",
+        "9",
+        "3"
+      ]
+    },
+    {
+      "id": "r42",
+      "text": "2",
+      "x": 0.6505,
+      "y": 0.5986,
+      "w": 0.0115,
+      "h": 0.0135,
+      "words": [
+        "2"
+      ]
+    },
+    {
+      "id": "r43",
+      "text": "i",
+      "x": 0.5077,
+      "y": 0.6213,
+      "w": 0.0054,
+      "h": 0.0233,
+      "words": [
+        "i"
+      ]
+    },
+    {
+      "id": "r44",
+      "text": "a '",
+      "x": 0.225,
+      "y": 0.6517,
+      "w": 0.2873,
+      "h": 0.0087,
+      "words": [
+        "a",
+        "'"
+      ]
+    },
+    {
+      "id": "r45",
+      "text": "' are the numbers",
+      "x": 0.5069,
+      "y": 0.6641,
+      "w": 0.3556,
+      "h": 0.0271,
+      "words": [
+        "'",
+        "are",
+        "the",
+        "numbers"
+      ]
+    },
+    {
+      "id": "r46",
+      "text": "1 from one to twelve.",
+      "x": 0.5069,
+      "y": 0.6901,
+      "w": 0.3088,
+      "h": 0.0195,
+      "words": [
+        "1",
+        "from",
+        "one",
+        "to",
+        "twelve."
+      ]
+    },
+    {
+      "id": "r47",
+      "text": "What is the time? '",
+      "x": 0.1628,
+      "y": 0.7145,
+      "w": 0.3487,
+      "h": 0.0206,
+      "words": [
+        "What",
+        "is",
+        "the",
+        "time?",
+        "'"
+      ]
+    },
+    {
+      "id": "r48",
+      "text": "The time is twelve One, two, three, f our,",
+      "x": 0.1621,
+      "y": 0.7308,
+      "w": 0.6912,
+      "h": 0.0336,
       "words": [
         "The",
         "time",
         "is",
         "twelve",
+        "One,",
+        "two,",
+        "three,",
+        "f",
+        "our,"
+      ]
+    },
+    {
+      "id": "r49",
+      "text": "(12:00). five, six, seven, eight,",
+      "x": 0.1628,
+      "y": 0.7514,
+      "w": 0.6843,
+      "h": 0.0395,
+      "words": [
+        "(12:00).",
+        "five,",
+        "six,",
+        "seven,",
+        "eight,"
+      ]
+    },
+    {
+      "id": "r50",
+      "text": "it was eleven(11:00). 1 ten, eleven,",
+      "x": 0.1636,
+      "y": 0.7833,
+      "w": 0.6244,
+      "h": 0.0336,
+      "words": [
         "it",
         "was",
-        "eleven",
+        "eleven(11:00).",
+        "1",
+        "ten,",
+        "eleven,"
+      ]
+    },
+    {
+      "id": "r51",
+      "text": "It will be one (1:00). |",
+      "x": 0.1636,
+      "y": 0.8082,
+      "w": 0.3456,
+      "h": 0.0379,
+      "words": [
         "It",
         "will",
         "be",
         "one",
+        "(1:00).",
+        "|"
+      ]
+    },
+    {
+      "id": "r52",
+      "text": "The two hands are at |",
+      "x": 0.1613,
+      "y": 0.8407,
+      "w": 0.3472,
+      "h": 0.0222,
+      "words": [
         "The",
         "two",
         "hands",
         "are",
         "at",
-        "twelve",
-        "now."
-      ],
-      "conf": 96.4347,
-      "source": "psm-11"
+        "|"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "One, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve.",
-      "x": 0.5492,
-      "y": 0.7308,
-      "w": 0.3041,
-      "h": 0.0953,
+      "id": "r53",
+      "text": "twelve now. i",
+      "x": 0.1621,
+      "y": 0.8667,
+      "w": 0.3464,
+      "h": 0.0228,
       "words": [
-        "One,",
-        "two,",
-        "three,",
-        "four,",
-        "five,",
-        "six,",
-        "seven,",
-        "eight,",
-        "nine,",
-        "ten,",
-        "eleven,",
-        "twelve."
-      ],
-      "conf": 96.9796,
-      "source": "psm-11"
+        "twelve",
+        "now.",
+        "i"
+      ]
+    },
+    {
+      "id": "r54",
+      "text": "36",
+      "x": 0.1321,
+      "y": 0.9301,
+      "w": 0.0238,
+      "h": 0.013,
+      "words": [
+        "36"
+      ]
     }
   ]
 }
