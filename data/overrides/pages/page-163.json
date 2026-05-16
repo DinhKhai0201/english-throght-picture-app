@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "\"Keep on the line when you are cutting. Don't go off it.\"", "x": 0.1, "y": 0.14, "w": 0.4, "h": 0.08 },
+    { "text": "Oh! You are going off the line! The cut is not on the line.", "x": 0.52, "y": 0.12, "w": 0.4, "h": 0.08 },
+    { "text": "That is bad! The cut is off the line.", "x": 0.12, "y": 0.57, "w": 0.35, "h": 0.05 },
+    { "text": "You did that! You gave a push to the table.", "x": 0.52, "y": 0.57, "w": 0.4, "h": 0.05 }
+  ]
+}

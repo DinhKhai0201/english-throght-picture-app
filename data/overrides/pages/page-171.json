@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Here is the other side.", "x": 0.12, "y": 0.16, "w": 0.35, "h": 0.05 },
+    { "text": "This is the right side. This is the left side.", "x": 0.52, "y": 0.3, "w": 0.4, "h": 0.1 },
+    { "text": "These are the arms of the coat. The right arm. The left arm.", "x": 0.09, "y": 0.58, "w": 0.4, "h": 0.25 },
+    { "text": "These are the buttons of the coat.", "x": 0.52, "y": 0.58, "w": 0.4, "h": 0.05 }
+  ]
+}

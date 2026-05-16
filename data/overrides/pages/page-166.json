@@ -1,0 +1,10 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Tom is making the holes for the nails.", "x": 0.1, "y": 0.38, "w": 0.38, "h": 0.08 },
+    { "text": "Now he is putting the nails in with his hammer.", "x": 0.52, "y": 0.2, "w": 0.4, "h": 0.1 },
+    { "text": "Now the two parts of the roof are together. These are the nails. The roof is ready.", "x": 0.1, "y": 0.54, "w": 0.4, "h": 0.35 },
+    { "text": "Is it strong?", "x": 0.74, "y": 0.55, "w": 0.18, "h": 0.08 },
+    { "text": "Oh yes, it is very strong.", "x": 0.53, "y": 0.63, "w": 0.2, "h": 0.1 }
+  ]
+}
