@@ -1,0 +1,19 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This water is boiling.", "x": 0.08, "y": 0.36, "w": 0.35, "h": 0.03 },
+    { "text": "It is giving off steam.", "x": 0.08, "y": 0.39, "w": 0.35, "h": 0.03 },
+    { "text": "The heat of the flame is making it give off steam.", "x": 0.08, "y": 0.42, "w": 0.38, "h": 0.05 },
+    { "text": "Ice is solid.", "x": 0.61, "y": 0.12, "w": 0.25, "h": 0.03 },
+    { "text": "This is ice.", "x": 0.61, "y": 0.17, "w": 0.25, "h": 0.03 },
+    { "text": "Water is a liquid.", "x": 0.56, "y": 0.42, "w": 0.3, "h": 0.03 },
+    { "text": "This is water.", "x": 0.56, "y": 0.45, "w": 0.3, "h": 0.03 },
+    { "text": "This is a tray.", "x": 0.12, "y": 0.54, "w": 0.3, "h": 0.03 },
+    { "text": "It is a tray of ice.", "x": 0.12, "y": 0.57, "w": 0.3, "h": 0.03 },
+    { "text": "Ice is cold.", "x": 0.18, "y": 0.75, "w": 0.1, "h": 0.08 },
+    { "text": "The room is warm.", "x": 0.52, "y": 0.51, "w": 0.35, "h": 0.03 },
+    { "text": "The heat of the flame is making the room warm.", "x": 0.52, "y": 0.54, "w": 0.35, "h": 0.05 },
+    { "text": "The things in the room are warm.", "x": 0.52, "y": 0.59, "w": 0.35, "h": 0.05 },
+    { "text": "Ice is not warm. It is cold.", "x": 0.52, "y": 0.64, "w": 0.35, "h": 0.05 }
+  ]
+}

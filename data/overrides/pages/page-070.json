@@ -1,0 +1,11 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "She will take the hat in her hand.", "x": 0.13, "y": 0.16, "w": 0.35, "h": 0.05 },
+    { "text": "She is taking it.", "x": 0.6, "y": 0.16, "w": 0.35, "h": 0.03 },
+    { "text": "She took it in her hand.", "x": 0.13, "y": 0.52, "w": 0.35, "h": 0.03 },
+    { "text": "She is going out of the room.", "x": 0.13, "y": 0.55, "w": 0.35, "h": 0.05 },
+    { "text": "She has the hat in her hand.", "x": 0.15, "y": 0.84, "w": 0.35, "h": 0.05 },
+    { "text": "She went out of the room with John's hat.", "x": 0.58, "y": 0.52, "w": 0.35, "h": 0.05 }
+  ]
+}

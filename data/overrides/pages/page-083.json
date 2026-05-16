@@ -1,0 +1,13 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Now they are taking their soup.", "x": 0.12, "y": 0.12, "w": 0.35, "h": 0.05 },
+    { "text": "They have their spoons in their hands.", "x": 0.12, "y": 0.39, "w": 0.35, "h": 0.05 },
+    { "text": "John is saying to Mary, \"I took the hat up.\"", "x": 0.54, "y": 0.12, "w": 0.35, "h": 0.05 },
+    { "text": "Mary is saying to John, \"Where did the money come from?\"", "x": 0.54, "y": 0.28, "w": 0.4, "h": 0.08 },
+    { "text": "John said, \"I saw it there under the hat.\"", "x": 0.12, "y": 0.53, "w": 0.35, "h": 0.05 },
+    { "text": "Mary said, \"But who put it there?\"", "x": 0.12, "y": 0.74, "w": 0.35, "h": 0.05 },
+    { "text": "John said, \"Nobody put it there. The money was there and the wind came and put the hat down over the money.\"", "x": 0.54, "y": 0.53, "w": 0.35, "h": 0.15 },
+    { "text": "Nobody = no man or woman or boy or girl or baby.", "x": 0.54, "y": 0.72, "w": 0.35, "h": 0.08 }
+  ]
+}

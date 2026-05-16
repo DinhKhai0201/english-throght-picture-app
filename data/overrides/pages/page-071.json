@@ -1,0 +1,15 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "She is in another room now.", "x": 0.08, "y": 0.08, "w": 0.35, "h": 0.05 },
+    { "text": "She came into this room through this door.", "x": 0.08, "y": 0.13, "w": 0.35, "h": 0.05 },
+    { "text": "What are these?", "x": 0.58, "y": 0.16, "w": 0.35, "h": 0.03 },
+    { "text": "They are hooks.", "x": 0.58, "y": 0.19, "w": 0.35, "h": 0.03 },
+    { "text": "She has the hat with her.", "x": 0.1, "y": 0.42, "w": 0.35, "h": 0.05 },
+    { "text": "That is another hat. It is on a hook.", "x": 0.58, "y": 0.38, "w": 0.35, "h": 0.05 },
+    { "text": "She will put John's hat on a hook.", "x": 0.1, "y": 0.58, "w": 0.35, "h": 0.05 },
+    { "text": "She put it on the hook.", "x": 0.55, "y": 0.58, "w": 0.35, "h": 0.03 },
+    { "text": "She will put it on a hook with the other hat.", "x": 0.08, "y": 0.8, "w": 0.35, "h": 0.05 },
+    { "text": "Now it is with the other hat. The other hat is one of Mary's hats.", "x": 0.53, "y": 0.79, "w": 0.35, "h": 0.08 }
+  ]
+}

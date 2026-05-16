@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "John says, \"I will get my hat.\"", "x": 0.1, "y": 0.13, "w": 0.35, "h": 0.05 },
+    { "text": "He is getting it.", "x": 0.58, "y": 0.13, "w": 0.35, "h": 0.03 },
+    { "text": "Did he get it? Yes. He has it.", "x": 0.1, "y": 0.54, "w": 0.35, "h": 0.05 },
+    { "text": "He went out of the room.", "x": 0.55, "y": 0.54, "w": 0.4, "h": 0.03 }
+  ]
+}

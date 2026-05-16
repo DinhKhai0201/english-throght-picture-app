@@ -1,0 +1,16 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "A clock has a face.", "x": 0.15, "y": 0.12, "w": 0.35, "h": 0.03 },
+    { "text": "It has no nose.", "x": 0.15, "y": 0.26, "w": 0.3, "h": 0.03 },
+    { "text": "It has no eyes.", "x": 0.15, "y": 0.35, "w": 0.3, "h": 0.03 },
+    { "text": "It has no mouth.", "x": 0.15, "y": 0.42, "w": 0.3, "h": 0.03 },
+    { "text": "It has no ears.", "x": 0.53, "y": 0.12, "w": 0.3, "h": 0.03 },
+    { "text": "It has no hair but it has a face.", "x": 0.53, "y": 0.25, "w": 0.35, "h": 0.05 },
+    { "text": "It has a face and two hands, the long hand", "x": 0.53, "y": 0.34, "w": 0.4, "h": 0.05 },
+    { "text": "and the short hand.", "x": 0.6, "y": 0.42, "w": 0.3, "h": 0.03 },
+    { "text": "The long hand of the clock is between one and two.", "x": 0.1, "y": 0.62, "w": 0.4, "h": 0.08 },
+    { "text": "One is before two. Two is between one and three. Three is after two and two is after one.", "x": 0.1, "y": 0.7, "w": 0.4, "h": 0.1 },
+    { "text": "I have this book in my hands. It was on the shelf with the other books. It was between the other two books before I took it from the shelf.", "x": 0.53, "y": 0.68, "w": 0.4, "h": 0.18 }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This is his body.", "x": 0.2, "y": 0.2, "w": 0.25, "h": 0.03 },
+    { "text": "His head, his arms, his legs, and his body are parts of a man.", "x": 0.1, "y": 0.38, "w": 0.4, "h": 0.1 },
+    { "text": "He has a body.", "x": 0.6, "y": 0.13, "w": 0.25, "h": 0.03 },
+    { "text": "She has a body.", "x": 0.64, "y": 0.24, "w": 0.25, "h": 0.03 },
+    { "text": "All men and women and boys and girls have bodies.", "x": 0.53, "y": 0.31, "w": 0.4, "h": 0.08 },
+    { "text": "This baby has a body.", "x": 0.62, "y": 0.42, "w": 0.2, "h": 0.05 },
+    { "text": "This dog has a body.", "x": 0.13, "y": 0.51, "w": 0.35, "h": 0.03 },
+    { "text": "This is his tail.", "x": 0.14, "y": 0.56, "w": 0.25, "h": 0.03 },
+    { "text": "This is his body.", "x": 0.15, "y": 0.71, "w": 0.25, "h": 0.03 },
+    { "text": "He has four legs and a head and a tail. He has no arms or hands, but he has feet. His head, his body, his legs, and his tail are parts of a dog.", "x": 0.11, "y": 0.75, "w": 0.4, "h": 0.22 },
+    { "text": "This is a dog's head.", "x": 0.58, "y": 0.52, "w": 0.3, "h": 0.03 },
+    { "text": "Which is his mouth? Which are his eyes? Which are his ears? Which is his nose?", "x": 0.58, "y": 0.73, "w": 0.35, "h": 0.15 }
+  ]
+}

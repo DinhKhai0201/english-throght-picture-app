@@ -1,0 +1,14 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Mrs. Smith is not in the room.", "x": 0.12, "y": 0.11, "w": 0.35, "h": 0.05 },
+    { "text": "She went out of the room.", "x": 0.12, "y": 0.17, "w": 0.35, "h": 0.05 },
+    { "text": "She went through this door.", "x": 0.12, "y": 0.4, "w": 0.35, "h": 0.05 },
+    { "text": "Mr. Smith is in the room. He came into the room.", "x": 0.56, "y": 0.13, "w": 0.35, "h": 0.05 },
+    { "text": "He came through this door.", "x": 0.6, "y": 0.42, "w": 0.35, "h": 0.05 },
+    { "text": "Mr. Smith is putting his hat on the table.", "x": 0.12, "y": 0.55, "w": 0.35, "h": 0.05 },
+    { "text": "He will go out of the room through this door.", "x": 0.12, "y": 0.84, "w": 0.35, "h": 0.05 },
+    { "text": "He put his hat on the table. It is on the table now.", "x": 0.57, "y": 0.55, "w": 0.35, "h": 0.08 },
+    { "text": "He went out of the room through this door.", "x": 0.57, "y": 0.84, "w": 0.35, "h": 0.05 }
+  ]
+}

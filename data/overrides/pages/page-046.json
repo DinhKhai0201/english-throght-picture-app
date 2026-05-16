@@ -1,0 +1,19 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "A man has two eyes. I have two eyes.", "x": 0.13, "y": 0.15, "w": 0.35, "h": 0.05 },
+    { "text": "These are my eyes.", "x": 0.13, "y": 0.23, "w": 0.3, "h": 0.03 },
+    { "text": "A man has a nose. I have a nose.", "x": 0.13, "y": 0.31, "w": 0.35, "h": 0.05 },
+    { "text": "This is my nose.", "x": 0.28, "y": 0.42, "w": 0.2, "h": 0.03 },
+    { "text": "A man has a mouth. I have a mouth.", "x": 0.58, "y": 0.15, "w": 0.35, "h": 0.05 },
+    { "text": "This is my mouth.", "x": 0.65, "y": 0.39, "w": 0.25, "h": 0.03 },
+    { "text": "This man's mouth is open. He is saying \"mouth.\"", "x": 0.13, "y": 0.53, "w": 0.35, "h": 0.08 },
+    { "text": "mouth", "x": 0.32, "y": 0.62, "w": 0.15, "h": 0.05 },
+    { "text": "His mouth is shut.", "x": 0.13, "y": 0.74, "w": 0.3, "h": 0.03 },
+    { "text": "He is not saying \"mouth.\"", "x": 0.13, "y": 0.87, "w": 0.35, "h": 0.05 },
+    { "text": "His mouth is shut. He will say \"mouths.\"", "x": 0.54, "y": 0.57, "w": 0.35, "h": 0.05 },
+    { "text": "mouths", "x": 0.65, "y": 0.67, "w": 0.15, "h": 0.05 },
+    { "text": "He is saying \"mouths.\"", "x": 0.54, "y": 0.75, "w": 0.35, "h": 0.03 },
+    { "text": "He said \"mouths.\" He is not saying \"mouths\" now. His mouth is shut again.", "x": 0.54, "y": 0.82, "w": 0.4, "h": 0.1 }
+  ]
+}

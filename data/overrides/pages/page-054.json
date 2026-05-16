@@ -1,0 +1,16 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This is a foot.", "x": 0.2, "y": 0.12, "w": 0.25, "h": 0.03 },
+    { "text": "These are toes. They are parts of a foot. These parts of a foot are its toes.", "x": 0.1, "y": 0.32, "w": 0.4, "h": 0.12 },
+    { "text": "This is a toe.", "x": 0.2, "y": 0.44, "w": 0.2, "h": 0.03 },
+    { "text": "This is a leg", "x": 0.6, "y": 0.12, "w": 0.2, "h": 0.03 },
+    { "text": "This is a knee. It is part of a leg.", "x": 0.6, "y": 0.2, "w": 0.35, "h": 0.05 },
+    { "text": "This part of a leg is its knee.", "x": 0.58, "y": 0.33, "w": 0.35, "h": 0.05 },
+    { "text": "Our legs are parts of us.", "x": 0.55, "y": 0.42, "w": 0.35, "h": 0.03 },
+    { "text": "This is a neck.", "x": 0.2, "y": 0.58, "w": 0.25, "h": 0.03 },
+    { "text": "It is a part of a man. It is between his head and his body. The part which is between his head and his body is his neck.", "x": 0.13, "y": 0.68, "w": 0.4, "h": 0.2 },
+    { "text": "This is a man's head.", "x": 0.58, "y": 0.54, "w": 0.35, "h": 0.03 },
+    { "text": "This is his chin. It is under his mouth. It is a part of his face. The part which is under his mouth is his chin.", "x": 0.55, "y": 0.7, "w": 0.4, "h": 0.2 }
+  ]
+}

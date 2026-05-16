@@ -1,0 +1,20 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "What does she see?", "x": 0.1, "y": 0.17, "w": 0.35, "h": 0.03 },
+    { "text": "One thousand dollars.", "x": 0.1, "y": 0.2, "w": 0.35, "h": 0.03 },
+    { "text": "The money is in her hand.", "x": 0.12, "y": 0.38, "w": 0.35, "h": 0.05 },
+    { "text": "It was in the hat.", "x": 0.12, "y": 0.43, "w": 0.35, "h": 0.03 },
+    { "text": "Where was the hat?", "x": 0.58, "y": 0.13, "w": 0.35, "h": 0.03 },
+    { "text": "It was on the table.", "x": 0.58, "y": 0.16, "w": 0.35, "h": 0.03 },
+    { "text": "What did she see?", "x": 0.58, "y": 0.36, "w": 0.35, "h": 0.03 },
+    { "text": "She saw the hat.", "x": 0.58, "y": 0.39, "w": 0.35, "h": 0.03 },
+    { "text": "She did not see the money.", "x": 0.58, "y": 0.42, "w": 0.35, "h": 0.05 },
+    { "text": "She put the hat in the other room.", "x": 0.1, "y": 0.57, "w": 0.35, "h": 0.05 },
+    { "text": "John went there and got it.", "x": 0.1, "y": 0.62, "w": 0.35, "h": 0.05 },
+    { "text": "Who got it? John did.", "x": 0.1, "y": 0.83, "w": 0.35, "h": 0.03 },
+    { "text": "Does she see the money now?", "x": 0.54, "y": 0.54, "w": 0.4, "h": 0.05 },
+    { "text": "Yes, she sees it.", "x": 0.54, "y": 0.59, "w": 0.35, "h": 0.03 },
+    { "text": "Oh John! Where did you get it?", "x": 0.56, "y": 0.72, "w": 0.35, "h": 0.05 }
+  ]
+}

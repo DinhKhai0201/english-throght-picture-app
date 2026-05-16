@@ -1,0 +1,11 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "These are the arms of the coat.", "x": 0.12, "y": 0.14, "w": 0.35, "h": 0.05 },
+    { "text": "These are the sides of the coat.", "x": 0.12, "y": 0.39, "w": 0.35, "h": 0.05 },
+    { "text": "And this is the back of the coat.", "x": 0.56, "y": 0.39, "w": 0.35, "h": 0.05 },
+    { "text": "These are a man's arms.", "x": 0.07, "y": 0.57, "w": 0.4, "h": 0.03 },
+    { "text": "These are his sides.", "x": 0.12, "y": 0.75, "w": 0.35, "h": 0.03 },
+    { "text": "And this is his back.", "x": 0.61, "y": 0.76, "w": 0.35, "h": 0.03 }
+  ]
+}

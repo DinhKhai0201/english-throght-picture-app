@@ -1,0 +1,8 @@
+{
+  "layout": "single",
+  "regions": [
+    { "text": "QUESTIONS", "x": 0.13, "y": 0.08, "w": 0.2, "h": 0.03 },
+    { "text": "Where is the dog?", "x": 0.42, "y": 0.08, "w": 0.3, "h": 0.03 },
+    { "text": "Answers to these questions are on page 56.", "x": 0.2, "y": 0.88, "w": 0.6, "h": 0.03 }
+  ]
+}

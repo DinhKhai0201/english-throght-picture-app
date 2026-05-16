@@ -1,0 +1,16 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This is one of the doors of the room.", "x": 0.1, "y": 0.11, "w": 0.35, "h": 0.05 },
+    { "text": "This is the other door.", "x": 0.08, "y": 0.41, "w": 0.35, "h": 0.03 },
+    { "text": "This is one of the windows of the room.", "x": 0.53, "y": 0.08, "w": 0.35, "h": 0.05 },
+    { "text": "This is another window.", "x": 0.53, "y": 0.18, "w": 0.35, "h": 0.03 },
+    { "text": "And this is another window.", "x": 0.58, "y": 0.34, "w": 0.35, "h": 0.05 },
+    { "text": "One window is open. The other windows are shut.", "x": 0.56, "y": 0.4, "w": 0.35, "h": 0.08 },
+    { "text": "This is one of my hands. It is my left hand.", "x": 0.1, "y": 0.55, "w": 0.35, "h": 0.05 },
+    { "text": "This is my other hand. It is my right hand.", "x": 0.12, "y": 0.82, "w": 0.35, "h": 0.05 },
+    { "text": "This is one of my fingers.", "x": 0.52, "y": 0.5, "w": 0.35, "h": 0.03 },
+    { "text": "This is my left thumb.", "x": 0.52, "y": 0.82, "w": 0.35, "h": 0.03 },
+    { "text": "These are the other fingers of my left hand.", "x": 0.53, "y": 0.86, "w": 0.4, "h": 0.05 }
+  ]
+}

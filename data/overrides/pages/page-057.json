@@ -1,0 +1,8 @@
+{
+  "layout": "single",
+  "regions": [
+    { "text": "QUESTIONS", "x": 0.08, "y": 0.08, "w": 0.2, "h": 0.03 },
+    { "text": "What do you see?", "x": 0.4, "y": 0.08, "w": 0.3, "h": 0.03 },
+    { "text": "Answers to these questions are on page 56.", "x": 0.15, "y": 0.88, "w": 0.7, "h": 0.03 }
+  ]
+}

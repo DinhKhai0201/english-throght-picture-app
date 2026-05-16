@@ -1,0 +1,17 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This is a face.", "x": 0.13, "y": 0.28, "w": 0.25, "h": 0.03 },
+    { "text": "Eyes, nose, and mouth are parts of a face.", "x": 0.13, "y": 0.34, "w": 0.4, "h": 0.08 },
+    { "text": "Which are the eyes? Which is the nose? Which is the mouth?", "x": 0.13, "y": 0.42, "w": 0.4, "h": 0.12 },
+    { "text": "These are my hands.", "x": 0.55, "y": 0.26, "w": 0.35, "h": 0.03 },
+    { "text": "Which is my right hand? Which is my left hand? Which are my thumbs? Which are my fingers?", "x": 0.55, "y": 0.33, "w": 0.4, "h": 0.15 },
+    { "text": "This is a man.", "x": 0.18, "y": 0.76, "w": 0.25, "h": 0.03 },
+    { "text": "Which are his arms? Which are his hands? Which are his legs? Which are his feet?", "x": 0.18, "y": 0.81, "w": 0.4, "h": 0.15 },
+    { "text": "This is his head.", "x": 0.6, "y": 0.51, "w": 0.3, "h": 0.03 },
+    { "text": "These are his arms.", "x": 0.68, "y": 0.62, "w": 0.25, "h": 0.08 },
+    { "text": "These are his legs.", "x": 0.68, "y": 0.71, "w": 0.25, "h": 0.08 },
+    { "text": "These are his feet.", "x": 0.6, "y": 0.76, "w": 0.3, "h": 0.03 },
+    { "text": "What is this?", "x": 0.6, "y": 0.83, "w": 0.25, "h": 0.03 }
+  ]
+}

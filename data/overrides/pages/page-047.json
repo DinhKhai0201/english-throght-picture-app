@@ -1,0 +1,14 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "These are three books.", "x": 0.13, "y": 0.1, "w": 0.35, "h": 0.03 },
+    { "text": "They are on a shelf.", "x": 0.13, "y": 0.23, "w": 0.3, "h": 0.03 },
+    { "text": "This book is between the other two books.", "x": 0.1, "y": 0.4, "w": 0.4, "h": 0.05 },
+    { "text": "I have the book in my hand now. It was on the shelf. It was between the other two books on the shelf.", "x": 0.55, "y": 0.34, "w": 0.4, "h": 0.12 },
+    { "text": "These are the pages of the book.", "x": 0.13, "y": 0.56, "w": 0.35, "h": 0.05 },
+    { "text": "These are the covers of the book.", "x": 0.13, "y": 0.78, "w": 0.35, "h": 0.05 },
+    { "text": "The pages are between the covers of the book.", "x": 0.13, "y": 0.86, "w": 0.35, "h": 0.05 },
+    { "text": "These are the fingers of my hand.", "x": 0.53, "y": 0.53, "w": 0.35, "h": 0.05 },
+    { "text": "This finger is between these other two fingers of my hand.", "x": 0.55, "y": 0.72, "w": 0.35, "h": 0.15 }
+  ]
+}

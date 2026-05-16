@@ -1,0 +1,17 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Mary is making soup.", "x": 0.1, "y": 0.08, "w": 0.35, "h": 0.03 },
+    { "text": "This is a plate of soup.", "x": 0.1, "y": 0.27, "w": 0.35, "h": 0.03 },
+    { "text": "She will make the soup from milk and potatoes.", "x": 0.1, "y": 0.4, "w": 0.35, "h": 0.05 },
+    { "text": "These are potatoes.", "x": 0.54, "y": 0.1, "w": 0.35, "h": 0.03 },
+    { "text": "This is a bottle of milk. It is cow's milk.", "x": 0.54, "y": 0.2, "w": 0.35, "h": 0.05 },
+    { "text": "This is a cow.", "x": 0.56, "y": 0.32, "w": 0.35, "h": 0.03 },
+    { "text": "Cows are animals. These are some other animals.", "x": 0.12, "y": 0.52, "w": 0.35, "h": 0.08 },
+    { "text": "a pig", "x": 0.16, "y": 0.68, "w": 0.15, "h": 0.03 },
+    { "text": "a sheep", "x": 0.16, "y": 0.74, "w": 0.15, "h": 0.03 },
+    { "text": "a horse", "x": 0.16, "y": 0.82, "w": 0.15, "h": 0.03 },
+    { "text": "We get milk from cows. Mary is putting some milk in a cup.", "x": 0.53, "y": 0.51, "w": 0.35, "h": 0.08 },
+    { "text": "The milk is going into the cup.", "x": 0.55, "y": 0.81, "w": 0.35, "h": 0.05 }
+  ]
+}

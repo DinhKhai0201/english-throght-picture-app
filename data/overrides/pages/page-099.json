@@ -1,0 +1,26 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This is a bird.", "x": 0.22, "y": 0.09, "w": 0.2, "h": 0.03 },
+    { "text": "It is on a tree.", "x": 0.22, "y": 0.12, "w": 0.2, "h": 0.03 },
+    { "text": "The other birds are not on the tree.", "x": 0.08, "y": 0.25, "w": 0.35, "h": 0.05 },
+    { "text": "They are in the air.", "x": 0.08, "y": 0.3, "w": 0.35, "h": 0.03 },
+    { "text": "This is a plane.", "x": 0.55, "y": 0.21, "w": 0.25, "h": 0.03 },
+    { "text": "It is in the air.", "x": 0.55, "y": 0.24, "w": 0.25, "h": 0.03 },
+    { "text": "It is going through the air.", "x": 0.55, "y": 0.29, "w": 0.35, "h": 0.05 },
+    { "text": "These are planes.", "x": 0.55, "y": 0.37, "w": 0.35, "h": 0.03 },
+    { "text": "We take in air through our mouths and through our noses.", "x": 0.08, "y": 0.49, "w": 0.4, "h": 0.08 },
+    { "text": "The air comes in. Then it goes out. That is a breath.", "x": 0.08, "y": 0.73, "w": 0.4, "h": 0.08 },
+    { "text": "in", "x": 0.13, "y": 0.81, "w": 0.05, "h": 0.03 },
+    { "text": "out", "x": 0.19, "y": 0.81, "w": 0.05, "h": 0.03 },
+    { "text": "one breath", "x": 0.25, "y": 0.82, "w": 0.15, "h": 0.03 },
+    { "text": "in", "x": 0.09, "y": 0.85, "w": 0.05, "h": 0.03 },
+    { "text": "out", "x": 0.15, "y": 0.85, "w": 0.05, "h": 0.03 },
+    { "text": "in", "x": 0.09, "y": 0.88, "w": 0.05, "h": 0.03 },
+    { "text": "out", "x": 0.15, "y": 0.88, "w": 0.05, "h": 0.03 },
+    { "text": "two breaths", "x": 0.22, "y": 0.86, "w": 0.15, "h": 0.03 },
+    { "text": "The air is coming out. It is warm.", "x": 0.54, "y": 0.51, "w": 0.3, "h": 0.05 },
+    { "text": "When it comes out it is warm.", "x": 0.54, "y": 0.57, "w": 0.3, "h": 0.05 },
+    { "text": "Put your hand here. Your breath is warm.", "x": 0.57, "y": 0.74, "w": 0.3, "h": 0.08 }
+  ]
+}

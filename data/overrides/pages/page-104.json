@@ -1,0 +1,20 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "These are apples.", "x": 0.16, "y": 0.12, "w": 0.3, "h": 0.03 },
+    { "text": "These are oranges.", "x": 0.15, "y": 0.25, "w": 0.3, "h": 0.03 },
+    { "text": "Apples and oranges are fruit.", "x": 0.11, "y": 0.36, "w": 0.35, "h": 0.05 },
+    { "text": "Does Mary keep the fruit in the fridge?", "x": 0.11, "y": 0.41, "w": 0.35, "h": 0.05 },
+    { "text": "What is the time?", "x": 0.61, "y": 0.13, "w": 0.3, "h": 0.03 },
+    { "text": "The time is five (5:00).", "x": 0.55, "y": 0.32, "w": 0.35, "h": 0.03 },
+    { "text": "It is five.", "x": 0.55, "y": 0.35, "w": 0.35, "h": 0.03 },
+    { "text": "Mary will make the soup.", "x": 0.55, "y": 0.38, "w": 0.35, "h": 0.05 },
+    { "text": "What is the time?", "x": 0.14, "y": 0.53, "w": 0.3, "h": 0.03 },
+    { "text": "It is five-thirty (5:30).", "x": 0.12, "y": 0.71, "w": 0.35, "h": 0.03 },
+    { "text": "Mary is making the soup.", "x": 0.12, "y": 0.74, "w": 0.35, "h": 0.05 },
+    { "text": "The potatoes are in the pot. The water in the pot is boiling.", "x": 0.12, "y": 0.79, "w": 0.38, "h": 0.08 },
+    { "text": "It is five-forty (5:40).", "x": 0.55, "y": 0.53, "w": 0.35, "h": 0.03 },
+    { "text": "Mary has a fork in her hand.", "x": 0.53, "y": 0.68, "w": 0.35, "h": 0.05 },
+    { "text": "She is putting the fork into the potatoes.", "x": 0.53, "y": 0.85, "w": 0.35, "h": 0.05 }
+  ]
+}

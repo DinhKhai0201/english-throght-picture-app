@@ -1,0 +1,13 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "John is coming into the room again.", "x": 0.15, "y": 0.38, "w": 0.35, "h": 0.05 },
+    { "text": "He came into the room.", "x": 0.54, "y": 0.08, "w": 0.35, "h": 0.03 },
+    { "text": "He went to the table.", "x": 0.54, "y": 0.11, "w": 0.35, "h": 0.03 },
+    { "text": "He is there now.", "x": 0.57, "y": 0.43, "w": 0.35, "h": 0.03 },
+    { "text": "The hat is not on the table.", "x": 0.15, "y": 0.53, "w": 0.35, "h": 0.05 },
+    { "text": "He is saying,", "x": 0.57, "y": 0.52, "w": 0.35, "h": 0.03 },
+    { "text": "Where is my hat?", "x": 0.59, "y": 0.59, "w": 0.3, "h": 0.03 },
+    { "text": "I put it on the table.", "x": 0.58, "y": 0.62, "w": 0.3, "h": 0.03 }
+  ]
+}
