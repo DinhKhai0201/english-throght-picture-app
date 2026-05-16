@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Time and Space are connected. Astronomers use light-years to measure the vast distances to the stars.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.25 },
+    { "text": "(Diagram: The moon and stars in the night sky). A light-year is the distance light travels in one year.", "x": 0.58, "y": 0.05, "w": 0.35, "h": 0.25 },
+    { "text": "Modern telescopes see stars billions of light-years away. Because light takes time to reach us, we see them as they were in the past.", "x": 0.55, "y": 0.35, "w": 0.4, "h": 0.45 },
+    { "text": "(Illustrations: A large telescope and an observatory). astronomer: star scientist. astronomy: study of stars. FUTURE: will study. PRESENT: study(ies). PAST: studied.", "x": 0.1, "y": 0.35, "w": 0.45, "h": 0.55 }
+  ]
+}

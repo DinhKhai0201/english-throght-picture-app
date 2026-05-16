@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Stepping on a scale causes physical changes: springs pull and a pointer moves.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.2 },
+    { "text": "(Diagram: Feet on a scale). When you see the weight, light rays enter your eye and hit the retina.", "x": 0.55, "y": 0.05, "w": 0.4, "h": 0.4 },
+    { "text": "(Diagram: Anatomy of an eye with light rays focusing on the retina). The lens in your eye is made of living cells.", "x": 0.1, "y": 0.48, "w": 0.85, "h": 0.3 },
+    { "text": "lens: clear part of the eye or camera. retina: sensitive cells at the back of the eye.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
+  ]
+}

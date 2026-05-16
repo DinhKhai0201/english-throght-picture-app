@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Nerves connect the retina to the brain. Impulses travel through these nerves like a million separate telephone lines.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "Signals go to the back of the brain, allowing us to see. (Diagram: A human head showing the connection from eye to brain).", "x": 0.1, "y": 0.22, "w": 0.5, "h": 0.28 },
+    { "text": "Signals travel at the same rate from all parts of the body, even over long distances.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.2 },
+    { "text": "impulse: a signal wave in a nerve. nerve: a chain of cells carrying signals. (Our nerves can get tired).", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.15 }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Thinking is complex self-control. Our brains use feedback systems where effects control their causes.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "Thermostat loop: Fuel produces heat, which feeds back through the thermostat to limit more fuel. (Diagram: Feedback circle for a thermostat).", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.28 },
+    { "text": "Flyball governor loop: Steam produces work, which feeds back to limit more steam if the engine is too fast. (Diagram: Feedback circle for a governor).", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.28 },
+    { "text": "The human brain contains millions of such feedback circles constantly controlling each other.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
+  ]
+}

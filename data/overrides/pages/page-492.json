@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The earth is far older than we can imagine. Time stretches long into the past and far into the future.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "(Illustration: A person sitting by a lake among ancient mountains, contemplating the passage of time).", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.3 },
+    { "text": "Seventy years is long compared to a minute, but nothing compared to a stone. A Chinese poem says: 'Quickly the years fly past forever, Here forever is this spring morning.'", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.3 },
+    { "text": "poem: a way of expressing a person's complete thoughts and feelings perfectly.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This curving line shows how the world has grown from simple to complex over time.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
+    { "text": "(Diagram: A graph with a curve rising sharply to the right. Left is the 'PAST', bottom right is 'SIMPLE', top right is 'COMPLEX').", "x": 0.1, "y": 0.18, "w": 0.85, "h": 0.28 },
+    { "text": "The past is on the left, and humans today are at the top of the curve. Long ago, changes were simple compared to the complex changes in us today.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.22 },
+    { "text": "The higher the curve goes, the more complex the changes become. We are living through the most complex stage of growth.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.15 }
+  ]
+}
