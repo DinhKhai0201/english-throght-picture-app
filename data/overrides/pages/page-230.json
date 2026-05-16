@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Where the light goes into the glass, it is bent. It is bent again where it comes out of the glass into the air.", "x": 0.08, "y": 0.12, "w": 0.38, "h": 0.3 },
+    { "text": "Here is your eye. You are looking at the pencil in the glass of water.", "x": 0.51, "y": 0.12, "w": 0.4, "h": 0.35 },
+    { "text": "The light from the pencil is bent where it comes out of the water into the air. It is bent here.", "x": 0.08, "y": 0.54, "w": 0.38, "h": 0.4 },
+    { "text": "The pencil is not bent. But the light from it is bent.", "x": 0.52, "y": 0.54, "w": 0.38, "h": 0.1 }
+  ]
+}
