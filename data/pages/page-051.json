@@ -2,144 +2,43 @@
   "page": 51,
   "image": "/books/page 51.png",
   "imageApiPath": "/api/books/page%2051.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 59,
-    "wordCount": 277,
+    "regionCount": 14,
+    "wordCount": 125,
     "imageWidth": 1171,
     "imageHeight": 1846
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
+        "r2",
         "r3",
         "r4",
-        "r6",
-        "r8",
-        "r10",
-        "r12",
-        "r37",
-        "r38",
-        "r39",
-        "r40",
-        "r41"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2",
         "r5",
+        "r6",
         "r7",
+        "r8",
         "r9",
+        "r10",
         "r11",
-        "r42",
-        "r43"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r16",
-        "r22",
-        "r24",
-        "r26",
-        "r28",
-        "r30",
-        "r32",
-        "r34",
-        "r47",
-        "r52",
-        "r53",
-        "r54",
-        "r55",
-        "r56",
-        "r57",
-        "r58"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r12",
         "r13",
-        "r14",
-        "r15",
-        "r17",
-        "r18",
-        "r19",
-        "r20",
-        "r21",
-        "r23",
-        "r25",
-        "r27",
-        "r29",
-        "r31",
-        "r33",
-        "r35",
-        "r36",
-        "r44",
-        "r45",
-        "r46",
-        "r48",
-        "r49",
-        "r50",
-        "r51",
-        "r59"
+        "r14"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "text": "sl",
-      "x": 0.1059,
-      "y": 0.084,
-      "w": 0.1213,
-      "h": 0.1111,
-      "words": [
-        "sl"
-      ]
-    },
-    {
-      "id": "r2",
-      "text": "Now it is on the shelf",
-      "x": 0.5816,
-      "y": 0.247,
-      "w": 0.3262,
-      "h": 0.0195,
-      "words": [
-        "Now",
-        "it",
-        "is",
-        "on",
-        "the",
-        "shelf"
-      ]
-    },
-    {
-      "id": "r3",
+      "order": 0,
       "text": "Ihave it in my hand.",
       "x": 0.1247,
       "y": 0.2465,
@@ -151,266 +50,176 @@
         "in",
         "my",
         "hand."
-      ]
+      ],
+      "conf": 85.7637,
+      "source": "psm-11"
     },
     {
-      "id": "r4",
-      "text": "| am putting it between",
-      "x": 0.1255,
-      "y": 0.2736,
-      "w": 0.3638,
-      "h": 0.0238,
+      "id": "r2",
+      "order": 1,
+      "text": "Now it is on the shelf again. It was in my hand. I had it in my hand. It is not in my hand. Where is it?",
+      "x": 0.5816,
+      "y": 0.247,
+      "w": 0.3262,
+      "h": 0.1214,
       "words": [
-        "|",
-        "am",
-        "putting",
+        "Now",
         "it",
-        "between"
-      ]
-    },
-    {
-      "id": "r5",
-      "text": "again. It was in my",
-      "x": 0.5824,
-      "y": 0.2746,
-      "w": 0.2963,
-      "h": 0.0222,
-      "words": [
+        "is",
+        "on",
+        "the",
+        "shelf",
         "again.",
         "It",
         "was",
         "in",
-        "my"
-      ]
-    },
-    {
-      "id": "r6",
-      "text": "the other two books.",
-      "x": 0.1247,
-      "y": 0.2985,
-      "w": 0.3202,
-      "h": 0.0195,
-      "words": [
-        "the",
-        "other",
-        "two",
-        "books."
-      ]
-    },
-    {
-      "id": "r7",
-      "text": "hand. I had it in my",
-      "x": 0.5833,
-      "y": 0.2985,
-      "w": 0.3015,
-      "h": 0.0238,
-      "words": [
+        "my",
         "hand.",
         "I",
         "had",
         "it",
         "in",
-        "my"
-      ]
+        "my",
+        "hand.",
+        "It",
+        "is",
+        "not",
+        "in",
+        "my",
+        "hand.",
+        "Where",
+        "is",
+        "it?"
+      ],
+      "conf": 95.6869,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "text": "Then it will be with the",
+      "id": "r3",
+      "order": 2,
+      "text": "am putting it between the other two books.",
+      "x": 0.1247,
+      "y": 0.2736,
+      "w": 0.3647,
+      "h": 0.0444,
+      "words": [
+        "am",
+        "putting",
+        "it",
+        "between",
+        "the",
+        "other",
+        "two",
+        "books."
+      ],
+      "conf": 92.667,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Then it will be with the other books.",
       "x": 0.1247,
       "y": 0.3239,
       "w": 0.3561,
-      "h": 0.0195,
+      "h": 0.045,
       "words": [
         "Then",
         "it",
         "will",
         "be",
         "with",
-        "the"
-      ]
-    },
-    {
-      "id": "r9",
-      "text": "hand. It is not in my",
-      "x": 0.5858,
-      "y": 0.3245,
-      "w": 0.3057,
-      "h": 0.0233,
-      "words": [
-        "hand.",
-        "It",
-        "is",
-        "not",
-        "in",
-        "my"
-      ]
-    },
-    {
-      "id": "r10",
-      "text": "other books.",
-      "x": 0.1255,
-      "y": 0.3489,
-      "w": 0.1947,
-      "h": 0.02,
-      "words": [
+        "the",
         "other",
         "books."
-      ]
+      ],
+      "conf": 96.5556,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
-      "text": "hand. Where is it?",
-      "x": 0.5867,
-      "y": 0.3489,
-      "w": 0.2852,
-      "h": 0.0195,
-      "words": [
-        "hand.",
-        "Where",
-        "is",
-        "it?"
-      ]
-    },
-    {
-      "id": "r12",
-      "text": "wee em ee oe ww wee ee ew ee eee",
-      "x": 0.0948,
-      "y": 0.4881,
-      "w": 0.8036,
-      "h": 0.0152,
-      "words": [
-        "wee",
-        "em",
-        "ee",
-        "oe",
-        "ww",
-        "wee",
-        "ee",
-        "ew",
-        "ee",
-        "eee"
-      ]
-    },
-    {
-      "id": "r13",
-      "text": "Do you see a door ana",
+      "id": "r5",
+      "order": 4,
+      "text": "Do you see a door ana two windows?",
       "x": 0.5739,
       "y": 0.5265,
       "w": 0.3553,
-      "h": 0.0238,
+      "h": 0.045,
       "words": [
         "Do",
         "you",
         "see",
         "a",
         "door",
-        "ana"
-      ]
-    },
-    {
-      "id": "r14",
-      "text": "two windows?",
-      "x": 0.5739,
-      "y": 0.5525,
-      "w": 0.2203,
-      "h": 0.019,
-      "words": [
+        "ana",
         "two",
         "windows?"
-      ]
+      ],
+      "conf": 96.3819,
+      "source": "psm-11"
     },
     {
-      "id": "r15",
-      "text": "Is one of the windows",
+      "id": "r6",
+      "order": 5,
+      "text": "Is one of the windows open?",
       "x": 0.5756,
       "y": 0.578,
       "w": 0.3356,
-      "h": 0.019,
+      "h": 0.0493,
       "words": [
         "Is",
         "one",
         "of",
         "the",
-        "windows"
-      ]
-    },
-    {
-      "id": "r16",
-      "text": "ag",
-      "x": 0.433,
-      "y": 0.5802,
-      "w": 0.0683,
-      "h": 0.0563,
-      "words": [
-        "ag"
-      ]
-    },
-    {
-      "id": "r17",
-      "text": "open?",
-      "x": 0.5756,
-      "y": 0.604,
-      "w": 0.0948,
-      "h": 0.0233,
-      "words": [
+        "windows",
         "open?"
-      ]
+      ],
+      "conf": 95.8994,
+      "source": "psm-11"
     },
     {
-      "id": "r18",
-      "text": "is the other window",
-      "x": 0.5773,
+      "id": "r7",
+      "order": 6,
+      "text": "is the other window shut?",
+      "x": 0.5764,
       "y": 0.6289,
-      "w": 0.304,
-      "h": 0.019,
+      "w": 0.3049,
+      "h": 0.0444,
       "words": [
         "is",
         "the",
         "other",
-        "window"
-      ]
-    },
-    {
-      "id": "r19",
-      "text": "shut?",
-      "x": 0.5764,
-      "y": 0.6549,
-      "w": 0.0786,
-      "h": 0.0184,
-      "words": [
+        "window",
         "shut?"
-      ]
+      ],
+      "conf": 90.4743,
+      "source": "psm-11"
     },
     {
-      "id": "r20",
-      "text": "Do you see two seats",
-      "x": 0.5773,
+      "id": "r8",
+      "order": 7,
+      "text": "Do you see two seats and the bookshelves between them?",
+      "x": 0.5747,
       "y": 0.682,
-      "w": 0.3228,
-      "h": 0.0222,
+      "w": 0.3254,
+      "h": 0.0699,
       "words": [
         "Do",
         "you",
         "see",
         "two",
-        "seats"
-      ]
-    },
-    {
-      "id": "r21",
-      "text": "and the bookshelves",
-      "x": 0.5747,
-      "y": 0.7064,
-      "w": 0.3177,
-      "h": 0.0195,
-      "words": [
+        "seats",
         "and",
         "the",
-        "bookshelves"
-      ]
+        "bookshelves",
+        "between",
+        "them?"
+      ],
+      "conf": 96.3561,
+      "source": "psm-11"
     },
     {
-      "id": "r22",
+      "id": "r9",
+      "order": 8,
       "text": "This is a room.",
       "x": 0.1213,
       "y": 0.7302,
@@ -421,562 +230,118 @@
         "is",
         "a",
         "room."
-      ]
+      ],
+      "conf": 95.7818,
+      "source": "psm-11"
     },
     {
-      "id": "r23",
-      "text": "between them?",
-      "x": 0.5756,
-      "y": 0.7324,
-      "w": 0.2357,
-      "h": 0.0195,
-      "words": [
-        "between",
-        "them?"
-      ]
-    },
-    {
-      "id": "r24",
-      "text": "What do you see in the",
+      "id": "r10",
+      "order": 9,
+      "text": "What do you see in the room?",
       "x": 0.1213,
       "y": 0.7573,
       "w": 0.3672,
-      "h": 0.0244,
+      "h": 0.0445,
       "words": [
         "What",
         "do",
         "you",
         "see",
         "in",
-        "the"
-      ]
+        "the",
+        "room?"
+      ],
+      "conf": 96.8562,
+      "source": "psm-11"
     },
     {
-      "id": "r25",
-      "text": "Do you see the clock",
+      "id": "r11",
+      "order": 10,
+      "text": "Do you see the clock over the bookshelves?",
       "x": 0.5756,
       "y": 0.7584,
-      "w": 0.3194,
-      "h": 0.0249,
+      "w": 0.3416,
+      "h": 0.0455,
       "words": [
         "Do",
         "you",
         "see",
         "the",
-        "clock"
-      ]
-    },
-    {
-      "id": "r26",
-      "text": "room?",
-      "x": 0.1221,
-      "y": 0.7839,
-      "w": 0.0982,
-      "h": 0.0179,
-      "words": [
-        "room?"
-      ]
-    },
-    {
-      "id": "r27",
-      "text": "over the bookshelves?",
-      "x": 0.5756,
-      "y": 0.7844,
-      "w": 0.3416,
-      "h": 0.0195,
-      "words": [
+        "clock",
         "over",
         "the",
         "bookshelves?"
-      ]
+      ],
+      "conf": 96.3205,
+      "source": "psm-11"
     },
     {
-      "id": "r28",
-      "text": "Do you see the floor",
-      "x": 0.123,
-      "y": 0.8093,
-      "w": 0.3143,
-      "h": 0.0233,
-      "words": [
-        "Do",
-        "you",
-        "see",
-        "the",
-        "floor"
-      ]
-    },
-    {
-      "id": "r29",
-      "text": "Yes. | see them.",
-      "x": 0.5764,
-      "y": 0.8104,
-      "w": 0.2383,
-      "h": 0.019,
-      "words": [
-        "Yes.",
-        "|",
-        "see",
-        "them."
-      ]
-    },
-    {
-      "id": "r30",
-      "text": "and three walls of the",
+      "id": "r12",
+      "order": 11,
+      "text": "Do you see the floor and three walls of the rooms Do you see them?",
       "x": 0.1221,
-      "y": 0.8342,
+      "y": 0.8093,
       "w": 0.3416,
-      "h": 0.019,
-      "words": [
-        "and",
-        "three",
-        "walls",
-        "of",
-        "the"
-      ]
-    },
-    {
-      "id": "r31",
-      "text": "These things are in the",
-      "x": 0.5764,
-      "y": 0.8359,
-      "w": 0.3476,
-      "h": 0.0228,
-      "words": [
-        "These",
-        "things",
-        "are",
-        "in",
-        "the"
-      ]
-    },
-    {
-      "id": "r32",
-      "text": "rooms",
-      "x": 0.123,
-      "y": 0.8657,
-      "w": 0.0897,
-      "h": 0.0125,
-      "words": [
-        "rooms"
-      ]
-    },
-    {
-      "id": "r33",
-      "text": "room. The room is ina",
-      "x": 0.5781,
-      "y": 0.8613,
-      "w": 0.3476,
-      "h": 0.019,
-      "words": [
-        "room.",
-        "The",
-        "room",
-        "is",
-        "ina"
-      ]
-    },
-    {
-      "id": "r34",
-      "text": "Do you see them?",
-      "x": 0.1238,
-      "y": 0.8852,
-      "w": 0.2767,
-      "h": 0.0233,
-      "words": [
-        "Do",
-        "you",
-        "see",
-        "them?"
-      ]
-    },
-    {
-      "id": "r35",
-      "text": "house.",
-      "x": 0.579,
-      "y": 0.8873,
-      "w": 0.0974,
-      "h": 0.0179,
-      "words": [
-        "house."
-      ]
-    },
-    {
-      "id": "r36",
-      "text": "47",
-      "x": 0.8941,
-      "y": 0.928,
-      "w": 0.0273,
-      "h": 0.0125,
-      "words": [
-        "47"
-      ]
-    },
-    {
-      "id": "r37",
-      "text": "Ihave it inmy hand. Now itis on the shelf",
-      "x": 0.1247,
-      "y": 0.2465,
-      "w": 0.7831,
-      "h": 0.0255,
-      "words": [
-        "Ihave",
-        "it",
-        "inmy",
-        "hand.",
-        "Now",
-        "itis",
-        "on",
-        "the",
-        "shelf"
-      ]
-    },
-    {
-      "id": "r38",
-      "text": "lam putting it between | It was in my",
-      "x": 0.1255,
-      "y": 0.2719,
-      "w": 0.7532,
-      "h": 0.0255,
-      "words": [
-        "lam",
-        "putting",
-        "it",
-        "between",
-        "|",
-        "It",
-        "was",
-        "in",
-        "my"
-      ]
-    },
-    {
-      "id": "r39",
-      "text": "the other two books. =| hand. | had it in my",
-      "x": 0.1247,
-      "y": 0.2985,
-      "w": 0.76,
-      "h": 0.0249,
-      "words": [
-        "the",
-        "other",
-        "two",
-        "books.",
-        "=|",
-        "hand.",
-        "|",
-        "had",
-        "it",
-        "in",
-        "my"
-      ]
-    },
-    {
-      "id": "r40",
-      "text": "Then it will be with the ' It is not in my",
-      "x": 0.1247,
-      "y": 0.3239,
-      "w": 0.7669,
-      "h": 0.0282,
-      "words": [
-        "Then",
-        "it",
-        "will",
-        "be",
-        "with",
-        "the",
-        "'",
-        "It",
-        "is",
-        "not",
-        "in",
-        "my"
-      ]
-    },
-    {
-      "id": "r41",
-      "text": "other books. hand. Where is it?",
-      "x": 0.1255,
-      "y": 0.3489,
-      "w": 0.7464,
-      "h": 0.02,
-      "words": [
-        "other",
-        "books.",
-        "hand.",
-        "Where",
-        "is",
-        "it?"
-      ]
-    },
-    {
-      "id": "r42",
-      "text": "'",
-      "x": 0.5192,
-      "y": 0.4155,
-      "w": 0.0043,
-      "h": 0.0092,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r43",
-      "text": "'",
-      "x": 0.5192,
-      "y": 0.4307,
-      "w": 0.0051,
-      "h": 0.0098,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r44",
-      "text": "+ Do you see a door ana",
-      "x": 0.5192,
-      "y": 0.5222,
-      "w": 0.4099,
-      "h": 0.0282,
-      "words": [
-        "+",
-        "Do",
-        "you",
-        "see",
-        "a",
-        "door",
-        "ana"
-      ]
-    },
-    {
-      "id": "r45",
-      "text": "two windows?",
-      "x": 0.5739,
-      "y": 0.5525,
-      "w": 0.2203,
-      "h": 0.019,
-      "words": [
-        "two",
-        "windows?"
-      ]
-    },
-    {
-      "id": "r46",
-      "text": "Is one of the windows",
-      "x": 0.5756,
-      "y": 0.578,
-      "w": 0.3356,
-      "h": 0.019,
-      "words": [
-        "Is",
-        "one",
-        "of",
-        "the",
-        "windows"
-      ]
-    },
-    {
-      "id": "r47",
-      "text": "afd open?",
-      "x": 0.433,
-      "y": 0.578,
-      "w": 0.2374,
-      "h": 0.0607,
-      "words": [
-        "afd",
-        "open?"
-      ]
-    },
-    {
-      "id": "r48",
-      "text": "1 Is the other window",
-      "x": 0.5218,
-      "y": 0.6289,
-      "w": 0.3595,
-      "h": 0.019,
-      "words": [
-        "1",
-        "Is",
-        "the",
-        "other",
-        "window"
-      ]
-    },
-    {
-      "id": "r49",
-      "text": "; shut?",
-      "x": 0.5218,
-      "y": 0.6538,
-      "w": 0.1332,
-      "h": 0.0233,
-      "words": [
-        ";",
-        "shut?"
-      ]
-    },
-    {
-      "id": "r50",
-      "text": "you see two seats",
-      "x": 0.6311,
-      "y": 0.6836,
-      "w": 0.269,
-      "h": 0.0206,
-      "words": [
-        "you",
-        "see",
-        "two",
-        "seats"
-      ]
-    },
-    {
-      "id": "r51",
-      "text": "| and the bookshelves",
-      "x": 0.5226,
-      "y": 0.7064,
-      "w": 0.3698,
-      "h": 0.0195,
-      "words": [
-        "|",
-        "and",
-        "the",
-        "bookshelves"
-      ]
-    },
-    {
-      "id": "r52",
-      "text": "This is a room. 1 between them?",
-      "x": 0.1213,
-      "y": 0.7286,
-      "w": 0.69,
-      "h": 0.0233,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "room.",
-        "1",
-        "between",
-        "them?"
-      ]
-    },
-    {
-      "id": "r53",
-      "text": "What do you see in the | Do you see the clock",
-      "x": 0.1213,
-      "y": 0.7573,
-      "w": 0.7737,
-      "h": 0.026,
-      "words": [
-        "What",
-        "do",
-        "you",
-        "see",
-        "in",
-        "the",
-        "|",
-        "Do",
-        "you",
-        "see",
-        "the",
-        "clock"
-      ]
-    },
-    {
-      "id": "r54",
-      "text": "room? ‘ over the bookshelves?",
-      "x": 0.1221,
-      "y": 0.7839,
-      "w": 0.795,
-      "h": 0.0255,
-      "words": [
-        "room?",
-        "‘",
-        "over",
-        "the",
-        "bookshelves?"
-      ]
-    },
-    {
-      "id": "r55",
-      "text": "Do you see the floor Yes. I see them.",
-      "x": 0.123,
-      "y": 0.8093,
-      "w": 0.6917,
-      "h": 0.0233,
+      "h": 0.0992,
       "words": [
         "Do",
         "you",
         "see",
         "the",
         "floor",
-        "Yes.",
-        "I",
-        "see",
-        "them."
-      ]
-    },
-    {
-      "id": "r56",
-      "text": "and three walls of the 1 These things are in the",
-      "x": 0.1221,
-      "y": 0.8342,
-      "w": 0.8019,
-      "h": 0.0244,
-      "words": [
         "and",
         "three",
         "walls",
         "of",
         "the",
-        "1",
+        "rooms",
+        "Do",
+        "you",
+        "see",
+        "them?"
+      ],
+      "conf": 96.5463,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Yes. see them.",
+      "x": 0.5764,
+      "y": 0.8104,
+      "w": 0.2383,
+      "h": 0.019,
+      "words": [
+        "Yes.",
+        "see",
+        "them."
+      ],
+      "conf": 95.7066,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "These things are in the room. The room is ina house.",
+      "x": 0.5764,
+      "y": 0.8359,
+      "w": 0.3493,
+      "h": 0.0693,
+      "words": [
         "These",
         "things",
         "are",
         "in",
-        "the"
-      ]
-    },
-    {
-      "id": "r57",
-      "text": "room? + room. The raom is ina",
-      "x": 0.123,
-      "y": 0.8564,
-      "w": 0.8027,
-      "h": 0.0249,
-      "words": [
-        "room?",
-        "+",
+        "the",
         "room.",
         "The",
-        "raom",
+        "room",
         "is",
-        "ina"
-      ]
-    },
-    {
-      "id": "r58",
-      "text": "Do you see them? house.",
-      "x": 0.1238,
-      "y": 0.8852,
-      "w": 0.5525,
-      "h": 0.0233,
-      "words": [
-        "Do",
-        "you",
-        "see",
-        "them?",
+        "ina",
         "house."
-      ]
-    },
-    {
-      "id": "r59",
-      "text": "47",
-      "x": 0.8941,
-      "y": 0.928,
-      "w": 0.0273,
-      "h": 0.0125,
-      "words": [
-        "47"
-      ]
+      ],
+      "conf": 96.3998,
+      "source": "psm-11"
     }
   ]
 }

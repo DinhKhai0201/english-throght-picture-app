@@ -2,118 +2,61 @@
   "page": 93,
   "image": "/books/page 93.png",
   "imageApiPath": "/api/books/page%2093.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 45,
-    "wordCount": 143,
+    "regionCount": 9,
+    "wordCount": 52,
     "imageWidth": 1142,
     "imageHeight": 1838
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
-        "r3",
-        "r5",
-        "r7",
-        "r22",
-        "r23",
-        "r26",
-        "r28",
-        "r31",
-        "r33"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
         "r2",
+        "r3",
         "r4",
+        "r5",
         "r6",
-        "r21",
-        "r24",
-        "r25",
-        "r27",
-        "r29",
-        "r30",
-        "r32"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r9",
-        "r11",
-        "r12",
-        "r14",
-        "r17",
-        "r18",
-        "r19",
-        "r34",
-        "r35",
-        "r36",
-        "r37"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r7",
         "r8",
-        "r10",
-        "r13",
-        "r15",
-        "r16",
-        "r20",
-        "r38",
-        "r39",
-        "r40",
-        "r41",
-        "r42",
-        "r43",
-        "r44",
-        "r45"
+        "r9"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "text": "Mary Smith will go from",
+      "order": 0,
+      "text": "Mary Smith will go from the table to the door.",
       "x": 0.0954,
       "y": 0.1257,
       "w": 0.3975,
-      "h": 0.0245,
+      "h": 0.0457,
       "words": [
         "Mary",
         "Smith",
         "will",
         "go",
-        "from"
-      ]
+        "from",
+        "the",
+        "table",
+        "to",
+        "the",
+        "door."
+      ],
+      "conf": 96.7028,
+      "source": "psm-11"
     },
     {
       "id": "r2",
+      "order": 1,
       "text": "She is going to the door.",
       "x": 0.5534,
       "y": 0.1251,
@@ -126,25 +69,13 @@
         "to",
         "the",
         "door."
-      ]
+      ],
+      "conf": 96.7089,
+      "source": "psm-11"
     },
     {
       "id": "r3",
-      "text": "the table to the door.",
-      "x": 0.0954,
-      "y": 0.1518,
-      "w": 0.3441,
-      "h": 0.0196,
-      "words": [
-        "the",
-        "table",
-        "to",
-        "the",
-        "door."
-      ]
-    },
-    {
-      "id": "r4",
+      "order": 2,
       "text": "The door is shut,",
       "x": 0.5525,
       "y": 0.1513,
@@ -155,85 +86,60 @@
         "door",
         "is",
         "shut,"
-      ]
+      ],
+      "conf": 91.1553,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "She went out of the The door is open now.",
+      "x": 0.1235,
+      "y": 0.5196,
+      "w": 0.3581,
+      "h": 0.0794,
+      "words": [
+        "She",
+        "went",
+        "out",
+        "of",
+        "the",
+        "The",
+        "door",
+        "is",
+        "open",
+        "now."
+      ],
+      "conf": 96.8031,
+      "source": "psm-11"
     },
     {
       "id": "r5",
-      "text": "9",
-      "x": 0.3065,
-      "y": 0.2715,
-      "w": 0.049,
-      "h": 0.0326,
-      "words": [
-        "9"
-      ]
-    },
-    {
-      "id": "r6",
-      "text": "e108",
-      "x": 0.6637,
-      "y": 0.3945,
-      "w": 0.0937,
-      "h": 0.0288,
-      "words": [
-        "e108"
-      ]
-    },
-    {
-      "id": "r7",
-      "text": "Sea",
-      "x": 0.0858,
-      "y": 0.4744,
-      "w": 0.0377,
-      "h": 0.0152,
-      "words": [
-        "Sea"
-      ]
-    },
-    {
-      "id": "r8",
-      "text": "Mary Smith is not in the",
+      "order": 4,
+      "text": "Mary Smith is not in the She was in the room.",
       "x": 0.5771,
       "y": 0.5174,
       "w": 0.3792,
-      "h": 0.0245,
+      "h": 0.0746,
       "words": [
         "Mary",
         "Smith",
         "is",
         "not",
         "in",
-        "the"
-      ]
-    },
-    {
-      "id": "r9",
-      "text": "She went out of the",
-      "x": 0.1252,
-      "y": 0.5196,
-      "w": 0.3126,
-      "h": 0.0316,
-      "words": [
+        "the",
         "She",
-        "went",
-        "out",
-        "of",
-        "the"
-      ]
-    },
-    {
-      "id": "r10",
-      "text": "room.",
-      "x": 0.5788,
-      "y": 0.5501,
-      "w": 0.0911,
-      "h": 0.0131,
-      "words": [
+        "was",
+        "in",
+        "the",
         "room."
-      ]
+      ],
+      "conf": 96.4429,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
+      "id": "r6",
+      "order": 5,
       "text": "room.",
       "x": 0.1252,
       "y": 0.555,
@@ -241,40 +147,27 @@
       "h": 0.0125,
       "words": [
         "room."
-      ]
+      ],
+      "conf": 94.9782,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "text": "The door is open now.",
-      "x": 0.1235,
-      "y": 0.574,
-      "w": 0.3581,
-      "h": 0.025,
+      "id": "r7",
+      "order": 6,
+      "text": "room.",
+      "x": 0.5788,
+      "y": 0.5501,
+      "w": 0.0911,
+      "h": 0.0131,
       "words": [
-        "The",
-        "door",
-        "is",
-        "open",
-        "now."
-      ]
-    },
-    {
-      "id": "r13",
-      "text": "She was in the room.",
-      "x": 0.5779,
-      "y": 0.5691,
-      "w": 0.3327,
-      "h": 0.0229,
-      "words": [
-        "She",
-        "was",
-        "in",
-        "the",
         "room."
-      ]
+      ],
+      "conf": 86.9825,
+      "source": "psm-11"
     },
     {
-      "id": "r14",
+      "id": "r8",
+      "order": 7,
       "text": "It was shut.",
       "x": 0.1252,
       "y": 0.5996,
@@ -284,411 +177,28 @@
         "It",
         "was",
         "shut."
-      ]
+      ],
+      "conf": 80.0676,
+      "source": "psm-11"
     },
     {
-      "id": "r15",
-      "text": "She went out of the",
-      "x": 0.5779,
-      "y": 0.5947,
-      "w": 0.3082,
-      "h": 0.0229,
-      "words": [
-        "She",
-        "went",
-        "out",
-        "of",
-        "the"
-      ]
-    },
-    {
-      "id": "r16",
-      "text": "room.",
+      "id": "r9",
+      "order": 8,
+      "text": "She went out of the room.",
       "x": 0.5753,
-      "y": 0.6279,
-      "w": 0.0911,
-      "h": 0.0136,
-      "words": [
-        "room."
-      ]
-    },
-    {
-      "id": "r17",
-      "text": "q",
-      "x": 0.2005,
-      "y": 0.7127,
-      "w": 0.0298,
-      "h": 0.0593,
-      "words": [
-        "q"
-      ]
-    },
-    {
-      "id": "r18",
-      "text": "a= 08",
-      "x": 0.1988,
-      "y": 0.8215,
-      "w": 0.0893,
-      "h": 0.0256,
-      "words": [
-        "a=",
-        "08"
-      ]
-    },
-    {
-      "id": "r19",
-      "text": "1S",
-      "x": 0.2933,
-      "y": 0.8373,
-      "w": 0.0543,
-      "h": 0.0174,
-      "words": [
-        "1S"
-      ]
-    },
-    {
-      "id": "r20",
-      "text": "89",
-      "x": 0.9186,
-      "y": 0.9396,
-      "w": 0.0298,
-      "h": 0.0136,
-      "words": [
-        "89"
-      ]
-    },
-    {
-      "id": "r21",
-      "text": "t",
-      "x": 0.5193,
-      "y": 0.1104,
-      "w": 0.0061,
-      "h": 0.0092,
-      "words": [
-        "t"
-      ]
-    },
-    {
-      "id": "r22",
-      "text": "Mary Smith will go from {| She is going to the door.",
-      "x": 0.0954,
-      "y": 0.1246,
-      "w": 0.8494,
-      "h": 0.0256,
-      "words": [
-        "Mary",
-        "Smith",
-        "will",
-        "go",
-        "from",
-        "{|",
-        "She",
-        "is",
-        "going",
-        "to",
-        "the",
-        "door."
-      ]
-    },
-    {
-      "id": "r23",
-      "text": "the table to the door. | The door is shut.",
-      "x": 0.0954,
-      "y": 0.1513,
-      "w": 0.7189,
-      "h": 0.0267,
-      "words": [
-        "the",
-        "table",
-        "to",
-        "the",
-        "door.",
-        "|",
-        "The",
-        "door",
-        "is",
-        "shut."
-      ]
-    },
-    {
-      "id": "r24",
-      "text": "4",
-      "x": 0.5193,
-      "y": 0.2122,
-      "w": 0.0053,
-      "h": 0.0092,
-      "words": [
-        "4"
-      ]
-    },
-    {
-      "id": "r25",
-      "text": "i]",
-      "x": 0.5193,
-      "y": 0.2263,
-      "w": 0.0053,
-      "h": 0.0098,
-      "words": [
-        "i]"
-      ]
-    },
-    {
-      "id": "r26",
-      "text": "Le",
-      "x": 0.1856,
-      "y": 0.2715,
-      "w": 0.1734,
-      "h": 0.0675,
-      "words": [
-        "Le"
-      ]
-    },
-    {
-      "id": "r27",
-      "text": "1 s",
-      "x": 0.5193,
-      "y": 0.3139,
-      "w": 0.2391,
-      "h": 0.0109,
-      "words": [
-        "1",
-        "s"
-      ]
-    },
-    {
-      "id": "r28",
-      "text": "e",
-      "x": 0.3897,
-      "y": 0.3357,
-      "w": 0.0201,
-      "h": 0.0114,
-      "words": [
-        "e"
-      ]
-    },
-    {
-      "id": "r29",
-      "text": "{\\",
-      "x": 0.7469,
-      "y": 0.3471,
-      "w": 0.028,
-      "h": 0.0245,
-      "words": [
-        "{\\"
-      ]
-    },
-    {
-      "id": "r30",
-      "text": "; to —",
-      "x": 0.5201,
-      "y": 0.3874,
-      "w": 0.2846,
-      "h": 0.0223,
-      "words": [
-        ";",
-        "to",
-        "—"
-      ]
-    },
-    {
-      "id": "r31",
-      "text": "ae",
-      "x": 0.387,
-      "y": 0.3885,
-      "w": 0.1384,
-      "h": 0.0386,
-      "words": [
-        "ae"
-      ]
-    },
-    {
-      "id": "r32",
-      "text": "i]",
-      "x": 0.5193,
-      "y": 0.4608,
-      "w": 0.0053,
-      "h": 0.0098,
-      "words": [
-        "i]"
-      ]
-    },
-    {
-      "id": "r33",
-      "text": "Sea Gees ee ses",
-      "x": 0.0858,
-      "y": 0.4777,
-      "w": 0.3713,
-      "h": 0.0071,
-      "words": [
-        "Sea",
-        "Gees",
-        "ee",
-        "ses"
-      ]
-    },
-    {
-      "id": "r34",
-      "text": "She went out of the Mary Smith is not in the",
-      "x": 0.1252,
-      "y": 0.5174,
-      "w": 0.831,
-      "h": 0.0256,
-      "words": [
-        "She",
-        "went",
-        "out",
-        "of",
-        "the",
-        "Mary",
-        "Smith",
-        "is",
-        "not",
-        "in",
-        "the"
-      ]
-    },
-    {
-      "id": "r35",
-      "text": "room. 1 Foom.",
-      "x": 0.1252,
-      "y": 0.5462,
-      "w": 0.5447,
-      "h": 0.0212,
-      "words": [
-        "room.",
-        "1",
-        "Foom."
-      ]
-    },
-    {
-      "id": "r36",
-      "text": "The door is open now. 1 She was in the room.",
-      "x": 0.1235,
-      "y": 0.5691,
-      "w": 0.7872,
-      "h": 0.0299,
-      "words": [
-        "The",
-        "door",
-        "is",
-        "open",
-        "now.",
-        "1",
-        "She",
-        "was",
-        "in",
-        "the",
-        "room."
-      ]
-    },
-    {
-      "id": "r37",
-      "text": "It was shut. 1 She went out of the",
-      "x": 0.1252,
       "y": 0.5947,
-      "w": 0.7609,
-      "h": 0.0283,
+      "w": 0.3108,
+      "h": 0.0468,
       "words": [
-        "It",
-        "was",
-        "shut.",
-        "1",
         "She",
         "went",
         "out",
         "of",
-        "the"
-      ]
-    },
-    {
-      "id": "r38",
-      "text": "1. room.",
-      "x": 0.5175,
-      "y": 0.6279,
-      "w": 0.1489,
-      "h": 0.0136,
-      "words": [
-        "1.",
+        "the",
         "room."
-      ]
-    },
-    {
-      "id": "r39",
-      "text": "i}",
-      "x": 0.5166,
-      "y": 0.6736,
-      "w": 0.0044,
-      "h": 0.0098,
-      "words": [
-        "i}"
-      ]
-    },
-    {
-      "id": "r40",
-      "text": "i]",
-      "x": 0.5158,
-      "y": 0.6877,
-      "w": 0.0053,
-      "h": 0.0098,
-      "words": [
-        "i]"
-      ]
-    },
-    {
-      "id": "r41",
-      "text": "'",
-      "x": 0.5149,
-      "y": 0.7318,
-      "w": 0.0053,
-      "h": 0.0098,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r42",
-      "text": "1",
-      "x": 0.514,
-      "y": 0.7905,
-      "w": 0.0053,
-      "h": 0.0109,
-      "words": [
-        "1"
-      ]
-    },
-    {
-      "id": "r43",
-      "text": "} oo",
-      "x": 0.5114,
-      "y": 0.8602,
-      "w": 0.3109,
-      "h": 0.0294,
-      "words": [
-        "}",
-        "oo"
-      ]
-    },
-    {
-      "id": "r44",
-      "text": "a",
-      "x": 0.5105,
-      "y": 0.9075,
-      "w": 0.0088,
-      "h": 0.0109,
-      "words": [
-        "a"
-      ]
-    },
-    {
-      "id": "r45",
-      "text": "89",
-      "x": 0.9186,
-      "y": 0.9396,
-      "w": 0.0298,
-      "h": 0.0136,
-      "words": [
-        "89"
-      ]
+      ],
+      "conf": 96.6211,
+      "source": "psm-11"
     }
   ]
 }

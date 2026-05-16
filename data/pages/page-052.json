@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2052.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 52,
-    "wordCount": 196,
+    "regionCount": 20,
+    "wordCount": 87,
     "imageWidth": 1346,
     "imageHeight": 1875
   },
@@ -19,18 +19,10 @@
       "h": 0.5,
       "regionIds": [
         "r2",
-        "r6",
+        "r4",
         "r8",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r31",
-        "r33",
-        "r34",
-        "r35",
-        "r36",
-        "r37"
+        "r9",
+        "r10"
       ]
     },
     {
@@ -43,16 +35,9 @@
       "regionIds": [
         "r1",
         "r3",
-        "r4",
         "r5",
-        "r7",
-        "r9",
-        "r27",
-        "r28",
-        "r29",
-        "r30",
-        "r32",
-        "r38"
+        "r6",
+        "r7"
       ]
     },
     {
@@ -63,16 +48,11 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r20",
-        "r22",
-        "r23",
-        "r24",
-        "r26",
-        "r48",
-        "r49",
-        "r50",
-        "r51",
-        "r52"
+        "r14",
+        "r16",
+        "r17",
+        "r18",
+        "r20"
       ]
     },
     {
@@ -83,55 +63,18 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r14",
+        "r11",
+        "r12",
+        "r13",
         "r15",
-        "r16",
-        "r17",
-        "r18",
-        "r19",
-        "r21",
-        "r25",
-        "r39",
-        "r40",
-        "r41",
-        "r42",
-        "r43",
-        "r44",
-        "r45",
-        "r46",
-        "r47"
+        "r19"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "text": "“iu bit",
-      "x": 0.5825,
-      "y": 0.136,
-      "w": 0.2793,
-      "h": 0.1504,
-      "words": [
-        "“iu",
-        "bit"
-      ]
-    },
-    {
-      "id": "r2",
-      "text": "This is a face.",
-      "x": 0.1805,
-      "y": 0.2864,
-      "w": 0.1835,
-      "h": 0.0187,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "face."
-      ]
-    },
-    {
-      "id": "r3",
+      "order": 0,
       "text": "These are my hands.",
       "x": 0.5513,
       "y": 0.2608,
@@ -142,10 +85,30 @@
         "are",
         "my",
         "hands."
-      ]
+      ],
+      "conf": 96.5405,
+      "source": "psm-11"
     },
     {
-      "id": "r4",
+      "id": "r2",
+      "order": 1,
+      "text": "This is a face.",
+      "x": 0.1805,
+      "y": 0.2864,
+      "w": 0.1835,
+      "h": 0.0187,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "face."
+      ],
+      "conf": 96.5956,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
       "text": "Which is my right hand?",
       "x": 0.552,
       "y": 0.2853,
@@ -157,10 +120,35 @@
         "my",
         "right",
         "hand?"
-      ]
+      ],
+      "conf": 96.5719,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Eyes, nose, and mouth are parts of a face.",
+      "x": 0.182,
+      "y": 0.3301,
+      "w": 0.3061,
+      "h": 0.0491,
+      "words": [
+        "Eyes,",
+        "nose,",
+        "and",
+        "mouth",
+        "are",
+        "parts",
+        "of",
+        "a",
+        "face."
+      ],
+      "conf": 96.3781,
+      "source": "psm-11"
     },
     {
       "id": "r5",
+      "order": 4,
       "text": "Which is my left hand?",
       "x": 0.552,
       "y": 0.3109,
@@ -172,24 +160,13 @@
         "my",
         "left",
         "hand?"
-      ]
+      ],
+      "conf": 96.0329,
+      "source": "psm-11"
     },
     {
       "id": "r6",
-      "text": "Eyes, nose, and mouth",
-      "x": 0.1835,
-      "y": 0.3301,
-      "w": 0.3046,
-      "h": 0.024,
-      "words": [
-        "Eyes,",
-        "nose,",
-        "and",
-        "mouth"
-      ]
-    },
-    {
-      "id": "r7",
+      "order": 5,
       "text": "Which are my thumbs?",
       "x": 0.552,
       "y": 0.336,
@@ -200,25 +177,13 @@
         "are",
         "my",
         "thumbs?"
-      ]
+      ],
+      "conf": 96.2159,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "text": "are parts of a face.",
-      "x": 0.182,
-      "y": 0.3557,
-      "w": 0.263,
-      "h": 0.0235,
-      "words": [
-        "are",
-        "parts",
-        "of",
-        "a",
-        "face."
-      ]
-    },
-    {
-      "id": "r9",
+      "id": "r7",
+      "order": 6,
       "text": "Which are my fingers?",
       "x": 0.552,
       "y": 0.3611,
@@ -229,10 +194,13 @@
         "are",
         "my",
         "fingers?"
-      ]
+      ],
+      "conf": 96.2536,
+      "source": "psm-11"
     },
     {
-      "id": "r10",
+      "id": "r8",
+      "order": 7,
       "text": "Which are the eyes?",
       "x": 0.1842,
       "y": 0.3909,
@@ -243,10 +211,13 @@
         "are",
         "the",
         "eyes?"
-      ]
+      ],
+      "conf": 96.3857,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
+      "id": "r9",
+      "order": 8,
       "text": "Which is the nose?",
       "x": 0.1842,
       "y": 0.4165,
@@ -257,10 +228,13 @@
         "is",
         "the",
         "nose?"
-      ]
+      ],
+      "conf": 96.6655,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
+      "id": "r10",
+      "order": 9,
       "text": "Which is the mouth?",
       "x": 0.1842,
       "y": 0.4421,
@@ -271,23 +245,13 @@
         "is",
         "the",
         "mouth?"
-      ]
+      ],
+      "conf": 96.1586,
+      "source": "psm-11"
     },
     {
-      "id": "r13",
-      "text": "wwe we —",
-      "x": 0.1709,
-      "y": 0.4896,
-      "w": 0.7229,
-      "h": 0.0048,
-      "words": [
-        "wwe",
-        "we",
-        "—"
-      ]
-    },
-    {
-      "id": "r14",
+      "id": "r11",
+      "order": 10,
       "text": "This is his head.",
       "x": 0.6003,
       "y": 0.5035,
@@ -298,69 +262,48 @@
         "is",
         "his",
         "head."
-      ]
+      ],
+      "conf": 96.3847,
+      "source": "psm-11"
     },
     {
-      "id": "r15",
-      "text": "NL",
+      "id": "r12",
+      "order": 11,
+      "text": "NL These are his arms.",
       "x": 0.6605,
       "y": 0.5787,
-      "w": 0.1092,
-      "h": 0.0293,
+      "w": 0.1589,
+      "h": 0.072,
       "words": [
-        "NL"
-      ]
-    },
-    {
-      "id": "r16",
-      "text": "These are",
-      "x": 0.6872,
-      "y": 0.6096,
-      "w": 0.1322,
-      "h": 0.0176,
-      "words": [
+        "NL",
         "These",
-        "are"
-      ]
-    },
-    {
-      "id": "r17",
-      "text": "his arms.",
-      "x": 0.6999,
-      "y": 0.6331,
-      "w": 0.1189,
-      "h": 0.0176,
-      "words": [
+        "are",
         "his",
         "arms."
-      ]
+      ],
+      "conf": 37.2214,
+      "source": "psm-11"
     },
     {
-      "id": "r18",
-      "text": "These are",
+      "id": "r13",
+      "order": 12,
+      "text": "These are his legs.",
       "x": 0.6924,
       "y": 0.6853,
       "w": 0.1315,
-      "h": 0.0187,
+      "h": 0.0469,
       "words": [
         "These",
-        "are"
-      ]
-    },
-    {
-      "id": "r19",
-      "text": "his legs.",
-      "x": 0.7155,
-      "y": 0.7093,
-      "w": 0.107,
-      "h": 0.0229,
-      "words": [
+        "are",
         "his",
         "legs."
-      ]
+      ],
+      "conf": 96.8124,
+      "source": "psm-11"
     },
     {
-      "id": "r20",
+      "id": "r14",
+      "order": 13,
       "text": "This is a man.",
       "x": 0.1984,
       "y": 0.7627,
@@ -371,10 +314,13 @@
         "is",
         "a",
         "man."
-      ]
+      ],
+      "conf": 96.1229,
+      "source": "psm-11"
     },
     {
-      "id": "r21",
+      "id": "r15",
+      "order": 14,
       "text": "These are his feet.",
       "x": 0.6248,
       "y": 0.7573,
@@ -385,10 +331,13 @@
         "are",
         "his",
         "feet."
-      ]
+      ],
+      "conf": 95.8779,
+      "source": "psm-11"
     },
     {
-      "id": "r22",
+      "id": "r16",
+      "order": 15,
       "text": "Which are his arms?",
       "x": 0.1991,
       "y": 0.7877,
@@ -399,10 +348,13 @@
         "are",
         "his",
         "arms?"
-      ]
+      ],
+      "conf": 96.6104,
+      "source": "psm-11"
     },
     {
-      "id": "r23",
+      "id": "r17",
+      "order": 16,
       "text": "Which are his hands?",
       "x": 0.2006,
       "y": 0.8123,
@@ -413,10 +365,13 @@
         "are",
         "his",
         "hands?"
-      ]
+      ],
+      "conf": 95.99,
+      "source": "psm-11"
     },
     {
-      "id": "r24",
+      "id": "r18",
+      "order": 17,
       "text": "Which are his legs?",
       "x": 0.2006,
       "y": 0.8379,
@@ -427,10 +382,13 @@
         "are",
         "his",
         "legs?"
-      ]
+      ],
+      "conf": 96.2139,
+      "source": "psm-11"
     },
     {
-      "id": "r25",
+      "id": "r19",
+      "order": 18,
       "text": "What is this?",
       "x": 0.6233,
       "y": 0.8277,
@@ -440,10 +398,13 @@
         "What",
         "is",
         "this?"
-      ]
+      ],
+      "conf": 94.9915,
+      "source": "psm-11"
     },
     {
-      "id": "r26",
+      "id": "r20",
+      "order": 19,
       "text": "Which are his feet?",
       "x": 0.2006,
       "y": 0.8629,
@@ -454,371 +415,9 @@
         "are",
         "his",
         "feet?"
-      ]
-    },
-    {
-      "id": "r27",
-      "text": "'",
-      "x": 0.5149,
-      "y": 0.1104,
-      "w": 0.0045,
-      "h": 0.0096,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r28",
-      "text": "'",
-      "x": 0.5156,
-      "y": 0.1968,
-      "w": 0.0045,
-      "h": 0.0096,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r29",
-      "text": "'",
-      "x": 0.5156,
-      "y": 0.2112,
-      "w": 0.0045,
-      "h": 0.0096,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r30",
-      "text": "1 These are my hands.",
-      "x": 0.5156,
-      "y": 0.2544,
-      "w": 0.3172,
-      "h": 0.0304,
-      "words": [
-        "1",
-        "These",
-        "are",
-        "my",
-        "hands."
-      ]
-    },
-    {
-      "id": "r31",
-      "text": "This is a face. Which is my right hand?",
-      "x": 0.1805,
-      "y": 0.2853,
-      "w": 0.7051,
-      "h": 0.0245,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "face.",
-        "Which",
-        "is",
-        "my",
-        "right",
-        "hand?"
-      ]
-    },
-    {
-      "id": "r32",
-      "text": "| Which is my left hand?",
-      "x": 0.5171,
-      "y": 0.3109,
-      "w": 0.3477,
-      "h": 0.024,
-      "words": [
-        "|",
-        "Which",
-        "is",
-        "my",
-        "left",
-        "hand?"
-      ]
-    },
-    {
-      "id": "r33",
-      "text": "Eyes, nose, and mouth Which are my thumbs?",
-      "x": 0.1835,
-      "y": 0.3301,
-      "w": 0.6842,
-      "h": 0.0288,
-      "words": [
-        "Eyes,",
-        "nose,",
-        "and",
-        "mouth",
-        "Which",
-        "are",
-        "my",
-        "thumbs?"
-      ]
-    },
-    {
-      "id": "r34",
-      "text": "are parts of a face. 1 Which are my fingers?",
-      "x": 0.182,
-      "y": 0.3557,
-      "w": 0.6798,
-      "h": 0.0363,
-      "words": [
-        "are",
-        "parts",
-        "of",
-        "a",
-        "face.",
-        "1",
-        "Which",
-        "are",
-        "my",
-        "fingers?"
-      ]
-    },
-    {
-      "id": "r35",
-      "text": "Which are the eyes? |",
-      "x": 0.1842,
-      "y": 0.3909,
-      "w": 0.338,
-      "h": 0.0245,
-      "words": [
-        "Which",
-        "are",
-        "the",
-        "eyes?",
-        "|"
-      ]
-    },
-    {
-      "id": "r36",
-      "text": "Which is the nose?",
-      "x": 0.1842,
-      "y": 0.4165,
-      "w": 0.2526,
-      "h": 0.0197,
-      "words": [
-        "Which",
-        "is",
-        "the",
-        "nose?"
-      ]
-    },
-    {
-      "id": "r37",
-      "text": "Which is the mouth? —;",
-      "x": 0.1842,
-      "y": 0.4421,
-      "w": 0.3388,
-      "h": 0.0229,
-      "words": [
-        "Which",
-        "is",
-        "the",
-        "mouth?",
-        "—;"
-      ]
-    },
-    {
-      "id": "r38",
-      "text": "t",
-      "x": 0.5193,
-      "y": 0.4715,
-      "w": 0.0037,
-      "h": 0.0085,
-      "words": [
-        "t"
-      ]
-    },
-    {
-      "id": "r39",
-      "text": "' This is his head.",
-      "x": 0.5193,
-      "y": 0.5035,
-      "w": 0.2957,
-      "h": 0.024,
-      "words": [
-        "'",
-        "This",
-        "is",
-        "his",
-        "head."
-      ]
-    },
-    {
-      "id": "r40",
-      "text": "Oo",
-      "x": 0.627,
-      "y": 0.5264,
-      "w": 0.0394,
-      "h": 0.0261,
-      "words": [
-        "Oo"
-      ]
-    },
-    {
-      "id": "r41",
-      "text": "4 ~",
-      "x": 0.5193,
-      "y": 0.5632,
-      "w": 0.1753,
-      "h": 0.0112,
-      "words": [
-        "4",
-        "~"
-      ]
-    },
-    {
-      "id": "r42",
-      "text": "N—",
-      "x": 0.6634,
-      "y": 0.5813,
-      "w": 0.1062,
-      "h": 0.0245,
-      "words": [
-        "N—"
-      ]
-    },
-    {
-      "id": "r43",
-      "text": "These are",
-      "x": 0.6872,
-      "y": 0.6096,
-      "w": 0.1322,
-      "h": 0.0176,
-      "words": [
-        "These",
-        "are"
-      ]
-    },
-    {
-      "id": "r44",
-      "text": "his arms.",
-      "x": 0.6999,
-      "y": 0.6331,
-      "w": 0.1189,
-      "h": 0.0176,
-      "words": [
-        "his",
-        "arms."
-      ]
-    },
-    {
-      "id": "r45",
-      "text": "These are",
-      "x": 0.6924,
-      "y": 0.6853,
-      "w": 0.1315,
-      "h": 0.0187,
-      "words": [
-        "These",
-        "are"
-      ]
-    },
-    {
-      "id": "r46",
-      "text": "his legs.",
-      "x": 0.7155,
-      "y": 0.7093,
-      "w": 0.107,
-      "h": 0.0229,
-      "words": [
-        "his",
-        "legs."
-      ]
-    },
-    {
-      "id": "r47",
-      "text": "i",
-      "x": 0.5201,
-      "y": 0.7349,
-      "w": 0.0037,
-      "h": 0.0085,
-      "words": [
-        "i"
-      ]
-    },
-    {
-      "id": "r48",
-      "text": "This is a man. These are his feet.",
-      "x": 0.1984,
-      "y": 0.7573,
-      "w": 0.6716,
-      "h": 0.024,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "man.",
-        "These",
-        "are",
-        "his",
-        "feet."
-      ]
-    },
-    {
-      "id": "r49",
-      "text": "Which are his arms?!",
-      "x": 0.1991,
-      "y": 0.7877,
-      "w": 0.3262,
-      "h": 0.0267,
-      "words": [
-        "Which",
-        "are",
-        "his",
-        "arms?!"
-      ]
-    },
-    {
-      "id": "r50",
-      "text": "Which are his hands? + oe",
-      "x": 0.2006,
-      "y": 0.8123,
-      "w": 0.5698,
-      "h": 0.0208,
-      "words": [
-        "Which",
-        "are",
-        "his",
-        "hands?",
-        "+",
-        "oe"
-      ]
-    },
-    {
-      "id": "r51",
-      "text": "Which are his legs? What is this?",
-      "x": 0.2006,
-      "y": 0.8277,
-      "w": 0.5981,
-      "h": 0.0325,
-      "words": [
-        "Which",
-        "are",
-        "his",
-        "legs?",
-        "What",
-        "is",
-        "this?"
-      ]
-    },
-    {
-      "id": "r52",
-      "text": "Which are his feet? {",
-      "x": 0.2006,
-      "y": 0.8629,
-      "w": 0.3254,
-      "h": 0.0224,
-      "words": [
-        "Which",
-        "are",
-        "his",
-        "feet?",
-        "{"
-      ]
+      ],
+      "conf": 95.4332,
+      "source": "psm-11"
     }
   ]
 }

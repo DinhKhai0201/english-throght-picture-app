@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The woman will put the hat on the table.", "x": 0.12, "y": 0.15, "w": 0.35, "h": 0.05 },
+    { "text": "She is putting it on the table.", "x": 0.52, "y": 0.15, "w": 0.35, "h": 0.05 },
+    { "text": "She put it there.", "x": 0.11, "y": 0.62, "w": 0.25, "h": 0.03 },
+    { "text": "It was in her hand. It is on the table.", "x": 0.52, "y": 0.55, "w": 0.35, "h": 0.05 }
+  ]
+}

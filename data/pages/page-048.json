@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2048.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 52,
-    "wordCount": 158,
+    "regionCount": 13,
+    "wordCount": 67,
     "imageWidth": 1263,
     "imageHeight": 1821
   },
@@ -19,23 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3",
-        "r5",
-        "r6",
-        "r8",
-        "r12",
-        "r28",
-        "r29",
-        "r30",
-        "r31",
-        "r32",
-        "r33",
-        "r34",
-        "r35",
-        "r36",
-        "r37",
-        "r38",
-        "r40"
+        "r3"
       ]
     },
     {
@@ -48,11 +32,7 @@
       "regionIds": [
         "r2",
         "r4",
-        "r7",
-        "r9",
-        "r10",
-        "r11",
-        "r39"
+        "r5"
       ]
     },
     {
@@ -63,21 +43,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r13",
-        "r15",
-        "r17",
-        "r18",
-        "r21",
-        "r23",
-        "r24",
-        "r26",
-        "r41",
-        "r42",
-        "r44",
-        "r45",
-        "r46",
-        "r51",
-        "r52"
+        "r6",
+        "r10",
+        "r12"
       ]
     },
     {
@@ -88,196 +56,135 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r14",
-        "r16",
-        "r19",
-        "r20",
-        "r22",
-        "r25",
-        "r27",
-        "r43",
-        "r47",
-        "r48",
-        "r49",
-        "r50"
+        "r7",
+        "r8",
+        "r9",
+        "r11",
+        "r13"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "text": "My nose fs between my",
-      "x": 0.1354,
+      "order": 0,
+      "text": "My nose fs between my eyes.",
+      "x": 0.1346,
       "y": 0.1307,
-      "w": 0.3357,
-      "h": 0.0253,
+      "w": 0.3365,
+      "h": 0.0516,
       "words": [
         "My",
         "nose",
         "fs",
         "between",
-        "my"
-      ]
+        "my",
+        "eyes."
+      ],
+      "conf": 93.062,
+      "source": "psm-11"
     },
     {
       "id": "r2",
-      "text": "My mouth fs under my",
+      "order": 1,
+      "text": "My mouth fs under my nose.",
       "x": 0.5424,
       "y": 0.1318,
       "w": 0.3222,
-      "h": 0.0258,
+      "h": 0.0456,
       "words": [
         "My",
         "mouth",
         "fs",
         "under",
-        "my"
-      ]
+        "my",
+        "nose."
+      ],
+      "conf": 91.4416,
+      "source": "psm-11"
     },
     {
       "id": "r3",
-      "text": "eyes.",
-      "x": 0.1346,
-      "y": 0.1642,
-      "w": 0.0705,
-      "h": 0.0181,
-      "words": [
-        "eyes."
-      ]
-    },
-    {
-      "id": "r4",
-      "text": "nose.",
-      "x": 0.5439,
-      "y": 0.1653,
-      "w": 0.0728,
-      "h": 0.0121,
-      "words": [
-        "nose."
-      ]
-    },
-    {
-      "id": "r5",
-      "text": "=",
-      "x": 0.2589,
-      "y": 0.2889,
-      "w": 0.0475,
-      "h": 0.0099,
-      "words": [
-        "="
-      ]
-    },
-    {
-      "id": "r6",
-      "text": "And it is between my",
+      "order": 2,
+      "text": "And it is between my eyes and my mouth,",
       "x": 0.137,
       "y": 0.3306,
       "w": 0.3048,
-      "h": 0.0247,
+      "h": 0.0511,
       "words": [
         "And",
         "it",
         "is",
         "between",
-        "my"
-      ]
+        "my",
+        "eyes",
+        "and",
+        "my",
+        "mouth,"
+      ],
+      "conf": 96.3146,
+      "source": "psm-11"
     },
     {
-      "id": "r7",
-      "text": "My nose is over my",
+      "id": "r4",
+      "order": 3,
+      "text": "My nose is over my mouth.",
       "x": 0.5534,
       "y": 0.3366,
       "w": 0.2779,
-      "h": 0.0247,
+      "h": 0.0445,
       "words": [
         "My",
         "nose",
         "is",
         "over",
-        "my"
-      ]
-    },
-    {
-      "id": "r8",
-      "text": "eyes and my mouth,",
-      "x": 0.137,
-      "y": 0.3564,
-      "w": 0.2898,
-      "h": 0.0253,
-      "words": [
-        "eyes",
-        "and",
         "my",
-        "mouth,"
-      ]
-    },
-    {
-      "id": "r9",
-      "text": "mouth.",
-      "x": 0.555,
-      "y": 0.3652,
-      "w": 0.0974,
-      "h": 0.0159,
-      "words": [
         "mouth."
-      ]
+      ],
+      "conf": 96.6604,
+      "source": "psm-11"
     },
     {
-      "id": "r10",
-      "text": "Our noses are over our",
+      "id": "r5",
+      "order": 4,
+      "text": "Our noses are over our mouths.",
       "x": 0.5534,
       "y": 0.3882,
       "w": 0.3381,
-      "h": 0.0187,
+      "h": 0.0446,
       "words": [
         "Our",
         "noses",
         "are",
         "over",
-        "our"
-      ]
-    },
-    {
-      "id": "r11",
-      "text": "mouths.",
-      "x": 0.5534,
-      "y": 0.413,
-      "w": 0.1108,
-      "h": 0.0198,
-      "words": [
+        "our",
         "mouths."
-      ]
+      ],
+      "conf": 95.9612,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "text": "wwe wwe ewe",
-      "x": 0.2589,
-      "y": 0.4981,
-      "w": 0.5067,
-      "h": 0.0049,
-      "words": [
-        "wwe",
-        "wwe",
-        "ewe"
-      ]
-    },
-    {
-      "id": "r13",
-      "text": "The light Is over the",
+      "id": "r6",
+      "order": 5,
+      "text": "The light Is over the table,",
       "x": 0.1576,
       "y": 0.5459,
       "w": 0.285,
-      "h": 0.0236,
+      "h": 0.0455,
       "words": [
         "The",
         "light",
         "Is",
         "over",
-        "the"
-      ]
+        "the",
+        "table,"
+      ],
+      "conf": 91.3583,
+      "source": "psm-11"
     },
     {
-      "id": "r14",
+      "id": "r7",
+      "order": 6,
       "text": "This is a clock.",
       "x": 0.6136,
       "y": 0.5343,
@@ -288,21 +195,13 @@
         "is",
         "a",
         "clock."
-      ]
+      ],
+      "conf": 95.8207,
+      "source": "psm-11"
     },
     {
-      "id": "r15",
-      "text": "table,",
-      "x": 0.1584,
-      "y": 0.5722,
-      "w": 0.0823,
-      "h": 0.0192,
-      "words": [
-        "table,"
-      ]
-    },
-    {
-      "id": "r16",
+      "id": "r8",
+      "order": 7,
       "text": "ft is on the wall.",
       "x": 0.62,
       "y": 0.6139,
@@ -314,79 +213,31 @@
         "on",
         "the",
         "wall."
-      ]
+      ],
+      "conf": 85.6274,
+      "source": "psm-11"
     },
     {
-      "id": "r17",
-      "text": "~",
-      "x": 0.2454,
-      "y": 0.654,
-      "w": 0.0238,
-      "h": 0.0071,
-      "words": [
-        "~"
-      ]
-    },
-    {
-      "id": "r18",
-      "text": "a",
-      "x": 0.2937,
-      "y": 0.6502,
-      "w": 0.0214,
-      "h": 0.0088,
-      "words": [
-        "a"
-      ]
-    },
-    {
-      "id": "r19",
-      "text": "It is over the",
-      "x": 0.6207,
+      "id": "r9",
+      "order": 8,
+      "text": "It is over the bookshelves.",
+      "x": 0.6192,
       "y": 0.6409,
-      "w": 0.1774,
-      "h": 0.0198,
+      "w": 0.1845,
+      "h": 0.0455,
       "words": [
         "It",
         "is",
         "over",
-        "the"
-      ]
-    },
-    {
-      "id": "r20",
-      "text": "bookshelves.",
-      "x": 0.6192,
-      "y": 0.6661,
-      "w": 0.1845,
-      "h": 0.0203,
-      "words": [
+        "the",
         "bookshelves."
-      ]
+      ],
+      "conf": 92.9533,
+      "source": "psm-11"
     },
     {
-      "id": "r21",
-      "text": "aS",
-      "x": 0.2391,
-      "y": 0.6722,
-      "w": 0.0839,
-      "h": 0.0335,
-      "words": [
-        "aS"
-      ]
-    },
-    {
-      "id": "r22",
-      "text": "COT",
-      "x": 0.6073,
-      "y": 0.7529,
-      "w": 0.2803,
-      "h": 0.0346,
-      "words": [
-        "COT"
-      ]
-    },
-    {
-      "id": "r23",
+      "id": "r10",
+      "order": 9,
       "text": "a.",
       "x": 0.2288,
       "y": 0.7573,
@@ -394,393 +245,61 @@
       "h": 0.0725,
       "words": [
         "a."
-      ]
+      ],
+      "conf": 35.1932,
+      "source": "psm-11"
     },
     {
-      "id": "r24",
-      "text": "The dog is under the",
+      "id": "r11",
+      "order": 10,
+      "text": "COT",
+      "x": 0.6073,
+      "y": 0.7529,
+      "w": 0.2803,
+      "h": 0.0346,
+      "words": [
+        "COT"
+      ],
+      "conf": 41.1178,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "The dog is under the table.",
       "x": 0.1457,
       "y": 0.8484,
       "w": 0.2993,
-      "h": 0.0236,
+      "h": 0.0451,
       "words": [
         "The",
         "dog",
         "is",
         "under",
-        "the"
-      ]
+        "the",
+        "table."
+      ],
+      "conf": 96.6205,
+      "source": "psm-11"
     },
     {
-      "id": "r25",
-      "text": "The bookshelves are",
+      "id": "r13",
+      "order": 12,
+      "text": "The bookshelves are under the clock.",
       "x": 0.616,
       "y": 0.8484,
       "w": 0.2961,
-      "h": 0.0203,
+      "h": 0.0462,
       "words": [
         "The",
         "bookshelves",
-        "are"
-      ]
-    },
-    {
-      "id": "r26",
-      "text": "table.",
-      "x": 0.1457,
-      "y": 0.877,
-      "w": 0.0823,
-      "h": 0.0165,
-      "words": [
-        "table."
-      ]
-    },
-    {
-      "id": "r27",
-      "text": "under the clock.",
-      "x": 0.6168,
-      "y": 0.8737,
-      "w": 0.232,
-      "h": 0.0209,
-      "words": [
-        "under",
-        "the",
-        "clock."
-      ]
-    },
-    {
-      "id": "r28",
-      "text": "'",
-      "x": 0.4964,
-      "y": 0.0983,
-      "w": 0.0048,
-      "h": 0.0093,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r29",
-      "text": "My nose Is between my My mouth Is under my",
-      "x": 0.1354,
-      "y": 0.1307,
-      "w": 0.7292,
-      "h": 0.0269,
-      "words": [
-        "My",
-        "nose",
-        "Is",
-        "between",
-        "my",
-        "My",
-        "mouth",
-        "Is",
-        "under",
-        "my"
-      ]
-    },
-    {
-      "id": "r30",
-      "text": "eyes. nose.",
-      "x": 0.1346,
-      "y": 0.156,
-      "w": 0.4822,
-      "h": 0.0286,
-      "words": [
-        "eyes.",
-        "nose."
-      ]
-    },
-    {
-      "id": "r31",
-      "text": "!",
-      "x": 0.4972,
-      "y": 0.1873,
-      "w": 0.0032,
-      "h": 0.0104,
-      "words": [
-        "!"
-      ]
-    },
-    {
-      "id": "r32",
-      "text": "!",
-      "x": 0.4972,
-      "y": 0.2169,
-      "w": 0.0032,
-      "h": 0.0104,
-      "words": [
-        "!"
-      ]
-    },
-    {
-      "id": "r33",
-      "text": "|",
-      "x": 0.4964,
-      "y": 0.2597,
-      "w": 0.004,
-      "h": 0.0242,
-      "words": [
-        "|"
-      ]
-    },
-    {
-      "id": "r34",
-      "text": "-_ —_",
-      "x": 0.2589,
-      "y": 0.2867,
-      "w": 0.5028,
-      "h": 0.0236,
-      "words": [
-        "-_",
-        "—_"
-      ]
-    },
-    {
-      "id": "r35",
-      "text": "'",
-      "x": 0.4964,
-      "y": 0.3048,
-      "w": 0.004,
-      "h": 0.0099,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r36",
-      "text": "And it is between my My nose is over my",
-      "x": 0.137,
-      "y": 0.3306,
-      "w": 0.6944,
-      "h": 0.0308,
-      "words": [
-        "And",
-        "it",
-        "is",
-        "between",
-        "my",
-        "My",
-        "nose",
-        "is",
-        "over",
-        "my"
-      ]
-    },
-    {
-      "id": "r37",
-      "text": "eyes and my mouth, | mouth.",
-      "x": 0.137,
-      "y": 0.3564,
-      "w": 0.5154,
-      "h": 0.0286,
-      "words": [
-        "eyes",
-        "and",
-        "my",
-        "mouth,",
-        "|",
-        "mouth."
-      ]
-    },
-    {
-      "id": "r38",
-      "text": "i Our noses are over our",
-      "x": 0.498,
-      "y": 0.3882,
-      "w": 0.3935,
-      "h": 0.0269,
-      "words": [
-        "i",
-        "Our",
-        "noses",
         "are",
-        "over",
-        "our"
-      ]
-    },
-    {
-      "id": "r39",
-      "text": "mouths.",
-      "x": 0.5534,
-      "y": 0.4108,
-      "w": 0.1108,
-      "h": 0.0291,
-      "words": [
-        "mouths."
-      ]
-    },
-    {
-      "id": "r40",
-      "text": "{",
-      "x": 0.4972,
-      "y": 0.4789,
-      "w": 0.004,
-      "h": 0.011,
-      "words": [
-        "{"
-      ]
-    },
-    {
-      "id": "r41",
-      "text": "The light Is This is a clock.",
-      "x": 0.1576,
-      "y": 0.5343,
-      "w": 0.6635,
-      "h": 0.0351,
-      "words": [
-        "The",
-        "light",
-        "Is",
-        "This",
-        "is",
-        "a",
+        "under",
+        "the",
         "clock."
-      ]
-    },
-    {
-      "id": "r42",
-      "text": "table,",
-      "x": 0.1584,
-      "y": 0.5684,
-      "w": 0.0823,
-      "h": 0.0302,
-      "words": [
-        "table,"
-      ]
-    },
-    {
-      "id": "r43",
-      "text": "| it is on the wall,",
-      "x": 0.5036,
-      "y": 0.6139,
-      "w": 0.346,
-      "h": 0.0269,
-      "words": [
-        "|",
-        "it",
-        "is",
-        "on",
-        "the",
-        "wall,"
-      ]
-    },
-    {
-      "id": "r44",
-      "text": "~Ac It is over the",
-      "x": 0.2367,
-      "y": 0.6409,
-      "w": 0.5614,
-      "h": 0.0286,
-      "words": [
-        "~Ac",
-        "It",
-        "is",
-        "over",
-        "the"
-      ]
-    },
-    {
-      "id": "r45",
-      "text": "7 S bookshelves.",
-      "x": 0.2391,
-      "y": 0.6634,
-      "w": 0.5645,
-      "h": 0.0423,
-      "words": [
-        "7",
-        "S",
-        "bookshelves."
-      ]
-    },
-    {
-      "id": "r46",
-      "text": "(Tan",
-      "x": 0.1409,
-      "y": 0.7144,
-      "w": 0.293,
-      "h": 0.1159,
-      "words": [
-        "(Tan"
-      ]
-    },
-    {
-      "id": "r47",
-      "text": "'",
-      "x": 0.5051,
-      "y": 0.7468,
-      "w": 0.0048,
-      "h": 0.0104,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r48",
-      "text": "3",
-      "x": 0.5059,
-      "y": 0.7606,
-      "w": 0.004,
-      "h": 0.0115,
-      "words": [
-        "3"
-      ]
-    },
-    {
-      "id": "r49",
-      "text": "|",
-      "x": 0.5059,
-      "y": 0.777,
-      "w": 0.004,
-      "h": 0.0104,
-      "words": [
-        "|"
-      ]
-    },
-    {
-      "id": "r50",
-      "text": "|",
-      "x": 0.5067,
-      "y": 0.7919,
-      "w": 0.0032,
-      "h": 0.0104,
-      "words": [
-        "|"
-      ]
-    },
-    {
-      "id": "r51",
-      "text": "The dog is under the =| The bookshelves are",
-      "x": 0.1457,
-      "y": 0.8473,
-      "w": 0.7664,
-      "h": 0.0269,
-      "words": [
-        "The",
-        "dog",
-        "is",
-        "under",
-        "the",
-        "=|",
-        "The",
-        "bookshelves",
-        "are"
-      ]
-    },
-    {
-      "id": "r52",
-      "text": "table, H under the clock,",
-      "x": 0.1457,
-      "y": 0.871,
-      "w": 0.7031,
-      "h": 0.0308,
-      "words": [
-        "table,",
-        "H",
-        "under",
-        "the",
-        "clock,"
-      ]
+      ],
+      "conf": 96.7038,
+      "source": "psm-11"
     }
   ]
 }

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2022.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 43,
-    "wordCount": 153,
+    "regionCount": 10,
+    "wordCount": 72,
     "imageWidth": 1292,
     "imageHeight": 1838
   },
@@ -19,14 +19,8 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3",
-        "r5",
-        "r6",
-        "r9",
-        "r23",
-        "r28",
-        "r29",
-        "r30"
+        "r2",
+        "r3"
       ]
     },
     {
@@ -37,16 +31,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
         "r4",
-        "r7",
-        "r8",
-        "r10",
-        "r22",
-        "r24",
-        "r25",
-        "r26",
-        "r27"
+        "r5",
+        "r6"
       ]
     },
     {
@@ -57,18 +44,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r11",
-        "r12",
-        "r15",
-        "r17",
-        "r19",
-        "r21",
-        "r36",
-        "r37",
-        "r38",
-        "r39",
-        "r40",
-        "r43"
+        "r7",
+        "r8"
       ]
     },
     {
@@ -79,29 +56,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r13",
-        "r14",
-        "r16",
-        "r18",
-        "r20",
-        "r31",
-        "r32",
-        "r33",
-        "r34",
-        "r35",
-        "r41",
-        "r42"
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "id": "r1",
       "text": "This is a man.",
-      "x": 0.2345,
-      "y": 0.0979,
-      "w": 0.1904,
-      "h": 0.019,
+      "x": 0.22,
+      "y": 0.1,
+      "w": 0.2,
+      "h": 0.03,
+      "id": "r1",
+      "order": 0,
       "words": [
         "This",
         "is",
@@ -110,572 +78,170 @@
       ]
     },
     {
+      "text": "This is his hand.",
+      "x": 0.28,
+      "y": 0.31,
+      "w": 0.15,
+      "h": 0.05,
       "id": "r2",
-      "text": "This is a woman,",
-      "x": 0.6277,
-      "y": 0.0979,
-      "w": 0.2314,
-      "h": 0.0201,
+      "order": 1,
       "words": [
         "This",
         "is",
-        "a",
-        "woman,"
+        "his",
+        "hand."
       ]
     },
     {
+      "text": "It is the man's hand.",
+      "x": 0.2,
+      "y": 0.44,
+      "w": 0.25,
+      "h": 0.03,
       "id": "r3",
-      "text": "This is",
-      "x": 0.3181,
-      "y": 0.2894,
-      "w": 0.0836,
-      "h": 0.0185,
+      "order": 2,
       "words": [
-        "This",
-        "is"
+        "It",
+        "is",
+        "the",
+        "man's",
+        "hand."
       ]
     },
     {
+      "text": "This is a woman.",
+      "x": 0.62,
+      "y": 0.1,
+      "w": 0.2,
+      "h": 0.03,
       "id": "r4",
-      "text": "This is",
-      "x": 0.7361,
-      "y": 0.2905,
-      "w": 0.082,
-      "h": 0.019,
+      "order": 3,
       "words": [
         "This",
-        "is"
+        "is",
+        "a",
+        "woman."
       ]
     },
     {
+      "text": "This is her hand.",
+      "x": 0.68,
+      "y": 0.31,
+      "w": 0.15,
+      "h": 0.05,
       "id": "r5",
-      "text": "\\S",
-      "x": 0.1533,
-      "y": 0.2481,
-      "w": 0.1099,
-      "h": 0.0876,
+      "order": 4,
       "words": [
-        "\\S"
+        "This",
+        "is",
+        "her",
+        "hand."
       ]
     },
     {
+      "text": "It is the woman's hand.",
+      "x": 0.6,
+      "y": 0.44,
+      "w": 0.25,
+      "h": 0.03,
       "id": "r6",
-      "text": "his hand.",
-      "x": 0.2748,
-      "y": 0.3145,
-      "w": 0.1269,
-      "h": 0.019,
+      "order": 5,
       "words": [
-        "his",
+        "It",
+        "is",
+        "the",
+        "woman's",
         "hand."
       ]
     },
     {
+      "text": "This is a man's hat. It is on a man's head.",
+      "x": 0.15,
+      "y": 0.67,
+      "w": 0.3,
+      "h": 0.05,
       "id": "r7",
-      "text": "3",
-      "x": 0.5859,
-      "y": 0.2524,
-      "w": 0.0859,
-      "h": 0.0838,
+      "order": 6,
       "words": [
-        "3"
+        "This",
+        "is",
+        "a",
+        "man's",
+        "hat.",
+        "It",
+        "is",
+        "on",
+        "a",
+        "man's",
+        "head."
       ]
     },
     {
+      "text": "Now it is in the man's hands. It is in his hands.",
+      "x": 0.15,
+      "y": 0.77,
+      "w": 0.3,
+      "h": 0.05,
       "id": "r8",
-      "text": "her hand.",
-      "x": 0.6819,
-      "y": 0.315,
-      "w": 0.1347,
-      "h": 0.0196,
-      "words": [
-        "her",
-        "hand."
-      ]
-    },
-    {
-      "id": "r9",
-      "text": "it is the man's hand.",
-      "x": 0.1873,
-      "y": 0.3852,
-      "w": 0.2779,
-      "h": 0.0196,
-      "words": [
-        "it",
-        "is",
-        "the",
-        "man's",
-        "hand."
-      ]
-    },
-    {
-      "id": "r10",
-      "text": "It is the hand,",
-      "x": 0.5449,
-      "y": 0.3874,
-      "w": 0.3212,
-      "h": 0.0207,
-      "words": [
-        "It",
-        "is",
-        "the",
-        "hand,"
-      ]
-    },
-    {
-      "id": "r11",
-      "text": "This is a man’s hat.",
-      "x": 0.1602,
-      "y": 0.6523,
-      "w": 0.2647,
-      "h": 0.0201,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "man’s",
-        "hat."
-      ]
-    },
-    {
-      "id": "r12",
-      "text": "is on a man's head,",
-      "x": 0.1881,
-      "y": 0.6779,
-      "w": 0.2709,
-      "h": 0.0207,
-      "words": [
-        "is",
-        "on",
-        "a",
-        "man's",
-        "head,"
-      ]
-    },
-    {
-      "id": "r13",
-      "text": "This is a hat.",
-      "x": 0.555,
-      "y": 0.6627,
-      "w": 0.3042,
-      "h": 0.0212,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "hat."
-      ]
-    },
-    {
-      "id": "r14",
-      "text": "It is on a woman's head.",
-      "x": 0.5557,
-      "y": 0.6893,
-      "w": 0.339,
-      "h": 0.0207,
-      "words": [
-        "It",
-        "is",
-        "on",
-        "a",
-        "woman's",
-        "head."
-      ]
-    },
-    {
-      "id": "r15",
-      "text": "Now it is in the man’s",
-      "x": 0.1594,
-      "y": 0.7443,
-      "w": 0.3011,
-      "h": 0.019,
+      "order": 7,
       "words": [
         "Now",
         "it",
         "is",
         "in",
         "the",
-        "man’s"
-      ]
-    },
-    {
-      "id": "r16",
-      "text": "Now it is in the",
-      "x": 0.5495,
-      "y": 0.7296,
-      "w": 0.2121,
-      "h": 0.019,
-      "words": [
-        "Now",
-        "it",
-        "is",
-        "in",
-        "the"
-      ]
-    },
-    {
-      "id": "r17",
-      "text": "hands.",
-      "x": 0.1587,
-      "y": 0.7693,
-      "w": 0.0913,
-      "h": 0.0196,
-      "words": [
-        "hands."
-      ]
-    },
-    {
-      "id": "r18",
-      "text": "hands.",
-      "x": 0.5495,
-      "y": 0.7541,
-      "w": 0.0913,
-      "h": 0.0196,
-      "words": [
-        "hands."
-      ]
-    },
-    {
-      "id": "r19",
-      "text": "It is in his hands.",
-      "x": 0.1594,
-      "y": 0.7949,
-      "w": 0.2322,
-      "h": 0.0201,
-      "words": [
-        "It",
-        "is",
-        "in",
-        "his",
-        "hands."
-      ]
-    },
-    {
-      "id": "r20",
-      "text": "It is In her hands.",
-      "x": 0.5495,
-      "y": 0.7802,
-      "w": 0.2399,
-      "h": 0.0201,
-      "words": [
-        "It",
-        "is",
-        "In",
-        "her",
-        "hands."
-      ]
-    },
-    {
-      "id": "r21",
-      "text": "18",
-      "x": 0.1308,
-      "y": 0.9293,
-      "w": 0.0232,
-      "h": 0.0131,
-      "words": [
-        "18"
-      ]
-    },
-    {
-      "id": "r22",
-      "text": "'",
-      "x": 0.5248,
-      "y": 0.0773,
-      "w": 0.0046,
-      "h": 0.0087,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r23",
-      "text": "This is a man. This is a woman,",
-      "x": 0.2345,
-      "y": 0.0979,
-      "w": 0.6246,
-      "h": 0.0201,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "man.",
-        "This",
-        "is",
-        "a",
-        "woman,"
-      ]
-    },
-    {
-      "id": "r24",
-      "text": "i",
-      "x": 0.7159,
-      "y": 0.1224,
-      "w": 0.0402,
-      "h": 0.1186,
-      "words": [
-        "i"
-      ]
-    },
-    {
-      "id": "r25",
-      "text": "}",
-      "x": 0.5224,
-      "y": 0.1752,
-      "w": 0.0054,
-      "h": 0.0136,
-      "words": [
-        "}"
-      ]
-    },
-    {
-      "id": "r26",
-      "text": "|",
-      "x": 0.5201,
-      "y": 0.1893,
-      "w": 0.0077,
-      "h": 0.0152,
-      "words": [
-        "|"
-      ]
-    },
-    {
-      "id": "r27",
-      "text": "'",
-      "x": 0.5224,
-      "y": 0.265,
-      "w": 0.0054,
-      "h": 0.0234,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r28",
-      "text": "This is ' This is",
-      "x": 0.3181,
-      "y": 0.2894,
-      "w": 0.5,
-      "h": 0.0288,
-      "words": [
-        "This",
-        "is",
-        "'",
-        "This",
-        "is"
-      ]
-    },
-    {
-      "id": "r29",
-      "text": "his hand. ‘ her hand.",
-      "x": 0.2748,
-      "y": 0.3145,
-      "w": 0.5418,
-      "h": 0.0201,
-      "words": [
-        "his",
-        "hand.",
-        "‘",
-        "her",
-        "hand."
-      ]
-    },
-    {
-      "id": "r30",
-      "text": "is the man's hand. It is the woman's hand,",
-      "x": 0.2144,
-      "y": 0.3852,
-      "w": 0.6517,
-      "h": 0.0229,
-      "words": [
-        "is",
-        "the",
         "man's",
-        "hand.",
-        "It",
-        "is",
-        "the",
-        "woman's",
-        "hand,"
-      ]
-    },
-    {
-      "id": "r31",
-      "text": "1",
-      "x": 0.5186,
-      "y": 0.5316,
-      "w": 0.0062,
-      "h": 0.0109,
-      "words": [
-        "1"
-      ]
-    },
-    {
-      "id": "r32",
-      "text": "1",
-      "x": 0.5186,
-      "y": 0.5468,
-      "w": 0.0062,
-      "h": 0.0109,
-      "words": [
-        "1"
-      ]
-    },
-    {
-      "id": "r33",
-      "text": "‘",
-      "x": 0.5178,
-      "y": 0.5626,
-      "w": 0.007,
-      "h": 0.0114,
-      "words": [
-        "‘"
-      ]
-    },
-    {
-      "id": "r34",
-      "text": "‘",
-      "x": 0.517,
-      "y": 0.5925,
-      "w": 0.007,
-      "h": 0.0114,
-      "words": [
-        "‘"
-      ]
-    },
-    {
-      "id": "r35",
-      "text": "i",
-      "x": 0.5163,
-      "y": 0.6066,
-      "w": 0.007,
-      "h": 0.0114,
-      "words": [
-        "i"
-      ]
-    },
-    {
-      "id": "r36",
-      "text": "mls isa man’s hot. d This is a woman's hat.",
-      "x": 0.1602,
-      "y": 0.6523,
-      "w": 0.6989,
-      "h": 0.0452,
-      "words": [
-        "mls",
-        "isa",
-        "man’s",
-        "hot.",
-        "d",
-        "This",
-        "is",
-        "a",
-        "woman's",
-        "hat."
-      ]
-    },
-    {
-      "id": "r37",
-      "text": "mans head, It is on a woman's head.",
-      "x": 0.2902,
-      "y": 0.685,
-      "w": 0.6045,
-      "h": 0.025,
-      "words": [
-        "mans",
-        "head,",
-        "It",
-        "is",
-        "on",
-        "a",
-        "woman's",
-        "head."
-      ]
-    },
-    {
-      "id": "r38",
-      "text": "Now if is in the man's Now it is in the woman's",
-      "x": 0.1594,
-      "y": 0.7296,
-      "w": 0.7314,
-      "h": 0.0337,
-      "words": [
-        "Now",
-        "if",
-        "is",
-        "in",
-        "the",
-        "man's",
-        "Now",
-        "it",
-        "is",
-        "in",
-        "the",
-        "woman's"
-      ]
-    },
-    {
-      "id": "r39",
-      "text": "hands hands.",
-      "x": 0.1587,
-      "y": 0.7541,
-      "w": 0.4822,
-      "h": 0.0348,
-      "words": [
-        "hands",
-        "hands."
-      ]
-    },
-    {
-      "id": "r40",
-      "text": "itis in his hands. ' It is In her hands.",
-      "x": 0.1594,
-      "y": 0.7802,
-      "w": 0.63,
-      "h": 0.0348,
-      "words": [
-        "itis",
-        "in",
-        "his",
         "hands.",
-        "'",
         "It",
         "is",
-        "In",
-        "her",
+        "in",
+        "his",
         "hands."
       ]
     },
     {
-      "id": "r41",
-      "text": "’",
-      "x": 0.5139,
-      "y": 0.858,
-      "w": 0.007,
-      "h": 0.0114,
+      "text": "This is a woman's hat. It is on a woman's head.",
+      "x": 0.55,
+      "y": 0.68,
+      "w": 0.3,
+      "h": 0.05,
+      "id": "r9",
+      "order": 8,
       "words": [
-        "’"
+        "This",
+        "is",
+        "a",
+        "woman's",
+        "hat.",
+        "It",
+        "is",
+        "on",
+        "a",
+        "woman's",
+        "head."
       ]
     },
     {
-      "id": "r42",
-      "text": "’",
-      "x": 0.5139,
-      "y": 0.8732,
-      "w": 0.007,
-      "h": 0.0125,
+      "text": "Now it is in the woman's hands. It is in her hands.",
+      "x": 0.55,
+      "y": 0.76,
+      "w": 0.3,
+      "h": 0.05,
+      "id": "r10",
+      "order": 9,
       "words": [
-        "’"
-      ]
-    },
-    {
-      "id": "r43",
-      "text": "18",
-      "x": 0.1308,
-      "y": 0.9293,
-      "w": 0.0232,
-      "h": 0.0131,
-      "words": [
-        "18"
+        "Now",
+        "it",
+        "is",
+        "in",
+        "the",
+        "woman's",
+        "hands.",
+        "It",
+        "is",
+        "in",
+        "her",
+        "hands."
       ]
     }
   ]

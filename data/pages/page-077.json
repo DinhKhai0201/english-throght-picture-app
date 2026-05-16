@@ -2,77 +2,36 @@
   "page": 77,
   "image": "/books/page 77.png",
   "imageApiPath": "/api/books/page%2077.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 19,
-    "wordCount": 55,
+    "regionCount": 7,
+    "wordCount": 24,
     "imageWidth": 1142,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
         "r2",
-        "r13",
-        "r14"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
         "r3",
         "r4",
-        "r5"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r5",
         "r6",
-        "r7",
-        "r8",
-        "r15",
-        "r17",
-        "r18"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r16",
-        "r19"
+        "r7"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
+      "order": 0,
       "text": "What is in the hat?",
       "x": 0.12,
       "y": 0.1484,
@@ -84,23 +43,13 @@
         "in",
         "the",
         "hat?"
-      ]
+      ],
+      "conf": 95.059,
+      "source": "psm-11"
     },
     {
       "id": "r2",
-      "text": "Mary will see.",
-      "x": 0.12,
-      "y": 0.1757,
-      "w": 0.2233,
-      "h": 0.0236,
-      "words": [
-        "Mary",
-        "will",
-        "see."
-      ]
-    },
-    {
-      "id": "r3",
+      "order": 1,
       "text": "What is she taking from",
       "x": 0.5455,
       "y": 0.1484,
@@ -112,32 +61,29 @@
         "she",
         "taking",
         "from"
-      ]
+      ],
+      "conf": 95.5501,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Mary will see.",
+      "x": 0.12,
+      "y": 0.1757,
+      "w": 0.2233,
+      "h": 0.0236,
+      "words": [
+        "Mary",
+        "will",
+        "see."
+      ],
+      "conf": 95.7887,
+      "source": "psm-11"
     },
     {
       "id": "r4",
-      "text": "&",
-      "x": 0.6506,
-      "y": 0.3091,
-      "w": 0.183,
-      "h": 0.1093,
-      "words": [
-        "&"
-      ]
-    },
-    {
-      "id": "r5",
-      "text": "S22",
-      "x": 0.5324,
-      "y": 0.4847,
-      "w": 0.042,
-      "h": 0.0139,
-      "words": [
-        "S22"
-      ]
-    },
-    {
-      "id": "r6",
+      "order": 3,
       "text": "What is that in her",
       "x": 0.1392,
       "y": 0.5415,
@@ -149,10 +95,13 @@
         "that",
         "in",
         "her"
-      ]
+      ],
+      "conf": 94.8701,
+      "source": "psm-11"
     },
     {
-      "id": "r7",
+      "id": "r5",
+      "order": 4,
       "text": "hand?",
       "x": 0.1401,
       "y": 0.5688,
@@ -160,10 +109,13 @@
       "h": 0.0187,
       "words": [
         "hand?"
-      ]
+      ],
+      "conf": 96.4814,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
+      "id": "r6",
+      "order": 5,
       "text": "It is money.",
       "x": 0.1427,
       "y": 0.5951,
@@ -173,21 +125,13 @@
         "It",
         "is",
         "money."
-      ]
+      ],
+      "conf": 95.6456,
+      "source": "psm-11"
     },
     {
-      "id": "r9",
-      "text": "=",
-      "x": 0.5613,
-      "y": 0.5517,
-      "w": 0.3608,
-      "h": 0.1462,
-      "words": [
-        "="
-      ]
-    },
-    {
-      "id": "r10",
+      "id": "r7",
+      "order": 6,
       "text": "She sees.",
       "x": 0.7364,
       "y": 0.7092,
@@ -196,125 +140,9 @@
       "words": [
         "She",
         "sees."
-      ]
-    },
-    {
-      "id": "r11",
-      "text": "gO",
-      "x": 0.6883,
-      "y": 0.8115,
-      "w": 0.268,
-      "h": 0.0755,
-      "words": [
-        "gO"
-      ]
-    },
-    {
-      "id": "r12",
-      "text": "73",
-      "x": 0.9229,
-      "y": 0.9239,
-      "w": 0.0271,
-      "h": 0.0134,
-      "words": [
-        "73"
-      ]
-    },
-    {
-      "id": "r13",
-      "text": "What is in the hat? What is she taking from",
-      "x": 0.12,
-      "y": 0.1505,
-      "w": 0.8039,
-      "h": 0.023,
-      "words": [
-        "What",
-        "is",
-        "in",
-        "the",
-        "hat?",
-        "What",
-        "is",
-        "she",
-        "taking",
-        "from"
-      ]
-    },
-    {
-      "id": "r14",
-      "text": "Mary will see. the hat?",
-      "x": 0.12,
-      "y": 0.1757,
-      "w": 0.5587,
-      "h": 0.0236,
-      "words": [
-        "Mary",
-        "will",
-        "see.",
-        "the",
-        "hat?"
-      ]
-    },
-    {
-      "id": "r15",
-      "text": "What is that in her |",
-      "x": 0.1392,
-      "y": 0.5169,
-      "w": 0.3818,
-      "h": 0.0557,
-      "words": [
-        "What",
-        "is",
-        "that",
-        "in",
-        "her",
-        "|"
-      ]
-    },
-    {
-      "id": "r16",
-      "text": "She",
-      "x": 0.7364,
-      "y": 0.7092,
-      "w": 0.0613,
-      "h": 0.0284,
-      "words": [
-        "She"
-      ]
-    },
-    {
-      "id": "r17",
-      "text": "goo;",
-      "x": 0.2172,
-      "y": 0.7108,
-      "w": 0.3047,
-      "h": 0.0766,
-      "words": [
-        "goo;"
-      ]
-    },
-    {
-      "id": "r18",
-      "text": "— g0",
-      "x": 0.1708,
-      "y": 0.8125,
-      "w": 0.7855,
-      "h": 0.0514,
-      "words": [
-        "—",
-        "g0"
-      ]
-    },
-    {
-      "id": "r19",
-      "text": "73",
-      "x": 0.9229,
-      "y": 0.9239,
-      "w": 0.0271,
-      "h": 0.0134,
-      "words": [
-        "73"
-      ]
+      ],
+      "conf": 82.8207,
+      "source": "psm-11"
     }
   ]
 }

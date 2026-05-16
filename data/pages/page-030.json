@@ -2,94 +2,44 @@
   "page": 30,
   "image": "/books/page 30.png",
   "imageApiPath": "/api/books/page%2030.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 31,
-    "wordCount": 105,
+    "regionCount": 10,
+    "wordCount": 50,
     "imageWidth": 1267,
     "imageHeight": 1855
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
+        "r2",
         "r3",
         "r4",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r20",
-        "r21",
-        "r22",
-        "r23",
-        "r24",
-        "r25",
-        "r26"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2",
         "r5",
         "r6",
-        "r7"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r13",
-        "r14",
-        "r15",
-        "r17",
-        "r19",
-        "r27",
-        "r28",
-        "r29",
-        "r30",
-        "r31"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r16",
-        "r18"
+        "r7",
+        "r8",
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "id": "r1",
       "text": "This is a room.",
-      "x": 0.4073,
-      "y": 0.124,
-      "w": 0.2068,
-      "h": 0.0189,
+      "x": 0.35,
+      "y": 0.12,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r1",
+      "order": 0,
       "words": [
         "This",
         "is",
@@ -98,130 +48,72 @@
       ]
     },
     {
+      "text": "This is a door.",
+      "x": 0.25,
+      "y": 0.2,
+      "w": 0.15,
+      "h": 0.05,
       "id": "r2",
-      "text": "This is",
-      "x": 0.7837,
-      "y": 0.1833,
-      "w": 0.0845,
-      "h": 0.0178,
+      "order": 1,
       "words": [
         "This",
-        "is"
-      ]
-    },
-    {
-      "id": "r3",
-      "text": "This is",
-      "x": 0.3504,
-      "y": 0.2005,
-      "w": 0.086,
-      "h": 0.0178,
-      "words": [
-        "This",
-        "is"
-      ]
-    },
-    {
-      "id": "r4",
-      "text": "a door.",
-      "x": 0.352,
-      "y": 0.2221,
-      "w": 0.1042,
-      "h": 0.0183,
-      "words": [
+        "is",
         "a",
         "door."
       ]
     },
     {
-      "id": "r5",
-      "text": "This",
-      "x": 0.5233,
-      "y": 0.2075,
-      "w": 0.0552,
-      "h": 0.0183,
+      "text": "This is a door.",
+      "x": 0.72,
+      "y": 0.18,
+      "w": 0.15,
+      "h": 0.05,
+      "id": "r3",
+      "order": 2,
       "words": [
-        "This"
-      ]
-    },
-    {
-      "id": "r6",
-      "text": "a door",
-      "x": 0.7758,
-      "y": 0.2102,
-      "w": 0.0947,
-      "h": 0.0178,
-      "words": [
+        "This",
+        "is",
         "a",
-        "door"
+        "door."
       ]
     },
     {
-      "id": "r7",
-      "text": "CO",
-      "x": 0.517,
-      "y": 0.235,
-      "w": 0.0734,
-      "h": 0.0485,
+      "text": "This is a picture.",
+      "x": 0.45,
+      "y": 0.2,
+      "w": 0.2,
+      "h": 0.08,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "CO"
-      ]
-    },
-    {
-      "id": "r8",
-      "text": "is a picture.",
-      "x": 0.4775,
-      "y": 0.29,
-      "w": 0.1642,
-      "h": 0.0221,
-      "words": [
+        "This",
         "is",
         "a",
         "picture."
       ]
     },
     {
-      "id": "r9",
-      "text": "-— - —",
-      "x": 0.4901,
-      "y": 0.359,
-      "w": 0.1894,
-      "h": 0.0151,
+      "text": "These are windows.",
+      "x": 0.1,
+      "y": 0.35,
+      "w": 0.15,
+      "h": 0.05,
+      "id": "r5",
+      "order": 4,
       "words": [
-        "-—",
-        "-",
-        "—"
+        "These",
+        "are",
+        "windows."
       ]
     },
     {
-      "id": "r10",
-      "text": "ave",
-      "x": 0.1215,
-      "y": 0.3801,
-      "w": 0.0513,
-      "h": 0.0237,
-      "words": [
-        "ave"
-      ]
-    },
-    {
-      "id": "r11",
-      "text": "tae)",
-      "x": 0.2028,
-      "y": 0.3774,
-      "w": 0.0379,
-      "h": 0.0237,
-      "words": [
-        "tae)"
-      ]
-    },
-    {
-      "id": "r12",
       "text": "This is the floor of the room.",
-      "x": 0.3149,
-      "y": 0.4447,
-      "w": 0.4136,
-      "h": 0.021,
+      "x": 0.3,
+      "y": 0.44,
+      "w": 0.4,
+      "h": 0.03,
+      "id": "r6",
+      "order": 5,
       "words": [
         "This",
         "is",
@@ -233,12 +125,13 @@
       ]
     },
     {
-      "id": "r13",
       "text": "These are the windows of the room.",
-      "x": 0.2494,
-      "y": 0.5412,
-      "w": 0.5217,
-      "h": 0.0232,
+      "x": 0.25,
+      "y": 0.54,
+      "w": 0.5,
+      "h": 0.03,
+      "id": "r7",
+      "order": 6,
       "words": [
         "These",
         "are",
@@ -250,12 +143,13 @@
       ]
     },
     {
-      "id": "r14",
       "text": "This is a window and this is a window.",
-      "x": 0.2439,
-      "y": 0.5914,
-      "w": 0.5422,
-      "h": 0.0232,
+      "x": 0.2,
+      "y": 0.59,
+      "w": 0.6,
+      "h": 0.03,
+      "id": "r8",
+      "order": 7,
       "words": [
         "This",
         "is",
@@ -269,233 +163,33 @@
       ]
     },
     {
-      "id": "r15",
-      "text": "This window",
-      "x": 0.2715,
-      "y": 0.7935,
-      "w": 0.1784,
-      "h": 0.0199,
+      "text": "This window is shut.",
+      "x": 0.22,
+      "y": 0.79,
+      "w": 0.2,
+      "h": 0.05,
+      "id": "r9",
+      "order": 8,
       "words": [
         "This",
-        "window"
-      ]
-    },
-    {
-      "id": "r16",
-      "text": "This window",
-      "x": 0.528,
-      "y": 0.7962,
-      "w": 0.1776,
-      "h": 0.0205,
-      "words": [
-        "This",
-        "window"
-      ]
-    },
-    {
-      "id": "r17",
-      "text": "is shut.",
-      "x": 0.3125,
-      "y": 0.8194,
-      "w": 0.0947,
-      "h": 0.0194,
-      "words": [
+        "window",
         "is",
         "shut."
       ]
     },
     {
-      "id": "r18",
-      "text": "is open.",
-      "x": 0.562,
-      "y": 0.8232,
-      "w": 0.1089,
-      "h": 0.0237,
+      "text": "This window is open.",
+      "x": 0.52,
+      "y": 0.79,
+      "w": 0.2,
+      "h": 0.05,
+      "id": "r10",
+      "order": 9,
       "words": [
+        "This",
+        "window",
         "is",
         "open."
-      ]
-    },
-    {
-      "id": "r19",
-      "text": "26",
-      "x": 0.1302,
-      "y": 0.9299,
-      "w": 0.026,
-      "h": 0.0129,
-      "words": [
-        "26"
-      ]
-    },
-    {
-      "id": "r20",
-      "text": "This is a room.",
-      "x": 0.4073,
-      "y": 0.124,
-      "w": 0.2068,
-      "h": 0.0189,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "room."
-      ]
-    },
-    {
-      "id": "r21",
-      "text": "— This is",
-      "x": 0.3867,
-      "y": 0.1833,
-      "w": 0.4815,
-      "h": 0.0226,
-      "words": [
-        "—",
-        "This",
-        "is"
-      ]
-    },
-    {
-      "id": "r22",
-      "text": "This is This a door.",
-      "x": 0.3504,
-      "y": 0.2005,
-      "w": 0.5288,
-      "h": 0.0275,
-      "words": [
-        "This",
-        "is",
-        "This",
-        "a",
-        "door."
-      ]
-    },
-    {
-      "id": "r23",
-      "text": "a door.",
-      "x": 0.352,
-      "y": 0.2221,
-      "w": 0.1042,
-      "h": 0.0183,
-      "words": [
-        "a",
-        "door."
-      ]
-    },
-    {
-      "id": "r24",
-      "text": "7 is a picture.",
-      "x": 0.3512,
-      "y": 0.2507,
-      "w": 0.2904,
-      "h": 0.1046,
-      "words": [
-        "7",
-        "is",
-        "a",
-        "picture."
-      ]
-    },
-    {
-      "id": "r25",
-      "text": "wy",
-      "x": 0.1215,
-      "y": 0.3795,
-      "w": 0.1176,
-      "h": 0.0388,
-      "words": [
-        "wy"
-      ]
-    },
-    {
-      "id": "r26",
-      "text": "This is the floor of the room.",
-      "x": 0.3149,
-      "y": 0.4361,
-      "w": 0.4136,
-      "h": 0.034,
-      "words": [
-        "This",
-        "is",
-        "the",
-        "floor",
-        "of",
-        "the",
-        "room."
-      ]
-    },
-    {
-      "id": "r27",
-      "text": "These are the windows of the room.",
-      "x": 0.2494,
-      "y": 0.5412,
-      "w": 0.5217,
-      "h": 0.0232,
-      "words": [
-        "These",
-        "are",
-        "the",
-        "windows",
-        "of",
-        "the",
-        "room."
-      ]
-    },
-    {
-      "id": "r28",
-      "text": "This is a window and this is a window.",
-      "x": 0.2439,
-      "y": 0.5914,
-      "w": 0.5422,
-      "h": 0.0232,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "window",
-        "and",
-        "this",
-        "is",
-        "a",
-        "window."
-      ]
-    },
-    {
-      "id": "r29",
-      "text": "This window This window",
-      "x": 0.2715,
-      "y": 0.7935,
-      "w": 0.4341,
-      "h": 0.0232,
-      "words": [
-        "This",
-        "window",
-        "This",
-        "window"
-      ]
-    },
-    {
-      "id": "r30",
-      "text": "is shut. is open,",
-      "x": 0.3125,
-      "y": 0.8194,
-      "w": 0.3583,
-      "h": 0.0275,
-      "words": [
-        "is",
-        "shut.",
-        "is",
-        "open,"
-      ]
-    },
-    {
-      "id": "r31",
-      "text": "26",
-      "x": 0.1302,
-      "y": 0.9299,
-      "w": 0.026,
-      "h": 0.0129,
-      "words": [
-        "26"
       ]
     }
   ]

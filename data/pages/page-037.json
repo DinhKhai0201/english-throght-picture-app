@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2037.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 50,
-    "wordCount": 167,
+    "regionCount": 10,
+    "wordCount": 65,
     "imageWidth": 1188,
     "imageHeight": 1846
   },
@@ -18,20 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
         "r2",
-        "r4",
-        "r6",
-        "r7",
-        "r9",
-        "r11",
-        "r12",
-        "r26",
-        "r27",
-        "r28",
-        "r34",
-        "r35",
-        "r38"
+        "r4"
       ]
     },
     {
@@ -42,18 +30,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r1",
         "r3",
-        "r5",
-        "r8",
-        "r10",
-        "r13",
-        "r29",
-        "r30",
-        "r31",
-        "r32",
-        "r33",
-        "r36",
-        "r37"
+        "r5"
       ]
     },
     {
@@ -64,19 +43,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r14",
-        "r16",
-        "r18",
-        "r20",
-        "r21",
-        "r22",
-        "r23",
-        "r24",
-        "r39",
-        "r41",
-        "r43",
-        "r44",
-        "r49"
+        "r6",
+        "r8",
+        "r10"
       ]
     },
     {
@@ -87,23 +56,15 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r15",
-        "r17",
-        "r19",
-        "r25",
-        "r40",
-        "r42",
-        "r45",
-        "r46",
-        "r47",
-        "r48",
-        "r50"
+        "r7",
+        "r9"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
+      "order": 0,
       "text": "QUESTIONS",
       "x": 0.4108,
       "y": 0.0731,
@@ -111,236 +72,153 @@
       "h": 0.0184,
       "words": [
         "QUESTIONS"
-      ]
+      ],
+      "conf": 96.8163,
+      "source": "psm-11"
     },
     {
       "id": "r2",
-      "text": "a Is the hat on",
+      "order": 1,
+      "text": "a Is the hat on the table?",
       "x": 0.1987,
       "y": 0.1056,
       "w": 0.2214,
-      "h": 0.019,
+      "h": 0.0434,
       "words": [
         "a",
         "Is",
         "the",
         "hat",
-        "on"
-      ]
+        "on",
+        "the",
+        "table?"
+      ],
+      "conf": 91.7252,
+      "source": "psm-11"
     },
     {
       "id": "r3",
-      "text": "b Is the man in",
+      "order": 2,
+      "text": "b Is the man in the room?",
       "x": 0.6044,
       "y": 0.104,
       "w": 0.2323,
-      "h": 0.026,
+      "h": 0.0455,
       "words": [
         "b",
         "Is",
         "the",
         "man",
-        "in"
-      ]
+        "in",
+        "the",
+        "room?"
+      ],
+      "conf": 94.1929,
+      "source": "psm-11"
     },
     {
       "id": "r4",
-      "text": "the table?",
-      "x": 0.2365,
-      "y": 0.13,
-      "w": 0.1498,
-      "h": 0.019,
-      "words": [
-        "the",
-        "table?"
-      ]
-    },
-    {
-      "id": "r5",
-      "text": "the room?",
-      "x": 0.6439,
-      "y": 0.1311,
-      "w": 0.149,
-      "h": 0.0184,
-      "words": [
-        "the",
-        "room?"
-      ]
-    },
-    {
-      "id": "r6",
-      "text": "mw ew wee",
-      "x": 0.4226,
-      "y": 0.2822,
-      "w": 0.1886,
-      "h": 0.0043,
-      "words": [
-        "mw",
-        "ew",
-        "wee"
-      ]
-    },
-    {
-      "id": "r7",
-      "text": "¢ Is the picture on",
-      "x": 0.1246,
+      "order": 3,
+      "text": "Is the picture on the wall?",
+      "x": 0.1633,
       "y": 0.2914,
-      "w": 0.2769,
-      "h": 0.0233,
+      "w": 0.2382,
+      "h": 0.0434,
       "words": [
-        "¢",
         "Is",
         "the",
         "picture",
-        "on"
-      ]
+        "on",
+        "the",
+        "wall?"
+      ],
+      "conf": 95.6159,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "text": "d Is the bird on",
+      "id": "r5",
+      "order": 4,
+      "text": "d Is the bird on the seat?",
       "x": 0.6069,
       "y": 0.292,
       "w": 0.2332,
-      "h": 0.0195,
+      "h": 0.0433,
       "words": [
         "d",
         "Is",
         "the",
         "bird",
-        "on"
-      ]
-    },
-    {
-      "id": "r9",
-      "text": "the wall?",
-      "x": 0.1633,
-      "y": 0.3164,
-      "w": 0.133,
-      "h": 0.0184,
-      "words": [
-        "the",
-        "wall?"
-      ]
-    },
-    {
-      "id": "r10",
-      "text": "the seat?",
-      "x": 0.6439,
-      "y": 0.3169,
-      "w": 0.133,
-      "h": 0.0184,
-      "words": [
+        "on",
         "the",
         "seat?"
-      ]
+      ],
+      "conf": 90.0905,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
-      "text": "ee ES ee",
-      "x": 0.3232,
-      "y": 0.4794,
-      "w": 0.5968,
-      "h": 0.0043,
-      "words": [
-        "ee",
-        "ES",
-        "ee"
-      ]
-    },
-    {
-      "id": "r12",
-      "text": "e Is the glass in",
+      "id": "r6",
+      "order": 5,
+      "text": "e Is the glass in the woman's hand?",
       "x": 0.1271,
       "y": 0.4984,
-      "w": 0.2382,
-      "h": 0.0233,
+      "w": 0.3274,
+      "h": 0.0449,
       "words": [
         "e",
         "Is",
         "the",
         "glass",
-        "in"
-      ]
+        "in",
+        "the",
+        "woman's",
+        "hand?"
+      ],
+      "conf": 94.2112,
+      "source": "psm-11"
     },
     {
-      "id": "r13",
-      "text": "f Is the water in",
+      "id": "r7",
+      "order": 6,
+      "text": "f Is the water in the glass?",
       "x": 0.6027,
       "y": 0.4995,
       "w": 0.25,
-      "h": 0.0206,
+      "h": 0.0482,
       "words": [
         "f",
         "Is",
         "the",
         "water",
-        "in"
-      ]
-    },
-    {
-      "id": "r14",
-      "text": "the woman's hand?",
-      "x": 0.1658,
-      "y": 0.5233,
-      "w": 0.2887,
-      "h": 0.02,
-      "words": [
-        "the",
-        "woman's",
-        "hand?"
-      ]
-    },
-    {
-      "id": "r15",
-      "text": "the glass?",
-      "x": 0.6414,
-      "y": 0.5249,
-      "w": 0.1456,
-      "h": 0.0228,
-      "words": [
+        "in",
         "the",
         "glass?"
-      ]
+      ],
+      "conf": 89.2038,
+      "source": "psm-11"
     },
     {
-      "id": "r16",
-      "text": "i",
-      "x": 0.2029,
-      "y": 0.559,
-      "w": 0.1827,
-      "h": 0.1029,
-      "words": [
-        "i"
-      ]
-    },
-    {
-      "id": "r17",
-      "text": "eee",
-      "x": 0.7769,
-      "y": 0.6798,
-      "w": 0.0337,
-      "h": 0.0022,
-      "words": [
-        "eee"
-      ]
-    },
-    {
-      "id": "r18",
-      "text": "g Is this ship in",
+      "id": "r8",
+      "order": 7,
+      "text": "g Is this ship in a bottle?",
       "x": 0.197,
       "y": 0.6847,
       "w": 0.229,
-      "h": 0.0233,
+      "h": 0.0434,
       "words": [
         "g",
         "Is",
         "this",
         "ship",
-        "in"
-      ]
+        "in",
+        "a",
+        "bottle?"
+      ],
+      "conf": 87.2662,
+      "source": "psm-11"
     },
     {
-      "id": "r19",
+      "id": "r9",
+      "order": 8,
       "text": "h Are the man and the",
       "x": 0.5438,
       "y": 0.6885,
@@ -353,421 +231,31 @@
         "man",
         "and",
         "the"
-      ]
+      ],
+      "conf": 95.6812,
+      "source": "psm-11"
     },
     {
-      "id": "r20",
-      "text": "a bottle?",
-      "x": 0.234,
-      "y": 0.7091,
-      "w": 0.133,
-      "h": 0.019,
-      "words": [
-        "a",
-        "bottle?"
-      ]
-    },
-    {
-      "id": "r21",
-      "text": "LS",
-      "x": 0.3224,
-      "y": 0.8072,
-      "w": 0.0539,
-      "h": 0.0087,
-      "words": [
-        "LS"
-      ]
-    },
-    {
-      "id": "r22",
-      "text": "—",
-      "x": 0.335,
-      "y": 0.8283,
-      "w": 0.0749,
-      "h": 0.0081,
-      "words": [
-        "—"
-      ]
-    },
-    {
-      "id": "r23",
-      "text": "eee eee",
-      "x": 0.4907,
-      "y": 0.8738,
-      "w": 0.3367,
-      "h": 0.0033,
-      "words": [
-        "eee",
-        "eee"
-      ]
-    },
-    {
-      "id": "r24",
-      "text": "This page is page 33. The answers are on page 34.",
+      "id": "r10",
+      "order": 9,
+      "text": "This page is page The answers are on page",
       "x": 0.1271,
-      "y": 0.8787,
-      "w": 0.7761,
-      "h": 0.0244,
+      "y": 0.8797,
+      "w": 0.7197,
+      "h": 0.0233,
       "words": [
         "This",
         "page",
         "is",
         "page",
-        "33.",
         "The",
         "answers",
         "are",
         "on",
-        "page",
-        "34."
-      ]
-    },
-    {
-      "id": "r25",
-      "text": "2",
-      "x": 0.9192,
-      "y": 0.9252,
-      "w": 0.0084,
-      "h": 0.0087,
-      "words": [
-        "2"
-      ]
-    },
-    {
-      "id": "r26",
-      "text": "QUESTIONS",
-      "x": 0.4108,
-      "y": 0.0731,
-      "w": 0.1911,
-      "h": 0.0184,
-      "words": [
-        "QUESTIONS"
-      ]
-    },
-    {
-      "id": "r27",
-      "text": "a Is the hat on b Is the man in",
-      "x": 0.1987,
-      "y": 0.1029,
-      "w": 0.6347,
-      "h": 0.0293,
-      "words": [
-        "a",
-        "Is",
-        "the",
-        "hat",
-        "on",
-        "b",
-        "Is",
-        "the",
-        "man",
-        "in"
-      ]
-    },
-    {
-      "id": "r28",
-      "text": "the table? the room?",
-      "x": 0.2365,
-      "y": 0.13,
-      "w": 0.5564,
-      "h": 0.0195,
-      "words": [
-        "the",
-        "table?",
-        "the",
-        "room?"
-      ]
-    },
-    {
-      "id": "r29",
-      "text": "{",
-      "x": 0.5051,
-      "y": 0.1896,
-      "w": 0.0034,
-      "h": 0.0103,
-      "words": [
-        "{"
-      ]
-    },
-    {
-      "id": "r30",
-      "text": "!",
-      "x": 0.5042,
-      "y": 0.2048,
-      "w": 0.0042,
-      "h": 0.0092,
-      "words": [
-        "!"
-      ]
-    },
-    {
-      "id": "r31",
-      "text": "1",
-      "x": 0.5042,
-      "y": 0.2324,
-      "w": 0.0042,
-      "h": 0.0103,
-      "words": [
-        "1"
-      ]
-    },
-    {
-      "id": "r32",
-      "text": "1",
-      "x": 0.5042,
-      "y": 0.2476,
-      "w": 0.0042,
-      "h": 0.0103,
-      "words": [
-        "1"
-      ]
-    },
-    {
-      "id": "r33",
-      "text": "i}",
-      "x": 0.5051,
-      "y": 0.2622,
-      "w": 0.0034,
-      "h": 0.0087,
-      "words": [
-        "i}"
-      ]
-    },
-    {
-      "id": "r34",
-      "text": "‘Is the picture on Is the bird on",
-      "x": 0.1507,
-      "y": 0.2806,
-      "w": 0.6894,
-      "h": 0.0368,
-      "words": [
-        "‘Is",
-        "the",
-        "picture",
-        "on",
-        "Is",
-        "the",
-        "bird",
-        "on"
-      ]
-    },
-    {
-      "id": "r35",
-      "text": "the wall? the seat?",
-      "x": 0.1633,
-      "y": 0.3164,
-      "w": 0.6136,
-      "h": 0.019,
-      "words": [
-        "the",
-        "wall?",
-        "the",
-        "seat?"
-      ]
-    },
-    {
-      "id": "r36",
-      "text": "— A",
-      "x": 0.6684,
-      "y": 0.3462,
-      "w": 0.186,
-      "h": 0.0769,
-      "words": [
-        "—",
-        "A"
-      ]
-    },
-    {
-      "id": "r37",
-      "text": "=>",
-      "x": 0.5488,
-      "y": 0.3895,
-      "w": 0.0758,
-      "h": 0.0244,
-      "words": [
-        "=>"
-      ]
-    },
-    {
-      "id": "r38",
-      "text": "e Is the glass in f Is the water in",
-      "x": 0.1271,
-      "y": 0.4984,
-      "w": 0.7256,
-      "h": 0.0233,
-      "words": [
-        "e",
-        "Is",
-        "the",
-        "glass",
-        "in",
-        "f",
-        "Is",
-        "the",
-        "water",
-        "in"
-      ]
-    },
-    {
-      "id": "r39",
-      "text": "the woman's hand?! the glass?",
-      "x": 0.1658,
-      "y": 0.5211,
-      "w": 0.6212,
-      "h": 0.0265,
-      "words": [
-        "the",
-        "woman's",
-        "hand?!",
-        "the",
-        "glass?"
-      ]
-    },
-    {
-      "id": "r40",
-      "text": "\\",
-      "x": 0.5076,
-      "y": 0.5515,
-      "w": 0.0051,
-      "h": 0.0114,
-      "words": [
-        "\\"
-      ]
-    },
-    {
-      "id": "r41",
-      "text": "R »",
-      "x": 0.335,
-      "y": 0.5477,
-      "w": 0.5076,
-      "h": 0.1046,
-      "words": [
-        "R",
-        "»"
-      ]
-    },
-    {
-      "id": "r42",
-      "text": "1",
-      "x": 0.5084,
-      "y": 0.5943,
-      "w": 0.0051,
-      "h": 0.0108,
-      "words": [
-        "1"
-      ]
-    },
-    {
-      "id": "r43",
-      "text": "Isthis shipin 1 h Are the manand the _",
-      "x": 0.2264,
-      "y": 0.675,
-      "w": 0.6978,
-      "h": 0.0379,
-      "words": [
-        "Isthis",
-        "shipin",
-        "1",
-        "h",
-        "Are",
-        "the",
-        "manand",
-        "the",
-        "_"
-      ]
-    },
-    {
-      "id": "r44",
-      "text": "a bottle? | woman at the door?",
-      "x": 0.234,
-      "y": 0.7091,
-      "w": 0.649,
-      "h": 0.0238,
-      "words": [
-        "a",
-        "bottle?",
-        "|",
-        "woman",
-        "at",
-        "the",
-        "door?"
-      ]
-    },
-    {
-      "id": "r45",
-      "text": "i",
-      "x": 0.5118,
-      "y": 0.7801,
-      "w": 0.0051,
-      "h": 0.0108,
-      "words": [
-        "i"
-      ]
-    },
-    {
-      "id": "r46",
-      "text": "t",
-      "x": 0.5126,
-      "y": 0.7947,
-      "w": 0.0042,
-      "h": 0.0098,
-      "words": [
-        "t"
-      ]
-    },
-    {
-      "id": "r47",
-      "text": "I",
-      "x": 0.5135,
-      "y": 0.838,
-      "w": 0.0051,
-      "h": 0.0103,
-      "words": [
-        "I"
-      ]
-    },
-    {
-      "id": "r48",
-      "text": "i}",
-      "x": 0.5143,
-      "y": 0.8521,
-      "w": 0.0042,
-      "h": 0.0103,
-      "words": [
-        "i}"
-      ]
-    },
-    {
-      "id": "r49",
-      "text": "“This page is page 33. The answers are on page 34,",
-      "x": 0.1035,
-      "y": 0.8694,
-      "w": 0.7997,
-      "h": 0.0358,
-      "words": [
-        "“This",
-        "page",
-        "is",
-        "page",
-        "33.",
-        "The",
-        "answers",
-        "are",
-        "on",
-        "page",
-        "34,"
-      ]
-    },
-    {
-      "id": "r50",
-      "text": "2",
-      "x": 0.9074,
-      "y": 0.9252,
-      "w": 0.0202,
-      "h": 0.0125,
-      "words": [
-        "2"
-      ]
+        "page"
+      ],
+      "conf": 96.4053,
+      "source": "psm-11"
     }
   ]
 }

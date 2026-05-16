@@ -2,85 +2,34 @@
   "page": 57,
   "image": "/books/page 57.png",
   "imageApiPath": "/api/books/page%2057.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 27,
-    "wordCount": 65,
+    "regionCount": 5,
+    "wordCount": 18,
     "imageWidth": 1142,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
         "r2",
-        "r5",
-        "r6",
-        "r13"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
         "r3",
         "r4",
-        "r14",
-        "r15"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r7",
-        "r9",
-        "r11",
-        "r24",
-        "r26"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r8",
-        "r10",
-        "r12",
-        "r16",
-        "r17",
-        "r18",
-        "r19",
-        "r20",
-        "r21",
-        "r22",
-        "r23",
-        "r25",
-        "r27"
+        "r5"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
+      "order": 0,
       "text": "QUESTIONS",
       "x": 0.0744,
       "y": 0.0712,
@@ -88,10 +37,13 @@
       "h": 0.0204,
       "words": [
         "QUESTIONS"
-      ]
+      ],
+      "conf": 96.5715,
+      "source": "psm-11"
     },
     {
       "id": "r2",
+      "order": 1,
       "text": "What do you see?",
       "x": 0.4019,
       "y": 0.0702,
@@ -102,90 +54,33 @@
         "do",
         "you",
         "see?"
-      ]
+      ],
+      "conf": 96.2869,
+      "source": "psm-11"
     },
     {
       "id": "r3",
-      "text": "b",
-      "x": 0.5937,
-      "y": 0.1243,
-      "w": 0.0201,
-      "h": 0.0187,
+      "order": 2,
+      "text": "Answers to these questions are on page",
+      "x": 0.1611,
+      "y": 0.865,
+      "w": 0.6401,
+      "h": 0.0332,
       "words": [
-        "b"
-      ]
+        "Answers",
+        "to",
+        "these",
+        "questions",
+        "are",
+        "on",
+        "page"
+      ],
+      "conf": 96.3498,
+      "source": "psm-11"
     },
     {
       "id": "r4",
-      "text": "|",
-      "x": 0.8144,
-      "y": 0.1762,
-      "w": 0.0053,
-      "h": 0.0145,
-      "words": [
-        "|"
-      ]
-    },
-    {
-      "id": "r5",
-      "text": "we meee tw eee we we we em",
-      "x": 0.1856,
-      "y": 0.2898,
-      "w": 0.5806,
-      "h": 0.0037,
-      "words": [
-        "we",
-        "meee",
-        "tw",
-        "eee",
-        "we",
-        "we",
-        "we",
-        "em"
-      ]
-    },
-    {
-      "id": "r6",
-      "text": "ee ee ee we",
-      "x": 0.4615,
-      "y": 0.4751,
-      "w": 0.4807,
-      "h": 0.0054,
-      "words": [
-        "ee",
-        "ee",
-        "ee",
-        "we"
-      ]
-    },
-    {
-      "id": "r7",
-      "text": "we",
-      "x": 0.2723,
-      "y": 0.6663,
-      "w": 0.0377,
-      "h": 0.015,
-      "words": [
-        "we"
-      ]
-    },
-    {
-      "id": "r8",
-      "text": "one wwe cee = we",
-      "x": 0.5,
-      "y": 0.6754,
-      "w": 0.4431,
-      "h": 0.0048,
-      "words": [
-        "one",
-        "wwe",
-        "cee",
-        "=",
-        "we"
-      ]
-    },
-    {
-      "id": "r9",
+      "order": 3,
       "text": "wee ew oe",
       "x": 0.4256,
       "y": 0.8607,
@@ -195,10 +90,13 @@
         "wee",
         "ew",
         "oe"
-      ]
+      ],
+      "conf": 57.9671,
+      "source": "psm-11"
     },
     {
-      "id": "r10",
+      "id": "r5",
+      "order": 4,
       "text": "em me wwe",
       "x": 0.8222,
       "y": 0.8634,
@@ -208,211 +106,9 @@
         "em",
         "me",
         "wwe"
-      ]
-    },
-    {
-      "id": "r11",
-      "text": "Answers to these questions are on page 56.",
-      "x": 0.1611,
-      "y": 0.865,
-      "w": 0.7005,
-      "h": 0.0332,
-      "words": [
-        "Answers",
-        "to",
-        "these",
-        "questions",
-        "are",
-        "on",
-        "page",
-        "56."
-      ]
-    },
-    {
-      "id": "r12",
-      "text": "53",
-      "x": 0.8967,
-      "y": 0.9186,
-      "w": 0.0271,
-      "h": 0.0123,
-      "words": [
-        "53"
-      ]
-    },
-    {
-      "id": "r13",
-      "text": "QUESTIONS What do you see?",
-      "x": 0.0709,
-      "y": 0.0686,
-      "w": 0.62,
-      "h": 0.0295,
-      "words": [
-        "QUESTIONS",
-        "What",
-        "do",
-        "you",
-        "see?"
-      ]
-    },
-    {
-      "id": "r14",
-      "text": "t",
-      "x": 0.5088,
-      "y": 0.1987,
-      "w": 0.0061,
-      "h": 0.0096,
-      "words": [
-        "t"
-      ]
-    },
-    {
-      "id": "r15",
-      "text": "'",
-      "x": 0.5105,
-      "y": 0.443,
-      "w": 0.0053,
-      "h": 0.0102,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r16",
-      "text": "|",
-      "x": 0.5919,
-      "y": 0.5067,
-      "w": 0.0123,
-      "h": 0.0182,
-      "words": [
-        "|"
-      ]
-    },
-    {
-      "id": "r17",
-      "text": "t",
-      "x": 0.5114,
-      "y": 0.5335,
-      "w": 0.007,
-      "h": 0.0096,
-      "words": [
-        "t"
-      ]
-    },
-    {
-      "id": "r18",
-      "text": "'",
-      "x": 0.5123,
-      "y": 0.5785,
-      "w": 0.0053,
-      "h": 0.0091,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r19",
-      "text": "‘",
-      "x": 0.5114,
-      "y": 0.5913,
-      "w": 0.0061,
-      "h": 0.0096,
-      "words": [
-        "‘"
-      ]
-    },
-    {
-      "id": "r20",
-      "text": "i",
-      "x": 0.5114,
-      "y": 0.6047,
-      "w": 0.0061,
-      "h": 0.0102,
-      "words": [
-        "i"
-      ]
-    },
-    {
-      "id": "r21",
-      "text": "5",
-      "x": 0.5114,
-      "y": 0.6197,
-      "w": 0.0061,
-      "h": 0.0091,
-      "words": [
-        "5"
-      ]
-    },
-    {
-      "id": "r22",
-      "text": "i",
-      "x": 0.5114,
-      "y": 0.6336,
-      "w": 0.0061,
-      "h": 0.0096,
-      "words": [
-        "i"
-      ]
-    },
-    {
-      "id": "r23",
-      "text": "i",
-      "x": 0.5114,
-      "y": 0.6915,
-      "w": 0.0053,
-      "h": 0.0091,
-      "words": [
-        "i"
-      ]
-    },
-    {
-      "id": "r24",
-      "text": "8",
-      "x": 0.1349,
-      "y": 0.7011,
-      "w": 0.0201,
-      "h": 0.0161,
-      "words": [
-        "8"
-      ]
-    },
-    {
-      "id": "r25",
-      "text": "‘",
-      "x": 0.5096,
-      "y": 0.8045,
-      "w": 0.0061,
-      "h": 0.0096,
-      "words": [
-        "‘"
-      ]
-    },
-    {
-      "id": "r26",
-      "text": "\"Answers to these questions are on page",
-      "x": 0.0753,
-      "y": 0.8618,
-      "w": 0.7277,
-      "h": 0.0412,
-      "words": [
-        "\"Answers",
-        "to",
-        "these",
-        "questions",
-        "are",
-        "on",
-        "page"
-      ]
-    },
-    {
-      "id": "r27",
-      "text": "53",
-      "x": 0.8967,
-      "y": 0.9186,
-      "w": 0.0271,
-      "h": 0.0123,
-      "words": [
-        "53"
-      ]
+      ],
+      "conf": 56.4189,
+      "source": "psm-11"
     }
   ]
 }

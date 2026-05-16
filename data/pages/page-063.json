@@ -2,178 +2,85 @@
   "page": 63,
   "image": "/books/page 63.png",
   "imageApiPath": "/api/books/page%2063.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 31,
-    "wordCount": 104,
+    "regionCount": 6,
+    "wordCount": 41,
     "imageWidth": 1180,
     "imageHeight": 1892
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
-        "r3",
-        "r6",
-        "r17",
-        "r18"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
         "r2",
+        "r3",
         "r4",
         "r5",
-        "r15",
-        "r16",
-        "r19",
-        "r20",
-        "r21",
-        "r22"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r8",
-        "r10",
-        "r12",
-        "r13",
-        "r24",
-        "r25",
-        "r26"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r7",
-        "r9",
-        "r11",
-        "r14",
-        "r23",
-        "r27",
-        "r28",
-        "r29",
-        "r30",
-        "r31"
+        "r6"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "text": "rie will put the key in",
-      "x": 0.1339,
+      "order": 0,
+      "text": "rie will put the key in the lock of the door.",
+      "x": 0.1331,
       "y": 0.1512,
-      "w": 0.328,
-      "h": 0.0248,
+      "w": 0.3288,
+      "h": 0.0455,
       "words": [
         "rie",
         "will",
         "put",
         "the",
         "key",
-        "in"
-      ]
-    },
-    {
-      "id": "r2",
-      "text": "He is putting the key",
-      "x": 0.5695,
-      "y": 0.1512,
-      "w": 0.3093,
-      "h": 0.0248,
-      "words": [
-        "He",
-        "is",
-        "putting",
-        "the",
-        "key"
-      ]
-    },
-    {
-      "id": "r3",
-      "text": "the lock of the door.",
-      "x": 0.1331,
-      "y": 0.1771,
-      "w": 0.311,
-      "h": 0.0196,
-      "words": [
+        "in",
         "the",
         "lock",
         "of",
         "the",
         "door."
-      ]
+      ],
+      "conf": 91.219,
+      "source": "psm-11"
     },
     {
-      "id": "r4",
-      "text": "in the lock.",
-      "x": 0.5703,
-      "y": 0.1771,
-      "w": 0.1636,
-      "h": 0.019,
+      "id": "r2",
+      "order": 1,
+      "text": "He is putting the key in the lock.",
+      "x": 0.5695,
+      "y": 0.1512,
+      "w": 0.3093,
+      "h": 0.0449,
       "words": [
+        "He",
+        "is",
+        "putting",
+        "the",
+        "key",
         "in",
         "the",
         "lock."
-      ]
+      ],
+      "conf": 95.4473,
+      "source": "psm-11"
     },
     {
-      "id": "r5",
-      "text": "i",
-      "x": 0.5458,
-      "y": 0.2125,
-      "w": 0.3178,
-      "h": 0.1765,
-      "words": [
-        "i"
-      ]
-    },
-    {
-      "id": "r6",
-      "text": "wee ee ee ee",
-      "x": 0.1288,
-      "y": 0.4794,
-      "w": 0.4,
-      "h": 0.0148,
-      "words": [
-        "wee",
-        "ee",
-        "ee",
-        "ee"
-      ]
-    },
-    {
-      "id": "r7",
-      "text": "He is giving a push to the",
-      "x": 0.5619,
+      "id": "r3",
+      "order": 2,
+      "text": "He is giving a push to the door.",
+      "x": 0.5602,
       "y": 0.5507,
-      "w": 0.3754,
-      "h": 0.0248,
+      "w": 0.3771,
+      "h": 0.0455,
       "words": [
         "He",
         "is",
@@ -181,50 +88,36 @@
         "a",
         "push",
         "to",
-        "the"
-      ]
+        "the",
+        "door."
+      ],
+      "conf": 96.004,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "text": "He is giving a turn to",
-      "x": 0.1415,
+      "id": "r4",
+      "order": 3,
+      "text": "He is giving a turn to the key.",
+      "x": 0.1398,
       "y": 0.5814,
-      "w": 0.3288,
-      "h": 0.0217,
+      "w": 0.3305,
+      "h": 0.0481,
       "words": [
         "He",
         "is",
         "giving",
         "a",
         "turn",
-        "to"
-      ]
-    },
-    {
-      "id": "r9",
-      "text": "door.",
-      "x": 0.5602,
-      "y": 0.5777,
-      "w": 0.0822,
-      "h": 0.0185,
-      "words": [
-        "door."
-      ]
-    },
-    {
-      "id": "r10",
-      "text": "the key.",
-      "x": 0.1398,
-      "y": 0.6052,
-      "w": 0.122,
-      "h": 0.0243,
-      "words": [
+        "to",
         "the",
         "key."
-      ]
+      ],
+      "conf": 96.3173,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
+      "id": "r5",
+      "order": 4,
       "text": "The door is open now.",
       "x": 0.561,
       "y": 0.6025,
@@ -236,21 +129,13 @@
         "is",
         "open",
         "now."
-      ]
+      ],
+      "conf": 96.7419,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "text": "N",
-      "x": 0.3797,
-      "y": 0.666,
-      "w": 0.0932,
-      "h": 0.0354,
-      "words": [
-        "N"
-      ]
-    },
-    {
-      "id": "r13",
+      "id": "r6",
+      "order": 5,
       "text": "i.",
       "x": 0.1559,
       "y": 0.6966,
@@ -258,244 +143,9 @@
       "h": 0.0745,
       "words": [
         "i."
-      ]
-    },
-    {
-      "id": "r14",
-      "text": "59",
-      "x": 0.9136,
-      "y": 0.9038,
-      "w": 0.0271,
-      "h": 0.0127,
-      "words": [
-        "59"
-      ]
-    },
-    {
-      "id": "r15",
-      "text": "1",
-      "x": 0.5169,
-      "y": 0.0941,
-      "w": 0.0051,
-      "h": 0.0106,
-      "words": [
-        "1"
-      ]
-    },
-    {
-      "id": "r16",
-      "text": "1",
-      "x": 0.5178,
-      "y": 0.1089,
-      "w": 0.0051,
-      "h": 0.0111,
-      "words": [
-        "1"
-      ]
-    },
-    {
-      "id": "r17",
-      "text": "re will put the key in‘ He is putting the key",
-      "x": 0.1339,
-      "y": 0.1512,
-      "w": 0.7449,
-      "h": 0.027,
-      "words": [
-        "re",
-        "will",
-        "put",
-        "the",
-        "key",
-        "in‘",
-        "He",
-        "is",
-        "putting",
-        "the",
-        "key"
-      ]
-    },
-    {
-      "id": "r18",
-      "text": "the lock of the door. =| in the lock.",
-      "x": 0.1331,
-      "y": 0.1771,
-      "w": 0.6008,
-      "h": 0.028,
-      "words": [
-        "the",
-        "lock",
-        "of",
-        "the",
-        "door.",
-        "=|",
-        "in",
-        "the",
-        "lock."
-      ]
-    },
-    {
-      "id": "r19",
-      "text": "3",
-      "x": 0.5212,
-      "y": 0.2981,
-      "w": 0.0051,
-      "h": 0.0222,
-      "words": [
-        "3"
-      ]
-    },
-    {
-      "id": "r20",
-      "text": "!",
-      "x": 0.5237,
-      "y": 0.3827,
-      "w": 0.0034,
-      "h": 0.0095,
-      "words": [
-        "!"
-      ]
-    },
-    {
-      "id": "r21",
-      "text": "|",
-      "x": 0.7619,
-      "y": 0.3599,
-      "w": 0.0076,
-      "h": 0.0883,
-      "words": [
-        "|"
-      ]
-    },
-    {
-      "id": "r22",
-      "text": "t",
-      "x": 0.5246,
-      "y": 0.4265,
-      "w": 0.0042,
-      "h": 0.0095,
-      "words": [
-        "t"
-      ]
-    },
-    {
-      "id": "r23",
-      "text": "| He is giving a push to the",
-      "x": 0.528,
-      "y": 0.546,
-      "w": 0.4093,
-      "h": 0.0296,
-      "words": [
-        "|",
-        "He",
-        "is",
-        "giving",
-        "a",
-        "push",
-        "to",
-        "the"
-      ]
-    },
-    {
-      "id": "r24",
-      "text": "He is giving aturnto 1 door.",
-      "x": 0.1415,
-      "y": 0.5756,
-      "w": 0.5008,
-      "h": 0.0275,
-      "words": [
-        "He",
-        "is",
-        "giving",
-        "aturnto",
-        "1",
-        "door."
-      ]
-    },
-    {
-      "id": "r25",
-      "text": "the key. | The door is open now.",
-      "x": 0.1398,
-      "y": 0.6025,
-      "w": 0.761,
-      "h": 0.027,
-      "words": [
-        "the",
-        "key.",
-        "|",
-        "The",
-        "door",
-        "is",
-        "open",
-        "now."
-      ]
-    },
-    {
-      "id": "r26",
-      "text": "oN !",
-      "x": 0.3763,
-      "y": 0.6638,
-      "w": 0.1585,
-      "h": 0.0507,
-      "words": [
-        "oN",
-        "!"
-      ]
-    },
-    {
-      "id": "r27",
-      "text": "' 7",
-      "x": 0.5314,
-      "y": 0.7188,
-      "w": 0.2449,
-      "h": 0.0222,
-      "words": [
-        "'",
-        "7"
-      ]
-    },
-    {
-      "id": "r28",
-      "text": "i}",
-      "x": 0.5331,
-      "y": 0.8161,
-      "w": 0.0042,
-      "h": 0.0095,
-      "words": [
-        "i}"
-      ]
-    },
-    {
-      "id": "r29",
-      "text": "!",
-      "x": 0.5339,
-      "y": 0.8298,
-      "w": 0.0034,
-      "h": 0.01,
-      "words": [
-        "!"
-      ]
-    },
-    {
-      "id": "r30",
-      "text": "t",
-      "x": 0.5339,
-      "y": 0.843,
-      "w": 0.0042,
-      "h": 0.009,
-      "words": [
-        "t"
-      ]
-    },
-    {
-      "id": "r31",
-      "text": "59",
-      "x": 0.9136,
-      "y": 0.9038,
-      "w": 0.0271,
-      "h": 0.0127,
-      "words": [
-        "59"
-      ]
+      ],
+      "conf": 42.2178,
+      "source": "psm-11"
     }
   ]
 }

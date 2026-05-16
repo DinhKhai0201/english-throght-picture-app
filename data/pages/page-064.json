@@ -2,179 +2,99 @@
   "page": 64,
   "image": "/books/page 64.png",
   "imageApiPath": "/api/books/page%2064.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 41,
-    "wordCount": 142,
+    "regionCount": 11,
+    "wordCount": 62,
     "imageWidth": 1246,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
         "r2",
+        "r3",
         "r4",
+        "r5",
         "r6",
         "r7",
-        "r19",
-        "r20",
-        "r21",
-        "r22",
-        "r23",
-        "r29"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3",
-        "r5",
         "r8",
-        "r24",
-        "r25",
-        "r26",
-        "r27",
-        "r28"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r10",
-        "r12",
-        "r14",
-        "r18",
-        "r31",
-        "r32",
-        "r33",
-        "r41"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
         "r9",
-        "r11",
-        "r13",
-        "r15",
-        "r16",
-        "r17",
-        "r30",
-        "r34",
-        "r35",
-        "r36",
-        "r37",
-        "r38",
-        "r39",
-        "r40"
+        "r10",
+        "r11"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "text": "John took the key",
+      "order": 0,
+      "text": "John took the key from the lock.",
       "x": 0.1324,
       "y": 0.0964,
       "w": 0.26,
-      "h": 0.0241,
+      "h": 0.045,
       "words": [
         "John",
         "took",
         "the",
-        "key"
-      ]
-    },
-    {
-      "id": "r2",
-      "text": "from the lock.",
-      "x": 0.1324,
-      "y": 0.1216,
-      "w": 0.1974,
-      "h": 0.0198,
-      "words": [
+        "key",
         "from",
         "the",
         "lock."
-      ]
+      ],
+      "conf": 96.6533,
+      "source": "psm-11"
     },
     {
-      "id": "r3",
-      "text": "He is going into the",
-      "x": 0.5706,
-      "y": 0.135,
-      "w": 0.2841,
-      "h": 0.0225,
-      "words": [
-        "He",
-        "is",
-        "going",
-        "into",
-        "the"
-      ]
-    },
-    {
-      "id": "r4",
-      "text": "He is putting it in",
+      "id": "r2",
+      "order": 1,
+      "text": "He is putting it in his pocket.",
       "x": 0.1332,
       "y": 0.1489,
       "w": 0.244,
-      "h": 0.0225,
+      "h": 0.0482,
       "words": [
         "He",
         "is",
         "putting",
         "it",
-        "in"
-      ]
-    },
-    {
-      "id": "r5",
-      "text": "house.",
-      "x": 0.5706,
-      "y": 0.1601,
-      "w": 0.0915,
-      "h": 0.0187,
-      "words": [
-        "house."
-      ]
-    },
-    {
-      "id": "r6",
-      "text": "his pocket.",
-      "x": 0.1332,
-      "y": 0.173,
-      "w": 0.1549,
-      "h": 0.0241,
-      "words": [
+        "in",
         "his",
         "pocket."
-      ]
+      ],
+      "conf": 95.422,
+      "source": "psm-11"
     },
     {
-      "id": "r7",
+      "id": "r3",
+      "order": 2,
+      "text": "He is going into the house.",
+      "x": 0.5706,
+      "y": 0.135,
+      "w": 0.2841,
+      "h": 0.0438,
+      "words": [
+        "He",
+        "is",
+        "going",
+        "into",
+        "the",
+        "house."
+      ],
+      "conf": 96.3751,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
       "text": "He will go into his house.",
       "x": 0.1332,
       "y": 0.1982,
@@ -187,38 +107,33 @@
         "into",
         "his",
         "house."
-      ]
+      ],
+      "conf": 96.6866,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "text": "we ww",
-      "x": 0.5546,
-      "y": 0.481,
-      "w": 0.2921,
-      "h": 0.0037,
-      "words": [
-        "we",
-        "ww"
-      ]
-    },
-    {
-      "id": "r9",
-      "text": "This is a room in the",
+      "id": "r5",
+      "order": 4,
+      "text": "This is a room in the house.",
       "x": 0.5778,
       "y": 0.5137,
       "w": 0.2945,
-      "h": 0.0187,
+      "h": 0.0438,
       "words": [
         "This",
         "is",
         "a",
         "room",
         "in",
-        "the"
-      ]
+        "the",
+        "house."
+      ],
+      "conf": 96.0097,
+      "source": "psm-11"
     },
     {
-      "id": "r10",
+      "id": "r6",
+      "order": 5,
       "text": "He went into the house.",
       "x": 0.1437,
       "y": 0.5345,
@@ -230,21 +145,13 @@
         "into",
         "the",
         "house."
-      ]
+      ],
+      "conf": 96.1529,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
-      "text": "house.",
-      "x": 0.5795,
-      "y": 0.5388,
-      "w": 0.0915,
-      "h": 0.0187,
-      "words": [
-        "house."
-      ]
-    },
-    {
-      "id": "r12",
+      "id": "r7",
+      "order": 6,
       "text": "He is in the house.",
       "x": 0.1437,
       "y": 0.5592,
@@ -256,10 +163,30 @@
         "in",
         "the",
         "house."
-      ]
+      ],
+      "conf": 96.5219,
+      "source": "psm-11"
     },
     {
-      "id": "r13",
+      "id": "r8",
+      "order": 7,
+      "text": "The door is shut.",
+      "x": 0.1421,
+      "y": 0.5833,
+      "w": 0.2343,
+      "h": 0.0198,
+      "words": [
+        "The",
+        "door",
+        "is",
+        "shut."
+      ],
+      "conf": 96.4189,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
       "text": "{is John in the room?",
       "x": 0.5803,
       "y": 0.5645,
@@ -271,24 +198,13 @@
         "in",
         "the",
         "room?"
-      ]
+      ],
+      "conf": 85.1676,
+      "source": "psm-11"
     },
     {
-      "id": "r14",
-      "text": "The door is shut.",
-      "x": 0.1421,
-      "y": 0.5833,
-      "w": 0.2343,
-      "h": 0.0198,
-      "words": [
-        "The",
-        "door",
-        "is",
-        "shut."
-      ]
-    },
-    {
-      "id": "r15",
+      "id": "r10",
+      "order": 9,
       "text": "No, he is not.",
       "x": 0.5795,
       "y": 0.5892,
@@ -299,351 +215,28 @@
         "he",
         "is",
         "not."
-      ]
+      ],
+      "conf": 96.3435,
+      "source": "psm-11"
     },
     {
-      "id": "r16",
-      "text": "He will come into the",
+      "id": "r11",
+      "order": 10,
+      "text": "He will come into the room.",
       "x": 0.573,
       "y": 0.8495,
       "w": 0.2961,
-      "h": 0.0187,
+      "h": 0.0444,
       "words": [
         "He",
         "will",
         "come",
         "into",
-        "the"
-      ]
-    },
-    {
-      "id": "r17",
-      "text": "room.",
-      "x": 0.573,
-      "y": 0.8816,
-      "w": 0.0835,
-      "h": 0.0123,
-      "words": [
+        "the",
         "room."
-      ]
-    },
-    {
-      "id": "r18",
-      "text": "60",
-      "x": 0.1011,
-      "y": 0.9159,
-      "w": 0.0273,
-      "h": 0.0129,
-      "words": [
-        "60"
-      ]
-    },
-    {
-      "id": "r19",
-      "text": "John took the key",
-      "x": 0.1324,
-      "y": 0.0964,
-      "w": 0.26,
-      "h": 0.0241,
-      "words": [
-        "John",
-        "took",
-        "the",
-        "key"
-      ]
-    },
-    {
-      "id": "r20",
-      "text": "from the lock. '",
-      "x": 0.1324,
-      "y": 0.1216,
-      "w": 0.3868,
-      "h": 0.0198,
-      "words": [
-        "from",
-        "the",
-        "lock.",
-        "'"
-      ]
-    },
-    {
-      "id": "r21",
-      "text": "He is putting it in He is gong into the",
-      "x": 0.1332,
-      "y": 0.1334,
-      "w": 0.7215,
-      "h": 0.0477,
-      "words": [
-        "He",
-        "is",
-        "putting",
-        "it",
-        "in",
-        "He",
-        "is",
-        "gong",
-        "into",
-        "the"
-      ]
-    },
-    {
-      "id": "r22",
-      "text": "his pocket.",
-      "x": 0.1332,
-      "y": 0.173,
-      "w": 0.1549,
-      "h": 0.0241,
-      "words": [
-        "his",
-        "pocket."
-      ]
-    },
-    {
-      "id": "r23",
-      "text": "He will go into his house. '",
-      "x": 0.1332,
-      "y": 0.1982,
-      "w": 0.3844,
-      "h": 0.0252,
-      "words": [
-        "He",
-        "will",
-        "go",
-        "into",
-        "his",
-        "house.",
-        "'"
-      ]
-    },
-    {
-      "id": "r24",
-      "text": "'",
-      "x": 0.5128,
-      "y": 0.316,
-      "w": 0.0048,
-      "h": 0.0091,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r25",
-      "text": "!",
-      "x": 0.5128,
-      "y": 0.3883,
-      "w": 0.0048,
-      "h": 0.0096,
-      "words": [
-        "!"
-      ]
-    },
-    {
-      "id": "r26",
-      "text": "1",
-      "x": 0.5128,
-      "y": 0.4028,
-      "w": 0.0048,
-      "h": 0.0096,
-      "words": [
-        "1"
-      ]
-    },
-    {
-      "id": "r27",
-      "text": "'",
-      "x": 0.5136,
-      "y": 0.4183,
-      "w": 0.004,
-      "h": 0.0091,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r28",
-      "text": "'",
-      "x": 0.5144,
-      "y": 0.4622,
-      "w": 0.0032,
-      "h": 0.0086,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r29",
-      "text": "nnn",
-      "x": 0.3997,
-      "y": 0.4815,
-      "w": 0.0546,
-      "h": 0.0027,
-      "words": [
-        "nnn"
-      ]
-    },
-    {
-      "id": "r30",
-      "text": "| This is a room in the",
-      "x": 0.5144,
-      "y": 0.5099,
-      "w": 0.3579,
-      "h": 0.023,
-      "words": [
-        "|",
-        "This",
-        "is",
-        "a",
-        "room",
-        "in",
-        "the"
-      ]
-    },
-    {
-      "id": "r31",
-      "text": "He went into the house. ' house.",
-      "x": 0.1437,
-      "y": 0.5345,
-      "w": 0.5273,
-      "h": 0.0289,
-      "words": [
-        "He",
-        "went",
-        "into",
-        "the",
-        "house.",
-        "'",
-        "house."
-      ]
-    },
-    {
-      "id": "r32",
-      "text": "He is in the house. John in the room?",
-      "x": 0.1437,
-      "y": 0.5592,
-      "w": 0.7303,
-      "h": 0.0236,
-      "words": [
-        "He",
-        "is",
-        "in",
-        "the",
-        "house.",
-        "John",
-        "in",
-        "the",
-        "room?"
-      ]
-    },
-    {
-      "id": "r33",
-      "text": "The door is shut. | No, he is not.",
-      "x": 0.1421,
-      "y": 0.5833,
-      "w": 0.6324,
-      "h": 0.0268,
-      "words": [
-        "The",
-        "door",
-        "is",
-        "shut.",
-        "|",
-        "No,",
-        "he",
-        "is",
-        "not."
-      ]
-    },
-    {
-      "id": "r34",
-      "text": "it",
-      "x": 0.5112,
-      "y": 0.6813,
-      "w": 0.1621,
-      "h": 0.0568,
-      "words": [
-        "it"
-      ]
-    },
-    {
-      "id": "r35",
-      "text": "t",
-      "x": 0.5112,
-      "y": 0.7156,
-      "w": 0.0048,
-      "h": 0.0086,
-      "words": [
-        "t"
-      ]
-    },
-    {
-      "id": "r36",
-      "text": "I",
-      "x": 0.5104,
-      "y": 0.73,
-      "w": 0.0048,
-      "h": 0.0086,
-      "words": [
-        "I"
-      ]
-    },
-    {
-      "id": "r37",
-      "text": "i .",
-      "x": 0.5104,
-      "y": 0.775,
-      "w": 0.073,
-      "h": 0.0204,
-      "words": [
-        "i",
-        "."
-      ]
-    },
-    {
-      "id": "r38",
-      "text": "1",
-      "x": 0.5104,
-      "y": 0.8034,
-      "w": 0.0048,
-      "h": 0.0209,
-      "words": [
-        "1"
-      ]
-    },
-    {
-      "id": "r39",
-      "text": "come into the",
-      "x": 0.6774,
-      "y": 0.8495,
-      "w": 0.1918,
-      "h": 0.0187,
-      "words": [
-        "come",
-        "into",
-        "the"
-      ]
-    },
-    {
-      "id": "r40",
-      "text": "1 Foom.",
-      "x": 0.5104,
-      "y": 0.8725,
-      "w": 0.1461,
-      "h": 0.023,
-      "words": [
-        "1",
-        "Foom."
-      ]
-    },
-    {
-      "id": "r41",
-      "text": "60",
-      "x": 0.1011,
-      "y": 0.9159,
-      "w": 0.0273,
-      "h": 0.0129,
-      "words": [
-        "60"
-      ]
+      ],
+      "conf": 96.748,
+      "source": "psm-11"
     }
   ]
 }

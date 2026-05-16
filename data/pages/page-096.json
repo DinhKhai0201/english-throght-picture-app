@@ -2,183 +2,83 @@
   "page": 96,
   "image": "/books/page 96.png",
   "imageApiPath": "/api/books/page%2096.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 54,
-    "wordCount": 164,
+    "regionCount": 12,
+    "wordCount": 70,
     "imageWidth": 1225,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
-        "r3",
-        "r6",
-        "r8",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r30",
-        "r31",
-        "r32",
-        "r33",
-        "r34",
-        "r35",
-        "r36",
-        "r37",
-        "r38",
-        "r39",
-        "r40",
-        "r41"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
         "r2",
+        "r3",
         "r4",
         "r5",
+        "r6",
         "r7",
+        "r8",
         "r9",
-        "r10"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r15",
-        "r16",
-        "r18",
-        "r20",
-        "r21",
-        "r22",
-        "r23",
-        "r24",
-        "r25",
-        "r26",
-        "r27",
-        "r28",
-        "r29",
-        "r42",
-        "r43",
-        "r44",
-        "r45",
-        "r46",
-        "r47",
-        "r48",
-        "r49",
-        "r50",
-        "r51",
-        "r52",
-        "r53",
-        "r54"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r17",
-        "r19"
+        "r10",
+        "r11",
+        "r12"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
-      "text": "Mary has a potato in",
+      "order": 0,
+      "text": "Mary has a potato in her hand",
       "x": 0.1208,
       "y": 0.1035,
       "w": 0.311,
-      "h": 0.0229,
+      "h": 0.0415,
       "words": [
         "Mary",
         "has",
         "a",
         "potato",
-        "in"
-      ]
+        "in",
+        "her",
+        "hand"
+      ],
+      "conf": 96.1354,
+      "source": "psm-11"
     },
     {
       "id": "r2",
-      "text": "We get potatoes from",
+      "order": 1,
+      "text": "We get potatoes from the roots of a plant",
       "x": 0.5445,
       "y": 0.0949,
       "w": 0.3257,
-      "h": 0.024,
+      "h": 0.0486,
       "words": [
         "We",
         "get",
         "potatoes",
-        "from"
-      ]
-    },
-    {
-      "id": "r3",
-      "text": "her hand",
-      "x": 0.1208,
-      "y": 0.1269,
-      "w": 0.1314,
-      "h": 0.0181,
-      "words": [
-        "her",
-        "hand"
-      ]
-    },
-    {
-      "id": "r4",
-      "text": "the roots of a plant",
-      "x": 0.5445,
-      "y": 0.1195,
-      "w": 0.2865,
-      "h": 0.024,
-      "words": [
+        "from",
         "the",
         "roots",
         "of",
         "a",
         "plant"
-      ]
+      ],
+      "conf": 96.3287,
+      "source": "psm-11"
     },
     {
-      "id": "r5",
-      "text": "Here they are in the",
-      "x": 0.5478,
-      "y": 0.288,
-      "w": 0.2955,
-      "h": 0.024,
-      "words": [
-        "Here",
-        "they",
-        "are",
-        "in",
-        "the"
-      ]
-    },
-    {
-      "id": "r6",
+      "id": "r3",
+      "order": 2,
       "text": "She is taking its skin of",
       "x": 0.1176,
       "y": 0.3008,
@@ -191,21 +91,32 @@
         "its",
         "skin",
         "of"
-      ]
+      ],
+      "conf": 92.5721,
+      "source": "psm-11"
     },
     {
-      "id": "r7",
-      "text": "earth.",
+      "id": "r4",
+      "order": 3,
+      "text": "Here they are in the earth.",
       "x": 0.5478,
-      "y": 0.3136,
-      "w": 0.089,
-      "h": 0.0181,
+      "y": 0.288,
+      "w": 0.2955,
+      "h": 0.0437,
       "words": [
+        "Here",
+        "they",
+        "are",
+        "in",
+        "the",
         "earth."
-      ]
+      ],
+      "conf": 96.6342,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
+      "id": "r5",
+      "order": 4,
       "text": "with a knife.",
       "x": 0.1208,
       "y": 0.3504,
@@ -215,600 +126,139 @@
         "with",
         "a",
         "knife."
-      ]
+      ],
+      "conf": 95.9873,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "We get them up with a for",
+      "x": 0.5388,
+      "y": 0.3691,
+      "w": 0.3404,
+      "h": 0.0437,
+      "words": [
+        "We",
+        "get",
+        "them",
+        "up",
+        "with",
+        "a",
+        "for"
+      ],
+      "conf": 94.3297,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is a plant.",
+      "x": 0.151,
+      "y": 0.4837,
+      "w": 0.2131,
+      "h": 0.024,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "plant."
+      ],
+      "conf": 94.9827,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This is its flower.",
+      "x": 0.1461,
+      "y": 0.5147,
+      "w": 0.2367,
+      "h": 0.0187,
+      "words": [
+        "This",
+        "is",
+        "its",
+        "flower."
+      ],
+      "conf": 96.6398,
+      "source": "psm-11"
     },
     {
       "id": "r9",
-      "text": "We get them up with a",
-      "x": 0.5404,
-      "y": 0.3691,
-      "w": 0.3388,
-      "h": 0.024,
+      "order": 8,
+      "text": "These are its",
+      "x": 0.2645,
+      "y": 0.5536,
+      "w": 0.1853,
+      "h": 0.0187,
       "words": [
-        "We",
-        "get",
-        "them",
-        "up",
-        "with",
-        "a"
-      ]
+        "These",
+        "are",
+        "its"
+      ],
+      "conf": 94.318,
+      "source": "psm-11"
     },
     {
       "id": "r10",
-      "text": "for",
-      "x": 0.5388,
-      "y": 0.3936,
-      "w": 0.0424,
-      "h": 0.0192,
-      "words": [
-        "for"
-      ]
-    },
-    {
-      "id": "r11",
-      "text": "ax",
-      "x": 0.1714,
-      "y": 0.3813,
-      "w": 0.2514,
-      "h": 0.0875,
-      "words": [
-        "ax"
-      ]
-    },
-    {
-      "id": "r12",
-      "text": "1",
-      "x": 0.4767,
-      "y": 0.4581,
-      "w": 0.0049,
-      "h": 0.0091,
-      "words": [
-        "1"
-      ]
-    },
-    {
-      "id": "r13",
-      "text": "‘",
-      "x": 0.4767,
-      "y": 0.4901,
-      "w": 0.0057,
-      "h": 0.0096,
-      "words": [
-        "‘"
-      ]
-    },
-    {
-      "id": "r14",
-      "text": "This is a plant.",
-      "x": 0.151,
-      "y": 0.4837,
-      "w": 0.2131,
-      "h": 0.024,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "plant."
-      ]
-    },
-    {
-      "id": "r15",
-      "text": "This is its flower.",
-      "x": 0.1461,
-      "y": 0.5147,
-      "w": 0.2367,
-      "h": 0.0187,
-      "words": [
-        "This",
-        "is",
-        "its",
-        "flower."
-      ]
-    },
-    {
-      "id": "r16",
-      "text": "These are its 1",
-      "x": 0.2645,
-      "y": 0.5536,
-      "w": 0.218,
-      "h": 0.0187,
-      "words": [
-        "These",
-        "are",
-        "its",
-        "1"
-      ]
-    },
-    {
-      "id": "r17",
-      "text": "These are roots of other",
+      "order": 9,
+      "text": "These are roots of other plants.",
       "x": 0.5233,
       "y": 0.5435,
       "w": 0.3535,
-      "h": 0.0197,
+      "h": 0.0485,
       "words": [
         "These",
         "are",
         "roots",
         "of",
-        "other"
-      ]
-    },
-    {
-      "id": "r18",
-      "text": "leaves",
-      "x": 0.2678,
-      "y": 0.5781,
-      "w": 0.0914,
-      "h": 0.0187,
-      "words": [
-        "leaves"
-      ]
-    },
-    {
-      "id": "r19",
-      "text": "plants.",
-      "x": 0.5249,
-      "y": 0.568,
-      "w": 0.0971,
-      "h": 0.024,
-      "words": [
+        "other",
         "plants."
-      ]
+      ],
+      "conf": 96.4287,
+      "source": "psm-11"
     },
     {
-      "id": "r20",
-      "text": "These are its",
-      "x": 0.2057,
+      "id": "r11",
+      "order": 10,
+      "text": "These are its fruit This is a branch This is its stem.",
+      "x": 0.1494,
       "y": 0.6256,
-      "w": 0.1845,
-      "h": 0.0197,
+      "w": 0.2408,
+      "h": 0.1979,
       "words": [
         "These",
         "are",
-        "its"
-      ]
-    },
-    {
-      "id": "r21",
-      "text": "fruit",
-      "x": 0.2049,
-      "y": 0.6507,
-      "w": 0.062,
-      "h": 0.0187,
-      "words": [
-        "fruit"
-      ]
-    },
-    {
-      "id": "r22",
-      "text": "This is a",
-      "x": 0.2588,
-      "y": 0.6955,
-      "w": 0.1151,
-      "h": 0.0187,
-      "words": [
+        "its",
+        "fruit",
         "This",
         "is",
-        "a"
-      ]
-    },
-    {
-      "id": "r23",
-      "text": "branch",
-      "x": 0.2612,
-      "y": 0.7205,
-      "w": 0.1029,
-      "h": 0.0192,
-      "words": [
-        "branch"
-      ]
-    },
-    {
-      "id": "r24",
-      "text": "This is its",
-      "x": 0.1494,
-      "y": 0.7792,
-      "w": 0.1306,
-      "h": 0.0187,
-      "words": [
+        "a",
+        "branch",
         "This",
         "is",
-        "its"
-      ]
-    },
-    {
-      "id": "r25",
-      "text": "stem.",
-      "x": 0.151,
-      "y": 0.8075,
-      "w": 0.0759,
-      "h": 0.016,
-      "words": [
+        "its",
         "stem."
-      ]
+      ],
+      "conf": 96.6953,
+      "source": "psm-11"
     },
     {
-      "id": "r26",
-      "text": "These are",
+      "id": "r12",
+      "order": 11,
+      "text": "These are roots.",
       "x": 0.2849,
       "y": 0.8128,
       "w": 0.1445,
-      "h": 0.0197,
+      "h": 0.0437,
       "words": [
         "These",
-        "are"
-      ]
-    },
-    {
-      "id": "r27",
-      "text": "roots.",
-      "x": 0.2873,
-      "y": 0.8416,
-      "w": 0.08,
-      "h": 0.0149,
-      "words": [
+        "are",
         "roots."
-      ]
-    },
-    {
-      "id": "r28",
-      "text": "ie",
-      "x": 0.4767,
-      "y": 0.6027,
-      "w": 0.4196,
-      "h": 0.2912,
-      "words": [
-        "ie"
-      ]
-    },
-    {
-      "id": "r29",
-      "text": "92",
-      "x": 0.0841,
-      "y": 0.9168,
-      "w": 0.0269,
-      "h": 0.0128,
-      "words": [
-        "92"
-      ]
-    },
-    {
-      "id": "r30",
-      "text": "t",
-      "x": 0.4751,
-      "y": 0.0805,
-      "w": 0.0057,
-      "h": 0.0096,
-      "words": [
-        "t"
-      ]
-    },
-    {
-      "id": "r31",
-      "text": "Mary has a potato in | We get potatoes from",
-      "x": 0.1208,
-      "y": 0.0949,
-      "w": 0.7494,
-      "h": 0.0315,
-      "words": [
-        "Mary",
-        "has",
-        "a",
-        "potato",
-        "in",
-        "|",
-        "We",
-        "get",
-        "potatoes",
-        "from"
-      ]
-    },
-    {
-      "id": "r32",
-      "text": "her hand. the roots of a plant.",
-      "x": 0.1208,
-      "y": 0.1195,
-      "w": 0.7184,
-      "h": 0.0261,
-      "words": [
-        "her",
-        "hand.",
-        "the",
-        "roots",
-        "of",
-        "a",
-        "plant."
-      ]
-    },
-    {
-      "id": "r33",
-      "text": "'",
-      "x": 0.4743,
-      "y": 0.1504,
-      "w": 0.0073,
-      "h": 0.0091,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r34",
-      "text": "7",
-      "x": 0.311,
-      "y": 0.2208,
-      "w": 0.0286,
-      "h": 0.0181,
-      "words": [
-        "7"
-      ]
-    },
-    {
-      "id": "r35",
-      "text": "1",
-      "x": 0.4743,
-      "y": 0.2475,
-      "w": 0.0057,
-      "h": 0.0107,
-      "words": [
-        "1"
-      ]
-    },
-    {
-      "id": "r36",
-      "text": "| Here they are in the",
-      "x": 0.4751,
-      "y": 0.288,
-      "w": 0.3682,
-      "h": 0.0251,
-      "words": [
-        "|",
-        "Here",
-        "they",
-        "are",
-        "in",
-        "the"
-      ]
-    },
-    {
-      "id": "r37",
-      "text": "She is taking its skin off earth.",
-      "x": 0.1176,
-      "y": 0.3136,
-      "w": 0.5192,
-      "h": 0.0352,
-      "words": [
-        "She",
-        "is",
-        "taking",
-        "its",
-        "skin",
-        "off",
-        "earth."
-      ]
-    },
-    {
-      "id": "r38",
-      "text": "with a knife. '",
-      "x": 0.1208,
-      "y": 0.3504,
-      "w": 0.3592,
-      "h": 0.0192,
-      "words": [
-        "with",
-        "a",
-        "knife.",
-        "'"
-      ]
-    },
-    {
-      "id": "r39",
-      "text": "| We get them up with a",
-      "x": 0.4751,
-      "y": 0.3691,
-      "w": 0.4041,
-      "h": 0.0272,
-      "words": [
-        "|",
-        "We",
-        "get",
-        "them",
-        "up",
-        "with",
-        "a"
-      ]
-    },
-    {
-      "id": "r40",
-      "text": "1 fork.",
-      "x": 0.4759,
-      "y": 0.3936,
-      "w": 0.1314,
-      "h": 0.0192,
-      "words": [
-        "1",
-        "fork."
-      ]
-    },
-    {
-      "id": "r41",
-      "text": "This is a plant.",
-      "x": 0.151,
-      "y": 0.4837,
-      "w": 0.2131,
-      "h": 0.024,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "plant."
-      ]
-    },
-    {
-      "id": "r42",
-      "text": "This is its flower.",
-      "x": 0.1461,
-      "y": 0.5147,
-      "w": 0.2367,
-      "h": 0.0187,
-      "words": [
-        "This",
-        "is",
-        "its",
-        "flower."
-      ]
-    },
-    {
-      "id": "r43",
-      "text": "These are its | These are roots of other",
-      "x": 0.2645,
-      "y": 0.5435,
-      "w": 0.6122,
-      "h": 0.0288,
-      "words": [
-        "These",
-        "are",
-        "its",
-        "|",
-        "These",
-        "are",
-        "roots",
-        "of",
-        "other"
-      ]
-    },
-    {
-      "id": "r44",
-      "text": "leaves. ' plants.",
-      "x": 0.2678,
-      "y": 0.568,
-      "w": 0.3543,
-      "h": 0.0352,
-      "words": [
-        "leaves.",
-        "'",
-        "plants."
-      ]
-    },
-    {
-      "id": "r45",
-      "text": "These are its",
-      "x": 0.2057,
-      "y": 0.6256,
-      "w": 0.1845,
-      "h": 0.0197,
-      "words": [
-        "These",
-        "are",
-        "its"
-      ]
-    },
-    {
-      "id": "r46",
-      "text": "fruit.",
-      "x": 0.2016,
-      "y": 0.648,
-      "w": 0.0743,
-      "h": 0.0288,
-      "words": [
-        "fruit."
-      ]
-    },
-    {
-      "id": "r47",
-      "text": "This is a",
-      "x": 0.2588,
-      "y": 0.6955,
-      "w": 0.1151,
-      "h": 0.0187,
-      "words": [
-        "This",
-        "is",
-        "a"
-      ]
-    },
-    {
-      "id": "r48",
-      "text": "branch,",
-      "x": 0.2612,
-      "y": 0.7179,
-      "w": 0.1127,
-      "h": 0.0288,
-      "words": [
-        "branch,"
-      ]
-    },
-    {
-      "id": "r49",
-      "text": "'",
-      "x": 0.4767,
-      "y": 0.7451,
-      "w": 0.0065,
-      "h": 0.0101,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r50",
-      "text": "‘",
-      "x": 0.4776,
-      "y": 0.7595,
-      "w": 0.0049,
-      "h": 0.0096,
-      "words": [
-        "‘"
-      ]
-    },
-    {
-      "id": "r51",
-      "text": "This is its",
-      "x": 0.1494,
-      "y": 0.7792,
-      "w": 0.1306,
-      "h": 0.0187,
-      "words": [
-        "This",
-        "is",
-        "its"
-      ]
-    },
-    {
-      "id": "r52",
-      "text": "stem. These are its '",
-      "x": 0.151,
-      "y": 0.8075,
-      "w": 0.3322,
-      "h": 0.032,
-      "words": [
-        "stem.",
-        "These",
-        "are",
-        "its",
-        "'"
-      ]
-    },
-    {
-      "id": "r53",
-      "text": "roots.",
-      "x": 0.2873,
-      "y": 0.8395,
-      "w": 0.08,
-      "h": 0.0245,
-      "words": [
-        "roots."
-      ]
-    },
-    {
-      "id": "r54",
-      "text": "92",
-      "x": 0.0841,
-      "y": 0.9168,
-      "w": 0.0269,
-      "h": 0.0128,
-      "words": [
-        "92"
-      ]
+      ],
+      "conf": 96.6962,
+      "source": "psm-11"
     }
   ]
 }

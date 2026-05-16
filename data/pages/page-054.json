@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2054.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 56,
-    "wordCount": 251,
+    "regionCount": 18,
+    "wordCount": 115,
     "imageWidth": 1271,
     "imageHeight": 1867
   },
@@ -20,18 +20,10 @@
       "regionIds": [
         "r1",
         "r5",
-        "r7",
-        "r11",
-        "r13",
-        "r15",
-        "r17",
-        "r18",
-        "r33",
-        "r37",
-        "r38",
-        "r39",
-        "r40",
-        "r42"
+        "r6",
+        "r8",
+        "r10",
+        "r11"
       ]
     },
     {
@@ -45,18 +37,8 @@
         "r2",
         "r3",
         "r4",
-        "r6",
-        "r8",
-        "r9",
-        "r10",
-        "r12",
-        "r14",
-        "r16",
-        "r32",
-        "r34",
-        "r35",
-        "r36",
-        "r41"
+        "r7",
+        "r9"
       ]
     },
     {
@@ -67,22 +49,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r20",
-        "r21",
-        "r23",
-        "r24",
-        "r26",
-        "r29",
-        "r31",
-        "r44",
-        "r45",
-        "r46",
-        "r47",
-        "r48",
-        "r49",
-        "r50",
-        "r51",
-        "r56"
+        "r13",
+        "r15"
       ]
     },
     {
@@ -93,23 +61,18 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r19",
-        "r22",
-        "r25",
-        "r27",
-        "r28",
-        "r30",
-        "r43",
-        "r52",
-        "r53",
-        "r54",
-        "r55"
+        "r12",
+        "r14",
+        "r16",
+        "r17",
+        "r18"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
+      "order": 0,
       "text": "This is a foot.",
       "x": 0.2156,
       "y": 0.1044,
@@ -120,10 +83,13 @@
         "is",
         "a",
         "foot."
-      ]
+      ],
+      "conf": 93.8757,
+      "source": "psm-11"
     },
     {
       "id": "r2",
+      "order": 1,
       "text": "This is o leg",
       "x": 0.6365,
       "y": 0.1028,
@@ -134,25 +100,30 @@
         "is",
         "o",
         "leg"
-      ]
+      ],
+      "conf": 92.6149,
+      "source": "psm-11"
     },
     {
       "id": "r3",
-      "text": "\\ This is a knee.",
-      "x": 0.6019,
-      "y": 0.1425,
-      "w": 0.2612,
-      "h": 0.0578,
+      "order": 2,
+      "text": "This is a knee.",
+      "x": 0.6664,
+      "y": 0.18,
+      "w": 0.1967,
+      "h": 0.0204,
       "words": [
-        "\\",
         "This",
         "is",
         "a",
         "knee."
-      ]
+      ],
+      "conf": 90.3217,
+      "source": "psm-11"
     },
     {
       "id": "r4",
+      "order": 3,
       "text": "It is part of a leg.",
       "x": 0.6688,
       "y": 0.2067,
@@ -165,77 +136,29 @@
         "of",
         "a",
         "leg."
-      ]
+      ],
+      "conf": 91.3446,
+      "source": "psm-11"
     },
     {
       "id": "r5",
-      "text": "These are",
+      "order": 4,
+      "text": "These are toes.",
       "x": 0.2392,
       "y": 0.2833,
       "w": 0.144,
-      "h": 0.0187,
+      "h": 0.0434,
       "words": [
         "These",
-        "are"
-      ]
+        "are",
+        "toes."
+      ],
+      "conf": 87.0997,
+      "source": "psm-11"
     },
     {
       "id": "r6",
-      "text": "[",
-      "x": 0.6121,
-      "y": 0.2132,
-      "w": 0.0433,
-      "h": 0.0953,
-      "words": [
-        "["
-      ]
-    },
-    {
-      "id": "r7",
-      "text": "toes.",
-      "x": 0.2392,
-      "y": 0.3112,
-      "w": 0.0653,
-      "h": 0.0155,
-      "words": [
-        "toes."
-      ]
-    },
-    {
-      "id": "r8",
-      "text": "(",
-      "x": 0.572,
-      "y": 0.2121,
-      "w": 0.0677,
-      "h": 0.121,
-      "words": [
-        "("
-      ]
-    },
-    {
-      "id": "r9",
-      "text": "T",
-      "x": 0.5877,
-      "y": 0.323,
-      "w": 0.0165,
-      "h": 0.0171,
-      "words": [
-        "T"
-      ]
-    },
-    {
-      "id": "r10",
-      "text": "h",
-      "x": 0.6042,
-      "y": 0.3208,
-      "w": 0.0173,
-      "h": 0.0187,
-      "words": [
-        "h"
-      ]
-    },
-    {
-      "id": "r11",
+      "order": 5,
       "text": "They are parts of a foot.",
       "x": 0.1511,
       "y": 0.3337,
@@ -248,15 +171,18 @@
         "of",
         "a",
         "foot."
-      ]
+      ],
+      "conf": 94.8313,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "text": "is part of a leg is its",
-      "x": 0.6239,
+      "id": "r7",
+      "order": 6,
+      "text": "is part of a leg is its knee.",
+      "x": 0.5893,
       "y": 0.3224,
-      "w": 0.2864,
-      "h": 0.023,
+      "w": 0.321,
+      "h": 0.0434,
       "words": [
         "is",
         "part",
@@ -264,50 +190,36 @@
         "a",
         "leg",
         "is",
-        "its"
-      ]
+        "its",
+        "knee."
+      ],
+      "conf": 96.7579,
+      "source": "psm-11"
     },
     {
-      "id": "r13",
-      "text": "These parts of a foot are",
+      "id": "r8",
+      "order": 7,
+      "text": "These parts of a foot are its toes.",
       "x": 0.1503,
       "y": 0.3589,
       "w": 0.3517,
-      "h": 0.0236,
+      "h": 0.0439,
       "words": [
         "These",
         "parts",
         "of",
         "a",
         "foot",
-        "are"
-      ]
-    },
-    {
-      "id": "r14",
-      "text": "knee.",
-      "x": 0.5893,
-      "y": 0.3471,
-      "w": 0.074,
-      "h": 0.0187,
-      "words": [
-        "knee."
-      ]
-    },
-    {
-      "id": "r15",
-      "text": "its toes.",
-      "x": 0.1503,
-      "y": 0.3862,
-      "w": 0.1031,
-      "h": 0.0166,
-      "words": [
+        "are",
         "its",
         "toes."
-      ]
+      ],
+      "conf": 96.2829,
+      "source": "psm-11"
     },
     {
-      "id": "r16",
+      "id": "r9",
+      "order": 8,
       "text": "Our legs are parts of us.",
       "x": 0.5484,
       "y": 0.4103,
@@ -320,10 +232,13 @@
         "parts",
         "of",
         "us."
-      ]
+      ],
+      "conf": 96.3991,
+      "source": "psm-11"
     },
     {
-      "id": "r17",
+      "id": "r10",
+      "order": 9,
       "text": "This is a toe.",
       "x": 0.2109,
       "y": 0.4349,
@@ -334,10 +249,13 @@
         "is",
         "a",
         "toe."
-      ]
+      ],
+      "conf": 95.4417,
+      "source": "psm-11"
     },
     {
-      "id": "r18",
+      "id": "r11",
+      "order": 10,
       "text": "see en ee",
       "x": 0.129,
       "y": 0.4831,
@@ -347,10 +265,13 @@
         "see",
         "en",
         "ee"
-      ]
+      ],
+      "conf": 47.9377,
+      "source": "psm-11"
     },
     {
-      "id": "r19",
+      "id": "r12",
+      "order": 11,
       "text": "This is a man's head.",
       "x": 0.5909,
       "y": 0.5404,
@@ -362,15 +283,18 @@
         "a",
         "man's",
         "head."
-      ]
+      ],
+      "conf": 92.8583,
+      "source": "psm-11"
     },
     {
-      "id": "r20",
-      "text": "It is a part of a man. It is",
-      "x": 0.1463,
+      "id": "r13",
+      "order": 12,
+      "text": "It is a part of a man. It is between his head and his body.",
+      "x": 0.1448,
       "y": 0.6342,
-      "w": 0.3509,
-      "h": 0.023,
+      "w": 0.3524,
+      "h": 0.075,
       "words": [
         "It",
         "is",
@@ -380,25 +304,20 @@
         "a",
         "man.",
         "It",
-        "is"
-      ]
-    },
-    {
-      "id": "r21",
-      "text": "between his head and",
-      "x": 0.1448,
-      "y": 0.6588,
-      "w": 0.3218,
-      "h": 0.0198,
-      "words": [
+        "is",
         "between",
         "his",
         "head",
-        "and"
-      ]
+        "and",
+        "his",
+        "body."
+      ],
+      "conf": 93.852,
+      "source": "psm-11"
     },
     {
-      "id": "r22",
+      "id": "r14",
+      "order": 13,
       "text": "This is his chin.",
       "x": 0.5822,
       "y": 0.6722,
@@ -409,36 +328,39 @@
         "is",
         "his",
         "chin."
-      ]
+      ],
+      "conf": 95.9189,
+      "source": "psm-11"
     },
     {
-      "id": "r23",
-      "text": "his body.",
-      "x": 0.1456,
-      "y": 0.6856,
-      "w": 0.1267,
-      "h": 0.0236,
-      "words": [
-        "his",
-        "body."
-      ]
-    },
-    {
-      "id": "r24",
-      "text": "The part which is",
+      "id": "r15",
+      "order": 14,
+      "text": "The part which is between his head and his body is his neck.",
       "x": 0.144,
       "y": 0.7113,
-      "w": 0.2415,
-      "h": 0.0236,
+      "w": 0.3218,
+      "h": 0.0745,
       "words": [
         "The",
         "part",
         "which",
-        "is"
-      ]
+        "is",
+        "between",
+        "his",
+        "head",
+        "and",
+        "his",
+        "body",
+        "is",
+        "his",
+        "neck."
+      ],
+      "conf": 95.6157,
+      "source": "psm-11"
     },
     {
-      "id": "r25",
+      "id": "r16",
+      "order": 15,
       "text": "It is under his mouth.",
       "x": 0.5838,
       "y": 0.6979,
@@ -450,24 +372,13 @@
         "under",
         "his",
         "mouth."
-      ]
+      ],
+      "conf": 93.1372,
+      "source": "psm-11"
     },
     {
-      "id": "r26",
-      "text": "between his head and",
-      "x": 0.1456,
-      "y": 0.7365,
-      "w": 0.3202,
-      "h": 0.0193,
-      "words": [
-        "between",
-        "his",
-        "head",
-        "and"
-      ]
-    },
-    {
-      "id": "r27",
+      "id": "r17",
+      "order": 16,
       "text": "It is a part of his face.",
       "x": 0.5822,
       "y": 0.7242,
@@ -481,443 +392,32 @@
         "of",
         "his",
         "face."
-      ]
+      ],
+      "conf": 92.28,
+      "source": "psm-11"
     },
     {
-      "id": "r28",
-      "text": "The part which is under",
-      "x": 0.5822,
-      "y": 0.7493,
-      "w": 0.3265,
-      "h": 0.023,
-      "words": [
-        "The",
-        "part",
-        "which",
-        "is",
-        "under"
-      ]
-    },
-    {
-      "id": "r29",
-      "text": "his body is his neck.",
-      "x": 0.1448,
-      "y": 0.7622,
-      "w": 0.2769,
-      "h": 0.0236,
-      "words": [
-        "his",
-        "body",
-        "is",
-        "his",
-        "neck."
-      ]
-    },
-    {
-      "id": "r30",
-      "text": "his mouth is his chin.",
+      "id": "r18",
+      "order": 17,
+      "text": "The part which is under his mouth is his chin.",
       "x": 0.5814,
-      "y": 0.7745,
-      "w": 0.2872,
-      "h": 0.0187,
-      "words": [
-        "his",
-        "mouth",
-        "is",
-        "his",
-        "chin."
-      ]
-    },
-    {
-      "id": "r31",
-      "text": "50",
-      "x": 0.1298,
-      "y": 0.9202,
-      "w": 0.026,
-      "h": 0.0129,
-      "words": [
-        "50"
-      ]
-    },
-    {
-      "id": "r32",
-      "text": "t",
-      "x": 0.5177,
-      "y": 0.083,
-      "w": 0.0047,
-      "h": 0.0086,
-      "words": [
-        "t"
-      ]
-    },
-    {
-      "id": "r33",
-      "text": "This is a foot. This is o leg",
-      "x": 0.2156,
-      "y": 0.1028,
-      "w": 0.594,
-      "h": 0.0236,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "foot.",
-        "This",
-        "is",
-        "o",
-        "leg"
-      ]
-    },
-    {
-      "id": "r34",
-      "text": "i \\",
-      "x": 0.5161,
-      "y": 0.1393,
-      "w": 0.1275,
-      "h": 0.0595,
-      "words": [
-        "i",
-        "\\"
-      ]
-    },
-    {
-      "id": "r35",
-      "text": "This is a knee.",
-      "x": 0.6664,
-      "y": 0.18,
-      "w": 0.1967,
-      "h": 0.0204,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "knee."
-      ]
-    },
-    {
-      "id": "r36",
-      "text": "' It is part of a leg.",
-      "x": 0.5169,
-      "y": 0.2067,
-      "w": 0.3918,
-      "h": 0.0273,
-      "words": [
-        "'",
-        "It",
-        "is",
-        "part",
-        "of",
-        "a",
-        "leg."
-      ]
-    },
-    {
-      "id": "r37",
-      "text": "These are ‘",
-      "x": 0.2392,
-      "y": 0.2833,
-      "w": 0.2825,
-      "h": 0.022,
-      "words": [
-        "These",
-        "are",
-        "‘"
-      ]
-    },
-    {
-      "id": "r38",
-      "text": "They ore ports of a foot. | This part of a leg is its",
-      "x": 0.1511,
-      "y": 0.3112,
-      "w": 0.7592,
-      "h": 0.0461,
-      "words": [
-        "They",
-        "ore",
-        "ports",
-        "of",
-        "a",
-        "foot.",
-        "|",
-        "This",
-        "part",
-        "of",
-        "a",
-        "leg",
-        "is",
-        "its"
-      ]
-    },
-    {
-      "id": "r39",
-      "text": "These parts of a foot are : knee.",
-      "x": 0.1503,
-      "y": 0.3471,
-      "w": 0.513,
-      "h": 0.0354,
-      "words": [
-        "These",
-        "parts",
-        "of",
-        "a",
-        "foot",
-        "are",
-        ":",
-        "knee."
-      ]
-    },
-    {
-      "id": "r40",
-      "text": "its toes.",
-      "x": 0.1503,
-      "y": 0.3862,
-      "w": 0.1031,
-      "h": 0.0166,
-      "words": [
-        "its",
-        "toes."
-      ]
-    },
-    {
-      "id": "r41",
-      "text": "' Our legs are parts of us.",
-      "x": 0.5185,
-      "y": 0.4103,
-      "w": 0.38,
-      "h": 0.0246,
-      "words": [
-        "'",
-        "Our",
-        "legs",
-        "are",
-        "parts",
-        "of",
-        "us."
-      ]
-    },
-    {
-      "id": "r42",
-      "text": "This isatoe.",
-      "x": 0.2109,
-      "y": 0.4349,
-      "w": 0.1841,
-      "h": 0.0193,
-      "words": [
-        "This",
-        "isatoe."
-      ]
-    },
-    {
-      "id": "r43",
-      "text": "This is a man’s head,",
-      "x": 0.5909,
-      "y": 0.5404,
-      "w": 0.2895,
-      "h": 0.0182,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "man’s",
-        "head,"
-      ]
-    },
-    {
-      "id": "r44",
-      "text": "~<—This is a neck. '",
-      "x": 0.192,
-      "y": 0.5678,
-      "w": 0.3312,
-      "h": 0.023,
-      "words": [
-        "~<—This",
-        "is",
-        "a",
-        "neck.",
-        "'"
-      ]
-    },
-    {
-      "id": "r45",
-      "text": "It is a part of a man. Itis ;",
-      "x": 0.1463,
-      "y": 0.632,
-      "w": 0.3769,
-      "h": 0.0252,
-      "words": [
-        "It",
-        "is",
-        "a",
-        "part",
-        "of",
-        "a",
-        "man.",
-        "Itis",
-        ";"
-      ]
-    },
-    {
-      "id": "r46",
-      "text": "between his head This is his chi",
-      "x": 0.1448,
-      "y": 0.6588,
-      "w": 0.6129,
-      "h": 0.0321,
-      "words": [
-        "between",
-        "his",
-        "head",
-        "This",
-        "is",
-        "his",
-        "chi"
-      ]
-    },
-    {
-      "id": "r47",
-      "text": "his body. iis is his chin.",
-      "x": 0.1456,
-      "y": 0.6792,
-      "w": 0.6389,
-      "h": 0.03,
-      "words": [
-        "his",
-        "body.",
-        "iis",
-        "is",
-        "his",
-        "chin."
-      ]
-    },
-    {
-      "id": "r48",
-      "text": "The part which is 1 Wis under his mouth.",
-      "x": 0.144,
-      "y": 0.6979,
-      "w": 0.7262,
-      "h": 0.0316,
+      "y": 0.7493,
+      "w": 0.3273,
+      "h": 0.0439,
       "words": [
         "The",
         "part",
         "which",
         "is",
-        "1",
-        "Wis",
         "under",
         "his",
-        "mouth."
-      ]
-    },
-    {
-      "id": "r49",
-      "text": "between Wt is a part of his face.",
-      "x": 0.1456,
-      "y": 0.7183,
-      "w": 0.7427,
-      "h": 0.037,
-      "words": [
-        "between",
-        "Wt",
-        "is",
-        "a",
-        "part",
-        "of",
-        "his",
-        "face."
-      ]
-    },
-    {
-      "id": "r50",
-      "text": "his body is his neck ; The part which is under",
-      "x": 0.1448,
-      "y": 0.7493,
-      "w": 0.764,
-      "h": 0.0316,
-      "words": [
-        "his",
-        "body",
-        "is",
-        "his",
-        "neck",
-        ";",
-        "The",
-        "part",
-        "which",
-        "is",
-        "under"
-      ]
-    },
-    {
-      "id": "r51",
-      "text": "Y | his mouth is his chin.",
-      "x": 0.2463,
-      "y": 0.7697,
-      "w": 0.6223,
-      "h": 0.0295,
-      "words": [
-        "Y",
-        "|",
-        "his",
         "mouth",
         "is",
         "his",
         "chin."
-      ]
-    },
-    {
-      "id": "r52",
-      "text": "'",
-      "x": 0.5185,
-      "y": 0.8318,
-      "w": 0.0055,
-      "h": 0.0096,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r53",
-      "text": "t",
-      "x": 0.5185,
-      "y": 0.8463,
-      "w": 0.0047,
-      "h": 0.0096,
-      "words": [
-        "t"
-      ]
-    },
-    {
-      "id": "r54",
-      "text": "'",
-      "x": 0.5177,
-      "y": 0.8602,
-      "w": 0.0055,
-      "h": 0.0107,
-      "words": [
-        "'"
-      ]
-    },
-    {
-      "id": "r55",
-      "text": ":",
-      "x": 0.5177,
-      "y": 0.8881,
-      "w": 0.0063,
-      "h": 0.0214,
-      "words": [
-        ":"
-      ]
-    },
-    {
-      "id": "r56",
-      "text": "50",
-      "x": 0.1298,
-      "y": 0.9202,
-      "w": 0.026,
-      "h": 0.0129,
-      "words": [
-        "50"
-      ]
+      ],
+      "conf": 96.7125,
+      "source": "psm-11"
     }
   ]
 }

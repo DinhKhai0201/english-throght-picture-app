@@ -2,87 +2,53 @@
   "page": 32,
   "image": "/books/page 32.png",
   "imageApiPath": "/api/books/page%2032.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 29,
-    "wordCount": 88,
+    "regionCount": 9,
+    "wordCount": 39,
     "imageWidth": 1292,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
         "r2",
-        "r4",
-        "r6",
-        "r8",
-        "r10",
-        "r11",
-        "r20",
-        "r21",
-        "r22",
-        "r23",
-        "r24",
-        "r25"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
         "r3",
+        "r4",
         "r5",
+        "r6",
         "r7",
+        "r8",
         "r9"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r12",
-        "r15",
-        "r17",
-        "r19",
-        "r26",
-        "r27",
-        "r28",
-        "r29"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r13",
-        "r14",
-        "r16",
-        "r18"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
+      "order": 0,
+      "text": "This is",
+      "x": 0.1664,
+      "y": 0.1339,
+      "w": 0.082,
+      "h": 0.0182,
+      "words": [
+        "This",
+        "is"
+      ],
+      "conf": 96.6657,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
       "text": "This is a house.",
       "x": 0.3916,
       "y": 0.1157,
@@ -93,103 +59,50 @@
         "is",
         "a",
         "house."
-      ]
-    },
-    {
-      "id": "r2",
-      "text": "This is",
-      "x": 0.1664,
-      "y": 0.1339,
-      "w": 0.082,
-      "h": 0.0182,
-      "words": [
-        "This",
-        "is"
-      ]
+      ],
+      "conf": 93.5184,
+      "source": "psm-11"
     },
     {
       "id": "r3",
-      "text": "These are",
-      "x": 0.7392,
+      "order": 2,
+      "text": "These are windows of the house.",
+      "x": 0.7384,
       "y": 0.1339,
-      "w": 0.1347,
-      "h": 0.0182,
+      "w": 0.1355,
+      "h": 0.0916,
       "words": [
         "These",
-        "are"
-      ]
+        "are",
+        "windows",
+        "of",
+        "the",
+        "house."
+      ],
+      "conf": 95.7954,
+      "source": "psm-11"
     },
     {
       "id": "r4",
-      "text": "a window",
-      "x": 0.1664,
+      "order": 3,
+      "text": "a window of the house.",
+      "x": 0.1641,
       "y": 0.1585,
-      "w": 0.1339,
-      "h": 0.0182,
+      "w": 0.1362,
+      "h": 0.0669,
       "words": [
         "a",
-        "window"
-      ]
+        "window",
+        "of",
+        "the",
+        "house."
+      ],
+      "conf": 95.1628,
+      "source": "psm-11"
     },
     {
       "id": "r5",
-      "text": "windows",
-      "x": 0.7399,
-      "y": 0.158,
-      "w": 0.12,
-      "h": 0.0187,
-      "words": [
-        "windows"
-      ]
-    },
-    {
-      "id": "r6",
-      "text": "of the",
-      "x": 0.1649,
-      "y": 0.1826,
-      "w": 0.0789,
-      "h": 0.0177,
-      "words": [
-        "of",
-        "the"
-      ]
-    },
-    {
-      "id": "r7",
-      "text": "of the",
-      "x": 0.7384,
-      "y": 0.1821,
-      "w": 0.0789,
-      "h": 0.0187,
-      "words": [
-        "of",
-        "the"
-      ]
-    },
-    {
-      "id": "r8",
-      "text": "house.",
-      "x": 0.1641,
-      "y": 0.2067,
-      "w": 0.0851,
-      "h": 0.0187,
-      "words": [
-        "house."
-      ]
-    },
-    {
-      "id": "r9",
-      "text": "house.",
-      "x": 0.7392,
-      "y": 0.2073,
-      "w": 0.0867,
-      "h": 0.0182,
-      "words": [
-        "house."
-      ]
-    },
-    {
-      "id": "r10",
+      "order": 4,
       "text": "This is the door of the house.",
       "x": 0.2724,
       "y": 0.3899,
@@ -203,21 +116,13 @@
         "of",
         "the",
         "house."
-      ]
+      ],
+      "conf": 96.7551,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
-      "text": "ee",
-      "x": 0.3591,
-      "y": 0.4746,
-      "w": 0.031,
-      "h": 0.0048,
-      "words": [
-        "ee"
-      ]
-    },
-    {
-      "id": "r12",
+      "id": "r6",
+      "order": 5,
       "text": "These are houses.",
       "x": 0.3576,
       "y": 0.5094,
@@ -227,43 +132,13 @@
         "These",
         "are",
         "houses."
-      ]
+      ],
+      "conf": 95.9609,
+      "source": "psm-11"
     },
     {
-      "id": "r13",
-      "text": "one",
-      "x": 0.75,
-      "y": 0.6117,
-      "w": 0.1262,
-      "h": 0.0536,
-      "words": [
-        "one"
-      ]
-    },
-    {
-      "id": "r14",
-      "text": ">",
-      "x": 0.8119,
-      "y": 0.6583,
-      "w": 0.0604,
-      "h": 0.0193,
-      "words": [
-        ">"
-      ]
-    },
-    {
-      "id": "r15",
-      "text": "iE",
-      "x": 0.1347,
-      "y": 0.632,
-      "w": 0.2159,
-      "h": 0.113,
-      "words": [
-        "iE"
-      ]
-    },
-    {
-      "id": "r16",
+      "id": "r7",
+      "order": 6,
       "text": "This is a street.",
       "x": 0.5356,
       "y": 0.7359,
@@ -274,10 +149,13 @@
         "is",
         "a",
         "street."
-      ]
+      ],
+      "conf": 95.8339,
+      "source": "psm-11"
     },
     {
-      "id": "r17",
+      "id": "r8",
+      "order": 7,
       "text": "This man is in",
       "x": 0.37,
       "y": 0.7863,
@@ -288,21 +166,13 @@
         "man",
         "is",
         "in"
-      ]
+      ],
+      "conf": 91.7923,
+      "source": "psm-11"
     },
     {
-      "id": "r18",
-      "text": "h",
-      "x": 0.5789,
-      "y": 0.7884,
-      "w": 0.0147,
-      "h": 0.0177,
-      "words": [
-        "h"
-      ]
-    },
-    {
-      "id": "r19",
+      "id": "r9",
+      "order": 8,
       "text": "That is his house.",
       "x": 0.4396,
       "y": 0.8265,
@@ -313,151 +183,9 @@
         "is",
         "his",
         "house."
-      ]
-    },
-    {
-      "id": "r20",
-      "text": "This is a house.",
-      "x": 0.3916,
-      "y": 0.1157,
-      "w": 0.2098,
-      "h": 0.0198,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "house."
-      ]
-    },
-    {
-      "id": "r21",
-      "text": "This is These are",
-      "x": 0.1664,
-      "y": 0.1339,
-      "w": 0.7074,
-      "h": 0.0182,
-      "words": [
-        "This",
-        "is",
-        "These",
-        "are"
-      ]
-    },
-    {
-      "id": "r22",
-      "text": "a window windows",
-      "x": 0.1664,
-      "y": 0.158,
-      "w": 0.6935,
-      "h": 0.0187,
-      "words": [
-        "a",
-        "window",
-        "windows"
-      ]
-    },
-    {
-      "id": "r23",
-      "text": "of the of the",
-      "x": 0.1649,
-      "y": 0.1821,
-      "w": 0.6525,
-      "h": 0.0187,
-      "words": [
-        "of",
-        "the",
-        "of",
-        "the"
-      ]
-    },
-    {
-      "id": "r24",
-      "text": "house. A house.",
-      "x": 0.1641,
-      "y": 0.1993,
-      "w": 0.6618,
-      "h": 0.0407,
-      "words": [
-        "house.",
-        "A",
-        "house."
-      ]
-    },
-    {
-      "id": "r25",
-      "text": "This is the door of the house.",
-      "x": 0.2724,
-      "y": 0.3899,
-      "w": 0.3963,
-      "h": 0.022,
-      "words": [
-        "This",
-        "is",
-        "the",
-        "door",
-        "of",
-        "the",
-        "house."
-      ]
-    },
-    {
-      "id": "r26",
-      "text": "These are houses.",
-      "x": 0.3576,
-      "y": 0.5094,
-      "w": 0.2438,
-      "h": 0.0198,
-      "words": [
-        "These",
-        "are",
-        "houses."
-      ]
-    },
-    {
-      "id": "r27",
-      "text": "> This is a street.",
-      "x": 0.2515,
-      "y": 0.7338,
-      "w": 0.4884,
-      "h": 0.0262,
-      "words": [
-        ">",
-        "This",
-        "is",
-        "a",
-        "street."
-      ]
-    },
-    {
-      "id": "r28",
-      "text": "This man is in the street.",
-      "x": 0.37,
-      "y": 0.7863,
-      "w": 0.3344,
-      "h": 0.0209,
-      "words": [
-        "This",
-        "man",
-        "is",
-        "in",
-        "the",
-        "street."
-      ]
-    },
-    {
-      "id": "r29",
-      "text": "' That is his house.",
-      "x": 0.2941,
-      "y": 0.8265,
-      "w": 0.3785,
-      "h": 0.0204,
-      "words": [
-        "'",
-        "That",
-        "is",
-        "his",
-        "house."
-      ]
+      ],
+      "conf": 96.7162,
+      "source": "psm-11"
     }
   ]
 }

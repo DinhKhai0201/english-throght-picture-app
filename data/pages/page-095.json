@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2095.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 52,
-    "wordCount": 169,
+    "regionCount": 12,
+    "wordCount": 66,
     "imageWidth": 1134,
     "imageHeight": 1821
   },
@@ -20,20 +20,7 @@
       "regionIds": [
         "r1",
         "r4",
-        "r5",
-        "r7",
-        "r8",
-        "r9",
-        "r11",
-        "r13",
-        "r14",
-        "r28",
-        "r31",
-        "r32",
-        "r34",
-        "r36",
-        "r38",
-        "r39"
+        "r6"
       ]
     },
     {
@@ -46,15 +33,7 @@
       "regionIds": [
         "r2",
         "r3",
-        "r6",
-        "r10",
-        "r12",
-        "r29",
-        "r30",
-        "r33",
-        "r35",
-        "r37",
-        "r40"
+        "r5"
       ]
     },
     {
@@ -65,15 +44,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r15",
-        "r18",
-        "r21",
-        "r24",
-        "r41",
-        "r42",
-        "r43",
-        "r48",
-        "r50"
+        "r7",
+        "r9",
+        "r11"
       ]
     },
     {
@@ -84,28 +57,16 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r16",
-        "r17",
-        "r19",
-        "r20",
-        "r22",
-        "r23",
-        "r25",
-        "r26",
-        "r27",
-        "r44",
-        "r45",
-        "r46",
-        "r47",
-        "r49",
-        "r51",
-        "r52"
+        "r8",
+        "r10",
+        "r12"
       ]
     }
   ],
   "regions": [
     {
       "id": "r1",
+      "order": 0,
       "text": "Mary is making soup.",
       "x": 0.1199,
       "y": 0.0747,
@@ -116,10 +77,13 @@
         "is",
         "making",
         "soup."
-      ]
+      ],
+      "conf": 96.3471,
+      "source": "psm-11"
     },
     {
       "id": "r2",
+      "order": 1,
       "text": "These are potatoes,",
       "x": 0.5529,
       "y": 0.0983,
@@ -129,63 +93,36 @@
         "These",
         "are",
         "potatoes,"
-      ]
+      ],
+      "conf": 95.4346,
+      "source": "psm-11"
     },
     {
       "id": "r3",
-      "text": "This is a bottle of milk",
+      "order": 2,
+      "text": "This is a bottle of milk it is cow's milk",
       "x": 0.5494,
       "y": 0.2037,
       "w": 0.343,
-      "h": 0.0203,
+      "h": 0.0489,
       "words": [
         "This",
         "is",
         "a",
         "bottle",
         "of",
-        "milk"
-      ]
-    },
-    {
-      "id": "r4",
-      "text": "<= cP",
-      "x": 0.2848,
-      "y": 0.2252,
-      "w": 0.1711,
-      "h": 0.0214,
-      "words": [
-        "<=",
-        "cP"
-      ]
-    },
-    {
-      "id": "r5",
-      "text": "aN",
-      "x": 0.425,
-      "y": 0.1949,
-      "w": 0.0661,
-      "h": 0.034,
-      "words": [
-        "aN"
-      ]
-    },
-    {
-      "id": "r6",
-      "text": "it is cow's milk",
-      "x": 0.552,
-      "y": 0.2301,
-      "w": 0.2213,
-      "h": 0.0225,
-      "words": [
+        "milk",
         "it",
         "is",
         "cow's",
         "milk"
-      ]
+      ],
+      "conf": 96.117,
+      "source": "psm-11"
     },
     {
-      "id": "r7",
+      "id": "r4",
+      "order": 3,
       "text": "This is a plate of soup.",
       "x": 0.112,
       "y": 0.268,
@@ -198,32 +135,13 @@
         "plate",
         "of",
         "soup."
-      ]
+      ],
+      "conf": 94.7269,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "text": "7",
-      "x": 0.3933,
-      "y": 0.3026,
-      "w": 0.0653,
-      "h": 0.0165,
-      "words": [
-        "7"
-      ]
-    },
-    {
-      "id": "r9",
-      "text": "We",
-      "x": 0.2328,
-      "y": 0.3224,
-      "w": 0.0617,
-      "h": 0.0077,
-      "words": [
-        "We"
-      ]
-    },
-    {
-      "id": "r10",
+      "id": "r5",
+      "order": 4,
       "text": "This is a cow.",
       "x": 0.5838,
       "y": 0.3311,
@@ -234,64 +152,35 @@
         "is",
         "a",
         "cow."
-      ]
+      ],
+      "conf": 95.7599,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
-      "text": "She will make the soup",
+      "id": "r6",
+      "order": 5,
+      "text": "She will make the soup from milk and potatoes.",
       "x": 0.1093,
       "y": 0.402,
-      "w": 0.3677,
-      "h": 0.0247,
+      "w": 0.3916,
+      "h": 0.051,
       "words": [
         "She",
         "will",
         "make",
         "the",
-        "soup"
-      ]
-    },
-    {
-      "id": "r12",
-      "text": "Ta",
-      "x": 0.6349,
-      "y": 0.358,
-      "w": 0.216,
-      "h": 0.0851,
-      "words": [
-        "Ta"
-      ]
-    },
-    {
-      "id": "r13",
-      "text": "from milk and potatoes.",
-      "x": 0.1102,
-      "y": 0.4272,
-      "w": 0.3907,
-      "h": 0.0258,
-      "words": [
+        "soup",
         "from",
         "milk",
         "and",
         "potatoes."
-      ]
+      ],
+      "conf": 96.7136,
+      "source": "psm-11"
     },
     {
-      "id": "r14",
-      "text": "28 O 282 8222228",
-      "x": 0.0802,
-      "y": 0.4805,
-      "w": 0.6005,
-      "h": 0.0181,
-      "words": [
-        "28",
-        "O",
-        "282",
-        "8222228"
-      ]
-    },
-    {
-      "id": "r15",
+      "id": "r7",
+      "order": 6,
       "text": "Cows are animals.",
       "x": 0.1323,
       "y": 0.5173,
@@ -301,21 +190,13 @@
         "Cows",
         "are",
         "animals."
-      ]
+      ],
+      "conf": 95.5601,
+      "source": "psm-11"
     },
     {
-      "id": "r16",
-      "text": "‘",
-      "x": 0.5071,
-      "y": 0.5157,
-      "w": 0.0062,
-      "h": 0.0099,
-      "words": [
-        "‘"
-      ]
-    },
-    {
-      "id": "r17",
+      "id": "r8",
+      "order": 7,
       "text": "We get milk from cows.",
       "x": 0.5485,
       "y": 0.514,
@@ -327,85 +208,52 @@
         "milk",
         "from",
         "cows."
-      ]
+      ],
+      "conf": 96.6044,
+      "source": "psm-11"
     },
     {
-      "id": "r18",
-      "text": "These are some other",
+      "id": "r9",
+      "order": 8,
+      "text": "These are some other animals.",
       "x": 0.1314,
       "y": 0.5431,
       "w": 0.3404,
-      "h": 0.0203,
+      "h": 0.0451,
       "words": [
         "These",
         "are",
         "some",
-        "other"
-      ]
+        "other",
+        "animals."
+      ],
+      "conf": 96.351,
+      "source": "psm-11"
     },
     {
-      "id": "r19",
-      "text": "‘",
-      "x": 0.5071,
-      "y": 0.5459,
-      "w": 0.0062,
-      "h": 0.0099,
-      "words": [
-        "‘"
-      ]
-    },
-    {
-      "id": "r20",
-      "text": "Mary is putting some",
+      "id": "r10",
+      "order": 9,
+      "text": "Mary is putting some milk in a cup.",
       "x": 0.5476,
       "y": 0.5415,
       "w": 0.3298,
-      "h": 0.0236,
+      "h": 0.0488,
       "words": [
         "Mary",
         "is",
         "putting",
-        "some"
-      ]
-    },
-    {
-      "id": "r21",
-      "text": "animals.",
-      "x": 0.1323,
-      "y": 0.5706,
-      "w": 0.1235,
-      "h": 0.0176,
-      "words": [
-        "animals."
-      ]
-    },
-    {
-      "id": "r22",
-      "text": "‘4",
-      "x": 0.5053,
-      "y": 0.575,
-      "w": 0.0071,
-      "h": 0.0099,
-      "words": [
-        "‘4"
-      ]
-    },
-    {
-      "id": "r23",
-      "text": "milk in a cup.",
-      "x": 0.5494,
-      "y": 0.5656,
-      "w": 0.2002,
-      "h": 0.0247,
-      "words": [
+        "some",
         "milk",
         "in",
         "a",
         "cup."
-      ]
+      ],
+      "conf": 96.5927,
+      "source": "psm-11"
     },
     {
-      "id": "r24",
+      "id": "r11",
+      "order": 10,
       "text": "a sheop “GREE",
       "x": 0.1746,
       "y": 0.7177,
@@ -415,383 +263,28 @@
         "a",
         "sheop",
         "“GREE"
-      ]
+      ],
+      "conf": 68.008,
+      "source": "psm-11"
     },
     {
-      "id": "r25",
-      "text": "The milk is going into",
+      "id": "r12",
+      "order": 11,
+      "text": "The milk is going into cup",
       "x": 0.5653,
       "y": 0.8155,
       "w": 0.3351,
-      "h": 0.0242,
+      "h": 0.0505,
       "words": [
         "The",
         "milk",
         "is",
         "going",
-        "into"
-      ]
-    },
-    {
-      "id": "r26",
-      "text": "cup",
-      "x": 0.6243,
-      "y": 0.8479,
-      "w": 0.0573,
-      "h": 0.0181,
-      "words": [
+        "into",
         "cup"
-      ]
-    },
-    {
-      "id": "r27",
-      "text": "a1",
-      "x": 0.9065,
-      "y": 0.9407,
-      "w": 0.0247,
-      "h": 0.0132,
-      "words": [
-        "a1"
-      ]
-    },
-    {
-      "id": "r28",
-      "text": "Mary is making soup. |",
-      "x": 0.1199,
-      "y": 0.0747,
-      "w": 0.3951,
-      "h": 0.0297,
-      "words": [
-        "Mary",
-        "is",
-        "making",
-        "soup.",
-        "|"
-      ]
-    },
-    {
-      "id": "r29",
-      "text": "These are potatoes,",
-      "x": 0.5529,
-      "y": 0.0983,
-      "w": 0.321,
-      "h": 0.0258,
-      "words": [
-        "These",
-        "are",
-        "potatoes,"
-      ]
-    },
-    {
-      "id": "r30",
-      "text": "‘",
-      "x": 0.5088,
-      "y": 0.1362,
-      "w": 0.0062,
-      "h": 0.011,
-      "words": [
-        "‘"
-      ]
-    },
-    {
-      "id": "r31",
-      "text": "&",
-      "x": 0.2672,
-      "y": 0.1038,
-      "w": 0.1843,
-      "h": 0.1126,
-      "words": [
-        "&"
-      ]
-    },
-    {
-      "id": "r32",
-      "text": "=_ aN This is a bottle of milk.",
-      "x": 0.2743,
-      "y": 0.1928,
-      "w": 0.6279,
-      "h": 0.039,
-      "words": [
-        "=_",
-        "aN",
-        "This",
-        "is",
-        "a",
-        "bottle",
-        "of",
-        "milk."
-      ]
-    },
-    {
-      "id": "r33",
-      "text": "1 It is cow's milk.",
-      "x": 0.5079,
-      "y": 0.2301,
-      "w": 0.2743,
-      "h": 0.0329,
-      "words": [
-        "1",
-        "It",
-        "is",
-        "cow's",
-        "milk."
-      ]
-    },
-    {
-      "id": "r34",
-      "text": "This is a plate of soup. |",
-      "x": 0.112,
-      "y": 0.2658,
-      "w": 0.4012,
-      "h": 0.028,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "plate",
-        "of",
-        "soup.",
-        "|"
-      ]
-    },
-    {
-      "id": "r35",
-      "text": "|",
-      "x": 0.5062,
-      "y": 0.2949,
-      "w": 0.0071,
-      "h": 0.0247,
-      "words": [
-        "|"
-      ]
-    },
-    {
-      "id": "r36",
-      "text": "== This is a cow.",
-      "x": 0.2055,
-      "y": 0.3224,
-      "w": 0.5873,
-      "h": 0.028,
-      "words": [
-        "==",
-        "This",
-        "is",
-        "a",
-        "cow."
-      ]
-    },
-    {
-      "id": "r37",
-      "text": "i",
-      "x": 0.5062,
-      "y": 0.3663,
-      "w": 0.0071,
-      "h": 0.0242,
-      "words": [
-        "i"
-      ]
-    },
-    {
-      "id": "r38",
-      "text": "She will make the soup",
-      "x": 0.1093,
-      "y": 0.402,
-      "w": 0.3677,
-      "h": 0.0247,
-      "words": [
-        "She",
-        "will",
-        "make",
-        "the",
-        "soup"
-      ]
-    },
-    {
-      "id": "r39",
-      "text": "from milk and potatoes.;",
-      "x": 0.1102,
-      "y": 0.4245,
-      "w": 0.403,
-      "h": 0.0286,
-      "words": [
-        "from",
-        "milk",
-        "and",
-        "potatoes.;"
-      ]
-    },
-    {
-      "id": "r40",
-      "text": "H",
-      "x": 0.5,
-      "y": 0.453,
-      "w": 0.0176,
-      "h": 0.0434,
-      "words": [
-        "H"
-      ]
-    },
-    {
-      "id": "r41",
-      "text": "Cows are animals. We get milk from cows.",
-      "x": 0.1323,
-      "y": 0.514,
-      "w": 0.7857,
-      "h": 0.0242,
-      "words": [
-        "Cows",
-        "are",
-        "animals.",
-        "We",
-        "get",
-        "milk",
-        "from",
-        "cows."
-      ]
-    },
-    {
-      "id": "r42",
-      "text": "These are some other | Mary is putting some",
-      "x": 0.1314,
-      "y": 0.5415,
-      "w": 0.746,
-      "h": 0.0291,
-      "words": [
-        "These",
-        "are",
-        "some",
-        "other",
-        "|",
-        "Mary",
-        "is",
-        "putting",
-        "some"
-      ]
-    },
-    {
-      "id": "r43",
-      "text": "animals. ‘ milk in a cup.",
-      "x": 0.1323,
-      "y": 0.564,
-      "w": 0.6252,
-      "h": 0.0362,
-      "words": [
-        "animals.",
-        "‘",
-        "milk",
-        "in",
-        "a",
-        "cup."
-      ]
-    },
-    {
-      "id": "r44",
-      "text": "i",
-      "x": 0.5044,
-      "y": 0.6035,
-      "w": 0.0079,
-      "h": 0.0242,
-      "words": [
-        "i"
-      ]
-    },
-    {
-      "id": "r45",
-      "text": "é",
-      "x": 0.5053,
-      "y": 0.6321,
-      "w": 0.0071,
-      "h": 0.0099,
-      "words": [
-        "é"
-      ]
-    },
-    {
-      "id": "r46",
-      "text": "4",
-      "x": 0.5044,
-      "y": 0.6458,
-      "w": 0.0079,
-      "h": 0.011,
-      "words": [
-        "4"
-      ]
-    },
-    {
-      "id": "r47",
-      "text": ".",
-      "x": 0.7072,
-      "y": 0.67,
-      "w": 0.0026,
-      "h": 0.0011,
-      "words": [
-        "."
-      ]
-    },
-    {
-      "id": "r48",
-      "text": "a pig cf H aN",
-      "x": 0.1746,
-      "y": 0.6019,
-      "w": 0.5741,
-      "h": 0.1049,
-      "words": [
-        "a",
-        "pig",
-        "cf",
-        "H",
-        "aN"
-      ]
-    },
-    {
-      "id": "r49",
-      "text": ";",
-      "x": 0.5044,
-      "y": 0.7188,
-      "w": 0.0088,
-      "h": 0.0253,
-      "words": [
-        ";"
-      ]
-    },
-    {
-      "id": "r50",
-      "text": "mn ED",
-      "x": 0.1746,
-      "y": 0.7111,
-      "w": 0.7178,
-      "h": 0.084,
-      "words": [
-        "mn",
-        "ED"
-      ]
-    },
-    {
-      "id": "r51",
-      "text": "| The milk ts going into",
-      "x": 0.5062,
-      "y": 0.8067,
-      "w": 0.3942,
-      "h": 0.0329,
-      "words": [
-        "|",
-        "The",
-        "milk",
-        "ts",
-        "going",
-        "into"
-      ]
-    },
-    {
-      "id": "r52",
-      "text": "1",
-      "x": 0.9065,
-      "y": 0.9407,
-      "w": 0.0247,
-      "h": 0.0132,
-      "words": [
-        "1"
-      ]
+      ],
+      "conf": 91.9125,
+      "source": "psm-11"
     }
   ]
 }
