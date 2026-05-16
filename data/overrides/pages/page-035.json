@@ -1,0 +1,15 @@
+{
+  "layout": "single",
+  "regions": [
+    { "text": "QUESTIONS", "x": 0.4, "y": 0.07, "w": 0.2, "h": 0.03 },
+    { "text": "What is this? It is a", "x": 0.24, "y": 0.23, "w": 0.2, "h": 0.05 },
+    { "text": "What is this?", "x": 0.65, "y": 0.25, "w": 0.2, "h": 0.03 },
+    { "text": "What is this?", "x": 0.24, "y": 0.3, "w": 0.2, "h": 0.03 },
+    { "text": "What is this?", "x": 0.65, "y": 0.3, "w": 0.2, "h": 0.03 },
+    { "text": "What is this?", "x": 0.24, "y": 0.51, "w": 0.2, "h": 0.03 },
+    { "text": "What is this?", "x": 0.65, "y": 0.51, "w": 0.2, "h": 0.03 },
+    { "text": "What is this?", "x": 0.24, "y": 0.7, "w": 0.2, "h": 0.03 },
+    { "text": "What is this?", "x": 0.65, "y": 0.7, "w": 0.2, "h": 0.03 },
+    { "text": "This page is page 31. The answers are on page 34.", "x": 0.15, "y": 0.88, "w": 0.7, "h": 0.03 }
+  ]
+}

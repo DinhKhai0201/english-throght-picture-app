@@ -1,0 +1,33 @@
+{
+  "layout": "single",
+  "regions": [
+    { "text": "These are answers to questions on pages 31, 32, and 33. This page is page 34.", "x": 0.15, "y": 0.1, "w": 0.7, "h": 0.05 },
+    { "text": "Page 31", "x": 0.15, "y": 0.18, "w": 0.1, "h": 0.03 },
+    { "text": "It is a house.", "x": 0.2, "y": 0.22, "w": 0.2, "h": 0.03 },
+    { "text": "It is a ship.", "x": 0.6, "y": 0.22, "w": 0.2, "h": 0.03 },
+    { "text": "It is a table.", "x": 0.2, "y": 0.25, "w": 0.2, "h": 0.03 },
+    { "text": "It is a bottle.", "x": 0.6, "y": 0.25, "w": 0.2, "h": 0.03 },
+    { "text": "It is a leg.", "x": 0.2, "y": 0.28, "w": 0.2, "h": 0.03 },
+    { "text": "It is an arm.", "x": 0.6, "y": 0.28, "w": 0.2, "h": 0.03 },
+    { "text": "It is a leg of a table.", "x": 0.2, "y": 0.3, "w": 0.2, "h": 0.05 },
+    { "text": "It is an arm of a seat.", "x": 0.6, "y": 0.3, "w": 0.25, "h": 0.05 },
+    { "text": "Page 32", "x": 0.15, "y": 0.38, "w": 0.1, "h": 0.03 },
+    { "text": "They are three men. That is a woman.", "x": 0.2, "y": 0.43, "w": 0.3, "h": 0.05 },
+    { "text": "They are glasses. That is a glass.", "x": 0.6, "y": 0.43, "w": 0.3, "h": 0.05 },
+    { "text": "They are fingers. That is the thumb.", "x": 0.2, "y": 0.51, "w": 0.3, "h": 0.05 },
+    { "text": "They are windows. That is a door.", "x": 0.6, "y": 0.5, "w": 0.3, "h": 0.05 },
+    { "text": "They are houses. That is a street.", "x": 0.2, "y": 0.57, "w": 0.3, "h": 0.05 },
+    { "text": "It is a picture of a man and a house. That is the frame of the picture. (Its frame)", "x": 0.6, "y": 0.57, "w": 0.35, "h": 0.08 },
+    { "text": "They are feet. That is a foot.", "x": 0.2, "y": 0.64, "w": 0.3, "h": 0.05 },
+    { "text": "That is a room A table is in it.", "x": 0.6, "y": 0.64, "w": 0.3, "h": 0.05 },
+    { "text": "Page 33", "x": 0.15, "y": 0.7, "w": 0.1, "h": 0.03 },
+    { "text": "Yes, it is.", "x": 0.2, "y": 0.74, "w": 0.15, "h": 0.03 },
+    { "text": "Yes, he is.", "x": 0.6, "y": 0.74, "w": 0.15, "h": 0.03 },
+    { "text": "No, it is not. It is on the floor.", "x": 0.2, "y": 0.79, "w": 0.3, "h": 0.05 },
+    { "text": "No, it is not. It is on the floor.", "x": 0.6, "y": 0.79, "w": 0.3, "h": 0.05 },
+    { "text": "No. It is in the man's hand.", "x": 0.2, "y": 0.85, "w": 0.3, "h": 0.05 },
+    { "text": "No, it is not in the glass.", "x": 0.6, "y": 0.85, "w": 0.3, "h": 0.05 },
+    { "text": "No. It is on the water.", "x": 0.2, "y": 0.89, "w": 0.3, "h": 0.05 },
+    { "text": "Yes, they are at the door.", "x": 0.6, "y": 0.89, "w": 0.3, "h": 0.05 }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The man will go to his house.", "x": 0.13, "y": 0.17, "w": 0.25, "h": 0.08 },
+    { "text": "He is going to his house.", "x": 0.58, "y": 0.13, "w": 0.2, "h": 0.08 },
+    { "text": "The man went to his house. He is there.", "x": 0.13, "y": 0.53, "w": 0.25, "h": 0.08 },
+    { "text": "He went there.", "x": 0.24, "y": 0.69, "w": 0.25, "h": 0.03 },
+    { "text": "He was here.", "x": 0.25, "y": 0.85, "w": 0.25, "h": 0.03 },
+    { "text": "He is at his door. He is at the door of his house.", "x": 0.58, "y": 0.58, "w": 0.35, "h": 0.08 }
+  ]
+}
