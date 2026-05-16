@@ -66,7 +66,7 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "A man has two eyes, i have two eyes, These are my eyes",
+      "text": "A man has two eyes have two eyes These are my eyes",
       "x": 0.1728,
       "y": 0.1332,
       "w": 0.2857,
@@ -91,7 +91,7 @@
     {
       "id": "r2",
       "order": 1,
-      "text": "A man has a mouth, i have a mouth",
+      "text": "Aman has a mouth J have a mouth",
       "x": 0.5856,
       "y": 0.1327,
       "w": 0.2786,
@@ -112,7 +112,7 @@
     {
       "id": "r3",
       "order": 2,
-      "text": "A man has a nose, i have a nose.",
+      "text": "A man has a nose have a nose.",
       "x": 0.1957,
       "y": 0.2949,
       "w": 0.2549,

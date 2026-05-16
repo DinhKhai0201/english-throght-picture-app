@@ -322,10 +322,18 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
 
   function handleRegionPointerUp() {
     clearLongPressTimer();
+    if (longPressTriggeredRef.current) {
+      setPronunciationCard(null);
+      setSelectedRegion(null);
+    }
   }
 
   function handleRegionPointerLeave() {
     clearLongPressTimer();
+    if (longPressTriggeredRef.current) {
+      setPronunciationCard(null);
+      setSelectedRegion(null);
+    }
   }
 
   async function openPronunciationCard(text, rect) {
