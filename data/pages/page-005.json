@@ -2,25 +2,107 @@
   "page": 5,
   "image": "/books/page 5.png",
   "imageApiPath": "/api/books/page%205.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 1,
-    "wordCount": 3,
+    "regionCount": 4,
+    "wordCount": 4,
     "imageWidth": 1171,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1"
       ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
+      ]
     }
   ],
-  "regions": []
+  "regions": [
+    {
+      "text": "I",
+      "x": 0.27,
+      "y": 0.13,
+      "w": 0.05,
+      "h": 0.03,
+      "id": "r1",
+      "order": 0,
+      "words": [
+        "I"
+      ]
+    },
+    {
+      "text": "YOU",
+      "x": 0.77,
+      "y": 0.13,
+      "w": 0.1,
+      "h": 0.03,
+      "id": "r2",
+      "order": 1,
+      "words": [
+        "YOU"
+      ]
+    },
+    {
+      "text": "I",
+      "x": 0.27,
+      "y": 0.54,
+      "w": 0.05,
+      "h": 0.03,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "I"
+      ]
+    },
+    {
+      "text": "YOU",
+      "x": 0.77,
+      "y": 0.54,
+      "w": 0.1,
+      "h": 0.03,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "YOU"
+      ]
+    }
+  ]
 }

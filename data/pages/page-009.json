@@ -2,57 +2,115 @@
   "page": 9,
   "image": "/books/page 9.png",
   "imageApiPath": "/api/books/page%209.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 2,
-    "wordCount": 4,
+    "regionCount": 4,
+    "wordCount": 12,
     "imageWidth": 1188,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "It is here.",
+      "x": 0.35,
+      "y": 0.27,
+      "w": 0.2,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "wee ee es",
-      "x": 0.1288,
-      "y": 0.48,
-      "w": 0.7567,
-      "h": 0.0149,
       "words": [
-        "wee",
-        "ee",
-        "es"
-      ],
-      "conf": 36.825,
-      "source": "psm-11"
+        "It",
+        "is",
+        "here."
+      ]
     },
     {
+      "text": "It is there.",
+      "x": 0.65,
+      "y": 0.16,
+      "w": 0.2,
+      "h": 0.03,
       "id": "r2",
       "order": 1,
-      "text": "They",
-      "x": 0.2104,
-      "y": 0.568,
-      "w": 0.0741,
-      "h": 0.0229,
       "words": [
-        "They"
-      ],
-      "conf": 95.9128,
-      "source": "psm-11"
+        "It",
+        "is",
+        "there."
+      ]
+    },
+    {
+      "text": "They are here.",
+      "x": 0.25,
+      "y": 0.57,
+      "w": 0.25,
+      "h": 0.03,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "They",
+        "are",
+        "here."
+      ]
+    },
+    {
+      "text": "They are there.",
+      "x": 0.65,
+      "y": 0.57,
+      "w": 0.25,
+      "h": 0.03,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "They",
+        "are",
+        "there."
+      ]
     }
   ]
 }

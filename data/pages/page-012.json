@@ -2,128 +2,119 @@
   "page": 12,
   "image": "/books/page 12.png",
   "imageApiPath": "/api/books/page%2012.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 6,
-    "wordCount": 19,
+    "regionCount": 4,
+    "wordCount": 16,
     "imageWidth": 1263,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6"
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "This is a man.",
+      "x": 0.2,
+      "y": 0.15,
+      "w": 0.25,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "This is a man.",
-      "x": 0.1995,
-      "y": 0.1463,
-      "w": 0.1956,
-      "h": 0.0194,
       "words": [
         "This",
         "is",
         "a",
         "man."
-      ],
-      "conf": 86.0643,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "This is a woman.",
+      "x": 0.6,
+      "y": 0.15,
+      "w": 0.25,
+      "h": 0.03,
       "id": "r2",
       "order": 1,
-      "text": "This is a woman.",
-      "x": 0.5986,
-      "y": 0.1463,
-      "w": 0.2367,
-      "h": 0.0183,
       "words": [
         "This",
         "is",
         "a",
         "woman."
-      ],
-      "conf": 94.0507,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "That is a man.",
+      "x": 0.22,
+      "y": 0.57,
+      "w": 0.25,
+      "h": 0.03,
       "id": "r3",
       "order": 2,
-      "text": "CN",
-      "x": 0.578,
-      "y": 0.3808,
-      "w": 0.2502,
-      "h": 0.0457,
-      "words": [
-        "CN"
-      ],
-      "conf": 49.7955,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "sc ee",
-      "x": 0.2415,
-      "y": 0.4712,
-      "w": 0.2486,
-      "h": 0.0151,
-      "words": [
-        "sc",
-        "ee"
-      ],
-      "conf": 51.554,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "That is a man.",
-      "x": 0.2328,
-      "y": 0.5654,
-      "w": 0.2019,
-      "h": 0.0188,
       "words": [
         "That",
         "is",
         "a",
         "man."
-      ],
-      "conf": 95.5774,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
       "text": "That is a woman.",
-      "x": 0.6271,
-      "y": 0.5659,
-      "w": 0.2447,
-      "h": 0.0188,
+      "x": 0.62,
+      "y": 0.57,
+      "w": 0.25,
+      "h": 0.03,
+      "id": "r4",
+      "order": 3,
       "words": [
         "That",
         "is",
         "a",
         "woman."
-      ],
-      "conf": 94.5528,
-      "source": "psm-11"
+      ]
     }
   ]
 }

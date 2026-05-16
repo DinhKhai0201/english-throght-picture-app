@@ -2,23 +2,107 @@
   "page": 7,
   "image": "/books/page 7.png",
   "imageApiPath": "/api/books/page%207.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 0,
-    "wordCount": 0,
+    "regionCount": 4,
+    "wordCount": 4,
     "imageWidth": 1213,
     "imageHeight": 1775
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
-      "regionIds": []
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
+      ]
     }
   ],
-  "regions": []
+  "regions": [
+    {
+      "text": "HE",
+      "x": 0.39,
+      "y": 0.23,
+      "w": 0.08,
+      "h": 0.03,
+      "id": "r1",
+      "order": 0,
+      "words": [
+        "HE"
+      ]
+    },
+    {
+      "text": "THEY",
+      "x": 0.8,
+      "y": 0.23,
+      "w": 0.12,
+      "h": 0.03,
+      "id": "r2",
+      "order": 1,
+      "words": [
+        "THEY"
+      ]
+    },
+    {
+      "text": "IT",
+      "x": 0.38,
+      "y": 0.75,
+      "w": 0.05,
+      "h": 0.03,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "IT"
+      ]
+    },
+    {
+      "text": "THEY",
+      "x": 0.81,
+      "y": 0.71,
+      "w": 0.12,
+      "h": 0.03,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "THEY"
+      ]
+    }
+  ]
 }

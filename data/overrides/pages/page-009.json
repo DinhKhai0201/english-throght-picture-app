@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "It is here.", "x": 0.35, "y": 0.27, "w": 0.2, "h": 0.03 },
+    { "text": "It is there.", "x": 0.65, "y": 0.16, "w": 0.2, "h": 0.03 },
+    { "text": "They are here.", "x": 0.25, "y": 0.57, "w": 0.25, "h": 0.03 },
+    { "text": "They are there.", "x": 0.65, "y": 0.57, "w": 0.25, "h": 0.03 }
+  ]
+}

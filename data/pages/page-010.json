@@ -2,23 +2,115 @@
   "page": 10,
   "image": "/books/page 10.png",
   "imageApiPath": "/api/books/page%2010.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 0,
-    "wordCount": 0,
+    "regionCount": 4,
+    "wordCount": 12,
     "imageWidth": 1275,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
-      "regionIds": []
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
+      ]
     }
   ],
-  "regions": []
+  "regions": [
+    {
+      "text": "You are there.",
+      "x": 0.24,
+      "y": 0.15,
+      "w": 0.25,
+      "h": 0.03,
+      "id": "r1",
+      "order": 0,
+      "words": [
+        "You",
+        "are",
+        "there."
+      ]
+    },
+    {
+      "text": "You are there.",
+      "x": 0.65,
+      "y": 0.15,
+      "w": 0.25,
+      "h": 0.03,
+      "id": "r2",
+      "order": 1,
+      "words": [
+        "You",
+        "are",
+        "there."
+      ]
+    },
+    {
+      "text": "You are here.",
+      "x": 0.15,
+      "y": 0.61,
+      "w": 0.25,
+      "h": 0.03,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "You",
+        "are",
+        "here."
+      ]
+    },
+    {
+      "text": "We are here.",
+      "x": 0.55,
+      "y": 0.64,
+      "w": 0.25,
+      "h": 0.03,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "We",
+        "are",
+        "here."
+      ]
+    }
+  ]
 }
