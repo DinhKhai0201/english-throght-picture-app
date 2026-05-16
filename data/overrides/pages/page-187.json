@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Glass is harder than wood. Wood is harder than bread. Bread is harder than butter. Which is the softest of these? Which is the hardest?", "x": 0.12, "y": 0.1, "w": 0.38, "h": 0.35 },
+    { "text": "This man is older than this boy. The boy is older than this baby. Which of them is the oldest? The baby is the youngest. He is very young.", "x": 0.54, "y": 0.08, "w": 0.4, "h": 0.38 },
+    { "text": "This man is stronger than this boy. The boy is not as strong as the man. He is not as old as the man. The baby is not as old as the boy or as strong as the boy.", "x": 0.12, "y": 0.52, "w": 0.38, "h": 0.38 },
+    { "text": "This line is as long as this line. The two lines are equal (=). This line is not as long as this line. They are not equal.", "x": 0.54, "y": 0.52, "w": 0.4, "h": 0.38 }
+  ]
+}

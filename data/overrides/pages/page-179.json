@@ -1,0 +1,21 @@
+{
+  "layout": "answers",
+  "regions": [
+    { "text": "Answers to questions on pages 171-173.", "x": 0.25, "y": 0.09, "w": 0.5, "h": 0.03 },
+    { "text": "Page 171", "x": 0.1, "y": 0.13, "w": 0.2, "h": 0.03 },
+    { "text": "a Wall B is thicker. b Cut B is wider.", "x": 0.1, "y": 0.16, "w": 0.8, "h": 0.03 },
+    { "text": "c Nail A is longer. d The man who is on his feet is stronger.", "x": 0.1, "y": 0.19, "w": 0.8, "h": 0.05 },
+    { "text": "e Pencil B is shorter. f Card B is longer. Card A is wider.", "x": 0.1, "y": 0.24, "w": 0.8, "h": 0.05 },
+    { "text": "g Angle C is a right angle. h The cup, the hammer, and the plate are broken.", "x": 0.1, "y": 0.29, "w": 0.8, "h": 0.05 },
+    { "text": "Page 172", "x": 0.1, "y": 0.35, "w": 0.2, "h": 0.03 },
+    { "text": "a He is going up the steps. b She is going down the steps.", "x": 0.1, "y": 0.38, "w": 0.8, "h": 0.05 },
+    { "text": "c He is putting a nail in with a hammer. d He is taking a nail out with a hammer.", "x": 0.1, "y": 0.43, "w": 0.8, "h": 0.05 },
+    { "text": "e He is measuring a box. f She is putting a thread through the hole in a needle.", "x": 0.1, "y": 0.48, "w": 0.8, "h": 0.08 },
+    { "text": "g She is taking the end of the thread between her finger and thumb. h She is putting a button on with a needle and thread.", "x": 0.1, "y": 0.56, "w": 0.8, "h": 0.08 },
+    { "text": "Page 173", "x": 0.1, "y": 0.65, "w": 0.2, "h": 0.03 },
+    { "text": "A a train b its engine c a plane d a seat e a ship f a flower g mountains h trees i a star j a cloud k the sun l the moon m a pig n a sheep o a horse p a cow q a dog r a goat s a coat t a bird u trousers v a cup w a knife x a spoon y scissors", "x": 0.1, "y": 0.68, "w": 0.8, "h": 0.15 },
+    { "text": "B Airplanes and birds go through the air.", "x": 0.1, "y": 0.84, "w": 0.8, "h": 0.03 },
+    { "text": "C Pigs, sheep, horses, cows, dogs, birds, and goats go on their feet.", "x": 0.1, "y": 0.87, "w": 0.8, "h": 0.05 },
+    { "text": "D Ships and some birds go on the water.", "x": 0.1, "y": 0.92, "w": 0.8, "h": 0.03 }
+  ]
+}

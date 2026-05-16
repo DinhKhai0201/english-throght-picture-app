@@ -1,0 +1,15 @@
+{
+  "layout": "questions",
+  "regions": [
+    { "text": "QUESTIONS", "x": 0.4, "y": 0.08, "w": 0.2, "h": 0.03 },
+    { "text": "What is he doing?", "x": 0.12, "y": 0.12, "w": 0.35, "h": 0.05 },
+    { "text": "What is she doing?", "x": 0.54, "y": 0.12, "w": 0.35, "h": 0.05 },
+    { "text": "What is he doing?", "x": 0.12, "y": 0.31, "w": 0.35, "h": 0.05 },
+    { "text": "What is he doing now?", "x": 0.54, "y": 0.31, "w": 0.35, "h": 0.05 },
+    { "text": "What is he doing?", "x": 0.12, "y": 0.51, "w": 0.35, "h": 0.05 },
+    { "text": "What is she doing?", "x": 0.54, "y": 0.51, "w": 0.35, "h": 0.05 },
+    { "text": "What is she doing now?", "x": 0.12, "y": 0.72, "w": 0.35, "h": 0.05 },
+    { "text": "And what is she doing now?", "x": 0.52, "y": 0.72, "w": 0.4, "h": 0.05 },
+    { "text": "Answers are on page 174.", "x": 0.3, "y": 0.89, "w": 0.4, "h": 0.03 }
+  ]
+}

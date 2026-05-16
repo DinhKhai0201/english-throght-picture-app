@@ -1,0 +1,11 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Ottawa, Washington, Mexico City, New York, and Los Angeles are towns. This is a town.", "x": 0.12, "y": 0.12, "w": 0.38, "h": 0.28 },
+    { "text": "The government of Canada is in Ottawa.", "x": 0.52, "y": 0.12, "w": 0.4, "h": 0.05 },
+    { "text": "The government of the United States is in Washington.", "x": 0.52, "y": 0.23, "w": 0.4, "h": 0.08 },
+    { "text": "The government of Mexico is in Mexico City.", "x": 0.52, "y": 0.37, "w": 0.4, "h": 0.05 },
+    { "text": "How far is Ottawa from Mexico City? The distance from Ottawa to Mexico City is about twenty-three hundred miles. How far is New York from Los Angeles? The distance between New York and Los Angeles is about twenty-five hundred miles.", "x": 0.1, "y": 0.53, "w": 0.4, "h": 0.35 },
+    { "text": "How far is the mouth of the Mackenzie River from the mouth of the Mississippi? The distance is about 3300 miles. The mouth of a river is the place where it goes into the sea.", "x": 0.52, "y": 0.65, "w": 0.4, "h": 0.25 }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "layout": "questions",
+  "regions": [
+    { "text": "QUESTIONS", "x": 0.4, "y": 0.08, "w": 0.2, "h": 0.03 },
+    { "text": "These are two walls. Which of them is thicker? Is wall A or wall B thicker?", "x": 0.12, "y": 0.12, "w": 0.35, "h": 0.18 },
+    { "text": "These are two cuts. Which of them is wider? Is cut A or cut B wider?", "x": 0.54, "y": 0.12, "w": 0.38, "h": 0.18 },
+    { "text": "These are two nails. Which of them is longer?", "x": 0.12, "y": 0.31, "w": 0.38, "h": 0.05 },
+    { "text": "Which of these two men is stronger?", "x": 0.54, "y": 0.31, "w": 0.35, "h": 0.12 },
+    { "text": "Which of these two pencils is shorter?", "x": 0.12, "y": 0.51, "w": 0.38, "h": 0.05 },
+    { "text": "Which of these two cards is longer? Which is wider?", "x": 0.54, "y": 0.51, "w": 0.4, "h": 0.15 },
+    { "text": "Which of these three angles is a right angle?", "x": 0.12, "y": 0.7, "w": 0.38, "h": 0.08 },
+    { "text": "Which of these things are broken?", "x": 0.54, "y": 0.7, "w": 0.38, "h": 0.05 },
+    { "text": "Answers are on page 174.", "x": 0.3, "y": 0.89, "w": 0.4, "h": 0.03 }
+  ]
+}

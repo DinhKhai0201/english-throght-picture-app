@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "We see the same side at all times because the moon is turning round.", "x": 0.12, "y": 0.12, "w": 0.38, "h": 0.1 },
+    { "text": "The moon The earth It is going round the earth and it is turning round itself. It keeps the same side to the earth.", "x": 0.54, "y": 0.13, "w": 0.38, "h": 0.3 },
+    { "text": "We see the same side of the moon at all times. Sometimes we see it like this. One half of the moon is dark. The other half is bright. This is a half moon.", "x": 0.1, "y": 0.54, "w": 0.4, "h": 0.38 },
+    { "text": "Sometimes we see the moon like this. This part of the moon is dark. This part of it is bright. This is a quarter moon.", "x": 0.54, "y": 0.56, "w": 0.4, "h": 0.35 }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "In the fall, the leaves come down from the branches of the trees. Fall is the time of the fall of the leaves. They are coming down. They are falling.", "x": 0.12, "y": 0.26, "w": 0.38, "h": 0.18 },
+    { "text": "In the spring the days get longer. Every day is longer than the day before it. In the spring today is longer than yesterday.", "x": 0.54, "y": 0.12, "w": 0.4, "h": 0.15 },
+    { "text": "In the fall the days get shorter. Every day is shorter than the day before it. In the fall tomorrow will be shorter than today.", "x": 0.54, "y": 0.28, "w": 0.4, "h": 0.15 },
+    { "text": "This line is longer than this line.", "x": 0.15, "y": 0.51, "w": 0.35, "h": 0.1 },
+    { "text": "The time between three and four is shorter than the time between three and five. One hour is a shorter time than two hours.", "x": 0.1, "y": 0.65, "w": 0.4, "h": 0.2 },
+    { "text": "Fifteen minutes make a quarter of an hour.", "x": 0.54, "y": 0.49, "w": 0.4, "h": 0.05 },
+    { "text": "Thirty minutes make half an hour.", "x": 0.54, "y": 0.63, "w": 0.4, "h": 0.05 },
+    { "text": "Forty-five minutes make three-quarters of an hour.", "x": 0.54, "y": 0.77, "w": 0.4, "h": 0.08 }
+  ]
+}

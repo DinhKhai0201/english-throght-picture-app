@@ -1,0 +1,10 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "I took a newspaper and gave a dollar ($1) to the man.", "x": 0.12, "y": 0.33, "w": 0.38, "h": 0.1 },
+    { "text": "He took the dollar and he gave a half dollar and a quarter (dollar) and twenty cents", "x": 0.58, "y": 0.09, "w": 0.38, "h": 0.2 },
+    { "text": "This is the money which he gave to me with the paper.", "x": 0.6, "y": 0.35, "w": 0.35, "h": 0.08 },
+    { "text": "The price of the paper was five cents. I got the paper and ninety-five cents from him. $1.00 — 100 cents Paper — 5 cents 95 cents", "x": 0.1, "y": 0.56, "w": 0.4, "h": 0.25 },
+    { "text": "That money was my change. I had a dollar. After I got the paper I had the paper and ninety-five cents. I did not have the dollar. That was a change.", "x": 0.56, "y": 0.56, "w": 0.38, "h": 0.22 }
+  ]
+}

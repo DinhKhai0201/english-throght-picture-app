@@ -1,0 +1,14 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Which is shorter—a quarter of an hour or half an hour?", "x": 0.12, "y": 0.12, "w": 0.38, "h": 0.08 },
+    { "text": "Which is shorter—the minute hand or the hour hand of a clock?", "x": 0.12, "y": 0.23, "w": 0.38, "h": 0.08 },
+    { "text": "This is an inch. The distance from A to B is one inch.", "x": 0.52, "y": 0.12, "w": 0.4, "h": 0.1 },
+    { "text": "Half an inch is a shorter distance than an inch.", "x": 0.52, "y": 0.28, "w": 0.4, "h": 0.05 },
+    { "text": "A quarter of an inch Three-quarters of an inch", "x": 0.52, "y": 0.38, "w": 0.4, "h": 0.05 },
+    { "text": "Twelve inches make a foot.", "x": 0.12, "y": 0.52, "w": 0.35, "h": 0.05 },
+    { "text": "This is a foot. How long is it? It is ten inches long.", "x": 0.15, "y": 0.78, "w": 0.35, "h": 0.08 },
+    { "text": "Three feet make a yard. This is a yard measure. There are thirty-six inches in a yard.", "x": 0.54, "y": 0.51, "w": 0.4, "h": 0.18 },
+    { "text": "These are feet. They are not twelve inches long.", "x": 0.54, "y": 0.71, "w": 0.4, "h": 0.2 }
+  ]
+}

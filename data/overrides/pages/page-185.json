@@ -1,0 +1,12 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This baby is one year old.", "x": 0.12, "y": 0.09, "w": 0.35, "h": 0.05 },
+    { "text": "This boy is ten years old.", "x": 0.15, "y": 0.21, "w": 0.25, "h": 0.05 },
+    { "text": "This man is thirty years old.", "x": 0.1, "y": 0.29, "w": 0.35, "h": 0.05 },
+    { "text": "This old man is ninety years old. That is a stick in his hand.", "x": 0.15, "y": 0.37, "w": 0.3, "h": 0.12 },
+    { "text": "The baby is very young. How old is he? He is one year old. The old man is very old. How old is he? He is ninety years old.", "x": 0.52, "y": 0.18, "w": 0.4, "h": 0.15 },
+    { "text": "This box is four inches long and three inches wide and two inches high. How long is it? It is four inches long.", "x": 0.12, "y": 0.57, "w": 0.4, "h": 0.3 },
+    { "text": "This room is twenty feet long and sixteen feet wide and twelve feet high. How high is the room? It is twelve feet high.", "x": 0.52, "y": 0.51, "w": 0.4, "h": 0.35 }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "layout": "mixed",
+  "regions": [
+    { "text": "This is a map of North America. Mackenzie River, Ottawa, Los Angeles, Mississippi River, New York, Washington, Mexico City.", "x": 0.15, "y": 0.08, "w": 0.75, "h": 0.38 },
+    { "text": "These are mountains.", "x": 0.1, "y": 0.5, "w": 0.4, "h": 0.05 },
+    { "text": "These are railroads.", "x": 0.1, "y": 0.65, "w": 0.4, "h": 0.05 },
+    { "text": "These are roads.", "x": 0.1, "y": 0.81, "w": 0.3, "h": 0.03 },
+    { "text": "These are rivers.", "x": 0.1, "y": 0.88, "w": 0.3, "h": 0.03 },
+    { "text": "Men go up mountains. Mountains are high.", "x": 0.58, "y": 0.53, "w": 0.4, "h": 0.08 },
+    { "text": "Trains go on railroads.", "x": 0.58, "y": 0.62, "w": 0.38, "h": 0.05 },
+    { "text": "A road", "x": 0.57, "y": 0.71, "w": 0.2, "h": 0.03 },
+    { "text": "A river", "x": 0.57, "y": 0.86, "w": 0.2, "h": 0.03 },
+    { "text": "An island", "x": 0.8, "y": 0.86, "w": 0.2, "h": 0.03 }
+  ]
+}

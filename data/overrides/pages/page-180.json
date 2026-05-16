@@ -1,0 +1,11 @@
+{
+  "layout": "mixed",
+  "regions": [
+    { "text": "The earth goes round in twenty-four hours.", "x": 0.12, "y": 0.13, "w": 0.38, "h": 0.05 },
+    { "text": "There are twenty-four hours in every day. The sun comes up and goes down every day because the earth is turning round.", "x": 0.12, "y": 0.33, "w": 0.38, "h": 0.15 },
+    { "text": "The earth goes round the sun in a year.", "x": 0.54, "y": 0.13, "w": 0.38, "h": 0.05 },
+    { "text": "There are three hundred and sixty-five days in a year. Three hundred and sixty-five days make a year.", "x": 0.54, "y": 0.33, "w": 0.4, "h": 0.15 },
+    { "text": "There are seven days in a week. Seven days make a week. Here are the names of the days of the week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. Monday is before Tuesday. Tuesday is after Monday.", "x": 0.1, "y": 0.53, "w": 0.85, "h": 0.1 },
+    { "text": "There are thirty-one or thirty or twenty-eight days in a month. Here are the names of the months: January (31) February (28) March (31) April (30) May (31) June (30) July (31) August (31) September (30) October (31) November (30) December (31). January is before February ... February is after January ...", "x": 0.12, "y": 0.65, "w": 0.8, "h": 0.3 }
+  ]
+}

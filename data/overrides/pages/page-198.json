@@ -1,0 +1,15 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "QUESTIONS", "x": 0.45, "y": 0.08, "w": 0.15, "h": 0.03 },
+    { "text": "a", "x": 0.13, "y": 0.26, "w": 0.02, "h": 0.02 },
+    { "text": "Which of these is a half moon, which is a full moon, which is a quarter moon, and which is a new moon?", "x": 0.17, "y": 0.26, "w": 0.35, "h": 0.15 },
+    { "text": "b", "x": 0.56, "y": 0.15, "w": 0.02, "h": 0.02 },
+    { "text": "I got a book. I gave three dollars to the man in the bookstore. He gave me the book and fifty cents. What was the price of the book? How much was the book? How much change did he give me?", "x": 0.6, "y": 0.15, "w": 0.35, "h": 0.25 },
+    { "text": "c", "x": 0.14, "y": 0.59, "w": 0.02, "h": 0.02 },
+    { "text": "How far may a quick train go in an hour? How far may you go on your feet in an hour, four miles or forty?", "x": 0.18, "y": 0.59, "w": 0.35, "h": 0.15 },
+    { "text": "d", "x": 0.58, "y": 0.59, "w": 0.02, "h": 0.02 },
+    { "text": "What are some different sorts of transport? Which is the quickest sort of transport?", "x": 0.62, "y": 0.59, "w": 0.35, "h": 0.15 },
+    { "text": "Answers are on page 194.", "x": 0.35, "y": 0.88, "w": 0.4, "h": 0.03 }
+  ]
+}

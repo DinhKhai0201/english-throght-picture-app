@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This is the earth. We are seeing it from the north. There is more land than water on this side of the earth.", "x": 0.12, "y": 0.09, "w": 0.38, "h": 0.35 },
+    { "text": "This is the earth. We are seeing it from the south. There is more water than land on this side.", "x": 0.54, "y": 0.09, "w": 0.38, "h": 0.3 },
+    { "text": "This is the moon. The moon goes round the earth in a month.", "x": 0.12, "y": 0.53, "w": 0.38, "h": 0.25 },
+    { "text": "Do we ever see the other side of the moon? No. We see the same side of the moon at all times. Why?", "x": 0.54, "y": 0.53, "w": 0.4, "h": 0.35 }
+  ]
+}
