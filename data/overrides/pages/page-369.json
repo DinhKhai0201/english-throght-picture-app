@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "When you see someone opening a window in a room full of people, you know that he is letting in air from outside. As good air comes in through the window, bad, used air, with more carbon dioxide and water in it and less oxygen, goes out.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.25 },
+    { "text": "We say good air is fresh air. Fresh air is clean and good to breathe and has enough oxygen in it for our needs.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.1 },
+    { "text": "carbon dioxide: gas in the air made of carbon and oxygen united. fresh: clean (air), not salt (water), new (bread), or newly put on (paint).", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.15 }
+  ]
+}

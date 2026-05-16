@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "To see if he was right about the motion of the light, Galileo put his fingers on his wrist. He timed the motion of the light as it went forward and back on its chain, measuring it by his pulse rate.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.25 },
+    { "text": "He was right. He had the proof. He could prove that the time was the same, however short or long the journey of the light through the air was.", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.1 },
+    { "text": "Galileo had made a great discovery about the motion of a pendulum. This discovery made possible a better instrument for measuring time—the pendulum clock.", "x": 0.1, "y": 0.45, "w": 0.6, "h": 0.25 },
+    { "text": "proof: making clear something is so. timed: measured time. prove: give proof. pendulum: hanging weight. FUTURE: will prove/time. PRESENT: prove(s)/time(s). PAST: proved/timed.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.15 }
+  ]
+}

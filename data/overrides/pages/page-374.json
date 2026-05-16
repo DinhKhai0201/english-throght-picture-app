@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "It was more than a century after Harvey had discovered the circulation of the blood that two other scientists, one English and the other French, discovered oxygen.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
+    { "text": "These men saw that when a flame burns it takes something out of the air. That is why a candle goes out when it has been burning for a little time in a small amount of air. It has taken all the oxygen out of the air.", "x": 0.1, "y": 0.15, "w": 0.85, "h": 0.12 },
+    { "text": "When the candle has used up the oxygen from the air it cannot go on burning. Its light goes out. So with the burning that goes on inside the millions of cells of our bodies. If the blood stops carrying oxygen to the cells, they go out. They die.", "x": 0.1, "y": 0.4, "w": 0.85, "h": 0.2 },
+    { "text": "scientist: man of science. so: like this. candle: cord with solid fuel. stop: put an end to. FUTURE: will stop. PRESENT: stop(s). PAST: stopped.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.18 }
+  ]
+}

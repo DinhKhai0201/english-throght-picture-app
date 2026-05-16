@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "But for another two thousand years most men went on thinking that the earth was flat like a large plate with the sun and stars journeying round it. How was the idea that the earth is not flat but round like a ball proved true in the end?", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "Sailing men went out in their ships to find a way by water from Europe to India and China. Though some ships from the north of Europe had sailed west to parts of America in the tenth century, most of Europe had no knowledge of the land across the Atlantic.", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.2 },
+    { "text": "Men like Marco Polo had gone east to India and China, much of the way by land, long before Columbus, in 1492, went sailing west with the idea that he could get round to the Far East by water.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.15 },
+    { "text": "to find: to look for and discover. though: even if. FUTURE: will find. PRESENT: find(s). PAST: found.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.08 }
+  ]
+}

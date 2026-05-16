@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "These boys are outside in the fresh air, breathing deeply while their teacher is saying: IN / OUT for every breath which they take.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
+    { "text": "If you could watch them you would see their chests becoming first larger, then smaller in size, as their lungs breathed air in and out. Breathing goes on when we are awake and when we are sleeping.", "x": 0.1, "y": 0.38, "w": 0.85, "h": 0.15 },
+    { "text": "The motion of our lungs as we breathe is automatic. It goes on by itself about eighteen times a minute. We become conscious of our breathing if anything shuts the air off from us.", "x": 0.1, "y": 0.6, "w": 0.85, "h": 0.2 },
+    { "text": "awake: not sleeping. conscious of: taking note of. automatic: working by itself.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "When a man is running, his heart is working much harder than when he is sitting down. His blood is being pumped more quickly through his body.", "x": 0.1, "y": 0.05, "w": 0.4, "h": 0.25 },
+    { "text": "The blood must carry a greater supply of oxygen to the muscles all over the body. Our hearts work for us automatically. A man’s heart can pump as much as three thousand gallons of blood a day.", "x": 0.1, "y": 0.25, "w": 0.4, "h": 0.2 },
+    { "text": "The amount pumped at any time is controlled automatically. After running hard a man breathes very quickly. He is 'out of breath,' as we say.", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.15 },
+    { "text": "running: going faster than walking. automatically: in an automatic way. FUTURE: will run. PRESENT: run(s). PAST: ran, run.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.15 }
+  ]
+}

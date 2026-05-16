@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The body has many different ways of keeping itself warm enough and not too warm. It uses up more food, more fuel for the cells, in cold weather. It shivers—that is, its muscles go on making quick little motions to keep it warm.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "We cannot stop ourselves from shivering. The body’s heating system is automatic. To stop shivering he has to warm himself some other way: he may run or walk quickly, or take hot drinks.", "x": 0.1, "y": 0.2, "w": 0.85, "h": 0.15 },
+    { "text": "shivering: shaking all over from cold. warm: make warm. hot: very warm. heat: make hotter. We warm our hands at a fire, but we heat water on it.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.15 },
+    { "text": "FUTURE: will shiver/warm/heat. PRESENT: shiver(s)/warm(s)/heat(s). PAST: shivered/warmed/heated.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.08 }
+  ]
+}

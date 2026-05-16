@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Here are some cells, thousands of times the size they are in the body. Each different sort of cell has its own work to do, different from the work other sorts of cells do.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.25 },
+    { "text": "No one had seen cells before the invention of the microscope and its development in the sixteenth and seventeenth centuries. Before then no one could make pictures of cells because no one could see them.", "x": 0.1, "y": 0.45, "w": 0.5, "h": 0.25 },
+    { "text": "own: a cell's own work is its work. development: change by which something becomes better. All plants and animals developed from single cells.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.15 },
+    { "text": "FUTURE: will develop. PRESENT: develop(s). PAST: developed.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
+  ]
+}

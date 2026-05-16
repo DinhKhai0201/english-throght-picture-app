@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The heart has four rooms in it with doors (valves) between them. It pumps blood in and out through these doors by changing the size of the rooms so that the doors open and shut. It can do this because it is made of muscle.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
+    { "text": "The heart keeps a stream of blood going all round the body and back again to itself. The pipes which take blood from the heart are named arteries; the pipes through which it comes back to the heart are named veins.", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.15 },
+    { "text": "valve: opening which lets liquid go through one way. muscle: cords which move parts of the body.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.15 },
+    { "text": "FUTURE: will shut/open. PRESENT: shut(s)/open(s). PAST: shut/opened.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.08 }
+  ]
+}

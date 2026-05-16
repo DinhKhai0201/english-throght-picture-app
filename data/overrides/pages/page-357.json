@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "There are many ways of helping a learner into a language, but not enough people know them. Most people learn their mother language without being able to give any account at all of how it works.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
+    { "text": "They learn to talk as they learn to walk, without any idea of how they do it. People who learn to use a language well do so through talking with others who use it well, through reading good writers and through watching the effects on others of what they say and how they say it.", "x": 0.1, "y": 0.15, "w": 0.85, "h": 0.15 },
+    { "text": "The world needs more people who can use language well. Language is as necessary to men's minds as the air they breathe is to their bodies. necessary to: needed by. to breathe: take air in and give it out.", "x": 0.1, "y": 0.55, "w": 0.85, "h": 0.2 },
+    { "text": "FUTURE: will walk/breathe. PRESENT: walk(s)/breathe(s). PAST: walked/breathed.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.08 }
+  ]
+}

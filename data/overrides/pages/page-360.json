@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "What is blood? It is the red liquid which comes out of your finger when you cut it. There are about thirteen pints of blood in a man’s body.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "He can give a pint of blood at a time to a blood bank for the use of other men who may need it. A healthy body makes up the pint of blood quickly.", "x": 0.35, "y": 0.25, "w": 0.6, "h": 0.18 },
+    { "text": "What does our blood do for us? It takes food to all parts of our bodies and takes waste away from them. All the parts of our bodies are made up of cells.", "x": 0.1, "y": 0.58, "w": 0.85, "h": 0.15 },
+    { "text": "cut: make a cut in. blood bank: place where blood is kept. waste: materials not needed. cells: smallest living part. FUTURE: will cut. PRESENT: cut(s). PAST: cut.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.18 }
+  ]
+}

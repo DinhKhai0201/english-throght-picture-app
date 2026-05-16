@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Another part of the answer is that children are not, as older people sometimes are, fixed in their ways of living. When they are taken about from one country to another they change easily from one language to another, from one bed to another, from one food to another.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.12 },
+    { "text": "Older people are more fixed in their ways. They have been hearing and talking one language for a long time. Their ways of hearing and making sounds and of putting words together are like the rails a train goes on.", "x": 0.1, "y": 0.18, "w": 0.85, "h": 0.12 },
+    { "text": "A child is freer in his ways. He is more like an airplane or, better, like a bird; he is free to go in any direction he wants. He is free to hear sounds as they are and make them as he hears them. He is free to put new words together in new ways in talking a new language.", "x": 0.1, "y": 0.6, "w": 0.85, "h": 0.15 },
+    { "text": "free: opposite of fixed. change: make a change. FUTURE: will change. PRESENT: change(s). PAST: changed.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.08 }
+  ]
+}

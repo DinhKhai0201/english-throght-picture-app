@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Our bodies give off some of their heat all the time by sending a little liquid out through the skin. Sometimes the amount gets greater and our skin becomes wet. This cools the body quickly.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "The man on the left is shivering because he has been waiting in line for a long time in the cold wind. The man on the right is wet all over because he got too hot in the sun.", "x": 0.1, "y": 0.48, "w": 0.85, "h": 0.15 },
+    { "text": "He is drinking water because he feels the need of it. He is thirsty. cool: make less warm. too: more than enough. thirsty: feeling the need to drink.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.2 },
+    { "text": "FUTURE: will cool. PRESENT: cool(s). PAST: cooled.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.08 }
+  ]
+}

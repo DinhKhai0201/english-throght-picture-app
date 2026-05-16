@@ -1,0 +1,6 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "A solid line represents an artery and a broken line a vein.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.05 }
+  ]
+}

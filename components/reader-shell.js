@@ -32,6 +32,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const [voices, setVoices] = useState([]);
   const [voiceUri, setVoiceUri] = useState("");
   const [pronunciationCard, setPronunciationCard] = useState(null);
+  const [renderablePages, setRenderablePages] = useState(() => new Set([initialPage.page]));
 
   const synthRef = useRef(null);
   const pageNodesRef = useRef(new Map());
@@ -93,12 +94,14 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
         .filter((voice) => voice.lang.toLowerCase().startsWith("en"))
         .sort((a, b) => a.name.localeCompare(b.name));
       setVoices(availableVoices);
-      if (!voiceUriRef.current) {
-        const preferred = chooseBestDefaultVoice(availableVoices);
-        if (preferred) {
-          voiceUriRef.current = preferred.voiceURI;
-          setVoiceUri(preferred.voiceURI);
-        }
+      const currentSelected = availableVoices.find((voice) => voice.voiceURI === voiceUriRef.current);
+      const preferred = chooseBestDefaultVoice(availableVoices);
+
+      if (!preferred) return;
+
+      if (!currentSelected || isLikelyMaleVoice(currentSelected)) {
+        voiceUriRef.current = preferred.voiceURI;
+        setVoiceUri(preferred.voiceURI);
       }
     };
 
@@ -190,6 +193,36 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
 
     return () => observer.disconnect();
   }, [visibleEntries, currentPageNumber, pageDataMap]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const nextVisible = new Set();
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            nextVisible.add(Number(entry.target.getAttribute("data-page")));
+          }
+        });
+
+        if (!nextVisible.size) return;
+        setRenderablePages((current) => {
+          const next = new Set(current);
+          nextVisible.forEach((page) => next.add(page));
+          return next;
+        });
+      },
+      {
+        rootMargin: "1200px 0px 1200px 0px",
+        threshold: 0.01,
+      },
+    );
+
+    for (const node of pageNodesRef.current.values()) {
+      observer.observe(node);
+    }
+
+    return () => observer.disconnect();
+  }, [visibleEntries]);
 
   useEffect(() => {
     if (!hydrated || !currentPageNumber) return;
@@ -410,27 +443,12 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   return (
     <div className="reader-layout">
       <header className="topbar">
-        <div>
-          <p className="eyebrow">Interactive Book</p>
-          <h1>English Through Pictures</h1>
-        </div>
-
         <div className="topbar-actions">
-          <span className="status-pill">{status}</span>
           <button type="button" className="ghost-button" onClick={() => setSettingsOpen((open) => !open)}>
             {settingsOpen ? "Close Settings" : "Open Settings"}
           </button>
         </div>
       </header>
-
-      <div className="meta-strip">
-        <span>Current page <strong>{currentPageNumber}</strong></span>
-        <span>{manifest.totalPages || manifest.pages.length} pages</span>
-        <span>Chunk <strong>{currentChunkIndex + 1}</strong> / {totalChunks}</span>
-        <span>{currentChunkStartPage} - {currentChunkEndPage}</span>
-        <span>{currentPage.layout} layout</span>
-        <span>{currentPage.stats.regionCount} regions</span>
-      </div>
 
       <div className="chunk-toolbar">
         <button type="button" className="ghost-button" onClick={() => goToChunk(currentChunkIndex - 1)} disabled={currentChunkIndex === 0}>
@@ -453,6 +471,8 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
       <main className="continuous-reader">
         {visibleEntries.map((entry) => {
           const page = pageDataMap.get(entry.page);
+          const shouldRenderPage = renderablePages.has(entry.page) || entry.page === currentPageNumber;
+          const aspectRatio = page ? `${page.stats.imageWidth} / ${page.stats.imageHeight}` : "1180 / 1875";
           return (
             <article
               key={entry.page}
@@ -466,7 +486,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
                 .join(" ")}
             >
               <div className="page-stage">
-                {page ? (
+                {page && shouldRenderPage ? (
                   <div className="page-canvas">
                     <button
                       type="button"
@@ -481,6 +501,8 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
                       src={page.imageApiPath || `/api/books/${encodeURIComponent(`page ${page.page}.png`)}`}
                       alt={`Page ${page.page}`}
                       className="page-image"
+                      loading="lazy"
+                      decoding="async"
                     />
                     <div className="region-layer">
                       {page.regions.map((region) => {
@@ -523,7 +545,9 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
                     </div>
                   </div>
                 ) : (
-                  <div className="page-loading">Loading page {entry.page}...</div>
+                  <div className="page-loading" style={{ aspectRatio }}>
+                    Loading page {entry.page}...
+                  </div>
                 )}
               </div>
             </article>
@@ -595,10 +619,17 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
           </label>
 
           <div className="details">
+            <h3>Status</h3>
+            <p>{status}</p>
+          </div>
+
+          <div className="details">
             <h3>Resume</h3>
             <p>Last opened page: <strong>{savedPageNumber}</strong></p>
             <p>Current page: <strong>{currentPageNumber}</strong></p>
             <p>Current chunk: <strong>{currentChunkIndex + 1}</strong> / {totalChunks}</p>
+            <p>Chunk range: <strong>{currentChunkStartPage} - {currentChunkEndPage}</strong></p>
+            <p>Total pages: <strong>{manifest.totalPages || manifest.pages.length}</strong></p>
           </div>
 
           <div className="details">
@@ -648,11 +679,15 @@ function resolveSelectedRegionText(regionKey, pageDataMap) {
 
 function chooseBestDefaultVoice(voices) {
   return (
-    voices.find((voice) => /Samantha|Daniel|Karen|Moira|Google US English|Nicky/i.test(voice.name)) ||
+    voices.find((voice) => /Samantha|Karen|Moira|Nicky|Female|Jenny|Aria|Ava|Emma|Libby|Sonia|Google UK English Female|Google US English Female/i.test(voice.name)) ||
     voices.find((voice) => voice.lang === "en-US") ||
     voices[0] ||
     null
   );
+}
+
+function isLikelyMaleVoice(voice) {
+  return /Daniel|Alex|Tom|Thomas|Fred|Aaron|Arthur|Bruce|Junior|Ralph|Google US English\b|Google UK English Male/i.test(voice.name);
 }
 
 function chunkIndexFromPageIndex(index) {

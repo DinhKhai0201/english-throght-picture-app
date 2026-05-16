@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Keeping your mouth shut, take your nose between your thumb and one finger, so that you shut the air out and shut your breath in. How long can you hold your breath?", "x": 0.1, "y": 0.05, "w": 0.35, "h": 0.25 },
+    { "text": "You will be wise if you do not try to hold it more than a minute. If oxygen is kept from a person for long he will become unconscious.", "x": 0.1, "y": 0.25, "w": 0.35, "h": 0.15 },
+    { "text": "When a person becomes unconscious through getting water or smoke in his lungs it is very important to start him breathing again. This is done by turning him face down and then working his lungs to start his breathing.", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.2 },
+    { "text": "hold: keep in one place. wise: having knowledge. unconscious: not conscious. FUTURE: will hold. PRESENT: hold(s). PAST: held.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.12 }
+  ]
+}

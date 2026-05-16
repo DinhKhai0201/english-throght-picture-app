@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "There are machines which will play back to you again and again, one after the other, the sounds you have made and the sounds you were attempting to make. When you hear what you are doing wrong you can try to do better next time.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "For most children, new sounds are easy to make when they hear them, and children seem to hear new sounds better and more easily than grownups do. If a family goes to China, or France or Finland the children will learn to talk Chinese or French or Finnish much more quickly than their parents will.", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.2 },
+    { "text": "try: make an attempt. easy: something is easy for you when you can quickly learn to do it well. grownups: person who is no longer a child.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.12 },
+    { "text": "FUTURE: will try. PRESENT: try(ies). PAST: tried.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
+  ]
+}

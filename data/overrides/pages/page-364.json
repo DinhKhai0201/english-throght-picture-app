@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "What makes the blood go on moving round the body in a stream? The heart sends it round. The heart is between the lungs. A man’s heart is the size of his shut hand.", "x": 0.1, "y": 0.05, "w": 0.35, "h": 0.25 },
+    { "text": "The heart is a pump. If you put your hand under water like this, and keep letting a little water into it and sending it out again, you are pumping the water. The heart pumps blood in a way a little like this.", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.25 },
+    { "text": "pump: machine for pushing liquid or air or gas in or out of something.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.08 },
+    { "text": "FUTURE: will pump. PRESENT: pump(s). PAST: pumped.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
+  ]
+}

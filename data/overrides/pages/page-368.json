@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Everywhere the blood stream does two things: supplies the cells with food and oxygen and takes away waste. It is as if the blood kept the little fires in the cells burning and took away the ashes.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
+    { "text": "The fuel for the fires in the cells is given us by the food we eat. It cannot burn without oxygen. This gas is as necessary to all living things as it is necessary to the burning of fires made of wood or coal.", "x": 0.1, "y": 0.18, "w": 0.85, "h": 0.12 },
+    { "text": "Burning is the change which takes place when oxygen and fuel unite. Coal, wood and other fuels (cooking gas, for example) burn by taking oxygen from the air.", "x": 0.1, "y": 0.58, "w": 0.85, "h": 0.1 },
+    { "text": "everywhere: in all places. ash: powder from fire. unite: become one thing. coal: black fuel mined from earth. FUTURE: will unite. PRESENT: unite(s). PAST: united.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.18 }
+  ]
+}

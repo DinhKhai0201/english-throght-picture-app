@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This man is in training. He is going to run a distance of one mile in the shortest possible time. The fastest runners before him have taken a little under four minutes and he wants to make a new record.", "x": 0.1, "y": 0.05, "w": 0.5, "h": 0.25 },
+    { "text": "When a man runs a mile in four minutes he is going at a rate of fifteen miles an hour, but it is not possible to keep running at this rate very long.", "x": 0.1, "y": 0.4, "w": 0.55, "h": 0.15 },
+    { "text": "The runner is standing now in front of his doctor who has an instrument in his hand. Through this the doctor can hear the sounds made by the runner’s heart.", "x": 0.1, "y": 0.62, "w": 0.85, "h": 0.12 },
+    { "text": "possible: able to be done. under: less than. record: doing better than before. standing: on feet, not moving. FUTURE: will stand. PRESENT: stand(s). PAST: stood.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.18 }
+  ]
+}

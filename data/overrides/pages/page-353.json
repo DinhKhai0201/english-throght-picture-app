@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Why is this? Why is it easy for young children to learn languages? Part of the answer is that children have so many needs. They need to be helped by grownups at every turn.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
+    { "text": "They have to make their needs known and they are always watching the effect of what they say and trying new ways of getting what they want. Children are learning new things all the time.", "x": 0.1, "y": 0.15, "w": 0.85, "h": 0.1 },
+    { "text": "watching: looking at. always: at all times, all the time. want: have a desire for.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.12 },
+    { "text": "FUTURE: will want/watch. PRESENT: want(s)/watch(es). PAST: wanted/watched.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
+  ]
+}
