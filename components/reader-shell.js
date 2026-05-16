@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useEffect, useMemo, useRef, useState } from "react";
 
 const LAST_PAGE_KEY = "english-through-pictures:last-page";
@@ -7,6 +8,10 @@ const SETTINGS_KEY = "english-through-pictures:settings";
 const CHUNK_SIZE = 50;
 const defaultStatus = "Idle";
 const LONG_PRESS_MS = 420;
+const VIRTUAL_WINDOW = 2;
+const PRELOAD_AHEAD = 3;
+const DEFAULT_IMAGE_WIDTH = 1180;
+const DEFAULT_IMAGE_HEIGHT = 1875;
 
 export default function ReaderShell({ manifest, initialPage, initialPageNumber, queryPageNumber }) {
   const manifestPages = manifest.pages;
@@ -48,11 +53,28 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const longPressTriggeredRef = useRef(false);
   const hideScrollAnchorTimerRef = useRef(null);
   const scrollSyncRafRef = useRef(null);
+  const scrubberMoveRafRef = useRef(null);
+  const pendingScrubberPageRef = useRef(null);
 
   const totalChunks = Math.ceil(manifestPages.length / CHUNK_SIZE);
   const visibleEntries = useMemo(
     () => mountedChunkIndexes.flatMap((chunkIndex) => getChunkEntries(manifestPages, chunkIndex)),
     [manifestPages, mountedChunkIndexes],
+  );
+  const currentVisibleIndex = Math.max(0, visibleEntries.findIndex((entry) => entry.page === currentPageNumber));
+  const mountedPageNumbers = useMemo(
+    () => new Set(
+      visibleEntries
+        .filter((_, index) => Math.abs(index - currentVisibleIndex) <= VIRTUAL_WINDOW)
+        .map((entry) => entry.page),
+    ),
+    [currentVisibleIndex, visibleEntries],
+  );
+  const preloadPageNumbers = useMemo(
+    () => visibleEntries
+      .slice(currentVisibleIndex, currentVisibleIndex + PRELOAD_AHEAD + 1)
+      .map((entry) => entry.page),
+    [currentVisibleIndex, visibleEntries],
   );
 
   useEffect(() => {
@@ -136,7 +158,10 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   }, [editorMode, hydrated, rate, showBoxes, voiceUri]);
 
   useEffect(() => {
-    const missing = visibleEntries.filter((entry) => !pageDataMap.has(entry.page) && !loadingRef.current.has(entry.page));
+    const neededPages = [...new Set([...mountedPageNumbers, ...preloadPageNumbers])];
+    const missing = neededPages
+      .filter((pageNumber) => !pageDataMap.has(pageNumber) && !loadingRef.current.has(pageNumber))
+      .map((pageNumber) => ({ page: pageNumber }));
     if (!missing.length) return;
 
     missing.forEach((entry) => loadingRef.current.add(entry.page));
@@ -151,7 +176,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
       }),
     )
       .then((pages) => {
-        const allowedPages = new Set(visibleEntries.map((entry) => entry.page));
+        const allowedPages = new Set(neededPages);
         setPageDataMap((current) => {
           const next = new Map();
           for (const [pageNumber, page] of current.entries()) {
@@ -170,7 +195,20 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
       .finally(() => {
         missing.forEach((entry) => loadingRef.current.delete(entry.page));
       });
-  }, [pageDataMap, visibleEntries]);
+  }, [mountedPageNumbers, pageDataMap, preloadPageNumbers]);
+
+  useEffect(() => {
+    if (!hydrated) return;
+
+    preloadPageNumbers.forEach((pageNumber, index) => {
+      if (index === 0) return;
+      const page = pageDataMap.get(pageNumber);
+      const imagePath = page?.imageApiPath || `/api/books/${encodeURIComponent(`page ${pageNumber}.png`)}`;
+      const image = new window.Image();
+      image.decoding = "async";
+      image.src = imagePath;
+    });
+  }, [hydrated, pageDataMap, preloadPageNumbers]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -303,6 +341,9 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
       }
       if (scrollSyncRafRef.current) {
         cancelAnimationFrame(scrollSyncRafRef.current);
+      }
+      if (scrubberMoveRafRef.current) {
+        cancelAnimationFrame(scrubberMoveRafRef.current);
       }
     };
   }, [currentPageNumber, hydrated, isScrubbing]);
@@ -543,7 +584,16 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
     if (!targetPage) return;
     setScrubberPreviewPage(targetPage);
     if (targetPage !== currentPageNumber) {
-      scrollToChunkPage(targetPage);
+      pendingScrubberPageRef.current = targetPage;
+      if (scrubberMoveRafRef.current) return;
+      scrubberMoveRafRef.current = requestAnimationFrame(() => {
+        scrubberMoveRafRef.current = null;
+        const nextPage = pendingScrubberPageRef.current;
+        pendingScrubberPageRef.current = null;
+        if (nextPage && nextPage !== currentPageNumber) {
+          scrollToChunkPage(nextPage);
+        }
+      });
     }
   }
 
@@ -616,8 +666,10 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
       <main className="continuous-reader">
         {visibleEntries.map((entry) => {
           const page = pageDataMap.get(entry.page);
-          const shouldRenderPage = renderablePages.has(entry.page) || entry.page === currentPageNumber;
-          const aspectRatio = page ? `${page.stats.imageWidth} / ${page.stats.imageHeight}` : "1180 / 1875";
+          const shouldRenderPage = mountedPageNumbers.has(entry.page) && (renderablePages.has(entry.page) || entry.page === currentPageNumber);
+          const imageWidth = page?.stats?.imageWidth || DEFAULT_IMAGE_WIDTH;
+          const imageHeight = page?.stats?.imageHeight || DEFAULT_IMAGE_HEIGHT;
+          const aspectRatio = `${imageWidth} / ${imageHeight}`;
           return (
             <article
               key={entry.page}
@@ -642,12 +694,14 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
                     >
                       ▶
                     </button>
-                    <img
+                    <Image
                       src={page.imageApiPath || `/api/books/${encodeURIComponent(`page ${page.page}.png`)}`}
                       alt={`Page ${page.page}`}
                       className="page-image"
-                      loading="lazy"
-                      decoding="async"
+                      width={imageWidth}
+                      height={imageHeight}
+                      sizes="(max-width: 900px) 100vw, 1240px"
+                      priority={entry.page === currentPageNumber}
                     />
                     <div className="region-layer">
                       {page.regions.map((region) => {
@@ -691,7 +745,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
                   </div>
                 ) : (
                   <div className="page-loading" style={{ aspectRatio }}>
-                    Loading page {entry.page}...
+                    {mountedPageNumbers.has(entry.page) ? `Loading page ${entry.page}...` : `Page ${entry.page}`}
                   </div>
                 )}
               </div>

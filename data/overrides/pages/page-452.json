@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Before money, men did business by exchanging goods they were willing to give up for things they wanted more. This still happens today.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.25 },
+    { "text": "Money made trade easier and business better. If you have money, you can buy what you want without finding something to exchange.", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.18 },
+    { "text": "exchange: giving one thing for another. willing: ready to do something. still: up to now. trade: exchange of things or money.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.1 },
+    { "text": "FUTURE: will trade, will invent. PRESENT: trade(s), invent(s). PAST: traded, invented.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.1 }
+  ]
+}

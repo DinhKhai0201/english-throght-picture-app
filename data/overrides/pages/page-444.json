@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Our ideas about Space and Time are changing. Today we can fly round the world in twenty-four hours.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.15 },
+    { "text": "The earth turns in twenty-four hours. A man flying west at 1000 m.p.h. would see the earth turning under him while the sun stays in place.", "x": 0.1, "y": 0.25, "w": 0.85, "h": 0.2 },
+    { "text": "A hundred years ago people thought the world was 6000 years old. Now scientists say it is six billion years old.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.1 },
+    { "text": "Man himself is at least five hundred thousand years old.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
+  ]
+}

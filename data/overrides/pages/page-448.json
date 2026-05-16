@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "A record was made by making cuts on a stick. The number of cuts equaled the number of things recorded.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
+    { "text": "The stick was cut in half so each half had half of every cut. These two half sticks were tallies.", "x": 0.1, "y": 0.46, "w": 0.55, "h": 0.12 },
+    { "text": "If put side by side, the halves of the cuts came together. They tallied. Each man took one tally for the record.", "x": 0.1, "y": 0.58, "w": 0.55, "h": 0.15 },
+    { "text": "tally: one sort of record. FUTURE: will equal, will tally. PRESENT: equal(s), tally(ies). PAST: equaled, tallied.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.12 }
+  ]
+}

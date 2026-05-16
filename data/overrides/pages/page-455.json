@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Men traveled over mountains and seas before number systems or the compass. Many nations claim to have invented the compass.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.25 },
+    { "text": "Geometry (earth measuring) began when men learned to measure distances and angles. They went from measuring fields to measuring the earth itself.", "x": 0.1, "y": 0.58, "w": 0.85, "h": 0.18 },
+    { "text": "compass: instrument showing direction. geometry: science of lines and spaces, from Greek 'ge' (earth) and 'metron' (measure).", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.15 }
+  ]
+}

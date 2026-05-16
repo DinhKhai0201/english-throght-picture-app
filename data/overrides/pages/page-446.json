@@ -1,0 +1,8 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Before writing, men made pictures on earth or sand, but rain washed them away. Stone and wood were better, especially cave walls.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "Ancient drawings were records. A man recording animals on a cave wall may have become the first artist.", "x": 0.1, "y": 0.22, "w": 0.45, "h": 0.35 },
+    { "text": "cave: deep hole in a mountain. Men lived in caves before they built houses. wash away: take away by the motion of water.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.15 }
+  ]
+}

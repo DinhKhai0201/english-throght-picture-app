@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The most important number today is zero (0). It is about a thousand years old, but no one knows who invented it.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
+    { "text": "Zeroes change numbers: one zero makes a number ten times larger, two zeroes a hundred times, and six zeroes make a million.", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.15 },
+    { "text": "Schools teach addition, subtraction, multiplication, and division. 5+5=10, 5-5=0, 5x5=25, 5÷5=1.", "x": 0.1, "y": 0.42, "w": 0.85, "h": 0.15 },
+    { "text": "FUTURE: will add, subtract, multiply. PRESENT: add(s), subtract(s), multiply(ies). PAST: added, subtracted, multiplied.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
+  ]
+}

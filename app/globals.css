@@ -214,16 +214,17 @@ button {
 }
 
 .page-section {
-  padding: 4px;
-  border: 1px solid transparent;
-  border-radius: 28px;
-  background: rgba(255, 253, 247, 0.34);
-  transition: border-color 160ms ease, background-color 160ms ease;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  transition: none;
+  overflow: visible;
 }
 
 .page-section.is-current {
-  border-color: rgba(181, 90, 54, 0.26);
-  background: rgba(255, 253, 247, 0.62);
+  border-color: transparent;
+  background: transparent;
 }
 
 .settings-head h2,
@@ -243,9 +244,9 @@ button {
 .page-stage {
   display: grid;
   place-items: center;
-  padding: 4px;
+  padding: 0;
   border: 0;
-  border-radius: 28px;
+  border-radius: inherit;
   background: transparent;
 }
 
@@ -258,7 +259,7 @@ button {
   display: block;
   width: 100%;
   height: auto;
-  border-radius: 18px;
+  border-radius: 0;
   box-shadow: var(--shadow);
 }
 
@@ -267,7 +268,7 @@ button {
   min-height: 40vh;
   display: grid;
   place-items: center;
-  border-radius: 18px;
+  border-radius: 0;
   background: rgba(255, 255, 255, 0.5);
   color: var(--muted);
   border: 1px dashed var(--line);
@@ -495,7 +496,7 @@ button:disabled {
   }
 
   .page-section {
-    border-radius: 22px;
+    border-radius: 0;
   }
 
   .pronunciation-card {
