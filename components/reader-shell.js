@@ -547,15 +547,20 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
           {pronunciationCard.loading ? <p>Loading pronunciation…</p> : null}
           {pronunciationCard.error ? <p>{pronunciationCard.error}</p> : null}
 
-          {pronunciationCard.data?.items?.length ? (
+          {pronunciationCard.data ? (
             <div className="pronunciation-list">
-              {pronunciationCard.data.items.map((item) => (
-                <div key={`${pronunciationCard.text}-${item.word}`} className="pronunciation-row">
-                  <strong>{item.word}</strong>
-                  <span>{item.found ? `/${item.ipa}/` : "No CMU entry"}</span>
-                  <span>{item.vietnameseApprox || "No approximation"}</span>
-                </div>
-              ))}
+              <div className="pronunciation-row">
+                <strong>ARPABET</strong>
+                <span>{pronunciationCard.data.arpabet || "No CMU entry"}</span>
+              </div>
+              <div className="pronunciation-row">
+                <strong>IPA</strong>
+                <span>{pronunciationCard.data.ipa ? `/${pronunciationCard.data.ipa}/` : "No IPA available"}</span>
+              </div>
+              <div className="pronunciation-row">
+                <strong>Vietnamese Approx</strong>
+                <span>{pronunciationCard.data.vietnameseApprox || "No approximation"}</span>
+              </div>
             </div>
           ) : null}
         </div>
