@@ -1,0 +1,12 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Say these numbers: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12.", "x": 0.1, "y": 0.15, "w": 0.38, "h": 0.08 },
+    { "text": "What number comes after 12? Thirteen.", "x": 0.1, "y": 0.23, "w": 0.35, "h": 0.05 },
+    { "text": "What comes after 13? Fourteen.", "x": 0.1, "y": 0.3, "w": 0.35, "h": 0.05 },
+    { "text": "What comes after 14? Fifteen.", "x": 0.1, "y": 0.36, "w": 0.35, "h": 0.05 },
+    { "text": "What numbers come after 15? Sixteen 16 Seventeen 17 Eighteen 18 Nineteen 19 Twenty 20", "x": 0.56, "y": 0.17, "w": 0.38, "h": 0.18 },
+    { "text": "Twenty 20 Twenty-one 21 Thirty 30 Thirty-one 31 Forty 40 Forty-one 41 Fifty 50 Fifty-one 51 Sixty 60 Seventy 70", "x": 0.09, "y": 0.6, "w": 0.4, "h": 0.12 },
+    { "text": "Eighty 80 Ninety 90 A hundred 100 A hundred and one 101 A thousand 1000 A million 1,000,000", "x": 0.53, "y": 0.6, "w": 0.4, "h": 0.12 }
+  ]
+}

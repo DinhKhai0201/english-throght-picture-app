@@ -1,0 +1,12 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Now I am making a cut at this angle in this bit of wood.", "x": 0.12, "y": 0.15, "w": 0.4, "h": 0.08 },
+    { "text": "The blade is going through the wood.", "x": 0.15, "y": 0.36, "w": 0.35, "h": 0.05 },
+    { "text": "This is my knife.", "x": 0.56, "y": 0.18, "w": 0.3, "h": 0.03 },
+    { "text": "This is the blade of my knife.", "x": 0.56, "y": 0.32, "w": 0.38, "h": 0.05 },
+    { "text": "I am making a line on the wood. I am making a line with a pencil.", "x": 0.12, "y": 0.54, "w": 0.4, "h": 0.1 },
+    { "text": "This is the pencil.", "x": 0.6, "y": 0.6, "w": 0.3, "h": 0.03 },
+    { "text": "This is the line.", "x": 0.65, "y": 0.73, "w": 0.3, "h": 0.03 }
+  ]
+}

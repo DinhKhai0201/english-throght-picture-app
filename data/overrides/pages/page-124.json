@@ -1,0 +1,13 @@
+{
+  "layout": "grid-3x2",
+  "regions": [
+    { "text": "QUESTIONS", "x": 0.4, "y": 0.08, "w": 0.2, "h": 0.03 },
+    { "text": "What do you see?", "x": 0.15, "y": 0.12, "w": 0.3, "h": 0.03 },
+    { "text": "What is he doing?", "x": 0.58, "y": 0.12, "w": 0.3, "h": 0.03 },
+    { "text": "What are they doing?", "x": 0.12, "y": 0.43, "w": 0.35, "h": 0.03 },
+    { "text": "What are these?", "x": 0.58, "y": 0.41, "w": 0.3, "h": 0.03 },
+    { "text": "What do we keep in the fridge?", "x": 0.12, "y": 0.66, "w": 0.35, "h": 0.08 },
+    { "text": "What are some different sorts of things? Give the names of ten different things which you see in a house.", "x": 0.54, "y": 0.67, "w": 0.4, "h": 0.15 },
+    { "text": "Answers are on page 121.", "x": 0.3, "y": 0.91, "w": 0.4, "h": 0.03 }
+  ]
+}

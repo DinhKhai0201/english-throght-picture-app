@@ -1,0 +1,10 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Mr. Smith has friends in California.", "x": 0.08, "y": 0.11, "w": 0.4, "h": 0.05 },
+    { "text": "Mr. Smith His friends Here are his friends. He and his friends are shaking hands. (See page 254)", "x": 0.08, "y": 0.35, "w": 0.4, "h": 0.15 },
+    { "text": "His friends were waiting for him at the station.", "x": 0.54, "y": 0.13, "w": 0.4, "h": 0.05 },
+    { "text": "They say, \"Did you have a good journey?\" He says, \"Yes, but it was a long journey.\"", "x": 0.08, "y": 0.52, "w": 0.4, "h": 0.12 },
+    { "text": "His friend says, \"Let me have your bag, please.\" He will go with his friends to their house.", "x": 0.52, "y": 0.55, "w": 0.4, "h": 0.12 }
+  ]
+}

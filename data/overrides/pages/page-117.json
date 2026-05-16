@@ -1,0 +1,15 @@
+{
+  "layout": "grid-4x2",
+  "regions": [
+    { "text": "QUESTIONS", "x": 0.4, "y": 0.06, "w": 0.2, "h": 0.03 },
+    { "text": "What is the time?", "x": 0.1, "y": 0.25, "w": 0.35, "h": 0.03 },
+    { "text": "What are these?", "x": 0.55, "y": 0.25, "w": 0.35, "h": 0.03 },
+    { "text": "What is this?", "x": 0.1, "y": 0.45, "w": 0.3, "h": 0.03 },
+    { "text": "What are these?", "x": 0.55, "y": 0.46, "w": 0.35, "h": 0.03 },
+    { "text": "What are these?", "x": 0.1, "y": 0.67, "w": 0.35, "h": 0.03 },
+    { "text": "What is this?", "x": 0.55, "y": 0.67, "w": 0.3, "h": 0.03 },
+    { "text": "What is this?", "x": 0.1, "y": 0.87, "w": 0.3, "h": 0.03 },
+    { "text": "What is this?", "x": 0.55, "y": 0.87, "w": 0.3, "h": 0.03 },
+    { "text": "Answers are on page 116.", "x": 0.3, "y": 0.91, "w": 0.4, "h": 0.03 }
+  ]
+}

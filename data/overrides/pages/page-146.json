@@ -1,0 +1,15 @@
+{
+  "layout": "grid",
+  "regions": [
+    { "text": "QUESTIONS", "x": 0.35, "y": 0.08, "w": 0.3, "h": 0.03 },
+    { "text": "On page 133, where did Mr. Smith get his ticket?", "x": 0.15, "y": 0.11, "w": 0.35, "h": 0.08 },
+    { "text": "How much was the ticket?", "x": 0.58, "y": 0.15, "w": 0.35, "h": 0.05 },
+    { "text": "How long was the journey to Los Angeles?", "x": 0.15, "y": 0.34, "w": 0.35, "h": 0.08 },
+    { "text": "Did he go in an airplane?", "x": 0.58, "y": 0.34, "w": 0.35, "h": 0.05 },
+    { "text": "What did his friends say to him when they saw him?", "x": 0.15, "y": 0.54, "w": 0.35, "h": 0.1 },
+    { "text": "What did he say on the card which he sent to Mrs. Smith?", "x": 0.58, "y": 0.54, "w": 0.35, "h": 0.1 },
+    { "text": "What are Tom and Jane learning at school?", "x": 0.15, "y": 0.74, "w": 0.35, "h": 0.08 },
+    { "text": "What did Mrs. Smith send to Mr. Smith from Tom and Jane?", "x": 0.58, "y": 0.74, "w": 0.38, "h": 0.1 },
+    { "text": "Answers are on page 148.", "x": 0.52, "y": 0.85, "w": 0.4, "h": 0.03 }
+  ]
+}

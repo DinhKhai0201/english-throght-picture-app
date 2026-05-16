@@ -1,0 +1,10 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This is a spoon. It is in my hand. This is a spoon which is in my hand.", "x": 0.12, "y": 0.28, "w": 0.35, "h": 0.1 },
+    { "text": "That is a glass of water. It is on the table. That is a glass of water which is on the table.", "x": 0.52, "y": 0.29, "w": 0.4, "h": 0.15 },
+    { "text": "This is a bone. It was in the dog's mouth. This is a bone which was in the dog's mouth.", "x": 0.09, "y": 0.66, "w": 0.4, "h": 0.1 },
+    { "text": "This is a dog. He had the bone.", "x": 0.54, "y": 0.57, "w": 0.35, "h": 0.05 },
+    { "text": "This is the dog who had it.", "x": 0.54, "y": 0.79, "w": 0.35, "h": 0.05 }
+  ]
+}

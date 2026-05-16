@@ -1,0 +1,17 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The boy is the brother of the girl.", "x": 0.1, "y": 0.11, "w": 0.38, "h": 0.05 },
+    { "text": "He is the girl's brother.", "x": 0.1, "y": 0.33, "w": 0.38, "h": 0.03 },
+    { "text": "He is her brother.", "x": 0.1, "y": 0.36, "w": 0.35, "h": 0.03 },
+    { "text": "The girl is the sister of the boy.", "x": 0.53, "y": 0.23, "w": 0.38, "h": 0.05 },
+    { "text": "She is the boy's sister.", "x": 0.53, "y": 0.28, "w": 0.38, "h": 0.03 },
+    { "text": "She is his sister.", "x": 0.53, "y": 0.31, "w": 0.35, "h": 0.03 },
+    { "text": "This man and woman", "x": 0.08, "y": 0.52, "w": 0.35, "h": 0.03 },
+    { "text": "have two sons", "x": 0.18, "y": 0.71, "w": 0.25, "h": 0.05 },
+    { "text": "and three daughters.", "x": 0.1, "y": 0.86, "w": 0.3, "h": 0.05 },
+    { "text": "This boy has one brother and three sisters.", "x": 0.52, "y": 0.69, "w": 0.4, "h": 0.08 },
+    { "text": "This girl has two brothers and two sisters.", "x": 0.52, "y": 0.77, "w": 0.4, "h": 0.08 },
+    { "text": "They are a family of seven (7).", "x": 0.52, "y": 0.85, "w": 0.4, "h": 0.05 }
+  ]
+}

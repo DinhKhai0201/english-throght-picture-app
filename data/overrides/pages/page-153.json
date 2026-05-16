@@ -1,0 +1,12 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Answers to questions on pages 140-141.", "x": 0.2, "y": 0.09, "w": 0.6, "h": 0.03 },
+    { "text": "Page 140", "x": 0.12, "y": 0.18, "w": 0.3, "h": 0.03 },
+    { "text": "They are shoes. He is putting his shoes on his feet. They are toothpaste and a toothbrush. She is brushing her teeth.", "x": 0.12, "y": 0.2, "w": 0.38, "h": 0.2 },
+    { "text": "They are shirts. He is putting his things in his bag. It is soap. She is washing her hands.", "x": 0.54, "y": 0.2, "w": 0.38, "h": 0.2 },
+    { "text": "Page 141", "x": 0.12, "y": 0.56, "w": 0.3, "h": 0.03 },
+    { "text": "He got his ticket at the ticket office in the station. The journey was four days long. They said, \"Did you have a good journey?\" They are learning reading and writing at school.", "x": 0.12, "y": 0.59, "w": 0.38, "h": 0.3 },
+    { "text": "The ticket was $132.35. No. He did not go in an airplane. He went in a train. He said, \"I had a good journey and will send you a long letter tomorrow. Love. John.\" She sent love from Tom and Jane.", "x": 0.54, "y": 0.59, "w": 0.38, "h": 0.3 }
+  ]
+}

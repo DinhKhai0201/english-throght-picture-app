@@ -1,0 +1,15 @@
+{
+  "layout": "grid-4x2",
+  "regions": [
+    { "text": "QUESTIONS", "x": 0.4, "y": 0.1, "w": 0.2, "h": 0.03 },
+    { "text": "This is a glass of milk. Is it clear? Do you see through it?", "x": 0.14, "y": 0.2, "w": 0.35, "h": 0.12 },
+    { "text": "Is the glass in this window clear? What do you see through the window?", "x": 0.55, "y": 0.28, "w": 0.38, "h": 0.1 },
+    { "text": "Is glass hard?", "x": 0.18, "y": 0.41, "w": 0.25, "h": 0.03 },
+    { "text": "Is meat soft?", "x": 0.58, "y": 0.41, "w": 0.25, "h": 0.03 },
+    { "text": "Is ice warm?", "x": 0.18, "y": 0.46, "w": 0.25, "h": 0.03 },
+    { "text": "Are flames cold?", "x": 0.58, "y": 0.46, "w": 0.3, "h": 0.03 },
+    { "text": "What is he doing?", "x": 0.15, "y": 0.82, "w": 0.3, "h": 0.03 },
+    { "text": "What is she doing?", "x": 0.55, "y": 0.82, "w": 0.3, "h": 0.03 },
+    { "text": "Answers are on page 121.", "x": 0.3, "y": 0.87, "w": 0.4, "h": 0.03 }
+  ]
+}

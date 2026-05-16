@@ -1,0 +1,10 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This is a basin.", "x": 0.15, "y": 0.13, "w": 0.35, "h": 0.03 },
+    { "text": "This is warm water in it.", "x": 0.1, "y": 0.33, "w": 0.4, "h": 0.03 },
+    { "text": "This is soap.", "x": 0.55, "y": 0.15, "w": 0.35, "h": 0.03 },
+    { "text": "What is she doing? She is washing her hands with soap and warm water.", "x": 0.1, "y": 0.54, "w": 0.4, "h": 0.25 },
+    { "text": "Her hands are wet now but they are clean. They were dirty.", "x": 0.54, "y": 0.77, "w": 0.4, "h": 0.08 }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The potatoes are on the plate.", "x": 0.1, "y": 0.13, "w": 0.38, "h": 0.05 },
+    { "text": "They were in the pot.", "x": 0.11, "y": 0.33, "w": 0.35, "h": 0.03 },
+    { "text": "They were hard.", "x": 0.11, "y": 0.36, "w": 0.35, "h": 0.03 },
+    { "text": "They are soft now.", "x": 0.11, "y": 0.39, "w": 0.35, "h": 0.03 },
+    { "text": "Mary is crushing them with a fork.", "x": 0.52, "y": 0.13, "w": 0.38, "h": 0.05 },
+    { "text": "They are not hard now.", "x": 0.52, "y": 0.39, "w": 0.38, "h": 0.03 },
+    { "text": "They are soft.", "x": 0.52, "y": 0.42, "w": 0.35, "h": 0.03 },
+    { "text": "Bread is soft.", "x": 0.18, "y": 0.55, "w": 0.25, "h": 0.03 },
+    { "text": "Meat is soft.", "x": 0.17, "y": 0.72, "w": 0.25, "h": 0.03 },
+    { "text": "Glass is hard.", "x": 0.58, "y": 0.56, "w": 0.25, "h": 0.03 },
+    { "text": "Butter is soft.", "x": 0.58, "y": 0.77, "w": 0.25, "h": 0.03 }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "layout": "single",
+  "regions": [
+    { "text": "WHAT ARE THESE THINGS?", "x": 0.25, "y": 0.07, "w": 0.5, "h": 0.03 },
+    { "text": "Answers are on page 149.", "x": 0.3, "y": 0.92, "w": 0.4, "h": 0.03 }
+  ]
+}

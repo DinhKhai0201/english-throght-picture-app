@@ -1,0 +1,10 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This morning Mrs. Smith got the card which Mr. Smith sent to her from San Francisco. She is reading it now. She is reading: \"I had a good journey. ...\"", "x": 0.12, "y": 0.09, "w": 0.4, "h": 0.18 },
+    { "text": "Reading and writing are parts of our education. We get a great part of our education at school. These boys and girls are at school. The teacher is teaching them.", "x": 0.52, "y": 0.09, "w": 0.4, "h": 0.18 },
+    { "text": "Mrs. Smith is sending Jane and Tom to school. They will be at school before nine. They get good teaching at school.", "x": 0.12, "y": 0.74, "w": 0.4, "h": 0.15 },
+    { "text": "At school, Tom and Jane are learning. They were reading and now they are writing.", "x": 0.52, "y": 0.53, "w": 0.4, "h": 0.1 },
+    { "text": "Tom is writing the word learning on the board. The teacher is teaching him the word learning.", "x": 0.52, "y": 0.79, "w": 0.4, "h": 0.12 }
+  ]
+}

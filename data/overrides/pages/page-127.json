@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This is a bedroom. There are two beds in it.", "x": 0.12, "y": 0.11, "w": 0.35, "h": 0.05 },
+    { "text": "This seat is by the bed.", "x": 0.52, "y": 0.13, "w": 0.35, "h": 0.03 },
+    { "text": "What is on the seat? A bag is on the seat.", "x": 0.12, "y": 0.52, "w": 0.35, "h": 0.08 },
+    { "text": "A woman is by the bed. Who is she? She is Mrs. Smith.", "x": 0.52, "y": 0.52, "w": 0.38, "h": 0.1 }
+  ]
+}
