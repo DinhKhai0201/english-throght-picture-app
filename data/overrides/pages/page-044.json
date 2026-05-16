@@ -1,0 +1,12 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This is my head.", "x": 0.2, "y": 0.15, "w": 0.25, "h": 0.03 },
+    { "text": "That is her head.", "x": 0.55, "y": 0.15, "w": 0.25, "h": 0.03 },
+    { "text": "These are my eyes.", "x": 0.15, "y": 0.53, "w": 0.35, "h": 0.03 },
+    { "text": "This is one eye.", "x": 0.15, "y": 0.77, "w": 0.2, "h": 0.08 },
+    { "text": "This is the other eye.", "x": 0.36, "y": 0.75, "w": 0.2, "h": 0.1 },
+    { "text": "Her eyes are open.", "x": 0.6, "y": 0.53, "w": 0.3, "h": 0.03 },
+    { "text": "Her eyes are shut.", "x": 0.58, "y": 0.75, "w": 0.3, "h": 0.03 }
+  ]
+}
