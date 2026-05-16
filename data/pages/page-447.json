@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20447.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 18,
-    "wordCount": 183,
+    "regionCount": 12,
+    "wordCount": 133,
     "imageWidth": 1242,
     "imageHeight": 1859
   },
@@ -18,8 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r6"
+        "r2",
+        "r4"
       ]
     },
     {
@@ -31,9 +31,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r4",
-        "r5"
+        "r3"
       ]
     },
     {
@@ -44,15 +42,11 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r5",
+        "r6",
         "r7",
-        "r8",
         "r9",
-        "r10",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r18"
+        "r10"
       ]
     },
     {
@@ -63,9 +57,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r8",
         "r11",
-        "r16",
-        "r17"
+        "r12"
       ]
     }
   ],
@@ -73,11 +67,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "How did a man know how many sheep he owned? Sometimes he used small",
+      "text": "How did a man know how many sheep he owned? Sometimes he used small stones or sticks, putting one of them",
       "x": 0.3366,
       "y": 0.0602,
       "w": 0.5628,
-      "h": 0.0523,
+      "h": 0.0781,
       "words": [
         "How",
         "did",
@@ -92,25 +86,6 @@
         "Sometimes",
         "he",
         "used",
-        "small"
-      ],
-      "conf": 96.1277,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "he owned? Sometimes he used small stones or sticks, putting one of them",
-      "x": 0.3366,
-      "y": 0.0861,
-      "w": 0.562,
-      "h": 0.0522,
-      "words": [
-        "he",
-        "owned?",
-        "Sometimes",
-        "he",
-        "used",
         "small",
         "stones",
         "or",
@@ -120,12 +95,12 @@
         "of",
         "them"
       ],
-      "conf": 94.9828,
+      "conf": 96.1277,
       "source": "psm-11"
     },
     {
-      "id": "r3",
-      "order": 2,
+      "id": "r2",
+      "order": 1,
       "text": "wh)",
       "x": 0.1353,
       "y": 0.1334,
@@ -138,30 +113,12 @@
       "source": "psm-11"
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "on each sheep he had.",
-      "x": 0.4187,
-      "y": 0.1538,
-      "w": 0.3857,
-      "h": 0.0371,
-      "words": [
-        "on",
-        "each",
-        "sheep",
-        "he",
-        "had."
-      ],
-      "conf": 84.5402,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
+      "id": "r3",
+      "order": 2,
       "text": "into a bag or pocket for each sheep he had.",
       "x": 0.5346,
       "y": 0.1382,
-      "w": 0.3631,
+      "w": 0.3663,
       "h": 0.0528,
       "words": [
         "into",
@@ -176,11 +133,11 @@
         "had."
       ],
       "conf": 96.6118,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
+      "id": "r4",
+      "order": 3,
       "text": "When: he came to the end of his sheep, the number of",
       "x": 0.0966,
       "y": 0.4562,
@@ -204,8 +161,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r5",
+      "order": 4,
       "text": "stones in the bag was the same as the number of his",
       "x": 0.1014,
       "y": 0.4987,
@@ -229,13 +186,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r6",
+      "order": 5,
       "text": "sheep. The stones and the sheep were equal in number.",
       "x": 0.1014,
       "y": 0.5239,
       "w": 0.7947,
-      "h": 0.0285,
+      "h": 0.028,
       "words": [
         "sheep.",
         "The",
@@ -248,36 +205,12 @@
         "in",
         "number."
       ],
-      "conf": 96.7125,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "The stones gave him a record of how many sheep ho",
-      "x": 0.0982,
-      "y": 0.5514,
-      "w": 0.8003,
-      "h": 0.0269,
-      "words": [
-        "The",
-        "stones",
-        "gave",
-        "him",
-        "a",
-        "record",
-        "of",
-        "how",
-        "many",
-        "sheep",
-        "ho"
-      ],
-      "conf": 96.1214,
+      "conf": 96.5029,
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r7",
+      "order": 6,
       "text": "The stones gave him a record of how many sheep ho the bag. And when lambs were born he could put in",
       "x": 0.0982,
       "y": 0.5514,
@@ -308,16 +241,16 @@
         "in"
       ],
       "conf": 96.1214,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
+      "id": "r8",
+      "order": 7,
       "text": "owned. When a sheep died he could take a stone out of",
       "x": 0.1014,
       "y": 0.5767,
       "w": 0.7979,
-      "h": 0.0285,
+      "h": 0.028,
       "words": [
         "owned.",
         "When",
@@ -332,36 +265,12 @@
         "out",
         "of"
       ],
-      "conf": 96.6257,
-      "source": "psm-6"
+      "conf": 96.4736,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "the bag. And when lambs were born he could put in",
-      "x": 0.1014,
-      "y": 0.6041,
-      "w": 0.7963,
-      "h": 0.0285,
-      "words": [
-        "the",
-        "bag.",
-        "And",
-        "when",
-        "lambs",
-        "were",
-        "born",
-        "he",
-        "could",
-        "put",
-        "in"
-      ],
-      "conf": 96.6563,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
+      "id": "r9",
+      "order": 8,
       "text": "another stone for each lamb.",
       "x": 0.1023,
       "y": 0.6278,
@@ -378,34 +287,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
-      "text": "lamb: baby sheep, young sheep. In the U.S.A, mect from sheep is lamb.",
-      "x": 0.0982,
-      "y": 0.7999,
-      "w": 0.7995,
-      "h": 0.0339,
-      "words": [
-        "lamb:",
-        "baby",
-        "sheep,",
-        "young",
-        "sheep.",
-        "In",
-        "the",
-        "U.S.A,",
-        "mect",
-        "from",
-        "sheep",
-        "is",
-        "lamb."
-      ],
-      "conf": 89.5601,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
+      "id": "r10",
+      "order": 9,
       "text": "lamb: meat of fu!",
       "x": 0.1014,
       "y": 0.8123,
@@ -421,8 +304,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
+      "id": "r11",
+      "order": 10,
       "text": "In Britain, the word mutton (from French for sheep) is used for the",
       "x": 0.1546,
       "y": 0.8295,
@@ -447,8 +330,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
+      "id": "r12",
+      "order": 11,
       "text": "sheep, young sheep. In the U.S.A. meat from sheep is lamb.",
       "x": 0.2415,
       "y": 0.8123,
@@ -469,23 +352,6 @@
       ],
       "conf": 92.9823,
       "source": "psm-11"
-    },
-    {
-      "id": "r18",
-      "order": 17,
-      "text": "meat of full-grown sheep.",
-      "x": 0.1562,
-      "y": 0.8445,
-      "w": 0.2818,
-      "h": 0.0215,
-      "words": [
-        "meat",
-        "of",
-        "full-grown",
-        "sheep."
-      ],
-      "conf": 95.5585,
-      "source": "psm-6"
     }
   ]
 }

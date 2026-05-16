@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20474.png",
   "layout": "single",
   "stats": {
-    "regionCount": 19,
-    "wordCount": 157,
+    "regionCount": 15,
+    "wordCount": 133,
     "imageWidth": 1155,
     "imageHeight": 1867
   },
@@ -32,11 +32,7 @@
         "r12",
         "r13",
         "r14",
-        "r15",
-        "r16",
-        "r17",
-        "r18",
-        "r19"
+        "r15"
       ]
     }
   ],
@@ -44,17 +40,20 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "There are many other so",
+      "text": "There are many other so of automatic controls.",
       "x": 0.11,
       "y": 0.0327,
       "w": 0.3896,
-      "h": 0.0214,
+      "h": 0.0433,
       "words": [
         "There",
         "are",
         "many",
         "other",
-        "so"
+        "so",
+        "of",
+        "automatic",
+        "controls."
       ],
       "conf": 96.5678,
       "source": "psm-11"
@@ -62,41 +61,6 @@
     {
       "id": "r2",
       "order": 1,
-      "text": "There are many other sorts PK",
-      "x": 0.11,
-      "y": 0.0252,
-      "w": 0.5463,
-      "h": 0.0493,
-      "words": [
-        "There",
-        "are",
-        "many",
-        "other",
-        "sorts",
-        "PK"
-      ],
-      "conf": 87.1291,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "of automatic controls.",
-      "x": 0.1108,
-      "y": 0.0589,
-      "w": 0.3264,
-      "h": 0.0171,
-      "words": [
-        "of",
-        "automatic",
-        "controls."
-      ],
-      "conf": 96.2507,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
       "text": "In this hotel a door is automatically opening to let a man go through. His body has shut off the light from an",
       "x": 0.11,
       "y": 0.2892,
@@ -127,12 +91,12 @@
         "from",
         "an"
       ],
-      "conf": 96.3874,
-      "source": "psm-6"
+      "conf": 96.59,
+      "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r3",
+      "order": 2,
       "text": "“electric eye” as he walked past it.",
       "x": 0.1108,
       "y": 0.3417,
@@ -151,8 +115,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
+      "id": "r4",
+      "order": 3,
       "text": "In this bank a bell is ringing loudly because someone has touched a window. The man was hoping to break into",
       "x": 0.11,
       "y": 0.5442,
@@ -182,34 +146,11 @@
         "into"
       ],
       "conf": 96.6752,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "touched a window. The man was hoping to break into",
-      "x": 0.11,
-      "y": 0.5726,
-      "w": 0.8442,
-      "h": 0.022,
-      "words": [
-        "touched",
-        "a",
-        "window.",
-        "The",
-        "man",
-        "was",
-        "hoping",
-        "to",
-        "break",
-        "into"
-      ],
-      "conf": 96.4722,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
+      "id": "r5",
+      "order": 4,
       "text": "the safe.",
       "x": 0.11,
       "y": 0.5994,
@@ -219,12 +160,12 @@
         "the",
         "safe."
       ],
-      "conf": 96.9618,
-      "source": "psm-6"
+      "conf": 95.7053,
+      "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r6",
+      "order": 5,
       "text": "Many offices, banks, stores and work plants are kept",
       "x": 0.1108,
       "y": 0.6502,
@@ -245,8 +186,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r7",
+      "order": 6,
       "text": "safe at all times by such automatic watchers.",
       "x": 0.1126,
       "y": 0.6765,
@@ -266,8 +207,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
+      "id": "r8",
+      "order": 7,
       "text": "ringing: sound made by a bell. We say that a bell rings.",
       "x": 0.1134,
       "y": 0.7322,
@@ -291,8 +232,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
+      "id": "r9",
+      "order": 8,
       "text": "safe: steel box where money and important papers are kept. They ore",
       "x": 0.1143,
       "y": 0.7493,
@@ -316,8 +257,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r13",
-      "order": 12,
+      "id": "r10",
+      "order": 9,
       "text": "hotel: building where people can get rooms for money.",
       "x": 0.1143,
       "y": 0.7841,
@@ -338,8 +279,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
+      "id": "r11",
+      "order": 10,
       "text": "safe when locked in it, if no one breaks it open.",
       "x": 0.1706,
       "y": 0.767,
@@ -362,8 +303,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
+      "id": "r12",
+      "order": 11,
       "text": "will ring will touch break",
       "x": 0.1134,
       "y": 0.8152,
@@ -380,31 +321,24 @@
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
-      "text": "will ring ring(s) rang, rung will touch touch (es) touched",
-      "x": 0.1134,
-      "y": 0.8147,
-      "w": 0.8442,
-      "h": 0.0348,
+      "id": "r13",
+      "order": 12,
+      "text": "rang, rung break(s)",
+      "x": 0.4797,
+      "y": 0.8179,
+      "w": 0.4779,
+      "h": 0.0472,
       "words": [
-        "will",
-        "ring",
-        "ring(s)",
         "rang,",
         "rung",
-        "will",
-        "touch",
-        "touch",
-        "(es)",
-        "touched"
+        "break(s)"
       ],
-      "conf": 92.2785,
-      "source": "psm-6"
+      "conf": 96.1265,
+      "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
+      "id": "r14",
+      "order": 13,
       "text": "ring(s)",
       "x": 0.4909,
       "y": 0.8147,
@@ -417,22 +351,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
-      "text": "break(s)",
-      "x": 0.4797,
-      "y": 0.849,
-      "w": 0.1169,
-      "h": 0.0161,
-      "words": [
-        "break(s)"
-      ],
-      "conf": 87.8794,
-      "source": "psm-11"
-    },
-    {
-      "id": "r19",
-      "order": 18,
+      "id": "r15",
+      "order": 14,
       "text": "broke, br",
       "x": 0.774,
       "y": 0.8318,

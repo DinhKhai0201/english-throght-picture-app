@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20427.png",
   "layout": "single",
   "stats": {
-    "regionCount": 16,
-    "wordCount": 104,
+    "regionCount": 8,
+    "wordCount": 67,
     "imageWidth": 1205,
     "imageHeight": 1892
   },
@@ -25,15 +25,7 @@
         "r5",
         "r6",
         "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16"
+        "r8"
       ]
     }
   ],
@@ -43,9 +35,9 @@
       "order": 0,
       "text": "Men need to see beautiful things and to have beautiful things about them.",
       "x": 0.0606,
-      "y": 0.0433,
-      "w": 0.8199,
-      "h": 0.0497,
+      "y": 0.0439,
+      "w": 0.8207,
+      "h": 0.0491,
       "words": [
         "Men",
         "need",
@@ -61,33 +53,17 @@
         "about",
         "them."
       ],
-      "conf": 96.518,
-      "source": "psm-6"
+      "conf": 96.2216,
+      "source": "psm-11"
     },
     {
       "id": "r2",
       "order": 1,
-      "text": "things about them.",
-      "x": 0.0606,
-      "y": 0.0719,
-      "w": 0.2622,
-      "h": 0.0211,
-      "words": [
-        "things",
-        "about",
-        "them."
-      ],
-      "conf": 94.3038,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "Drawing goes back very far in man’s past. The drawings of animals copied on this page may have been made as",
-      "x": 0.0573,
+      "text": "Drawing goes back very far in man’s past. The drawings of animals copied on this page may have been made as early as B.C.",
+      "x": 0.0531,
       "y": 0.1226,
-      "w": 0.8199,
-      "h": 0.0481,
+      "w": 0.8241,
+      "h": 0.0761,
       "words": [
         "Drawing",
         "goes",
@@ -109,72 +85,17 @@
         "have",
         "been",
         "made",
-        "as"
+        "as",
+        "early",
+        "as",
+        "B.C."
       ],
       "conf": 96.1423,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "of animals copied on this page may have been made as early as B.C.",
-      "x": 0.0531,
-      "y": 0.149,
-      "w": 0.8233,
-      "h": 0.0497,
-      "words": [
-        "of",
-        "animals",
-        "copied",
-        "on",
-        "this",
-        "page",
-        "may",
-        "have",
-        "been",
-        "made",
-        "as",
-        "early",
-        "as",
-        "B.C."
-      ],
-      "conf": 96.6647,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "early as B.C.",
-      "x": 0.0564,
-      "y": 0.1755,
-      "w": 0.2996,
-      "h": 0.0211,
-      "words": [
-        "early",
-        "as",
-        "B.C."
-      ],
-      "conf": 96.0173,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "Aj ins",
-      "x": 0.2216,
-      "y": 0.4693,
-      "w": 0.1718,
-      "h": 0.0529,
-      "words": [
-        "Aj",
-        "ins"
-      ],
-      "conf": 43.4567,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
+      "id": "r3",
+      "order": 2,
       "text": "copled: a copy of something is another thing made as much like It",
       "x": 0.0539,
       "y": 0.7801,
@@ -199,100 +120,30 @@
       "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "drawing: making pictures with lines",
-      "x": 0.0556,
+      "id": "r4",
+      "order": 3,
+      "text": "drawing: making pictures with lines as possible, will copy",
+      "x": 0.0539,
       "y": 0.7627,
-      "w": 0.4075,
-      "h": 0.0159,
+      "w": 0.4092,
+      "h": 0.0962,
       "words": [
         "drawing:",
         "making",
         "pictures",
         "with",
-        "lines"
-      ],
-      "conf": 96.0594,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "drawing: moking pictures with lines, as possible,",
-      "x": 0.0556,
-      "y": 0.7627,
-      "w": 0.4149,
-      "h": 0.0491,
-      "words": [
-        "drawing:",
-        "moking",
-        "pictures",
-        "with",
-        "lines,",
-        "as",
-        "possible,"
-      ],
-      "conf": 92.6361,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "as possible, will copy",
-      "x": 0.0539,
-      "y": 0.7981,
-      "w": 0.1835,
-      "h": 0.0608,
-      "words": [
+        "lines",
         "as",
         "possible,",
         "will",
         "copy"
       ],
-      "conf": 96.1049,
-      "source": "psm-6"
+      "conf": 96.0594,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "will copy copy (les) copied",
-      "x": 0.0539,
-      "y": 0.843,
-      "w": 0.8216,
-      "h": 0.0206,
-      "words": [
-        "will",
-        "copy",
-        "copy",
-        "(les)",
-        "copied"
-      ],
-      "conf": 84.6294,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "wilt draw draw (s) drew, drawn",
-      "x": 0.0556,
-      "y": 0.8261,
-      "w": 0.8199,
-      "h": 0.0174,
-      "words": [
-        "wilt",
-        "draw",
-        "draw",
-        "(s)",
-        "drew,",
-        "drawn"
-      ],
-      "conf": 84.9997,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
+      "id": "r5",
+      "order": 4,
       "text": "draw",
       "x": 0.1087,
       "y": 0.8266,
@@ -305,8 +156,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
+      "id": "r6",
+      "order": 5,
       "text": "draw (s) copy (les)",
       "x": 0.4017,
       "y": 0.8251,
@@ -322,8 +173,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
+      "id": "r7",
+      "order": 6,
       "text": "drew, drawn",
       "x": 0.7129,
       "y": 0.8282,
@@ -337,8 +188,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
+      "id": "r8",
+      "order": 7,
       "text": "copied",
       "x": 0.7934,
       "y": 0.8451,

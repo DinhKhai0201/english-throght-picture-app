@@ -4,7 +4,7 @@
   "imageApiPath": "/api/books/page%20462.png",
   "layout": "single",
   "stats": {
-    "regionCount": 7,
+    "regionCount": 8,
     "wordCount": 69,
     "imageWidth": 1188,
     "imageHeight": 1846
@@ -24,7 +24,8 @@
         "r4",
         "r5",
         "r6",
-        "r7"
+        "r7",
+        "r8"
       ]
     }
   ],
@@ -32,18 +33,31 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "They saw that they could get half a field in this way...",
-      "x": 0.1052,
-      "y": 0.0385,
-      "w": 0.4647,
-      "h": 0.0526,
+      "text": "They saw that they could get",
+      "x": 0.1077,
+      "y": 0.0363,
+      "w": 0.4638,
+      "h": 0.0314,
       "words": [
         "They",
         "saw",
         "that",
         "they",
         "could",
-        "get",
+        "get"
+      ],
+      "conf": 96.6449,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "half a field in this way...",
+      "x": 0.1052,
+      "y": 0.0618,
+      "w": 0.399,
+      "h": 0.0293,
+      "words": [
         "half",
         "a",
         "field",
@@ -51,12 +65,12 @@
         "this",
         "way..."
       ],
-      "conf": 96.63,
-      "source": "psm-6"
+      "conf": 96.4237,
+      "source": "psm-11"
     },
     {
-      "id": "r2",
-      "order": 1,
+      "id": "r3",
+      "order": 2,
       "text": "or in this way,",
       "x": 0.1027,
       "y": 0.1945,
@@ -72,8 +86,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r3",
-      "order": 2,
+      "id": "r4",
+      "order": 3,
       "text": "before they knew how to measure rectangles or triangles.",
       "x": 0.0976,
       "y": 0.3256,
@@ -94,8 +108,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r4",
-      "order": 3,
+      "id": "r5",
+      "order": 4,
       "text": "Can you see whether these two fields have the same area?",
       "x": 0.0968,
       "y": 0.3781,
@@ -118,8 +132,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r6",
+      "order": 5,
       "text": "Put in lines to prove that they are or are not equal in",
       "x": 0.0968,
       "y": 0.792,
@@ -144,8 +158,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
+      "id": "r7",
+      "order": 6,
       "text": "area. The answer is at the bottom of page",
       "x": 0.1027,
       "y": 0.8202,
@@ -166,8 +180,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r8",
+      "order": 7,
       "text": "rectangle: a rectangle bas four straight sides aad four righ? angles.",
       "x": 0.1027,
       "y": 0.8602,

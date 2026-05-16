@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20450.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 169,
+    "regionCount": 8,
+    "wordCount": 130,
     "imageWidth": 1180,
     "imageHeight": 1846
   },
@@ -18,9 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r7",
-        "r8"
+        "r2",
+        "r4"
       ]
     },
     {
@@ -32,10 +31,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r6"
+        "r3"
       ]
     },
     {
@@ -46,8 +42,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r11",
-        "r12"
+        "r7",
+        "r8"
       ]
     },
     {
@@ -58,8 +54,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r10"
+        "r5",
+        "r6"
       ]
     }
   ],
@@ -67,11 +63,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "A bank teller must keep a complete record of the money he takes in and gives out. This is his way of making cer-",
-      "x": 0.1,
+      "text": "A bank teller must keep a complete record of the money he takes in and gives out. This is his way of making cer- tain that his accounts are in order. Banking is a very important sort of business. A bank must keep all its accounts in good order and the statements which tho",
+      "x": 0.0958,
       "y": 0.0412,
-      "w": 0.8263,
-      "h": 0.0476,
+      "w": 0.8347,
+      "h": 0.1257,
       "words": [
         "A",
         "bank",
@@ -96,57 +92,7 @@
         "way",
         "of",
         "making",
-        "cer-"
-      ],
-      "conf": 96.4671,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "he takes in and gives out. This is his way of making cer- tain that his accounts are in order. Banking is a very",
-      "x": 0.0958,
-      "y": 0.0666,
-      "w": 0.8347,
-      "h": 0.0504,
-      "words": [
-        "he",
-        "takes",
-        "in",
-        "and",
-        "gives",
-        "out.",
-        "This",
-        "is",
-        "his",
-        "way",
-        "of",
-        "making",
         "cer-",
-        "tain",
-        "that",
-        "his",
-        "accounts",
-        "are",
-        "in",
-        "order.",
-        "Banking",
-        "is",
-        "a",
-        "very"
-      ],
-      "conf": 96.0975,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "tain that his accounts are in order. Banking is a very important sort of business. A bank must keep all its",
-      "x": 0.0958,
-      "y": 0.0905,
-      "w": 0.8347,
-      "h": 0.0503,
-      "words": [
         "tain",
         "that",
         "his",
@@ -167,29 +113,6 @@
         "must",
         "keep",
         "all",
-        "its"
-      ],
-      "conf": 96.4776,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "important sort of business. A bank must keep all its accounts in good order and the statements which tho",
-      "x": 0.1008,
-      "y": 0.1186,
-      "w": 0.828,
-      "h": 0.0483,
-      "words": [
-        "important",
-        "sort",
-        "of",
-        "business.",
-        "A",
-        "bank",
-        "must",
-        "keep",
-        "all",
         "its",
         "accounts",
         "in",
@@ -201,12 +124,12 @@
         "which",
         "tho"
       ],
-      "conf": 96.2313,
-      "source": "psm-6"
+      "conf": 96.4671,
+      "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r2",
+      "order": 1,
       "text": "bank makes must be true statements.",
       "x": 0.0992,
       "y": 0.1712,
@@ -220,12 +143,12 @@
         "true",
         "statements."
       ],
-      "conf": 96.4247,
-      "source": "psm-6"
+      "conf": 96.0323,
+      "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
+      "id": "r3",
+      "order": 2,
       "text": "STATEMENT OF ACCOUNT—TOWN SANK",
       "x": 0.3102,
       "y": 0.351,
@@ -237,12 +160,12 @@
         "ACCOUNT—TOWN",
         "SANK"
       ],
-      "conf": 93.618,
-      "source": "psm-6"
+      "conf": 88.1144,
+      "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r4",
+      "order": 3,
       "text": "Me. John Smith, First Street Po [wo]",
       "x": 0.178,
       "y": 0.3792,
@@ -257,30 +180,12 @@
         "Po",
         "[wo]"
       ],
-      "conf": 92.9861,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "Me. John Smith, First Street",
-      "x": 0.2008,
-      "y": 0.3792,
-      "w": 0.2992,
-      "h": 0.013,
-      "words": [
-        "Me.",
-        "John",
-        "Smith,",
-        "First",
-        "Street"
-      ],
       "conf": 85.8021,
       "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r5",
+      "order": 4,
       "text": "tn order: with nothing wrong. Things are In order when in their right places. When a man is in good health, his body is “in order.” When",
       "x": 0.1093,
       "y": 0.7898,
@@ -316,11 +221,11 @@
         "When"
       ],
       "conf": 93.1077,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r6",
+      "order": 5,
       "text": "he is il, it is “out of order.” The work of the police in a country Is",
       "x": 0.1661,
       "y": 0.8245,
@@ -349,8 +254,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
+      "id": "r7",
+      "order": 6,
       "text": "making certain: proving to himself and to others,",
       "x": 0.111,
       "y": 0.8597,
@@ -370,8 +275,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
+      "id": "r8",
+      "order": 7,
       "text": "to help to keep law and order.",
       "x": 0.1653,
       "y": 0.8451,

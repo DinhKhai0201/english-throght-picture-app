@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20449.png",
   "layout": "single",
   "stats": {
-    "regionCount": 23,
-    "wordCount": 276,
+    "regionCount": 8,
+    "wordCount": 175,
     "imageWidth": 1242,
     "imageHeight": 1859
   },
@@ -25,22 +25,7 @@
         "r5",
         "r6",
         "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17",
-        "r18",
-        "r19",
-        "r20",
-        "r21",
-        "r22",
-        "r23"
+        "r8"
       ]
     }
   ],
@@ -48,11 +33,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "Tallies are some of the earliest and simplest records of the numbers of things. They tell how many things have",
+      "text": "Tallies are some of the earliest and simplest records of the numbers of things. They tell how many things have been counted.",
       "x": 0.0862,
       "y": 0.0355,
       "w": 0.7955,
-      "h": 0.0543,
+      "h": 0.0759,
       "words": [
         "Tallies",
         "are",
@@ -73,59 +58,21 @@
         "how",
         "many",
         "things",
-        "have"
-      ],
-      "conf": 96.7795,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "the numbers of things. They tell how many things have been counted.",
-      "x": 0.0862,
-      "y": 0.0624,
-      "w": 0.7947,
-      "h": 0.0565,
-      "words": [
-        "the",
-        "numbers",
-        "of",
-        "things.",
-        "They",
-        "tell",
-        "how",
-        "many",
-        "things",
         "have",
         "been",
         "counted."
       ],
-      "conf": 96.7249,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "been counted.",
-      "x": 0.0902,
-      "y": 0.0931,
-      "w": 0.1908,
-      "h": 0.0183,
-      "words": [
-        "been",
-        "counted."
-      ],
-      "conf": 95.7816,
+      "conf": 96.7704,
       "source": "psm-11"
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "Even today in a bank a man who takes money",
-      "x": 0.091,
-      "y": 0.1974,
-      "w": 0.3188,
-      "h": 0.0485,
+      "id": "r2",
+      "order": 1,
+      "text": "Even today in a bank a man who takes money in and gives it out is sometimes named a teller.",
+      "x": 0.0902,
+      "y": 0.1953,
+      "w": 0.3205,
+      "h": 0.1264,
       "words": [
         "Even",
         "today",
@@ -136,43 +83,7 @@
         "man",
         "who",
         "takes",
-        "money"
-      ],
-      "conf": 95.5705,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "man who takes money in and gives it out is",
-      "x": 0.091,
-      "y": 0.2249,
-      "w": 0.3188,
-      "h": 0.0479,
-      "words": [
-        "man",
-        "who",
-        "takes",
         "money",
-        "in",
-        "and",
-        "gives",
-        "it",
-        "out",
-        "is"
-      ],
-      "conf": 96.3369,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "in and gives it out is sometimes named a",
-      "x": 0.0902,
-      "y": 0.2507,
-      "w": 0.3205,
-      "h": 0.0489,
-      "words": [
         "in",
         "and",
         "gives",
@@ -181,50 +92,20 @@
         "is",
         "sometimes",
         "named",
-        "a"
-      ],
-      "conf": 96.7373,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "sometimes named a teller.",
-      "x": 0.0902,
-      "y": 0.277,
-      "w": 0.3205,
-      "h": 0.0447,
-      "words": [
-        "sometimes",
-        "named",
         "a",
         "teller."
       ],
-      "conf": 57.6012,
-      "source": "psm-6"
+      "conf": 95.5705,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "teller.",
-      "x": 0.091,
-      "y": 0.3018,
-      "w": 0.0918,
-      "h": 0.0258,
-      "words": [
-        "teller."
-      ],
-      "conf": 95.8796,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "The shelf or table at which he works is a counter. On it he does his counting of the money coming in and going",
+      "id": "r3",
+      "order": 2,
+      "text": "The shelf or table at which he works is a counter. On it he does his counting of the money coming in and going out. He keeps a record of all this in his account book.",
       "x": 0.0878,
       "y": 0.4045,
-      "w": 0.7979,
-      "h": 0.0506,
+      "w": 0.7995,
+      "h": 0.0807,
       "words": [
         "The",
         "shelf",
@@ -249,30 +130,6 @@
         "coming",
         "in",
         "and",
-        "going"
-      ],
-      "conf": 96.3651,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "he does his counting of the money coming in and going out. He keeps a record of all this in his account book.",
-      "x": 0.0878,
-      "y": 0.433,
-      "w": 0.7995,
-      "h": 0.0522,
-      "words": [
-        "he",
-        "does",
-        "his",
-        "counting",
-        "of",
-        "the",
-        "money",
-        "coming",
-        "in",
-        "and",
         "going",
         "out.",
         "He",
@@ -287,17 +144,17 @@
         "account",
         "book."
       ],
-      "conf": 96.557,
-      "source": "psm-6"
+      "conf": 96.159,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "A man who makes a statement tells something. Most banks make a statement every month to each person",
-      "x": 0.0926,
+      "id": "r4",
+      "order": 3,
+      "text": "A man who makes a statement tells something. Most banks make a statement every month to each person banking with them to tell him what his account is. The statement tells him how much money he has in the bank at that date. Then both he and the bank have the record straight.",
+      "x": 0.091,
       "y": 0.51,
-      "w": 0.7923,
-      "h": 0.0516,
+      "w": 0.7979,
+      "h": 0.1549,
       "words": [
         "A",
         "man",
@@ -316,53 +173,7 @@
         "month",
         "to",
         "each",
-        "person"
-      ],
-      "conf": 96.2332,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "banks make a statement every month to each person banking with them to tell him what his account is. The",
-      "x": 0.0934,
-      "y": 0.539,
-      "w": 0.7923,
-      "h": 0.0485,
-      "words": [
-        "banks",
-        "make",
-        "a",
-        "statement",
-        "every",
-        "month",
-        "to",
-        "each",
         "person",
-        "banking",
-        "with",
-        "them",
-        "to",
-        "tell",
-        "him",
-        "what",
-        "his",
-        "account",
-        "is.",
-        "The"
-      ],
-      "conf": 93.9882,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "banking with them to tell him what his account is. The statement tells him how much money he has in the bank",
-      "x": 0.0926,
-      "y": 0.5654,
-      "w": 0.7931,
-      "h": 0.0483,
-      "words": [
         "banking",
         "with",
         "them",
@@ -384,56 +195,7 @@
         "has",
         "in",
         "the",
-        "bank"
-      ],
-      "conf": 96.1821,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "statement tells him how much money he has in the bank at that date. Then both he and the bank have the record",
-      "x": 0.0926,
-      "y": 0.5906,
-      "w": 0.7963,
-      "h": 0.05,
-      "words": [
-        "statement",
-        "tells",
-        "him",
-        "how",
-        "much",
-        "money",
-        "he",
-        "has",
-        "in",
-        "the",
         "bank",
-        "at",
-        "that",
-        "date.",
-        "Then",
-        "both",
-        "he",
-        "and",
-        "the",
-        "bank",
-        "have",
-        "the",
-        "record"
-      ],
-      "conf": 96.5593,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "at that date. Then both he and the bank have the record straight.",
-      "x": 0.091,
-      "y": 0.6159,
-      "w": 0.7971,
-      "h": 0.049,
-      "words": [
         "at",
         "that",
         "date.",
@@ -448,31 +210,17 @@
         "record",
         "straight."
       ],
-      "conf": 96.5869,
-      "source": "psm-6"
+      "conf": 96.2332,
+      "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
-      "text": "straight.",
+      "id": "r5",
+      "order": 4,
+      "text": "To get this statement ready, the banker has to take the amount of money given out (for any one person) from the amount of money put in.",
       "x": 0.091,
-      "y": 0.6439,
-      "w": 0.1119,
-      "h": 0.021,
-      "words": [
-        "straight."
-      ],
-      "conf": 96.1302,
-      "source": "psm-6"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "To get this statement ready, the banker has to take the amount of money given out (for any one person) from",
-      "x": 0.0918,
       "y": 0.6961,
-      "w": 0.7939,
-      "h": 0.0494,
+      "w": 0.7947,
+      "h": 0.0748,
       "words": [
         "To",
         "get",
@@ -494,29 +242,6 @@
         "any",
         "one",
         "person)",
-        "from"
-      ],
-      "conf": 96.7671,
-      "source": "psm-6"
-    },
-    {
-      "id": "r18",
-      "order": 17,
-      "text": "amount of money given out (for any one person) from the amount of money put in.",
-      "x": 0.091,
-      "y": 0.7224,
-      "w": 0.7939,
-      "h": 0.0485,
-      "words": [
-        "amount",
-        "of",
-        "money",
-        "given",
-        "out",
-        "(for",
-        "any",
-        "one",
-        "person)",
         "from",
         "the",
         "amount",
@@ -525,31 +250,12 @@
         "put",
         "in."
       ],
-      "conf": 96.5005,
-      "source": "psm-6"
+      "conf": 96.7671,
+      "source": "psm-11"
     },
     {
-      "id": "r19",
-      "order": 18,
-      "text": "the amount of money put in.",
-      "x": 0.091,
-      "y": 0.7483,
-      "w": 0.4002,
-      "h": 0.0226,
-      "words": [
-        "the",
-        "amount",
-        "of",
-        "money",
-        "put",
-        "in."
-      ],
-      "conf": 96.4992,
-      "source": "psm-6"
-    },
-    {
-      "id": "r20",
-      "order": 19,
+      "id": "r6",
+      "order": 5,
       "text": "tell: give an account of, give a story to someone.",
       "x": 0.091,
       "y": 0.809,
@@ -571,8 +277,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r21",
-      "order": 20,
+      "id": "r7",
+      "order": 6,
       "text": "straight: in this sense, right.",
       "x": 0.0918,
       "y": 0.8263,
@@ -589,8 +295,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r22",
-      "order": 21,
+      "id": "r8",
+      "order": 7,
       "text": "will tell",
       "x": 0.0926,
       "y": 0.8564,
@@ -602,23 +308,6 @@
       ],
       "conf": 94.5593,
       "source": "psm-11"
-    },
-    {
-      "id": "r23",
-      "order": 22,
-      "text": "will sell tell(s) told",
-      "x": 0.0926,
-      "y": 0.851,
-      "w": 0.7947,
-      "h": 0.0274,
-      "words": [
-        "will",
-        "sell",
-        "tell(s)",
-        "told"
-      ],
-      "conf": 83.1395,
-      "source": "psm-6"
     }
   ]
 }

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20436.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 18,
-    "wordCount": 191,
+    "regionCount": 13,
+    "wordCount": 144,
     "imageWidth": 1188,
     "imageHeight": 1842
   },
@@ -20,9 +20,7 @@
       "regionIds": [
         "r2",
         "r5",
-        "r6",
-        "r7",
-        "r11"
+        "r7"
       ]
     },
     {
@@ -36,9 +34,7 @@
         "r1",
         "r3",
         "r4",
-        "r8",
-        "r9",
-        "r10"
+        "r6"
       ]
     },
     {
@@ -49,10 +45,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r12",
-        "r13",
-        "r14",
-        "r16"
+        "r8",
+        "r10",
+        "r11"
       ]
     },
     {
@@ -63,9 +58,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r15",
-        "r17",
-        "r18"
+        "r9",
+        "r12",
+        "r13"
       ]
     }
   ],
@@ -73,11 +68,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "Again, when people are parting, they may say: “Good morning!” or “Good afternoon!” or “Good evening!” or",
+      "text": "Again, when people are parting, they may say: “Good",
       "x": 0.1094,
-      "y": 0.0326,
-      "w": 0.8258,
-      "h": 0.0494,
+      "y": 0.0304,
+      "w": 0.8249,
+      "h": 0.0277,
       "words": [
         "Again,",
         "when",
@@ -87,18 +82,10 @@
         "they",
         "may",
         "say:",
-        "“Good",
-        "morning!”",
-        "or",
-        "“Good",
-        "afternoon!”",
-        "or",
-        "“Good",
-        "evening!”",
-        "or"
+        "“Good"
       ],
-      "conf": 96.436,
-      "source": "psm-6"
+      "conf": 96.3637,
+      "source": "psm-11"
     },
     {
       "id": "r2",
@@ -157,28 +144,6 @@
     {
       "id": "r5",
       "order": 4,
-      "text": "They are not talking about the weather but saying",
-      "x": 0.1103,
-      "y": 0.1129,
-      "w": 0.7357,
-      "h": 0.0217,
-      "words": [
-        "They",
-        "are",
-        "not",
-        "talking",
-        "about",
-        "the",
-        "weather",
-        "but",
-        "saying"
-      ],
-      "conf": 96.6596,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
       "text": "They are not talking about the weather but saying all be well with you at this time!”",
       "x": 0.1103,
       "y": 0.1129,
@@ -204,37 +169,16 @@
         "time!”"
       ],
       "conf": 96.6596,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "all be well with you at this time!”",
-      "x": 0.1111,
-      "y": 0.1395,
-      "w": 0.4899,
-      "h": 0.0217,
-      "words": [
-        "all",
-        "be",
-        "well",
-        "with",
-        "you",
-        "at",
-        "this",
-        "time!”"
-      ],
-      "conf": 96.7248,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "You will find few people today who know that “Good- by!” is a short way- of saying be with you!” But",
+      "id": "r6",
+      "order": 5,
+      "text": "You will find few people today who know that “Good- by!” is a short way- of saying be with you!” But in times past, when religion had more place than it now has in education, a child be taught this very young",
       "x": 0.1094,
       "y": 0.1922,
-      "w": 0.8283,
-      "h": 0.0488,
+      "w": 0.83,
+      "h": 0.1015,
       "words": [
         "You",
         "will",
@@ -256,55 +200,7 @@
         "be",
         "with",
         "you!”",
-        "But"
-      ],
-      "conf": 94.8985,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "by!” is a short way- of saying be with you!” But in times past, when religion had more place than it now",
-      "x": 0.1103,
-      "y": 0.2161,
-      "w": 0.8274,
-      "h": 0.051,
-      "words": [
-        "by!”",
-        "is",
-        "a",
-        "short",
-        "way-",
-        "of",
-        "saying",
-        "be",
-        "with",
-        "you!”",
         "But",
-        "in",
-        "times",
-        "past,",
-        "when",
-        "religion",
-        "had",
-        "more",
-        "place",
-        "than",
-        "it",
-        "now"
-      ],
-      "conf": 95.7841,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "in times past, when religion had more place than it now has in education, a child be taught this very young",
-      "x": 0.1111,
-      "y": 0.2443,
-      "w": 0.8283,
-      "h": 0.0494,
-      "words": [
         "in",
         "times",
         "past,",
@@ -327,12 +223,12 @@
         "very",
         "young"
       ],
-      "conf": 96.4347,
-      "source": "psm-6"
+      "conf": 94.8985,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
+      "id": "r7",
+      "order": 6,
       "text": "as part of his knowledge of English.",
       "x": 0.112,
       "y": 0.2975,
@@ -351,61 +247,29 @@
       "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "parting: seporating, going away from one another.",
-      "x": 0.1136,
-      "y": 0.747,
-      "w": 0.5859,
-      "h": 0.0157,
+      "id": "r8",
+      "order": 7,
+      "text": "parting: seporating going oway from one anot night.",
+      "x": 0.1103,
+      "y": 0.7448,
+      "w": 0.5455,
+      "h": 0.0522,
       "words": [
         "parting:",
-        "seporating,",
+        "seporating",
         "going",
-        "away",
+        "oway",
         "from",
         "one",
-        "another."
-      ],
-      "conf": 93.8362,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "eveaing: fate afternoon and ‘early night.",
-      "x": 0.1136,
-      "y": 0.7861,
-      "w": 0.468,
-      "h": 0.032,
-      "words": [
-        "eveaing:",
-        "fate",
-        "afternoon",
-        "and",
-        "‘early",
+        "anot",
         "night."
       ],
-      "conf": 87.4344,
+      "conf": 91.4315,
       "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
-      "text": "night.",
-      "x": 0.1692,
-      "y": 0.7823,
-      "w": 0.0631,
-      "h": 0.0147,
-      "words": [
-        "night."
-      ],
-      "conf": 96.2983,
-      "source": "psm-11"
-    },
-    {
-      "id": "r15",
-      "order": 14,
+      "id": "r9",
+      "order": 8,
       "text": "part of the day which comes ofter noon ond before",
       "x": 0.2601,
       "y": 0.7655,
@@ -427,8 +291,27 @@
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
+      "id": "r10",
+      "order": 9,
+      "text": "eveaing: fate afternoon and ‘early night.",
+      "x": 0.1136,
+      "y": 0.7861,
+      "w": 0.468,
+      "h": 0.032,
+      "words": [
+        "eveaing:",
+        "fate",
+        "afternoon",
+        "and",
+        "‘early",
+        "night."
+      ],
+      "conf": 87.4344,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
       "text": "noon: point of time between morning and afternoon.",
       "x": 0.1128,
       "y": 0.8176,
@@ -448,8 +331,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
+      "id": "r12",
+      "order": 11,
       "text": "religion: thought, feeling, desire for, interest in man’s deepest needs.",
       "x": 0.1128,
       "y": 0.8523,
@@ -471,15 +354,15 @@
       "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
-      "text": "Gods in Christian teaching, thot Being on Whom all other beings depend.",
+      "id": "r13",
+      "order": 12,
+      "text": "Gods: in Christian teaching, thot Being on Whom all other beings depend.",
       "x": 0.1136,
-      "y": 0.8339,
+      "y": 0.8328,
       "w": 0.8291,
-      "h": 0.0179,
+      "h": 0.019,
       "words": [
-        "Gods",
+        "Gods:",
         "in",
         "Christian",
         "teaching,",
@@ -492,8 +375,8 @@
         "beings",
         "depend."
       ],
-      "conf": 93.7925,
-      "source": "psm-6"
+      "conf": 93.1616,
+      "source": "psm-11"
     }
   ]
 }

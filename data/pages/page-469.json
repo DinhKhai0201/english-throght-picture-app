@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20469.png",
   "layout": "single",
   "stats": {
-    "regionCount": 20,
-    "wordCount": 140,
+    "regionCount": 9,
+    "wordCount": 96,
     "imageWidth": 1234,
     "imageHeight": 1884
   },
@@ -26,18 +26,7 @@
         "r6",
         "r7",
         "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17",
-        "r18",
-        "r19",
-        "r20"
+        "r9"
       ]
     }
   ],
@@ -45,11 +34,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "Here is a water wheel being turned by water",
+      "text": "Here is a water wheel being turned by water power.",
       "x": 0.0835,
-      "y": 0.0504,
-      "w": 0.3266,
-      "h": 0.0515,
+      "y": 0.0483,
+      "w": 0.3273,
+      "h": 0.0754,
       "words": [
         "Here",
         "is",
@@ -59,70 +48,20 @@
         "being",
         "turned",
         "by",
-        "water"
-      ],
-      "conf": 96.5217,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "Here is a water wheel",
-      "x": 0.0867,
-      "y": 0.0483,
-      "w": 0.3241,
-      "h": 0.0249,
-      "words": [
-        "Here",
-        "is",
-        "a",
         "water",
-        "wheel"
+        "power."
       ],
       "conf": 96.2139,
       "source": "psm-11"
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "being turned by water FE power.",
-      "x": 0.0859,
-      "y": 0.0711,
-      "w": 0.6045,
-      "h": 0.0526,
-      "words": [
-        "being",
-        "turned",
-        "by",
-        "water",
-        "FE",
-        "power."
-      ],
-      "conf": 87.5444,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "power.",
-      "x": 0.0859,
-      "y": 0.1072,
-      "w": 0.094,
-      "h": 0.0165,
-      "words": [
-        "power."
-      ],
-      "conf": 81.4532,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
+      "id": "r2",
+      "order": 1,
       "text": "The weight of the water falling into the buckets",
       "x": 0.0827,
-      "y": 0.1513,
+      "y": 0.1518,
       "w": 0.3314,
-      "h": 0.0536,
+      "h": 0.0531,
       "words": [
         "The",
         "weight",
@@ -134,164 +73,47 @@
         "the",
         "buckets"
       ],
-      "conf": 96.6896,
-      "source": "psm-6"
+      "conf": 96.6571,
+      "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "falling into the buckets turns the wheel, and",
+      "id": "r3",
+      "order": 2,
+      "text": "turns the wheel, and the wheel, in turn, turns great round stones (millstones) for crushing (milling) grain and making it into flour.",
       "x": 0.0835,
-      "y": 0.1789,
-      "w": 0.3274,
-      "h": 0.0482,
-      "words": [
-        "falling",
-        "into",
-        "the",
-        "buckets",
-        "turns",
-        "the",
-        "wheel,",
-        "and"
-      ],
-      "conf": 96.85,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "turns the wheel, and the wheel, in turn,",
-      "x": 0.0867,
-      "y": 0.2044,
-      "w": 0.3225,
-      "h": 0.0472,
+      "y": 0.2022,
+      "w": 0.329,
+      "h": 0.1752,
       "words": [
         "turns",
         "the",
         "wheel,",
         "and",
-        "the",
-        "wheel,",
-        "in",
-        "turn,"
-      ],
-      "conf": 96.3462,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "the wheel, in turn, turns great round",
-      "x": 0.0867,
-      "y": 0.2309,
-      "w": 0.3249,
-      "h": 0.0467,
-      "words": [
         "the",
         "wheel,",
         "in",
         "turn,",
         "turns",
         "great",
-        "round"
-      ],
-      "conf": 96.3442,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "turns great round stones (millstones) for",
-      "x": 0.0883,
-      "y": 0.2558,
-      "w": 0.3241,
-      "h": 0.0473,
-      "words": [
-        "turns",
-        "great",
         "round",
         "stones",
         "(millstones)",
-        "for"
-      ],
-      "conf": 95.9384,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "stones (millstones) for crushing (milling) grain",
-      "x": 0.0867,
-      "y": 0.2824,
-      "w": 0.3258,
-      "h": 0.0473,
-      "words": [
-        "stones",
-        "(millstones)",
         "for",
-        "crushing",
-        "(milling)",
-        "grain"
-      ],
-      "conf": 96.5227,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "crushing (milling) grain and making it into",
-      "x": 0.0867,
-      "y": 0.3052,
-      "w": 0.3282,
-      "h": 0.0499,
-      "words": [
         "crushing",
         "(milling)",
         "grain",
         "and",
         "making",
         "it",
-        "into"
-      ],
-      "conf": 96.3332,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "and making it into flour.",
-      "x": 0.0859,
-      "y": 0.3339,
-      "w": 0.325,
-      "h": 0.0498,
-      "words": [
-        "and",
-        "making",
-        "it",
         "into",
         "flour."
       ],
-      "conf": 96.5651,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "flour.",
-      "x": 0.0891,
-      "y": 0.3599,
-      "w": 0.0786,
-      "h": 0.0175,
-      "words": [
-        "flour."
-      ],
-      "conf": 96.3332,
+      "conf": 96.604,
       "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
+      "id": "r4",
+      "order": 3,
       "text": "Men took their grain to the miller to be made into flour.",
       "x": 0.09,
       "y": 0.5855,
@@ -315,8 +137,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
+      "id": "r5",
+      "order": 4,
       "text": "Then they took the flour away and their wives made it",
       "x": 0.0867,
       "y": 0.6109,
@@ -339,23 +161,23 @@
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
+      "id": "r6",
+      "order": 5,
       "text": "into bread.",
-      "x": 0.09,
-      "y": 0.6385,
-      "w": 0.1515,
-      "h": 0.018,
+      "x": 0.0867,
+      "y": 0.6364,
+      "w": 0.1556,
+      "h": 0.0249,
       "words": [
         "into",
         "bread."
       ],
-      "conf": 96.8262,
-      "source": "psm-6"
+      "conf": 96.218,
+      "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
+      "id": "r7",
+      "order": 6,
       "text": "Men did all this everywhere in the old days before the invention of steam engines and electric power.",
       "x": 0.0859,
       "y": 0.6879,
@@ -382,51 +204,31 @@
         "power."
       ],
       "conf": 96.3773,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
-      "text": "invention of steam engines and electric power.",
-      "x": 0.0859,
-      "y": 0.7155,
-      "w": 0.6799,
-      "h": 0.0234,
-      "words": [
-        "invention",
-        "of",
-        "steam",
-        "engines",
-        "and",
-        "electric",
-        "power."
-      ],
-      "conf": 96.3596,
-      "source": "psm-6"
-    },
-    {
-      "id": "r19",
-      "order": 18,
-      "text": "miller: map who works in a mill.",
+      "id": "r8",
+      "order": 7,
+      "text": "miller: man who works io a mill.",
       "x": 0.0835,
       "y": 0.853,
-      "w": 0.3622,
-      "h": 0.0212,
+      "w": 0.3614,
+      "h": 0.0207,
       "words": [
         "miller:",
-        "map",
+        "man",
         "who",
         "works",
-        "in",
+        "io",
         "a",
         "mill."
       ],
-      "conf": 85.2884,
-      "source": "psm-6"
+      "conf": 76.8628,
+      "source": "psm-11"
     },
     {
-      "id": "r20",
-      "order": 19,
+      "id": "r9",
+      "order": 8,
       "text": "mills factory for making flour.",
       "x": 0.0867,
       "y": 0.8376,
@@ -439,8 +241,8 @@
         "making",
         "flour."
       ],
-      "conf": 94.5519,
-      "source": "psm-6"
+      "conf": 88.2207,
+      "source": "psm-11"
     }
   ]
 }

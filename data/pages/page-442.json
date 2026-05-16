@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20442.png",
   "layout": "single",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 83,
+    "regionCount": 9,
+    "wordCount": 72,
     "imageWidth": 1188,
     "imageHeight": 1838
   },
@@ -26,8 +26,7 @@
         "r6",
         "r7",
         "r8",
-        "r9",
-        "r10"
+        "r9"
       ]
     }
   ],
@@ -58,8 +57,8 @@
         "to",
         "say"
       ],
-      "conf": 96.5298,
-      "source": "psm-6"
+      "conf": 96.5548,
+      "source": "psm-11"
     },
     {
       "id": "r2",
@@ -139,35 +138,11 @@
         "say"
       ],
       "conf": 96.0053,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
       "id": "r6",
       "order": 5,
-      "text": "ers. They know that this is so, though they cannot say",
-      "x": 0.1061,
-      "y": 0.4587,
-      "w": 0.8241,
-      "h": 0.0229,
-      "words": [
-        "ers.",
-        "They",
-        "know",
-        "that",
-        "this",
-        "is",
-        "so,",
-        "though",
-        "they",
-        "cannot",
-        "say"
-      ],
-      "conf": 96.2709,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
       "text": "what Space is.",
       "x": 0.1069,
       "y": 0.4853,
@@ -182,8 +157,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r7",
+      "order": 6,
       "text": "There is more space free on this page than on some other",
       "x": 0.101,
       "y": 0.8014,
@@ -207,8 +182,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r8",
+      "order": 7,
       "text": "pages of the book which take longer to read.",
       "x": 0.101,
       "y": 0.8286,
@@ -229,8 +204,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r9",
+      "order": 8,
       "text": "travelers person who travels.",
       "x": 0.1027,
       "y": 0.8678,

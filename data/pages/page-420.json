@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20420.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 17,
-    "wordCount": 161,
+    "regionCount": 12,
+    "wordCount": 118,
     "imageWidth": 1171,
     "imageHeight": 1859
   },
@@ -19,8 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r2",
-        "r3",
-        "r5"
+        "r4"
       ]
     },
     {
@@ -32,9 +31,8 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r4",
-        "r6",
-        "r7"
+        "r3",
+        "r5"
       ]
     },
     {
@@ -45,12 +43,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r6",
         "r8",
-        "r10",
-        "r11",
-        "r12",
-        "r15",
-        "r16"
+        "r9",
+        "r11"
       ]
     },
     {
@@ -61,10 +57,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r13",
-        "r14",
-        "r17"
+        "r7",
+        "r10",
+        "r12"
       ]
     }
   ],
@@ -121,33 +116,11 @@
         "plants."
       ],
       "conf": 95.6685,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
       "id": "r3",
       "order": 2,
-      "text": "gen up into complex structures. Animals eat the plants.",
-      "x": 0.0845,
-      "y": 0.0877,
-      "w": 0.8301,
-      "h": 0.0221,
-      "words": [
-        "gen",
-        "up",
-        "into",
-        "complex",
-        "structures.",
-        "Animals",
-        "eat",
-        "the",
-        "plants."
-      ],
-      "conf": 96.1095,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
       "text": "Then animal waste and dead plants and fallen leaves are",
       "x": 0.0854,
       "y": 0.1135,
@@ -169,8 +142,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r4",
+      "order": 3,
       "text": "broken down into simpler forms again.",
       "x": 0.0854,
       "y": 0.1393,
@@ -188,23 +161,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "i KN",
-      "x": 0.2963,
-      "y": 0.2205,
-      "w": 0.4389,
-      "h": 0.0393,
-      "words": [
-        "i",
-        "KN"
-      ],
-      "conf": 68.0317,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
+      "id": "r5",
+      "order": 4,
       "text": "So the great round goes on without end, all made possible",
       "x": 0.0854,
       "y": 0.4701,
@@ -227,8 +185,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r6",
+      "order": 5,
       "text": "only by energy coming from the sun.",
       "x": 0.0854,
       "y": 0.497,
@@ -247,8 +205,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r7",
+      "order": 6,
       "text": "Scientists say that all the oxygen and all the carbon dioxide now in the air have been put there after use by",
       "x": 0.0863,
       "y": 0.5498,
@@ -279,11 +237,11 @@
         "by"
       ],
       "conf": 96.2753,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r8",
+      "order": 7,
       "text": "plants through photosynthesis.",
       "x": 0.0888,
       "y": 0.6046,
@@ -298,31 +256,9 @@
       "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "fallen: fatien tecves ore leaves which fell from trees",
-      "x": 0.0897,
-      "y": 0.7816,
-      "w": 0.6208,
-      "h": 0.0172,
-      "words": [
-        "fallen:",
-        "fatien",
-        "tecves",
-        "ore",
-        "leaves",
-        "which",
-        "fell",
-        "from",
-        "trees"
-      ],
-      "conf": 81.2611,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "fallen: fatien leaves ore leaves which fell from trees fall from the branches.",
+      "id": "r9",
+      "order": 8,
+      "text": "fallen: fatien tecves ore leaves which fell from trees fall from the branches.",
       "x": 0.0897,
       "y": 0.7816,
       "w": 0.6208,
@@ -330,7 +266,7 @@
       "words": [
         "fallen:",
         "fatien",
-        "leaves",
+        "tecves",
         "ore",
         "leaves",
         "which",
@@ -342,44 +278,12 @@
         "the",
         "branches."
       ],
-      "conf": 82.6073,
-      "source": "psm-6"
+      "conf": 81.2611,
+      "source": "psm-11"
     },
     {
-      "id": "r13",
-      "order": 12,
-      "text": "The of the leaves takes place in the foll of the year when they will fall foll(s) fell, fallen",
-      "x": 0.0905,
-      "y": 0.7988,
-      "w": 0.8403,
-      "h": 0.07,
-      "words": [
-        "The",
-        "of",
-        "the",
-        "leaves",
-        "takes",
-        "place",
-        "in",
-        "the",
-        "foll",
-        "of",
-        "the",
-        "year",
-        "when",
-        "they",
-        "will",
-        "fall",
-        "foll(s)",
-        "fell,",
-        "fallen"
-      ],
-      "conf": 95.5913,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
+      "id": "r10",
+      "order": 9,
       "text": "The of the leaves takes place in the foll of the year when they",
       "x": 0.1409,
       "y": 0.7988,
@@ -405,25 +309,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
-      "text": "fall from the branches.",
-      "x": 0.146,
-      "y": 0.8182,
-      "w": 0.257,
-      "h": 0.0129,
-      "words": [
-        "fall",
-        "from",
-        "the",
-        "branches."
-      ],
-      "conf": 96.1784,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
+      "id": "r11",
+      "order": 10,
       "text": "will fall",
       "x": 0.0871,
       "y": 0.8462,
@@ -437,8 +324,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
+      "id": "r12",
+      "order": 11,
       "text": "fell, fallen",
       "x": 0.7865,
       "y": 0.8472,

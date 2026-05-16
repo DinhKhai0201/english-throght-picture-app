@@ -2,68 +2,35 @@
   "page": 456,
   "image": "/books/page 456.png",
   "imageApiPath": "/api/books/page%20456.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 16,
-    "wordCount": 133,
+    "regionCount": 13,
+    "wordCount": 115,
     "imageWidth": 1196,
     "imageHeight": 1830
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2",
-        "r7",
-        "r9"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
+        "r2",
         "r3",
         "r4",
         "r5",
         "r6",
-        "r8"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r13",
-        "r14",
-        "r15",
-        "r16"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r7",
+        "r8",
+        "r9",
         "r10",
         "r11",
-        "r12"
+        "r12",
+        "r13"
       ]
     }
   ],
@@ -173,7 +140,7 @@
         "hour"
       ],
       "conf": 96.1657,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
       "id": "r5",
@@ -250,29 +217,14 @@
     {
       "id": "r9",
       "order": 8,
-      "text": "well a)",
-      "x": 0.4281,
-      "y": 0.4361,
-      "w": 0.0895,
-      "h": 0.024,
-      "words": [
-        "well",
-        "a)"
-      ],
-      "conf": 49.6016,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "pela? of earth The size of the earth, scientists now tell us, is about",
+      "text": "pelat cf earth The size of the earth, scientists now tell us, is about",
       "x": 0.1246,
-      "y": 0.6661,
+      "y": 0.671,
       "w": 0.8269,
-      "h": 0.0929,
+      "h": 0.088,
       "words": [
-        "pela?",
-        "of",
+        "pelat",
+        "cf",
         "earth",
         "The",
         "size",
@@ -286,52 +238,12 @@
         "is",
         "about"
       ],
-      "conf": 68.4803,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "pelat cf earth",
-      "x": 0.6221,
-      "y": 0.671,
-      "w": 0.1346,
-      "h": 0.0202,
-      "words": [
-        "pelat",
-        "cf",
-        "earth"
-      ],
       "conf": 84.2939,
       "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "The size of the earth, scientists now tell us, is about",
-      "x": 0.1246,
-      "y": 0.7224,
-      "w": 0.8269,
-      "h": 0.0366,
-      "words": [
-        "The",
-        "size",
-        "of",
-        "the",
-        "earth,",
-        "scientists",
-        "now",
-        "tell",
-        "us,",
-        "is",
-        "about"
-      ],
-      "conf": 92.819,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
+      "id": "r10",
+      "order": 9,
       "text": "miles round.",
       "x": 0.2441,
       "y": 0.7623,
@@ -345,8 +257,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
+      "id": "r11",
+      "order": 10,
       "text": "wells here, a deep hole in the earth from which water is got.",
       "x": 0.1246,
       "y": 0.8011,
@@ -371,8 +283,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
+      "id": "r12",
+      "order": 11,
       "text": "bottom: lowest part, opposite of “top.” This",
       "x": 0.1271,
       "y": 0.8437,
@@ -391,23 +303,21 @@
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
-      "text": "ls the hotfow of the glass,",
-      "x": 0.1848,
-      "y": 0.8574,
-      "w": 0.2918,
-      "h": 0.0279,
+      "id": "r13",
+      "order": 12,
+      "text": "the of the glass.",
+      "x": 0.2166,
+      "y": 0.8628,
+      "w": 0.2625,
+      "h": 0.0208,
       "words": [
-        "ls",
         "the",
-        "hotfow",
         "of",
         "the",
-        "glass,"
+        "glass."
       ],
-      "conf": 75.4348,
-      "source": "psm-6"
+      "conf": 89.4333,
+      "source": "psm-11"
     }
   ]
 }

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20479.png",
   "layout": "single",
   "stats": {
-    "regionCount": 31,
-    "wordCount": 286,
+    "regionCount": 11,
+    "wordCount": 175,
     "imageWidth": 1234,
     "imageHeight": 1859
   },
@@ -28,27 +28,7 @@
         "r8",
         "r9",
         "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17",
-        "r18",
-        "r19",
-        "r20",
-        "r21",
-        "r22",
-        "r23",
-        "r24",
-        "r25",
-        "r26",
-        "r27",
-        "r28",
-        "r29",
-        "r30",
-        "r31"
+        "r11"
       ]
     }
   ],
@@ -56,30 +36,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "It seems sometimes as if men",
-      "x": 0.0908,
+      "text": "It seems sometimes as if men want very much to put an end to waiting on one an- other. There are many ways, for example, of making the serving of food in restaurants more or less automatic. One of the causes of the high price of food in restaurants is the use of waiters and wait- resses. One waitress can serve only a small number of people, if she has to go to and from the tables with trays. And fewer people than before are interested in doing this sort of work even when the",
+      "x": 0.0891,
       "y": 0.0984,
-      "w": 0.4003,
-      "h": 0.0178,
-      "words": [
-        "It",
-        "seems",
-        "sometimes",
-        "as",
-        "if",
-        "men"
-      ],
-      "conf": 96.2422,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "It seems sometimes as if men want very much to put an end to waiting on one an-",
-      "x": 0.0908,
-      "y": 0.0984,
-      "w": 0.4003,
-      "h": 0.0732,
+      "w": 0.8032,
+      "h": 0.3884,
       "words": [
         "It",
         "seems",
@@ -98,64 +59,7 @@
         "waiting",
         "on",
         "one",
-        "an-"
-      ],
-      "conf": 96.5067,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "want very much to put an g",
-      "x": 0.0916,
-      "y": 0.1253,
-      "w": 0.8363,
-      "h": 0.0382,
-      "words": [
-        "want",
-        "very",
-        "much",
-        "to",
-        "put",
-        "an",
-        "g"
-      ],
-      "conf": 89.6257,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "end to waiting on one an- other. There are many ways,",
-      "x": 0.0908,
-      "y": 0.1512,
-      "w": 0.4003,
-      "h": 0.0473,
-      "words": [
-        "end",
-        "to",
-        "waiting",
-        "on",
-        "one",
         "an-",
-        "other.",
-        "There",
-        "are",
-        "many",
-        "ways,"
-      ],
-      "conf": 95.2872,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "other. There are many ways, for example, of making the",
-      "x": 0.0908,
-      "y": 0.1775,
-      "w": 0.4003,
-      "h": 0.0468,
-      "words": [
         "other.",
         "There",
         "are",
@@ -165,91 +69,17 @@
         "example,",
         "of",
         "making",
-        "the"
-      ],
-      "conf": 96.4545,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "serving of food in restaurants A",
-      "x": 0.09,
-      "y": 0.2044,
-      "w": 0.8509,
-      "h": 0.0576,
-      "words": [
-        "serving",
-        "of",
-        "food",
-        "in",
-        "restaurants",
-        "A"
-      ],
-      "conf": 94.8319,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "for example, of making the serving of food in restaurants more or less automatic. One",
-      "x": 0.09,
-      "y": 0.2028,
-      "w": 0.4036,
-      "h": 0.0705,
-      "words": [
-        "for",
-        "example,",
-        "of",
-        "making",
         "the",
         "serving",
         "of",
         "food",
         "in",
         "restaurants",
-        "more",
-        "or",
-        "less",
-        "automatic.",
-        "One"
-      ],
-      "conf": 96.4767,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "more or less automatic. One of the causes of the high",
-      "x": 0.09,
-      "y": 0.2561,
-      "w": 0.4036,
-      "h": 0.0478,
-      "words": [
         "more",
         "or",
         "less",
         "automatic.",
         "One",
-        "of",
-        "the",
-        "causes",
-        "of",
-        "the",
-        "high"
-      ],
-      "conf": 96.5823,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "of the causes of the high price of food in restaurants",
-      "x": 0.0908,
-      "y": 0.2824,
-      "w": 0.4019,
-      "h": 0.0484,
-      "words": [
         "of",
         "the",
         "causes",
@@ -260,24 +90,6 @@
         "of",
         "food",
         "in",
-        "restaurants"
-      ],
-      "conf": 96.5946,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "price of food in restaurants is the use of waiters and wait-",
-      "x": 0.0891,
-      "y": 0.3093,
-      "w": 0.4036,
-      "h": 0.0425,
-      "words": [
-        "price",
-        "of",
-        "food",
-        "in",
         "restaurants",
         "is",
         "the",
@@ -285,76 +97,11 @@
         "of",
         "waiters",
         "and",
-        "wait-"
-      ],
-      "conf": 95.5195,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "is the use of waiters and wait- walk",
-      "x": 0.0891,
-      "y": 0.3152,
-      "w": 0.7172,
-      "h": 0.0576,
-      "words": [
-        "is",
-        "the",
-        "use",
-        "of",
-        "waiters",
-        "and",
         "wait-",
-        "walk"
-      ],
-      "conf": 90.428,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "resses. One waitress can",
-      "x": 0.0924,
-      "y": 0.3609,
-      "w": 0.4011,
-      "h": 0.0172,
-      "words": [
-        "resses.",
-        "One",
-        "waitress",
-        "can"
-      ],
-      "conf": 95.0541,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "resses. One waitress can Cas",
-      "x": 0.0924,
-      "y": 0.348,
-      "w": 0.6305,
-      "h": 0.0554,
-      "words": [
         "resses.",
         "One",
         "waitress",
         "can",
-        "Cas"
-      ],
-      "conf": 84.8478,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "serve only a small number of people, if she has to go to and",
-      "x": 0.09,
-      "y": 0.3868,
-      "w": 0.4044,
-      "h": 0.0473,
-      "words": [
         "serve",
         "only",
         "a",
@@ -368,51 +115,7 @@
         "to",
         "go",
         "to",
-        "and"
-      ],
-      "conf": 96.4848,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "people, if she has to go to and from the tables with trays. And fewer people than before",
-      "x": 0.09,
-      "y": 0.4126,
-      "w": 0.8023,
-      "h": 0.0484,
-      "words": [
-        "people,",
-        "if",
-        "she",
-        "has",
-        "to",
-        "go",
-        "to",
         "and",
-        "from",
-        "the",
-        "tables",
-        "with",
-        "trays.",
-        "And",
-        "fewer",
-        "people",
-        "than",
-        "before"
-      ],
-      "conf": 96.6098,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "from the tables with trays. And fewer people than before are interested in doing this sort of work even when the",
-      "x": 0.0908,
-      "y": 0.4384,
-      "w": 0.8015,
-      "h": 0.0484,
-      "words": [
         "from",
         "the",
         "tables",
@@ -435,12 +138,12 @@
         "when",
         "the"
       ],
-      "conf": 96.5538,
-      "source": "psm-6"
+      "conf": 96.2422,
+      "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
+      "id": "r2",
+      "order": 1,
       "text": "hours are short, the pay is good and the work not too hard.",
       "x": 0.09,
       "y": 0.4906,
@@ -462,30 +165,16 @@
         "hard."
       ],
       "conf": 96.6799,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
-      "text": "hard.",
-      "x": 0.09,
-      "y": 0.5175,
-      "w": 0.0713,
-      "h": 0.0172,
-      "words": [
-        "hard."
-      ],
-      "conf": 96.0498,
-      "source": "psm-6"
-    },
-    {
-      "id": "r19",
-      "order": 18,
-      "text": "In present-day living more people than ever before eat at restaurants. Many housewives who used to have servants",
+      "id": "r3",
+      "order": 2,
+      "text": "In present-day living more people than ever before eat at restaurants. Many housewives who used to have servants now do all their own housework.",
       "x": 0.09,
       "y": 0.5702,
       "w": 0.8038,
-      "h": 0.0505,
+      "h": 0.0694,
       "words": [
         "In",
         "present-day",
@@ -504,50 +193,6 @@
         "used",
         "to",
         "have",
-        "servants"
-      ],
-      "conf": 96.4848,
-      "source": "psm-6"
-    },
-    {
-      "id": "r20",
-      "order": 19,
-      "text": "In present-day living more people than ever before eat at",
-      "x": 0.0932,
-      "y": 0.5702,
-      "w": 0.8006,
-      "h": 0.0226,
-      "words": [
-        "In",
-        "present-day",
-        "living",
-        "more",
-        "people",
-        "than",
-        "ever",
-        "before",
-        "eat",
-        "at"
-      ],
-      "conf": 96.4848,
-      "source": "psm-11"
-    },
-    {
-      "id": "r21",
-      "order": 20,
-      "text": "restaurants. Many housewives who used to have servants now do all their own housework.",
-      "x": 0.09,
-      "y": 0.596,
-      "w": 0.8023,
-      "h": 0.0436,
-      "words": [
-        "restaurants.",
-        "Many",
-        "housewives",
-        "who",
-        "used",
-        "to",
-        "have",
         "servants",
         "now",
         "do",
@@ -556,31 +201,12 @@
         "own",
         "housework."
       ],
-      "conf": 96.6404,
-      "source": "psm-6"
+      "conf": 96.4848,
+      "source": "psm-11"
     },
     {
-      "id": "r22",
-      "order": 21,
-      "text": "now do all their own housework.",
-      "x": 0.09,
-      "y": 0.6197,
-      "w": 0.4498,
-      "h": 0.0199,
-      "words": [
-        "now",
-        "do",
-        "all",
-        "their",
-        "own",
-        "housework."
-      ],
-      "conf": 96.0996,
-      "source": "psm-6"
-    },
-    {
-      "id": "r23",
-      "order": 22,
+      "id": "r4",
+      "order": 3,
       "text": "serve: give out, put before, do things for.",
       "x": 0.09,
       "y": 0.7622,
@@ -600,8 +226,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r24",
-      "order": 23,
+      "id": "r5",
+      "order": 4,
       "text": "waiter: man who serves at table or in a restaurant.",
       "x": 0.09,
       "y": 0.7795,
@@ -623,8 +249,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r25",
-      "order": 24,
+      "id": "r6",
+      "order": 5,
       "text": "servant: one who serves others, for example, a person who Is paid to",
       "x": 0.0891,
       "y": 0.8155,
@@ -649,8 +275,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r26",
-      "order": 25,
+      "id": "r7",
+      "order": 6,
       "text": "waitress: woman who does the same.",
       "x": 0.09,
       "y": 0.7972,
@@ -668,8 +294,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r27",
-      "order": 26,
+      "id": "r8",
+      "order": 7,
       "text": "do housework.",
       "x": 0.141,
       "y": 0.8322,
@@ -683,8 +309,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r28",
-      "order": 27,
+      "id": "r9",
+      "order": 8,
       "text": "will serve",
       "x": 0.0859,
       "y": 0.8601,
@@ -698,25 +324,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r29",
-      "order": 28,
-      "text": "witl serve serve(s) served",
-      "x": 0.0891,
-      "y": 0.8612,
-      "w": 0.8023,
-      "h": 0.0204,
-      "words": [
-        "witl",
-        "serve",
-        "serve(s)",
-        "served"
-      ],
-      "conf": 90.2363,
-      "source": "psm-6"
-    },
-    {
-      "id": "r30",
-      "order": 29,
+      "id": "r10",
+      "order": 9,
       "text": "sorve(s)",
       "x": 0.4352,
       "y": 0.8634,
@@ -729,8 +338,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r31",
-      "order": 30,
+      "id": "r11",
+      "order": 10,
       "text": "served",
       "x": 0.8096,
       "y": 0.8634,

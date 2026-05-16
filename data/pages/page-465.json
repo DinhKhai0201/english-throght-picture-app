@@ -2,21 +2,21 @@
   "page": 465,
   "image": "/books/page 465.png",
   "imageApiPath": "/api/books/page%20465.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 20,
-    "wordCount": 279,
+    "regionCount": 8,
+    "wordCount": 177,
     "imageWidth": 1242,
     "imageHeight": 1884
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
         "r2",
@@ -27,59 +27,17 @@
         "r7",
         "r8"
       ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r9",
-        "r10",
-        "r11"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r16",
-        "r19",
-        "r20"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r17",
-        "r18"
-      ]
     }
   ],
   "regions": [
     {
       "id": "r1",
       "order": 0,
-      "text": "It was not until many centuries later that men put this knowledge of geometry to wide use. The development of",
-      "x": 0.099,
+      "text": "It was not until many centuries later that men put this knowledge of geometry to wide use. The development of science had to wait until the days of Galileo and Newton.",
+      "x": 0.0958,
       "y": 0.0435,
-      "w": 0.7947,
-      "h": 0.0473,
+      "w": 0.7979,
+      "h": 0.076,
       "words": [
         "It",
         "was",
@@ -92,28 +50,6 @@
         "men",
         "put",
         "this",
-        "knowledge",
-        "of",
-        "geometry",
-        "to",
-        "wide",
-        "use.",
-        "The",
-        "development",
-        "of"
-      ],
-      "conf": 96.6079,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "knowledge of geometry to wide use. The development of science had to wait until the days of Galileo and Newton.",
-      "x": 0.0958,
-      "y": 0.069,
-      "w": 0.7979,
-      "h": 0.0505,
-      "words": [
         "knowledge",
         "of",
         "geometry",
@@ -135,17 +71,17 @@
         "and",
         "Newton."
       ],
-      "conf": 96.3727,
-      "source": "psm-6"
+      "conf": 96.6079,
+      "source": "psm-11"
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "In the last three centuries men’s ways of living have been and are being deeply changed by science. These changes",
-      "x": 0.0998,
+      "id": "r2",
+      "order": 1,
+      "text": "In the last three centuries men’s ways of living have been and are being deeply changed by science. These changes can be compared only with three or four great earlier steps in the history of man’s development. These are the birth of language, the use of fire and farming, and the invention of writing.",
+      "x": 0.0958,
       "y": 0.12,
-      "w": 0.7931,
-      "h": 0.0493,
+      "w": 0.7979,
+      "h": 0.1507,
       "words": [
         "In",
         "the",
@@ -166,52 +102,7 @@
         "by",
         "science.",
         "These",
-        "changes"
-      ],
-      "conf": 96.0567,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "and are being deeply changed by science. These changes can be compared only with three or four great earlier",
-      "x": 0.0998,
-      "y": 0.1465,
-      "w": 0.7939,
-      "h": 0.0483,
-      "words": [
-        "and",
-        "are",
-        "being",
-        "deeply",
-        "changed",
-        "by",
-        "science.",
-        "These",
         "changes",
-        "can",
-        "be",
-        "compared",
-        "only",
-        "with",
-        "three",
-        "or",
-        "four",
-        "great",
-        "earlier"
-      ],
-      "conf": 96.7033,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "can be compared only with three or four great earlier steps in the history of man’s development. These are the",
-      "x": 0.0998,
-      "y": 0.1725,
-      "w": 0.7939,
-      "h": 0.0472,
-      "words": [
         "can",
         "be",
         "compared",
@@ -231,54 +122,7 @@
         "development.",
         "These",
         "are",
-        "the"
-      ],
-      "conf": 96.3718,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "steps in the history of man’s development. These are the birth of language, the use of fire and farming, and the",
-      "x": 0.0958,
-      "y": 0.1985,
-      "w": 0.7979,
-      "h": 0.0488,
-      "words": [
-        "steps",
-        "in",
         "the",
-        "history",
-        "of",
-        "man’s",
-        "development.",
-        "These",
-        "are",
-        "the",
-        "birth",
-        "of",
-        "language,",
-        "the",
-        "use",
-        "of",
-        "fire",
-        "and",
-        "farming,",
-        "and",
-        "the"
-      ],
-      "conf": 96.6553,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "birth of language, the use of fire and farming, and the invention of writing.",
-      "x": 0.0958,
-      "y": 0.2213,
-      "w": 0.7979,
-      "h": 0.0494,
-      "words": [
         "birth",
         "of",
         "language,",
@@ -294,53 +138,17 @@
         "of",
         "writing."
       ],
-      "conf": 96.6011,
-      "source": "psm-6"
+      "conf": 96.0567,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "invention of writing.",
-      "x": 0.0998,
-      "y": 0.2495,
-      "w": 0.277,
-      "h": 0.0212,
-      "words": [
-        "invention",
-        "of",
-        "writing."
-      ],
-      "conf": 93.1657,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "Sf Here is a horse walking round",
-      "x": 0.2657,
-      "y": 0.3471,
-      "w": 0.6296,
-      "h": 0.0276,
-      "words": [
-        "Sf",
-        "Here",
-        "is",
-        "a",
-        "horse",
-        "walking",
-        "round"
-      ],
-      "conf": 92.8329,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
+      "id": "r3",
+      "order": 2,
       "text": "Here is a horse walking round and round the mouth of a well",
-      "x": 0.4493,
+      "x": 0.4565,
       "y": 0.3514,
-      "w": 0.446,
-      "h": 0.0579,
+      "w": 0.4388,
+      "h": 0.0435,
       "words": [
         "Here",
         "is",
@@ -360,33 +168,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "and round the mouth of a well",
-      "x": 0.4581,
-      "y": 0.3774,
-      "w": 0.4348,
-      "h": 0.0175,
-      "words": [
-        "and",
-        "round",
-        "the",
-        "mouth",
-        "of",
-        "a",
-        "well"
-      ],
-      "conf": 94.5376,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "He is pulling on a strong stick of wood which is kept turning by his motion. This moves a",
+      "id": "r4",
+      "order": 3,
+      "text": "He is pulling on a strong stick of wood which is kept turning by his motion. This moves a chain with buckets on. it. The motion of the chain carries buckets full of water up and",
       "x": 0.2601,
       "y": 0.5058,
-      "w": 0.6377,
-      "h": 0.0473,
+      "w": 0.6385,
+      "h": 0.0982,
       "words": [
         "He",
         "is",
@@ -406,28 +194,6 @@
         "motion.",
         "This",
         "moves",
-        "a"
-      ],
-      "conf": 96.5933,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "is kept turning by his motion. This moves a chain with buckets on. it. The motion of the",
-      "x": 0.2601,
-      "y": 0.5313,
-      "w": 0.6385,
-      "h": 0.043,
-      "words": [
-        "is",
-        "kept",
-        "turning",
-        "by",
-        "his",
-        "motion.",
-        "This",
-        "moves",
         "a",
         "chain",
         "with",
@@ -437,30 +203,7 @@
         "The",
         "motion",
         "of",
-        "the"
-      ],
-      "conf": 96.4255,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "chain with buckets on. it. The motion of the \\_j chain carries buckets full of water up and",
-      "x": 0.1908,
-      "y": 0.5568,
-      "w": 0.7078,
-      "h": 0.0473,
-      "words": [
-        "chain",
-        "with",
-        "buckets",
-        "on.",
-        "it.",
-        "The",
-        "motion",
-        "of",
         "the",
-        "\\_j",
         "chain",
         "carries",
         "buckets",
@@ -470,33 +213,12 @@
         "up",
         "and"
       ],
-      "conf": 88.9367,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "chain carries buckets full of water up and",
-      "x": 0.2609,
-      "y": 0.5828,
-      "w": 0.6361,
-      "h": 0.0212,
-      "words": [
-        "chain",
-        "carries",
-        "buckets",
-        "full",
-        "of",
-        "water",
-        "up",
-        "and"
-      ],
-      "conf": 96.6153,
+      "conf": 96.5933,
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
+      "id": "r5",
+      "order": 4,
       "text": "takes empty buckets down.",
       "x": 0.2601,
       "y": 0.6088,
@@ -512,13 +234,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
-      "text": "The horse has a cloth over his eyes to keep him from seeing that he is walking all the time",
-      "x": 0.2601,
-      "y": 0.655,
-      "w": 0.6385,
-      "h": 0.0525,
+      "id": "r6",
+      "order": 5,
+      "text": "The horse has a cloth over his eyes to keep him from seeing that he is walking all the time in a circle. Would he stop if he knew he was",
+      "x": 0.2568,
+      "y": 0.6566,
+      "w": 0.6433,
+      "h": 0.0796,
       "words": [
         "The",
         "horse",
@@ -531,28 +253,6 @@
         "to",
         "keep",
         "him",
-        "from",
-        "seeing",
-        "that",
-        "he",
-        "is",
-        "walking",
-        "all",
-        "the",
-        "time"
-      ],
-      "conf": 95.2515,
-      "source": "psm-6"
-    },
-    {
-      "id": "r18",
-      "order": 17,
-      "text": "from seeing that he is walking all the time in a circle. Would he stop if he knew he was",
-      "x": 0.2568,
-      "y": 0.6868,
-      "w": 0.6417,
-      "h": 0.0494,
-      "words": [
         "from",
         "seeing",
         "that",
@@ -574,12 +274,12 @@
         "he",
         "was"
       ],
-      "conf": 96.6088,
-      "source": "psm-6"
+      "conf": 96.2614,
+      "source": "psm-11"
     },
     {
-      "id": "r19",
-      "order": 18,
+      "id": "r7",
+      "order": 6,
       "text": "going round in circles?",
       "x": 0.2609,
       "y": 0.7378,
@@ -595,8 +295,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r20",
-      "order": 19,
+      "id": "r8",
+      "order": 7,
       "text": "empty: with nothing inside.",
       "x": 0.1079,
       "y": 0.8477,

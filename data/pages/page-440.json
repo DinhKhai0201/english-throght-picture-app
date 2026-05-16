@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20440.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 17,
-    "wordCount": 181,
+    "regionCount": 12,
+    "wordCount": 132,
     "imageWidth": 1188,
     "imageHeight": 1859
   },
@@ -18,9 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r5",
-        "r7"
+        "r2",
+        "r4",
+        "r6"
       ]
     },
     {
@@ -32,9 +32,8 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r4",
-        "r6"
+        "r3",
+        "r5"
       ]
     },
     {
@@ -45,10 +44,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r12",
-        "r13",
-        "r14",
-        "r15"
+        "r8",
+        "r9",
+        "r10",
+        "r11"
       ]
     },
     {
@@ -59,12 +58,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r16",
-        "r17"
+        "r7",
+        "r12"
       ]
     }
   ],
@@ -72,11 +67,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "We say: “The earth is getting smaller.” It is the same size as it was, but we can go about it more and more",
-      "x": 0.1111,
+      "text": "We say: “The earth is getting smaller.” It is the same size as it was, but we can go about it more and more easily. Many more people travel outside their own",
+      "x": 0.1103,
       "y": 0.0334,
-      "w": 0.8182,
-      "h": 0.0484,
+      "w": 0.819,
+      "h": 0.0758,
       "words": [
         "We",
         "say:",
@@ -101,32 +96,6 @@
         "it",
         "more",
         "and",
-        "more"
-      ],
-      "conf": 95.477,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "size as it was, but we can go about it more and more easily. Many more people travel outside their own",
-      "x": 0.1103,
-      "y": 0.0597,
-      "w": 0.8173,
-      "h": 0.0495,
-      "words": [
-        "size",
-        "as",
-        "it",
-        "was,",
-        "but",
-        "we",
-        "can",
-        "go",
-        "about",
-        "it",
-        "more",
-        "and",
         "more",
         "easily.",
         "Many",
@@ -137,12 +106,12 @@
         "their",
         "own"
       ],
-      "conf": 96.3793,
-      "source": "psm-6"
+      "conf": 95.477,
+      "source": "psm-11"
     },
     {
-      "id": "r3",
-      "order": 2,
+      "id": "r2",
+      "order": 1,
       "text": "countries every year.",
       "x": 0.1103,
       "y": 0.114,
@@ -157,8 +126,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r4",
-      "order": 3,
+      "id": "r3",
+      "order": 2,
       "text": "We can get news today from any part of the world in a",
       "x": 0.1052,
       "y": 0.3701,
@@ -183,8 +152,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r4",
+      "order": 3,
       "text": "few seconds, though we may not always understand it.",
       "x": 0.1052,
       "y": 0.3986,
@@ -205,8 +174,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
+      "id": "r5",
+      "order": 4,
       "text": "Many more ideas, right or wrong, about othes countries",
       "x": 0.1035,
       "y": 0.4497,
@@ -227,8 +196,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r6",
+      "order": 5,
       "text": "are in people’s minds.",
       "x": 0.1035,
       "y": 0.4766,
@@ -244,37 +213,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "Most of this interest in other nations and places is good",
-      "x": 0.1027,
+      "id": "r7",
+      "order": 6,
+      "text": "Most of this interest in other nations and places is good if it goes deep enough. We need to know more. If we can keep our heads on our shoulders, the wider knowledge and experience which are coming will help the world to",
+      "x": 0.1019,
       "y": 0.5282,
-      "w": 0.8232,
-      "h": 0.0215,
-      "words": [
-        "Most",
-        "of",
-        "this",
-        "interest",
-        "in",
-        "other",
-        "nations",
-        "and",
-        "places",
-        "is",
-        "good"
-      ],
-      "conf": 96.0735,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "Most of this interest in other nations and places is good if it goes deep enough. We need to know more. If we can",
-      "x": 0.1027,
-      "y": 0.5282,
-      "w": 0.8232,
-      "h": 0.0485,
+      "w": 0.824,
+      "h": 0.1012,
       "words": [
         "Most",
         "of",
@@ -299,55 +244,7 @@
         "more.",
         "If",
         "we",
-        "can"
-      ],
-      "conf": 96.0735,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "if it goes deep enough. We need to know more. If we can keep our heads on our shoulders, the wider knowledge",
-      "x": 0.1019,
-      "y": 0.5541,
-      "w": 0.8224,
-      "h": 0.0478,
-      "words": [
-        "if",
-        "it",
-        "goes",
-        "deep",
-        "enough.",
-        "We",
-        "need",
-        "to",
-        "know",
-        "more.",
-        "If",
-        "we",
         "can",
-        "keep",
-        "our",
-        "heads",
-        "on",
-        "our",
-        "shoulders,",
-        "the",
-        "wider",
-        "knowledge"
-      ],
-      "conf": 95.7841,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "keep our heads on our shoulders, the wider knowledge and experience which are coming will help the world to",
-      "x": 0.1019,
-      "y": 0.5804,
-      "w": 0.8224,
-      "h": 0.049,
-      "words": [
         "keep",
         "our",
         "heads",
@@ -368,12 +265,12 @@
         "world",
         "to"
       ],
-      "conf": 96.4172,
-      "source": "psm-6"
+      "conf": 96.0735,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
+      "id": "r8",
+      "order": 7,
       "text": "better days.",
       "x": 0.1035,
       "y": 0.6331,
@@ -387,8 +284,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r13",
-      "order": 12,
+      "id": "r9",
+      "order": 8,
       "text": "understand something: have a clear, true idea of it.",
       "x": 0.0985,
       "y": 0.7945,
@@ -405,12 +302,12 @@
         "of",
         "it."
       ],
-      "conf": 94.174,
-      "source": "psm-6"
+      "conf": 93.7696,
+      "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
+      "id": "r10",
+      "order": 9,
       "text": "travel: make a journey, go.",
       "x": 0.0976,
       "y": 0.8155,
@@ -427,8 +324,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
+      "id": "r11",
+      "order": 10,
       "text": "will travel",
       "x": 0.0968,
       "y": 0.8462,
@@ -442,24 +339,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
-      "text": "will travel traveled",
-      "x": 0.0968,
-      "y": 0.8456,
-      "w": 0.8258,
-      "h": 0.0145,
-      "words": [
-        "will",
-        "travel",
-        "traveled"
-      ],
-      "conf": 86.0289,
-      "source": "psm-6"
-    },
-    {
-      "id": "r17",
-      "order": 16,
+      "id": "r12",
+      "order": 11,
       "text": "travel(s)",
       "x": 0.452,
       "y": 0.8456,

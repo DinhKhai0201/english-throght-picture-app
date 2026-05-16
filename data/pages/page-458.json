@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20458.png",
   "layout": "single",
   "stats": {
-    "regionCount": 25,
-    "wordCount": 273,
+    "regionCount": 10,
+    "wordCount": 165,
     "imageWidth": 1205,
     "imageHeight": 1830
   },
@@ -27,22 +27,7 @@
         "r7",
         "r8",
         "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17",
-        "r18",
-        "r19",
-        "r20",
-        "r21",
-        "r22",
-        "r23",
-        "r24",
-        "r25"
+        "r10"
       ]
     }
   ],
@@ -67,11 +52,11 @@
     {
       "id": "r2",
       "order": 1,
-      "text": "It is easy to see what it is, but not equally easy to say what it",
+      "text": "It is easy to see what it is, but not equally easy to say what it is. Here is a straight line half an inch long. If you",
       "x": 0.3751,
       "y": 0.0978,
       "w": 0.5635,
-      "h": 0.0487,
+      "h": 0.1022,
       "words": [
         "It",
         "is",
@@ -88,45 +73,7 @@
         "to",
         "say",
         "what",
-        "it"
-      ],
-      "conf": 96.3925,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "equally easy to say what it is. Here is a straight line",
-      "x": 0.3751,
-      "y": 0.1246,
-      "w": 0.4075,
-      "h": 0.0486,
-      "words": [
-        "equally",
-        "easy",
-        "to",
-        "say",
-        "what",
         "it",
-        "is.",
-        "Here",
-        "is",
-        "a",
-        "straight",
-        "line"
-      ],
-      "conf": 96.4377,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "is. Here is a straight line half an inch long. If you",
-      "x": 0.3751,
-      "y": 0.1508,
-      "w": 0.3676,
-      "h": 0.0492,
-      "words": [
         "is.",
         "Here",
         "is",
@@ -140,45 +87,17 @@
         "If",
         "you"
       ],
-      "conf": 96.3378,
-      "source": "psm-6"
+      "conf": 96.3925,
+      "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "half an inch long. If you ered a circle. One end of the line wa",
-      "x": 0.1328,
-      "y": 0.1776,
-      "w": 0.8158,
-      "h": 0.1044,
-      "words": [
-        "half",
-        "an",
-        "inch",
-        "long.",
-        "If",
-        "you",
-        "ered",
-        "a",
-        "circle.",
-        "One",
-        "end",
-        "of",
-        "the",
-        "line",
-        "wa"
-      ],
-      "conf": 96.3455,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "could turn the line right round like the hand of a watch, it would have cov-",
+      "id": "r3",
+      "order": 2,
+      "text": "could turn the line right round like the hand of a watch, it would have cov- ered a circle. One end of the line would have to keep in the same place while the rest of the line was turning.",
       "x": 0.1311,
       "y": 0.2033,
       "w": 0.6125,
-      "h": 0.0481,
+      "h": 0.13,
       "words": [
         "could",
         "turn",
@@ -188,27 +107,6 @@
         "round",
         "like",
         "the",
-        "hand",
-        "of",
-        "a",
-        "watch,",
-        "it",
-        "would",
-        "have",
-        "cov-"
-      ],
-      "conf": 96.3453,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "hand of a watch, it would have cov- ered a circle. One end of the line would have to keep in the same place",
-      "x": 0.1311,
-      "y": 0.2306,
-      "w": 0.532,
-      "h": 0.0754,
-      "words": [
         "hand",
         "of",
         "a",
@@ -232,27 +130,6 @@
         "in",
         "the",
         "same",
-        "place"
-      ],
-      "conf": 95.78,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "would have to keep in the same place while the rest of the line was turning.",
-      "x": 0.132,
-      "y": 0.2836,
-      "w": 0.5303,
-      "h": 0.0497,
-      "words": [
-        "would",
-        "have",
-        "to",
-        "keep",
-        "in",
-        "the",
-        "same",
         "place",
         "while",
         "the",
@@ -263,46 +140,17 @@
         "was",
         "turning."
       ],
-      "conf": 96.4561,
-      "source": "psm-6"
+      "conf": 96.3453,
+      "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "while the rest of the line was turning. VA Here is another line the same length;",
-      "x": 0.1328,
-      "y": 0.2918,
-      "w": 0.61,
-      "h": 0.0951,
-      "words": [
-        "while",
-        "the",
-        "rest",
-        "of",
-        "the",
-        "line",
-        "was",
-        "turning.",
-        "VA",
-        "Here",
-        "is",
-        "another",
-        "line",
-        "the",
-        "same",
-        "length;"
-      ],
-      "conf": 94.5868,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "Here is another line the same length; it is half an inch long. If you could",
+      "id": "r4",
+      "order": 3,
+      "text": "Here is another line the same length; it is half an inch long. If you could pull it down like a map on a roller a distance equal to its own length inch)",
       "x": 0.132,
       "y": 0.365,
-      "w": 0.532,
-      "h": 0.0493,
+      "w": 0.5328,
+      "h": 0.1284,
       "words": [
         "Here",
         "is",
@@ -311,28 +159,6 @@
         "the",
         "same",
         "length;",
-        "it",
-        "is",
-        "half",
-        "an",
-        "inch",
-        "long.",
-        "If",
-        "you",
-        "could"
-      ],
-      "conf": 96.6102,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "it is half an inch long. If you could pull it down like a map on a roller",
-      "x": 0.132,
-      "y": 0.3913,
-      "w": 0.5328,
-      "h": 0.0518,
-      "words": [
         "it",
         "is",
         "half",
@@ -350,47 +176,7 @@
         "map",
         "on",
         "a",
-        "roller"
-      ],
-      "conf": 96.2085,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "pull it down like a map on a roller a distance equal to its",
-      "x": 0.132,
-      "y": 0.4158,
-      "w": 0.5328,
-      "h": 0.0509,
-      "words": [
-        "pull",
-        "it",
-        "down",
-        "like",
-        "a",
-        "map",
-        "on",
-        "a",
         "roller",
-        "a",
-        "distance",
-        "equal",
-        "to",
-        "its"
-      ],
-      "conf": 96.1784,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "a distance equal to its own length inch)",
-      "x": 0.1328,
-      "y": 0.4448,
-      "w": 0.3278,
-      "h": 0.0486,
-      "words": [
         "a",
         "distance",
         "equal",
@@ -400,33 +186,17 @@
         "length",
         "inch)"
       ],
-      "conf": 94.4139,
-      "source": "psm-6"
+      "conf": 96.6102,
+      "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
-      "text": "own length inch)",
-      "x": 0.1328,
-      "y": 0.4721,
-      "w": 0.3245,
-      "h": 0.0213,
-      "words": [
-        "own",
-        "length",
-        "inch)"
-      ],
-      "conf": 93.9678,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "then it would make a square with sides half",
+      "id": "r5",
+      "order": 4,
+      "text": "then it would make a square with sides half an inch long.",
       "x": 0.1328,
       "y": 0.4984,
       "w": 0.3303,
-      "h": 0.048,
+      "h": 0.0743,
       "words": [
         "then",
         "it",
@@ -436,55 +206,22 @@
         "square",
         "with",
         "sides",
-        "half"
+        "half",
+        "an",
+        "inch",
+        "long."
       ],
       "conf": 95.9596,
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
-      "text": "square with sides haf an inch long.",
-      "x": 0.1328,
-      "y": 0.5251,
-      "w": 0.3303,
-      "h": 0.0476,
-      "words": [
-        "square",
-        "with",
-        "sides",
-        "haf",
-        "an",
-        "inch",
-        "long."
-      ],
-      "conf": 95.0926,
-      "source": "psm-6"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "an inch long.",
-      "x": 0.1336,
-      "y": 0.5514,
-      "w": 0.1834,
-      "h": 0.0213,
-      "words": [
-        "an",
-        "inch",
-        "long."
-      ],
-      "conf": 96.5888,
-      "source": "psm-6"
-    },
-    {
-      "id": "r18",
-      "order": 17,
-      "text": "This is not a square though its sides are equal. Why not? Because",
-      "x": 0.1311,
-      "y": 0.6087,
-      "w": 0.4938,
-      "h": 0.0492,
+      "id": "r6",
+      "order": 5,
+      "text": "This is not a square though its sides are equal. Why not? Because its angles are not right angles.",
+      "x": 0.1295,
+      "y": 0.6066,
+      "w": 0.4954,
+      "h": 0.0775,
       "words": [
         "This",
         "is",
@@ -498,25 +235,6 @@
         "equal.",
         "Why",
         "not?",
-        "Because"
-      ],
-      "conf": 96.4117,
-      "source": "psm-6"
-    },
-    {
-      "id": "r19",
-      "order": 18,
-      "text": "sides are equal. Why not? Because its angles are not right angles.",
-      "x": 0.1311,
-      "y": 0.6355,
-      "w": 0.4938,
-      "h": 0.0486,
-      "words": [
-        "sides",
-        "are",
-        "equal.",
-        "Why",
-        "not?",
         "Because",
         "its",
         "angles",
@@ -525,17 +243,17 @@
         "right",
         "angles."
       ],
-      "conf": 96.0002,
-      "source": "psm-6"
+      "conf": 96.2261,
+      "source": "psm-11"
     },
     {
-      "id": "r20",
-      "order": 19,
+      "id": "r7",
+      "order": 6,
       "text": "This is not a square though its angles are right angles.",
-      "x": 0.1328,
-      "y": 0.7235,
-      "w": 0.4141,
-      "h": 0.0497,
+      "x": 0.132,
+      "y": 0.7208,
+      "w": 0.4149,
+      "h": 0.0524,
       "words": [
         "This",
         "is",
@@ -550,29 +268,11 @@
         "angles."
       ],
       "conf": 96.1939,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r21",
-      "order": 20,
-      "text": "its angles are right angles.",
-      "x": 0.1328,
-      "y": 0.7508,
-      "w": 0.4083,
-      "h": 0.0224,
-      "words": [
-        "its",
-        "angles",
-        "are",
-        "right",
-        "angles."
-      ],
-      "conf": 96.1947,
-      "source": "psm-6"
-    },
-    {
-      "id": "r22",
-      "order": 21,
+      "id": "r8",
+      "order": 7,
       "text": "Why not? Because its sides are not all equal.",
       "x": 0.132,
       "y": 0.7781,
@@ -589,29 +289,12 @@
         "all",
         "equal."
       ],
-      "conf": 96.7696,
-      "source": "psm-6"
+      "conf": 93.7582,
+      "source": "psm-11"
     },
     {
-      "id": "r23",
-      "order": 22,
-      "text": "are not all equal.",
-      "x": 0.1328,
-      "y": 0.8044,
-      "w": 0.2473,
-      "h": 0.0224,
-      "words": [
-        "are",
-        "not",
-        "all",
-        "equal."
-      ],
-      "conf": 96.7764,
-      "source": "psm-6"
-    },
-    {
-      "id": "r24",
-      "order": 23,
+      "id": "r9",
+      "order": 8,
       "text": "rest: in this sense, the other parts.",
       "x": 0.1328,
       "y": 0.8464,
@@ -630,20 +313,19 @@
       "source": "psm-11"
     },
     {
-      "id": "r25",
-      "order": 24,
-      "text": "lengths distance long.",
+      "id": "r10",
+      "order": 9,
+      "text": "leagths distance",
       "x": 0.1336,
       "y": 0.8639,
-      "w": 0.249,
+      "w": 0.1851,
       "h": 0.0164,
       "words": [
-        "lengths",
-        "distance",
-        "long."
+        "leagths",
+        "distance"
       ],
-      "conf": 91.2581,
-      "source": "psm-6"
+      "conf": 92.977,
+      "source": "psm-11"
     }
   ]
 }

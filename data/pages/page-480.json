@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20480.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 22,
-    "wordCount": 173,
+    "regionCount": 15,
+    "wordCount": 117,
     "imageWidth": 1180,
     "imageHeight": 1846
   },
@@ -18,12 +18,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r7",
-        "r9",
-        "r10",
-        "r11",
-        "r12"
+        "r2",
+        "r4",
+        "r6",
+        "r7"
       ]
     },
     {
@@ -35,12 +33,8 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
         "r3",
-        "r4",
-        "r6",
-        "r8",
-        "r13"
+        "r5"
       ]
     },
     {
@@ -51,10 +45,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r14",
-        "r15",
-        "r19",
-        "r20"
+        "r8",
+        "r9",
+        "r12",
+        "r13"
       ]
     },
     {
@@ -65,11 +59,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r16",
-        "r17",
-        "r18",
-        "r21",
-        "r22"
+        "r10",
+        "r11",
+        "r14",
+        "r15"
       ]
     }
   ],
@@ -77,11 +70,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "There are ways of making restaurants self-serving, that",
+      "text": "There are ways of making restaurants self-serving, that is, of getting the public to do more of the work so that fewer waitresses are needed and less time is wasted in",
       "x": 0.1102,
       "y": 0.0282,
-      "w": 0.8263,
-      "h": 0.0444,
+      "w": 0.8271,
+      "h": 0.0894,
       "words": [
         "There",
         "are",
@@ -90,7 +83,30 @@
         "making",
         "restaurants",
         "self-serving,",
-        "that"
+        "that",
+        "is,",
+        "of",
+        "getting",
+        "the",
+        "public",
+        "to",
+        "do",
+        "more",
+        "of",
+        "the",
+        "work",
+        "so",
+        "that",
+        "fewer",
+        "waitresses",
+        "are",
+        "needed",
+        "and",
+        "less",
+        "time",
+        "is",
+        "wasted",
+        "in"
       ],
       "conf": 96.5547,
       "source": "psm-11"
@@ -98,99 +114,6 @@
     {
       "id": "r2",
       "order": 1,
-      "text": "There are ways of making restaurants self-serving, that is, of getting the public to do more of the work so that",
-      "x": 0.1102,
-      "y": 0.0482,
-      "w": 0.8271,
-      "h": 0.0477,
-      "words": [
-        "There",
-        "are",
-        "ways",
-        "of",
-        "making",
-        "restaurants",
-        "self-serving,",
-        "that",
-        "is,",
-        "of",
-        "getting",
-        "the",
-        "public",
-        "to",
-        "do",
-        "more",
-        "of",
-        "the",
-        "work",
-        "so",
-        "that"
-      ],
-      "conf": 96.5917,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "is, of getting the public to do more of the work so that fewer waitresses are needed and less time is wasted in",
-      "x": 0.1102,
-      "y": 0.0737,
-      "w": 0.8271,
-      "h": 0.0439,
-      "words": [
-        "is,",
-        "of",
-        "getting",
-        "the",
-        "public",
-        "to",
-        "do",
-        "more",
-        "of",
-        "the",
-        "work",
-        "so",
-        "that",
-        "fewer",
-        "waitresses",
-        "are",
-        "needed",
-        "and",
-        "less",
-        "time",
-        "is",
-        "wasted",
-        "in"
-      ],
-      "conf": 96.6954,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "fewer waitresses are needed and less time is wasted in",
-      "x": 0.1102,
-      "y": 0.0997,
-      "w": 0.8271,
-      "h": 0.0179,
-      "words": [
-        "fewer",
-        "waitresses",
-        "are",
-        "needed",
-        "and",
-        "less",
-        "time",
-        "is",
-        "wasted",
-        "in"
-      ],
-      "conf": 96.5151,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
       "text": "waiting to be served.",
       "x": 0.1093,
       "y": 0.1257,
@@ -206,8 +129,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
+      "id": "r3",
+      "order": 2,
       "text": "The nearest thing to complete self-serving is the AUTO- MAT. Food and drink are put into boxes with glass",
       "x": 0.1119,
       "y": 0.1777,
@@ -235,11 +158,11 @@
         "glass"
       ],
       "conf": 95.5318,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r4",
+      "order": 3,
       "text": "doors in front.",
       "x": 0.111,
       "y": 0.2308,
@@ -250,12 +173,12 @@
         "in",
         "front."
       ],
-      "conf": 96.262,
-      "source": "psm-6"
+      "conf": 95.8708,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r5",
+      "order": 4,
       "text": "=e)",
       "x": 0.7551,
       "y": 0.2654,
@@ -268,8 +191,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r6",
+      "order": 5,
       "text": "You look at the food.",
       "x": 0.111,
       "y": 0.2963,
@@ -286,32 +209,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "You look at the food. $a.",
-      "x": 0.111,
-      "y": 0.2941,
-      "w": 0.5636,
-      "h": 0.026,
-      "words": [
-        "You",
-        "look",
-        "at",
-        "the",
-        "food.",
-        "$a."
-      ],
-      "conf": 87.0504,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "If you want what you see, you put in the right amount",
-      "x": 0.1102,
+      "id": "r7",
+      "order": 6,
+      "text": "If you want what you see, you put in the right amount of money and the door is unlocked so that you can",
+      "x": 0.1093,
       "y": 0.3884,
-      "w": 0.4178,
-      "h": 0.0466,
+      "w": 0.4187,
+      "h": 0.0991,
       "words": [
         "If",
         "you",
@@ -319,25 +223,6 @@
         "what",
         "you",
         "see,",
-        "you",
-        "put",
-        "in",
-        "the",
-        "right",
-        "amount"
-      ],
-      "conf": 96.5652,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "you put in the right amount of money and the door is unlocked so that you can",
-      "x": 0.1093,
-      "y": 0.4139,
-      "w": 0.4187,
-      "h": 0.0736,
-      "words": [
         "you",
         "put",
         "in",
@@ -356,32 +241,12 @@
         "you",
         "can"
       ],
-      "conf": 96.6489,
-      "source": "psm-6"
+      "conf": 96.2867,
+      "source": "psm-11"
     },
     {
-      "id": "r13",
-      "order": 12,
-      "text": "unlocked so that you can dl TS",
-      "x": 0.1093,
-      "y": 0.4507,
-      "w": 0.7983,
-      "h": 0.0406,
-      "words": [
-        "unlocked",
-        "so",
-        "that",
-        "you",
-        "can",
-        "dl",
-        "TS"
-      ],
-      "conf": 79.7054,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
+      "id": "r8",
+      "order": 7,
       "text": "open it.",
       "x": 0.1093,
       "y": 0.493,
@@ -395,8 +260,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
+      "id": "r9",
+      "order": 8,
       "text": "You take the food out and shut the door again.",
       "x": 0.1068,
       "y": 0.5704,
@@ -418,27 +283,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
-      "text": "shut the door again. N eS",
-      "x": 0.1034,
-      "y": 0.6029,
-      "w": 0.8,
-      "h": 0.0379,
-      "words": [
-        "shut",
-        "the",
-        "door",
-        "again.",
-        "N",
-        "eS"
-      ],
-      "conf": 82.9746,
-      "source": "psm-6"
-    },
-    {
-      "id": "r17",
-      "order": 16,
+      "id": "r10",
+      "order": 9,
       "text": "ry)",
       "x": 0.8017,
       "y": 0.6056,
@@ -451,8 +297,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
+      "id": "r11",
+      "order": 10,
       "text": "Fresh supplies of food are put in the boxes as they are",
       "x": 0.1042,
       "y": 0.6901,
@@ -476,8 +322,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r19",
-      "order": 18,
+      "id": "r12",
+      "order": 11,
       "text": "emptied.",
       "x": 0.1042,
       "y": 0.7161,
@@ -490,8 +336,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r20",
-      "order": 19,
+      "id": "r13",
+      "order": 12,
       "text": "will empty",
       "x": 0.1017,
       "y": 0.8667,
@@ -505,8 +351,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r21",
-      "order": 20,
+      "id": "r14",
+      "order": 13,
       "text": "empty (ies)",
       "x": 0.4458,
       "y": 0.8667,
@@ -520,8 +366,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r22",
-      "order": 21,
+      "id": "r15",
+      "order": 14,
       "text": "emptied",
       "x": 0.8331,
       "y": 0.8678,

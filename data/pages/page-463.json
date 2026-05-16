@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20463.png",
   "layout": "single",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 172,
+    "regionCount": 6,
+    "wordCount": 104,
     "imageWidth": 1250,
     "imageHeight": 1821
   },
@@ -23,14 +23,7 @@
         "r3",
         "r4",
         "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13"
+        "r6"
       ]
     }
   ],
@@ -61,38 +54,11 @@
         "units"
       ],
       "conf": 92.0676,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
       "id": "r2",
       "order": 1,
-      "text": "shorter sides are three and four units long. How many units long is the",
-      "x": 0.336,
-      "y": 0.061,
-      "w": 0.5552,
-      "h": 0.0494,
-      "words": [
-        "shorter",
-        "sides",
-        "are",
-        "three",
-        "and",
-        "four",
-        "units",
-        "long.",
-        "How",
-        "many",
-        "units",
-        "long",
-        "is",
-        "the"
-      ],
-      "conf": 96.3556,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
       "text": "long. How many units long is the",
       "x": 0.4136,
       "y": 0.0879,
@@ -107,12 +73,12 @@
         "is",
         "the"
       ],
-      "conf": 96.1963,
-      "source": "psm-6"
+      "conf": 96.5558,
+      "source": "psm-11"
     },
     {
-      "id": "r4",
-      "order": 3,
+      "id": "r3",
+      "order": 2,
       "text": "longest side?",
       "x": 0.4944,
       "y": 0.1148,
@@ -126,8 +92,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r4",
+      "order": 3,
       "text": "Can you tell without measuring? How?",
       "x": 0.1016,
       "y": 0.285,
@@ -145,13 +111,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "About years ago B.C.) a great Greek, Py- thagoras, proved that the square on the longest side of",
+      "id": "r5",
+      "order": 4,
+      "text": "About years ago B.C.) a great Greek, Py- thagoras, proved that the square on the longest side of any right angled triangle is equal to the squares on tho other two sides added together. We can use his discovery to get our answer. We multiply the length of each of the two shorter sides by itself. We add the answers together.",
       "x": 0.0968,
       "y": 0.3372,
-      "w": 0.7952,
-      "h": 0.0516,
+      "w": 0.7976,
+      "h": 0.1554,
       "words": [
         "About",
         "years",
@@ -170,75 +136,7 @@
         "the",
         "longest",
         "side",
-        "of"
-      ],
-      "conf": 95.1376,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "About years ago B.C.) a great Greek, Py-",
-      "x": 0.1008,
-      "y": 0.3372,
-      "w": 0.7912,
-      "h": 0.022,
-      "words": [
-        "About",
-        "years",
-        "ago",
-        "B.C.)",
-        "a",
-        "great",
-        "Greek,",
-        "Py-"
-      ],
-      "conf": 95.1376,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "thagoras, proved that the square on the longest side of any right angled triangle is equal to the squares on tho",
-      "x": 0.0968,
-      "y": 0.3608,
-      "w": 0.7976,
-      "h": 0.0549,
-      "words": [
-        "thagoras,",
-        "proved",
-        "that",
-        "the",
-        "square",
-        "on",
-        "the",
-        "longest",
-        "side",
         "of",
-        "any",
-        "right",
-        "angled",
-        "triangle",
-        "is",
-        "equal",
-        "to",
-        "the",
-        "squares",
-        "on",
-        "tho"
-      ],
-      "conf": 95.9277,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "any right angled triangle is equal to the squares on tho other two sides added together. We can use his discovery",
-      "x": 0.0984,
-      "y": 0.3877,
-      "w": 0.796,
-      "h": 0.0517,
-      "words": [
         "any",
         "right",
         "angled",
@@ -259,55 +157,7 @@
         "can",
         "use",
         "his",
-        "discovery"
-      ],
-      "conf": 89.4542,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "other two sides added together. We can use his discovery to get our answer. We multiply the length of each of the",
-      "x": 0.1016,
-      "y": 0.4174,
-      "w": 0.7904,
-      "h": 0.0488,
-      "words": [
-        "other",
-        "two",
-        "sides",
-        "added",
-        "together.",
-        "We",
-        "can",
-        "use",
-        "his",
         "discovery",
-        "to",
-        "get",
-        "our",
-        "answer.",
-        "We",
-        "multiply",
-        "the",
-        "length",
-        "of",
-        "each",
-        "of",
-        "the"
-      ],
-      "conf": 96.3579,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "to get our answer. We multiply the length of each of the two shorter sides by itself. We add the answers together.",
-      "x": 0.1016,
-      "y": 0.4437,
-      "w": 0.7904,
-      "h": 0.0489,
-      "words": [
         "to",
         "get",
         "our",
@@ -331,12 +181,12 @@
         "answers",
         "together."
       ],
-      "conf": 96.3357,
-      "source": "psm-6"
+      "conf": 95.1376,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
+      "id": "r6",
+      "order": 5,
       "text": "Then we find a number which, multiplied by itself, gives us this number.",
       "x": 0.1024,
       "y": 0.4964,
@@ -358,23 +208,7 @@
         "number."
       ],
       "conf": 96.2621,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "us this number.",
-      "x": 0.1032,
-      "y": 0.5233,
-      "w": 0.2072,
-      "h": 0.0181,
-      "words": [
-        "us",
-        "this",
-        "number."
-      ],
-      "conf": 96.1022,
-      "source": "psm-6"
+      "source": "psm-11"
     }
   ]
 }

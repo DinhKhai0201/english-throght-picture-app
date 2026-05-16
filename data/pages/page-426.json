@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20426.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 20,
-    "wordCount": 155,
+    "regionCount": 13,
+    "wordCount": 101,
     "imageWidth": 1198,
     "imageHeight": 1875
   },
@@ -19,8 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r2",
-        "r3",
-        "r4"
+        "r3"
       ]
     },
     {
@@ -32,8 +31,8 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r5",
-        "r6"
+        "r4",
+        "r5"
       ]
     },
     {
@@ -44,12 +43,11 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r6",
         "r7",
         "r9",
         "r10",
-        "r15",
-        "r16",
-        "r17"
+        "r11"
       ]
     },
     {
@@ -61,13 +59,8 @@
       "h": 0.5,
       "regionIds": [
         "r8",
-        "r11",
         "r12",
-        "r13",
-        "r14",
-        "r18",
-        "r19",
-        "r20"
+        "r13"
       ]
     }
   ],
@@ -113,23 +106,6 @@
     {
       "id": "r3",
       "order": 2,
-      "text": "mind, They need music...",
-      "x": 0.1319,
-      "y": 0.0688,
-      "w": 0.2939,
-      "h": 0.073,
-      "words": [
-        "mind,",
-        "They",
-        "need",
-        "music..."
-      ],
-      "conf": 89.3633,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
       "text": "They need music...",
       "x": 0.1336,
       "y": 0.1205,
@@ -141,11 +117,11 @@
         "music..."
       ],
       "conf": 96.0641,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r4",
+      "order": 3,
       "text": "and dancing.",
       "x": 0.4207,
       "y": 0.3024,
@@ -159,8 +135,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
+      "id": "r5",
+      "order": 4,
       "text": "rest and change.",
       "x": 0.7229,
       "y": 0.4533,
@@ -175,8 +151,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r6",
+      "order": 5,
       "text": "They need books and talk with other men: with old friends as well as with new people.",
       "x": 0.1361,
       "y": 0.5275,
@@ -201,34 +177,12 @@
         "new",
         "people."
       ],
-      "conf": 96.9013,
-      "source": "psm-6"
+      "conf": 96.5366,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "They need new knowledge to keep their old Je",
-      "x": 0.1361,
-      "y": 0.5653,
-      "w": 0.7471,
-      "h": 0.0389,
-      "words": [
-        "They",
-        "need",
-        "new",
-        "knowledge",
-        "to",
-        "keep",
-        "their",
-        "old",
-        "Je"
-      ],
-      "conf": 93.2781,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
+      "id": "r7",
+      "order": 6,
       "text": "They need new knowledge to keep their old knowledge clear and living.",
       "x": 0.1361,
       "y": 0.5787,
@@ -252,54 +206,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "knowledge clear and living.",
-      "x": 0.1369,
-      "y": 0.6037,
-      "w": 0.399,
-      "h": 0.0213,
-      "words": [
-        "knowledge",
-        "clear",
-        "and",
-        "living."
-      ],
-      "conf": 96.0949,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "A friend is someone you know and love and with whom",
+      "id": "r8",
+      "order": 7,
+      "text": "A friend is someone you know and love and with whom you have much in common. People you know only a little are not your friends in this sense though they may become",
       "x": 0.1369,
       "y": 0.6555,
-      "w": 0.8147,
-      "h": 0.0219,
-      "words": [
-        "A",
-        "friend",
-        "is",
-        "someone",
-        "you",
-        "know",
-        "and",
-        "love",
-        "and",
-        "with",
-        "whom"
-      ],
-      "conf": 96.4572,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "A friend is someone you know and love and with whom you have much in common. People you know only a little",
-      "x": 0.1369,
-      "y": 0.6555,
-      "w": 0.8147,
-      "h": 0.0507,
+      "w": 0.8155,
+      "h": 0.0735,
       "words": [
         "A",
         "friend",
@@ -312,30 +225,6 @@
         "and",
         "with",
         "whom",
-        "you",
-        "have",
-        "much",
-        "in",
-        "common.",
-        "People",
-        "you",
-        "know",
-        "only",
-        "a",
-        "little"
-      ],
-      "conf": 96.5485,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "you have much in common. People you know only a little are not your friends in this sense though they may become",
-      "x": 0.1377,
-      "y": 0.6795,
-      "w": 0.8147,
-      "h": 0.0495,
-      "words": [
         "you",
         "have",
         "much",
@@ -359,36 +248,12 @@
         "may",
         "become"
       ],
-      "conf": 96.1958,
-      "source": "psm-6"
+      "conf": 96.4572,
+      "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
-      "text": "are not your friends in this sense though they may become",
-      "x": 0.1377,
-      "y": 0.7077,
-      "w": 0.8147,
-      "h": 0.0213,
-      "words": [
-        "are",
-        "not",
-        "your",
-        "friends",
-        "in",
-        "this",
-        "sense",
-        "though",
-        "they",
-        "may",
-        "become"
-      ],
-      "conf": 96.6717,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
+      "id": "r9",
+      "order": 8,
       "text": "your friends if you get to know them better.",
       "x": 0.1386,
       "y": 0.7333,
@@ -409,8 +274,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
+      "id": "r10",
+      "order": 9,
       "text": "dancing: moving in time to music.",
       "x": 0.1377,
       "y": 0.8165,
@@ -428,8 +293,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
+      "id": "r11",
+      "order": 10,
       "text": "will dance",
       "x": 0.1377,
       "y": 0.8459,
@@ -443,25 +308,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
-      "text": "will dance dance(s) danced",
-      "x": 0.1377,
-      "y": 0.8437,
-      "w": 0.8164,
-      "h": 0.0213,
-      "words": [
-        "will",
-        "dance",
-        "dance(s)",
-        "danced"
-      ],
-      "conf": 84.7506,
-      "source": "psm-6"
-    },
-    {
-      "id": "r19",
-      "order": 18,
+      "id": "r12",
+      "order": 11,
       "text": "dance(s)",
       "x": 0.4891,
       "y": 0.8459,
@@ -474,8 +322,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r20",
-      "order": 19,
+      "id": "r13",
+      "order": 12,
       "text": "danced",
       "x": 0.8664,
       "y": 0.8459,

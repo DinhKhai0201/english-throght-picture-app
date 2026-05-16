@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20439.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 21,
-    "wordCount": 250,
+    "regionCount": 11,
+    "wordCount": 154,
     "imageWidth": 1250,
     "imageHeight": 1859
   },
@@ -18,9 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r10",
-        "r11"
+        "r2",
+        "r4",
+        "r5"
       ]
     },
     {
@@ -32,14 +32,8 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
         "r3",
-        "r4",
-        "r5",
-        "r7",
-        "r8",
-        "r9",
-        "r12"
+        "r6"
       ]
     },
     {
@@ -50,8 +44,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r17",
-        "r19"
+        "r8",
+        "r10"
       ]
     },
     {
@@ -62,13 +56,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r18",
-        "r20",
-        "r21"
+        "r7",
+        "r9",
+        "r11"
       ]
     }
   ],
@@ -76,11 +66,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "When people are from very different countries with very different ways, it can be hard for them to understand one",
+      "text": "When people are from very different countries with very different ways, it can be hard for them to understand one another. Not very long ago the number of people who knew anything about people in other countries was very small. Few people went far from home or took much",
       "x": 0.1056,
       "y": 0.0339,
-      "w": 0.792,
-      "h": 0.0473,
+      "w": 0.7928,
+      "h": 0.1275,
       "words": [
         "When",
         "people",
@@ -101,54 +91,7 @@
         "them",
         "to",
         "understand",
-        "one"
-      ],
-      "conf": 96.4072,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "different ways, it can be hard for them to understand one another. Not very long ago the number of people who",
-      "x": 0.1056,
-      "y": 0.0602,
-      "w": 0.792,
-      "h": 0.049,
-      "words": [
-        "different",
-        "ways,",
-        "it",
-        "can",
-        "be",
-        "hard",
-        "for",
-        "them",
-        "to",
-        "understand",
         "one",
-        "another.",
-        "Not",
-        "very",
-        "long",
-        "ago",
-        "the",
-        "number",
-        "of",
-        "people",
-        "who"
-      ],
-      "conf": 96.3339,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "another. Not very long ago the number of people who knew anything about people in other countries was very",
-      "x": 0.1056,
-      "y": 0.0866,
-      "w": 0.792,
-      "h": 0.0484,
-      "words": [
         "another.",
         "Not",
         "very",
@@ -167,28 +110,6 @@
         "other",
         "countries",
         "was",
-        "very"
-      ],
-      "conf": 96.5275,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "knew anything about people in other countries was very small. Few people went far from home or took much",
-      "x": 0.1056,
-      "y": 0.1135,
-      "w": 0.7928,
-      "h": 0.0479,
-      "words": [
-        "knew",
-        "anything",
-        "about",
-        "people",
-        "in",
-        "other",
-        "countries",
-        "was",
         "very",
         "small.",
         "Few",
@@ -201,35 +122,12 @@
         "took",
         "much"
       ],
-      "conf": 96.2526,
-      "source": "psm-6"
+      "conf": 96.4072,
+      "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "small. Few people went far from home or took much",
-      "x": 0.1056,
-      "y": 0.1399,
-      "w": 0.7928,
-      "h": 0.0215,
-      "words": [
-        "small.",
-        "Few",
-        "people",
-        "went",
-        "far",
-        "from",
-        "home",
-        "or",
-        "took",
-        "much"
-      ],
-      "conf": 95.9562,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
+      "id": "r2",
+      "order": 1,
       "text": "interest in other countries.",
       "x": 0.1056,
       "y": 0.1657,
@@ -245,13 +143,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "Today all this is changed. Every day, men hear more and more about other countries and about how bad their gov-",
+      "id": "r3",
+      "order": 2,
+      "text": "Today all this is changed. Every day, men hear more and more about other countries and about how bad their gov- ernments are. They hear about the strange and wrong",
       "x": 0.1064,
       "y": 0.2179,
-      "w": 0.7904,
-      "h": 0.0484,
+      "w": 0.792,
+      "h": 0.0737,
       "words": [
         "Today",
         "all",
@@ -273,29 +171,6 @@
         "how",
         "bad",
         "their",
-        "gov-"
-      ],
-      "conf": 96.5649,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "more about other countries and about how bad their gov- ernments are. They hear about the strange and wrong",
-      "x": 0.1072,
-      "y": 0.2448,
-      "w": 0.7912,
-      "h": 0.0468,
-      "words": [
-        "more",
-        "about",
-        "other",
-        "countries",
-        "and",
-        "about",
-        "how",
-        "bad",
-        "their",
         "gov-",
         "ernments",
         "are.",
@@ -307,34 +182,12 @@
         "and",
         "wrong"
       ],
-      "conf": 95.6831,
-      "source": "psm-6"
+      "conf": 96.5649,
+      "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "ernments are. They hear about the strange and wrong",
-      "x": 0.1072,
-      "y": 0.2706,
-      "w": 0.7912,
-      "h": 0.021,
-      "words": [
-        "ernments",
-        "are.",
-        "They",
-        "hear",
-        "about",
-        "the",
-        "strange",
-        "and",
-        "wrong"
-      ],
-      "conf": 93.0451,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
+      "id": "r4",
+      "order": 3,
       "text": "ideas other countries have of them.",
       "x": 0.1088,
       "y": 0.2964,
@@ -348,12 +201,12 @@
         "of",
         "them."
       ],
-      "conf": 96.6735,
-      "source": "psm-6"
+      "conf": 96.5357,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
+      "id": "r5",
+      "order": 4,
       "text": "ATS",
       "x": 0.1304,
       "y": 0.4432,
@@ -366,8 +219,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
+      "id": "r6",
+      "order": 5,
       "text": "FS",
       "x": 0.708,
       "y": 0.4664,
@@ -380,13 +233,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r13",
-      "order": 12,
-      "text": "If we knew them better, we would see that people every- where are very much like ourselves: not very good or very",
-      "x": 0.1104,
+      "id": "r7",
+      "order": 6,
+      "text": "If we knew them better, we would see that people every- where are very much like ourselves: not very good or very bad, but in between and able to become better or worse than they are. Men’s minds are as like one another as",
+      "x": 0.1096,
       "y": 0.6084,
-      "w": 0.7888,
-      "h": 0.0484,
+      "w": 0.7904,
+      "h": 0.1011,
       "words": [
         "If",
         "we",
@@ -409,79 +262,7 @@
         "very",
         "good",
         "or",
-        "very"
-      ],
-      "conf": 95.7706,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "If we knew them better, we would see that people every-",
-      "x": 0.1112,
-      "y": 0.6084,
-      "w": 0.7872,
-      "h": 0.0215,
-      "words": [
-        "If",
-        "we",
-        "knew",
-        "them",
-        "better,",
-        "we",
-        "would",
-        "see",
-        "that",
-        "people",
-        "every-"
-      ],
-      "conf": 95.758,
-      "source": "psm-11"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "where are very much like ourselves: not very good or very bad, but in between and able to become better or worse",
-      "x": 0.1104,
-      "y": 0.6353,
-      "w": 0.7896,
-      "h": 0.0468,
-      "words": [
-        "where",
-        "are",
         "very",
-        "much",
-        "like",
-        "ourselves:",
-        "not",
-        "very",
-        "good",
-        "or",
-        "very",
-        "bad,",
-        "but",
-        "in",
-        "between",
-        "and",
-        "able",
-        "to",
-        "become",
-        "better",
-        "or",
-        "worse"
-      ],
-      "conf": 95.2982,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "bad, but in between and able to become better or worse than they are. Men’s minds are as like one another as",
-      "x": 0.1096,
-      "y": 0.6622,
-      "w": 0.7904,
-      "h": 0.0473,
-      "words": [
         "bad,",
         "but",
         "in",
@@ -505,12 +286,12 @@
         "another",
         "as"
       ],
-      "conf": 96.448,
-      "source": "psm-6"
+      "conf": 95.758,
+      "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
+      "id": "r8",
+      "order": 7,
       "text": "their bodies are.",
       "x": 0.1104,
       "y": 0.7154,
@@ -521,12 +302,12 @@
         "bodies",
         "are."
       ],
-      "conf": 96.3294,
-      "source": "psm-6"
+      "conf": 95.3493,
+      "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
+      "id": "r9",
+      "order": 8,
       "text": "to understand a person: to see what his ideas and feelings may be.",
       "x": 0.1104,
       "y": 0.8198,
@@ -551,8 +332,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r19",
-      "order": 18,
+      "id": "r10",
+      "order": 9,
       "text": "will understand",
       "x": 0.1104,
       "y": 0.8505,
@@ -566,25 +347,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r20",
-      "order": 19,
-      "text": "will understand understand(s) understood",
-      "x": 0.1104,
-      "y": 0.8494,
-      "w": 0.7896,
-      "h": 0.0161,
-      "words": [
-        "will",
-        "understand",
-        "understand(s)",
-        "understood"
-      ],
-      "conf": 93.157,
-      "source": "psm-6"
-    },
-    {
-      "id": "r21",
-      "order": 20,
+      "id": "r11",
+      "order": 10,
       "text": "understood",
       "x": 0.7656,
       "y": 0.8494,

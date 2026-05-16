@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20466.png",
   "layout": "single",
   "stats": {
-    "regionCount": 28,
-    "wordCount": 338,
+    "regionCount": 7,
+    "wordCount": 171,
     "imageWidth": 1171,
     "imageHeight": 1867
   },
@@ -24,28 +24,7 @@
         "r4",
         "r5",
         "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17",
-        "r18",
-        "r19",
-        "r20",
-        "r21",
-        "r22",
-        "r23",
-        "r24",
-        "r25",
-        "r26",
-        "r27",
-        "r28"
+        "r7"
       ]
     }
   ],
@@ -53,33 +32,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "Today machines are the work horses. They are doing",
+      "text": "Today machines are the work horses. They are doing what men gave all their days to doing in the past. Men’s get more tired in other ways. We are finding that we our lives may best take. We need a new design for living.",
       "x": 0.0803,
       "y": 0.0439,
-      "w": 0.8377,
-      "h": 0.0214,
-      "words": [
-        "Today",
-        "machines",
-        "are",
-        "the",
-        "work",
-        "horses.",
-        "They",
-        "are",
-        "doing"
-      ],
-      "conf": 96.3014,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "Today machines are the work horses. They are doing what men gave all their days to doing in the past. Men’s",
-      "x": 0.0803,
-      "y": 0.0439,
-      "w": 0.8377,
-      "h": 0.0477,
+      "w": 0.8385,
+      "h": 0.1521,
       "words": [
         "Today",
         "machines",
@@ -90,31 +47,6 @@
         "They",
         "are",
         "doing",
-        "what",
-        "men",
-        "gave",
-        "all",
-        "their",
-        "days",
-        "to",
-        "doing",
-        "in",
-        "the",
-        "past.",
-        "Men’s"
-      ],
-      "conf": 96.3014,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "what men gave all their days to doing in the past. Men’s get more tired in other ways. We are finding that we",
-      "x": 0.0811,
-      "y": 0.0702,
-      "w": 0.8377,
-      "h": 0.0739,
-      "words": [
         "what",
         "men",
         "gave",
@@ -127,54 +59,6 @@
         "the",
         "past.",
         "Men’s",
-        "get",
-        "more",
-        "tired",
-        "in",
-        "other",
-        "ways.",
-        "We",
-        "are",
-        "finding",
-        "that",
-        "we"
-      ],
-      "conf": 95.9146,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "muscles get less tired in the machine age, but they often",
-      "x": 0.0828,
-      "y": 0.0959,
-      "w": 0.8352,
-      "h": 0.022,
-      "words": [
-        "muscles",
-        "get",
-        "less",
-        "tired",
-        "in",
-        "the",
-        "machine",
-        "age,",
-        "but",
-        "they",
-        "often"
-      ],
-      "conf": 96.5905,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "get more tired in other ways. We are finding that we our lives may best take. We need a new design for living.",
-      "x": 0.0811,
-      "y": 0.1216,
-      "w": 0.8377,
-      "h": 0.0744,
-      "words": [
         "get",
         "more",
         "tired",
@@ -199,66 +83,17 @@
         "for",
         "living."
       ],
-      "conf": 96.5206,
-      "source": "psm-6"
+      "conf": 96.3014,
+      "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "need more and more time to work out the direction that",
+      "id": "r2",
+      "order": 1,
+      "text": "Men carried water from springs and rivers, and pulled it up by hand from wells, long before they learned even how to turn a chain round a wheel They put a cord round a wheel and turned the wheel round because that was less hard work than pulling full buckets up the well by hand. The steps have come slowly because each has to be taken before the next. A",
       "x": 0.0828,
-      "y": 0.1478,
-      "w": 0.8352,
-      "h": 0.0177,
-      "words": [
-        "need",
-        "more",
-        "and",
-        "more",
-        "time",
-        "to",
-        "work",
-        "out",
-        "the",
-        "direction",
-        "that"
-      ],
-      "conf": 96.5686,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "our lives may best take. We need a new design for living.",
-      "x": 0.082,
-      "y": 0.173,
-      "w": 0.8352,
-      "h": 0.023,
-      "words": [
-        "our",
-        "lives",
-        "may",
-        "best",
-        "take.",
-        "We",
-        "need",
-        "a",
-        "new",
-        "design",
-        "for",
-        "living."
-      ],
-      "conf": 94.67,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "Men carried water from springs and rivers, and pulled it up by hand from",
-      "x": 0.0828,
-      "y": 0.2507,
-      "w": 0.5491,
-      "h": 0.0471,
+      "y": 0.2512,
+      "w": 0.5551,
+      "h": 0.2502,
       "words": [
         "Men",
         "carried",
@@ -273,48 +108,7 @@
         "up",
         "by",
         "hand",
-        "from"
-      ],
-      "conf": 96.4587,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "rivers, and pulled it up by hand from.O wells, long before they learned even",
-      "x": 0.0837,
-      "y": 0.2721,
-      "w": 0.6678,
-      "h": 0.0519,
-      "words": [
-        "rivers,",
-        "and",
-        "pulled",
-        "it",
-        "up",
-        "by",
-        "hand",
         "from",
-        ".O",
-        "wells,",
-        "long",
-        "before",
-        "they",
-        "learned",
-        "even"
-      ],
-      "conf": 89.4032,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "wells, long before they learned even how to turn a chain round a wheel",
-      "x": 0.0837,
-      "y": 0.3026,
-      "w": 0.55,
-      "h": 0.0428,
-      "words": [
         "wells,",
         "long",
         "before",
@@ -328,62 +122,7 @@
         "chain",
         "round",
         "a",
-        "wheel"
-      ],
-      "conf": 96.3903,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "how to turn a chain round a wheel.",
-      "x": 0.0845,
-      "y": 0.3262,
-      "w": 0.55,
-      "h": 0.0257,
-      "words": [
-        "how",
-        "to",
-        "turn",
-        "a",
-        "chain",
-        "round",
-        "a",
-        "wheel."
-      ],
-      "conf": 94.95,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "They put a cord round a wheel and",
-      "x": 0.0854,
-      "y": 0.354,
-      "w": 0.5474,
-      "h": 0.0214,
-      "words": [
-        "They",
-        "put",
-        "a",
-        "cord",
-        "round",
-        "a",
         "wheel",
-        "and"
-      ],
-      "conf": 95.9705,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "They put a cord round a wheel and SS turned the wheel round because that",
-      "x": 0.0854,
-      "y": 0.3385,
-      "w": 0.6866,
-      "h": 0.0595,
-      "words": [
         "They",
         "put",
         "a",
@@ -392,40 +131,6 @@
         "a",
         "wheel",
         "and",
-        "SS",
-        "turned",
-        "the",
-        "wheel",
-        "round",
-        "because",
-        "that"
-      ],
-      "conf": 95.0222,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "TS",
-      "x": 0.6721,
-      "y": 0.3407,
-      "w": 0.0999,
-      "h": 0.0284,
-      "words": [
-        "TS"
-      ],
-      "conf": 38.2215,
-      "source": "psm-11"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "turned the wheel round because that was less hard work than pulling full",
-      "x": 0.0828,
-      "y": 0.3798,
-      "w": 0.5551,
-      "h": 0.0503,
-      "words": [
         "turned",
         "the",
         "wheel",
@@ -438,47 +143,7 @@
         "work",
         "than",
         "pulling",
-        "full"
-      ],
-      "conf": 96.4056,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "was less hard work than pulling full buckets up the well by hand. The",
-      "x": 0.0828,
-      "y": 0.4039,
-      "w": 0.5551,
-      "h": 0.0497,
-      "words": [
-        "was",
-        "less",
-        "hard",
-        "work",
-        "than",
-        "pulling",
         "full",
-        "buckets",
-        "up",
-        "the",
-        "well",
-        "by",
-        "hand.",
-        "The"
-      ],
-      "conf": 96.2315,
-      "source": "psm-6"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "buckets up the well by hand. The steps have come slowly because each",
-      "x": 0.0871,
-      "y": 0.4322,
-      "w": 0.5465,
-      "h": 0.0478,
-      "words": [
         "buckets",
         "up",
         "the",
@@ -491,40 +156,7 @@
         "come",
         "slowly",
         "because",
-        "each"
-      ],
-      "conf": 95.9744,
-      "source": "psm-6"
-    },
-    {
-      "id": "r18",
-      "order": 17,
-      "text": "steps have come slowly because each ew.",
-      "x": 0.0871,
-      "y": 0.443,
-      "w": 0.725,
-      "h": 0.0562,
-      "words": [
-        "steps",
-        "have",
-        "come",
-        "slowly",
-        "because",
         "each",
-        "ew."
-      ],
-      "conf": 89.105,
-      "source": "psm-6"
-    },
-    {
-      "id": "r19",
-      "order": 18,
-      "text": "has to be taken before the next. A IG",
-      "x": 0.088,
-      "y": 0.4794,
-      "w": 0.6038,
-      "h": 0.022,
-      "words": [
         "has",
         "to",
         "be",
@@ -532,20 +164,33 @@
         "before",
         "the",
         "next.",
-        "A",
-        "|G"
+        "A"
       ],
-      "conf": 95.1233,
-      "source": "psm-6"
+      "conf": 95.963,
+      "source": "psm-11"
     },
     {
-      "id": "r20",
-      "order": 19,
-      "text": "next step was to put another bucket on the other end of the cord so that",
+      "id": "r3",
+      "order": 2,
+      "text": "TS",
+      "x": 0.6721,
+      "y": 0.3407,
+      "w": 0.0999,
+      "h": 0.0284,
+      "words": [
+        "TS"
+      ],
+      "conf": 38.2215,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "next step was to put another bucket on the other end of the cord so that an empty bucket went down as the full one came up",
       "x": 0.0845,
       "y": 0.5099,
       "w": 0.5517,
-      "h": 0.0477,
+      "h": 0.0991,
       "words": [
         "next",
         "step",
@@ -554,48 +199,6 @@
         "put",
         "another",
         "bucket",
-        "on",
-        "the",
-        "other",
-        "end",
-        "of",
-        "the",
-        "cord",
-        "so",
-        "that"
-      ],
-      "conf": 96.4389,
-      "source": "psm-6"
-    },
-    {
-      "id": "r21",
-      "order": 20,
-      "text": "next step was to put another bucket",
-      "x": 0.0888,
-      "y": 0.5099,
-      "w": 0.5465,
-      "h": 0.0214,
-      "words": [
-        "next",
-        "step",
-        "was",
-        "to",
-        "put",
-        "another",
-        "bucket"
-      ],
-      "conf": 96.4389,
-      "source": "psm-11"
-    },
-    {
-      "id": "r22",
-      "order": 21,
-      "text": "on the other end of the cord so that an empty bucket went down as the",
-      "x": 0.0845,
-      "y": 0.5329,
-      "w": 0.5517,
-      "h": 0.0504,
-      "words": [
         "on",
         "the",
         "other",
@@ -611,56 +214,18 @@
         "went",
         "down",
         "as",
-        "the"
-      ],
-      "conf": 96.4991,
-      "source": "psm-6"
-    },
-    {
-      "id": "r23",
-      "order": 22,
-      "text": "an empty bucket went down as the If full one came up",
-      "x": 0.0888,
-      "y": 0.5613,
-      "w": 0.6192,
-      "h": 0.0477,
-      "words": [
-        "an",
-        "empty",
-        "bucket",
-        "went",
-        "down",
-        "as",
         "the",
-        "|f",
         "full",
         "one",
         "came",
         "up"
       ],
-      "conf": 92.0594,
-      "source": "psm-6"
+      "conf": 96.4389,
+      "source": "psm-11"
     },
     {
-      "id": "r24",
-      "order": 23,
-      "text": "full one came up.",
-      "x": 0.0888,
-      "y": 0.5881,
-      "w": 0.257,
-      "h": 0.0209,
-      "words": [
-        "full",
-        "one",
-        "came",
-        "up."
-      ],
-      "conf": 96.0087,
-      "source": "psm-6"
-    },
-    {
-      "id": "r25",
-      "order": 24,
+      "id": "r5",
+      "order": 4,
       "text": "often: time after time.",
       "x": 0.0939,
       "y": 0.8029,
@@ -676,13 +241,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r26",
-      "order": 25,
-      "text": "design: picture of what can be done, Before a house or a complex machine is built, the builders must have a design (o “blueprint”)",
+      "id": "r6",
+      "order": 5,
+      "text": "design: picture of what can be done, Before a house or a complex",
       "x": 0.0939,
       "y": 0.82,
-      "w": 0.8361,
-      "h": 0.0327,
+      "w": 0.836,
+      "h": 0.0166,
       "words": [
         "design:",
         "picture",
@@ -696,25 +261,14 @@
         "house",
         "or",
         "a",
-        "complex",
-        "machine",
-        "is",
-        "built,",
-        "the",
-        "builders",
-        "must",
-        "have",
-        "a",
-        "design",
-        "(o",
-        "“blueprint”)"
+        "complex"
       ],
       "conf": 95.1158,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r27",
-      "order": 26,
+      "id": "r7",
+      "order": 6,
       "text": "machine is built, the builders must have a design (a before them.",
       "x": 0.152,
       "y": 0.8372,
@@ -736,21 +290,6 @@
       ],
       "conf": 94.1213,
       "source": "psm-11"
-    },
-    {
-      "id": "r28",
-      "order": 27,
-      "text": "before them.",
-      "x": 0.152,
-      "y": 0.8559,
-      "w": 0.1426,
-      "h": 0.0123,
-      "words": [
-        "before",
-        "them."
-      ],
-      "conf": 91.446,
-      "source": "psm-6"
     }
   ]
 }

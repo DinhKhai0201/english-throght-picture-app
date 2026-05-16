@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20444.png",
   "layout": "single",
   "stats": {
-    "regionCount": 14,
-    "wordCount": 135,
+    "regionCount": 8,
+    "wordCount": 96,
     "imageWidth": 1171,
     "imageHeight": 1875
   },
@@ -25,13 +25,7 @@
         "r5",
         "r6",
         "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14"
+        "r8"
       ]
     }
   ],
@@ -39,11 +33,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "Our ideas about Space and Time are changing",
-      "x": 0.0837,
+      "text": "Our ideas about Space and Time are changing Today we can fly round the world in twenty-four hours.",
+      "x": 0.0828,
       "y": 0.0448,
-      "w": 0.3826,
-      "h": 0.0475,
+      "w": 0.3835,
+      "h": 0.1206,
       "words": [
         "Our",
         "ideas",
@@ -52,83 +46,24 @@
         "and",
         "Time",
         "are",
-        "changing"
-      ],
-      "conf": 93.4711,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "and Time are changing.",
-      "x": 0.0837,
-      "y": 0.0715,
-      "w": 0.3809,
-      "h": 0.0208,
-      "words": [
-        "and",
-        "Time",
-        "are",
-        "changing."
-      ],
-      "conf": 93.37,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "Today we can fly round fr",
-      "x": 0.0871,
-      "y": 0.0923,
-      "w": 0.4671,
-      "h": 0.0379,
-      "words": [
+        "changing",
         "Today",
         "we",
         "can",
         "fly",
         "round",
-        "fr"
-      ],
-      "conf": 86.0828,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "the world in twenty-four hours.",
-      "x": 0.0828,
-      "y": 0.1227,
-      "w": 0.3834,
-      "h": 0.0427,
-      "words": [
         "the",
         "world",
         "in",
         "twenty-four",
         "hours."
       ],
-      "conf": 89.2901,
-      "source": "psm-6"
+      "conf": 93.4711,
+      "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "hours. Con",
-      "x": 0.0828,
-      "y": 0.1461,
-      "w": 0.6934,
-      "h": 0.0533,
-      "words": [
-        "hours.",
-        "Con"
-      ],
-      "conf": 71.9666,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
+      "id": "r2",
+      "order": 1,
       "text": "The earth turns round on itself in twenty-four hours.",
       "x": 0.0845,
       "y": 0.2523,
@@ -149,8 +84,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r3",
+      "order": 2,
       "text": "A man in a",
       "x": 0.0854,
       "y": 0.3035,
@@ -166,8 +101,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r4",
+      "order": 3,
       "text": "plane flying west at miles an hour (m.p.h.) would see the earth turning. The sun would",
       "x": 0.0897,
       "y": 0.3045,
@@ -195,44 +130,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "(m.p.h.) would see the earth turning. The sun would seem to be in the same place in the sky for him. The earth",
-      "x": 0.0828,
-      "y": 0.3301,
-      "w": 0.8412,
-      "h": 0.0523,
-      "words": [
-        "(m.p.h.)",
-        "would",
-        "see",
-        "the",
-        "earth",
-        "turning.",
-        "The",
-        "sun",
-        "would",
-        "seem",
-        "to",
-        "be",
-        "in",
-        "the",
-        "same",
-        "place",
-        "in",
-        "the",
-        "sky",
-        "for",
-        "him.",
-        "The",
-        "earth"
-      ],
-      "conf": 93.4577,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
+      "id": "r5",
+      "order": 4,
       "text": "Pines in the aky for him, ‘The cert",
       "x": 0.4304,
       "y": 0.3541,
@@ -252,30 +151,30 @@
       "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "would tum under him.",
+      "id": "r6",
+      "order": 5,
+      "text": "would turn under him.",
       "x": 0.0863,
       "y": 0.3829,
       "w": 0.3254,
       "h": 0.0171,
       "words": [
         "would",
-        "tum",
+        "turn",
         "under",
         "him."
       ],
-      "conf": 89.9799,
-      "source": "psm-6"
+      "conf": 83.4741,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "A hundred years ago men of learning thought that the world was only about years old. Now scientists say",
+      "id": "r7",
+      "order": 6,
+      "text": "A hundred years ago men of learning thought that the world was only about years old. Now scientists say that it is nearer six billion years old and that Man himself",
       "x": 0.0845,
       "y": 0.7947,
-      "w": 0.8403,
-      "h": 0.0496,
+      "w": 0.8404,
+      "h": 0.0763,
       "words": [
         "A",
         "hundred",
@@ -287,28 +186,6 @@
         "thought",
         "that",
         "the",
-        "world",
-        "was",
-        "only",
-        "about",
-        "years",
-        "old.",
-        "Now",
-        "scientists",
-        "say"
-      ],
-      "conf": 96.313,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "world was only about years old. Now scientists say that it is nearer six billion years old and that Man himself",
-      "x": 0.0854,
-      "y": 0.8213,
-      "w": 0.8395,
-      "h": 0.0497,
-      "words": [
         "world",
         "was",
         "only",
@@ -331,12 +208,12 @@
         "Man",
         "himself"
       ],
-      "conf": 96.7551,
-      "source": "psm-6"
+      "conf": 96.5936,
+      "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
+      "id": "r8",
+      "order": 7,
       "text": "is at least five hundred thousand.",
       "x": 0.0854,
       "y": 0.8741,
@@ -350,8 +227,8 @@
         "hundred",
         "thousand."
       ],
-      "conf": 96.5669,
-      "source": "psm-6"
+      "conf": 96.4212,
+      "source": "psm-11"
     }
   ]
 }

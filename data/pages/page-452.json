@@ -2,21 +2,21 @@
   "page": 452,
   "image": "/books/page 452.png",
   "imageApiPath": "/api/books/page%20452.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 29,
-    "wordCount": 278,
+    "regionCount": 11,
+    "wordCount": 164,
     "imageWidth": 1188,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
         "r2",
@@ -28,55 +28,7 @@
         "r8",
         "r9",
         "r10",
-        "r11",
-        "r12"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17",
-        "r18"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r19",
-        "r20",
-        "r22",
-        "r23",
-        "r24"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r21",
-        "r25",
-        "r26",
-        "r27",
-        "r28",
-        "r29"
+        "r11"
       ]
     }
   ],
@@ -84,160 +36,35 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "In early times, before men S their business by exchange of M (x",
-      "x": 0.1162,
+      "text": "In early times, before men invented money, they did all their business by exchange of goods. Men traded with other men by exchanging goods they were willing to give up for goods they want- ed more. Exchange of things still goes on in some parts of the world today.",
+      "x": 0.1145,
       "y": 0.0516,
-      "w": 0.7626,
-      "h": 0.0926,
+      "w": 0.4192,
+      "h": 0.2566,
       "words": [
         "In",
         "early",
         "times,",
         "before",
         "men",
-        "S",
+        "invented",
+        "money,",
+        "they",
+        "did",
+        "all",
         "their",
         "business",
         "by",
         "exchange",
         "of",
-        "M",
-        "(x"
-      ],
-      "conf": 86.4705,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "invented money, they did all their business by exchange of",
-      "x": 0.1162,
-      "y": 0.0769,
-      "w": 0.4175,
-      "h": 0.0479,
-      "words": [
-        "invented",
-        "money,",
-        "they",
-        "did",
-        "all",
-        "their",
-        "business",
-        "by",
-        "exchange",
-        "of"
-      ],
-      "conf": 95.9087,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "invented money, they did all Te CA",
-      "x": 0.117,
-      "y": 0.0715,
-      "w": 0.7635,
-      "h": 0.0317,
-      "words": [
-        "invented",
-        "money,",
-        "they",
-        "did",
-        "all",
-        "Te",
-        "CA"
-      ],
-      "conf": 85.4419,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "In early times, before men",
-      "x": 0.1195,
-      "y": 0.0516,
-      "w": 0.4133,
-      "h": 0.021,
-      "words": [
-        "In",
-        "early",
-        "times,",
-        "before",
-        "men"
-      ],
-      "conf": 95.7451,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "goods. Men traded with i",
-      "x": 0.1162,
-      "y": 0.1049,
-      "w": 0.569,
-      "h": 0.0672,
-      "words": [
         "goods.",
         "Men",
         "traded",
         "with",
-        "i"
-      ],
-      "conf": 84.2324,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "goods. Men traded with other men by exchanging",
-      "x": 0.1162,
-      "y": 0.1291,
-      "w": 0.4167,
-      "h": 0.0474,
-      "words": [
-        "goods.",
-        "Men",
-        "traded",
-        "with",
-        "other",
-        "men",
-        "by",
-        "exchanging"
-      ],
-      "conf": 95.2549,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "other men by exchanging goods they were willing to",
-      "x": 0.1162,
-      "y": 0.1555,
-      "w": 0.4167,
-      "h": 0.0478,
-      "words": [
         "other",
         "men",
         "by",
         "exchanging",
-        "goods",
-        "they",
-        "were",
-        "willing",
-        "to"
-      ],
-      "conf": 95.814,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "goods they were willing to give up for goods they want-",
-      "x": 0.1153,
-      "y": 0.1818,
-      "w": 0.4167,
-      "h": 0.0522,
-      "words": [
         "goods",
         "they",
         "were",
@@ -248,44 +75,7 @@
         "for",
         "goods",
         "they",
-        "want-"
-      ],
-      "conf": 96.5832,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "give up for goods they want- ed more. Exchange of things",
-      "x": 0.1145,
-      "y": 0.2082,
-      "w": 0.4175,
-      "h": 0.0478,
-      "words": [
-        "give",
-        "up",
-        "for",
-        "goods",
-        "they",
         "want-",
-        "ed",
-        "more.",
-        "Exchange",
-        "of",
-        "things"
-      ],
-      "conf": 94.9692,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "ed more. Exchange of things still goes on in some parts of",
-      "x": 0.1145,
-      "y": 0.2318,
-      "w": 0.4192,
-      "h": 0.0527,
-      "words": [
         "ed",
         "more.",
         "Exchange",
@@ -297,58 +87,22 @@
         "in",
         "some",
         "parts",
-        "of"
-      ],
-      "conf": 96.3846,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "still goes on in some parts of the world today.",
-      "x": 0.1153,
-      "y": 0.2587,
-      "w": 0.4184,
-      "h": 0.0495,
-      "words": [
-        "still",
-        "goes",
-        "on",
-        "in",
-        "some",
-        "parts",
         "of",
         "the",
         "world",
         "today."
       ],
-      "conf": 96.5779,
-      "source": "psm-6"
+      "conf": 95.7451,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "the world today.",
-      "x": 0.1162,
-      "y": 0.2878,
-      "w": 0.2323,
-      "h": 0.0204,
-      "words": [
-        "the",
-        "world",
-        "today."
-      ],
-      "conf": 96.3186,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "After the invention of money, trade increased. It is man’s experience that money can be a great help in making",
+      "id": "r2",
+      "order": 1,
+      "text": "After the invention of money, trade increased. It is man’s experience that money can be a great help in making trade easier and in keeping business in better order. If you want something and have the money for it, you can buy it. You do not have to keep asking yourself whether you have something which the other man will be willing",
       "x": 0.1153,
       "y": 0.3384,
-      "w": 0.8249,
-      "h": 0.0489,
+      "w": 0.8266,
+      "h": 0.1538,
       "words": [
         "After",
         "the",
@@ -369,53 +123,7 @@
         "great",
         "help",
         "in",
-        "making"
-      ],
-      "conf": 96.1992,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "experience that money can be a great help in making trade easier and in keeping business in better order. If",
-      "x": 0.1153,
-      "y": 0.3647,
-      "w": 0.825,
-      "h": 0.0489,
-      "words": [
-        "experience",
-        "that",
-        "money",
-        "can",
-        "be",
-        "a",
-        "great",
-        "help",
-        "in",
         "making",
-        "trade",
-        "easier",
-        "and",
-        "in",
-        "keeping",
-        "business",
-        "in",
-        "better",
-        "order.",
-        "If"
-      ],
-      "conf": 96.4546,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "trade easier and in keeping business in better order. If you want something and have the money for it, you can",
-      "x": 0.1153,
-      "y": 0.3905,
-      "w": 0.825,
-      "h": 0.0496,
-      "words": [
         "trade",
         "easier",
         "and",
@@ -436,55 +144,7 @@
         "for",
         "it,",
         "you",
-        "can"
-      ],
-      "conf": 96.5572,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "you want something and have the money for it, you can buy it. You do not have to keep asking yourself whether",
-      "x": 0.1153,
-      "y": 0.418,
-      "w": 0.8249,
-      "h": 0.05,
-      "words": [
-        "you",
-        "want",
-        "something",
-        "and",
-        "have",
-        "the",
-        "money",
-        "for",
-        "it,",
-        "you",
         "can",
-        "buy",
-        "it.",
-        "You",
-        "do",
-        "not",
-        "have",
-        "to",
-        "keep",
-        "asking",
-        "yourself",
-        "whether"
-      ],
-      "conf": 96.5593,
-      "source": "psm-6"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "buy it. You do not have to keep asking yourself whether you have something which the other man will be willing",
-      "x": 0.117,
-      "y": 0.4438,
-      "w": 0.8249,
-      "h": 0.0484,
-      "words": [
         "buy",
         "it.",
         "You",
@@ -507,35 +167,12 @@
         "be",
         "willing"
       ],
-      "conf": 96.5665,
-      "source": "psm-6"
+      "conf": 96.1992,
+      "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
-      "text": "you have something which the other man will be willing",
-      "x": 0.117,
-      "y": 0.4707,
-      "w": 0.8249,
-      "h": 0.0215,
-      "words": [
-        "you",
-        "have",
-        "something",
-        "which",
-        "the",
-        "other",
-        "man",
-        "will",
-        "be",
-        "willing"
-      ],
-      "conf": 96.4828,
-      "source": "psm-6"
-    },
-    {
-      "id": "r19",
-      "order": 18,
+      "id": "r3",
+      "order": 2,
       "text": "to take in exchange for what you want.",
       "x": 0.1187,
       "y": 0.497,
@@ -555,8 +192,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r20",
-      "order": 19,
+      "id": "r4",
+      "order": 3,
       "text": "exchange: giving one thing for onother.",
       "x": 0.117,
       "y": 0.7595,
@@ -574,8 +211,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r21",
-      "order": 20,
+      "id": "r5",
+      "order": 4,
       "text": "willing: if you are willing to do something yau will do it if you have te.",
       "x": 0.1178,
       "y": 0.7773,
@@ -603,8 +240,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r22",
-      "order": 21,
+      "id": "r6",
+      "order": 5,
       "text": "trade: exchange of things for other things or money.",
       "x": 0.117,
       "y": 0.8123,
@@ -625,8 +262,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r23",
-      "order": 22,
+      "id": "r7",
+      "order": 6,
       "text": "still: up to the present time.",
       "x": 0.1178,
       "y": 0.7945,
@@ -644,8 +281,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r24",
-      "order": 23,
+      "id": "r8",
+      "order": 7,
       "text": "will trade wiiil invent",
       "x": 0.117,
       "y": 0.8419,
@@ -661,41 +298,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r25",
-      "order": 24,
-      "text": "will invent tnvent(s) invented",
-      "x": 0.117,
-      "y": 0.8591,
-      "w": 0.8274,
-      "h": 0.0156,
-      "words": [
-        "will",
-        "invent",
-        "tnvent(s)",
-        "invented"
-      ],
-      "conf": 82.2282,
-      "source": "psm-6"
-    },
-    {
-      "id": "r26",
-      "order": 25,
-      "text": "trade trade(s) traded",
-      "x": 0.1717,
-      "y": 0.8419,
-      "w": 0.7727,
-      "h": 0.0161,
-      "words": [
-        "trade",
-        "trade(s)",
-        "traded"
-      ],
-      "conf": 79.3904,
-      "source": "psm-6"
-    },
-    {
-      "id": "r27",
-      "order": 26,
+      "id": "r9",
+      "order": 8,
       "text": "invent (s)",
       "x": 0.4731,
       "y": 0.8596,
@@ -709,8 +313,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r28",
-      "order": 27,
+      "id": "r10",
+      "order": 9,
       "text": "invented",
       "x": 0.835,
       "y": 0.8607,
@@ -723,8 +327,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r29",
-      "order": 28,
+      "id": "r11",
+      "order": 10,
       "text": "traded",
       "x": 0.8611,
       "y": 0.8435,

@@ -2,75 +2,35 @@
   "page": 472,
   "image": "/books/page 472.png",
   "imageApiPath": "/api/books/page%20472.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 23,
-    "wordCount": 166,
+    "regionCount": 13,
+    "wordCount": 116,
     "imageWidth": 1171,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3",
-        "r8",
-        "r10",
-        "r12",
-        "r13",
-        "r14"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
         "r2",
+        "r3",
         "r4",
         "r5",
         "r6",
         "r7",
+        "r8",
         "r9",
-        "r11"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r15",
-        "r16",
-        "r17",
-        "r21",
-        "r22",
-        "r23"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r18",
-        "r19",
-        "r20"
+        "r10",
+        "r11",
+        "r12",
+        "r13"
       ]
     }
   ],
@@ -105,34 +65,11 @@
         "when"
       ],
       "conf": 96.5303,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
       "id": "r2",
       "order": 1,
-      "text": "makes use of our knowledge of what metals do when",
-      "x": 0.0897,
-      "y": 0.0651,
-      "w": 0.8377,
-      "h": 0.0213,
-      "words": [
-        "makes",
-        "use",
-        "of",
-        "our",
-        "knowledge",
-        "of",
-        "what",
-        "metals",
-        "do",
-        "when"
-      ],
-      "conf": 96.2075,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
       "text": "heated.",
       "x": 0.0905,
       "y": 0.0917,
@@ -141,12 +78,12 @@
       "words": [
         "heated."
       ],
-      "conf": 96.6899,
-      "source": "psm-6"
+      "conf": 96.3671,
+      "source": "psm-11"
     },
     {
-      "id": "r4",
-      "order": 3,
+      "id": "r3",
+      "order": 2,
       "text": "TEMPERATU RE",
       "x": 0.4611,
       "y": 0.1285,
@@ -160,38 +97,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "TEMPERATURE TEMPERATURE",
-      "x": 0.4611,
-      "y": 0.1408,
-      "w": 0.3612,
-      "h": 0.0181,
-      "words": [
-        "TEMPERATURE",
-        "TEMPERATURE"
-      ],
-      "conf": 95.8321,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "low HIGH",
-      "x": 0.5124,
-      "y": 0.1301,
-      "w": 0.2664,
-      "h": 0.0112,
-      "words": [
-        "low",
-        "HIGH"
-      ],
-      "conf": 76.061,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
+      "id": "r4",
+      "order": 3,
       "text": "RE",
       "x": 0.8002,
       "y": 0.1435,
@@ -204,8 +111,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r5",
+      "order": 4,
       "text": "This is the way it works.",
       "x": 0.0922,
       "y": 0.168,
@@ -219,12 +126,12 @@
         "it",
         "works."
       ],
-      "conf": 96.7418,
-      "source": "psm-6"
+      "conf": 96.5504,
+      "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r6",
+      "order": 5,
       "text": "Different metals get larger by different amounts as they",
       "x": 0.0888,
       "y": 0.296,
@@ -245,8 +152,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r7",
+      "order": 6,
       "text": "are heated.",
       "x": 0.0905,
       "y": 0.3221,
@@ -256,31 +163,17 @@
         "are",
         "heated."
       ],
-      "conf": 96.5222,
-      "source": "psm-6"
+      "conf": 96.4601,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "Ch",
-      "x": 0.7233,
-      "y": 0.3691,
-      "w": 0.0615,
-      "h": 0.0224,
-      "words": [
-        "Ch"
-      ],
-      "conf": 92.0262,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "Two long thin pieces of such different metals",
+      "id": "r8",
+      "order": 7,
+      "text": "Two long thin pieces of such different metals are bent together like",
       "x": 0.0905,
       "y": 0.4245,
       "w": 0.3407,
-      "h": 0.0427,
+      "h": 0.0726,
       "words": [
         "Two",
         "long",
@@ -289,68 +182,18 @@
         "of",
         "such",
         "different",
-        "metals"
-      ],
-      "conf": 96.2908,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "such different metals are bent together like",
-      "x": 0.0914,
-      "y": 0.4507,
-      "w": 0.339,
-      "h": 0.0464,
-      "words": [
-        "such",
-        "different",
         "metals",
         "are",
         "bent",
         "together",
         "like"
       ],
-      "conf": 95.4778,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "are bent together like",
-      "x": 0.0914,
-      "y": 0.4763,
-      "w": 0.339,
-      "h": 0.0208,
-      "words": [
-        "are",
-        "bent",
-        "together",
-        "like"
-      ],
-      "conf": 96.4895,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "this inside the thermo-",
-      "x": 0.0897,
-      "y": 0.5024,
-      "w": 0.3416,
-      "h": 0.0165,
-      "words": [
-        "this",
-        "inside",
-        "the",
-        "thermo-"
-      ],
-      "conf": 94.7436,
+      "conf": 96.2908,
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
+      "id": "r9",
+      "order": 8,
       "text": "this inside the thermo- Stat.",
       "x": 0.0897,
       "y": 0.5024,
@@ -363,31 +206,17 @@
         "thermo-",
         "Stat."
       ],
-      "conf": 94.2856,
-      "source": "psm-6"
+      "conf": 94.7436,
+      "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
-      "text": "stat.",
-      "x": 0.0914,
-      "y": 0.5307,
-      "w": 0.0606,
-      "h": 0.0144,
-      "words": [
-        "stat."
-      ],
-      "conf": 94.86,
-      "source": "psm-6"
-    },
-    {
-      "id": "r18",
-      "order": 17,
-      "text": "When the temperature in a room goes above 70°F the metal on the outside gets longer than the metal on the",
+      "id": "r10",
+      "order": 9,
+      "text": "When the temperature in a room goes above 70°F the metal on the outside gets longer than the metal on the inside. This moves the arm to the right and shuts off the",
       "x": 0.0905,
       "y": 0.6053,
       "w": 0.8395,
-      "h": 0.047,
+      "h": 0.0726,
       "words": [
         "When",
         "the",
@@ -409,75 +238,26 @@
         "the",
         "metal",
         "on",
+        "the",
+        "inside.",
+        "This",
+        "moves",
+        "the",
+        "arm",
+        "to",
+        "the",
+        "right",
+        "and",
+        "shuts",
+        "off",
         "the"
       ],
       "conf": 95.5167,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r19",
-      "order": 18,
-      "text": "metal on the outside gets longer than the metal on the inside. This moves the arm to the right and shuts off the",
-      "x": 0.0922,
-      "y": 0.6315,
-      "w": 0.8369,
-      "h": 0.0464,
-      "words": [
-        "metal",
-        "on",
-        "the",
-        "outside",
-        "gets",
-        "longer",
-        "than",
-        "the",
-        "metal",
-        "on",
-        "the",
-        "inside.",
-        "This",
-        "moves",
-        "the",
-        "arm",
-        "to",
-        "the",
-        "right",
-        "and",
-        "shuts",
-        "off",
-        "the"
-      ],
-      "conf": 96.0893,
-      "source": "psm-6"
-    },
-    {
-      "id": "r20",
-      "order": 19,
-      "text": "inside. This moves the arm to the right and shuts off the",
-      "x": 0.0922,
-      "y": 0.6571,
-      "w": 0.8369,
-      "h": 0.0208,
-      "words": [
-        "inside.",
-        "This",
-        "moves",
-        "the",
-        "arm",
-        "to",
-        "the",
-        "right",
-        "and",
-        "shuts",
-        "off",
-        "the"
-      ],
-      "conf": 96.5428,
-      "source": "psm-6"
-    },
-    {
-      "id": "r21",
-      "order": 20,
+      "id": "r11",
+      "order": 10,
       "text": "fuel in the heating system of the house.",
       "x": 0.0931,
       "y": 0.6832,
@@ -497,9 +277,9 @@
       "source": "psm-11"
     },
     {
-      "id": "r22",
-      "order": 21,
-      "text": "for this purposes to do this work.",
+      "id": "r12",
+      "order": 11,
+      "text": "for this purpose: to do this work.",
       "x": 0.0956,
       "y": 0.8309,
       "w": 0.392,
@@ -507,18 +287,18 @@
       "words": [
         "for",
         "this",
-        "purposes",
+        "purpose:",
         "to",
         "do",
         "this",
         "work."
       ],
-      "conf": 93.1349,
-      "source": "psm-6"
+      "conf": 92.4213,
+      "source": "psm-11"
     },
     {
-      "id": "r23",
-      "order": 22,
+      "id": "r13",
+      "order": 12,
       "text": "purposes a thing’s purpose is what It is designed to do.",
       "x": 0.0965,
       "y": 0.8485,

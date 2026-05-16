@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20481.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 20,
-    "wordCount": 189,
+    "regionCount": 11,
+    "wordCount": 125,
     "imageWidth": 1221,
     "imageHeight": 1859
   },
@@ -19,12 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r12"
+        "r5"
       ]
     },
     {
@@ -35,11 +30,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11"
+        "r2",
+        "r3",
+        "r4"
       ]
     },
     {
@@ -50,8 +43,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r17",
-        "r18"
+        "r8",
+        "r9"
       ]
     },
     {
@@ -62,12 +55,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r19",
-        "r20"
+        "r6",
+        "r7",
+        "r10",
+        "r11"
       ]
     }
   ],
@@ -75,30 +66,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "More and more use is being",
+      "text": "More and more use is being made, in public places, of automatic machines which sell food, cigarettes, drinks, stamps, or even books.",
       "x": 0.0999,
       "y": 0.0979,
-      "w": 0.407,
-      "h": 0.021,
-      "words": [
-        "More",
-        "and",
-        "more",
-        "use",
-        "is",
-        "being"
-      ],
-      "conf": 96.0827,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "More and more use is being Frm made, in public places, of",
-      "x": 0.0999,
-      "y": 0.0974,
-      "w": 0.5512,
-      "h": 0.0479,
+      "w": 0.4079,
+      "h": 0.1258,
       "words": [
         "More",
         "and",
@@ -106,25 +78,6 @@
         "use",
         "is",
         "being",
-        "Frm",
-        "made,",
-        "in",
-        "public",
-        "places,",
-        "of"
-      ],
-      "conf": 89.3209,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "made, in public places, of automatic machines which",
-      "x": 0.1016,
-      "y": 0.1243,
-      "w": 0.4062,
-      "h": 0.0424,
-      "words": [
         "made,",
         "in",
         "public",
@@ -132,66 +85,22 @@
         "of",
         "automatic",
         "machines",
-        "which"
-      ],
-      "conf": 96.0199,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "automatic machines which al",
-      "x": 0.1016,
-      "y": 0.1409,
-      "w": 0.5717,
-      "h": 0.0543,
-      "words": [
-        "automatic",
-        "machines",
         "which",
-        "al"
-      ],
-      "conf": 81.6614,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "sell food, cigarettes, drinks, KO",
-      "x": 0.1007,
-      "y": 0.1754,
-      "w": 0.674,
-      "h": 0.028,
-      "words": [
         "sell",
         "food,",
         "cigarettes,",
         "drinks,",
-        "KO"
-      ],
-      "conf": 89.7244,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "stamps, or even books.",
-      "x": 0.0999,
-      "y": 0.2006,
-      "w": 0.3161,
-      "h": 0.0231,
-      "words": [
         "stamps,",
         "or",
         "even",
         "books."
       ],
-      "conf": 96.7581,
+      "conf": 96.0827,
       "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r2",
+      "order": 1,
       "text": "ef)",
       "x": 0.6249,
       "y": 0.2006,
@@ -204,13 +113,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "To make. buying and selling simpler and more auto- matic is important. Too many housewives have to give",
+      "id": "r3",
+      "order": 2,
+      "text": "To make. buying and selling simpler and more auto- matic is important. Too many housewives have to give up too much of their time to shopping for their families.",
       "x": 0.1032,
       "y": 0.2808,
       "w": 0.8116,
-      "h": 0.0479,
+      "h": 0.0731,
       "words": [
         "To",
         "make.",
@@ -221,28 +130,6 @@
         "and",
         "more",
         "auto-",
-        "matic",
-        "is",
-        "important.",
-        "Too",
-        "many",
-        "housewives",
-        "have",
-        "to",
-        "give"
-      ],
-      "conf": 91.9344,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "matic is important. Too many housewives have to give up too much of their time to shopping for their families.",
-      "x": 0.1032,
-      "y": 0.3066,
-      "w": 0.8116,
-      "h": 0.0473,
-      "words": [
         "matic",
         "is",
         "important.",
@@ -264,17 +151,17 @@
         "their",
         "families."
       ],
-      "conf": 95.682,
-      "source": "psm-6"
+      "conf": 93.0878,
+      "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r4",
+      "order": 3,
       "text": "Some of them use up a large part of their lives going from shop to shop to get what they want and waiting in line",
       "x": 0.1057,
-      "y": 0.355,
+      "y": 0.3556,
       "w": 0.8083,
-      "h": 0.0517,
+      "h": 0.0511,
       "words": [
         "Some",
         "of",
@@ -302,46 +189,12 @@
         "in",
         "line"
       ],
-      "conf": 96.6443,
-      "source": "psm-6"
+      "conf": 96.5592,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "shop to shop to get what they want and waiting in line for people to serve them. Serving themselves frees them",
-      "x": 0.1048,
-      "y": 0.3841,
-      "w": 0.8133,
-      "h": 0.05,
-      "words": [
-        "shop",
-        "to",
-        "shop",
-        "to",
-        "get",
-        "what",
-        "they",
-        "want",
-        "and",
-        "waiting",
-        "in",
-        "line",
-        "for",
-        "people",
-        "to",
-        "serve",
-        "them.",
-        "Serving",
-        "themselves",
-        "frees",
-        "them"
-      ],
-      "conf": 96.6691,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
+      "id": "r5",
+      "order": 4,
       "text": "for people to serve them. Serving themselves frees from this.",
       "x": 0.1048,
       "y": 0.4099,
@@ -363,22 +216,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r13",
-      "order": 12,
-      "text": "TA",
-      "x": 0.6216,
-      "y": 0.5143,
-      "w": 0.2129,
-      "h": 0.0791,
-      "words": [
-        "TA"
-      ],
-      "conf": 57.891,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
+      "id": "r6",
+      "order": 5,
       "text": "AN",
       "x": 0.7068,
       "y": 0.5928,
@@ -391,38 +230,9 @@
       "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
-      "text": "store; bet you go shopping In both countries—that is, you go to will shop shop(s) shopped",
-      "x": 0.1081,
-      "y": 0.8182,
-      "w": 0.8034,
-      "h": 0.0683,
-      "words": [
-        "store;",
-        "bet",
-        "you",
-        "go",
-        "shopping",
-        "In",
-        "both",
-        "countries—that",
-        "is,",
-        "you",
-        "go",
-        "to",
-        "will",
-        "shop",
-        "shop(s)",
-        "shopped"
-      ],
-      "conf": 94.7288,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "shop: store. in the United Kingdom shop is used and fn the United States store; bet you go shopping In both countries—that is, you go to",
+      "id": "r7",
+      "order": 6,
+      "text": "shop: store. in the United Kingdom shop Is used and in the United States store; bet you go shopping In both countries—that is, you go to",
       "x": 0.1097,
       "y": 0.7999,
       "w": 0.8018,
@@ -435,10 +245,10 @@
         "United",
         "Kingdom",
         "shop",
-        "is",
+        "Is",
         "used",
         "and",
-        "fn",
+        "in",
         "the",
         "United",
         "States",
@@ -455,12 +265,12 @@
         "go",
         "to"
       ],
-      "conf": 89.5723,
-      "source": "psm-6"
+      "conf": 91.8523,
+      "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
+      "id": "r8",
+      "order": 7,
       "text": "stores to see what you can buy.",
       "x": 0.1622,
       "y": 0.8332,
@@ -479,8 +289,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
+      "id": "r9",
+      "order": 8,
       "text": "will shop",
       "x": 0.1048,
       "y": 0.8558,
@@ -494,8 +304,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r19",
-      "order": 18,
+      "id": "r10",
+      "order": 9,
       "text": "shop(s)",
       "x": 0.4611,
       "y": 0.865,
@@ -508,8 +318,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r20",
-      "order": 19,
+      "id": "r11",
+      "order": 10,
       "text": "shopped",
       "x": 0.8084,
       "y": 0.8682,

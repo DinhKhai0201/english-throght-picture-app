@@ -2,70 +2,33 @@
   "page": 443,
   "image": "/books/page 443.png",
   "imageApiPath": "/api/books/page%20443.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 18,
-    "wordCount": 144,
+    "regionCount": 11,
+    "wordCount": 102,
     "imageWidth": 1225,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
-        "r2"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r2",
         "r3",
         "r4",
-        "r5"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r5",
         "r6",
+        "r7",
         "r8",
         "r9",
         "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r7",
-        "r18"
+        "r11"
       ]
     }
   ],
@@ -73,24 +36,6 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "It is equally hard to",
-      "x": 0.0988,
-      "y": 0.0709,
-      "w": 0.2841,
-      "h": 0.0432,
-      "words": [
-        "It",
-        "is",
-        "equally",
-        "hard",
-        "to"
-      ],
-      "conf": 95.3197,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
       "text": "say what Time is,",
       "x": 0.098,
       "y": 0.1099,
@@ -106,30 +51,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "This man has time",
+      "id": "r2",
+      "order": 1,
+      "text": "This man has time on his hands.",
       "x": 0.6196,
       "y": 0.2395,
       "w": 0.2849,
-      "h": 0.0245,
-      "words": [
-        "This",
-        "man",
-        "has",
-        "time"
-      ],
-      "conf": 96.3534,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "This man has time on his hands.",
-      "x": 0.6196,
-      "y": 0.2416,
-      "w": 0.2849,
-      "h": 0.0517,
+      "h": 0.0538,
       "words": [
         "This",
         "man",
@@ -139,28 +67,12 @@
         "his",
         "hands."
       ],
-      "conf": 96.4503,
-      "source": "psm-6"
+      "conf": 96.3534,
+      "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "on his hands.",
-      "x": 0.6229,
-      "y": 0.2683,
-      "w": 0.1829,
-      "h": 0.0176,
-      "words": [
-        "on",
-        "his",
-        "hands."
-      ],
-      "conf": 96.55,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
+      "id": "r3",
+      "order": 2,
       "text": "This other man has not enough time for his reading.",
       "x": 0.0947,
       "y": 0.4955,
@@ -182,8 +94,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r4",
+      "order": 3,
       "text": "The same amount of time may seem very short to one",
       "x": 0.098,
       "y": 0.5499,
@@ -206,13 +118,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "person and very long to another. A man’s sense of time changes as his feelings change. Some days go by much",
-      "x": 0.0963,
+      "id": "r5",
+      "order": 4,
+      "text": "person and very long to another. A man’s sense of time changes as his feelings change. Some days go by much more quickly than others. Some hours seem as if they would never end. Some are past before they seem to have",
+      "x": 0.0955,
       "y": 0.576,
-      "w": 0.8065,
-      "h": 0.0475,
+      "w": 0.8073,
+      "h": 0.0997,
       "words": [
         "person",
         "and",
@@ -234,53 +146,7 @@
         "days",
         "go",
         "by",
-        "much"
-      ],
-      "conf": 95.4904,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "changes as his feelings change. Some days go by much more quickly than others. Some hours seem as if they",
-      "x": 0.0955,
-      "y": 0.6016,
-      "w": 0.8057,
-      "h": 0.0474,
-      "words": [
-        "changes",
-        "as",
-        "his",
-        "feelings",
-        "change.",
-        "Some",
-        "days",
-        "go",
-        "by",
         "much",
-        "more",
-        "quickly",
-        "than",
-        "others.",
-        "Some",
-        "hours",
-        "seem",
-        "as",
-        "if",
-        "they"
-      ],
-      "conf": 96.2976,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "more quickly than others. Some hours seem as if they would never end. Some are past before they seem to have",
-      "x": 0.0955,
-      "y": 0.6277,
-      "w": 0.8057,
-      "h": 0.048,
-      "words": [
         "more",
         "quickly",
         "than",
@@ -303,12 +169,12 @@
         "to",
         "have"
       ],
-      "conf": 95.7376,
-      "source": "psm-6"
+      "conf": 93.8282,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
+      "id": "r6",
+      "order": 5,
       "text": "Most people find that time goes by more quickly the older they get.",
       "x": 0.0939,
       "y": 0.7312,
@@ -330,27 +196,11 @@
         "get."
       ],
       "conf": 96.2364,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "older they get.",
-      "x": 0.0955,
-      "y": 0.7579,
-      "w": 0.1951,
-      "h": 0.0213,
-      "words": [
-        "older",
-        "they",
-        "get."
-      ],
-      "conf": 96.6977,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
+      "id": "r7",
+      "order": 6,
       "text": "never: no! ever.",
       "x": 0.0947,
       "y": 0.8005,
@@ -365,17 +215,14 @@
       "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
-      "text": "never: not ever, end: come to an end) opposite of begin.",
-      "x": 0.0947,
-      "y": 0.8005,
-      "w": 0.462,
-      "h": 0.0325,
+      "id": "r8",
+      "order": 7,
+      "text": "end: come to an end) opposite of begin.",
+      "x": 0.0955,
+      "y": 0.8165,
+      "w": 0.4612,
+      "h": 0.0165,
       "words": [
-        "never:",
-        "not",
-        "ever,",
         "end:",
         "come",
         "to",
@@ -385,12 +232,12 @@
         "of",
         "begin."
       ],
-      "conf": 81.3418,
-      "source": "psm-6"
+      "conf": 82.9188,
+      "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
+      "id": "r9",
+      "order": 8,
       "text": "will ead.",
       "x": 0.0955,
       "y": 0.8464,
@@ -404,25 +251,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
-      "text": "will end. end(s) ended",
-      "x": 0.0955,
-      "y": 0.8405,
-      "w": 0.8024,
-      "h": 0.0267,
-      "words": [
-        "will",
-        "end.",
-        "end(s)",
-        "ended"
-      ],
-      "conf": 75.0411,
-      "source": "psm-6"
-    },
-    {
-      "id": "r17",
-      "order": 16,
+      "id": "r10",
+      "order": 9,
       "text": "ead(s)",
       "x": 0.4506,
       "y": 0.8475,
@@ -435,8 +265,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
+      "id": "r11",
+      "order": 10,
       "text": "ended",
       "x": 0.8229,
       "y": 0.8459,

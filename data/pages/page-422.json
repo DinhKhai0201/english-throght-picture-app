@@ -2,79 +2,36 @@
   "page": 422,
   "image": "/books/page 422.png",
   "imageApiPath": "/api/books/page%20422.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 27,
-    "wordCount": 217,
+    "regionCount": 14,
+    "wordCount": 137,
     "imageWidth": 1188,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
         "r2",
         "r3",
         "r4",
+        "r5",
+        "r6",
         "r7",
+        "r8",
         "r9",
         "r10",
         "r11",
-        "r12"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r5",
-        "r6",
-        "r8"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r12",
         "r13",
-        "r14",
-        "r15",
-        "r19",
-        "r20",
-        "r21",
-        "r22",
-        "r24",
-        "r25"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r16",
-        "r17",
-        "r18",
-        "r23",
-        "r26",
-        "r27"
+        "r14"
       ]
     }
   ],
@@ -82,35 +39,17 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "Every hour of our lives we do things that are",
-      "x": 0.1271,
-      "y": 0.0393,
-      "w": 0.3746,
-      "h": 0.0473,
+      "text": "Every hour of our lives we do things that are possible only because of work which is done for us by other people.",
+      "x": 0.1263,
+      "y": 0.0371,
+      "w": 0.3796,
+      "h": 0.1281,
       "words": [
         "Every",
         "hour",
         "of",
         "our",
         "lives",
-        "we",
-        "do",
-        "things",
-        "that",
-        "are"
-      ],
-      "conf": 96.4326,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "we do things that are possible only because of work which is done for us",
-      "x": 0.1263,
-      "y": 0.0656,
-      "w": 0.3796,
-      "h": 0.0695,
-      "words": [
         "we",
         "do",
         "things",
@@ -125,52 +64,17 @@
         "is",
         "done",
         "for",
-        "us"
-      ],
-      "conf": 96.5922,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "work which is done for us by other people.",
-      "x": 0.1263,
-      "y": 0.1173,
-      "w": 0.3754,
-      "h": 0.0479,
-      "words": [
-        "work",
-        "which",
-        "is",
-        "done",
-        "for",
         "us",
         "by",
         "other",
         "people."
       ],
-      "conf": 96.7884,
-      "source": "psm-6"
+      "conf": 96.4326,
+      "source": "psm-11"
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "by other people.",
-      "x": 0.1263,
-      "y": 0.1431,
-      "w": 0.2298,
-      "h": 0.0221,
-      "words": [
-        "by",
-        "other",
-        "people."
-      ],
-      "conf": 96.5502,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
+      "id": "r2",
+      "order": 1,
       "text": "Who grew the cotton? Who made the sheets? Who watched the sheep? Who washed the wool? Who made",
       "x": 0.1212,
       "y": 0.1953,
@@ -197,38 +101,16 @@
         "made"
       ],
       "conf": 96.3818,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "Who grew the cotton? Who made the sheets? Who",
-      "x": 0.1263,
-      "y": 0.1953,
-      "w": 0.8232,
-      "h": 0.0215,
-      "words": [
-        "Who",
-        "grew",
-        "the",
-        "cotton?",
-        "Who",
-        "made",
-        "the",
-        "sheets?",
-        "Who"
-      ],
-      "conf": 96.3818,
       "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r3",
+      "order": 2,
       "text": "the blankets for the bed you sleep in?",
       "x": 0.1229,
-      "y": 0.2464,
+      "y": 0.2437,
       "w": 0.5337,
-      "h": 0.0274,
+      "h": 0.0301,
       "words": [
         "the",
         "blankets",
@@ -239,31 +121,17 @@
         "sleep",
         "in?"
       ],
-      "conf": 96.8019,
-      "source": "psm-6"
+      "conf": 96.0612,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "eT:",
-      "x": 0.6414,
-      "y": 0.3238,
-      "w": 0.112,
-      "h": 0.0226,
-      "words": [
-        "eT:"
-      ],
-      "conf": 40.9968,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "Whose work are you using when you turn on the",
+      "id": "r4",
+      "order": 3,
+      "text": "Whose work are you using when you turn on the light?",
       "x": 0.1229,
       "y": 0.3443,
       "w": 0.3788,
-      "h": 0.0473,
+      "h": 0.0737,
       "words": [
         "Whose",
         "work",
@@ -274,33 +142,15 @@
         "you",
         "turn",
         "on",
-        "the"
+        "the",
+        "light?"
       ],
       "conf": 96.6246,
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "when you turn on the light?",
-      "x": 0.1246,
-      "y": 0.3706,
-      "w": 0.3754,
-      "h": 0.0474,
-      "words": [
-        "when",
-        "you",
-        "turn",
-        "on",
-        "the",
-        "light?"
-      ],
-      "conf": 95.4617,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
+      "id": "r5",
+      "order": 4,
       "text": "Who mined the coal",
       "x": 0.1263,
       "y": 0.4761,
@@ -316,118 +166,38 @@
       "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "Who mined the coal CG",
-      "x": 0.1263,
-      "y": 0.468,
-      "w": 0.6389,
-      "h": 0.0328,
-      "words": [
-        "Who",
-        "mined",
-        "the",
-        "coal",
-        "CG"
-      ],
-      "conf": 87.5339,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "which gives the power to C (a heat and light your room?",
+      "id": "r6",
+      "order": 5,
+      "text": "which gives the power to heat and light your room?",
       "x": 0.1254,
-      "y": 0.497,
-      "w": 0.7315,
-      "h": 0.0544,
+      "y": 0.5024,
+      "w": 0.3763,
+      "h": 0.049,
       "words": [
         "which",
         "gives",
         "the",
         "power",
         "to",
-        "C",
-        "(a",
         "heat",
         "and",
         "light",
         "your",
         "room?"
-      ],
-      "conf": 84.0349,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "which gives the power to",
-      "x": 0.1271,
-      "y": 0.5024,
-      "w": 0.3746,
-      "h": 0.0226,
-      "words": [
-        "which",
-        "gives",
-        "the",
-        "power",
-        "to"
       ],
       "conf": 96.3212,
       "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
-      "text": "heat and light your room?",
-      "x": 0.1254,
-      "y": 0.5293,
-      "w": 0.3754,
-      "h": 0.0221,
-      "words": [
-        "heat",
-        "and",
-        "light",
-        "your",
-        "room?"
-      ],
-      "conf": 96.6205,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "YP But equally men need to do things for other people. Most",
+      "id": "r7",
+      "order": 6,
+      "text": "YP But equally men need to do things for other people. Most men are not happy if they are not in some way helping others—doing things for others. They need someone to",
       "x": 0.1271,
       "y": 0.5245,
       "w": 0.8249,
-      "h": 0.1184,
+      "h": 0.1716,
       "words": [
         "YP",
-        "But",
-        "equally",
-        "men",
-        "need",
-        "to",
-        "do",
-        "things",
-        "for",
-        "other",
-        "people.",
-        "Most"
-      ],
-      "conf": 49.4184,
-      "source": "psm-11"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "But equally men need to do things for other people. Most men are not happy if they are not in some way helping",
-      "x": 0.1271,
-      "y": 0.6208,
-      "w": 0.8249,
-      "h": 0.0484,
-      "words": [
         "But",
         "equally",
         "men",
@@ -450,31 +220,6 @@
         "in",
         "some",
         "way",
-        "helping"
-      ],
-      "conf": 96.29,
-      "source": "psm-6"
-    },
-    {
-      "id": "r18",
-      "order": 17,
-      "text": "men are not happy if they are not in some way helping others—doing things for others. They need someone to",
-      "x": 0.1271,
-      "y": 0.6466,
-      "w": 0.8249,
-      "h": 0.0495,
-      "words": [
-        "men",
-        "are",
-        "not",
-        "happy",
-        "if",
-        "they",
-        "are",
-        "not",
-        "in",
-        "some",
-        "way",
         "helping",
         "others—doing",
         "things",
@@ -485,12 +230,12 @@
         "someone",
         "to"
       ],
-      "conf": 96.4677,
-      "source": "psm-6"
+      "conf": 49.4184,
+      "source": "psm-11"
     },
     {
-      "id": "r19",
-      "order": 18,
+      "id": "r8",
+      "order": 7,
       "text": "love.",
       "x": 0.1279,
       "y": 0.7004,
@@ -499,31 +244,32 @@
       "words": [
         "love."
       ],
-      "conf": 96.8239,
-      "source": "psm-6"
+      "conf": 96.5128,
+      "source": "psm-11"
     },
     {
-      "id": "r20",
-      "order": 19,
-      "text": "warm wool bed cover, will wash",
+      "id": "r9",
+      "order": 8,
+      "text": "blanket: warm woo! bed cover, will wash",
       "x": 0.1271,
-      "y": 0.7725,
-      "w": 0.362,
-      "h": 0.0484,
+      "y": 0.7703,
+      "w": 0.3653,
+      "h": 0.0506,
       "words": [
+        "blanket:",
         "warm",
-        "wool",
+        "woo!",
         "bed",
         "cover,",
         "will",
         "wash"
       ],
-      "conf": 93.2842,
-      "source": "psm-6"
+      "conf": 92.2835,
+      "source": "psm-11"
     },
     {
-      "id": "r21",
-      "order": 20,
+      "id": "r10",
+      "order": 9,
       "text": "sheet: cotton cover used on bed for sleeping on or under.",
       "x": 0.1288,
       "y": 0.7542,
@@ -542,52 +288,12 @@
         "or",
         "under."
       ],
-      "conf": 96.3202,
-      "source": "psm-6"
-    },
-    {
-      "id": "r22",
-      "order": 21,
-      "text": "blanket: warm woo! bed cover,",
-      "x": 0.1296,
-      "y": 0.7703,
-      "w": 0.3628,
-      "h": 0.0199,
-      "words": [
-        "blanket:",
-        "warm",
-        "woo!",
-        "bed",
-        "cover,"
-      ],
-      "conf": 92.2835,
+      "conf": 95.7737,
       "source": "psm-11"
     },
     {
-      "id": "r23",
-      "order": 22,
-      "text": "will wash wash (es) washed will love love(s) loved",
-      "x": 0.1263,
-      "y": 0.7967,
-      "w": 0.8274,
-      "h": 0.0791,
-      "words": [
-        "will",
-        "wash",
-        "wash",
-        "(es)",
-        "washed",
-        "will",
-        "love",
-        "love(s)",
-        "loved"
-      ],
-      "conf": 95.0475,
-      "source": "psm-6"
-    },
-    {
-      "id": "r24",
-      "order": 23,
+      "id": "r11",
+      "order": 10,
       "text": "will mine",
       "x": 0.1271,
       "y": 0.8187,
@@ -601,8 +307,25 @@
       "source": "psm-11"
     },
     {
-      "id": "r25",
-      "order": 24,
+      "id": "r12",
+      "order": 11,
+      "text": "wash (es) mine(s) love(s)",
+      "x": 0.4764,
+      "y": 0.8004,
+      "w": 0.1263,
+      "h": 0.0711,
+      "words": [
+        "wash",
+        "(es)",
+        "mine(s)",
+        "love(s)"
+      ],
+      "conf": 79.4447,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
       "text": "will light will love",
       "x": 0.1279,
       "y": 0.83,
@@ -618,23 +341,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r26",
-      "order": 25,
-      "text": "mine(s) love(s)",
-      "x": 0.4891,
-      "y": 0.8198,
-      "w": 0.1035,
-      "h": 0.0517,
-      "words": [
-        "mine(s)",
-        "love(s)"
-      ],
-      "conf": 91.7233,
-      "source": "psm-11"
-    },
-    {
-      "id": "r27",
-      "order": 26,
+      "id": "r14",
+      "order": 13,
       "text": "lighted loved",
       "x": 0.8662,
       "y": 0.8365,

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20429.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 14,
-    "wordCount": 117,
+    "regionCount": 9,
+    "wordCount": 90,
     "imageWidth": 1250,
     "imageHeight": 1859
   },
@@ -19,8 +19,8 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r5",
-        "r7"
+        "r3",
+        "r4"
       ]
     },
     {
@@ -32,10 +32,7 @@
       "h": 0.5,
       "regionIds": [
         "r2",
-        "r3",
-        "r4",
-        "r6",
-        "r8"
+        "r5"
       ]
     },
     {
@@ -46,9 +43,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r12",
-        "r14"
+        "r7",
+        "r9"
       ]
     },
     {
@@ -59,9 +55,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r10",
-        "r11",
-        "r13"
+        "r6",
+        "r8"
       ]
     }
   ],
@@ -88,11 +83,11 @@
     {
       "id": "r2",
       "order": 1,
-      "text": "Music may go back still farther in time than the other arts, but unhappily we have no records of music before the",
-      "x": 0.1128,
-      "y": 0.0936,
-      "w": 0.788,
-      "h": 0.0511,
+      "text": "Music may go back still farther in time than the other arts, but unhappily we have no records of music before the discovery of writing. As with language the writing of",
+      "x": 0.1112,
+      "y": 0.0958,
+      "w": 0.7896,
+      "h": 0.0855,
       "words": [
         "Music",
         "may",
@@ -115,54 +110,6 @@
         "of",
         "music",
         "before",
-        "the"
-      ],
-      "conf": 96.4203,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "Music may go back still farther in time than the other arts,",
-      "x": 0.1136,
-      "y": 0.0958,
-      "w": 0.7856,
-      "h": 0.0221,
-      "words": [
-        "Music",
-        "may",
-        "go",
-        "back",
-        "still",
-        "farther",
-        "in",
-        "time",
-        "than",
-        "the",
-        "other",
-        "arts,"
-      ],
-      "conf": 96.4203,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "but unhappily we have no records of music before the discovery of writing. As with language the writing of",
-      "x": 0.1112,
-      "y": 0.1221,
-      "w": 0.7896,
-      "h": 0.0592,
-      "words": [
-        "but",
-        "unhappily",
-        "we",
-        "have",
-        "no",
-        "records",
-        "of",
-        "music",
-        "before",
         "the",
         "discovery",
         "of",
@@ -174,12 +121,12 @@
         "writing",
         "of"
       ],
-      "conf": 96.5949,
-      "source": "psm-6"
+      "conf": 96.4203,
+      "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r3",
+      "order": 2,
       "text": "music may have started with pictures.",
       "x": 0.1136,
       "y": 0.1754,
@@ -197,22 +144,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "MAAN",
-      "x": 0.6376,
-      "y": 0.3163,
-      "w": 0.1032,
-      "h": 0.0188,
-      "words": [
-        "MAAN"
-      ],
-      "conf": 36.9024,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
+      "id": "r4",
+      "order": 3,
       "text": "wa Sat",
       "x": 0.384,
       "y": 0.4024,
@@ -226,8 +159,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r5",
+      "order": 4,
       "text": "we.",
       "x": 0.4792,
       "y": 0.475,
@@ -240,38 +173,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "bons q",
-      "x": 0.2696,
-      "y": 0.546,
-      "w": 0.1616,
-      "h": 0.0484,
-      "words": [
-        "bons",
-        "q"
-      ],
-      "conf": 56.7051,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "Aww BB;",
-      "x": 0.4648,
-      "y": 0.5476,
-      "w": 0.2576,
-      "h": 0.0231,
-      "words": [
-        "Aww",
-        "BB;"
-      ],
-      "conf": 46.3182,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
+      "id": "r6",
+      "order": 5,
       "text": "Today not only do we have ways of writing down music, but we can make copies of the sound of music as it is",
       "x": 0.1168,
       "y": 0.6407,
@@ -303,12 +206,12 @@
         "it",
         "is"
       ],
-      "conf": 96.5516,
-      "source": "psm-6"
+      "conf": 96.5429,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
+      "id": "r7",
+      "order": 6,
       "text": "played.",
       "x": 0.1168,
       "y": 0.6939,
@@ -317,12 +220,12 @@
       "words": [
         "played."
       ],
-      "conf": 95.2887,
-      "source": "psm-6"
+      "conf": 77.1917,
+      "source": "psm-11"
     },
     {
-      "id": "r13",
-      "order": 12,
+      "id": "r8",
+      "order": 7,
       "text": "art: work done to feed the mind and heart through the senses and feel-",
       "x": 0.116,
       "y": 0.8419,
@@ -348,13 +251,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
+      "id": "r9",
+      "order": 8,
       "text": "ings: painting, sculpture, music, etc.",
       "x": 0.168,
-      "y": 0.8585,
+      "y": 0.8591,
       "w": 0.3808,
-      "h": 0.0156,
+      "h": 0.0151,
       "words": [
         "ings:",
         "painting,",
@@ -362,8 +265,8 @@
         "music,",
         "etc."
       ],
-      "conf": 95.8383,
-      "source": "psm-6"
+      "conf": 95.5454,
+      "source": "psm-11"
     }
   ]
 }

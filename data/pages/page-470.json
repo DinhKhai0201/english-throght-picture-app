@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20470.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 40,
-    "wordCount": 266,
+    "regionCount": 23,
+    "wordCount": 175,
     "imageWidth": 1171,
     "imageHeight": 1867
   },
@@ -19,20 +19,10 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
         "r3",
-        "r5",
-        "r7",
+        "r4",
         "r8",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17",
-        "r19",
-        "r20",
-        "r23"
+        "r11"
       ]
     },
     {
@@ -43,15 +33,13 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4",
+        "r2",
+        "r5",
         "r6",
+        "r7",
         "r9",
         "r10",
-        "r11",
-        "r18",
-        "r21",
-        "r22",
-        "r24"
+        "r12"
       ]
     },
     {
@@ -62,13 +50,11 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r26",
-        "r29",
-        "r30",
-        "r31",
-        "r32",
-        "r33",
-        "r35"
+        "r14",
+        "r16",
+        "r17",
+        "r18",
+        "r20"
       ]
     },
     {
@@ -79,15 +65,12 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r25",
-        "r27",
-        "r28",
-        "r34",
-        "r36",
-        "r37",
-        "r38",
-        "r39",
-        "r40"
+        "r13",
+        "r15",
+        "r19",
+        "r21",
+        "r22",
+        "r23"
       ]
     }
   ],
@@ -95,26 +78,6 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "Here is a windmill which does the",
-      "x": 0.0999,
-      "y": 0.045,
-      "w": 0.5013,
-      "h": 0.0177,
-      "words": [
-        "Here",
-        "is",
-        "a",
-        "windmill",
-        "which",
-        "does",
-        "the"
-      ],
-      "conf": 96.444,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
       "text": "Here is a windmill which does the same sort of work.",
       "x": 0.0999,
       "y": 0.045,
@@ -133,29 +96,12 @@
         "of",
         "work."
       ],
-      "conf": 96.5716,
-      "source": "psm-6"
+      "conf": 96.444,
+      "source": "psm-11"
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "same sort of work.",
-      "x": 0.0999,
-      "y": 0.0712,
-      "w": 0.2681,
-      "h": 0.0171,
-      "words": [
-        "same",
-        "sort",
-        "of",
-        "work."
-      ],
-      "conf": 93.4037,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
+      "id": "r2",
+      "order": 1,
       "text": "ae,",
       "x": 0.7788,
       "y": 0.0943,
@@ -168,8 +114,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r3",
+      "order": 2,
       "text": "The wind pushes the sails of the windmill round.",
       "x": 0.1008,
       "y": 0.1221,
@@ -186,48 +132,12 @@
         "windmill",
         "round."
       ],
-      "conf": 96.6698,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "of the windmill round. Cr,",
-      "x": 0.1008,
-      "y": 0.1484,
-      "w": 0.8053,
-      "h": 0.023,
-      "words": [
-        "of",
-        "the",
-        "windmill",
-        "round.",
-        "Cr,"
-      ],
-      "conf": 83.8375,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "The work of the windmill",
-      "x": 0.1008,
-      "y": 0.1741,
-      "w": 0.3792,
-      "h": 0.0177,
-      "words": [
-        "The",
-        "work",
-        "of",
-        "the",
-        "windmill"
-      ],
-      "conf": 96.266,
+      "conf": 96.6318,
       "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r4",
+      "order": 3,
       "text": "The work of the windmill is dependent upon wind.",
       "x": 0.1008,
       "y": 0.1741,
@@ -244,12 +154,12 @@
         "upon",
         "wind."
       ],
-      "conf": 96.5787,
-      "source": "psm-6"
+      "conf": 96.266,
+      "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r5",
+      "order": 4,
       "text": "AY",
       "x": 0.6772,
       "y": 0.1848,
@@ -262,8 +172,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r6",
+      "order": 5,
       "text": "QD",
       "x": 0.8301,
       "y": 0.1751,
@@ -276,8 +186,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
+      "id": "r7",
+      "order": 6,
       "text": "‘ay,",
       "x": 0.8839,
       "y": 0.1768,
@@ -290,49 +200,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "is dependent upon wind.",
-      "x": 0.1008,
-      "y": 0.2003,
-      "w": 0.3775,
-      "h": 0.0214,
-      "words": [
-        "is",
-        "dependent",
-        "upon",
-        "wind."
-      ],
-      "conf": 95.9133,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "When there is no wind the",
+      "id": "r8",
+      "order": 7,
+      "text": "When there is no wind the miller cannot make his flour because there is no power to turn the mill- stones round.",
       "x": 0.1008,
       "y": 0.2266,
       "w": 0.3809,
-      "h": 0.0166,
-      "words": [
-        "When",
-        "there",
-        "is",
-        "no",
-        "wind",
-        "the"
-      ],
-      "conf": 96.4554,
-      "source": "psm-11"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "When there is no wind the sai",
-      "x": 0.1008,
-      "y": 0.2191,
-      "w": 0.6225,
-      "h": 0.0359,
+      "h": 0.121,
       "words": [
         "When",
         "there",
@@ -340,37 +214,6 @@
         "no",
         "wind",
         "the",
-        "sai"
-      ],
-      "conf": 90.3468,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "miller cannot make his",
-      "x": 0.1016,
-      "y": 0.2523,
-      "w": 0.3783,
-      "h": 0.0171,
-      "words": [
-        "miller",
-        "cannot",
-        "make",
-        "his"
-      ],
-      "conf": 92.8822,
-      "source": "psm-11"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "miller cannot make his flour because there is no",
-      "x": 0.1016,
-      "y": 0.2523,
-      "w": 0.38,
-      "h": 0.0433,
-      "words": [
         "miller",
         "cannot",
         "make",
@@ -379,34 +222,21 @@
         "because",
         "there",
         "is",
-        "no"
-      ],
-      "conf": 94.7677,
-      "source": "psm-6"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "flour because there is no L] Fon",
-      "x": 0.1033,
-      "y": 0.2764,
-      "w": 0.5927,
-      "h": 0.0423,
-      "words": [
-        "flour",
-        "because",
-        "there",
-        "is",
         "no",
-        "L]",
-        "Fon"
+        "power",
+        "to",
+        "turn",
+        "the",
+        "mill-",
+        "stones",
+        "round."
       ],
-      "conf": 83.5815,
-      "source": "psm-6"
+      "conf": 96.4554,
+      "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
+      "id": "r9",
+      "order": 8,
       "text": "ATS",
       "x": 0.6541,
       "y": 0.2625,
@@ -419,70 +249,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r19",
-      "order": 18,
-      "text": "power to turn the mill- stones round.",
-      "x": 0.1025,
-      "y": 0.3048,
-      "w": 0.3783,
-      "h": 0.0428,
-      "words": [
-        "power",
-        "to",
-        "turn",
-        "the",
-        "mill-",
-        "stones",
-        "round."
-      ],
-      "conf": 91.3443,
-      "source": "psm-6"
-    },
-    {
-      "id": "r20",
-      "order": 19,
-      "text": "stones round,",
-      "x": 0.1025,
-      "y": 0.331,
-      "w": 0.1956,
-      "h": 0.0166,
-      "words": [
-        "stones",
-        "round,"
-      ],
-      "conf": 95.8384,
-      "source": "psm-6"
-    },
-    {
-      "id": "r21",
-      "order": 20,
-      "text": "fat he There is an old song about a miller who lived by himself",
-      "x": 0.1025,
-      "y": 0.3573,
-      "w": 0.8292,
-      "h": 0.0723,
-      "words": [
-        "fat",
-        "he",
-        "There",
-        "is",
-        "an",
-        "old",
-        "song",
-        "about",
-        "a",
-        "miller",
-        "who",
-        "lived",
-        "by",
-        "himself"
-      ],
-      "conf": 41.6612,
-      "source": "psm-6"
-    },
-    {
-      "id": "r22",
-      "order": 21,
+      "id": "r10",
+      "order": 9,
       "text": "There is an old song about a miller who lived by himself",
       "x": 0.1025,
       "y": 0.4076,
@@ -503,11 +271,11 @@
         "himself"
       ],
       "conf": 96.4203,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r23",
-      "order": 22,
+      "id": "r11",
+      "order": 10,
       "text": "and could be heard singing a song all day long.",
       "x": 0.1042,
       "y": 0.4339,
@@ -529,8 +297,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r24",
-      "order": 23,
+      "id": "r12",
+      "order": 11,
       "text": "“I care for nobody, no not I",
       "x": 0.3126,
       "y": 0.4853,
@@ -549,8 +317,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r25",
-      "order": 24,
+      "id": "r13",
+      "order": 12,
       "text": "And nobody cares for me.”",
       "x": 0.3313,
       "y": 0.5104,
@@ -567,8 +335,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r26",
-      "order": 25,
+      "id": "r14",
+      "order": 13,
       "text": "sang the miller.",
       "x": 0.105,
       "y": 0.5495,
@@ -579,12 +347,12 @@
         "the",
         "miller."
       ],
-      "conf": 96.251,
-      "source": "psm-6"
+      "conf": 95.6449,
+      "source": "psm-11"
     },
     {
-      "id": "r27",
-      "order": 26,
+      "id": "r15",
+      "order": 14,
       "text": "What he meant was that he did not love anyone and that nobody loved him. He had no hopes or fears. He did not",
       "x": 0.1033,
       "y": 0.6272,
@@ -617,55 +385,11 @@
         "not"
       ],
       "conf": 96.4947,
-      "source": "psm-6"
-    },
-    {
-      "id": "r28",
-      "order": 27,
-      "text": "nobody loved him. He had no hopes or fears. He did not",
-      "x": 0.1033,
-      "y": 0.6535,
-      "w": 0.8292,
-      "h": 0.0214,
-      "words": [
-        "nobody",
-        "loved",
-        "him.",
-        "He",
-        "had",
-        "no",
-        "hopes",
-        "or",
-        "fears.",
-        "He",
-        "did",
-        "not"
-      ],
-      "conf": 96.412,
-      "source": "psm-6"
-    },
-    {
-      "id": "r29",
-      "order": 28,
-      "text": "hope for anything or fear anyone,",
-      "x": 0.1033,
-      "y": 0.6792,
-      "w": 0.4816,
-      "h": 0.0214,
-      "words": [
-        "hope",
-        "for",
-        "anything",
-        "or",
-        "fear",
-        "anyone,"
-      ],
-      "conf": 95.367,
       "source": "psm-11"
     },
     {
-      "id": "r30",
-      "order": 29,
+      "id": "r16",
+      "order": 15,
       "text": "hope for anything or fear anyone, push: give a push fo.",
       "x": 0.1033,
       "y": 0.6792,
@@ -685,29 +409,11 @@
         "fo."
       ],
       "conf": 95.367,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r31",
-      "order": 30,
-      "text": "push: give a push fo.",
-      "x": 0.1059,
-      "y": 0.7386,
-      "w": 0.24,
-      "h": 0.015,
-      "words": [
-        "push:",
-        "give",
-        "a",
-        "push",
-        "fo."
-      ],
-      "conf": 88.4437,
-      "source": "psm-6"
-    },
-    {
-      "id": "r32",
-      "order": 31,
+      "id": "r17",
+      "order": 16,
       "text": "fear: opposite of hope; feeling about things which we think may",
       "x": 0.105,
       "y": 0.7734,
@@ -730,8 +436,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r33",
-      "order": 32,
+      "id": "r18",
+      "order": 17,
       "text": "hope: our feeling when we look forward to and desire something.",
       "x": 0.1059,
       "y": 0.7563,
@@ -754,8 +460,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r34",
-      "order": 33,
+      "id": "r19",
+      "order": 18,
       "text": "place, the thought of which makes us tura white and shake ail over.",
       "x": 0.1614,
       "y": 0.7906,
@@ -780,8 +486,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r35",
-      "order": 34,
+      "id": "r20",
+      "order": 19,
       "text": "will push will hope will fear",
       "x": 0.105,
       "y": 0.8216,
@@ -799,44 +505,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r36",
-      "order": 35,
-      "text": "will push push (es) pushed",
-      "x": 0.105,
-      "y": 0.82,
-      "w": 0.8241,
-      "h": 0.0209,
-      "words": [
-        "will",
-        "push",
-        "push",
-        "(es)",
-        "pushed"
-      ],
-      "conf": 78.0169,
-      "source": "psm-6"
-    },
-    {
-      "id": "r37",
-      "order": 36,
-      "text": "pushed will fear fear(s) feared",
-      "x": 0.105,
-      "y": 0.8232,
-      "w": 0.8242,
-      "h": 0.053,
-      "words": [
-        "pushed",
-        "will",
-        "fear",
-        "fear(s)",
-        "feared"
-      ],
-      "conf": 96.0786,
-      "source": "psm-11"
-    },
-    {
-      "id": "r38",
-      "order": 37,
+      "id": "r21",
+      "order": 20,
       "text": "push (es) hope(s)",
       "x": 0.4569,
       "y": 0.82,
@@ -851,22 +521,23 @@
       "source": "psm-11"
     },
     {
-      "id": "r39",
-      "order": 38,
-      "text": "fear(s)",
+      "id": "r22",
+      "order": 21,
+      "text": "pushed fear(s)",
       "x": 0.4705,
-      "y": 0.857,
-      "w": 0.0948,
-      "h": 0.0166,
+      "y": 0.8232,
+      "w": 0.4587,
+      "h": 0.0504,
       "words": [
+        "pushed",
         "fear(s)"
       ],
-      "conf": 87.5112,
+      "conf": 96.0786,
       "source": "psm-11"
     },
     {
-      "id": "r40",
-      "order": 39,
+      "id": "r23",
+      "order": 22,
       "text": "hoped",
       "x": 0.8531,
       "y": 0.8404,

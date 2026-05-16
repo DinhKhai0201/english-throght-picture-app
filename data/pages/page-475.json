@@ -2,71 +2,30 @@
   "page": 475,
   "image": "/books/page 475.png",
   "imageApiPath": "/api/books/page%20475.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 19,
-    "wordCount": 230,
+    "regionCount": 8,
+    "wordCount": 140,
     "imageWidth": 1225,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2",
-        "r6",
-        "r8",
-        "r10"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
+        "r2",
         "r3",
         "r4",
         "r5",
+        "r6",
         "r7",
-        "r9"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r11",
-        "r12",
-        "r13",
-        "r17"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r14",
-        "r15",
-        "r16",
-        "r18",
-        "r19"
+        "r8"
       ]
     }
   ],
@@ -120,11 +79,11 @@
     {
       "id": "r3",
       "order": 2,
-      "text": "He has his time clock with him. He walks all night long through the plant from one station to another. At each",
+      "text": "He has his time clock with him. He walks all night long through the plant from one station to another. At each station he pushes his time clock against a key which is This key prints a number on a long narrow roll of paper",
       "x": 0.0963,
       "y": 0.2679,
       "w": 0.8098,
-      "h": 0.0478,
+      "h": 0.1253,
       "words": [
         "He",
         "has",
@@ -147,54 +106,7 @@
         "to",
         "another.",
         "At",
-        "each"
-      ],
-      "conf": 96.5017,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "through the plant from one station to another. At each station he pushes his time clock against a key which is",
-      "x": 0.0963,
-      "y": 0.2942,
-      "w": 0.8082,
-      "h": 0.0474,
-      "words": [
-        "through",
-        "the",
-        "plant",
-        "from",
-        "one",
-        "station",
-        "to",
-        "another.",
-        "At",
         "each",
-        "station",
-        "he",
-        "pushes",
-        "his",
-        "time",
-        "clock",
-        "against",
-        "a",
-        "key",
-        "which",
-        "is"
-      ],
-      "conf": 96.1872,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "station he pushes his time clock against a key which is This key prints a number on a long narrow roll of paper",
-      "x": 0.0971,
-      "y": 0.3201,
-      "w": 0.8082,
-      "h": 0.0731,
-      "words": [
         "station",
         "he",
         "pushes",
@@ -219,71 +131,22 @@
         "of",
         "paper"
       ],
-      "conf": 96.649,
-      "source": "psm-6"
+      "conf": 96.5017,
+      "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "fixed in the wall.",
+      "id": "r4",
+      "order": 3,
+      "text": "fixed in the wall which is moving all time clock.",
       "x": 0.0963,
       "y": 0.3464,
-      "w": 0.2245,
-      "h": 0.0167,
+      "w": 0.2971,
+      "h": 0.0942,
       "words": [
         "fixed",
         "in",
         "the",
-        "wall."
-      ],
-      "conf": 96.6416,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "This key prints a number on a long narrow roll of paper which is moving all the time through the lock of the",
-      "x": 0.0971,
-      "y": 0.3717,
-      "w": 0.8082,
-      "h": 0.0651,
-      "words": [
-        "This",
-        "key",
-        "prints",
-        "a",
-        "number",
-        "on",
-        "a",
-        "long",
-        "narrow",
-        "roll",
-        "of",
-        "paper",
-        "which",
-        "is",
-        "moving",
-        "all",
-        "the",
-        "time",
-        "through",
-        "the",
-        "lock",
-        "of",
-        "the"
-      ],
-      "conf": 96.1217,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "which is moving all time clock.",
-      "x": 0.0963,
-      "y": 0.3981,
-      "w": 0.2971,
-      "h": 0.0425,
-      "words": [
+        "wall",
         "which",
         "is",
         "moving",
@@ -291,12 +154,12 @@
         "time",
         "clock."
       ],
-      "conf": 96.3646,
+      "conf": 96.5903,
       "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r5",
+      "order": 4,
       "text": "the time through the lock of the",
       "x": 0.4065,
       "y": 0.3959,
@@ -315,28 +178,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "time clock.",
-      "x": 0.0963,
-      "y": 0.4233,
-      "w": 0.151,
-      "h": 0.0172,
-      "words": [
-        "time",
-        "clock."
-      ],
-      "conf": 96.6981,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "In this way the time clock makes a full record of whether and when the watchman went to each station in the studio",
+      "id": "r6",
+      "order": 5,
+      "text": "In this way the time clock makes a full record of whether and when the watchman went to each station in the studio in turn. The time at which he was at each one of them is",
       "x": 0.0947,
       "y": 0.5874,
       "w": 0.8082,
-      "h": 0.0452,
+      "h": 0.071,
       "words": [
         "In",
         "this",
@@ -350,30 +198,6 @@
         "record",
         "of",
         "whether",
-        "and",
-        "when",
-        "the",
-        "watchman",
-        "went",
-        "to",
-        "each",
-        "station",
-        "in",
-        "the",
-        "studio"
-      ],
-      "conf": 96.4799,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "and when the watchman went to each station in the studio in turn. The time at which he was at each one of them is",
-      "x": 0.0947,
-      "y": 0.6154,
-      "w": 0.8082,
-      "h": 0.043,
-      "words": [
         "and",
         "when",
         "the",
@@ -400,63 +224,17 @@
         "them",
         "is"
       ],
-      "conf": 96.1805,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "in turn. The time at which he was at each one of them is",
-      "x": 0.0947,
-      "y": 0.6412,
-      "w": 0.8065,
-      "h": 0.0172,
-      "words": [
-        "in",
-        "turn.",
-        "The",
-        "time",
-        "at",
-        "which",
-        "he",
-        "was",
-        "at",
-        "each",
-        "one",
-        "of",
-        "them",
-        "is"
-      ],
-      "conf": 96.3276,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "recorded. If a number is not",
-      "x": 0.4947,
-      "y": 0.6676,
-      "w": 0.4082,
-      "h": 0.0172,
-      "words": [
-        "recorded.",
-        "If",
-        "a",
-        "number",
-        "is",
-        "not"
-      ],
-      "conf": 96.3147,
+      "conf": 96.4799,
       "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
-      "text": "recorded. If a number is not recorded, that is proof that",
+      "id": "r7",
+      "order": 6,
+      "text": "recorded. If a number is not recorded, that is proof that the watchman did not go to that station.",
       "x": 0.4947,
       "y": 0.6676,
       "w": 0.4082,
-      "h": 0.0473,
+      "h": 0.0952,
       "words": [
         "recorded.",
         "If",
@@ -464,24 +242,6 @@
         "number",
         "is",
         "not",
-        "recorded,",
-        "that",
-        "is",
-        "proof",
-        "that"
-      ],
-      "conf": 96.7251,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "recorded, that is proof that the watchman did not go to",
-      "x": 0.4947,
-      "y": 0.6934,
-      "w": 0.4073,
-      "h": 0.0479,
-      "words": [
         "recorded,",
         "that",
         "is",
@@ -492,14 +252,16 @@
         "did",
         "not",
         "go",
-        "to"
+        "to",
+        "that",
+        "station."
       ],
-      "conf": 96.5456,
-      "source": "psm-6"
+      "conf": 96.3147,
+      "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
+      "id": "r8",
+      "order": 7,
       "text": "OF DEATH",
       "x": 0.2767,
       "y": 0.7203,
@@ -511,42 +273,6 @@
       ],
       "conf": 90.4749,
       "source": "psm-11"
-    },
-    {
-      "id": "r18",
-      "order": 17,
-      "text": "the watchman did not go to that station.",
-      "x": 0.4947,
-      "y": 0.7192,
-      "w": 0.4073,
-      "h": 0.0436,
-      "words": [
-        "the",
-        "watchman",
-        "did",
-        "not",
-        "go",
-        "to",
-        "that",
-        "station."
-      ],
-      "conf": 96.4598,
-      "source": "psm-6"
-    },
-    {
-      "id": "r19",
-      "order": 18,
-      "text": "that station.",
-      "x": 0.4955,
-      "y": 0.7456,
-      "w": 0.169,
-      "h": 0.0172,
-      "words": [
-        "that",
-        "station."
-      ],
-      "conf": 96.6844,
-      "source": "psm-6"
     }
   ]
 }

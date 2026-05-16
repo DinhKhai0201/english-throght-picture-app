@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20464.png",
   "layout": "single",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 55,
+    "regionCount": 7,
+    "wordCount": 41,
     "imageWidth": 1188,
     "imageHeight": 1875
   },
@@ -24,11 +24,7 @@
         "r4",
         "r5",
         "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11"
+        "r7"
       ]
     }
   ],
@@ -53,21 +49,6 @@
     {
       "id": "r2",
       "order": 1,
-      "text": "PTT] ROO",
-      "x": 0.1423,
-      "y": 0.2923,
-      "w": 0.6002,
-      "h": 0.0661,
-      "words": [
-        "PTT]",
-        "ROO"
-      ],
-      "conf": 48.0129,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
       "text": "pt tt",
       "x": 0.3628,
       "y": 0.4309,
@@ -81,8 +62,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r4",
-      "order": 3,
+      "id": "r3",
+      "order": 2,
       "text": "When we multiply a number by itself we “square” it.",
       "x": 0.096,
       "y": 0.7099,
@@ -104,8 +85,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r4",
+      "order": 3,
       "text": "Any number is the square root of its square.",
       "x": 0.0951,
       "y": 0.7355,
@@ -126,53 +107,19 @@
       "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "is the square root of to square: to",
-      "x": 0.0943,
-      "y": 0.7595,
-      "w": 0.362,
-      "h": 0.0848,
+      "id": "r5",
+      "order": 4,
+      "text": "is the square root of to square: to multiply a number by Itself.",
+      "x": 0.0976,
+      "y": 0.7589,
+      "w": 0.4705,
+      "h": 0.0774,
       "words": [
         "is",
         "the",
         "square",
         "root",
         "of",
-        "to",
-        "square:",
-        "to"
-      ],
-      "conf": 96.5175,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "is the square root of",
-      "x": 0.1204,
-      "y": 0.7589,
-      "w": 0.2837,
-      "h": 0.0309,
-      "words": [
-        "is",
-        "the",
-        "square",
-        "root",
-        "of"
-      ],
-      "conf": 94.676,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "to square: to multiply a number by Itself.",
-      "x": 0.0976,
-      "y": 0.8203,
-      "w": 0.4705,
-      "h": 0.016,
-      "words": [
         "to",
         "square:",
         "to",
@@ -182,12 +129,12 @@
         "by",
         "Itself."
       ],
-      "conf": 84.5198,
+      "conf": 94.676,
       "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r6",
+      "order": 5,
       "text": "will",
       "x": 0.0976,
       "y": 0.8507,
@@ -200,25 +147,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "will square (s) squared",
-      "x": 0.0976,
-      "y": 0.8485,
-      "w": 0.8241,
-      "h": 0.0203,
-      "words": [
-        "will",
-        "square",
-        "(s)",
-        "squared"
-      ],
-      "conf": 72.5928,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
+      "id": "r7",
+      "order": 6,
       "text": "square (s)",
       "x": 0.4444,
       "y": 0.8485,

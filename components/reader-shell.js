@@ -36,6 +36,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const hydratedTargetRef = useRef(null);
   const bootstrappedFromStorageRef = useRef(false);
   const loadingRef = useRef(new Set());
+  const voiceUriRef = useRef("");
   const longPressTimerRef = useRef(null);
   const longPressTriggeredRef = useRef(false);
 
@@ -54,23 +55,12 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
         if (typeof savedSettings.showBoxes === "boolean") setShowBoxes(savedSettings.showBoxes);
         if (typeof savedSettings.editorMode === "boolean") setEditorMode(savedSettings.editorMode);
         if (typeof savedSettings.rate === "number") setRate(savedSettings.rate);
-        if (typeof savedSettings.voiceUri === "string") setVoiceUri(savedSettings.voiceUri);
+        if (typeof savedSettings.voiceUri === "string") {
+          voiceUriRef.current = savedSettings.voiceUri;
+          setVoiceUri(savedSettings.voiceUri);
+        }
       }
     } catch {}
-
-    const syncVoices = () => {
-      const availableVoices = window.speechSynthesis
-        .getVoices()
-        .filter((voice) => voice.lang.toLowerCase().startsWith("en"))
-        .sort((a, b) => a.name.localeCompare(b.name));
-      setVoices(availableVoices);
-      if (!voiceUri) {
-        const preferred = chooseBestDefaultVoice(availableVoices);
-        if (preferred) setVoiceUri(preferred.voiceURI);
-      }
-    };
-    syncVoices();
-    window.speechSynthesis.addEventListener?.("voiceschanged", syncVoices);
 
     if (!queryPageNumber) {
       const savedPage = Number(window.localStorage.getItem(LAST_PAGE_KEY));
@@ -87,10 +77,36 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
     }
 
     return () => {
-      window.speechSynthesis.removeEventListener?.("voiceschanged", syncVoices);
       window.speechSynthesis.cancel();
     };
-  }, [initialPage.page, manifestPages, queryPageNumber, voiceUri]);
+  }, [initialPage.page, manifestPages, queryPageNumber]);
+
+  useEffect(() => {
+    const syncVoices = () => {
+      const availableVoices = window.speechSynthesis
+        .getVoices()
+        .filter((voice) => voice.lang.toLowerCase().startsWith("en"))
+        .sort((a, b) => a.name.localeCompare(b.name));
+      setVoices(availableVoices);
+      if (!voiceUriRef.current) {
+        const preferred = chooseBestDefaultVoice(availableVoices);
+        if (preferred) {
+          voiceUriRef.current = preferred.voiceURI;
+          setVoiceUri(preferred.voiceURI);
+        }
+      }
+    };
+
+    syncVoices();
+    window.speechSynthesis.addEventListener?.("voiceschanged", syncVoices);
+    return () => {
+      window.speechSynthesis.removeEventListener?.("voiceschanged", syncVoices);
+    };
+  }, []);
+
+  useEffect(() => {
+    voiceUriRef.current = voiceUri;
+  }, [voiceUri]);
 
   useEffect(() => {
     if (!hydrated) return;

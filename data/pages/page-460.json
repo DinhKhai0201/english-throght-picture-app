@@ -2,74 +2,30 @@
   "page": 460,
   "image": "/books/page 460.png",
   "imageApiPath": "/api/books/page%20460.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 22,
-    "wordCount": 282,
+    "regionCount": 8,
+    "wordCount": 150,
     "imageWidth": 1196,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4",
-        "r5",
-        "r6",
-        "r7"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
         "r2",
         "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
         "r8"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r15",
-        "r16",
-        "r20"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r17",
-        "r18",
-        "r19",
-        "r21",
-        "r22"
       ]
     }
   ],
@@ -77,11 +33,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "Men took the first units of long measure from their bodies. The end of a man’s",
+      "text": "Men took the first units of long measure from their bodies. The end of a man’s thumb is about one inch long. A tall man’s foot is about twelve inches or one foot long,",
       "x": 0.3085,
       "y": 0.0354,
-      "w": 0.6171,
-      "h": 0.0514,
+      "w": 0.6179,
+      "h": 0.1044,
       "words": [
         "Men",
         "took",
@@ -98,50 +54,7 @@
         "end",
         "of",
         "a",
-        "man’s"
-      ],
-      "conf": 95.7076,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "from their bodies. The end of a man’s thumb is about one inch long. A tall man’s",
-      "x": 0.3085,
-      "y": 0.0611,
-      "w": 0.6137,
-      "h": 0.0503,
-      "words": [
-        "from",
-        "their",
-        "bodies.",
-        "The",
-        "end",
-        "of",
-        "a",
         "man’s",
-        "thumb",
-        "is",
-        "about",
-        "one",
-        "inch",
-        "long.",
-        "A",
-        "tall",
-        "man’s"
-      ],
-      "conf": 95.7346,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "thumb is about one inch long. A tall man’s foot is about twelve inches or one foot long,",
-      "x": 0.3102,
-      "y": 0.0894,
-      "w": 0.6162,
-      "h": 0.0504,
-      "words": [
         "thumb",
         "is",
         "about",
@@ -161,17 +74,17 @@
         "foot",
         "long,"
       ],
-      "conf": 96.1876,
-      "source": "psm-6"
+      "conf": 95.7076,
+      "source": "psm-11"
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "A long step is about three feet or one yard long. The simplest",
+      "id": "r2",
+      "order": 1,
+      "text": "A long step is about three feet or one yard long. The simplest way of measuring a short dis- tance is to step it",
       "x": 0.107,
       "y": 0.3037,
-      "w": 0.459,
-      "h": 0.0504,
+      "w": 0.4615,
+      "h": 0.105,
       "words": [
         "A",
         "long",
@@ -185,45 +98,7 @@
         "yard",
         "long.",
         "The",
-        "simplest"
-      ],
-      "conf": 93.6876,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "or one yard long. The simplest way of measuring a short dis-",
-      "x": 0.1095,
-      "y": 0.3321,
-      "w": 0.4566,
-      "h": 0.0471,
-      "words": [
-        "or",
-        "one",
-        "yard",
-        "long.",
-        "The",
         "simplest",
-        "way",
-        "of",
-        "measuring",
-        "a",
-        "short",
-        "dis-"
-      ],
-      "conf": 96.3575,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "way of measuring a short dis- tance is to step it",
-      "x": 0.1104,
-      "y": 0.3578,
-      "w": 0.4557,
-      "h": 0.0509,
-      "words": [
         "way",
         "of",
         "measuring",
@@ -236,77 +111,17 @@
         "step",
         "it"
       ],
-      "conf": 95.1092,
-      "source": "psm-6"
+      "conf": 93.6876,
+      "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "tance is to step it",
-      "x": 0.1112,
-      "y": 0.3835,
-      "w": 0.2584,
-      "h": 0.0225,
-      "words": [
-        "tance",
-        "is",
-        "to",
-        "step",
-        "it"
-      ],
-      "conf": 96.5447,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "One ad",
-      "x": 0.5543,
-      "y": 0.4724,
-      "w": 0.1171,
-      "h": 0.045,
-      "words": [
-        "One",
-        "ad"
-      ],
-      "conf": 49.9574,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "Or ONE Vans These units of long measure have been a great help to",
-      "x": 0.1137,
-      "y": 0.5383,
-      "w": 0.8202,
-      "h": 0.0579,
-      "words": [
-        "Or",
-        "ONE",
-        "Vans",
-        "These",
-        "units",
-        "of",
-        "long",
-        "measure",
-        "have",
-        "been",
-        "a",
-        "great",
-        "help",
-        "to"
-      ],
-      "conf": 67.7136,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "These units of long measure have been a great help to man. They have made it possible for him to measure",
+      "id": "r3",
+      "order": 2,
+      "text": "These units of long measure have been a great help to man. They have made it possible for him to measure and compare lengths and areas and volumes. Measur- ing lets us build a room the size and shape we want it, for example, twenty feet long, sixteen feet wide and twelvo",
       "x": 0.1137,
       "y": 0.5742,
       "w": 0.8202,
-      "h": 0.0477,
+      "h": 0.1259,
       "words": [
         "These",
         "units",
@@ -328,51 +143,7 @@
         "for",
         "him",
         "to",
-        "measure"
-      ],
-      "conf": 96.2873,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "man. They have made it possible for him to measure and compare lengths and areas and volumes. Measur-",
-      "x": 0.1154,
-      "y": 0.5999,
-      "w": 0.8169,
-      "h": 0.0482,
-      "words": [
-        "man.",
-        "They",
-        "have",
-        "made",
-        "it",
-        "possible",
-        "for",
-        "him",
-        "to",
         "measure",
-        "and",
-        "compare",
-        "lengths",
-        "and",
-        "areas",
-        "and",
-        "volumes.",
-        "Measur-"
-      ],
-      "conf": 96.2263,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "and compare lengths and areas and volumes. Measur- ing lets us build a room the size and shape we want it, for",
-      "x": 0.1137,
-      "y": 0.6261,
-      "w": 0.8186,
-      "h": 0.0498,
-      "words": [
         "and",
         "compare",
         "lengths",
@@ -394,33 +165,6 @@
         "we",
         "want",
         "it,",
-        "for"
-      ],
-      "conf": 95.0983,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "ing lets us build a room the size and shape we want it, for example, twenty feet long, sixteen feet wide and twelvo",
-      "x": 0.1137,
-      "y": 0.6497,
-      "w": 0.8202,
-      "h": 0.0504,
-      "words": [
-        "ing",
-        "lets",
-        "us",
-        "build",
-        "a",
-        "room",
-        "the",
-        "size",
-        "and",
-        "shape",
-        "we",
-        "want",
-        "it,",
         "for",
         "example,",
         "twenty",
@@ -432,34 +176,12 @@
         "and",
         "twelvo"
       ],
-      "conf": 96.4132,
-      "source": "psm-6"
+      "conf": 96.4114,
+      "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
-      "text": "example, twenty feet long, sixteen feet wide and twelvo",
-      "x": 0.1162,
-      "y": 0.6776,
-      "w": 0.8177,
-      "h": 0.0225,
-      "words": [
-        "example,",
-        "twenty",
-        "feet",
-        "long,",
-        "sixteen",
-        "feet",
-        "wide",
-        "and",
-        "twelvo"
-      ],
-      "conf": 95.2076,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
+      "id": "r4",
+      "order": 3,
       "text": "feet high.",
       "x": 0.1154,
       "y": 0.7038,
@@ -469,64 +191,12 @@
         "feet",
         "high."
       ],
-      "conf": 96.022,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "centimeter, ferent sixes. All ciscles are the some shape but all will step",
-      "x": 0.1162,
-      "y": 0.7831,
-      "w": 0.7049,
-      "h": 0.083,
-      "words": [
-        "centimeter,",
-        "ferent",
-        "sixes.",
-        "All",
-        "ciscles",
-        "are",
-        "the",
-        "some",
-        "shape",
-        "but",
-        "all",
-        "will",
-        "step"
-      ],
-      "conf": 92.8808,
-      "source": "psm-6"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "volume: cubic space, The volume of the cube on page Is one cubic",
-      "x": 0.1187,
-      "y": 0.7654,
-      "w": 0.8161,
-      "h": 0.0166,
-      "words": [
-        "volume:",
-        "cubic",
-        "space,",
-        "The",
-        "volume",
-        "of",
-        "the",
-        "cube",
-        "on",
-        "page",
-        "Is",
-        "one",
-        "cubic"
-      ],
-      "conf": 95.5257,
+      "conf": 94.9089,
       "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
+      "id": "r5",
+      "order": 4,
       "text": "volume: cubic space, The volume of the cube on page Is one cubic shape: outline. All squares are the same shape but they can be dif-",
       "x": 0.1187,
       "y": 0.7654,
@@ -561,37 +231,11 @@
         "dif-"
       ],
       "conf": 95.5257,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r19",
-      "order": 18,
-      "text": "shape: outline. All squares are the same shape but they can be dif-",
-      "x": 0.1196,
-      "y": 0.7991,
-      "w": 0.8169,
-      "h": 0.0177,
-      "words": [
-        "shape:",
-        "outline.",
-        "All",
-        "squares",
-        "are",
-        "the",
-        "same",
-        "shape",
-        "but",
-        "they",
-        "can",
-        "be",
-        "dif-"
-      ],
-      "conf": 88.4673,
-      "source": "psm-6"
-    },
-    {
-      "id": "r20",
-      "order": 19,
+      "id": "r6",
+      "order": 5,
       "text": "centimeter,",
       "x": 0.1739,
       "y": 0.7831,
@@ -604,8 +248,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r21",
-      "order": 20,
+      "id": "r7",
+      "order": 6,
       "text": "ferent sixes, are the same shape but all triangies.",
       "x": 0.1731,
       "y": 0.8147,
@@ -626,21 +270,19 @@
       "source": "psm-11"
     },
     {
-      "id": "r22",
-      "order": 21,
-      "text": "will step etep(s) stepped",
-      "x": 0.1196,
+      "id": "r8",
+      "order": 7,
+      "text": "will step",
+      "x": 0.1162,
       "y": 0.8441,
-      "w": 0.8152,
+      "w": 0.1145,
       "h": 0.022,
       "words": [
         "will",
-        "step",
-        "etep(s)",
-        "stepped"
+        "step"
       ],
-      "conf": 85.0161,
-      "source": "psm-6"
+      "conf": 94.8865,
+      "source": "psm-11"
     }
   ]
 }

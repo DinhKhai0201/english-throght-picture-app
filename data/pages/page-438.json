@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20438.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 23,
-    "wordCount": 199,
+    "regionCount": 14,
+    "wordCount": 133,
     "imageWidth": 1180,
     "imageHeight": 1859
   },
@@ -18,9 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r7",
-        "r11"
+        "r3",
+        "r5"
       ]
     },
     {
@@ -32,13 +31,8 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r8",
-        "r9",
-        "r10"
+        "r2",
+        "r4"
       ]
     },
     {
@@ -49,11 +43,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r12",
-        "r16",
-        "r17",
-        "r19",
-        "r20"
+        "r8",
+        "r9",
+        "r10",
+        "r11"
       ]
     },
     {
@@ -64,13 +57,11 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r6",
+        "r7",
+        "r12",
         "r13",
-        "r14",
-        "r15",
-        "r18",
-        "r21",
-        "r22",
-        "r23"
+        "r14"
       ]
     }
   ],
@@ -102,48 +93,11 @@
     {
       "id": "r2",
       "order": 1,
-      "text": "a ay)",
-      "x": 0.2102,
-      "y": 0.1259,
-      "w": 0.5568,
-      "h": 0.0629,
-      "words": [
-        "a",
-        "ay)"
-      ],
-      "conf": 58.4726,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "“What was wrong then?” the teacher asked herself. “I",
-      "x": 0.1051,
+      "text": "“What was wrong then?” the teacher asked herself. “I must have said it as if I were giving him something. That was why he thanked me. Next time I must keep that out",
+      "x": 0.1042,
       "y": 0.2668,
-      "w": 0.8271,
-      "h": 0.0215,
-      "words": [
-        "“What",
-        "was",
-        "wrong",
-        "then?”",
-        "the",
-        "teacher",
-        "asked",
-        "herself.",
-        "“I"
-      ],
-      "conf": 95.3171,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "“What was wrong then?” the teacher asked herself. “I must have said it as if I were giving him something. That",
-      "x": 0.1051,
-      "y": 0.2668,
-      "w": 0.8271,
-      "h": 0.0479,
+      "w": 0.828,
+      "h": 0.0883,
       "words": [
         "“What",
         "was",
@@ -154,31 +108,6 @@
         "asked",
         "herself.",
         "“I",
-        "must",
-        "have",
-        "said",
-        "it",
-        "as",
-        "if",
-        "I",
-        "were",
-        "giving",
-        "him",
-        "something.",
-        "That"
-      ],
-      "conf": 95.0726,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "must have said it as if I were giving him something. That was why he thanked me. Next time I must keep that out",
-      "x": 0.1042,
-      "y": 0.2921,
-      "w": 0.828,
-      "h": 0.063,
-      "words": [
         "must",
         "have",
         "said",
@@ -204,37 +133,12 @@
         "that",
         "out"
       ],
-      "conf": 94.8677,
-      "source": "psm-6"
+      "conf": 95.3171,
+      "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "was why he thanked me. Next time I must keep that out",
-      "x": 0.1042,
-      "y": 0.319,
-      "w": 0.8271,
-      "h": 0.0226,
-      "words": [
-        "was",
-        "why",
-        "he",
-        "thanked",
-        "me.",
-        "Next",
-        "time",
-        "I",
-        "must",
-        "keep",
-        "that",
-        "out"
-      ],
-      "conf": 96.6241,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
+      "id": "r3",
+      "order": 2,
       "text": "of my voice.”",
       "x": 0.1042,
       "y": 0.3459,
@@ -245,40 +149,17 @@
         "my",
         "voice.”"
       ],
-      "conf": 96.8951,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "She saw a third student coming. This time she wanted",
-      "x": 0.1017,
-      "y": 0.3986,
-      "w": 0.8271,
-      "h": 0.0215,
-      "words": [
-        "She",
-        "saw",
-        "a",
-        "third",
-        "student",
-        "coming.",
-        "This",
-        "time",
-        "she",
-        "wanted"
-      ],
-      "conf": 96.4571,
+      "conf": 96.4899,
       "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r4",
+      "order": 3,
       "text": "She saw a third student coming. This time she wanted the answer “Good moming!” so much that her voice be-",
       "x": 0.1017,
-      "y": 0.3884,
-      "w": 0.8305,
-      "h": 0.0581,
+      "y": 0.3986,
+      "w": 0.8271,
+      "h": 0.0479,
       "words": [
         "She",
         "saw",
@@ -301,85 +182,34 @@
         "voice",
         "be-"
       ],
-      "conf": 96.5951,
-      "source": "psm-6"
+      "conf": 96.4571,
+      "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "the answer “Good moming!” so much that her voice be-",
-      "x": 0.1017,
-      "y": 0.425,
-      "w": 0.8271,
-      "h": 0.0215,
-      "words": [
-        "the",
-        "answer",
-        "“Good",
-        "moming!”",
-        "so",
-        "much",
-        "that",
-        "her",
-        "voice",
-        "be-"
-      ],
-      "conf": 95.1017,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "came hard and sharp.",
+      "id": "r5",
+      "order": 4,
+      "text": "came hard and sharp",
       "x": 0.1008,
       "y": 0.4513,
-      "w": 0.3102,
+      "w": 0.3025,
       "h": 0.0215,
       "words": [
         "came",
         "hard",
         "and",
-        "sharp."
+        "sharp"
       ],
-      "conf": 95.3446,
-      "source": "psm-6"
+      "conf": 91.6593,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "wo”",
-      "x": 0.172,
-      "y": 0.5056,
-      "w": 0.0424,
-      "h": 0.0167,
-      "words": [
-        "wo”"
-      ],
-      "conf": 44.7504,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "moming!",
-      "x": 0.4729,
-      "y": 0.5229,
-      "w": 0.0864,
-      "h": 0.0178,
-      "words": [
-        "moming!"
-      ],
-      "conf": 57.5188,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
+      "id": "r6",
+      "order": 5,
       "text": "You see how little one person may know what is in an- other’s mind even when the other is trying to show him.",
       "x": 0.0932,
-      "y": 0.6606,
+      "y": 0.6611,
       "w": 0.8314,
-      "h": 0.0478,
+      "h": 0.0473,
       "words": [
         "You",
         "see",
@@ -405,17 +235,17 @@
         "show",
         "him."
       ],
-      "conf": 95.8452,
-      "source": "psm-6"
+      "conf": 95.9257,
+      "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
+      "id": "r7",
+      "order": 6,
       "text": "thank: say it was good of a person to have done what he did; give him",
       "x": 0.0907,
-      "y": 0.7644,
+      "y": 0.7649,
       "w": 0.8347,
-      "h": 0.0167,
+      "h": 0.0161,
       "words": [
         "thank:",
         "say",
@@ -434,12 +264,12 @@
         "give",
         "him"
       ],
-      "conf": 95.9454,
-      "source": "psm-6"
+      "conf": 95.1794,
+      "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
+      "id": "r8",
+      "order": 7,
       "text": "please!: may it be your pleasure; may it please you",
       "x": 0.0898,
       "y": 0.801,
@@ -461,47 +291,25 @@
       "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
-      "text": "thanks; say “Thank you.”",
+      "id": "r9",
+      "order": 8,
+      "text": "thanks; say “Thank you",
       "x": 0.1458,
       "y": 0.7843,
-      "w": 0.2898,
+      "w": 0.2686,
       "h": 0.0145,
       "words": [
         "thanks;",
         "say",
         "“Thank",
-        "you.”"
+        "you"
       ],
-      "conf": 96.1058,
-      "source": "psm-6"
+      "conf": 92.5388,
+      "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
-      "text": "will thank thank (s)} thanked will please please(s) pleased",
-      "x": 0.0881,
-      "y": 0.8289,
-      "w": 0.8356,
-      "h": 0.0361,
-      "words": [
-        "will",
-        "thank",
-        "thank",
-        "(s)}",
-        "thanked",
-        "will",
-        "please",
-        "please(s)",
-        "pleased"
-      ],
-      "conf": 82.5275,
-      "source": "psm-6"
-    },
-    {
-      "id": "r19",
-      "order": 18,
+      "id": "r10",
+      "order": 9,
       "text": "will please",
       "x": 0.0881,
       "y": 0.8499,
@@ -515,8 +323,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r20",
-      "order": 19,
+      "id": "r11",
+      "order": 10,
       "text": "will thank",
       "x": 0.0898,
       "y": 0.8322,
@@ -530,8 +338,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r21",
-      "order": 20,
+      "id": "r12",
+      "order": 11,
       "text": "please(s)",
       "x": 0.4449,
       "y": 0.8488,
@@ -544,8 +352,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r22",
-      "order": 21,
+      "id": "r13",
+      "order": 12,
       "text": "thank (s)",
       "x": 0.4508,
       "y": 0.8311,
@@ -559,8 +367,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r23",
-      "order": 22,
+      "id": "r14",
+      "order": 13,
       "text": "thanked pleased",
       "x": 0.8212,
       "y": 0.8289,

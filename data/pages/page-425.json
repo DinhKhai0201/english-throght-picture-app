@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20425.png",
   "layout": "single",
   "stats": {
-    "regionCount": 17,
-    "wordCount": 199,
+    "regionCount": 7,
+    "wordCount": 130,
     "imageWidth": 1250,
     "imageHeight": 1830
   },
@@ -24,17 +24,7 @@
         "r4",
         "r5",
         "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17"
+        "r7"
       ]
     }
   ],
@@ -42,11 +32,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "People need play as well as work, though, if your interest",
-      "x": 0.08,
+      "text": "People need play as well as work, though, if your interest is deep enough, work and play can be the same thing. To",
+      "x": 0.0784,
       "y": 0.0393,
-      "w": 0.7824,
-      "h": 0.024,
+      "w": 0.7848,
+      "h": 0.053,
       "words": [
         "People",
         "need",
@@ -58,20 +48,7 @@
         "though,",
         "if",
         "your",
-        "interest"
-      ],
-      "conf": 96.8046,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "is deep enough, work and play can be the same thing. To",
-      "x": 0.0784,
-      "y": 0.0628,
-      "w": 0.7848,
-      "h": 0.0295,
-      "words": [
+        "interest",
         "is",
         "deep",
         "enough,",
@@ -85,17 +62,17 @@
         "thing.",
         "To"
       ],
-      "conf": 96.7563,
+      "conf": 96.8046,
       "source": "psm-11"
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "some people all their best work is a sort of play. They get so much pleasure from it and are so interested in it",
-      "x": 0.0776,
+      "id": "r2",
+      "order": 1,
+      "text": "some people all their best work is a sort of play. They get so much pleasure from it and are so interested in it that they work when they don’t need to. They are doing what they want most to do.",
+      "x": 0.0744,
       "y": 0.0896,
-      "w": 0.7872,
-      "h": 0.053,
+      "w": 0.792,
+      "h": 0.1055,
       "words": [
         "some",
         "people",
@@ -120,44 +97,7 @@
         "so",
         "interested",
         "in",
-        "it"
-      ],
-      "conf": 96.7178,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "so much pleasure from it and are so interested in it",
-      "x": 0.0784,
-      "y": 0.1175,
-      "w": 0.7864,
-      "h": 0.0295,
-      "words": [
-        "so",
-        "much",
-        "pleasure",
-        "from",
         "it",
-        "and",
-        "are",
-        "so",
-        "interested",
-        "in",
-        "it"
-      ],
-      "conf": 96.5289,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "that they work when they don’t need to. They are doing what they want most to do.",
-      "x": 0.0768,
-      "y": 0.1443,
-      "w": 0.7888,
-      "h": 0.0508,
-      "words": [
         "that",
         "they",
         "work",
@@ -176,36 +116,17 @@
         "to",
         "do."
       ],
-      "conf": 96.7028,
-      "source": "psm-6"
+      "conf": 96.7786,
+      "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "what they want most to do.",
-      "x": 0.0768,
-      "y": 0.1738,
-      "w": 0.3832,
-      "h": 0.0213,
-      "words": [
-        "what",
-        "they",
-        "want",
-        "most",
-        "to",
-        "do."
-      ],
-      "conf": 96.5008,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "It was the philosopher Plato who said, “All learning is best done as play. Nothing learned under pressure takes",
+      "id": "r3",
+      "order": 2,
+      "text": "It was the philosopher Plato who said, “All learning is best done as play. Nothing learned under pressure takes root rightly in the mind. So let children’s work be a sort of play.”",
       "x": 0.0768,
       "y": 0.5115,
-      "w": 0.792,
-      "h": 0.0525,
+      "w": 0.7928,
+      "h": 0.1022,
       "words": [
         "It",
         "was",
@@ -217,51 +138,6 @@
         "“All",
         "learning",
         "is",
-        "best",
-        "done",
-        "as",
-        "play.",
-        "Nothing",
-        "learned",
-        "under",
-        "pressure",
-        "takes"
-      ],
-      "conf": 96.016,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "It was the philosopher Plato who said, “All learning is",
-      "x": 0.0784,
-      "y": 0.5115,
-      "w": 0.7896,
-      "h": 0.023,
-      "words": [
-        "It",
-        "was",
-        "the",
-        "philosopher",
-        "Plato",
-        "who",
-        "said,",
-        "“All",
-        "learning",
-        "is"
-      ],
-      "conf": 96.3193,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "best done as play. Nothing learned under pressure takes root rightly in the mind. So let children’s work be a sort",
-      "x": 0.0768,
-      "y": 0.5361,
-      "w": 0.7936,
-      "h": 0.0508,
-      "words": [
         "best",
         "done",
         "as",
@@ -282,83 +158,21 @@
         "work",
         "be",
         "a",
-        "sort"
-      ],
-      "conf": 96.5596,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "root rightly in the mind. So let children’s work be a sort of play.”",
-      "x": 0.0808,
-      "y": 0.5645,
-      "w": 0.7888,
-      "h": 0.0492,
-      "words": [
-        "root",
-        "rightly",
-        "in",
-        "the",
-        "mind.",
-        "So",
-        "let",
-        "children’s",
-        "work",
-        "be",
-        "a",
         "sort",
         "of",
         "play.”"
       ],
-      "conf": 96.2795,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "of play.”",
-      "x": 0.0808,
-      "y": 0.5918,
-      "w": 0.1208,
-      "h": 0.0219,
-      "words": [
-        "of",
-        "play.”"
-      ],
-      "conf": 96.6025,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "interesh ottraction of the mind to something, in knowledge",
-      "x": 0.0816,
-      "y": 0.8148,
-      "w": 0.7904,
-      "h": 0.0153,
-      "words": [
-        "interesh",
-        "ottraction",
-        "of",
-        "the",
-        "mind",
-        "to",
-        "something,",
-        "in",
-        "knowledge"
-      ],
-      "conf": 83.9528,
+      "conf": 96.3193,
       "source": "psm-11"
     },
     {
-      "id": "r13",
-      "order": 12,
-      "text": "interesh ottraction of the mind to something, in knowledge philosopher: thinker, lover of knowledge (from two Greek words: philos,",
+      "id": "r4",
+      "order": 3,
+      "text": "interesh ottraction of the mind to something, in knowledge losopher: thinker, lover of",
       "x": 0.0816,
       "y": 0.8148,
       "w": 0.7904,
-      "h": 0.0513,
+      "h": 0.0507,
       "words": [
         "interesh",
         "ottraction",
@@ -369,40 +183,17 @@
         "something,",
         "in",
         "knowledge",
-        "philosopher:",
-        "thinker,",
-        "lover",
-        "of",
-        "knowledge",
-        "(from",
-        "two",
-        "Greek",
-        "words:",
-        "philos,"
-      ],
-      "conf": 83.9528,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "losopher: thinker, lover of",
-      "x": 0.1192,
-      "y": 0.8497,
-      "w": 0.2912,
-      "h": 0.0158,
-      "words": [
         "losopher:",
         "thinker,",
         "lover",
         "of"
       ],
-      "conf": 90.5147,
+      "conf": 83.9528,
       "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
+      "id": "r5",
+      "order": 4,
       "text": "of something or in doing something.",
       "x": 0.1328,
       "y": 0.8328,
@@ -416,12 +207,12 @@
         "doing",
         "something."
       ],
-      "conf": 95.3233,
-      "source": "psm-6"
+      "conf": 95.1282,
+      "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
+      "id": "r6",
+      "order": 5,
       "text": "loving; sophos, wise}. One who is interested ia ail things.",
       "x": 0.1312,
       "y": 0.865,
@@ -443,8 +234,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
+      "id": "r7",
+      "order": 6,
       "text": "two Greek words: philos,",
       "x": 0.6056,
       "y": 0.8503,
