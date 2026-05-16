@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20500.png",
   "layout": "single",
   "stats": {
-    "regionCount": 19,
-    "wordCount": 173,
+    "regionCount": 5,
+    "wordCount": 116,
     "imageWidth": 1180,
     "imageHeight": 1859
   },
@@ -22,21 +22,7 @@
         "r2",
         "r3",
         "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17",
-        "r18",
-        "r19"
+        "r5"
       ]
     }
   ],
@@ -44,11 +30,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "The distance from a man’s toe to his brainand back may be as much as twelve feet. When",
+      "text": "The distance from a man’s toe to his brain and back may be as much as twelve feet. When you are feeling with your toe for a step to put your weight on, the impulses have to go up your nerves from your toe to your brain and back down again to the muscles which move your foot.",
       "x": 0.1093,
-      "y": 0.0355,
-      "w": 0.6636,
-      "h": 0.0538,
+      "y": 0.0387,
+      "w": 0.6653,
+      "h": 0.1797,
       "words": [
         "The",
         "distance",
@@ -58,29 +44,8 @@
         "toe",
         "to",
         "his",
-        "brainand",
-        "back",
-        "may",
-        "be",
-        "as",
-        "much",
-        "as",
-        "twelve",
-        "feet.",
-        "When"
-      ],
-      "conf": 90.2368,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "back may be as much as twelve feet. When you are feeling with your toe for a step to put",
-      "x": 0.1093,
-      "y": 0.0678,
-      "w": 0.6645,
-      "h": 0.0479,
-      "words": [
+        "brain",
+        "and",
         "back",
         "may",
         "be",
@@ -90,30 +55,6 @@
         "twelve",
         "feet.",
         "When",
-        "you",
-        "are",
-        "feeling",
-        "with",
-        "your",
-        "toe",
-        "for",
-        "a",
-        "step",
-        "to",
-        "put"
-      ],
-      "conf": 96.2103,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "you are feeling with your toe for a step to put your weight on, the impulses have to go up your nerves from your toe to your brain and back down again to the muscles which",
-      "x": 0.1102,
-      "y": 0.0947,
-      "w": 0.6644,
-      "h": 0.0979,
-      "words": [
         "you",
         "are",
         "feeling",
@@ -149,133 +90,32 @@
         "to",
         "the",
         "muscles",
-        "which"
-      ],
-      "conf": 96.6332,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "and back down again to the muscles which move your foot.",
-      "x": 0.111,
-      "y": 0.1716,
-      "w": 0.6636,
-      "h": 0.0468,
-      "words": [
-        "and",
-        "back",
-        "down",
-        "again",
-        "to",
-        "the",
-        "muscles",
         "which",
         "move",
         "your",
         "foot."
       ],
-      "conf": 96.6832,
-      "source": "psm-6"
+      "conf": 96.298,
+      "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "move your foot.",
-      "x": 0.111,
-      "y": 0.198,
-      "w": 0.2356,
-      "h": 0.0204,
-      "words": [
-        "move",
-        "your",
-        "foot."
-      ],
-      "conf": 96.3174,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "When you are walking, almost",
+      "id": "r2",
+      "order": 1,
+      "text": "When you are walking, almost all the muscles in your body are at work keeping",
       "x": 0.1059,
       "y": 0.3653,
       "w": 0.2551,
-      "h": 0.0473,
+      "h": 0.1264,
       "words": [
         "When",
         "you",
         "are",
-        "walking,",
-        "almost"
-      ],
-      "conf": 96.0413,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "When you are",
-      "x": 0.1068,
-      "y": 0.3653,
-      "w": 0.2534,
-      "h": 0.021,
-      "words": [
-        "When",
-        "you",
-        "are"
-      ],
-      "conf": 96.0413,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "walking, almost all the muscles in",
-      "x": 0.1059,
-      "y": 0.3911,
-      "w": 0.2551,
-      "h": 0.0436,
-      "words": [
         "walking,",
         "almost",
         "all",
         "the",
         "muscles",
-        "in"
-      ],
-      "conf": 96.3483,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "all the muscles your body are at",
-      "x": 0.1076,
-      "y": 0.4169,
-      "w": 0.2525,
-      "h": 0.0478,
-      "words": [
-        "all",
-        "the",
-        "muscles",
-        "your",
-        "body",
-        "are",
-        "at"
-      ],
-      "conf": 91.8779,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "your body are at work keeping",
-      "x": 0.1068,
-      "y": 0.4432,
-      "w": 0.2534,
-      "h": 0.0485,
-      "words": [
+        "in",
         "your",
         "body",
         "are",
@@ -283,135 +123,42 @@
         "work",
         "keeping"
       ],
-      "conf": 96.2452,
-      "source": "psm-6"
+      "conf": 96.0413,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "you from falling down. Your mus-",
-      "x": 0.1042,
+      "id": "r3",
+      "order": 2,
+      "text": "you from falling down. Your mus- cles and nerves work together to keep you on your feet.",
+      "x": 0.1017,
       "y": 0.4949,
-      "w": 0.2551,
-      "h": 0.0436,
+      "w": 0.2576,
+      "h": 0.1473,
       "words": [
         "you",
         "from",
         "falling",
         "down.",
         "Your",
-        "mus-"
-      ],
-      "conf": 95.436,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "down. Your mus- A,",
-      "x": 0.1042,
-      "y": 0.5196,
-      "w": 0.628,
-      "h": 0.0457,
-      "words": [
-        "down.",
-        "Your",
         "mus-",
-        "A,"
-      ],
-      "conf": 86.9439,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "cles and nerves",
-      "x": 0.1051,
-      "y": 0.5471,
-      "w": 0.2517,
-      "h": 0.0172,
-      "words": [
-        "cles",
-        "and",
-        "nerves"
-      ],
-      "conf": 94.303,
-      "source": "psm-11"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "cles and nerves work together to",
-      "x": 0.1051,
-      "y": 0.5471,
-      "w": 0.2534,
-      "h": 0.0478,
-      "words": [
         "cles",
         "and",
         "nerves",
-        "work",
-        "together",
-        "to"
-      ],
-      "conf": 93.2053,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "work together to keep you on your",
-      "x": 0.1034,
-      "y": 0.5734,
-      "w": 0.2551,
-      "h": 0.0479,
-      "words": [
         "work",
         "together",
         "to",
         "keep",
         "you",
         "on",
-        "your"
-      ],
-      "conf": 96.7207,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "keep you on your feet.",
-      "x": 0.1017,
-      "y": 0.5998,
-      "w": 0.2551,
-      "h": 0.0424,
-      "words": [
-        "keep",
-        "you",
-        "on",
         "your",
         "feet."
       ],
-      "conf": 96.7014,
-      "source": "psm-6"
+      "conf": 95.436,
+      "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
-      "text": "feet.",
-      "x": 0.1017,
-      "y": 0.624,
-      "w": 0.0619,
-      "h": 0.0253,
-      "words": [
-        "feet."
-      ],
-      "conf": 96.7256,
-      "source": "psm-6"
-    },
-    {
-      "id": "r18",
-      "order": 17,
+      "id": "r4",
+      "order": 3,
       "text": "These changes in the nerve and muscle cells are depend- ent on what is going on in other cells in the body in many",
       "x": 0.1017,
       "y": 0.7977,
@@ -444,11 +191,11 @@
         "many"
       ],
       "conf": 95.8698,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r19",
-      "order": 18,
+      "id": "r5",
+      "order": 4,
       "text": "different ways.",
       "x": 0.1017,
       "y": 0.8499,

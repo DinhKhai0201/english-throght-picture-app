@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20495.png",
   "layout": "single",
   "stats": {
-    "regionCount": 15,
-    "wordCount": 137,
+    "regionCount": 8,
+    "wordCount": 101,
     "imageWidth": 1234,
     "imageHeight": 1867
   },
@@ -25,14 +25,7 @@
         "r5",
         "r6",
         "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15"
+        "r8"
       ]
     }
   ],
@@ -40,11 +33,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "In the beginning—as long ago, as far back in the past, as we can talk about—the only sorts of changes which took",
+      "text": "In the beginning—as long ago, as far back in the past, as we can talk about—the only sorts of changes which took place, scientists say, were physical changes. They were the sorts of changes which the science of physics is about.",
       "x": 0.1094,
       "y": 0.0359,
       "w": 0.7974,
-      "h": 0.0482,
+      "h": 0.1007,
       "words": [
         "In",
         "the",
@@ -67,51 +60,7 @@
         "of",
         "changes",
         "which",
-        "took"
-      ],
-      "conf": 95.85,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "we can talk about—the only sorts of changes which took place, scientists say, were physical changes. They were",
-      "x": 0.1094,
-      "y": 0.0621,
-      "w": 0.7974,
-      "h": 0.0483,
-      "words": [
-        "we",
-        "can",
-        "talk",
-        "about—the",
-        "only",
-        "sorts",
-        "of",
-        "changes",
-        "which",
         "took",
-        "place,",
-        "scientists",
-        "say,",
-        "were",
-        "physical",
-        "changes.",
-        "They",
-        "were"
-      ],
-      "conf": 95.8965,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "place, scientists say, were physical changes. They were the sorts of changes which the science of physics is about.",
-      "x": 0.1094,
-      "y": 0.0884,
-      "w": 0.7974,
-      "h": 0.0482,
-      "words": [
         "place,",
         "scientists",
         "say,",
@@ -132,17 +81,17 @@
         "is",
         "about."
       ],
-      "conf": 96.7982,
-      "source": "psm-6"
+      "conf": 95.85,
+      "source": "psm-11"
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "Here is a wheel turning round. Its motion is a",
+      "id": "r2",
+      "order": 1,
+      "text": "Here is a wheel turning round. Its motion is a physical change.",
       "x": 0.1094,
       "y": 0.1666,
       "w": 0.3225,
-      "h": 0.0428,
+      "h": 0.0734,
       "words": [
         "Here",
         "is",
@@ -153,67 +102,16 @@
         "Its",
         "motion",
         "is",
-        "a"
-      ],
-      "conf": 96.4011,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "round. Its motion is a physical change.",
-      "x": 0.1094,
-      "y": 0.1923,
-      "w": 0.3217,
-      "h": 0.0477,
-      "words": [
-        "round.",
-        "Its",
-        "motion",
-        "is",
         "a",
         "physical",
         "change."
       ],
-      "conf": 95.8538,
-      "source": "psm-6"
+      "conf": 96.4011,
+      "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "physical o",
-      "x": 0.1094,
-      "y": 0.2094,
-      "w": 0.231,
-      "h": 0.0696,
-      "words": [
-        "physical",
-        "o"
-      ],
-      "conf": 67.6637,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "f Here is water boiling.",
-      "x": 0.137,
-      "y": 0.3465,
-      "w": 0.6313,
-      "h": 0.0337,
-      "words": [
-        "f",
-        "Here",
-        "is",
-        "water",
-        "boiling."
-      ],
-      "conf": 84.5199,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
+      "id": "r3",
+      "order": 2,
       "text": "Here is water boiling",
       "x": 0.4652,
       "y": 0.3476,
@@ -229,8 +127,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r4",
+      "order": 3,
       "text": "And here is water",
       "x": 0.111,
       "y": 0.4772,
@@ -246,48 +144,16 @@
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "And here is water, NS",
-      "x": 0.111,
-      "y": 0.4767,
-      "w": 0.5786,
-      "h": 0.0246,
-      "words": [
-        "And",
-        "here",
-        "is",
-        "water,",
-        "NS"
-      ],
-      "conf": 76.3006,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "turning into ice.",
+      "id": "r5",
+      "order": 4,
+      "text": "turning into Here are clouds forming and rain falling.",
       "x": 0.1102,
-      "y": 0.5019,
-      "w": 0.2204,
-      "h": 0.0214,
+      "y": 0.5046,
+      "w": 0.5608,
+      "h": 0.0707,
       "words": [
         "turning",
         "into",
-        "ice."
-      ],
-      "conf": 96.489,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "Here are clouds forming and rain falling.",
-      "x": 0.1102,
-      "y": 0.5533,
-      "w": 0.5608,
-      "h": 0.022,
-      "words": [
         "Here",
         "are",
         "clouds",
@@ -296,12 +162,12 @@
         "rain",
         "falling."
       ],
-      "conf": 96.4342,
+      "conf": 95.8629,
       "source": "psm-11"
     },
     {
-      "id": "r13",
-      "order": 12,
+      "id": "r6",
+      "order": 5,
       "text": "These are physical changes.",
       "x": 0.107,
       "y": 0.7584,
@@ -317,8 +183,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
+      "id": "r7",
+      "order": 6,
       "text": "physical: in the narrow sense used here, within the field of the science af physics. In a wide sense, material having to do with bodies not",
       "x": 0.1086,
       "y": 0.8104,
@@ -353,11 +219,11 @@
         "not"
       ],
       "conf": 96.2916,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
+      "id": "r8",
+      "order": 7,
       "text": "minds,",
       "x": 0.1613,
       "y": 0.8463,

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20512.png",
   "layout": "single",
   "stats": {
-    "regionCount": 23,
-    "wordCount": 289,
+    "regionCount": 7,
+    "wordCount": 168,
     "imageWidth": 1125,
     "imageHeight": 1850
   },
@@ -24,23 +24,7 @@
         "r4",
         "r5",
         "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17",
-        "r18",
-        "r19",
-        "r20",
-        "r21",
-        "r22",
-        "r23"
+        "r7"
       ]
     }
   ],
@@ -48,11 +32,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "If you are trying to draw a circle, the curved line you have made (together with your knowledge of what a circle",
+      "text": "If you are trying to draw a circle, the curved line you have made (together with your knowledge of what a circle is) keeps telling you how to go on. You can learn to draw better by trying.",
       "x": 0.0542,
       "y": 0.0341,
       "w": 0.8774,
-      "h": 0.0497,
+      "h": 0.1546,
       "words": [
         "If",
         "you",
@@ -75,47 +59,7 @@
         "of",
         "what",
         "a",
-        "circle"
-      ],
-      "conf": 96.1246,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "have made (together with your knowledge of what a circle is) keeps telling you",
-      "x": 0.0569,
-      "y": 0.0622,
-      "w": 0.8747,
-      "h": 0.0481,
-      "words": [
-        "have",
-        "made",
-        "(together",
-        "with",
-        "your",
-        "knowledge",
-        "of",
-        "what",
-        "a",
         "circle",
-        "is)",
-        "keeps",
-        "telling",
-        "you"
-      ],
-      "conf": 95.0473,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "is) keeps telling you how to go on. You",
-      "x": 0.0578,
-      "y": 0.0881,
-      "w": 0.3111,
-      "h": 0.0476,
-      "words": [
         "is)",
         "keeps",
         "telling",
@@ -124,42 +68,7 @@
         "to",
         "go",
         "on.",
-        "You"
-      ],
-      "conf": 96.7727,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "how to go on. You can learn to draw",
-      "x": 0.0578,
-      "y": 0.1146,
-      "w": 0.3111,
-      "h": 0.0432,
-      "words": [
-        "how",
-        "to",
-        "go",
-        "on.",
         "You",
-        "can",
-        "learn",
-        "to",
-        "draw"
-      ],
-      "conf": 96.3224,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "can learn to draw better by trying.",
-      "x": 0.0578,
-      "y": 0.1405,
-      "w": 0.3111,
-      "h": 0.0482,
-      "words": [
         "can",
         "learn",
         "to",
@@ -168,33 +77,17 @@
         "by",
         "trying."
       ],
-      "conf": 96.013,
-      "source": "psm-6"
+      "conf": 96.1246,
+      "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "better by trying.",
-      "x": 0.0578,
-      "y": 0.1643,
-      "w": 0.2427,
-      "h": 0.0308,
-      "words": [
-        "better",
-        "by",
-        "trying."
-      ],
-      "conf": 95.3527,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "If you are making a speech, what you will go on to say depends upon what you have said up to that point and",
-      "x": 0.0604,
+      "id": "r2",
+      "order": 1,
+      "text": "If you are making a speech, what you will go on to say depends upon what you have said up to that point and upon the people listening to you. A bad speaker is one of whom this is not true. A good speaker has learned by experience how to design a speech and how to change the design if necessary.",
+      "x": 0.056,
       "y": 0.2924,
-      "w": 0.8738,
-      "h": 0.0514,
+      "w": 0.88,
+      "h": 0.1557,
       "words": [
         "If",
         "you",
@@ -219,56 +112,7 @@
         "to",
         "that",
         "point",
-        "and"
-      ],
-      "conf": 96.4564,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "depends upon what you have said up to that point and upon the people listening to you. A bad speaker is one of",
-      "x": 0.0604,
-      "y": 0.3211,
-      "w": 0.8738,
-      "h": 0.0481,
-      "words": [
-        "depends",
-        "upon",
-        "what",
-        "you",
-        "have",
-        "said",
-        "up",
-        "to",
-        "that",
-        "point",
         "and",
-        "upon",
-        "the",
-        "people",
-        "listening",
-        "to",
-        "you.",
-        "A",
-        "bad",
-        "speaker",
-        "is",
-        "one",
-        "of"
-      ],
-      "conf": 96.3991,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "upon the people listening to you. A bad speaker is one of whom this is not true. A good speaker has learned by",
-      "x": 0.056,
-      "y": 0.347,
-      "w": 0.8782,
-      "h": 0.0508,
-      "words": [
         "upon",
         "the",
         "people",
@@ -291,54 +135,7 @@
         "speaker",
         "has",
         "learned",
-        "by"
-      ],
-      "conf": 96.5719,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "whom this is not true. A good speaker has learned by experience how to design a speech and how to change",
-      "x": 0.056,
-      "y": 0.3708,
-      "w": 0.88,
-      "h": 0.0535,
-      "words": [
-        "whom",
-        "this",
-        "is",
-        "not",
-        "true.",
-        "A",
-        "good",
-        "speaker",
-        "has",
-        "learned",
         "by",
-        "experience",
-        "how",
-        "to",
-        "design",
-        "a",
-        "speech",
-        "and",
-        "how",
-        "to",
-        "change"
-      ],
-      "conf": 94.9993,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "experience how to design a speech and how to change the design if necessary.",
-      "x": 0.0604,
-      "y": 0.3973,
-      "w": 0.8756,
-      "h": 0.0508,
-      "words": [
         "experience",
         "how",
         "to",
@@ -354,29 +151,12 @@
         "if",
         "necessary."
       ],
-      "conf": 94.5112,
-      "source": "psm-6"
+      "conf": 96.4564,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "the design if necessary.",
-      "x": 0.0604,
-      "y": 0.4259,
-      "w": 0.3467,
-      "h": 0.0222,
-      "words": [
-        "the",
-        "design",
-        "if",
-        "necessary."
-      ],
-      "conf": 96.6907,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
+      "id": "r3",
+      "order": 2,
       "text": "In speaking, as in everything we do, the way we begin",
       "x": 0.0622,
       "y": 0.4784,
@@ -399,13 +179,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
-      "text": "depends upon what our purpose is, upon what we are trying to do. But we are not always, nor need we be,",
-      "x": 0.0578,
+      "id": "r4",
+      "order": 3,
+      "text": "depends upon what our purpose is, upon what we are trying to do. But we are not always, nor need we be, fully conscious of what that purpose is. Sometimes, in reflection, we see more purpose than we knew in what we did,",
+      "x": 0.0551,
       "y": 0.5054,
-      "w": 0.8791,
-      "h": 0.0508,
+      "w": 0.8827,
+      "h": 0.1227,
       "words": [
         "depends",
         "upon",
@@ -417,54 +197,6 @@
         "what",
         "we",
         "are",
-        "trying",
-        "to",
-        "do.",
-        "But",
-        "we",
-        "are",
-        "not",
-        "always,",
-        "nor",
-        "need",
-        "we",
-        "be,"
-      ],
-      "conf": 96.5504,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "depends upon what our purpose is, upon what we are",
-      "x": 0.0613,
-      "y": 0.5054,
-      "w": 0.8738,
-      "h": 0.0227,
-      "words": [
-        "depends",
-        "upon",
-        "what",
-        "our",
-        "purpose",
-        "is,",
-        "upon",
-        "what",
-        "we",
-        "are"
-      ],
-      "conf": 96.5504,
-      "source": "psm-11"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "trying to do. But we are not always, nor need we be, fully conscious of what that purpose is. Sometimes, in",
-      "x": 0.0596,
-      "y": 0.5297,
-      "w": 0.8764,
-      "h": 0.0509,
-      "words": [
         "trying",
         "to",
         "do.",
@@ -485,52 +217,7 @@
         "purpose",
         "is.",
         "Sometimes,",
-        "in"
-      ],
-      "conf": 96.4052,
-      "source": "psm-6"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "fully conscious of what that purpose is. Sometimes, in reflection, we see more purpose than we knew in what",
-      "x": 0.0551,
-      "y": 0.5584,
-      "w": 0.8827,
-      "h": 0.0503,
-      "words": [
-        "fully",
-        "conscious",
-        "of",
-        "what",
-        "that",
-        "purpose",
-        "is.",
-        "Sometimes,",
         "in",
-        "reflection,",
-        "we",
-        "see",
-        "more",
-        "purpose",
-        "than",
-        "we",
-        "knew",
-        "in",
-        "what"
-      ],
-      "conf": 96.4086,
-      "source": "psm-6"
-    },
-    {
-      "id": "r18",
-      "order": 17,
-      "text": "reflection, we see more purpose than we knew in what we did,",
-      "x": 0.0551,
-      "y": 0.5822,
-      "w": 0.8827,
-      "h": 0.0459,
-      "words": [
         "reflection,",
         "we",
         "see",
@@ -544,27 +231,12 @@
         "we",
         "did,"
       ],
-      "conf": 94.2139,
-      "source": "psm-6"
+      "conf": 96.5504,
+      "source": "psm-11"
     },
     {
-      "id": "r19",
-      "order": 18,
-      "text": "we did,",
-      "x": 0.0604,
-      "y": 0.6103,
-      "w": 0.1084,
-      "h": 0.0178,
-      "words": [
-        "we",
-        "did,"
-      ],
-      "conf": 95.4531,
-      "source": "psm-6"
-    },
-    {
-      "id": "r20",
-      "order": 19,
+      "id": "r5",
+      "order": 4,
       "text": "design: see what should be done and how fo do it.",
       "x": 0.0578,
       "y": 0.8189,
@@ -587,8 +259,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r21",
-      "order": 20,
+      "id": "r6",
+      "order": 5,
       "text": "will design",
       "x": 0.0578,
       "y": 0.8497,
@@ -602,25 +274,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r22",
-      "order": 21,
-      "text": "will design desiga(s) designed",
-      "x": 0.0613,
-      "y": 0.8481,
-      "w": 0.8676,
-      "h": 0.0286,
-      "words": [
-        "will",
-        "design",
-        "desiga(s)",
-        "designed"
-      ],
-      "conf": 81.8181,
-      "source": "psm-6"
-    },
-    {
-      "id": "r23",
-      "order": 22,
+      "id": "r7",
+      "order": 6,
       "text": "design (s)",
       "x": 0.4249,
       "y": 0.8514,

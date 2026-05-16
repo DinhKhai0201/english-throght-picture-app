@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20488.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 173,
+    "regionCount": 11,
+    "wordCount": 149,
     "imageWidth": 1196,
     "imageHeight": 1859
   },
@@ -43,7 +43,7 @@
       "h": 0.5,
       "regionIds": [
         "r6",
-        "r11"
+        "r9"
       ]
     },
     {
@@ -57,10 +57,8 @@
         "r5",
         "r7",
         "r8",
-        "r9",
         "r10",
-        "r12",
-        "r13"
+        "r11"
       ]
     }
   ],
@@ -71,7 +69,7 @@
       "text": "We can make machines work for us, but machines can- not tell us what that work should be. It is men who are",
       "x": 0.0936,
       "y": 0.0328,
-      "w": 0.8228,
+      "w": 0.8227,
       "h": 0.0511,
       "words": [
         "We",
@@ -98,8 +96,8 @@
         "who",
         "are"
       ],
-      "conf": 95.6675,
-      "source": "psm-6"
+      "conf": 95.567,
+      "source": "psm-11"
     },
     {
       "id": "r2",
@@ -127,7 +125,7 @@
       "text": "Men have to know not only how to do things but whether to do them and when. A machine has only to do what it",
       "x": 0.0978,
       "y": 0.1372,
-      "w": 0.8194,
+      "w": 0.8178,
       "h": 0.0548,
       "words": [
         "Men",
@@ -156,8 +154,8 @@
         "what",
         "it"
       ],
-      "conf": 96.5129,
-      "source": "psm-6"
+      "conf": 96.231,
+      "source": "psm-11"
     },
     {
       "id": "r4",
@@ -243,11 +241,11 @@
     {
       "id": "r8",
       "order": 7,
-      "text": "to and watching others who are able to think for them- selves he may see how to think for himself. He gets bet-",
+      "text": "to and watching others who are able to think for them- selves he may see how to think for himself. He gets bet- ter at it by trying. Education in this cannot start too early.",
       "x": 0.0928,
       "y": 0.6041,
       "w": 0.8245,
-      "h": 0.0511,
+      "h": 0.0774,
       "words": [
         "to",
         "and",
@@ -260,31 +258,6 @@
         "think",
         "for",
         "them-",
-        "selves",
-        "he",
-        "may",
-        "see",
-        "how",
-        "to",
-        "think",
-        "for",
-        "himself.",
-        "He",
-        "gets",
-        "bet-"
-      ],
-      "conf": 95.9432,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "selves he may see how to think for himself. He gets bet- ter at it by trying. Education in this cannot start too early.",
-      "x": 0.0962,
-      "y": 0.6331,
-      "w": 0.8211,
-      "h": 0.0484,
-      "words": [
         "selves",
         "he",
         "may",
@@ -310,37 +283,12 @@
         "too",
         "early."
       ],
-      "conf": 95.9348,
-      "source": "psm-6"
+      "conf": 95.9432,
+      "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "ter at it by trying. Education in this cannot start too early.",
-      "x": 0.097,
-      "y": 0.66,
-      "w": 0.8177,
-      "h": 0.0215,
-      "words": [
-        "ter",
-        "at",
-        "it",
-        "by",
-        "trying.",
-        "Education",
-        "in",
-        "this",
-        "cannot",
-        "start",
-        "too",
-        "early."
-      ],
-      "conf": 96.6502,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
+      "id": "r9",
+      "order": 8,
       "text": "direction: the orders (directions) and belng responsible for the outcome.",
       "x": 0.0953,
       "y": 0.8392,
@@ -362,8 +310,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
+      "id": "r10",
+      "order": 9,
       "text": "should: would best be; the work should be what would be best for man.",
       "x": 0.0962,
       "y": 0.8203,
@@ -389,8 +337,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r13",
-      "order": 12,
+      "id": "r11",
+      "order": 10,
       "text": "seeing what should be done, giving",
       "x": 0.51,
       "y": 0.8375,

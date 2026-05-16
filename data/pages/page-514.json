@@ -2,35 +2,21 @@
   "page": 514,
   "image": "/books/page 514.png",
   "imageApiPath": "/api/books/page%20514.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 25,
-    "wordCount": 296,
+    "regionCount": 8,
+    "wordCount": 182,
     "imageWidth": 1180,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r12",
-        "r14",
-        "r15",
-        "r16"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
         "r2",
@@ -39,40 +25,7 @@
         "r5",
         "r6",
         "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r13",
-        "r17"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r18",
-        "r19",
-        "r20",
-        "r21",
-        "r24",
-        "r25"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r22",
-        "r23"
+        "r8"
       ]
     }
   ],
@@ -80,11 +33,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "In every sentence you write, the feed-back from the let- ters of any word you are writing, together with your",
-      "x": 0.0975,
+      "text": "In every sentence you write, the feed-back from the let- ters of any word you are writing, together with your knowledge of the spelling of the word, tells you which letter to write next. But feed-back can do this only be- cause you fed forward that word and no other as the word you would write. And in writing any sentence, feed- back from the words you have written can tell you what to write next only because you fed forward that sentence.",
+      "x": 0.0949,
       "y": 0.0375,
-      "w": 0.8288,
-      "h": 0.0471,
+      "w": 0.8314,
+      "h": 0.203,
       "words": [
         "In",
         "every",
@@ -105,29 +58,6 @@
         "writing,",
         "together",
         "with",
-        "your"
-      ],
-      "conf": 95.8774,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "ters of any word you are writing, together with your knowledge of the spelling of the word, tells you which",
-      "x": 0.0958,
-      "y": 0.0632,
-      "w": 0.8305,
-      "h": 0.0466,
-      "words": [
-        "ters",
-        "of",
-        "any",
-        "word",
-        "you",
-        "are",
-        "writing,",
-        "together",
-        "with",
         "your",
         "knowledge",
         "of",
@@ -138,54 +68,7 @@
         "word,",
         "tells",
         "you",
-        "which"
-      ],
-      "conf": 96.4335,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "knowledge of the spelling of the word, tells you which letter to write next. But feed-back can do this only be-",
-      "x": 0.0958,
-      "y": 0.0884,
-      "w": 0.8297,
-      "h": 0.0477,
-      "words": [
-        "knowledge",
-        "of",
-        "the",
-        "spelling",
-        "of",
-        "the",
-        "word,",
-        "tells",
-        "you",
         "which",
-        "letter",
-        "to",
-        "write",
-        "next.",
-        "But",
-        "feed-back",
-        "can",
-        "do",
-        "this",
-        "only",
-        "be-"
-      ],
-      "conf": 96.5777,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "letter to write next. But feed-back can do this only be- cause you fed forward that word and no other as the",
-      "x": 0.0958,
-      "y": 0.1141,
-      "w": 0.8297,
-      "h": 0.0471,
-      "words": [
         "letter",
         "to",
         "write",
@@ -207,54 +90,7 @@
         "no",
         "other",
         "as",
-        "the"
-      ],
-      "conf": 95.5418,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "cause you fed forward that word and no other as the word you would write. And in writing any sentence, feed-",
-      "x": 0.0958,
-      "y": 0.1403,
-      "w": 0.8305,
-      "h": 0.0472,
-      "words": [
-        "cause",
-        "you",
-        "fed",
-        "forward",
-        "that",
-        "word",
-        "and",
-        "no",
-        "other",
-        "as",
         "the",
-        "word",
-        "you",
-        "would",
-        "write.",
-        "And",
-        "in",
-        "writing",
-        "any",
-        "sentence,",
-        "feed-"
-      ],
-      "conf": 96.3869,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "word you would write. And in writing any sentence, feed- back from the words you have written can tell you what",
-      "x": 0.0949,
-      "y": 0.1666,
-      "w": 0.8314,
-      "h": 0.0471,
-      "words": [
         "word",
         "you",
         "would",
@@ -265,30 +101,6 @@
         "any",
         "sentence,",
         "feed-",
-        "back",
-        "from",
-        "the",
-        "words",
-        "you",
-        "have",
-        "written",
-        "can",
-        "tell",
-        "you",
-        "what"
-      ],
-      "conf": 96.0277,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "back from the words you have written can tell you what to write next only because you fed forward that sentence.",
-      "x": 0.0949,
-      "y": 0.1923,
-      "w": 0.8305,
-      "h": 0.0482,
-      "words": [
         "back",
         "from",
         "the",
@@ -311,17 +123,17 @@
         "that",
         "sentence."
       ],
-      "conf": 96.6203,
-      "source": "psm-6"
+      "conf": 95.8774,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "And you fed forward that sentence only because of a more general feed-forward, the purpose of the paragraph",
-      "x": 0.0941,
+      "id": "r2",
+      "order": 1,
+      "text": "And you fed forward that sentence only because of a more general feed-forward, the purpose of the paragraph in which the sentence is to take part. And the paragraph too depends upon the chapter and the chapter on the",
+      "x": 0.0932,
       "y": 0.2448,
-      "w": 0.8313,
-      "h": 0.0476,
+      "w": 0.8322,
+      "h": 0.0991,
       "words": [
         "And",
         "you",
@@ -340,75 +152,7 @@
         "purpose",
         "of",
         "the",
-        "paragraph"
-      ],
-      "conf": 96.4213,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "And you fed forward that sentence only because of a",
-      "x": 0.0949,
-      "y": 0.2448,
-      "w": 0.8305,
-      "h": 0.0214,
-      "words": [
-        "And",
-        "you",
-        "fed",
-        "forward",
-        "that",
-        "sentence",
-        "only",
-        "because",
-        "of",
-        "a"
-      ],
-      "conf": 96.4213,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "more general feed-forward, the purpose of the paragraph in which the sentence is to take part. And the paragraph",
-      "x": 0.0932,
-      "y": 0.271,
-      "w": 0.8305,
-      "h": 0.0472,
-      "words": [
-        "more",
-        "general",
-        "feed-forward,",
-        "the",
-        "purpose",
-        "of",
-        "the",
         "paragraph",
-        "in",
-        "which",
-        "the",
-        "sentence",
-        "is",
-        "to",
-        "take",
-        "part.",
-        "And",
-        "the",
-        "paragraph"
-      ],
-      "conf": 96.3452,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "in which the sentence is to take part. And the paragraph too depends upon the chapter and the chapter on the",
-      "x": 0.0932,
-      "y": 0.2962,
-      "w": 0.8314,
-      "h": 0.0477,
-      "words": [
         "in",
         "which",
         "the",
@@ -431,46 +175,19 @@
         "on",
         "the"
       ],
-      "conf": 96.6847,
-      "source": "psm-6"
+      "conf": 96.4213,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "book.",
-      "x": 0.0941,
-      "y": 0.3476,
-      "w": 0.0814,
-      "h": 0.0166,
-      "words": [
-        "book."
-      ],
-      "conf": 96.692,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "ENERY",
-      "x": 0.6203,
-      "y": 0.3948,
-      "w": 0.1008,
-      "h": 0.0273,
-      "words": [
-        "ENERY"
-      ],
-      "conf": 85.6181,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "What does this word mean? Each of",
+      "id": "r3",
+      "order": 2,
+      "text": "“General”? What does this word mean? Each of",
       "x": 0.0932,
-      "y": 0.4521,
+      "y": 0.4515,
       "w": 0.3797,
-      "h": 0.0428,
+      "h": 0.0434,
       "words": [
+        "“General”?",
         "What",
         "does",
         "this",
@@ -479,47 +196,12 @@
         "Each",
         "of"
       ],
-      "conf": 90.7108,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "“General”? What does",
-      "x": 0.0949,
-      "y": 0.4515,
-      "w": 0.3771,
-      "h": 0.0171,
-      "words": [
-        "“General”?",
-        "What",
-        "does"
-      ],
       "conf": 86.8432,
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
-      "text": "this word mean? Each of MEW",
-      "x": 0.0932,
-      "y": 0.4746,
-      "w": 0.6576,
-      "h": 0.022,
-      "words": [
-        "this",
-        "word",
-        "mean?",
-        "Each",
-        "of",
-        "MEW"
-      ],
-      "conf": 88.2144,
-      "source": "psm-6"
-    },
-    {
-      "id": "r17",
-      "order": 16,
+      "id": "r4",
+      "order": 3,
       "text": "MEW",
       "x": 0.6754,
       "y": 0.4746,
@@ -532,13 +214,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
-      "text": "these circles as they go out from YOU represents a",
-      "x": 0.0924,
+      "id": "r5",
+      "order": 4,
+      "text": "these circles as they go out from YOU represents a more general idea than all that is within.",
+      "x": 0.0898,
       "y": 0.5035,
-      "w": 0.3797,
-      "h": 0.0471,
+      "w": 0.3823,
+      "h": 0.1023,
       "words": [
         "these",
         "circles",
@@ -549,41 +231,7 @@
         "from",
         "YOU",
         "represents",
-        "a"
-      ],
-      "conf": 96.564,
-      "source": "psm-6"
-    },
-    {
-      "id": "r19",
-      "order": 18,
-      "text": "from YOU represents a more general idea than",
-      "x": 0.0932,
-      "y": 0.5297,
-      "w": 0.3789,
-      "h": 0.0461,
-      "words": [
-        "from",
-        "YOU",
-        "represents",
         "a",
-        "more",
-        "general",
-        "idea",
-        "than"
-      ],
-      "conf": 96.3669,
-      "source": "psm-6"
-    },
-    {
-      "id": "r20",
-      "order": 19,
-      "text": "more general idea than all that is within.",
-      "x": 0.0898,
-      "y": 0.5554,
-      "w": 0.3823,
-      "h": 0.0504,
-      "words": [
         "more",
         "general",
         "idea",
@@ -593,53 +241,12 @@
         "is",
         "within."
       ],
-      "conf": 92.7519,
-      "source": "psm-6"
-    },
-    {
-      "id": "r21",
-      "order": 20,
-      "text": "all that is within.",
-      "x": 0.0932,
-      "y": 0.5811,
-      "w": 0.2364,
-      "h": 0.0171,
-      "words": [
-        "all",
-        "that",
-        "is",
-        "within."
-      ],
-      "conf": 96.7745,
-      "source": "psm-6"
-    },
-    {
-      "id": "r22",
-      "order": 21,
-      "text": "a port of a longer piece of writing which develops an",
-      "x": 0.25,
-      "y": 0.7949,
-      "w": 0.6737,
-      "h": 0.0155,
-      "words": [
-        "a",
-        "port",
-        "of",
-        "a",
-        "longer",
-        "piece",
-        "of",
-        "writing",
-        "which",
-        "develops",
-        "an"
-      ],
-      "conf": 96.1619,
+      "conf": 96.564,
       "source": "psm-11"
     },
     {
-      "id": "r23",
-      "order": 22,
+      "id": "r6",
+      "order": 5,
       "text": "chapter: a part of a book made up of a number of paragraphs under",
       "x": 0.0907,
       "y": 0.8291,
@@ -665,37 +272,48 @@
       "source": "psm-11"
     },
     {
-      "id": "r24",
-      "order": 23,
-      "text": "idea in it,",
-      "x": 0.1483,
+      "id": "r7",
+      "order": 6,
+      "text": "idea in it, a separate heading (or number).",
+      "x": 0.1466,
       "y": 0.8125,
-      "w": 0.1068,
-      "h": 0.0118,
+      "w": 0.3644,
+      "h": 0.0488,
       "words": [
         "idea",
         "in",
-        "it,"
-      ],
-      "conf": 89.67,
-      "source": "psm-11"
-    },
-    {
-      "id": "r25",
-      "order": 24,
-      "text": "a separate heading (or number).",
-      "x": 0.1466,
-      "y": 0.8468,
-      "w": 0.3644,
-      "h": 0.0145,
-      "words": [
+        "it,",
         "a",
         "separate",
         "heading",
         "(or",
         "number)."
       ],
-      "conf": 90.8745,
+      "conf": 89.67,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "a port of a longer piece of writing which develops an",
+      "x": 0.25,
+      "y": 0.7949,
+      "w": 0.6737,
+      "h": 0.0155,
+      "words": [
+        "a",
+        "port",
+        "of",
+        "a",
+        "longer",
+        "piece",
+        "of",
+        "writing",
+        "which",
+        "develops",
+        "an"
+      ],
+      "conf": 96.1619,
       "source": "psm-11"
     }
   ]

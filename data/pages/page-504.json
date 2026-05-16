@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20504.png",
   "layout": "single",
   "stats": {
-    "regionCount": 19,
-    "wordCount": 194,
+    "regionCount": 7,
+    "wordCount": 110,
     "imageWidth": 1188,
     "imageHeight": 1875
   },
@@ -24,19 +24,7 @@
         "r4",
         "r5",
         "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17",
-        "r18",
-        "r19"
+        "r7"
       ]
     }
   ],
@@ -44,23 +32,6 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "In India, Gautama Buddha",
-      "x": 0.5278,
-      "y": 0.1163,
-      "w": 0.4091,
-      "h": 0.0203,
-      "words": [
-        "In",
-        "India,",
-        "Gautama",
-        "Buddha"
-      ],
-      "conf": 96.4437,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
       "text": "In India, Gautama Buddha and the Bhagavad-Gita.",
       "x": 0.5278,
       "y": 0.1163,
@@ -75,57 +46,12 @@
         "the",
         "Bhagavad-Gita."
       ],
-      "conf": 96.6088,
-      "source": "psm-6"
+      "conf": 96.4437,
+      "source": "psm-11"
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "and the Bhagavad-Gita.",
-      "x": 0.5286,
-      "y": 0.1424,
-      "w": 0.3535,
-      "h": 0.0203,
-      "words": [
-        "and",
-        "the",
-        "Bhagavad-Gita."
-      ],
-      "conf": 93.7042,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "CNONE",
-      "x": 0.229,
-      "y": 0.3141,
-      "w": 0.2441,
-      "h": 0.0373,
-      "words": [
-        "CNONE"
-      ],
-      "conf": 53.2078,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "co Yee",
-      "x": 0.6035,
-      "y": 0.3445,
-      "w": 0.2054,
-      "h": 0.0443,
-      "words": [
-        "co",
-        "Yee"
-      ],
-      "conf": 51.3809,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
+      "id": "r2",
+      "order": 1,
       "text": "LAN",
       "x": 0.7626,
       "y": 0.4683,
@@ -138,8 +64,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r3",
+      "order": 2,
       "text": "In China, Confucius and Mencius.",
       "x": 0.1162,
       "y": 0.5019,
@@ -152,26 +78,12 @@
         "and",
         "Mencius."
       ],
-      "conf": 96.698,
-      "source": "psm-6"
+      "conf": 95.585,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "Mencius.",
-      "x": 0.1162,
-      "y": 0.5221,
-      "w": 0.1313,
-      "h": 0.0288,
-      "words": [
-        "Mencius."
-      ],
-      "conf": 92.9303,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
+      "id": "r4",
+      "order": 3,
       "text": "KS",
       "x": 0.6347,
       "y": 0.5136,
@@ -184,13 +96,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "At first through the spoken word and then in writing, men began to make for themselves pictures of Man and",
+      "id": "r5",
+      "order": 4,
+      "text": "At first through the spoken word and then in writing, men began to make for themselves pictures of Man and of what Man should become. More than some know, men If you have read this book up to this point, you can easily read for yourself The Wrath of Achilles (Homer’s Iliad) in simple English, The Republic of Plato in simple Eng- lish (both W. W. Norton, New York) and the Books of Amos, Hosea and Isaiah in The Bible in Basic English",
       "x": 0.117,
       "y": 0.6357,
-      "w": 0.8266,
-      "h": 0.0475,
+      "w": 0.8291,
+      "h": 0.2278,
       "words": [
         "At",
         "first",
@@ -211,29 +123,6 @@
         "pictures",
         "of",
         "Man",
-        "and"
-      ],
-      "conf": 96.5175,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "men began to make for themselves pictures of Man and of what Man should become. More than some know, men",
-      "x": 0.117,
-      "y": 0.6608,
-      "w": 0.8266,
-      "h": 0.0454,
-      "words": [
-        "men",
-        "began",
-        "to",
-        "make",
-        "for",
-        "themselves",
-        "pictures",
-        "of",
-        "Man",
         "and",
         "of",
         "what",
@@ -244,77 +133,7 @@
         "than",
         "some",
         "know,",
-        "men"
-      ],
-      "conf": 96.6251,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "of what Man should become. More than some know, men If you have read this book up to this point, you can easily",
-      "x": 0.1187,
-      "y": 0.6875,
-      "w": 0.8249,
-      "h": 0.0741,
-      "words": [
-        "of",
-        "what",
-        "Man",
-        "should",
-        "become.",
-        "More",
-        "than",
-        "some",
-        "know,",
         "men",
-        "If",
-        "you",
-        "have",
-        "read",
-        "this",
-        "book",
-        "up",
-        "to",
-        "this",
-        "point,",
-        "you",
-        "can",
-        "easily"
-      ],
-      "conf": 96.4858,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "have been living by these pictures ever since.",
-      "x": 0.1162,
-      "y": 0.7141,
-      "w": 0.6347,
-      "h": 0.0219,
-      "words": [
-        "have",
-        "been",
-        "living",
-        "by",
-        "these",
-        "pictures",
-        "ever",
-        "since."
-      ],
-      "conf": 96.712,
-      "source": "psm-11"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "If you have read this book up to this point, you can easily read for yourself The Wrath of Achilles (Homer’s Iliad)",
-      "x": 0.117,
-      "y": 0.7392,
-      "w": 0.8266,
-      "h": 0.048,
-      "words": [
         "If",
         "you",
         "have",
@@ -336,52 +155,7 @@
         "of",
         "Achilles",
         "(Homer’s",
-        "Iliad)"
-      ],
-      "conf": 96.8362,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "read for yourself The Wrath of Achilles (Homer’s Iliad) in simple English, The Republic of Plato in simple Eng-",
-      "x": 0.117,
-      "y": 0.7648,
-      "w": 0.8274,
-      "h": 0.0486,
-      "words": [
-        "read",
-        "for",
-        "yourself",
-        "The",
-        "Wrath",
-        "of",
-        "Achilles",
-        "(Homer’s",
         "Iliad)",
-        "in",
-        "simple",
-        "English,",
-        "The",
-        "Republic",
-        "of",
-        "Plato",
-        "in",
-        "simple",
-        "Eng-"
-      ],
-      "conf": 95.3467,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "in simple English, The Republic of Plato in simple Eng- lish (both W. W. Norton, New York) and the Books of",
-      "x": 0.117,
-      "y": 0.7915,
-      "w": 0.8291,
-      "h": 0.0469,
-      "words": [
         "in",
         "simple",
         "English,",
@@ -402,30 +176,6 @@
         "and",
         "the",
         "Books",
-        "of"
-      ],
-      "conf": 95.8835,
-      "source": "psm-6"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "lish (both W. W. Norton, New York) and the Books of Amos, Hosea and Isaiah in The Bible in Basic English",
-      "x": 0.117,
-      "y": 0.8171,
-      "w": 0.8291,
-      "h": 0.0464,
-      "words": [
-        "lish",
-        "(both",
-        "W.",
-        "W.",
-        "Norton,",
-        "New",
-        "York)",
-        "and",
-        "the",
-        "Books",
         "of",
         "Amos,",
         "Hosea",
@@ -438,35 +188,33 @@
         "Basic",
         "English"
       ],
-      "conf": 95.5464,
-      "source": "psm-6"
+      "conf": 96.4535,
+      "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
-      "text": "Amos, Hosea and Isaiah in The Bible in Basic English",
-      "x": 0.1178,
-      "y": 0.8427,
-      "w": 0.8274,
-      "h": 0.0208,
+      "id": "r6",
+      "order": 5,
+      "text": "have been living by these pictures ever since.",
+      "x": 0.1162,
+      "y": 0.7141,
+      "w": 0.6347,
+      "h": 0.0219,
       "words": [
-        "Amos,",
-        "Hosea",
-        "and",
-        "Isaiah",
-        "in",
-        "The",
-        "Bible",
-        "in",
-        "Basic",
-        "English"
+        "have",
+        "been",
+        "living",
+        "by",
+        "these",
+        "pictures",
+        "ever",
+        "since."
       ],
-      "conf": 96.45,
-      "source": "psm-6"
+      "conf": 96.712,
+      "source": "psm-11"
     },
     {
-      "id": "r19",
-      "order": 18,
+      "id": "r7",
+      "order": 6,
       "text": "(E. P. Dutton, New York).",
       "x": 0.1221,
       "y": 0.8693,

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20492.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 137,
+    "regionCount": 11,
+    "wordCount": 119,
     "imageWidth": 1205,
     "imageHeight": 1875
   },
@@ -19,8 +19,8 @@
       "h": 0.5,
       "regionIds": [
         "r2",
-        "r5",
-        "r6"
+        "r4",
+        "r5"
       ]
     },
     {
@@ -32,8 +32,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3",
-        "r4"
+        "r3"
       ]
     },
     {
@@ -44,9 +43,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r7",
         "r8",
-        "r9",
-        "r13"
+        "r11"
       ]
     },
     {
@@ -57,10 +56,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r10",
-        "r11",
-        "r12"
+        "r6",
+        "r9",
+        "r10"
       ]
     }
   ],
@@ -115,31 +113,6 @@
     {
       "id": "r3",
       "order": 2,
-      "text": "Things have been going on for a longer time than we can",
-      "x": 0.1054,
-      "y": 0.1227,
-      "w": 0.8158,
-      "h": 0.0213,
-      "words": [
-        "Things",
-        "have",
-        "been",
-        "going",
-        "on",
-        "for",
-        "a",
-        "longer",
-        "time",
-        "than",
-        "we",
-        "can"
-      ],
-      "conf": 96.4491,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
       "text": "Things have been going on for a longer time than we can think of and they will go on and on through a longer",
       "x": 0.1054,
       "y": 0.1227,
@@ -172,11 +145,11 @@
         "longer"
       ],
       "conf": 96.4491,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r4",
+      "order": 3,
       "text": "time in the future than we can think of.",
       "x": 0.1046,
       "y": 0.1744,
@@ -197,8 +170,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
+      "id": "r5",
+      "order": 4,
       "text": "om,",
       "x": 0.2697,
       "y": 0.2965,
@@ -211,8 +184,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r6",
+      "order": 5,
       "text": "Seventy years seems a long life-time if compared with the present minute. But if compared with the age of a",
       "x": 0.1095,
       "y": 0.5355,
@@ -241,11 +214,11 @@
         "a"
       ],
       "conf": 96.6005,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r7",
+      "order": 6,
       "text": "stone it seems no time at all.",
       "x": 0.1104,
       "y": 0.5867,
@@ -260,12 +233,12 @@
         "at",
         "all."
       ],
-      "conf": 96.6512,
-      "source": "psm-6"
+      "conf": 95.918,
+      "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r8",
+      "order": 7,
       "text": "There is a Chinese poem which says:",
       "x": 0.1112,
       "y": 0.6389,
@@ -284,27 +257,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "Quickly the years fly past forever,",
-      "x": 0.2531,
-      "y": 0.6779,
-      "w": 0.4963,
-      "h": 0.0224,
-      "words": [
-        "Quickly",
-        "the",
-        "years",
-        "fly",
-        "past",
-        "forever,"
-      ],
-      "conf": 96.6635,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
+      "id": "r9",
+      "order": 8,
       "text": "Quickly the years fly past forever, Here forever is this spring morning.",
       "x": 0.2531,
       "y": 0.6779,
@@ -325,11 +279,11 @@
         "morning."
       ],
       "conf": 96.6635,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
+      "id": "r10",
+      "order": 9,
       "text": "poem: something said for the complete man (his thoughts, feelings,",
       "x": 0.1112,
       "y": 0.832,
@@ -351,9 +305,9 @@
       "source": "psm-11"
     },
     {
-      "id": "r13",
-      "order": 12,
-      "text": "desires, hopes, fears...) in the best possible way.",
+      "id": "r11",
+      "order": 10,
+      "text": "desires, hopes, fears...) in the best poss’ way.",
       "x": 0.166,
       "y": 0.8491,
       "w": 0.5851,
@@ -365,11 +319,11 @@
         "in",
         "the",
         "best",
-        "possible",
+        "poss’",
         "way."
       ],
-      "conf": 95.6097,
-      "source": "psm-6"
+      "conf": 92.2939,
+      "source": "psm-11"
     }
   ]
 }

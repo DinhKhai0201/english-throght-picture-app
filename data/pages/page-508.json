@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20508.png",
   "layout": "single",
   "stats": {
-    "regionCount": 17,
-    "wordCount": 184,
+    "regionCount": 6,
+    "wordCount": 132,
     "imageWidth": 1188,
     "imageHeight": 1875
   },
@@ -23,18 +23,7 @@
         "r3",
         "r4",
         "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17"
+        "r6"
       ]
     }
   ],
@@ -42,31 +31,6 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "Every idea with which we reflect is what it is and can",
-      "x": 0.1052,
-      "y": 0.0357,
-      "w": 0.8157,
-      "h": 0.0208,
-      "words": [
-        "Every",
-        "idea",
-        "with",
-        "which",
-        "we",
-        "reflect",
-        "is",
-        "what",
-        "it",
-        "is",
-        "and",
-        "can"
-      ],
-      "conf": 96.6578,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
       "text": "Every idea with which we reflect is what it is and can do what it can do only because our other organs of",
       "x": 0.1052,
       "y": 0.0357,
@@ -98,11 +62,11 @@
         "of"
       ],
       "conf": 96.6578,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r3",
-      "order": 2,
+      "id": "r2",
+      "order": 1,
       "text": "thought are what they are and do their own work.",
       "x": 0.1044,
       "y": 0.0875,
@@ -124,23 +88,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "=r til",
-      "x": 0.2045,
-      "y": 0.2485,
-      "w": 0.6658,
-      "h": 0.0235,
-      "words": [
-        "=r",
-        "til"
-      ],
-      "conf": 43.3297,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
+      "id": "r3",
+      "order": 2,
       "text": "The parts of this bridge do what they do only because the other parts of it are there and are doing their work.",
       "x": 0.1035,
       "y": 0.3696,
@@ -172,11 +121,11 @@
         "work."
       ],
       "conf": 96.7604,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
+      "id": "r4",
+      "order": 3,
       "text": "And this is equally true of the words in a language. Every word is able to work as it does only because other words",
       "x": 0.1052,
       "y": 0.448,
@@ -209,11 +158,11 @@
         "words"
       ],
       "conf": 96.4461,
-      "source": "psm-6"
+      "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r5",
+      "order": 4,
       "text": "work with it.",
       "x": 0.1035,
       "y": 0.5008,
@@ -224,31 +173,17 @@
         "with",
         "it."
       ],
-      "conf": 96.7242,
-      "source": "psm-6"
+      "conf": 95.896,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "SANS",
-      "x": 0.7205,
-      "y": 0.6325,
-      "w": 0.1759,
-      "h": 0.0293,
-      "words": [
-        "SANS"
-      ],
-      "conf": 42.1738,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "In every step we take, what anyof our muscles can do depends on",
+      "id": "r6",
+      "order": 5,
+      "text": "In every step we take, what any of our muscles can do depends on what our other are doing, and all this is possible only be- cause our nerve cells are in con- trol. And nerve cells can work together well only if the blood is serving them well",
       "x": 0.1019,
       "y": 0.6555,
       "w": 0.5034,
-      "h": 0.0485,
+      "h": 0.2021,
       "words": [
         "In",
         "every",
@@ -256,76 +191,19 @@
         "we",
         "take,",
         "what",
-        "anyof",
-        "our",
-        "muscles",
-        "can",
-        "do",
-        "depends",
-        "on"
-      ],
-      "conf": 93.3653,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "our muscles can do depends on ty what our other are doing,",
-      "x": 0.1019,
-      "y": 0.6757,
-      "w": 0.5799,
-      "h": 0.0544,
-      "words": [
+        "any",
+        "of",
         "our",
         "muscles",
         "can",
         "do",
         "depends",
         "on",
-        "ty",
-        "what",
-        "our",
-        "other",
-        "are",
-        "doing,"
-      ],
-      "conf": 90.6253,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "what our other are doing, and all this is possible only be-",
-      "x": 0.1019,
-      "y": 0.7072,
-      "w": 0.5008,
-      "h": 0.0496,
-      "words": [
         "what",
         "our",
         "other",
         "are",
         "doing,",
-        "and",
-        "all",
-        "this",
-        "is",
-        "possible",
-        "only",
-        "be-"
-      ],
-      "conf": 96.3736,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "and all this is possible only be- cause our nerve cells are in con-",
-      "x": 0.1035,
-      "y": 0.7333,
-      "w": 0.4992,
-      "h": 0.0448,
-      "words": [
         "and",
         "all",
         "this",
@@ -339,81 +217,13 @@
         "cells",
         "are",
         "in",
-        "con-"
-      ],
-      "conf": 95.4693,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "cause our nerve cells are in con- A, A",
-      "x": 0.1035,
-      "y": 0.7515,
-      "w": 0.7315,
-      "h": 0.0379,
-      "words": [
-        "cause",
-        "our",
-        "nerve",
-        "cells",
-        "are",
-        "in",
         "con-",
-        "A,",
-        "A"
-      ],
-      "conf": 82.742,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "trol. And nerve cells can work",
-      "x": 0.1035,
-      "y": 0.7861,
-      "w": 0.4983,
-      "h": 0.0181,
-      "words": [
-        "trol.",
-        "And",
-        "nerve",
-        "cells",
-        "can",
-        "work"
-      ],
-      "conf": 96.0128,
-      "source": "psm-11"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "trol. And nerve cells can work SN",
-      "x": 0.1035,
-      "y": 0.7797,
-      "w": 0.7736,
-      "h": 0.0352,
-      "words": [
         "trol.",
         "And",
         "nerve",
         "cells",
         "can",
         "work",
-        "SN"
-      ],
-      "conf": 91.5889,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "together well only if the blood is serving them well",
-      "x": 0.1019,
-      "y": 0.8117,
-      "w": 0.5008,
-      "h": 0.0459,
-      "words": [
         "together",
         "well",
         "only",
@@ -425,24 +235,8 @@
         "them",
         "well"
       ],
-      "conf": 96.7895,
-      "source": "psm-6"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "serving them well",
-      "x": 0.1019,
-      "y": 0.8373,
-      "w": 0.2643,
-      "h": 0.0203,
-      "words": [
-        "serving",
-        "them",
-        "well"
-      ],
-      "conf": 94.743,
-      "source": "psm-6"
+      "conf": 96.6967,
+      "source": "psm-11"
     }
   ]
 }

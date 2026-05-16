@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20499.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 22,
-    "wordCount": 244,
+    "regionCount": 10,
+    "wordCount": 171,
     "imageWidth": 1221,
     "imageHeight": 1859
   },
@@ -18,14 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r13",
-        "r14",
-        "r15"
+        "r2",
+        "r4"
       ]
     },
     {
@@ -37,12 +31,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r6",
-        "r7",
-        "r12"
+        "r3"
       ]
     },
     {
@@ -53,9 +42,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r18",
-        "r19",
-        "r22"
+        "r6",
+        "r7",
+        "r10"
       ]
     },
     {
@@ -66,10 +55,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r16",
-        "r17",
-        "r20",
-        "r21"
+        "r5",
+        "r8",
+        "r9"
       ]
     }
   ],
@@ -77,11 +65,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "These nerves, which make us able to see, are an out- growth from the brain to the retina. From the eye im-",
+      "text": "These nerves, which make us able to see, are an out- growth from the brain to the retina. From the eye im- pulses travel to the brain through the living cells of the nerves. There are as many as a million separate telephone",
       "x": 0.0983,
       "y": 0.0366,
-      "w": 0.8084,
-      "h": 0.0506,
+      "w": 0.8092,
+      "h": 0.1012,
       "words": [
         "These",
         "nerves,",
@@ -104,79 +92,7 @@
         "From",
         "the",
         "eye",
-        "im-"
-      ],
-      "conf": 95.6817,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "These nerves, which make us able to see, are an out-",
-      "x": 0.104,
-      "y": 0.0366,
-      "w": 0.8018,
-      "h": 0.021,
-      "words": [
-        "These",
-        "nerves,",
-        "which",
-        "make",
-        "us",
-        "able",
-        "to",
-        "see,",
-        "are",
-        "an",
-        "out-"
-      ],
-      "conf": 95.6817,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "growth from the brain to the retina. From the eye im- pulses travel to the brain through the living cells of the",
-      "x": 0.0983,
-      "y": 0.0608,
-      "w": 0.8092,
-      "h": 0.0506,
-      "words": [
-        "growth",
-        "from",
-        "the",
-        "brain",
-        "to",
-        "the",
-        "retina.",
-        "From",
-        "the",
-        "eye",
         "im-",
-        "pulses",
-        "travel",
-        "to",
-        "the",
-        "brain",
-        "through",
-        "the",
-        "living",
-        "cells",
-        "of",
-        "the"
-      ],
-      "conf": 95.7144,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "pulses travel to the brain through the living cells of the nerves. There are as many as a million separate telephone",
-      "x": 0.1007,
-      "y": 0.0893,
-      "w": 0.8068,
-      "h": 0.0485,
-      "words": [
         "pulses",
         "travel",
         "to",
@@ -199,12 +115,12 @@
         "separate",
         "telephone"
       ],
-      "conf": 91.197,
-      "source": "psm-6"
+      "conf": 95.6817,
+      "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r2",
+      "order": 1,
       "text": "lines in these nerves alone.",
       "x": 0.1016,
       "y": 0.142,
@@ -217,45 +133,32 @@
         "nerves",
         "alone."
       ],
-      "conf": 96.7927,
-      "source": "psm-6"
+      "conf": 96.2154,
+      "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "EY",
+      "id": "r3",
+      "order": 2,
+      "text": "EY WY",
       "x": 0.6052,
       "y": 0.2232,
       "w": 0.1376,
-      "h": 0.057,
+      "h": 0.0937,
       "words": [
-        "EY"
+        "EY",
+        "WY"
       ],
       "conf": 36.0201,
       "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "LL",
-      "x": 0.6274,
-      "y": 0.2211,
-      "w": 0.172,
-      "h": 0.021,
-      "words": [
-        "LL"
-      ],
-      "conf": 44.988,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "A train of changes goes up these nerves to the back part",
-      "x": 0.0983,
+      "id": "r4",
+      "order": 3,
+      "text": "A train of changes goes up these nerves to the back part of the brain. The cells there let us see the things that our eyes are looking at. No one, at present, has any idea of how they do this.",
+      "x": 0.0975,
       "y": 0.2448,
-      "w": 0.407,
-      "h": 0.05,
+      "w": 0.4103,
+      "h": 0.1802,
       "words": [
         "A",
         "train",
@@ -268,65 +171,13 @@
         "to",
         "the",
         "back",
-        "part"
-      ],
-      "conf": 96.3313,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "these nerves to the back part of the brain. The cells there",
-      "x": 0.1007,
-      "y": 0.2733,
-      "w": 0.4047,
-      "h": 0.0436,
-      "words": [
-        "these",
-        "nerves",
-        "to",
-        "the",
-        "back",
         "part",
         "of",
         "the",
         "brain.",
         "The",
         "cells",
-        "there"
-      ],
-      "conf": 96.6581,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "of the brain. The cells there NN",
-      "x": 0.1016,
-      "y": 0.2916,
-      "w": 0.6945,
-      "h": 0.0366,
-      "words": [
-        "of",
-        "the",
-        "brain.",
-        "The",
-        "cells",
         "there",
-        "NN"
-      ],
-      "conf": 87.8455,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "let us see the things that our ‘jp ww eyes are looking at. No one,",
-      "x": 0.0975,
-      "y": 0.3206,
-      "w": 0.7551,
-      "h": 0.0522,
-      "words": [
         "let",
         "us",
         "see",
@@ -334,103 +185,34 @@
         "things",
         "that",
         "our",
-        "‘jp",
-        "ww",
-        "eyes",
-        "are",
-        "looking",
-        "at.",
-        "No",
-        "one,"
-      ],
-      "conf": 85.4512,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "WY",
-      "x": 0.6536,
-      "y": 0.3018,
-      "w": 0.05,
-      "h": 0.0151,
-      "words": [
-        "WY"
-      ],
-      "conf": 71.693,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "let us see the things that our",
-      "x": 0.0975,
-      "y": 0.3233,
-      "w": 0.4079,
-      "h": 0.0253,
-      "words": [
-        "let",
-        "us",
-        "see",
-        "the",
-        "things",
-        "that",
-        "our"
-      ],
-      "conf": 96.5592,
-      "source": "psm-11"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "eyes are looking at. No one, Y at present, has any idea of",
-      "x": 0.0999,
-      "y": 0.3475,
-      "w": 0.6314,
-      "h": 0.0517,
-      "words": [
         "eyes",
         "are",
         "looking",
         "at.",
         "No",
         "one,",
-        "Y",
         "at",
         "present,",
         "has",
         "any",
         "idea",
-        "of"
-      ],
-      "conf": 92.5014,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "how they do this.",
-      "x": 0.0999,
-      "y": 0.404,
-      "w": 0.2318,
-      "h": 0.021,
-      "words": [
+        "of",
         "how",
         "they",
         "do",
         "this."
       ],
-      "conf": 96.6839,
+      "conf": 96.3313,
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
-      "text": "The distance from the eye to the back of the brain is not great, but some distances from some parts of the body",
+      "id": "r5",
+      "order": 4,
+      "text": "The distance from the eye to the back of the brain is not great, but some distances from some parts of the body to the brain are long. The which impulses travel",
       "x": 0.0999,
       "y": 0.5073,
       "w": 0.8067,
-      "h": 0.0484,
+      "h": 0.0748,
       "words": [
         "The",
         "distance",
@@ -454,29 +236,6 @@
         "parts",
         "of",
         "the",
-        "body"
-      ],
-      "conf": 96.6893,
-      "source": "psm-6"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "great, but some distances from some parts of the body to the brain are long. The which impulses travel",
-      "x": 0.0999,
-      "y": 0.5336,
-      "w": 0.8067,
-      "h": 0.0485,
-      "words": [
-        "great,",
-        "but",
-        "some",
-        "distances",
-        "from",
-        "some",
-        "parts",
-        "of",
-        "the",
         "body",
         "to",
         "the",
@@ -488,12 +247,12 @@
         "impulses",
         "travel"
       ],
-      "conf": 96.5404,
-      "source": "psm-6"
+      "conf": 96.6893,
+      "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
+      "id": "r6",
+      "order": 5,
       "text": "through the nerves is about the same for all of them.",
       "x": 0.0991,
       "y": 0.5863,
@@ -516,8 +275,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r19",
-      "order": 18,
+      "id": "r7",
+      "order": 6,
       "text": "impulse: wave of change which goes through a nerve.",
       "x": 0.0999,
       "y": 0.8037,
@@ -538,8 +297,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r20",
-      "order": 19,
+      "id": "r8",
+      "order": 7,
       "text": "the bedy to another; the impulses themselves. (See page tine",
       "x": 0.1523,
       "y": 0.8386,
@@ -561,8 +320,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r21",
-      "order": 20,
+      "id": "r9",
+      "order": 8,
       "text": "chain of cells through which impulses travel from one part of",
       "x": 0.1925,
       "y": 0.8209,
@@ -585,9 +344,9 @@
       "source": "psm-11"
     },
     {
-      "id": "r22",
-      "order": 21,
-      "text": "is men’s nerves that get tired todey.)",
+      "id": "r10",
+      "order": 9,
+      "text": "is men’s nerves that get tired today.)",
       "x": 0.1761,
       "y": 0.8548,
       "w": 0.3948,
@@ -599,10 +358,10 @@
         "that",
         "get",
         "tired",
-        "todey.)"
+        "today.)"
       ],
-      "conf": 88.9387,
-      "source": "psm-6"
+      "conf": 81.6607,
+      "source": "psm-11"
     }
   ]
 }

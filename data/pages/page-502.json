@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20502.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 23,
-    "wordCount": 253,
+    "regionCount": 13,
+    "wordCount": 156,
     "imageWidth": 1188,
     "imageHeight": 1842
   },
@@ -20,7 +20,7 @@
       "regionIds": [
         "r1",
         "r5",
-        "r7"
+        "r6"
       ]
     },
     {
@@ -33,8 +33,7 @@
       "regionIds": [
         "r2",
         "r3",
-        "r4",
-        "r6"
+        "r4"
       ]
     },
     {
@@ -45,10 +44,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r17",
-        "r18",
-        "r19",
-        "r20"
+        "r8",
+        "r9",
+        "r10",
+        "r11"
       ]
     },
     {
@@ -59,18 +58,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r9",
-        "r10",
-        "r11",
+        "r7",
         "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r21",
-        "r22",
-        "r23"
+        "r13"
       ]
     }
   ],
@@ -123,16 +113,14 @@
     {
       "id": "r3",
       "order": 2,
-      "text": "y, TT PAST PRESENT",
-      "x": 0.1843,
+      "text": "y, TT",
+      "x": 0.4815,
       "y": 0.2541,
-      "w": 0.7315,
-      "h": 0.1504,
+      "w": 0.3435,
+      "h": 0.127,
       "words": [
         "y,",
-        "TT",
-        "PAST",
-        "PRESENT"
+        "TT"
       ],
       "conf": 48.0748,
       "source": "psm-11"
@@ -178,29 +166,6 @@
     {
       "id": "r6",
       "order": 5,
-      "text": "Then this curve may represent the next great steps for-",
-      "x": 0.117,
-      "y": 0.4327,
-      "w": 0.8215,
-      "h": 0.0217,
-      "words": [
-        "Then",
-        "this",
-        "curve",
-        "may",
-        "represent",
-        "the",
-        "next",
-        "great",
-        "steps",
-        "for-"
-      ],
-      "conf": 95.7676,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
       "text": "ward into more complex ways of living.",
       "x": 0.1178,
       "y": 0.4587,
@@ -219,35 +184,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "No one knows when speech began. Probably speech de-",
-      "x": 0.117,
+      "id": "r7",
+      "order": 6,
+      "text": "No one knows when speech began. Probably speech de- veloped slowly and in different ways and at different times with different sorts of men. But certainly it was through being able to speak to one another that men be- came human. With the growth of language a great devel- opment of the parts of the brain which are used in talking took place. Speech gave Man greater and greater control over the world, over other men and over himself. With- out language, Man would not have become what we",
+      "x": 0.1153,
       "y": 0.4989,
-      "w": 0.8215,
-      "h": 0.0347,
-      "words": [
-        "No",
-        "one",
-        "knows",
-        "when",
-        "speech",
-        "began.",
-        "Probably",
-        "speech",
-        "de-"
-      ],
-      "conf": 95.7894,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "No one knows when speech began. Probably speech de- veloped slowly and in different ways and at different",
-      "x": 0.117,
-      "y": 0.5109,
-      "w": 0.8215,
-      "h": 0.0494,
+      "w": 0.8233,
+      "h": 0.2448,
       "words": [
         "No",
         "one",
@@ -266,52 +209,7 @@
         "ways",
         "and",
         "at",
-        "different"
-      ],
-      "conf": 95.35,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "veloped slowly and in different ways and at different times with different sorts of men. But certainly it was",
-      "x": 0.117,
-      "y": 0.538,
-      "w": 0.8215,
-      "h": 0.0484,
-      "words": [
-        "veloped",
-        "slowly",
-        "and",
-        "in",
         "different",
-        "ways",
-        "and",
-        "at",
-        "different",
-        "times",
-        "with",
-        "different",
-        "sorts",
-        "of",
-        "men.",
-        "But",
-        "certainly",
-        "it",
-        "was"
-      ],
-      "conf": 96.5168,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "times with different sorts of men. But certainly it was through being able to speak to one another that men be-",
-      "x": 0.1162,
-      "y": 0.5641,
-      "w": 0.8224,
-      "h": 0.0494,
-      "words": [
         "times",
         "with",
         "different",
@@ -332,54 +230,7 @@
         "another",
         "that",
         "men",
-        "be-"
-      ],
-      "conf": 96.6936,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "through being able to speak to one another that men be- came human. With the growth of language a great devel-",
-      "x": 0.1162,
-      "y": 0.5912,
-      "w": 0.8224,
-      "h": 0.0478,
-      "words": [
-        "through",
-        "being",
-        "able",
-        "to",
-        "speak",
-        "to",
-        "one",
-        "another",
-        "that",
-        "men",
         "be-",
-        "came",
-        "human.",
-        "With",
-        "the",
-        "growth",
-        "of",
-        "language",
-        "a",
-        "great",
-        "devel-"
-      ],
-      "conf": 95.8854,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "came human. With the growth of language a great devel- opment of the parts of the brain which are used in talking",
-      "x": 0.1162,
-      "y": 0.6173,
-      "w": 0.8215,
-      "h": 0.0483,
-      "words": [
         "came",
         "human.",
         "With",
@@ -401,31 +252,6 @@
         "are",
         "used",
         "in",
-        "talking"
-      ],
-      "conf": 95.5894,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "opment of the parts of the brain which are used in talking took place. Speech gave Man greater and greater control",
-      "x": 0.1162,
-      "y": 0.6433,
-      "w": 0.8215,
-      "h": 0.0489,
-      "words": [
-        "opment",
-        "of",
-        "the",
-        "parts",
-        "of",
-        "the",
-        "brain",
-        "which",
-        "are",
-        "used",
-        "in",
         "talking",
         "took",
         "place.",
@@ -435,52 +261,7 @@
         "greater",
         "and",
         "greater",
-        "control"
-      ],
-      "conf": 96.7512,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "took place. Speech gave Man greater and greater control over the world, over other men and over himself. With-",
-      "x": 0.1153,
-      "y": 0.6699,
-      "w": 0.8224,
-      "h": 0.0462,
-      "words": [
-        "took",
-        "place.",
-        "Speech",
-        "gave",
-        "Man",
-        "greater",
-        "and",
-        "greater",
         "control",
-        "over",
-        "the",
-        "world,",
-        "over",
-        "other",
-        "men",
-        "and",
-        "over",
-        "himself.",
-        "With-"
-      ],
-      "conf": 96.4804,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "over the world, over other men and over himself. With- out language, Man would not have become what we",
-      "x": 0.1153,
-      "y": 0.696,
-      "w": 0.8224,
-      "h": 0.0477,
-      "words": [
         "over",
         "the",
         "world,",
@@ -501,12 +282,12 @@
         "what",
         "we"
       ],
-      "conf": 95.5376,
-      "source": "psm-6"
+      "conf": 95.7894,
+      "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
+      "id": "r8",
+      "order": 7,
       "text": "mean by the word human.",
       "x": 0.1136,
       "y": 0.7486,
@@ -523,8 +304,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
+      "id": "r9",
+      "order": 8,
       "text": "human: a man, different from animals, as man should be.",
       "x": 0.1145,
       "y": 0.8317,
@@ -546,8 +327,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r19",
-      "order": 18,
+      "id": "r10",
+      "order": 9,
       "text": "speech: talking, word language of the voice.",
       "x": 0.117,
       "y": 0.8143,
@@ -566,8 +347,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r20",
-      "order": 19,
+      "id": "r11",
+      "order": 10,
       "text": "will speak",
       "x": 0.1153,
       "y": 0.8626,
@@ -581,26 +362,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r21",
-      "order": 20,
-      "text": "will speak speak(s) spoke, spoken",
-      "x": 0.1153,
-      "y": 0.8594,
-      "w": 0.819,
-      "h": 0.0223,
-      "words": [
-        "will",
-        "speak",
-        "speak(s)",
-        "spoke,",
-        "spoken"
-      ],
-      "conf": 94.7375,
-      "source": "psm-6"
-    },
-    {
-      "id": "r22",
-      "order": 21,
+      "id": "r12",
+      "order": 11,
       "text": "speak(s)",
       "x": 0.4655,
       "y": 0.8626,
@@ -613,8 +376,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r23",
-      "order": 22,
+      "id": "r13",
+      "order": 12,
       "text": "spoke, spoken",
       "x": 0.7567,
       "y": 0.8632,

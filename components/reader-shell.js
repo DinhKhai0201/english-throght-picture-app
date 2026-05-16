@@ -4,8 +4,8 @@ import { useEffect, useMemo, useRef, useState } from "react";
 
 const LAST_PAGE_KEY = "english-through-pictures:last-page";
 const SETTINGS_KEY = "english-through-pictures:settings";
-const BATCH_SIZE = 12;
-const BUFFER_SIZE = 4;
+const CHUNK_SIZE = 50;
+const CHUNK_EDGE_BUFFER = 5;
 const defaultStatus = "Idle";
 const LONG_PRESS_MS = 420;
 
@@ -15,10 +15,12 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
     0,
     manifestPages.findIndex((entry) => entry.page === initialPageNumber),
   );
+  const initialChunkIndex = chunkIndexFromPageIndex(initialIndex);
 
   const [pageDataMap, setPageDataMap] = useState(() => new Map([[initialPage.page, initialPage]]));
-  const [visibleRange, setVisibleRange] = useState(() => rangeAround(initialIndex, manifestPages.length));
   const [currentPageNumber, setCurrentPageNumber] = useState(initialPage.page);
+  const [currentChunkIndex, setCurrentChunkIndex] = useState(initialChunkIndex);
+  const [mountedChunkIndexes, setMountedChunkIndexes] = useState([initialChunkIndex]);
   const [selectedRegion, setSelectedRegion] = useState(null);
   const [status, setStatus] = useState(defaultStatus);
   const [showBoxes, setShowBoxes] = useState(true);
@@ -40,9 +42,10 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const longPressTimerRef = useRef(null);
   const longPressTriggeredRef = useRef(false);
 
+  const totalChunks = Math.ceil(manifestPages.length / CHUNK_SIZE);
   const visibleEntries = useMemo(
-    () => manifestPages.slice(visibleRange.start, visibleRange.end + 1),
-    [manifestPages, visibleRange],
+    () => mountedChunkIndexes.flatMap((chunkIndex) => getChunkEntries(manifestPages, chunkIndex)),
+    [manifestPages, mountedChunkIndexes],
   );
 
   useEffect(() => {
@@ -68,10 +71,12 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
         setSavedPageNumber(savedPage);
         const savedIndex = manifestPages.findIndex((entry) => entry.page === savedPage);
         if (savedIndex >= 0) {
+          const savedChunkIndex = chunkIndexFromPageIndex(savedIndex);
           bootstrappedFromStorageRef.current = true;
           hydratedTargetRef.current = savedPage;
           setCurrentPageNumber(savedPage);
-          setVisibleRange(rangeAround(savedIndex, manifestPages.length));
+          setCurrentChunkIndex(savedChunkIndex);
+          setMountedChunkIndexes([savedChunkIndex]);
         }
       }
     }
@@ -137,8 +142,14 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
       }),
     )
       .then((pages) => {
+        const allowedPages = new Set(visibleEntries.map((entry) => entry.page));
         setPageDataMap((current) => {
-          const next = new Map(current);
+          const next = new Map();
+          for (const [pageNumber, page] of current.entries()) {
+            if (allowedPages.has(pageNumber)) {
+              next.set(pageNumber, page);
+            }
+          }
           pages.forEach((page) => next.set(page.page, page));
           return next;
         });
@@ -188,9 +199,17 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
 
     const currentIndex = manifestPages.findIndex((entry) => entry.page === currentPageNumber);
     if (currentIndex >= 0) {
-      setVisibleRange((range) => expandRangeForIndex(range, currentIndex, manifestPages.length));
+      const nextChunkIndex = chunkIndexFromPageIndex(currentIndex);
+      if (nextChunkIndex !== currentChunkIndex) {
+        setCurrentChunkIndex(nextChunkIndex);
+      }
+
+      setMountedChunkIndexes((current) => {
+        const next = computeMountedChunkIndexes(nextChunkIndex, currentIndex, manifestPages.length);
+        return arraysEqual(current, next) ? current : next;
+      });
     }
-  }, [currentPageNumber, hydrated, manifestPages]);
+  }, [currentChunkIndex, currentPageNumber, hydrated, manifestPages]);
 
   useEffect(() => {
     const targetPage = hydratedTargetRef.current;
@@ -203,13 +222,16 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
       bootstrappedFromStorageRef.current = false;
       hydratedTargetRef.current = null;
     });
-  }, [pageDataMap, visibleRange]);
+  }, [pageDataMap, mountedChunkIndexes]);
 
   const currentPage = pageDataMap.get(currentPageNumber) || initialPage;
   const currentIndex = Math.max(
     0,
     manifestPages.findIndex((entry) => entry.page === currentPageNumber),
   );
+  const currentChunkEntries = getChunkEntries(manifestPages, currentChunkIndex);
+  const currentChunkStartPage = currentChunkEntries[0]?.page;
+  const currentChunkEndPage = currentChunkEntries.at(-1)?.page;
   const selectedRegionText = resolveSelectedRegionText(selectedRegion, pageDataMap);
 
   function chooseVoice() {
@@ -349,9 +371,24 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   function jumpToPage(pageNumber) {
     const targetIndex = manifestPages.findIndex((entry) => entry.page === pageNumber);
     if (targetIndex < 0) return;
+    const targetChunkIndex = chunkIndexFromPageIndex(targetIndex);
     hydratedTargetRef.current = pageNumber;
     setCurrentPageNumber(pageNumber);
-    setVisibleRange(rangeAround(targetIndex, manifestPages.length));
+    setCurrentChunkIndex(targetChunkIndex);
+    setMountedChunkIndexes([targetChunkIndex]);
+    setPronunciationCard(null);
+  }
+
+  function goToChunk(chunkIndex) {
+    const clamped = Math.max(0, Math.min(totalChunks - 1, chunkIndex));
+    const chunkEntries = getChunkEntries(manifestPages, clamped);
+    const targetPage = chunkEntries[0]?.page;
+    if (!targetPage) return;
+    hydratedTargetRef.current = targetPage;
+    setCurrentChunkIndex(clamped);
+    setMountedChunkIndexes([clamped]);
+    setCurrentPageNumber(targetPage);
+    setPronunciationCard(null);
   }
 
   function rememberPageNode(pageNumber, node) {
@@ -381,8 +418,28 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
       <div className="meta-strip">
         <span>Current page <strong>{currentPageNumber}</strong></span>
         <span>{manifest.totalPages || manifest.pages.length} pages</span>
+        <span>Chunk <strong>{currentChunkIndex + 1}</strong> / {totalChunks}</span>
+        <span>{currentChunkStartPage} - {currentChunkEndPage}</span>
         <span>{currentPage.layout} layout</span>
         <span>{currentPage.stats.regionCount} regions</span>
+      </div>
+
+      <div className="chunk-toolbar">
+        <button type="button" className="ghost-button" onClick={() => goToChunk(currentChunkIndex - 1)} disabled={currentChunkIndex === 0}>
+          Previous Chunk
+        </button>
+        <div className="chunk-summary">
+          <strong>Chunk {currentChunkIndex + 1}</strong>
+          <span>Pages {currentChunkStartPage} - {currentChunkEndPage}</span>
+        </div>
+        <button
+          type="button"
+          className="ghost-button"
+          onClick={() => goToChunk(currentChunkIndex + 1)}
+          disabled={currentChunkIndex >= totalChunks - 1}
+        >
+          Next Chunk
+        </button>
       </div>
 
       <main className="continuous-reader">
@@ -552,6 +609,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
             <h3>Resume</h3>
             <p>Last opened page: <strong>{savedPageNumber}</strong></p>
             <p>Current page: <strong>{currentPageNumber}</strong></p>
+            <p>Current chunk: <strong>{currentChunkIndex + 1}</strong> / {totalChunks}</p>
           </div>
 
           <div className="details">
@@ -562,7 +620,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
           <div className="details">
             <h3>Quick Jump</h3>
             <div className="jump-grid">
-              {buildJumpPages(manifestPages, currentIndex).map((entry) => (
+              {buildJumpPages(manifestPages, currentIndex, currentChunkEntries).map((entry) => (
                 <button key={entry.page} type="button" className="ghost-button" onClick={() => jumpToPage(entry.page)}>
                   {entry.page}
                 </button>
@@ -575,36 +633,17 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   );
 }
 
-function rangeAround(index, total) {
-  const start = Math.max(0, index - BUFFER_SIZE);
-  const end = Math.min(total - 1, start + BATCH_SIZE - 1);
-  return {
-    start: Math.max(0, Math.min(start, end - BATCH_SIZE + 1)),
-    end,
-  };
-}
-
-function expandRangeForIndex(range, index, total) {
-  let nextStart = range.start;
-  let nextEnd = range.end;
-
-  if (index >= range.end - 2 && range.end < total - 1) {
-    nextEnd = Math.min(total - 1, range.end + BATCH_SIZE);
-  }
-
-  if (index <= range.start + 2 && range.start > 0) {
-    nextStart = Math.max(0, range.start - BATCH_SIZE);
-  }
-
-  if (nextStart === range.start && nextEnd === range.end) {
-    return range;
-  }
-
-  return { start: nextStart, end: nextEnd };
-}
-
-function buildJumpPages(entries, currentIndex) {
-  const indexes = new Set([0, currentIndex - 10, currentIndex - 5, currentIndex, currentIndex + 5, currentIndex + 10, entries.length - 1]);
+function buildJumpPages(entries, currentIndex, currentChunkEntries) {
+  const indexes = new Set([
+    0,
+    currentIndex - 10,
+    currentIndex - 5,
+    currentIndex,
+    currentIndex + 5,
+    currentIndex + 10,
+    entries.length - 1,
+    ...currentChunkEntries.map((entry) => entries.findIndex((item) => item.page === entry.page)).filter((index) => index >= 0),
+  ]);
   return [...indexes]
     .filter((index) => index >= 0 && index < entries.length)
     .sort((a, b) => a - b)
@@ -625,4 +664,34 @@ function chooseBestDefaultVoice(voices) {
     voices[0] ||
     null
   );
+}
+
+function chunkIndexFromPageIndex(index) {
+  return Math.floor(index / CHUNK_SIZE);
+}
+
+function getChunkEntries(entries, chunkIndex) {
+  const start = chunkIndex * CHUNK_SIZE;
+  return entries.slice(start, start + CHUNK_SIZE);
+}
+
+function computeMountedChunkIndexes(chunkIndex, pageIndex, totalPages) {
+  const indexes = [chunkIndex];
+  const positionInChunk = pageIndex % CHUNK_SIZE;
+  const totalChunks = Math.ceil(totalPages / CHUNK_SIZE);
+
+  if (positionInChunk <= CHUNK_EDGE_BUFFER && chunkIndex > 0) {
+    indexes.unshift(chunkIndex - 1);
+  }
+
+  if (positionInChunk >= CHUNK_SIZE - CHUNK_EDGE_BUFFER - 1 && chunkIndex < totalChunks - 1) {
+    indexes.push(chunkIndex + 1);
+  }
+
+  return [...new Set(indexes)];
+}
+
+function arraysEqual(a, b) {
+  if (a.length !== b.length) return false;
+  return a.every((value, index) => value === b[index]);
 }

@@ -2,75 +2,28 @@
   "page": 493,
   "image": "/books/page 493.png",
   "imageApiPath": "/api/books/page%20493.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 23,
-    "wordCount": 190,
+    "regionCount": 6,
+    "wordCount": 105,
     "imageWidth": 1234,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
         "r2",
         "r3",
         "r4",
         "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r12",
-        "r13",
-        "r14",
-        "r15"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r21",
-        "r22",
-        "r23"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r16",
-        "r17",
-        "r18",
-        "r19",
-        "r20"
+        "r6"
       ]
     }
   ],
@@ -78,31 +31,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "We have to think of Time and",
-      "x": 0.124,
+      "text": "We have to think of Time and Space together: here and now, there and then. We cannot see with our eyes how far off in Time and Space the stars are, but astronomers can measure their distances. Their unit of measure is the light-year—the distance light travels through Space in a year.",
+      "x": 0.1224,
       "y": 0.0354,
-      "w": 0.4408,
-      "h": 0.0161,
-      "words": [
-        "We",
-        "have",
-        "to",
-        "think",
-        "of",
-        "Time",
-        "and"
-      ],
-      "conf": 96.5965,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "We have to think of Time and Space together: here and now,",
-      "x": 0.124,
-      "y": 0.0348,
-      "w": 0.4408,
-      "h": 0.0472,
+      "w": 0.4424,
+      "h": 0.2544,
       "words": [
         "We",
         "have",
@@ -111,48 +44,11 @@
         "of",
         "Time",
         "and",
-        "Space",
-        "together:",
-        "here",
-        "and",
-        "now,"
-      ],
-      "conf": 96.4883,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "Space together: here and now, there and then. We cannot see",
-      "x": 0.1248,
-      "y": 0.0611,
-      "w": 0.44,
-      "h": 0.0423,
-      "words": [
         "Space",
         "together:",
         "here",
         "and",
         "now,",
-        "there",
-        "and",
-        "then.",
-        "We",
-        "cannot",
-        "see"
-      ],
-      "conf": 96.5386,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "there and then. We cannot see with our eyes how far off in",
-      "x": 0.1248,
-      "y": 0.0873,
-      "w": 0.44,
-      "h": 0.0466,
-      "words": [
         "there",
         "and",
         "then.",
@@ -165,46 +61,7 @@
         "how",
         "far",
         "off",
-        "in"
-      ],
-      "conf": 96.5693,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "with our eyes how far off in Time and Space the stars are,",
-      "x": 0.1232,
-      "y": 0.1125,
-      "w": 0.4408,
-      "h": 0.0477,
-      "words": [
-        "with",
-        "our",
-        "eyes",
-        "how",
-        "far",
-        "off",
         "in",
-        "Time",
-        "and",
-        "Space",
-        "the",
-        "stars",
-        "are,"
-      ],
-      "conf": 96.2118,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "Time and Space the stars are, but astronomers can measure",
-      "x": 0.1232,
-      "y": 0.1393,
-      "w": 0.44,
-      "h": 0.0423,
-      "words": [
         "Time",
         "and",
         "Space",
@@ -214,42 +71,7 @@
         "but",
         "astronomers",
         "can",
-        "measure"
-      ],
-      "conf": 96.5037,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "but astronomers can measure their distances. Their unit of",
-      "x": 0.124,
-      "y": 0.165,
-      "w": 0.44,
-      "h": 0.0428,
-      "words": [
-        "but",
-        "astronomers",
-        "can",
         "measure",
-        "their",
-        "distances.",
-        "Their",
-        "unit",
-        "of"
-      ],
-      "conf": 96.1439,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "their distances. Their unit of measure is the light-year—the",
-      "x": 0.1248,
-      "y": 0.1907,
-      "w": 0.44,
-      "h": 0.0466,
-      "words": [
         "their",
         "distances.",
         "Their",
@@ -258,41 +80,7 @@
         "measure",
         "is",
         "the",
-        "light-year—the"
-      ],
-      "conf": 96.4366,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "measure is the light-year—the distance light travels through",
-      "x": 0.1256,
-      "y": 0.2164,
-      "w": 0.4392,
-      "h": 0.0471,
-      "words": [
-        "measure",
-        "is",
-        "the",
         "light-year—the",
-        "distance",
-        "light",
-        "travels",
-        "through"
-      ],
-      "conf": 92.8921,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "distance light travels through Space in a year.",
-      "x": 0.1224,
-      "y": 0.2426,
-      "w": 0.4416,
-      "h": 0.0472,
-      "words": [
         "distance",
         "light",
         "travels",
@@ -302,34 +90,17 @@
         "a",
         "year."
       ],
-      "conf": 96.3606,
-      "source": "psm-6"
+      "conf": 96.5965,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "Space in a year.",
-      "x": 0.1224,
-      "y": 0.2694,
-      "w": 0.2188,
-      "h": 0.0204,
-      "words": [
-        "Space",
-        "in",
-        "a",
-        "year."
-      ],
-      "conf": 90.8494,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "The greatest telescopes of today let us look two bil-",
-      "x": 0.5592,
+      "id": "r2",
+      "order": 1,
+      "text": "The greatest telescopes of today let us look two bil- lion light-years out into Space. The stars we see there are two billion light-",
+      "x": 0.5567,
       "y": 0.3717,
-      "w": 0.3606,
-      "h": 0.0466,
+      "w": 0.3631,
+      "h": 0.1243,
       "words": [
         "The",
         "greatest",
@@ -340,65 +111,11 @@
         "us",
         "look",
         "two",
-        "bil-"
-      ],
-      "conf": 96.369,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "today let us look two bil- lion light-years out into",
-      "x": 0.5592,
-      "y": 0.3974,
-      "w": 0.3606,
-      "h": 0.0472,
-      "words": [
-        "today",
-        "let",
-        "us",
-        "look",
-        "two",
         "bil-",
         "lion",
         "light-years",
         "out",
-        "into"
-      ],
-      "conf": 94.5361,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "lion light-years out into Space. The stars we see",
-      "x": 0.5592,
-      "y": 0.4237,
-      "w": 0.3606,
-      "h": 0.0471,
-      "words": [
-        "lion",
-        "light-years",
-        "out",
         "into",
-        "Space.",
-        "The",
-        "stars",
-        "we",
-        "see"
-      ],
-      "conf": 96.2715,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "Space. The stars we see there are two billion light-",
-      "x": 0.5567,
-      "y": 0.4499,
-      "w": 0.3615,
-      "h": 0.0461,
-      "words": [
         "Space.",
         "The",
         "stars",
@@ -410,35 +127,17 @@
         "billion",
         "light-"
       ],
-      "conf": 96.4265,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "years away. We see them",
-      "x": 0.56,
-      "y": 0.5019,
-      "w": 0.3566,
-      "h": 0.0204,
-      "words": [
-        "years",
-        "away.",
-        "We",
-        "see",
-        "them"
-      ],
-      "conf": 96.3964,
+      "conf": 96.369,
       "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
-      "text": "years away. We see them as they were two billion",
-      "x": 0.56,
+      "id": "r3",
+      "order": 2,
+      "text": "years away. We see them as they were two billion years ago. We are looking into the past",
+      "x": 0.5583,
       "y": 0.5019,
-      "w": 0.3582,
-      "h": 0.0455,
+      "w": 0.3599,
+      "h": 0.098,
       "words": [
         "years",
         "away.",
@@ -449,43 +148,7 @@
         "they",
         "were",
         "two",
-        "billion"
-      ],
-      "conf": 96.6201,
-      "source": "psm-6"
-    },
-    {
-      "id": "r18",
-      "order": 17,
-      "text": "as they were two billion years ago. We are looking",
-      "x": 0.5592,
-      "y": 0.5265,
-      "w": 0.359,
-      "h": 0.0472,
-      "words": [
-        "as",
-        "they",
-        "were",
-        "two",
         "billion",
-        "years",
-        "ago.",
-        "We",
-        "are",
-        "looking"
-      ],
-      "conf": 96.6947,
-      "source": "psm-6"
-    },
-    {
-      "id": "r19",
-      "order": 18,
-      "text": "years ago. We are looking into the past",
-      "x": 0.5583,
-      "y": 0.5528,
-      "w": 0.3599,
-      "h": 0.0471,
-      "words": [
         "years",
         "ago.",
         "We",
@@ -495,28 +158,12 @@
         "the",
         "past"
       ],
-      "conf": 96.4511,
-      "source": "psm-6"
+      "conf": 96.3964,
+      "source": "psm-11"
     },
     {
-      "id": "r20",
-      "order": 19,
-      "text": "into the past.",
-      "x": 0.5583,
-      "y": 0.5785,
-      "w": 0.1848,
-      "h": 0.0214,
-      "words": [
-        "into",
-        "the",
-        "past."
-      ],
-      "conf": 90.2555,
-      "source": "psm-6"
-    },
-    {
-      "id": "r21",
-      "order": 20,
+      "id": "r4",
+      "order": 3,
       "text": "ima:",
       "x": 0.3971,
       "y": 0.7151,
@@ -529,8 +176,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r22",
-      "order": 21,
+      "id": "r5",
+      "order": 4,
       "text": "astronomer: scientist working in astronomy.",
       "x": 0.1288,
       "y": 0.8243,
@@ -547,8 +194,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r23",
-      "order": 22,
+      "id": "r6",
+      "order": 5,
       "text": "astronomy: science of the stars,",
       "x": 0.1288,
       "y": 0.842,

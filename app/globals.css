@@ -99,6 +99,22 @@ button {
   backdrop-filter: blur(10px);
 }
 
+.chunk-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin: 0 auto 20px;
+  max-width: 1100px;
+}
+
+.chunk-summary {
+  display: grid;
+  gap: 4px;
+  justify-items: center;
+  color: var(--muted);
+}
+
 .continuous-reader {
   display: grid;
   gap: 28px;
@@ -361,7 +377,8 @@ button:disabled {
   }
 
   .topbar,
-  .page-section-head {
+  .page-section-head,
+  .chunk-toolbar {
     align-items: flex-start;
     flex-direction: column;
   }

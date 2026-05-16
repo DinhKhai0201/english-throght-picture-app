@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20487.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 23,
-    "wordCount": 254,
+    "regionCount": 12,
+    "wordCount": 154,
     "imageWidth": 1234,
     "imageHeight": 1859
   },
@@ -19,8 +19,8 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r7",
-        "r14"
+        "r3",
+        "r5"
       ]
     },
     {
@@ -32,17 +32,8 @@
       "h": 0.5,
       "regionIds": [
         "r2",
-        "r3",
         "r4",
-        "r5",
-        "r6",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r15"
+        "r6"
       ]
     },
     {
@@ -53,10 +44,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r16",
-        "r19",
-        "r21",
-        "r22"
+        "r7",
+        "r10",
+        "r11"
       ]
     },
     {
@@ -67,10 +57,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r17",
-        "r18",
-        "r20",
-        "r23"
+        "r8",
+        "r9",
+        "r12"
       ]
     }
   ],
@@ -99,11 +88,11 @@
     {
       "id": "r2",
       "order": 1,
-      "text": "but we have to control them consciously too. We have to be their judges and police, when necessary. But",
-      "x": 0.1094,
+      "text": "but we have to control them consciously too. We have to be their judges and police, when necessary. But in a well governed country there is little work for police and judges. A good education develops the power of a person to govern himself in more and more complex",
+      "x": 0.1086,
       "y": 0.0646,
-      "w": 0.7974,
-      "h": 0.0479,
+      "w": 0.7982,
+      "h": 0.1258,
       "words": [
         "but",
         "we",
@@ -114,51 +103,6 @@
         "consciously",
         "too.",
         "We",
-        "have",
-        "to",
-        "be",
-        "their",
-        "judges",
-        "and",
-        "police,",
-        "when",
-        "necessary.",
-        "But"
-      ],
-      "conf": 95.6074,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "but we have to control them consciously too. We",
-      "x": 0.1953,
-      "y": 0.0646,
-      "w": 0.7115,
-      "h": 0.0204,
-      "words": [
-        "but",
-        "we",
-        "have",
-        "to",
-        "control",
-        "them",
-        "consciously",
-        "too.",
-        "We"
-      ],
-      "conf": 96.0992,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "have to be their judges and police, when necessary. But in a well governed country there is little work for police",
-      "x": 0.1094,
-      "y": 0.0904,
-      "w": 0.7974,
-      "h": 0.0479,
-      "words": [
         "have",
         "to",
         "be",
@@ -179,54 +123,7 @@
         "little",
         "work",
         "for",
-        "police"
-      ],
-      "conf": 96.671,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "in a well governed country there is little work for police and judges. A good education develops the power of a",
-      "x": 0.1086,
-      "y": 0.1162,
-      "w": 0.7982,
-      "h": 0.0478,
-      "words": [
-        "in",
-        "a",
-        "well",
-        "governed",
-        "country",
-        "there",
-        "is",
-        "little",
-        "work",
-        "for",
         "police",
-        "and",
-        "judges.",
-        "A",
-        "good",
-        "education",
-        "develops",
-        "the",
-        "power",
-        "of",
-        "a"
-      ],
-      "conf": 96.265,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "and judges. A good education develops the power of a person to govern himself in more and more complex",
-      "x": 0.1086,
-      "y": 0.1425,
-      "w": 0.7982,
-      "h": 0.0479,
-      "words": [
         "and",
         "judges.",
         "A",
@@ -247,12 +144,12 @@
         "more",
         "complex"
       ],
-      "conf": 96.3005,
-      "source": "psm-6"
+      "conf": 96.0992,
+      "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r3",
+      "order": 2,
       "text": "ways.",
       "x": 0.107,
       "y": 0.2001,
@@ -265,35 +162,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "As population increases and as men become more re-",
-      "x": 0.1078,
+      "id": "r4",
+      "order": 3,
+      "text": "As population increases and as men become more re- sponsible for meeting people’s needs on a larger and larger scale, machines become more important. As the facts become more complex, machines are being used more and more to do all sorts of measuring, counting",
+      "x": 0.1045,
       "y": 0.248,
-      "w": 0.799,
-      "h": 0.0215,
-      "words": [
-        "As",
-        "population",
-        "increases",
-        "and",
-        "as",
-        "men",
-        "become",
-        "more",
-        "re-"
-      ],
-      "conf": 95.2211,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "As population increases and as men become more re- sponsible for meeting people’s needs on a larger and",
-      "x": 0.1078,
-      "y": 0.248,
-      "w": 0.799,
-      "h": 0.0478,
+      "w": 0.8023,
+      "h": 0.1248,
       "words": [
         "As",
         "population",
@@ -312,28 +187,6 @@
         "on",
         "a",
         "larger",
-        "and"
-      ],
-      "conf": 95.2211,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "sponsible for meeting people’s needs on a larger and larger scale, machines become more important. As the",
-      "x": 0.1078,
-      "y": 0.2743,
-      "w": 0.799,
-      "h": 0.0468,
-      "words": [
-        "sponsible",
-        "for",
-        "meeting",
-        "people’s",
-        "needs",
-        "on",
-        "a",
-        "larger",
         "and",
         "larger",
         "scale,",
@@ -342,49 +195,7 @@
         "more",
         "important.",
         "As",
-        "the"
-      ],
-      "conf": 95.5911,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "larger scale, machines become more important. As the facts become more complex, machines are being used",
-      "x": 0.1045,
-      "y": 0.2996,
-      "w": 0.8023,
-      "h": 0.0506,
-      "words": [
-        "larger",
-        "scale,",
-        "machines",
-        "become",
-        "more",
-        "important.",
-        "As",
         "the",
-        "facts",
-        "become",
-        "more",
-        "complex,",
-        "machines",
-        "are",
-        "being",
-        "used"
-      ],
-      "conf": 96.4022,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "facts become more complex, machines are being used more and more to do all sorts of measuring, counting",
-      "x": 0.1045,
-      "y": 0.326,
-      "w": 0.8023,
-      "h": 0.0468,
-      "words": [
         "facts",
         "become",
         "more",
@@ -404,35 +215,12 @@
         "measuring,",
         "counting"
       ],
-      "conf": 96.3915,
+      "conf": 95.2211,
       "source": "psm-11"
     },
     {
-      "id": "r13",
-      "order": 12,
-      "text": "more and more to do all sorts of measuring, counting",
-      "x": 0.107,
-      "y": 0.3518,
-      "w": 0.7998,
-      "h": 0.021,
-      "words": [
-        "more",
-        "and",
-        "more",
-        "to",
-        "do",
-        "all",
-        "sorts",
-        "of",
-        "measuring,",
-        "counting"
-      ],
-      "conf": 96.4254,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
+      "id": "r5",
+      "order": 4,
       "text": "and controlling.",
       "x": 0.1086,
       "y": 0.3776,
@@ -446,8 +234,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
+      "id": "r6",
+      "order": 5,
       "text": "ELECTRIC BRAIN",
       "x": 0.3614,
       "y": 0.4303,
@@ -461,8 +249,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
+      "id": "r7",
+      "order": 6,
       "text": "meen ee",
       "x": 0.2869,
       "y": 0.5073,
@@ -476,8 +264,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
+      "id": "r8",
+      "order": 7,
       "text": "Can machines think? In a sense, yes. In another sense, no.",
       "x": 0.1062,
       "y": 0.6869,
@@ -496,12 +284,12 @@
         "sense,",
         "no."
       ],
-      "conf": 96.5854,
-      "source": "psm-6"
+      "conf": 96.3078,
+      "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
+      "id": "r9",
+      "order": 8,
       "text": "They can answer a question if we have built into them",
       "x": 0.1045,
       "y": 0.7133,
@@ -524,8 +312,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r19",
-      "order": 18,
+      "id": "r10",
+      "order": 9,
       "text": "the power to answer that sort of question.",
       "x": 0.1037,
       "y": 0.7396,
@@ -545,30 +333,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r20",
-      "order": 19,
-      "text": "education: In a wider sense, ways in which we",
-      "x": 0.1021,
-      "y": 0.837,
-      "w": 0.8031,
-      "h": 0.0188,
-      "words": [
-        "education:",
-        "In",
-        "a",
-        "wider",
-        "sense,",
-        "ways",
-        "in",
-        "which",
-        "we"
-      ],
-      "conf": 91.5864,
-      "source": "psm-6"
-    },
-    {
-      "id": "r21",
-      "order": 20,
+      "id": "r11",
+      "order": 10,
       "text": "education: learn to become more able and responsible.",
       "x": 0.1053,
       "y": 0.8392,
@@ -588,28 +354,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r22",
-      "order": 21,
-      "text": "learn to become more able and responsible.",
-      "x": 0.1588,
-      "y": 0.8558,
-      "w": 0.4935,
-      "h": 0.0156,
-      "words": [
-        "learn",
-        "to",
-        "become",
-        "more",
-        "able",
-        "and",
-        "responsible."
-      ],
-      "conf": 96.0821,
-      "source": "psm-6"
-    },
-    {
-      "id": "r23",
-      "order": 22,
+      "id": "r12",
+      "order": 11,
       "text": "In a wider sense, ways in which we",
       "x": 0.5105,
       "y": 0.8386,

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20511.png",
   "layout": "single",
   "stats": {
-    "regionCount": 17,
-    "wordCount": 167,
+    "regionCount": 10,
+    "wordCount": 120,
     "imageWidth": 1259,
     "imageHeight": 1859
   },
@@ -27,14 +27,7 @@
         "r7",
         "r8",
         "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17"
+        "r10"
       ]
     }
   ],
@@ -42,11 +35,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "Everything, said Aristotle, has its own true work—or purpose—the work it can do best,",
-      "x": 0.1033,
-      "y": 0.0301,
-      "w": 0.5862,
-      "h": 0.0554,
+      "text": "Everything, said Aristotle, has its own true work—or purpose—the work it can do best, the work which is right for it.",
+      "x": 0.1001,
+      "y": 0.028,
+      "w": 0.5934,
+      "h": 0.085,
       "words": [
         "Everything,",
         "said",
@@ -55,26 +48,6 @@
         "its",
         "own",
         "true",
-        "work—or",
-        "purpose—the",
-        "work",
-        "it",
-        "can",
-        "do",
-        "best,"
-      ],
-      "conf": 93.2898,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "work—or purpose—the work it can do best, the work which is right for it.",
-      "x": 0.1001,
-      "y": 0.0624,
-      "w": 0.5878,
-      "h": 0.0506,
-      "words": [
         "work—or",
         "purpose—the",
         "work",
@@ -90,37 +63,17 @@
         "for",
         "it."
       ],
-      "conf": 95.4354,
-      "source": "psm-6"
+      "conf": 92.6185,
+      "source": "psm-11"
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "the work which is right for it.",
-      "x": 0.1001,
-      "y": 0.0866,
-      "w": 0.394,
-      "h": 0.0258,
-      "words": [
-        "the",
-        "work",
-        "which",
-        "is",
-        "right",
-        "for",
-        "it."
-      ],
-      "conf": 96.3884,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "A good wheel turns well, a good knife cuts well, a good clock keeps time well. A good",
-      "x": 0.1025,
-      "y": 0.2706,
-      "w": 0.5894,
-      "h": 0.0484,
+      "id": "r2",
+      "order": 1,
+      "text": "A good wheel turns well, a good knife cuts well, a good clock keeps time well. A good apple tree gives good fruit, a good cow gives good milk.",
+      "x": 0.1017,
+      "y": 0.2684,
+      "w": 0.5902,
+      "h": 0.1022,
       "words": [
         "A",
         "good",
@@ -139,63 +92,7 @@
         "time",
         "well.",
         "A",
-        "good"
-      ],
-      "conf": 94.9245,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "well, good clock keeps time well. A good apple tree gives good fruit, a good cow",
-      "x": 0.1025,
-      "y": 0.2964,
-      "w": 0.5894,
-      "h": 0.049,
-      "words": [
-        "well,",
         "good",
-        "clock",
-        "keeps",
-        "time",
-        "well.",
-        "A",
-        "good",
-        "apple",
-        "tree",
-        "gives",
-        "good",
-        "fruit,",
-        "a",
-        "good",
-        "cow"
-      ],
-      "conf": 94.4524,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "ATA",
-      "x": 0.7244,
-      "y": 0.2937,
-      "w": 0.0699,
-      "h": 0.0161,
-      "words": [
-        "ATA"
-      ],
-      "conf": 50.3777,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "apple tree gives good fruit, a good cow gives good milk.",
-      "x": 0.1017,
-      "y": 0.3228,
-      "w": 0.5901,
-      "h": 0.0478,
-      "words": [
         "apple",
         "tree",
         "gives",
@@ -208,28 +105,26 @@
         "good",
         "milk."
       ],
-      "conf": 95.717,
-      "source": "psm-6"
+      "conf": 96.5197,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "gives good milk.",
-      "x": 0.1017,
-      "y": 0.3491,
-      "w": 0.2176,
-      "h": 0.0215,
+      "id": "r3",
+      "order": 2,
+      "text": "ATA",
+      "x": 0.7244,
+      "y": 0.2937,
+      "w": 0.0699,
+      "h": 0.0161,
       "words": [
-        "gives",
-        "good",
-        "milk."
+        "ATA"
       ],
-      "conf": 96.8016,
-      "source": "psm-6"
+      "conf": 50.3777,
+      "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r4",
+      "order": 3,
       "text": "In the body, eye, hand, foot, each has its own work to do.",
       "x": 0.1064,
       "y": 0.525,
@@ -254,8 +149,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r5",
+      "order": 4,
       "text": "What can Man do best? What is his own work as Man?",
       "x": 0.1017,
       "y": 0.5815,
@@ -279,8 +174,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
+      "id": "r6",
+      "order": 5,
       "text": "Is it to learn? To learn what?",
       "x": 0.1048,
       "y": 0.6353,
@@ -299,8 +194,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
+      "id": "r7",
+      "order": 6,
       "text": "Is it to learn what to do?",
       "x": 0.1009,
       "y": 0.6853,
@@ -319,8 +214,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r13",
-      "order": 12,
+      "id": "r8",
+      "order": 7,
       "text": "How does he learn?",
       "x": 0.1056,
       "y": 0.7402,
@@ -332,12 +227,12 @@
         "he",
         "learn?"
       ],
-      "conf": 96.5227,
-      "source": "psm-6"
+      "conf": 96.2655,
+      "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
+      "id": "r9",
+      "order": 8,
       "text": "Is it by the feed-back from the effects of what he does?",
       "x": 0.1048,
       "y": 0.7907,
@@ -361,8 +256,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
+      "id": "r10",
+      "order": 9,
       "text": "Is it by seeing from the outcome whether he is doing the right thing?",
       "x": 0.1017,
       "y": 0.8176,
@@ -385,47 +280,7 @@
         "thing?"
       ],
       "conf": 96.4818,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "Is it by seeing from the outcome whether he is doing the",
-      "x": 0.1048,
-      "y": 0.8176,
-      "w": 0.7855,
-      "h": 0.0226,
-      "words": [
-        "Is",
-        "it",
-        "by",
-        "seeing",
-        "from",
-        "the",
-        "outcome",
-        "whether",
-        "he",
-        "is",
-        "doing",
-        "the"
-      ],
-      "conf": 96.4818,
       "source": "psm-11"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "right thing?",
-      "x": 0.1048,
-      "y": 0.8445,
-      "w": 0.1557,
-      "h": 0.021,
-      "words": [
-        "right",
-        "thing?"
-      ],
-      "conf": 95.4066,
-      "source": "psm-6"
     }
   ]
 }

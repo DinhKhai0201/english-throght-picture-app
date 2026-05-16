@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20496.png",
   "layout": "single",
   "stats": {
-    "regionCount": 26,
-    "wordCount": 321,
+    "regionCount": 11,
+    "wordCount": 217,
     "imageWidth": 1188,
     "imageHeight": 1875
   },
@@ -28,22 +28,7 @@
         "r8",
         "r9",
         "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17",
-        "r18",
-        "r19",
-        "r20",
-        "r21",
-        "r22",
-        "r23",
-        "r24",
-        "r25",
-        "r26"
+        "r11"
       ]
     }
   ],
@@ -51,52 +36,17 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "Much later, other sorts of",
-      "x": 0.1128,
-      "y": 0.0635,
-      "w": 0.3956,
-      "h": 0.0192,
-      "words": [
-        "Much",
-        "later,",
-        "other",
-        "sorts",
-        "of"
-      ],
-      "conf": 96.4819,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "Much later, other sorts of changes, more complex than",
+      "text": "Much later, other sorts of changes, more complex than these, began to take place.",
       "x": 0.1128,
       "y": 0.0635,
       "w": 0.4377,
-      "h": 0.0469,
+      "h": 0.0731,
       "words": [
         "Much",
         "later,",
         "other",
         "sorts",
         "of",
-        "changes,",
-        "more",
-        "complex",
-        "than"
-      ],
-      "conf": 95.8406,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "changes, more complex than these, began to take place.",
-      "x": 0.1128,
-      "y": 0.0891,
-      "w": 0.4377,
-      "h": 0.0475,
-      "words": [
         "changes,",
         "more",
         "complex",
@@ -107,35 +57,17 @@
         "take",
         "place."
       ],
-      "conf": 96.6006,
-      "source": "psm-6"
+      "conf": 96.4819,
+      "source": "psm-11"
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "these, began to take place.",
-      "x": 0.1128,
-      "y": 0.1147,
-      "w": 0.3737,
-      "h": 0.0219,
-      "words": [
-        "these,",
-        "began",
-        "to",
-        "take",
-        "place."
-      ],
-      "conf": 96.8373,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "Here is a lighted candle. As it burns the heat melts the candle and the liquid goes",
+      "id": "r2",
+      "order": 1,
+      "text": "Here is a lighted candle. As it burns the heat melts the candle and the liquid goes up into the flame where it is turned into gas So far all is physical.",
       "x": 0.1086,
-      "y": 0.1573,
-      "w": 0.5976,
-      "h": 0.0533,
+      "y": 0.1616,
+      "w": 0.5884,
+      "h": 0.1514,
       "words": [
         "Here",
         "is",
@@ -153,27 +85,6 @@
         "and",
         "the",
         "liquid",
-        "goes"
-      ],
-      "conf": 85.5902,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "heat melts the candle and the liquid goes up into the flame where it is turned into",
-      "x": 0.1128,
-      "y": 0.1893,
-      "w": 0.5816,
-      "h": 0.0475,
-      "words": [
-        "heat",
-        "melts",
-        "the",
-        "candle",
-        "and",
-        "the",
-        "liquid",
         "goes",
         "up",
         "into",
@@ -183,69 +94,20 @@
         "it",
         "is",
         "turned",
-        "into"
-      ],
-      "conf": 96.5885,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "up into the flame where it is turned into gas",
-      "x": 0.112,
-      "y": 0.2149,
-      "w": 0.5824,
-      "h": 0.047,
-      "words": [
-        "up",
         "into",
-        "the",
-        "flame",
-        "where",
-        "it",
-        "is",
-        "turned",
-        "into",
-        "gas"
-      ],
-      "conf": 96.2561,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "gas.",
-      "x": 0.112,
-      "y": 0.2459,
-      "w": 0.0564,
-      "h": 0.016,
-      "words": [
-        "gas."
-      ],
-      "conf": 93.0813,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "So far all is physical.",
-      "x": 0.1128,
-      "y": 0.2901,
-      "w": 0.2904,
-      "h": 0.0229,
-      "words": [
+        "gas",
         "So",
         "far",
         "all",
         "is",
         "physical."
       ],
-      "conf": 94.2503,
+      "conf": 96.5313,
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r3",
+      "order": 2,
       "text": "But in the flame chemical changes take place.",
       "x": 0.1128,
       "y": 0.3392,
@@ -265,13 +127,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "Carbon from the candle and oxygen from the air come together to make carbon di-",
+      "id": "r4",
+      "order": 3,
+      "text": "Carbon from the candle and oxygen from the air come together to make carbon di- oxide. At the same time water is given off, as you may see if you hold a glass cover",
       "x": 0.1128,
       "y": 0.3899,
       "w": 0.622,
-      "h": 0.0469,
+      "h": 0.0986,
       "words": [
         "Carbon",
         "from",
@@ -287,50 +149,7 @@
         "to",
         "make",
         "carbon",
-        "di-"
-      ],
-      "conf": 96.4124,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "the air come together to make carbon di- oxide. At the same time water is given off,",
-      "x": 0.1128,
-      "y": 0.4155,
-      "w": 0.6212,
-      "h": 0.0469,
-      "words": [
-        "the",
-        "air",
-        "come",
-        "together",
-        "to",
-        "make",
-        "carbon",
         "di-",
-        "oxide.",
-        "At",
-        "the",
-        "same",
-        "time",
-        "water",
-        "is",
-        "given",
-        "off,"
-      ],
-      "conf": 94.8448,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "oxide. At the same time water is given off, as you may see if you hold a glass cover",
-      "x": 0.1136,
-      "y": 0.4411,
-      "w": 0.6204,
-      "h": 0.0474,
-      "words": [
         "oxide.",
         "At",
         "the",
@@ -351,40 +170,17 @@
         "glass",
         "cover"
       ],
-      "conf": 96.3679,
-      "source": "psm-6"
+      "conf": 96.4124,
+      "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
-      "text": "as you may see if you hold a glass cover",
-      "x": 0.1136,
-      "y": 0.4672,
-      "w": 0.6204,
-      "h": 0.0213,
-      "words": [
-        "as",
-        "you",
-        "may",
-        "see",
-        "if",
-        "you",
-        "hold",
-        "a",
-        "glass",
-        "cover"
-      ],
-      "conf": 95.8452,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "over the flame. The cover quickly becomes clouded with little drops of water. This",
-      "x": 0.1136,
+      "id": "r5",
+      "order": 4,
+      "text": "over the flame. The cover quickly becomes clouded with little drops of water. This water was not in the wax and the candle",
+      "x": 0.1111,
       "y": 0.4928,
-      "w": 0.6195,
-      "h": 0.047,
+      "w": 0.6237,
+      "h": 0.0683,
       "words": [
         "over",
         "the",
@@ -393,26 +189,6 @@
         "cover",
         "quickly",
         "becomes",
-        "clouded",
-        "with",
-        "little",
-        "drops",
-        "of",
-        "water.",
-        "This"
-      ],
-      "conf": 96.5892,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "clouded with little drops of water. This water was not in the wax and the candle",
-      "x": 0.1111,
-      "y": 0.5179,
-      "w": 0.6237,
-      "h": 0.0432,
-      "words": [
         "clouded",
         "with",
         "little",
@@ -430,39 +206,17 @@
         "the",
         "candle"
       ],
-      "conf": 96.3243,
-      "source": "psm-6"
+      "conf": 96.5892,
+      "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
-      "text": "water was not in the wax and the candle",
+      "id": "r6",
+      "order": 5,
+      "text": "flame gives it off however dry the air is. The water and carbon dioxide come into being through the chemical exchanges, between the lighted candle and the air, which",
       "x": 0.1111,
-      "y": 0.5435,
-      "w": 0.6237,
-      "h": 0.0176,
-      "words": [
-        "water",
-        "was",
-        "not",
-        "in",
-        "the",
-        "wax",
-        "and",
-        "the",
-        "candle"
-      ],
-      "conf": 96.7354,
-      "source": "psm-6"
-    },
-    {
-      "id": "r18",
-      "order": 17,
-      "text": "flame gives it off however dry the air is. The water and carbon dioxide come into being through the chemical",
-      "x": 0.112,
       "y": 0.5691,
-      "w": 0.8241,
-      "h": 0.048,
+      "w": 0.825,
+      "h": 0.0741,
       "words": [
         "flame",
         "gives",
@@ -483,27 +237,6 @@
         "being",
         "through",
         "the",
-        "chemical"
-      ],
-      "conf": 96.6419,
-      "source": "psm-6"
-    },
-    {
-      "id": "r19",
-      "order": 18,
-      "text": "carbon dioxide come into being through the chemical exchanges, between the lighted candle and the air, which",
-      "x": 0.1111,
-      "y": 0.5947,
-      "w": 0.825,
-      "h": 0.0485,
-      "words": [
-        "carbon",
-        "dioxide",
-        "come",
-        "into",
-        "being",
-        "through",
-        "the",
         "chemical",
         "exchanges,",
         "between",
@@ -515,12 +248,12 @@
         "air,",
         "which"
       ],
-      "conf": 96.3238,
-      "source": "psm-6"
+      "conf": 96.3889,
+      "source": "psm-11"
     },
     {
-      "id": "r20",
-      "order": 19,
+      "id": "r7",
+      "order": 6,
       "text": "make the flame.",
       "x": 0.1111,
       "y": 0.6475,
@@ -535,8 +268,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r21",
-      "order": 20,
+      "id": "r8",
+      "order": 7,
       "text": "At the same time there are physical changes taking place.",
       "x": 0.1111,
       "y": 0.6965,
@@ -554,17 +287,17 @@
         "taking",
         "place."
       ],
-      "conf": 96.5932,
-      "source": "psm-6"
+      "conf": 96.3872,
+      "source": "psm-11"
     },
     {
-      "id": "r22",
-      "order": 21,
-      "text": "The top of the candle is melting and the liquid fuel is moving up into the flame and being turned into gas, air",
+      "id": "r9",
+      "order": 8,
+      "text": "The top of the candle is melting and the liquid fuel is moving up into the flame and being turned into gas, air is coming into the flame, carbon dioxide and water are moving up from it and heat and light are being given out.",
       "x": 0.1103,
       "y": 0.7216,
-      "w": 0.8266,
-      "h": 0.0491,
+      "w": 0.8274,
+      "h": 0.1008,
       "words": [
         "The",
         "top",
@@ -588,54 +321,7 @@
         "turned",
         "into",
         "gas,",
-        "air"
-      ],
-      "conf": 96.5303,
-      "source": "psm-6"
-    },
-    {
-      "id": "r23",
-      "order": 22,
-      "text": "moving up into the flame and being turned into gas, air is coming into the flame, carbon dioxide and water are",
-      "x": 0.1103,
-      "y": 0.7472,
-      "w": 0.8274,
-      "h": 0.0485,
-      "words": [
-        "moving",
-        "up",
-        "into",
-        "the",
-        "flame",
-        "and",
-        "being",
-        "turned",
-        "into",
-        "gas,",
         "air",
-        "is",
-        "coming",
-        "into",
-        "the",
-        "flame,",
-        "carbon",
-        "dioxide",
-        "and",
-        "water",
-        "are"
-      ],
-      "conf": 96.7469,
-      "source": "psm-6"
-    },
-    {
-      "id": "r24",
-      "order": 23,
-      "text": "is coming into the flame, carbon dioxide and water are moving up from it and heat and light are being given out.",
-      "x": 0.1103,
-      "y": 0.7733,
-      "w": 0.8274,
-      "h": 0.0491,
-      "words": [
         "is",
         "coming",
         "into",
@@ -659,12 +345,12 @@
         "given",
         "out."
       ],
-      "conf": 96.5947,
-      "source": "psm-6"
+      "conf": 96.4643,
+      "source": "psm-11"
     },
     {
-      "id": "r25",
-      "order": 24,
+      "id": "r10",
+      "order": 9,
       "text": "chemical changes: changes that take place In the structure of different",
       "x": 0.112,
       "y": 0.8523,
@@ -687,8 +373,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r26",
-      "order": 25,
+      "id": "r11",
+      "order": 10,
       "text": "sorts of material, tuming them into other materials.",
       "x": 0.1667,
       "y": 0.8704,

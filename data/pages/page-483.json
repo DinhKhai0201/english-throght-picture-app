@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20483.png",
   "layout": "single",
   "stats": {
-    "regionCount": 19,
-    "wordCount": 169,
+    "regionCount": 5,
+    "wordCount": 87,
     "imageWidth": 1221,
     "imageHeight": 1859
   },
@@ -22,21 +22,7 @@
         "r2",
         "r3",
         "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17",
-        "r18",
-        "r19"
+        "r5"
       ]
     }
   ],
@@ -44,11 +30,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "In many businesses accounts are kept by machines and the records are photographed. When there are millions",
-      "x": 0.0844,
+      "text": "In many businesses accounts are kept by machines and the records are photographed. When there are millions of different facts to be taken into account, and records of them to be made, machines can work far more quickly than men.",
+      "x": 0.0811,
       "y": 0.043,
-      "w": 0.8091,
-      "h": 0.0479,
+      "w": 0.8133,
+      "h": 0.1269,
       "words": [
         "In",
         "many",
@@ -59,27 +45,6 @@
         "by",
         "machines",
         "and",
-        "the",
-        "records",
-        "are",
-        "photographed.",
-        "When",
-        "there",
-        "are",
-        "millions"
-      ],
-      "conf": 96.4498,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "the records are photographed. When there are millions of different facts to be taken into account, and records of",
-      "x": 0.0844,
-      "y": 0.0694,
-      "w": 0.81,
-      "h": 0.0457,
-      "words": [
         "the",
         "records",
         "are",
@@ -98,54 +63,7 @@
         "account,",
         "and",
         "records",
-        "of"
-      ],
-      "conf": 96.4133,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "of different facts to be taken into account, and records of them to be made, machines can work far more quickly",
-      "x": 0.0844,
-      "y": 0.0952,
-      "w": 0.81,
-      "h": 0.0468,
-      "words": [
         "of",
-        "different",
-        "facts",
-        "to",
-        "be",
-        "taken",
-        "into",
-        "account,",
-        "and",
-        "records",
-        "of",
-        "them",
-        "to",
-        "be",
-        "made,",
-        "machines",
-        "can",
-        "work",
-        "far",
-        "more",
-        "quickly"
-      ],
-      "conf": 96.4669,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "them to be made, machines can work far more quickly than men.",
-      "x": 0.0811,
-      "y": 0.121,
-      "w": 0.8125,
-      "h": 0.0489,
-      "words": [
         "them",
         "to",
         "be",
@@ -159,64 +77,17 @@
         "than",
         "men."
       ],
-      "conf": 96.3697,
-      "source": "psm-6"
+      "conf": 96.4075,
+      "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "than men.",
-      "x": 0.0811,
-      "y": 0.1452,
-      "w": 0.1433,
-      "h": 0.0269,
-      "words": [
-        "than",
-        "men."
-      ],
-      "conf": 96.7082,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "fo} a",
-      "x": 0.2523,
-      "y": 0.2308,
-      "w": 0.2514,
-      "h": 0.043,
-      "words": [
-        "fo}",
-        "a"
-      ],
-      "conf": 46.5219,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "GA LD Nal Sy",
-      "x": 0.5119,
-      "y": 0.4029,
-      "w": 0.33,
-      "h": 0.0672,
-      "words": [
-        "GA",
-        "LD",
-        "Nal",
-        "Sy"
-      ],
-      "conf": 54.5159,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "The newest and greatest accounting machines can do far more work in a minute than the quickest man could",
+      "id": "r2",
+      "order": 1,
+      "text": "The newest and greatest accounting machines can do far more work in a minute than the quickest man could do in a year. But the machines and the questions put to them come out of men’s minds and are controlled by men.",
       "x": 0.0852,
       "y": 0.5331,
-      "w": 0.8083,
-      "h": 0.0473,
+      "w": 0.8084,
+      "h": 0.1204,
       "words": [
         "The",
         "newest",
@@ -226,30 +97,6 @@
         "machines",
         "can",
         "do",
-        "far",
-        "more",
-        "work",
-        "in",
-        "a",
-        "minute",
-        "than",
-        "the",
-        "quickest",
-        "man",
-        "could"
-      ],
-      "conf": 96.3044,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "far more work in a minute than the quickest man could do in a year. But the machines and the questions put to",
-      "x": 0.0852,
-      "y": 0.5589,
-      "w": 0.8084,
-      "h": 0.0484,
-      "words": [
         "far",
         "more",
         "work",
@@ -272,55 +119,7 @@
         "the",
         "questions",
         "put",
-        "to"
-      ],
-      "conf": 96.4206,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "do in a year. But the machines and the questions put to them come out of men’s minds and are controlled by",
-      "x": 0.0852,
-      "y": 0.5847,
-      "w": 0.8084,
-      "h": 0.0473,
-      "words": [
-        "do",
-        "in",
-        "a",
-        "year.",
-        "But",
-        "the",
-        "machines",
-        "and",
-        "the",
-        "questions",
-        "put",
         "to",
-        "them",
-        "come",
-        "out",
-        "of",
-        "men’s",
-        "minds",
-        "and",
-        "are",
-        "controlled",
-        "by"
-      ],
-      "conf": 96.7364,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "them come out of men’s minds and are controlled by men.",
-      "x": 0.086,
-      "y": 0.6105,
-      "w": 0.8067,
-      "h": 0.043,
-      "words": [
         "them",
         "come",
         "out",
@@ -333,71 +132,12 @@
         "by",
         "men."
       ],
-      "conf": 96.2989,
-      "source": "psm-6"
+      "conf": 96.3044,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "men.",
-      "x": 0.086,
-      "y": 0.6417,
-      "w": 0.0672,
-      "h": 0.0118,
-      "words": [
-        "men."
-      ],
-      "conf": 95.8534,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "O fe» AB",
-      "x": 0.276,
-      "y": 0.6659,
-      "w": 0.4726,
-      "h": 0.043,
-      "words": [
-        "O",
-        "fe»",
-        "AB"
-      ],
-      "conf": 64.233,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "a le",
-      "x": 0.6699,
-      "y": 0.6912,
-      "w": 0.1122,
-      "h": 0.0188,
-      "words": [
-        "a",
-        "le"
-      ],
-      "conf": 75.5269,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "CES",
-      "x": 0.2637,
-      "y": 0.7558,
-      "w": 0.1966,
-      "h": 0.0436,
-      "words": [
-        "CES"
-      ],
-      "conf": 38.4716,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
+      "id": "r3",
+      "order": 2,
       "text": "will photograph",
       "x": 0.0885,
       "y": 0.8585,
@@ -411,26 +151,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r17",
-      "order": 16,
-      "text": "will photograph photograph (s) photographed",
-      "x": 0.0885,
-      "y": 0.8585,
-      "w": 0.801,
-      "h": 0.0167,
-      "words": [
-        "will",
-        "photograph",
-        "photograph",
-        "(s)",
-        "photographed"
-      ],
-      "conf": 73.0153,
-      "source": "psm-6"
-    },
-    {
-      "id": "r18",
-      "order": 17,
+      "id": "r4",
+      "order": 3,
       "text": "photograph (s)",
       "x": 0.3948,
       "y": 0.8564,
@@ -444,8 +166,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r19",
-      "order": 18,
+      "id": "r5",
+      "order": 4,
       "text": "photographed",
       "x": 0.7158,
       "y": 0.8591,

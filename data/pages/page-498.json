@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20498.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 17,
-    "wordCount": 168,
+    "regionCount": 9,
+    "wordCount": 116,
     "imageWidth": 1188,
     "imageHeight": 1875
   },
@@ -42,12 +42,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15"
+        "r6",
+        "r7",
+        "r8"
       ]
     },
     {
@@ -59,12 +56,7 @@
       "h": 0.5,
       "regionIds": [
         "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r16",
-        "r17"
+        "r9"
       ]
     }
   ],
@@ -159,11 +151,11 @@
     {
       "id": "r5",
       "order": 4,
-      "text": "Everything going on so far has been physical. But in your retina more sorts of changes now take",
-      "x": 0.1002,
+      "text": "Everything going on so far has been physical. But in your retina more sorts of changes now take place. Some of these are chemical. Complex materials in the retina go through chemical changes not very unlike those that make photographs on films and these changes cause other much more complex sorts of changes in the",
+      "x": 0.0976,
       "y": 0.5328,
-      "w": 0.8266,
-      "h": 0.048,
+      "w": 0.8292,
+      "h": 0.1525,
       "words": [
         "Everything",
         "going",
@@ -182,50 +174,7 @@
         "of",
         "changes",
         "now",
-        "take"
-      ],
-      "conf": 96.4061,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "your retina more sorts of changes now take place. Some of these are chemical. Complex materials in",
-      "x": 0.0993,
-      "y": 0.5589,
-      "w": 0.8275,
-      "h": 0.0481,
-      "words": [
-        "your",
-        "retina",
-        "more",
-        "sorts",
-        "of",
-        "changes",
-        "now",
         "take",
-        "place.",
-        "Some",
-        "of",
-        "these",
-        "are",
-        "chemical.",
-        "Complex",
-        "materials",
-        "in"
-      ],
-      "conf": 96.6152,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "place. Some of these are chemical. Complex materials in the retina go through chemical changes not very unlike",
-      "x": 0.0976,
-      "y": 0.5851,
-      "w": 0.8291,
-      "h": 0.048,
-      "words": [
         "place.",
         "Some",
         "of",
@@ -243,51 +192,7 @@
         "changes",
         "not",
         "very",
-        "unlike"
-      ],
-      "conf": 96.5457,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "the retina go through chemical changes not very unlike those that make photographs on films and these changes",
-      "x": 0.0976,
-      "y": 0.6112,
-      "w": 0.8291,
-      "h": 0.0485,
-      "words": [
-        "the",
-        "retina",
-        "go",
-        "through",
-        "chemical",
-        "changes",
-        "not",
-        "very",
         "unlike",
-        "those",
-        "that",
-        "make",
-        "photographs",
-        "on",
-        "films",
-        "and",
-        "these",
-        "changes"
-      ],
-      "conf": 96.4908,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "those that make photographs on films and these changes cause other much more complex sorts of changes in the",
-      "x": 0.0985,
-      "y": 0.6373,
-      "w": 0.8274,
-      "h": 0.048,
-      "words": [
         "those",
         "that",
         "make",
@@ -308,12 +213,12 @@
         "in",
         "the"
       ],
-      "conf": 96.3231,
-      "source": "psm-6"
+      "conf": 96.4061,
+      "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r6",
+      "order": 5,
       "text": "living cells of the retina.",
       "x": 0.0976,
       "y": 0.6896,
@@ -330,13 +235,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "film: here is a roll of film ready to be put into a camera,",
+      "id": "r7",
+      "order": 6,
+      "text": "film: here is a roll of film ready to be put into a camera, cause: be the cause of.",
       "x": 0.1002,
       "y": 0.7637,
       "w": 0.4992,
-      "h": 0.031,
+      "h": 0.0747,
       "words": [
         "film:",
         "here",
@@ -351,71 +256,19 @@
         "put",
         "into",
         "a",
-        "camera,"
-      ],
-      "conf": 91.1227,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "into a camera,",
-      "x": 0.1566,
-      "y": 0.7824,
-      "w": 0.1574,
-      "h": 0.0123,
-      "words": [
-        "into",
-        "a",
-        "camera,"
-      ],
-      "conf": 88.743,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "here Is a roll of film ready to be put",
-      "x": 0.17,
-      "y": 0.7637,
-      "w": 0.4293,
-      "h": 0.0155,
-      "words": [
-        "here",
-        "Is",
-        "a",
-        "roll",
-        "of",
-        "film",
-        "ready",
-        "to",
-        "be",
-        "put"
-      ],
-      "conf": 93.2055,
-      "source": "psm-6"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "cause: be the cause of.",
-      "x": 0.101,
-      "y": 0.8256,
-      "w": 0.2626,
-      "h": 0.0128,
-      "words": [
+        "camera,",
         "cause:",
         "be",
         "the",
         "cause",
         "of."
       ],
-      "conf": 95.5837,
-      "source": "psm-6"
+      "conf": 91.1227,
+      "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
+      "id": "r8",
+      "order": 7,
       "text": "will",
       "x": 0.0976,
       "y": 0.8539,
@@ -428,25 +281,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
-      "text": "will cause cavse(s) caused",
-      "x": 0.101,
-      "y": 0.8501,
-      "w": 0.8266,
-      "h": 0.0219,
-      "words": [
-        "will",
-        "cause",
-        "cavse(s)",
-        "caused"
-      ],
-      "conf": 86.6552,
-      "source": "psm-6"
-    },
-    {
-      "id": "r17",
-      "order": 16,
+      "id": "r9",
+      "order": 8,
       "text": "cause(s)",
       "x": 0.4815,
       "y": 0.8544,

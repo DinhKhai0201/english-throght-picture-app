@@ -2,33 +2,21 @@
   "page": 513,
   "image": "/books/page 513.png",
   "imageApiPath": "/api/books/page%20513.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 14,
-    "wordCount": 177,
+    "regionCount": 9,
+    "wordCount": 130,
     "imageWidth": 1259,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r7",
-        "r9"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
         "r2",
@@ -36,32 +24,9 @@
         "r4",
         "r5",
         "r6",
+        "r7",
         "r8",
-        "r10"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r13",
-        "r14"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r11",
-        "r12"
+        "r9"
       ]
     }
   ],
@@ -95,11 +60,11 @@
     {
       "id": "r2",
       "order": 1,
-      "text": "So there is feed-forward as well as feed-back. Feed- forward is as widely supported a fact as feed-back. Any",
-      "x": 0.1136,
+      "text": "So there is feed-forward as well as feed-back. Feed- forward is as widely supported a fact as feed-back. Any number of examples can be found. There can be no feed- back without feed-forward. Knowledge of what you have done and are doing will not help you unless there is direc-",
+      "x": 0.1128,
       "y": 0.2019,
-      "w": 0.7832,
-      "h": 0.0493,
+      "w": 0.7847,
+      "h": 0.1275,
       "words": [
         "So",
         "there",
@@ -110,51 +75,6 @@
         "as",
         "feed-back.",
         "Feed-",
-        "forward",
-        "is",
-        "as",
-        "widely",
-        "supported",
-        "a",
-        "fact",
-        "as",
-        "feed-back.",
-        "Any"
-      ],
-      "conf": 95.4829,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "So there is feed-forward as well as feed-back. Feed-",
-      "x": 0.116,
-      "y": 0.2019,
-      "w": 0.7808,
-      "h": 0.0177,
-      "words": [
-        "So",
-        "there",
-        "is",
-        "feed-forward",
-        "as",
-        "well",
-        "as",
-        "feed-back.",
-        "Feed-"
-      ],
-      "conf": 95.3869,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "forward is as widely supported a fact as feed-back. Any number of examples can be found. There can be no feed-",
-      "x": 0.1136,
-      "y": 0.2287,
-      "w": 0.7832,
-      "h": 0.0488,
-      "words": [
         "forward",
         "is",
         "as",
@@ -175,52 +95,7 @@
         "can",
         "be",
         "no",
-        "feed-"
-      ],
-      "conf": 96.6918,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "number of examples can be found. There can be no feed- back without feed-forward. Knowledge of what you have",
-      "x": 0.1136,
-      "y": 0.255,
-      "w": 0.7832,
-      "h": 0.0503,
-      "words": [
-        "number",
-        "of",
-        "examples",
-        "can",
-        "be",
-        "found.",
-        "There",
-        "can",
-        "be",
-        "no",
         "feed-",
-        "back",
-        "without",
-        "feed-forward.",
-        "Knowledge",
-        "of",
-        "what",
-        "you",
-        "have"
-      ],
-      "conf": 95.7436,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "back without feed-forward. Knowledge of what you have done and are doing will not help you unless there is direc-",
-      "x": 0.1128,
-      "y": 0.2807,
-      "w": 0.7847,
-      "h": 0.0487,
-      "words": [
         "back",
         "without",
         "feed-forward.",
@@ -242,12 +117,12 @@
         "is",
         "direc-"
       ],
-      "conf": 96.6166,
-      "source": "psm-6"
+      "conf": 95.3869,
+      "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r3",
+      "order": 2,
       "text": "tion in what you are trying to do.",
       "x": 0.1128,
       "y": 0.3326,
@@ -263,12 +138,12 @@
         "to",
         "do."
       ],
-      "conf": 96.4474,
-      "source": "psm-6"
+      "conf": 95.7276,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r4",
+      "order": 3,
       "text": "You may not fully know what this direction is; you may",
       "x": 0.112,
       "y": 0.384,
@@ -291,8 +166,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r5",
+      "order": 4,
       "text": "be trying to find out what it is.",
       "x": 0.1128,
       "y": 0.4103,
@@ -312,8 +187,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r6",
+      "order": 5,
       "text": "As the of the microscope in-",
       "x": 0.1112,
       "y": 0.4671,
@@ -331,8 +206,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
+      "id": "r7",
+      "order": 6,
       "text": "creased man’s power to see, so the development of his instruments of thought is increasing his power to design",
       "x": 0.1104,
       "y": 0.4885,
@@ -359,39 +234,17 @@
         "to",
         "design"
       ],
-      "conf": 96.5416,
-      "source": "psm-6"
+      "conf": 96.3325,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "instruments of thought is increasing his power to design",
-      "x": 0.1104,
-      "y": 0.5147,
-      "w": 0.7871,
-      "h": 0.0252,
-      "words": [
-        "instruments",
-        "of",
-        "thought",
-        "is",
-        "increasing",
-        "his",
-        "power",
-        "to",
-        "design"
-      ],
-      "conf": 96.7195,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
+      "id": "r8",
+      "order": 7,
       "text": "and direct and see what he is doing.",
       "x": 0.1128,
-      "y": 0.5415,
+      "y": 0.5378,
       "w": 0.498,
-      "h": 0.0225,
+      "h": 0.0262,
       "words": [
         "and",
         "direct",
@@ -402,12 +255,12 @@
         "is",
         "doing."
       ],
-      "conf": 96.5898,
-      "source": "psm-6"
+      "conf": 93.9339,
+      "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
+      "id": "r9",
+      "order": 8,
       "text": "waless there is: if there is no.",
       "x": 0.1128,
       "y": 0.8479,

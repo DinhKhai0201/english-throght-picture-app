@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20486.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 208,
+    "regionCount": 8,
+    "wordCount": 154,
     "imageWidth": 1196,
     "imageHeight": 1867
   },
@@ -18,8 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r7"
+        "r2",
+        "r3"
       ]
     },
     {
@@ -31,11 +31,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r8"
+        "r4"
       ]
     },
     {
@@ -46,8 +42,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r11",
-        "r13"
+        "r6",
+        "r8"
       ]
     },
     {
@@ -58,9 +54,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r10",
-        "r12"
+        "r5",
+        "r7"
       ]
     }
   ],
@@ -68,11 +63,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "In a free country the men in the government are depend- ent upon the people and responsible to them for the use",
-      "x": 0.1012,
+      "text": "In a free country the men in the government are depend- ent upon the people and responsible to them for the use made of the power which has been given them. In any good system of government, there must be ways of con- trolling and limiting the amount of power anyone has, as the flyball governor controls and limits the output of the",
+      "x": 0.0987,
       "y": 0.0391,
-      "w": 0.8169,
-      "h": 0.0476,
+      "w": 0.821,
+      "h": 0.1521,
       "words": [
         "In",
         "a",
@@ -95,55 +90,7 @@
         "them",
         "for",
         "the",
-        "use"
-      ],
-      "conf": 95.8296,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "ent upon the people and responsible to them for the use made of the power which has been given them. In any",
-      "x": 0.0987,
-      "y": 0.0653,
-      "w": 0.8202,
-      "h": 0.0499,
-      "words": [
-        "ent",
-        "upon",
-        "the",
-        "people",
-        "and",
-        "responsible",
-        "to",
-        "them",
-        "for",
-        "the",
         "use",
-        "made",
-        "of",
-        "the",
-        "power",
-        "which",
-        "has",
-        "been",
-        "given",
-        "them.",
-        "In",
-        "any"
-      ],
-      "conf": 96.5424,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "made of the power which has been given them. In any good system of government, there must be ways of con-",
-      "x": 0.102,
-      "y": 0.0905,
-      "w": 0.8169,
-      "h": 0.0488,
-      "words": [
         "made",
         "of",
         "the",
@@ -164,53 +111,7 @@
         "be",
         "ways",
         "of",
-        "con-"
-      ],
-      "conf": 96.3215,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "good system of government, there must be ways of con- trolling and limiting the amount of power anyone has, as",
-      "x": 0.102,
-      "y": 0.1168,
-      "w": 0.8169,
-      "h": 0.0482,
-      "words": [
-        "good",
-        "system",
-        "of",
-        "government,",
-        "there",
-        "must",
-        "be",
-        "ways",
-        "of",
         "con-",
-        "trolling",
-        "and",
-        "limiting",
-        "the",
-        "amount",
-        "of",
-        "power",
-        "anyone",
-        "has,",
-        "as"
-      ],
-      "conf": 95.8125,
-      "source": "psm-6"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "trolling and limiting the amount of power anyone has, as the flyball governor controls and limits the output of the",
-      "x": 0.102,
-      "y": 0.1425,
-      "w": 0.8177,
-      "h": 0.0487,
-      "words": [
         "trolling",
         "and",
         "limiting",
@@ -232,27 +133,27 @@
         "of",
         "the"
       ],
-      "conf": 96.42,
-      "source": "psm-6"
+      "conf": 95.8296,
+      "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
+      "id": "r2",
+      "order": 1,
       "text": "steam engine.",
       "x": 0.1028,
-      "y": 0.1955,
-      "w": 0.194,
-      "h": 0.0214,
+      "y": 0.1982,
+      "w": 0.1856,
+      "h": 0.0187,
       "words": [
         "steam",
         "engine."
       ],
-      "conf": 96.2679,
-      "source": "psm-6"
+      "conf": 96.0664,
+      "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r3",
+      "order": 2,
       "text": "iw:",
       "x": 0.1697,
       "y": 0.256,
@@ -265,8 +166,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
+      "id": "r4",
+      "order": 3,
       "text": "One of the chief controls over the power of a govern- ment is the law of a country. The law is a body of state-",
       "x": 0.102,
       "y": 0.4531,
@@ -299,17 +200,17 @@
         "of",
         "state-"
       ],
-      "conf": 92.4906,
-      "source": "psm-6"
+      "conf": 95.0895,
+      "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "ments about what may be done to or by any person. In free countries all men are equal under the law which they",
+      "id": "r5",
+      "order": 4,
+      "text": "ments about what may be done to or by any person. In free countries all men are equal under the law which they are responsible for keeping. To help them to keep it there",
       "x": 0.102,
       "y": 0.5056,
       "w": 0.8177,
-      "h": 0.0477,
+      "h": 0.0739,
       "words": [
         "ments",
         "about",
@@ -333,30 +234,6 @@
         "the",
         "law",
         "which",
-        "they"
-      ],
-      "conf": 96.4247,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "free countries all men are equal under the law which they are responsible for keeping. To help them to keep it there",
-      "x": 0.102,
-      "y": 0.5313,
-      "w": 0.8169,
-      "h": 0.0482,
-      "words": [
-        "free",
-        "countries",
-        "all",
-        "men",
-        "are",
-        "equal",
-        "under",
-        "the",
-        "law",
-        "which",
         "they",
         "are",
         "responsible",
@@ -370,29 +247,28 @@
         "it",
         "there"
       ],
-      "conf": 96.3924,
-      "source": "psm-6"
+      "conf": 96.4247,
+      "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "are police and judges.",
+      "id": "r6",
+      "order": 5,
+      "text": "are police and",
       "x": 0.1028,
-      "y": 0.5817,
-      "w": 0.306,
-      "h": 0.0262,
+      "y": 0.5838,
+      "w": 0.2985,
+      "h": 0.022,
       "words": [
         "are",
         "police",
-        "and",
-        "judges."
+        "and"
       ],
-      "conf": 83.1945,
-      "source": "psm-6"
+      "conf": 89.7516,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
+      "id": "r7",
+      "order": 6,
       "text": "judges: men trained in the law whe are responsible for saying what",
       "x": 0.1028,
       "y": 0.8366,
@@ -416,21 +292,21 @@
       "source": "psm-11"
     },
     {
-      "id": "r13",
-      "order": 12,
-      "text": "the low is and what is to be done to men who break it.",
+      "id": "r8",
+      "order": 7,
+      "text": "the law is and what is $e be done to men who break it.",
       "x": 0.1564,
       "y": 0.8522,
       "w": 0.5995,
-      "h": 0.0209,
+      "h": 0.0204,
       "words": [
         "the",
-        "low",
+        "law",
         "is",
         "and",
         "what",
         "is",
-        "to",
+        "$e",
         "be",
         "done",
         "to",
@@ -439,8 +315,8 @@
         "break",
         "it."
       ],
-      "conf": 93.5744,
-      "source": "psm-6"
+      "conf": 92.0464,
+      "source": "psm-11"
     }
   ]
 }

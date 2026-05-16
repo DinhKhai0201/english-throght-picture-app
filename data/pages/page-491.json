@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20491.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 24,
-    "wordCount": 233,
+    "regionCount": 15,
+    "wordCount": 163,
     "imageWidth": 1225,
     "imageHeight": 1859
   },
@@ -19,9 +19,8 @@
       "h": 0.5,
       "regionIds": [
         "r2",
-        "r5",
-        "r7",
-        "r9"
+        "r4",
+        "r7"
       ]
     },
     {
@@ -34,9 +33,8 @@
       "regionIds": [
         "r1",
         "r3",
-        "r4",
-        "r6",
-        "r8"
+        "r5",
+        "r6"
       ]
     },
     {
@@ -47,16 +45,11 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r10",
-        "r15",
-        "r16",
-        "r17",
-        "r19",
-        "r20",
-        "r21",
-        "r22",
-        "r23",
-        "r24"
+        "r8",
+        "r11",
+        "r13",
+        "r14",
+        "r15"
       ]
     },
     {
@@ -67,11 +60,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r18"
+        "r9",
+        "r10",
+        "r12"
       ]
     }
   ],
@@ -108,25 +99,25 @@
       "id": "r2",
       "order": 1,
       "text": "important part.",
-      "x": 0.1061,
-      "y": 0.0646,
-      "w": 0.2139,
-      "h": 0.0221,
+      "x": 0.1029,
+      "y": 0.0613,
+      "w": 0.2171,
+      "h": 0.0285,
       "words": [
         "important",
         "part."
       ],
-      "conf": 96.6245,
-      "source": "psm-6"
+      "conf": 96.5637,
+      "source": "psm-11"
     },
     {
       "id": "r3",
       "order": 2,
-      "text": "How old are the stars? How old are the Sun and the Earth and the Moon? Nobody knows for certain. It is not",
-      "x": 0.1053,
+      "text": "How old are the stars? How old are the Sun and the Earth and the Moon? Nobody knows for certain. It is not possible at present to be certain about such great ques-",
+      "x": 0.1045,
       "y": 0.1135,
-      "w": 0.8106,
-      "h": 0.0511,
+      "w": 0.8098,
+      "h": 0.0775,
       "words": [
         "How",
         "old",
@@ -150,30 +141,6 @@
         "certain.",
         "It",
         "is",
-        "not"
-      ],
-      "conf": 96.3596,
-      "source": "psm-6"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "Earth and the Moon? Nobody knows for certain. It is not possible at present to be certain about such great ques-",
-      "x": 0.1045,
-      "y": 0.142,
-      "w": 0.8081,
-      "h": 0.049,
-      "words": [
-        "Earth",
-        "and",
-        "the",
-        "Moon?",
-        "Nobody",
-        "knows",
-        "for",
-        "certain.",
-        "It",
-        "is",
         "not",
         "possible",
         "at",
@@ -186,12 +153,12 @@
         "great",
         "ques-"
       ],
-      "conf": 96.5154,
-      "source": "psm-6"
+      "conf": 96.4323,
+      "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r4",
+      "order": 3,
       "text": "tions as these, but two things seem probable.",
       "x": 0.1045,
       "y": 0.1947,
@@ -211,8 +178,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
+      "id": "r5",
+      "order": 4,
       "text": "The universe is about five billion years",
       "x": 0.1045,
       "y": 0.2469,
@@ -231,22 +198,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "ald.",
-      "x": 0.1029,
-      "y": 0.2738,
-      "w": 0.0522,
-      "h": 0.0161,
-      "words": [
-        "ald."
-      ],
-      "conf": 73.6467,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
+      "id": "r6",
+      "order": 5,
       "text": "It has been becoming more and more complex from the",
       "x": 0.1053,
       "y": 0.3244,
@@ -268,8 +221,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r7",
+      "order": 6,
       "text": "start.",
       "x": 0.1045,
       "y": 0.3529,
@@ -282,8 +235,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r8",
+      "order": 7,
       "text": "cortein: mind it is so.",
       "x": 0.102,
       "y": 0.6643,
@@ -300,8 +253,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
+      "id": "r9",
+      "order": 8,
       "text": "two different meanings of “certain”: Something Is certain (is a fact) if is well-supported by all the rest of",
       "x": 0.1355,
       "y": 0.6654,
@@ -328,13 +281,13 @@
         "rest",
         "of"
       ],
-      "conf": 85.9703,
-      "source": "psm-6"
+      "conf": 90.6407,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "You are certain about something when there is no question in your",
+      "id": "r10",
+      "order": 9,
+      "text": "You are certain cbout something when there Is no question in your",
       "x": 0.1371,
       "y": 0.6821,
       "w": 0.7698,
@@ -343,93 +296,22 @@
         "You",
         "are",
         "certain",
-        "about",
+        "cbout",
         "something",
         "when",
         "there",
-        "is",
+        "Is",
         "no",
         "question",
         "in",
         "your"
       ],
-      "conf": 92.4866,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "two different meanings of “certain”:",
-      "x": 0.4898,
-      "y": 0.6654,
-      "w": 0.4163,
-      "h": 0.0151,
-      "words": [
-        "two",
-        "different",
-        "meanings",
-        "of",
-        "“certain”:"
-      ],
-      "conf": 90.6407,
+      "conf": 89.4201,
       "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
-      "text": "Something Is certain (is a fact) if is well-supported by all the rest of knowledge. We are sometimes certain (in sense about things",
-      "x": 0.1355,
-      "y": 0.7176,
-      "w": 0.769,
-      "h": 0.0328,
-      "words": [
-        "Something",
-        "Is",
-        "certain",
-        "(is",
-        "a",
-        "fact)",
-        "if",
-        "is",
-        "well-supported",
-        "by",
-        "all",
-        "the",
-        "rest",
-        "of",
-        "knowledge.",
-        "We",
-        "are",
-        "sometimes",
-        "certain",
-        "(in",
-        "sense",
-        "about",
-        "things"
-      ],
-      "conf": 90.345,
-      "source": "psm-6"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "mind it is so.",
-      "x": 0.1567,
-      "y": 0.6977,
-      "w": 0.1837,
-      "h": 0.0199,
-      "words": [
-        "mind",
-        "it",
-        "is",
-        "so."
-      ],
-      "conf": 84.5405,
-      "source": "psm-6"
-    },
-    {
-      "id": "r16",
-      "order": 15,
+      "id": "r11",
+      "order": 10,
       "text": "which are not certain {in sense probable: more than possible, less than certain.",
       "x": 0.102,
       "y": 0.7526,
@@ -451,30 +333,11 @@
         "certain."
       ],
       "conf": 94.6864,
-      "source": "psm-6"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "which are not certain {in sense",
-      "x": 0.1543,
-      "y": 0.7526,
-      "w": 0.329,
-      "h": 0.014,
-      "words": [
-        "which",
-        "are",
-        "not",
-        "certain",
-        "{in",
-        "sense"
-      ],
-      "conf": 94.6864,
       "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
+      "id": "r12",
+      "order": 11,
       "text": "fe are sometimes certain (in sense about things",
       "x": 0.3167,
       "y": 0.7353,
@@ -494,28 +357,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r19",
-      "order": 18,
-      "text": "probable: more than possible, less than certain.",
-      "x": 0.102,
-      "y": 0.7821,
-      "w": 0.5624,
-      "h": 0.0156,
-      "words": [
-        "probable:",
-        "more",
-        "than",
-        "possible,",
-        "less",
-        "than",
-        "certain."
-      ],
-      "conf": 88.3103,
-      "source": "psm-6"
-    },
-    {
-      "id": "r20",
-      "order": 19,
+      "id": "r13",
+      "order": 12,
       "text": "balls bag and you take one of them out",
       "x": 0.1494,
       "y": 0.815,
@@ -536,8 +379,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r21",
-      "order": 20,
+      "id": "r14",
+      "order": 13,
       "text": "if there are seven black bolls and three white get a black one.",
       "x": 0.1527,
       "y": 0.7999,
@@ -558,51 +401,12 @@
         "black",
         "one."
       ],
-      "conf": 93.1185,
-      "source": "psm-6"
-    },
-    {
-      "id": "r22",
-      "order": 21,
-      "text": "if there are seven black bolls and three white",
-      "x": 0.1535,
-      "y": 0.7999,
-      "w": 0.5118,
-      "h": 0.0129,
-      "words": [
-        "if",
-        "there",
-        "are",
-        "seven",
-        "black",
-        "bolls",
-        "and",
-        "three",
-        "white"
-      ],
       "conf": 92.0547,
       "source": "psm-11"
     },
     {
-      "id": "r23",
-      "order": 22,
-      "text": "get a black one.",
-      "x": 0.1527,
-      "y": 0.8521,
-      "w": 0.1747,
-      "h": 0.0145,
-      "words": [
-        "get",
-        "a",
-        "black",
-        "one."
-      ],
-      "conf": 86.3144,
-      "source": "psm-6"
-    },
-    {
-      "id": "r24",
-      "order": 23,
+      "id": "r15",
+      "order": 14,
       "text": "without looking, it is probable tha? you will",
       "x": 0.1535,
       "y": 0.8343,

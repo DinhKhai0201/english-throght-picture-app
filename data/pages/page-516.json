@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20516.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 18,
-    "wordCount": 268,
+    "regionCount": 8,
+    "wordCount": 168,
     "imageWidth": 1180,
     "imageHeight": 1855
   },
@@ -18,8 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4",
-        "r13"
+        "r2",
+        "r4"
       ]
     },
     {
@@ -31,16 +31,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r3",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12"
+        "r3"
       ]
     },
     {
@@ -51,8 +42,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r14",
-        "r15"
+        "r5",
+        "r6"
       ]
     },
     {
@@ -63,9 +54,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r16",
-        "r17",
-        "r18"
+        "r7",
+        "r8"
       ]
     }
   ],
@@ -73,11 +63,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "The teacher gives the boy an answer though he knows that no one can become wise all in a minute. All our lives",
+      "text": "The teacher gives the boy an answer though he knows that no one can become wise all in a minute. All our lives through, we go on learning how to understand rightly, to do what is right, and to speak out at the right time. See",
       "x": 0.0966,
       "y": 0.0356,
       "w": 0.8322,
-      "h": 0.049,
+      "h": 0.1019,
       "words": [
         "The",
         "teacher",
@@ -101,56 +91,7 @@
         "minute.",
         "All",
         "our",
-        "lives"
-      ],
-      "conf": 96.5515,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "that no one can become wise all in a minute. All our lives through, we go on learning how to understand rightly, to",
-      "x": 0.0966,
-      "y": 0.0598,
-      "w": 0.8306,
-      "h": 0.0502,
-      "words": [
-        "that",
-        "no",
-        "one",
-        "can",
-        "become",
-        "wise",
-        "all",
-        "in",
-        "a",
-        "minute.",
-        "All",
-        "our",
         "lives",
-        "through,",
-        "we",
-        "go",
-        "on",
-        "learning",
-        "how",
-        "to",
-        "understand",
-        "rightly,",
-        "to"
-      ],
-      "conf": 96.4553,
-      "source": "psm-6"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "through, we go on learning how to understand rightly, to do what is right, and to speak out at the right time. See",
-      "x": 0.0992,
-      "y": 0.0879,
-      "w": 0.828,
-      "h": 0.0496,
-      "words": [
         "through,",
         "we",
         "go",
@@ -175,12 +116,12 @@
         "time.",
         "See"
       ],
-      "conf": 96.5581,
-      "source": "psm-6"
+      "conf": 96.6133,
+      "source": "psm-11"
     },
     {
-      "id": "r4",
-      "order": 3,
+      "id": "r2",
+      "order": 1,
       "text": "the size of the question the boy is asking.",
       "x": 0.0958,
       "y": 0.138,
@@ -201,13 +142,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "In this book we have not tried to give any answers, but only to bring together some of the more important ideas",
+      "id": "r3",
+      "order": 2,
+      "text": "In this book we have not tried to give any answers, but only to bring together some of the more important ideas and facts needed if we are to ask ourselves what we should know and think and feel and desire and do. To have been wise is to have known, thought, felt, desired and done as was best. But there are many different ways of knowing, thinking, feeling, desiring and doing. Which are the best? That is the question. Our lives are our at- tempts to find an answer, and language is the most impor-",
       "x": 0.0966,
       "y": 0.1914,
       "w": 0.8339,
-      "h": 0.0512,
+      "h": 0.2361,
       "words": [
         "In",
         "this",
@@ -230,29 +171,6 @@
         "the",
         "more",
         "important",
-        "ideas"
-      ],
-      "conf": 96.6597,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "only to bring together some of the more important ideas and facts needed if we are to ask ourselves what we",
-      "x": 0.0992,
-      "y": 0.2205,
-      "w": 0.8287,
-      "h": 0.0447,
-      "words": [
-        "only",
-        "to",
-        "bring",
-        "together",
-        "some",
-        "of",
-        "the",
-        "more",
-        "important",
         "ideas",
         "and",
         "facts",
@@ -264,55 +182,7 @@
         "ask",
         "ourselves",
         "what",
-        "we"
-      ],
-      "conf": 96.3095,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "and facts needed if we are to ask ourselves what we should know and think and feel and desire and do. To",
-      "x": 0.0992,
-      "y": 0.2469,
-      "w": 0.8297,
-      "h": 0.0442,
-      "words": [
-        "and",
-        "facts",
-        "needed",
-        "if",
         "we",
-        "are",
-        "to",
-        "ask",
-        "ourselves",
-        "what",
-        "we",
-        "should",
-        "know",
-        "and",
-        "think",
-        "and",
-        "feel",
-        "and",
-        "desire",
-        "and",
-        "do.",
-        "To"
-      ],
-      "conf": 96.1329,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "should know and think and feel and desire and do. To have been wise is to have known, thought, felt, desired",
-      "x": 0.0983,
-      "y": 0.2733,
-      "w": 0.8306,
-      "h": 0.048,
-      "words": [
         "should",
         "know",
         "and",
@@ -333,54 +203,7 @@
         "known,",
         "thought,",
         "felt,",
-        "desired"
-      ],
-      "conf": 96.667,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "have been wise is to have known, thought, felt, desired and done as was best. But there are many different ways",
-      "x": 0.0983,
-      "y": 0.2992,
-      "w": 0.8288,
-      "h": 0.049,
-      "words": [
-        "have",
-        "been",
-        "wise",
-        "is",
-        "to",
-        "have",
-        "known,",
-        "thought,",
-        "felt,",
         "desired",
-        "and",
-        "done",
-        "as",
-        "was",
-        "best.",
-        "But",
-        "there",
-        "are",
-        "many",
-        "different",
-        "ways"
-      ],
-      "conf": 96.0309,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "and done as was best. But there are many different ways of knowing, thinking, feeling, desiring and doing. Which",
-      "x": 0.1,
-      "y": 0.3256,
-      "w": 0.8271,
-      "h": 0.048,
-      "words": [
         "and",
         "done",
         "as",
@@ -399,53 +222,7 @@
         "desiring",
         "and",
         "doing.",
-        "Which"
-      ],
-      "conf": 96.7284,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "of knowing, thinking, feeling, desiring and doing. Which are the best? That is the question. Our lives are our at-",
-      "x": 0.0992,
-      "y": 0.352,
-      "w": 0.828,
-      "h": 0.0485,
-      "words": [
-        "of",
-        "knowing,",
-        "thinking,",
-        "feeling,",
-        "desiring",
-        "and",
-        "doing.",
         "Which",
-        "are",
-        "the",
-        "best?",
-        "That",
-        "is",
-        "the",
-        "question.",
-        "Our",
-        "lives",
-        "are",
-        "our",
-        "at-"
-      ],
-      "conf": 96.6369,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "are the best? That is the question. Our lives are our at- tempts to find an answer, and language is the most impor-",
-      "x": 0.0992,
-      "y": 0.3784,
-      "w": 0.828,
-      "h": 0.0491,
-      "words": [
         "are",
         "the",
         "best?",
@@ -470,12 +247,12 @@
         "most",
         "impor-"
       ],
-      "conf": 96.014,
-      "source": "psm-6"
+      "conf": 96.6597,
+      "source": "psm-11"
     },
     {
-      "id": "r13",
-      "order": 12,
+      "id": "r4",
+      "order": 3,
       "text": "tant of all our instruments for this purpose.",
       "x": 0.0992,
       "y": 0.4318,
@@ -495,8 +272,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
+      "id": "r5",
+      "order": 4,
       "text": "desire: have a desire for.",
       "x": 0.0983,
       "y": 0.8329,
@@ -513,8 +290,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r15",
-      "order": 14,
+      "id": "r6",
+      "order": 5,
       "text": "will desire",
       "x": 0.0941,
       "y": 0.862,
@@ -528,25 +305,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r16",
-      "order": 15,
-      "text": "will desire desire(s) desired",
-      "x": 0.0975,
-      "y": 0.8566,
-      "w": 0.8322,
-      "h": 0.028,
-      "words": [
-        "will",
-        "desire",
-        "desire(s)",
-        "desired"
-      ],
-      "conf": 92.2316,
-      "source": "psm-6"
-    },
-    {
-      "id": "r17",
-      "order": 16,
+      "id": "r7",
+      "order": 6,
       "text": "desire(s)",
       "x": 0.4746,
       "y": 0.862,
@@ -559,8 +319,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r18",
-      "order": 17,
+      "id": "r8",
+      "order": 7,
       "text": "desired",
       "x": 0.8364,
       "y": 0.8588,

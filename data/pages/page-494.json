@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20494.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 105,
+    "regionCount": 10,
+    "wordCount": 95,
     "imageWidth": 1196,
     "imageHeight": 1859
   },
@@ -31,8 +31,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3",
-        "r5"
+        "r3"
       ]
     },
     {
@@ -43,9 +42,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r10",
-        "r12"
+        "r6",
+        "r8",
+        "r10"
       ]
     },
     {
@@ -56,10 +55,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r8",
-        "r9",
-        "r11"
+        "r5",
+        "r7",
+        "r9"
       ]
     }
   ],
@@ -134,21 +132,6 @@
     {
       "id": "r5",
       "order": 4,
-      "text": "PAST SIMPLE",
-      "x": 0.1773,
-      "y": 0.3911,
-      "w": 0.6814,
-      "h": 0.0178,
-      "words": [
-        "PAST",
-        "SIMPLE"
-      ],
-      "conf": 81.0191,
-      "source": "psm-6"
-    },
-    {
-      "id": "r6",
-      "order": 5,
       "text": "In this picture the past is to the left and we men of today",
       "x": 0.1012,
       "y": 0.546,
@@ -174,9 +157,9 @@
       "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "are at the top of the curve.",
+      "id": "r6",
+      "order": 5,
+      "text": "are at the top of thé curve.",
       "x": 0.1003,
       "y": 0.5729,
       "w": 0.3687,
@@ -187,20 +170,20 @@
         "the",
         "top",
         "of",
-        "the",
+        "thé",
         "curve."
       ],
-      "conf": 96.7737,
-      "source": "psm-6"
+      "conf": 95.6576,
+      "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "Long, long ago, the only sorts of changes that took place were—so men of science say—very simple in comparison",
-      "x": 0.1003,
+      "id": "r7",
+      "order": 6,
+      "text": "Long, long ago, the only sorts of changes that took place were—so men of science say—very simple in comparison with the changes which are taking place in you now as",
+      "x": 0.0987,
       "y": 0.6573,
-      "w": 0.8177,
-      "h": 0.0485,
+      "w": 0.8194,
+      "h": 0.0743,
       "words": [
         "Long,",
         "long",
@@ -213,27 +196,6 @@
         "that",
         "took",
         "place",
-        "were—so",
-        "men",
-        "of",
-        "science",
-        "say—very",
-        "simple",
-        "in",
-        "comparison"
-      ],
-      "conf": 96.6857,
-      "source": "psm-6"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "were—so men of science say—very simple in comparison with the changes which are taking place in you now as",
-      "x": 0.0987,
-      "y": 0.6832,
-      "w": 0.8194,
-      "h": 0.0484,
-      "words": [
         "were—so",
         "men",
         "of",
@@ -254,12 +216,12 @@
         "now",
         "as"
       ],
-      "conf": 94.7151,
-      "source": "psm-6"
+      "conf": 96.6857,
+      "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r8",
+      "order": 7,
       "text": "you read this.",
       "x": 0.1003,
       "y": 0.7364,
@@ -274,8 +236,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
+      "id": "r9",
+      "order": 8,
       "text": "The curve represents the change from simple to com- plex. The higher it goes the more complex are the sorts",
       "x": 0.1003,
       "y": 0.8241,
@@ -303,12 +265,12 @@
         "the",
         "sorts"
       ],
-      "conf": 95.545,
-      "source": "psm-6"
+      "conf": 95.4624,
+      "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
+      "id": "r10",
+      "order": 9,
       "text": "of changes which are taking place.",
       "x": 0.1003,
       "y": 0.8768,

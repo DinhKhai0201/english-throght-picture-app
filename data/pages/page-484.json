@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20484.png",
   "layout": "single",
   "stats": {
-    "regionCount": 14,
-    "wordCount": 175,
+    "regionCount": 6,
+    "wordCount": 109,
     "imageWidth": 1205,
     "imageHeight": 1867
   },
@@ -23,15 +23,7 @@
         "r3",
         "r4",
         "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14"
+        "r6"
       ]
     }
   ],
@@ -39,11 +31,11 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "It was James Watt who in invented the Flyball Governor for steam engines as a way of making the",
-      "x": 0.0996,
+      "text": "It was James Watt who in invented the Flyball Governor for steam engines as a way of making the engine able to keep control over its own rate of motion.",
+      "x": 0.0971,
       "y": 0.0407,
-      "w": 0.8083,
-      "h": 0.0487,
+      "w": 0.8108,
+      "h": 0.0744,
       "words": [
         "It",
         "was",
@@ -54,51 +46,6 @@
         "invented",
         "the",
         "Flyball",
-        "Governor",
-        "for",
-        "steam",
-        "engines",
-        "as",
-        "a",
-        "way",
-        "of",
-        "making",
-        "the"
-      ],
-      "conf": 96.2886,
-      "source": "psm-6"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "It was James Watt who in invented the Flyball",
-      "x": 0.1004,
-      "y": 0.0407,
-      "w": 0.8075,
-      "h": 0.0214,
-      "words": [
-        "It",
-        "was",
-        "James",
-        "Watt",
-        "who",
-        "in",
-        "invented",
-        "the",
-        "Flyball"
-      ],
-      "conf": 94.7197,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "Governor for steam engines as a way of making the engine able to keep control over its own rate of motion.",
-      "x": 0.0971,
-      "y": 0.0664,
-      "w": 0.81,
-      "h": 0.0487,
-      "words": [
         "Governor",
         "for",
         "steam",
@@ -121,12 +68,12 @@
         "of",
         "motion."
       ],
-      "conf": 96.6622,
-      "source": "psm-6"
+      "conf": 94.7197,
+      "source": "psm-11"
     },
     {
-      "id": "r4",
-      "order": 3,
+      "id": "r2",
+      "order": 1,
       "text": "This was the invention which made the steam engine a",
       "x": 0.0971,
       "y": 0.1178,
@@ -148,8 +95,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r3",
+      "order": 2,
       "text": "safe machine.",
       "x": 0.0971,
       "y": 0.1441,
@@ -163,39 +110,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "y closed open",
-      "x": 0.2714,
-      "y": 0.3278,
-      "w": 0.3834,
-      "h": 0.0161,
-      "words": [
-        "y",
-        "closed",
-        "open"
-      ],
-      "conf": 86.3003,
-      "source": "psm-6"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "vaive valve",
-      "x": 0.3759,
-      "y": 0.3144,
-      "w": 0.2846,
-      "h": 0.0171,
-      "words": [
-        "vaive",
-        "valve"
-      ],
-      "conf": 93.787,
-      "source": "psm-6"
-    },
-    {
-      "id": "r8",
-      "order": 7,
+      "id": "r4",
+      "order": 3,
       "text": "YD",
       "x": 0.3751,
       "y": 0.3787,
@@ -208,13 +124,13 @@
       "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "The two balls are kept flying round and round by the motion of the engine. As it goes more quickly they fly",
-      "x": 0.0938,
+      "id": "r5",
+      "order": 4,
+      "text": "The two balls are kept flying round and round by the motion of the engine. As it goes more quickly they fly farther out and this shuts down the supply of steam coming to the engine from the boiler. When the engine goes more slowly the balls fly lower and this opens up the shut-off (valve) and lets more steam through the",
+      "x": 0.0921,
       "y": 0.6904,
-      "w": 0.8199,
-      "h": 0.0488,
+      "w": 0.8216,
+      "h": 0.1521,
       "words": [
         "The",
         "two",
@@ -237,54 +153,7 @@
         "more",
         "quickly",
         "they",
-        "fly"
-      ],
-      "conf": 96.426,
-      "source": "psm-6"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "motion of the engine. As it goes more quickly they fly farther out and this shuts down the supply of steam",
-      "x": 0.0946,
-      "y": 0.7172,
-      "w": 0.8191,
-      "h": 0.0487,
-      "words": [
-        "motion",
-        "of",
-        "the",
-        "engine.",
-        "As",
-        "it",
-        "goes",
-        "more",
-        "quickly",
-        "they",
         "fly",
-        "farther",
-        "out",
-        "and",
-        "this",
-        "shuts",
-        "down",
-        "the",
-        "supply",
-        "of",
-        "steam"
-      ],
-      "conf": 96.5393,
-      "source": "psm-6"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "farther out and this shuts down the supply of steam coming to the engine from the boiler. When the engine",
-      "x": 0.0929,
-      "y": 0.7434,
-      "w": 0.8199,
-      "h": 0.0477,
-      "words": [
         "farther",
         "out",
         "and",
@@ -304,54 +173,7 @@
         "boiler.",
         "When",
         "the",
-        "engine"
-      ],
-      "conf": 96.5931,
-      "source": "psm-6"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "coming to the engine from the boiler. When the engine goes more slowly the balls fly lower and this opens up",
-      "x": 0.0921,
-      "y": 0.7697,
-      "w": 0.8207,
-      "h": 0.0482,
-      "words": [
-        "coming",
-        "to",
-        "the",
         "engine",
-        "from",
-        "the",
-        "boiler.",
-        "When",
-        "the",
-        "engine",
-        "goes",
-        "more",
-        "slowly",
-        "the",
-        "balls",
-        "fly",
-        "lower",
-        "and",
-        "this",
-        "opens",
-        "up"
-      ],
-      "conf": 96.3207,
-      "source": "psm-6"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "goes more slowly the balls fly lower and this opens up the shut-off (valve) and lets more steam through the",
-      "x": 0.0921,
-      "y": 0.7959,
-      "w": 0.8199,
-      "h": 0.0466,
-      "words": [
         "goes",
         "more",
         "slowly",
@@ -373,12 +195,12 @@
         "through",
         "the"
       ],
-      "conf": 96.455,
-      "source": "psm-6"
+      "conf": 96.5481,
+      "source": "psm-11"
     },
     {
-      "id": "r14",
-      "order": 13,
+      "id": "r6",
+      "order": 5,
       "text": "pipe to the engine.",
       "x": 0.0938,
       "y": 0.8468,
