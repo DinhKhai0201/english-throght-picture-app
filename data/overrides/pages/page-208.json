@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "What keeps the moon up in the sky? Why does not the moon come down?", "x": 0.12, "y": 0.32, "w": 0.38, "h": 0.1 },
+    { "text": "The moon is a great body. Its weight is great. The earth is a great body. Its weight is eighty-one times the weight of the moon. Two times three is six. 2 X 3 = 6", "x": 0.56, "y": 0.13, "w": 0.4, "h": 0.25 },
+    { "text": "The moon and the earth are not very far from one another. The distance between them is about two hundred and thirty-nine thousand (239,000) miles.", "x": 0.1, "y": 0.54, "w": 0.4, "h": 0.2 },
+    { "text": "Because they are great bodies and near one another, the attraction between the moon and the earth is very great. Why does the moon not come down to the earth? That is a question.", "x": 0.54, "y": 0.57, "w": 0.4, "h": 0.22 }
+  ]
+}

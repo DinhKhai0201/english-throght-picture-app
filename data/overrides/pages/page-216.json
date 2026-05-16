@@ -1,0 +1,15 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "QUESTIONS", "x": 0.4, "y": 0.1, "w": 0.2, "h": 0.03 },
+    { "text": "a", "x": 0.08, "y": 0.18, "w": 0.02, "h": 0.02 },
+    { "text": "We put a bottle on a shelf. Which of these things may we put on a shelf: a book, a mountain, a cup, a box, a star, a clock, a horse, a distance, a plate, a carriage, a river, a house, a spoon, a garden?", "x": 0.12, "y": 0.18, "w": 0.35, "h": 0.3 },
+    { "text": "b", "x": 0.53, "y": 0.18, "w": 0.02, "h": 0.02 },
+    { "text": "We put potatoes in a pot. Which of these things may we put in a pot: water, windows, food, streets, tables, milk, soup, trains, salt, colors, eggs, wood, ideas?", "x": 0.58, "y": 0.18, "w": 0.35, "h": 0.25 },
+    { "text": "c", "x": 0.08, "y": 0.51, "w": 0.02, "h": 0.02 },
+    { "text": "We put money in our pockets. Which of these things may we put in our pockets: pipes, education, letters, pencils, offices, islands, maps, hands, governments, buttons, watches, distance, balls, roofs, knives?", "x": 0.12, "y": 0.51, "w": 0.35, "h": 0.3 },
+    { "text": "d", "x": 0.53, "y": 0.51, "w": 0.02, "h": 0.02 },
+    { "text": "We put our hats on. Which of these things may we put on: feet, boots, seats, gloves, shirts, walls, directions, coats, buildings, soap, scissors, collars, locks, socks, trousers, branches, trays, shoes, apples?", "x": 0.58, "y": 0.51, "w": 0.35, "h": 0.28 },
+    { "text": "Answers are on page 212.", "x": 0.3, "y": 0.81, "w": 0.4, "h": 0.03 }
+  ]
+}

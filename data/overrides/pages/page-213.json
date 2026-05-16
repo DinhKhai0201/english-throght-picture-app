@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Here is a ball. It is hanging on a cord. I will give a blow to the ball with this stick.", "x": 0.12, "y": 0.13, "w": 0.35, "h": 0.25 },
+    { "text": "I gave the blow. Now the ball is in motion. What was the cause of the motion? The blow of the stick was the cause of the motion.", "x": 0.54, "y": 0.25, "w": 0.38, "h": 0.2 },
+    { "text": "The ball was not in motion before the blow. It was at rest. It was hanging on the end of the cord. The blow was the cause of the motion.", "x": 0.12, "y": 0.51, "w": 0.38, "h": 0.35 },
+    { "text": "After the blow the ball was in motion. The motion came from the blow. The motion was the effect of the blow.", "x": 0.54, "y": 0.76, "w": 0.38, "h": 0.15 }
+  ]
+}

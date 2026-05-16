@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Here is Sir Isaac Newton, the great man of science. Newton had a great mind.", "x": 0.12, "y": 0.08, "w": 0.38, "h": 0.12 },
+    { "text": "He is under an apple tree. It is the year 1666. Those are apples which are over his head. The seat has three legs.", "x": 0.54, "y": 0.1, "w": 0.38, "h": 0.28 },
+    { "text": "Here is an apple which was over his head. The apple was on a branch of the tree.", "x": 0.12, "y": 0.51, "w": 0.38, "h": 0.12 },
+    { "text": "The apple came off the branch. It came down. It came down on Newton's head.", "x": 0.54, "y": 0.52, "w": 0.38, "h": 0.38 }
+  ]
+}

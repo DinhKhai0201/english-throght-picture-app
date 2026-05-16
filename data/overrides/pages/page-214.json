@@ -1,0 +1,15 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Which of the statements on this page are true and which are false? Put a T before the true statements and an F before the false.", "x": 0.08, "y": 0.08, "w": 0.85, "h": 0.08 },
+    { "text": "a", "x": 0.08, "y": 0.2, "w": 0.02, "h": 0.02 },
+    { "text": "1. The earth is in motion. 2. The earth is turning round. 3. The earth goes round the moon.", "x": 0.12, "y": 0.2, "w": 0.35, "h": 0.15 },
+    { "text": "b", "x": 0.53, "y": 0.2, "w": 0.02, "h": 0.02 },
+    { "text": "1. The moon is greater than the sun. 2. The sun is colder than the moon. 3. The moon goes round the earth.", "x": 0.58, "y": 0.2, "w": 0.35, "h": 0.18 },
+    { "text": "c", "x": 0.08, "y": 0.4, "w": 0.02, "h": 0.02 },
+    { "text": "1. The attraction between two bodies gets greater as they go farther from one another. 2. The attraction between two bodies is greater when they are nearer. 3. When two great bodies are near one another the attraction between them is small.", "x": 0.12, "y": 0.4, "w": 0.35, "h": 0.45 },
+    { "text": "d", "x": 0.53, "y": 0.4, "w": 0.02, "h": 0.02 },
+    { "text": "1. When a blow puts a ball in motion, the blow is the cause of the motion. 2. When a blow puts a ball in motion, the motion is the effect of the blow. 3. When a body is in motion it is at rest.", "x": 0.58, "y": 0.4, "w": 0.35, "h": 0.35 },
+    { "text": "Answers are on page 212.", "x": 0.3, "y": 0.84, "w": 0.4, "h": 0.03 }
+  ]
+}

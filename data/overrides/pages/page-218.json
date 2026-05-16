@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "What is this? The man has an umbrella in his hand. It is open. He has it over his head. Why?", "x": 0.1, "y": 0.3, "w": 0.38, "h": 0.15 },
+    { "text": "Because it is raining. Water is coming down from the sky. The water is rain. Rain is coming down. Rain is falling. It is raining.", "x": 0.53, "y": 0.27, "w": 0.38, "h": 0.18 },
+    { "text": "The rain made the man put up his umbrella. That was the effect of the rain. Today is Monday. Yesterday (Sunday) the sun was bright. There were no clouds in the sky.", "x": 0.08, "y": 0.53, "w": 0.4, "h": 0.22 },
+    { "text": "Today there are dark clouds in the sky. They come between us and the sun. The dark clouds keep the light of the sun from us.", "x": 0.52, "y": 0.53, "w": 0.4, "h": 0.18 }
+  ]
+}

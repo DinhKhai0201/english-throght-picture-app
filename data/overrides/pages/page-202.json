@@ -1,0 +1,10 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "This is a flame. It sends out light.", "x": 0.12, "y": 0.12, "w": 0.3, "h": 0.05 },
+    { "text": "The sun sends out light. The light goes out from the sun in every direction.", "x": 0.1, "y": 0.23, "w": 0.38, "h": 0.1 },
+    { "text": "Light goes 186,300 miles in a second. How far does it go in a year? It goes about 6,000,000,000,000 miles in a year.", "x": 0.52, "y": 0.12, "w": 0.4, "h": 0.22 },
+    { "text": "A light-year is 6,000,000,000,000 miles. The nearest star is over four light-years from the earth.", "x": 0.12, "y": 0.54, "w": 0.35, "h": 0.2 },
+    { "text": "The nearest star is 25,000,000,000,000 miles from the earth. The nearest stars are very far from us. Some of the stars are very much farther. The farthest stars are thousands of light-years from us.", "x": 0.52, "y": 0.54, "w": 0.4, "h": 0.28 }
+  ]
+}

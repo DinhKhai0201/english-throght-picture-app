@@ -1,0 +1,27 @@
+{
+  "layout": "full",
+  "regions": [
+    { "text": "Answers to questions on pages 209-211.", "x": 0.2, "y": 0.1, "w": 0.6, "h": 0.03 },
+    { "text": "Page 209", "x": 0.1, "y": 0.15, "w": 0.2, "h": 0.02 },
+    { "text": "a 1. T 2. T 3. F", "x": 0.2, "y": 0.18, "w": 0.2, "h": 0.08 },
+    { "text": "b 1. F 2. F 3. T", "x": 0.45, "y": 0.18, "w": 0.2, "h": 0.08 },
+    { "text": "c 1. F 2. T 3. F", "x": 0.72, "y": 0.18, "w": 0.2, "h": 0.08 },
+    { "text": "d 1. T 2. T 3. F", "x": 0.2, "y": 0.27, "w": 0.2, "h": 0.08 },
+    { "text": "Page 210", "x": 0.1, "y": 0.38, "w": 0.2, "h": 0.02 },
+    { "text": "a from the roots of a plant", "x": 0.14, "y": 0.41, "w": 0.25, "h": 0.05 },
+    { "text": "b from milk", "x": 0.41, "y": 0.41, "w": 0.2, "h": 0.02 },
+    { "text": "c from the sun or flames", "x": 0.68, "y": 0.41, "w": 0.25, "h": 0.05 },
+    { "text": "d from persons", "x": 0.14, "y": 0.46, "w": 0.25, "h": 0.02 },
+    { "text": "e from plants or from seeds", "x": 0.41, "y": 0.46, "w": 0.25, "h": 0.05 },
+    { "text": "f from the sky or clouds", "x": 0.68, "y": 0.46, "w": 0.25, "h": 0.05 },
+    { "text": "g from orange trees", "x": 0.14, "y": 0.51, "w": 0.25, "h": 0.05 },
+    { "text": "h from animals", "x": 0.41, "y": 0.51, "w": 0.2, "h": 0.02 },
+    { "text": "i from birds", "x": 0.68, "y": 0.51, "w": 0.2, "h": 0.02 },
+    { "text": "A man, a dog, a clock, a goat, a bird may have a face. A man, a dog, a goat, a bird, a river may have a mouth. A man and a clock may have hands. A fridge and a plane may have a door.", "x": 0.14, "y": 0.58, "w": 0.8, "h": 0.12 },
+    { "text": "Page 211", "x": 0.1, "y": 0.74, "w": 0.2, "h": 0.02 },
+    { "text": "a a book, a cup, a box, a clock, a plate, a spoon.", "x": 0.14, "y": 0.76, "w": 0.8, "h": 0.03 },
+    { "text": "b water, food, milk, soup, salt, eggs.", "x": 0.14, "y": 0.79, "w": 0.8, "h": 0.03 },
+    { "text": "c pipes, letters, pencils, maps, hands, buttons, watches, balls, knives.", "x": 0.14, "y": 0.82, "w": 0.8, "h": 0.04 },
+    { "text": "d boots, gloves, shirts, coats, collars, socks, trousers, shoes.", "x": 0.14, "y": 0.86, "w": 0.8, "h": 0.04 }
+  ]
+}
