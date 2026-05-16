@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "What sort of work is this man doing? He is cutting wood.", "x": 0.12, "y": 0.08, "w": 0.38, "h": 0.1 },
+    { "text": "What sort of work is this woman doing? She is washing stockings and dresses.", "x": 0.52, "y": 0.38, "w": 0.38, "h": 0.1 },
+    { "text": "What sort of work does this man do? He keeps a store. Fruit Store. It is a fruit store. He is a storekeeper.", "x": 0.12, "y": 0.51, "w": 0.38, "h": 0.4 },
+    { "text": "What sort of work does this woman do? She keeps a house. It is her house. She is a housekeeper.", "x": 0.53, "y": 0.51, "w": 0.38, "h": 0.4 }
+  ]
+}

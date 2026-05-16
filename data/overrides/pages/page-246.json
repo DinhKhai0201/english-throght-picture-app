@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Seeing and hearing and touch are three of our senses. We get knowledge through our eyes (seeing), through our ears (hearing), and through our fingers (touching). These are three of our chief senses.", "x": 0.08, "y": 0.14, "w": 0.38, "h": 0.25 },
+    { "text": "Another sense is taste. This is a man's tongue. These are his lips. This is his chin. The chief work of the tongue is tasting.", "x": 0.5, "y": 0.1, "w": 0.4, "h": 0.3 },
+    { "text": "Here is some white powder on a plate. It may be salt or it may be sugar. Which is it—salt or sugar?", "x": 0.08, "y": 0.65, "w": 0.38, "h": 0.15 },
+    { "text": "She is tasting the powder. She has some of it on her finger. She is putting some of the powder on her tongue. She is tasting it.", "x": 0.5, "y": 0.61, "w": 0.4, "h": 0.25 }
+  ]
+}

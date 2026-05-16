@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "I put my hands in the basins at the sides. One of my hands is in the cold water; the other is in the warm water. I keep them there for a time.", "x": 0.12, "y": 0.28, "w": 0.35, "h": 0.2 },
+    { "text": "Now I am putting them together into the middle basin where the water is not cold and not warm.", "x": 0.53, "y": 0.16, "w": 0.4, "h": 0.15 },
+    { "text": "What is this? This water seems warm to one hand and it seems cold to the other! It is the same water. But it seems cold and warm at the same time!", "x": 0.12, "y": 0.57, "w": 0.35, "h": 0.35 },
+    { "text": "Why is this? It is because one hand was in warm water and the other in cold water before I put them in this middle basin.", "x": 0.53, "y": 0.6, "w": 0.38, "h": 0.25 }
+  ]
+}

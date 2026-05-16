@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "We see things with our eyes and we see their colors. Here are some names of colors: green, blue, white, red, yellow, gray.", "x": 0.08, "y": 0.16, "w": 0.38, "h": 0.25 },
+    { "text": "What is the color of grass and leaves in spring? Grass and leaves in spring are green. What is the color of this girl's lips? Her lips are red.", "x": 0.5, "y": 0.2, "w": 0.4, "h": 0.3 },
+    { "text": "The sky is blue. It is blue when it is clear. The color of some clouds is white. Other clouds are gray.", "x": 0.1, "y": 0.52, "w": 0.35, "h": 0.4 },
+    { "text": "The sun is yellow. Sometimes when it is going down or coming up it is red. This flame is yellow.", "x": 0.54, "y": 0.52, "w": 0.38, "h": 0.4 }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "After a time, if the rate of turning is the same, the man seems to himself to be at rest (not in motion).", "x": 0.1, "y": 0.35, "w": 0.38, "h": 0.15 },
+    { "text": "He is like all the men and women on the earth. We are all turning round all the time with the earth, but we seem to ourselves to be at rest.", "x": 0.52, "y": 0.11, "w": 0.4, "h": 0.18 },
+    { "text": "We have no feeling that we are in motion. This is because the rate of turning is the same. The man is in motion. He seems to himself to be at rest.", "x": 0.12, "y": 0.6, "w": 0.38, "h": 0.25 },
+    { "text": "Here are three boys and a dog. Two of the boys are taking a rest. They are resting on their beds. The other boy and the dog are in motion.", "x": 0.53, "y": 0.7, "w": 0.38, "h": 0.22 }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "The taste of sugar is sweet. This is a cake. It has white sugar on the top. Cakes with sugar on them are very sweet.", "x": 0.12, "y": 0.12, "w": 0.35, "h": 0.35 },
+    { "text": "This is an orange. This is its skin. Some oranges are sweet. But the taste of their skin is bitter.", "x": 0.54, "y": 0.11, "w": 0.38, "h": 0.35 },
+    { "text": "Salt has a salt taste. Sugar has a sweet taste. To the eye salt and sugar seem the same.", "x": 0.12, "y": 0.61, "w": 0.35, "h": 0.2 },
+    { "text": "But to the tongue they are very different. Their taste is very different. Salt. Sugar.", "x": 0.53, "y": 0.52, "w": 0.38, "h": 0.4 }
+  ]
+}

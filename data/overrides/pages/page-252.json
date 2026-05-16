@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Seeing, hearing, touch, taste, and smell are \"the five senses.\" But we have more than five senses. Which are some of the other senses?", "x": 0.1, "y": 0.18, "w": 0.38, "h": 0.2 },
+    { "text": "Our sense of how warm or how cold things are is another. Here is some cold water with ice in it. It is very cold.", "x": 0.52, "y": 0.14, "w": 0.4, "h": 0.18 },
+    { "text": "Here is some water in a kettle. The water is boiling. Steam is coming out of the kettle.", "x": 0.1, "y": 0.77, "w": 0.38, "h": 0.15 },
+    { "text": "Very cold. Very warm. Here are three basins. The basin to the right has very warm water in it. The basin to the left has cold water in it. The basin in the middle has water which is not cold and not warm in it.", "x": 0.52, "y": 0.61, "w": 0.4, "h": 0.35 }
+  ]
+}

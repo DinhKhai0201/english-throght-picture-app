@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "Another sense is our sense of motion. Here is a seat which goes round and round.", "x": 0.1, "y": 0.1, "w": 0.38, "h": 0.12 },
+    { "text": "A man is in the seat. He is going round and round...", "x": 0.53, "y": 0.1, "w": 0.38, "h": 0.12 },
+    { "text": "At first he has a feeling that he is in motion. He has the feeling that he is going round. The seat, with the man in it, keeps on turning round at the same rate. It does not go quicker. It does not go slower.", "x": 0.1, "y": 0.59, "w": 0.4, "h": 0.3 },
+    { "text": "After a time the man has a feeling that he is not in motion. But there is no change in the rate at which the seat is turning. It is going round the same number of times a minute.", "x": 0.53, "y": 0.59, "w": 0.4, "h": 0.3 }
+  ]
+}

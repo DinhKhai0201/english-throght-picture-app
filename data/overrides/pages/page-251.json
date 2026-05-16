@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "We see things with our eyes. We see the sizes and colors of things. Sometimes things seem to our eyes greater or smaller than they are. They are not what they seem.", "x": 0.12, "y": 0.16, "w": 0.35, "h": 0.25 },
+    { "text": "This man is tall. This man is short. This is a tall woman. This is a short woman.", "x": 0.52, "y": 0.1, "w": 0.4, "h": 0.35 },
+    { "text": "Here are two men. Do they seem the same size?", "x": 0.12, "y": 0.52, "w": 0.35, "h": 0.1 },
+    { "text": "Which of them seems taller? Does the man who is farther seem taller than the man who is nearer? The pictures of them are the same size. The lines in the picture make the man who is nearer seem shorter.", "x": 0.53, "y": 0.57, "w": 0.4, "h": 0.35 }
+  ]
+}

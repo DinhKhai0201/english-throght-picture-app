@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "What is their work? What do the ends of our fingers do? Their chief work is touching.", "x": 0.1, "y": 0.14, "w": 0.4, "h": 0.15 },
+    { "text": "Those fingers are touching the cover of a book. Touching gives us knowledge. When our eyes are shut,", "x": 0.54, "y": 0.14, "w": 0.4, "h": 0.15 },
+    { "text": "or when we are looking in another direction, (She is touching the book)", "x": 0.1, "y": 0.52, "w": 0.38, "h": 0.1 },
+    { "text": "or when we are not able to see, we get knowledge through touching and feeling with our fingers.", "x": 0.54, "y": 0.52, "w": 0.38, "h": 0.15 }
+  ]
+}

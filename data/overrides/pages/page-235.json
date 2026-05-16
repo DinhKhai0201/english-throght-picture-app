@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "We keep money in banks. Banking is an important sort of business. Men and women in banks and business houses keep accounts.", "x": 0.12, "y": 0.16, "w": 0.35, "h": 0.2 },
+    { "text": "This is an account. Keeping accounts is an important part of business.", "x": 0.52, "y": 0.11, "w": 0.4, "h": 0.35 },
+    { "text": "Keeping accounts is one sort of work. These are account books.", "x": 0.1, "y": 0.56, "w": 0.38, "h": 0.35 },
+    { "text": "Farming is another sort of work. This is a farm.", "x": 0.52, "y": 0.51, "w": 0.38, "h": 0.4 }
+  ]
+}

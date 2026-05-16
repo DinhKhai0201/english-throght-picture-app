@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "What is the work of the nose? What do we do with our noses? She has a flower in her hand. She is smelling the flower.", "x": 0.12, "y": 0.11, "w": 0.35, "h": 0.25 },
+    { "text": "Some flowers have a sweet smell. Some flowers have no smell. This is grass. These flowers are in a garden. They have a sweet smell.", "x": 0.54, "y": 0.11, "w": 0.38, "h": 0.35 },
+    { "text": "These are pigs. Some pigs are dirty. Some pigs are clean. (See page 125.) The smell of dirty pigs is not sweet. It is a bad smell.", "x": 0.1, "y": 0.65, "w": 0.38, "h": 0.25 },
+    { "text": "This is a fire. This is smoke. Some smoke has a good smell. The smell may not be sweet, but it may be a good smell. He is smoking a pipe. Is the smell of the smoke good?", "x": 0.52, "y": 0.51, "w": 0.4, "h": 0.4 }
+  ]
+}

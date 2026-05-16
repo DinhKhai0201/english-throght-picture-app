@@ -1,0 +1,9 @@
+{
+  "layout": "quad",
+  "regions": [
+    { "text": "What is the work of the eyes? Seeing. Their work is seeing. What is the work of the ears? Hearing. Their work is hearing.", "x": 0.12, "y": 0.11, "w": 0.38, "h": 0.35 },
+    { "text": "What is the work of the legs? Walking. Walking is their chief work. What is the work of the mouth?", "x": 0.54, "y": 0.11, "w": 0.38, "h": 0.35 },
+    { "text": "Is talking or taking in food the chief work of the mouth? I say this. This is talk.", "x": 0.12, "y": 0.51, "w": 0.38, "h": 0.2 },
+    { "text": "What is the work of the hands? Taking things up, putting them down, getting things, giving things, making things. We do things with our hands.", "x": 0.54, "y": 0.58, "w": 0.4, "h": 0.35 }
+  ]
+}
