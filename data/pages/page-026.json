@@ -1,0 +1,118 @@
+{
+  "page": 26,
+  "image": "/books/page 26.png",
+  "imageApiPath": "/api/books/page%2026.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 5,
+    "wordCount": 22,
+    "imageWidth": 1285,
+    "imageHeight": 1838
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This is a ship.",
+      "x": 0.2272,
+      "y": 0.1409,
+      "w": 0.1844,
+      "h": 0.0245,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "ship."
+      ],
+      "conf": 92.9793,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "These are ships.",
+      "x": 0.5961,
+      "y": 0.1398,
+      "w": 0.2233,
+      "h": 0.0239,
+      "words": [
+        "These",
+        "are",
+        "ships."
+      ],
+      "conf": 95.693,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "These ships are on the water.",
+      "x": 0.5479,
+      "y": 0.5321,
+      "w": 0.3128,
+      "h": 0.0452,
+      "words": [
+        "These",
+        "ships",
+        "are",
+        "on",
+        "the",
+        "water."
+      ],
+      "conf": 96.215,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "This ship is in the bottle.",
+      "x": 0.1362,
+      "y": 0.6137,
+      "w": 0.337,
+      "h": 0.0245,
+      "words": [
+        "This",
+        "ship",
+        "is",
+        "in",
+        "the",
+        "bottle."
+      ],
+      "conf": 96.4983,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "This is water.",
+      "x": 0.5751,
+      "y": 0.8477,
+      "w": 0.1821,
+      "h": 0.0403,
+      "words": [
+        "This",
+        "is",
+        "water."
+      ],
+      "conf": 92.81,
+      "source": "psm-11"
+    }
+  ]
+}

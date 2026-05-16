@@ -1,0 +1,242 @@
+{
+  "page": 80,
+  "image": "/books/page 80.png",
+  "imageApiPath": "/api/books/page%2080.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 46,
+    "imageWidth": 1230,
+    "imageHeight": 1850
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r5"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r9",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r8"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "The money was under the hat.",
+      "x": 0.1195,
+      "y": 0.1022,
+      "w": 0.335,
+      "h": 0.0465,
+      "words": [
+        "The",
+        "money",
+        "was",
+        "under",
+        "the",
+        "hat."
+      ],
+      "conf": 96.7927,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "The wind came. My hat went up.",
+      "x": 0.5309,
+      "y": 0.0941,
+      "w": 0.3642,
+      "h": 0.0519,
+      "words": [
+        "The",
+        "wind",
+        "came.",
+        "My",
+        "hat",
+        "went",
+        "up."
+      ],
+      "conf": 92.9938,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "When the wind came, my hat went up.",
+      "x": 0.5309,
+      "y": 0.1476,
+      "w": 0.3374,
+      "h": 0.0513,
+      "words": [
+        "When",
+        "the",
+        "wind",
+        "came,",
+        "my",
+        "hat",
+        "went",
+        "up."
+      ],
+      "conf": 96.137,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "UP",
+      "x": 0.8366,
+      "y": 0.3265,
+      "w": 0.0439,
+      "h": 0.02,
+      "words": [
+        "UP"
+      ],
+      "conf": 96.5108,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "The hat was over the money.",
+      "x": 0.1138,
+      "y": 0.3514,
+      "w": 0.3203,
+      "h": 0.0518,
+      "words": [
+        "The",
+        "hat",
+        "was",
+        "over",
+        "the",
+        "money."
+      ],
+      "conf": 95.9514,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The hat came down again.",
+      "x": 0.1228,
+      "y": 0.5638,
+      "w": 0.3041,
+      "h": 0.0508,
+      "words": [
+        "The",
+        "hat",
+        "came",
+        "down",
+        "again."
+      ],
+      "conf": 96.3344,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "It was over the money.",
+      "x": 0.5285,
+      "y": 0.5605,
+      "w": 0.3472,
+      "h": 0.027,
+      "words": [
+        "It",
+        "was",
+        "over",
+        "the",
+        "money."
+      ],
+      "conf": 89.576,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "The money was under the hat.",
+      "x": 0.526,
+      "y": 0.5865,
+      "w": 0.339,
+      "h": 0.047,
+      "words": [
+        "The",
+        "money",
+        "was",
+        "under",
+        "the",
+        "hat."
+      ],
+      "conf": 95.9575,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "coo.",
+      "x": 0.1667,
+      "y": 0.6416,
+      "w": 0.1837,
+      "h": 0.0389,
+      "words": [
+        "coo."
+      ],
+      "conf": 43.3874,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "DOWN",
+      "x": 0.2431,
+      "y": 0.7611,
+      "w": 0.1163,
+      "h": 0.02,
+      "words": [
+        "DOWN"
+      ],
+      "conf": 93.1791,
+      "source": "psm-11"
+    }
+  ]
+}

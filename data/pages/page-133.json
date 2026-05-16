@@ -1,0 +1,227 @@
+{
+  "page": 133,
+  "image": "/books/page 133.png",
+  "imageApiPath": "/api/books/page%20133.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 11,
+    "wordCount": 47,
+    "imageWidth": 1211,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Her hands were wet.",
+      "x": 0.5574,
+      "y": 0.0861,
+      "w": 0.3113,
+      "h": 0.0195,
+      "words": [
+        "Her",
+        "hands",
+        "were",
+        "wet."
+      ],
+      "conf": 96.3724,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "What is she doing?",
+      "x": 0.1255,
+      "y": 0.3407,
+      "w": 0.2907,
+      "h": 0.0228,
+      "words": [
+        "What",
+        "is",
+        "she",
+        "doing?"
+      ],
+      "conf": 96.2447,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "She is drying her hands ona cloth.",
+      "x": 0.1255,
+      "y": 0.3662,
+      "w": 0.3567,
+      "h": 0.0455,
+      "words": [
+        "She",
+        "is",
+        "drying",
+        "her",
+        "hands",
+        "ona",
+        "cloth."
+      ],
+      "conf": 96.4291,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Now they are dry.",
+      "x": 0.5681,
+      "y": 0.3749,
+      "w": 0.2775,
+      "h": 0.0244,
+      "words": [
+        "Now",
+        "they",
+        "are",
+        "dry."
+      ],
+      "conf": 96.4433,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "They were dirty.",
+      "x": 0.5656,
+      "y": 0.4003,
+      "w": 0.2486,
+      "h": 0.0249,
+      "words": [
+        "They",
+        "were",
+        "dirty."
+      ],
+      "conf": 96.5832,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Now they are clean.",
+      "x": 0.5665,
+      "y": 0.4263,
+      "w": 0.308,
+      "h": 0.0244,
+      "words": [
+        "Now",
+        "they",
+        "are",
+        "clean."
+      ],
+      "conf": 96.4208,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "What is this?",
+      "x": 0.1742,
+      "y": 0.6035,
+      "w": 0.1941,
+      "h": 0.0195,
+      "words": [
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 96.3411,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "She is putting some toothpaste on the brush.",
+      "x": 0.5186,
+      "y": 0.6262,
+      "w": 0.3691,
+      "h": 0.0504,
+      "words": [
+        "She",
+        "is",
+        "putting",
+        "some",
+        "toothpaste",
+        "on",
+        "the",
+        "brush."
+      ],
+      "conf": 95.7523,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "It is a toothbrush.",
+      "x": 0.1734,
+      "y": 0.6544,
+      "w": 0.2626,
+      "h": 0.02,
+      "words": [
+        "It",
+        "is",
+        "a",
+        "toothbrush."
+      ],
+      "conf": 92.8851,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "What is this?",
+      "x": 0.1858,
+      "y": 0.7952,
+      "w": 0.1949,
+      "h": 0.019,
+      "words": [
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 96.5004,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "It is toothpaste.",
+      "x": 0.1858,
+      "y": 0.8207,
+      "w": 0.2304,
+      "h": 0.0244,
+      "words": [
+        "It",
+        "is",
+        "toothpaste."
+      ],
+      "conf": 87.9751,
+      "source": "psm-11"
+    }
+  ]
+}

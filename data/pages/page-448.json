@@ -1,0 +1,520 @@
+{
+  "page": 448,
+  "image": "/books/page 448.png",
+  "imageApiPath": "/api/books/page%20448.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 21,
+    "wordCount": 170,
+    "imageWidth": 1188,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r7",
+        "r8"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r13",
+        "r14",
+        "r15",
+        "r16",
+        "r17",
+        "r18"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r19",
+        "r20",
+        "r21"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Sometimes a record was made by taking a sharp, hard",
+      "x": 0.101,
+      "y": 0.0336,
+      "w": 0.8258,
+      "h": 0.0288,
+      "words": [
+        "Sometimes",
+        "a",
+        "record",
+        "was",
+        "made",
+        "by",
+        "taking",
+        "a",
+        "sharp,",
+        "hard"
+      ],
+      "conf": 96.7354,
+      "source": "psm-6"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "stone and making cuts on a stick. The number of cuts in the stick equaled the number of things to be recorded.",
+      "x": 0.1027,
+      "y": 0.0603,
+      "w": 0.8223,
+      "h": 0.0517,
+      "words": [
+        "stone",
+        "and",
+        "making",
+        "cuts",
+        "on",
+        "a",
+        "stick.",
+        "The",
+        "number",
+        "of",
+        "cuts",
+        "in",
+        "the",
+        "stick",
+        "equaled",
+        "the",
+        "number",
+        "of",
+        "things",
+        "to",
+        "be",
+        "recorded."
+      ],
+      "conf": 96.6162,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "YOR",
+      "x": 0.4588,
+      "y": 0.1445,
+      "w": 0.2778,
+      "h": 0.0368,
+      "words": [
+        "YOR"
+      ],
+      "conf": 41.3135,
+      "source": "psm-6"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "a:",
+      "x": 0.5934,
+      "y": 0.1968,
+      "w": 0.1599,
+      "h": 0.0512,
+      "words": [
+        "a:"
+      ],
+      "conf": 38.7705,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "sy’",
+      "x": 0.5421,
+      "y": 0.3109,
+      "w": 0.2012,
+      "h": 0.0784,
+      "words": [
+        "sy’"
+      ],
+      "conf": 53.2685,
+      "source": "psm-6"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Then the stick was cut in half down be the middle so that each half had half",
+      "x": 0.1035,
+      "y": 0.4549,
+      "w": 0.7626,
+      "h": 0.0555,
+      "words": [
+        "Then",
+        "the",
+        "stick",
+        "was",
+        "cut",
+        "in",
+        "half",
+        "down",
+        "be",
+        "the",
+        "middle",
+        "so",
+        "that",
+        "each",
+        "half",
+        "had",
+        "half"
+      ],
+      "conf": 91.6613,
+      "source": "psm-6"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Then the stick was cut in half down",
+      "x": 0.1052,
+      "y": 0.4624,
+      "w": 0.5404,
+      "h": 0.0171,
+      "words": [
+        "Then",
+        "the",
+        "stick",
+        "was",
+        "cut",
+        "in",
+        "half",
+        "down"
+      ],
+      "conf": 95.7237,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "the middle so that each half had half",
+      "x": 0.1035,
+      "y": 0.4891,
+      "w": 0.5429,
+      "h": 0.0213,
+      "words": [
+        "the",
+        "middle",
+        "so",
+        "that",
+        "each",
+        "half",
+        "had",
+        "half"
+      ],
+      "conf": 89.8464,
+      "source": "psm-6"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "of every cut on it. The two half sticks",
+      "x": 0.1044,
+      "y": 0.5152,
+      "w": 0.5412,
+      "h": 0.0213,
+      "words": [
+        "of",
+        "every",
+        "cut",
+        "on",
+        "it.",
+        "The",
+        "two",
+        "half",
+        "sticks"
+      ],
+      "conf": 96.6817,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "of every cut on it. The two half sticks I were tallies. If they were put side by",
+      "x": 0.1044,
+      "y": 0.5125,
+      "w": 0.6726,
+      "h": 0.0507,
+      "words": [
+        "of",
+        "every",
+        "cut",
+        "on",
+        "it.",
+        "The",
+        "two",
+        "half",
+        "sticks",
+        "I",
+        "were",
+        "tallies.",
+        "If",
+        "they",
+        "were",
+        "put",
+        "side",
+        "by"
+      ],
+      "conf": 91.1649,
+      "source": "psm-6"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "were tallies. If they were put side by side, the halves of the cuts came to-",
+      "x": 0.1035,
+      "y": 0.5413,
+      "w": 0.543,
+      "h": 0.0454,
+      "words": [
+        "were",
+        "tallies.",
+        "If",
+        "they",
+        "were",
+        "put",
+        "side",
+        "by",
+        "side,",
+        "the",
+        "halves",
+        "of",
+        "the",
+        "cuts",
+        "came",
+        "to-"
+      ],
+      "conf": 96.5789,
+      "source": "psm-6"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "side, the halves of the cuts came to- gether. They tallied. One man took",
+      "x": 0.1035,
+      "y": 0.5675,
+      "w": 0.543,
+      "h": 0.0475,
+      "words": [
+        "side,",
+        "the",
+        "halves",
+        "of",
+        "the",
+        "cuts",
+        "came",
+        "to-",
+        "gether.",
+        "They",
+        "tallied.",
+        "One",
+        "man",
+        "took"
+      ],
+      "conf": 95.7897,
+      "source": "psm-6"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "gether. They tallied. One man took one tally and another the other, and",
+      "x": 0.1044,
+      "y": 0.5931,
+      "w": 0.5421,
+      "h": 0.0459,
+      "words": [
+        "gether.",
+        "They",
+        "tallied.",
+        "One",
+        "man",
+        "took",
+        "one",
+        "tally",
+        "and",
+        "another",
+        "the",
+        "other,",
+        "and"
+      ],
+      "conf": 96.0797,
+      "source": "psm-6"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "one tally and another the other, and both then had the record.",
+      "x": 0.1044,
+      "y": 0.6187,
+      "w": 0.5421,
+      "h": 0.0426,
+      "words": [
+        "one",
+        "tally",
+        "and",
+        "another",
+        "the",
+        "other,",
+        "and",
+        "both",
+        "then",
+        "had",
+        "the",
+        "record."
+      ],
+      "conf": 96.5525,
+      "source": "psm-6"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "both then had the record.",
+      "x": 0.1052,
+      "y": 0.6437,
+      "w": 0.3788,
+      "h": 0.0176,
+      "words": [
+        "both",
+        "then",
+        "had",
+        "the",
+        "record."
+      ],
+      "conf": 96.5086,
+      "source": "psm-6"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "tally: one sort of record.",
+      "x": 0.1035,
+      "y": 0.7995,
+      "w": 0.2786,
+      "h": 0.0149,
+      "words": [
+        "tally:",
+        "one",
+        "sort",
+        "of",
+        "record."
+      ],
+      "conf": 94.7118,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "will tally",
+      "x": 0.1035,
+      "y": 0.8469,
+      "w": 0.112,
+      "h": 0.0149,
+      "words": [
+        "will",
+        "tally"
+      ],
+      "conf": 90.4661,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "will equal",
+      "x": 0.1044,
+      "y": 0.8299,
+      "w": 0.1237,
+      "h": 0.0149,
+      "words": [
+        "will",
+        "equal"
+      ],
+      "conf": 95.9621,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "tally (les)",
+      "x": 0.452,
+      "y": 0.8453,
+      "w": 0.1254,
+      "h": 0.0213,
+      "words": [
+        "tally",
+        "(les)"
+      ],
+      "conf": 87.5599,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "equal (s)",
+      "x": 0.4579,
+      "y": 0.8283,
+      "w": 0.1136,
+      "h": 0.0229,
+      "words": [
+        "equal",
+        "(s)"
+      ],
+      "conf": 84.5727,
+      "source": "psm-11"
+    },
+    {
+      "id": "r21",
+      "order": 20,
+      "text": "equaled tallied",
+      "x": 0.83,
+      "y": 0.8293,
+      "w": 0.0993,
+      "h": 0.0289,
+      "words": [
+        "equaled",
+        "tallied"
+      ],
+      "conf": 95.548,
+      "source": "psm-11"
+    }
+  ]
+}

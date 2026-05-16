@@ -1,0 +1,413 @@
+{
+  "page": 456,
+  "image": "/books/page 456.png",
+  "imageApiPath": "/api/books/page%20456.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 16,
+    "wordCount": 133,
+    "imageWidth": 1196,
+    "imageHeight": 1830
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r7",
+        "r9"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r13",
+        "r14",
+        "r15",
+        "r16"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r11",
+        "r12"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "The Greek scientist Eratosthenes B.C.) was",
+      "x": 0.1346,
+      "y": 0.0377,
+      "w": 0.8135,
+      "h": 0.0219,
+      "words": [
+        "The",
+        "Greek",
+        "scientist",
+        "Eratosthenes",
+        "B.C.)",
+        "was"
+      ],
+      "conf": 95.1235,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "the first man to work out the size of the earth.",
+      "x": 0.1304,
+      "y": 0.0617,
+      "w": 0.6421,
+      "h": 0.0268,
+      "words": [
+        "the",
+        "first",
+        "man",
+        "to",
+        "work",
+        "out",
+        "the",
+        "size",
+        "of",
+        "the",
+        "earth."
+      ],
+      "conf": 96.7847,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "He heard that there was a deep well into which on one",
+      "x": 0.1329,
+      "y": 0.1142,
+      "w": 0.8211,
+      "h": 0.0295,
+      "words": [
+        "He",
+        "heard",
+        "that",
+        "there",
+        "was",
+        "a",
+        "deep",
+        "well",
+        "into",
+        "which",
+        "on",
+        "one"
+      ],
+      "conf": 96.5709,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "day of the year the sun’s light went all the way down to the bottom. He took the angie of the sun at the same hour",
+      "x": 0.1288,
+      "y": 0.141,
+      "w": 0.8219,
+      "h": 0.0557,
+      "words": [
+        "day",
+        "of",
+        "the",
+        "year",
+        "the",
+        "sun’s",
+        "light",
+        "went",
+        "all",
+        "the",
+        "way",
+        "down",
+        "to",
+        "the",
+        "bottom.",
+        "He",
+        "took",
+        "the",
+        "angie",
+        "of",
+        "the",
+        "sun",
+        "at",
+        "the",
+        "same",
+        "hour"
+      ],
+      "conf": 96.1657,
+      "source": "psm-6"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "from another place miles from the well and worked",
+      "x": 0.1279,
+      "y": 0.1945,
+      "w": 0.8244,
+      "h": 0.0295,
+      "words": [
+        "from",
+        "another",
+        "place",
+        "miles",
+        "from",
+        "the",
+        "well",
+        "and",
+        "worked"
+      ],
+      "conf": 96.4468,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "out by. geometry that the earth was about miles",
+      "x": 0.1313,
+      "y": 0.2219,
+      "w": 0.8202,
+      "h": 0.0284,
+      "words": [
+        "out",
+        "by.",
+        "geometry",
+        "that",
+        "the",
+        "earth",
+        "was",
+        "about",
+        "miles"
+      ],
+      "conf": 91.5579,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "round.",
+      "x": 0.1304,
+      "y": 0.2519,
+      "w": 0.0962,
+      "h": 0.0186,
+      "words": [
+        "round."
+      ],
+      "conf": 92.25,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "S)",
+      "x": 0.4749,
+      "y": 0.2612,
+      "w": 0.0602,
+      "h": 0.0377,
+      "words": [
+        "S)"
+      ],
+      "conf": 41.592,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "well a)",
+      "x": 0.4281,
+      "y": 0.4361,
+      "w": 0.0895,
+      "h": 0.024,
+      "words": [
+        "well",
+        "a)"
+      ],
+      "conf": 49.6016,
+      "source": "psm-6"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "pela? of earth The size of the earth, scientists now tell us, is about",
+      "x": 0.1246,
+      "y": 0.6661,
+      "w": 0.8269,
+      "h": 0.0929,
+      "words": [
+        "pela?",
+        "of",
+        "earth",
+        "The",
+        "size",
+        "of",
+        "the",
+        "earth,",
+        "scientists",
+        "now",
+        "tell",
+        "us,",
+        "is",
+        "about"
+      ],
+      "conf": 68.4803,
+      "source": "psm-6"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "pelat cf earth",
+      "x": 0.6221,
+      "y": 0.671,
+      "w": 0.1346,
+      "h": 0.0202,
+      "words": [
+        "pelat",
+        "cf",
+        "earth"
+      ],
+      "conf": 84.2939,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "The size of the earth, scientists now tell us, is about",
+      "x": 0.1246,
+      "y": 0.7224,
+      "w": 0.8269,
+      "h": 0.0366,
+      "words": [
+        "The",
+        "size",
+        "of",
+        "the",
+        "earth,",
+        "scientists",
+        "now",
+        "tell",
+        "us,",
+        "is",
+        "about"
+      ],
+      "conf": 92.819,
+      "source": "psm-6"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "miles round.",
+      "x": 0.2441,
+      "y": 0.7623,
+      "w": 0.1823,
+      "h": 0.0175,
+      "words": [
+        "miles",
+        "round."
+      ],
+      "conf": 96.4553,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "wells here, a deep hole in the earth from which water is got.",
+      "x": 0.1246,
+      "y": 0.8011,
+      "w": 0.7274,
+      "h": 0.0202,
+      "words": [
+        "wells",
+        "here,",
+        "a",
+        "deep",
+        "hole",
+        "in",
+        "the",
+        "earth",
+        "from",
+        "which",
+        "water",
+        "is",
+        "got."
+      ],
+      "conf": 91.6129,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "bottom: lowest part, opposite of “top.” This",
+      "x": 0.1271,
+      "y": 0.8437,
+      "w": 0.5017,
+      "h": 0.0219,
+      "words": [
+        "bottom:",
+        "lowest",
+        "part,",
+        "opposite",
+        "of",
+        "“top.”",
+        "This"
+      ],
+      "conf": 91.7783,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "ls the hotfow of the glass,",
+      "x": 0.1848,
+      "y": 0.8574,
+      "w": 0.2918,
+      "h": 0.0279,
+      "words": [
+        "ls",
+        "the",
+        "hotfow",
+        "of",
+        "the",
+        "glass,"
+      ],
+      "conf": 75.4348,
+      "source": "psm-6"
+    }
+  ]
+}

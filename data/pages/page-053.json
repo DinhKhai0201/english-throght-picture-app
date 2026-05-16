@@ -1,0 +1,376 @@
+{
+  "page": 53,
+  "image": "/books/page 53.png",
+  "imageApiPath": "/api/books/page%2053.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 15,
+    "wordCount": 110,
+    "imageWidth": 1180,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r5"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r4",
+        "r6",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r10",
+        "r11"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r12",
+        "r13",
+        "r14",
+        "r15"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "He has a body.",
+      "x": 0.6186,
+      "y": 0.1275,
+      "w": 0.2331,
+      "h": 0.0245,
+      "words": [
+        "He",
+        "has",
+        "a",
+        "body."
+      ],
+      "conf": 95.3444,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is his body.",
+      "x": 0.2042,
+      "y": 0.1947,
+      "w": 0.2339,
+      "h": 0.024,
+      "words": [
+        "This",
+        "is",
+        "his",
+        "body."
+      ],
+      "conf": 91.0122,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "She has a body",
+      "x": 0.6432,
+      "y": 0.2347,
+      "w": 0.2364,
+      "h": 0.024,
+      "words": [
+        "She",
+        "has",
+        "a",
+        "body"
+      ],
+      "conf": 96.4371,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "All men and women and boys and girls have bodies.",
+      "x": 0.5525,
+      "y": 0.3056,
+      "w": 0.3297,
+      "h": 0.0736,
+      "words": [
+        "All",
+        "men",
+        "and",
+        "women",
+        "and",
+        "boys",
+        "and",
+        "girls",
+        "have",
+        "bodies."
+      ],
+      "conf": 96.4618,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "His head, his arms, his legs, and his body are parts of a man",
+      "x": 0.1051,
+      "y": 0.376,
+      "w": 0.3347,
+      "h": 0.0757,
+      "words": [
+        "His",
+        "head,",
+        "his",
+        "arms,",
+        "his",
+        "legs,",
+        "and",
+        "his",
+        "body",
+        "are",
+        "parts",
+        "of",
+        "a",
+        "man"
+      ],
+      "conf": 95.9523,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "This baby has a body.",
+      "x": 0.6297,
+      "y": 0.416,
+      "w": 0.1805,
+      "h": 0.0496,
+      "words": [
+        "This",
+        "baby",
+        "has",
+        "a",
+        "body."
+      ],
+      "conf": 96.5754,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Opn.",
+      "x": 0.8186,
+      "y": 0.4272,
+      "w": 0.1144,
+      "h": 0.0448,
+      "words": [
+        "Opn."
+      ],
+      "conf": 35.1143,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This dog has a body.",
+      "x": 0.1441,
+      "y": 0.5013,
+      "w": 0.3229,
+      "h": 0.0235,
+      "words": [
+        "This",
+        "dog",
+        "has",
+        "a",
+        "body."
+      ],
+      "conf": 96.4763,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "This is a dog’s head.",
+      "x": 0.5771,
+      "y": 0.5157,
+      "w": 0.3093,
+      "h": 0.0229,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "dog’s",
+        "head."
+      ],
+      "conf": 93.6921,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "This is his tail",
+      "x": 0.1466,
+      "y": 0.5536,
+      "w": 0.2025,
+      "h": 0.0187,
+      "words": [
+        "This",
+        "is",
+        "his",
+        "tail"
+      ],
+      "conf": 96.4309,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "This is his body He has four legs and a head and a tail. He hus no arms or hands, but he has feet. His head, his body, his legs, and his tail are parts of a dog",
+      "x": 0.1136,
+      "y": 0.7024,
+      "w": 0.3855,
+      "h": 0.1888,
+      "words": [
+        "This",
+        "is",
+        "his",
+        "body",
+        "He",
+        "has",
+        "four",
+        "legs",
+        "and",
+        "a",
+        "head",
+        "and",
+        "a",
+        "tail.",
+        "He",
+        "hus",
+        "no",
+        "arms",
+        "or",
+        "hands,",
+        "but",
+        "he",
+        "has",
+        "feet.",
+        "His",
+        "head,",
+        "his",
+        "body,",
+        "his",
+        "legs,",
+        "and",
+        "his",
+        "tail",
+        "are",
+        "parts",
+        "of",
+        "a",
+        "dog"
+      ],
+      "conf": 96.4419,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "Which is his mouth?",
+      "x": 0.5881,
+      "y": 0.7232,
+      "w": 0.3042,
+      "h": 0.0187,
+      "words": [
+        "Which",
+        "is",
+        "his",
+        "mouth?"
+      ],
+      "conf": 96.1091,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Which are his eyes?",
+      "x": 0.589,
+      "y": 0.7488,
+      "w": 0.3051,
+      "h": 0.0235,
+      "words": [
+        "Which",
+        "are",
+        "his",
+        "eyes?"
+      ],
+      "conf": 95.9634,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "Which are his ears?",
+      "x": 0.589,
+      "y": 0.7739,
+      "w": 0.3034,
+      "h": 0.0187,
+      "words": [
+        "Which",
+        "are",
+        "his",
+        "ears?"
+      ],
+      "conf": 96.5235,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "Which is his nose?",
+      "x": 0.589,
+      "y": 0.7984,
+      "w": 0.2763,
+      "h": 0.0192,
+      "words": [
+        "Which",
+        "is",
+        "his",
+        "nose?"
+      ],
+      "conf": 96.6034,
+      "source": "psm-11"
+    }
+  ]
+}

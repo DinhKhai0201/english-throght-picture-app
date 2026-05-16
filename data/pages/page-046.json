@@ -1,0 +1,286 @@
+{
+  "page": 46,
+  "image": "/books/page 46.png",
+  "imageApiPath": "/api/books/page%2046.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 11,
+    "wordCount": 76,
+    "imageWidth": 1267,
+    "imageHeight": 1892
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r7",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8",
+        "r9",
+        "r11"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "A man has two eyes have two eyes These are my eyes",
+      "x": 0.1728,
+      "y": 0.1332,
+      "w": 0.2857,
+      "h": 0.1104,
+      "words": [
+        "A",
+        "man",
+        "has",
+        "two",
+        "eyes",
+        "have",
+        "two",
+        "eyes",
+        "These",
+        "are",
+        "my",
+        "eyes"
+      ],
+      "conf": 96.2116,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Aman has a mouth J have a mouth",
+      "x": 0.5856,
+      "y": 0.1327,
+      "w": 0.2786,
+      "h": 0.0444,
+      "words": [
+        "Aman",
+        "has",
+        "a",
+        "mouth",
+        "J",
+        "have",
+        "a",
+        "mouth"
+      ],
+      "conf": 91.9448,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "A man has a nose have a nose.",
+      "x": 0.1957,
+      "y": 0.2949,
+      "w": 0.2549,
+      "h": 0.0434,
+      "words": [
+        "A",
+        "man",
+        "has",
+        "a",
+        "nose",
+        "have",
+        "a",
+        "nose."
+      ],
+      "conf": 85.5458,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "This is my mouth.",
+      "x": 0.6638,
+      "y": 0.3879,
+      "w": 0.236,
+      "h": 0.0243,
+      "words": [
+        "This",
+        "is",
+        "my",
+        "mouth."
+      ],
+      "conf": 94.3997,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "This man’s mouth is open He is saying “mouth.”",
+      "x": 0.1815,
+      "y": 0.5111,
+      "w": 0.3063,
+      "h": 0.073,
+      "words": [
+        "This",
+        "man’s",
+        "mouth",
+        "is",
+        "open",
+        "He",
+        "is",
+        "saying",
+        "“mouth.”"
+      ],
+      "conf": 96.0517,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "His mouth is shut He will say “mouths",
+      "x": 0.543,
+      "y": 0.5592,
+      "w": 0.277,
+      "h": 0.0486,
+      "words": [
+        "His",
+        "mouth",
+        "is",
+        "shut",
+        "He",
+        "will",
+        "say",
+        "“mouths"
+      ],
+      "conf": 95.5072,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "His mouth is shut",
+      "x": 0.1918,
+      "y": 0.7283,
+      "w": 0.236,
+      "h": 0.0201,
+      "words": [
+        "His",
+        "mouth",
+        "is",
+        "shut"
+      ],
+      "conf": 96.6435,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "He is saying “mouths.”",
+      "x": 0.5414,
+      "y": 0.7336,
+      "w": 0.3165,
+      "h": 0.0227,
+      "words": [
+        "He",
+        "is",
+        "saying",
+        "“mouths.”"
+      ],
+      "conf": 95.3099,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "He said “mouths He is not saying “mouths” now.",
+      "x": 0.5375,
+      "y": 0.7912,
+      "w": 0.2321,
+      "h": 0.0693,
+      "words": [
+        "He",
+        "said",
+        "“mouths",
+        "He",
+        "is",
+        "not",
+        "saying",
+        "“mouths”",
+        "now."
+      ],
+      "conf": 95.6782,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "He is not saying mouth",
+      "x": 0.2005,
+      "y": 0.8584,
+      "w": 0.2273,
+      "h": 0.0417,
+      "words": [
+        "He",
+        "is",
+        "not",
+        "saying",
+        "mouth"
+      ],
+      "conf": 96.6394,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "His mouth is shut again",
+      "x": 0.5351,
+      "y": 0.8668,
+      "w": 0.3291,
+      "h": 0.0217,
+      "words": [
+        "His",
+        "mouth",
+        "is",
+        "shut",
+        "again"
+      ],
+      "conf": 96.534,
+      "source": "psm-11"
+    }
+  ]
+}

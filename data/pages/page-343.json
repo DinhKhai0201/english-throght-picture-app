@@ -1,0 +1,391 @@
+{
+  "page": 343,
+  "image": "/books/page 343.png",
+  "imageApiPath": "/api/books/page%20343.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 14,
+    "wordCount": 139,
+    "imageWidth": 1225,
+    "imageHeight": 1850
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r7",
+        "r9",
+        "r10",
+        "r12"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r11",
+        "r13",
+        "r14"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "More people will learn more languages as better ways",
+      "x": 0.1061,
+      "y": 0.04,
+      "w": 0.7967,
+      "h": 0.0243,
+      "words": [
+        "More",
+        "people",
+        "will",
+        "learn",
+        "more",
+        "languages",
+        "as",
+        "better",
+        "ways"
+      ],
+      "conf": 96.5873,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "of teaching them are worked out.",
+      "x": 0.1053,
+      "y": 0.0676,
+      "w": 0.4694,
+      "h": 0.0216,
+      "words": [
+        "of",
+        "teaching",
+        "them",
+        "are",
+        "worked",
+        "out."
+      ],
+      "conf": 96.529,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This book, English Through Pictures is itself part of an attempt to teach English better.",
+      "x": 0.4637,
+      "y": 0.1422,
+      "w": 0.4424,
+      "h": 0.0778,
+      "words": [
+        "This",
+        "book,",
+        "English",
+        "Through",
+        "Pictures",
+        "is",
+        "itself",
+        "part",
+        "of",
+        "an",
+        "attempt",
+        "to",
+        "teach",
+        "English",
+        "better."
+      ],
+      "conf": 96.4787,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "We need better books to learn from and better records of good voices to teach us how to listen to the sentences of a language and say them.",
+      "x": 0.1094,
+      "y": 0.2773,
+      "w": 0.4816,
+      "h": 0.1265,
+      "words": [
+        "We",
+        "need",
+        "better",
+        "books",
+        "to",
+        "learn",
+        "from",
+        "and",
+        "better",
+        "records",
+        "of",
+        "good",
+        "voices",
+        "to",
+        "teach",
+        "us",
+        "how",
+        "to",
+        "listen",
+        "to",
+        "the",
+        "sentences",
+        "of",
+        "a",
+        "language",
+        "and",
+        "say",
+        "them."
+      ],
+      "conf": 95.9013,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Recordings of sounds are made",
+      "x": 0.1127,
+      "y": 0.4854,
+      "w": 0.4792,
+      "h": 0.0216,
+      "words": [
+        "Recordings",
+        "of",
+        "sounds",
+        "are",
+        "made"
+      ],
+      "conf": 96.4835,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "on disks and on tapes.",
+      "x": 0.1151,
+      "y": 0.5097,
+      "w": 0.3176,
+      "h": 0.0276,
+      "words": [
+        "on",
+        "disks",
+        "and",
+        "on",
+        "tapes."
+      ],
+      "conf": 73.5575,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "listenr attempt to hear.",
+      "x": 0.1135,
+      "y": 0.6524,
+      "w": 0.2563,
+      "h": 0.0146,
+      "words": [
+        "listenr",
+        "attempt",
+        "to",
+        "hear."
+      ],
+      "conf": 90.7941,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "record: records, when played on a machine, let us hear again the sounds sentence: c thought put in words. A written sentence starts with a large",
+      "x": 0.1094,
+      "y": 0.6876,
+      "w": 0.8048,
+      "h": 0.0508,
+      "words": [
+        "record:",
+        "records,",
+        "when",
+        "played",
+        "on",
+        "a",
+        "machine,",
+        "let",
+        "us",
+        "hear",
+        "again",
+        "the",
+        "sounds",
+        "sentence:",
+        "c",
+        "thought",
+        "put",
+        "in",
+        "words.",
+        "A",
+        "written",
+        "sentence",
+        "starts",
+        "with",
+        "a",
+        "large"
+      ],
+      "conf": 94.1739,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "make an recorded on them.",
+      "x": 0.1641,
+      "y": 0.6708,
+      "w": 0.1984,
+      "h": 0.047,
+      "words": [
+        "make",
+        "an",
+        "recorded",
+        "on",
+        "them."
+      ],
+      "conf": 93.3514,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "question mark, tapes long narrow of thin cloth, paper or other material, will Usten will attempt",
+      "x": 0.1102,
+      "y": 0.7584,
+      "w": 0.6971,
+      "h": 0.1162,
+      "words": [
+        "question",
+        "mark,",
+        "tapes",
+        "long",
+        "narrow",
+        "of",
+        "thin",
+        "cloth,",
+        "paper",
+        "or",
+        "other",
+        "material,",
+        "will",
+        "Usten",
+        "will",
+        "attempt"
+      ],
+      "conf": 93.7222,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "letter and ends with o full stop (period) or sometimes a",
+      "x": 0.2637,
+      "y": 0.7405,
+      "w": 0.6506,
+      "h": 0.0162,
+      "words": [
+        "letter",
+        "and",
+        "ends",
+        "with",
+        "o",
+        "full",
+        "stop",
+        "(period)",
+        "or",
+        "sometimes",
+        "a"
+      ],
+      "conf": 93.5043,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "disk: sound recording played with a needle.",
+      "x": 0.111,
+      "y": 0.7751,
+      "w": 0.4824,
+      "h": 0.0157,
+      "words": [
+        "disk:",
+        "sound",
+        "recording",
+        "played",
+        "with",
+        "a",
+        "needle."
+      ],
+      "conf": 93.4713,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "attempted",
+      "x": 0.7853,
+      "y": 0.8589,
+      "w": 0.1265,
+      "h": 0.0157,
+      "words": [
+        "attempted"
+      ],
+      "conf": 95.3623,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "listened",
+      "x": 0.8155,
+      "y": 0.8416,
+      "w": 0.0963,
+      "h": 0.0124,
+      "words": [
+        "listened"
+      ],
+      "conf": 87.4881,
+      "source": "psm-11"
+    }
+  ]
+}

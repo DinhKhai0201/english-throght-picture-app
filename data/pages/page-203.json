@@ -1,0 +1,391 @@
+{
+  "page": 203,
+  "image": "/books/page 203.png",
+  "imageApiPath": "/api/books/page%20203.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 18,
+    "wordCount": 83,
+    "imageWidth": 1205,
+    "imageHeight": 1838
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r6",
+        "r7",
+        "r10",
+        "r11"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r5",
+        "r8",
+        "r9"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r12",
+        "r14",
+        "r15",
+        "r17"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r13",
+        "r16",
+        "r18"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "The sun sends its light out in every direction.",
+      "x": 0.1585,
+      "y": 0.1007,
+      "w": 0.3311,
+      "h": 0.0506,
+      "words": [
+        "The",
+        "sun",
+        "sends",
+        "its",
+        "light",
+        "out",
+        "in",
+        "every",
+        "direction."
+      ],
+      "conf": 93.3609,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Up and down are two other directions",
+      "x": 0.5627,
+      "y": 0.1039,
+      "w": 0.3328,
+      "h": 0.0446,
+      "words": [
+        "Up",
+        "and",
+        "down",
+        "are",
+        "two",
+        "other",
+        "directions"
+      ],
+      "conf": 96.4079,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "North",
+      "x": 0.2664,
+      "y": 0.1768,
+      "w": 0.088,
+      "h": 0.0185,
+      "words": [
+        "North"
+      ],
+      "conf": 95.7622,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Up North",
+      "x": 0.5519,
+      "y": 0.1708,
+      "w": 0.2066,
+      "h": 0.0632,
+      "words": [
+        "Up",
+        "North"
+      ],
+      "conf": 97.0062,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "East",
+      "x": 0.8556,
+      "y": 0.2155,
+      "w": 0.0606,
+      "h": 0.0185,
+      "words": [
+        "East"
+      ],
+      "conf": 95.5034,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "West",
+      "x": 0.132,
+      "y": 0.265,
+      "w": 0.0755,
+      "h": 0.0185,
+      "words": [
+        "West"
+      ],
+      "conf": 96.4757,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "East",
+      "x": 0.4365,
+      "y": 0.2661,
+      "w": 0.0614,
+      "h": 0.018,
+      "words": [
+        "East"
+      ],
+      "conf": 91.1958,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "West",
+      "x": 0.5461,
+      "y": 0.3585,
+      "w": 0.0763,
+      "h": 0.018,
+      "words": [
+        "West"
+      ],
+      "conf": 96.5636,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "South Down",
+      "x": 0.7037,
+      "y": 0.3591,
+      "w": 0.2174,
+      "h": 0.0707,
+      "words": [
+        "South",
+        "Down"
+      ],
+      "conf": 96.2073,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "South These are four directions.",
+      "x": 0.2041,
+      "y": 0.3874,
+      "w": 0.2191,
+      "h": 0.0832,
+      "words": [
+        "South",
+        "These",
+        "are",
+        "four",
+        "directions."
+      ],
+      "conf": 96.6854,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "cana gae",
+      "x": 0.1178,
+      "y": 0.4842,
+      "w": 0.1419,
+      "h": 0.0174,
+      "words": [
+        "cana",
+        "gae"
+      ],
+      "conf": 45.3808,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "This boy has six apples in his hands.",
+      "x": 0.1436,
+      "y": 0.5065,
+      "w": 0.3784,
+      "h": 0.0479,
+      "words": [
+        "This",
+        "boy",
+        "has",
+        "six",
+        "apples",
+        "in",
+        "his",
+        "hands."
+      ],
+      "conf": 94.9581,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "He sent one apple north, another apple south, another east, and another west.",
+      "x": 0.561,
+      "y": 0.5212,
+      "w": 0.3162,
+      "h": 0.0963,
+      "words": [
+        "He",
+        "sent",
+        "one",
+        "apple",
+        "north,",
+        "another",
+        "apple",
+        "south,",
+        "another",
+        "east,",
+        "and",
+        "another",
+        "west."
+      ],
+      "conf": 96.5205,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "He is on a branch of a tree",
+      "x": 0.1444,
+      "y": 0.5588,
+      "w": 0.3328,
+      "h": 0.0467,
+      "words": [
+        "He",
+        "is",
+        "on",
+        "a",
+        "branch",
+        "of",
+        "a",
+        "tree"
+      ],
+      "conf": 93.8635,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "UNS",
+      "x": 0.1859,
+      "y": 0.6616,
+      "w": 0.0871,
+      "h": 0.0267,
+      "words": [
+        "UNS"
+      ],
+      "conf": 58.327,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "He sent another opple down.",
+      "x": 0.5568,
+      "y": 0.7922,
+      "w": 0.3378,
+      "h": 0.0691,
+      "words": [
+        "He",
+        "sent",
+        "another",
+        "opple",
+        "down."
+      ],
+      "conf": 86.4406,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "He will send the six apples in different directions",
+      "x": 0.1743,
+      "y": 0.8161,
+      "w": 0.2862,
+      "h": 0.0707,
+      "words": [
+        "He",
+        "will",
+        "send",
+        "the",
+        "six",
+        "apples",
+        "in",
+        "different",
+        "directions"
+      ],
+      "conf": 96.7533,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "He sent five apples in five directions",
+      "x": 0.5801,
+      "y": 0.8694,
+      "w": 0.2846,
+      "h": 0.0452,
+      "words": [
+        "He",
+        "sent",
+        "five",
+        "apples",
+        "in",
+        "five",
+        "directions"
+      ],
+      "conf": 96.7069,
+      "source": "psm-11"
+    }
+  ]
+}

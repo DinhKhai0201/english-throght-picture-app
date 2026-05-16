@@ -1,0 +1,375 @@
+{
+  "page": 492,
+  "image": "/books/page 492.png",
+  "imageApiPath": "/api/books/page%20492.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 13,
+    "wordCount": 137,
+    "imageWidth": 1205,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r5",
+        "r6"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r9",
+        "r13"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r10",
+        "r11",
+        "r12"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "However we try to think of time, it seems certain that the",
+      "x": 0.1054,
+      "y": 0.0437,
+      "w": 0.8141,
+      "h": 0.0224,
+      "words": [
+        "However",
+        "we",
+        "try",
+        "to",
+        "think",
+        "of",
+        "time,",
+        "it",
+        "seems",
+        "certain",
+        "that",
+        "the"
+      ],
+      "conf": 96.796,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "earth is older than our minds can take in.",
+      "x": 0.1054,
+      "y": 0.0709,
+      "w": 0.5784,
+      "h": 0.0197,
+      "words": [
+        "earth",
+        "is",
+        "older",
+        "than",
+        "our",
+        "minds",
+        "can",
+        "take",
+        "in."
+      ],
+      "conf": 96.6268,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Things have been going on for a longer time than we can",
+      "x": 0.1054,
+      "y": 0.1227,
+      "w": 0.8158,
+      "h": 0.0213,
+      "words": [
+        "Things",
+        "have",
+        "been",
+        "going",
+        "on",
+        "for",
+        "a",
+        "longer",
+        "time",
+        "than",
+        "we",
+        "can"
+      ],
+      "conf": 96.4491,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Things have been going on for a longer time than we can think of and they will go on and on through a longer",
+      "x": 0.1054,
+      "y": 0.1227,
+      "w": 0.8166,
+      "h": 0.0474,
+      "words": [
+        "Things",
+        "have",
+        "been",
+        "going",
+        "on",
+        "for",
+        "a",
+        "longer",
+        "time",
+        "than",
+        "we",
+        "can",
+        "think",
+        "of",
+        "and",
+        "they",
+        "will",
+        "go",
+        "on",
+        "and",
+        "on",
+        "through",
+        "a",
+        "longer"
+      ],
+      "conf": 96.4491,
+      "source": "psm-6"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "time in the future than we can think of.",
+      "x": 0.1046,
+      "y": 0.1744,
+      "w": 0.5452,
+      "h": 0.0181,
+      "words": [
+        "time",
+        "in",
+        "the",
+        "future",
+        "than",
+        "we",
+        "can",
+        "think",
+        "of."
+      ],
+      "conf": 96.5904,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "om,",
+      "x": 0.2697,
+      "y": 0.2965,
+      "w": 0.0274,
+      "h": 0.0171,
+      "words": [
+        "om,"
+      ],
+      "conf": 38.3973,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Seventy years seems a long life-time if compared with the present minute. But if compared with the age of a",
+      "x": 0.1095,
+      "y": 0.5355,
+      "w": 0.8142,
+      "h": 0.0485,
+      "words": [
+        "Seventy",
+        "years",
+        "seems",
+        "a",
+        "long",
+        "life-time",
+        "if",
+        "compared",
+        "with",
+        "the",
+        "present",
+        "minute.",
+        "But",
+        "if",
+        "compared",
+        "with",
+        "the",
+        "age",
+        "of",
+        "a"
+      ],
+      "conf": 96.6005,
+      "source": "psm-6"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "stone it seems no time at all.",
+      "x": 0.1104,
+      "y": 0.5867,
+      "w": 0.3909,
+      "h": 0.0176,
+      "words": [
+        "stone",
+        "it",
+        "seems",
+        "no",
+        "time",
+        "at",
+        "all."
+      ],
+      "conf": 96.6512,
+      "source": "psm-6"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "There is a Chinese poem which says:",
+      "x": 0.1112,
+      "y": 0.6389,
+      "w": 0.5145,
+      "h": 0.0219,
+      "words": [
+        "There",
+        "is",
+        "a",
+        "Chinese",
+        "poem",
+        "which",
+        "says:"
+      ],
+      "conf": 96.5994,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Quickly the years fly past forever,",
+      "x": 0.2531,
+      "y": 0.6779,
+      "w": 0.4963,
+      "h": 0.0224,
+      "words": [
+        "Quickly",
+        "the",
+        "years",
+        "fly",
+        "past",
+        "forever,"
+      ],
+      "conf": 96.6635,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "Quickly the years fly past forever, Here forever is this spring morning.",
+      "x": 0.2531,
+      "y": 0.6779,
+      "w": 0.5278,
+      "h": 0.048,
+      "words": [
+        "Quickly",
+        "the",
+        "years",
+        "fly",
+        "past",
+        "forever,",
+        "Here",
+        "forever",
+        "is",
+        "this",
+        "spring",
+        "morning."
+      ],
+      "conf": 96.6635,
+      "source": "psm-6"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "poem: something said for the complete man (his thoughts, feelings,",
+      "x": 0.1112,
+      "y": 0.832,
+      "w": 0.8124,
+      "h": 0.0165,
+      "words": [
+        "poem:",
+        "something",
+        "said",
+        "for",
+        "the",
+        "complete",
+        "man",
+        "(his",
+        "thoughts,",
+        "feelings,"
+      ],
+      "conf": 95.8325,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "desires, hopes, fears...) in the best possible way.",
+      "x": 0.166,
+      "y": 0.8491,
+      "w": 0.5851,
+      "h": 0.0165,
+      "words": [
+        "desires,",
+        "hopes,",
+        "fears...)",
+        "in",
+        "the",
+        "best",
+        "possible",
+        "way."
+      ],
+      "conf": 95.6097,
+      "source": "psm-6"
+    }
+  ]
+}

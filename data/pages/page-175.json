@@ -1,0 +1,231 @@
+{
+  "page": 175,
+  "image": "/books/page 175.png",
+  "imageApiPath": "/api/books/page%20175.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 12,
+    "wordCount": 37,
+    "imageWidth": 1238,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Where are your scissors?",
+      "x": 0.2141,
+      "y": 0.1224,
+      "w": 0.2334,
+      "h": 0.0439,
+      "words": [
+        "Where",
+        "are",
+        "your",
+        "scissors?"
+      ],
+      "conf": 96.5245,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Narrow?",
+      "x": 0.559,
+      "y": 0.1235,
+      "w": 0.1292,
+      "h": 0.0179,
+      "words": [
+        "Narrow?"
+      ],
+      "conf": 96.6126,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This is a narrow street.",
+      "x": 0.5574,
+      "y": 0.1484,
+      "w": 0.3296,
+      "h": 0.0184,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "narrow",
+        "street."
+      ],
+      "conf": 94.9207,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Here they are.",
+      "x": 0.2157,
+      "y": 0.1733,
+      "w": 0.21,
+      "h": 0.0244,
+      "words": [
+        "Here",
+        "they",
+        "are."
+      ],
+      "conf": 96.6987,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "On",
+      "x": 0.6115,
+      "y": 0.2801,
+      "w": 0.0832,
+      "h": 0.0466,
+      "words": [
+        "On"
+      ],
+      "conf": 87.7532,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "This blade",
+      "x": 0.1349,
+      "y": 0.416,
+      "w": 0.1502,
+      "h": 0.019,
+      "words": [
+        "This",
+        "blade"
+      ],
+      "conf": 96.8342,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This blade is narrow,",
+      "x": 0.1357,
+      "y": 0.4166,
+      "w": 0.3538,
+      "h": 0.0444,
+      "words": [
+        "This",
+        "blade",
+        "is",
+        "narrow,"
+      ],
+      "conf": 96.9206,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "is wide.",
+      "x": 0.3393,
+      "y": 0.442,
+      "w": 0.1204,
+      "h": 0.0184,
+      "words": [
+        "is",
+        "wide."
+      ],
+      "conf": 94.6877,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "aa even",
+      "x": 0.685,
+      "y": 0.4805,
+      "w": 0.1236,
+      "h": 0.0152,
+      "words": [
+        "aa",
+        "even"
+      ],
+      "conf": 39.9122,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "This is a wide street.",
+      "x": 0.1753,
+      "y": 0.5228,
+      "w": 0.2916,
+      "h": 0.0211,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "wide",
+        "street."
+      ],
+      "conf": 96.3223,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "'These trousers ‘are wide.",
+      "x": 0.5129,
+      "y": 0.7784,
+      "w": 0.2213,
+      "h": 0.0634,
+      "words": [
+        "'These",
+        "trousers",
+        "‘are",
+        "wide."
+      ],
+      "conf": 88.1705,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "These trousers are narrow.",
+      "x": 0.6551,
+      "y": 0.8467,
+      "w": 0.2674,
+      "h": 0.045,
+      "words": [
+        "These",
+        "trousers",
+        "are",
+        "narrow."
+      ],
+      "conf": 96.5519,
+      "source": "psm-11"
+    }
+  ]
+}

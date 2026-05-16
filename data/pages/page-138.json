@@ -1,0 +1,190 @@
+{
+  "page": 138,
+  "image": "/books/page 138.png",
+  "imageApiPath": "/api/books/page%20138.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 7,
+    "wordCount": 66,
+    "imageWidth": 1125,
+    "imageHeight": 1871
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This is the waiting room in the station,",
+      "x": 0.072,
+      "y": 0.101,
+      "w": 0.3849,
+      "h": 0.046,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "waiting",
+        "room",
+        "in",
+        "the",
+        "station,"
+      ],
+      "conf": 95.9579,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Here is a train.",
+      "x": 0.6027,
+      "y": 0.1005,
+      "w": 0.2373,
+      "h": 0.0198,
+      "words": [
+        "Here",
+        "is",
+        "a",
+        "train."
+      ],
+      "conf": 95.4815,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This is the engine of a train.",
+      "x": 0.5698,
+      "y": 0.2095,
+      "w": 0.352,
+      "h": 0.0438,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "engine",
+        "of",
+        "a",
+        "train."
+      ],
+      "conf": 96.2396,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Those men and women on the seats in the waiting room are waiting. They are waiting for their trains.",
+      "x": 0.0729,
+      "y": 0.3095,
+      "w": 0.3778,
+      "h": 0.1256,
+      "words": [
+        "Those",
+        "men",
+        "and",
+        "women",
+        "on",
+        "the",
+        "seats",
+        "in",
+        "the",
+        "waiting",
+        "room",
+        "are",
+        "waiting.",
+        "They",
+        "are",
+        "waiting",
+        "for",
+        "their",
+        "trains."
+      ],
+      "conf": 95.888,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "These are rails. The train goes on these rails.",
+      "x": 0.0747,
+      "y": 0.5249,
+      "w": 0.3991,
+      "h": 0.048,
+      "words": [
+        "These",
+        "are",
+        "rails.",
+        "The",
+        "train",
+        "goes",
+        "on",
+        "these",
+        "rails."
+      ],
+      "conf": 96.1439,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "It is a railroad train,",
+      "x": 0.0764,
+      "y": 0.5756,
+      "w": 0.328,
+      "h": 0.0192,
+      "words": [
+        "It",
+        "is",
+        "a",
+        "railroad",
+        "train,"
+      ],
+      "conf": 87.5543,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Here is the ticket office in the station Mr. Smith got his ticket here",
+      "x": 0.5493,
+      "y": 0.7664,
+      "w": 0.3724,
+      "h": 0.0936,
+      "words": [
+        "Here",
+        "is",
+        "the",
+        "ticket",
+        "office",
+        "in",
+        "the",
+        "station",
+        "Mr.",
+        "Smith",
+        "got",
+        "his",
+        "ticket",
+        "here"
+      ],
+      "conf": 96.3901,
+      "source": "psm-11"
+    }
+  ]
+}

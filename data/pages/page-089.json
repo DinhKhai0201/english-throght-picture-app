@@ -1,0 +1,146 @@
+{
+  "page": 89,
+  "image": "/books/page 89.png",
+  "imageApiPath": "/api/books/page%2089.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 6,
+    "wordCount": 36,
+    "imageWidth": 1150,
+    "imageHeight": 1838
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "These are the arms of the coat.",
+      "x": 0.1217,
+      "y": 0.1355,
+      "w": 0.347,
+      "h": 0.0451,
+      "words": [
+        "These",
+        "are",
+        "the",
+        "arms",
+        "of",
+        "the",
+        "coat."
+      ],
+      "conf": 96.4254,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "These are the sides ot the coat.",
+      "x": 0.1209,
+      "y": 0.3912,
+      "w": 0.3443,
+      "h": 0.0451,
+      "words": [
+        "These",
+        "are",
+        "the",
+        "sides",
+        "ot",
+        "the",
+        "coat."
+      ],
+      "conf": 96.5567,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "And this is the back of the coat.",
+      "x": 0.5696,
+      "y": 0.3972,
+      "w": 0.3522,
+      "h": 0.0457,
+      "words": [
+        "And",
+        "this",
+        "is",
+        "the",
+        "back",
+        "of",
+        "the",
+        "coat."
+      ],
+      "conf": 96.6363,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "These are a man's arms.",
+      "x": 0.0748,
+      "y": 0.5696,
+      "w": 0.3913,
+      "h": 0.019,
+      "words": [
+        "These",
+        "are",
+        "a",
+        "man's",
+        "arms."
+      ],
+      "conf": 91.2827,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "These are his sides.",
+      "x": 0.1226,
+      "y": 0.7514,
+      "w": 0.3035,
+      "h": 0.0207,
+      "words": [
+        "These",
+        "are",
+        "his",
+        "sides."
+      ],
+      "conf": 94.3997,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "And this ts his back.",
+      "x": 0.62,
+      "y": 0.7655,
+      "w": 0.313,
+      "h": 0.0207,
+      "words": [
+        "And",
+        "this",
+        "ts",
+        "his",
+        "back."
+      ],
+      "conf": 96.3405,
+      "source": "psm-11"
+    }
+  ]
+}

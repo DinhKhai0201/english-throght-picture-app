@@ -1,0 +1,295 @@
+{
+  "page": 231,
+  "image": "/books/page 231.png",
+  "imageApiPath": "/api/books/page%20231.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 12,
+    "wordCount": 71,
+    "imageWidth": 1259,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r12"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r11"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "FH",
+      "x": 0.7363,
+      "y": 0.1666,
+      "w": 0.058,
+      "h": 0.0284,
+      "words": [
+        "FH"
+      ],
+      "conf": 37.8827,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "The light comes rom here.",
+      "x": 0.2883,
+      "y": 0.2903,
+      "w": 0.2256,
+      "h": 0.0456,
+      "words": [
+        "The",
+        "light",
+        "comes",
+        "rom",
+        "here."
+      ],
+      "conf": 96.4388,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "The part of the pencil t which is under the water seems to be where it is not.",
+      "x": 0.5234,
+      "y": 0.3139,
+      "w": 0.3765,
+      "h": 0.0937,
+      "words": [
+        "The",
+        "part",
+        "of",
+        "the",
+        "pencil",
+        "t",
+        "which",
+        "is",
+        "under",
+        "the",
+        "water",
+        "seems",
+        "to",
+        "be",
+        "where",
+        "it",
+        "is",
+        "not."
+      ],
+      "conf": 96.5618,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "But it seems to come from here.",
+      "x": 0.166,
+      "y": 0.3814,
+      "w": 0.3519,
+      "h": 0.0449,
+      "words": [
+        "But",
+        "it",
+        "seems",
+        "to",
+        "come",
+        "from",
+        "here."
+      ],
+      "conf": 95.1791,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "The light from the pencil is bent",
+      "x": 0.2089,
+      "y": 0.4976,
+      "w": 0.2565,
+      "h": 0.0493,
+      "words": [
+        "The",
+        "light",
+        "from",
+        "the",
+        "pencil",
+        "is",
+        "bent"
+      ],
+      "conf": 96.6686,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Here is your eye.",
+      "x": 0.5655,
+      "y": 0.4949,
+      "w": 0.2415,
+      "h": 0.023,
+      "words": [
+        "Here",
+        "is",
+        "your",
+        "eye."
+      ],
+      "conf": 96.8403,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "ere.",
+      "x": 0.4091,
+      "y": 0.5538,
+      "w": 0.0548,
+      "h": 0.0123,
+      "words": [
+        "ere."
+      ],
+      "conf": 93.5491,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "It comes out of the water here.",
+      "x": 0.1827,
+      "y": 0.6524,
+      "w": 0.2137,
+      "h": 0.0455,
+      "words": [
+        "It",
+        "comes",
+        "out",
+        "of",
+        "the",
+        "water",
+        "here."
+      ],
+      "conf": 95.2425,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "The point of the be an",
+      "x": 0.1811,
+      "y": 0.744,
+      "w": 0.2296,
+      "h": 0.1129,
+      "words": [
+        "The",
+        "point",
+        "of",
+        "the",
+        "be",
+        "an"
+      ],
+      "conf": 96.5218,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "pencil seems",
+      "x": 0.1835,
+      "y": 0.7702,
+      "w": 0.1795,
+      "h": 0.0246,
+      "words": [
+        "pencil",
+        "seems"
+      ],
+      "conf": 96.9569,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "The tight is bent where it comes out of the water.",
+      "x": 0.6044,
+      "y": 0.782,
+      "w": 0.2724,
+      "h": 0.0937,
+      "words": [
+        "The",
+        "tight",
+        "is",
+        "bent",
+        "where",
+        "it",
+        "comes",
+        "out",
+        "of",
+        "the",
+        "water."
+      ],
+      "conf": 91.6689,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "It is",
+      "x": 0.2288,
+      "y": 0.8854,
+      "w": 0.0477,
+      "h": 0.0171,
+      "words": [
+        "It",
+        "is"
+      ],
+      "conf": 92.233,
+      "source": "psm-11"
+    }
+  ]
+}

@@ -1,0 +1,233 @@
+{
+  "page": 160,
+  "image": "/books/page 160.png",
+  "imageApiPath": "/api/books/page%20160.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 11,
+    "wordCount": 53,
+    "imageWidth": 1188,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Here is a wider bit of",
+      "x": 0.1675,
+      "y": 0.1035,
+      "w": 0.3232,
+      "h": 0.0444,
+      "words": [
+        "Here",
+        "is",
+        "a",
+        "wider",
+        "bit",
+        "of"
+      ],
+      "conf": 91.9515,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "will make the roof from this other bit of wood.",
+      "x": 0.5572,
+      "y": 0.1912,
+      "w": 0.3729,
+      "h": 0.0466,
+      "words": [
+        "will",
+        "make",
+        "the",
+        "roof",
+        "from",
+        "this",
+        "other",
+        "bit",
+        "of",
+        "wood."
+      ],
+      "conf": 96.677,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Longer",
+      "x": 0.2391,
+      "y": 0.3478,
+      "w": 0.1052,
+      "h": 0.0222,
+      "words": [
+        "Longer"
+      ],
+      "conf": 96.8045,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "it is wider and it is longer.",
+      "x": 0.1423,
+      "y": 0.428,
+      "w": 0.3763,
+      "h": 0.0238,
+      "words": [
+        "it",
+        "is",
+        "wider",
+        "and",
+        "it",
+        "is",
+        "longer."
+      ],
+      "conf": 88.004,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "will make a cut in this we",
+      "x": 0.1549,
+      "y": 0.5433,
+      "w": 0.351,
+      "h": 0.0429,
+      "words": [
+        "will",
+        "make",
+        "a",
+        "cut",
+        "in",
+        "this",
+        "we"
+      ],
+      "conf": 95.7551,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "This is an angle.",
+      "x": 0.6162,
+      "y": 0.5412,
+      "w": 0.2466,
+      "h": 0.0412,
+      "words": [
+        "This",
+        "is",
+        "an",
+        "angle."
+      ],
+      "conf": 95.3224,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is an angle.",
+      "x": 0.617,
+      "y": 0.6387,
+      "w": 0.2458,
+      "h": 0.0228,
+      "words": [
+        "This",
+        "is",
+        "an",
+        "angle."
+      ],
+      "conf": 96.6257,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "will make a cut at this angle.",
+      "x": 0.1549,
+      "y": 0.6593,
+      "w": 0.3477,
+      "h": 0.0509,
+      "words": [
+        "will",
+        "make",
+        "a",
+        "cut",
+        "at",
+        "this",
+        "angle."
+      ],
+      "conf": 95.1792,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "This is another right angle.",
+      "x": 0.58,
+      "y": 0.7535,
+      "w": 0.367,
+      "h": 0.0754,
+      "words": [
+        "This",
+        "is",
+        "another",
+        "right",
+        "angle."
+      ],
+      "conf": 88.4645,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Acut",
+      "x": 0.2736,
+      "y": 0.8034,
+      "w": 0.0783,
+      "h": 0.0179,
+      "words": [
+        "Acut"
+      ],
+      "conf": 87.1072,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "“angle.",
+      "x": 0.7609,
+      "y": 0.8039,
+      "w": 0.1221,
+      "h": 0.0255,
+      "words": [
+        "“angle."
+      ],
+      "conf": 60.7582,
+      "source": "psm-11"
+    }
+  ]
+}

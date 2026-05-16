@@ -1,0 +1,94 @@
+{
+  "page": 304,
+  "image": "/books/page 304.png",
+  "imageApiPath": "/api/books/page%20304.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 4,
+    "wordCount": 12,
+    "imageWidth": 1192,
+    "imageHeight": 1884
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "MILLIONS Berlin",
+      "x": 0.1418,
+      "y": 0.4225,
+      "w": 0.1594,
+      "h": 0.0552,
+      "words": [
+        "MILLIONS",
+        "Berlin"
+      ],
+      "conf": 91.0005,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "von ee",
+      "x": 0.1107,
+      "y": 0.449,
+      "w": 0.6493,
+      "h": 0.0499,
+      "words": [
+        "von",
+        "ee"
+      ],
+      "conf": 42.7028,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "London Mexico City Moscow New York",
+      "x": 0.1426,
+      "y": 0.595,
+      "w": 0.1158,
+      "h": 0.1401,
+      "words": [
+        "London",
+        "Mexico",
+        "City",
+        "Moscow",
+        "New",
+        "York"
+      ],
+      "conf": 92.7009,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "SS SS",
+      "x": 0.5696,
+      "y": 0.7978,
+      "w": 0.1133,
+      "h": 0.0287,
+      "words": [
+        "SS",
+        "SS"
+      ],
+      "conf": 44.7752,
+      "source": "psm-6"
+    }
+  ]
+}

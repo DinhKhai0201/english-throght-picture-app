@@ -1,0 +1,139 @@
+{
+  "page": 79,
+  "image": "/books/page 79.png",
+  "imageApiPath": "/api/books/page%2079.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 6,
+    "wordCount": 29,
+    "imageWidth": 1125,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "i was in the street.",
+      "x": 0.1324,
+      "y": 0.0975,
+      "w": 0.2933,
+      "h": 0.0193,
+      "words": [
+        "i",
+        "was",
+        "in",
+        "the",
+        "street."
+      ],
+      "conf": 86.4483,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "The wind came. It took",
+      "x": 0.5529,
+      "y": 0.0959,
+      "w": 0.3733,
+      "h": 0.037,
+      "words": [
+        "The",
+        "wind",
+        "came.",
+        "It",
+        "took"
+      ],
+      "conf": 96.526,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "I was coming here.",
+      "x": 0.1316,
+      "y": 0.1232,
+      "w": 0.3049,
+      "h": 0.0236,
+      "words": [
+        "I",
+        "was",
+        "coming",
+        "here."
+      ],
+      "conf": 85.1582,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "my hat off.",
+      "x": 0.5529,
+      "y": 0.1269,
+      "w": 0.176,
+      "h": 0.0198,
+      "words": [
+        "my",
+        "hat",
+        "off."
+      ],
+      "conf": 95.628,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "went after my hat.",
+      "x": 0.1227,
+      "y": 0.5479,
+      "w": 0.3013,
+      "h": 0.0445,
+      "words": [
+        "went",
+        "after",
+        "my",
+        "hat."
+      ],
+      "conf": 90.5208,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "When took it up, there was this money.",
+      "x": 0.5582,
+      "y": 0.5726,
+      "w": 0.3876,
+      "h": 0.0498,
+      "words": [
+        "When",
+        "took",
+        "it",
+        "up,",
+        "there",
+        "was",
+        "this",
+        "money."
+      ],
+      "conf": 96.0973,
+      "source": "psm-11"
+    }
+  ]
+}

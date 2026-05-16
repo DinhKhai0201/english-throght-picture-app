@@ -1,0 +1,301 @@
+{
+  "page": 261,
+  "image": "/books/page 261.png",
+  "imageApiPath": "/api/books/page%20261.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 11,
+    "wordCount": 91,
+    "imageWidth": 1205,
+    "imageHeight": 1821
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r4",
+        "r6"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r5",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r11"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r10"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "I have less money than he has I have less than you have the least money.",
+      "x": 0.5137,
+      "y": 0.1021,
+      "w": 0.3419,
+      "h": 0.1285,
+      "words": [
+        "I",
+        "have",
+        "less",
+        "money",
+        "than",
+        "he",
+        "has",
+        "I",
+        "have",
+        "less",
+        "than",
+        "you",
+        "have",
+        "the",
+        "least",
+        "money."
+      ],
+      "conf": 92.3171,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "I have two dollars.",
+      "x": 0.078,
+      "y": 0.1334,
+      "w": 0.2788,
+      "h": 0.0209,
+      "words": [
+        "I",
+        "have",
+        "two",
+        "dollars."
+      ],
+      "conf": 80.6689,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "You have twenty dollars.",
+      "x": 0.0763,
+      "y": 0.1582,
+      "w": 0.2531,
+      "h": 0.0455,
+      "words": [
+        "You",
+        "have",
+        "twenty",
+        "dollars."
+      ],
+      "conf": 96.6327,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "He has a thousand dollars He has more money than we have.",
+      "x": 0.0772,
+      "y": 0.2103,
+      "w": 0.3045,
+      "h": 0.0989,
+      "words": [
+        "He",
+        "has",
+        "a",
+        "thousand",
+        "dollars",
+        "He",
+        "has",
+        "more",
+        "money",
+        "than",
+        "we",
+        "have."
+      ],
+      "conf": 96.0263,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "t The most] More",
+      "x": 0.4755,
+      "y": 0.2768,
+      "w": 0.1527,
+      "h": 0.0703,
+      "words": [
+        "t",
+        "The",
+        "most]",
+        "More"
+      ],
+      "conf": 85.441,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "You have more than I have He has the most money",
+      "x": 0.0763,
+      "y": 0.3147,
+      "w": 0.3511,
+      "h": 0.0774,
+      "words": [
+        "You",
+        "have",
+        "more",
+        "than",
+        "I",
+        "have",
+        "He",
+        "has",
+        "the",
+        "most",
+        "money"
+      ],
+      "conf": 96.6636,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Less The least",
+      "x": 0.7568,
+      "y": 0.33,
+      "w": 0.1361,
+      "h": 0.0676,
+      "words": [
+        "Less",
+        "The",
+        "least"
+      ],
+      "conf": 96.8176,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This fs the highest note This isa lower note, but it is higher than this note.",
+      "x": 0.0988,
+      "y": 0.5519,
+      "w": 0.1883,
+      "h": 0.2273,
+      "words": [
+        "This",
+        "fs",
+        "the",
+        "highest",
+        "note",
+        "This",
+        "isa",
+        "lower",
+        "note,",
+        "but",
+        "it",
+        "is",
+        "higher",
+        "than",
+        "this",
+        "note."
+      ],
+      "conf": 94.3862,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Farming is an important sort of wor Is it. more important than",
+      "x": 0.5046,
+      "y": 0.6293,
+      "w": 0.3676,
+      "h": 0.1225,
+      "words": [
+        "Farming",
+        "is",
+        "an",
+        "important",
+        "sort",
+        "of",
+        "wor",
+        "Is",
+        "it.",
+        "more",
+        "important",
+        "than"
+      ],
+      "conf": 96.5102,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "banking?",
+      "x": 0.5021,
+      "y": 0.7375,
+      "w": 0.1419,
+      "h": 0.0242,
+      "words": [
+        "banking?"
+      ],
+      "conf": 95.9277,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "Which is the lowest note of the three?",
+      "x": 0.0954,
+      "y": 0.8287,
+      "w": 0.3585,
+      "h": 0.0461,
+      "words": [
+        "Which",
+        "is",
+        "the",
+        "lowest",
+        "note",
+        "of",
+        "the",
+        "three?"
+      ],
+      "conf": 95.5773,
+      "source": "psm-11"
+    }
+  ]
+}

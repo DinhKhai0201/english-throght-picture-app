@@ -1,0 +1,204 @@
+{
+  "page": 107,
+  "image": "/books/page 107.png",
+  "imageApiPath": "/api/books/page%20107.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 9,
+    "wordCount": 52,
+    "imageWidth": 1171,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "John has a bit of cheese in his fingers.",
+      "x": 0.1315,
+      "y": 0.1528,
+      "w": 0.3185,
+      "h": 0.0505,
+      "words": [
+        "John",
+        "has",
+        "a",
+        "bit",
+        "of",
+        "cheese",
+        "in",
+        "his",
+        "fingers."
+      ],
+      "conf": 96.38,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "He is putting the bit of cheese in his mouth.",
+      "x": 0.5414,
+      "y": 0.149,
+      "w": 0.3451,
+      "h": 0.0484,
+      "words": [
+        "He",
+        "is",
+        "putting",
+        "the",
+        "bit",
+        "of",
+        "cheese",
+        "in",
+        "his",
+        "mouth."
+      ],
+      "conf": 96.5393,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Now it is between his teeth.",
+      "x": 0.1136,
+      "y": 0.5449,
+      "w": 0.3305,
+      "h": 0.0441,
+      "words": [
+        "Now",
+        "it",
+        "is",
+        "between",
+        "his",
+        "teeth."
+      ],
+      "conf": 95.604,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "The cheese is not soft.",
+      "x": 0.5517,
+      "y": 0.5277,
+      "w": 0.333,
+      "h": 0.0221,
+      "words": [
+        "The",
+        "cheese",
+        "is",
+        "not",
+        "soft."
+      ],
+      "conf": 96.3638,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "it is hard.",
+      "x": 0.5909,
+      "y": 0.645,
+      "w": 0.1435,
+      "h": 0.0194,
+      "words": [
+        "it",
+        "is",
+        "hard."
+      ],
+      "conf": 91.9494,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "This is his mouth.",
+      "x": 0.1401,
+      "y": 0.7289,
+      "w": 0.2579,
+      "h": 0.0194,
+      "words": [
+        "This",
+        "is",
+        "his",
+        "mouth."
+      ],
+      "conf": 96.5342,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is a tooth.",
+      "x": 0.1392,
+      "y": 0.8031,
+      "w": 0.2254,
+      "h": 0.0188,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "tooth."
+      ],
+      "conf": 95.2212,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "John’s teeth do not go into the cheese.",
+      "x": 0.5517,
+      "y": 0.7934,
+      "w": 0.3382,
+      "h": 0.0442,
+      "words": [
+        "John’s",
+        "teeth",
+        "do",
+        "not",
+        "go",
+        "into",
+        "the",
+        "cheese."
+      ],
+      "conf": 93.9377,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "These are teeth.",
+      "x": 0.1494,
+      "y": 0.8505,
+      "w": 0.2502,
+      "h": 0.021,
+      "words": [
+        "These",
+        "are",
+        "teeth."
+      ],
+      "conf": 81.1969,
+      "source": "psm-11"
+    }
+  ]
+}

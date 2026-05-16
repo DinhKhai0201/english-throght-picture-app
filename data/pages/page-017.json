@@ -1,0 +1,240 @@
+{
+  "page": 17,
+  "image": "/books/page 17.png",
+  "imageApiPath": "/api/books/page%2017.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 12,
+    "wordCount": 46,
+    "imageWidth": 1163,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "That is your hat It is on the table",
+      "x": 0.1642,
+      "y": 0.1219,
+      "w": 0.2546,
+      "h": 0.0455,
+      "words": [
+        "That",
+        "is",
+        "your",
+        "hat",
+        "It",
+        "is",
+        "on",
+        "the",
+        "table"
+      ],
+      "conf": 94.2014,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Those are your hats They are on the table",
+      "x": 0.5615,
+      "y": 0.123,
+      "w": 0.3723,
+      "h": 0.0492,
+      "words": [
+        "Those",
+        "are",
+        "your",
+        "hats",
+        "They",
+        "are",
+        "on",
+        "the",
+        "table"
+      ],
+      "conf": 96.4196,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "These are my hands",
+      "x": 0.1384,
+      "y": 0.5125,
+      "w": 0.3087,
+      "h": 0.0233,
+      "words": [
+        "These",
+        "are",
+        "my",
+        "hands"
+      ],
+      "conf": 96.7478,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Those are your hands",
+      "x": 0.5658,
+      "y": 0.5119,
+      "w": 0.3388,
+      "h": 0.0238,
+      "words": [
+        "Those",
+        "are",
+        "your",
+        "hands"
+      ],
+      "conf": 96.3078,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "That is right",
+      "x": 0.7876,
+      "y": 0.5515,
+      "w": 0.1049,
+      "h": 0.0764,
+      "words": [
+        "That",
+        "is",
+        "right"
+      ],
+      "conf": 96.4944,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "your hand",
+      "x": 0.7997,
+      "y": 0.5861,
+      "w": 0.0893,
+      "h": 0.0635,
+      "words": [
+        "your",
+        "hand"
+      ],
+      "conf": 96.9145,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is",
+      "x": 0.092,
+      "y": 0.766,
+      "w": 0.098,
+      "h": 0.0255,
+      "words": [
+        "This",
+        "is"
+      ],
+      "conf": 96.1208,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This is right",
+      "x": 0.0929,
+      "y": 0.7654,
+      "w": 0.3938,
+      "h": 0.0775,
+      "words": [
+        "This",
+        "is",
+        "right"
+      ],
+      "conf": 96.6419,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "That is your left hand",
+      "x": 0.7833,
+      "y": 0.7774,
+      "w": 0.1049,
+      "h": 0.0969,
+      "words": [
+        "That",
+        "is",
+        "your",
+        "left",
+        "hand"
+      ],
+      "conf": 96.451,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "my",
+      "x": 0.0937,
+      "y": 0.8007,
+      "w": 0.043,
+      "h": 0.0168,
+      "words": [
+        "my"
+      ],
+      "conf": 96.7007,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "my left hand",
+      "x": 0.0937,
+      "y": 0.8007,
+      "w": 0.3474,
+      "h": 0.0634,
+      "words": [
+        "my",
+        "left",
+        "hand"
+      ],
+      "conf": 96.6867,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "hand",
+      "x": 0.3921,
+      "y": 0.8445,
+      "w": 0.0791,
+      "h": 0.019,
+      "words": [
+        "hand"
+      ],
+      "conf": 96.6218,
+      "source": "psm-11"
+    }
+  ]
+}

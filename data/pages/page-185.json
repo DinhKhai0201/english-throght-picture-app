@@ -1,0 +1,304 @@
+{
+  "page": 185,
+  "image": "/books/page 185.png",
+  "imageApiPath": "/api/books/page%20185.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 108,
+    "imageWidth": 1284,
+    "imageHeight": 1834
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r5"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This baby is one year old",
+      "x": 0.1394,
+      "y": 0.0971,
+      "w": 0.3022,
+      "h": 0.0447,
+      "words": [
+        "This",
+        "baby",
+        "is",
+        "one",
+        "year",
+        "old"
+      ],
+      "conf": 96.7038,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "FR This boy is ten years old This man is thirty years",
+      "x": 0.148,
+      "y": 0.1341,
+      "w": 0.3248,
+      "h": 0.1882,
+      "words": [
+        "FR",
+        "This",
+        "boy",
+        "is",
+        "ten",
+        "years",
+        "old",
+        "This",
+        "man",
+        "is",
+        "thirty",
+        "years"
+      ],
+      "conf": 70.8176,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "The baby is very young.",
+      "x": 0.5055,
+      "y": 0.1968,
+      "w": 0.3411,
+      "h": 0.0229,
+      "words": [
+        "The",
+        "baby",
+        "is",
+        "very",
+        "young."
+      ],
+      "conf": 96.6208,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "How old is he? He is one year old, The old man is very old How old is he? He is ninety years old",
+      "x": 0.5047,
+      "y": 0.2219,
+      "w": 0.338,
+      "h": 0.1271,
+      "words": [
+        "How",
+        "old",
+        "is",
+        "he?",
+        "He",
+        "is",
+        "one",
+        "year",
+        "old,",
+        "The",
+        "old",
+        "man",
+        "is",
+        "very",
+        "old",
+        "How",
+        "old",
+        "is",
+        "he?",
+        "He",
+        "is",
+        "ninety",
+        "years",
+        "old"
+      ],
+      "conf": 96.6271,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "This old man is ninety years old That is a stick Jin his hand.",
+      "x": 0.1495,
+      "y": 0.3708,
+      "w": 0.2165,
+      "h": 0.1335,
+      "words": [
+        "This",
+        "old",
+        "man",
+        "is",
+        "ninety",
+        "years",
+        "old",
+        "That",
+        "is",
+        "a",
+        "stick",
+        "Jin",
+        "his",
+        "hand."
+      ],
+      "conf": 96.3564,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "This room is twenty feet long and sixteen feet wide and twelve feet high",
+      "x": 0.5312,
+      "y": 0.5115,
+      "w": 0.3349,
+      "h": 0.1003,
+      "words": [
+        "This",
+        "room",
+        "is",
+        "twenty",
+        "feet",
+        "long",
+        "and",
+        "sixteen",
+        "feet",
+        "wide",
+        "and",
+        "twelve",
+        "feet",
+        "high"
+      ],
+      "conf": 96.8938,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This box is four inches long and three inches wide and two inches high",
+      "x": 0.1472,
+      "y": 0.5703,
+      "w": 0.31,
+      "h": 0.0999,
+      "words": [
+        "This",
+        "box",
+        "is",
+        "four",
+        "inches",
+        "long",
+        "and",
+        "three",
+        "inches",
+        "wide",
+        "and",
+        "two",
+        "inches",
+        "high"
+      ],
+      "conf": 96.4513,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "How high is the room? It is twelve feet high",
+      "x": 0.5265,
+      "y": 0.7863,
+      "w": 0.3115,
+      "h": 0.0747,
+      "words": [
+        "How",
+        "high",
+        "is",
+        "the",
+        "room?",
+        "It",
+        "is",
+        "twelve",
+        "feet",
+        "high"
+      ],
+      "conf": 96.2795,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "How long is it?",
+      "x": 0.1643,
+      "y": 0.8141,
+      "w": 0.2079,
+      "h": 0.0224,
+      "words": [
+        "How",
+        "long",
+        "is",
+        "it?"
+      ],
+      "conf": 96.5612,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "It is four inches long",
+      "x": 0.1651,
+      "y": 0.8381,
+      "w": 0.2835,
+      "h": 0.0234,
+      "words": [
+        "It",
+        "is",
+        "four",
+        "inches",
+        "long"
+      ],
+      "conf": 94.5603,
+      "source": "psm-11"
+    }
+  ]
+}

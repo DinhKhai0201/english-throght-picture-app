@@ -1,0 +1,124 @@
+{
+  "page": 16,
+  "image": "/books/page 16.png",
+  "imageApiPath": "/api/books/page%2016.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 4,
+    "wordCount": 20,
+    "imageWidth": 1280,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "text": "This is my hat.",
+      "x": 0.1633,
+      "y": 0.3253,
+      "w": 0.1063,
+      "h": 0.0496,
+      "id": "r1",
+      "order": 0,
+      "words": [
+        "This",
+        "is",
+        "my",
+        "hat."
+      ]
+    },
+    {
+      "text": "That is his hat.",
+      "x": 0.6945,
+      "y": 0.3275,
+      "w": 0.1016,
+      "h": 0.0437,
+      "id": "r2",
+      "order": 1,
+      "words": [
+        "That",
+        "is",
+        "his",
+        "hat."
+      ]
+    },
+    {
+      "text": "His hat is on his head.",
+      "x": 0.243,
+      "y": 0.5275,
+      "w": 0.1671,
+      "h": 0.0437,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "His",
+        "hat",
+        "is",
+        "on",
+        "his",
+        "head."
+      ]
+    },
+    {
+      "text": "Her hat is in her hand.",
+      "x": 0.6703,
+      "y": 0.5269,
+      "w": 0.1734,
+      "h": 0.0438,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "Her",
+        "hat",
+        "is",
+        "in",
+        "her",
+        "hand."
+      ]
+    }
+  ]
+}

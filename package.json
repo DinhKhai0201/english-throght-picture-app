@@ -1,0 +1,18 @@
+{
+  "name": "english-through-pictures-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "generate:data": "node scripts/generate-page-data.mjs",
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "arpabet-to-ipa": "^1.0.0",
+    "cmu-pronouncing-dictionary": "^3.0.0",
+    "next": "^15.3.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  }
+}

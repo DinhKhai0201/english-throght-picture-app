@@ -1,0 +1,233 @@
+{
+  "page": 226,
+  "image": "/books/page 226.png",
+  "imageApiPath": "/api/books/page%20226.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 8,
+    "wordCount": 95,
+    "imageWidth": 1188,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "We make threads from the wool by twisting the hairs round and round That wheel is going round It is giving a twist to the thread It is twisting the threa",
+      "x": 0.1338,
+      "y": 0.0857,
+      "w": 0.367,
+      "h": 0.241,
+      "words": [
+        "We",
+        "make",
+        "threads",
+        "from",
+        "the",
+        "wool",
+        "by",
+        "twisting",
+        "the",
+        "hairs",
+        "round",
+        "and",
+        "round",
+        "That",
+        "wheel",
+        "is",
+        "going",
+        "round",
+        "It",
+        "is",
+        "giving",
+        "a",
+        "twist",
+        "to",
+        "the",
+        "thread",
+        "It",
+        "is",
+        "twisting",
+        "the",
+        "threa"
+      ],
+      "conf": 96.3879,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "We get cotton from the",
+      "x": 0.5471,
+      "y": 0.1259,
+      "w": 0.3527,
+      "h": 0.0375,
+      "words": [
+        "We",
+        "get",
+        "cotton",
+        "from",
+        "the"
+      ],
+      "conf": 96.625,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "cotton plant.",
+      "x": 0.5463,
+      "y": 0.1532,
+      "w": 0.1902,
+      "h": 0.0236,
+      "words": [
+        "cotton",
+        "plant."
+      ],
+      "conf": 96.2793,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Cotton is the soft white hair round the seeds of the plant.",
+      "x": 0.548,
+      "y": 0.3374,
+      "w": 0.3536,
+      "h": 0.0734,
+      "words": [
+        "Cotton",
+        "is",
+        "the",
+        "soft",
+        "white",
+        "hair",
+        "round",
+        "the",
+        "seeds",
+        "of",
+        "the",
+        "plant."
+      ],
+      "conf": 96.3641,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "These are different sorts of seeds.",
+      "x": 0.1212,
+      "y": 0.5126,
+      "w": 0.3763,
+      "h": 0.0433,
+      "words": [
+        "These",
+        "are",
+        "different",
+        "sorts",
+        "of",
+        "seeds."
+      ],
+      "conf": 96.5171,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "We get silk from the silkworm",
+      "x": 0.5522,
+      "y": 0.5126,
+      "w": 0.3182,
+      "h": 0.0428,
+      "words": [
+        "We",
+        "get",
+        "silk",
+        "from",
+        "the",
+        "silkworm"
+      ],
+      "conf": 96.2417,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "SL ZG Plants come up from seeds which come from other plants of the same sort,",
+      "x": 0.1221,
+      "y": 0.5774,
+      "w": 0.3737,
+      "h": 0.1618,
+      "words": [
+        "SL",
+        "ZG",
+        "Plants",
+        "come",
+        "up",
+        "from",
+        "seeds",
+        "which",
+        "come",
+        "from",
+        "other",
+        "plants",
+        "of",
+        "the",
+        "same",
+        "sort,"
+      ],
+      "conf": 39.7657,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This worm makes a soft strong thread of silk and puts it round itself like a coat.",
+      "x": 0.5404,
+      "y": 0.6936,
+      "w": 0.3729,
+      "h": 0.0954,
+      "words": [
+        "This",
+        "worm",
+        "makes",
+        "a",
+        "soft",
+        "strong",
+        "thread",
+        "of",
+        "silk",
+        "and",
+        "puts",
+        "it",
+        "round",
+        "itself",
+        "like",
+        "a",
+        "coat."
+      ],
+      "conf": 96.4277,
+      "source": "psm-11"
+    }
+  ]
+}

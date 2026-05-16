@@ -1,0 +1,333 @@
+{
+  "page": 267,
+  "image": "/books/page 267.png",
+  "imageApiPath": "/api/books/page%20267.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 13,
+    "wordCount": 95,
+    "imageWidth": 1242,
+    "imageHeight": 1838
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r5",
+        "r6",
+        "r7"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r11",
+        "r12"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r10",
+        "r13"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "When I say that she is",
+      "x": 0.5322,
+      "y": 0.0805,
+      "w": 0.3221,
+      "h": 0.0413,
+      "words": [
+        "When",
+        "I",
+        "say",
+        "that",
+        "she",
+        "is"
+      ],
+      "conf": 90.8261,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Beautiful things give us jeasure.",
+      "x": 0.1264,
+      "y": 0.1099,
+      "w": 0.3414,
+      "h": 0.0452,
+      "words": [
+        "Beautiful",
+        "things",
+        "give",
+        "us",
+        "jeasure."
+      ],
+      "conf": 86.6655,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "beautiful, that gives hey pleasure.",
+      "x": 0.5306,
+      "y": 0.1192,
+      "w": 0.3519,
+      "h": 0.0511,
+      "words": [
+        "beautiful,",
+        "that",
+        "gives",
+        "hey",
+        "pleasure."
+      ],
+      "conf": 91.8961,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "There is a smile on her",
+      "x": 0.5306,
+      "y": 0.321,
+      "w": 0.3317,
+      "h": 0.0207,
+      "words": [
+        "There",
+        "is",
+        "a",
+        "smile",
+        "on",
+        "her"
+      ],
+      "conf": 95.8019,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "When she sees herself in face now.",
+      "x": 0.12,
+      "y": 0.3466,
+      "w": 0.5548,
+      "h": 0.0305,
+      "words": [
+        "When",
+        "she",
+        "sees",
+        "herself",
+        "in",
+        "face",
+        "now."
+      ],
+      "conf": 95.9822,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "the glass, she sees that she is beautiful.",
+      "x": 0.12,
+      "y": 0.3825,
+      "w": 0.3325,
+      "h": 0.0451,
+      "words": [
+        "the",
+        "glass,",
+        "she",
+        "sees",
+        "that",
+        "she",
+        "is",
+        "beautiful."
+      ],
+      "conf": 96.7317,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "That gives her pleasure. Why Is the smile there?",
+      "x": 0.1192,
+      "y": 0.4325,
+      "w": 0.7552,
+      "h": 0.0337,
+      "words": [
+        "That",
+        "gives",
+        "her",
+        "pleasure.",
+        "Why",
+        "Is",
+        "the",
+        "smile",
+        "there?"
+      ],
+      "conf": 94.6972,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "She is saying to herself that she is beautiful",
+      "x": 0.5258,
+      "y": 0.5446,
+      "w": 0.3446,
+      "h": 0.0468,
+      "words": [
+        "She",
+        "is",
+        "saying",
+        "to",
+        "herself",
+        "that",
+        "she",
+        "is",
+        "beautiful"
+      ],
+      "conf": 96.3824,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "{t is there because she has a feeling of pleasure Her pleasure is the cause",
+      "x": 0.1167,
+      "y": 0.6104,
+      "w": 0.3592,
+      "h": 0.1099,
+      "words": [
+        "{t",
+        "is",
+        "there",
+        "because",
+        "she",
+        "has",
+        "a",
+        "feeling",
+        "of",
+        "pleasure",
+        "Her",
+        "pleasure",
+        "is",
+        "the",
+        "cause"
+      ],
+      "conf": 92.105,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "does not make a sound. A laugh makes a soun",
+      "x": 0.5225,
+      "y": 0.685,
+      "w": 0.3616,
+      "h": 0.0708,
+      "words": [
+        "does",
+        "not",
+        "make",
+        "a",
+        "sound.",
+        "A",
+        "laugh",
+        "makes",
+        "a",
+        "soun"
+      ],
+      "conf": 95.8809,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "of her smile.",
+      "x": 0.1159,
+      "y": 0.7122,
+      "w": 0.1779,
+      "h": 0.0196,
+      "words": [
+        "of",
+        "her",
+        "smile."
+      ],
+      "conf": 95.7258,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "She is saying to herself, “lam beautiful.”",
+      "x": 0.1159,
+      "y": 0.7372,
+      "w": 0.3591,
+      "h": 0.0468,
+      "words": [
+        "She",
+        "is",
+        "saying",
+        "to",
+        "herself,",
+        "“lam",
+        "beautiful.”"
+      ],
+      "conf": 96.6057,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "is a smile with o",
+      "x": 0.649,
+      "y": 0.8575,
+      "w": 0.2359,
+      "h": 0.0207,
+      "words": [
+        "is",
+        "a",
+        "smile",
+        "with",
+        "o"
+      ],
+      "conf": 71.2334,
+      "source": "psm-11"
+    }
+  ]
+}

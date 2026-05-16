@@ -1,0 +1,270 @@
+{
+  "page": 31,
+  "image": "/books/page 31.png",
+  "imageApiPath": "/api/books/page%2031.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 13,
+    "wordCount": 62,
+    "imageWidth": 1188,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r13"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This door is open.",
+      "x": 0.17,
+      "y": 0.169,
+      "w": 0.2719,
+      "h": 0.0233,
+      "words": [
+        "This",
+        "door",
+        "is",
+        "open."
+      ],
+      "conf": 96.4901,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This door is shut.",
+      "x": 0.6195,
+      "y": 0.1674,
+      "w": 0.2517,
+      "h": 0.0195,
+      "words": [
+        "This",
+        "door",
+        "is",
+        "shut."
+      ],
+      "conf": 94.6645,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "ww we ewe",
+      "x": 0.4697,
+      "y": 0.4664,
+      "w": 0.4209,
+      "h": 0.0152,
+      "words": [
+        "ww",
+        "we",
+        "ewe"
+      ],
+      "conf": 38.977,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "This is a wall of the room.",
+      "x": 0.1582,
+      "y": 0.4946,
+      "w": 0.2955,
+      "h": 0.0439,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "wall",
+        "of",
+        "the",
+        "room."
+      ],
+      "conf": 95.7382,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "This is a picture of aman and a woman.",
+      "x": 0.5833,
+      "y": 0.4957,
+      "w": 0.3249,
+      "h": 0.0444,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "picture",
+        "of",
+        "aman",
+        "and",
+        "a",
+        "woman."
+      ],
+      "conf": 94.341,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "This is the cord of the picture.",
+      "x": 0.7121,
+      "y": 0.5883,
+      "w": 0.2247,
+      "h": 0.0498,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "cord",
+        "of",
+        "the",
+        "picture."
+      ],
+      "conf": 96.8876,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is!",
+      "x": 0.4242,
+      "y": 0.6593,
+      "w": 0.1027,
+      "h": 0.0179,
+      "words": [
+        "This",
+        "is!"
+      ],
+      "conf": 89.3731,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This is a hook,",
+      "x": 0.5404,
+      "y": 0.649,
+      "w": 0.213,
+      "h": 0.0352,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "hook,"
+      ],
+      "conf": 89.08,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "A picture is",
+      "x": 0.1456,
+      "y": 0.6983,
+      "w": 0.1734,
+      "h": 0.0228,
+      "words": [
+        "A",
+        "picture",
+        "is"
+      ],
+      "conf": 96.7331,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "a wall.",
+      "x": 0.4175,
+      "y": 0.6847,
+      "w": 0.1094,
+      "h": 0.0184,
+      "words": [
+        "a",
+        "wall."
+      ],
+      "conf": 77.2415,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "on this wall.",
+      "x": 0.1456,
+      "y": 0.7232,
+      "w": 0.1818,
+      "h": 0.0195,
+      "words": [
+        "on",
+        "this",
+        "wall."
+      ],
+      "conf": 93.0084,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "This is the floor of the room.",
+      "x": 0.1599,
+      "y": 0.8169,
+      "w": 0.33,
+      "h": 0.0445,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "floor",
+        "of",
+        "the",
+        "room."
+      ],
+      "conf": 96.6371,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "This is the frame of the picture.",
+      "x": 0.5665,
+      "y": 0.8548,
+      "w": 0.3468,
+      "h": 0.0521,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "frame",
+        "of",
+        "the",
+        "picture."
+      ],
+      "conf": 95.7663,
+      "source": "psm-11"
+    }
+  ]
+}

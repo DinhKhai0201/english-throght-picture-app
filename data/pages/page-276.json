@@ -1,0 +1,270 @@
+{
+  "page": 276,
+  "image": "/books/page 276.png",
+  "imageApiPath": "/api/books/page%20276.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 9,
+    "wordCount": 88,
+    "imageWidth": 1205,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "We get knowledge in our senses,",
+      "x": 0.1344,
+      "y": 0.1019,
+      "w": 0.3237,
+      "h": 0.072,
+      "words": [
+        "We",
+        "get",
+        "knowledge",
+        "in",
+        "our",
+        "senses,"
+      ],
+      "conf": 96.549,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "through the work we do different ways—through with our hands and our",
+      "x": 0.1344,
+      "y": 0.1035,
+      "w": 0.7677,
+      "h": 0.0474,
+      "words": [
+        "through",
+        "the",
+        "work",
+        "we",
+        "do",
+        "different",
+        "ways—through",
+        "with",
+        "our",
+        "hands",
+        "and",
+        "our"
+      ],
+      "conf": 96.405,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "heads, and through books.",
+      "x": 0.5477,
+      "y": 0.1504,
+      "w": 0.2922,
+      "h": 0.0475,
+      "words": [
+        "heads,",
+        "and",
+        "through",
+        "books."
+      ],
+      "conf": 96.6415,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "through talk with other men,",
+      "x": 0.1386,
+      "y": 0.2832,
+      "w": 0.2374,
+      "h": 0.0453,
+      "words": [
+        "through",
+        "talk",
+        "with",
+        "other",
+        "men,"
+      ],
+      "conf": 96.8731,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "These are all ways of getting knowledge",
+      "x": 0.5635,
+      "y": 0.3749,
+      "w": 0.3195,
+      "h": 0.0491,
+      "words": [
+        "These",
+        "are",
+        "all",
+        "ways",
+        "of",
+        "getting",
+        "knowledge"
+      ],
+      "conf": 96.4949,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Knowledge is very important. It is important your knowledge of",
+      "x": 0.1353,
+      "y": 0.5589,
+      "w": 0.6971,
+      "h": 0.0561,
+      "words": [
+        "Knowledge",
+        "is",
+        "very",
+        "important.",
+        "It",
+        "is",
+        "important",
+        "your",
+        "knowledge",
+        "of"
+      ],
+      "conf": 96.5488,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "ls the word “use” part of English?",
+      "x": 0.5502,
+      "y": 0.56,
+      "w": 0.3668,
+      "h": 0.0747,
+      "words": [
+        "ls",
+        "the",
+        "word",
+        "“use”",
+        "part",
+        "of",
+        "English?"
+      ],
+      "conf": 88.1739,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "in itself. And it is important as a way fo other things. A man who Knowledge gives us has no knowledge is of no use to other men",
+      "x": 0.1336,
+      "y": 0.6069,
+      "w": 0.7137,
+      "h": 0.1221,
+      "words": [
+        "in",
+        "itself.",
+        "And",
+        "it",
+        "is",
+        "important",
+        "as",
+        "a",
+        "way",
+        "fo",
+        "other",
+        "things.",
+        "A",
+        "man",
+        "who",
+        "Knowledge",
+        "gives",
+        "us",
+        "has",
+        "no",
+        "knowledge",
+        "is",
+        "of",
+        "no",
+        "use",
+        "to",
+        "other",
+        "men"
+      ],
+      "conf": 94.9744,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "(See page light. It makes things clearer to us,",
+      "x": 0.5485,
+      "y": 0.6363,
+      "w": 0.317,
+      "h": 0.0943,
+      "words": [
+        "(See",
+        "page",
+        "light.",
+        "It",
+        "makes",
+        "things",
+        "clearer",
+        "to",
+        "us,"
+      ],
+      "conf": 96.5784,
+      "source": "psm-11"
+    }
+  ]
+}

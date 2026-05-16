@@ -1,0 +1,215 @@
+{
+  "page": 30,
+  "image": "/books/page 30.png",
+  "imageApiPath": "/api/books/page%2030.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 49,
+    "imageWidth": 1267,
+    "imageHeight": 1855
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This is a room.",
+      "x": 0.4073,
+      "y": 0.124,
+      "w": 0.2068,
+      "h": 0.0189,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "room."
+      ],
+      "conf": 95.7952,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is a door.",
+      "x": 0.3504,
+      "y": 0.2005,
+      "w": 0.1058,
+      "h": 0.0399,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "door."
+      ],
+      "conf": 96.7344,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This is This",
+      "x": 0.5233,
+      "y": 0.1833,
+      "w": 0.3449,
+      "h": 0.0425,
+      "words": [
+        "This",
+        "is",
+        "This"
+      ],
+      "conf": 96.5974,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "a door CO is a picture.",
+      "x": 0.4775,
+      "y": 0.2102,
+      "w": 0.393,
+      "h": 0.1019,
+      "words": [
+        "a",
+        "door",
+        "CO",
+        "is",
+        "a",
+        "picture."
+      ],
+      "conf": 96.5694,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "tae)",
+      "x": 0.2028,
+      "y": 0.3774,
+      "w": 0.0379,
+      "h": 0.0237,
+      "words": [
+        "tae)"
+      ],
+      "conf": 36.7645,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "This is the floor of the room.",
+      "x": 0.3149,
+      "y": 0.4447,
+      "w": 0.4136,
+      "h": 0.021,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "floor",
+        "of",
+        "the",
+        "room."
+      ],
+      "conf": 95.7887,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "These are the windows of the room.",
+      "x": 0.2494,
+      "y": 0.5412,
+      "w": 0.5217,
+      "h": 0.0232,
+      "words": [
+        "These",
+        "are",
+        "the",
+        "windows",
+        "of",
+        "the",
+        "room."
+      ],
+      "conf": 96.4709,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This is a window and this is a window.",
+      "x": 0.2439,
+      "y": 0.5914,
+      "w": 0.5422,
+      "h": 0.0232,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "window",
+        "and",
+        "this",
+        "is",
+        "a",
+        "window."
+      ],
+      "conf": 96.2099,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "This window is shut.",
+      "x": 0.2715,
+      "y": 0.7935,
+      "w": 0.1784,
+      "h": 0.0453,
+      "words": [
+        "This",
+        "window",
+        "is",
+        "shut."
+      ],
+      "conf": 96.2488,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "This window is open.",
+      "x": 0.528,
+      "y": 0.7962,
+      "w": 0.1776,
+      "h": 0.0507,
+      "words": [
+        "This",
+        "window",
+        "is",
+        "open."
+      ],
+      "conf": 96.3856,
+      "source": "psm-11"
+    }
+  ]
+}

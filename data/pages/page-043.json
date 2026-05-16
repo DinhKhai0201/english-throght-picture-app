@@ -1,0 +1,195 @@
+{
+  "page": 43,
+  "image": "/books/page 43.png",
+  "imageApiPath": "/api/books/page%2043.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 8,
+    "wordCount": 57,
+    "imageWidth": 1171,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "They are going from the window.",
+      "x": 0.5602,
+      "y": 0.0936,
+      "w": 0.3783,
+      "h": 0.043,
+      "words": [
+        "They",
+        "are",
+        "going",
+        "from",
+        "the",
+        "window."
+      ],
+      "conf": 96.2769,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "The girl and the boy will go from the window.",
+      "x": 0.0974,
+      "y": 0.114,
+      "w": 0.3851,
+      "h": 0.0479,
+      "words": [
+        "The",
+        "girl",
+        "and",
+        "the",
+        "boy",
+        "will",
+        "go",
+        "from",
+        "the",
+        "window."
+      ],
+      "conf": 96.458,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "They were at the window.",
+      "x": 0.5594,
+      "y": 0.1436,
+      "w": 0.2622,
+      "h": 0.0436,
+      "words": [
+        "They",
+        "were",
+        "at",
+        "the",
+        "window."
+      ],
+      "conf": 96.5535,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "They went from the window.",
+      "x": 0.1341,
+      "y": 0.5159,
+      "w": 0.3006,
+      "h": 0.0451,
+      "words": [
+        "They",
+        "went",
+        "from",
+        "the",
+        "window."
+      ],
+      "conf": 96.6523,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Now they are at the door together.",
+      "x": 0.5602,
+      "y": 0.4997,
+      "w": 0.3125,
+      "h": 0.0485,
+      "words": [
+        "Now",
+        "they",
+        "are",
+        "at",
+        "the",
+        "door",
+        "together."
+      ],
+      "conf": 96.5111,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The boy is with the girl at the door.",
+      "x": 0.5594,
+      "y": 0.5508,
+      "w": 0.3535,
+      "h": 0.0447,
+      "words": [
+        "The",
+        "boy",
+        "is",
+        "with",
+        "the",
+        "girl",
+        "at",
+        "the",
+        "door."
+      ],
+      "conf": 96.8691,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "She went with him and he went with her.",
+      "x": 0.1315,
+      "y": 0.5718,
+      "w": 0.3527,
+      "h": 0.0441,
+      "words": [
+        "She",
+        "went",
+        "with",
+        "him",
+        "and",
+        "he",
+        "went",
+        "with",
+        "her."
+      ],
+      "conf": 96.3696,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "She is at the door again.",
+      "x": 0.5585,
+      "y": 0.6009,
+      "w": 0.3783,
+      "h": 0.0247,
+      "words": [
+        "She",
+        "is",
+        "at",
+        "the",
+        "door",
+        "again."
+      ],
+      "conf": 96.8576,
+      "source": "psm-11"
+    }
+  ]
+}

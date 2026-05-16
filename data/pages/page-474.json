@@ -1,0 +1,449 @@
+{
+  "page": 474,
+  "image": "/books/page 474.png",
+  "imageApiPath": "/api/books/page%20474.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 19,
+    "wordCount": 157,
+    "imageWidth": 1155,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r13",
+        "r14",
+        "r15",
+        "r16",
+        "r17",
+        "r18",
+        "r19"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "There are many other so",
+      "x": 0.11,
+      "y": 0.0327,
+      "w": 0.3896,
+      "h": 0.0214,
+      "words": [
+        "There",
+        "are",
+        "many",
+        "other",
+        "so"
+      ],
+      "conf": 96.5678,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "There are many other sorts PK",
+      "x": 0.11,
+      "y": 0.0252,
+      "w": 0.5463,
+      "h": 0.0493,
+      "words": [
+        "There",
+        "are",
+        "many",
+        "other",
+        "sorts",
+        "PK"
+      ],
+      "conf": 87.1291,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "of automatic controls.",
+      "x": 0.1108,
+      "y": 0.0589,
+      "w": 0.3264,
+      "h": 0.0171,
+      "words": [
+        "of",
+        "automatic",
+        "controls."
+      ],
+      "conf": 96.2507,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "In this hotel a door is automatically opening to let a man go through. His body has shut off the light from an",
+      "x": 0.11,
+      "y": 0.2892,
+      "w": 0.8398,
+      "h": 0.0488,
+      "words": [
+        "In",
+        "this",
+        "hotel",
+        "a",
+        "door",
+        "is",
+        "automatically",
+        "opening",
+        "to",
+        "let",
+        "a",
+        "man",
+        "go",
+        "through.",
+        "His",
+        "body",
+        "has",
+        "shut",
+        "off",
+        "the",
+        "light",
+        "from",
+        "an"
+      ],
+      "conf": 96.3874,
+      "source": "psm-6"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "“electric eye” as he walked past it.",
+      "x": 0.1108,
+      "y": 0.3417,
+      "w": 0.5013,
+      "h": 0.022,
+      "words": [
+        "“electric",
+        "eye”",
+        "as",
+        "he",
+        "walked",
+        "past",
+        "it."
+      ],
+      "conf": 96.5006,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "In this bank a bell is ringing loudly because someone has touched a window. The man was hoping to break into",
+      "x": 0.11,
+      "y": 0.5442,
+      "w": 0.8442,
+      "h": 0.0504,
+      "words": [
+        "In",
+        "this",
+        "bank",
+        "a",
+        "bell",
+        "is",
+        "ringing",
+        "loudly",
+        "because",
+        "someone",
+        "has",
+        "touched",
+        "a",
+        "window.",
+        "The",
+        "man",
+        "was",
+        "hoping",
+        "to",
+        "break",
+        "into"
+      ],
+      "conf": 96.6752,
+      "source": "psm-6"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "touched a window. The man was hoping to break into",
+      "x": 0.11,
+      "y": 0.5726,
+      "w": 0.8442,
+      "h": 0.022,
+      "words": [
+        "touched",
+        "a",
+        "window.",
+        "The",
+        "man",
+        "was",
+        "hoping",
+        "to",
+        "break",
+        "into"
+      ],
+      "conf": 96.4722,
+      "source": "psm-6"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "the safe.",
+      "x": 0.11,
+      "y": 0.5994,
+      "w": 0.1212,
+      "h": 0.0161,
+      "words": [
+        "the",
+        "safe."
+      ],
+      "conf": 96.9618,
+      "source": "psm-6"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Many offices, banks, stores and work plants are kept",
+      "x": 0.1108,
+      "y": 0.6502,
+      "w": 0.8433,
+      "h": 0.022,
+      "words": [
+        "Many",
+        "offices,",
+        "banks,",
+        "stores",
+        "and",
+        "work",
+        "plants",
+        "are",
+        "kept"
+      ],
+      "conf": 96.2485,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "safe at all times by such automatic watchers.",
+      "x": 0.1126,
+      "y": 0.6765,
+      "w": 0.6459,
+      "h": 0.0209,
+      "words": [
+        "safe",
+        "at",
+        "all",
+        "times",
+        "by",
+        "such",
+        "automatic",
+        "watchers."
+      ],
+      "conf": 96.4262,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "ringing: sound made by a bell. We say that a bell rings.",
+      "x": 0.1134,
+      "y": 0.7322,
+      "w": 0.6788,
+      "h": 0.0145,
+      "words": [
+        "ringing:",
+        "sound",
+        "made",
+        "by",
+        "a",
+        "bell.",
+        "We",
+        "say",
+        "that",
+        "a",
+        "bell",
+        "rings."
+      ],
+      "conf": 93.924,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "safe: steel box where money and important papers are kept. They ore",
+      "x": 0.1143,
+      "y": 0.7493,
+      "w": 0.8416,
+      "h": 0.0155,
+      "words": [
+        "safe:",
+        "steel",
+        "box",
+        "where",
+        "money",
+        "and",
+        "important",
+        "papers",
+        "are",
+        "kept.",
+        "They",
+        "ore"
+      ],
+      "conf": 95.5011,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "hotel: building where people can get rooms for money.",
+      "x": 0.1143,
+      "y": 0.7841,
+      "w": 0.6416,
+      "h": 0.0155,
+      "words": [
+        "hotel:",
+        "building",
+        "where",
+        "people",
+        "can",
+        "get",
+        "rooms",
+        "for",
+        "money."
+      ],
+      "conf": 95.9601,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "safe when locked in it, if no one breaks it open.",
+      "x": 0.1706,
+      "y": 0.767,
+      "w": 0.5463,
+      "h": 0.015,
+      "words": [
+        "safe",
+        "when",
+        "locked",
+        "in",
+        "it,",
+        "if",
+        "no",
+        "one",
+        "breaks",
+        "it",
+        "open."
+      ],
+      "conf": 96.3079,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "will ring will touch break",
+      "x": 0.1134,
+      "y": 0.8152,
+      "w": 0.1325,
+      "h": 0.0471,
+      "words": [
+        "will",
+        "ring",
+        "will",
+        "touch",
+        "break"
+      ],
+      "conf": 87.482,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "will ring ring(s) rang, rung will touch touch (es) touched",
+      "x": 0.1134,
+      "y": 0.8147,
+      "w": 0.8442,
+      "h": 0.0348,
+      "words": [
+        "will",
+        "ring",
+        "ring(s)",
+        "rang,",
+        "rung",
+        "will",
+        "touch",
+        "touch",
+        "(es)",
+        "touched"
+      ],
+      "conf": 92.2785,
+      "source": "psm-6"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "ring(s)",
+      "x": 0.4909,
+      "y": 0.8147,
+      "w": 0.0926,
+      "h": 0.015,
+      "words": [
+        "ring(s)"
+      ],
+      "conf": 91.4593,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "break(s)",
+      "x": 0.4797,
+      "y": 0.849,
+      "w": 0.1169,
+      "h": 0.0161,
+      "words": [
+        "break(s)"
+      ],
+      "conf": 87.8794,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "broke, br",
+      "x": 0.774,
+      "y": 0.8318,
+      "w": 0.1229,
+      "h": 0.0354,
+      "words": [
+        "broke,",
+        "br"
+      ],
+      "conf": 93.2493,
+      "source": "psm-11"
+    }
+  ]
+}

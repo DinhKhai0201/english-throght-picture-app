@@ -1,0 +1,108 @@
+{
+  "page": 156,
+  "image": "/books/page 156.png",
+  "imageApiPath": "/api/books/page%20156.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 4,
+    "wordCount": 26,
+    "imageWidth": 1180,
+    "imageHeight": 1825
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This is a box.",
+      "x": 0.6669,
+      "y": 0.1403,
+      "w": 0.1966,
+      "h": 0.0279,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "box."
+      ],
+      "conf": 96.111,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Tom is saying, “l am making a house.”",
+      "x": 0.1771,
+      "y": 0.1682,
+      "w": 0.3085,
+      "h": 0.0477,
+      "words": [
+        "Tom",
+        "is",
+        "saying,",
+        "“l",
+        "am",
+        "making",
+        "a",
+        "house.”"
+      ],
+      "conf": 87.9757,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This is one side of the",
+      "x": 0.1585,
+      "y": 0.606,
+      "w": 0.328,
+      "h": 0.0208,
+      "words": [
+        "This",
+        "is",
+        "one",
+        "side",
+        "of",
+        "the"
+      ],
+      "conf": 96.6471,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "This is the opposite side of the box.",
+      "x": 0.55,
+      "y": 0.6049,
+      "w": 0.3602,
+      "h": 0.0455,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "opposite",
+        "side",
+        "of",
+        "the",
+        "box."
+      ],
+      "conf": 96.8483,
+      "source": "psm-11"
+    }
+  ]
+}

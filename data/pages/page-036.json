@@ -1,0 +1,412 @@
+{
+  "page": 36,
+  "image": "/books/page 36.png",
+  "imageApiPath": "/api/books/page%2036.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 20,
+    "wordCount": 76,
+    "imageWidth": 1284,
+    "imageHeight": 1850
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r6",
+        "r9",
+        "r10"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5",
+        "r7",
+        "r8",
+        "r11"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r12",
+        "r13",
+        "r15",
+        "r17",
+        "r18"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r14",
+        "r16",
+        "r19",
+        "r20"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "QUESTIONS",
+      "x": 0.4299,
+      "y": 0.0719,
+      "w": 0.176,
+      "h": 0.0184,
+      "words": [
+        "QUESTIONS"
+      ],
+      "conf": 96.509,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "a What are these?",
+      "x": 0.1799,
+      "y": 0.1076,
+      "w": 0.264,
+      "h": 0.0195,
+      "words": [
+        "a",
+        "What",
+        "are",
+        "these?"
+      ],
+      "conf": 90.7152,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "b What are these?",
+      "x": 0.5771,
+      "y": 0.1016,
+      "w": 0.2656,
+      "h": 0.02,
+      "words": [
+        "b",
+        "What",
+        "are",
+        "these?"
+      ],
+      "conf": 95.4731,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "And what Is this?",
+      "x": 0.1924,
+      "y": 0.2286,
+      "w": 0.2414,
+      "h": 0.0265,
+      "words": [
+        "And",
+        "what",
+        "Is",
+        "this?"
+      ],
+      "conf": 92.3124,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "And what is this?",
+      "x": 0.5911,
+      "y": 0.2319,
+      "w": 0.2375,
+      "h": 0.02,
+      "words": [
+        "And",
+        "what",
+        "is",
+        "this?"
+      ],
+      "conf": 95.6882,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "What are these?",
+      "x": 0.2087,
+      "y": 0.2897,
+      "w": 0.2298,
+      "h": 0.0189,
+      "words": [
+        "What",
+        "are",
+        "these?"
+      ],
+      "conf": 96.6852,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "d What are these?",
+      "x": 0.5724,
+      "y": 0.2903,
+      "w": 0.2671,
+      "h": 0.0195,
+      "words": [
+        "d",
+        "What",
+        "are",
+        "these?"
+      ],
+      "conf": 91.4737,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "And what is wal eB ess",
+      "x": 0.4766,
+      "y": 0.3805,
+      "w": 0.3621,
+      "h": 0.0995,
+      "words": [
+        "And",
+        "what",
+        "is",
+        "wal",
+        "eB",
+        "ess"
+      ],
+      "conf": 86.7675,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "And what fs this?",
+      "x": 0.1581,
+      "y": 0.4346,
+      "w": 0.2352,
+      "h": 0.0189,
+      "words": [
+        "And",
+        "what",
+        "fs",
+        "this?"
+      ],
+      "conf": 88.3502,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "e What are these?",
+      "x": 0.1729,
+      "y": 0.4897,
+      "w": 0.264,
+      "h": 0.0189,
+      "words": [
+        "e",
+        "What",
+        "are",
+        "these?"
+      ],
+      "conf": 93.8332,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "What is this?",
+      "x": 0.6176,
+      "y": 0.4892,
+      "w": 0.1807,
+      "h": 0.0189,
+      "words": [
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 96.0212,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "(em)",
+      "x": 0.176,
+      "y": 0.5362,
+      "w": 0.1347,
+      "h": 0.0497,
+      "words": [
+        "(em)"
+      ],
+      "conf": 66.3704,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "And what is this?",
+      "x": 0.204,
+      "y": 0.6395,
+      "w": 0.2344,
+      "h": 0.0189,
+      "words": [
+        "And",
+        "what",
+        "is",
+        "this?"
+      ],
+      "conf": 96.3391,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "And what is this?",
+      "x": 0.6083,
+      "y": 0.6265,
+      "w": 0.2368,
+      "h": 0.0195,
+      "words": [
+        "And",
+        "what",
+        "is",
+        "this?"
+      ],
+      "conf": 96.6039,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "g What are these?",
+      "x": 0.19,
+      "y": 0.6995,
+      "w": 0.2664,
+      "h": 0.0243,
+      "words": [
+        "g",
+        "What",
+        "are",
+        "these?"
+      ],
+      "conf": 95.0545,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "h What is this?",
+      "x": 0.6098,
+      "y": 0.6849,
+      "w": 0.2142,
+      "h": 0.02,
+      "words": [
+        "h",
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 95.8567,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "IN",
+      "x": 0.3115,
+      "y": 0.7292,
+      "w": 0.1379,
+      "h": 0.0508,
+      "words": [
+        "IN"
+      ],
+      "conf": 41.1921,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "And what is tise",
+      "x": 0.1612,
+      "y": 0.7741,
+      "w": 0.2438,
+      "h": 0.0611,
+      "words": [
+        "And",
+        "what",
+        "is",
+        "tise"
+      ],
+      "conf": 84.4139,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "What is in it?",
+      "x": 0.6386,
+      "y": 0.8216,
+      "w": 0.1846,
+      "h": 0.0195,
+      "words": [
+        "What",
+        "is",
+        "in",
+        "it?"
+      ],
+      "conf": 95.2197,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "This page is page The answers are on page",
+      "x": 0.1729,
+      "y": 0.8659,
+      "w": 0.6612,
+      "h": 0.0249,
+      "words": [
+        "This",
+        "page",
+        "is",
+        "page",
+        "The",
+        "answers",
+        "are",
+        "on",
+        "page"
+      ],
+      "conf": 96.8133,
+      "source": "psm-11"
+    }
+  ]
+}

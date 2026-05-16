@@ -1,0 +1,272 @@
+{
+  "page": 253,
+  "image": "/books/page 253.png",
+  "imageApiPath": "/api/books/page%20253.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 106,
+    "imageWidth": 1225,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Now am putting them together into the middle basin where the water is not cold and not warm.",
+      "x": 0.5347,
+      "y": 0.1625,
+      "w": 0.3592,
+      "h": 0.1198,
+      "words": [
+        "Now",
+        "am",
+        "putting",
+        "them",
+        "together",
+        "into",
+        "the",
+        "middle",
+        "basin",
+        "where",
+        "the",
+        "water",
+        "is",
+        "not",
+        "cold",
+        "and",
+        "not",
+        "warm."
+      ],
+      "conf": 93.9476,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "put my hands in the basins at the sides.",
+      "x": 0.1314,
+      "y": 0.2811,
+      "w": 0.3078,
+      "h": 0.0455,
+      "words": [
+        "put",
+        "my",
+        "hands",
+        "in",
+        "the",
+        "basins",
+        "at",
+        "the",
+        "sides."
+      ],
+      "conf": 96.0143,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "One of my hands is in the cold water; the other is in the warm water.",
+      "x": 0.1298,
+      "y": 0.3326,
+      "w": 0.3224,
+      "h": 0.0953,
+      "words": [
+        "One",
+        "of",
+        "my",
+        "hands",
+        "is",
+        "in",
+        "the",
+        "cold",
+        "water;",
+        "the",
+        "other",
+        "is",
+        "in",
+        "the",
+        "warm",
+        "water."
+      ],
+      "conf": 96.3475,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "keep them there for a time.",
+      "x": 0.129,
+      "y": 0.4345,
+      "w": 0.3404,
+      "h": 0.0438,
+      "words": [
+        "keep",
+        "them",
+        "there",
+        "for",
+        "a",
+        "time."
+      ],
+      "conf": 95.9905,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "What is this?",
+      "x": 0.1331,
+      "y": 0.5748,
+      "w": 0.1886,
+      "h": 0.0195,
+      "words": [
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 92.6116,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "This water seems warm to one hand and it seems cold: to the other!",
+      "x": 0.1314,
+      "y": 0.5997,
+      "w": 0.3421,
+      "h": 0.0954,
+      "words": [
+        "This",
+        "water",
+        "seems",
+        "warm",
+        "to",
+        "one",
+        "hand",
+        "and",
+        "it",
+        "seems",
+        "cold:",
+        "to",
+        "the",
+        "other!"
+      ],
+      "conf": 95.8035,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Why is this?",
+      "x": 0.538,
+      "y": 0.6013,
+      "w": 0.1788,
+      "h": 0.0238,
+      "words": [
+        "Why",
+        "is",
+        "this?"
+      ],
+      "conf": 96.3218,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "It is because one hand was in warm water and the other in cold water before put them in this middle basin.",
+      "x": 0.538,
+      "y": 0.6268,
+      "w": 0.351,
+      "h": 0.1283,
+      "words": [
+        "It",
+        "is",
+        "because",
+        "one",
+        "hand",
+        "was",
+        "in",
+        "warm",
+        "water",
+        "and",
+        "the",
+        "other",
+        "in",
+        "cold",
+        "water",
+        "before",
+        "put",
+        "them",
+        "in",
+        "this",
+        "middle",
+        "basin."
+      ],
+      "conf": 94.7386,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "It is the same water.",
+      "x": 0.1347,
+      "y": 0.7021,
+      "w": 0.2906,
+      "h": 0.02,
+      "words": [
+        "It",
+        "is",
+        "the",
+        "same",
+        "water."
+      ],
+      "conf": 94.8778,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "But it seems cold and warm at the same time!",
+      "x": 0.1306,
+      "y": 0.7275,
+      "w": 0.311,
+      "h": 0.0683,
+      "words": [
+        "But",
+        "it",
+        "seems",
+        "cold",
+        "and",
+        "warm",
+        "at",
+        "the",
+        "same",
+        "time!"
+      ],
+      "conf": 96.3358,
+      "source": "psm-11"
+    }
+  ]
+}

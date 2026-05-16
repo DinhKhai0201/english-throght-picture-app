@@ -1,0 +1,178 @@
+{
+  "page": 28,
+  "image": "/books/page 28.png",
+  "imageApiPath": "/api/books/page%2028.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 7,
+    "wordCount": 54,
+    "imageWidth": 1255,
+    "imageHeight": 1896
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "his is a bottle and this is a bottle.",
+      "x": 0.2175,
+      "y": 0.1176,
+      "w": 0.1888,
+      "h": 0.0955,
+      "words": [
+        "his",
+        "is",
+        "a",
+        "bottle",
+        "and",
+        "this",
+        "is",
+        "a",
+        "bottle."
+      ],
+      "conf": 95.1847,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is a glass and this is a glass.",
+      "x": 0.6494,
+      "y": 0.1171,
+      "w": 0.1976,
+      "h": 0.0913,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "glass",
+        "and",
+        "this",
+        "is",
+        "a",
+        "glass."
+      ],
+      "conf": 93.7875,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "These are glasses",
+      "x": 0.7251,
+      "y": 0.2938,
+      "w": 0.1602,
+      "h": 0.048,
+      "words": [
+        "These",
+        "are",
+        "glasses"
+      ],
+      "conf": 96.9618,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "and this are bottles.",
+      "x": 0.1514,
+      "y": 0.3739,
+      "w": 0.2143,
+      "h": 0.0444,
+      "words": [
+        "and",
+        "this",
+        "are",
+        "bottles."
+      ],
+      "conf": 95.6436,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "That man and that woman are there",
+      "x": 0.5283,
+      "y": 0.6071,
+      "w": 0.2757,
+      "h": 0.0458,
+      "words": [
+        "That",
+        "man",
+        "and",
+        "that",
+        "woman",
+        "are",
+        "there"
+      ],
+      "conf": 96.3192,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "That is a bird and that is a bird Those are birds They ore birds",
+      "x": 0.1705,
+      "y": 0.7664,
+      "w": 0.2582,
+      "h": 0.1007,
+      "words": [
+        "That",
+        "is",
+        "a",
+        "bird",
+        "and",
+        "that",
+        "is",
+        "a",
+        "bird",
+        "Those",
+        "are",
+        "birds",
+        "They",
+        "ore",
+        "birds"
+      ],
+      "conf": 88.6339,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This man and this woman are here",
+      "x": 0.6502,
+      "y": 0.8165,
+      "w": 0.2629,
+      "h": 0.0432,
+      "words": [
+        "This",
+        "man",
+        "and",
+        "this",
+        "woman",
+        "are",
+        "here"
+      ],
+      "conf": 96.1541,
+      "source": "psm-11"
+    }
+  ]
+}

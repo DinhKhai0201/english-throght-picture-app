@@ -1,0 +1,161 @@
+{
+  "page": 27,
+  "image": "/books/page 27.png",
+  "imageApiPath": "/api/books/page%2027.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 7,
+    "wordCount": 37,
+    "imageWidth": 1196,
+    "imageHeight": 1884
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This is a glass.",
+      "x": 0.6196,
+      "y": 0.13,
+      "w": 0.2132,
+      "h": 0.0228,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "glass."
+      ],
+      "conf": 95.6536,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "It is on the table",
+      "x": 0.6212,
+      "y": 0.1545,
+      "w": 0.24,
+      "h": 0.0191,
+      "words": [
+        "It",
+        "is",
+        "on",
+        "the",
+        "table"
+      ],
+      "conf": 92.3332,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This is water.",
+      "x": 0.1856,
+      "y": 0.1757,
+      "w": 0.1957,
+      "h": 0.018,
+      "words": [
+        "This",
+        "is",
+        "water."
+      ],
+      "conf": 96.33,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "This is a bottle",
+      "x": 0.1355,
+      "y": 0.2288,
+      "w": 0.2166,
+      "h": 0.0573,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "bottle"
+      ],
+      "conf": 81.2237,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "The bottle isina man's hand.",
+      "x": 0.1589,
+      "y": 0.354,
+      "w": 0.1822,
+      "h": 0.0696,
+      "words": [
+        "The",
+        "bottle",
+        "isina",
+        "man's",
+        "hand."
+      ],
+      "conf": 96.7675,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Now the glass is off the table.",
+      "x": 0.1313,
+      "y": 0.5563,
+      "w": 0.3679,
+      "h": 0.045,
+      "words": [
+        "Now",
+        "the",
+        "glass",
+        "is",
+        "off",
+        "the",
+        "table."
+      ],
+      "conf": 89.3768,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "The glass and the water are on the floor.",
+      "x": 0.5661,
+      "y": 0.5568,
+      "w": 0.3604,
+      "h": 0.0446,
+      "words": [
+        "The",
+        "glass",
+        "and",
+        "the",
+        "water",
+        "are",
+        "on",
+        "the",
+        "floor."
+      ],
+      "conf": 96.6843,
+      "source": "psm-11"
+    }
+  ]
+}

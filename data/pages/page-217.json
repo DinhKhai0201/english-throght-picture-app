@@ -1,0 +1,403 @@
+{
+  "page": 217,
+  "image": "/books/page 217.png",
+  "imageApiPath": "/api/books/page%20217.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 16,
+    "wordCount": 123,
+    "imageWidth": 1230,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r10",
+        "r11",
+        "r12",
+        "r16"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r8",
+        "r9",
+        "r13",
+        "r14",
+        "r15"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Answers to questions on pages Page",
+      "x": 0.139,
+      "y": 0.0996,
+      "w": 0.5569,
+      "h": 0.0734,
+      "words": [
+        "Answers",
+        "to",
+        "questions",
+        "on",
+        "pages",
+        "Page"
+      ],
+      "conf": 96.0511,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Page a from the roots b from milk of a plant",
+      "x": 0.1415,
+      "y": 0.3781,
+      "w": 0.452,
+      "h": 0.0767,
+      "words": [
+        "Page",
+        "a",
+        "from",
+        "the",
+        "roots",
+        "b",
+        "from",
+        "milk",
+        "of",
+        "a",
+        "plant"
+      ],
+      "conf": 95.2524,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "c from the sun or flames d from persons e from plants or f from the sky or",
+      "x": 0.1455,
+      "y": 0.4055,
+      "w": 0.8082,
+      "h": 0.0749,
+      "words": [
+        "c",
+        "from",
+        "the",
+        "sun",
+        "or",
+        "flames",
+        "d",
+        "from",
+        "persons",
+        "e",
+        "from",
+        "plants",
+        "or",
+        "f",
+        "from",
+        "the",
+        "sky",
+        "or"
+      ],
+      "conf": 92.2651,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "from seeds",
+      "x": 0.4512,
+      "y": 0.4821,
+      "w": 0.1602,
+      "h": 0.0187,
+      "words": [
+        "from",
+        "seeds"
+      ],
+      "conf": 96.3058,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "clouds",
+      "x": 0.722,
+      "y": 0.4815,
+      "w": 0.0935,
+      "h": 0.0193,
+      "words": [
+        "clouds"
+      ],
+      "conf": 96.4792,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "g from orange h from animals trees",
+      "x": 0.1447,
+      "y": 0.5051,
+      "w": 0.5024,
+      "h": 0.046,
+      "words": [
+        "g",
+        "from",
+        "orange",
+        "h",
+        "from",
+        "animals",
+        "trees"
+      ],
+      "conf": 84.8008,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "i from birds",
+      "x": 0.6862,
+      "y": 0.5067,
+      "w": 0.1927,
+      "h": 0.0193,
+      "words": [
+        "i",
+        "from",
+        "birds"
+      ],
+      "conf": 81.0009,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Aman, a dog, a clock, a goat, a bird may have a face.",
+      "x": 0.1472,
+      "y": 0.5817,
+      "w": 0.7976,
+      "h": 0.0236,
+      "words": [
+        "Aman,",
+        "a",
+        "dog,",
+        "a",
+        "clock,",
+        "a",
+        "goat,",
+        "a",
+        "bird",
+        "may",
+        "have",
+        "a",
+        "face."
+      ],
+      "conf": 94.5394,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "A man, a dog, a goat, a bird, a river may have a",
+      "x": 0.1455,
+      "y": 0.6069,
+      "w": 0.7463,
+      "h": 0.0236,
+      "words": [
+        "A",
+        "man,",
+        "a",
+        "dog,",
+        "a",
+        "goat,",
+        "a",
+        "bird,",
+        "a",
+        "river",
+        "may",
+        "have",
+        "a"
+      ],
+      "conf": 95.858,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Aman and a clock may have hands.",
+      "x": 0.1463,
+      "y": 0.6561,
+      "w": 0.5382,
+      "h": 0.0241,
+      "words": [
+        "Aman",
+        "and",
+        "a",
+        "clock",
+        "may",
+        "have",
+        "hands."
+      ],
+      "conf": 93.6646,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "A fridge",
+      "x": 0.1439,
+      "y": 0.6845,
+      "w": 0.1187,
+      "h": 0.0204,
+      "words": [
+        "A",
+        "fridge"
+      ],
+      "conf": 96.3716,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "anda Page water, food, milk, soup, salt, eggs.",
+      "x": 0.1463,
+      "y": 0.6818,
+      "w": 0.5789,
+      "h": 0.1243,
+      "words": [
+        "anda",
+        "Page",
+        "water,",
+        "food,",
+        "milk,",
+        "soup,",
+        "salt,",
+        "eggs."
+      ],
+      "conf": 95.7002,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "plane may have a door",
+      "x": 0.4667,
+      "y": 0.6818,
+      "w": 0.3585,
+      "h": 0.0236,
+      "words": [
+        "plane",
+        "may",
+        "have",
+        "a",
+        "door"
+      ],
+      "conf": 96.4148,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "a book,.a cup, a box, a clock, a plate, a spoon.",
+      "x": 0.2024,
+      "y": 0.7574,
+      "w": 0.7187,
+      "h": 0.0241,
+      "words": [
+        "a",
+        "book,.a",
+        "cup,",
+        "a",
+        "box,",
+        "a",
+        "clock,",
+        "a",
+        "plate,",
+        "a",
+        "spoon."
+      ],
+      "conf": 93.8691,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "pipes, eters, pencils, maps, hands, buttons, boots, gloves, shirts, coats, collars, socks, trousers,",
+      "x": 0.2008,
+      "y": 0.8056,
+      "w": 0.7513,
+      "h": 0.0745,
+      "words": [
+        "pipes,",
+        "eters,",
+        "pencils,",
+        "maps,",
+        "hands,",
+        "buttons,",
+        "boots,",
+        "gloves,",
+        "shirts,",
+        "coats,",
+        "collars,",
+        "socks,",
+        "trousers,"
+      ],
+      "conf": 89.5487,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "watches, balls, knives.",
+      "x": 0.2016,
+      "y": 0.827,
+      "w": 0.3309,
+      "h": 0.0262,
+      "words": [
+        "watches,",
+        "balls,",
+        "knives."
+      ],
+      "conf": 95.7432,
+      "source": "psm-11"
+    }
+  ]
+}

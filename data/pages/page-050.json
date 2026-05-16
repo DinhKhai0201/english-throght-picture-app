@@ -1,0 +1,294 @@
+{
+  "page": 50,
+  "image": "/books/page 50.png",
+  "imageApiPath": "/api/books/page%2050.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 98,
+    "imageWidth": 1238,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r4",
+        "r6"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r10"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Aclock has a face.",
+      "x": 0.1543,
+      "y": 0.12,
+      "w": 0.2884,
+      "h": 0.0193,
+      "words": [
+        "Aclock",
+        "has",
+        "a",
+        "face."
+      ],
+      "conf": 95.2703,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "it has no hair but it has a face",
+      "x": 0.5412,
+      "y": 0.2244,
+      "w": 0.2359,
+      "h": 0.045,
+      "words": [
+        "it",
+        "has",
+        "no",
+        "hair",
+        "but",
+        "it",
+        "has",
+        "a",
+        "face"
+      ],
+      "conf": 91.4962,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "It has no nose.",
+      "x": 0.1527,
+      "y": 0.2496,
+      "w": 0.2149,
+      "h": 0.0204,
+      "words": [
+        "It",
+        "has",
+        "no",
+        "nose."
+      ],
+      "conf": 92.803,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "It has no eyes.",
+      "x": 0.1502,
+      "y": 0.3374,
+      "w": 0.2141,
+      "h": 0.0236,
+      "words": [
+        "It",
+        "has",
+        "no",
+        "eyes."
+      ],
+      "conf": 94.7237,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "it has a face and two hands, the long hand and the short hand.",
+      "x": 0.538,
+      "y": 0.3326,
+      "w": 0.3667,
+      "h": 0.1067,
+      "words": [
+        "it",
+        "has",
+        "a",
+        "face",
+        "and",
+        "two",
+        "hands,",
+        "the",
+        "long",
+        "hand",
+        "and",
+        "the",
+        "short",
+        "hand."
+      ],
+      "conf": 93.2561,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "It has no mouth.",
+      "x": 0.1494,
+      "y": 0.413,
+      "w": 0.2447,
+      "h": 0.0193,
+      "words": [
+        "It",
+        "has",
+        "no",
+        "mouth."
+      ],
+      "conf": 91.9164,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "The long hand of the clock is between one and two.",
+      "x": 0.109,
+      "y": 0.6208,
+      "w": 0.3208,
+      "h": 0.0696,
+      "words": [
+        "The",
+        "long",
+        "hand",
+        "of",
+        "the",
+        "clock",
+        "is",
+        "between",
+        "one",
+        "and",
+        "two."
+      ],
+      "conf": 96.2175,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "One is before two. Two is between one and three. Three is after two and two is after one.",
+      "x": 0.1074,
+      "y": 0.6963,
+      "w": 0.3651,
+      "h": 0.097,
+      "words": [
+        "One",
+        "is",
+        "before",
+        "two.",
+        "Two",
+        "is",
+        "between",
+        "one",
+        "and",
+        "three.",
+        "Three",
+        "is",
+        "after",
+        "two",
+        "and",
+        "two",
+        "is",
+        "after",
+        "one."
+      ],
+      "conf": 95.9394,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "I have this book in my hands.",
+      "x": 0.5541,
+      "y": 0.6797,
+      "w": 0.3223,
+      "h": 0.0455,
+      "words": [
+        "I",
+        "have",
+        "this",
+        "book",
+        "in",
+        "my",
+        "hands."
+      ],
+      "conf": 95.383,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "It was on the shelf with the other books.* it was between the other two books before took it from the shelf,",
+      "x": 0.5541,
+      "y": 0.7306,
+      "w": 0.3449,
+      "h": 0.1216,
+      "words": [
+        "It",
+        "was",
+        "on",
+        "the",
+        "shelf",
+        "with",
+        "the",
+        "other",
+        "books.*",
+        "it",
+        "was",
+        "between",
+        "the",
+        "other",
+        "two",
+        "books",
+        "before",
+        "took",
+        "it",
+        "from",
+        "the",
+        "shelf,"
+      ],
+      "conf": 95.5761,
+      "source": "psm-11"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "page": 24,
+  "image": "/books/page 24.png",
+  "imageApiPath": "/api/books/page%2024.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 6,
+    "wordCount": 36,
+    "imageWidth": 1234,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "The man will give his hat to the woman.",
+      "x": 0.1572,
+      "y": 0.1339,
+      "w": 0.3079,
+      "h": 0.0426,
+      "words": [
+        "The",
+        "man",
+        "will",
+        "give",
+        "his",
+        "hat",
+        "to",
+        "the",
+        "woman."
+      ],
+      "conf": 96.275,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "He is giving his hat to the woman.",
+      "x": 0.577,
+      "y": 0.1349,
+      "w": 0.2796,
+      "h": 0.0427,
+      "words": [
+        "He",
+        "is",
+        "giving",
+        "his",
+        "hat",
+        "to",
+        "the",
+        "woman."
+      ],
+      "conf": 96.7729,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "ees ae",
+      "x": 0.2593,
+      "y": 0.4811,
+      "w": 0.6515,
+      "h": 0.0149,
+      "words": [
+        "ees",
+        "ae"
+      ],
+      "conf": 53.841,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "He gave it to the woman.",
+      "x": 0.1515,
+      "y": 0.5419,
+      "w": 0.2456,
+      "h": 0.0437,
+      "words": [
+        "He",
+        "gave",
+        "it",
+        "to",
+        "the",
+        "woman."
+      ],
+      "conf": 96.4989,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "He gove it to her.",
+      "x": 0.1515,
+      "y": 0.5925,
+      "w": 0.2528,
+      "h": 0.0229,
+      "words": [
+        "He",
+        "gove",
+        "it",
+        "to",
+        "her."
+      ],
+      "conf": 89.173,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "It is in the hands now.",
+      "x": 0.5762,
+      "y": 0.592,
+      "w": 0.1669,
+      "h": 0.0448,
+      "words": [
+        "It",
+        "is",
+        "in",
+        "the",
+        "hands",
+        "now."
+      ],
+      "conf": 95.1963,
+      "source": "psm-11"
+    }
+  ]
+}

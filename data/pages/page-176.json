@@ -1,0 +1,346 @@
+{
+  "page": 176,
+  "image": "/books/page 176.png",
+  "imageApiPath": "/api/books/page%20176.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 14,
+    "wordCount": 94,
+    "imageWidth": 1192,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r6",
+        "r8"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r12",
+        "r14"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r11",
+        "r13"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "QUESTIONS",
+      "x": 0.4161,
+      "y": 0.0802,
+      "w": 0.193,
+      "h": 0.0194,
+      "words": [
+        "QUESTIONS"
+      ],
+      "conf": 96.2347,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "a These-are two walls.",
+      "x": 0.13,
+      "y": 0.1194,
+      "w": 0.3473,
+      "h": 0.0188,
+      "words": [
+        "a",
+        "These-are",
+        "two",
+        "walls."
+      ],
+      "conf": 91.3329,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "b These are two cuts.",
+      "x": 0.5663,
+      "y": 0.1173,
+      "w": 0.3221,
+      "h": 0.0409,
+      "words": [
+        "b",
+        "These",
+        "are",
+        "two",
+        "cuts."
+      ],
+      "conf": 89.9397,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "rt: Which of them is thicker? Is wall A or wall B thicker?",
+      "x": 0.1728,
+      "y": 0.1904,
+      "w": 0.302,
+      "h": 0.099,
+      "words": [
+        "rt:",
+        "Which",
+        "of",
+        "them",
+        "is",
+        "thicker?",
+        "Is",
+        "wall",
+        "A",
+        "or",
+        "wall",
+        "B",
+        "thicker?"
+      ],
+      "conf": 63.4252,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Which of them is wider? Is cut A or cut B wider?",
+      "x": 0.6015,
+      "y": 0.2205,
+      "w": 0.2617,
+      "h": 0.0689,
+      "words": [
+        "Which",
+        "of",
+        "them",
+        "is",
+        "wider?",
+        "Is",
+        "cut",
+        "A",
+        "or",
+        "cut",
+        "B",
+        "wider?"
+      ],
+      "conf": 95.795,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "c These are two nails,",
+      "x": 0.1284,
+      "y": 0.3125,
+      "w": 0.3389,
+      "h": 0.0204,
+      "words": [
+        "c",
+        "These",
+        "are",
+        "two",
+        "nails,"
+      ],
+      "conf": 92.4373,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "d Which of these two men is stronger?",
+      "x": 0.5461,
+      "y": 0.3131,
+      "w": 0.177,
+      "h": 0.1043,
+      "words": [
+        "d",
+        "Which",
+        "of",
+        "these",
+        "two",
+        "men",
+        "is",
+        "stronger?"
+      ],
+      "conf": 88.6192,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Which of them is longer?",
+      "x": 0.2693,
+      "y": 0.3545,
+      "w": 0.2206,
+      "h": 0.0489,
+      "words": [
+        "Which",
+        "of",
+        "them",
+        "is",
+        "longer?"
+      ],
+      "conf": 95.7367,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "e Which of these two pencils is shorter?",
+      "x": 0.1351,
+      "y": 0.5164,
+      "w": 0.3297,
+      "h": 0.049,
+      "words": [
+        "e",
+        "Which",
+        "of",
+        "these",
+        "two",
+        "pencils",
+        "is",
+        "shorter?"
+      ],
+      "conf": 95.3176,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "f Which of these two cards is longer?",
+      "x": 0.5579,
+      "y": 0.5169,
+      "w": 0.3263,
+      "h": 0.0484,
+      "words": [
+        "f",
+        "Which",
+        "of",
+        "these",
+        "two",
+        "cards",
+        "is",
+        "longer?"
+      ],
+      "conf": 94.6593,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "Which is wider?",
+      "x": 0.6116,
+      "y": 0.6503,
+      "w": 0.2391,
+      "h": 0.0183,
+      "words": [
+        "Which",
+        "is",
+        "wider?"
+      ],
+      "conf": 96.4447,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "g Which of these three angles is a right angle?",
+      "x": 0.1225,
+      "y": 0.7047,
+      "w": 0.3557,
+      "h": 0.0737,
+      "words": [
+        "g",
+        "Which",
+        "of",
+        "these",
+        "three",
+        "angles",
+        "is",
+        "a",
+        "right",
+        "angle?"
+      ],
+      "conf": 96.0111,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "h Which of these things are broken?",
+      "x": 0.5361,
+      "y": 0.7063,
+      "w": 0.3674,
+      "h": 0.0446,
+      "words": [
+        "h",
+        "Which",
+        "of",
+        "these",
+        "things",
+        "are",
+        "broken?"
+      ],
+      "conf": 87.7137,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "Ps) Answers are on page",
+      "x": 0.2894,
+      "y": 0.8338,
+      "w": 0.3524,
+      "h": 0.0817,
+      "words": [
+        "Ps)",
+        "Answers",
+        "are",
+        "on",
+        "page"
+      ],
+      "conf": 47.0479,
+      "source": "psm-11"
+    }
+  ]
+}

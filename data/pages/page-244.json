@@ -1,0 +1,95 @@
+{
+  "page": 244,
+  "image": "/books/page 244.png",
+  "imageApiPath": "/api/books/page%20244.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 4,
+    "wordCount": 13,
+    "imageWidth": 1196,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "WHAT ARE THESE THINGS?",
+      "x": 0.2901,
+      "y": 0.0789,
+      "w": 0.4498,
+      "h": 0.0181,
+      "words": [
+        "WHAT",
+        "ARE",
+        "THESE",
+        "THINGS?"
+      ],
+      "conf": 96.5731,
+      "source": "psm-6"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "a b",
+      "x": 0.1463,
+      "y": 0.1237,
+      "w": 0.4231,
+      "h": 0.0192,
+      "words": [
+        "a",
+        "b"
+      ],
+      "conf": 94.6932,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Answers are on page",
+      "x": 0.3102,
+      "y": 0.8811,
+      "w": 0.3253,
+      "h": 0.0229,
+      "words": [
+        "Answers",
+        "are",
+        "on",
+        "page"
+      ],
+      "conf": 96.2829,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "are on page",
+      "x": 0.449,
+      "y": 0.8624,
+      "w": 0.1865,
+      "h": 0.0469,
+      "words": [
+        "are",
+        "on",
+        "page"
+      ],
+      "conf": 59.9774,
+      "source": "psm-6"
+    }
+  ]
+}

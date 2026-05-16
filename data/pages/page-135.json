@@ -1,0 +1,283 @@
+{
+  "page": 135,
+  "image": "/books/page 135.png",
+  "imageApiPath": "/api/books/page%20135.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 12,
+    "wordCount": 59,
+    "imageWidth": 1234,
+    "imageHeight": 1884
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4",
+        "r7",
+        "r8"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r5",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r11",
+        "r12"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r10"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "What are these?",
+      "x": 0.1783,
+      "y": 0.1189,
+      "w": 0.2431,
+      "h": 0.0191,
+      "words": [
+        "What",
+        "are",
+        "these?"
+      ],
+      "conf": 96.1288,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This pin",
+      "x": 0.6216,
+      "y": 0.1279,
+      "w": 0.1118,
+      "h": 0.0234,
+      "words": [
+        "This",
+        "pin"
+      ],
+      "conf": 96.9077,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "is like this pin.",
+      "x": 0.624,
+      "y": 0.2044,
+      "w": 0.2058,
+      "h": 0.0239,
+      "words": [
+        "is",
+        "like",
+        "this",
+        "pin."
+      ],
+      "conf": 96.8003,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "They are pins.",
+      "x": 0.188,
+      "y": 0.2298,
+      "w": 0.2066,
+      "h": 0.0234,
+      "words": [
+        "They",
+        "are",
+        "pins."
+      ],
+      "conf": 95.6418,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "But they are two pins.",
+      "x": 0.5616,
+      "y": 0.2787,
+      "w": 0.3201,
+      "h": 0.0228,
+      "words": [
+        "But",
+        "they",
+        "are",
+        "two",
+        "pins."
+      ],
+      "conf": 96.4694,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "They are not the same pin. They are different pins.",
+      "x": 0.5616,
+      "y": 0.3036,
+      "w": 0.3339,
+      "h": 0.0728,
+      "words": [
+        "They",
+        "are",
+        "not",
+        "the",
+        "same",
+        "pin.",
+        "They",
+        "are",
+        "different",
+        "pins."
+      ],
+      "conf": 96.5901,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "One pin is very like another pin.",
+      "x": 0.1718,
+      "y": 0.3583,
+      "w": 0.2869,
+      "h": 0.0478,
+      "words": [
+        "One",
+        "pin",
+        "is",
+        "very",
+        "like",
+        "another",
+        "pin."
+      ],
+      "conf": 96.3254,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Seg aaa ea",
+      "x": 0.1143,
+      "y": 0.4788,
+      "w": 0.1426,
+      "h": 0.0149,
+      "words": [
+        "Seg",
+        "aaa",
+        "ea"
+      ],
+      "conf": 53.5486,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "She has a hairpin in her hand.",
+      "x": 0.5575,
+      "y": 0.5032,
+      "w": 0.2958,
+      "h": 0.0435,
+      "words": [
+        "She",
+        "has",
+        "a",
+        "hairpin",
+        "in",
+        "her",
+        "hand."
+      ],
+      "conf": 96.037,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "She is putting it in her hair.",
+      "x": 0.5583,
+      "y": 0.5531,
+      "w": 0.3233,
+      "h": 0.043,
+      "words": [
+        "She",
+        "is",
+        "putting",
+        "it",
+        "in",
+        "her",
+        "hair."
+      ],
+      "conf": 96.1083,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "These are three hairpins.",
+      "x": 0.128,
+      "y": 0.7298,
+      "w": 0.3622,
+      "h": 0.0239,
+      "words": [
+        "These",
+        "are",
+        "three",
+        "hairpins."
+      ],
+      "conf": 88.149,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "They are different hairpins.",
+      "x": 0.1272,
+      "y": 0.7548,
+      "w": 0.2674,
+      "h": 0.0483,
+      "words": [
+        "They",
+        "are",
+        "different",
+        "hairpins."
+      ],
+      "conf": 96.6853,
+      "source": "psm-11"
+    }
+  ]
+}

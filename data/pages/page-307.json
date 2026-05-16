@@ -1,0 +1,330 @@
+{
+  "page": 307,
+  "image": "/books/page 307.png",
+  "imageApiPath": "/api/books/page%20307.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 134,
+    "imageWidth": 1234,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r7",
+        "r8",
+        "r9"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r10"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "It is only in the last century that great numbers of people have been able to live far from their food supply, with thousands of men in one place doing the same sort of",
+      "x": 0.1248,
+      "y": 0.0469,
+      "w": 0.7974,
+      "h": 0.079,
+      "words": [
+        "It",
+        "is",
+        "only",
+        "in",
+        "the",
+        "last",
+        "century",
+        "that",
+        "great",
+        "numbers",
+        "of",
+        "people",
+        "have",
+        "been",
+        "able",
+        "to",
+        "live",
+        "far",
+        "from",
+        "their",
+        "food",
+        "supply,",
+        "with",
+        "thousands",
+        "of",
+        "men",
+        "in",
+        "one",
+        "place",
+        "doing",
+        "the",
+        "same",
+        "sort",
+        "of"
+      ],
+      "conf": 96.2154,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "work.",
+      "x": 0.1272,
+      "y": 0.1264,
+      "w": 0.0762,
+      "h": 0.0171,
+      "words": [
+        "work."
+      ],
+      "conf": 92.2983,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Pom ES",
+      "x": 0.2147,
+      "y": 0.2667,
+      "w": 0.3347,
+      "h": 0.0677,
+      "words": [
+        "Pom",
+        "ES"
+      ],
+      "conf": 53.7968,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "TRANSPORT LINES (See p.",
+      "x": 0.5575,
+      "y": 0.4789,
+      "w": 0.252,
+      "h": 0.0128,
+      "words": [
+        "TRANSPORT",
+        "LINES",
+        "(See",
+        "p."
+      ],
+      "conf": 91.2787,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "High buildings like those pictured on the next page are being put up in more and more great cities today in greater and greater numbers. They are apartment houses, which sometimes have hundreds of different families living under one roof. There may be as many as twenty or thirty floors in one apartment house, with homes for",
+      "x": 0.1232,
+      "y": 0.5579,
+      "w": 0.7966,
+      "h": 0.1514,
+      "words": [
+        "High",
+        "buildings",
+        "like",
+        "those",
+        "pictured",
+        "on",
+        "the",
+        "next",
+        "page",
+        "are",
+        "being",
+        "put",
+        "up",
+        "in",
+        "more",
+        "and",
+        "more",
+        "great",
+        "cities",
+        "today",
+        "in",
+        "greater",
+        "and",
+        "greater",
+        "numbers.",
+        "They",
+        "are",
+        "apartment",
+        "houses,",
+        "which",
+        "sometimes",
+        "have",
+        "hundreds",
+        "of",
+        "different",
+        "families",
+        "living",
+        "under",
+        "one",
+        "roof.",
+        "There",
+        "may",
+        "be",
+        "as",
+        "many",
+        "as",
+        "twenty",
+        "or",
+        "thirty",
+        "floors",
+        "in",
+        "one",
+        "apartment",
+        "house,",
+        "with",
+        "homes",
+        "for"
+      ],
+      "conf": 96.6368,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "fifteen or twenty families on a floor.",
+      "x": 0.1264,
+      "y": 0.7115,
+      "w": 0.4854,
+      "h": 0.0261,
+      "words": [
+        "fifteen",
+        "or",
+        "twenty",
+        "families",
+        "on",
+        "a",
+        "floor."
+      ],
+      "conf": 96.073,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "food suppty: amount of food needed.",
+      "x": 0.1264,
+      "y": 0.8219,
+      "w": 0.4157,
+      "h": 0.016,
+      "words": [
+        "food",
+        "suppty:",
+        "amount",
+        "of",
+        "food",
+        "needed."
+      ],
+      "conf": 94.6609,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "supply: amount of something for future use.",
+      "x": 0.1264,
+      "y": 0.8048,
+      "w": 0.4757,
+      "h": 0.016,
+      "words": [
+        "supply:",
+        "amount",
+        "of",
+        "something",
+        "for",
+        "future",
+        "use."
+      ],
+      "conf": 93.3676,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "homes living place for a family.",
+      "x": 0.128,
+      "y": 0.8571,
+      "w": 0.3436,
+      "h": 0.0155,
+      "words": [
+        "homes",
+        "living",
+        "place",
+        "for",
+        "a",
+        "family."
+      ],
+      "conf": 92.6651,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "house: building for a number of families to live in.",
+      "x": 0.2626,
+      "y": 0.8395,
+      "w": 0.5778,
+      "h": 0.0149,
+      "words": [
+        "house:",
+        "building",
+        "for",
+        "a",
+        "number",
+        "of",
+        "families",
+        "to",
+        "live",
+        "in."
+      ],
+      "conf": 90.7289,
+      "source": "psm-11"
+    }
+  ]
+}

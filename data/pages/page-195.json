@@ -1,0 +1,321 @@
+{
+  "page": 195,
+  "image": "/books/page 195.png",
+  "imageApiPath": "/api/books/page%20195.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 13,
+    "wordCount": 83,
+    "imageWidth": 1242,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r8",
+        "r10",
+        "r12",
+        "r13"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r11"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "The potatoes were hard.",
+      "x": 0.4823,
+      "y": 0.2037,
+      "w": 0.3639,
+      "h": 0.0245,
+      "words": [
+        "The",
+        "potatoes",
+        "were",
+        "hard."
+      ],
+      "conf": 96.4911,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "After a time they were soft. There was a change in the",
+      "x": 0.4807,
+      "y": 0.2299,
+      "w": 0.3349,
+      "h": 0.0778,
+      "words": [
+        "After",
+        "a",
+        "time",
+        "they",
+        "were",
+        "soft.",
+        "There",
+        "was",
+        "a",
+        "change",
+        "in",
+        "the"
+      ],
+      "conf": 96.3914,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Here are two trains,",
+      "x": 0.0821,
+      "y": 0.2757,
+      "w": 0.3076,
+      "h": 0.0475,
+      "words": [
+        "Here",
+        "are",
+        "two",
+        "trains,"
+      ],
+      "conf": 88.7993,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "The man was in train, He is going to the other train He is making a change.",
+      "x": 0.0813,
+      "y": 0.3125,
+      "w": 0.3462,
+      "h": 0.1264,
+      "words": [
+        "The",
+        "man",
+        "was",
+        "in",
+        "train,",
+        "He",
+        "is",
+        "going",
+        "to",
+        "the",
+        "other",
+        "train",
+        "He",
+        "is",
+        "making",
+        "a",
+        "change."
+      ],
+      "conf": 96.3277,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "He is changing trains",
+      "x": 0.0845,
+      "y": 0.4411,
+      "w": 0.3092,
+      "h": 0.0229,
+      "words": [
+        "He",
+        "is",
+        "changing",
+        "trains"
+      ],
+      "conf": 96.4015,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "HH SE",
+      "x": 0.4332,
+      "y": 0.48,
+      "w": 0.4324,
+      "h": 0.0181,
+      "words": [
+        "HH",
+        "SE"
+      ],
+      "conf": 45.9519,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This water was cold",
+      "x": 0.0741,
+      "y": 0.5509,
+      "w": 0.2882,
+      "h": 0.0197,
+      "words": [
+        "This",
+        "water",
+        "was",
+        "cold"
+      ],
+      "conf": 96.4273,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Now it is boiling.",
+      "x": 0.1087,
+      "y": 0.6784,
+      "w": 0.2472,
+      "h": 0.0283,
+      "words": [
+        "Now",
+        "it",
+        "is",
+        "boiling."
+      ],
+      "conf": 95.0303,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "in the summer the leaves are on the trees.",
+      "x": 0.4895,
+      "y": 0.6784,
+      "w": 0.3688,
+      "h": 0.0464,
+      "words": [
+        "in",
+        "the",
+        "summer",
+        "the",
+        "leaves",
+        "are",
+        "on",
+        "the",
+        "trees."
+      ],
+      "conf": 95.6549,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "That is",
+      "x": 0.1079,
+      "y": 0.7024,
+      "w": 0.095,
+      "h": 0.0203,
+      "words": [
+        "That",
+        "is"
+      ],
+      "conf": 96.6715,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "In the fall the leaves That is a change",
+      "x": 0.4823,
+      "y": 0.8299,
+      "w": 0.3019,
+      "h": 0.0741,
+      "words": [
+        "In",
+        "the",
+        "fall",
+        "the",
+        "leaves",
+        "That",
+        "is",
+        "a",
+        "change"
+      ],
+      "conf": 92.7426,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "There was a change in come down off the trees.",
+      "x": 0.0934,
+      "y": 0.8555,
+      "w": 0.7536,
+      "h": 0.0235,
+      "words": [
+        "There",
+        "was",
+        "a",
+        "change",
+        "in",
+        "come",
+        "down",
+        "off",
+        "the",
+        "trees."
+      ],
+      "conf": 95.5563,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "the water",
+      "x": 0.0942,
+      "y": 0.8805,
+      "w": 0.1377,
+      "h": 0.0187,
+      "words": [
+        "the",
+        "water"
+      ],
+      "conf": 96.2222,
+      "source": "psm-11"
+    }
+  ]
+}

@@ -1,0 +1,348 @@
+{
+  "page": 207,
+  "image": "/books/page 207.png",
+  "imageApiPath": "/api/books/page%20207.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 13,
+    "wordCount": 110,
+    "imageWidth": 1242,
+    "imageHeight": 1884
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r5",
+        "r7"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r9",
+        "r12"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r10",
+        "r11",
+        "r13"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "If the bodies go farther from one another the attraction gets smaller.",
+      "x": 0.5282,
+      "y": 0.0929,
+      "w": 0.3438,
+      "h": 0.0706,
+      "words": [
+        "If",
+        "the",
+        "bodies",
+        "go",
+        "farther",
+        "from",
+        "one",
+        "another",
+        "the",
+        "attraction",
+        "gets",
+        "smaller."
+      ],
+      "conf": 95.7644,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "All bodies have an attraction for one another.",
+      "x": 0.1651,
+      "y": 0.1285,
+      "w": 0.2746,
+      "h": 0.0673,
+      "words": [
+        "All",
+        "bodies",
+        "have",
+        "an",
+        "attraction",
+        "for",
+        "one",
+        "another."
+      ],
+      "conf": 95.9369,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Or +O If the bodies are great the attraction between them is great.",
+      "x": 0.12,
+      "y": 0.2208,
+      "w": 0.3486,
+      "h": 0.1508,
+      "words": [
+        "Or",
+        "+O",
+        "If",
+        "the",
+        "bodies",
+        "are",
+        "great",
+        "the",
+        "attraction",
+        "between",
+        "them",
+        "is",
+        "great."
+      ],
+      "conf": 72.4601,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Distance Attraction",
+      "x": 0.5507,
+      "y": 0.311,
+      "w": 0.31,
+      "h": 0.018,
+      "words": [
+        "Distance",
+        "Attraction"
+      ],
+      "conf": 86.0626,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "If the bodies are small the attraction is small.",
+      "x": 0.1393,
+      "y": 0.4124,
+      "w": 0.3229,
+      "h": 0.0436,
+      "words": [
+        "If",
+        "the",
+        "bodies",
+        "are",
+        "small",
+        "the",
+        "attraction",
+        "is",
+        "small."
+      ],
+      "conf": 95.1222,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Here is a light.",
+      "x": 0.1804,
+      "y": 0.4889,
+      "w": 0.2101,
+      "h": 0.0435,
+      "words": [
+        "Here",
+        "is",
+        "a",
+        "light."
+      ],
+      "conf": 94.8146,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "cee eee ct",
+      "x": 0.252,
+      "y": 0.4729,
+      "w": 0.2512,
+      "h": 0.0159,
+      "words": [
+        "cee",
+        "eee",
+        "ct"
+      ],
+      "conf": 50.1705,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Here is a square",
+      "x": 0.6055,
+      "y": 0.543,
+      "w": 0.2391,
+      "h": 0.0228,
+      "words": [
+        "Here",
+        "is",
+        "a",
+        "square"
+      ],
+      "conf": 96.4728,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "It sends out light in every direction.",
+      "x": 0.1916,
+      "y": 0.5743,
+      "w": 0.2754,
+      "h": 0.0579,
+      "words": [
+        "It",
+        "sends",
+        "out",
+        "light",
+        "in",
+        "every",
+        "direction."
+      ],
+      "conf": 84.6679,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "TT",
+      "x": 0.81,
+      "y": 0.6316,
+      "w": 0.0717,
+      "h": 0.0223,
+      "words": [
+        "TT"
+      ],
+      "conf": 50.0343,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "TTT put the square at different distances from the light. At distance it gets all the light which is",
+      "x": 0.1707,
+      "y": 0.7128,
+      "w": 0.711,
+      "h": 0.0914,
+      "words": [
+        "TTT",
+        "put",
+        "the",
+        "square",
+        "at",
+        "different",
+        "distances",
+        "from",
+        "the",
+        "light.",
+        "At",
+        "distance",
+        "it",
+        "gets",
+        "all",
+        "the",
+        "light",
+        "which",
+        "is"
+      ],
+      "conf": 43.5219,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "going out between the lines. At distance it gets one-fourth of the light. At distance attraction between bodies.",
+      "x": 0.1699,
+      "y": 0.8063,
+      "w": 0.6489,
+      "h": 0.0945,
+      "words": [
+        "going",
+        "out",
+        "between",
+        "the",
+        "lines.",
+        "At",
+        "distance",
+        "it",
+        "gets",
+        "one-fourth",
+        "of",
+        "the",
+        "light.",
+        "At",
+        "distance",
+        "attraction",
+        "between",
+        "bodies."
+      ],
+      "conf": 96.4448,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "it gets one twenty-fifth. It is the same with the",
+      "x": 0.1707,
+      "y": 0.8562,
+      "w": 0.6651,
+      "h": 0.0244,
+      "words": [
+        "it",
+        "gets",
+        "one",
+        "twenty-fifth.",
+        "It",
+        "is",
+        "the",
+        "same",
+        "with",
+        "the"
+      ],
+      "conf": 95.1947,
+      "source": "psm-11"
+    }
+  ]
+}

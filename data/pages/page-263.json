@@ -1,0 +1,262 @@
+{
+  "page": 263,
+  "image": "/books/page 263.png",
+  "imageApiPath": "/api/books/page%20263.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 9,
+    "wordCount": 80,
+    "imageWidth": 1234,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8",
+        "r9"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Whenever she sees a looking glass she goes to it and takes a look at herself.",
+      "x": 0.5308,
+      "y": 0.1473,
+      "w": 0.363,
+      "h": 0.0937,
+      "words": [
+        "Whenever",
+        "she",
+        "sees",
+        "a",
+        "looking",
+        "glass",
+        "she",
+        "goes",
+        "to",
+        "it",
+        "and",
+        "takes",
+        "a",
+        "look",
+        "at",
+        "herself."
+      ],
+      "conf": 96.2555,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "She is looking at herself in a looking glass.",
+      "x": 0.1305,
+      "y": 0.324,
+      "w": 0.359,
+      "h": 0.0488,
+      "words": [
+        "She",
+        "is",
+        "looking",
+        "at",
+        "herself",
+        "in",
+        "a",
+        "looking",
+        "glass."
+      ],
+      "conf": 96.5289,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Again and again, every day, she takes a look at herself in a glass.",
+      "x": 0.1297,
+      "y": 0.376,
+      "w": 0.3647,
+      "h": 0.0713,
+      "words": [
+        "Again",
+        "and",
+        "again,",
+        "every",
+        "day,",
+        "she",
+        "takes",
+        "a",
+        "look",
+        "at",
+        "herself",
+        "in",
+        "a",
+        "glass."
+      ],
+      "conf": 92.6028,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Why?",
+      "x": 0.6694,
+      "y": 0.3915,
+      "w": 0.0875,
+      "h": 0.0225,
+      "words": [
+        "Why?"
+      ],
+      "conf": 96.8875,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Because looking at herself in the glass gives her pleasure.",
+      "x": 0.1353,
+      "y": 0.5222,
+      "w": 0.359,
+      "h": 0.0723,
+      "words": [
+        "Because",
+        "looking",
+        "at",
+        "herself",
+        "in",
+        "the",
+        "glass",
+        "gives",
+        "her",
+        "pleasure."
+      ],
+      "conf": 96.8673,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Looking at himself in the glass gives him no pleasure.",
+      "x": 0.5389,
+      "y": 0.5078,
+      "w": 0.3582,
+      "h": 0.0734,
+      "words": [
+        "Looking",
+        "at",
+        "himself",
+        "in",
+        "the",
+        "glass",
+        "gives",
+        "him",
+        "no",
+        "pleasure."
+      ],
+      "conf": 96.5262,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "She is beautiful. She sees that she is beautiful.",
+      "x": 0.1329,
+      "y": 0.5967,
+      "w": 0.3606,
+      "h": 0.0445,
+      "words": [
+        "She",
+        "is",
+        "beautiful.",
+        "She",
+        "sees",
+        "that",
+        "she",
+        "is",
+        "beautiful."
+      ],
+      "conf": 96.7068,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "It gives him pain. Why?",
+      "x": 0.5405,
+      "y": 0.5838,
+      "w": 0.3485,
+      "h": 0.0241,
+      "words": [
+        "It",
+        "gives",
+        "him",
+        "pain.",
+        "Why?"
+      ],
+      "conf": 93.73,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "He sees himself. Is he beautiful?",
+      "x": 0.5373,
+      "y": 0.6085,
+      "w": 0.3128,
+      "h": 0.0471,
+      "words": [
+        "He",
+        "sees",
+        "himself.",
+        "Is",
+        "he",
+        "beautiful?"
+      ],
+      "conf": 95.8735,
+      "source": "psm-11"
+    }
+  ]
+}

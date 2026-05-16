@@ -1,0 +1,253 @@
+{
+  "page": 40,
+  "image": "/books/page 40.png",
+  "imageApiPath": "/api/books/page%2040.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 9,
+    "wordCount": 71,
+    "imageWidth": 1302,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r9"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "What is the time?",
+      "x": 0.1644,
+      "y": 0.312,
+      "w": 0.2481,
+      "h": 0.019,
+      "words": [
+        "What",
+        "is",
+        "the",
+        "time?"
+      ],
+      "conf": 95.8008,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "What is the time?",
+      "x": 0.5591,
+      "y": 0.3137,
+      "w": 0.2465,
+      "h": 0.0211,
+      "words": [
+        "What",
+        "is",
+        "the",
+        "time?"
+      ],
+      "conf": 96.0711,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Now the time is eight It was seven It will be nine",
+      "x": 0.1659,
+      "y": 0.3369,
+      "w": 0.2988,
+      "h": 0.0943,
+      "words": [
+        "Now",
+        "the",
+        "time",
+        "is",
+        "eight",
+        "It",
+        "was",
+        "seven",
+        "It",
+        "will",
+        "be",
+        "nine"
+      ],
+      "conf": 96.2211,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Now the time is ten",
+      "x": 0.5607,
+      "y": 0.3402,
+      "w": 0.2688,
+      "h": 0.02,
+      "words": [
+        "Now",
+        "the",
+        "time",
+        "is",
+        "ten"
+      ],
+      "conf": 96.3717,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "It will be eleven",
+      "x": 0.5591,
+      "y": 0.415,
+      "w": 0.2204,
+      "h": 0.0206,
+      "words": [
+        "It",
+        "will",
+        "be",
+        "eleven"
+      ],
+      "conf": 94.6332,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "These are the numbers from one to twelve.",
+      "x": 0.5445,
+      "y": 0.6625,
+      "w": 0.318,
+      "h": 0.0472,
+      "words": [
+        "These",
+        "are",
+        "the",
+        "numbers",
+        "from",
+        "one",
+        "to",
+        "twelve."
+      ],
+      "conf": 96.6353,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "What is the time?",
+      "x": 0.1628,
+      "y": 0.7145,
+      "w": 0.2465,
+      "h": 0.0206,
+      "words": [
+        "What",
+        "is",
+        "the",
+        "time?"
+      ],
+      "conf": 96.4231,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "The time is twelve it was eleven It will be one The two hands are at twelve now.",
+      "x": 0.1613,
+      "y": 0.7389,
+      "w": 0.2988,
+      "h": 0.1478,
+      "words": [
+        "The",
+        "time",
+        "is",
+        "twelve",
+        "it",
+        "was",
+        "eleven",
+        "It",
+        "will",
+        "be",
+        "one",
+        "The",
+        "two",
+        "hands",
+        "are",
+        "at",
+        "twelve",
+        "now."
+      ],
+      "conf": 96.4347,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "One, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve.",
+      "x": 0.5492,
+      "y": 0.7308,
+      "w": 0.3041,
+      "h": 0.0953,
+      "words": [
+        "One,",
+        "two,",
+        "three,",
+        "four,",
+        "five,",
+        "six,",
+        "seven,",
+        "eight,",
+        "nine,",
+        "ten,",
+        "eleven,",
+        "twelve."
+      ],
+      "conf": 96.9796,
+      "source": "psm-11"
+    }
+  ]
+}

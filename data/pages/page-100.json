@@ -1,0 +1,330 @@
+{
+  "page": 100,
+  "image": "/books/page 100.png",
+  "imageApiPath": "/api/books/page%20100.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 13,
+    "wordCount": 92,
+    "imageWidth": 1167,
+    "imageHeight": 1838
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r10",
+        "r11",
+        "r12"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r9",
+        "r13"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "The room is warm.",
+      "x": 0.1003,
+      "y": 0.1289,
+      "w": 0.2845,
+      "h": 0.0196,
+      "words": [
+        "The",
+        "room",
+        "is",
+        "warm."
+      ],
+      "conf": 95.829,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "The air over the lame is very warm.",
+      "x": 0.5304,
+      "y": 0.1137,
+      "w": 0.3479,
+      "h": 0.0501,
+      "words": [
+        "The",
+        "air",
+        "over",
+        "the",
+        "lame",
+        "is",
+        "very",
+        "warm."
+      ],
+      "conf": 91.6746,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "The water in the pot is very warm.",
+      "x": 0.0968,
+      "y": 0.1523,
+      "w": 0.3505,
+      "h": 0.0529,
+      "words": [
+        "The",
+        "water",
+        "in",
+        "the",
+        "pot",
+        "is",
+        "very",
+        "warm."
+      ],
+      "conf": 94.5477,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "goes up.",
+      "x": 0.5673,
+      "y": 0.1632,
+      "w": 0.126,
+      "h": 0.0294,
+      "words": [
+        "goes",
+        "up."
+      ],
+      "conf": 94.5552,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "it is boiling,",
+      "x": 0.1003,
+      "y": 0.2057,
+      "w": 0.1799,
+      "h": 0.025,
+      "words": [
+        "it",
+        "is",
+        "boiling,"
+      ],
+      "conf": 76.0645,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The air under the flame is not very warm. It goes up to the flame",
+      "x": 0.5107,
+      "y": 0.3422,
+      "w": 0.3882,
+      "h": 0.0784,
+      "words": [
+        "The",
+        "air",
+        "under",
+        "the",
+        "flame",
+        "is",
+        "not",
+        "very",
+        "warm.",
+        "It",
+        "goes",
+        "up",
+        "to",
+        "the",
+        "flame"
+      ],
+      "conf": 96.397,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is the fridge It has ice in it The air in the fridge is",
+      "x": 0.09,
+      "y": 0.549,
+      "w": 0.3505,
+      "h": 0.0723,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "fridge",
+        "It",
+        "has",
+        "ice",
+        "in",
+        "it",
+        "The",
+        "air",
+        "in",
+        "the",
+        "fridge",
+        "is"
+      ],
+      "conf": 96.3162,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This is the fridge Mary keeps the milk in the fridge She keeps it in the cold",
+      "x": 0.5081,
+      "y": 0.6861,
+      "w": 0.371,
+      "h": 0.1229,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "fridge",
+        "Mary",
+        "keeps",
+        "the",
+        "milk",
+        "in",
+        "the",
+        "fridge",
+        "She",
+        "keeps",
+        "it",
+        "in",
+        "the",
+        "cold"
+      ],
+      "conf": 96.5231,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "oh air in the fridge is cold.",
+      "x": 0.5116,
+      "y": 0.7894,
+      "w": 0.3505,
+      "h": 0.0669,
+      "words": [
+        "oh",
+        "air",
+        "in",
+        "the",
+        "fridge",
+        "is",
+        "cold."
+      ],
+      "conf": 90.6718,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "This is",
+      "x": 0.0634,
+      "y": 0.8466,
+      "w": 0.0968,
+      "h": 0.0272,
+      "words": [
+        "This",
+        "is"
+      ],
+      "conf": 93.964,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "These are milk.",
+      "x": 0.0643,
+      "y": 0.8504,
+      "w": 0.317,
+      "h": 0.043,
+      "words": [
+        "These",
+        "are",
+        "milk."
+      ],
+      "conf": 95.8436,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "eggs.",
+      "x": 0.2288,
+      "y": 0.8814,
+      "w": 0.0823,
+      "h": 0.0169,
+      "words": [
+        "eggs."
+      ],
+      "conf": 96.2618,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "The cold air keeps the milk cold,",
+      "x": 0.5116,
+      "y": 0.8667,
+      "w": 0.3478,
+      "h": 0.0436,
+      "words": [
+        "The",
+        "cold",
+        "air",
+        "keeps",
+        "the",
+        "milk",
+        "cold,"
+      ],
+      "conf": 96.0064,
+      "source": "psm-11"
+    }
+  ]
+}

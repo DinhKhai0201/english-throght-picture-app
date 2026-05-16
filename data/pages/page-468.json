@@ -1,0 +1,655 @@
+{
+  "page": 468,
+  "image": "/books/page 468.png",
+  "imageApiPath": "/api/books/page%20468.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 29,
+    "wordCount": 193,
+    "imageWidth": 1188,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r5",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r13",
+        "r14",
+        "r15"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4",
+        "r6",
+        "r12",
+        "r16"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r17",
+        "r18",
+        "r19",
+        "r20",
+        "r21",
+        "r22",
+        "r23",
+        "r24",
+        "r25",
+        "r26"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r27",
+        "r28",
+        "r29"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "doing a little fishing. There are hundreds of fish",
+      "x": 0.1852,
+      "y": 0.035,
+      "w": 0.7416,
+      "h": 0.0264,
+      "words": [
+        "doing",
+        "a",
+        "little",
+        "fishing.",
+        "There",
+        "are",
+        "hundreds",
+        "of",
+        "fish"
+      ],
+      "conf": 96.072,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "down here.”",
+      "x": 0.1019,
+      "y": 0.0629,
+      "w": 0.1759,
+      "h": 0.0172,
+      "words": [
+        "down",
+        "here.”"
+      ],
+      "conf": 96.5181,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "“How can I get down there?” says Br’er Fox.",
+      "x": 0.1035,
+      "y": 0.1162,
+      "w": 0.6726,
+      "h": 0.0215,
+      "words": [
+        "“How",
+        "can",
+        "I",
+        "get",
+        "down",
+        "there?”",
+        "says",
+        "Br’er",
+        "Fox."
+      ],
+      "conf": 94.143,
+      "source": "psm-6"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "“Just get in the bucket, Br’er Fox. It’ll bring you down",
+      "x": 0.1035,
+      "y": 0.1684,
+      "w": 0.8249,
+      "h": 0.0226,
+      "words": [
+        "“Just",
+        "get",
+        "in",
+        "the",
+        "bucket,",
+        "Br’er",
+        "Fox.",
+        "It’ll",
+        "bring",
+        "you",
+        "down"
+      ],
+      "conf": 91.5486,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "in no time,” says Br’er Rabbit.",
+      "x": 0.1052,
+      "y": 0.1942,
+      "w": 0.4495,
+      "h": 0.021,
+      "words": [
+        "in",
+        "no",
+        "time,”",
+        "says",
+        "Br’er",
+        "Rabbit."
+      ],
+      "conf": 94.8273,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "A?)",
+      "x": 0.7584,
+      "y": 0.2114,
+      "w": 0.101,
+      "h": 0.0533,
+      "words": [
+        "A?)"
+      ],
+      "conf": 64.6291,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "And as the",
+      "x": 0.1044,
+      "y": 0.2442,
+      "w": 0.1557,
+      "h": 0.0242,
+      "words": [
+        "And",
+        "as",
+        "the"
+      ],
+      "conf": 96.3861,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "And as the fox goes",
+      "x": 0.1044,
+      "y": 0.2464,
+      "w": 0.1557,
+      "h": 0.0468,
+      "words": [
+        "And",
+        "as",
+        "the",
+        "fox",
+        "goes"
+      ],
+      "conf": 96.7024,
+      "source": "psm-6"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "fox goes down...",
+      "x": 0.1052,
+      "y": 0.2733,
+      "w": 0.1347,
+      "h": 0.0419,
+      "words": [
+        "fox",
+        "goes",
+        "down..."
+      ],
+      "conf": 96.7524,
+      "source": "psm-6"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "down...",
+      "x": 0.1069,
+      "y": 0.2985,
+      "w": 0.133,
+      "h": 0.0167,
+      "words": [
+        "down..."
+      ],
+      "conf": 96.4679,
+      "source": "psm-6"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "up comes Br’er Rabbit to the top in his bucket, as he wanted to do.",
+      "x": 0.1044,
+      "y": 0.3507,
+      "w": 0.4992,
+      "h": 0.0463,
+      "words": [
+        "up",
+        "comes",
+        "Br’er",
+        "Rabbit",
+        "to",
+        "the",
+        "top",
+        "in",
+        "his",
+        "bucket,",
+        "as",
+        "he",
+        "wanted",
+        "to",
+        "do."
+      ],
+      "conf": 95.1018,
+      "source": "psm-6"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "in his bucket, as he wanted to do. a> SWS",
+      "x": 0.1044,
+      "y": 0.3771,
+      "w": 0.8039,
+      "h": 0.0242,
+      "words": [
+        "in",
+        "his",
+        "bucket,",
+        "as",
+        "he",
+        "wanted",
+        "to",
+        "do.",
+        "a>",
+        "SWS"
+      ],
+      "conf": 78.885,
+      "source": "psm-6"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "The two buckets go by one another",
+      "x": 0.1077,
+      "y": 0.4293,
+      "w": 0.4983,
+      "h": 0.021,
+      "words": [
+        "The",
+        "two",
+        "buckets",
+        "go",
+        "by",
+        "one",
+        "another"
+      ],
+      "conf": 96.2343,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "The two buckets go by one another on the way. “Good day, Brer Fox,",
+      "x": 0.1077,
+      "y": 0.4293,
+      "w": 0.4983,
+      "h": 0.0468,
+      "words": [
+        "The",
+        "two",
+        "buckets",
+        "go",
+        "by",
+        "one",
+        "another",
+        "on",
+        "the",
+        "way.",
+        "“Good",
+        "day,",
+        "Brer",
+        "Fox,"
+      ],
+      "conf": 96.3566,
+      "source": "psm-6"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "on the way. “Good day, Brer Fox, some go up and some go down. A",
+      "x": 0.1077,
+      "y": 0.4551,
+      "w": 0.4967,
+      "h": 0.0479,
+      "words": [
+        "on",
+        "the",
+        "way.",
+        "“Good",
+        "day,",
+        "Brer",
+        "Fox,",
+        "some",
+        "go",
+        "up",
+        "and",
+        "some",
+        "go",
+        "down.",
+        "A"
+      ],
+      "conf": 91.3426,
+      "source": "psm-6"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "some go up and some go down. A Q iq",
+      "x": 0.1086,
+      "y": 0.4782,
+      "w": 0.8241,
+      "h": 0.0414,
+      "words": [
+        "some",
+        "go",
+        "up",
+        "and",
+        "some",
+        "go",
+        "down.",
+        "A",
+        "Q",
+        "iq"
+      ],
+      "conf": 89.4609,
+      "source": "psm-6"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "happy landing to you,” says Br’er Rabbit with a smile and a wave of",
+      "x": 0.1086,
+      "y": 0.5073,
+      "w": 0.4991,
+      "h": 0.043,
+      "words": [
+        "happy",
+        "landing",
+        "to",
+        "you,”",
+        "says",
+        "Br’er",
+        "Rabbit",
+        "with",
+        "a",
+        "smile",
+        "and",
+        "a",
+        "wave",
+        "of"
+      ],
+      "conf": 93.5172,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "Rabbit with a smile and a wave of the hand.",
+      "x": 0.1111,
+      "y": 0.5331,
+      "w": 0.4966,
+      "h": 0.043,
+      "words": [
+        "Rabbit",
+        "with",
+        "a",
+        "smile",
+        "and",
+        "a",
+        "wave",
+        "of",
+        "the",
+        "hand."
+      ],
+      "conf": 96.3456,
+      "source": "psm-6"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "the hand.",
+      "x": 0.1111,
+      "y": 0.5594,
+      "w": 0.1347,
+      "h": 0.0167,
+      "words": [
+        "the",
+        "hand."
+      ],
+      "conf": 96.7095,
+      "source": "psm-6"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "Such stories about animals are as",
+      "x": 0.1103,
+      "y": 0.6116,
+      "w": 0.4975,
+      "h": 0.0178,
+      "words": [
+        "Such",
+        "stories",
+        "about",
+        "animals",
+        "are",
+        "as"
+      ],
+      "conf": 96.4608,
+      "source": "psm-11"
+    },
+    {
+      "id": "r21",
+      "order": 20,
+      "text": "Such stories about animals are as old as any of man’s inventions.",
+      "x": 0.1103,
+      "y": 0.6116,
+      "w": 0.4975,
+      "h": 0.0474,
+      "words": [
+        "Such",
+        "stories",
+        "about",
+        "animals",
+        "are",
+        "as",
+        "old",
+        "as",
+        "any",
+        "of",
+        "man’s",
+        "inventions."
+      ],
+      "conf": 96.8433,
+      "source": "psm-6"
+    },
+    {
+      "id": "r22",
+      "order": 21,
+      "text": "old as any of man’s inventions.",
+      "x": 0.1103,
+      "y": 0.638,
+      "w": 0.4402,
+      "h": 0.021,
+      "words": [
+        "old",
+        "as",
+        "any",
+        "of",
+        "man’s",
+        "inventions."
+      ],
+      "conf": 96.4232,
+      "source": "psm-6"
+    },
+    {
+      "id": "r23",
+      "order": 22,
+      "text": "bring: come with.",
+      "x": 0.112,
+      "y": 0.8047,
+      "w": 0.3754,
+      "h": 0.0151,
+      "words": [
+        "bring:",
+        "come",
+        "with."
+      ],
+      "conf": 92.0934,
+      "source": "psm-11"
+    },
+    {
+      "id": "r24",
+      "order": 23,
+      "text": "in this sense, only.",
+      "x": 0.1742,
+      "y": 0.787,
+      "w": 0.2037,
+      "h": 0.0156,
+      "words": [
+        "in",
+        "this",
+        "sense,",
+        "only."
+      ],
+      "conf": 93.9587,
+      "source": "psm-11"
+    },
+    {
+      "id": "r25",
+      "order": 24,
+      "text": "coming to land, to earth, to harbor.",
+      "x": 0.2222,
+      "y": 0.8219,
+      "w": 0.3923,
+      "h": 0.0151,
+      "words": [
+        "coming",
+        "to",
+        "land,",
+        "to",
+        "earth,",
+        "to",
+        "harbor."
+      ],
+      "conf": 96.2799,
+      "source": "psm-11"
+    },
+    {
+      "id": "r26",
+      "order": 25,
+      "text": "will bring",
+      "x": 0.1111,
+      "y": 0.8531,
+      "w": 0.1237,
+      "h": 0.0151,
+      "words": [
+        "will",
+        "bring"
+      ],
+      "conf": 95.944,
+      "source": "psm-11"
+    },
+    {
+      "id": "r27",
+      "order": 26,
+      "text": "will bring bring(s) brought",
+      "x": 0.1111,
+      "y": 0.8505,
+      "w": 0.8249,
+      "h": 0.0204,
+      "words": [
+        "will",
+        "bring",
+        "bring(s)",
+        "brought"
+      ],
+      "conf": 94.6256,
+      "source": "psm-6"
+    },
+    {
+      "id": "r28",
+      "order": 27,
+      "text": "bring(s)",
+      "x": 0.4823,
+      "y": 0.8526,
+      "w": 0.1069,
+      "h": 0.0161,
+      "words": [
+        "bring(s)"
+      ],
+      "conf": 91.0205,
+      "source": "psm-11"
+    },
+    {
+      "id": "r29",
+      "order": 28,
+      "text": "brought",
+      "x": 0.8392,
+      "y": 0.8531,
+      "w": 0.0968,
+      "h": 0.0151,
+      "words": [
+        "brought"
+      ],
+      "conf": 95.8795,
+      "source": "psm-11"
+    }
+  ]
+}

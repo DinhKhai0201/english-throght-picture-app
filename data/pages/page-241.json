@@ -1,0 +1,284 @@
+{
+  "page": 241,
+  "image": "/books/page 241.png",
+  "imageApiPath": "/api/books/page%20241.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 88,
+    "imageWidth": 1213,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r8",
+        "r9",
+        "r10"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "The chief work of the ends of our fingers is touching",
+      "x": 0.1154,
+      "y": 0.136,
+      "w": 0.31,
+      "h": 0.073,
+      "words": [
+        "The",
+        "chief",
+        "work",
+        "of",
+        "the",
+        "ends",
+        "of",
+        "our",
+        "fingers",
+        "is",
+        "touching"
+      ],
+      "conf": 96.4315,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "That is a Braille book which he has before him.",
+      "x": 0.5177,
+      "y": 0.136,
+      "w": 0.3677,
+      "h": 0.0522,
+      "words": [
+        "That",
+        "is",
+        "a",
+        "Braille",
+        "book",
+        "which",
+        "he",
+        "has",
+        "before",
+        "him."
+      ],
+      "conf": 96.2578,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Here is a man who is not with the ends of his able to see",
+      "x": 0.1162,
+      "y": 0.1968,
+      "w": 0.6884,
+      "h": 0.0592,
+      "words": [
+        "Here",
+        "is",
+        "a",
+        "man",
+        "who",
+        "is",
+        "not",
+        "with",
+        "the",
+        "ends",
+        "of",
+        "his",
+        "able",
+        "to",
+        "see"
+      ],
+      "conf": 93.6274,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "e is reading the book fingers.",
+      "x": 0.5185,
+      "y": 0.184,
+      "w": 0.3389,
+      "h": 0.0784,
+      "words": [
+        "e",
+        "is",
+        "reading",
+        "the",
+        "book",
+        "fingers."
+      ],
+      "conf": 95.0904,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "t This other man is reading t with his eyes He is not reading with t his fingers.",
+      "x": 0.4988,
+      "y": 0.5115,
+      "w": 0.3899,
+      "h": 0.1215,
+      "words": [
+        "t",
+        "This",
+        "other",
+        "man",
+        "is",
+        "reading",
+        "t",
+        "with",
+        "his",
+        "eyes",
+        "He",
+        "is",
+        "not",
+        "reading",
+        "with",
+        "t",
+        "his",
+        "fingers."
+      ],
+      "conf": 89.3166,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Braille letters and words are like this.",
+      "x": 0.1146,
+      "y": 0.7045,
+      "w": 0.3668,
+      "h": 0.0443,
+      "words": [
+        "Braille",
+        "letters",
+        "and",
+        "words",
+        "are",
+        "like",
+        "this."
+      ],
+      "conf": 90.8837,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "He is touching them with the ends of his fingers.",
+      "x": 0.1146,
+      "y": 0.7333,
+      "w": 0.3635,
+      "h": 0.071,
+      "words": [
+        "He",
+        "is",
+        "touching",
+        "them",
+        "with",
+        "the",
+        "ends",
+        "of",
+        "his",
+        "fingers."
+      ],
+      "conf": 93.8376,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "What are those things on",
+      "x": 0.5235,
+      "y": 0.7712,
+      "w": 0.3677,
+      "h": 0.0475,
+      "words": [
+        "What",
+        "are",
+        "those",
+        "things",
+        "on"
+      ],
+      "conf": 88.6051,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "his nose?",
+      "x": 0.5251,
+      "y": 0.7941,
+      "w": 0.1344,
+      "h": 0.0229,
+      "words": [
+        "his",
+        "nose?"
+      ],
+      "conf": 96.9934,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "They are his glasses.",
+      "x": 0.5243,
+      "y": 0.8229,
+      "w": 0.3034,
+      "h": 0.024,
+      "words": [
+        "They",
+        "are",
+        "his",
+        "glasses."
+      ],
+      "conf": 93.424,
+      "source": "psm-11"
+    }
+  ]
+}

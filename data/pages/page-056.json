@@ -1,0 +1,74 @@
+{
+  "page": 56,
+  "image": "/books/page 56.png",
+  "imageApiPath": "/api/books/page%2056.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 3,
+    "wordCount": 6,
+    "imageWidth": 1221,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "ses est eae es",
+      "x": 0.1327,
+      "y": 0.4729,
+      "w": 0.8149,
+      "h": 0.0152,
+      "words": [
+        "ses",
+        "est",
+        "eae",
+        "es"
+      ],
+      "conf": 53.7655,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "ese",
+      "x": 0.4201,
+      "y": 0.8857,
+      "w": 0.0483,
+      "h": 0.0125,
+      "words": [
+        "ese"
+      ],
+      "conf": 94.793,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "page",
+      "x": 0.7338,
+      "y": 0.8781,
+      "w": 0.0753,
+      "h": 0.0271,
+      "words": [
+        "page"
+      ],
+      "conf": 96.7188,
+      "source": "psm-11"
+    }
+  ]
+}

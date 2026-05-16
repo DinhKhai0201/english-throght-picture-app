@@ -1,0 +1,320 @@
+{
+  "page": 22,
+  "image": "/books/page 22.png",
+  "imageApiPath": "/api/books/page%2022.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 14,
+    "wordCount": 68,
+    "imageWidth": 1292,
+    "imageHeight": 1838
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r8",
+        "r11",
+        "r13"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r10",
+        "r12",
+        "r14"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This is a man.",
+      "x": 0.2345,
+      "y": 0.0979,
+      "w": 0.1904,
+      "h": 0.019,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "man."
+      ],
+      "conf": 94.1992,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is a woman,",
+      "x": 0.6277,
+      "y": 0.0979,
+      "w": 0.2314,
+      "h": 0.0201,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "woman,"
+      ],
+      "conf": 92.7065,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This is his hand.",
+      "x": 0.2748,
+      "y": 0.2894,
+      "w": 0.1269,
+      "h": 0.0441,
+      "words": [
+        "This",
+        "is",
+        "his",
+        "hand."
+      ],
+      "conf": 96.6206,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "This is her hand.",
+      "x": 0.6819,
+      "y": 0.2905,
+      "w": 0.1362,
+      "h": 0.0441,
+      "words": [
+        "This",
+        "is",
+        "her",
+        "hand."
+      ],
+      "conf": 94.4495,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "it is the man's hand.",
+      "x": 0.1873,
+      "y": 0.3852,
+      "w": 0.2779,
+      "h": 0.0196,
+      "words": [
+        "it",
+        "is",
+        "the",
+        "man's",
+        "hand."
+      ],
+      "conf": 91.2504,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "It is the hand,",
+      "x": 0.5449,
+      "y": 0.3874,
+      "w": 0.3212,
+      "h": 0.0207,
+      "words": [
+        "It",
+        "is",
+        "the",
+        "hand,"
+      ],
+      "conf": 90.9582,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is a man’s hat.",
+      "x": 0.1602,
+      "y": 0.6523,
+      "w": 0.2647,
+      "h": 0.0201,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "man’s",
+        "hat."
+      ],
+      "conf": 87.0746,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "is on a man's head,",
+      "x": 0.1881,
+      "y": 0.6779,
+      "w": 0.2709,
+      "h": 0.0207,
+      "words": [
+        "is",
+        "on",
+        "a",
+        "man's",
+        "head,"
+      ],
+      "conf": 88.3491,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "This is a hat.",
+      "x": 0.555,
+      "y": 0.6627,
+      "w": 0.3042,
+      "h": 0.0212,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "hat."
+      ],
+      "conf": 92.2618,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "It is on a woman's head.",
+      "x": 0.5557,
+      "y": 0.6893,
+      "w": 0.339,
+      "h": 0.0207,
+      "words": [
+        "It",
+        "is",
+        "on",
+        "a",
+        "woman's",
+        "head."
+      ],
+      "conf": 83.5167,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "Now it is in the man’s hands.",
+      "x": 0.1587,
+      "y": 0.7443,
+      "w": 0.3018,
+      "h": 0.0446,
+      "words": [
+        "Now",
+        "it",
+        "is",
+        "in",
+        "the",
+        "man’s",
+        "hands."
+      ],
+      "conf": 91.6338,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "Now it is in the hands.",
+      "x": 0.5495,
+      "y": 0.7296,
+      "w": 0.2121,
+      "h": 0.0441,
+      "words": [
+        "Now",
+        "it",
+        "is",
+        "in",
+        "the",
+        "hands."
+      ],
+      "conf": 96.083,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "It is in his hands.",
+      "x": 0.1594,
+      "y": 0.7949,
+      "w": 0.2322,
+      "h": 0.0201,
+      "words": [
+        "It",
+        "is",
+        "in",
+        "his",
+        "hands."
+      ],
+      "conf": 90.3354,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "It is In her hands.",
+      "x": 0.5495,
+      "y": 0.7802,
+      "w": 0.2399,
+      "h": 0.0201,
+      "words": [
+        "It",
+        "is",
+        "In",
+        "her",
+        "hands."
+      ],
+      "conf": 89.0407,
+      "source": "psm-11"
+    }
+  ]
+}

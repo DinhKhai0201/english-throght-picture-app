@@ -1,0 +1,189 @@
+{
+  "page": 346,
+  "image": "/books/page 346.png",
+  "imageApiPath": "/api/books/page%20346.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 7,
+    "wordCount": 65,
+    "imageWidth": 1196,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "These early records were the beginning of writing. The first writing was picture writing. Here are some early Chinese picture words. Can you see what they represent?",
+      "x": 0.1321,
+      "y": 0.0448,
+      "w": 0.8144,
+      "h": 0.0763,
+      "words": [
+        "These",
+        "early",
+        "records",
+        "were",
+        "the",
+        "beginning",
+        "of",
+        "writing.",
+        "The",
+        "first",
+        "writing",
+        "was",
+        "picture",
+        "writing.",
+        "Here",
+        "are",
+        "some",
+        "early",
+        "Chinese",
+        "picture",
+        "words.",
+        "Can",
+        "you",
+        "see",
+        "what",
+        "they",
+        "represent?"
+      ],
+      "conf": 96.6375,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Later Chinese writing is less like pictures than the earlier writing was but we can see the pictures in some of its",
+      "x": 0.1304,
+      "y": 0.3285,
+      "w": 0.8178,
+      "h": 0.047,
+      "words": [
+        "Later",
+        "Chinese",
+        "writing",
+        "is",
+        "less",
+        "like",
+        "pictures",
+        "than",
+        "the",
+        "earlier",
+        "writing",
+        "was",
+        "but",
+        "we",
+        "can",
+        "see",
+        "the",
+        "pictures",
+        "in",
+        "some",
+        "of",
+        "its"
+      ],
+      "conf": 96.7205,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "words. For example",
+      "x": 0.1304,
+      "y": 0.3797,
+      "w": 0.2935,
+      "h": 0.0219,
+      "words": [
+        "words.",
+        "For",
+        "example"
+      ],
+      "conf": 96.247,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Here are some Egyptian words in picture writing.",
+      "x": 0.1263,
+      "y": 0.6043,
+      "w": 0.7166,
+      "h": 0.024,
+      "words": [
+        "Here",
+        "are",
+        "some",
+        "Egyptian",
+        "words",
+        "in",
+        "picture",
+        "writing."
+      ],
+      "conf": 96.6306,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "fish",
+      "x": 0.3645,
+      "y": 0.6795,
+      "w": 0.0334,
+      "h": 0.0112,
+      "words": [
+        "fish"
+      ],
+      "conf": 96.6429,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "plow",
+      "x": 0.806,
+      "y": 0.6811,
+      "w": 0.0443,
+      "h": 0.0112,
+      "words": [
+        "plow"
+      ],
+      "conf": 96.6028,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "beginning: starting point.",
+      "x": 0.1221,
+      "y": 0.8517,
+      "w": 0.2977,
+      "h": 0.016,
+      "words": [
+        "beginning:",
+        "starting",
+        "point."
+      ],
+      "conf": 86.8791,
+      "source": "psm-11"
+    }
+  ]
+}

@@ -1,0 +1,334 @@
+{
+  "page": 191,
+  "image": "/books/page 191.png",
+  "imageApiPath": "/api/books/page%20191.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 12,
+    "wordCount": 110,
+    "imageWidth": 1225,
+    "imageHeight": 1871
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r7",
+        "r9",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r11",
+        "r12"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Ottawa, Washington, Mexico City, New York, nd Los Angeles are towns.",
+      "x": 0.1176,
+      "y": 0.1203,
+      "w": 0.3755,
+      "h": 0.0951,
+      "words": [
+        "Ottawa,",
+        "Washington,",
+        "Mexico",
+        "City,",
+        "New",
+        "York,",
+        "nd",
+        "Los",
+        "Angeles",
+        "are",
+        "towns."
+      ],
+      "conf": 95.9817,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "The government of Canada is in Ottawa",
+      "x": 0.5314,
+      "y": 0.1203,
+      "w": 0.3168,
+      "h": 0.0443,
+      "words": [
+        "The",
+        "government",
+        "of",
+        "Canada",
+        "is",
+        "in",
+        "Ottawa"
+      ],
+      "conf": 96.632,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "The government of the United States is in Washington",
+      "x": 0.5233,
+      "y": 0.2336,
+      "w": 0.3396,
+      "h": 0.0721,
+      "words": [
+        "The",
+        "government",
+        "of",
+        "the",
+        "United",
+        "States",
+        "is",
+        "in",
+        "Washington"
+      ],
+      "conf": 95.5218,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "This is a town",
+      "x": 0.1869,
+      "y": 0.3656,
+      "w": 0.2,
+      "h": 0.0187,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "town"
+      ],
+      "conf": 96.4775,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "The government of Mexico is in Mexico City",
+      "x": 0.5078,
+      "y": 0.3704,
+      "w": 0.3592,
+      "h": 0.0492,
+      "words": [
+        "The",
+        "government",
+        "of",
+        "Mexico",
+        "is",
+        "in",
+        "Mexico",
+        "City"
+      ],
+      "conf": 96.3065,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "How far is Ottawa from México City?",
+      "x": 0.1167,
+      "y": 0.5371,
+      "w": 0.2752,
+      "h": 0.0497,
+      "words": [
+        "How",
+        "far",
+        "is",
+        "Ottawa",
+        "from",
+        "México",
+        "City?"
+      ],
+      "conf": 93.2277,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "The distance from Ottawa to Mexico City is about twenty-three hundred miles.",
+      "x": 0.1151,
+      "y": 0.5879,
+      "w": 0.3396,
+      "h": 0.0952,
+      "words": [
+        "The",
+        "distance",
+        "from",
+        "Ottawa",
+        "to",
+        "Mexico",
+        "City",
+        "is",
+        "about",
+        "twenty-three",
+        "hundred",
+        "miles."
+      ],
+      "conf": 95.7593,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "How far is the mouth of the Mackenzie River from the mouth of the Mississippi?",
+      "x": 0.5135,
+      "y": 0.6617,
+      "w": 0.3461,
+      "h": 0.1015,
+      "words": [
+        "How",
+        "far",
+        "is",
+        "the",
+        "mouth",
+        "of",
+        "the",
+        "Mackenzie",
+        "River",
+        "from",
+        "the",
+        "mouth",
+        "of",
+        "the",
+        "Mississippi?"
+      ],
+      "conf": 96.7193,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "How far is New York from Los Angelés?",
+      "x": 0.1159,
+      "y": 0.6873,
+      "w": 0.3118,
+      "h": 0.0503,
+      "words": [
+        "How",
+        "far",
+        "is",
+        "New",
+        "York",
+        "from",
+        "Los",
+        "Angelés?"
+      ],
+      "conf": 96.5443,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "The distance between New York and Los Angeles is about twenty-five miles,",
+      "x": 0.1151,
+      "y": 0.7397,
+      "w": 0.3233,
+      "h": 0.1192,
+      "words": [
+        "The",
+        "distance",
+        "between",
+        "New",
+        "York",
+        "and",
+        "Los",
+        "Angeles",
+        "is",
+        "about",
+        "twenty-five",
+        "miles,"
+      ],
+      "conf": 96.4109,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "The distance is about",
+      "x": 0.5151,
+      "y": 0.7638,
+      "w": 0.3176,
+      "h": 0.0203,
+      "words": [
+        "The",
+        "distance",
+        "is",
+        "about"
+      ],
+      "conf": 95.7878,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "miles The mouth river is the place where it goes into the sea,",
+      "x": 0.5151,
+      "y": 0.7894,
+      "w": 0.3486,
+      "h": 0.094,
+      "words": [
+        "miles",
+        "The",
+        "mouth",
+        "river",
+        "is",
+        "the",
+        "place",
+        "where",
+        "it",
+        "goes",
+        "into",
+        "the",
+        "sea,"
+      ],
+      "conf": 96.8774,
+      "source": "psm-11"
+    }
+  ]
+}

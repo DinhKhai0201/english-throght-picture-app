@@ -1,0 +1,191 @@
+{
+  "page": 140,
+  "image": "/books/page 140.png",
+  "imageApiPath": "/api/books/page%20140.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 7,
+    "wordCount": 67,
+    "imageWidth": 1150,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Mr. Smith has friends in California",
+      "x": 0.0983,
+      "y": 0.1121,
+      "w": 0.3791,
+      "h": 0.0445,
+      "words": [
+        "Mr.",
+        "Smith",
+        "has",
+        "friends",
+        "in",
+        "California"
+      ],
+      "conf": 96.3053,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "His friends were waiting t for him at the station",
+      "x": 0.4948,
+      "y": 0.1257,
+      "w": 0.4313,
+      "h": 0.045,
+      "words": [
+        "His",
+        "friends",
+        "were",
+        "waiting",
+        "t",
+        "for",
+        "him",
+        "at",
+        "the",
+        "station"
+      ],
+      "conf": 95.8373,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Mr. Smith His friends Here are his friends He and his friends are shaking hands (See page",
+      "x": 0.0939,
+      "y": 0.3369,
+      "w": 0.3643,
+      "h": 0.1268,
+      "words": [
+        "Mr.",
+        "Smith",
+        "His",
+        "friends",
+        "Here",
+        "are",
+        "his",
+        "friends",
+        "He",
+        "and",
+        "his",
+        "friends",
+        "are",
+        "shaking",
+        "hands",
+        "(See",
+        "page"
+      ],
+      "conf": 94.9132,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "They say, “Did you have good journey?",
+      "x": 0.0913,
+      "y": 0.5163,
+      "w": 0.3826,
+      "h": 0.0515,
+      "words": [
+        "They",
+        "say,",
+        "“Did",
+        "you",
+        "have",
+        "good",
+        "journey?"
+      ],
+      "conf": 96.715,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "His friend says, “Let mae have your bag, please.”",
+      "x": 0.5348,
+      "y": 0.5417,
+      "w": 0.3852,
+      "h": 0.0509,
+      "words": [
+        "His",
+        "friend",
+        "says,",
+        "“Let",
+        "mae",
+        "have",
+        "your",
+        "bag,",
+        "please.”"
+      ],
+      "conf": 91.6696,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "He says, “Yes, but it was a long journey",
+      "x": 0.0913,
+      "y": 0.5693,
+      "w": 0.3156,
+      "h": 0.0499,
+      "words": [
+        "He",
+        "says,",
+        "“Yes,",
+        "but",
+        "it",
+        "was",
+        "a",
+        "long",
+        "journey"
+      ],
+      "conf": 96.1874,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "He will go with hia friends to their house)",
+      "x": 0.5339,
+      "y": 0.5937,
+      "w": 0.3461,
+      "h": 0.0472,
+      "words": [
+        "He",
+        "will",
+        "go",
+        "with",
+        "hia",
+        "friends",
+        "to",
+        "their",
+        "house)"
+      ],
+      "conf": 91.9516,
+      "source": "psm-11"
+    }
+  ]
+}

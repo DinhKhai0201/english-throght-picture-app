@@ -1,0 +1,255 @@
+{
+  "page": 106,
+  "image": "/books/page 106.png",
+  "imageApiPath": "/api/books/page%20106.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 11,
+    "wordCount": 45,
+    "imageWidth": 1230,
+    "imageHeight": 1830
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3",
+        "r6",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r11"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "The potatoes are on the Mary is crushing them",
+      "x": 0.1195,
+      "y": 0.1202,
+      "w": 0.7423,
+      "h": 0.0432,
+      "words": [
+        "The",
+        "potatoes",
+        "are",
+        "on",
+        "the",
+        "Mary",
+        "is",
+        "crushing",
+        "them"
+      ],
+      "conf": 95.873,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "plate.",
+      "x": 0.1203,
+      "y": 0.1563,
+      "w": 0.0837,
+      "h": 0.0251,
+      "words": [
+        "plate."
+      ],
+      "conf": 96.899,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "with a fork.",
+      "x": 0.5309,
+      "y": 0.1574,
+      "w": 0.1724,
+      "h": 0.0197,
+      "words": [
+        "with",
+        "a",
+        "fork."
+      ],
+      "conf": 96.3899,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "They were in the pot.",
+      "x": 0.1163,
+      "y": 0.3311,
+      "w": 0.3065,
+      "h": 0.0257,
+      "words": [
+        "They",
+        "were",
+        "in",
+        "the",
+        "pot."
+      ],
+      "conf": 95.8128,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "They were hard They are soft now.",
+      "x": 0.1163,
+      "y": 0.3574,
+      "w": 0.2756,
+      "h": 0.0513,
+      "words": [
+        "They",
+        "were",
+        "hard",
+        "They",
+        "are",
+        "soft",
+        "now."
+      ],
+      "conf": 94.9046,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "They are not hard now.",
+      "x": 0.5309,
+      "y": 0.3885,
+      "w": 0.3528,
+      "h": 0.0246,
+      "words": [
+        "They",
+        "are",
+        "not",
+        "hard",
+        "now."
+      ],
+      "conf": 96.0649,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "They are soft.",
+      "x": 0.5317,
+      "y": 0.4148,
+      "w": 0.2049,
+      "h": 0.024,
+      "words": [
+        "They",
+        "are",
+        "soft."
+      ],
+      "conf": 96.1211,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Bread is soft.",
+      "x": 0.1878,
+      "y": 0.5432,
+      "w": 0.1894,
+      "h": 0.0273,
+      "words": [
+        "Bread",
+        "is",
+        "soft."
+      ],
+      "conf": 96.4311,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Glass is hard.",
+      "x": 0.5935,
+      "y": 0.5607,
+      "w": 0.2041,
+      "h": 0.0197,
+      "words": [
+        "Glass",
+        "is",
+        "hard."
+      ],
+      "conf": 96.6144,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Meat is soft.",
+      "x": 0.1772,
+      "y": 0.7219,
+      "w": 0.1797,
+      "h": 0.0202,
+      "words": [
+        "Meat",
+        "is",
+        "soft."
+      ],
+      "conf": 95.7102,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "Butter is soft.",
+      "x": 0.5894,
+      "y": 0.7694,
+      "w": 0.1911,
+      "h": 0.0197,
+      "words": [
+        "Butter",
+        "is",
+        "soft."
+      ],
+      "conf": 96.2404,
+      "source": "psm-11"
+    }
+  ]
+}

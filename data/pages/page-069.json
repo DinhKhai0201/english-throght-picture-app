@@ -1,0 +1,104 @@
+{
+  "page": 69,
+  "image": "/books/page 69.png",
+  "imageApiPath": "/api/books/page%2069.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 4,
+    "wordCount": 22,
+    "imageWidth": 1134,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "She saw it When did she see it?",
+      "x": 0.0723,
+      "y": 0.0834,
+      "w": 0.3342,
+      "h": 0.0452,
+      "words": [
+        "She",
+        "saw",
+        "it",
+        "When",
+        "did",
+        "she",
+        "see",
+        "it?"
+      ],
+      "conf": 95.2783,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "She saw it after she went to the table",
+      "x": 0.0705,
+      "y": 0.135,
+      "w": 0.3986,
+      "h": 0.0441,
+      "words": [
+        "She",
+        "saw",
+        "it",
+        "after",
+        "she",
+        "went",
+        "to",
+        "the",
+        "table"
+      ],
+      "conf": 96.0135,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "What is that?",
+      "x": 0.5776,
+      "y": 0.5438,
+      "w": 0.2169,
+      "h": 0.0334,
+      "words": [
+        "What",
+        "is",
+        "that?"
+      ],
+      "conf": 91.7742,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "John's hat!",
+      "x": 0.5661,
+      "y": 0.5858,
+      "w": 0.1984,
+      "h": 0.0382,
+      "words": [
+        "John's",
+        "hat!"
+      ],
+      "conf": 87.07,
+      "source": "psm-11"
+    }
+  ]
+}

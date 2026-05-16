@@ -1,0 +1,366 @@
+{
+  "page": 143,
+  "image": "/books/page 143.png",
+  "imageApiPath": "/api/books/page%20143.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 14,
+    "wordCount": 114,
+    "imageWidth": 1275,
+    "imageHeight": 1825
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5",
+        "r7"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r6",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r11",
+        "r13"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r12",
+        "r14"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This morning Mrs. Smith got the card which Mr.",
+      "x": 0.1255,
+      "y": 0.0882,
+      "w": 0.3443,
+      "h": 0.0504,
+      "words": [
+        "This",
+        "morning",
+        "Mrs.",
+        "Smith",
+        "got",
+        "the",
+        "card",
+        "which",
+        "Mr."
+      ],
+      "conf": 96.1239,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Reading and writing are parts of our education.",
+      "x": 0.5153,
+      "y": 0.0893,
+      "w": 0.3553,
+      "h": 0.0504,
+      "words": [
+        "Reading",
+        "and",
+        "writing",
+        "are",
+        "parts",
+        "of",
+        "our",
+        "education."
+      ],
+      "conf": 96.4534,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Smith sent to her from San Francisco.",
+      "x": 0.1271,
+      "y": 0.1403,
+      "w": 0.3169,
+      "h": 0.046,
+      "words": [
+        "Smith",
+        "sent",
+        "to",
+        "her",
+        "from",
+        "San",
+        "Francisco."
+      ],
+      "conf": 96.2634,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "We get a great part of our education at school.",
+      "x": 0.5145,
+      "y": 0.1408,
+      "w": 0.3498,
+      "h": 0.0461,
+      "words": [
+        "We",
+        "get",
+        "a",
+        "great",
+        "part",
+        "of",
+        "our",
+        "education",
+        "at",
+        "school."
+      ],
+      "conf": 95.1455,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "She is reading it now.",
+      "x": 0.1271,
+      "y": 0.1923,
+      "w": 0.3122,
+      "h": 0.0236,
+      "words": [
+        "She",
+        "is",
+        "reading",
+        "it",
+        "now."
+      ],
+      "conf": 95.0011,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "These boys and girls are at school. The teacher is teaching them.",
+      "x": 0.5153,
+      "y": 0.1929,
+      "w": 0.3553,
+      "h": 0.0756,
+      "words": [
+        "These",
+        "boys",
+        "and",
+        "girls",
+        "are",
+        "at",
+        "school.",
+        "The",
+        "teacher",
+        "is",
+        "teaching",
+        "them."
+      ],
+      "conf": 96.6725,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "She is reading: had a good journey....”",
+      "x": 0.1271,
+      "y": 0.2181,
+      "w": 0.3404,
+      "h": 0.0504,
+      "words": [
+        "She",
+        "is",
+        "reading:",
+        "had",
+        "a",
+        "good",
+        "journey....”"
+      ],
+      "conf": 95.0152,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "BIG CB",
+      "x": 0.6204,
+      "y": 0.354,
+      "w": 0.2071,
+      "h": 0.0258,
+      "words": [
+        "BIG",
+        "CB"
+      ],
+      "conf": 37.3738,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "At school, Tom and Jane are learning. They were reading and now they are writing.",
+      "x": 0.5216,
+      "y": 0.531,
+      "w": 0.3482,
+      "h": 0.1036,
+      "words": [
+        "At",
+        "school,",
+        "Tom",
+        "and",
+        "Jane",
+        "are",
+        "learning.",
+        "They",
+        "were",
+        "reading",
+        "and",
+        "now",
+        "they",
+        "are",
+        "writing."
+      ],
+      "conf": 90.7144,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Mrs. Smith is sending Jane and Tom to school.",
+      "x": 0.131,
+      "y": 0.7321,
+      "w": 0.3514,
+      "h": 0.0454,
+      "words": [
+        "Mrs.",
+        "Smith",
+        "is",
+        "sending",
+        "Jane",
+        "and",
+        "Tom",
+        "to",
+        "school."
+      ],
+      "conf": 96.2002,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "They will be at school before nine.",
+      "x": 0.1302,
+      "y": 0.7792,
+      "w": 0.3106,
+      "h": 0.0498,
+      "words": [
+        "They",
+        "will",
+        "be",
+        "at",
+        "school",
+        "before",
+        "nine."
+      ],
+      "conf": 95.6648,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "Tam is writing the word learning on the board.",
+      "x": 0.5286,
+      "y": 0.7923,
+      "w": 0.3404,
+      "h": 0.0499,
+      "words": [
+        "Tam",
+        "is",
+        "writing",
+        "the",
+        "word",
+        "learning",
+        "on",
+        "the",
+        "board."
+      ],
+      "conf": 96.1781,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "They get good teaching at school.",
+      "x": 0.1302,
+      "y": 0.8351,
+      "w": 0.2745,
+      "h": 0.0498,
+      "words": [
+        "They",
+        "get",
+        "good",
+        "teaching",
+        "at",
+        "school."
+      ],
+      "conf": 96.3111,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "The teacher is teaching him the word learning.",
+      "x": 0.5302,
+      "y": 0.8438,
+      "w": 0.3349,
+      "h": 0.051,
+      "words": [
+        "The",
+        "teacher",
+        "is",
+        "teaching",
+        "him",
+        "the",
+        "word",
+        "learning."
+      ],
+      "conf": 96.5711,
+      "source": "psm-11"
+    }
+  ]
+}

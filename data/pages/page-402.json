@@ -1,0 +1,199 @@
+{
+  "page": 402,
+  "image": "/books/page 402.png",
+  "imageApiPath": "/api/books/page%20402.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 7,
+    "wordCount": 75,
+    "imageWidth": 1171,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "The greater the number of parts a thing has, the more complex it is.",
+      "x": 0.0709,
+      "y": 0.0328,
+      "w": 0.8463,
+      "h": 0.0522,
+      "words": [
+        "The",
+        "greater",
+        "the",
+        "number",
+        "of",
+        "parts",
+        "a",
+        "thing",
+        "has,",
+        "the",
+        "more",
+        "complex",
+        "it",
+        "is."
+      ],
+      "conf": 96.4859,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "The the number of parts a thing has, the simpler it is.",
+      "x": 0.0709,
+      "y": 0.1119,
+      "w": 0.8471,
+      "h": 0.0458,
+      "words": [
+        "The",
+        "the",
+        "number",
+        "of",
+        "parts",
+        "a",
+        "thing",
+        "has,",
+        "the",
+        "simpler",
+        "it",
+        "is."
+      ],
+      "conf": 96.5462,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Which of these is the more complex?",
+      "x": 0.0769,
+      "y": 0.4104,
+      "w": 0.5363,
+      "h": 0.0387,
+      "words": [
+        "Which",
+        "of",
+        "these",
+        "is",
+        "the",
+        "more",
+        "complex?"
+      ],
+      "conf": 95.965,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "The more different the parts of a thing are from one an-",
+      "x": 0.0769,
+      "y": 0.4476,
+      "w": 0.842,
+      "h": 0.043,
+      "words": [
+        "The",
+        "more",
+        "different",
+        "the",
+        "parts",
+        "of",
+        "a",
+        "thing",
+        "are",
+        "from",
+        "one",
+        "an-"
+      ],
+      "conf": 94.9704,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "other, the more complex it is.",
+      "x": 0.0786,
+      "y": 0.49,
+      "w": 0.4526,
+      "h": 0.0264,
+      "words": [
+        "other,",
+        "the",
+        "more",
+        "complex",
+        "it",
+        "is."
+      ],
+      "conf": 96.2111,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The less different the parts of a thing are from one an- other, the less complex it is.",
+      "x": 0.0769,
+      "y": 0.5417,
+      "w": 0.8437,
+      "h": 0.0511,
+      "words": [
+        "The",
+        "less",
+        "different",
+        "the",
+        "parts",
+        "of",
+        "a",
+        "thing",
+        "are",
+        "from",
+        "one",
+        "an-",
+        "other,",
+        "the",
+        "less",
+        "complex",
+        "it",
+        "is."
+      ],
+      "conf": 96.0636,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Which of these is more complex?",
+      "x": 0.0803,
+      "y": 0.8456,
+      "w": 0.4799,
+      "h": 0.0269,
+      "words": [
+        "Which",
+        "of",
+        "these",
+        "is",
+        "more",
+        "complex?"
+      ],
+      "conf": 96.567,
+      "source": "psm-11"
+    }
+  ]
+}

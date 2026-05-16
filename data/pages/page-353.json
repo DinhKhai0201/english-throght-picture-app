@@ -1,0 +1,269 @@
+{
+  "page": 353,
+  "image": "/books/page 353.png",
+  "imageApiPath": "/api/books/page%20353.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 103,
+    "imageWidth": 1242,
+    "imageHeight": 1842
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Why is this? Why is it easy for young children to learn languages?",
+      "x": 0.0886,
+      "y": 0.0369,
+      "w": 0.7914,
+      "h": 0.0511,
+      "words": [
+        "Why",
+        "is",
+        "this?",
+        "Why",
+        "is",
+        "it",
+        "easy",
+        "for",
+        "young",
+        "children",
+        "to",
+        "learn",
+        "languages?"
+      ],
+      "conf": 96.4865,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Part of the answer is that children have so many needs.",
+      "x": 0.0894,
+      "y": 0.1178,
+      "w": 0.7866,
+      "h": 0.0223,
+      "words": [
+        "Part",
+        "of",
+        "the",
+        "answer",
+        "is",
+        "that",
+        "children",
+        "have",
+        "so",
+        "many",
+        "needs."
+      ],
+      "conf": 96.6383,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "They need to be helped by grownups at every turn. They have to make their needs known and they are always watching the effect of what they say and trying new ways of getting what they want.",
+      "x": 0.0862,
+      "y": 0.145,
+      "w": 0.7915,
+      "h": 0.1004,
+      "words": [
+        "They",
+        "need",
+        "to",
+        "be",
+        "helped",
+        "by",
+        "grownups",
+        "at",
+        "every",
+        "turn.",
+        "They",
+        "have",
+        "to",
+        "make",
+        "their",
+        "needs",
+        "known",
+        "and",
+        "they",
+        "are",
+        "always",
+        "watching",
+        "the",
+        "effect",
+        "of",
+        "what",
+        "they",
+        "say",
+        "and",
+        "trying",
+        "new",
+        "ways",
+        "of",
+        "getting",
+        "what",
+        "they",
+        "want."
+      ],
+      "conf": 96.3575,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Children are learning new things all the time.",
+      "x": 0.0813,
+      "y": 0.6916,
+      "w": 0.649,
+      "h": 0.0347,
+      "words": [
+        "Children",
+        "are",
+        "learning",
+        "new",
+        "things",
+        "all",
+        "the",
+        "time."
+      ],
+      "conf": 95.0866,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "watching: looking at, Our watches are things we watch (keep looking always: at oll times, all the time.",
+      "x": 0.0829,
+      "y": 0.7584,
+      "w": 0.7899,
+      "h": 0.0505,
+      "words": [
+        "watching:",
+        "looking",
+        "at,",
+        "Our",
+        "watches",
+        "are",
+        "things",
+        "we",
+        "watch",
+        "(keep",
+        "looking",
+        "always:",
+        "at",
+        "oll",
+        "times,",
+        "all",
+        "the",
+        "time."
+      ],
+      "conf": 94.9314,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Gt) to see the time.",
+      "x": 0.1353,
+      "y": 0.7769,
+      "w": 0.2005,
+      "h": 0.0141,
+      "words": [
+        "Gt)",
+        "to",
+        "see",
+        "the",
+        "time."
+      ],
+      "conf": 88.6142,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "want: have a desire for, will watch",
+      "x": 0.0789,
+      "y": 0.8116,
+      "w": 0.2705,
+      "h": 0.0657,
+      "words": [
+        "want:",
+        "have",
+        "a",
+        "desire",
+        "for,",
+        "will",
+        "watch"
+      ],
+      "conf": 85.5662,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "will want",
+      "x": 0.0813,
+      "y": 0.8415,
+      "w": 0.1135,
+      "h": 0.013,
+      "words": [
+        "will",
+        "want"
+      ],
+      "conf": 96.2041,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "want(s)",
+      "x": 0.4243,
+      "y": 0.8426,
+      "w": 0.099,
+      "h": 0.0157,
+      "words": [
+        "want(s)"
+      ],
+      "conf": 89.0095,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "wanted",
+      "x": 0.781,
+      "y": 0.8415,
+      "w": 0.0902,
+      "h": 0.0125,
+      "words": [
+        "wanted"
+      ],
+      "conf": 96.1109,
+      "source": "psm-11"
+    }
+  ]
+}

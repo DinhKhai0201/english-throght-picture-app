@@ -1,0 +1,319 @@
+{
+  "page": 111,
+  "image": "/books/page 111.png",
+  "imageApiPath": "/api/books/page%20111.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 14,
+    "wordCount": 67,
+    "imageWidth": 1175,
+    "imageHeight": 1813
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4",
+        "r6"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9",
+        "r11",
+        "r13"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r10",
+        "r12",
+        "r14"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "com cn hoop POEM and pigs",
+      "x": 0.1285,
+      "y": 0.0943,
+      "w": 0.3081,
+      "h": 0.1219,
+      "words": [
+        "com",
+        "cn",
+        "hoop",
+        "POEM",
+        "and",
+        "pigs"
+      ],
+      "conf": 92.5418,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "These are different sorts of plants",
+      "x": 0.5574,
+      "y": 0.0976,
+      "w": 0.2937,
+      "h": 0.0513,
+      "words": [
+        "These",
+        "are",
+        "different",
+        "sorts",
+        "of",
+        "plants"
+      ],
+      "conf": 95.4252,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This is the leaf of one sort of plant This is the leaf of",
+      "x": 0.5174,
+      "y": 0.3006,
+      "w": 0.3158,
+      "h": 0.1015,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "leaf",
+        "of",
+        "one",
+        "sort",
+        "of",
+        "plant",
+        "This",
+        "is",
+        "the",
+        "leaf",
+        "of"
+      ],
+      "conf": 96.2258,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "are animals.",
+      "x": 0.1583,
+      "y": 0.3955,
+      "w": 0.1847,
+      "h": 0.0204,
+      "words": [
+        "are",
+        "animals."
+      ],
+      "conf": 94.4338,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "sort of plant",
+      "x": 0.7038,
+      "y": 0.4093,
+      "w": 0.1855,
+      "h": 0.0254,
+      "words": [
+        "sort",
+        "of",
+        "plant"
+      ],
+      "conf": 95.7822,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "They are different sorts of animals",
+      "x": 0.1191,
+      "y": 0.4352,
+      "w": 0.2835,
+      "h": 0.0463,
+      "words": [
+        "They",
+        "are",
+        "different",
+        "sorts",
+        "of",
+        "animals"
+      ],
+      "conf": 96.8326,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "These are the same",
+      "x": 0.1106,
+      "y": 0.5422,
+      "w": 0.2996,
+      "h": 0.0199,
+      "words": [
+        "These",
+        "are",
+        "the",
+        "same"
+      ],
+      "conf": 96.4828,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "These plates are the same",
+      "x": 0.5685,
+      "y": 0.5554,
+      "w": 0.3098,
+      "h": 0.0469,
+      "words": [
+        "These",
+        "plates",
+        "are",
+        "the",
+        "same"
+      ],
+      "conf": 96.426,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "These are different",
+      "x": 0.0979,
+      "y": 0.6299,
+      "w": 0.2962,
+      "h": 0.0215,
+      "words": [
+        "These",
+        "are",
+        "different"
+      ],
+      "conf": 96.1936,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "These plates are different",
+      "x": 0.5796,
+      "y": 0.6917,
+      "w": 0.2536,
+      "h": 0.0457,
+      "words": [
+        "These",
+        "plates",
+        "are",
+        "different"
+      ],
+      "conf": 96.9135,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "These are the same",
+      "x": 0.0911,
+      "y": 0.7435,
+      "w": 0.303,
+      "h": 0.0221,
+      "words": [
+        "These",
+        "are",
+        "the",
+        "same"
+      ],
+      "conf": 95.9263,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "These glasses are the same",
+      "x": 0.5506,
+      "y": 0.8025,
+      "w": 0.3285,
+      "h": 0.0458,
+      "words": [
+        "These",
+        "glasses",
+        "are",
+        "the",
+        "same"
+      ],
+      "conf": 96.6943,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "These are different.",
+      "x": 0.0962,
+      "y": 0.8439,
+      "w": 0.297,
+      "h": 0.0215,
+      "words": [
+        "These",
+        "are",
+        "different."
+      ],
+      "conf": 94.6349,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "are different",
+      "x": 0.5847,
+      "y": 0.9035,
+      "w": 0.1966,
+      "h": 0.0204,
+      "words": [
+        "are",
+        "different"
+      ],
+      "conf": 96.2674,
+      "source": "psm-11"
+    }
+  ]
+}

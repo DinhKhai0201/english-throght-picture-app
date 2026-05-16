@@ -1,0 +1,272 @@
+{
+  "page": 115,
+  "image": "/books/page 115.png",
+  "imageApiPath": "/api/books/page%20115.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 76,
+    "imageWidth": 1150,
+    "imageHeight": 1830
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4",
+        "r5",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r9"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r10"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Who is this?",
+      "x": 0.6174,
+      "y": 0.1044,
+      "w": 0.1904,
+      "h": 0.0197,
+      "words": [
+        "Who",
+        "is",
+        "this?"
+      ],
+      "conf": 95.7979,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This soup is clear. We see the spoon through it.",
+      "x": 0.087,
+      "y": 0.2093,
+      "w": 0.3852,
+      "h": 0.0497,
+      "words": [
+        "This",
+        "soup",
+        "is",
+        "clear.",
+        "We",
+        "see",
+        "the",
+        "spoon",
+        "through",
+        "it."
+      ],
+      "conf": 96.5902,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Potato soup is a thick soup. We do not see the spoon through it.",
+      "x": 0.0983,
+      "y": 0.2852,
+      "w": 0.3443,
+      "h": 0.0765,
+      "words": [
+        "Potato",
+        "soup",
+        "is",
+        "a",
+        "thick",
+        "soup.",
+        "We",
+        "do",
+        "not",
+        "see",
+        "the",
+        "spoon",
+        "through",
+        "it."
+      ],
+      "conf": 93.173,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "This is Mary Smith.",
+      "x": 0.5348,
+      "y": 0.3169,
+      "w": 0.293,
+      "h": 0.0251,
+      "words": [
+        "This",
+        "is",
+        "Mary",
+        "Smith."
+      ],
+      "conf": 95.3267,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "She made the soup.",
+      "x": 0.5357,
+      "y": 0.3426,
+      "w": 0.3061,
+      "h": 0.0251,
+      "words": [
+        "She",
+        "made",
+        "the",
+        "soup."
+      ],
+      "conf": 96.5423,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "This is Mary who made the soup.",
+      "x": 0.5348,
+      "y": 0.3683,
+      "w": 0.3635,
+      "h": 0.0525,
+      "words": [
+        "This",
+        "is",
+        "Mary",
+        "who",
+        "made",
+        "the",
+        "soup."
+      ],
+      "conf": 96.4549,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is the milk. Mary put it in the soup.",
+      "x": 0.5687,
+      "y": 0.6251,
+      "w": 0.1748,
+      "h": 0.0967,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "milk.",
+        "Mary",
+        "put",
+        "it",
+        "in",
+        "the",
+        "soup."
+      ],
+      "conf": 96.7559,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This is the soup. Mary made if.",
+      "x": 0.1043,
+      "y": 0.6557,
+      "w": 0.3409,
+      "h": 0.0454,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "soup.",
+        "Mary",
+        "made",
+        "if."
+      ],
+      "conf": 96.6455,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "This is the soup which Mary made.",
+      "x": 0.1052,
+      "y": 0.7066,
+      "w": 0.3374,
+      "h": 0.0513,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "soup",
+        "which",
+        "Mary",
+        "made."
+      ],
+      "conf": 96.8208,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "This is the milk which Mary put in the soup.",
+      "x": 0.5696,
+      "y": 0.7279,
+      "w": 0.3348,
+      "h": 0.0503,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "milk",
+        "which",
+        "Mary",
+        "put",
+        "in",
+        "the",
+        "soup."
+      ],
+      "conf": 96.1386,
+      "source": "psm-11"
+    }
+  ]
+}

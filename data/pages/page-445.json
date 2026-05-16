@@ -1,0 +1,492 @@
+{
+  "page": 445,
+  "image": "/books/page 445.png",
+  "imageApiPath": "/api/books/page%20445.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 20,
+    "wordCount": 156,
+    "imageWidth": 1234,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r12"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r11",
+        "r13"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r15",
+        "r17",
+        "r18"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r14",
+        "r16",
+        "r19",
+        "r20"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Air travel would have seemed very strange two or threo thousand years ago, to men keeping their sheep on the",
+      "x": 0.1005,
+      "y": 0.036,
+      "w": 0.7958,
+      "h": 0.0517,
+      "words": [
+        "Air",
+        "travel",
+        "would",
+        "have",
+        "seemed",
+        "very",
+        "strange",
+        "two",
+        "or",
+        "threo",
+        "thousand",
+        "years",
+        "ago,",
+        "to",
+        "men",
+        "keeping",
+        "their",
+        "sheep",
+        "on",
+        "the"
+      ],
+      "conf": 92.6298,
+      "source": "psm-6"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "thousand years ago, to men keeping their sheep on the mountainsides. All these changes are the outcome of the",
+      "x": 0.1005,
+      "y": 0.0624,
+      "w": 0.7966,
+      "h": 0.0495,
+      "words": [
+        "thousand",
+        "years",
+        "ago,",
+        "to",
+        "men",
+        "keeping",
+        "their",
+        "sheep",
+        "on",
+        "the",
+        "mountainsides.",
+        "All",
+        "these",
+        "changes",
+        "are",
+        "the",
+        "outcome",
+        "of",
+        "the"
+      ],
+      "conf": 96.6495,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "mountainsides. All these changes are the outcome of the great step taken in the invention of numbers.",
+      "x": 0.1013,
+      "y": 0.0888,
+      "w": 0.7958,
+      "h": 0.05,
+      "words": [
+        "mountainsides.",
+        "All",
+        "these",
+        "changes",
+        "are",
+        "the",
+        "outcome",
+        "of",
+        "the",
+        "great",
+        "step",
+        "taken",
+        "in",
+        "the",
+        "invention",
+        "of",
+        "numbers."
+      ],
+      "conf": 96.634,
+      "source": "psm-6"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "great step taken in the invention of numbers.",
+      "x": 0.1013,
+      "y": 0.1162,
+      "w": 0.6126,
+      "h": 0.0226,
+      "words": [
+        "great",
+        "step",
+        "taken",
+        "in",
+        "the",
+        "invention",
+        "of",
+        "numbers."
+      ],
+      "conf": 96.7364,
+      "source": "psm-6"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Before men could count, God",
+      "x": 0.1013,
+      "y": 0.2136,
+      "w": 0.7836,
+      "h": 0.0758,
+      "words": [
+        "Before",
+        "men",
+        "could",
+        "count,",
+        "God"
+      ],
+      "conf": 89.7294,
+      "source": "psm-6"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Before men could count, how did anyone know",
+      "x": 0.1013,
+      "y": 0.2474,
+      "w": 0.4003,
+      "h": 0.0479,
+      "words": [
+        "Before",
+        "men",
+        "could",
+        "count,",
+        "how",
+        "did",
+        "anyone",
+        "know"
+      ],
+      "conf": 96.519,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "how did anyone know which were his sheep and",
+      "x": 0.1021,
+      "y": 0.2738,
+      "w": 0.3825,
+      "h": 0.0506,
+      "words": [
+        "how",
+        "did",
+        "anyone",
+        "know",
+        "which",
+        "were",
+        "his",
+        "sheep",
+        "and"
+      ],
+      "conf": 96.3619,
+      "source": "psm-6"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "which were his sheep and which were another",
+      "x": 0.1021,
+      "y": 0.3002,
+      "w": 0.3647,
+      "h": 0.0446,
+      "words": [
+        "which",
+        "were",
+        "his",
+        "sheep",
+        "and",
+        "which",
+        "were",
+        "another"
+      ],
+      "conf": 96.3903,
+      "source": "psm-6"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "which were another /7y,.”",
+      "x": 0.1029,
+      "y": 0.3249,
+      "w": 0.4927,
+      "h": 0.0253,
+      "words": [
+        "which",
+        "were",
+        "another",
+        "/7y,.”"
+      ],
+      "conf": 80.3978,
+      "source": "psm-6"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "man’s? MAW) rT",
+      "x": 0.1037,
+      "y": 0.3287,
+      "w": 0.7391,
+      "h": 0.0506,
+      "words": [
+        "man’s?",
+        "MAW)",
+        "rT"
+      ],
+      "conf": 64.1284,
+      "source": "psm-6"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "A Ww)",
+      "x": 0.6062,
+      "y": 0.3287,
+      "w": 0.1321,
+      "h": 0.0409,
+      "words": [
+        "A",
+        "Ww)"
+      ],
+      "conf": 54.5547,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "man’s?",
+      "x": 0.1037,
+      "y": 0.354,
+      "w": 0.0948,
+      "h": 0.0172,
+      "words": [
+        "man’s?"
+      ],
+      "conf": 96.6036,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "rT ae oc ae",
+      "x": 0.4408,
+      "y": 0.3416,
+      "w": 0.4393,
+      "h": 0.0704,
+      "words": [
+        "rT",
+        "ae",
+        "oc",
+        "ae"
+      ],
+      "conf": 68.0771,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "He put his mark on his sheep. He was their owner. They",
+      "x": 0.1045,
+      "y": 0.6627,
+      "w": 0.7998,
+      "h": 0.0226,
+      "words": [
+        "He",
+        "put",
+        "his",
+        "mark",
+        "on",
+        "his",
+        "sheep.",
+        "He",
+        "was",
+        "their",
+        "owner.",
+        "They"
+      ],
+      "conf": 96.3588,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "were his own sheep. He owned them.",
+      "x": 0.1053,
+      "y": 0.6891,
+      "w": 0.5105,
+      "h": 0.0221,
+      "words": [
+        "were",
+        "his",
+        "own",
+        "sheep.",
+        "He",
+        "owned",
+        "them."
+      ],
+      "conf": 96.5838,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "Sometimes he gave his sheep names, and then he would go through all the names—with his sheep—to see if they",
+      "x": 0.1037,
+      "y": 0.7413,
+      "w": 0.8015,
+      "h": 0.0495,
+      "words": [
+        "Sometimes",
+        "he",
+        "gave",
+        "his",
+        "sheep",
+        "names,",
+        "and",
+        "then",
+        "he",
+        "would",
+        "go",
+        "through",
+        "all",
+        "the",
+        "names—with",
+        "his",
+        "sheep—to",
+        "see",
+        "if",
+        "they"
+      ],
+      "conf": 96.5704,
+      "source": "psm-6"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "were all there.",
+      "x": 0.1053,
+      "y": 0.7945,
+      "w": 0.1929,
+      "h": 0.0178,
+      "words": [
+        "were",
+        "all",
+        "there."
+      ],
+      "conf": 96.4629,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "will ows",
+      "x": 0.1053,
+      "y": 0.8526,
+      "w": 0.1037,
+      "h": 0.0134,
+      "words": [
+        "will",
+        "ows"
+      ],
+      "conf": 93.6917,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "will ows owned",
+      "x": 0.1053,
+      "y": 0.8526,
+      "w": 0.8006,
+      "h": 0.0134,
+      "words": [
+        "will",
+        "ows",
+        "owned"
+      ],
+      "conf": 94.0871,
+      "source": "psm-6"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "owned",
+      "x": 0.8233,
+      "y": 0.8526,
+      "w": 0.0827,
+      "h": 0.0134,
+      "words": [
+        "owned"
+      ],
+      "conf": 95.1239,
+      "source": "psm-11"
+    }
+  ]
+}

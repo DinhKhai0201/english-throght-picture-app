@@ -1,0 +1,455 @@
+{
+  "page": 420,
+  "image": "/books/page 420.png",
+  "imageApiPath": "/api/books/page%20420.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 17,
+    "wordCount": 161,
+    "imageWidth": 1171,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4",
+        "r6",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r10",
+        "r11",
+        "r12",
+        "r15",
+        "r16"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r13",
+        "r14",
+        "r17"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Nitrogen, like carbon, oxygen and hydrogen, is used",
+      "x": 0.0854,
+      "y": 0.035,
+      "w": 0.8292,
+      "h": 0.0231,
+      "words": [
+        "Nitrogen,",
+        "like",
+        "carbon,",
+        "oxygen",
+        "and",
+        "hydrogen,",
+        "is",
+        "used"
+      ],
+      "conf": 96.3109,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "over and over again in support of life. Plants build nitro- gen up into complex structures. Animals eat the plants.",
+      "x": 0.0811,
+      "y": 0.0597,
+      "w": 0.8377,
+      "h": 0.0501,
+      "words": [
+        "over",
+        "and",
+        "over",
+        "again",
+        "in",
+        "support",
+        "of",
+        "life.",
+        "Plants",
+        "build",
+        "nitro-",
+        "gen",
+        "up",
+        "into",
+        "complex",
+        "structures.",
+        "Animals",
+        "eat",
+        "the",
+        "plants."
+      ],
+      "conf": 95.6685,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "gen up into complex structures. Animals eat the plants.",
+      "x": 0.0845,
+      "y": 0.0877,
+      "w": 0.8301,
+      "h": 0.0221,
+      "words": [
+        "gen",
+        "up",
+        "into",
+        "complex",
+        "structures.",
+        "Animals",
+        "eat",
+        "the",
+        "plants."
+      ],
+      "conf": 96.1095,
+      "source": "psm-6"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Then animal waste and dead plants and fallen leaves are",
+      "x": 0.0854,
+      "y": 0.1135,
+      "w": 0.8318,
+      "h": 0.0215,
+      "words": [
+        "Then",
+        "animal",
+        "waste",
+        "and",
+        "dead",
+        "plants",
+        "and",
+        "fallen",
+        "leaves",
+        "are"
+      ],
+      "conf": 96.5575,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "broken down into simpler forms again.",
+      "x": 0.0854,
+      "y": 0.1393,
+      "w": 0.5628,
+      "h": 0.0215,
+      "words": [
+        "broken",
+        "down",
+        "into",
+        "simpler",
+        "forms",
+        "again."
+      ],
+      "conf": 96.6351,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "i KN",
+      "x": 0.2963,
+      "y": 0.2205,
+      "w": 0.4389,
+      "h": 0.0393,
+      "words": [
+        "i",
+        "KN"
+      ],
+      "conf": 68.0317,
+      "source": "psm-6"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "So the great round goes on without end, all made possible",
+      "x": 0.0854,
+      "y": 0.4701,
+      "w": 0.8369,
+      "h": 0.0269,
+      "words": [
+        "So",
+        "the",
+        "great",
+        "round",
+        "goes",
+        "on",
+        "without",
+        "end,",
+        "all",
+        "made",
+        "possible"
+      ],
+      "conf": 96.3569,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "only by energy coming from the sun.",
+      "x": 0.0854,
+      "y": 0.497,
+      "w": 0.5303,
+      "h": 0.0264,
+      "words": [
+        "only",
+        "by",
+        "energy",
+        "coming",
+        "from",
+        "the",
+        "sun."
+      ],
+      "conf": 96.115,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Scientists say that all the oxygen and all the carbon dioxide now in the air have been put there after use by",
+      "x": 0.0863,
+      "y": 0.5498,
+      "w": 0.8385,
+      "h": 0.0527,
+      "words": [
+        "Scientists",
+        "say",
+        "that",
+        "all",
+        "the",
+        "oxygen",
+        "and",
+        "all",
+        "the",
+        "carbon",
+        "dioxide",
+        "now",
+        "in",
+        "the",
+        "air",
+        "have",
+        "been",
+        "put",
+        "there",
+        "after",
+        "use",
+        "by"
+      ],
+      "conf": 96.2753,
+      "source": "psm-6"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "plants through photosynthesis.",
+      "x": 0.0888,
+      "y": 0.6046,
+      "w": 0.45,
+      "h": 0.0215,
+      "words": [
+        "plants",
+        "through",
+        "photosynthesis."
+      ],
+      "conf": 91.3739,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "fallen: fatien tecves ore leaves which fell from trees",
+      "x": 0.0897,
+      "y": 0.7816,
+      "w": 0.6208,
+      "h": 0.0172,
+      "words": [
+        "fallen:",
+        "fatien",
+        "tecves",
+        "ore",
+        "leaves",
+        "which",
+        "fell",
+        "from",
+        "trees"
+      ],
+      "conf": 81.2611,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "fallen: fatien leaves ore leaves which fell from trees fall from the branches.",
+      "x": 0.0897,
+      "y": 0.7816,
+      "w": 0.6208,
+      "h": 0.0543,
+      "words": [
+        "fallen:",
+        "fatien",
+        "leaves",
+        "ore",
+        "leaves",
+        "which",
+        "fell",
+        "from",
+        "trees",
+        "fall",
+        "from",
+        "the",
+        "branches."
+      ],
+      "conf": 82.6073,
+      "source": "psm-6"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "The of the leaves takes place in the foll of the year when they will fall foll(s) fell, fallen",
+      "x": 0.0905,
+      "y": 0.7988,
+      "w": 0.8403,
+      "h": 0.07,
+      "words": [
+        "The",
+        "of",
+        "the",
+        "leaves",
+        "takes",
+        "place",
+        "in",
+        "the",
+        "foll",
+        "of",
+        "the",
+        "year",
+        "when",
+        "they",
+        "will",
+        "fall",
+        "foll(s)",
+        "fell,",
+        "fallen"
+      ],
+      "conf": 95.5913,
+      "source": "psm-6"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "The of the leaves takes place in the foll of the year when they",
+      "x": 0.1409,
+      "y": 0.7988,
+      "w": 0.7899,
+      "h": 0.0204,
+      "words": [
+        "The",
+        "of",
+        "the",
+        "leaves",
+        "takes",
+        "place",
+        "in",
+        "the",
+        "foll",
+        "of",
+        "the",
+        "year",
+        "when",
+        "they"
+      ],
+      "conf": 95.5913,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "fall from the branches.",
+      "x": 0.146,
+      "y": 0.8182,
+      "w": 0.257,
+      "h": 0.0129,
+      "words": [
+        "fall",
+        "from",
+        "the",
+        "branches."
+      ],
+      "conf": 96.1784,
+      "source": "psm-6"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "will fall",
+      "x": 0.0871,
+      "y": 0.8462,
+      "w": 0.111,
+      "h": 0.0226,
+      "words": [
+        "will",
+        "fall"
+      ],
+      "conf": 90.3915,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "fell, fallen",
+      "x": 0.7865,
+      "y": 0.8472,
+      "w": 0.1435,
+      "h": 0.0221,
+      "words": [
+        "fell,",
+        "fallen"
+      ],
+      "conf": 69.8429,
+      "source": "psm-11"
+    }
+  ]
+}

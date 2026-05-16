@@ -1,0 +1,234 @@
+{
+  "page": 119,
+  "image": "/books/page 119.png",
+  "imageApiPath": "/api/books/page%20119.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 38,
+    "imageWidth": 1209,
+    "imageHeight": 1805
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r7",
+        "r9"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "QUESTIONS a What is this?",
+      "x": 0.1696,
+      "y": 0.0787,
+      "w": 0.4169,
+      "h": 0.0731,
+      "words": [
+        "QUESTIONS",
+        "a",
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 96.154,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "b What is this?",
+      "x": 0.5591,
+      "y": 0.1324,
+      "w": 0.2341,
+      "h": 0.0199,
+      "words": [
+        "b",
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 95.0428,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "d What is this?",
+      "x": 0.5674,
+      "y": 0.328,
+      "w": 0.2324,
+      "h": 0.0199,
+      "words": [
+        "d",
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 95.4425,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "What are these?",
+      "x": 0.1216,
+      "y": 0.4648,
+      "w": 0.2506,
+      "h": 0.0199,
+      "words": [
+        "What",
+        "are",
+        "these?"
+      ],
+      "conf": 95.4998,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "wz ewe",
+      "x": 0.7097,
+      "y": 0.5019,
+      "w": 0.0786,
+      "h": 0.0155,
+      "words": [
+        "wz",
+        "ewe"
+      ],
+      "conf": 51.1751,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "e What is this?",
+      "x": 0.1017,
+      "y": 0.677,
+      "w": 0.2366,
+      "h": 0.0283,
+      "words": [
+        "e",
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 95.1313,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "f What are these?",
+      "x": 0.5517,
+      "y": 0.6809,
+      "w": 0.2911,
+      "h": 0.0199,
+      "words": [
+        "f",
+        "What",
+        "are",
+        "these?"
+      ],
+      "conf": 95.6135,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "g What is this?",
+      "x": 0.1605,
+      "y": 0.8687,
+      "w": 0.2341,
+      "h": 0.0238,
+      "words": [
+        "g",
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 95.5351,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "h What is this?",
+      "x": 0.5575,
+      "y": 0.8693,
+      "w": 0.2341,
+      "h": 0.0199,
+      "words": [
+        "h",
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 95.5536,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Answers are on page",
+      "x": 0.273,
+      "y": 0.9269,
+      "w": 0.3234,
+      "h": 0.0244,
+      "words": [
+        "Answers",
+        "are",
+        "on",
+        "page"
+      ],
+      "conf": 96.4195,
+      "source": "psm-11"
+    }
+  ]
+}

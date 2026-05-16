@@ -1,0 +1,191 @@
+{
+  "page": 32,
+  "image": "/books/page 32.png",
+  "imageApiPath": "/api/books/page%2032.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 9,
+    "wordCount": 39,
+    "imageWidth": 1292,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This is",
+      "x": 0.1664,
+      "y": 0.1339,
+      "w": 0.082,
+      "h": 0.0182,
+      "words": [
+        "This",
+        "is"
+      ],
+      "conf": 96.6657,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is a house.",
+      "x": 0.3916,
+      "y": 0.1157,
+      "w": 0.2098,
+      "h": 0.0198,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "house."
+      ],
+      "conf": 93.5184,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "These are windows of the house.",
+      "x": 0.7384,
+      "y": 0.1339,
+      "w": 0.1355,
+      "h": 0.0916,
+      "words": [
+        "These",
+        "are",
+        "windows",
+        "of",
+        "the",
+        "house."
+      ],
+      "conf": 95.7954,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "a window of the house.",
+      "x": 0.1641,
+      "y": 0.1585,
+      "w": 0.1362,
+      "h": 0.0669,
+      "words": [
+        "a",
+        "window",
+        "of",
+        "the",
+        "house."
+      ],
+      "conf": 95.1628,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "This is the door of the house.",
+      "x": 0.2724,
+      "y": 0.3899,
+      "w": 0.3963,
+      "h": 0.022,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "door",
+        "of",
+        "the",
+        "house."
+      ],
+      "conf": 96.7551,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "These are houses.",
+      "x": 0.3576,
+      "y": 0.5094,
+      "w": 0.2438,
+      "h": 0.0198,
+      "words": [
+        "These",
+        "are",
+        "houses."
+      ],
+      "conf": 95.9609,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is a street.",
+      "x": 0.5356,
+      "y": 0.7359,
+      "w": 0.2043,
+      "h": 0.0193,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "street."
+      ],
+      "conf": 95.8339,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This man is in",
+      "x": 0.37,
+      "y": 0.7863,
+      "w": 0.1881,
+      "h": 0.0193,
+      "words": [
+        "This",
+        "man",
+        "is",
+        "in"
+      ],
+      "conf": 91.7923,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "That is his house.",
+      "x": 0.4396,
+      "y": 0.8265,
+      "w": 0.233,
+      "h": 0.0204,
+      "words": [
+        "That",
+        "is",
+        "his",
+        "house."
+      ],
+      "conf": 96.7162,
+      "source": "psm-11"
+    }
+  ]
+}

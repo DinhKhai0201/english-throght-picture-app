@@ -1,0 +1,101 @@
+{
+  "page": 68,
+  "image": "/books/page 68.png",
+  "imageApiPath": "/api/books/page%2068.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 4,
+    "wordCount": 19,
+    "imageWidth": 1263,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Mary is coming into the room.",
+      "x": 0.133,
+      "y": 0.128,
+      "w": 0.3373,
+      "h": 0.0444,
+      "words": [
+        "Mary",
+        "is",
+        "coming",
+        "into",
+        "the",
+        "room."
+      ],
+      "conf": 90.4129,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "She is going ta the table.",
+      "x": 0.5297,
+      "y": 0.1253,
+      "w": 0.3547,
+      "h": 0.0246,
+      "words": [
+        "She",
+        "is",
+        "going",
+        "ta",
+        "the",
+        "table."
+      ],
+      "conf": 96.7084,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "She will seethe hat.",
+      "x": 0.1449,
+      "y": 0.5683,
+      "w": 0.2882,
+      "h": 0.0193,
+      "words": [
+        "She",
+        "will",
+        "seethe",
+        "hat."
+      ],
+      "conf": 85.5605,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "She sees it.",
+      "x": 0.5835,
+      "y": 0.5694,
+      "w": 0.1599,
+      "h": 0.0182,
+      "words": [
+        "She",
+        "sees",
+        "it."
+      ],
+      "conf": 95.4077,
+      "source": "psm-11"
+    }
+  ]
+}

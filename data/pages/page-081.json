@@ -1,0 +1,298 @@
+{
+  "page": 81,
+  "image": "/books/page 81.png",
+  "imageApiPath": "/api/books/page%2081.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 14,
+    "wordCount": 76,
+    "imageWidth": 1142,
+    "imageHeight": 1838
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r13",
+        "r14"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "What is Mary doing?",
+      "x": 0.1147,
+      "y": 0.1164,
+      "w": 0.3546,
+      "h": 0.0234,
+      "words": [
+        "What",
+        "is",
+        "Mary",
+        "doing?"
+      ],
+      "conf": 95.4434,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "They are knives, forks and spoons.",
+      "x": 0.563,
+      "y": 0.117,
+      "w": 0.2916,
+      "h": 0.0495,
+      "words": [
+        "They",
+        "are",
+        "knives,",
+        "forks",
+        "and",
+        "spoons."
+      ],
+      "conf": 96.3057,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "knife",
+      "x": 0.5447,
+      "y": 0.2329,
+      "w": 0.0788,
+      "h": 0.0185,
+      "words": [
+        "knife"
+      ],
+      "conf": 96.6278,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "fork",
+      "x": 0.697,
+      "y": 0.2329,
+      "w": 0.0657,
+      "h": 0.019,
+      "words": [
+        "fork"
+      ],
+      "conf": 96.4858,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "spoon",
+      "x": 0.8389,
+      "y": 0.2394,
+      "w": 0.0954,
+      "h": 0.0174,
+      "words": [
+        "spoon"
+      ],
+      "conf": 96.791,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "She is taking things from a drawer.",
+      "x": 0.1182,
+      "y": 0.3373,
+      "w": 0.3118,
+      "h": 0.0463,
+      "words": [
+        "She",
+        "is",
+        "taking",
+        "things",
+        "from",
+        "a",
+        "drawer."
+      ],
+      "conf": 96.2809,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "What are those things in the drawer?",
+      "x": 0.1173,
+      "y": 0.4113,
+      "w": 0.3616,
+      "h": 0.0463,
+      "words": [
+        "What",
+        "are",
+        "those",
+        "things",
+        "in",
+        "the",
+        "drawer?"
+      ],
+      "conf": 96.3839,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "The drawer has knives, forks and spoons in it.",
+      "x": 0.5639,
+      "y": 0.4135,
+      "w": 0.3704,
+      "h": 0.05,
+      "words": [
+        "The",
+        "drawer",
+        "has",
+        "knives,",
+        "forks",
+        "and",
+        "spoons",
+        "in",
+        "it."
+      ],
+      "conf": 96.2311,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Mary has a knife, a fork and a spoon in her right hand.",
+      "x": 0.113,
+      "y": 0.543,
+      "w": 0.3257,
+      "h": 0.0756,
+      "words": [
+        "Mary",
+        "has",
+        "a",
+        "knife,",
+        "a",
+        "fork",
+        "and",
+        "a",
+        "spoon",
+        "in",
+        "her",
+        "right",
+        "hand."
+      ],
+      "conf": 96.1295,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "She took them from the drawer.",
+      "x": 0.5648,
+      "y": 0.5452,
+      "w": 0.3135,
+      "h": 0.0457,
+      "words": [
+        "She",
+        "took",
+        "them",
+        "from",
+        "the",
+        "drawer."
+      ],
+      "conf": 96.2924,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "She will put them on the table.",
+      "x": 0.5648,
+      "y": 0.6061,
+      "w": 0.3204,
+      "h": 0.0468,
+      "words": [
+        "She",
+        "will",
+        "put",
+        "them",
+        "on",
+        "the",
+        "table."
+      ],
+      "conf": 95.7715,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "These are drawers.",
+      "x": 0.5683,
+      "y": 0.8172,
+      "w": 0.3161,
+      "h": 0.0207,
+      "words": [
+        "These",
+        "are",
+        "drawers."
+      ],
+      "conf": 96.1698,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "One of them is open.",
+      "x": 0.5701,
+      "y": 0.852,
+      "w": 0.3336,
+      "h": 0.0245,
+      "words": [
+        "One",
+        "of",
+        "them",
+        "is",
+        "open."
+      ],
+      "conf": 96.1992,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "The other two drawers are shut,",
+      "x": 0.5683,
+      "y": 0.8868,
+      "w": 0.373,
+      "h": 0.0473,
+      "words": [
+        "The",
+        "other",
+        "two",
+        "drawers",
+        "are",
+        "shut,"
+      ],
+      "conf": 96.4627,
+      "source": "psm-11"
+    }
+  ]
+}

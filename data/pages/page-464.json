@@ -1,0 +1,235 @@
+{
+  "page": 464,
+  "image": "/books/page 464.png",
+  "imageApiPath": "/api/books/page%20464.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 11,
+    "wordCount": 55,
+    "imageWidth": 1188,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Here is the answer:",
+      "x": 0.085,
+      "y": 0.0384,
+      "w": 0.2803,
+      "h": 0.0304,
+      "words": [
+        "Here",
+        "is",
+        "the",
+        "answer:"
+      ],
+      "conf": 95.2236,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "PTT] ROO",
+      "x": 0.1423,
+      "y": 0.2923,
+      "w": 0.6002,
+      "h": 0.0661,
+      "words": [
+        "PTT]",
+        "ROO"
+      ],
+      "conf": 48.0129,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "pt tt",
+      "x": 0.3628,
+      "y": 0.4309,
+      "w": 0.2904,
+      "h": 0.0656,
+      "words": [
+        "pt",
+        "tt"
+      ],
+      "conf": 41.4186,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "When we multiply a number by itself we “square” it.",
+      "x": 0.096,
+      "y": 0.7099,
+      "w": 0.7845,
+      "h": 0.0213,
+      "words": [
+        "When",
+        "we",
+        "multiply",
+        "a",
+        "number",
+        "by",
+        "itself",
+        "we",
+        "“square”",
+        "it."
+      ],
+      "conf": 95.7787,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Any number is the square root of its square.",
+      "x": 0.0951,
+      "y": 0.7355,
+      "w": 0.6625,
+      "h": 0.0219,
+      "words": [
+        "Any",
+        "number",
+        "is",
+        "the",
+        "square",
+        "root",
+        "of",
+        "its",
+        "square."
+      ],
+      "conf": 96.5675,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "is the square root of to square: to",
+      "x": 0.0943,
+      "y": 0.7595,
+      "w": 0.362,
+      "h": 0.0848,
+      "words": [
+        "is",
+        "the",
+        "square",
+        "root",
+        "of",
+        "to",
+        "square:",
+        "to"
+      ],
+      "conf": 96.5175,
+      "source": "psm-6"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "is the square root of",
+      "x": 0.1204,
+      "y": 0.7589,
+      "w": 0.2837,
+      "h": 0.0309,
+      "words": [
+        "is",
+        "the",
+        "square",
+        "root",
+        "of"
+      ],
+      "conf": 94.676,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "to square: to multiply a number by Itself.",
+      "x": 0.0976,
+      "y": 0.8203,
+      "w": 0.4705,
+      "h": 0.016,
+      "words": [
+        "to",
+        "square:",
+        "to",
+        "multiply",
+        "a",
+        "number",
+        "by",
+        "Itself."
+      ],
+      "conf": 84.5198,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "will",
+      "x": 0.0976,
+      "y": 0.8507,
+      "w": 0.0463,
+      "h": 0.0123,
+      "words": [
+        "will"
+      ],
+      "conf": 95.4396,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "will square (s) squared",
+      "x": 0.0976,
+      "y": 0.8485,
+      "w": 0.8241,
+      "h": 0.0203,
+      "words": [
+        "will",
+        "square",
+        "(s)",
+        "squared"
+      ],
+      "conf": 72.5928,
+      "source": "psm-6"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "square (s)",
+      "x": 0.4444,
+      "y": 0.8485,
+      "w": 0.1288,
+      "h": 0.0203,
+      "words": [
+        "square",
+        "(s)"
+      ],
+      "conf": 51.6728,
+      "source": "psm-11"
+    }
+  ]
+}

@@ -1,0 +1,140 @@
+{
+  "page": 15,
+  "image": "/books/page 15.png",
+  "imageApiPath": "/api/books/page%2015.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 6,
+    "wordCount": 30,
+    "imageWidth": 1163,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This ig my head.",
+      "x": 0.1685,
+      "y": 0.1685,
+      "w": 0.2554,
+      "h": 0.04,
+      "words": [
+        "This",
+        "ig",
+        "my",
+        "head."
+      ],
+      "conf": 94.8959,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is my hat.",
+      "x": 0.6277,
+      "y": 0.1696,
+      "w": 0.2253,
+      "h": 0.0229,
+      "words": [
+        "This",
+        "is",
+        "my",
+        "hat."
+      ],
+      "conf": 96.0702,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "My hat is in my hand.",
+      "x": 0.1212,
+      "y": 0.5627,
+      "w": 0.3379,
+      "h": 0.0245,
+      "words": [
+        "My",
+        "hat",
+        "is",
+        "in",
+        "my",
+        "hand."
+      ],
+      "conf": 93.8962,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "My hat is on my head.",
+      "x": 0.5641,
+      "y": 0.5627,
+      "w": 0.3457,
+      "h": 0.0235,
+      "words": [
+        "My",
+        "hat",
+        "is",
+        "on",
+        "my",
+        "head."
+      ],
+      "conf": 96.6488,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "It is in my hand.",
+      "x": 0.123,
+      "y": 0.5883,
+      "w": 0.2485,
+      "h": 0.0235,
+      "words": [
+        "It",
+        "is",
+        "in",
+        "my",
+        "hand."
+      ],
+      "conf": 93.2792,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "It is on my head.",
+      "x": 0.5658,
+      "y": 0.5877,
+      "w": 0.2545,
+      "h": 0.0235,
+      "words": [
+        "It",
+        "is",
+        "on",
+        "my",
+        "head."
+      ],
+      "conf": 95.8854,
+      "source": "psm-11"
+    }
+  ]
+}

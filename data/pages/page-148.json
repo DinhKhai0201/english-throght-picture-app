@@ -1,0 +1,277 @@
+{
+  "page": 148,
+  "image": "/books/page 148.png",
+  "imageApiPath": "/api/books/page%20148.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 12,
+    "wordCount": 53,
+    "imageWidth": 1167,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r7",
+        "r9",
+        "r11",
+        "r12"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "The sun comes up in the East.",
+      "x": 0.1157,
+      "y": 0.1208,
+      "w": 0.3753,
+      "h": 0.045,
+      "words": [
+        "The",
+        "sun",
+        "comes",
+        "up",
+        "in",
+        "the",
+        "East."
+      ],
+      "conf": 96.4791,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "It comes up every morning.",
+      "x": 0.5904,
+      "y": 0.1235,
+      "w": 0.2742,
+      "h": 0.0488,
+      "words": [
+        "It",
+        "comes",
+        "up",
+        "every",
+        "morning."
+      ],
+      "conf": 94.5679,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "The sun goes down in the West.",
+      "x": 0.1362,
+      "y": 0.3364,
+      "w": 0.3342,
+      "h": 0.045,
+      "words": [
+        "The",
+        "sun",
+        "goes",
+        "down",
+        "in",
+        "the",
+        "West."
+      ],
+      "conf": 96.1349,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "It goes down every night.",
+      "x": 0.5784,
+      "y": 0.3364,
+      "w": 0.2974,
+      "h": 0.0488,
+      "words": [
+        "It",
+        "goes",
+        "down",
+        "every",
+        "night."
+      ],
+      "conf": 94.8884,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "What is the time?",
+      "x": 0.5913,
+      "y": 0.5368,
+      "w": 0.2716,
+      "h": 0.02,
+      "words": [
+        "What",
+        "is",
+        "the",
+        "time?"
+      ],
+      "conf": 96.0775,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "What is the time?",
+      "x": 0.1585,
+      "y": 0.5623,
+      "w": 0.2751,
+      "h": 0.0195,
+      "words": [
+        "What",
+        "is",
+        "the",
+        "time?"
+      ],
+      "conf": 95.9108,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "It is five-twenty",
+      "x": 0.593,
+      "y": 0.5628,
+      "w": 0.2339,
+      "h": 0.0249,
+      "words": [
+        "It",
+        "is",
+        "five-twenty"
+      ],
+      "conf": 94.0178,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "It is five-eight a.m.",
+      "x": 0.1594,
+      "y": 0.5883,
+      "w": 0.2836,
+      "h": 0.0233,
+      "words": [
+        "It",
+        "is",
+        "five-eight",
+        "a.m."
+      ],
+      "conf": 88.5678,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "p.m.",
+      "x": 0.6949,
+      "y": 0.5943,
+      "w": 0.0574,
+      "h": 0.0141,
+      "words": [
+        "p.m."
+      ],
+      "conf": 67.1155,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "The sun is coming up now at five-eight a.m.",
+      "x": 0.1054,
+      "y": 0.8147,
+      "w": 0.3873,
+      "h": 0.0488,
+      "words": [
+        "The",
+        "sun",
+        "is",
+        "coming",
+        "up",
+        "now",
+        "at",
+        "five-eight",
+        "a.m."
+      ],
+      "conf": 96.3956,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "now at five-twenty",
+      "x": 0.5596,
+      "y": 0.8418,
+      "w": 0.2862,
+      "h": 0.0238,
+      "words": [
+        "now",
+        "at",
+        "five-twenty"
+      ],
+      "conf": 93.8048,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "P.M.",
+      "x": 0.6624,
+      "y": 0.8727,
+      "w": 0.0574,
+      "h": 0.0141,
+      "words": [
+        "P.M."
+      ],
+      "conf": 88.1857,
+      "source": "psm-11"
+    }
+  ]
+}

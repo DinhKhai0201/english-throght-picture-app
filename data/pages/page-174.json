@@ -1,0 +1,270 @@
+{
+  "page": 174,
+  "image": "/books/page 174.png",
+  "imageApiPath": "/api/books/page%20174.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 9,
+    "wordCount": 88,
+    "imageWidth": 1188,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "It is on one side of the needle.",
+      "x": 0.1591,
+      "y": 0.1593,
+      "w": 0.335,
+      "h": 0.0438,
+      "words": [
+        "It",
+        "is",
+        "on",
+        "one",
+        "side",
+        "of",
+        "the",
+        "needle."
+      ],
+      "conf": 96.3376,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "it is on this side of the needle.",
+      "x": 0.1616,
+      "y": 0.3039,
+      "w": 0.33,
+      "h": 0.045,
+      "words": [
+        "it",
+        "is",
+        "on",
+        "this",
+        "side",
+        "of",
+        "the",
+        "needle."
+      ],
+      "conf": 95.2103,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Now the girl is doing it again.",
+      "x": 0.5606,
+      "y": 0.3082,
+      "w": 0.3485,
+      "h": 0.045,
+      "words": [
+        "Now",
+        "the",
+        "girl",
+        "is",
+        "doing",
+        "it",
+        "again."
+      ],
+      "conf": 95.6278,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Is the end of the thread through the hole?",
+      "x": 0.5606,
+      "y": 0.3602,
+      "w": 0.3527,
+      "h": 0.0488,
+      "words": [
+        "Is",
+        "the",
+        "end",
+        "of",
+        "the",
+        "thread",
+        "through",
+        "the",
+        "hole?"
+      ],
+      "conf": 96.4535,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "No, it is not. If is on the other side of the needle",
+      "x": 0.5589,
+      "y": 0.4112,
+      "w": 0.3611,
+      "h": 0.0449,
+      "words": [
+        "No,",
+        "it",
+        "is",
+        "not.",
+        "If",
+        "is",
+        "on",
+        "the",
+        "other",
+        "side",
+        "of",
+        "the",
+        "needle"
+      ],
+      "conf": 95.1682,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The girl is making another attempt.",
+      "x": 0.1322,
+      "y": 0.5601,
+      "w": 0.2702,
+      "h": 0.0498,
+      "words": [
+        "The",
+        "girl",
+        "is",
+        "making",
+        "another",
+        "attempt."
+      ],
+      "conf": 96.792,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "It went through. The girl is taking the end of the thread in her fingers.",
+      "x": 0.5614,
+      "y": 0.559,
+      "w": 0.3712,
+      "h": 0.0743,
+      "words": [
+        "It",
+        "went",
+        "through.",
+        "The",
+        "girl",
+        "is",
+        "taking",
+        "the",
+        "end",
+        "of",
+        "the",
+        "thread",
+        "in",
+        "her",
+        "fingers."
+      ],
+      "conf": 93.9825,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This time the thread will go through the hole. The end of the thread is straight.",
+      "x": 0.1322,
+      "y": 0.6111,
+      "w": 0.3754,
+      "h": 0.1002,
+      "words": [
+        "This",
+        "time",
+        "the",
+        "thread",
+        "will",
+        "go",
+        "through",
+        "the",
+        "hole.",
+        "The",
+        "end",
+        "of",
+        "the",
+        "thread",
+        "is",
+        "straight."
+      ],
+      "conf": 96.2226,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "The thread is through the needle.",
+      "x": 0.5623,
+      "y": 0.636,
+      "w": 0.3258,
+      "h": 0.0455,
+      "words": [
+        "The",
+        "thread",
+        "is",
+        "through",
+        "the",
+        "needle."
+      ],
+      "conf": 96.4496,
+      "source": "psm-11"
+    }
+  ]
+}

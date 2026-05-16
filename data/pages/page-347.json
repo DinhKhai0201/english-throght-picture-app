@@ -1,0 +1,349 @@
+{
+  "page": 347,
+  "image": "/books/page 347.png",
+  "imageApiPath": "/api/books/page%20347.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 11,
+    "wordCount": 139,
+    "imageWidth": 1234,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r11"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r9"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "In picture writing, each picture represents a word; you In Chinese writing most of the marks are not pictures of anything, and a reader has to learn how the Chinese write about two thousand of these words With some of these marks you may be able to see what",
+      "x": 0.1143,
+      "y": 0.0391,
+      "w": 0.7998,
+      "h": 0.1778,
+      "words": [
+        "In",
+        "picture",
+        "writing,",
+        "each",
+        "picture",
+        "represents",
+        "a",
+        "word;",
+        "you",
+        "In",
+        "Chinese",
+        "writing",
+        "most",
+        "of",
+        "the",
+        "marks",
+        "are",
+        "not",
+        "pictures",
+        "of",
+        "anything,",
+        "and",
+        "a",
+        "reader",
+        "has",
+        "to",
+        "learn",
+        "how",
+        "the",
+        "Chinese",
+        "write",
+        "about",
+        "two",
+        "thousand",
+        "of",
+        "these",
+        "words",
+        "With",
+        "some",
+        "of",
+        "these",
+        "marks",
+        "you",
+        "may",
+        "be",
+        "able",
+        "to",
+        "see",
+        "what"
+      ],
+      "conf": 96.645,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "need a different picture or mark for each word.",
+      "x": 0.1183,
+      "y": 0.0653,
+      "w": 0.6556,
+      "h": 0.022,
+      "words": [
+        "need",
+        "a",
+        "different",
+        "picture",
+        "or",
+        "mark",
+        "for",
+        "each",
+        "word."
+      ],
+      "conf": 95.5616,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "before he can read a newspaper.",
+      "x": 0.1151,
+      "y": 0.1687,
+      "w": 0.4635,
+      "h": 0.0225,
+      "words": [
+        "before",
+        "he",
+        "can",
+        "read",
+        "a",
+        "newspaper."
+      ],
+      "conf": 96.5694,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "the idea is. For example:",
+      "x": 0.1143,
+      "y": 0.2212,
+      "w": 0.3639,
+      "h": 0.022,
+      "words": [
+        "the",
+        "idea",
+        "is.",
+        "For",
+        "example:"
+      ],
+      "conf": 96.2992,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "The sun and",
+      "x": 0.3517,
+      "y": 0.2989,
+      "w": 0.1767,
+      "h": 0.0177,
+      "words": [
+        "The",
+        "sun",
+        "and"
+      ],
+      "conf": 89.9029,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Two of its meanings are: “bright” and “open.”",
+      "x": 0.1135,
+      "y": 0.3749,
+      "w": 0.6702,
+      "h": 0.0225,
+      "words": [
+        "Two",
+        "of",
+        "its",
+        "meanings",
+        "are:",
+        "“bright”",
+        "and",
+        "“open.”"
+      ],
+      "conf": 96.1018,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "A man and two marks,",
+      "x": 0.3509,
+      "y": 0.4537,
+      "w": 0.3258,
+      "h": 0.0171,
+      "words": [
+        "A",
+        "man",
+        "and",
+        "two",
+        "marks,"
+      ],
+      "conf": 74.8808,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "One. of the meanings is “what men have in common.”",
+      "x": 0.1143,
+      "y": 0.5292,
+      "w": 0.7982,
+      "h": 0.0209,
+      "words": [
+        "One.",
+        "of",
+        "the",
+        "meanings",
+        "is",
+        "“what",
+        "men",
+        "have",
+        "in",
+        "common.”"
+      ],
+      "conf": 96.1329,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Learning to read Chinese is much harder than learning to read English. But in word-writing like Chinese the same marks can be read as having the same meaning in different languages; for example, in Mandarin, in Can-",
+      "x": 0.1151,
+      "y": 0.5806,
+      "w": 0.799,
+      "h": 0.0997,
+      "words": [
+        "Learning",
+        "to",
+        "read",
+        "Chinese",
+        "is",
+        "much",
+        "harder",
+        "than",
+        "learning",
+        "to",
+        "read",
+        "English.",
+        "But",
+        "in",
+        "word-writing",
+        "like",
+        "Chinese",
+        "the",
+        "same",
+        "marks",
+        "can",
+        "be",
+        "read",
+        "as",
+        "having",
+        "the",
+        "same",
+        "meaning",
+        "in",
+        "different",
+        "languages;",
+        "for",
+        "example,",
+        "in",
+        "Mandarin,",
+        "in",
+        "Can-"
+      ],
+      "conf": 96.2929,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "tonese and in Japanese.",
+      "x": 0.1135,
+      "y": 0.6845,
+      "w": 0.3436,
+      "h": 0.0214,
+      "words": [
+        "tonese",
+        "and",
+        "in",
+        "Japanese."
+      ],
+      "conf": 94.8949,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "has to: must.",
+      "x": 0.1151,
+      "y": 0.85,
+      "w": 0.1499,
+      "h": 0.0123,
+      "words": [
+        "has",
+        "to:",
+        "must."
+      ],
+      "conf": 89.2938,
+      "source": "psm-11"
+    }
+  ]
+}

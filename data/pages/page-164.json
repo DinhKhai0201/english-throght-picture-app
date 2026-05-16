@@ -1,0 +1,162 @@
+{
+  "page": 164,
+  "image": "/books/page 164.png",
+  "imageApiPath": "/api/books/page%20164.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 7,
+    "wordCount": 38,
+    "imageWidth": 1180,
+    "imageHeight": 1834
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "It’s not very bad.",
+      "x": 0.189,
+      "y": 0.5273,
+      "w": 0.2576,
+      "h": 0.0245,
+      "words": [
+        "It’s",
+        "not",
+        "very",
+        "bad."
+      ],
+      "conf": 91.7153,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Tom is making another, attempt.",
+      "x": 0.5534,
+      "y": 0.5234,
+      "w": 0.3534,
+      "h": 0.06,
+      "words": [
+        "Tom",
+        "is",
+        "making",
+        "another,",
+        "attempt."
+      ],
+      "conf": 96.3022,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Here is.",
+      "x": 0.1356,
+      "y": 0.608,
+      "w": 0.1102,
+      "h": 0.0174,
+      "words": [
+        "Here",
+        "is."
+      ],
+      "conf": 95.8695,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "the line.",
+      "x": 0.1347,
+      "y": 0.633,
+      "w": 0.0645,
+      "h": 0.0442,
+      "words": [
+        "the",
+        "line."
+      ],
+      "conf": 96.7208,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "And here is the cut.",
+      "x": 0.3178,
+      "y": 0.6396,
+      "w": 0.1432,
+      "h": 0.0447,
+      "words": [
+        "And",
+        "here",
+        "is",
+        "the",
+        "cut."
+      ],
+      "conf": 96.4077,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "a straight line a bent line",
+      "x": 0.2127,
+      "y": 0.7797,
+      "w": 0.2127,
+      "h": 0.0889,
+      "words": [
+        "a",
+        "straight",
+        "line",
+        "a",
+        "bent",
+        "line"
+      ],
+      "conf": 96.7462,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "That is better. The cut is straight. The blade of the knife went straight.",
+      "x": 0.5483,
+      "y": 0.7672,
+      "w": 0.3771,
+      "h": 0.0741,
+      "words": [
+        "That",
+        "is",
+        "better.",
+        "The",
+        "cut",
+        "is",
+        "straight.",
+        "The",
+        "blade",
+        "of",
+        "the",
+        "knife",
+        "went",
+        "straight."
+      ],
+      "conf": 96.2875,
+      "source": "psm-11"
+    }
+  ]
+}

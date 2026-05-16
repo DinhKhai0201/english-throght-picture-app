@@ -1,0 +1,340 @@
+{
+  "page": 224,
+  "image": "/books/page 224.png",
+  "imageApiPath": "/api/books/page%20224.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 14,
+    "wordCount": 88,
+    "imageWidth": 1196,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r7"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r5",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r11",
+        "r12"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r10",
+        "r13",
+        "r14"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "What were some other great discoveries?",
+      "x": 0.1346,
+      "y": 0.0959,
+      "w": 0.3478,
+      "h": 0.0493,
+      "words": [
+        "What",
+        "were",
+        "some",
+        "other",
+        "great",
+        "discoveries?"
+      ],
+      "conf": 96.3664,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Another great discovery was the wheel Wheels are round",
+      "x": 0.5443,
+      "y": 0.0964,
+      "w": 0.3637,
+      "h": 0.1114,
+      "words": [
+        "Another",
+        "great",
+        "discovery",
+        "was",
+        "the",
+        "wheel",
+        "Wheels",
+        "are",
+        "round"
+      ],
+      "conf": 96.414,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "One of them was fire.",
+      "x": 0.1355,
+      "y": 0.1468,
+      "w": 0.3278,
+      "h": 0.0204,
+      "words": [
+        "One",
+        "of",
+        "them",
+        "was",
+        "fire."
+      ],
+      "conf": 95.3248,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "They go",
+      "x": 0.7475,
+      "y": 0.2464,
+      "w": 0.1204,
+      "h": 0.0487,
+      "words": [
+        "They",
+        "go"
+      ],
+      "conf": 95.1279,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "round.",
+      "x": 0.7475,
+      "y": 0.2732,
+      "w": 0.0978,
+      "h": 0.0198,
+      "words": [
+        "round."
+      ],
+      "conf": 92.5032,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "A cont They are of very grect use fo man.",
+      "x": 0.5502,
+      "y": 0.3123,
+      "w": 0.3461,
+      "h": 0.1157,
+      "words": [
+        "A",
+        "cont",
+        "They",
+        "are",
+        "of",
+        "very",
+        "grect",
+        "use",
+        "fo",
+        "man."
+      ],
+      "conf": 71.1282,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Fire is of very great use to men. It gives us",
+      "x": 0.1446,
+      "y": 0.353,
+      "w": 0.3303,
+      "h": 0.0498,
+      "words": [
+        "Fire",
+        "is",
+        "of",
+        "very",
+        "great",
+        "use",
+        "to",
+        "men.",
+        "It",
+        "gives",
+        "us"
+      ],
+      "conf": 96.1587,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Another great discovery was clothing",
+      "x": 0.1246,
+      "y": 0.5078,
+      "w": 0.3737,
+      "h": 0.0492,
+      "words": [
+        "Another",
+        "great",
+        "discovery",
+        "was",
+        "clothing"
+      ],
+      "conf": 96.3534,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "The making of cloth was a great discovery.",
+      "x": 0.5527,
+      "y": 0.5378,
+      "w": 0.3436,
+      "h": 0.0498,
+      "words": [
+        "The",
+        "making",
+        "of",
+        "cloth",
+        "was",
+        "a",
+        "great",
+        "discovery."
+      ],
+      "conf": 90.0289,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "This is how we make cloth",
+      "x": 0.5527,
+      "y": 0.5881,
+      "w": 0.3102,
+      "h": 0.0444,
+      "words": [
+        "This",
+        "is",
+        "how",
+        "we",
+        "make",
+        "cloth"
+      ],
+      "conf": 96.4593,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "What are these?",
+      "x": 0.1488,
+      "y": 0.684,
+      "w": 0.2525,
+      "h": 0.0198,
+      "words": [
+        "What",
+        "are",
+        "these?"
+      ],
+      "conf": 95.9108,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "These are some other sorts of clothing.",
+      "x": 0.1488,
+      "y": 0.7092,
+      "w": 0.3244,
+      "h": 0.0498,
+      "words": [
+        "These",
+        "are",
+        "some",
+        "other",
+        "sorts",
+        "of",
+        "clothing."
+      ],
+      "conf": 96.5055,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "These are threads. (See hey",
+      "x": 0.5535,
+      "y": 0.7804,
+      "w": 0.3537,
+      "h": 0.0739,
+      "words": [
+        "These",
+        "are",
+        "threads.",
+        "(See",
+        "hey"
+      ],
+      "conf": 96.433,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "go.across from one side to the other of a rame.",
+      "x": 0.5552,
+      "y": 0.8307,
+      "w": 0.3603,
+      "h": 0.0692,
+      "words": [
+        "go.across",
+        "from",
+        "one",
+        "side",
+        "to",
+        "the",
+        "other",
+        "of",
+        "a",
+        "rame."
+      ],
+      "conf": 92.4301,
+      "source": "psm-11"
+    }
+  ]
+}

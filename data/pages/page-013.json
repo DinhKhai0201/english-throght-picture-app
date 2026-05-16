@@ -1,0 +1,142 @@
+{
+  "page": 13,
+  "image": "/books/page 13.png",
+  "imageApiPath": "/api/books/page%2013.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 6,
+    "wordCount": 32,
+    "imageWidth": 1163,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This man is here.",
+      "x": 0.1531,
+      "y": 0.128,
+      "w": 0.2623,
+      "h": 0.0197,
+      "words": [
+        "This",
+        "man",
+        "is",
+        "here."
+      ],
+      "conf": 96.1805,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This man is here. That man is there.",
+      "x": 0.1531,
+      "y": 0.1269,
+      "w": 0.7653,
+      "h": 0.0208,
+      "words": [
+        "This",
+        "man",
+        "is",
+        "here.",
+        "That",
+        "man",
+        "is",
+        "there."
+      ],
+      "conf": 96.2393,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "That man is there.",
+      "x": 0.6371,
+      "y": 0.1269,
+      "w": 0.2812,
+      "h": 0.0192,
+      "words": [
+        "That",
+        "man",
+        "is",
+        "there."
+      ],
+      "conf": 96.1335,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "This woman is here.",
+      "x": 0.1281,
+      "y": 0.5669,
+      "w": 0.319,
+      "h": 0.0187,
+      "words": [
+        "This",
+        "woman",
+        "is",
+        "here."
+      ],
+      "conf": 96.3549,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "This woman is here. That woman is there.",
+      "x": 0.1281,
+      "y": 0.5637,
+      "w": 0.7911,
+      "h": 0.0219,
+      "words": [
+        "This",
+        "woman",
+        "is",
+        "here.",
+        "That",
+        "woman",
+        "is",
+        "there."
+      ],
+      "conf": 93.7095,
+      "source": "psm-6"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "That woman is there.",
+      "x": 0.5744,
+      "y": 0.5637,
+      "w": 0.3448,
+      "h": 0.0187,
+      "words": [
+        "That",
+        "woman",
+        "is",
+        "there."
+      ],
+      "conf": 95.9786,
+      "source": "psm-11"
+    }
+  ]
+}

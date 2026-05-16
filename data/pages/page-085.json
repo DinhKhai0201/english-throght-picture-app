@@ -1,0 +1,240 @@
+{
+  "page": 85,
+  "image": "/books/page 85.png",
+  "imageApiPath": "/api/books/page%2085.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 9,
+    "wordCount": 58,
+    "imageWidth": 1155,
+    "imageHeight": 1850
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r6",
+        "r9"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r8"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Mary is getting the new dress. She is in a store.",
+      "x": 0.1126,
+      "y": 0.0924,
+      "w": 0.3723,
+      "h": 0.0449,
+      "words": [
+        "Mary",
+        "is",
+        "getting",
+        "the",
+        "new",
+        "dress.",
+        "She",
+        "is",
+        "in",
+        "a",
+        "store."
+      ],
+      "conf": 96.3554,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is the store.",
+      "x": 0.6104,
+      "y": 0.1076,
+      "w": 0.2476,
+      "h": 0.02,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "store."
+      ],
+      "conf": 89.7504,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "The other woman has two dresses in her hands.",
+      "x": 0.1117,
+      "y": 0.1432,
+      "w": 0.3385,
+      "h": 0.0698,
+      "words": [
+        "The",
+        "other",
+        "woman",
+        "has",
+        "two",
+        "dresses",
+        "in",
+        "her",
+        "hands."
+      ],
+      "conf": 96.3704,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Dresses and hats and shoes are in the window of the store.",
+      "x": 0.5584,
+      "y": 0.3703,
+      "w": 0.387,
+      "h": 0.0714,
+      "words": [
+        "Dresses",
+        "and",
+        "hats",
+        "and",
+        "shoes",
+        "are",
+        "in",
+        "the",
+        "window",
+        "of",
+        "the",
+        "store."
+      ],
+      "conf": 96.4216,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "These are shoes.",
+      "x": 0.1056,
+      "y": 0.6357,
+      "w": 0.2571,
+      "h": 0.0195,
+      "words": [
+        "These",
+        "are",
+        "shoes."
+      ],
+      "conf": 96.3489,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "They are women’s shoes.",
+      "x": 0.1056,
+      "y": 0.6611,
+      "w": 0.387,
+      "h": 0.0232,
+      "words": [
+        "They",
+        "are",
+        "women’s",
+        "shoes."
+      ],
+      "conf": 88.9193,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "These are gloves.",
+      "x": 0.5732,
+      "y": 0.7108,
+      "w": 0.2736,
+      "h": 0.0243,
+      "words": [
+        "These",
+        "are",
+        "gloves."
+      ],
+      "conf": 95.565,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Dresses and stockings and shoes and gloves are clothing.",
+      "x": 0.5714,
+      "y": 0.7368,
+      "w": 0.3437,
+      "h": 0.0756,
+      "words": [
+        "Dresses",
+        "and",
+        "stockings",
+        "and",
+        "shoes",
+        "and",
+        "gloves",
+        "are",
+        "clothing."
+      ],
+      "conf": 96.354,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "These are stockings,",
+      "x": 0.1316,
+      "y": 0.8859,
+      "w": 0.3177,
+      "h": 0.0286,
+      "words": [
+        "These",
+        "are",
+        "stockings,"
+      ],
+      "conf": 95.3008,
+      "source": "psm-11"
+    }
+  ]
+}

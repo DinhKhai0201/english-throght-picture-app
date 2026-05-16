@@ -1,0 +1,491 @@
+{
+  "page": 467,
+  "image": "/books/page 467.png",
+  "imageApiPath": "/api/books/page%20467.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 21,
+    "wordCount": 171,
+    "imageWidth": 1250,
+    "imageHeight": 1850
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r13",
+        "r14",
+        "r15",
+        "r16",
+        "r17",
+        "r18",
+        "r19",
+        "r20",
+        "r21"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "In one of the well-known Uncle Remus stories, Brer Rabbit, a",
+      "x": 0.1032,
+      "y": 0.04,
+      "w": 0.4344,
+      "h": 0.047,
+      "words": [
+        "In",
+        "one",
+        "of",
+        "the",
+        "well-known",
+        "Uncle",
+        "Remus",
+        "stories,",
+        "Brer",
+        "Rabbit,",
+        "a"
+      ],
+      "conf": 93.9284,
+      "source": "psm-6"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "In one of the well-known Uncle",
+      "x": 0.104,
+      "y": 0.04,
+      "w": 0.4336,
+      "h": 0.0173,
+      "words": [
+        "In",
+        "one",
+        "of",
+        "the",
+        "well-known",
+        "Uncle"
+      ],
+      "conf": 96.2548,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Remus stories, Brer Rabbit, a little animal who always gets",
+      "x": 0.1032,
+      "y": 0.0665,
+      "w": 0.4336,
+      "h": 0.0481,
+      "words": [
+        "Remus",
+        "stories,",
+        "Brer",
+        "Rabbit,",
+        "a",
+        "little",
+        "animal",
+        "who",
+        "always",
+        "gets"
+      ],
+      "conf": 94.6433,
+      "source": "psm-6"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "the better of the other animals living near him, gets into a well-",
+      "x": 0.1024,
+      "y": 0.1086,
+      "w": 0.4376,
+      "h": 0.0579,
+      "words": [
+        "the",
+        "better",
+        "of",
+        "the",
+        "other",
+        "animals",
+        "living",
+        "near",
+        "him,",
+        "gets",
+        "into",
+        "a",
+        "well-"
+      ],
+      "conf": 96.6751,
+      "source": "psm-6"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "little animal who always gets the better of the other animals",
+      "x": 0.1032,
+      "y": 0.0924,
+      "w": 0.4336,
+      "h": 0.0443,
+      "words": [
+        "little",
+        "animal",
+        "who",
+        "always",
+        "gets",
+        "the",
+        "better",
+        "of",
+        "the",
+        "other",
+        "animals"
+      ],
+      "conf": 94.5865,
+      "source": "psm-6"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "living near him, gets into a well- 36g bucket...",
+      "x": 0.1024,
+      "y": 0.1449,
+      "w": 0.5672,
+      "h": 0.0432,
+      "words": [
+        "living",
+        "near",
+        "him,",
+        "gets",
+        "into",
+        "a",
+        "well-",
+        "36g",
+        "bucket..."
+      ],
+      "conf": 85.8019,
+      "source": "psm-6"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "bucket... N",
+      "x": 0.1032,
+      "y": 0.1708,
+      "w": 0.4912,
+      "h": 0.0184,
+      "words": [
+        "bucket...",
+        "N"
+      ],
+      "conf": 75.4094,
+      "source": "psm-6"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "and down he goes to the i =o bottom of the well. As",
+      "x": 0.1304,
+      "y": 0.327,
+      "w": 0.7608,
+      "h": 0.0589,
+      "words": [
+        "and",
+        "down",
+        "he",
+        "goes",
+        "to",
+        "the",
+        "i",
+        "=o",
+        "bottom",
+        "of",
+        "the",
+        "well.",
+        "As"
+      ],
+      "conf": 96.3726,
+      "source": "psm-6"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "and down he goes to the",
+      "x": 0.5304,
+      "y": 0.3249,
+      "w": 0.3616,
+      "h": 0.0259,
+      "words": [
+        "and",
+        "down",
+        "he",
+        "goes",
+        "to",
+        "the"
+      ],
+      "conf": 96.4704,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "bottom of the well. As «es his bucket goes down, the",
+      "x": 0.1808,
+      "y": 0.3535,
+      "w": 0.7096,
+      "h": 0.0557,
+      "words": [
+        "bottom",
+        "of",
+        "the",
+        "well.",
+        "As",
+        "«es",
+        "his",
+        "bucket",
+        "goes",
+        "down,",
+        "the"
+      ],
+      "conf": 96.2372,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "his bucket goes down, the other bucket comes up",
+      "x": 0.5336,
+      "y": 0.3795,
+      "w": 0.3568,
+      "h": 0.048,
+      "words": [
+        "his",
+        "bucket",
+        "goes",
+        "down,",
+        "the",
+        "other",
+        "bucket",
+        "comes",
+        "up"
+      ],
+      "conf": 96.5764,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "other bucket comes up em:",
+      "x": 0.5336,
+      "y": 0.3978,
+      "w": 0.3568,
+      "h": 0.0579,
+      "words": [
+        "other",
+        "bucket",
+        "comes",
+        "up",
+        "em:"
+      ],
+      "conf": 71.513,
+      "source": "psm-6"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "C_ JO empty.",
+      "x": 0.2696,
+      "y": 0.4227,
+      "w": 0.3584,
+      "h": 0.0314,
+      "words": [
+        "C_",
+        "JO",
+        "empty."
+      ],
+      "conf": 71.0009,
+      "source": "psm-6"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "“How am I ever going to get back up?” he says to himself.",
+      "x": 0.1024,
+      "y": 0.4557,
+      "w": 0.7848,
+      "h": 0.027,
+      "words": [
+        "“How",
+        "am",
+        "I",
+        "ever",
+        "going",
+        "to",
+        "get",
+        "back",
+        "up?”",
+        "he",
+        "says",
+        "to",
+        "himself."
+      ],
+      "conf": 96.3552,
+      "source": "psm-6"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "After a while, Brer Fox comes along, look- ing for Brer Rabbit. “What are you",
+      "x": 0.2968,
+      "y": 0.5097,
+      "w": 0.5936,
+      "h": 0.0476,
+      "words": [
+        "After",
+        "a",
+        "while,",
+        "Brer",
+        "Fox",
+        "comes",
+        "along,",
+        "look-",
+        "ing",
+        "for",
+        "Brer",
+        "Rabbit.",
+        "“What",
+        "are",
+        "you"
+      ],
+      "conf": 94.3275,
+      "source": "psm-6"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "ing for Brer Rabbit. “What are you doing down there, Brer Rabbit?” he",
+      "x": 0.336,
+      "y": 0.5362,
+      "w": 0.5536,
+      "h": 0.047,
+      "words": [
+        "ing",
+        "for",
+        "Brer",
+        "Rabbit.",
+        "“What",
+        "are",
+        "you",
+        "doing",
+        "down",
+        "there,",
+        "Brer",
+        "Rabbit?”",
+        "he"
+      ],
+      "conf": 95.0635,
+      "source": "psm-6"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "doing down there, Brer Rabbit?” he",
+      "x": 0.3744,
+      "y": 0.5616,
+      "w": 0.5152,
+      "h": 0.0216,
+      "words": [
+        "doing",
+        "down",
+        "there,",
+        "Brer",
+        "Rabbit?”",
+        "he"
+      ],
+      "conf": 95.0465,
+      "source": "psm-6"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "says, looking down Q~ into the well-hole.",
+      "x": 0.4528,
+      "y": 0.5881,
+      "w": 0.4376,
+      "h": 0.0725,
+      "words": [
+        "says,",
+        "looking",
+        "down",
+        "Q~",
+        "into",
+        "the",
+        "well-hole."
+      ],
+      "conf": 96.6323,
+      "source": "psm-6"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "says, looking down",
+      "x": 0.6104,
+      "y": 0.5881,
+      "w": 0.28,
+      "h": 0.0216,
+      "words": [
+        "says,",
+        "looking",
+        "down"
+      ],
+      "conf": 96.6239,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "into the well-hole.",
+      "x": 0.6104,
+      "y": 0.6146,
+      "w": 0.2776,
+      "h": 0.0173,
+      "words": [
+        "into",
+        "the",
+        "well-hole."
+      ],
+      "conf": 93.5764,
+      "source": "psm-11"
+    },
+    {
+      "id": "r21",
+      "order": 20,
+      "text": "Br’er: Brother.",
+      "x": 0.0992,
+      "y": 0.8573,
+      "w": 0.1568,
+      "h": 0.013,
+      "words": [
+        "Br’er:",
+        "Brother."
+      ],
+      "conf": 82.7796,
+      "source": "psm-11"
+    }
+  ]
+}

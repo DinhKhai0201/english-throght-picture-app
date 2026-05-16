@@ -1,0 +1,455 @@
+{
+  "page": 311,
+  "image": "/books/page 311.png",
+  "imageApiPath": "/api/books/page%20311.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 17,
+    "wordCount": 161,
+    "imageWidth": 1275,
+    "imageHeight": 1842
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r5",
+        "r6",
+        "r8"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r11",
+        "r13",
+        "r14",
+        "r15",
+        "r16"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r12",
+        "r17"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "ON",
+      "x": 0.6361,
+      "y": 0.0516,
+      "w": 0.0314,
+      "h": 0.0195,
+      "words": [
+        "ON"
+      ],
+      "conf": 84.1153,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "In some factories food is put into cans. It is canned.",
+      "x": 0.1263,
+      "y": 0.1042,
+      "w": 0.3443,
+      "h": 0.0473,
+      "words": [
+        "In",
+        "some",
+        "factories",
+        "food",
+        "is",
+        "put",
+        "into",
+        "cans.",
+        "It",
+        "is",
+        "canned."
+      ],
+      "conf": 95.5281,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "These are machines in a canning factory",
+      "x": 0.1263,
+      "y": 0.1564,
+      "w": 0.3467,
+      "h": 0.0483,
+      "words": [
+        "These",
+        "are",
+        "machines",
+        "in",
+        "a",
+        "canning",
+        "factory"
+      ],
+      "conf": 96.1266,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Most foods today can be bought in cans Food stores sell canned soups, meats,",
+      "x": 0.3553,
+      "y": 0.2861,
+      "w": 0.5373,
+      "h": 0.0483,
+      "words": [
+        "Most",
+        "foods",
+        "today",
+        "can",
+        "be",
+        "bought",
+        "in",
+        "cans",
+        "Food",
+        "stores",
+        "sell",
+        "canned",
+        "soups,",
+        "meats,"
+      ],
+      "conf": 93.1109,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "fruit and vegetables.",
+      "x": 0.3569,
+      "y": 0.3393,
+      "w": 0.269,
+      "h": 0.0212,
+      "words": [
+        "fruit",
+        "and",
+        "vegetables."
+      ],
+      "conf": 96.4567,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "ar)",
+      "x": 0.2494,
+      "y": 0.3773,
+      "w": 0.0337,
+      "h": 0.0125,
+      "words": [
+        "ar)"
+      ],
+      "conf": 44.2106,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Food is canned to keep it from the air. When air can get",
+      "x": 0.1271,
+      "y": 0.4441,
+      "w": 0.7655,
+      "h": 0.0217,
+      "words": [
+        "Food",
+        "is",
+        "canned",
+        "to",
+        "keep",
+        "it",
+        "from",
+        "the",
+        "air.",
+        "When",
+        "air",
+        "can",
+        "get"
+      ],
+      "conf": 96.4312,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "at it, it quickly goes bad—if it is not kept very cold",
+      "x": 0.1263,
+      "y": 0.4701,
+      "w": 0.6667,
+      "h": 0.0212,
+      "words": [
+        "at",
+        "it,",
+        "it",
+        "quickly",
+        "goes",
+        "bad—if",
+        "it",
+        "is",
+        "not",
+        "kept",
+        "very",
+        "cold"
+      ],
+      "conf": 91.5014,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Canned food that has gone bad is a poison. Bad food is very bad for people; it poisons them. If they take much",
+      "x": 0.1247,
+      "y": 0.5223,
+      "w": 0.7671,
+      "h": 0.0483,
+      "words": [
+        "Canned",
+        "food",
+        "that",
+        "has",
+        "gone",
+        "bad",
+        "is",
+        "a",
+        "poison.",
+        "Bad",
+        "food",
+        "is",
+        "very",
+        "bad",
+        "for",
+        "people;",
+        "it",
+        "poisons",
+        "them.",
+        "If",
+        "they",
+        "take",
+        "much"
+      ],
+      "conf": 96.5598,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "of it they may die. After a person dies, he is dead.",
+      "x": 0.1247,
+      "y": 0.5749,
+      "w": 0.7098,
+      "h": 0.0223,
+      "words": [
+        "of",
+        "it",
+        "they",
+        "may",
+        "die.",
+        "After",
+        "a",
+        "person",
+        "dies,",
+        "he",
+        "is",
+        "dead."
+      ],
+      "conf": 96.5142,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "a tin. Tin is a metal which is used as a vegetables: plants used as food.",
+      "x": 0.1247,
+      "y": 0.6944,
+      "w": 0.5012,
+      "h": 0.0499,
+      "words": [
+        "a",
+        "tin.",
+        "Tin",
+        "is",
+        "a",
+        "metal",
+        "which",
+        "is",
+        "used",
+        "as",
+        "a",
+        "vegetables:",
+        "plants",
+        "used",
+        "as",
+        "food."
+      ],
+      "conf": 94.1797,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "can: metal box. A can can keep food good for years. In Britain a can is",
+      "x": 0.1255,
+      "y": 0.6754,
+      "w": 0.7678,
+      "h": 0.0157,
+      "words": [
+        "can:",
+        "metal",
+        "box.",
+        "A",
+        "can",
+        "can",
+        "keep",
+        "food",
+        "good",
+        "for",
+        "years.",
+        "In",
+        "Britain",
+        "a",
+        "can",
+        "is"
+      ],
+      "conf": 94.9305,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "coating for cans, polson: anything which is very bad in its effect if taken by mouth.",
+      "x": 0.1224,
+      "y": 0.7117,
+      "w": 0.4996,
+      "h": 0.0798,
+      "words": [
+        "coating",
+        "for",
+        "cans,",
+        "polson:",
+        "anything",
+        "which",
+        "is",
+        "very",
+        "bad",
+        "in",
+        "its",
+        "effect",
+        "if",
+        "taken",
+        "by",
+        "mouth."
+      ],
+      "conf": 86.0575,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "dead: no longer living.",
+      "x": 0.1216,
+      "y": 0.8246,
+      "w": 0.2408,
+      "h": 0.0157,
+      "words": [
+        "dead:",
+        "no",
+        "longer",
+        "living."
+      ],
+      "conf": 93.9136,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "die: come to the end of living.",
+      "x": 0.1231,
+      "y": 0.8073,
+      "w": 0.3114,
+      "h": 0.0152,
+      "words": [
+        "die:",
+        "come",
+        "to",
+        "the",
+        "end",
+        "of",
+        "living."
+      ],
+      "conf": 95.8194,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "will poison witi die",
+      "x": 0.1216,
+      "y": 0.8556,
+      "w": 0.1247,
+      "h": 0.0299,
+      "words": [
+        "will",
+        "poison",
+        "witi",
+        "die"
+      ],
+      "conf": 80.6283,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "poison(s)",
+      "x": 0.4424,
+      "y": 0.8556,
+      "w": 0.1153,
+      "h": 0.0163,
+      "words": [
+        "poison(s)"
+      ],
+      "conf": 81.9699,
+      "source": "psm-11"
+    }
+  ]
+}

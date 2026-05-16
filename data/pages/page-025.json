@@ -1,0 +1,126 @@
+{
+  "page": 25,
+  "image": "/books/page 25.png",
+  "imageApiPath": "/api/books/page%2025.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 5,
+    "wordCount": 30,
+    "imageWidth": 1171,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "The woman will put the hat on the table.",
+      "x": 0.1238,
+      "y": 0.1494,
+      "w": 0.3604,
+      "h": 0.044,
+      "words": [
+        "The",
+        "woman",
+        "will",
+        "put",
+        "the",
+        "hat",
+        "on",
+        "the",
+        "table."
+      ],
+      "conf": 96.5881,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "She is putting it on the table.",
+      "x": 0.5295,
+      "y": 0.1468,
+      "w": 0.3595,
+      "h": 0.046,
+      "words": [
+        "She",
+        "is",
+        "putting",
+        "it",
+        "on",
+        "the",
+        "table."
+      ],
+      "conf": 96.6145,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "It was in her hand.",
+      "x": 0.5278,
+      "y": 0.5501,
+      "w": 0.3032,
+      "h": 0.0193,
+      "words": [
+        "It",
+        "was",
+        "in",
+        "her",
+        "hand."
+      ],
+      "conf": 91.4646,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "It is on the table.",
+      "x": 0.5269,
+      "y": 0.5747,
+      "w": 0.2767,
+      "h": 0.0193,
+      "words": [
+        "It",
+        "is",
+        "on",
+        "the",
+        "table."
+      ],
+      "conf": 95.3643,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "She put it the",
+      "x": 0.1025,
+      "y": 0.6219,
+      "w": 0.2229,
+      "h": 0.0284,
+      "words": [
+        "She",
+        "put",
+        "it",
+        "the"
+      ],
+      "conf": 94.8052,
+      "source": "psm-11"
+    }
+  ]
+}

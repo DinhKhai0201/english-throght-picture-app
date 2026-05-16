@@ -1,0 +1,255 @@
+{
+  "page": 233,
+  "image": "/books/page 233.png",
+  "imageApiPath": "/api/books/page%20233.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 59,
+    "imageWidth": 1234,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8",
+        "r10"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "What is this woman doing?",
+      "x": 0.5762,
+      "y": 0.1152,
+      "w": 0.2934,
+      "h": 0.0475,
+      "words": [
+        "What",
+        "is",
+        "this",
+        "woman",
+        "doing?"
+      ],
+      "conf": 96.4069,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Shei is working with her",
+      "x": 0.5438,
+      "y": 0.3451,
+      "w": 0.3436,
+      "h": 0.0229,
+      "words": [
+        "Shei",
+        "is",
+        "working",
+        "with",
+        "her"
+      ],
+      "conf": 87.53,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "What is this man doing?",
+      "x": 0.1321,
+      "y": 0.3856,
+      "w": 0.363,
+      "h": 0.0277,
+      "words": [
+        "What",
+        "is",
+        "this",
+        "man",
+        "doing?"
+      ],
+      "conf": 96.5593,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "That is her work.",
+      "x": 0.6613,
+      "y": 0.3701,
+      "w": 0.2423,
+      "h": 0.0187,
+      "words": [
+        "That",
+        "is",
+        "her",
+        "work."
+      ],
+      "conf": 96.5916,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "He is working with a spade. That is his work.",
+      "x": 0.1337,
+      "y": 0.4165,
+      "w": 0.3412,
+      "h": 0.0486,
+      "words": [
+        "He",
+        "is",
+        "working",
+        "with",
+        "a",
+        "spade.",
+        "That",
+        "is",
+        "his",
+        "work."
+      ],
+      "conf": 96.2918,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "shoes,",
+      "x": 0.7771,
+      "y": 0.6187,
+      "w": 0.0883,
+      "h": 0.0277,
+      "words": [
+        "shoes,"
+      ],
+      "conf": 73.998,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "i is this man doing?",
+      "x": 0.2164,
+      "y": 0.8011,
+      "w": 0.2674,
+      "h": 0.0224,
+      "words": [
+        "i",
+        "is",
+        "this",
+        "man",
+        "doing?"
+      ],
+      "conf": 94.8215,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "These are boots.",
+      "x": 0.6329,
+      "y": 0.7883,
+      "w": 0.2407,
+      "h": 0.0197,
+      "words": [
+        "These",
+        "are",
+        "boots."
+      ],
+      "conf": 96.0362,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "He is making shoes. He is a shoemaker. That is his work",
+      "x": 0.1329,
+      "y": 0.8267,
+      "w": 0.3598,
+      "h": 0.0687,
+      "words": [
+        "He",
+        "is",
+        "making",
+        "shoes.",
+        "He",
+        "is",
+        "a",
+        "shoemaker.",
+        "That",
+        "is",
+        "his",
+        "work"
+      ],
+      "conf": 96.3092,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "He makes boots and shoes. That is his work",
+      "x": 0.5673,
+      "y": 0.8405,
+      "w": 0.3241,
+      "h": 0.0437,
+      "words": [
+        "He",
+        "makes",
+        "boots",
+        "and",
+        "shoes.",
+        "That",
+        "is",
+        "his",
+        "work"
+      ],
+      "conf": 96.4869,
+      "source": "psm-11"
+    }
+  ]
+}

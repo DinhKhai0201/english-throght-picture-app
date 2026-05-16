@@ -1,0 +1,200 @@
+{
+  "page": 150,
+  "image": "/books/page 150.png",
+  "imageApiPath": "/api/books/page%20150.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 9,
+    "wordCount": 48,
+    "imageWidth": 1188,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Say these numbers:",
+      "x": 0.1145,
+      "y": 0.1533,
+      "w": 0.2988,
+      "h": 0.0249,
+      "words": [
+        "Say",
+        "these",
+        "numbers:"
+      ],
+      "conf": 96.7273,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "What numbers come after Sixteen Seventeen Eighteen Nineteen Twenty",
+      "x": 0.5682,
+      "y": 0.1788,
+      "w": 0.3148,
+      "h": 0.1787,
+      "words": [
+        "What",
+        "numbers",
+        "come",
+        "after",
+        "Sixteen",
+        "Seventeen",
+        "Eighteen",
+        "Nineteen",
+        "Twenty"
+      ],
+      "conf": 96.6507,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "What number comes after Thirteen.",
+      "x": 0.1145,
+      "y": 0.2302,
+      "w": 0.319,
+      "h": 0.0715,
+      "words": [
+        "What",
+        "number",
+        "comes",
+        "after",
+        "Thirteen."
+      ],
+      "conf": 95.8932,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "What comes after Fourteen.",
+      "x": 0.1153,
+      "y": 0.3077,
+      "w": 0.2736,
+      "h": 0.045,
+      "words": [
+        "What",
+        "comes",
+        "after",
+        "Fourteen."
+      ],
+      "conf": 96.1494,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "What comes atter Fifteen.",
+      "x": 0.117,
+      "y": 0.3592,
+      "w": 0.2786,
+      "h": 0.0444,
+      "words": [
+        "What",
+        "comes",
+        "atter",
+        "Fifteen."
+      ],
+      "conf": 93.0037,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Twenty Twenty-one Eighty Thirty Thirty-one A hundred Forty Forty-one A hundred and one Fifty",
+      "x": 0.0985,
+      "y": 0.6002,
+      "w": 0.7357,
+      "h": 0.0991,
+      "words": [
+        "Twenty",
+        "Twenty-one",
+        "Eighty",
+        "Thirty",
+        "Thirty-one",
+        "A",
+        "hundred",
+        "Forty",
+        "Forty-one",
+        "A",
+        "hundred",
+        "and",
+        "one",
+        "Fifty"
+      ],
+      "conf": 96.5176,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Ninety",
+      "x": 0.7593,
+      "y": 0.6024,
+      "w": 0.1027,
+      "h": 0.0244,
+      "words": [
+        "Ninety"
+      ],
+      "conf": 96.7401,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Fifty-one Sixty Seventy",
+      "x": 0.0985,
+      "y": 0.6771,
+      "w": 0.3106,
+      "h": 0.0494,
+      "words": [
+        "Fifty-one",
+        "Sixty",
+        "Seventy"
+      ],
+      "conf": 96.5686,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "A thousand i A million",
+      "x": 0.5017,
+      "y": 0.6771,
+      "w": 0.2062,
+      "h": 0.0569,
+      "words": [
+        "A",
+        "thousand",
+        "i",
+        "A",
+        "million"
+      ],
+      "conf": 95.8436,
+      "source": "psm-11"
+    }
+  ]
+}

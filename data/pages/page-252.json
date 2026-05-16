@@ -1,0 +1,292 @@
+{
+  "page": 252,
+  "image": "/books/page 252.png",
+  "imageApiPath": "/api/books/page%20252.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 11,
+    "wordCount": 112,
+    "imageWidth": 1196,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Our sense of how warm or how cold things are Here is some cold water with ice in it It is very cold,",
+      "x": 0.5284,
+      "y": 0.1409,
+      "w": 0.3621,
+      "h": 0.149,
+      "words": [
+        "Our",
+        "sense",
+        "of",
+        "how",
+        "warm",
+        "or",
+        "how",
+        "cold",
+        "things",
+        "are",
+        "Here",
+        "is",
+        "some",
+        "cold",
+        "water",
+        "with",
+        "ice",
+        "in",
+        "it",
+        "It",
+        "is",
+        "very",
+        "cold,"
+      ],
+      "conf": 96.4339,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Seeing, hearing, touch, is another.",
+      "x": 0.1171,
+      "y": 0.192,
+      "w": 0.5711,
+      "h": 0.0247,
+      "words": [
+        "Seeing,",
+        "hearing,",
+        "touch,",
+        "is",
+        "another."
+      ],
+      "conf": 95.8316,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "taste, and smell are the five senses.” But we have more than five senses. Which are some of the other senses?",
+      "x": 0.1162,
+      "y": 0.2189,
+      "w": 0.3554,
+      "h": 0.1189,
+      "words": [
+        "taste,",
+        "and",
+        "smell",
+        "are",
+        "the",
+        "five",
+        "senses.”",
+        "But",
+        "we",
+        "have",
+        "more",
+        "than",
+        "five",
+        "senses.",
+        "Which",
+        "are",
+        "some",
+        "of",
+        "the",
+        "other",
+        "senses?"
+      ],
+      "conf": 96.502,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "ke",
+      "x": 0.3796,
+      "y": 0.6304,
+      "w": 0.0535,
+      "h": 0.0355,
+      "words": [
+        "ke"
+      ],
+      "conf": 86.935,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Very",
+      "x": 0.5543,
+      "y": 0.6186,
+      "w": 0.0719,
+      "h": 0.0215,
+      "words": [
+        "Very"
+      ],
+      "conf": 95.9456,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Very cold",
+      "x": 0.556,
+      "y": 0.6186,
+      "w": 0.3387,
+      "h": 0.0425,
+      "words": [
+        "Very",
+        "cold"
+      ],
+      "conf": 96.3245,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "warm Here are three basins.",
+      "x": 0.5242,
+      "y": 0.6493,
+      "w": 0.378,
+      "h": 0.0704,
+      "words": [
+        "warm",
+        "Here",
+        "are",
+        "three",
+        "basins."
+      ],
+      "conf": 95.25,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "has very warm water",
+      "x": 0.5,
+      "y": 0.7413,
+      "w": 0.3428,
+      "h": 0.0317,
+      "words": [
+        "has",
+        "very",
+        "warm",
+        "water"
+      ],
+      "conf": 82.7184,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "The basin to the right",
+      "x": 0.5234,
+      "y": 0.7246,
+      "w": 0.3211,
+      "h": 0.0237,
+      "words": [
+        "The",
+        "basin",
+        "to",
+        "the",
+        "right"
+      ],
+      "conf": 96.2158,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Here is some water ina in it. The basin to the kettle. The water is boiling Steam is coming out of the kettle.",
+      "x": 0.1154,
+      "y": 0.7746,
+      "w": 0.724,
+      "h": 0.1173,
+      "words": [
+        "Here",
+        "is",
+        "some",
+        "water",
+        "ina",
+        "in",
+        "it.",
+        "The",
+        "basin",
+        "to",
+        "the",
+        "kettle.",
+        "The",
+        "water",
+        "is",
+        "boiling",
+        "Steam",
+        "is",
+        "coming",
+        "out",
+        "of",
+        "the",
+        "kettle."
+      ],
+      "conf": 94.5313,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "left has cold water in it. The basin in the ‘middle has water which is not cold and not warm in it.",
+      "x": 0.5234,
+      "y": 0.7994,
+      "w": 0.3695,
+      "h": 0.1193,
+      "words": [
+        "left",
+        "has",
+        "cold",
+        "water",
+        "in",
+        "it.",
+        "The",
+        "basin",
+        "in",
+        "the",
+        "‘middle",
+        "has",
+        "water",
+        "which",
+        "is",
+        "not",
+        "cold",
+        "and",
+        "not",
+        "warm",
+        "in",
+        "it."
+      ],
+      "conf": 96.7342,
+      "source": "psm-11"
+    }
+  ]
+}

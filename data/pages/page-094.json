@@ -1,0 +1,294 @@
+{
+  "page": 94,
+  "image": "/books/page 94.png",
+  "imageApiPath": "/api/books/page%2094.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 14,
+    "wordCount": 42,
+    "imageWidth": 1255,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5",
+        "r7",
+        "r9"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r6",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r12",
+        "r14"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r11",
+        "r13"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "What Is this?",
+      "x": 0.1729,
+      "y": 0.078,
+      "w": 0.1857,
+      "h": 0.0206,
+      "words": [
+        "What",
+        "Is",
+        "this?"
+      ],
+      "conf": 94.4006,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "What is this?",
+      "x": 0.5896,
+      "y": 0.0959,
+      "w": 0.1888,
+      "h": 0.02,
+      "words": [
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 86.8934,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "What Is this?",
+      "x": 0.1625,
+      "y": 0.1945,
+      "w": 0.1896,
+      "h": 0.0206,
+      "words": [
+        "What",
+        "Is",
+        "this?"
+      ],
+      "conf": 93.2453,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "What Is this?",
+      "x": 0.5817,
+      "y": 0.1934,
+      "w": 0.1904,
+      "h": 0.02,
+      "words": [
+        "What",
+        "Is",
+        "this?"
+      ],
+      "conf": 92.4836,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "What Is this?",
+      "x": 0.1618,
+      "y": 0.2736,
+      "w": 0.1888,
+      "h": 0.0211,
+      "words": [
+        "What",
+        "Is",
+        "this?"
+      ],
+      "conf": 89.9945,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "What is this?",
+      "x": 0.5865,
+      "y": 0.3044,
+      "w": 0.1912,
+      "h": 0.02,
+      "words": [
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 95.5963,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "What is this?",
+      "x": 0.1625,
+      "y": 0.3391,
+      "w": 0.1888,
+      "h": 0.0206,
+      "words": [
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 94.3461,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "What is this?",
+      "x": 0.5857,
+      "y": 0.3895,
+      "w": 0.1896,
+      "h": 0.0195,
+      "words": [
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 96.5571,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "What are these?",
+      "x": 0.161,
+      "y": 0.4128,
+      "w": 0.243,
+      "h": 0.0211,
+      "words": [
+        "What",
+        "are",
+        "these?"
+      ],
+      "conf": 96.137,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "What are these?",
+      "x": 0.1434,
+      "y": 0.545,
+      "w": 0.2406,
+      "h": 0.0195,
+      "words": [
+        "What",
+        "are",
+        "these?"
+      ],
+      "conf": 94.602,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "What is this?",
+      "x": 0.5753,
+      "y": 0.5298,
+      "w": 0.192,
+      "h": 0.02,
+      "words": [
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 95.5865,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "What is this?",
+      "x": 0.1554,
+      "y": 0.6511,
+      "w": 0.1912,
+      "h": 0.02,
+      "words": [
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 95.0759,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "What are these things?",
+      "x": 0.5092,
+      "y": 0.6853,
+      "w": 0.3418,
+      "h": 0.0238,
+      "words": [
+        "What",
+        "are",
+        "these",
+        "things?"
+      ],
+      "conf": 96.655,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "is this?",
+      "x": 0.2486,
+      "y": 0.8207,
+      "w": 0.0964,
+      "h": 0.0195,
+      "words": [
+        "is",
+        "this?"
+      ],
+      "conf": 96.6362,
+      "source": "psm-11"
+    }
+  ]
+}

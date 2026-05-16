@@ -1,0 +1,3590 @@
+{
+  "generatedAt": "2026-05-16T03:43:16.033Z",
+  "totalPages": 512,
+  "pages": [
+    {
+      "page": 5,
+      "layout": "single",
+      "regionCount": 1,
+      "dataPath": "/data/pages/page-005.json",
+      "image": "/books/page 5.png"
+    },
+    {
+      "page": 6,
+      "layout": "single",
+      "regionCount": 0,
+      "dataPath": "/data/pages/page-006.json",
+      "image": "/books/page 6.png"
+    },
+    {
+      "page": 7,
+      "layout": "single",
+      "regionCount": 0,
+      "dataPath": "/data/pages/page-007.json",
+      "image": "/books/page 7.png"
+    },
+    {
+      "page": 8,
+      "layout": "single",
+      "regionCount": 6,
+      "dataPath": "/data/pages/page-008.json",
+      "image": "/books/page 8.png"
+    },
+    {
+      "page": 9,
+      "layout": "single",
+      "regionCount": 2,
+      "dataPath": "/data/pages/page-009.json",
+      "image": "/books/page 9.png"
+    },
+    {
+      "page": 10,
+      "layout": "single",
+      "regionCount": 0,
+      "dataPath": "/data/pages/page-010.json",
+      "image": "/books/page 10.png"
+    },
+    {
+      "page": 11,
+      "layout": "single",
+      "regionCount": 0,
+      "dataPath": "/data/pages/page-011.json",
+      "image": "/books/page 11.png"
+    },
+    {
+      "page": 12,
+      "layout": "single",
+      "regionCount": 8,
+      "dataPath": "/data/pages/page-012.json",
+      "image": "/books/page 12.png"
+    },
+    {
+      "page": 13,
+      "layout": "single",
+      "regionCount": 6,
+      "dataPath": "/data/pages/page-013.json",
+      "image": "/books/page 13.png"
+    },
+    {
+      "page": 14,
+      "layout": "single",
+      "regionCount": 12,
+      "dataPath": "/data/pages/page-014.json",
+      "image": "/books/page 14.png"
+    },
+    {
+      "page": 15,
+      "layout": "single",
+      "regionCount": 9,
+      "dataPath": "/data/pages/page-015.json",
+      "image": "/books/page 15.png"
+    },
+    {
+      "page": 16,
+      "layout": "single",
+      "regionCount": 8,
+      "dataPath": "/data/pages/page-016.json",
+      "image": "/books/page 16.png"
+    },
+    {
+      "page": 17,
+      "layout": "single",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-017.json",
+      "image": "/books/page 17.png"
+    },
+    {
+      "page": 18,
+      "layout": "quad",
+      "regionCount": 8,
+      "dataPath": "/data/pages/page-018.json",
+      "image": "/books/page 18.png"
+    },
+    {
+      "page": 19,
+      "layout": "single",
+      "regionCount": 9,
+      "dataPath": "/data/pages/page-019.json",
+      "image": "/books/page 19.png"
+    },
+    {
+      "page": 20,
+      "layout": "quad",
+      "regionCount": 10,
+      "dataPath": "/data/pages/page-020.json",
+      "image": "/books/page 20.png"
+    },
+    {
+      "page": 21,
+      "layout": "quad",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-021.json",
+      "image": "/books/page 21.png"
+    },
+    {
+      "page": 22,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-022.json",
+      "image": "/books/page 22.png"
+    },
+    {
+      "page": 23,
+      "layout": "quad",
+      "regionCount": 9,
+      "dataPath": "/data/pages/page-023.json",
+      "image": "/books/page 23.png"
+    },
+    {
+      "page": 24,
+      "layout": "quad",
+      "regionCount": 10,
+      "dataPath": "/data/pages/page-024.json",
+      "image": "/books/page 24.png"
+    },
+    {
+      "page": 25,
+      "layout": "single",
+      "regionCount": 7,
+      "dataPath": "/data/pages/page-025.json",
+      "image": "/books/page 25.png"
+    },
+    {
+      "page": 26,
+      "layout": "single",
+      "regionCount": 7,
+      "dataPath": "/data/pages/page-026.json",
+      "image": "/books/page 26.png"
+    },
+    {
+      "page": 27,
+      "layout": "quad",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-027.json",
+      "image": "/books/page 27.png"
+    },
+    {
+      "page": 28,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-028.json",
+      "image": "/books/page 28.png"
+    },
+    {
+      "page": 29,
+      "layout": "single",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-029.json",
+      "image": "/books/page 29.png"
+    },
+    {
+      "page": 30,
+      "layout": "quad",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-030.json",
+      "image": "/books/page 30.png"
+    },
+    {
+      "page": 31,
+      "layout": "single",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-031.json",
+      "image": "/books/page 31.png"
+    },
+    {
+      "page": 32,
+      "layout": "single",
+      "regionCount": 12,
+      "dataPath": "/data/pages/page-032.json",
+      "image": "/books/page 32.png"
+    },
+    {
+      "page": 33,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-033.json",
+      "image": "/books/page 33.png"
+    },
+    {
+      "page": 34,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-034.json",
+      "image": "/books/page 34.png"
+    },
+    {
+      "page": 35,
+      "layout": "quad",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-035.json",
+      "image": "/books/page 35.png"
+    },
+    {
+      "page": 36,
+      "layout": "quad",
+      "regionCount": 27,
+      "dataPath": "/data/pages/page-036.json",
+      "image": "/books/page 36.png"
+    },
+    {
+      "page": 37,
+      "layout": "quad",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-037.json",
+      "image": "/books/page 37.png"
+    },
+    {
+      "page": 38,
+      "layout": "quad",
+      "regionCount": 52,
+      "dataPath": "/data/pages/page-038.json",
+      "image": "/books/page 38.png"
+    },
+    {
+      "page": 39,
+      "layout": "quad",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-039.json",
+      "image": "/books/page 39.png"
+    },
+    {
+      "page": 40,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-040.json",
+      "image": "/books/page 40.png"
+    },
+    {
+      "page": 41,
+      "layout": "quad",
+      "regionCount": 34,
+      "dataPath": "/data/pages/page-041.json",
+      "image": "/books/page 41.png"
+    },
+    {
+      "page": 42,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-042.json",
+      "image": "/books/page 42.png"
+    },
+    {
+      "page": 43,
+      "layout": "quad",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-043.json",
+      "image": "/books/page 43.png"
+    },
+    {
+      "page": 44,
+      "layout": "single",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-044.json",
+      "image": "/books/page 44.png"
+    },
+    {
+      "page": 45,
+      "layout": "quad",
+      "regionCount": 33,
+      "dataPath": "/data/pages/page-045.json",
+      "image": "/books/page 45.png"
+    },
+    {
+      "page": 46,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-046.json",
+      "image": "/books/page 46.png"
+    },
+    {
+      "page": 47,
+      "layout": "quad",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-047.json",
+      "image": "/books/page 47.png"
+    },
+    {
+      "page": 48,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-048.json",
+      "image": "/books/page 48.png"
+    },
+    {
+      "page": 49,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-049.json",
+      "image": "/books/page 49.png"
+    },
+    {
+      "page": 50,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-050.json",
+      "image": "/books/page 50.png"
+    },
+    {
+      "page": 51,
+      "layout": "quad",
+      "regionCount": 31,
+      "dataPath": "/data/pages/page-051.json",
+      "image": "/books/page 51.png"
+    },
+    {
+      "page": 52,
+      "layout": "quad",
+      "regionCount": 27,
+      "dataPath": "/data/pages/page-052.json",
+      "image": "/books/page 52.png"
+    },
+    {
+      "page": 53,
+      "layout": "quad",
+      "regionCount": 34,
+      "dataPath": "/data/pages/page-053.json",
+      "image": "/books/page 53.png"
+    },
+    {
+      "page": 54,
+      "layout": "quad",
+      "regionCount": 32,
+      "dataPath": "/data/pages/page-054.json",
+      "image": "/books/page 54.png"
+    },
+    {
+      "page": 55,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-055.json",
+      "image": "/books/page 55.png"
+    },
+    {
+      "page": 56,
+      "layout": "single",
+      "regionCount": 3,
+      "dataPath": "/data/pages/page-056.json",
+      "image": "/books/page 56.png"
+    },
+    {
+      "page": 57,
+      "layout": "single",
+      "regionCount": 6,
+      "dataPath": "/data/pages/page-057.json",
+      "image": "/books/page 57.png"
+    },
+    {
+      "page": 58,
+      "layout": "single",
+      "regionCount": 7,
+      "dataPath": "/data/pages/page-058.json",
+      "image": "/books/page 58.png"
+    },
+    {
+      "page": 59,
+      "layout": "single",
+      "regionCount": 6,
+      "dataPath": "/data/pages/page-059.json",
+      "image": "/books/page 59.png"
+    },
+    {
+      "page": 60,
+      "layout": "quad",
+      "regionCount": 33,
+      "dataPath": "/data/pages/page-060.json",
+      "image": "/books/page 60.png"
+    },
+    {
+      "page": 61,
+      "layout": "quad",
+      "regionCount": 35,
+      "dataPath": "/data/pages/page-061.json",
+      "image": "/books/page 61.png"
+    },
+    {
+      "page": 62,
+      "layout": "quad",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-062.json",
+      "image": "/books/page 62.png"
+    },
+    {
+      "page": 63,
+      "layout": "quad",
+      "regionCount": 11,
+      "dataPath": "/data/pages/page-063.json",
+      "image": "/books/page 63.png"
+    },
+    {
+      "page": 64,
+      "layout": "single",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-064.json",
+      "image": "/books/page 64.png"
+    },
+    {
+      "page": 65,
+      "layout": "quad",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-065.json",
+      "image": "/books/page 65.png"
+    },
+    {
+      "page": 66,
+      "layout": "quad",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-066.json",
+      "image": "/books/page 66.png"
+    },
+    {
+      "page": 67,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-067.json",
+      "image": "/books/page 67.png"
+    },
+    {
+      "page": 68,
+      "layout": "quad",
+      "regionCount": 8,
+      "dataPath": "/data/pages/page-068.json",
+      "image": "/books/page 68.png"
+    },
+    {
+      "page": 69,
+      "layout": "single",
+      "regionCount": 9,
+      "dataPath": "/data/pages/page-069.json",
+      "image": "/books/page 69.png"
+    },
+    {
+      "page": 70,
+      "layout": "single",
+      "regionCount": 13,
+      "dataPath": "/data/pages/page-070.json",
+      "image": "/books/page 70.png"
+    },
+    {
+      "page": 71,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-071.json",
+      "image": "/books/page 71.png"
+    },
+    {
+      "page": 72,
+      "layout": "quad",
+      "regionCount": 11,
+      "dataPath": "/data/pages/page-072.json",
+      "image": "/books/page 72.png"
+    },
+    {
+      "page": 73,
+      "layout": "single",
+      "regionCount": 11,
+      "dataPath": "/data/pages/page-073.json",
+      "image": "/books/page 73.png"
+    },
+    {
+      "page": 74,
+      "layout": "quad",
+      "regionCount": 11,
+      "dataPath": "/data/pages/page-074.json",
+      "image": "/books/page 74.png"
+    },
+    {
+      "page": 75,
+      "layout": "single",
+      "regionCount": 8,
+      "dataPath": "/data/pages/page-075.json",
+      "image": "/books/page 75.png"
+    },
+    {
+      "page": 76,
+      "layout": "quad",
+      "regionCount": 12,
+      "dataPath": "/data/pages/page-076.json",
+      "image": "/books/page 76.png"
+    },
+    {
+      "page": 77,
+      "layout": "quad",
+      "regionCount": 10,
+      "dataPath": "/data/pages/page-077.json",
+      "image": "/books/page 77.png"
+    },
+    {
+      "page": 78,
+      "layout": "quad",
+      "regionCount": 26,
+      "dataPath": "/data/pages/page-078.json",
+      "image": "/books/page 78.png"
+    },
+    {
+      "page": 79,
+      "layout": "single",
+      "regionCount": 8,
+      "dataPath": "/data/pages/page-079.json",
+      "image": "/books/page 79.png"
+    },
+    {
+      "page": 80,
+      "layout": "quad",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-080.json",
+      "image": "/books/page 80.png"
+    },
+    {
+      "page": 81,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-081.json",
+      "image": "/books/page 81.png"
+    },
+    {
+      "page": 82,
+      "layout": "single",
+      "regionCount": 10,
+      "dataPath": "/data/pages/page-082.json",
+      "image": "/books/page 82.png"
+    },
+    {
+      "page": 83,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-083.json",
+      "image": "/books/page 83.png"
+    },
+    {
+      "page": 84,
+      "layout": "quad",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-084.json",
+      "image": "/books/page 84.png"
+    },
+    {
+      "page": 85,
+      "layout": "quad",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-085.json",
+      "image": "/books/page 85.png"
+    },
+    {
+      "page": 86,
+      "layout": "quad",
+      "regionCount": 35,
+      "dataPath": "/data/pages/page-086.json",
+      "image": "/books/page 86.png"
+    },
+    {
+      "page": 87,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-087.json",
+      "image": "/books/page 87.png"
+    },
+    {
+      "page": 88,
+      "layout": "quad",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-088.json",
+      "image": "/books/page 88.png"
+    },
+    {
+      "page": 89,
+      "layout": "quad",
+      "regionCount": 11,
+      "dataPath": "/data/pages/page-089.json",
+      "image": "/books/page 89.png"
+    },
+    {
+      "page": 90,
+      "layout": "single",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-090.json",
+      "image": "/books/page 90.png"
+    },
+    {
+      "page": 91,
+      "layout": "quad",
+      "regionCount": 27,
+      "dataPath": "/data/pages/page-091.json",
+      "image": "/books/page 91.png"
+    },
+    {
+      "page": 92,
+      "layout": "single",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-092.json",
+      "image": "/books/page 92.png"
+    },
+    {
+      "page": 93,
+      "layout": "quad",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-093.json",
+      "image": "/books/page 93.png"
+    },
+    {
+      "page": 94,
+      "layout": "quad",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-094.json",
+      "image": "/books/page 94.png"
+    },
+    {
+      "page": 95,
+      "layout": "quad",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-095.json",
+      "image": "/books/page 95.png"
+    },
+    {
+      "page": 96,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-096.json",
+      "image": "/books/page 96.png"
+    },
+    {
+      "page": 97,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-097.json",
+      "image": "/books/page 97.png"
+    },
+    {
+      "page": 98,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-098.json",
+      "image": "/books/page 98.png"
+    },
+    {
+      "page": 99,
+      "layout": "quad",
+      "regionCount": 29,
+      "dataPath": "/data/pages/page-099.json",
+      "image": "/books/page 99.png"
+    },
+    {
+      "page": 100,
+      "layout": "quad",
+      "regionCount": 28,
+      "dataPath": "/data/pages/page-100.json",
+      "image": "/books/page 100.png"
+    },
+    {
+      "page": 101,
+      "layout": "quad",
+      "regionCount": 27,
+      "dataPath": "/data/pages/page-101.json",
+      "image": "/books/page 101.png"
+    },
+    {
+      "page": 102,
+      "layout": "quad",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-102.json",
+      "image": "/books/page 102.png"
+    },
+    {
+      "page": 103,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-103.json",
+      "image": "/books/page 103.png"
+    },
+    {
+      "page": 104,
+      "layout": "quad",
+      "regionCount": 27,
+      "dataPath": "/data/pages/page-104.json",
+      "image": "/books/page 104.png"
+    },
+    {
+      "page": 105,
+      "layout": "quad",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-105.json",
+      "image": "/books/page 105.png"
+    },
+    {
+      "page": 106,
+      "layout": "quad",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-106.json",
+      "image": "/books/page 106.png"
+    },
+    {
+      "page": 107,
+      "layout": "quad",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-107.json",
+      "image": "/books/page 107.png"
+    },
+    {
+      "page": 108,
+      "layout": "quad",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-108.json",
+      "image": "/books/page 108.png"
+    },
+    {
+      "page": 109,
+      "layout": "quad",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-109.json",
+      "image": "/books/page 109.png"
+    },
+    {
+      "page": 110,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-110.json",
+      "image": "/books/page 110.png"
+    },
+    {
+      "page": 111,
+      "layout": "quad",
+      "regionCount": 28,
+      "dataPath": "/data/pages/page-111.json",
+      "image": "/books/page 111.png"
+    },
+    {
+      "page": 112,
+      "layout": "quad",
+      "regionCount": 26,
+      "dataPath": "/data/pages/page-112.json",
+      "image": "/books/page 112.png"
+    },
+    {
+      "page": 113,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-113.json",
+      "image": "/books/page 113.png"
+    },
+    {
+      "page": 114,
+      "layout": "quad",
+      "regionCount": 29,
+      "dataPath": "/data/pages/page-114.json",
+      "image": "/books/page 114.png"
+    },
+    {
+      "page": 115,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-115.json",
+      "image": "/books/page 115.png"
+    },
+    {
+      "page": 116,
+      "layout": "quad",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-116.json",
+      "image": "/books/page 116.png"
+    },
+    {
+      "page": 117,
+      "layout": "single",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-117.json",
+      "image": "/books/page 117.png"
+    },
+    {
+      "page": 118,
+      "layout": "quad",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-118.json",
+      "image": "/books/page 118.png"
+    },
+    {
+      "page": 119,
+      "layout": "quad",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-119.json",
+      "image": "/books/page 119.png"
+    },
+    {
+      "page": 120,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-120.json",
+      "image": "/books/page 120.png"
+    },
+    {
+      "page": 121,
+      "layout": "quad",
+      "regionCount": 47,
+      "dataPath": "/data/pages/page-121.json",
+      "image": "/books/page 121.png"
+    },
+    {
+      "page": 122,
+      "layout": "quad",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-122.json",
+      "image": "/books/page 122.png"
+    },
+    {
+      "page": 123,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-123.json",
+      "image": "/books/page 123.png"
+    },
+    {
+      "page": 124,
+      "layout": "quad",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-124.json",
+      "image": "/books/page 124.png"
+    },
+    {
+      "page": 125,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-125.json",
+      "image": "/books/page 125.png"
+    },
+    {
+      "page": 126,
+      "layout": "quad",
+      "regionCount": 43,
+      "dataPath": "/data/pages/page-126.json",
+      "image": "/books/page 126.png"
+    },
+    {
+      "page": 127,
+      "layout": "single",
+      "regionCount": 8,
+      "dataPath": "/data/pages/page-127.json",
+      "image": "/books/page 127.png"
+    },
+    {
+      "page": 128,
+      "layout": "quad",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-128.json",
+      "image": "/books/page 128.png"
+    },
+    {
+      "page": 129,
+      "layout": "quad",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-129.json",
+      "image": "/books/page 129.png"
+    },
+    {
+      "page": 130,
+      "layout": "quad",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-130.json",
+      "image": "/books/page 130.png"
+    },
+    {
+      "page": 131,
+      "layout": "single",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-131.json",
+      "image": "/books/page 131.png"
+    },
+    {
+      "page": 132,
+      "layout": "single",
+      "regionCount": 10,
+      "dataPath": "/data/pages/page-132.json",
+      "image": "/books/page 132.png"
+    },
+    {
+      "page": 133,
+      "layout": "single",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-133.json",
+      "image": "/books/page 133.png"
+    },
+    {
+      "page": 134,
+      "layout": "quad",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-134.json",
+      "image": "/books/page 134.png"
+    },
+    {
+      "page": 135,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-135.json",
+      "image": "/books/page 135.png"
+    },
+    {
+      "page": 136,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-136.json",
+      "image": "/books/page 136.png"
+    },
+    {
+      "page": 137,
+      "layout": "single",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-137.json",
+      "image": "/books/page 137.png"
+    },
+    {
+      "page": 138,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-138.json",
+      "image": "/books/page 138.png"
+    },
+    {
+      "page": 139,
+      "layout": "quad",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-139.json",
+      "image": "/books/page 139.png"
+    },
+    {
+      "page": 140,
+      "layout": "quad",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-140.json",
+      "image": "/books/page 140.png"
+    },
+    {
+      "page": 141,
+      "layout": "quad",
+      "regionCount": 44,
+      "dataPath": "/data/pages/page-141.json",
+      "image": "/books/page 141.png"
+    },
+    {
+      "page": 142,
+      "layout": "quad",
+      "regionCount": 41,
+      "dataPath": "/data/pages/page-142.json",
+      "image": "/books/page 142.png"
+    },
+    {
+      "page": 143,
+      "layout": "quad",
+      "regionCount": 31,
+      "dataPath": "/data/pages/page-143.json",
+      "image": "/books/page 143.png"
+    },
+    {
+      "page": 144,
+      "layout": "quad",
+      "regionCount": 34,
+      "dataPath": "/data/pages/page-144.json",
+      "image": "/books/page 144.png"
+    },
+    {
+      "page": 145,
+      "layout": "quad",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-145.json",
+      "image": "/books/page 145.png"
+    },
+    {
+      "page": 146,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-146.json",
+      "image": "/books/page 146.png"
+    },
+    {
+      "page": 147,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-147.json",
+      "image": "/books/page 147.png"
+    },
+    {
+      "page": 148,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-148.json",
+      "image": "/books/page 148.png"
+    },
+    {
+      "page": 149,
+      "layout": "quad",
+      "regionCount": 46,
+      "dataPath": "/data/pages/page-149.json",
+      "image": "/books/page 149.png"
+    },
+    {
+      "page": 150,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-150.json",
+      "image": "/books/page 150.png"
+    },
+    {
+      "page": 151,
+      "layout": "single",
+      "regionCount": 5,
+      "dataPath": "/data/pages/page-151.json",
+      "image": "/books/page 151.png"
+    },
+    {
+      "page": 152,
+      "layout": "quad",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-152.json",
+      "image": "/books/page 152.png"
+    },
+    {
+      "page": 153,
+      "layout": "quad",
+      "regionCount": 35,
+      "dataPath": "/data/pages/page-153.json",
+      "image": "/books/page 153.png"
+    },
+    {
+      "page": 154,
+      "layout": "quad",
+      "regionCount": 33,
+      "dataPath": "/data/pages/page-154.json",
+      "image": "/books/page 154.png"
+    },
+    {
+      "page": 155,
+      "layout": "single",
+      "regionCount": 7,
+      "dataPath": "/data/pages/page-155.json",
+      "image": "/books/page 155.png"
+    },
+    {
+      "page": 156,
+      "layout": "single",
+      "regionCount": 7,
+      "dataPath": "/data/pages/page-156.json",
+      "image": "/books/page 156.png"
+    },
+    {
+      "page": 157,
+      "layout": "quad",
+      "regionCount": 8,
+      "dataPath": "/data/pages/page-157.json",
+      "image": "/books/page 157.png"
+    },
+    {
+      "page": 158,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-158.json",
+      "image": "/books/page 158.png"
+    },
+    {
+      "page": 159,
+      "layout": "single",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-159.json",
+      "image": "/books/page 159.png"
+    },
+    {
+      "page": 160,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-160.json",
+      "image": "/books/page 160.png"
+    },
+    {
+      "page": 161,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-161.json",
+      "image": "/books/page 161.png"
+    },
+    {
+      "page": 162,
+      "layout": "quad",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-162.json",
+      "image": "/books/page 162.png"
+    },
+    {
+      "page": 163,
+      "layout": "single",
+      "regionCount": 11,
+      "dataPath": "/data/pages/page-163.json",
+      "image": "/books/page 163.png"
+    },
+    {
+      "page": 164,
+      "layout": "single",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-164.json",
+      "image": "/books/page 164.png"
+    },
+    {
+      "page": 165,
+      "layout": "quad",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-165.json",
+      "image": "/books/page 165.png"
+    },
+    {
+      "page": 166,
+      "layout": "quad",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-166.json",
+      "image": "/books/page 166.png"
+    },
+    {
+      "page": 167,
+      "layout": "single",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-167.json",
+      "image": "/books/page 167.png"
+    },
+    {
+      "page": 168,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-168.json",
+      "image": "/books/page 168.png"
+    },
+    {
+      "page": 169,
+      "layout": "single",
+      "regionCount": 9,
+      "dataPath": "/data/pages/page-169.json",
+      "image": "/books/page 169.png"
+    },
+    {
+      "page": 170,
+      "layout": "quad",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-170.json",
+      "image": "/books/page 170.png"
+    },
+    {
+      "page": 171,
+      "layout": "single",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-171.json",
+      "image": "/books/page 171.png"
+    },
+    {
+      "page": 172,
+      "layout": "quad",
+      "regionCount": 12,
+      "dataPath": "/data/pages/page-172.json",
+      "image": "/books/page 172.png"
+    },
+    {
+      "page": 173,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-173.json",
+      "image": "/books/page 173.png"
+    },
+    {
+      "page": 174,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-174.json",
+      "image": "/books/page 174.png"
+    },
+    {
+      "page": 175,
+      "layout": "single",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-175.json",
+      "image": "/books/page 175.png"
+    },
+    {
+      "page": 176,
+      "layout": "quad",
+      "regionCount": 28,
+      "dataPath": "/data/pages/page-176.json",
+      "image": "/books/page 176.png"
+    },
+    {
+      "page": 177,
+      "layout": "quad",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-177.json",
+      "image": "/books/page 177.png"
+    },
+    {
+      "page": 178,
+      "layout": "single",
+      "regionCount": 11,
+      "dataPath": "/data/pages/page-178.json",
+      "image": "/books/page 178.png"
+    },
+    {
+      "page": 179,
+      "layout": "quad",
+      "regionCount": 58,
+      "dataPath": "/data/pages/page-179.json",
+      "image": "/books/page 179.png"
+    },
+    {
+      "page": 180,
+      "layout": "quad",
+      "regionCount": 27,
+      "dataPath": "/data/pages/page-180.json",
+      "image": "/books/page 180.png"
+    },
+    {
+      "page": 181,
+      "layout": "quad",
+      "regionCount": 37,
+      "dataPath": "/data/pages/page-181.json",
+      "image": "/books/page 181.png"
+    },
+    {
+      "page": 182,
+      "layout": "quad",
+      "regionCount": 35,
+      "dataPath": "/data/pages/page-182.json",
+      "image": "/books/page 182.png"
+    },
+    {
+      "page": 183,
+      "layout": "quad",
+      "regionCount": 31,
+      "dataPath": "/data/pages/page-183.json",
+      "image": "/books/page 183.png"
+    },
+    {
+      "page": 184,
+      "layout": "quad",
+      "regionCount": 29,
+      "dataPath": "/data/pages/page-184.json",
+      "image": "/books/page 184.png"
+    },
+    {
+      "page": 185,
+      "layout": "quad",
+      "regionCount": 30,
+      "dataPath": "/data/pages/page-185.json",
+      "image": "/books/page 185.png"
+    },
+    {
+      "page": 186,
+      "layout": "quad",
+      "regionCount": 29,
+      "dataPath": "/data/pages/page-186.json",
+      "image": "/books/page 186.png"
+    },
+    {
+      "page": 187,
+      "layout": "quad",
+      "regionCount": 43,
+      "dataPath": "/data/pages/page-187.json",
+      "image": "/books/page 187.png"
+    },
+    {
+      "page": 188,
+      "layout": "quad",
+      "regionCount": 28,
+      "dataPath": "/data/pages/page-188.json",
+      "image": "/books/page 188.png"
+    },
+    {
+      "page": 189,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-189.json",
+      "image": "/books/page 189.png"
+    },
+    {
+      "page": 190,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-190.json",
+      "image": "/books/page 190.png"
+    },
+    {
+      "page": 191,
+      "layout": "quad",
+      "regionCount": 33,
+      "dataPath": "/data/pages/page-191.json",
+      "image": "/books/page 191.png"
+    },
+    {
+      "page": 192,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-192.json",
+      "image": "/books/page 192.png"
+    },
+    {
+      "page": 193,
+      "layout": "quad",
+      "regionCount": 34,
+      "dataPath": "/data/pages/page-193.json",
+      "image": "/books/page 193.png"
+    },
+    {
+      "page": 194,
+      "layout": "quad",
+      "regionCount": 31,
+      "dataPath": "/data/pages/page-194.json",
+      "image": "/books/page 194.png"
+    },
+    {
+      "page": 195,
+      "layout": "quad",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-195.json",
+      "image": "/books/page 195.png"
+    },
+    {
+      "page": 196,
+      "layout": "quad",
+      "regionCount": 29,
+      "dataPath": "/data/pages/page-196.json",
+      "image": "/books/page 196.png"
+    },
+    {
+      "page": 197,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-197.json",
+      "image": "/books/page 197.png"
+    },
+    {
+      "page": 198,
+      "layout": "single",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-198.json",
+      "image": "/books/page 198.png"
+    },
+    {
+      "page": 199,
+      "layout": "quad",
+      "regionCount": 28,
+      "dataPath": "/data/pages/page-199.json",
+      "image": "/books/page 199.png"
+    },
+    {
+      "page": 200,
+      "layout": "quad",
+      "regionCount": 35,
+      "dataPath": "/data/pages/page-200.json",
+      "image": "/books/page 200.png"
+    },
+    {
+      "page": 201,
+      "layout": "quad",
+      "regionCount": 40,
+      "dataPath": "/data/pages/page-201.json",
+      "image": "/books/page 201.png"
+    },
+    {
+      "page": 202,
+      "layout": "quad",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-202.json",
+      "image": "/books/page 202.png"
+    },
+    {
+      "page": 203,
+      "layout": "quad",
+      "regionCount": 37,
+      "dataPath": "/data/pages/page-203.json",
+      "image": "/books/page 203.png"
+    },
+    {
+      "page": 204,
+      "layout": "quad",
+      "regionCount": 39,
+      "dataPath": "/data/pages/page-204.json",
+      "image": "/books/page 204.png"
+    },
+    {
+      "page": 205,
+      "layout": "quad",
+      "regionCount": 35,
+      "dataPath": "/data/pages/page-205.json",
+      "image": "/books/page 205.png"
+    },
+    {
+      "page": 206,
+      "layout": "quad",
+      "regionCount": 34,
+      "dataPath": "/data/pages/page-206.json",
+      "image": "/books/page 206.png"
+    },
+    {
+      "page": 207,
+      "layout": "quad",
+      "regionCount": 26,
+      "dataPath": "/data/pages/page-207.json",
+      "image": "/books/page 207.png"
+    },
+    {
+      "page": 208,
+      "layout": "quad",
+      "regionCount": 29,
+      "dataPath": "/data/pages/page-208.json",
+      "image": "/books/page 208.png"
+    },
+    {
+      "page": 209,
+      "layout": "quad",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-209.json",
+      "image": "/books/page 209.png"
+    },
+    {
+      "page": 210,
+      "layout": "quad",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-210.json",
+      "image": "/books/page 210.png"
+    },
+    {
+      "page": 211,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-211.json",
+      "image": "/books/page 211.png"
+    },
+    {
+      "page": 212,
+      "layout": "quad",
+      "regionCount": 33,
+      "dataPath": "/data/pages/page-212.json",
+      "image": "/books/page 212.png"
+    },
+    {
+      "page": 213,
+      "layout": "quad",
+      "regionCount": 31,
+      "dataPath": "/data/pages/page-213.json",
+      "image": "/books/page 213.png"
+    },
+    {
+      "page": 214,
+      "layout": "quad",
+      "regionCount": 36,
+      "dataPath": "/data/pages/page-214.json",
+      "image": "/books/page 214.png"
+    },
+    {
+      "page": 215,
+      "layout": "single",
+      "regionCount": 27,
+      "dataPath": "/data/pages/page-215.json",
+      "image": "/books/page 215.png"
+    },
+    {
+      "page": 216,
+      "layout": "quad",
+      "regionCount": 30,
+      "dataPath": "/data/pages/page-216.json",
+      "image": "/books/page 216.png"
+    },
+    {
+      "page": 217,
+      "layout": "quad",
+      "regionCount": 30,
+      "dataPath": "/data/pages/page-217.json",
+      "image": "/books/page 217.png"
+    },
+    {
+      "page": 218,
+      "layout": "quad",
+      "regionCount": 38,
+      "dataPath": "/data/pages/page-218.json",
+      "image": "/books/page 218.png"
+    },
+    {
+      "page": 219,
+      "layout": "quad",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-219.json",
+      "image": "/books/page 219.png"
+    },
+    {
+      "page": 220,
+      "layout": "single",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-220.json",
+      "image": "/books/page 220.png"
+    },
+    {
+      "page": 221,
+      "layout": "quad",
+      "regionCount": 34,
+      "dataPath": "/data/pages/page-221.json",
+      "image": "/books/page 221.png"
+    },
+    {
+      "page": 222,
+      "layout": "quad",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-222.json",
+      "image": "/books/page 222.png"
+    },
+    {
+      "page": 223,
+      "layout": "quad",
+      "regionCount": 28,
+      "dataPath": "/data/pages/page-223.json",
+      "image": "/books/page 223.png"
+    },
+    {
+      "page": 224,
+      "layout": "quad",
+      "regionCount": 29,
+      "dataPath": "/data/pages/page-224.json",
+      "image": "/books/page 224.png"
+    },
+    {
+      "page": 225,
+      "layout": "quad",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-225.json",
+      "image": "/books/page 225.png"
+    },
+    {
+      "page": 226,
+      "layout": "quad",
+      "regionCount": 28,
+      "dataPath": "/data/pages/page-226.json",
+      "image": "/books/page 226.png"
+    },
+    {
+      "page": 227,
+      "layout": "quad",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-227.json",
+      "image": "/books/page 227.png"
+    },
+    {
+      "page": 228,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-228.json",
+      "image": "/books/page 228.png"
+    },
+    {
+      "page": 229,
+      "layout": "quad",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-229.json",
+      "image": "/books/page 229.png"
+    },
+    {
+      "page": 230,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-230.json",
+      "image": "/books/page 230.png"
+    },
+    {
+      "page": 231,
+      "layout": "quad",
+      "regionCount": 30,
+      "dataPath": "/data/pages/page-231.json",
+      "image": "/books/page 231.png"
+    },
+    {
+      "page": 232,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-232.json",
+      "image": "/books/page 232.png"
+    },
+    {
+      "page": 233,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-233.json",
+      "image": "/books/page 233.png"
+    },
+    {
+      "page": 234,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-234.json",
+      "image": "/books/page 234.png"
+    },
+    {
+      "page": 235,
+      "layout": "quad",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-235.json",
+      "image": "/books/page 235.png"
+    },
+    {
+      "page": 236,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-236.json",
+      "image": "/books/page 236.png"
+    },
+    {
+      "page": 237,
+      "layout": "quad",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-237.json",
+      "image": "/books/page 237.png"
+    },
+    {
+      "page": 238,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-238.json",
+      "image": "/books/page 238.png"
+    },
+    {
+      "page": 239,
+      "layout": "quad",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-239.json",
+      "image": "/books/page 239.png"
+    },
+    {
+      "page": 240,
+      "layout": "single",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-240.json",
+      "image": "/books/page 240.png"
+    },
+    {
+      "page": 241,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-241.json",
+      "image": "/books/page 241.png"
+    },
+    {
+      "page": 242,
+      "layout": "quad",
+      "regionCount": 32,
+      "dataPath": "/data/pages/page-242.json",
+      "image": "/books/page 242.png"
+    },
+    {
+      "page": 243,
+      "layout": "quad",
+      "regionCount": 27,
+      "dataPath": "/data/pages/page-243.json",
+      "image": "/books/page 243.png"
+    },
+    {
+      "page": 244,
+      "layout": "single",
+      "regionCount": 4,
+      "dataPath": "/data/pages/page-244.json",
+      "image": "/books/page 244.png"
+    },
+    {
+      "page": 245,
+      "layout": "quad",
+      "regionCount": 40,
+      "dataPath": "/data/pages/page-245.json",
+      "image": "/books/page 245.png"
+    },
+    {
+      "page": 246,
+      "layout": "quad",
+      "regionCount": 29,
+      "dataPath": "/data/pages/page-246.json",
+      "image": "/books/page 246.png"
+    },
+    {
+      "page": 247,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-247.json",
+      "image": "/books/page 247.png"
+    },
+    {
+      "page": 248,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-248.json",
+      "image": "/books/page 248.png"
+    },
+    {
+      "page": 249,
+      "layout": "quad",
+      "regionCount": 30,
+      "dataPath": "/data/pages/page-249.json",
+      "image": "/books/page 249.png"
+    },
+    {
+      "page": 250,
+      "layout": "quad",
+      "regionCount": 37,
+      "dataPath": "/data/pages/page-250.json",
+      "image": "/books/page 250.png"
+    },
+    {
+      "page": 251,
+      "layout": "quad",
+      "regionCount": 26,
+      "dataPath": "/data/pages/page-251.json",
+      "image": "/books/page 251.png"
+    },
+    {
+      "page": 252,
+      "layout": "quad",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-252.json",
+      "image": "/books/page 252.png"
+    },
+    {
+      "page": 253,
+      "layout": "quad",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-253.json",
+      "image": "/books/page 253.png"
+    },
+    {
+      "page": 254,
+      "layout": "quad",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-254.json",
+      "image": "/books/page 254.png"
+    },
+    {
+      "page": 255,
+      "layout": "quad",
+      "regionCount": 31,
+      "dataPath": "/data/pages/page-255.json",
+      "image": "/books/page 255.png"
+    },
+    {
+      "page": 256,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-256.json",
+      "image": "/books/page 256.png"
+    },
+    {
+      "page": 257,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-257.json",
+      "image": "/books/page 257.png"
+    },
+    {
+      "page": 258,
+      "layout": "quad",
+      "regionCount": 34,
+      "dataPath": "/data/pages/page-258.json",
+      "image": "/books/page 258.png"
+    },
+    {
+      "page": 259,
+      "layout": "quad",
+      "regionCount": 27,
+      "dataPath": "/data/pages/page-259.json",
+      "image": "/books/page 259.png"
+    },
+    {
+      "page": 260,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-260.json",
+      "image": "/books/page 260.png"
+    },
+    {
+      "page": 261,
+      "layout": "quad",
+      "regionCount": 30,
+      "dataPath": "/data/pages/page-261.json",
+      "image": "/books/page 261.png"
+    },
+    {
+      "page": 262,
+      "layout": "quad",
+      "regionCount": 29,
+      "dataPath": "/data/pages/page-262.json",
+      "image": "/books/page 262.png"
+    },
+    {
+      "page": 263,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-263.json",
+      "image": "/books/page 263.png"
+    },
+    {
+      "page": 264,
+      "layout": "quad",
+      "regionCount": 30,
+      "dataPath": "/data/pages/page-264.json",
+      "image": "/books/page 264.png"
+    },
+    {
+      "page": 265,
+      "layout": "quad",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-265.json",
+      "image": "/books/page 265.png"
+    },
+    {
+      "page": 266,
+      "layout": "quad",
+      "regionCount": 30,
+      "dataPath": "/data/pages/page-266.json",
+      "image": "/books/page 266.png"
+    },
+    {
+      "page": 267,
+      "layout": "quad",
+      "regionCount": 28,
+      "dataPath": "/data/pages/page-267.json",
+      "image": "/books/page 267.png"
+    },
+    {
+      "page": 268,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-268.json",
+      "image": "/books/page 268.png"
+    },
+    {
+      "page": 269,
+      "layout": "quad",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-269.json",
+      "image": "/books/page 269.png"
+    },
+    {
+      "page": 270,
+      "layout": "quad",
+      "regionCount": 33,
+      "dataPath": "/data/pages/page-270.json",
+      "image": "/books/page 270.png"
+    },
+    {
+      "page": 271,
+      "layout": "single",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-271.json",
+      "image": "/books/page 271.png"
+    },
+    {
+      "page": 272,
+      "layout": "quad",
+      "regionCount": 29,
+      "dataPath": "/data/pages/page-272.json",
+      "image": "/books/page 272.png"
+    },
+    {
+      "page": 273,
+      "layout": "quad",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-273.json",
+      "image": "/books/page 273.png"
+    },
+    {
+      "page": 274,
+      "layout": "quad",
+      "regionCount": 36,
+      "dataPath": "/data/pages/page-274.json",
+      "image": "/books/page 274.png"
+    },
+    {
+      "page": 275,
+      "layout": "quad",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-275.json",
+      "image": "/books/page 275.png"
+    },
+    {
+      "page": 276,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-276.json",
+      "image": "/books/page 276.png"
+    },
+    {
+      "page": 277,
+      "layout": "quad",
+      "regionCount": 29,
+      "dataPath": "/data/pages/page-277.json",
+      "image": "/books/page 277.png"
+    },
+    {
+      "page": 278,
+      "layout": "single",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-278.json",
+      "image": "/books/page 278.png"
+    },
+    {
+      "page": 279,
+      "layout": "single",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-279.json",
+      "image": "/books/page 279.png"
+    },
+    {
+      "page": 280,
+      "layout": "quad",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-280.json",
+      "image": "/books/page 280.png"
+    },
+    {
+      "page": 281,
+      "layout": "quad",
+      "regionCount": 48,
+      "dataPath": "/data/pages/page-281.json",
+      "image": "/books/page 281.png"
+    },
+    {
+      "page": 282,
+      "layout": "quad",
+      "regionCount": 34,
+      "dataPath": "/data/pages/page-282.json",
+      "image": "/books/page 282.png"
+    },
+    {
+      "page": 283,
+      "layout": "quad",
+      "regionCount": 38,
+      "dataPath": "/data/pages/page-283.json",
+      "image": "/books/page 283.png"
+    },
+    {
+      "page": 284,
+      "layout": "quad",
+      "regionCount": 36,
+      "dataPath": "/data/pages/page-284.json",
+      "image": "/books/page 284.png"
+    },
+    {
+      "page": 285,
+      "layout": "quad",
+      "regionCount": 53,
+      "dataPath": "/data/pages/page-285.json",
+      "image": "/books/page 285.png"
+    },
+    {
+      "page": 286,
+      "layout": "single",
+      "regionCount": 3,
+      "dataPath": "/data/pages/page-286.json",
+      "image": "/books/page 286.png"
+    },
+    {
+      "page": 287,
+      "layout": "quad",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-287.json",
+      "image": "/books/page 287.png"
+    },
+    {
+      "page": 288,
+      "layout": "single",
+      "regionCount": 12,
+      "dataPath": "/data/pages/page-288.json",
+      "image": "/books/page 288.png"
+    },
+    {
+      "page": 289,
+      "layout": "single",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-289.json",
+      "image": "/books/page 289.png"
+    },
+    {
+      "page": 290,
+      "layout": "quad",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-290.json",
+      "image": "/books/page 290.png"
+    },
+    {
+      "page": 291,
+      "layout": "single",
+      "regionCount": 27,
+      "dataPath": "/data/pages/page-291.json",
+      "image": "/books/page 291.png"
+    },
+    {
+      "page": 292,
+      "layout": "single",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-292.json",
+      "image": "/books/page 292.png"
+    },
+    {
+      "page": 293,
+      "layout": "single",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-293.json",
+      "image": "/books/page 293.png"
+    },
+    {
+      "page": 294,
+      "layout": "single",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-294.json",
+      "image": "/books/page 294.png"
+    },
+    {
+      "page": 295,
+      "layout": "single",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-295.json",
+      "image": "/books/page 295.png"
+    },
+    {
+      "page": 296,
+      "layout": "quad",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-296.json",
+      "image": "/books/page 296.png"
+    },
+    {
+      "page": 297,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-297.json",
+      "image": "/books/page 297.png"
+    },
+    {
+      "page": 298,
+      "layout": "quad",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-298.json",
+      "image": "/books/page 298.png"
+    },
+    {
+      "page": 299,
+      "layout": "quad",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-299.json",
+      "image": "/books/page 299.png"
+    },
+    {
+      "page": 300,
+      "layout": "single",
+      "regionCount": 13,
+      "dataPath": "/data/pages/page-300.json",
+      "image": "/books/page 300.png"
+    },
+    {
+      "page": 301,
+      "layout": "single",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-301.json",
+      "image": "/books/page 301.png"
+    },
+    {
+      "page": 302,
+      "layout": "single",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-302.json",
+      "image": "/books/page 302.png"
+    },
+    {
+      "page": 303,
+      "layout": "quad",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-303.json",
+      "image": "/books/page 303.png"
+    },
+    {
+      "page": 304,
+      "layout": "single",
+      "regionCount": 4,
+      "dataPath": "/data/pages/page-304.json",
+      "image": "/books/page 304.png"
+    },
+    {
+      "page": 305,
+      "layout": "single",
+      "regionCount": 11,
+      "dataPath": "/data/pages/page-305.json",
+      "image": "/books/page 305.png"
+    },
+    {
+      "page": 306,
+      "layout": "single",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-306.json",
+      "image": "/books/page 306.png"
+    },
+    {
+      "page": 307,
+      "layout": "quad",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-307.json",
+      "image": "/books/page 307.png"
+    },
+    {
+      "page": 308,
+      "layout": "quad",
+      "regionCount": 31,
+      "dataPath": "/data/pages/page-308.json",
+      "image": "/books/page 308.png"
+    },
+    {
+      "page": 309,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-309.json",
+      "image": "/books/page 309.png"
+    },
+    {
+      "page": 310,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-310.json",
+      "image": "/books/page 310.png"
+    },
+    {
+      "page": 311,
+      "layout": "quad",
+      "regionCount": 30,
+      "dataPath": "/data/pages/page-311.json",
+      "image": "/books/page 311.png"
+    },
+    {
+      "page": 312,
+      "layout": "single",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-312.json",
+      "image": "/books/page 312.png"
+    },
+    {
+      "page": 313,
+      "layout": "single",
+      "regionCount": 29,
+      "dataPath": "/data/pages/page-313.json",
+      "image": "/books/page 313.png"
+    },
+    {
+      "page": 314,
+      "layout": "quad",
+      "regionCount": 26,
+      "dataPath": "/data/pages/page-314.json",
+      "image": "/books/page 314.png"
+    },
+    {
+      "page": 315,
+      "layout": "single",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-315.json",
+      "image": "/books/page 315.png"
+    },
+    {
+      "page": 316,
+      "layout": "quad",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-316.json",
+      "image": "/books/page 316.png"
+    },
+    {
+      "page": 317,
+      "layout": "single",
+      "regionCount": 28,
+      "dataPath": "/data/pages/page-317.json",
+      "image": "/books/page 317.png"
+    },
+    {
+      "page": 318,
+      "layout": "quad",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-318.json",
+      "image": "/books/page 318.png"
+    },
+    {
+      "page": 319,
+      "layout": "single",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-319.json",
+      "image": "/books/page 319.png"
+    },
+    {
+      "page": 320,
+      "layout": "single",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-320.json",
+      "image": "/books/page 320.png"
+    },
+    {
+      "page": 321,
+      "layout": "single",
+      "regionCount": 28,
+      "dataPath": "/data/pages/page-321.json",
+      "image": "/books/page 321.png"
+    },
+    {
+      "page": 322,
+      "layout": "single",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-322.json",
+      "image": "/books/page 322.png"
+    },
+    {
+      "page": 323,
+      "layout": "single",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-323.json",
+      "image": "/books/page 323.png"
+    },
+    {
+      "page": 324,
+      "layout": "single",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-324.json",
+      "image": "/books/page 324.png"
+    },
+    {
+      "page": 325,
+      "layout": "single",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-325.json",
+      "image": "/books/page 325.png"
+    },
+    {
+      "page": 326,
+      "layout": "single",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-326.json",
+      "image": "/books/page 326.png"
+    },
+    {
+      "page": 327,
+      "layout": "single",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-327.json",
+      "image": "/books/page 327.png"
+    },
+    {
+      "page": 328,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-328.json",
+      "image": "/books/page 328.png"
+    },
+    {
+      "page": 329,
+      "layout": "single",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-329.json",
+      "image": "/books/page 329.png"
+    },
+    {
+      "page": 330,
+      "layout": "quad",
+      "regionCount": 30,
+      "dataPath": "/data/pages/page-330.json",
+      "image": "/books/page 330.png"
+    },
+    {
+      "page": 331,
+      "layout": "single",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-331.json",
+      "image": "/books/page 331.png"
+    },
+    {
+      "page": 332,
+      "layout": "single",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-332.json",
+      "image": "/books/page 332.png"
+    },
+    {
+      "page": 333,
+      "layout": "single",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-333.json",
+      "image": "/books/page 333.png"
+    },
+    {
+      "page": 334,
+      "layout": "quad",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-334.json",
+      "image": "/books/page 334.png"
+    },
+    {
+      "page": 335,
+      "layout": "single",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-335.json",
+      "image": "/books/page 335.png"
+    },
+    {
+      "page": 336,
+      "layout": "quad",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-336.json",
+      "image": "/books/page 336.png"
+    },
+    {
+      "page": 337,
+      "layout": "quad",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-337.json",
+      "image": "/books/page 337.png"
+    },
+    {
+      "page": 338,
+      "layout": "quad",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-338.json",
+      "image": "/books/page 338.png"
+    },
+    {
+      "page": 339,
+      "layout": "quad",
+      "regionCount": 28,
+      "dataPath": "/data/pages/page-339.json",
+      "image": "/books/page 339.png"
+    },
+    {
+      "page": 340,
+      "layout": "single",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-340.json",
+      "image": "/books/page 340.png"
+    },
+    {
+      "page": 341,
+      "layout": "single",
+      "regionCount": 26,
+      "dataPath": "/data/pages/page-341.json",
+      "image": "/books/page 341.png"
+    },
+    {
+      "page": 342,
+      "layout": "single",
+      "regionCount": 9,
+      "dataPath": "/data/pages/page-342.json",
+      "image": "/books/page 342.png"
+    },
+    {
+      "page": 343,
+      "layout": "quad",
+      "regionCount": 30,
+      "dataPath": "/data/pages/page-343.json",
+      "image": "/books/page 343.png"
+    },
+    {
+      "page": 344,
+      "layout": "quad",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-344.json",
+      "image": "/books/page 344.png"
+    },
+    {
+      "page": 345,
+      "layout": "quad",
+      "regionCount": 28,
+      "dataPath": "/data/pages/page-345.json",
+      "image": "/books/page 345.png"
+    },
+    {
+      "page": 346,
+      "layout": "single",
+      "regionCount": 11,
+      "dataPath": "/data/pages/page-346.json",
+      "image": "/books/page 346.png"
+    },
+    {
+      "page": 347,
+      "layout": "quad",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-347.json",
+      "image": "/books/page 347.png"
+    },
+    {
+      "page": 348,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-348.json",
+      "image": "/books/page 348.png"
+    },
+    {
+      "page": 349,
+      "layout": "quad",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-349.json",
+      "image": "/books/page 349.png"
+    },
+    {
+      "page": 350,
+      "layout": "quad",
+      "regionCount": 33,
+      "dataPath": "/data/pages/page-350.json",
+      "image": "/books/page 350.png"
+    },
+    {
+      "page": 351,
+      "layout": "single",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-351.json",
+      "image": "/books/page 351.png"
+    },
+    {
+      "page": 352,
+      "layout": "quad",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-352.json",
+      "image": "/books/page 352.png"
+    },
+    {
+      "page": 353,
+      "layout": "single",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-353.json",
+      "image": "/books/page 353.png"
+    },
+    {
+      "page": 354,
+      "layout": "quad",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-354.json",
+      "image": "/books/page 354.png"
+    },
+    {
+      "page": 355,
+      "layout": "single",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-355.json",
+      "image": "/books/page 355.png"
+    },
+    {
+      "page": 356,
+      "layout": "single",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-356.json",
+      "image": "/books/page 356.png"
+    },
+    {
+      "page": 357,
+      "layout": "single",
+      "regionCount": 26,
+      "dataPath": "/data/pages/page-357.json",
+      "image": "/books/page 357.png"
+    },
+    {
+      "page": 358,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-358.json",
+      "image": "/books/page 358.png"
+    },
+    {
+      "page": 359,
+      "layout": "quad",
+      "regionCount": 38,
+      "dataPath": "/data/pages/page-359.json",
+      "image": "/books/page 359.png"
+    },
+    {
+      "page": 360,
+      "layout": "quad",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-360.json",
+      "image": "/books/page 360.png"
+    },
+    {
+      "page": 361,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-361.json",
+      "image": "/books/page 361.png"
+    },
+    {
+      "page": 362,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-362.json",
+      "image": "/books/page 362.png"
+    },
+    {
+      "page": 363,
+      "layout": "quad",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-363.json",
+      "image": "/books/page 363.png"
+    },
+    {
+      "page": 364,
+      "layout": "quad",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-364.json",
+      "image": "/books/page 364.png"
+    },
+    {
+      "page": 365,
+      "layout": "single",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-365.json",
+      "image": "/books/page 365.png"
+    },
+    {
+      "page": 366,
+      "layout": "single",
+      "regionCount": 3,
+      "dataPath": "/data/pages/page-366.json",
+      "image": "/books/page 366.png"
+    },
+    {
+      "page": 367,
+      "layout": "quad",
+      "regionCount": 26,
+      "dataPath": "/data/pages/page-367.json",
+      "image": "/books/page 367.png"
+    },
+    {
+      "page": 368,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-368.json",
+      "image": "/books/page 368.png"
+    },
+    {
+      "page": 369,
+      "layout": "single",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-369.json",
+      "image": "/books/page 369.png"
+    },
+    {
+      "page": 370,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-370.json",
+      "image": "/books/page 370.png"
+    },
+    {
+      "page": 371,
+      "layout": "quad",
+      "regionCount": 27,
+      "dataPath": "/data/pages/page-371.json",
+      "image": "/books/page 371.png"
+    },
+    {
+      "page": 372,
+      "layout": "quad",
+      "regionCount": 30,
+      "dataPath": "/data/pages/page-372.json",
+      "image": "/books/page 372.png"
+    },
+    {
+      "page": 373,
+      "layout": "quad",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-373.json",
+      "image": "/books/page 373.png"
+    },
+    {
+      "page": 374,
+      "layout": "single",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-374.json",
+      "image": "/books/page 374.png"
+    },
+    {
+      "page": 375,
+      "layout": "single",
+      "regionCount": 28,
+      "dataPath": "/data/pages/page-375.json",
+      "image": "/books/page 375.png"
+    },
+    {
+      "page": 376,
+      "layout": "single",
+      "regionCount": 27,
+      "dataPath": "/data/pages/page-376.json",
+      "image": "/books/page 376.png"
+    },
+    {
+      "page": 377,
+      "layout": "single",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-377.json",
+      "image": "/books/page 377.png"
+    },
+    {
+      "page": 378,
+      "layout": "quad",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-378.json",
+      "image": "/books/page 378.png"
+    },
+    {
+      "page": 379,
+      "layout": "single",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-379.json",
+      "image": "/books/page 379.png"
+    },
+    {
+      "page": 380,
+      "layout": "single",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-380.json",
+      "image": "/books/page 380.png"
+    },
+    {
+      "page": 381,
+      "layout": "quad",
+      "regionCount": 29,
+      "dataPath": "/data/pages/page-381.json",
+      "image": "/books/page 381.png"
+    },
+    {
+      "page": 382,
+      "layout": "single",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-382.json",
+      "image": "/books/page 382.png"
+    },
+    {
+      "page": 383,
+      "layout": "quad",
+      "regionCount": 28,
+      "dataPath": "/data/pages/page-383.json",
+      "image": "/books/page 383.png"
+    },
+    {
+      "page": 384,
+      "layout": "single",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-384.json",
+      "image": "/books/page 384.png"
+    },
+    {
+      "page": 385,
+      "layout": "quad",
+      "regionCount": 30,
+      "dataPath": "/data/pages/page-385.json",
+      "image": "/books/page 385.png"
+    },
+    {
+      "page": 386,
+      "layout": "quad",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-386.json",
+      "image": "/books/page 386.png"
+    },
+    {
+      "page": 387,
+      "layout": "single",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-387.json",
+      "image": "/books/page 387.png"
+    },
+    {
+      "page": 388,
+      "layout": "single",
+      "regionCount": 12,
+      "dataPath": "/data/pages/page-388.json",
+      "image": "/books/page 388.png"
+    },
+    {
+      "page": 389,
+      "layout": "single",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-389.json",
+      "image": "/books/page 389.png"
+    },
+    {
+      "page": 390,
+      "layout": "quad",
+      "regionCount": 12,
+      "dataPath": "/data/pages/page-390.json",
+      "image": "/books/page 390.png"
+    },
+    {
+      "page": 391,
+      "layout": "quad",
+      "regionCount": 35,
+      "dataPath": "/data/pages/page-391.json",
+      "image": "/books/page 391.png"
+    },
+    {
+      "page": 392,
+      "layout": "single",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-392.json",
+      "image": "/books/page 392.png"
+    },
+    {
+      "page": 393,
+      "layout": "single",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-393.json",
+      "image": "/books/page 393.png"
+    },
+    {
+      "page": 394,
+      "layout": "quad",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-394.json",
+      "image": "/books/page 394.png"
+    },
+    {
+      "page": 395,
+      "layout": "single",
+      "regionCount": 29,
+      "dataPath": "/data/pages/page-395.json",
+      "image": "/books/page 395.png"
+    },
+    {
+      "page": 396,
+      "layout": "single",
+      "regionCount": 27,
+      "dataPath": "/data/pages/page-396.json",
+      "image": "/books/page 396.png"
+    },
+    {
+      "page": 397,
+      "layout": "single",
+      "regionCount": 29,
+      "dataPath": "/data/pages/page-397.json",
+      "image": "/books/page 397.png"
+    },
+    {
+      "page": 398,
+      "layout": "quad",
+      "regionCount": 13,
+      "dataPath": "/data/pages/page-398.json",
+      "image": "/books/page 398.png"
+    },
+    {
+      "page": 399,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-399.json",
+      "image": "/books/page 399.png"
+    },
+    {
+      "page": 400,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-400.json",
+      "image": "/books/page 400.png"
+    },
+    {
+      "page": 401,
+      "layout": "single",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-401.json",
+      "image": "/books/page 401.png"
+    },
+    {
+      "page": 402,
+      "layout": "single",
+      "regionCount": 10,
+      "dataPath": "/data/pages/page-402.json",
+      "image": "/books/page 402.png"
+    },
+    {
+      "page": 403,
+      "layout": "quad",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-403.json",
+      "image": "/books/page 403.png"
+    },
+    {
+      "page": 404,
+      "layout": "quad",
+      "regionCount": 33,
+      "dataPath": "/data/pages/page-404.json",
+      "image": "/books/page 404.png"
+    },
+    {
+      "page": 405,
+      "layout": "single",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-405.json",
+      "image": "/books/page 405.png"
+    },
+    {
+      "page": 406,
+      "layout": "single",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-406.json",
+      "image": "/books/page 406.png"
+    },
+    {
+      "page": 407,
+      "layout": "single",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-407.json",
+      "image": "/books/page 407.png"
+    },
+    {
+      "page": 408,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-408.json",
+      "image": "/books/page 408.png"
+    },
+    {
+      "page": 409,
+      "layout": "single",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-409.json",
+      "image": "/books/page 409.png"
+    },
+    {
+      "page": 410,
+      "layout": "quad",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-410.json",
+      "image": "/books/page 410.png"
+    },
+    {
+      "page": 411,
+      "layout": "single",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-411.json",
+      "image": "/books/page 411.png"
+    },
+    {
+      "page": 412,
+      "layout": "quad",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-412.json",
+      "image": "/books/page 412.png"
+    },
+    {
+      "page": 413,
+      "layout": "single",
+      "regionCount": 13,
+      "dataPath": "/data/pages/page-413.json",
+      "image": "/books/page 413.png"
+    },
+    {
+      "page": 414,
+      "layout": "single",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-414.json",
+      "image": "/books/page 414.png"
+    },
+    {
+      "page": 415,
+      "layout": "single",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-415.json",
+      "image": "/books/page 415.png"
+    },
+    {
+      "page": 416,
+      "layout": "quad",
+      "regionCount": 32,
+      "dataPath": "/data/pages/page-416.json",
+      "image": "/books/page 416.png"
+    },
+    {
+      "page": 417,
+      "layout": "single",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-417.json",
+      "image": "/books/page 417.png"
+    },
+    {
+      "page": 418,
+      "layout": "single",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-418.json",
+      "image": "/books/page 418.png"
+    },
+    {
+      "page": 419,
+      "layout": "quad",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-419.json",
+      "image": "/books/page 419.png"
+    },
+    {
+      "page": 420,
+      "layout": "quad",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-420.json",
+      "image": "/books/page 420.png"
+    },
+    {
+      "page": 421,
+      "layout": "single",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-421.json",
+      "image": "/books/page 421.png"
+    },
+    {
+      "page": 422,
+      "layout": "quad",
+      "regionCount": 27,
+      "dataPath": "/data/pages/page-422.json",
+      "image": "/books/page 422.png"
+    },
+    {
+      "page": 423,
+      "layout": "single",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-423.json",
+      "image": "/books/page 423.png"
+    },
+    {
+      "page": 424,
+      "layout": "single",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-424.json",
+      "image": "/books/page 424.png"
+    },
+    {
+      "page": 425,
+      "layout": "single",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-425.json",
+      "image": "/books/page 425.png"
+    },
+    {
+      "page": 426,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-426.json",
+      "image": "/books/page 426.png"
+    },
+    {
+      "page": 427,
+      "layout": "single",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-427.json",
+      "image": "/books/page 427.png"
+    },
+    {
+      "page": 428,
+      "layout": "quad",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-428.json",
+      "image": "/books/page 428.png"
+    },
+    {
+      "page": 429,
+      "layout": "quad",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-429.json",
+      "image": "/books/page 429.png"
+    },
+    {
+      "page": 430,
+      "layout": "quad",
+      "regionCount": 12,
+      "dataPath": "/data/pages/page-430.json",
+      "image": "/books/page 430.png"
+    },
+    {
+      "page": 431,
+      "layout": "quad",
+      "regionCount": 31,
+      "dataPath": "/data/pages/page-431.json",
+      "image": "/books/page 431.png"
+    },
+    {
+      "page": 432,
+      "layout": "single",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-432.json",
+      "image": "/books/page 432.png"
+    },
+    {
+      "page": 433,
+      "layout": "single",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-433.json",
+      "image": "/books/page 433.png"
+    },
+    {
+      "page": 434,
+      "layout": "quad",
+      "regionCount": 28,
+      "dataPath": "/data/pages/page-434.json",
+      "image": "/books/page 434.png"
+    },
+    {
+      "page": 435,
+      "layout": "quad",
+      "regionCount": 30,
+      "dataPath": "/data/pages/page-435.json",
+      "image": "/books/page 435.png"
+    },
+    {
+      "page": 436,
+      "layout": "quad",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-436.json",
+      "image": "/books/page 436.png"
+    },
+    {
+      "page": 437,
+      "layout": "single",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-437.json",
+      "image": "/books/page 437.png"
+    },
+    {
+      "page": 438,
+      "layout": "quad",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-438.json",
+      "image": "/books/page 438.png"
+    },
+    {
+      "page": 439,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-439.json",
+      "image": "/books/page 439.png"
+    },
+    {
+      "page": 440,
+      "layout": "quad",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-440.json",
+      "image": "/books/page 440.png"
+    },
+    {
+      "page": 441,
+      "layout": "single",
+      "regionCount": 13,
+      "dataPath": "/data/pages/page-441.json",
+      "image": "/books/page 441.png"
+    },
+    {
+      "page": 442,
+      "layout": "single",
+      "regionCount": 10,
+      "dataPath": "/data/pages/page-442.json",
+      "image": "/books/page 442.png"
+    },
+    {
+      "page": 443,
+      "layout": "quad",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-443.json",
+      "image": "/books/page 443.png"
+    },
+    {
+      "page": 444,
+      "layout": "single",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-444.json",
+      "image": "/books/page 444.png"
+    },
+    {
+      "page": 445,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-445.json",
+      "image": "/books/page 445.png"
+    },
+    {
+      "page": 446,
+      "layout": "single",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-446.json",
+      "image": "/books/page 446.png"
+    },
+    {
+      "page": 447,
+      "layout": "quad",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-447.json",
+      "image": "/books/page 447.png"
+    },
+    {
+      "page": 448,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-448.json",
+      "image": "/books/page 448.png"
+    },
+    {
+      "page": 449,
+      "layout": "single",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-449.json",
+      "image": "/books/page 449.png"
+    },
+    {
+      "page": 450,
+      "layout": "quad",
+      "regionCount": 12,
+      "dataPath": "/data/pages/page-450.json",
+      "image": "/books/page 450.png"
+    },
+    {
+      "page": 451,
+      "layout": "single",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-451.json",
+      "image": "/books/page 451.png"
+    },
+    {
+      "page": 452,
+      "layout": "quad",
+      "regionCount": 29,
+      "dataPath": "/data/pages/page-452.json",
+      "image": "/books/page 452.png"
+    },
+    {
+      "page": 453,
+      "layout": "single",
+      "regionCount": 10,
+      "dataPath": "/data/pages/page-453.json",
+      "image": "/books/page 453.png"
+    },
+    {
+      "page": 454,
+      "layout": "quad",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-454.json",
+      "image": "/books/page 454.png"
+    },
+    {
+      "page": 455,
+      "layout": "single",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-455.json",
+      "image": "/books/page 455.png"
+    },
+    {
+      "page": 456,
+      "layout": "quad",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-456.json",
+      "image": "/books/page 456.png"
+    },
+    {
+      "page": 457,
+      "layout": "single",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-457.json",
+      "image": "/books/page 457.png"
+    },
+    {
+      "page": 458,
+      "layout": "single",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-458.json",
+      "image": "/books/page 458.png"
+    },
+    {
+      "page": 459,
+      "layout": "single",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-459.json",
+      "image": "/books/page 459.png"
+    },
+    {
+      "page": 460,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-460.json",
+      "image": "/books/page 460.png"
+    },
+    {
+      "page": 461,
+      "layout": "single",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-461.json",
+      "image": "/books/page 461.png"
+    },
+    {
+      "page": 462,
+      "layout": "single",
+      "regionCount": 7,
+      "dataPath": "/data/pages/page-462.json",
+      "image": "/books/page 462.png"
+    },
+    {
+      "page": 463,
+      "layout": "single",
+      "regionCount": 13,
+      "dataPath": "/data/pages/page-463.json",
+      "image": "/books/page 463.png"
+    },
+    {
+      "page": 464,
+      "layout": "single",
+      "regionCount": 11,
+      "dataPath": "/data/pages/page-464.json",
+      "image": "/books/page 464.png"
+    },
+    {
+      "page": 465,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-465.json",
+      "image": "/books/page 465.png"
+    },
+    {
+      "page": 466,
+      "layout": "single",
+      "regionCount": 28,
+      "dataPath": "/data/pages/page-466.json",
+      "image": "/books/page 466.png"
+    },
+    {
+      "page": 467,
+      "layout": "single",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-467.json",
+      "image": "/books/page 467.png"
+    },
+    {
+      "page": 468,
+      "layout": "quad",
+      "regionCount": 29,
+      "dataPath": "/data/pages/page-468.json",
+      "image": "/books/page 468.png"
+    },
+    {
+      "page": 469,
+      "layout": "single",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-469.json",
+      "image": "/books/page 469.png"
+    },
+    {
+      "page": 470,
+      "layout": "quad",
+      "regionCount": 40,
+      "dataPath": "/data/pages/page-470.json",
+      "image": "/books/page 470.png"
+    },
+    {
+      "page": 471,
+      "layout": "single",
+      "regionCount": 27,
+      "dataPath": "/data/pages/page-471.json",
+      "image": "/books/page 471.png"
+    },
+    {
+      "page": 472,
+      "layout": "quad",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-472.json",
+      "image": "/books/page 472.png"
+    },
+    {
+      "page": 473,
+      "layout": "quad",
+      "regionCount": 21,
+      "dataPath": "/data/pages/page-473.json",
+      "image": "/books/page 473.png"
+    },
+    {
+      "page": 474,
+      "layout": "single",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-474.json",
+      "image": "/books/page 474.png"
+    },
+    {
+      "page": 475,
+      "layout": "quad",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-475.json",
+      "image": "/books/page 475.png"
+    },
+    {
+      "page": 476,
+      "layout": "single",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-476.json",
+      "image": "/books/page 476.png"
+    },
+    {
+      "page": 477,
+      "layout": "single",
+      "regionCount": 26,
+      "dataPath": "/data/pages/page-477.json",
+      "image": "/books/page 477.png"
+    },
+    {
+      "page": 478,
+      "layout": "quad",
+      "regionCount": 26,
+      "dataPath": "/data/pages/page-478.json",
+      "image": "/books/page 478.png"
+    },
+    {
+      "page": 479,
+      "layout": "single",
+      "regionCount": 31,
+      "dataPath": "/data/pages/page-479.json",
+      "image": "/books/page 479.png"
+    },
+    {
+      "page": 480,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-480.json",
+      "image": "/books/page 480.png"
+    },
+    {
+      "page": 481,
+      "layout": "quad",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-481.json",
+      "image": "/books/page 481.png"
+    },
+    {
+      "page": 482,
+      "layout": "single",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-482.json",
+      "image": "/books/page 482.png"
+    },
+    {
+      "page": 483,
+      "layout": "single",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-483.json",
+      "image": "/books/page 483.png"
+    },
+    {
+      "page": 484,
+      "layout": "single",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-484.json",
+      "image": "/books/page 484.png"
+    },
+    {
+      "page": 485,
+      "layout": "single",
+      "regionCount": 26,
+      "dataPath": "/data/pages/page-485.json",
+      "image": "/books/page 485.png"
+    },
+    {
+      "page": 486,
+      "layout": "quad",
+      "regionCount": 13,
+      "dataPath": "/data/pages/page-486.json",
+      "image": "/books/page 486.png"
+    },
+    {
+      "page": 487,
+      "layout": "quad",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-487.json",
+      "image": "/books/page 487.png"
+    },
+    {
+      "page": 488,
+      "layout": "quad",
+      "regionCount": 13,
+      "dataPath": "/data/pages/page-488.json",
+      "image": "/books/page 488.png"
+    },
+    {
+      "page": 489,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-489.json",
+      "image": "/books/page 489.png"
+    },
+    {
+      "page": 490,
+      "layout": "quad",
+      "regionCount": 34,
+      "dataPath": "/data/pages/page-490.json",
+      "image": "/books/page 490.png"
+    },
+    {
+      "page": 491,
+      "layout": "quad",
+      "regionCount": 24,
+      "dataPath": "/data/pages/page-491.json",
+      "image": "/books/page 491.png"
+    },
+    {
+      "page": 492,
+      "layout": "quad",
+      "regionCount": 13,
+      "dataPath": "/data/pages/page-492.json",
+      "image": "/books/page 492.png"
+    },
+    {
+      "page": 493,
+      "layout": "quad",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-493.json",
+      "image": "/books/page 493.png"
+    },
+    {
+      "page": 494,
+      "layout": "quad",
+      "regionCount": 12,
+      "dataPath": "/data/pages/page-494.json",
+      "image": "/books/page 494.png"
+    },
+    {
+      "page": 495,
+      "layout": "single",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-495.json",
+      "image": "/books/page 495.png"
+    },
+    {
+      "page": 496,
+      "layout": "single",
+      "regionCount": 26,
+      "dataPath": "/data/pages/page-496.json",
+      "image": "/books/page 496.png"
+    },
+    {
+      "page": 497,
+      "layout": "single",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-497.json",
+      "image": "/books/page 497.png"
+    },
+    {
+      "page": 498,
+      "layout": "quad",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-498.json",
+      "image": "/books/page 498.png"
+    },
+    {
+      "page": 499,
+      "layout": "quad",
+      "regionCount": 22,
+      "dataPath": "/data/pages/page-499.json",
+      "image": "/books/page 499.png"
+    },
+    {
+      "page": 500,
+      "layout": "single",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-500.json",
+      "image": "/books/page 500.png"
+    },
+    {
+      "page": 501,
+      "layout": "single",
+      "regionCount": 15,
+      "dataPath": "/data/pages/page-501.json",
+      "image": "/books/page 501.png"
+    },
+    {
+      "page": 502,
+      "layout": "quad",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-502.json",
+      "image": "/books/page 502.png"
+    },
+    {
+      "page": 503,
+      "layout": "single",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-503.json",
+      "image": "/books/page 503.png"
+    },
+    {
+      "page": 504,
+      "layout": "single",
+      "regionCount": 19,
+      "dataPath": "/data/pages/page-504.json",
+      "image": "/books/page 504.png"
+    },
+    {
+      "page": 505,
+      "layout": "single",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-505.json",
+      "image": "/books/page 505.png"
+    },
+    {
+      "page": 506,
+      "layout": "single",
+      "regionCount": 20,
+      "dataPath": "/data/pages/page-506.json",
+      "image": "/books/page 506.png"
+    },
+    {
+      "page": 507,
+      "layout": "quad",
+      "regionCount": 28,
+      "dataPath": "/data/pages/page-507.json",
+      "image": "/books/page 507.png"
+    },
+    {
+      "page": 508,
+      "layout": "single",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-508.json",
+      "image": "/books/page 508.png"
+    },
+    {
+      "page": 509,
+      "layout": "single",
+      "regionCount": 10,
+      "dataPath": "/data/pages/page-509.json",
+      "image": "/books/page 509.png"
+    },
+    {
+      "page": 510,
+      "layout": "single",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-510.json",
+      "image": "/books/page 510.png"
+    },
+    {
+      "page": 511,
+      "layout": "single",
+      "regionCount": 17,
+      "dataPath": "/data/pages/page-511.json",
+      "image": "/books/page 511.png"
+    },
+    {
+      "page": 512,
+      "layout": "single",
+      "regionCount": 23,
+      "dataPath": "/data/pages/page-512.json",
+      "image": "/books/page 512.png"
+    },
+    {
+      "page": 513,
+      "layout": "quad",
+      "regionCount": 14,
+      "dataPath": "/data/pages/page-513.json",
+      "image": "/books/page 513.png"
+    },
+    {
+      "page": 514,
+      "layout": "quad",
+      "regionCount": 25,
+      "dataPath": "/data/pages/page-514.json",
+      "image": "/books/page 514.png"
+    },
+    {
+      "page": 515,
+      "layout": "single",
+      "regionCount": 16,
+      "dataPath": "/data/pages/page-515.json",
+      "image": "/books/page 515.png"
+    },
+    {
+      "page": 516,
+      "layout": "quad",
+      "regionCount": 18,
+      "dataPath": "/data/pages/page-516.json",
+      "image": "/books/page 516.png"
+    }
+  ]
+}

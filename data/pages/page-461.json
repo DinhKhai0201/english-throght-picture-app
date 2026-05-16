@@ -1,0 +1,365 @@
+{
+  "page": 461,
+  "image": "/books/page 461.png",
+  "imageApiPath": "/api/books/page%20461.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 15,
+    "wordCount": 129,
+    "imageWidth": 1242,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r13",
+        "r14",
+        "r15"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Sometimes a man’s fields were not square. Some of them were like this:",
+      "x": 0.099,
+      "y": 0.0354,
+      "w": 0.7915,
+      "h": 0.0497,
+      "words": [
+        "Sometimes",
+        "a",
+        "man’s",
+        "fields",
+        "were",
+        "not",
+        "square.",
+        "Some",
+        "of",
+        "them",
+        "were",
+        "like",
+        "this:"
+      ],
+      "conf": 96.3173,
+      "source": "psm-6"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "them were like this:",
+      "x": 0.099,
+      "y": 0.0627,
+      "w": 0.2665,
+      "h": 0.0182,
+      "words": [
+        "them",
+        "were",
+        "like",
+        "this:"
+      ],
+      "conf": 96.6702,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "or like this.",
+      "x": 0.095,
+      "y": 0.1639,
+      "w": 0.1578,
+      "h": 0.0252,
+      "words": [
+        "or",
+        "like",
+        "this."
+      ],
+      "conf": 93.7101,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Men walked across their fields; they planted them and took in the grain. They knew how much land they had",
+      "x": 0.0974,
+      "y": 0.293,
+      "w": 0.7947,
+      "h": 0.0504,
+      "words": [
+        "Men",
+        "walked",
+        "across",
+        "their",
+        "fields;",
+        "they",
+        "planted",
+        "them",
+        "and",
+        "took",
+        "in",
+        "the",
+        "grain.",
+        "They",
+        "knew",
+        "how",
+        "much",
+        "land",
+        "they",
+        "had"
+      ],
+      "conf": 96.1944,
+      "source": "psm-6"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "took in the grain. They knew how much land they had from working them before they could measure them.",
+      "x": 0.0974,
+      "y": 0.3214,
+      "w": 0.7947,
+      "h": 0.0487,
+      "words": [
+        "took",
+        "in",
+        "the",
+        "grain.",
+        "They",
+        "knew",
+        "how",
+        "much",
+        "land",
+        "they",
+        "had",
+        "from",
+        "working",
+        "them",
+        "before",
+        "they",
+        "could",
+        "measure",
+        "them."
+      ],
+      "conf": 96.5808,
+      "source": "psm-6"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "They saw that a field like this",
+      "x": 0.0982,
+      "y": 0.4237,
+      "w": 0.401,
+      "h": 0.0262,
+      "words": [
+        "They",
+        "saw",
+        "that",
+        "a",
+        "field",
+        "like",
+        "this"
+      ],
+      "conf": 96.7954,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "was the same size, though not the same shape, as a",
+      "x": 0.0974,
+      "y": 0.5549,
+      "w": 0.3816,
+      "h": 0.0509,
+      "words": [
+        "was",
+        "the",
+        "same",
+        "size,",
+        "though",
+        "not",
+        "the",
+        "same",
+        "shape,",
+        "as",
+        "a"
+      ],
+      "conf": 96.1197,
+      "source": "psm-6"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "was the same size, though",
+      "x": 0.1014,
+      "y": 0.5549,
+      "w": 0.3776,
+      "h": 0.022,
+      "words": [
+        "was",
+        "the",
+        "same",
+        "size,",
+        "though"
+      ],
+      "conf": 96.6431,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "not the same shape, as a field like this",
+      "x": 0.0982,
+      "y": 0.5806,
+      "w": 0.3615,
+      "h": 0.0514,
+      "words": [
+        "not",
+        "the",
+        "same",
+        "shape,",
+        "as",
+        "a",
+        "field",
+        "like",
+        "this"
+      ],
+      "conf": 96.3814,
+      "source": "psm-6"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "field like this",
+      "x": 0.0982,
+      "y": 0.6058,
+      "w": 0.1763,
+      "h": 0.0182,
+      "words": [
+        "field",
+        "like",
+        "this"
+      ],
+      "conf": 96.4353,
+      "source": "psm-6"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "before they knew that they could measure how long and how wide a field was, and then get the area by tak-",
+      "x": 0.0982,
+      "y": 0.684,
+      "w": 0.7923,
+      "h": 0.0546,
+      "words": [
+        "before",
+        "they",
+        "knew",
+        "that",
+        "they",
+        "could",
+        "measure",
+        "how",
+        "long",
+        "and",
+        "how",
+        "wide",
+        "a",
+        "field",
+        "was,",
+        "and",
+        "then",
+        "get",
+        "the",
+        "area",
+        "by",
+        "tak-"
+      ],
+      "conf": 96.7041,
+      "source": "psm-6"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "ing one measure times the other.",
+      "x": 0.0934,
+      "y": 0.7343,
+      "w": 0.4501,
+      "h": 0.0268,
+      "words": [
+        "ing",
+        "one",
+        "measure",
+        "times",
+        "the",
+        "other."
+      ],
+      "conf": 96.1534,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "will plan?",
+      "x": 0.0974,
+      "y": 0.8468,
+      "w": 0.1151,
+      "h": 0.0166,
+      "words": [
+        "will",
+        "plan?"
+      ],
+      "conf": 85.6125,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "will plant plant(s) planted",
+      "x": 0.0974,
+      "y": 0.8425,
+      "w": 0.7915,
+      "h": 0.0273,
+      "words": [
+        "will",
+        "plant",
+        "plant(s)",
+        "planted"
+      ],
+      "conf": 94.9102,
+      "source": "psm-6"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "plant(s)",
+      "x": 0.4404,
+      "y": 0.8484,
+      "w": 0.1031,
+      "h": 0.0171,
+      "words": [
+        "plant(s)"
+      ],
+      "conf": 84.4972,
+      "source": "psm-11"
+    }
+  ]
+}

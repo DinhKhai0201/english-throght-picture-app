@@ -1,0 +1,343 @@
+{
+  "page": 78,
+  "image": "/books/page 78.png",
+  "imageApiPath": "/api/books/page%2078.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 15,
+    "wordCount": 77,
+    "imageWidth": 1196,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r6",
+        "r9"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5",
+        "r7",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r11",
+        "r13",
+        "r15"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r12",
+        "r14"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Where was the hat?",
+      "x": 0.5945,
+      "y": 0.1377,
+      "w": 0.3077,
+      "h": 0.0194,
+      "words": [
+        "Where",
+        "was",
+        "the",
+        "hat?"
+      ],
+      "conf": 96.0566,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "What does she see?",
+      "x": 0.1179,
+      "y": 0.1743,
+      "w": 0.3102,
+      "h": 0.0194,
+      "words": [
+        "What",
+        "does",
+        "she",
+        "see?"
+      ],
+      "conf": 96.0237,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "it was on the table,",
+      "x": 0.5945,
+      "y": 0.163,
+      "w": 0.2977,
+      "h": 0.0199,
+      "words": [
+        "it",
+        "was",
+        "on",
+        "the",
+        "table,"
+      ],
+      "conf": 92.582,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "One thousand dollars.",
+      "x": 0.1171,
+      "y": 0.1996,
+      "w": 0.3487,
+      "h": 0.0199,
+      "words": [
+        "One",
+        "thousand",
+        "dollars."
+      ],
+      "conf": 96.1609,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "What did she see?",
+      "x": 0.6028,
+      "y": 0.3556,
+      "w": 0.2901,
+      "h": 0.0199,
+      "words": [
+        "What",
+        "did",
+        "she",
+        "see?"
+      ],
+      "conf": 96.6498,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The money is in her hand.",
+      "x": 0.1388,
+      "y": 0.3808,
+      "w": 0.3043,
+      "h": 0.0447,
+      "words": [
+        "The",
+        "money",
+        "is",
+        "in",
+        "her",
+        "hand."
+      ],
+      "conf": 96.1357,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "She saw the hat.",
+      "x": 0.6037,
+      "y": 0.3814,
+      "w": 0.2567,
+      "h": 0.0199,
+      "words": [
+        "She",
+        "saw",
+        "the",
+        "hat."
+      ],
+      "conf": 96.284,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "She did not see the money.",
+      "x": 0.6012,
+      "y": 0.4072,
+      "w": 0.2984,
+      "h": 0.0506,
+      "words": [
+        "She",
+        "did",
+        "not",
+        "see",
+        "the",
+        "money."
+      ],
+      "conf": 94.6837,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "It was in the hat.",
+      "x": 0.1405,
+      "y": 0.4325,
+      "w": 0.255,
+      "h": 0.0194,
+      "words": [
+        "It",
+        "was",
+        "in",
+        "the",
+        "hat."
+      ],
+      "conf": 93.7357,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Does she see fhe money now?",
+      "x": 0.5552,
+      "y": 0.5449,
+      "w": 0.3721,
+      "h": 0.0468,
+      "words": [
+        "Does",
+        "she",
+        "see",
+        "fhe",
+        "money",
+        "now?"
+      ],
+      "conf": 94.9854,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "She put the hat in the other room.",
+      "x": 0.1221,
+      "y": 0.5756,
+      "w": 0.3378,
+      "h": 0.0457,
+      "words": [
+        "She",
+        "put",
+        "the",
+        "hat",
+        "in",
+        "the",
+        "other",
+        "room."
+      ],
+      "conf": 96.5796,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "Yes, she sees it.",
+      "x": 0.556,
+      "y": 0.5987,
+      "w": 0.2383,
+      "h": 0.0215,
+      "words": [
+        "Yes,",
+        "she",
+        "sees",
+        "it."
+      ],
+      "conf": 96.5972,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "John went there and got it.",
+      "x": 0.1221,
+      "y": 0.6283,
+      "w": 0.3219,
+      "h": 0.0484,
+      "words": [
+        "John",
+        "went",
+        "there",
+        "and",
+        "got",
+        "it."
+      ],
+      "conf": 96.1889,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "Oh John! Where did you get it?",
+      "x": 0.5694,
+      "y": 0.7219,
+      "w": 0.3378,
+      "h": 0.0543,
+      "words": [
+        "Oh",
+        "John!",
+        "Where",
+        "did",
+        "you",
+        "get",
+        "it?"
+      ],
+      "conf": 95.3902,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "Who got it? John did.",
+      "x": 0.1196,
+      "y": 0.8338,
+      "w": 0.3386,
+      "h": 0.0226,
+      "words": [
+        "Who",
+        "got",
+        "it?",
+        "John",
+        "did."
+      ],
+      "conf": 96.0493,
+      "source": "psm-11"
+    }
+  ]
+}

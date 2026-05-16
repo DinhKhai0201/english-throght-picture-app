@@ -1,0 +1,162 @@
+{
+  "page": 165,
+  "image": "/books/page 165.png",
+  "imageApiPath": "/api/books/page%20165.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 6,
+    "wordCount": 52,
+    "imageWidth": 1238,
+    "imageHeight": 1821
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Now I have these two bits of wood.",
+      "x": 0.147,
+      "y": 0.1186,
+      "w": 0.3142,
+      "h": 0.0456,
+      "words": [
+        "Now",
+        "I",
+        "have",
+        "these",
+        "two",
+        "bits",
+        "of",
+        "wood."
+      ],
+      "conf": 94.4208,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "There is the roof of the house",
+      "x": 0.5452,
+      "y": 0.3059,
+      "w": 0.3336,
+      "h": 0.045,
+      "words": [
+        "There",
+        "is",
+        "the",
+        "roof",
+        "of",
+        "the",
+        "house"
+      ],
+      "conf": 96.6294,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "will put them like this.",
+      "x": 0.1309,
+      "y": 0.3344,
+      "w": 0.2084,
+      "h": 0.045,
+      "words": [
+        "will",
+        "put",
+        "them",
+        "like",
+        "this."
+      ],
+      "conf": 95.6641,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Iwill hole through this part of the roof into parts of the roof together the other part of the roof.",
+      "x": 0.1195,
+      "y": 0.6194,
+      "w": 0.7722,
+      "h": 0.078,
+      "words": [
+        "Iwill",
+        "hole",
+        "through",
+        "this",
+        "part",
+        "of",
+        "the",
+        "roof",
+        "into",
+        "parts",
+        "of",
+        "the",
+        "roof",
+        "together",
+        "the",
+        "other",
+        "part",
+        "of",
+        "the",
+        "roof."
+      ],
+      "conf": 73.2098,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Now I will put the two with nails.",
+      "x": 0.1187,
+      "y": 0.6425,
+      "w": 0.3248,
+      "h": 0.073,
+      "words": [
+        "Now",
+        "I",
+        "will",
+        "put",
+        "the",
+        "two",
+        "with",
+        "nails."
+      ],
+      "conf": 93.3754,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "These are nile yo,",
+      "x": 0.1042,
+      "y": 0.7809,
+      "w": 0.3974,
+      "h": 0.1236,
+      "words": [
+        "These",
+        "are",
+        "nile",
+        "yo,"
+      ],
+      "conf": 84.4344,
+      "source": "psm-11"
+    }
+  ]
+}

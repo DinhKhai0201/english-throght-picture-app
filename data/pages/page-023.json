@@ -1,0 +1,130 @@
+{
+  "page": 23,
+  "image": "/books/page 23.png",
+  "imageApiPath": "/api/books/page%2023.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 5,
+    "wordCount": 34,
+    "imageWidth": 1188,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "He will give his hat to the man,",
+      "x": 0.1221,
+      "y": 0.1605,
+      "w": 0.3324,
+      "h": 0.0437,
+      "words": [
+        "He",
+        "will",
+        "give",
+        "his",
+        "hat",
+        "to",
+        "the",
+        "man,"
+      ],
+      "conf": 96.7328,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "He ts giving his hat to the man.",
+      "x": 0.553,
+      "y": 0.1616,
+      "w": 0.3309,
+      "h": 0.0437,
+      "words": [
+        "He",
+        "ts",
+        "giving",
+        "his",
+        "hat",
+        "to",
+        "the",
+        "man."
+      ],
+      "conf": 95.9205,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "He gave it to the man.",
+      "x": 0.1128,
+      "y": 0.5707,
+      "w": 0.3401,
+      "h": 0.0229,
+      "words": [
+        "He",
+        "gave",
+        "it",
+        "to",
+        "the",
+        "man."
+      ],
+      "conf": 96.0478,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "It is in the man’s hands now,",
+      "x": 0.5455,
+      "y": 0.5653,
+      "w": 0.3434,
+      "h": 0.0497,
+      "words": [
+        "It",
+        "is",
+        "in",
+        "the",
+        "man’s",
+        "hands",
+        "now,"
+      ],
+      "conf": 95.0883,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "He gove it to him.",
+      "x": 0.1128,
+      "y": 0.5963,
+      "w": 0.2719,
+      "h": 0.0224,
+      "words": [
+        "He",
+        "gove",
+        "it",
+        "to",
+        "him."
+      ],
+      "conf": 94.2213,
+      "source": "psm-11"
+    }
+  ]
+}

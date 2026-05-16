@@ -1,0 +1,110 @@
+{
+  "page": 151,
+  "image": "/books/page 151.png",
+  "imageApiPath": "/api/books/page%20151.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 5,
+    "wordCount": 14,
+    "imageWidth": 1221,
+    "imageHeight": 1821
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "WHAT ARE THESE THINGS?",
+      "x": 0.258,
+      "y": 0.0692,
+      "w": 0.4775,
+      "h": 0.0192,
+      "words": [
+        "WHAT",
+        "ARE",
+        "THESE",
+        "THINGS?"
+      ],
+      "conf": 96.5703,
+      "source": "psm-6"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "a b",
+      "x": 0.1867,
+      "y": 0.1049,
+      "w": 0.2457,
+      "h": 0.0198,
+      "words": [
+        "a",
+        "b"
+      ],
+      "conf": 94.5111,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "oy SS",
+      "x": 0.145,
+      "y": 0.7216,
+      "w": 0.774,
+      "h": 0.0653,
+      "words": [
+        "oy",
+        "SS"
+      ],
+      "conf": 45.9474,
+      "source": "psm-6"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "v w",
+      "x": 0.5233,
+      "y": 0.7238,
+      "w": 0.1818,
+      "h": 0.0159,
+      "words": [
+        "v",
+        "w"
+      ],
+      "conf": 72.7495,
+      "source": "psm-6"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Answers are on page",
+      "x": 0.3161,
+      "y": 0.9088,
+      "w": 0.3284,
+      "h": 0.0242,
+      "words": [
+        "Answers",
+        "are",
+        "on",
+        "page"
+      ],
+      "conf": 96.0097,
+      "source": "psm-11"
+    }
+  ]
+}

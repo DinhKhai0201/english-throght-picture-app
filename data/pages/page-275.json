@@ -1,0 +1,292 @@
+{
+  "page": 275,
+  "image": "/books/page 275.png",
+  "imageApiPath": "/api/books/page%20275.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 11,
+    "wordCount": 82,
+    "imageWidth": 1213,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8",
+        "r10",
+        "r11"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This is a doorway.",
+      "x": 0.5746,
+      "y": 0.0995,
+      "w": 0.2679,
+      "h": 0.0258,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "doorway."
+      ],
+      "conf": 94.7946,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Our senses—seeing, hearing, touching, tasting, and smelling— are ways through which we get knowledge.",
+      "x": 0.0981,
+      "y": 0.1517,
+      "w": 0.3586,
+      "h": 0.1254,
+      "words": [
+        "Our",
+        "senses—seeing,",
+        "hearing,",
+        "touching,",
+        "tasting,",
+        "and",
+        "smelling—",
+        "are",
+        "ways",
+        "through",
+        "which",
+        "we",
+        "get",
+        "knowledge."
+      ],
+      "conf": 92.1201,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Our ideas come to us through our senses.",
+      "x": 0.0981,
+      "y": 0.2786,
+      "w": 0.3199,
+      "h": 0.0485,
+      "words": [
+        "Our",
+        "ideas",
+        "come",
+        "to",
+        "us",
+        "through",
+        "our",
+        "senses."
+      ],
+      "conf": 96.1899,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "The way into the room is through the door.",
+      "x": 0.5045,
+      "y": 0.3233,
+      "w": 0.3693,
+      "h": 0.0479,
+      "words": [
+        "The",
+        "way",
+        "into",
+        "the",
+        "room",
+        "is",
+        "through",
+        "the",
+        "door."
+      ],
+      "conf": 95.3267,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "The way out of the room t_ is through the door.",
+      "x": 0.479,
+      "y": 0.3739,
+      "w": 0.3957,
+      "h": 0.0478,
+      "words": [
+        "The",
+        "way",
+        "out",
+        "of",
+        "the",
+        "room",
+        "t_",
+        "is",
+        "through",
+        "the",
+        "door."
+      ],
+      "conf": 96.5259,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "“Which is the way to the station?”",
+      "x": 0.1006,
+      "y": 0.497,
+      "w": 0.3841,
+      "h": 0.0474,
+      "words": [
+        "“Which",
+        "is",
+        "the",
+        "way",
+        "to",
+        "the",
+        "station?”"
+      ],
+      "conf": 95.7877,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "The station",
+      "x": 0.7007,
+      "y": 0.5046,
+      "w": 0.1641,
+      "h": 0.0204,
+      "words": [
+        "The",
+        "station"
+      ],
+      "conf": 96.5683,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "“Take the first street to the right.”",
+      "x": 0.0998,
+      "y": 0.5508,
+      "w": 0.3404,
+      "h": 0.0473,
+      "words": [
+        "“Take",
+        "the",
+        "first",
+        "street",
+        "to",
+        "the",
+        "right.”"
+      ],
+      "conf": 96.7425,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "The to station",
+      "x": 0.5144,
+      "y": 0.7111,
+      "w": 0.1031,
+      "h": 0.12,
+      "words": [
+        "The",
+        "to",
+        "station"
+      ],
+      "conf": 95.8303,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "This man had no knowledge of the way to: th the station.",
+      "x": 0.0932,
+      "y": 0.7644,
+      "w": 0.4509,
+      "h": 0.0694,
+      "words": [
+        "This",
+        "man",
+        "had",
+        "no",
+        "knowledge",
+        "of",
+        "the",
+        "way",
+        "to:",
+        "th",
+        "the",
+        "station."
+      ],
+      "conf": 95.9199,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "Now he has the knowledge.",
+      "x": 0.0932,
+      "y": 0.8381,
+      "w": 0.2357,
+      "h": 0.0494,
+      "words": [
+        "Now",
+        "he",
+        "has",
+        "the",
+        "knowledge."
+      ],
+      "conf": 95.7973,
+      "source": "psm-11"
+    }
+  ]
+}

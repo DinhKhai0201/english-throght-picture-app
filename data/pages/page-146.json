@@ -1,0 +1,310 @@
+{
+  "page": 146,
+  "image": "/books/page 146.png",
+  "imageApiPath": "/api/books/page%20146.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 12,
+    "wordCount": 86,
+    "imageWidth": 1205,
+    "imageHeight": 1850
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8",
+        "r9",
+        "r11",
+        "r12"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "QUESTIONS",
+      "x": 0.4257,
+      "y": 0.0746,
+      "w": 0.1934,
+      "h": 0.0195,
+      "words": [
+        "QUESTIONS"
+      ],
+      "conf": 96.7233,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "a On page where did Mr. Smith get his ticket?",
+      "x": 0.132,
+      "y": 0.1081,
+      "w": 0.3585,
+      "h": 0.0703,
+      "words": [
+        "a",
+        "On",
+        "page",
+        "where",
+        "did",
+        "Mr.",
+        "Smith",
+        "get",
+        "his",
+        "ticket?"
+      ],
+      "conf": 94.5501,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "b How much was the ticket?",
+      "x": 0.5577,
+      "y": 0.153,
+      "w": 0.3237,
+      "h": 0.0448,
+      "words": [
+        "b",
+        "How",
+        "much",
+        "was",
+        "the",
+        "ticket?"
+      ],
+      "conf": 95.8348,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "How long was the journey to Los Angeles?",
+      "x": 0.1934,
+      "y": 0.34,
+      "w": 0.2705,
+      "h": 0.0751,
+      "words": [
+        "How",
+        "long",
+        "was",
+        "the",
+        "journey",
+        "to",
+        "Los",
+        "Angeles?"
+      ],
+      "conf": 96.1943,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "d Did he go in an airplane?",
+      "x": 0.5834,
+      "y": 0.3405,
+      "w": 0.2747,
+      "h": 0.0508,
+      "words": [
+        "d",
+        "Did",
+        "he",
+        "go",
+        "in",
+        "an",
+        "airplane?"
+      ],
+      "conf": 90.0744,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "e What did his friends f What did he say on",
+      "x": 0.127,
+      "y": 0.5422,
+      "w": 0.7585,
+      "h": 0.0259,
+      "words": [
+        "e",
+        "What",
+        "did",
+        "his",
+        "friends",
+        "f",
+        "What",
+        "did",
+        "he",
+        "say",
+        "on"
+      ],
+      "conf": 92.6215,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "say to him when they saw him?",
+      "x": 0.1651,
+      "y": 0.5686,
+      "w": 0.322,
+      "h": 0.0444,
+      "words": [
+        "say",
+        "to",
+        "him",
+        "when",
+        "they",
+        "saw",
+        "him?"
+      ],
+      "conf": 96.3453,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "the card which he sent to Mrs. Smith?",
+      "x": 0.5851,
+      "y": 0.5686,
+      "w": 0.2838,
+      "h": 0.046,
+      "words": [
+        "the",
+        "card",
+        "which",
+        "he",
+        "sent",
+        "to",
+        "Mrs.",
+        "Smith?"
+      ],
+      "conf": 96.183,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "es Pr g What are Tom and h What did Mrs. Smith",
+      "x": 0.1386,
+      "y": 0.6914,
+      "w": 0.756,
+      "h": 0.0723,
+      "words": [
+        "es",
+        "Pr",
+        "g",
+        "What",
+        "are",
+        "Tom",
+        "and",
+        "h",
+        "What",
+        "did",
+        "Mrs.",
+        "Smith"
+      ],
+      "conf": 39.0319,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Jane learning at school?",
+      "x": 0.1751,
+      "y": 0.7665,
+      "w": 0.2572,
+      "h": 0.0444,
+      "words": [
+        "Jane",
+        "learning",
+        "at",
+        "school?"
+      ],
+      "conf": 92.467,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "send to Mr. Smith from Tom and Jane?",
+      "x": 0.5801,
+      "y": 0.7665,
+      "w": 0.3145,
+      "h": 0.0454,
+      "words": [
+        "send",
+        "to",
+        "Mr.",
+        "Smith",
+        "from",
+        "Tom",
+        "and",
+        "Jane?"
+      ],
+      "conf": 95.7902,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "Answers are on page",
+      "x": 0.5203,
+      "y": 0.8535,
+      "w": 0.3278,
+      "h": 0.0249,
+      "words": [
+        "Answers",
+        "are",
+        "on",
+        "page"
+      ],
+      "conf": 96.6224,
+      "source": "psm-11"
+    }
+  ]
+}

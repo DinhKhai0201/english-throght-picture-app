@@ -1,0 +1,256 @@
+{
+  "page": 453,
+  "image": "/books/page 453.png",
+  "imageApiPath": "/api/books/page%20453.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 90,
+    "imageWidth": 1259,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Early man did things with his hands which we do with",
+      "x": 0.085,
+      "y": 0.0377,
+      "w": 0.7832,
+      "h": 0.021,
+      "words": [
+        "Early",
+        "man",
+        "did",
+        "things",
+        "with",
+        "his",
+        "hands",
+        "which",
+        "we",
+        "do",
+        "with"
+      ],
+      "conf": 96.4586,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Early man did things with his hands which we do with instruments or by machine",
+      "x": 0.085,
+      "y": 0.0377,
+      "w": 0.7832,
+      "h": 0.0478,
+      "words": [
+        "Early",
+        "man",
+        "did",
+        "things",
+        "with",
+        "his",
+        "hands",
+        "which",
+        "we",
+        "do",
+        "with",
+        "instruments",
+        "or",
+        "by",
+        "machine"
+      ],
+      "conf": 96.4586,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "instruments or by machine.",
+      "x": 0.085,
+      "y": 0.0635,
+      "w": 0.3701,
+      "h": 0.0221,
+      "words": [
+        "instruments",
+        "or",
+        "by",
+        "machine."
+      ],
+      "conf": 96.326,
+      "source": "psm-6"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "GN",
+      "x": 0.1604,
+      "y": 0.2259,
+      "w": 0.0588,
+      "h": 0.0457,
+      "words": [
+        "GN"
+      ],
+      "conf": 53.3974,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Br aks",
+      "x": 0.1604,
+      "y": 0.2281,
+      "w": 0.2017,
+      "h": 0.0323,
+      "words": [
+        "Br",
+        "aks"
+      ],
+      "conf": 40.8424,
+      "source": "psm-6"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Fingers were made before forks.",
+      "x": 0.0858,
+      "y": 0.3647,
+      "w": 0.4369,
+      "h": 0.0221,
+      "words": [
+        "Fingers",
+        "were",
+        "made",
+        "before",
+        "forks."
+      ],
+      "conf": 95.4008,
+      "source": "psm-6"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Among their early uses, fingers made good counters. We",
+      "x": 0.0842,
+      "y": 0.5955,
+      "w": 0.7808,
+      "h": 0.0215,
+      "words": [
+        "Among",
+        "their",
+        "early",
+        "uses,",
+        "fingers",
+        "made",
+        "good",
+        "counters.",
+        "We"
+      ],
+      "conf": 96.0989,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Among their early uses, fingers made good counters. We still use the number ten as the key to our number system",
+      "x": 0.0842,
+      "y": 0.5955,
+      "w": 0.7808,
+      "h": 0.0478,
+      "words": [
+        "Among",
+        "their",
+        "early",
+        "uses,",
+        "fingers",
+        "made",
+        "good",
+        "counters.",
+        "We",
+        "still",
+        "use",
+        "the",
+        "number",
+        "ten",
+        "as",
+        "the",
+        "key",
+        "to",
+        "our",
+        "number",
+        "system"
+      ],
+      "conf": 96.0989,
+      "source": "psm-6"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "still use the number ten as the key to our number system because we have ten fingers",
+      "x": 0.0842,
+      "y": 0.6218,
+      "w": 0.7792,
+      "h": 0.0474,
+      "words": [
+        "still",
+        "use",
+        "the",
+        "number",
+        "ten",
+        "as",
+        "the",
+        "key",
+        "to",
+        "our",
+        "number",
+        "system",
+        "because",
+        "we",
+        "have",
+        "ten",
+        "fingers"
+      ],
+      "conf": 96.5473,
+      "source": "psm-6"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "because we have ten fingers.",
+      "x": 0.0842,
+      "y": 0.6477,
+      "w": 0.3765,
+      "h": 0.0215,
+      "words": [
+        "because",
+        "we",
+        "have",
+        "ten",
+        "fingers."
+      ],
+      "conf": 96.7723,
+      "source": "psm-6"
+    }
+  ]
+}

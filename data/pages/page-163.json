@@ -1,0 +1,141 @@
+{
+  "page": 163,
+  "image": "/books/page 163.png",
+  "imageApiPath": "/api/books/page%20163.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 5,
+    "wordCount": 45,
+    "imageWidth": 1284,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Oh! You are going off the line!",
+      "x": 0.4969,
+      "y": 0.1159,
+      "w": 0.3232,
+      "h": 0.0493,
+      "words": [
+        "Oh!",
+        "You",
+        "are",
+        "going",
+        "off",
+        "the",
+        "line!"
+      ],
+      "conf": 93.6929,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "“Keep on the line when you are cutting. Don't go off it.”",
+      "x": 0.1192,
+      "y": 0.143,
+      "w": 0.3481,
+      "h": 0.0705,
+      "words": [
+        "“Keep",
+        "on",
+        "the",
+        "line",
+        "when",
+        "you",
+        "are",
+        "cutting.",
+        "Don't",
+        "go",
+        "off",
+        "it.”"
+      ],
+      "conf": 96.5093,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "The cut is not on the line.",
+      "x": 0.5086,
+      "y": 0.1674,
+      "w": 0.3466,
+      "h": 0.0195,
+      "words": [
+        "The",
+        "cut",
+        "is",
+        "not",
+        "on",
+        "the",
+        "line."
+      ],
+      "conf": 96.494,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "That is bad! The cut is off the line.",
+      "x": 0.1355,
+      "y": 0.5693,
+      "w": 0.3069,
+      "h": 0.045,
+      "words": [
+        "That",
+        "is",
+        "bad!",
+        "The",
+        "cut",
+        "is",
+        "off",
+        "the",
+        "line."
+      ],
+      "conf": 91.1768,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "You did that! You gave a push to the table.",
+      "x": 0.5047,
+      "y": 0.5699,
+      "w": 0.3497,
+      "h": 0.0493,
+      "words": [
+        "You",
+        "did",
+        "that!",
+        "You",
+        "gave",
+        "a",
+        "push",
+        "to",
+        "the",
+        "table."
+      ],
+      "conf": 96.1308,
+      "source": "psm-11"
+    }
+  ]
+}

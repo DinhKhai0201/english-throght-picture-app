@@ -1,0 +1,450 @@
+{
+  "page": 282,
+  "image": "/books/page 282.png",
+  "imageApiPath": "/api/books/page%20282.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 23,
+    "wordCount": 72,
+    "imageWidth": 1188,
+    "imageHeight": 1884
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r7",
+        "r8",
+        "r12"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4",
+        "r5",
+        "r6",
+        "r9",
+        "r10",
+        "r11"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r13",
+        "r17",
+        "r20",
+        "r21"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r14",
+        "r15",
+        "r16",
+        "r18",
+        "r19",
+        "r22",
+        "r23"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Every statement or questian in this book has one or",
+      "x": 0.1136,
+      "y": 0.1592,
+      "w": 0.8274,
+      "h": 0.0239,
+      "words": [
+        "Every",
+        "statement",
+        "or",
+        "questian",
+        "in",
+        "this",
+        "book",
+        "has",
+        "one",
+        "or"
+      ],
+      "conf": 90.6007,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "more of these sixteen words in it: be",
+      "x": 0.1145,
+      "y": 0.1847,
+      "w": 0.5084,
+      "h": 0.0685,
+      "words": [
+        "more",
+        "of",
+        "these",
+        "sixteen",
+        "words",
+        "in",
+        "it:",
+        "be"
+      ],
+      "conf": 96.3449,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "come have do",
+      "x": 0.1911,
+      "y": 0.2404,
+      "w": 0.2904,
+      "h": 0.0621,
+      "words": [
+        "come",
+        "have",
+        "do"
+      ],
+      "conf": 96.184,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "make get",
+      "x": 0.6103,
+      "y": 0.2341,
+      "w": 0.2575,
+      "h": 0.0472,
+      "words": [
+        "make",
+        "get"
+      ],
+      "conf": 96.3242,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "give",
+      "x": 0.6111,
+      "y": 0.2346,
+      "w": 0.0657,
+      "h": 0.0223,
+      "words": [
+        "give"
+      ],
+      "conf": 96.0479,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "send keep",
+      "x": 0.612,
+      "y": 0.2596,
+      "w": 0.2424,
+      "h": 0.0472,
+      "words": [
+        "send",
+        "keep"
+      ],
+      "conf": 95.473,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "put seem",
+      "x": 0.1911,
+      "y": 0.2866,
+      "w": 0.2601,
+      "h": 0.0409,
+      "words": [
+        "put",
+        "seem"
+      ],
+      "conf": 96.0325,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "take",
+      "x": 0.3998,
+      "y": 0.3079,
+      "w": 0.0682,
+      "h": 0.0196,
+      "words": [
+        "take"
+      ],
+      "conf": 96.1066,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "see let",
+      "x": 0.6111,
+      "y": 0.2903,
+      "w": 0.2231,
+      "h": 0.0367,
+      "words": [
+        "see",
+        "let"
+      ],
+      "conf": 96.8622,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "say",
+      "x": 0.7837,
+      "y": 0.3148,
+      "w": 0.0513,
+      "h": 0.018,
+      "words": [
+        "say"
+      ],
+      "conf": 96.4879,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "The first of these words, BE, comes Into more statements",
+      "x": 0.1111,
+      "y": 0.4273,
+      "w": 0.8249,
+      "h": 0.0212,
+      "words": [
+        "The",
+        "first",
+        "of",
+        "these",
+        "words,",
+        "BE,",
+        "comes",
+        "Into",
+        "more",
+        "statements"
+      ],
+      "conf": 96.4807,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "than any other. Here it is. It goes like this:",
+      "x": 0.1111,
+      "y": 0.4528,
+      "w": 0.6322,
+      "h": 0.0239,
+      "words": [
+        "than",
+        "any",
+        "other.",
+        "Here",
+        "it",
+        "is.",
+        "It",
+        "goes",
+        "like",
+        "this:"
+      ],
+      "conf": 94.7616,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Past was He She",
+      "x": 0.186,
+      "y": 0.5042,
+      "w": 0.2239,
+      "h": 0.1418,
+      "words": [
+        "Past",
+        "was",
+        "He",
+        "She"
+      ],
+      "conf": 96.5439,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "Present",
+      "x": 0.5404,
+      "y": 0.5032,
+      "w": 0.1111,
+      "h": 0.0175,
+      "words": [
+        "Present"
+      ],
+      "conf": 95.9814,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "Future am",
+      "x": 0.5766,
+      "y": 0.5037,
+      "w": 0.2846,
+      "h": 0.0664,
+      "words": [
+        "Future",
+        "am"
+      ],
+      "conf": 96.2652,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "will be",
+      "x": 0.7626,
+      "y": 0.552,
+      "w": 0.101,
+      "h": 0.0191,
+      "words": [
+        "will",
+        "be"
+      ],
+      "conf": 96.6031,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "was",
+      "x": 0.3485,
+      "y": 0.6332,
+      "w": 0.0598,
+      "h": 0.0117,
+      "words": [
+        "was"
+      ],
+      "conf": 96.0565,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "Is",
+      "x": 0.5758,
+      "y": 0.6274,
+      "w": 0.0227,
+      "h": 0.017,
+      "words": [
+        "Is"
+      ],
+      "conf": 94.1031,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "will be",
+      "x": 0.7618,
+      "y": 0.6263,
+      "w": 0.101,
+      "h": 0.0196,
+      "words": [
+        "will",
+        "be"
+      ],
+      "conf": 96.8717,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "We You",
+      "x": 0.186,
+      "y": 0.7033,
+      "w": 0.059,
+      "h": 0.042,
+      "words": [
+        "We",
+        "You"
+      ],
+      "conf": 96.92,
+      "source": "psm-11"
+    },
+    {
+      "id": "r21",
+      "order": 20,
+      "text": "were They",
+      "x": 0.186,
+      "y": 0.733,
+      "w": 0.2366,
+      "h": 0.0425,
+      "words": [
+        "were",
+        "They"
+      ],
+      "conf": 96.4749,
+      "source": "psm-11"
+    },
+    {
+      "id": "r22",
+      "order": 21,
+      "text": "are",
+      "x": 0.5758,
+      "y": 0.7325,
+      "w": 0.053,
+      "h": 0.0127,
+      "words": [
+        "are"
+      ],
+      "conf": 96.2227,
+      "source": "psm-11"
+    },
+    {
+      "id": "r23",
+      "order": 22,
+      "text": "will be",
+      "x": 0.7635,
+      "y": 0.7266,
+      "w": 0.101,
+      "h": 0.0196,
+      "words": [
+        "will",
+        "be"
+      ],
+      "conf": 95.9003,
+      "source": "psm-11"
+    }
+  ]
+}

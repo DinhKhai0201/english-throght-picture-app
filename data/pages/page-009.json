@@ -1,0 +1,58 @@
+{
+  "page": 9,
+  "image": "/books/page 9.png",
+  "imageApiPath": "/api/books/page%209.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 2,
+    "wordCount": 4,
+    "imageWidth": 1188,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "wee ee es",
+      "x": 0.1288,
+      "y": 0.48,
+      "w": 0.7567,
+      "h": 0.0149,
+      "words": [
+        "wee",
+        "ee",
+        "es"
+      ],
+      "conf": 36.825,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "They",
+      "x": 0.2104,
+      "y": 0.568,
+      "w": 0.0741,
+      "h": 0.0229,
+      "words": [
+        "They"
+      ],
+      "conf": 95.9128,
+      "source": "psm-11"
+    }
+  ]
+}

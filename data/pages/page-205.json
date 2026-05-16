@@ -1,0 +1,311 @@
+{
+  "page": 205,
+  "image": "/books/page 205.png",
+  "imageApiPath": "/api/books/page%20205.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 13,
+    "wordCount": 103,
+    "imageWidth": 1234,
+    "imageHeight": 1821
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r13"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "It is coming down because there is an attraction between the two bodies.",
+      "x": 0.5429,
+      "y": 0.1406,
+      "w": 0.338,
+      "h": 0.0977,
+      "words": [
+        "It",
+        "is",
+        "coming",
+        "down",
+        "because",
+        "there",
+        "is",
+        "an",
+        "attraction",
+        "between",
+        "the",
+        "two",
+        "bodies."
+      ],
+      "conf": 83.3634,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Here are two bodies One is a great body It is the earth The other is a small body. It is an apple The apple is coming down to the earth Why?",
+      "x": 0.1564,
+      "y": 0.2433,
+      "w": 0.3022,
+      "h": 0.2059,
+      "words": [
+        "Here",
+        "are",
+        "two",
+        "bodies",
+        "One",
+        "is",
+        "a",
+        "great",
+        "body",
+        "It",
+        "is",
+        "the",
+        "earth",
+        "The",
+        "other",
+        "is",
+        "a",
+        "small",
+        "body.",
+        "It",
+        "is",
+        "an",
+        "apple",
+        "The",
+        "apple",
+        "is",
+        "coming",
+        "down",
+        "to",
+        "the",
+        "earth",
+        "Why?"
+      ],
+      "conf": 96.4222,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "The between i them makes the apple come Gown",
+      "x": 0.5122,
+      "y": 0.2433,
+      "w": 0.3751,
+      "h": 0.0719,
+      "words": [
+        "The",
+        "between",
+        "i",
+        "them",
+        "makes",
+        "the",
+        "apple",
+        "come",
+        "Gown"
+      ],
+      "conf": 94.5861,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "All bodies which have weight have an attraction for one another Here are two bodies.",
+      "x": 0.1515,
+      "y": 0.5277,
+      "w": 0.3306,
+      "h": 0.1648,
+      "words": [
+        "All",
+        "bodies",
+        "which",
+        "have",
+        "weight",
+        "have",
+        "an",
+        "attraction",
+        "for",
+        "one",
+        "another",
+        "Here",
+        "are",
+        "two",
+        "bodies."
+      ],
+      "conf": 96.1094,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Here are two men.",
+      "x": 0.5818,
+      "y": 0.536,
+      "w": 0.2747,
+      "h": 0.0198,
+      "words": [
+        "Here",
+        "are",
+        "two",
+        "men."
+      ],
+      "conf": 93.6604,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "These are springs",
+      "x": 0.1499,
+      "y": 0.698,
+      "w": 0.2593,
+      "h": 0.0247,
+      "words": [
+        "These",
+        "are",
+        "springs"
+      ],
+      "conf": 90.3812,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This man",
+      "x": 0.5543,
+      "y": 0.7013,
+      "w": 0.1321,
+      "h": 0.0192,
+      "words": [
+        "This",
+        "man"
+      ],
+      "conf": 96.1121,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This man is thin",
+      "x": 0.5721,
+      "y": 0.7007,
+      "w": 0.3177,
+      "h": 0.0483,
+      "words": [
+        "This",
+        "man",
+        "is",
+        "thin"
+      ],
+      "conf": 96.6375,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "is fat His body",
+      "x": 0.5535,
+      "y": 0.7298,
+      "w": 0.3031,
+      "h": 0.0654,
+      "words": [
+        "is",
+        "fat",
+        "His",
+        "body"
+      ],
+      "conf": 94.4099,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "His body is thin",
+      "x": 0.5697,
+      "y": 0.771,
+      "w": 0.3177,
+      "h": 0.0478,
+      "words": [
+        "His",
+        "body",
+        "is",
+        "thin"
+      ],
+      "conf": 96.5438,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "is fat",
+      "x": 0.7788,
+      "y": 0.7996,
+      "w": 0.0737,
+      "h": 0.0198,
+      "words": [
+        "is",
+        "fat"
+      ],
+      "conf": 96.15,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "Which body has the greater weight?",
+      "x": 0.1524,
+      "y": 0.8627,
+      "w": 0.2958,
+      "h": 0.0495,
+      "words": [
+        "Which",
+        "body",
+        "has",
+        "the",
+        "greater",
+        "weight?"
+      ],
+      "conf": 96.1482,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Which man's weight is greater?",
+      "x": 0.5478,
+      "y": 0.8633,
+      "w": 0.3274,
+      "h": 0.0549,
+      "words": [
+        "Which",
+        "man's",
+        "weight",
+        "is",
+        "greater?"
+      ],
+      "conf": 93.6385,
+      "source": "psm-11"
+    }
+  ]
+}

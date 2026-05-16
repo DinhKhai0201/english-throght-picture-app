@@ -1,0 +1,148 @@
+{
+  "page": 58,
+  "image": "/books/page 58.png",
+  "imageApiPath": "/api/books/page%2058.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 7,
+    "wordCount": 24,
+    "imageWidth": 1263,
+    "imageHeight": 1830
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "What is he saying?",
+      "x": 0.4173,
+      "y": 0.0448,
+      "w": 0.2819,
+      "h": 0.0475,
+      "words": [
+        "What",
+        "is",
+        "he",
+        "saying?"
+      ],
+      "conf": 94.0165,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "QUESTIONS",
+      "x": 0.1512,
+      "y": 0.0672,
+      "w": 0.1805,
+      "h": 0.0197,
+      "words": [
+        "QUESTIONS"
+      ],
+      "conf": 96.7399,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "QUESTIONS What is he saying?",
+      "x": 0.1512,
+      "y": 0.0661,
+      "w": 0.5479,
+      "h": 0.0235,
+      "words": [
+        "QUESTIONS",
+        "What",
+        "is",
+        "he",
+        "saying?"
+      ],
+      "conf": 95.3994,
+      "source": "psm-6"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "c d",
+      "x": 0.19,
+      "y": 0.312,
+      "w": 0.4291,
+      "h": 0.0191,
+      "words": [
+        "c",
+        "d"
+      ],
+      "conf": 67.4561,
+      "source": "psm-6"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "e f",
+      "x": 0.1884,
+      "y": 0.5153,
+      "w": 0.422,
+      "h": 0.0191,
+      "words": [
+        "e",
+        "f"
+      ],
+      "conf": 68.8043,
+      "source": "psm-6"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "www eee we",
+      "x": 0.1425,
+      "y": 0.8803,
+      "w": 0.7894,
+      "h": 0.0153,
+      "words": [
+        "www",
+        "eee",
+        "we"
+      ],
+      "conf": 41.8747,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Answers to these questions are on page",
+      "x": 0.2375,
+      "y": 0.8929,
+      "w": 0.5796,
+      "h": 0.0246,
+      "words": [
+        "Answers",
+        "to",
+        "these",
+        "questions",
+        "are",
+        "on",
+        "page"
+      ],
+      "conf": 96.5154,
+      "source": "psm-11"
+    }
+  ]
+}

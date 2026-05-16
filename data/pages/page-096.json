@@ -1,0 +1,264 @@
+{
+  "page": 96,
+  "image": "/books/page 96.png",
+  "imageApiPath": "/api/books/page%2096.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 12,
+    "wordCount": 70,
+    "imageWidth": 1225,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Mary has a potato in her hand",
+      "x": 0.1208,
+      "y": 0.1035,
+      "w": 0.311,
+      "h": 0.0415,
+      "words": [
+        "Mary",
+        "has",
+        "a",
+        "potato",
+        "in",
+        "her",
+        "hand"
+      ],
+      "conf": 96.1354,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "We get potatoes from the roots of a plant",
+      "x": 0.5445,
+      "y": 0.0949,
+      "w": 0.3257,
+      "h": 0.0486,
+      "words": [
+        "We",
+        "get",
+        "potatoes",
+        "from",
+        "the",
+        "roots",
+        "of",
+        "a",
+        "plant"
+      ],
+      "conf": 96.3287,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "She is taking its skin of",
+      "x": 0.1176,
+      "y": 0.3008,
+      "w": 0.3633,
+      "h": 0.0693,
+      "words": [
+        "She",
+        "is",
+        "taking",
+        "its",
+        "skin",
+        "of"
+      ],
+      "conf": 92.5721,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Here they are in the earth.",
+      "x": 0.5478,
+      "y": 0.288,
+      "w": 0.2955,
+      "h": 0.0437,
+      "words": [
+        "Here",
+        "they",
+        "are",
+        "in",
+        "the",
+        "earth."
+      ],
+      "conf": 96.6342,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "with a knife.",
+      "x": 0.1208,
+      "y": 0.3504,
+      "w": 0.182,
+      "h": 0.0192,
+      "words": [
+        "with",
+        "a",
+        "knife."
+      ],
+      "conf": 95.9873,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "We get them up with a for",
+      "x": 0.5388,
+      "y": 0.3691,
+      "w": 0.3404,
+      "h": 0.0437,
+      "words": [
+        "We",
+        "get",
+        "them",
+        "up",
+        "with",
+        "a",
+        "for"
+      ],
+      "conf": 94.3297,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is a plant.",
+      "x": 0.151,
+      "y": 0.4837,
+      "w": 0.2131,
+      "h": 0.024,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "plant."
+      ],
+      "conf": 94.9827,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This is its flower.",
+      "x": 0.1461,
+      "y": 0.5147,
+      "w": 0.2367,
+      "h": 0.0187,
+      "words": [
+        "This",
+        "is",
+        "its",
+        "flower."
+      ],
+      "conf": 96.6398,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "These are its",
+      "x": 0.2645,
+      "y": 0.5536,
+      "w": 0.1853,
+      "h": 0.0187,
+      "words": [
+        "These",
+        "are",
+        "its"
+      ],
+      "conf": 94.318,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "These are roots of other plants.",
+      "x": 0.5233,
+      "y": 0.5435,
+      "w": 0.3535,
+      "h": 0.0485,
+      "words": [
+        "These",
+        "are",
+        "roots",
+        "of",
+        "other",
+        "plants."
+      ],
+      "conf": 96.4287,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "These are its fruit This is a branch This is its stem.",
+      "x": 0.1494,
+      "y": 0.6256,
+      "w": 0.2408,
+      "h": 0.1979,
+      "words": [
+        "These",
+        "are",
+        "its",
+        "fruit",
+        "This",
+        "is",
+        "a",
+        "branch",
+        "This",
+        "is",
+        "its",
+        "stem."
+      ],
+      "conf": 96.6953,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "These are roots.",
+      "x": 0.2849,
+      "y": 0.8128,
+      "w": 0.1445,
+      "h": 0.0437,
+      "words": [
+        "These",
+        "are",
+        "roots."
+      ],
+      "conf": 96.6962,
+      "source": "psm-11"
+    }
+  ]
+}

@@ -1,0 +1,308 @@
+{
+  "page": 120,
+  "image": "/books/page 120.png",
+  "imageApiPath": "/api/books/page%20120.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 13,
+    "wordCount": 70,
+    "imageWidth": 1125,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r6"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5",
+        "r7",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r11",
+        "r13"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r12"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "QUESTIONS",
+      "x": 0.4098,
+      "y": 0.0845,
+      "w": 0.2071,
+      "h": 0.0183,
+      "words": [
+        "QUESTIONS"
+      ],
+      "conf": 96.325,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "a This is a family",
+      "x": 0.1396,
+      "y": 0.1237,
+      "w": 0.2791,
+      "h": 0.0237,
+      "words": [
+        "a",
+        "This",
+        "is",
+        "a",
+        "family"
+      ],
+      "conf": 83.3959,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "b This is a plant",
+      "x": 0.5724,
+      "y": 0.121,
+      "w": 0.256,
+      "h": 0.0296,
+      "words": [
+        "b",
+        "This",
+        "is",
+        "a",
+        "plant"
+      ],
+      "conf": 93.6144,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "What do you see?",
+      "x": 0.1724,
+      "y": 0.262,
+      "w": 0.2844,
+      "h": 0.0242,
+      "words": [
+        "What",
+        "do",
+        "you",
+        "see?"
+      ],
+      "conf": 96.4976,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Which parts of the plant do you see?",
+      "x": 0.5964,
+      "y": 0.2421,
+      "w": 0.2987,
+      "h": 0.0495,
+      "words": [
+        "Which",
+        "parts",
+        "of",
+        "the",
+        "plant",
+        "do",
+        "you",
+        "see?"
+      ],
+      "conf": 96.4597,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "This is a fridge TEN What do you see in it?",
+      "x": 0.1387,
+      "y": 0.3115,
+      "w": 0.3556,
+      "h": 0.1528,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "fridge",
+        "TEN",
+        "What",
+        "do",
+        "you",
+        "see",
+        "in",
+        "it?"
+      ],
+      "conf": 96.3196,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "d This is a dog",
+      "x": 0.5787,
+      "y": 0.3088,
+      "w": 0.2436,
+      "h": 0.0231,
+      "words": [
+        "d",
+        "This",
+        "is",
+        "a",
+        "dog"
+      ],
+      "conf": 92.8124,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Which parts of the dog do you see?",
+      "x": 0.6071,
+      "y": 0.4384,
+      "w": 0.3085,
+      "h": 0.056,
+      "words": [
+        "Which",
+        "parts",
+        "of",
+        "the",
+        "dog",
+        "do",
+        "you",
+        "see?"
+      ],
+      "conf": 95.9435,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "e What do you see?",
+      "x": 0.1076,
+      "y": 0.5126,
+      "w": 0.3316,
+      "h": 0.0237,
+      "words": [
+        "e",
+        "What",
+        "do",
+        "you",
+        "see?"
+      ],
+      "conf": 93.1103,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "f What do you see?",
+      "x": 0.5716,
+      "y": 0.5126,
+      "w": 0.3316,
+      "h": 0.0242,
+      "words": [
+        "f",
+        "What",
+        "do",
+        "you",
+        "see?"
+      ],
+      "conf": 95.1955,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "What do you see?",
+      "x": 0.1564,
+      "y": 0.6977,
+      "w": 0.2924,
+      "h": 0.0242,
+      "words": [
+        "What",
+        "do",
+        "you",
+        "see?"
+      ],
+      "conf": 96.198,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "h What do you see?",
+      "x": 0.5733,
+      "y": 0.7031,
+      "w": 0.3307,
+      "h": 0.0237,
+      "words": [
+        "h",
+        "What",
+        "do",
+        "you",
+        "see?"
+      ],
+      "conf": 95.8788,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Answers are on page",
+      "x": 0.2756,
+      "y": 0.8881,
+      "w": 0.3413,
+      "h": 0.0215,
+      "words": [
+        "Answers",
+        "are",
+        "on",
+        "page"
+      ],
+      "conf": 96.132,
+      "source": "psm-11"
+    }
+  ]
+}

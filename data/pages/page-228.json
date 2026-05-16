@@ -1,0 +1,241 @@
+{
+  "page": 228,
+  "image": "/books/page 228.png",
+  "imageApiPath": "/api/books/page%20228.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 11,
+    "wordCount": 61,
+    "imageWidth": 1196,
+    "imageHeight": 1855
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Here is a pencil.",
+      "x": 0.1747,
+      "y": 0.1105,
+      "w": 0.2467,
+      "h": 0.0253,
+      "words": [
+        "Here",
+        "is",
+        "a",
+        "pencil."
+      ],
+      "conf": 94.8097,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "put the pencil in the water.",
+      "x": 0.5753,
+      "y": 0.1084,
+      "w": 0.3211,
+      "h": 0.0457,
+      "words": [
+        "put",
+        "the",
+        "pencil",
+        "in",
+        "the",
+        "water."
+      ],
+      "conf": 96.1072,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "It is straight. Kt is not",
+      "x": 0.1747,
+      "y": 0.1375,
+      "w": 0.3102,
+      "h": 0.0232,
+      "words": [
+        "It",
+        "is",
+        "straight.",
+        "Kt",
+        "is",
+        "not"
+      ],
+      "conf": 86.4449,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Here is a glass of water.",
+      "x": 0.143,
+      "y": 0.3191,
+      "w": 0.3704,
+      "h": 0.0243,
+      "words": [
+        "Here",
+        "is",
+        "a",
+        "glass",
+        "of",
+        "water."
+      ],
+      "conf": 94.8909,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "The pencil seems bent where it goes into the water.",
+      "x": 0.5753,
+      "y": 0.3526,
+      "w": 0.3311,
+      "h": 0.0705,
+      "words": [
+        "The",
+        "pencil",
+        "seems",
+        "bent",
+        "where",
+        "it",
+        "goes",
+        "into",
+        "the",
+        "water."
+      ],
+      "conf": 96.7195,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "OSH CHS",
+      "x": 0.5033,
+      "y": 0.4841,
+      "w": 0.1664,
+      "h": 0.0178,
+      "words": [
+        "OSH",
+        "CHS"
+      ],
+      "conf": 43.8642,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "The pencil is straight but it seems bent.",
+      "x": 0.163,
+      "y": 0.5348,
+      "w": 0.3144,
+      "h": 0.0447,
+      "words": [
+        "The",
+        "pencil",
+        "is",
+        "straight",
+        "but",
+        "it",
+        "seems",
+        "bent."
+      ],
+      "conf": 96.5707,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Kt seems like this.",
+      "x": 0.5895,
+      "y": 0.5332,
+      "w": 0.25,
+      "h": 0.0194,
+      "words": [
+        "Kt",
+        "seems",
+        "like",
+        "this."
+      ],
+      "conf": 87.7314,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "But it Is like this.",
+      "x": 0.5635,
+      "y": 0.697,
+      "w": 0.2441,
+      "h": 0.0286,
+      "words": [
+        "But",
+        "it",
+        "Is",
+        "like",
+        "this."
+      ],
+      "conf": 90.4437,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "It is straight, not bent.",
+      "x": 0.5778,
+      "y": 0.7919,
+      "w": 0.3286,
+      "h": 0.0232,
+      "words": [
+        "It",
+        "is",
+        "straight,",
+        "not",
+        "bent."
+      ],
+      "conf": 94.7827,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "It seems bent, not straight.",
+      "x": 0.5778,
+      "y": 0.8173,
+      "w": 0.2617,
+      "h": 0.049,
+      "words": [
+        "It",
+        "seems",
+        "bent,",
+        "not",
+        "straight."
+      ],
+      "conf": 95.9863,
+      "source": "psm-11"
+    }
+  ]
+}

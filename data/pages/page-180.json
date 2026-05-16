@@ -1,0 +1,394 @@
+{
+  "page": 180,
+  "image": "/books/page 180.png",
+  "imageApiPath": "/api/books/page%20180.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 15,
+    "wordCount": 128,
+    "imageWidth": 1180,
+    "imageHeight": 1863
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r11",
+        "r13"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r8",
+        "r10",
+        "r12",
+        "r14",
+        "r15"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "The earth goes round in twenty-four hours.",
+      "x": 0.1746,
+      "y": 0.1315,
+      "w": 0.3161,
+      "h": 0.0408,
+      "words": [
+        "The",
+        "earth",
+        "goes",
+        "round",
+        "in",
+        "twenty-four",
+        "hours."
+      ],
+      "conf": 96.4625,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "The earth goes round the sun in a year.",
+      "x": 0.6017,
+      "y": 0.1326,
+      "w": 0.2703,
+      "h": 0.0408,
+      "words": [
+        "The",
+        "earth",
+        "goes",
+        "round",
+        "the",
+        "sun",
+        "in",
+        "a",
+        "year."
+      ],
+      "conf": 96.5491,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "There are twenty-four hours in every day.",
+      "x": 0.178,
+      "y": 0.3285,
+      "w": 0.2881,
+      "h": 0.0408,
+      "words": [
+        "There",
+        "are",
+        "twenty-four",
+        "hours",
+        "in",
+        "every",
+        "day."
+      ],
+      "conf": 95.6804,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "There are three hundred and sixty-five days in a",
+      "x": 0.5814,
+      "y": 0.329,
+      "w": 0.3194,
+      "h": 0.0419,
+      "words": [
+        "There",
+        "are",
+        "three",
+        "hundred",
+        "and",
+        "sixty-five",
+        "days",
+        "in",
+        "a"
+      ],
+      "conf": 96.4254,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "The sun comes up and goes down every day because the earth is turning round.",
+      "x": 0.1754,
+      "y": 0.3704,
+      "w": 0.2932,
+      "h": 0.0816,
+      "words": [
+        "The",
+        "sun",
+        "comes",
+        "up",
+        "and",
+        "goes",
+        "down",
+        "every",
+        "day",
+        "because",
+        "the",
+        "earth",
+        "is",
+        "turning",
+        "round."
+      ],
+      "conf": 96.1209,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "hundred and sixty-five days make a year.",
+      "x": 0.5797,
+      "y": 0.3913,
+      "w": 0.289,
+      "h": 0.0633,
+      "words": [
+        "hundred",
+        "and",
+        "sixty-five",
+        "days",
+        "make",
+        "a",
+        "year."
+      ],
+      "conf": 95.871,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "There are seven days in a week. Seven days make a week.",
+      "x": 0.1161,
+      "y": 0.5282,
+      "w": 0.7856,
+      "h": 0.0209,
+      "words": [
+        "There",
+        "are",
+        "seven",
+        "days",
+        "in",
+        "a",
+        "week.",
+        "Seven",
+        "days",
+        "make",
+        "a",
+        "week."
+      ],
+      "conf": 96.4439,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Here are the names of the days of the week: Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday. Monday",
+      "x": 0.1153,
+      "y": 0.5497,
+      "w": 0.8296,
+      "h": 0.0412,
+      "words": [
+        "Here",
+        "are",
+        "the",
+        "names",
+        "of",
+        "the",
+        "days",
+        "of",
+        "the",
+        "week:",
+        "Monday,",
+        "Tuesday,",
+        "Wednesday,",
+        "Thursday,",
+        "Friday,",
+        "Saturday,",
+        "Sunday.",
+        "Monday"
+      ],
+      "conf": 96.5693,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "is before Tuesday.",
+      "x": 0.1161,
+      "y": 0.5915,
+      "w": 0.2381,
+      "h": 0.0204,
+      "words": [
+        "is",
+        "before",
+        "Tuesday."
+      ],
+      "conf": 96.7585,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Tuesday is after Monday.",
+      "x": 0.4136,
+      "y": 0.5915,
+      "w": 0.3331,
+      "h": 0.0204,
+      "words": [
+        "Tuesday",
+        "is",
+        "after",
+        "Monday."
+      ],
+      "conf": 92.9057,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "There are thirty-one or thirty or twenty-eight days in a month.",
+      "x": 0.2025,
+      "y": 0.6296,
+      "w": 0.289,
+      "h": 0.079,
+      "words": [
+        "There",
+        "are",
+        "thirty-one",
+        "or",
+        "thirty",
+        "or",
+        "twenty-eight",
+        "days",
+        "in",
+        "a",
+        "month."
+      ],
+      "conf": 94.572,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "June July August September October November Janvary is before",
+      "x": 0.6585,
+      "y": 0.6302,
+      "w": 0.233,
+      "h": 0.1626,
+      "words": [
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "Janvary",
+        "is",
+        "before"
+      ],
+      "conf": 95.1275,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Here are the names of the months: February March April May",
+      "x": 0.2017,
+      "y": 0.7123,
+      "w": 0.305,
+      "h": 0.1466,
+      "words": [
+        "Here",
+        "are",
+        "the",
+        "names",
+        "of",
+        "the",
+        "months:",
+        "February",
+        "March",
+        "April",
+        "May"
+      ],
+      "conf": 90.8535,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "December February...",
+      "x": 0.6619,
+      "y": 0.7542,
+      "w": 0.1703,
+      "h": 0.0596,
+      "words": [
+        "December",
+        "February..."
+      ],
+      "conf": 96.506,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "February is after January...",
+      "x": 0.6627,
+      "y": 0.8159,
+      "w": 0.2169,
+      "h": 0.0403,
+      "words": [
+        "February",
+        "is",
+        "after",
+        "January..."
+      ],
+      "conf": 95.9689,
+      "source": "psm-11"
+    }
+  ]
+}

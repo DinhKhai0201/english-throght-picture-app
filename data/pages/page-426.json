@@ -1,0 +1,491 @@
+{
+  "page": 426,
+  "image": "/books/page 426.png",
+  "imageApiPath": "/api/books/page%20426.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 20,
+    "wordCount": 155,
+    "imageWidth": 1198,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r4"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r5",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9",
+        "r10",
+        "r15",
+        "r16",
+        "r17"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r11",
+        "r12",
+        "r13",
+        "r14",
+        "r18",
+        "r19",
+        "r20"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "People need work and play for the body and for the",
+      "x": 0.1319,
+      "y": 0.0427,
+      "w": 0.813,
+      "h": 0.0224,
+      "words": [
+        "People",
+        "need",
+        "work",
+        "and",
+        "play",
+        "for",
+        "the",
+        "body",
+        "and",
+        "for",
+        "the"
+      ],
+      "conf": 96.4057,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "mind.",
+      "x": 0.1319,
+      "y": 0.0688,
+      "w": 0.0826,
+      "h": 0.0171,
+      "words": [
+        "mind."
+      ],
+      "conf": 70.0389,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "mind, They need music...",
+      "x": 0.1319,
+      "y": 0.0688,
+      "w": 0.2939,
+      "h": 0.073,
+      "words": [
+        "mind,",
+        "They",
+        "need",
+        "music..."
+      ],
+      "conf": 89.3633,
+      "source": "psm-6"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "They need music...",
+      "x": 0.1336,
+      "y": 0.1205,
+      "w": 0.2922,
+      "h": 0.0213,
+      "words": [
+        "They",
+        "need",
+        "music..."
+      ],
+      "conf": 96.0641,
+      "source": "psm-6"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "and dancing.",
+      "x": 0.4207,
+      "y": 0.3024,
+      "w": 0.1861,
+      "h": 0.0203,
+      "words": [
+        "and",
+        "dancing."
+      ],
+      "conf": 94.4616,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "rest and change.",
+      "x": 0.7229,
+      "y": 0.4533,
+      "w": 0.2262,
+      "h": 0.0208,
+      "words": [
+        "rest",
+        "and",
+        "change."
+      ],
+      "conf": 95.0148,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "They need books and talk with other men: with old friends as well as with new people.",
+      "x": 0.1361,
+      "y": 0.5275,
+      "w": 0.616,
+      "h": 0.0469,
+      "words": [
+        "They",
+        "need",
+        "books",
+        "and",
+        "talk",
+        "with",
+        "other",
+        "men:",
+        "with",
+        "old",
+        "friends",
+        "as",
+        "well",
+        "as",
+        "with",
+        "new",
+        "people."
+      ],
+      "conf": 96.9013,
+      "source": "psm-6"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "They need new knowledge to keep their old Je",
+      "x": 0.1361,
+      "y": 0.5653,
+      "w": 0.7471,
+      "h": 0.0389,
+      "words": [
+        "They",
+        "need",
+        "new",
+        "knowledge",
+        "to",
+        "keep",
+        "their",
+        "old",
+        "Je"
+      ],
+      "conf": 93.2781,
+      "source": "psm-6"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "They need new knowledge to keep their old knowledge clear and living.",
+      "x": 0.1361,
+      "y": 0.5787,
+      "w": 0.6177,
+      "h": 0.0463,
+      "words": [
+        "They",
+        "need",
+        "new",
+        "knowledge",
+        "to",
+        "keep",
+        "their",
+        "old",
+        "knowledge",
+        "clear",
+        "and",
+        "living."
+      ],
+      "conf": 96.5984,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "knowledge clear and living.",
+      "x": 0.1369,
+      "y": 0.6037,
+      "w": 0.399,
+      "h": 0.0213,
+      "words": [
+        "knowledge",
+        "clear",
+        "and",
+        "living."
+      ],
+      "conf": 96.0949,
+      "source": "psm-6"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "A friend is someone you know and love and with whom",
+      "x": 0.1369,
+      "y": 0.6555,
+      "w": 0.8147,
+      "h": 0.0219,
+      "words": [
+        "A",
+        "friend",
+        "is",
+        "someone",
+        "you",
+        "know",
+        "and",
+        "love",
+        "and",
+        "with",
+        "whom"
+      ],
+      "conf": 96.4572,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "A friend is someone you know and love and with whom you have much in common. People you know only a little",
+      "x": 0.1369,
+      "y": 0.6555,
+      "w": 0.8147,
+      "h": 0.0507,
+      "words": [
+        "A",
+        "friend",
+        "is",
+        "someone",
+        "you",
+        "know",
+        "and",
+        "love",
+        "and",
+        "with",
+        "whom",
+        "you",
+        "have",
+        "much",
+        "in",
+        "common.",
+        "People",
+        "you",
+        "know",
+        "only",
+        "a",
+        "little"
+      ],
+      "conf": 96.5485,
+      "source": "psm-6"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "you have much in common. People you know only a little are not your friends in this sense though they may become",
+      "x": 0.1377,
+      "y": 0.6795,
+      "w": 0.8147,
+      "h": 0.0495,
+      "words": [
+        "you",
+        "have",
+        "much",
+        "in",
+        "common.",
+        "People",
+        "you",
+        "know",
+        "only",
+        "a",
+        "little",
+        "are",
+        "not",
+        "your",
+        "friends",
+        "in",
+        "this",
+        "sense",
+        "though",
+        "they",
+        "may",
+        "become"
+      ],
+      "conf": 96.1958,
+      "source": "psm-6"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "are not your friends in this sense though they may become",
+      "x": 0.1377,
+      "y": 0.7077,
+      "w": 0.8147,
+      "h": 0.0213,
+      "words": [
+        "are",
+        "not",
+        "your",
+        "friends",
+        "in",
+        "this",
+        "sense",
+        "though",
+        "they",
+        "may",
+        "become"
+      ],
+      "conf": 96.6717,
+      "source": "psm-6"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "your friends if you get to know them better.",
+      "x": 0.1386,
+      "y": 0.7333,
+      "w": 0.6169,
+      "h": 0.0213,
+      "words": [
+        "your",
+        "friends",
+        "if",
+        "you",
+        "get",
+        "to",
+        "know",
+        "them",
+        "better."
+      ],
+      "conf": 96.1091,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "dancing: moving in time to music.",
+      "x": 0.1377,
+      "y": 0.8165,
+      "w": 0.384,
+      "h": 0.0149,
+      "words": [
+        "dancing:",
+        "moving",
+        "in",
+        "time",
+        "to",
+        "music."
+      ],
+      "conf": 91.4588,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "will dance",
+      "x": 0.1377,
+      "y": 0.8459,
+      "w": 0.1277,
+      "h": 0.0123,
+      "words": [
+        "will",
+        "dance"
+      ],
+      "conf": 80.7648,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "will dance dance(s) danced",
+      "x": 0.1377,
+      "y": 0.8437,
+      "w": 0.8164,
+      "h": 0.0213,
+      "words": [
+        "will",
+        "dance",
+        "dance(s)",
+        "danced"
+      ],
+      "conf": 84.7506,
+      "source": "psm-6"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "dance(s)",
+      "x": 0.4891,
+      "y": 0.8459,
+      "w": 0.1135,
+      "h": 0.0165,
+      "words": [
+        "dance(s)"
+      ],
+      "conf": 82.3226,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "danced",
+      "x": 0.8664,
+      "y": 0.8459,
+      "w": 0.0876,
+      "h": 0.0123,
+      "words": [
+        "danced"
+      ],
+      "conf": 96.2884,
+      "source": "psm-11"
+    }
+  ]
+}

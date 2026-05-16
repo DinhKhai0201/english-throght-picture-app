@@ -1,0 +1,528 @@
+{
+  "page": 149,
+  "image": "/books/page 149.png",
+  "imageApiPath": "/api/books/page%20149.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 25,
+    "wordCount": 122,
+    "imageWidth": 1275,
+    "imageHeight": 1871
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5",
+        "r7",
+        "r8"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r6",
+        "r9",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r11",
+        "r13",
+        "r14",
+        "r17",
+        "r20",
+        "r21",
+        "r23"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r12",
+        "r15",
+        "r16",
+        "r18",
+        "r19",
+        "r22",
+        "r24",
+        "r25"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Yesterday the sun came up at five-seven am. and went down at eight-nineteen Today the sun came up",
+      "x": 0.1231,
+      "y": 0.108,
+      "w": 0.3553,
+      "h": 0.1523,
+      "words": [
+        "Yesterday",
+        "the",
+        "sun",
+        "came",
+        "up",
+        "at",
+        "five-seven",
+        "am.",
+        "and",
+        "went",
+        "down",
+        "at",
+        "eight-nineteen",
+        "Today",
+        "the",
+        "sun",
+        "came",
+        "up"
+      ],
+      "conf": 96.1303,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is night.",
+      "x": 0.6243,
+      "y": 0.1235,
+      "w": 0.1804,
+      "h": 0.023,
+      "words": [
+        "This",
+        "is",
+        "night."
+      ],
+      "conf": 96.5114,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "p.m.",
+      "x": 0.2322,
+      "y": 0.2181,
+      "w": 0.0408,
+      "h": 0.0118,
+      "words": [
+        "p.m."
+      ],
+      "conf": 48.4448,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "This is the earth.",
+      "x": 0.5984,
+      "y": 0.2293,
+      "w": 0.2376,
+      "h": 0.0192,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "earth."
+      ],
+      "conf": 96.3921,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "at five-six a.m.",
+      "x": 0.1239,
+      "y": 0.2624,
+      "w": 0.3216,
+      "h": 0.0192,
+      "words": [
+        "at",
+        "five-six",
+        "a.m."
+      ],
+      "conf": 89.2735,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "That is a star.",
+      "x": 0.6165,
+      "y": 0.2571,
+      "w": 0.1976,
+      "h": 0.0187,
+      "words": [
+        "That",
+        "is",
+        "a",
+        "star."
+      ],
+      "conf": 95.6274,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "and will go down at eight-twenty p.m.",
+      "x": 0.1247,
+      "y": 0.2886,
+      "w": 0.3577,
+      "h": 0.0486,
+      "words": [
+        "and",
+        "will",
+        "go",
+        "down",
+        "at",
+        "eight-twenty",
+        "p.m."
+      ],
+      "conf": 95.7954,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Tomorrow it will come up at five-five am. and will go down at eight twenty-one",
+      "x": 0.1247,
+      "y": 0.3399,
+      "w": 0.3647,
+      "h": 0.1,
+      "words": [
+        "Tomorrow",
+        "it",
+        "will",
+        "come",
+        "up",
+        "at",
+        "five-five",
+        "am.",
+        "and",
+        "will",
+        "go",
+        "down",
+        "at",
+        "eight",
+        "twenty-one"
+      ],
+      "conf": 95.8242,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "This is morning.",
+      "x": 0.6078,
+      "y": 0.3276,
+      "w": 0.2267,
+      "h": 0.0224,
+      "words": [
+        "This",
+        "is",
+        "morning."
+      ],
+      "conf": 96.0642,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "The sun is coming up.",
+      "x": 0.5647,
+      "y": 0.4201,
+      "w": 0.3129,
+      "h": 0.023,
+      "words": [
+        "The",
+        "sun",
+        "is",
+        "coming",
+        "up."
+      ],
+      "conf": 96.4653,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "North",
+      "x": 0.2557,
+      "y": 0.5174,
+      "w": 0.0824,
+      "h": 0.0192,
+      "words": [
+        "North"
+      ],
+      "conf": 96.5487,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "There are twenty-four hours in one day.",
+      "x": 0.5427,
+      "y": 0.542,
+      "w": 0.3231,
+      "h": 0.0497,
+      "words": [
+        "There",
+        "are",
+        "twenty-four",
+        "hours",
+        "in",
+        "one",
+        "day."
+      ],
+      "conf": 96.7469,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "West",
+      "x": 0.1349,
+      "y": 0.5954,
+      "w": 0.0737,
+      "h": 0.0182,
+      "words": [
+        "West"
+      ],
+      "conf": 89.7936,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "East",
+      "x": 0.3914,
+      "y": 0.5943,
+      "w": 0.0596,
+      "h": 0.0187,
+      "words": [
+        "East"
+      ],
+      "conf": 96.0708,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "Twenty-four hours make one day.",
+      "x": 0.5435,
+      "y": 0.5927,
+      "w": 0.3624,
+      "h": 0.0503,
+      "words": [
+        "Twenty-four",
+        "hours",
+        "make",
+        "one",
+        "day."
+      ],
+      "conf": 96.81,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "Two and two make four.",
+      "x": 0.5435,
+      "y": 0.644,
+      "w": 0.3608,
+      "h": 0.0198,
+      "words": [
+        "Two",
+        "and",
+        "two",
+        "make",
+        "four."
+      ],
+      "conf": 96.675,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "South North",
+      "x": 0.2604,
+      "y": 0.666,
+      "w": 0.0847,
+      "h": 0.056,
+      "words": [
+        "South",
+        "North"
+      ],
+      "conf": 95.9051,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "Three and five make eight.",
+      "x": 0.5427,
+      "y": 0.6702,
+      "w": 0.3043,
+      "h": 0.0487,
+      "words": [
+        "Three",
+        "and",
+        "five",
+        "make",
+        "eight."
+      ],
+      "conf": 95.9121,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "What do five and six make?",
+      "x": 0.5443,
+      "y": 0.721,
+      "w": 0.3059,
+      "h": 0.0449,
+      "words": [
+        "What",
+        "do",
+        "five",
+        "and",
+        "six",
+        "make?"
+      ],
+      "conf": 96.3335,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "West",
+      "x": 0.142,
+      "y": 0.7745,
+      "w": 0.0737,
+      "h": 0.0182,
+      "words": [
+        "West"
+      ],
+      "conf": 96.6001,
+      "source": "psm-11"
+    },
+    {
+      "id": "r21",
+      "order": 20,
+      "text": "East",
+      "x": 0.389,
+      "y": 0.7739,
+      "w": 0.0588,
+      "h": 0.0182,
+      "words": [
+        "East"
+      ],
+      "conf": 96.2291,
+      "source": "psm-11"
+    },
+    {
+      "id": "r22",
+      "order": 21,
+      "text": "Do they make ten, or eleven, or twelve?",
+      "x": 0.5443,
+      "y": 0.7723,
+      "w": 0.309,
+      "h": 0.0471,
+      "words": [
+        "Do",
+        "they",
+        "make",
+        "ten,",
+        "or",
+        "eleven,",
+        "or",
+        "twelve?"
+      ],
+      "conf": 96.7785,
+      "source": "psm-11"
+    },
+    {
+      "id": "r23",
+      "order": 22,
+      "text": "South North, South, East, West are four directions.",
+      "x": 0.1459,
+      "y": 0.8386,
+      "w": 0.3576,
+      "h": 0.0871,
+      "words": [
+        "South",
+        "North,",
+        "South,",
+        "East,",
+        "West",
+        "are",
+        "four",
+        "directions."
+      ],
+      "conf": 93.7977,
+      "source": "psm-11"
+    },
+    {
+      "id": "r24",
+      "order": 23,
+      "text": "That is a question.",
+      "x": 0.5427,
+      "y": 0.8242,
+      "w": 0.2675,
+      "h": 0.0241,
+      "words": [
+        "That",
+        "is",
+        "a",
+        "question."
+      ],
+      "conf": 92.9789,
+      "source": "psm-11"
+    },
+    {
+      "id": "r25",
+      "order": 24,
+      "text": "The answer is “Eleven.”",
+      "x": 0.542,
+      "y": 0.8498,
+      "w": 0.342,
+      "h": 0.0198,
+      "words": [
+        "The",
+        "answer",
+        "is",
+        "“Eleven.”"
+      ],
+      "conf": 96.5771,
+      "source": "psm-11"
+    }
+  ]
+}

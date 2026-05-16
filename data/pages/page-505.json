@@ -1,0 +1,381 @@
+{
+  "page": 505,
+  "image": "/books/page 505.png",
+  "imageApiPath": "/api/books/page%20505.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 16,
+    "wordCount": 131,
+    "imageWidth": 1221,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r13",
+        "r14",
+        "r15",
+        "r16"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Here are some of the greatest sayings of all time which, in one language or another, go on living in men’s minds.",
+      "x": 0.077,
+      "y": 0.0375,
+      "w": 0.8067,
+      "h": 0.0487,
+      "words": [
+        "Here",
+        "are",
+        "some",
+        "of",
+        "the",
+        "greatest",
+        "sayings",
+        "of",
+        "all",
+        "time",
+        "which,",
+        "in",
+        "one",
+        "language",
+        "or",
+        "another,",
+        "go",
+        "on",
+        "living",
+        "in",
+        "men’s",
+        "minds."
+      ],
+      "conf": 96.4833,
+      "source": "psm-6"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "For many centuries school children in China began to learn to read with this sentence:",
+      "x": 0.0762,
+      "y": 0.0894,
+      "w": 0.81,
+      "h": 0.0488,
+      "words": [
+        "For",
+        "many",
+        "centuries",
+        "school",
+        "children",
+        "in",
+        "China",
+        "began",
+        "to",
+        "learn",
+        "to",
+        "read",
+        "with",
+        "this",
+        "sentence:"
+      ],
+      "conf": 96.5014,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "learn to read with this sentence:",
+      "x": 0.0794,
+      "y": 0.1152,
+      "w": 0.4423,
+      "h": 0.0182,
+      "words": [
+        "learn",
+        "to",
+        "read",
+        "with",
+        "this",
+        "sentence:"
+      ],
+      "conf": 96.8684,
+      "source": "psm-6"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "wt Mencius",
+      "x": 0.3301,
+      "y": 0.3637,
+      "w": 0.5602,
+      "h": 0.0595,
+      "words": [
+        "wt",
+        "Mencius"
+      ],
+      "conf": 74.4123,
+      "source": "psm-6"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "“Men’s nature is good.”",
+      "x": 0.5577,
+      "y": 0.3508,
+      "w": 0.3309,
+      "h": 0.0209,
+      "words": [
+        "“Men’s",
+        "nature",
+        "is",
+        "good.”"
+      ],
+      "conf": 91.3748,
+      "source": "psm-6"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Mencius (4th century B.C.)",
+      "x": 0.6233,
+      "y": 0.3771,
+      "w": 0.267,
+      "h": 0.0471,
+      "words": [
+        "Mencius",
+        "(4th",
+        "century",
+        "B.C.)"
+      ],
+      "conf": 91.7605,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "(4th century B.C.)",
+      "x": 0.6233,
+      "y": 0.4028,
+      "w": 0.2621,
+      "h": 0.0214,
+      "words": [
+        "(4th",
+        "century",
+        "B.C.)"
+      ],
+      "conf": 96.3578,
+      "source": "psm-6"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "From the Chung Yung (a later work of the school of Confucius)",
+      "x": 0.0811,
+      "y": 0.5854,
+      "w": 0.8108,
+      "h": 0.0461,
+      "words": [
+        "From",
+        "the",
+        "Chung",
+        "Yung",
+        "(a",
+        "later",
+        "work",
+        "of",
+        "the",
+        "school",
+        "of",
+        "Confucius)"
+      ],
+      "conf": 95.7759,
+      "source": "psm-6"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Confucius) “What makes us is named our nature. What",
+      "x": 0.0819,
+      "y": 0.6117,
+      "w": 0.7322,
+      "h": 0.0733,
+      "words": [
+        "Confucius)",
+        "“What",
+        "makes",
+        "us",
+        "is",
+        "named",
+        "our",
+        "nature.",
+        "What"
+      ],
+      "conf": 93.0982,
+      "source": "psm-6"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "“What makes us is named our nature. What directs our nature is named the Way. What",
+      "x": 0.1605,
+      "y": 0.6604,
+      "w": 0.6512,
+      "h": 0.0498,
+      "words": [
+        "“What",
+        "makes",
+        "us",
+        "is",
+        "named",
+        "our",
+        "nature.",
+        "What",
+        "directs",
+        "our",
+        "nature",
+        "is",
+        "named",
+        "the",
+        "Way.",
+        "What"
+      ],
+      "conf": 95.1655,
+      "source": "psm-6"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "directs our nature is named the Way. What makes the Way possible is education.”",
+      "x": 0.1622,
+      "y": 0.6888,
+      "w": 0.6495,
+      "h": 0.0477,
+      "words": [
+        "directs",
+        "our",
+        "nature",
+        "is",
+        "named",
+        "the",
+        "Way.",
+        "What",
+        "makes",
+        "the",
+        "Way",
+        "possible",
+        "is",
+        "education.”"
+      ],
+      "conf": 96.421,
+      "source": "psm-6"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "makes the Way possible is education.”",
+      "x": 0.1622,
+      "y": 0.7145,
+      "w": 0.5676,
+      "h": 0.022,
+      "words": [
+        "makes",
+        "the",
+        "Way",
+        "possible",
+        "is",
+        "education.”"
+      ],
+      "conf": 96.5852,
+      "source": "psm-6"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "our nature: what we most deeply and truly ARE.",
+      "x": 0.0827,
+      "y": 0.8056,
+      "w": 0.5348,
+      "h": 0.0161,
+      "words": [
+        "our",
+        "nature:",
+        "what",
+        "we",
+        "most",
+        "deeply",
+        "and",
+        "truly",
+        "ARE."
+      ],
+      "conf": 93.3706,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "directs: gives directions to.",
+      "x": 0.0827,
+      "y": 0.8227,
+      "w": 0.3047,
+      "h": 0.0155,
+      "words": [
+        "directs:",
+        "gives",
+        "directions",
+        "to."
+      ],
+      "conf": 89.8906,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "will direct",
+      "x": 0.0827,
+      "y": 0.8511,
+      "w": 0.1278,
+      "h": 0.0209,
+      "words": [
+        "will",
+        "direct"
+      ],
+      "conf": 84.8166,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "will direct directed",
+      "x": 0.0827,
+      "y": 0.8532,
+      "w": 0.81,
+      "h": 0.0139,
+      "words": [
+        "will",
+        "direct",
+        "directed"
+      ],
+      "conf": 89.9426,
+      "source": "psm-6"
+    }
+  ]
+}

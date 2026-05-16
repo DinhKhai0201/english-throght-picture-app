@@ -1,0 +1,264 @@
+{
+  "page": 29,
+  "image": "/books/page 29.png",
+  "imageApiPath": "/api/books/page%2029.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 13,
+    "wordCount": 56,
+    "imageWidth": 1188,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r13"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This is a man.",
+      "x": 0.1936,
+      "y": 0.0949,
+      "w": 0.2172,
+      "h": 0.0187,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "man."
+      ],
+      "conf": 95.944,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This i an arm.",
+      "x": 0.5715,
+      "y": 0.1056,
+      "w": 0.234,
+      "h": 0.0251,
+      "words": [
+        "This",
+        "i",
+        "an",
+        "arm."
+      ],
+      "conf": 94.3226,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "These are his arms.",
+      "x": 0.2079,
+      "y": 0.1461,
+      "w": 0.3081,
+      "h": 0.0192,
+      "words": [
+        "These",
+        "are",
+        "his",
+        "arms."
+      ],
+      "conf": 96.0217,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "These are his",
+      "x": 0.2121,
+      "y": 0.2576,
+      "w": 0.2113,
+      "h": 0.0187,
+      "words": [
+        "These",
+        "are",
+        "his"
+      ],
+      "conf": 95.3075,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "These are his feet.",
+      "x": 0.1532,
+      "y": 0.3536,
+      "w": 0.2963,
+      "h": 0.0187,
+      "words": [
+        "These",
+        "are",
+        "his",
+        "feet."
+      ],
+      "conf": 96.4799,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "This is a",
+      "x": 0.5598,
+      "y": 0.3877,
+      "w": 0.1271,
+      "h": 0.0176,
+      "words": [
+        "This",
+        "is",
+        "a"
+      ],
+      "conf": 95.048,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is a table.",
+      "x": 0.1894,
+      "y": 0.4853,
+      "w": 0.234,
+      "h": 0.0181,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "table."
+      ],
+      "conf": 95.7997,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This is a seat.",
+      "x": 0.6002,
+      "y": 0.4869,
+      "w": 0.2172,
+      "h": 0.0176,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "seat."
+      ],
+      "conf": 95.3929,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "These are its",
+      "x": 0.7323,
+      "y": 0.5781,
+      "w": 0.1928,
+      "h": 0.0176,
+      "words": [
+        "These",
+        "are",
+        "its"
+      ],
+      "conf": 95.8605,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "arms",
+      "x": 0.8434,
+      "y": 0.6075,
+      "w": 0.0732,
+      "h": 0.0128,
+      "words": [
+        "arms"
+      ],
+      "conf": 95.2033,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "-These are are its its legs.——",
+      "x": 0.149,
+      "y": 0.696,
+      "w": 0.3544,
+      "h": 0.0309,
+      "words": [
+        "-These",
+        "are",
+        "are",
+        "its",
+        "its",
+        "legs.——"
+      ],
+      "conf": 85.0765,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "These are its legs.",
+      "x": 0.5556,
+      "y": 0.7173,
+      "w": 0.2896,
+      "h": 0.0208,
+      "words": [
+        "These",
+        "are",
+        "its",
+        "legs."
+      ],
+      "conf": 95.8229,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Its feet are on the floor. Its feet are on the floor.",
+      "x": 0.1397,
+      "y": 0.7664,
+      "w": 0.7736,
+      "h": 0.0288,
+      "words": [
+        "Its",
+        "feet",
+        "are",
+        "on",
+        "the",
+        "floor.",
+        "Its",
+        "feet",
+        "are",
+        "on",
+        "the",
+        "floor."
+      ],
+      "conf": 91.6596,
+      "source": "psm-11"
+    }
+  ]
+}

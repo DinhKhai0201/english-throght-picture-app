@@ -1,0 +1,323 @@
+{
+  "page": 232,
+  "image": "/books/page 232.png",
+  "imageApiPath": "/api/books/page%20232.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 13,
+    "wordCount": 85,
+    "imageWidth": 1188,
+    "imageHeight": 1884
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r5",
+        "r6"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9",
+        "r10",
+        "r12"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r11",
+        "r13"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This is a looking glass.",
+      "x": 0.1364,
+      "y": 0.1338,
+      "w": 0.3426,
+      "h": 0.0234,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "looking",
+        "glass."
+      ],
+      "conf": 95.7922,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "She is looking at herself in the glass.",
+      "x": 0.537,
+      "y": 0.1741,
+      "w": 0.3721,
+      "h": 0.0478,
+      "words": [
+        "She",
+        "is",
+        "looking",
+        "at",
+        "herself",
+        "in",
+        "the",
+        "glass."
+      ],
+      "conf": 96.8177,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "What does she see in the looking glass?",
+      "x": 0.5379,
+      "y": 0.2245,
+      "w": 0.3704,
+      "h": 0.0473,
+      "words": [
+        "What",
+        "does",
+        "she",
+        "see",
+        "in",
+        "the",
+        "looking",
+        "glass?"
+      ],
+      "conf": 96.6908,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "She sees herself in the glass,",
+      "x": 0.5354,
+      "y": 0.2739,
+      "w": 0.2786,
+      "h": 0.0489,
+      "words": [
+        "She",
+        "sees",
+        "herself",
+        "in",
+        "the",
+        "glass,"
+      ],
+      "conf": 96.2437,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "What do you see in the looking glass?",
+      "x": 0.133,
+      "y": 0.3508,
+      "w": 0.3544,
+      "h": 0.0473,
+      "words": [
+        "What",
+        "do",
+        "you",
+        "see",
+        "in",
+        "the",
+        "looking",
+        "glass?"
+      ],
+      "conf": 96.6441,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "I see a girl's face in the glass",
+      "x": 0.1338,
+      "y": 0.3997,
+      "w": 0.2871,
+      "h": 0.0477,
+      "words": [
+        "I",
+        "see",
+        "a",
+        "girl's",
+        "face",
+        "in",
+        "the",
+        "glass"
+      ],
+      "conf": 82.6507,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "seems to be here.",
+      "x": 0.2104,
+      "y": 0.5154,
+      "w": 0.2652,
+      "h": 0.0196,
+      "words": [
+        "seems",
+        "to",
+        "be",
+        "here."
+      ],
+      "conf": 96.6273,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Why? Because the glass sends the light back.",
+      "x": 0.5429,
+      "y": 0.5356,
+      "w": 0.3628,
+      "h": 0.0488,
+      "words": [
+        "Why?",
+        "Because",
+        "the",
+        "glass",
+        "sends",
+        "the",
+        "light",
+        "back."
+      ],
+      "conf": 96.8254,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Shei is on this side of",
+      "x": 0.1406,
+      "y": 0.7261,
+      "w": 0.3089,
+      "h": 0.0706,
+      "words": [
+        "Shei",
+        "is",
+        "on",
+        "this",
+        "side",
+        "of"
+      ],
+      "conf": 85.6791,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "the glass.",
+      "x": 0.1414,
+      "y": 0.7787,
+      "w": 0.1423,
+      "h": 0.0223,
+      "words": [
+        "the",
+        "glass."
+      ],
+      "conf": 96.0066,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "There seem to be two She seems tobe onthe girlsi in this picture. There",
+      "x": 0.1414,
+      "y": 0.7792,
+      "w": 0.7778,
+      "h": 0.0568,
+      "words": [
+        "There",
+        "seem",
+        "to",
+        "be",
+        "two",
+        "She",
+        "seems",
+        "tobe",
+        "onthe",
+        "girlsi",
+        "in",
+        "this",
+        "picture.",
+        "There"
+      ],
+      "conf": 95.993,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "other side of the glass.",
+      "x": 0.1414,
+      "y": 0.8275,
+      "w": 0.3434,
+      "h": 0.0249,
+      "words": [
+        "other",
+        "side",
+        "of",
+        "the",
+        "glass."
+      ],
+      "conf": 96.537,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "is only one.",
+      "x": 0.5455,
+      "y": 0.8286,
+      "w": 0.17,
+      "h": 0.0239,
+      "words": [
+        "is",
+        "only",
+        "one."
+      ],
+      "conf": 95.881,
+      "source": "psm-11"
+    }
+  ]
+}

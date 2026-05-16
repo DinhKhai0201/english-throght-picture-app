@@ -1,0 +1,344 @@
+{
+  "page": 298,
+  "image": "/books/page 298.png",
+  "imageApiPath": "/api/books/page%20298.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 14,
+    "wordCount": 92,
+    "imageWidth": 1196,
+    "imageHeight": 1884
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r7"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r10",
+        "r12"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r11",
+        "r13",
+        "r14"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This map gives a picture of the population in the dif- ferent states of the United States of America today. The scale of the map is the same as that used for Europe on",
+      "x": 0.107,
+      "y": 0.0451,
+      "w": 0.8178,
+      "h": 0.0727,
+      "words": [
+        "This",
+        "map",
+        "gives",
+        "a",
+        "picture",
+        "of",
+        "the",
+        "population",
+        "in",
+        "the",
+        "dif-",
+        "ferent",
+        "states",
+        "of",
+        "the",
+        "United",
+        "States",
+        "of",
+        "America",
+        "today.",
+        "The",
+        "scale",
+        "of",
+        "the",
+        "map",
+        "is",
+        "the",
+        "same",
+        "as",
+        "that",
+        "used",
+        "for",
+        "Europe",
+        "on"
+      ],
+      "conf": 95.99,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "page",
+      "x": 0.1079,
+      "y": 0.1279,
+      "w": 0.0661,
+      "h": 0.0154,
+      "words": [
+        "page"
+      ],
+      "conf": 96.2417,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "If you look at the two you will see that the U.S.A. is not",
+      "x": 0.1095,
+      "y": 0.1736,
+      "w": 0.8161,
+      "h": 0.0223,
+      "words": [
+        "If",
+        "you",
+        "look",
+        "at",
+        "the",
+        "two",
+        "you",
+        "will",
+        "see",
+        "that",
+        "the",
+        "U.S.A.",
+        "is",
+        "not"
+      ],
+      "conf": 96.1689,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "much smaller than all of Europe.",
+      "x": 0.1087,
+      "y": 0.2006,
+      "w": 0.4816,
+      "h": 0.0207,
+      "words": [
+        "much",
+        "smaller",
+        "than",
+        "all",
+        "of",
+        "Europe."
+      ],
+      "conf": 95.5194,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "LF",
+      "x": 0.648,
+      "y": 0.3344,
+      "w": 0.0585,
+      "h": 0.0271,
+      "words": [
+        "LF"
+      ],
+      "conf": 44.1791,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "LN",
+      "x": 0.5753,
+      "y": 0.3593,
+      "w": 0.0844,
+      "h": 0.0133,
+      "words": [
+        "LN"
+      ],
+      "conf": 39.2812,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "ZZ",
+      "x": 0.3921,
+      "y": 0.4273,
+      "w": 0.0794,
+      "h": 0.035,
+      "words": [
+        "ZZ"
+      ],
+      "conf": 43.3884,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "scale: one inch on this line represents a mile. The scale used is one inch",
+      "x": 0.107,
+      "y": 0.7606,
+      "w": 0.8127,
+      "h": 0.0154,
+      "words": [
+        "scale:",
+        "one",
+        "inch",
+        "on",
+        "this",
+        "line",
+        "represents",
+        "a",
+        "mile.",
+        "The",
+        "scale",
+        "used",
+        "is",
+        "one",
+        "inch"
+      ],
+      "conf": 95.4859,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "to a mile.",
+      "x": 0.1614,
+      "y": 0.7787,
+      "w": 0.1045,
+      "h": 0.0117,
+      "words": [
+        "to",
+        "a",
+        "mile."
+      ],
+      "conf": 92.072,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "miles look: take a look.",
+      "x": 0.0761,
+      "y": 0.8031,
+      "w": 0.2316,
+      "h": 0.0302,
+      "words": [
+        "miles",
+        "look:",
+        "take",
+        "a",
+        "look."
+      ],
+      "conf": 95.8887,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "The scate Is one inch toa alle.",
+      "x": 0.3671,
+      "y": 0.8163,
+      "w": 0.2968,
+      "h": 0.0122,
+      "words": [
+        "The",
+        "scate",
+        "Is",
+        "one",
+        "inch",
+        "toa",
+        "alle."
+      ],
+      "conf": 91.5668,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "will look",
+      "x": 0.1062,
+      "y": 0.8498,
+      "w": 0.107,
+      "h": 0.0127,
+      "words": [
+        "will",
+        "look"
+      ],
+      "conf": 93.4817,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "took(s)",
+      "x": 0.4666,
+      "y": 0.8503,
+      "w": 0.0928,
+      "h": 0.0159,
+      "words": [
+        "took(s)"
+      ],
+      "conf": 53.4382,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "looked",
+      "x": 0.8386,
+      "y": 0.8503,
+      "w": 0.0819,
+      "h": 0.0127,
+      "words": [
+        "looked"
+      ],
+      "conf": 95.993,
+      "source": "psm-11"
+    }
+  ]
+}

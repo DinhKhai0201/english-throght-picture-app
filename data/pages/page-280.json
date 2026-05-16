@@ -1,0 +1,333 @@
+{
+  "page": 280,
+  "image": "/books/page 280.png",
+  "imageApiPath": "/api/books/page%20280.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 14,
+    "wordCount": 81,
+    "imageWidth": 1159,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r5",
+        "r7",
+        "r8"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r4",
+        "r6",
+        "r9"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r12",
+        "r14"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r11",
+        "r13"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Eve saw the app",
+      "x": 0.1329,
+      "y": 0.0992,
+      "w": 0.2571,
+      "h": 0.0229,
+      "words": [
+        "Eve",
+        "saw",
+        "the",
+        "app"
+      ],
+      "conf": 96.6441,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "The apple was seen It was taken by her.",
+      "x": 0.5557,
+      "y": 0.1493,
+      "w": 0.3071,
+      "h": 0.0742,
+      "words": [
+        "The",
+        "apple",
+        "was",
+        "seen",
+        "It",
+        "was",
+        "taken",
+        "by",
+        "her."
+      ],
+      "conf": 96.611,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "er.",
+      "x": 0.6264,
+      "y": 0.1819,
+      "w": 0.0397,
+      "h": 0.0117,
+      "words": [
+        "er."
+      ],
+      "conf": 92.7191,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "It was given by her to Adam.",
+      "x": 0.5574,
+      "y": 0.2251,
+      "w": 0.3313,
+      "h": 0.0448,
+      "words": [
+        "It",
+        "was",
+        "given",
+        "by",
+        "her",
+        "to",
+        "Adam."
+      ],
+      "conf": 94.2005,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "She took it.",
+      "x": 0.1363,
+      "y": 0.2539,
+      "w": 0.176,
+      "h": 0.0187,
+      "words": [
+        "She",
+        "took",
+        "it."
+      ],
+      "conf": 96.7358,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "These things were done by Eve.",
+      "x": 0.5574,
+      "y": 0.2747,
+      "w": 0.3598,
+      "h": 0.0496,
+      "words": [
+        "These",
+        "things",
+        "were",
+        "done",
+        "by",
+        "Eve."
+      ],
+      "conf": 96.5153,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "She gave it to Adam.",
+      "x": 0.1493,
+      "y": 0.3248,
+      "w": 0.3313,
+      "h": 0.0229,
+      "words": [
+        "She",
+        "gave",
+        "it",
+        "to",
+        "Adam."
+      ],
+      "conf": 96.0999,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Eve did these things.",
+      "x": 0.151,
+      "y": 0.3504,
+      "w": 0.321,
+      "h": 0.0235,
+      "words": [
+        "Eve",
+        "did",
+        "these",
+        "things."
+      ],
+      "conf": 96.3215,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Of HF",
+      "x": 0.4892,
+      "y": 0.4827,
+      "w": 0.0828,
+      "h": 0.0133,
+      "words": [
+        "Of",
+        "HF"
+      ],
+      "conf": 51.2853,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "We may say this in two She saw the apple and",
+      "x": 0.1165,
+      "y": 0.5995,
+      "w": 0.3632,
+      "h": 0.0752,
+      "words": [
+        "We",
+        "may",
+        "say",
+        "this",
+        "in",
+        "two",
+        "She",
+        "saw",
+        "the",
+        "apple",
+        "and"
+      ],
+      "conf": 96.2228,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "This may be said in two ways.",
+      "x": 0.5462,
+      "y": 0.5995,
+      "w": 0.3623,
+      "h": 0.0491,
+      "words": [
+        "This",
+        "may",
+        "be",
+        "said",
+        "in",
+        "two",
+        "ways."
+      ],
+      "conf": 96.4166,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "ways.",
+      "x": 0.1182,
+      "y": 0.6325,
+      "w": 0.0863,
+      "h": 0.016,
+      "words": [
+        "ways."
+      ],
+      "conf": 68.9802,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "The apple was seen by Eve, and taken and given by her to Adam.",
+      "x": 0.5444,
+      "y": 0.6496,
+      "w": 0.3616,
+      "h": 0.0747,
+      "words": [
+        "The",
+        "apple",
+        "was",
+        "seen",
+        "by",
+        "Eve,",
+        "and",
+        "taken",
+        "and",
+        "given",
+        "by",
+        "her",
+        "to",
+        "Adam."
+      ],
+      "conf": 96.6336,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "took it and gave it to Adam.",
+      "x": 0.1173,
+      "y": 0.6763,
+      "w": 0.3253,
+      "h": 0.0448,
+      "words": [
+        "took",
+        "it",
+        "and",
+        "gave",
+        "it",
+        "to",
+        "Adam."
+      ],
+      "conf": 95.9019,
+      "source": "psm-11"
+    }
+  ]
+}

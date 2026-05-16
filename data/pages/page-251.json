@@ -1,0 +1,295 @@
+{
+  "page": 251,
+  "image": "/books/page 251.png",
+  "imageApiPath": "/api/books/page%20251.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 12,
+    "wordCount": 101,
+    "imageWidth": 1205,
+    "imageHeight": 1805
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This man is tall",
+      "x": 0.5693,
+      "y": 0.1175,
+      "w": 0.2241,
+      "h": 0.0199,
+      "words": [
+        "This",
+        "man",
+        "is",
+        "tall"
+      ],
+      "conf": 96.4488,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "We see things with our eyes. We see the sizes and colors of things Sometimes things seem to our eyes greater or smaller than they are.",
+      "x": 0.1253,
+      "y": 0.1662,
+      "w": 0.3444,
+      "h": 0.1534,
+      "words": [
+        "We",
+        "see",
+        "things",
+        "with",
+        "our",
+        "eyes.",
+        "We",
+        "see",
+        "the",
+        "sizes",
+        "and",
+        "colors",
+        "of",
+        "things",
+        "Sometimes",
+        "things",
+        "seem",
+        "to",
+        "our",
+        "eyes",
+        "greater",
+        "or",
+        "smaller",
+        "than",
+        "they",
+        "are."
+      ],
+      "conf": 96.0807,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This.man is short",
+      "x": 0.6141,
+      "y": 0.2194,
+      "w": 0.2481,
+      "h": 0.0188,
+      "words": [
+        "This.man",
+        "is",
+        "short"
+      ],
+      "conf": 95.0183,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "They are not what they i This is a tall woman.",
+      "x": 0.1278,
+      "y": 0.3191,
+      "w": 0.6863,
+      "h": 0.0554,
+      "words": [
+        "They",
+        "are",
+        "not",
+        "what",
+        "they",
+        "i",
+        "This",
+        "is",
+        "a",
+        "tall",
+        "woman."
+      ],
+      "conf": 80.6064,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "seem,",
+      "x": 0.1278,
+      "y": 0.354,
+      "w": 0.0846,
+      "h": 0.0139,
+      "words": [
+        "seem,"
+      ],
+      "conf": 85.1553,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "t This is a short woman",
+      "x": 0.4971,
+      "y": 0.4715,
+      "w": 0.351,
+      "h": 0.0211,
+      "words": [
+        "t",
+        "This",
+        "is",
+        "a",
+        "short",
+        "woman"
+      ],
+      "conf": 93.7014,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Here are two men Do they seem the same size?",
+      "x": 0.1245,
+      "y": 0.5191,
+      "w": 0.3444,
+      "h": 0.0693,
+      "words": [
+        "Here",
+        "are",
+        "two",
+        "men",
+        "Do",
+        "they",
+        "seem",
+        "the",
+        "same",
+        "size?"
+      ],
+      "conf": 96.3299,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Which of them seems taller?",
+      "x": 0.5369,
+      "y": 0.5651,
+      "w": 0.3203,
+      "h": 0.0448,
+      "words": [
+        "Which",
+        "of",
+        "them",
+        "seems",
+        "taller?"
+      ],
+      "conf": 96.2083,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Does the man who is",
+      "x": 0.5394,
+      "y": 0.6161,
+      "w": 0.3087,
+      "h": 0.0266,
+      "words": [
+        "Does",
+        "the",
+        "man",
+        "who",
+        "is"
+      ],
+      "conf": 87.6802,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "farther seem taller",
+      "x": 0.5386,
+      "y": 0.6393,
+      "w": 0.2772,
+      "h": 0.0244,
+      "words": [
+        "farther",
+        "seem",
+        "taller"
+      ],
+      "conf": 96.5381,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "than the man who is nearer?",
+      "x": 0.5386,
+      "y": 0.6615,
+      "w": 0.3046,
+      "h": 0.0515,
+      "words": [
+        "than",
+        "the",
+        "man",
+        "who",
+        "is",
+        "nearer?"
+      ],
+      "conf": 96.5888,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "The pictures of them are the same size The lines in the picture make the man who is nearer seem shorter.",
+      "x": 0.5394,
+      "y": 0.7191,
+      "w": 0.3378,
+      "h": 0.1225,
+      "words": [
+        "The",
+        "pictures",
+        "of",
+        "them",
+        "are",
+        "the",
+        "same",
+        "size",
+        "The",
+        "lines",
+        "in",
+        "the",
+        "picture",
+        "make",
+        "the",
+        "man",
+        "who",
+        "is",
+        "nearer",
+        "seem",
+        "shorter."
+      ],
+      "conf": 96.6988,
+      "source": "psm-11"
+    }
+  ]
+}

@@ -1,0 +1,759 @@
+{
+  "page": 179,
+  "image": "/books/page 179.png",
+  "imageApiPath": "/api/books/page%20179.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 35,
+    "wordCount": 213,
+    "imageWidth": 1234,
+    "imageHeight": 1825
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5",
+        "r8",
+        "r10",
+        "r13",
+        "r15"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r6",
+        "r7",
+        "r9",
+        "r11",
+        "r12",
+        "r14",
+        "r16"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r18",
+        "r20",
+        "r21",
+        "r24",
+        "r25",
+        "r27",
+        "r29",
+        "r34",
+        "r35"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r17",
+        "r19",
+        "r22",
+        "r23",
+        "r26",
+        "r28",
+        "r30",
+        "r31",
+        "r32",
+        "r33"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Answers to questions on pages Page a Wall B is thicker.",
+      "x": 0.1086,
+      "y": 0.097,
+      "w": 0.5348,
+      "h": 0.0861,
+      "words": [
+        "Answers",
+        "to",
+        "questions",
+        "on",
+        "pages",
+        "Page",
+        "a",
+        "Wall",
+        "B",
+        "is",
+        "thicker."
+      ],
+      "conf": 96.3933,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "b Cut B is wider.",
+      "x": 0.5486,
+      "y": 0.1578,
+      "w": 0.2107,
+      "h": 0.0241,
+      "words": [
+        "b",
+        "Cut",
+        "B",
+        "is",
+        "wider."
+      ],
+      "conf": 93.537,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Nail A is longer.",
+      "x": 0.1402,
+      "y": 0.1896,
+      "w": 0.2042,
+      "h": 0.0252,
+      "words": [
+        "Nail",
+        "A",
+        "is",
+        "longer."
+      ],
+      "conf": 90.4581,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "d The man who is on his feet is stronger.",
+      "x": 0.5486,
+      "y": 0.1901,
+      "w": 0.363,
+      "h": 0.0422,
+      "words": [
+        "d",
+        "The",
+        "man",
+        "who",
+        "is",
+        "on",
+        "his",
+        "feet",
+        "is",
+        "stronger."
+      ],
+      "conf": 95.6729,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Pencil B is shorter.",
+      "x": 0.1418,
+      "y": 0.2433,
+      "w": 0.2245,
+      "h": 0.017,
+      "words": [
+        "Pencil",
+        "B",
+        "is",
+        "shorter."
+      ],
+      "conf": 93.9985,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Card B is longer.",
+      "x": 0.581,
+      "y": 0.24,
+      "w": 0.2107,
+      "h": 0.0247,
+      "words": [
+        "Card",
+        "B",
+        "is",
+        "longer."
+      ],
+      "conf": 87.4526,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Card A is wider.",
+      "x": 0.5802,
+      "y": 0.2625,
+      "w": 0.205,
+      "h": 0.0236,
+      "words": [
+        "Card",
+        "A",
+        "is",
+        "wider."
+      ],
+      "conf": 94.906,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "g Angle C is a right angle.",
+      "x": 0.1062,
+      "y": 0.2926,
+      "w": 0.3428,
+      "h": 0.0252,
+      "words": [
+        "g",
+        "Angle",
+        "C",
+        "is",
+        "a",
+        "right",
+        "angle."
+      ],
+      "conf": 81.4658,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "h The cup, the hammer, and the plate are broken.",
+      "x": 0.5478,
+      "y": 0.2942,
+      "w": 0.3639,
+      "h": 0.0423,
+      "words": [
+        "h",
+        "The",
+        "cup,",
+        "the",
+        "hammer,",
+        "and",
+        "the",
+        "plate",
+        "are",
+        "broken."
+      ],
+      "conf": 96.2039,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Page He is going up the steps.",
+      "x": 0.1102,
+      "y": 0.3436,
+      "w": 0.3388,
+      "h": 0.0521,
+      "words": [
+        "Page",
+        "He",
+        "is",
+        "going",
+        "up",
+        "the",
+        "steps."
+      ],
+      "conf": 95.9632,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "b She is going down",
+      "x": 0.547,
+      "y": 0.3726,
+      "w": 0.265,
+      "h": 0.0208,
+      "words": [
+        "b",
+        "She",
+        "is",
+        "going",
+        "down"
+      ],
+      "conf": 95.0021,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "steps.",
+      "x": 0.628,
+      "y": 0.3973,
+      "w": 0.0689,
+      "h": 0.017,
+      "words": [
+        "steps."
+      ],
+      "conf": 96.2185,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "He is putting o nail in with a hammer.",
+      "x": 0.141,
+      "y": 0.4225,
+      "w": 0.3314,
+      "h": 0.0388,
+      "words": [
+        "He",
+        "is",
+        "putting",
+        "o",
+        "nail",
+        "in",
+        "with",
+        "a",
+        "hammer."
+      ],
+      "conf": 93.2203,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "d He is taking a nail out with a hammer.",
+      "x": 0.5494,
+      "y": 0.423,
+      "w": 0.3209,
+      "h": 0.0383,
+      "words": [
+        "d",
+        "He",
+        "is",
+        "taking",
+        "a",
+        "nail",
+        "out",
+        "with",
+        "a",
+        "hammer."
+      ],
+      "conf": 94.8081,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "He is measuring o box.",
+      "x": 0.1418,
+      "y": 0.4729,
+      "w": 0.2925,
+      "h": 0.0247,
+      "words": [
+        "He",
+        "is",
+        "measuring",
+        "o",
+        "box."
+      ],
+      "conf": 90.7089,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "She is putting a thread",
+      "x": 0.5827,
+      "y": 0.4745,
+      "w": 0.3023,
+      "h": 0.0208,
+      "words": [
+        "She",
+        "is",
+        "putting",
+        "a",
+        "thread"
+      ],
+      "conf": 96.2289,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "through the hole in a needle.",
+      "x": 0.581,
+      "y": 0.4964,
+      "w": 0.2731,
+      "h": 0.0389,
+      "words": [
+        "through",
+        "the",
+        "hole",
+        "in",
+        "a",
+        "needle."
+      ],
+      "conf": 94.6712,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "She is taking the end of the thread between her finger and thumb.",
+      "x": 0.1434,
+      "y": 0.5342,
+      "w": 0.3056,
+      "h": 0.0773,
+      "words": [
+        "She",
+        "is",
+        "taking",
+        "the",
+        "end",
+        "of",
+        "the",
+        "thread",
+        "between",
+        "her",
+        "finger",
+        "and",
+        "thumb."
+      ],
+      "conf": 96.7535,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "h She is putting a button on with a needle and thread.",
+      "x": 0.5519,
+      "y": 0.5485,
+      "w": 0.3639,
+      "h": 0.04,
+      "words": [
+        "h",
+        "She",
+        "is",
+        "putting",
+        "a",
+        "button",
+        "on",
+        "with",
+        "a",
+        "needle",
+        "and",
+        "thread."
+      ],
+      "conf": 96.0255,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "Page A a atrain",
+      "x": 0.1045,
+      "y": 0.6389,
+      "w": 0.1532,
+      "h": 0.046,
+      "words": [
+        "Page",
+        "A",
+        "a",
+        "atrain"
+      ],
+      "conf": 96.8274,
+      "source": "psm-11"
+    },
+    {
+      "id": "r21",
+      "order": 20,
+      "text": "b its engine i a star",
+      "x": 0.141,
+      "y": 0.6674,
+      "w": 0.3355,
+      "h": 0.0592,
+      "words": [
+        "b",
+        "its",
+        "engine",
+        "i",
+        "a",
+        "star"
+      ],
+      "conf": 94.9577,
+      "source": "psm-11"
+    },
+    {
+      "id": "r22",
+      "order": 21,
+      "text": "d a seat g mountains",
+      "x": 0.5381,
+      "y": 0.6712,
+      "w": 0.3427,
+      "h": 0.039,
+      "words": [
+        "d",
+        "a",
+        "seat",
+        "g",
+        "mountains"
+      ],
+      "conf": 88.4429,
+      "source": "psm-11"
+    },
+    {
+      "id": "r23",
+      "order": 22,
+      "text": "plane",
+      "x": 0.6434,
+      "y": 0.6701,
+      "w": 0.0713,
+      "h": 0.0197,
+      "words": [
+        "plane"
+      ],
+      "conf": 96.5184,
+      "source": "psm-11"
+    },
+    {
+      "id": "r24",
+      "order": 23,
+      "text": "a tlower ma pig",
+      "x": 0.1426,
+      "y": 0.6948,
+      "w": 0.3177,
+      "h": 0.0658,
+      "words": [
+        "a",
+        "tlower",
+        "ma",
+        "pig"
+      ],
+      "conf": 74.6294,
+      "source": "psm-11"
+    },
+    {
+      "id": "r25",
+      "order": 24,
+      "text": "a cloud",
+      "x": 0.3501,
+      "y": 0.7112,
+      "w": 0.0956,
+      "h": 0.0159,
+      "words": [
+        "a",
+        "cloud"
+      ],
+      "conf": 46.0051,
+      "source": "psm-11"
+    },
+    {
+      "id": "r26",
+      "order": 25,
+      "text": "h trees k the sun",
+      "x": 0.5381,
+      "y": 0.6921,
+      "w": 0.3217,
+      "h": 0.0366,
+      "words": [
+        "h",
+        "trees",
+        "k",
+        "the",
+        "sun"
+      ],
+      "conf": 94.6499,
+      "source": "psm-11"
+    },
+    {
+      "id": "r27",
+      "order": 26,
+      "text": "n a sheep qa wy trousers y scissors",
+      "x": 0.1418,
+      "y": 0.7321,
+      "w": 0.3136,
+      "h": 0.086,
+      "words": [
+        "n",
+        "a",
+        "sheep",
+        "qa",
+        "wy",
+        "trousers",
+        "y",
+        "scissors"
+      ],
+      "conf": 83.4155,
+      "source": "psm-11"
+    },
+    {
+      "id": "r28",
+      "order": 27,
+      "text": "the moon a horse w a knife",
+      "x": 0.5357,
+      "y": 0.714,
+      "w": 0.3849,
+      "h": 0.0805,
+      "words": [
+        "the",
+        "moon",
+        "a",
+        "horse",
+        "w",
+        "a",
+        "knife"
+      ],
+      "conf": 92.5827,
+      "source": "psm-11"
+    },
+    {
+      "id": "r29",
+      "order": 28,
+      "text": "v acup Airplanes and birds go through the air.",
+      "x": 0.1434,
+      "y": 0.7797,
+      "w": 0.5,
+      "h": 0.0712,
+      "words": [
+        "v",
+        "acup",
+        "Airplanes",
+        "and",
+        "birds",
+        "go",
+        "through",
+        "the",
+        "air."
+      ],
+      "conf": 84.8297,
+      "source": "psm-11"
+    },
+    {
+      "id": "r30",
+      "order": 29,
+      "text": "a coat",
+      "x": 0.5697,
+      "y": 0.76,
+      "w": 0.0843,
+      "h": 0.0126,
+      "words": [
+        "a",
+        "coat"
+      ],
+      "conf": 92.1266,
+      "source": "psm-11"
+    },
+    {
+      "id": "r31",
+      "order": 30,
+      "text": "t abird",
+      "x": 0.7674,
+      "y": 0.7578,
+      "w": 0.1102,
+      "h": 0.0159,
+      "words": [
+        "t",
+        "abird"
+      ],
+      "conf": 91.5643,
+      "source": "psm-11"
+    },
+    {
+      "id": "r32",
+      "order": 31,
+      "text": "p acow x Spoon",
+      "x": 0.7682,
+      "y": 0.7408,
+      "w": 0.1305,
+      "h": 0.0592,
+      "words": [
+        "p",
+        "acow",
+        "x",
+        "Spoon"
+      ],
+      "conf": 87.6559,
+      "source": "psm-11"
+    },
+    {
+      "id": "r33",
+      "order": 32,
+      "text": "C Pigs, sheep, horses, cows, dogs, birds, and goats go on",
+      "x": 0.1053,
+      "y": 0.857,
+      "w": 0.8128,
+      "h": 0.0203,
+      "words": [
+        "C",
+        "Pigs,",
+        "sheep,",
+        "horses,",
+        "cows,",
+        "dogs,",
+        "birds,",
+        "and",
+        "goats",
+        "go",
+        "on"
+      ],
+      "conf": 95.8698,
+      "source": "psm-11"
+    },
+    {
+      "id": "r34",
+      "order": 33,
+      "text": "their feet.",
+      "x": 0.1451,
+      "y": 0.8784,
+      "w": 0.1264,
+      "h": 0.0164,
+      "words": [
+        "their",
+        "feet."
+      ],
+      "conf": 96.8465,
+      "source": "psm-11"
+    },
+    {
+      "id": "r35",
+      "order": 34,
+      "text": "D Ships and some birds go on the water,",
+      "x": 0.1086,
+      "y": 0.9047,
+      "w": 0.5235,
+      "h": 0.0197,
+      "words": [
+        "D",
+        "Ships",
+        "and",
+        "some",
+        "birds",
+        "go",
+        "on",
+        "the",
+        "water,"
+      ],
+      "conf": 95.8833,
+      "source": "psm-11"
+    }
+  ]
+}

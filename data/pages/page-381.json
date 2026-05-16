@@ -1,0 +1,429 @@
+{
+  "page": 381,
+  "image": "/books/page 381.png",
+  "imageApiPath": "/api/books/page%20381.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 15,
+    "wordCount": 163,
+    "imageWidth": 1188,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r4",
+        "r6"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r14",
+        "r15"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r13"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "There is a good story about the use the great Italian scientist Galileo once made of his knowled pulse rate.",
+      "x": 0.1077,
+      "y": 0.0305,
+      "w": 0.5051,
+      "h": 0.1072,
+      "words": [
+        "There",
+        "is",
+        "a",
+        "good",
+        "story",
+        "about",
+        "the",
+        "use",
+        "the",
+        "great",
+        "Italian",
+        "scientist",
+        "Galileo",
+        "once",
+        "made",
+        "of",
+        "his",
+        "knowled",
+        "pulse",
+        "rate."
+      ],
+      "conf": 95.8165,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "dge of the",
+      "x": 0.4672,
+      "y": 0.09,
+      "w": 0.1448,
+      "h": 0.0354,
+      "words": [
+        "dge",
+        "of",
+        "the"
+      ],
+      "conf": 93.004,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Galileo lived three hundred years ago before men had watches for measuring time.",
+      "x": 0.1111,
+      "y": 0.2341,
+      "w": 0.4167,
+      "h": 0.0744,
+      "words": [
+        "Galileo",
+        "lived",
+        "three",
+        "hundred",
+        "years",
+        "ago",
+        "before",
+        "men",
+        "had",
+        "watches",
+        "for",
+        "measuring",
+        "time."
+      ],
+      "conf": 94.6277,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "In the sixteenth century there were very few clocks in the world and no watches.",
+      "x": 0.1103,
+      "y": 0.3123,
+      "w": 0.4175,
+      "h": 0.0701,
+      "words": [
+        "In",
+        "the",
+        "sixteenth",
+        "century",
+        "there",
+        "were",
+        "very",
+        "few",
+        "clocks",
+        "in",
+        "the",
+        "world",
+        "and",
+        "no",
+        "watches."
+      ],
+      "conf": 96.8114,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "ATS",
+      "x": 0.5286,
+      "y": 0.4537,
+      "w": 0.0488,
+      "h": 0.0182,
+      "words": [
+        "ATS"
+      ],
+      "conf": 56.32,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "One day when Galileo",
+      "x": 0.1128,
+      "y": 0.4772,
+      "w": 0.3754,
+      "h": 0.0214,
+      "words": [
+        "One",
+        "day",
+        "when",
+        "Galileo"
+      ],
+      "conf": 95.0778,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "was a young man of eight- een, he was in the great church of the city of Pisa where he lived. Watching",
+      "x": 0.1128,
+      "y": 0.504,
+      "w": 0.3763,
+      "h": 0.0997,
+      "words": [
+        "was",
+        "a",
+        "young",
+        "man",
+        "of",
+        "eight-",
+        "een,",
+        "he",
+        "was",
+        "in",
+        "the",
+        "great",
+        "church",
+        "of",
+        "the",
+        "city",
+        "of",
+        "Pisa",
+        "where",
+        "he",
+        "lived.",
+        "Watching"
+      ],
+      "conf": 95.5881,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "the motion of a light hanging down on a long chain from the roof high above his head, he saw that as the light moved forward and back on its chain, it seemed to take",
+      "x": 0.1094,
+      "y": 0.6063,
+      "w": 0.8291,
+      "h": 0.0782,
+      "words": [
+        "the",
+        "motion",
+        "of",
+        "a",
+        "light",
+        "hanging",
+        "down",
+        "on",
+        "a",
+        "long",
+        "chain",
+        "from",
+        "the",
+        "roof",
+        "high",
+        "above",
+        "his",
+        "head,",
+        "he",
+        "saw",
+        "that",
+        "as",
+        "the",
+        "light",
+        "moved",
+        "forward",
+        "and",
+        "back",
+        "on",
+        "its",
+        "chain,",
+        "it",
+        "seemed",
+        "to",
+        "take"
+      ],
+      "conf": 96.4407,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "the same time between turns, however far it went.",
+      "x": 0.112,
+      "y": 0.6872,
+      "w": 0.7416,
+      "h": 0.0209,
+      "words": [
+        "the",
+        "same",
+        "time",
+        "between",
+        "turns,",
+        "however",
+        "far",
+        "it",
+        "went."
+      ],
+      "conf": 96.6688,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "forward: to the front.",
+      "x": 0.1153,
+      "y": 0.7456,
+      "w": 0.2584,
+      "h": 0.0134,
+      "words": [
+        "forward:",
+        "to",
+        "the",
+        "front."
+      ],
+      "conf": 92.8923,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "once: at one time in the past.",
+      "x": 0.1162,
+      "y": 0.729,
+      "w": 0.3325,
+      "h": 0.015,
+      "words": [
+        "once:",
+        "at",
+        "one",
+        "time",
+        "in",
+        "the",
+        "past."
+      ],
+      "conf": 94.8075,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "chala: support made of mefa! rings going through one another.",
+      "x": 0.1136,
+      "y": 0.7761,
+      "w": 0.734,
+      "h": 0.0155,
+      "words": [
+        "chala:",
+        "support",
+        "made",
+        "of",
+        "mefa!",
+        "rings",
+        "going",
+        "through",
+        "one",
+        "another."
+      ],
+      "conf": 89.2691,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "however for: when it went only o short distance and when it weat o",
+      "x": 0.1145,
+      "y": 0.8163,
+      "w": 0.8232,
+      "h": 0.0198,
+      "words": [
+        "however",
+        "for:",
+        "when",
+        "it",
+        "went",
+        "only",
+        "o",
+        "short",
+        "distance",
+        "and",
+        "when",
+        "it",
+        "weat",
+        "o"
+      ],
+      "conf": 85.7105,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "however: ln whatever woy.",
+      "x": 0.1145,
+      "y": 0.8522,
+      "w": 0.319,
+      "h": 0.0204,
+      "words": [
+        "however:",
+        "ln",
+        "whatever",
+        "woy."
+      ],
+      "conf": 80.8837,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "longer distance.",
+      "x": 0.1709,
+      "y": 0.8372,
+      "w": 0.1835,
+      "h": 0.015,
+      "words": [
+        "longer",
+        "distance."
+      ],
+      "conf": 93.9899,
+      "source": "psm-11"
+    }
+  ]
+}

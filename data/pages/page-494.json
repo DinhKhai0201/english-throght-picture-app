@@ -1,0 +1,329 @@
+{
+  "page": 494,
+  "image": "/books/page 494.png",
+  "imageApiPath": "/api/books/page%20494.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 12,
+    "wordCount": 105,
+    "imageWidth": 1196,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r10",
+        "r12"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8",
+        "r9",
+        "r11"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Let this curving line represent growth from simple to",
+      "x": 0.1054,
+      "y": 0.036,
+      "w": 0.8186,
+      "h": 0.0221,
+      "words": [
+        "Let",
+        "this",
+        "curving",
+        "line",
+        "represent",
+        "growth",
+        "from",
+        "simple",
+        "to"
+      ],
+      "conf": 96.4176,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "complex in the world.",
+      "x": 0.1054,
+      "y": 0.0624,
+      "w": 0.3085,
+      "h": 0.0215,
+      "words": [
+        "complex",
+        "in",
+        "the",
+        "world."
+      ],
+      "conf": 96.7165,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "COMPLEX",
+      "x": 0.7651,
+      "y": 0.1732,
+      "w": 0.0936,
+      "h": 0.0113,
+      "words": [
+        "COMPLEX"
+      ],
+      "conf": 96.4488,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "PAST",
+      "x": 0.1773,
+      "y": 0.3932,
+      "w": 0.0477,
+      "h": 0.0102,
+      "words": [
+        "PAST"
+      ],
+      "conf": 96.465,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "PAST SIMPLE",
+      "x": 0.1773,
+      "y": 0.3911,
+      "w": 0.6814,
+      "h": 0.0178,
+      "words": [
+        "PAST",
+        "SIMPLE"
+      ],
+      "conf": 81.0191,
+      "source": "psm-6"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "In this picture the past is to the left and we men of today",
+      "x": 0.1012,
+      "y": 0.546,
+      "w": 0.8169,
+      "h": 0.0221,
+      "words": [
+        "In",
+        "this",
+        "picture",
+        "the",
+        "past",
+        "is",
+        "to",
+        "the",
+        "left",
+        "and",
+        "we",
+        "men",
+        "of",
+        "today"
+      ],
+      "conf": 96.7243,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "are at the top of the curve.",
+      "x": 0.1003,
+      "y": 0.5729,
+      "w": 0.3687,
+      "h": 0.0215,
+      "words": [
+        "are",
+        "at",
+        "the",
+        "top",
+        "of",
+        "the",
+        "curve."
+      ],
+      "conf": 96.7737,
+      "source": "psm-6"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Long, long ago, the only sorts of changes that took place were—so men of science say—very simple in comparison",
+      "x": 0.1003,
+      "y": 0.6573,
+      "w": 0.8177,
+      "h": 0.0485,
+      "words": [
+        "Long,",
+        "long",
+        "ago,",
+        "the",
+        "only",
+        "sorts",
+        "of",
+        "changes",
+        "that",
+        "took",
+        "place",
+        "were—so",
+        "men",
+        "of",
+        "science",
+        "say—very",
+        "simple",
+        "in",
+        "comparison"
+      ],
+      "conf": 96.6857,
+      "source": "psm-6"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "were—so men of science say—very simple in comparison with the changes which are taking place in you now as",
+      "x": 0.0987,
+      "y": 0.6832,
+      "w": 0.8194,
+      "h": 0.0484,
+      "words": [
+        "were—so",
+        "men",
+        "of",
+        "science",
+        "say—very",
+        "simple",
+        "in",
+        "comparison",
+        "with",
+        "the",
+        "changes",
+        "which",
+        "are",
+        "taking",
+        "place",
+        "in",
+        "you",
+        "now",
+        "as"
+      ],
+      "conf": 94.7151,
+      "source": "psm-6"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "you read this.",
+      "x": 0.1003,
+      "y": 0.7364,
+      "w": 0.1931,
+      "h": 0.0215,
+      "words": [
+        "you",
+        "read",
+        "this."
+      ],
+      "conf": 96.1236,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "The curve represents the change from simple to com- plex. The higher it goes the more complex are the sorts",
+      "x": 0.1003,
+      "y": 0.8241,
+      "w": 0.8195,
+      "h": 0.0485,
+      "words": [
+        "The",
+        "curve",
+        "represents",
+        "the",
+        "change",
+        "from",
+        "simple",
+        "to",
+        "com-",
+        "plex.",
+        "The",
+        "higher",
+        "it",
+        "goes",
+        "the",
+        "more",
+        "complex",
+        "are",
+        "the",
+        "sorts"
+      ],
+      "conf": 95.545,
+      "source": "psm-6"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "of changes which are taking place.",
+      "x": 0.1003,
+      "y": 0.8768,
+      "w": 0.4833,
+      "h": 0.0221,
+      "words": [
+        "of",
+        "changes",
+        "which",
+        "are",
+        "taking",
+        "place."
+      ],
+      "conf": 96.6912,
+      "source": "psm-11"
+    }
+  ]
+}

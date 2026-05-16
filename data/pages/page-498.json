@@ -1,0 +1,462 @@
+{
+  "page": 498,
+  "image": "/books/page 498.png",
+  "imageApiPath": "/api/books/page%20498.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 17,
+    "wordCount": 168,
+    "imageWidth": 1188,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r11",
+        "r12",
+        "r13",
+        "r14",
+        "r15"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r16",
+        "r17"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "In a camera, rays of light from whatever you are photo-",
+      "x": 0.1061,
+      "y": 0.0437,
+      "w": 0.8232,
+      "h": 0.0219,
+      "words": [
+        "In",
+        "a",
+        "camera,",
+        "rays",
+        "of",
+        "light",
+        "from",
+        "whatever",
+        "you",
+        "are",
+        "photo-"
+      ],
+      "conf": 95.7186,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "graphing make an upside down picture on the film.",
+      "x": 0.1052,
+      "y": 0.0693,
+      "w": 0.7332,
+      "h": 0.0219,
+      "words": [
+        "graphing",
+        "make",
+        "an",
+        "upside",
+        "down",
+        "picture",
+        "on",
+        "the",
+        "film."
+      ],
+      "conf": 96.4868,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "So it is inside your eye. The pictures made on the retina",
+      "x": 0.1027,
+      "y": 0.2752,
+      "w": 0.8258,
+      "h": 0.0229,
+      "words": [
+        "So",
+        "it",
+        "is",
+        "inside",
+        "your",
+        "eye.",
+        "The",
+        "pictures",
+        "made",
+        "on",
+        "the",
+        "retina"
+      ],
+      "conf": 96.7073,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "are upside down.",
+      "x": 0.1035,
+      "y": 0.3019,
+      "w": 0.2424,
+      "h": 0.0219,
+      "words": [
+        "are",
+        "upside",
+        "down."
+      ],
+      "conf": 96.2979,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Everything going on so far has been physical. But in your retina more sorts of changes now take",
+      "x": 0.1002,
+      "y": 0.5328,
+      "w": 0.8266,
+      "h": 0.048,
+      "words": [
+        "Everything",
+        "going",
+        "on",
+        "so",
+        "far",
+        "has",
+        "been",
+        "physical.",
+        "But",
+        "in",
+        "your",
+        "retina",
+        "more",
+        "sorts",
+        "of",
+        "changes",
+        "now",
+        "take"
+      ],
+      "conf": 96.4061,
+      "source": "psm-6"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "your retina more sorts of changes now take place. Some of these are chemical. Complex materials in",
+      "x": 0.0993,
+      "y": 0.5589,
+      "w": 0.8275,
+      "h": 0.0481,
+      "words": [
+        "your",
+        "retina",
+        "more",
+        "sorts",
+        "of",
+        "changes",
+        "now",
+        "take",
+        "place.",
+        "Some",
+        "of",
+        "these",
+        "are",
+        "chemical.",
+        "Complex",
+        "materials",
+        "in"
+      ],
+      "conf": 96.6152,
+      "source": "psm-6"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "place. Some of these are chemical. Complex materials in the retina go through chemical changes not very unlike",
+      "x": 0.0976,
+      "y": 0.5851,
+      "w": 0.8291,
+      "h": 0.048,
+      "words": [
+        "place.",
+        "Some",
+        "of",
+        "these",
+        "are",
+        "chemical.",
+        "Complex",
+        "materials",
+        "in",
+        "the",
+        "retina",
+        "go",
+        "through",
+        "chemical",
+        "changes",
+        "not",
+        "very",
+        "unlike"
+      ],
+      "conf": 96.5457,
+      "source": "psm-6"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "the retina go through chemical changes not very unlike those that make photographs on films and these changes",
+      "x": 0.0976,
+      "y": 0.6112,
+      "w": 0.8291,
+      "h": 0.0485,
+      "words": [
+        "the",
+        "retina",
+        "go",
+        "through",
+        "chemical",
+        "changes",
+        "not",
+        "very",
+        "unlike",
+        "those",
+        "that",
+        "make",
+        "photographs",
+        "on",
+        "films",
+        "and",
+        "these",
+        "changes"
+      ],
+      "conf": 96.4908,
+      "source": "psm-6"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "those that make photographs on films and these changes cause other much more complex sorts of changes in the",
+      "x": 0.0985,
+      "y": 0.6373,
+      "w": 0.8274,
+      "h": 0.048,
+      "words": [
+        "those",
+        "that",
+        "make",
+        "photographs",
+        "on",
+        "films",
+        "and",
+        "these",
+        "changes",
+        "cause",
+        "other",
+        "much",
+        "more",
+        "complex",
+        "sorts",
+        "of",
+        "changes",
+        "in",
+        "the"
+      ],
+      "conf": 96.3231,
+      "source": "psm-6"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "living cells of the retina.",
+      "x": 0.0976,
+      "y": 0.6896,
+      "w": 0.3384,
+      "h": 0.0208,
+      "words": [
+        "living",
+        "cells",
+        "of",
+        "the",
+        "retina."
+      ],
+      "conf": 96.8428,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "film: here is a roll of film ready to be put into a camera,",
+      "x": 0.1002,
+      "y": 0.7637,
+      "w": 0.4992,
+      "h": 0.031,
+      "words": [
+        "film:",
+        "here",
+        "is",
+        "a",
+        "roll",
+        "of",
+        "film",
+        "ready",
+        "to",
+        "be",
+        "put",
+        "into",
+        "a",
+        "camera,"
+      ],
+      "conf": 91.1227,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "into a camera,",
+      "x": 0.1566,
+      "y": 0.7824,
+      "w": 0.1574,
+      "h": 0.0123,
+      "words": [
+        "into",
+        "a",
+        "camera,"
+      ],
+      "conf": 88.743,
+      "source": "psm-6"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "here Is a roll of film ready to be put",
+      "x": 0.17,
+      "y": 0.7637,
+      "w": 0.4293,
+      "h": 0.0155,
+      "words": [
+        "here",
+        "Is",
+        "a",
+        "roll",
+        "of",
+        "film",
+        "ready",
+        "to",
+        "be",
+        "put"
+      ],
+      "conf": 93.2055,
+      "source": "psm-6"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "cause: be the cause of.",
+      "x": 0.101,
+      "y": 0.8256,
+      "w": 0.2626,
+      "h": 0.0128,
+      "words": [
+        "cause:",
+        "be",
+        "the",
+        "cause",
+        "of."
+      ],
+      "conf": 95.5837,
+      "source": "psm-6"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "will",
+      "x": 0.0976,
+      "y": 0.8539,
+      "w": 0.0556,
+      "h": 0.0192,
+      "words": [
+        "will"
+      ],
+      "conf": 96.0584,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "will cause cavse(s) caused",
+      "x": 0.101,
+      "y": 0.8501,
+      "w": 0.8266,
+      "h": 0.0219,
+      "words": [
+        "will",
+        "cause",
+        "cavse(s)",
+        "caused"
+      ],
+      "conf": 86.6552,
+      "source": "psm-6"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "cause(s)",
+      "x": 0.4815,
+      "y": 0.8544,
+      "w": 0.1094,
+      "h": 0.0155,
+      "words": [
+        "cause(s)"
+      ],
+      "conf": 81.0127,
+      "source": "psm-11"
+    }
+  ]
+}

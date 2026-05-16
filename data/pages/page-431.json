@@ -1,0 +1,688 @@
+{
+  "page": 431,
+  "image": "/books/page 431.png",
+  "imageApiPath": "/api/books/page%20431.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 31,
+    "wordCount": 198,
+    "imageWidth": 1242,
+    "imageHeight": 1850
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r4",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r13",
+        "r15"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3",
+        "r5",
+        "r11",
+        "r12",
+        "r14"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r16",
+        "r17",
+        "r18",
+        "r19",
+        "r20",
+        "r21",
+        "r23",
+        "r24",
+        "r26",
+        "r28",
+        "r29"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r22",
+        "r25",
+        "r27",
+        "r30",
+        "r31"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Great cities have theaters",
+      "x": 0.1272,
+      "y": 0.0605,
+      "w": 0.3551,
+      "h": 0.0178,
+      "words": [
+        "Great",
+        "cities",
+        "have",
+        "theaters"
+      ],
+      "conf": 96.5901,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Great cities have theaters ai",
+      "x": 0.1272,
+      "y": 0.0568,
+      "w": 0.5233,
+      "h": 0.0373,
+      "words": [
+        "Great",
+        "cities",
+        "have",
+        "theaters",
+        "ai"
+      ],
+      "conf": 85.5678,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "J.",
+      "x": 0.5233,
+      "y": 0.0465,
+      "w": 0.033,
+      "h": 0.0151,
+      "words": [
+        "J."
+      ],
+      "conf": 40.2373,
+      "source": "psm-6"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "where plays of the past and the present are acted.",
+      "x": 0.124,
+      "y": 0.087,
+      "w": 0.3575,
+      "h": 0.0476,
+      "words": [
+        "where",
+        "plays",
+        "of",
+        "the",
+        "past",
+        "and",
+        "the",
+        "present",
+        "are",
+        "acted."
+      ],
+      "conf": 96.6992,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "where plays of the pat O AB LP Dap B",
+      "x": 0.1264,
+      "y": 0.0805,
+      "w": 0.7874,
+      "h": 0.0281,
+      "words": [
+        "where",
+        "plays",
+        "of",
+        "the",
+        "pat",
+        "O",
+        "AB",
+        "LP",
+        "Dap",
+        "B"
+      ],
+      "conf": 73.0123,
+      "source": "psm-6"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "and the present are acted.",
+      "x": 0.124,
+      "y": 0.1135,
+      "w": 0.3551,
+      "h": 0.0211,
+      "words": [
+        "and",
+        "the",
+        "present",
+        "are",
+        "acted."
+      ],
+      "conf": 91.1765,
+      "source": "psm-6"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "They have music build-",
+      "x": 0.1248,
+      "y": 0.14,
+      "w": 0.3567,
+      "h": 0.0205,
+      "words": [
+        "They",
+        "have",
+        "music",
+        "build-"
+      ],
+      "conf": 94.1956,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "They have music build- fii",
+      "x": 0.1248,
+      "y": 0.1222,
+      "w": 0.6184,
+      "h": 0.0503,
+      "words": [
+        "They",
+        "have",
+        "music",
+        "build-",
+        "fii"
+      ],
+      "conf": 84.7044,
+      "source": "psm-6"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "ings where great works of A music are played. They have libraries where the best that has been thought and written can be found.",
+      "x": 0.1224,
+      "y": 0.1605,
+      "w": 0.6441,
+      "h": 0.1282,
+      "words": [
+        "ings",
+        "where",
+        "great",
+        "works",
+        "of",
+        "A",
+        "music",
+        "are",
+        "played.",
+        "They",
+        "have",
+        "libraries",
+        "where",
+        "the",
+        "best",
+        "that",
+        "has",
+        "been",
+        "thought",
+        "and",
+        "written",
+        "can",
+        "be",
+        "found."
+      ],
+      "conf": 93.1656,
+      "source": "psm-6"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "ings where great works of",
+      "x": 0.124,
+      "y": 0.1665,
+      "w": 0.3575,
+      "h": 0.0211,
+      "words": [
+        "ings",
+        "where",
+        "great",
+        "works",
+        "of"
+      ],
+      "conf": 96.5854,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "music are Played. They net id",
+      "x": 0.124,
+      "y": 0.187,
+      "w": 0.8052,
+      "h": 0.0422,
+      "words": [
+        "music",
+        "are",
+        "Played.",
+        "They",
+        "net",
+        "id"
+      ],
+      "conf": 76.2876,
+      "source": "psm-6"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "T od",
+      "x": 0.624,
+      "y": 0.2011,
+      "w": 0.0266,
+      "h": 0.0216,
+      "words": [
+        "T",
+        "od"
+      ],
+      "conf": 47.5305,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "and written can be found. ap",
+      "x": 0.1224,
+      "y": 0.2714,
+      "w": 0.6248,
+      "h": 0.0297,
+      "words": [
+        "and",
+        "written",
+        "can",
+        "be",
+        "found.",
+        "ap"
+      ],
+      "conf": 86.9482,
+      "source": "psm-6"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "Ld Hi",
+      "x": 0.529,
+      "y": 0.26,
+      "w": 0.1047,
+      "h": 0.0216,
+      "words": [
+        "Ld",
+        "Hi"
+      ],
+      "conf": 55.1616,
+      "source": "psm-6"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "Art and music and poetry",
+      "x": 0.1208,
+      "y": 0.48,
+      "w": 0.3567,
+      "h": 0.0216,
+      "words": [
+        "Art",
+        "and",
+        "music",
+        "and",
+        "poetry"
+      ],
+      "conf": 96.6163,
+      "source": "psm-6"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "come out of man’s great-",
+      "x": 0.1216,
+      "y": 0.507,
+      "w": 0.3543,
+      "h": 0.0205,
+      "words": [
+        "come",
+        "out",
+        "of",
+        "man’s",
+        "great-"
+      ],
+      "conf": 95.0804,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "come out of man’s great- Laing",
+      "x": 0.1216,
+      "y": 0.5027,
+      "w": 0.7029,
+      "h": 0.0351,
+      "words": [
+        "come",
+        "out",
+        "of",
+        "man’s",
+        "great-",
+        "Laing"
+      ],
+      "conf": 85.9512,
+      "source": "psm-6"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "est hours with himself",
+      "x": 0.1208,
+      "y": 0.5324,
+      "w": 0.3462,
+      "h": 0.0168,
+      "words": [
+        "est",
+        "hours",
+        "with",
+        "himself"
+      ],
+      "conf": 93.8474,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "est hours with himself, and give other men some",
+      "x": 0.1208,
+      "y": 0.5324,
+      "w": 0.3543,
+      "h": 0.0465,
+      "words": [
+        "est",
+        "hours",
+        "with",
+        "himself,",
+        "and",
+        "give",
+        "other",
+        "men",
+        "some"
+      ],
+      "conf": 96.2084,
+      "source": "psm-6"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "and give other men some yy",
+      "x": 0.1208,
+      "y": 0.5546,
+      "w": 0.686,
+      "h": 0.0324,
+      "words": [
+        "and",
+        "give",
+        "other",
+        "men",
+        "some",
+        "yy"
+      ],
+      "conf": 87.2094,
+      "source": "psm-6"
+    },
+    {
+      "id": "r21",
+      "order": 20,
+      "text": "of their greatest hours.",
+      "x": 0.12,
+      "y": 0.5843,
+      "w": 0.3164,
+      "h": 0.0211,
+      "words": [
+        "of",
+        "their",
+        "greatest",
+        "hours."
+      ],
+      "conf": 96.7445,
+      "source": "psm-11"
+    },
+    {
+      "id": "r22",
+      "order": 21,
+      "text": "ax,",
+      "x": 0.5862,
+      "y": 0.5676,
+      "w": 0.1353,
+      "h": 0.027,
+      "words": [
+        "ax,"
+      ],
+      "conf": 36.7105,
+      "source": "psm-6"
+    },
+    {
+      "id": "r23",
+      "order": 22,
+      "text": "theater: building where plays are given.",
+      "x": 0.1167,
+      "y": 0.7476,
+      "w": 0.4444,
+      "h": 0.0162,
+      "words": [
+        "theater:",
+        "building",
+        "where",
+        "plays",
+        "are",
+        "given."
+      ],
+      "conf": 96.405,
+      "source": "psm-11"
+    },
+    {
+      "id": "r24",
+      "order": 23,
+      "text": "acted: when a ploy is given, it is acted by actors (players).",
+      "x": 0.1167,
+      "y": 0.7632,
+      "w": 0.6481,
+      "h": 0.0205,
+      "words": [
+        "acted:",
+        "when",
+        "a",
+        "ploy",
+        "is",
+        "given,",
+        "it",
+        "is",
+        "acted",
+        "by",
+        "actors",
+        "(players)."
+      ],
+      "conf": 93.1817,
+      "source": "psm-6"
+    },
+    {
+      "id": "r25",
+      "order": 24,
+      "text": "Poetry: words put together in the best way so that others can see and",
+      "x": 0.1159,
+      "y": 0.8011,
+      "w": 0.7931,
+      "h": 0.0151,
+      "words": [
+        "Poetry:",
+        "words",
+        "put",
+        "together",
+        "in",
+        "the",
+        "best",
+        "way",
+        "so",
+        "that",
+        "others",
+        "can",
+        "see",
+        "and"
+      ],
+      "conf": 93.6231,
+      "source": "psm-6"
+    },
+    {
+      "id": "r26",
+      "order": 25,
+      "text": "library: building or room for keeping books; the books kept there.",
+      "x": 0.1167,
+      "y": 0.7827,
+      "w": 0.744,
+      "h": 0.0157,
+      "words": [
+        "library:",
+        "building",
+        "or",
+        "room",
+        "for",
+        "keeping",
+        "books;",
+        "the",
+        "books",
+        "kept",
+        "there."
+      ],
+      "conf": 94.5158,
+      "source": "psm-11"
+    },
+    {
+      "id": "r27",
+      "order": 26,
+      "text": "try: words put together in the best way so that others can see and will act act(s) acted",
+      "x": 0.1176,
+      "y": 0.8011,
+      "w": 0.7914,
+      "h": 0.0654,
+      "words": [
+        "try:",
+        "words",
+        "put",
+        "together",
+        "in",
+        "the",
+        "best",
+        "way",
+        "so",
+        "that",
+        "others",
+        "can",
+        "see",
+        "and",
+        "will",
+        "act",
+        "act(s)",
+        "acted"
+      ],
+      "conf": 93.1038,
+      "source": "psm-11"
+    },
+    {
+      "id": "r28",
+      "order": 27,
+      "text": "feel what they mean.",
+      "x": 0.1691,
+      "y": 0.8178,
+      "w": 0.2222,
+      "h": 0.0146,
+      "words": [
+        "feel",
+        "what",
+        "they",
+        "mean."
+      ],
+      "conf": 85.5306,
+      "source": "psm-11"
+    },
+    {
+      "id": "r29",
+      "order": 28,
+      "text": "will act",
+      "x": 0.1176,
+      "y": 0.8476,
+      "w": 0.0886,
+      "h": 0.0124,
+      "words": [
+        "will",
+        "act"
+      ],
+      "conf": 94.1485,
+      "source": "psm-11"
+    },
+    {
+      "id": "r30",
+      "order": 29,
+      "text": "act(s)",
+      "x": 0.4847,
+      "y": 0.8481,
+      "w": 0.0733,
+      "h": 0.0157,
+      "words": [
+        "act(s)"
+      ],
+      "conf": 92.0621,
+      "source": "psm-11"
+    },
+    {
+      "id": "r31",
+      "order": 30,
+      "text": "acted",
+      "x": 0.8438,
+      "y": 0.8476,
+      "w": 0.0644,
+      "h": 0.013,
+      "words": [
+        "acted"
+      ],
+      "conf": 95.3986,
+      "source": "psm-11"
+    }
+  ]
+}

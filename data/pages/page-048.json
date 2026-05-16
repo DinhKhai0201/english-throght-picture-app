@@ -1,0 +1,305 @@
+{
+  "page": 48,
+  "image": "/books/page 48.png",
+  "imageApiPath": "/api/books/page%2048.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 13,
+    "wordCount": 67,
+    "imageWidth": 1263,
+    "imageHeight": 1821
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r10",
+        "r12"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r8",
+        "r9",
+        "r11",
+        "r13"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "My nose fs between my eyes.",
+      "x": 0.1346,
+      "y": 0.1307,
+      "w": 0.3365,
+      "h": 0.0516,
+      "words": [
+        "My",
+        "nose",
+        "fs",
+        "between",
+        "my",
+        "eyes."
+      ],
+      "conf": 93.062,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "My mouth fs under my nose.",
+      "x": 0.5424,
+      "y": 0.1318,
+      "w": 0.3222,
+      "h": 0.0456,
+      "words": [
+        "My",
+        "mouth",
+        "fs",
+        "under",
+        "my",
+        "nose."
+      ],
+      "conf": 91.4416,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "And it is between my eyes and my mouth,",
+      "x": 0.137,
+      "y": 0.3306,
+      "w": 0.3048,
+      "h": 0.0511,
+      "words": [
+        "And",
+        "it",
+        "is",
+        "between",
+        "my",
+        "eyes",
+        "and",
+        "my",
+        "mouth,"
+      ],
+      "conf": 96.3146,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "My nose is over my mouth.",
+      "x": 0.5534,
+      "y": 0.3366,
+      "w": 0.2779,
+      "h": 0.0445,
+      "words": [
+        "My",
+        "nose",
+        "is",
+        "over",
+        "my",
+        "mouth."
+      ],
+      "conf": 96.6604,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Our noses are over our mouths.",
+      "x": 0.5534,
+      "y": 0.3882,
+      "w": 0.3381,
+      "h": 0.0446,
+      "words": [
+        "Our",
+        "noses",
+        "are",
+        "over",
+        "our",
+        "mouths."
+      ],
+      "conf": 95.9612,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The light Is over the table,",
+      "x": 0.1576,
+      "y": 0.5459,
+      "w": 0.285,
+      "h": 0.0455,
+      "words": [
+        "The",
+        "light",
+        "Is",
+        "over",
+        "the",
+        "table,"
+      ],
+      "conf": 91.3583,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is a clock.",
+      "x": 0.6136,
+      "y": 0.5343,
+      "w": 0.2074,
+      "h": 0.0203,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "clock."
+      ],
+      "conf": 95.8207,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "ft is on the wall.",
+      "x": 0.62,
+      "y": 0.6139,
+      "w": 0.2296,
+      "h": 0.0209,
+      "words": [
+        "ft",
+        "is",
+        "on",
+        "the",
+        "wall."
+      ],
+      "conf": 85.6274,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "It is over the bookshelves.",
+      "x": 0.6192,
+      "y": 0.6409,
+      "w": 0.1845,
+      "h": 0.0455,
+      "words": [
+        "It",
+        "is",
+        "over",
+        "the",
+        "bookshelves."
+      ],
+      "conf": 92.9533,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "a.",
+      "x": 0.2288,
+      "y": 0.7573,
+      "w": 0.1346,
+      "h": 0.0725,
+      "words": [
+        "a."
+      ],
+      "conf": 35.1932,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "COT",
+      "x": 0.6073,
+      "y": 0.7529,
+      "w": 0.2803,
+      "h": 0.0346,
+      "words": [
+        "COT"
+      ],
+      "conf": 41.1178,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "The dog is under the table.",
+      "x": 0.1457,
+      "y": 0.8484,
+      "w": 0.2993,
+      "h": 0.0451,
+      "words": [
+        "The",
+        "dog",
+        "is",
+        "under",
+        "the",
+        "table."
+      ],
+      "conf": 96.6205,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "The bookshelves are under the clock.",
+      "x": 0.616,
+      "y": 0.8484,
+      "w": 0.2961,
+      "h": 0.0462,
+      "words": [
+        "The",
+        "bookshelves",
+        "are",
+        "under",
+        "the",
+        "clock."
+      ],
+      "conf": 96.7038,
+      "source": "psm-11"
+    }
+  ]
+}

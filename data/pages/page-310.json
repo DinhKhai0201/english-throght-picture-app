@@ -1,0 +1,307 @@
+{
+  "page": 310,
+  "image": "/books/page 310.png",
+  "imageApiPath": "/api/books/page%20310.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 12,
+    "wordCount": 113,
+    "imageWidth": 1196,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "A milkman puts the milk outside their door in the early morning. Milkmen start their work in a great city béfore",
+      "x": 0.1095,
+      "y": 0.0412,
+      "w": 0.8153,
+      "h": 0.0476,
+      "words": [
+        "A",
+        "milkman",
+        "puts",
+        "the",
+        "milk",
+        "outside",
+        "their",
+        "door",
+        "in",
+        "the",
+        "early",
+        "morning.",
+        "Milkmen",
+        "start",
+        "their",
+        "work",
+        "in",
+        "a",
+        "great",
+        "city",
+        "béfore"
+      ],
+      "conf": 96.5561,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "it is light.",
+      "x": 0.1104,
+      "y": 0.0948,
+      "w": 0.1271,
+      "h": 0.0211,
+      "words": [
+        "it",
+        "is",
+        "light."
+      ],
+      "conf": 96.3765,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "MILK",
+      "x": 0.1522,
+      "y": 0.344,
+      "w": 0.1012,
+      "h": 0.0601,
+      "words": [
+        "MILK"
+      ],
+      "conf": 92.5163,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "In some parts of the world is measured in gallons. Milk is put up in pint and quart bottles or in cartons. In other parts of the world milk is measured in liters. A liter is a little more than a quart.",
+      "x": 0.1104,
+      "y": 0.5374,
+      "w": 0.4531,
+      "h": 0.1782,
+      "words": [
+        "In",
+        "some",
+        "parts",
+        "of",
+        "the",
+        "world",
+        "is",
+        "measured",
+        "in",
+        "gallons.",
+        "Milk",
+        "is",
+        "put",
+        "up",
+        "in",
+        "pint",
+        "and",
+        "quart",
+        "bottles",
+        "or",
+        "in",
+        "cartons.",
+        "In",
+        "other",
+        "parts",
+        "of",
+        "the",
+        "world",
+        "milk",
+        "is",
+        "measured",
+        "in",
+        "liters.",
+        "A",
+        "liter",
+        "is",
+        "a",
+        "little",
+        "more",
+        "than",
+        "a",
+        "quart."
+      ],
+      "conf": 96.2562,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "pint: about two cupfuls.",
+      "x": 0.1129,
+      "y": 0.766,
+      "w": 0.2659,
+      "h": 0.0146,
+      "words": [
+        "pint:",
+        "about",
+        "two",
+        "cupfuls."
+      ],
+      "conf": 93.3846,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "gallon: four quarts make one gallon; two pints moke one quart; there",
+      "x": 0.1129,
+      "y": 0.7828,
+      "w": 0.8169,
+      "h": 0.0152,
+      "words": [
+        "gallon:",
+        "four",
+        "quarts",
+        "make",
+        "one",
+        "gallon;",
+        "two",
+        "pints",
+        "moke",
+        "one",
+        "quart;",
+        "there"
+      ],
+      "conf": 95.5491,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "early: the first hours of the morning are the early morning.",
+      "x": 0.1129,
+      "y": 0.8185,
+      "w": 0.6572,
+      "h": 0.0146,
+      "words": [
+        "early:",
+        "the",
+        "first",
+        "hours",
+        "of",
+        "the",
+        "morning",
+        "are",
+        "the",
+        "early",
+        "morning."
+      ],
+      "conf": 95.7723,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "are two cups in a pint.",
+      "x": 0.1664,
+      "y": 0.8017,
+      "w": 0.2458,
+      "h": 0.0141,
+      "words": [
+        "are",
+        "two",
+        "cups",
+        "in",
+        "a",
+        "pint."
+      ],
+      "conf": 80.7965,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "carton: bottle or box made of strong paper material.",
+      "x": 0.1129,
+      "y": 0.8359,
+      "w": 0.5886,
+      "h": 0.0146,
+      "words": [
+        "carton:",
+        "bottle",
+        "or",
+        "box",
+        "made",
+        "of",
+        "strong",
+        "paper",
+        "material."
+      ],
+      "conf": 94.6362,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "will start",
+      "x": 0.1129,
+      "y": 0.8662,
+      "w": 0.1104,
+      "h": 0.0125,
+      "words": [
+        "will",
+        "start"
+      ],
+      "conf": 96.5802,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "start(s)",
+      "x": 0.4858,
+      "y": 0.8667,
+      "w": 0.0962,
+      "h": 0.0152,
+      "words": [
+        "start(s)"
+      ],
+      "conf": 88.8234,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "started",
+      "x": 0.8445,
+      "y": 0.8667,
+      "w": 0.0853,
+      "h": 0.0119,
+      "words": [
+        "started"
+      ],
+      "conf": 95.4946,
+      "source": "psm-11"
+    }
+  ]
+}

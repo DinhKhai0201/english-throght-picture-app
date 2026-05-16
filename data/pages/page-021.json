@@ -1,0 +1,211 @@
+{
+  "page": 21,
+  "image": "/books/page 21.png",
+  "imageApiPath": "/api/books/page%2021.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 35,
+    "imageWidth": 1163,
+    "imageHeight": 1842
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r4",
+        "r6"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r10"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "text": "This is a hat.",
+      "x": 0.2055,
+      "y": 0.0945,
+      "w": 0.1857,
+      "h": 0.019,
+      "id": "r1",
+      "order": 0,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "hat."
+      ]
+    },
+    {
+      "text": "This is a table.",
+      "x": 0.6586,
+      "y": 0.1091,
+      "w": 0.2132,
+      "h": 0.0195,
+      "id": "r2",
+      "order": 1,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "table."
+      ]
+    },
+    {
+      "text": "These are hats.",
+      "x": 0.1849,
+      "y": 0.1846,
+      "w": 0.227,
+      "h": 0.019,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "These",
+        "are",
+        "hats."
+      ]
+    },
+    {
+      "text": "This is a hand.",
+      "x": 0.1823,
+      "y": 0.2785,
+      "w": 0.2158,
+      "h": 0.019,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "hand."
+      ]
+    },
+    {
+      "text": "These are tables.",
+      "x": 0.6363,
+      "y": 0.3279,
+      "w": 0.2623,
+      "h": 0.0195,
+      "id": "r5",
+      "order": 4,
+      "words": [
+        "These",
+        "are",
+        "tables."
+      ]
+    },
+    {
+      "text": "These are hands.",
+      "x": 0.1771,
+      "y": 0.3757,
+      "w": 0.236,
+      "h": 0.022,
+      "id": "r6",
+      "order": 5,
+      "words": [
+        "These",
+        "are",
+        "hands."
+      ]
+    },
+    {
+      "text": "This is a man.",
+      "x": 0.2038,
+      "y": 0.5071,
+      "w": 0.2003,
+      "h": 0.019,
+      "id": "r7",
+      "order": 6,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "man."
+      ]
+    },
+    {
+      "text": "This is a woman.",
+      "x": 0.644,
+      "y": 0.5076,
+      "w": 0.214,
+      "h": 0.019,
+      "id": "r8",
+      "order": 7,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "woman."
+      ]
+    },
+    {
+      "text": "These are men.",
+      "x": 0.1702,
+      "y": 0.7117,
+      "w": 0.2365,
+      "h": 0.0212,
+      "id": "r9",
+      "order": 8,
+      "words": [
+        "These",
+        "are",
+        "men."
+      ]
+    },
+    {
+      "text": "These are women.",
+      "x": 0.626,
+      "y": 0.7177,
+      "w": 0.282,
+      "h": 0.0201,
+      "id": "r10",
+      "order": 9,
+      "words": [
+        "These",
+        "are",
+        "women."
+      ]
+    }
+  ]
+}

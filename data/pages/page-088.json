@@ -1,0 +1,235 @@
+{
+  "page": 88,
+  "image": "/books/page 88.png",
+  "imageApiPath": "/api/books/page%2088.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 9,
+    "wordCount": 53,
+    "imageWidth": 1196,
+    "imageHeight": 1842
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This is a box.",
+      "x": 0.1906,
+      "y": 0.1243,
+      "w": 0.1998,
+      "h": 0.0206,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "box."
+      ],
+      "conf": 92.8722,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is a house.",
+      "x": 0.6137,
+      "y": 0.1238,
+      "w": 0.2316,
+      "h": 0.0195,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "house."
+      ],
+      "conf": 95.9938,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This is the front of the IX.",
+      "x": 0.1304,
+      "y": 0.3301,
+      "w": 0.3336,
+      "h": 0.0461,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "front",
+        "of",
+        "the",
+        "IX."
+      ],
+      "conf": 96.7437,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "This is the front of the This is the front door.",
+      "x": 0.5594,
+      "y": 0.3301,
+      "w": 0.3369,
+      "h": 0.0711,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "front",
+        "of",
+        "the",
+        "This",
+        "is",
+        "the",
+        "front",
+        "door."
+      ],
+      "conf": 96.301,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "ouse.",
+      "x": 0.5819,
+      "y": 0.3626,
+      "w": 0.0786,
+      "h": 0.0125,
+      "words": [
+        "ouse."
+      ],
+      "conf": 53.93,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "This is the back of the box.",
+      "x": 0.1329,
+      "y": 0.5537,
+      "w": 0.3311,
+      "h": 0.0467,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "back",
+        "of",
+        "the",
+        "box."
+      ],
+      "conf": 96.7868,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is a coat.",
+      "x": 0.6355,
+      "y": 0.5423,
+      "w": 0.2107,
+      "h": 0.0309,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "coat."
+      ],
+      "conf": 95.6744,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "And these are the sides of the box.",
+      "x": 0.1137,
+      "y": 0.7828,
+      "w": 0.3604,
+      "h": 0.0461,
+      "words": [
+        "And",
+        "these",
+        "are",
+        "the",
+        "sides",
+        "of",
+        "the",
+        "box."
+      ],
+      "conf": 96.4781,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "This is the front of the coat.",
+      "x": 0.5552,
+      "y": 0.8702,
+      "w": 0.337,
+      "h": 0.0451,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "front",
+        "of",
+        "the",
+        "coat."
+      ],
+      "conf": 96.5982,
+      "source": "psm-11"
+    }
+  ]
+}

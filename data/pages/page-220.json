@@ -1,0 +1,218 @@
+{
+  "page": 220,
+  "image": "/books/page 220.png",
+  "imageApiPath": "/api/books/page%20220.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 9,
+    "wordCount": 66,
+    "imageWidth": 1188,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Tomorrow the weather may be worse.",
+      "x": 0.1481,
+      "y": 0.0791,
+      "w": 0.5875,
+      "h": 0.0242,
+      "words": [
+        "Tomorrow",
+        "the",
+        "weather",
+        "may",
+        "be",
+        "worse."
+      ],
+      "conf": 96.0284,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "It may be very cold. All the water may be ice.",
+      "x": 0.149,
+      "y": 0.1049,
+      "w": 0.6953,
+      "h": 0.0242,
+      "words": [
+        "It",
+        "may",
+        "be",
+        "very",
+        "cold.",
+        "All",
+        "the",
+        "water",
+        "may",
+        "be",
+        "ice."
+      ],
+      "conf": 95.6731,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Snow may be coming down making everything",
+      "x": 0.1473,
+      "y": 0.1296,
+      "w": 0.7239,
+      "h": 0.0247,
+      "words": [
+        "Snow",
+        "may",
+        "be",
+        "coming",
+        "down",
+        "making",
+        "everything"
+      ],
+      "conf": 96.6027,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "white.",
+      "x": 0.1515,
+      "y": 0.156,
+      "w": 0.0901,
+      "h": 0.0188,
+      "words": [
+        "white."
+      ],
+      "conf": 95.0321,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Will tomorrow be like this?",
+      "x": 0.149,
+      "y": 0.1807,
+      "w": 0.3333,
+      "h": 0.0447,
+      "words": [
+        "Will",
+        "tomorrow",
+        "be",
+        "like",
+        "this?"
+      ],
+      "conf": 95.8431,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "is this winter or summer?",
+      "x": 0.1498,
+      "y": 0.2318,
+      "w": 0.3771,
+      "h": 0.0188,
+      "words": [
+        "is",
+        "this",
+        "winter",
+        "or",
+        "summer?"
+      ],
+      "conf": 95.5249,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Or tomorrow the weather may be better.",
+      "x": 0.1498,
+      "y": 0.511,
+      "w": 0.6271,
+      "h": 0.0242,
+      "words": [
+        "Or",
+        "tomorrow",
+        "the",
+        "weather",
+        "may",
+        "be",
+        "better."
+      ],
+      "conf": 96.2329,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "The sun may be bright again. The air may be Will tomorrow be like this?",
+      "x": 0.149,
+      "y": 0.5352,
+      "w": 0.6978,
+      "h": 0.0958,
+      "words": [
+        "The",
+        "sun",
+        "may",
+        "be",
+        "bright",
+        "again.",
+        "The",
+        "air",
+        "may",
+        "be",
+        "Will",
+        "tomorrow",
+        "be",
+        "like",
+        "this?"
+      ],
+      "conf": 96.3416,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "warm again and the streets may be dry again.",
+      "x": 0.1498,
+      "y": 0.5616,
+      "w": 0.7163,
+      "h": 0.0253,
+      "words": [
+        "warm",
+        "again",
+        "and",
+        "the",
+        "streets",
+        "may",
+        "be",
+        "dry",
+        "again."
+      ],
+      "conf": 96.3892,
+      "source": "psm-11"
+    }
+  ]
+}

@@ -1,0 +1,221 @@
+{
+  "page": 210,
+  "image": "/books/page 210.png",
+  "imageApiPath": "/api/books/page%20210.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 9,
+    "wordCount": 69,
+    "imageWidth": 1134,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "The pull of the cord in my hand kept the weight from going off keeps the moon from",
+      "x": 0.1005,
+      "y": 0.1425,
+      "w": 0.7584,
+      "h": 0.085,
+      "words": [
+        "The",
+        "pull",
+        "of",
+        "the",
+        "cord",
+        "in",
+        "my",
+        "hand",
+        "kept",
+        "the",
+        "weight",
+        "from",
+        "going",
+        "off",
+        "keeps",
+        "the",
+        "moon",
+        "from"
+      ],
+      "conf": 96.553,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "The attraction between",
+      "x": 0.5265,
+      "y": 0.1289,
+      "w": 0.366,
+      "h": 0.0417,
+      "words": [
+        "The",
+        "attraction",
+        "between"
+      ],
+      "conf": 94.9153,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "the earth and the moon going off in a straight line.",
+      "x": 0.522,
+      "y": 0.1587,
+      "w": 0.3748,
+      "h": 0.1106,
+      "words": [
+        "the",
+        "earth",
+        "and",
+        "the",
+        "moon",
+        "going",
+        "off",
+        "in",
+        "a",
+        "straight",
+        "line."
+      ],
+      "conf": 92.033,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "in a straight line.",
+      "x": 0.1023,
+      "y": 0.2199,
+      "w": 0.3034,
+      "h": 0.0255,
+      "words": [
+        "in",
+        "a",
+        "straight",
+        "line."
+      ],
+      "conf": 88.2968,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "It does not get farther",
+      "x": 0.5547,
+      "y": 0.5775,
+      "w": 0.3457,
+      "h": 0.0238,
+      "words": [
+        "It",
+        "does",
+        "not",
+        "get",
+        "farther"
+      ],
+      "conf": 92.9737,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "om the earth",
+      "x": 0.672,
+      "y": 0.6067,
+      "w": 0.2011,
+      "h": 0.019,
+      "words": [
+        "om",
+        "the",
+        "earth"
+      ],
+      "conf": 89.3821,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "OF nearer to the earth.",
+      "x": 0.5291,
+      "y": 0.7124,
+      "w": 0.3563,
+      "h": 0.0211,
+      "words": [
+        "OF",
+        "nearer",
+        "to",
+        "the",
+        "earth."
+      ],
+      "conf": 89.4685,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "The moon goes round and round the earth month after month",
+      "x": 0.0732,
+      "y": 0.7914,
+      "w": 0.3563,
+      "h": 0.0743,
+      "words": [
+        "The",
+        "moon",
+        "goes",
+        "round",
+        "and",
+        "round",
+        "the",
+        "earth",
+        "month",
+        "after",
+        "month"
+      ],
+      "conf": 96.6643,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "It keeps about the same distance from the earth",
+      "x": 0.5159,
+      "y": 0.8174,
+      "w": 0.3809,
+      "h": 0.045,
+      "words": [
+        "It",
+        "keeps",
+        "about",
+        "the",
+        "same",
+        "distance",
+        "from",
+        "the",
+        "earth"
+      ],
+      "conf": 96.4269,
+      "source": "psm-11"
+    }
+  ]
+}

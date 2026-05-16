@@ -1,0 +1,301 @@
+{
+  "page": 104,
+  "image": "/books/page 104.png",
+  "imageApiPath": "/api/books/page%20104.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 12,
+    "wordCount": 77,
+    "imageWidth": 1213,
+    "imageHeight": 1855
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5",
+        "r7"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r11"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r10",
+        "r12"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "These are apples.",
+      "x": 0.1682,
+      "y": 0.1116,
+      "w": 0.2688,
+      "h": 0.0259,
+      "words": [
+        "These",
+        "are",
+        "apples."
+      ],
+      "conf": 96.3634,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "What ts the time?",
+      "x": 0.6167,
+      "y": 0.1256,
+      "w": 0.2671,
+      "h": 0.0205,
+      "words": [
+        "What",
+        "ts",
+        "the",
+        "time?"
+      ],
+      "conf": 88.4998,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "These are oranges.",
+      "x": 0.1599,
+      "y": 0.2485,
+      "w": 0.2894,
+      "h": 0.0226,
+      "words": [
+        "These",
+        "are",
+        "oranges."
+      ],
+      "conf": 95.288,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "The time is five It is five.",
+      "x": 0.5598,
+      "y": 0.3137,
+      "w": 0.2267,
+      "h": 0.0453,
+      "words": [
+        "The",
+        "time",
+        "is",
+        "five",
+        "It",
+        "is",
+        "five."
+      ],
+      "conf": 96.5657,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Apples and oranges are fruit.",
+      "x": 0.1187,
+      "y": 0.3563,
+      "w": 0.371,
+      "h": 0.0458,
+      "words": [
+        "Apples",
+        "and",
+        "oranges",
+        "are",
+        "fruit."
+      ],
+      "conf": 96.4274,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Mary will make the up",
+      "x": 0.5606,
+      "y": 0.3655,
+      "w": 0.2935,
+      "h": 0.0507,
+      "words": [
+        "Mary",
+        "will",
+        "make",
+        "the",
+        "up"
+      ],
+      "conf": 96.6895,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Does Mary keep the fruit in the fridge?",
+      "x": 0.1212,
+      "y": 0.4075,
+      "w": 0.3702,
+      "h": 0.0491,
+      "words": [
+        "Does",
+        "Mary",
+        "keep",
+        "the",
+        "fruit",
+        "in",
+        "the",
+        "fridge?"
+      ],
+      "conf": 96.733,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "What is the fime?",
+      "x": 0.15,
+      "y": 0.5332,
+      "w": 0.2613,
+      "h": 0.0189,
+      "words": [
+        "What",
+        "is",
+        "the",
+        "fime?"
+      ],
+      "conf": 93.6876,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "lt is five-forty",
+      "x": 0.5631,
+      "y": 0.5229,
+      "w": 0.1987,
+      "h": 0.0248,
+      "words": [
+        "lt",
+        "is",
+        "five-forty"
+      ],
+      "conf": 80.8938,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Mary has a fork in her hand.",
+      "x": 0.5425,
+      "y": 0.6771,
+      "w": 0.343,
+      "h": 0.048,
+      "words": [
+        "Mary",
+        "has",
+        "a",
+        "fork",
+        "in",
+        "her",
+        "hand."
+      ],
+      "conf": 94.9583,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "It fs five-thirty Mary is making the The potatoes are in the pot. The water in the pot; is boiling,",
+      "x": 0.1237,
+      "y": 0.7046,
+      "w": 0.3833,
+      "h": 0.152,
+      "words": [
+        "It",
+        "fs",
+        "five-thirty",
+        "Mary",
+        "is",
+        "making",
+        "the",
+        "The",
+        "potatoes",
+        "are",
+        "in",
+        "the",
+        "pot.",
+        "The",
+        "water",
+        "in",
+        "the",
+        "pot;",
+        "is",
+        "boiling,"
+      ],
+      "conf": 87.1328,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "She is putting the fork into the potatoes.",
+      "x": 0.5474,
+      "y": 0.8426,
+      "w": 0.3339,
+      "h": 0.0502,
+      "words": [
+        "She",
+        "is",
+        "putting",
+        "the",
+        "fork",
+        "into",
+        "the",
+        "potatoes."
+      ],
+      "conf": 96.651,
+      "source": "psm-11"
+    }
+  ]
+}

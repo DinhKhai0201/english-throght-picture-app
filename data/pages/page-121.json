@@ -1,0 +1,556 @@
+{
+  "page": 121,
+  "image": "/books/page 121.png",
+  "imageApiPath": "/api/books/page%20121.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 23,
+    "wordCount": 178,
+    "imageWidth": 1267,
+    "imageHeight": 1830
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4",
+        "r6",
+        "r7",
+        "r9",
+        "r11",
+        "r13"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r5",
+        "r8",
+        "r10",
+        "r12",
+        "r14"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r15",
+        "r17",
+        "r19",
+        "r22"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r16",
+        "r18",
+        "r20",
+        "r21",
+        "r23"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Answers to questions on pages Page a The time is four-forty-two Itis a pot.",
+      "x": 0.1081,
+      "y": 0.088,
+      "w": 0.5509,
+      "h": 0.1546,
+      "words": [
+        "Answers",
+        "to",
+        "questions",
+        "on",
+        "pages",
+        "Page",
+        "a",
+        "The",
+        "time",
+        "is",
+        "four-forty-two",
+        "Itis",
+        "a",
+        "pot."
+      ],
+      "conf": 96.322,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "b They are apples.",
+      "x": 0.5438,
+      "y": 0.1678,
+      "w": 0.281,
+      "h": 0.0257,
+      "words": [
+        "b",
+        "They",
+        "are",
+        "apples."
+      ],
+      "conf": 93.7727,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "d They are leaves, It is a bottle of milk.",
+      "x": 0.5438,
+      "y": 0.1945,
+      "w": 0.3292,
+      "h": 0.0471,
+      "words": [
+        "d",
+        "They",
+        "are",
+        "leaves,",
+        "It",
+        "is",
+        "a",
+        "bottle",
+        "of",
+        "milk."
+      ],
+      "conf": 89.6242,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "e They are roots.",
+      "x": 0.1089,
+      "y": 0.2448,
+      "w": 0.2589,
+      "h": 0.0251,
+      "words": [
+        "e",
+        "They",
+        "are",
+        "roots."
+      ],
+      "conf": 95.4341,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "It is bread.",
+      "x": 0.5833,
+      "y": 0.2481,
+      "w": 0.1563,
+      "h": 0.0191,
+      "words": [
+        "It",
+        "is",
+        "bread."
+      ],
+      "conf": 95.8166,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "g It is butter.",
+      "x": 0.1121,
+      "y": 0.2716,
+      "w": 0.1886,
+      "h": 0.023,
+      "words": [
+        "g",
+        "It",
+        "is",
+        "butter."
+      ],
+      "conf": 90.683,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Page a cheese.",
+      "x": 0.1137,
+      "y": 0.3284,
+      "w": 0.2021,
+      "h": 0.0437,
+      "words": [
+        "Page",
+        "a",
+        "cheese."
+      ],
+      "conf": 96.5001,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "It is a cup.",
+      "x": 0.588,
+      "y": 0.3536,
+      "w": 0.1468,
+      "h": 0.023,
+      "words": [
+        "It",
+        "is",
+        "a",
+        "cup."
+      ],
+      "conf": 93.1617,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "They are flames.",
+      "x": 0.1507,
+      "y": 0.3787,
+      "w": 0.2399,
+      "h": 0.0246,
+      "words": [
+        "They",
+        "are",
+        "flames."
+      ],
+      "conf": 95.9031,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "It is a horse.",
+      "x": 0.5872,
+      "y": 0.3787,
+      "w": 0.1728,
+      "h": 0.0191,
+      "words": [
+        "It",
+        "is",
+        "a",
+        "horse."
+      ],
+      "conf": 92.5833,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "e It is a high building.",
+      "x": 0.1137,
+      "y": 0.4044,
+      "w": 0.3275,
+      "h": 0.0235,
+      "words": [
+        "e",
+        "It",
+        "is",
+        "a",
+        "high",
+        "building."
+      ],
+      "conf": 85.4021,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "They are a box and its cover.",
+      "x": 0.5848,
+      "y": 0.3962,
+      "w": 0.2904,
+      "h": 0.0535,
+      "words": [
+        "They",
+        "are",
+        "a",
+        "box",
+        "and",
+        "its",
+        "cover."
+      ],
+      "conf": 96.8293,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "g Itis a pig.",
+      "x": 0.1144,
+      "y": 0.4317,
+      "w": 0.1807,
+      "h": 0.0235,
+      "words": [
+        "g",
+        "Itis",
+        "a",
+        "pig."
+      ],
+      "conf": 89.7308,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "It is a sheep.",
+      "x": 0.5864,
+      "y": 0.4568,
+      "w": 0.1792,
+      "h": 0.0246,
+      "words": [
+        "It",
+        "is",
+        "a",
+        "sheep."
+      ],
+      "conf": 91.2415,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "Page a a father and mother and their son and daughter.",
+      "x": 0.116,
+      "y": 0.5104,
+      "w": 0.3362,
+      "h": 0.1006,
+      "words": [
+        "Page",
+        "a",
+        "a",
+        "father",
+        "and",
+        "mother",
+        "and",
+        "their",
+        "son",
+        "and",
+        "daughter."
+      ],
+      "conf": 94.6286,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "see its roots and its stem and its leaves and its flower.",
+      "x": 0.5856,
+      "y": 0.5366,
+      "w": 0.2929,
+      "h": 0.0711,
+      "words": [
+        "see",
+        "its",
+        "roots",
+        "and",
+        "its",
+        "stem",
+        "and",
+        "its",
+        "leaves",
+        "and",
+        "its",
+        "flower."
+      ],
+      "conf": 96.151,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "see a bottle of milk and four eggs and two roots.",
+      "x": 0.1523,
+      "y": 0.6137,
+      "w": 0.3015,
+      "h": 0.071,
+      "words": [
+        "see",
+        "a",
+        "bottle",
+        "of",
+        "milk",
+        "and",
+        "four",
+        "eggs",
+        "and",
+        "two",
+        "roots."
+      ],
+      "conf": 87.1465,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "I see its head and ears and nose, its body, its legs, and its tail.",
+      "x": 0.5856,
+      "y": 0.6153,
+      "w": 0.3205,
+      "h": 0.0962,
+      "words": [
+        "I",
+        "see",
+        "its",
+        "head",
+        "and",
+        "ears",
+        "and",
+        "nose,",
+        "its",
+        "body,",
+        "its",
+        "legs,",
+        "and",
+        "its",
+        "tail."
+      ],
+      "conf": 91.1038,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "the floor. And I see the leg of a table.",
+      "x": 0.1492,
+      "y": 0.7169,
+      "w": 0.2912,
+      "h": 0.0498,
+      "words": [
+        "the",
+        "floor.",
+        "And",
+        "I",
+        "see",
+        "the",
+        "leg",
+        "of",
+        "a",
+        "table."
+      ],
+      "conf": 94.4165,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "I see two glasses.",
+      "x": 0.5872,
+      "y": 0.7186,
+      "w": 0.2581,
+      "h": 0.023,
+      "words": [
+        "I",
+        "see",
+        "two",
+        "glasses."
+      ],
+      "conf": 81.1415,
+      "source": "psm-11"
+    },
+    {
+      "id": "r21",
+      "order": 20,
+      "text": "One of them has liquid in it.",
+      "x": 0.5856,
+      "y": 0.7443,
+      "w": 0.251,
+      "h": 0.0491,
+      "words": [
+        "One",
+        "of",
+        "them",
+        "has",
+        "liquid",
+        "in",
+        "it."
+      ],
+      "conf": 96.0089,
+      "source": "psm-11"
+    },
+    {
+      "id": "r22",
+      "order": 21,
+      "text": "g see a woman. She has a spoon in her hand. She is tasting the soup.",
+      "x": 0.1152,
+      "y": 0.7705,
+      "w": 0.3268,
+      "h": 0.1016,
+      "words": [
+        "g",
+        "see",
+        "a",
+        "woman.",
+        "She",
+        "has",
+        "a",
+        "spoon",
+        "in",
+        "her",
+        "hand.",
+        "She",
+        "is",
+        "tasting",
+        "the",
+        "soup."
+      ],
+      "conf": 94.2569,
+      "source": "psm-11"
+    },
+    {
+      "id": "r23",
+      "order": 22,
+      "text": "see a man. He has a glass in his hand. He is having a drink from the glass.",
+      "x": 0.5848,
+      "y": 0.7978,
+      "w": 0.3228,
+      "h": 0.1022,
+      "words": [
+        "see",
+        "a",
+        "man.",
+        "He",
+        "has",
+        "a",
+        "glass",
+        "in",
+        "his",
+        "hand.",
+        "He",
+        "is",
+        "having",
+        "a",
+        "drink",
+        "from",
+        "the",
+        "glass."
+      ],
+      "conf": 91.72,
+      "source": "psm-11"
+    }
+  ]
+}

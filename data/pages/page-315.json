@@ -1,0 +1,203 @@
+{
+  "page": 315,
+  "image": "/books/page 315.png",
+  "imageApiPath": "/api/books/page%20315.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 7,
+    "wordCount": 79,
+    "imageWidth": 1242,
+    "imageHeight": 1838
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Grain and meat and milk and fruit and vegetables must be transported into the cities of day and night all through the year to feed its city popu-, lations. Much of this food comes great distances in VW,",
+      "x": 0.1014,
+      "y": 0.0392,
+      "w": 0.4574,
+      "h": 0.2181,
+      "words": [
+        "Grain",
+        "and",
+        "meat",
+        "and",
+        "milk",
+        "and",
+        "fruit",
+        "and",
+        "vegetables",
+        "must",
+        "be",
+        "transported",
+        "into",
+        "the",
+        "cities",
+        "of",
+        "day",
+        "and",
+        "night",
+        "all",
+        "through",
+        "the",
+        "year",
+        "to",
+        "feed",
+        "its",
+        "city",
+        "popu-,",
+        "lations.",
+        "Much",
+        "of",
+        "this",
+        "food",
+        "comes",
+        "great",
+        "distances",
+        "in",
+        "VW,"
+      ],
+      "conf": 93.4379,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "ships, trains, or trucks, and must be kept cold and clean all the way.",
+      "x": 0.0998,
+      "y": 0.253,
+      "w": 0.3631,
+      "h": 0.0762,
+      "words": [
+        "ships,",
+        "trains,",
+        "or",
+        "trucks,",
+        "and",
+        "must",
+        "be",
+        "kept",
+        "cold",
+        "and",
+        "clean",
+        "all",
+        "the",
+        "way."
+      ],
+      "conf": 96.6218,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "graim: seeds of tome grass plants used for making bread and some",
+      "x": 0.1071,
+      "y": 0.7301,
+      "w": 0.7939,
+      "h": 0.0158,
+      "words": [
+        "graim:",
+        "seeds",
+        "of",
+        "tome",
+        "grass",
+        "plants",
+        "used",
+        "for",
+        "making",
+        "bread",
+        "and",
+        "some"
+      ],
+      "conf": 91.2402,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "feed: when we give people food, we feed them.",
+      "x": 0.1039,
+      "y": 0.7655,
+      "w": 0.5201,
+      "h": 0.0174,
+      "words": [
+        "feed:",
+        "when",
+        "we",
+        "give",
+        "people",
+        "food,",
+        "we",
+        "feed",
+        "them."
+      ],
+      "conf": 95.8335,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "other cooked foods,",
+      "x": 0.1586,
+      "y": 0.7486,
+      "w": 0.2174,
+      "h": 0.0125,
+      "words": [
+        "other",
+        "cooked",
+        "foods,"
+      ],
+      "conf": 95.5471,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "will feed",
+      "x": 0.1047,
+      "y": 0.8645,
+      "w": 0.1127,
+      "h": 0.0212,
+      "words": [
+        "will",
+        "feed"
+      ],
+      "conf": 96.2789,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "fed",
+      "x": 0.8631,
+      "y": 0.8662,
+      "w": 0.0386,
+      "h": 0.0125,
+      "words": [
+        "fed"
+      ],
+      "conf": 95.172,
+      "source": "psm-11"
+    }
+  ]
+}

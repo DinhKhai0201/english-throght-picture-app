@@ -1,0 +1,389 @@
+{
+  "page": 250,
+  "image": "/books/page 250.png",
+  "imageApiPath": "/api/books/page%20250.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 17,
+    "wordCount": 95,
+    "imageWidth": 1150,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5",
+        "r7",
+        "r8"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r6",
+        "r9",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r11",
+        "r14",
+        "r15",
+        "r17"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r12",
+        "r13",
+        "r16"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "We see things with our H eyes and we:see their colors.",
+      "x": 0.0826,
+      "y": 0.1569,
+      "w": 0.3939,
+      "h": 0.0772,
+      "words": [
+        "We",
+        "see",
+        "things",
+        "with",
+        "our",
+        "H",
+        "eyes",
+        "and",
+        "we:see",
+        "their",
+        "colors."
+      ],
+      "conf": 92.1371,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "What is the color of!",
+      "x": 0.4983,
+      "y": 0.1869,
+      "w": 0.3426,
+      "h": 0.0407,
+      "words": [
+        "What",
+        "is",
+        "the",
+        "color",
+        "of!"
+      ],
+      "conf": 81.7642,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Here are some names of colors: green",
+      "x": 0.0843,
+      "y": 0.2416,
+      "w": 0.3409,
+      "h": 0.0712,
+      "words": [
+        "Here",
+        "are",
+        "some",
+        "names",
+        "of",
+        "colors:",
+        "green"
+      ],
+      "conf": 95.9473,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "grass and leaves in spring?",
+      "x": 0.5,
+      "y": 0.2292,
+      "w": 0.3026,
+      "h": 0.0488,
+      "words": [
+        "grass",
+        "and",
+        "leaves",
+        "in",
+        "spring?"
+      ],
+      "conf": 96.1674,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "red blue",
+      "x": 0.127,
+      "y": 0.2887,
+      "w": 0.2556,
+      "h": 0.0444,
+      "words": [
+        "red",
+        "blue"
+      ],
+      "conf": 96.6487,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Grass and leaves in spring are green.",
+      "x": 0.4991,
+      "y": 0.2785,
+      "w": 0.3104,
+      "h": 0.0493,
+      "words": [
+        "Grass",
+        "and",
+        "leaves",
+        "in",
+        "spring",
+        "are",
+        "green."
+      ],
+      "conf": 96.3061,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "yellow white",
+      "x": 0.1261,
+      "y": 0.3139,
+      "w": 0.3078,
+      "h": 0.045,
+      "words": [
+        "yellow",
+        "white"
+      ],
+      "conf": 95.6182,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "gray",
+      "x": 0.3313,
+      "y": 0.3396,
+      "w": 0.0748,
+      "h": 0.0225,
+      "words": [
+        "gray"
+      ],
+      "conf": 96.7441,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "What fs the color of this girl's lips?",
+      "x": 0.4974,
+      "y": 0.3283,
+      "w": 0.3765,
+      "h": 0.0499,
+      "words": [
+        "What",
+        "fs",
+        "the",
+        "color",
+        "of",
+        "this",
+        "girl's",
+        "lips?"
+      ],
+      "conf": 96.0582,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Her lips are red.",
+      "x": 0.5009,
+      "y": 0.3792,
+      "w": 0.2548,
+      "h": 0.0241,
+      "words": [
+        "Her",
+        "lips",
+        "are",
+        "red."
+      ],
+      "conf": 96.322,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "The sky is blue,",
+      "x": 0.1113,
+      "y": 0.5297,
+      "w": 0.2391,
+      "h": 0.0241,
+      "words": [
+        "The",
+        "sky",
+        "is",
+        "blue,"
+      ],
+      "conf": 94.1857,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "The sun fs yellow.",
+      "x": 0.5609,
+      "y": 0.5303,
+      "w": 0.2722,
+      "h": 0.023,
+      "words": [
+        "The",
+        "sun",
+        "fs",
+        "yellow."
+      ],
+      "conf": 87.7809,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Sometimes when it Is t going d or coming up t itis red. Lt",
+      "x": 0.4713,
+      "y": 0.5988,
+      "w": 0.407,
+      "h": 0.143,
+      "words": [
+        "Sometimes",
+        "when",
+        "it",
+        "Is",
+        "t",
+        "going",
+        "d",
+        "or",
+        "coming",
+        "up",
+        "t",
+        "itis",
+        "red.",
+        "Lt"
+      ],
+      "conf": 94.2884,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "It is blue when it is clear.",
+      "x": 0.1209,
+      "y": 0.7488,
+      "w": 0.2904,
+      "h": 0.0439,
+      "words": [
+        "It",
+        "is",
+        "blue",
+        "when",
+        "it",
+        "is",
+        "clear."
+      ],
+      "conf": 92.6148,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "The color of some clouds is white.",
+      "x": 0.1209,
+      "y": 0.7981,
+      "w": 0.2809,
+      "h": 0.0438,
+      "words": [
+        "The",
+        "color",
+        "of",
+        "some",
+        "clouds",
+        "is",
+        "white."
+      ],
+      "conf": 96.4002,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "This is yellow.",
+      "x": 0.5904,
+      "y": 0.8082,
+      "w": 0.1461,
+      "h": 0.0483,
+      "words": [
+        "This",
+        "is",
+        "yellow."
+      ],
+      "conf": 95.9837,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "Other clouds are gray.",
+      "x": 0.1217,
+      "y": 0.8479,
+      "w": 0.2679,
+      "h": 0.0482,
+      "words": [
+        "Other",
+        "clouds",
+        "are",
+        "gray."
+      ],
+      "conf": 96.2733,
+      "source": "psm-11"
+    }
+  ]
+}

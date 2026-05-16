@@ -1,0 +1,201 @@
+{
+  "page": 278,
+  "image": "/books/page 278.png",
+  "imageApiPath": "/api/books/page%20278.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 8,
+    "wordCount": 63,
+    "imageWidth": 1196,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "SS, AV",
+      "x": 0.6396,
+      "y": 0.1115,
+      "w": 0.092,
+      "h": 0.0735,
+      "words": [
+        "SS,",
+        "AV"
+      ],
+      "conf": 39.0192,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Z_ SVN He keeps his thoughts on his work.",
+      "x": 0.5309,
+      "y": 0.1829,
+      "w": 0.3679,
+      "h": 0.0773,
+      "words": [
+        "Z_",
+        "SVN",
+        "He",
+        "keeps",
+        "his",
+        "thoughts",
+        "on",
+        "his",
+        "work."
+      ],
+      "conf": 54.6606,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "At school he sees his friends and does his work",
+      "x": 0.1547,
+      "y": 0.2533,
+      "w": 0.3052,
+      "h": 0.0688,
+      "words": [
+        "At",
+        "school",
+        "he",
+        "sees",
+        "his",
+        "friends",
+        "and",
+        "does",
+        "his",
+        "work"
+      ],
+      "conf": 96.1749,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "He does not let his thoughts go off to other things",
+      "x": 0.5276,
+      "y": 0.2747,
+      "w": 0.3637,
+      "h": 0.0725,
+      "words": [
+        "He",
+        "does",
+        "not",
+        "let",
+        "his",
+        "thoughts",
+        "go",
+        "off",
+        "to",
+        "other",
+        "things"
+      ],
+      "conf": 96.659,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "At play after school he sends the ball a long way",
+      "x": 0.1321,
+      "y": 0.5147,
+      "w": 0.3445,
+      "h": 0.0736,
+      "words": [
+        "At",
+        "play",
+        "after",
+        "school",
+        "he",
+        "sends",
+        "the",
+        "ball",
+        "a",
+        "long",
+        "way"
+      ],
+      "conf": 96.2202,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Then he comes back from school",
+      "x": 0.5719,
+      "y": 0.5099,
+      "w": 0.3018,
+      "h": 0.0432,
+      "words": [
+        "Then",
+        "he",
+        "comes",
+        "back",
+        "from",
+        "school"
+      ],
+      "conf": 96.0488,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Here he is with the family again",
+      "x": 0.5343,
+      "y": 0.6981,
+      "w": 0.3696,
+      "h": 0.0485,
+      "words": [
+        "Here",
+        "he",
+        "is",
+        "with",
+        "the",
+        "family",
+        "again"
+      ],
+      "conf": 94.3262,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "He makes it go a long way.",
+      "x": 0.1455,
+      "y": 0.8293,
+      "w": 0.3261,
+      "h": 0.0497,
+      "words": [
+        "He",
+        "makes",
+        "it",
+        "go",
+        "a",
+        "long",
+        "way."
+      ],
+      "conf": 94.9792,
+      "source": "psm-11"
+    }
+  ]
+}

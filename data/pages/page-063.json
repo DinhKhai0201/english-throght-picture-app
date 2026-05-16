@@ -1,0 +1,151 @@
+{
+  "page": 63,
+  "image": "/books/page 63.png",
+  "imageApiPath": "/api/books/page%2063.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 6,
+    "wordCount": 41,
+    "imageWidth": 1180,
+    "imageHeight": 1892
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "rie will put the key in the lock of the door.",
+      "x": 0.1331,
+      "y": 0.1512,
+      "w": 0.3288,
+      "h": 0.0455,
+      "words": [
+        "rie",
+        "will",
+        "put",
+        "the",
+        "key",
+        "in",
+        "the",
+        "lock",
+        "of",
+        "the",
+        "door."
+      ],
+      "conf": 91.219,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "He is putting the key in the lock.",
+      "x": 0.5695,
+      "y": 0.1512,
+      "w": 0.3093,
+      "h": 0.0449,
+      "words": [
+        "He",
+        "is",
+        "putting",
+        "the",
+        "key",
+        "in",
+        "the",
+        "lock."
+      ],
+      "conf": 95.4473,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "He is giving a push to the door.",
+      "x": 0.5602,
+      "y": 0.5507,
+      "w": 0.3771,
+      "h": 0.0455,
+      "words": [
+        "He",
+        "is",
+        "giving",
+        "a",
+        "push",
+        "to",
+        "the",
+        "door."
+      ],
+      "conf": 96.004,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "He is giving a turn to the key.",
+      "x": 0.1398,
+      "y": 0.5814,
+      "w": 0.3305,
+      "h": 0.0481,
+      "words": [
+        "He",
+        "is",
+        "giving",
+        "a",
+        "turn",
+        "to",
+        "the",
+        "key."
+      ],
+      "conf": 96.3173,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "The door is open now.",
+      "x": 0.561,
+      "y": 0.6025,
+      "w": 0.3398,
+      "h": 0.0233,
+      "words": [
+        "The",
+        "door",
+        "is",
+        "open",
+        "now."
+      ],
+      "conf": 96.7419,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "i.",
+      "x": 0.1559,
+      "y": 0.6966,
+      "w": 0.3,
+      "h": 0.0745,
+      "words": [
+        "i."
+      ],
+      "conf": 42.2178,
+      "source": "psm-11"
+    }
+  ]
+}

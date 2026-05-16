@@ -1,0 +1,178 @@
+{
+  "page": 127,
+  "image": "/books/page 127.png",
+  "imageApiPath": "/api/books/page%20127.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 8,
+    "wordCount": 40,
+    "imageWidth": 1284,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This is a bedroom.",
+      "x": 0.1184,
+      "y": 0.0997,
+      "w": 0.2547,
+      "h": 0.0184,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "bedroom."
+      ],
+      "conf": 89.3424,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "There are two beds in it.",
+      "x": 0.1184,
+      "y": 0.123,
+      "w": 0.3458,
+      "h": 0.0265,
+      "words": [
+        "There",
+        "are",
+        "two",
+        "beds",
+        "in",
+        "it."
+      ],
+      "conf": 96.2743,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This seat is by the bed,",
+      "x": 0.5202,
+      "y": 0.1246,
+      "w": 0.3232,
+      "h": 0.0255,
+      "words": [
+        "This",
+        "seat",
+        "is",
+        "by",
+        "the",
+        "bed,"
+      ],
+      "conf": 95.6004,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "What is on the seat?",
+      "x": 0.1472,
+      "y": 0.5179,
+      "w": 0.2897,
+      "h": 0.019,
+      "words": [
+        "What",
+        "is",
+        "on",
+        "the",
+        "seat?"
+      ],
+      "conf": 96.2374,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "A woman is by the bed.",
+      "x": 0.5335,
+      "y": 0.5173,
+      "w": 0.3294,
+      "h": 0.0249,
+      "words": [
+        "A",
+        "woman",
+        "is",
+        "by",
+        "the",
+        "bed."
+      ],
+      "conf": 96.4135,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "A bag is on the seat.",
+      "x": 0.148,
+      "y": 0.5439,
+      "w": 0.2928,
+      "h": 0.0233,
+      "words": [
+        "A",
+        "bag",
+        "is",
+        "on",
+        "the",
+        "seat."
+      ],
+      "conf": 93.7789,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Who is she?",
+      "x": 0.5319,
+      "y": 0.5433,
+      "w": 0.1706,
+      "h": 0.0206,
+      "words": [
+        "Who",
+        "is",
+        "she?"
+      ],
+      "conf": 96.2013,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "She is Mrs. Smith.",
+      "x": 0.5335,
+      "y": 0.5672,
+      "w": 0.2508,
+      "h": 0.0222,
+      "words": [
+        "She",
+        "is",
+        "Mrs.",
+        "Smith."
+      ],
+      "conf": 90.9226,
+      "source": "psm-11"
+    }
+  ]
+}

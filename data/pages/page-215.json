@@ -1,0 +1,390 @@
+{
+  "page": 215,
+  "image": "/books/page 215.png",
+  "imageApiPath": "/api/books/page%20215.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 20,
+    "wordCount": 84,
+    "imageWidth": 1234,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r13",
+        "r14",
+        "r15",
+        "r16",
+        "r17",
+        "r18",
+        "r19",
+        "r20"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "QUESTIONS",
+      "x": 0.4117,
+      "y": 0.1301,
+      "w": 0.1904,
+      "h": 0.0197,
+      "words": [
+        "QUESTIONS"
+      ],
+      "conf": 96.7857,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Milk comes from a cow. Heat comes from the sun, or",
+      "x": 0.1151,
+      "y": 0.2304,
+      "w": 0.7998,
+      "h": 0.024,
+      "words": [
+        "Milk",
+        "comes",
+        "from",
+        "a",
+        "cow.",
+        "Heat",
+        "comes",
+        "from",
+        "the",
+        "sun,",
+        "or"
+      ],
+      "conf": 96.0269,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "a fire. Where do these things come from?",
+      "x": 0.2018,
+      "y": 0.2571,
+      "w": 0.6264,
+      "h": 0.0229,
+      "words": [
+        "a",
+        "fire.",
+        "Where",
+        "do",
+        "these",
+        "things",
+        "come",
+        "from?"
+      ],
+      "conf": 95.5891,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "a potatoes d letters g oranges Which of these things have a face?",
+      "x": 0.1175,
+      "y": 0.3104,
+      "w": 0.5219,
+      "h": 0.119,
+      "words": [
+        "a",
+        "potatoes",
+        "d",
+        "letters",
+        "g",
+        "oranges",
+        "Which",
+        "of",
+        "these",
+        "things",
+        "have",
+        "a",
+        "face?"
+      ],
+      "conf": 90.8766,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "light e flowers",
+      "x": 0.4773,
+      "y": 0.3072,
+      "w": 0.3233,
+      "h": 0.0438,
+      "words": [
+        "light",
+        "e",
+        "flowers"
+      ],
+      "conf": 96.9108,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "b cheese",
+      "x": 0.4781,
+      "y": 0.3077,
+      "w": 0.137,
+      "h": 0.0187,
+      "words": [
+        "b",
+        "cheese"
+      ],
+      "conf": 94.5807,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "f snow h meat",
+      "x": 0.4773,
+      "y": 0.3323,
+      "w": 0.3282,
+      "h": 0.0437,
+      "words": [
+        "f",
+        "snow",
+        "h",
+        "meat"
+      ],
+      "conf": 91.1412,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "i eggs",
+      "x": 0.6969,
+      "y": 0.3589,
+      "w": 0.1045,
+      "h": 0.0213,
+      "words": [
+        "i",
+        "eggs"
+      ],
+      "conf": 84.0675,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "aman",
+      "x": 0.1159,
+      "y": 0.4629,
+      "w": 0.0908,
+      "h": 0.0123,
+      "words": [
+        "aman"
+      ],
+      "conf": 92.489,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "adog a clock",
+      "x": 0.1159,
+      "y": 0.4576,
+      "w": 0.359,
+      "h": 0.0427,
+      "words": [
+        "adog",
+        "a",
+        "clock"
+      ],
+      "conf": 91.9226,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "a bone",
+      "x": 0.5778,
+      "y": 0.4576,
+      "w": 0.1053,
+      "h": 0.0197,
+      "words": [
+        "a",
+        "bone"
+      ],
+      "conf": 92.5079,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "a fridge goat",
+      "x": 0.6094,
+      "y": 0.4613,
+      "w": 0.2763,
+      "h": 0.0453,
+      "words": [
+        "a",
+        "fridge",
+        "goat"
+      ],
+      "conf": 96.0855,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "a tree",
+      "x": 0.389,
+      "y": 0.4864,
+      "w": 0.0867,
+      "h": 0.0149,
+      "words": [
+        "a",
+        "tree"
+      ],
+      "conf": 95.9519,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "a bird",
+      "x": 0.7723,
+      "y": 0.4837,
+      "w": 0.0908,
+      "h": 0.0187,
+      "words": [
+        "a",
+        "bird"
+      ],
+      "conf": 40.9782,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "an airplane",
+      "x": 0.1159,
+      "y": 0.5061,
+      "w": 0.1718,
+      "h": 0.0245,
+      "words": [
+        "an",
+        "airplane"
+      ],
+      "conf": 94.1128,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "a river Which of them have a mouth?",
+      "x": 0.1175,
+      "y": 0.5093,
+      "w": 0.4433,
+      "h": 0.0667,
+      "words": [
+        "a",
+        "river",
+        "Which",
+        "of",
+        "them",
+        "have",
+        "a",
+        "mouth?"
+      ],
+      "conf": 93.2235,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "a table",
+      "x": 0.5786,
+      "y": 0.5083,
+      "w": 0.1062,
+      "h": 0.0187,
+      "words": [
+        "a",
+        "table"
+      ],
+      "conf": 95.0509,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "Which of them have hands?",
+      "x": 0.1175,
+      "y": 0.5808,
+      "w": 0.41,
+      "h": 0.0192,
+      "words": [
+        "Which",
+        "of",
+        "them",
+        "have",
+        "hands?"
+      ],
+      "conf": 96.1962,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "Which of them have a door?",
+      "x": 0.1183,
+      "y": 0.6069,
+      "w": 0.4214,
+      "h": 0.0197,
+      "words": [
+        "Which",
+        "of",
+        "them",
+        "have",
+        "a",
+        "door?"
+      ],
+      "conf": 96.057,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "Answers are on page",
+      "x": 0.3217,
+      "y": 0.6789,
+      "w": 0.3177,
+      "h": 0.0411,
+      "words": [
+        "Answers",
+        "are",
+        "on",
+        "page"
+      ],
+      "conf": 92.1495,
+      "source": "psm-11"
+    }
+  ]
+}

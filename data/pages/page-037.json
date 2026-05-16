@@ -1,0 +1,261 @@
+{
+  "page": 37,
+  "image": "/books/page 37.png",
+  "imageApiPath": "/api/books/page%2037.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 65,
+    "imageWidth": 1188,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "QUESTIONS",
+      "x": 0.4108,
+      "y": 0.0731,
+      "w": 0.1911,
+      "h": 0.0184,
+      "words": [
+        "QUESTIONS"
+      ],
+      "conf": 96.8163,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "a Is the hat on the table?",
+      "x": 0.1987,
+      "y": 0.1056,
+      "w": 0.2214,
+      "h": 0.0434,
+      "words": [
+        "a",
+        "Is",
+        "the",
+        "hat",
+        "on",
+        "the",
+        "table?"
+      ],
+      "conf": 91.7252,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "b Is the man in the room?",
+      "x": 0.6044,
+      "y": 0.104,
+      "w": 0.2323,
+      "h": 0.0455,
+      "words": [
+        "b",
+        "Is",
+        "the",
+        "man",
+        "in",
+        "the",
+        "room?"
+      ],
+      "conf": 94.1929,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Is the picture on the wall?",
+      "x": 0.1633,
+      "y": 0.2914,
+      "w": 0.2382,
+      "h": 0.0434,
+      "words": [
+        "Is",
+        "the",
+        "picture",
+        "on",
+        "the",
+        "wall?"
+      ],
+      "conf": 95.6159,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "d Is the bird on the seat?",
+      "x": 0.6069,
+      "y": 0.292,
+      "w": 0.2332,
+      "h": 0.0433,
+      "words": [
+        "d",
+        "Is",
+        "the",
+        "bird",
+        "on",
+        "the",
+        "seat?"
+      ],
+      "conf": 90.0905,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "e Is the glass in the woman's hand?",
+      "x": 0.1271,
+      "y": 0.4984,
+      "w": 0.3274,
+      "h": 0.0449,
+      "words": [
+        "e",
+        "Is",
+        "the",
+        "glass",
+        "in",
+        "the",
+        "woman's",
+        "hand?"
+      ],
+      "conf": 94.2112,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "f Is the water in the glass?",
+      "x": 0.6027,
+      "y": 0.4995,
+      "w": 0.25,
+      "h": 0.0482,
+      "words": [
+        "f",
+        "Is",
+        "the",
+        "water",
+        "in",
+        "the",
+        "glass?"
+      ],
+      "conf": 89.2038,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "g Is this ship in a bottle?",
+      "x": 0.197,
+      "y": 0.6847,
+      "w": 0.229,
+      "h": 0.0434,
+      "words": [
+        "g",
+        "Is",
+        "this",
+        "ship",
+        "in",
+        "a",
+        "bottle?"
+      ],
+      "conf": 87.2662,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "h Are the man and the",
+      "x": 0.5438,
+      "y": 0.6885,
+      "w": 0.3502,
+      "h": 0.0184,
+      "words": [
+        "h",
+        "Are",
+        "the",
+        "man",
+        "and",
+        "the"
+      ],
+      "conf": 95.6812,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "This page is page The answers are on page",
+      "x": 0.1271,
+      "y": 0.8797,
+      "w": 0.7197,
+      "h": 0.0233,
+      "words": [
+        "This",
+        "page",
+        "is",
+        "page",
+        "The",
+        "answers",
+        "are",
+        "on",
+        "page"
+      ],
+      "conf": 96.4053,
+      "source": "psm-11"
+    }
+  ]
+}

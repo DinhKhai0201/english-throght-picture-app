@@ -1,0 +1,147 @@
+{
+  "page": 20,
+  "image": "/books/page 20.png",
+  "imageApiPath": "/api/books/page%2020.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 6,
+    "wordCount": 37,
+    "imageWidth": 1230,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "He will take his hat off his head.",
+      "x": 0.1537,
+      "y": 0.1963,
+      "w": 0.3358,
+      "h": 0.0452,
+      "words": [
+        "He",
+        "will",
+        "take",
+        "his",
+        "hat",
+        "off",
+        "his",
+        "head."
+      ],
+      "conf": 87.0837,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "He is taking his hat off his head.",
+      "x": 0.574,
+      "y": 0.1969,
+      "w": 0.3358,
+      "h": 0.0441,
+      "words": [
+        "He",
+        "is",
+        "taking",
+        "his",
+        "hat",
+        "off",
+        "his",
+        "head."
+      ],
+      "conf": 96.5036,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "His hat is in his hand.",
+      "x": 0.1683,
+      "y": 0.5481,
+      "w": 0.3146,
+      "h": 0.0199,
+      "words": [
+        "His",
+        "hat",
+        "is",
+        "in",
+        "his",
+        "hand."
+      ],
+      "conf": 95.7478,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "He took his hat off.",
+      "x": 0.6049,
+      "y": 0.5492,
+      "w": 0.2805,
+      "h": 0.0204,
+      "words": [
+        "He",
+        "took",
+        "his",
+        "hat",
+        "off."
+      ],
+      "conf": 96.3924,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "It was on his head.",
+      "x": 0.1691,
+      "y": 0.574,
+      "w": 0.2764,
+      "h": 0.0194,
+      "words": [
+        "It",
+        "was",
+        "on",
+        "his",
+        "head."
+      ],
+      "conf": 92.7314,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "It is in his hand,",
+      "x": 0.6106,
+      "y": 0.8521,
+      "w": 0.2325,
+      "h": 0.0242,
+      "words": [
+        "It",
+        "is",
+        "in",
+        "his",
+        "hand,"
+      ],
+      "conf": 89.525,
+      "source": "psm-11"
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "page": 75,
+  "image": "/books/page 75.png",
+  "imageApiPath": "/api/books/page%2075.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 4,
+    "wordCount": 25,
+    "imageWidth": 1150,
+    "imageHeight": 1842
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "John says, “I will get my hat.”",
+      "x": 0.0991,
+      "y": 0.1292,
+      "w": 0.3774,
+      "h": 0.0598,
+      "words": [
+        "John",
+        "says,",
+        "“I",
+        "will",
+        "get",
+        "my",
+        "hat.”"
+      ],
+      "conf": 83.003,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "He is getting it",
+      "x": 0.587,
+      "y": 0.1298,
+      "w": 0.2278,
+      "h": 0.0223,
+      "words": [
+        "He",
+        "is",
+        "getting",
+        "it"
+      ],
+      "conf": 96.4033,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Did he get it? Yes. He has it.",
+      "x": 0.1122,
+      "y": 0.5391,
+      "w": 0.3391,
+      "h": 0.0451,
+      "words": [
+        "Did",
+        "he",
+        "get",
+        "it?",
+        "Yes.",
+        "He",
+        "has",
+        "it."
+      ],
+      "conf": 96.7037,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "He went out of the room.",
+      "x": 0.5513,
+      "y": 0.5391,
+      "w": 0.3739,
+      "h": 0.0201,
+      "words": [
+        "He",
+        "went",
+        "out",
+        "of",
+        "the",
+        "room."
+      ],
+      "conf": 96.3374,
+      "source": "psm-11"
+    }
+  ]
+}

@@ -1,0 +1,398 @@
+{
+  "page": 423,
+  "image": "/books/page 423.png",
+  "imageApiPath": "/api/books/page%20423.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 17,
+    "wordCount": 134,
+    "imageWidth": 1242,
+    "imageHeight": 1850
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r13",
+        "r14",
+        "r15",
+        "r16",
+        "r17"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "All our lives we need other people.",
+      "x": 0.0862,
+      "y": 0.0314,
+      "w": 0.4734,
+      "h": 0.0259,
+      "words": [
+        "All",
+        "our",
+        "lives",
+        "we",
+        "need",
+        "other",
+        "people."
+      ],
+      "conf": 96.5757,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "In many parts of the world families do everything for themselves.",
+      "x": 0.0878,
+      "y": 0.0822,
+      "w": 0.7923,
+      "h": 0.0465,
+      "words": [
+        "In",
+        "many",
+        "parts",
+        "of",
+        "the",
+        "world",
+        "families",
+        "do",
+        "everything",
+        "for",
+        "themselves."
+      ],
+      "conf": 96.5117,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "themselves.",
+      "x": 0.0878,
+      "y": 0.1114,
+      "w": 0.157,
+      "h": 0.0173,
+      "words": [
+        "themselves."
+      ],
+      "conf": 96.4664,
+      "source": "psm-6"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Until the nineteenth century this was true almost every-",
+      "x": 0.087,
+      "y": 0.1632,
+      "w": 0.7915,
+      "h": 0.0222,
+      "words": [
+        "Until",
+        "the",
+        "nineteenth",
+        "century",
+        "this",
+        "was",
+        "true",
+        "almost",
+        "every-"
+      ],
+      "conf": 95.847,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Until the nineteenth century this was true almost every- where outside the cities. Families were self-supporting.",
+      "x": 0.087,
+      "y": 0.1632,
+      "w": 0.7915,
+      "h": 0.0601,
+      "words": [
+        "Until",
+        "the",
+        "nineteenth",
+        "century",
+        "this",
+        "was",
+        "true",
+        "almost",
+        "every-",
+        "where",
+        "outside",
+        "the",
+        "cities.",
+        "Families",
+        "were",
+        "self-supporting."
+      ],
+      "conf": 95.847,
+      "source": "psm-6"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "where outside the cities. Families were self-supporting.",
+      "x": 0.0878,
+      "y": 0.1897,
+      "w": 0.7907,
+      "h": 0.0222,
+      "words": [
+        "where",
+        "outside",
+        "the",
+        "cities.",
+        "Families",
+        "were",
+        "self-supporting."
+      ],
+      "conf": 96.2962,
+      "source": "psm-6"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "They grew the food they needed, y,",
+      "x": 0.0853,
+      "y": 0.2373,
+      "w": 0.7238,
+      "h": 0.0346,
+      "words": [
+        "They",
+        "grew",
+        "the",
+        "food",
+        "they",
+        "needed,",
+        "y,"
+      ],
+      "conf": 93.0771,
+      "source": "psm-6"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "They grew the food they needed,",
+      "x": 0.0886,
+      "y": 0.2427,
+      "w": 0.4348,
+      "h": 0.0227,
+      "words": [
+        "They",
+        "grew",
+        "the",
+        "food",
+        "they",
+        "needed,"
+      ],
+      "conf": 96.6274,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "built their own houses, and",
+      "x": 0.0894,
+      "y": 0.347,
+      "w": 0.38,
+      "h": 0.0211,
+      "words": [
+        "built",
+        "their",
+        "own",
+        "houses,",
+        "and"
+      ],
+      "conf": 96.4479,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "made their own clothing and furniture,",
+      "x": 0.091,
+      "y": 0.4643,
+      "w": 0.5209,
+      "h": 0.0222,
+      "words": [
+        "made",
+        "their",
+        "own",
+        "clothing",
+        "and",
+        "furniture,"
+      ],
+      "conf": 96.1647,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "the candles for lighting the rooms at night,",
+      "x": 0.0926,
+      "y": 0.5827,
+      "w": 0.4847,
+      "h": 0.047,
+      "words": [
+        "the",
+        "candles",
+        "for",
+        "lighting",
+        "the",
+        "rooms",
+        "at",
+        "night,"
+      ],
+      "conf": 96.3102,
+      "source": "psm-6"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "at night,",
+      "x": 0.0934,
+      "y": 0.6092,
+      "w": 0.1176,
+      "h": 0.0205,
+      "words": [
+        "at",
+        "night,"
+      ],
+      "conf": 96.8686,
+      "source": "psm-6"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "and the plows and carts for work on the farm by day...",
+      "x": 0.091,
+      "y": 0.7124,
+      "w": 0.4758,
+      "h": 0.0487,
+      "words": [
+        "and",
+        "the",
+        "plows",
+        "and",
+        "carts",
+        "for",
+        "work",
+        "on",
+        "the",
+        "farm",
+        "by",
+        "day..."
+      ],
+      "conf": 96.4522,
+      "source": "psm-6"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "on the farm by day...",
+      "x": 0.095,
+      "y": 0.7395,
+      "w": 0.3196,
+      "h": 0.0216,
+      "words": [
+        "on",
+        "the",
+        "farm",
+        "by",
+        "day..."
+      ],
+      "conf": 95.8733,
+      "source": "psm-6"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "In every way they took care of them- selves. Living like this, a family is",
+      "x": 0.0958,
+      "y": 0.7924,
+      "w": 0.5169,
+      "h": 0.0481,
+      "words": [
+        "In",
+        "every",
+        "way",
+        "they",
+        "took",
+        "care",
+        "of",
+        "them-",
+        "selves.",
+        "Living",
+        "like",
+        "this,",
+        "a",
+        "family",
+        "is"
+      ],
+      "conf": 95.4323,
+      "source": "psm-6"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "selves. Living like this, a family is very like a simple organism.",
+      "x": 0.0966,
+      "y": 0.8189,
+      "w": 0.5153,
+      "h": 0.0482,
+      "words": [
+        "selves.",
+        "Living",
+        "like",
+        "this,",
+        "a",
+        "family",
+        "is",
+        "very",
+        "like",
+        "a",
+        "simple",
+        "organism."
+      ],
+      "conf": 96.3921,
+      "source": "psm-6"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "very like a simple organism.",
+      "x": 0.0966,
+      "y": 0.8449,
+      "w": 0.3808,
+      "h": 0.0222,
+      "words": [
+        "very",
+        "like",
+        "a",
+        "simple",
+        "organism."
+      ],
+      "conf": 96.7288,
+      "source": "psm-6"
+    }
+  ]
+}

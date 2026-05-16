@@ -1,0 +1,264 @@
+{
+  "page": 110,
+  "image": "/books/page 110.png",
+  "imageApiPath": "/api/books/page%20110.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 11,
+    "wordCount": 54,
+    "imageWidth": 1221,
+    "imageHeight": 1830
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r5",
+        "r6",
+        "r7"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r11"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "An orange C)",
+      "x": 0.6216,
+      "y": 0.1689,
+      "w": 0.2506,
+      "h": 0.0568,
+      "words": [
+        "An",
+        "orange",
+        "C)"
+      ],
+      "conf": 90.2413,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "meat, butter,",
+      "x": 0.104,
+      "y": 0.2115,
+      "w": 0.0999,
+      "h": 0.0726,
+      "words": [
+        "meat,",
+        "butter,"
+      ],
+      "conf": 96.6329,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "cheese,",
+      "x": 0.3194,
+      "y": 0.2689,
+      "w": 0.1089,
+      "h": 0.0224,
+      "words": [
+        "cheese,"
+      ],
+      "conf": 96.7742,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "OOO Apples and oranges are different sorts of fruit.",
+      "x": 0.5504,
+      "y": 0.3066,
+      "w": 0.3398,
+      "h": 0.1393,
+      "words": [
+        "OOO",
+        "Apples",
+        "and",
+        "oranges",
+        "are",
+        "different",
+        "sorts",
+        "of",
+        "fruit."
+      ],
+      "conf": 87.1761,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "apples,",
+      "x": 0.1589,
+      "y": 0.3339,
+      "w": 0.1089,
+      "h": 0.0251,
+      "words": [
+        "apples,"
+      ],
+      "conf": 96.5814,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "oranges are food They are different",
+      "x": 0.1712,
+      "y": 0.3377,
+      "w": 0.2858,
+      "h": 0.1388,
+      "words": [
+        "oranges",
+        "are",
+        "food",
+        "They",
+        "are",
+        "different"
+      ],
+      "conf": 96.6911,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "sorts of f.",
+      "x": 0.1736,
+      "y": 0.453,
+      "w": 0.1302,
+      "h": 0.0273,
+      "words": [
+        "sorts",
+        "of",
+        "f."
+      ],
+      "conf": 92.2837,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "These are different sorts of glasses.",
+      "x": 0.1532,
+      "y": 0.5301,
+      "w": 0.2817,
+      "h": 0.0491,
+      "words": [
+        "These",
+        "are",
+        "different",
+        "sorts",
+        "of",
+        "glasses."
+      ],
+      "conf": 96.5694,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Glasses and boxes and fingers and dresses and flames are things.",
+      "x": 0.5168,
+      "y": 0.635,
+      "w": 0.3456,
+      "h": 0.0765,
+      "words": [
+        "Glasses",
+        "and",
+        "boxes",
+        "and",
+        "fingers",
+        "and",
+        "dresses",
+        "and",
+        "flames",
+        "are",
+        "things."
+      ],
+      "conf": 96.4464,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "These are different sorts of boxes",
+      "x": 0.14,
+      "y": 0.6918,
+      "w": 0.2842,
+      "h": 0.0459,
+      "words": [
+        "These",
+        "are",
+        "different",
+        "sorts",
+        "of",
+        "boxes"
+      ],
+      "conf": 96.4451,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "They are different sorts of things",
+      "x": 0.5201,
+      "y": 0.7142,
+      "w": 0.2727,
+      "h": 0.0492,
+      "words": [
+        "They",
+        "are",
+        "different",
+        "sorts",
+        "of",
+        "things"
+      ],
+      "conf": 96.5853,
+      "source": "psm-11"
+    }
+  ]
+}

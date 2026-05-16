@@ -1,0 +1,375 @@
+{
+  "page": 246,
+  "image": "/books/page 246.png",
+  "imageApiPath": "/api/books/page%20246.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 15,
+    "wordCount": 109,
+    "imageWidth": 1150,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r4",
+        "r6",
+        "r7",
+        "r8"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r5",
+        "r9"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r11",
+        "r14"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r12",
+        "r13",
+        "r15"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Another sense is taste.",
+      "x": 0.5052,
+      "y": 0.0965,
+      "w": 0.2557,
+      "h": 0.0416,
+      "words": [
+        "Another",
+        "sense",
+        "is",
+        "taste."
+      ],
+      "conf": 95.5776,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Seeing and hearing",
+      "x": 0.0791,
+      "y": 0.1376,
+      "w": 0.3148,
+      "h": 0.0245,
+      "words": [
+        "Seeing",
+        "and",
+        "hearing"
+      ],
+      "conf": 96.6375,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "and touch are three of is a, man's tongue our senses.",
+      "x": 0.0791,
+      "y": 0.1584,
+      "w": 0.7443,
+      "h": 0.0533,
+      "words": [
+        "and",
+        "touch",
+        "are",
+        "three",
+        "of",
+        "is",
+        "a,",
+        "man's",
+        "tongue",
+        "our",
+        "senses."
+      ],
+      "conf": 89.804,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "We get knowledge",
+      "x": 0.0791,
+      "y": 0.2123,
+      "w": 0.3043,
+      "h": 0.0267,
+      "words": [
+        "We",
+        "get",
+        "knowledge"
+      ],
+      "conf": 95.9476,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "These are his lips,",
+      "x": 0.5026,
+      "y": 0.2123,
+      "w": 0.28,
+      "h": 0.0315,
+      "words": [
+        "These",
+        "are",
+        "his",
+        "lips,"
+      ],
+      "conf": 94.0976,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "through our eyes (see- This is his chin.",
+      "x": 0.0791,
+      "y": 0.2368,
+      "w": 0.6539,
+      "h": 0.0309,
+      "words": [
+        "through",
+        "our",
+        "eyes",
+        "(see-",
+        "This",
+        "is",
+        "his",
+        "chin."
+      ],
+      "conf": 90.3016,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "ing), through our ears (hearing), and through our fingers (touching).",
+      "x": 0.0791,
+      "y": 0.2635,
+      "w": 0.3635,
+      "h": 0.0731,
+      "words": [
+        "ing),",
+        "through",
+        "our",
+        "ears",
+        "(hearing),",
+        "and",
+        "through",
+        "our",
+        "fingers",
+        "(touching)."
+      ],
+      "conf": 96.305,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "These are three of our chief senses.",
+      "x": 0.08,
+      "y": 0.3381,
+      "w": 0.353,
+      "h": 0.0433,
+      "words": [
+        "These",
+        "are",
+        "three",
+        "of",
+        "our",
+        "chief",
+        "senses."
+      ],
+      "conf": 96.0753,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "The chief work of the tongue is tasting.",
+      "x": 0.5243,
+      "y": 0.3376,
+      "w": 0.3339,
+      "h": 0.0491,
+      "words": [
+        "The",
+        "chief",
+        "work",
+        "of",
+        "the",
+        "tongue",
+        "is",
+        "tasting."
+      ],
+      "conf": 96.701,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "She is tasting the She has some of it on",
+      "x": 0.4991,
+      "y": 0.6133,
+      "w": 0.3278,
+      "h": 0.0694,
+      "words": [
+        "She",
+        "is",
+        "tasting",
+        "the",
+        "She",
+        "has",
+        "some",
+        "of",
+        "it",
+        "on"
+      ],
+      "conf": 96.691,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "Here is some white powder on a plate.",
+      "x": 0.0696,
+      "y": 0.6581,
+      "w": 0.3043,
+      "h": 0.0582,
+      "words": [
+        "Here",
+        "is",
+        "some",
+        "white",
+        "powder",
+        "on",
+        "a",
+        "plate."
+      ],
+      "conf": 96.0827,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "powder.",
+      "x": 0.5,
+      "y": 0.6453,
+      "w": 0.1287,
+      "h": 0.0171,
+      "words": [
+        "powder."
+      ],
+      "conf": 96.1755,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "her finger.",
+      "x": 0.5,
+      "y": 0.6896,
+      "w": 0.1635,
+      "h": 0.0229,
+      "words": [
+        "her",
+        "finger."
+      ],
+      "conf": 96.389,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "It may be salt or it may be sugar. Which is it— salt or sugar?",
+      "x": 0.067,
+      "y": 0.7152,
+      "w": 0.3704,
+      "h": 0.0736,
+      "words": [
+        "It",
+        "may",
+        "be",
+        "salt",
+        "or",
+        "it",
+        "may",
+        "be",
+        "sugar.",
+        "Which",
+        "is",
+        "it—",
+        "salt",
+        "or",
+        "sugar?"
+      ],
+      "conf": 92.3462,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "She is putting some of the powder on her tongue. She is tast- ing it.",
+      "x": 0.4983,
+      "y": 0.7147,
+      "w": 0.3583,
+      "h": 0.097,
+      "words": [
+        "She",
+        "is",
+        "putting",
+        "some",
+        "of",
+        "the",
+        "powder",
+        "on",
+        "her",
+        "tongue.",
+        "She",
+        "is",
+        "tast-",
+        "ing",
+        "it."
+      ],
+      "conf": 96.4698,
+      "source": "psm-11"
+    }
+  ]
+}

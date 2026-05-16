@@ -1,0 +1,278 @@
+{
+  "page": 65,
+  "image": "/books/page 65.png",
+  "imageApiPath": "/api/books/page%2065.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 11,
+    "wordCount": 68,
+    "imageWidth": 1171,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r7",
+        "r9",
+        "r10",
+        "r11"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "He is coming into the room.",
+      "x": 0.1554,
+      "y": 0.1125,
+      "w": 0.3254,
+      "h": 0.0445,
+      "words": [
+        "He",
+        "is",
+        "coming",
+        "into",
+        "the",
+        "room."
+      ],
+      "conf": 96.7348,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Mr. Smith came into the room.",
+      "x": 0.5961,
+      "y": 0.1125,
+      "w": 0.31,
+      "h": 0.0445,
+      "words": [
+        "Mr.",
+        "Smith",
+        "came",
+        "into",
+        "the",
+        "room."
+      ],
+      "conf": 94.3371,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "He will go to the table.",
+      "x": 0.1563,
+      "y": 0.1623,
+      "w": 0.3553,
+      "h": 0.0236,
+      "words": [
+        "He",
+        "will",
+        "go",
+        "to",
+        "the",
+        "table."
+      ],
+      "conf": 96.6723,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "He went to the table.",
+      "x": 0.5978,
+      "y": 0.1628,
+      "w": 0.3228,
+      "h": 0.0204,
+      "words": [
+        "He",
+        "went",
+        "to",
+        "the",
+        "table."
+      ],
+      "conf": 95.3252,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "She is in the house but she is not in the room.",
+      "x": 0.6132,
+      "y": 0.4906,
+      "w": 0.3415,
+      "h": 0.045,
+      "words": [
+        "She",
+        "is",
+        "in",
+        "the",
+        "house",
+        "but",
+        "she",
+        "is",
+        "not",
+        "in",
+        "the",
+        "room."
+      ],
+      "conf": 96.7254,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "{Is Mrs. Smith in the room?",
+      "x": 0.1845,
+      "y": 0.5121,
+      "w": 0.2929,
+      "h": 0.0433,
+      "words": [
+        "{Is",
+        "Mrs.",
+        "Smith",
+        "in",
+        "the",
+        "room?"
+      ],
+      "conf": 87.6151,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "She is in another room in the house.",
+      "x": 0.6132,
+      "y": 0.5415,
+      "w": 0.345,
+      "h": 0.0444,
+      "words": [
+        "She",
+        "is",
+        "in",
+        "another",
+        "room",
+        "in",
+        "the",
+        "house."
+      ],
+      "conf": 96.1183,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "No, she is",
+      "x": 0.2152,
+      "y": 0.7874,
+      "w": 0.1512,
+      "h": 0.022,
+      "words": [
+        "No,",
+        "she",
+        "is"
+      ],
+      "conf": 96.7637,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Who is this?",
+      "x": 0.5841,
+      "y": 0.7922,
+      "w": 0.1862,
+      "h": 0.0198,
+      "words": [
+        "Who",
+        "is",
+        "this?"
+      ],
+      "conf": 95.0442,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "This is Mary Smith. She is Mrs. Smith.",
+      "x": 0.585,
+      "y": 0.8174,
+      "w": 0.357,
+      "h": 0.0444,
+      "words": [
+        "This",
+        "is",
+        "Mary",
+        "Smith.",
+        "She",
+        "is",
+        "Mrs.",
+        "Smith."
+      ],
+      "conf": 96.4182,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "Her name is Mary Smith,",
+      "x": 0.5824,
+      "y": 0.8682,
+      "w": 0.38,
+      "h": 0.0246,
+      "words": [
+        "Her",
+        "name",
+        "is",
+        "Mary",
+        "Smith,"
+      ],
+      "conf": 93.6793,
+      "source": "psm-11"
+    }
+  ]
+}

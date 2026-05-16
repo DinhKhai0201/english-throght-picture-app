@@ -1,0 +1,217 @@
+{
+  "page": 105,
+  "image": "/books/page 105.png",
+  "imageApiPath": "/api/books/page%20105.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 8,
+    "wordCount": 49,
+    "imageWidth": 1125,
+    "imageHeight": 1830
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r8"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "The potatoes are hard. is five-fifty",
+      "x": 0.0729,
+      "y": 0.1082,
+      "w": 0.6524,
+      "h": 0.0322,
+      "words": [
+        "The",
+        "potatoes",
+        "are",
+        "hard.",
+        "is",
+        "five-fifty"
+      ],
+      "conf": 89.1056,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "The fork does not go into them.",
+      "x": 0.0729,
+      "y": 0.135,
+      "w": 0.3378,
+      "h": 0.0454,
+      "words": [
+        "The",
+        "fork",
+        "does",
+        "not",
+        "go",
+        "into",
+        "them."
+      ],
+      "conf": 95.7148,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Mary is putting the fork in again.",
+      "x": 0.5253,
+      "y": 0.141,
+      "w": 0.3822,
+      "h": 0.0464,
+      "words": [
+        "Mary",
+        "is",
+        "putting",
+        "the",
+        "fork",
+        "in",
+        "again."
+      ],
+      "conf": 94.1058,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "She is doing it again.",
+      "x": 0.5244,
+      "y": 0.194,
+      "w": 0.3431,
+      "h": 0.0235,
+      "words": [
+        "She",
+        "is",
+        "doing",
+        "it",
+        "again."
+      ],
+      "conf": 96.5876,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "The potatoes are soft.",
+      "x": 0.072,
+      "y": 0.5568,
+      "w": 0.352,
+      "h": 0.024,
+      "words": [
+        "The",
+        "potatoes",
+        "are",
+        "soft."
+      ],
+      "conf": 96.1069,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The fork goes into them.",
+      "x": 0.072,
+      "y": 0.5825,
+      "w": 0.3956,
+      "h": 0.0235,
+      "words": [
+        "The",
+        "fork",
+        "goes",
+        "into",
+        "them."
+      ],
+      "conf": 95.6218,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Cy)",
+      "x": 0.8071,
+      "y": 0.647,
+      "w": 0.0924,
+      "h": 0.0311,
+      "words": [
+        "Cy)"
+      ],
+      "conf": 71.4015,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "She is taking them out of the pot and putting them on a plate.",
+      "x": 0.5262,
+      "y": 0.7284,
+      "w": 0.3565,
+      "h": 0.0787,
+      "words": [
+        "She",
+        "is",
+        "taking",
+        "them",
+        "out",
+        "of",
+        "the",
+        "pot",
+        "and",
+        "putting",
+        "them",
+        "on",
+        "a",
+        "plate."
+      ],
+      "conf": 95.1201,
+      "source": "psm-11"
+    }
+  ]
+}

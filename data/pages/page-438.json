@@ -1,0 +1,577 @@
+{
+  "page": 438,
+  "image": "/books/page 438.png",
+  "imageApiPath": "/api/books/page%20438.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 23,
+    "wordCount": 199,
+    "imageWidth": 1180,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r7",
+        "r11"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r8",
+        "r9",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r12",
+        "r16",
+        "r17",
+        "r19",
+        "r20"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r13",
+        "r14",
+        "r15",
+        "r18",
+        "r21",
+        "r22",
+        "r23"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "So she gave the young man a friendly smile and said,",
+      "x": 0.1068,
+      "y": 0.029,
+      "w": 0.8263,
+      "h": 0.0269,
+      "words": [
+        "So",
+        "she",
+        "gave",
+        "the",
+        "young",
+        "man",
+        "a",
+        "friendly",
+        "smile",
+        "and",
+        "said,"
+      ],
+      "conf": 96.5263,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "a ay)",
+      "x": 0.2102,
+      "y": 0.1259,
+      "w": 0.5568,
+      "h": 0.0629,
+      "words": [
+        "a",
+        "ay)"
+      ],
+      "conf": 58.4726,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "“What was wrong then?” the teacher asked herself. “I",
+      "x": 0.1051,
+      "y": 0.2668,
+      "w": 0.8271,
+      "h": 0.0215,
+      "words": [
+        "“What",
+        "was",
+        "wrong",
+        "then?”",
+        "the",
+        "teacher",
+        "asked",
+        "herself.",
+        "“I"
+      ],
+      "conf": 95.3171,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "“What was wrong then?” the teacher asked herself. “I must have said it as if I were giving him something. That",
+      "x": 0.1051,
+      "y": 0.2668,
+      "w": 0.8271,
+      "h": 0.0479,
+      "words": [
+        "“What",
+        "was",
+        "wrong",
+        "then?”",
+        "the",
+        "teacher",
+        "asked",
+        "herself.",
+        "“I",
+        "must",
+        "have",
+        "said",
+        "it",
+        "as",
+        "if",
+        "I",
+        "were",
+        "giving",
+        "him",
+        "something.",
+        "That"
+      ],
+      "conf": 95.0726,
+      "source": "psm-6"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "must have said it as if I were giving him something. That was why he thanked me. Next time I must keep that out",
+      "x": 0.1042,
+      "y": 0.2921,
+      "w": 0.828,
+      "h": 0.063,
+      "words": [
+        "must",
+        "have",
+        "said",
+        "it",
+        "as",
+        "if",
+        "I",
+        "were",
+        "giving",
+        "him",
+        "something.",
+        "That",
+        "was",
+        "why",
+        "he",
+        "thanked",
+        "me.",
+        "Next",
+        "time",
+        "I",
+        "must",
+        "keep",
+        "that",
+        "out"
+      ],
+      "conf": 94.8677,
+      "source": "psm-6"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "was why he thanked me. Next time I must keep that out",
+      "x": 0.1042,
+      "y": 0.319,
+      "w": 0.8271,
+      "h": 0.0226,
+      "words": [
+        "was",
+        "why",
+        "he",
+        "thanked",
+        "me.",
+        "Next",
+        "time",
+        "I",
+        "must",
+        "keep",
+        "that",
+        "out"
+      ],
+      "conf": 96.6241,
+      "source": "psm-6"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "of my voice.”",
+      "x": 0.1042,
+      "y": 0.3459,
+      "w": 0.1924,
+      "h": 0.0215,
+      "words": [
+        "of",
+        "my",
+        "voice.”"
+      ],
+      "conf": 96.8951,
+      "source": "psm-6"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "She saw a third student coming. This time she wanted",
+      "x": 0.1017,
+      "y": 0.3986,
+      "w": 0.8271,
+      "h": 0.0215,
+      "words": [
+        "She",
+        "saw",
+        "a",
+        "third",
+        "student",
+        "coming.",
+        "This",
+        "time",
+        "she",
+        "wanted"
+      ],
+      "conf": 96.4571,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "She saw a third student coming. This time she wanted the answer “Good moming!” so much that her voice be-",
+      "x": 0.1017,
+      "y": 0.3884,
+      "w": 0.8305,
+      "h": 0.0581,
+      "words": [
+        "She",
+        "saw",
+        "a",
+        "third",
+        "student",
+        "coming.",
+        "This",
+        "time",
+        "she",
+        "wanted",
+        "the",
+        "answer",
+        "“Good",
+        "moming!”",
+        "so",
+        "much",
+        "that",
+        "her",
+        "voice",
+        "be-"
+      ],
+      "conf": 96.5951,
+      "source": "psm-6"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "the answer “Good moming!” so much that her voice be-",
+      "x": 0.1017,
+      "y": 0.425,
+      "w": 0.8271,
+      "h": 0.0215,
+      "words": [
+        "the",
+        "answer",
+        "“Good",
+        "moming!”",
+        "so",
+        "much",
+        "that",
+        "her",
+        "voice",
+        "be-"
+      ],
+      "conf": 95.1017,
+      "source": "psm-6"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "came hard and sharp.",
+      "x": 0.1008,
+      "y": 0.4513,
+      "w": 0.3102,
+      "h": 0.0215,
+      "words": [
+        "came",
+        "hard",
+        "and",
+        "sharp."
+      ],
+      "conf": 95.3446,
+      "source": "psm-6"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "wo”",
+      "x": 0.172,
+      "y": 0.5056,
+      "w": 0.0424,
+      "h": 0.0167,
+      "words": [
+        "wo”"
+      ],
+      "conf": 44.7504,
+      "source": "psm-6"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "moming!",
+      "x": 0.4729,
+      "y": 0.5229,
+      "w": 0.0864,
+      "h": 0.0178,
+      "words": [
+        "moming!"
+      ],
+      "conf": 57.5188,
+      "source": "psm-6"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "You see how little one person may know what is in an- other’s mind even when the other is trying to show him.",
+      "x": 0.0932,
+      "y": 0.6606,
+      "w": 0.8314,
+      "h": 0.0478,
+      "words": [
+        "You",
+        "see",
+        "how",
+        "little",
+        "one",
+        "person",
+        "may",
+        "know",
+        "what",
+        "is",
+        "in",
+        "an-",
+        "other’s",
+        "mind",
+        "even",
+        "when",
+        "the",
+        "other",
+        "is",
+        "trying",
+        "to",
+        "show",
+        "him."
+      ],
+      "conf": 95.8452,
+      "source": "psm-6"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "thank: say it was good of a person to have done what he did; give him",
+      "x": 0.0907,
+      "y": 0.7644,
+      "w": 0.8347,
+      "h": 0.0167,
+      "words": [
+        "thank:",
+        "say",
+        "it",
+        "was",
+        "good",
+        "of",
+        "a",
+        "person",
+        "to",
+        "have",
+        "done",
+        "what",
+        "he",
+        "did;",
+        "give",
+        "him"
+      ],
+      "conf": 95.9454,
+      "source": "psm-6"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "please!: may it be your pleasure; may it please you",
+      "x": 0.0898,
+      "y": 0.801,
+      "w": 0.5932,
+      "h": 0.0161,
+      "words": [
+        "please!:",
+        "may",
+        "it",
+        "be",
+        "your",
+        "pleasure;",
+        "may",
+        "it",
+        "please",
+        "you"
+      ],
+      "conf": 91.2687,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "thanks; say “Thank you.”",
+      "x": 0.1458,
+      "y": 0.7843,
+      "w": 0.2898,
+      "h": 0.0145,
+      "words": [
+        "thanks;",
+        "say",
+        "“Thank",
+        "you.”"
+      ],
+      "conf": 96.1058,
+      "source": "psm-6"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "will thank thank (s)} thanked will please please(s) pleased",
+      "x": 0.0881,
+      "y": 0.8289,
+      "w": 0.8356,
+      "h": 0.0361,
+      "words": [
+        "will",
+        "thank",
+        "thank",
+        "(s)}",
+        "thanked",
+        "will",
+        "please",
+        "please(s)",
+        "pleased"
+      ],
+      "conf": 82.5275,
+      "source": "psm-6"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "will please",
+      "x": 0.0881,
+      "y": 0.8499,
+      "w": 0.1415,
+      "h": 0.0151,
+      "words": [
+        "will",
+        "please"
+      ],
+      "conf": 67.1915,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "will thank",
+      "x": 0.0898,
+      "y": 0.8322,
+      "w": 0.128,
+      "h": 0.0124,
+      "words": [
+        "will",
+        "thank"
+      ],
+      "conf": 95.0018,
+      "source": "psm-11"
+    },
+    {
+      "id": "r21",
+      "order": 20,
+      "text": "please(s)",
+      "x": 0.4449,
+      "y": 0.8488,
+      "w": 0.1237,
+      "h": 0.0156,
+      "words": [
+        "please(s)"
+      ],
+      "conf": 89.0466,
+      "source": "psm-11"
+    },
+    {
+      "id": "r22",
+      "order": 21,
+      "text": "thank (s)",
+      "x": 0.4508,
+      "y": 0.8311,
+      "w": 0.1136,
+      "h": 0.0156,
+      "words": [
+        "thank",
+        "(s)"
+      ],
+      "conf": 62.708,
+      "source": "psm-11"
+    },
+    {
+      "id": "r23",
+      "order": 22,
+      "text": "thanked pleased",
+      "x": 0.8212,
+      "y": 0.8289,
+      "w": 0.1025,
+      "h": 0.0339,
+      "words": [
+        "thanked",
+        "pleased"
+      ],
+      "conf": 96.2463,
+      "source": "psm-11"
+    }
+  ]
+}

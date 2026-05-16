@@ -1,0 +1,304 @@
+{
+  "page": 236,
+  "image": "/books/page 236.png",
+  "imageApiPath": "/api/books/page%20236.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 12,
+    "wordCount": 80,
+    "imageWidth": 1171,
+    "imageHeight": 1884
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r6"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9",
+        "r11",
+        "r12"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r10"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This is a cart.",
+      "x": 0.2067,
+      "y": 0.1285,
+      "w": 0.205,
+      "h": 0.0186,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "cart."
+      ],
+      "conf": 95.9616,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is a field.",
+      "x": 0.6294,
+      "y": 0.1295,
+      "w": 0.2075,
+      "h": 0.0212,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "field."
+      ],
+      "conf": 96.1373,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This is a plow.",
+      "x": 0.1349,
+      "y": 0.2808,
+      "w": 0.2186,
+      "h": 0.0239,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "plow."
+      ],
+      "conf": 94.8586,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "The farmer is plowing the field.",
+      "x": 0.5594,
+      "y": 0.3344,
+      "w": 0.3373,
+      "h": 0.044,
+      "words": [
+        "The",
+        "farmer",
+        "is",
+        "plowing",
+        "the",
+        "field."
+      ],
+      "conf": 96.0655,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "That is part of his work asa farmer.",
+      "x": 0.5594,
+      "y": 0.3838,
+      "w": 0.357,
+      "h": 0.044,
+      "words": [
+        "That",
+        "is",
+        "part",
+        "of",
+        "his",
+        "work",
+        "asa",
+        "farmer."
+      ],
+      "conf": 96.83,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The plow is turning the earth.",
+      "x": 0.1469,
+      "y": 0.4225,
+      "w": 0.2946,
+      "h": 0.0441,
+      "words": [
+        "The",
+        "plow",
+        "is",
+        "turning",
+        "the",
+        "earth."
+      ],
+      "conf": 83.0089,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "The farmer has an account with his bank.",
+      "x": 0.1281,
+      "y": 0.5849,
+      "w": 0.3484,
+      "h": 0.043,
+      "words": [
+        "The",
+        "farmer",
+        "has",
+        "an",
+        "account",
+        "with",
+        "his",
+        "bank."
+      ],
+      "conf": 95.563,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "The account says how much money he has in the bank.",
+      "x": 0.5653,
+      "y": 0.5855,
+      "w": 0.3382,
+      "h": 0.0684,
+      "words": [
+        "The",
+        "account",
+        "says",
+        "how",
+        "much",
+        "money",
+        "he",
+        "has",
+        "in",
+        "the",
+        "bank."
+      ],
+      "conf": 96.7108,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "He puts his money in the bank.",
+      "x": 0.1298,
+      "y": 0.6343,
+      "w": 0.3698,
+      "h": 0.0435,
+      "words": [
+        "He",
+        "puts",
+        "his",
+        "money",
+        "in",
+        "the",
+        "bank."
+      ],
+      "conf": 96.719,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Farming and keeping accounts are two different sorts of work.",
+      "x": 0.5662,
+      "y": 0.6608,
+      "w": 0.3484,
+      "h": 0.0691,
+      "words": [
+        "Farming",
+        "and",
+        "keeping",
+        "accounts",
+        "are",
+        "two",
+        "different",
+        "sorts",
+        "of",
+        "work."
+      ],
+      "conf": 96.873,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "He keeps money in the bank.",
+      "x": 0.1289,
+      "y": 0.6842,
+      "w": 0.3519,
+      "h": 0.0435,
+      "words": [
+        "He",
+        "keeps",
+        "money",
+        "in",
+        "the",
+        "bank."
+      ],
+      "conf": 96.4478,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "He gets money from the ban!",
+      "x": 0.1281,
+      "y": 0.7346,
+      "w": 0.3126,
+      "h": 0.0441,
+      "words": [
+        "He",
+        "gets",
+        "money",
+        "from",
+        "the",
+        "ban!"
+      ],
+      "conf": 96.6337,
+      "source": "psm-11"
+    }
+  ]
+}

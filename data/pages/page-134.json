@@ -1,0 +1,175 @@
+{
+  "page": 134,
+  "image": "/books/page 134.png",
+  "imageApiPath": "/api/books/page%20134.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 8,
+    "wordCount": 37,
+    "imageWidth": 1180,
+    "imageHeight": 1871
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Now she is brushing her teeth.",
+      "x": 0.1025,
+      "y": 0.101,
+      "w": 0.3755,
+      "h": 0.0449,
+      "words": [
+        "Now",
+        "she",
+        "is",
+        "brushing",
+        "her",
+        "teeth."
+      ],
+      "conf": 96.5564,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "What is this?",
+      "x": 0.6093,
+      "y": 0.0999,
+      "w": 0.1975,
+      "h": 0.0198,
+      "words": [
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 95.3437,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "And this?",
+      "x": 0.6314,
+      "y": 0.2817,
+      "w": 0.1458,
+      "h": 0.0192,
+      "words": [
+        "And",
+        "this?"
+      ],
+      "conf": 96.2118,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Her teeth will be clean.",
+      "x": 0.1042,
+      "y": 0.3816,
+      "w": 0.3585,
+      "h": 0.0198,
+      "words": [
+        "Her",
+        "teeth",
+        "will",
+        "be",
+        "clean."
+      ],
+      "conf": 96.4573,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "It is a hairbrush.",
+      "x": 0.6025,
+      "y": 0.387,
+      "w": 0.2458,
+      "h": 0.0208,
+      "words": [
+        "It",
+        "is",
+        "a",
+        "hairbrush."
+      ],
+      "conf": 93.2689,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "They will be clean and white.",
+      "x": 0.1008,
+      "y": 0.4078,
+      "w": 0.3534,
+      "h": 0.0449,
+      "words": [
+        "They",
+        "will",
+        "be",
+        "clean",
+        "and",
+        "white."
+      ],
+      "conf": 96.4927,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "She is brushing her hair. Now she is combing her",
+      "x": 0.1008,
+      "y": 0.5735,
+      "w": 0.811,
+      "h": 0.0262,
+      "words": [
+        "She",
+        "is",
+        "brushing",
+        "her",
+        "hair.",
+        "Now",
+        "she",
+        "is",
+        "combing",
+        "her"
+      ],
+      "conf": 96.674,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "air.",
+      "x": 0.5593,
+      "y": 0.6007,
+      "w": 0.0517,
+      "h": 0.0166,
+      "words": [
+        "air."
+      ],
+      "conf": 91.1387,
+      "source": "psm-11"
+    }
+  ]
+}

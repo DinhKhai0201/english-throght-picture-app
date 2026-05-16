@@ -1,0 +1,83 @@
+{
+  "page": 366,
+  "image": "/books/page 366.png",
+  "imageApiPath": "/api/books/page%20366.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 3,
+    "wordCount": 15,
+    "imageWidth": 1250,
+    "imageHeight": 1850
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "WY",
+      "x": 0.4592,
+      "y": 0.1178,
+      "w": 0.1096,
+      "h": 0.0546,
+      "words": [
+        "WY"
+      ],
+      "conf": 53.4488,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "A solid line represents an artery and a broken line a",
+      "x": 0.12,
+      "y": 0.833,
+      "w": 0.784,
+      "h": 0.0454,
+      "words": [
+        "A",
+        "solid",
+        "line",
+        "represents",
+        "an",
+        "artery",
+        "and",
+        "a",
+        "broken",
+        "line",
+        "a"
+      ],
+      "conf": 82.3899,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "an and broken",
+      "x": 0.4624,
+      "y": 0.833,
+      "w": 0.3392,
+      "h": 0.0519,
+      "words": [
+        "an",
+        "and",
+        "broken"
+      ],
+      "conf": 77.5964,
+      "source": "psm-11"
+    }
+  ]
+}

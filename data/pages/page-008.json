@@ -1,0 +1,116 @@
+{
+  "page": 8,
+  "image": "/books/page 8.png",
+  "imageApiPath": "/api/books/page%208.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 4,
+    "wordCount": 12,
+    "imageWidth": 1284,
+    "imageHeight": 1896
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "text": "I am here.",
+      "x": 0.2438,
+      "y": 0.1461,
+      "w": 0.1425,
+      "h": 0.0179,
+      "id": "r1",
+      "order": 0,
+      "words": [
+        "I",
+        "am",
+        "here."
+      ]
+    },
+    {
+      "text": "He is there.",
+      "x": 0.7383,
+      "y": 0.1456,
+      "w": 0.1565,
+      "h": 0.0179,
+      "id": "r2",
+      "order": 1,
+      "words": [
+        "He",
+        "is",
+        "there."
+      ]
+    },
+    {
+      "text": "She is here.",
+      "x": 0.2734,
+      "y": 0.5554,
+      "w": 0.1651,
+      "h": 0.019,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "She",
+        "is",
+        "here."
+      ]
+    },
+    {
+      "text": "She is there.",
+      "x": 0.7251,
+      "y": 0.557,
+      "w": 0.1737,
+      "h": 0.0185,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "She",
+        "is",
+        "there."
+      ]
+    }
+  ]
+}

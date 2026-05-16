@@ -1,0 +1,172 @@
+{
+  "page": 70,
+  "image": "/books/page 70.png",
+  "imageApiPath": "/api/books/page%2070.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 7,
+    "wordCount": 48,
+    "imageWidth": 1230,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "She will take the hat in her hand.",
+      "x": 0.1423,
+      "y": 0.1603,
+      "w": 0.3407,
+      "h": 0.0466,
+      "words": [
+        "She",
+        "will",
+        "take",
+        "the",
+        "hat",
+        "in",
+        "her",
+        "hand."
+      ],
+      "conf": 96.5543,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "She is taking it.",
+      "x": 0.6106,
+      "y": 0.1625,
+      "w": 0.2276,
+      "h": 0.0238,
+      "words": [
+        "She",
+        "is",
+        "taking",
+        "it."
+      ],
+      "conf": 96.0951,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "SSCS SOS C8 C6 C8 O88 HO}",
+      "x": 0.1187,
+      "y": 0.4897,
+      "w": 0.4089,
+      "h": 0.013,
+      "words": [
+        "SSCS",
+        "SOS",
+        "C8",
+        "C6",
+        "C8",
+        "O88",
+        "HO}"
+      ],
+      "conf": 43.2809,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "She took it in her hand.",
+      "x": 0.148,
+      "y": 0.52,
+      "w": 0.3488,
+      "h": 0.0195,
+      "words": [
+        "She",
+        "took",
+        "it",
+        "in",
+        "her",
+        "hand."
+      ],
+      "conf": 95.9044,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "She went out of the room with John's hat.",
+      "x": 0.5846,
+      "y": 0.5195,
+      "w": 0.3154,
+      "h": 0.0455,
+      "words": [
+        "She",
+        "went",
+        "out",
+        "of",
+        "the",
+        "room",
+        "with",
+        "John's",
+        "hat."
+      ],
+      "conf": 96.4757,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "She is going out of the room.",
+      "x": 0.148,
+      "y": 0.5455,
+      "w": 0.3333,
+      "h": 0.0449,
+      "words": [
+        "She",
+        "is",
+        "going",
+        "out",
+        "of",
+        "the",
+        "room."
+      ],
+      "conf": 96.7385,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "She has the hat in her hand.",
+      "x": 0.161,
+      "y": 0.8456,
+      "w": 0.3268,
+      "h": 0.045,
+      "words": [
+        "She",
+        "has",
+        "the",
+        "hat",
+        "in",
+        "her",
+        "hand."
+      ],
+      "conf": 96.0991,
+      "source": "psm-11"
+    }
+  ]
+}

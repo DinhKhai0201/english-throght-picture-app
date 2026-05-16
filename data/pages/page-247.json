@@ -1,0 +1,207 @@
+{
+  "page": 247,
+  "image": "/books/page 247.png",
+  "imageApiPath": "/api/books/page%20247.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 8,
+    "wordCount": 69,
+    "imageWidth": 1225,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "We get salt from the The water in the sea",
+      "x": 0.1576,
+      "y": 0.3238,
+      "w": 0.3093,
+      "h": 0.0742,
+      "words": [
+        "We",
+        "get",
+        "salt",
+        "from",
+        "the",
+        "The",
+        "water",
+        "in",
+        "the",
+        "sea"
+      ],
+      "conf": 96.4312,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "We get salt from salt mines.",
+      "x": 0.5616,
+      "y": 0.3244,
+      "w": 0.3127,
+      "h": 0.0441,
+      "words": [
+        "We",
+        "get",
+        "salt",
+        "from",
+        "salt",
+        "mines."
+      ],
+      "conf": 95.8853,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "sea has salt in it.",
+      "x": 0.16,
+      "y": 0.355,
+      "w": 0.1869,
+      "h": 0.064,
+      "words": [
+        "sea",
+        "has",
+        "salt",
+        "in",
+        "it."
+      ],
+      "conf": 94.562,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Some mines are deep.",
+      "x": 0.5624,
+      "y": 0.3755,
+      "w": 0.3273,
+      "h": 0.0247,
+      "words": [
+        "Some",
+        "mines",
+        "are",
+        "deep."
+      ],
+      "conf": 93.17,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "They go far down into the earth.",
+      "x": 0.5584,
+      "y": 0.3997,
+      "w": 0.3322,
+      "h": 0.0452,
+      "words": [
+        "They",
+        "go",
+        "far",
+        "down",
+        "into",
+        "the",
+        "earth."
+      ],
+      "conf": 96.4844,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "We get sugar from the roots of some plants.",
+      "x": 0.5469,
+      "y": 0.5073,
+      "w": 0.3371,
+      "h": 0.0489,
+      "words": [
+        "We",
+        "get",
+        "sugar",
+        "from",
+        "the",
+        "roots",
+        "of",
+        "some",
+        "plants."
+      ],
+      "conf": 96.3374,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "We get sugar from plants. We get it from the stems of some plants.",
+      "x": 0.1453,
+      "y": 0.5315,
+      "w": 0.3282,
+      "h": 0.0984,
+      "words": [
+        "We",
+        "get",
+        "sugar",
+        "from",
+        "plants.",
+        "We",
+        "get",
+        "it",
+        "from",
+        "the",
+        "stems",
+        "of",
+        "some",
+        "plants."
+      ],
+      "conf": 95.7731,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "The salt or sugar which we put in our food is a white powder,",
+      "x": 0.5429,
+      "y": 0.6961,
+      "w": 0.3445,
+      "h": 0.0742,
+      "words": [
+        "The",
+        "salt",
+        "or",
+        "sugar",
+        "which",
+        "we",
+        "put",
+        "in",
+        "our",
+        "food",
+        "is",
+        "a",
+        "white",
+        "powder,"
+      ],
+      "conf": 96.5549,
+      "source": "psm-11"
+    }
+  ]
+}

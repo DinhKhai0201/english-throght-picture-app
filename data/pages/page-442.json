@@ -1,0 +1,249 @@
+{
+  "page": 442,
+  "image": "/books/page 442.png",
+  "imageApiPath": "/api/books/page%20442.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 83,
+    "imageWidth": 1188,
+    "imageHeight": 1838
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "These two men know that they have a space between them without being able to say",
+      "x": 0.2761,
+      "y": 0.0925,
+      "w": 0.6566,
+      "h": 0.0501,
+      "words": [
+        "These",
+        "two",
+        "men",
+        "know",
+        "that",
+        "they",
+        "have",
+        "a",
+        "space",
+        "between",
+        "them",
+        "without",
+        "being",
+        "able",
+        "to",
+        "say"
+      ],
+      "conf": 96.5298,
+      "source": "psm-6"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "what Space is.",
+      "x": 0.2761,
+      "y": 0.1453,
+      "w": 0.2071,
+      "h": 0.0218,
+      "words": [
+        "what",
+        "Space",
+        "is."
+      ],
+      "conf": 96.7381,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "IN",
+      "x": 0.7879,
+      "y": 0.2492,
+      "w": 0.0547,
+      "h": 0.0403,
+      "words": [
+        "IN"
+      ],
+      "conf": 55.8435,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "wa)",
+      "x": 0.3754,
+      "y": 0.3063,
+      "w": 0.2281,
+      "h": 0.068,
+      "words": [
+        "wa)"
+      ],
+      "conf": 57.8249,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "There is not enough space in this car for all these travel- ers. They know that this is so, though they cannot say",
+      "x": 0.1027,
+      "y": 0.4304,
+      "w": 0.8275,
+      "h": 0.0512,
+      "words": [
+        "There",
+        "is",
+        "not",
+        "enough",
+        "space",
+        "in",
+        "this",
+        "car",
+        "for",
+        "all",
+        "these",
+        "travel-",
+        "ers.",
+        "They",
+        "know",
+        "that",
+        "this",
+        "is",
+        "so,",
+        "though",
+        "they",
+        "cannot",
+        "say"
+      ],
+      "conf": 96.0053,
+      "source": "psm-6"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "ers. They know that this is so, though they cannot say",
+      "x": 0.1061,
+      "y": 0.4587,
+      "w": 0.8241,
+      "h": 0.0229,
+      "words": [
+        "ers.",
+        "They",
+        "know",
+        "that",
+        "this",
+        "is",
+        "so,",
+        "though",
+        "they",
+        "cannot",
+        "say"
+      ],
+      "conf": 96.2709,
+      "source": "psm-6"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "what Space is.",
+      "x": 0.1069,
+      "y": 0.4853,
+      "w": 0.2003,
+      "h": 0.0218,
+      "words": [
+        "what",
+        "Space",
+        "is."
+      ],
+      "conf": 96.2744,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "There is more space free on this page than on some other",
+      "x": 0.101,
+      "y": 0.8014,
+      "w": 0.8291,
+      "h": 0.0223,
+      "words": [
+        "There",
+        "is",
+        "more",
+        "space",
+        "free",
+        "on",
+        "this",
+        "page",
+        "than",
+        "on",
+        "some",
+        "other"
+      ],
+      "conf": 96.8041,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "pages of the book which take longer to read.",
+      "x": 0.101,
+      "y": 0.8286,
+      "w": 0.6313,
+      "h": 0.0223,
+      "words": [
+        "pages",
+        "of",
+        "the",
+        "book",
+        "which",
+        "take",
+        "longer",
+        "to",
+        "read."
+      ],
+      "conf": 96.7941,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "travelers person who travels.",
+      "x": 0.1027,
+      "y": 0.8678,
+      "w": 0.3384,
+      "h": 0.0196,
+      "words": [
+        "travelers",
+        "person",
+        "who",
+        "travels."
+      ],
+      "conf": 87.6388,
+      "source": "psm-11"
+    }
+  ]
+}

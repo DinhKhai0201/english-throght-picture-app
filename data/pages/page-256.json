@@ -1,0 +1,299 @@
+{
+  "page": 256,
+  "image": "/books/page 256.png",
+  "imageApiPath": "/api/books/page%20256.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 103,
+    "imageWidth": 1196,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r7",
+        "r8",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r9"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Now, put a stop to the motion of the seat.",
+      "x": 0.1371,
+      "y": 0.0769,
+      "w": 0.3395,
+      "h": 0.0472,
+      "words": [
+        "Now,",
+        "put",
+        "a",
+        "stop",
+        "to",
+        "the",
+        "motion",
+        "of",
+        "the",
+        "seat."
+      ],
+      "conf": 95.1907,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "But he has a feeling that he is turning round and round.",
+      "x": 0.5727,
+      "y": 0.1018,
+      "w": 0.2985,
+      "h": 0.0732,
+      "words": [
+        "But",
+        "he",
+        "has",
+        "a",
+        "feeling",
+        "that",
+        "he",
+        "is",
+        "turning",
+        "round",
+        "and",
+        "round."
+      ],
+      "conf": 96.7597,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "When you do that the seat is at rest. The man is not in motion.",
+      "x": 0.1355,
+      "y": 0.1306,
+      "w": 0.347,
+      "h": 0.0704,
+      "words": [
+        "When",
+        "you",
+        "do",
+        "that",
+        "the",
+        "seat",
+        "is",
+        "at",
+        "rest.",
+        "The",
+        "man",
+        "is",
+        "not",
+        "in",
+        "motion."
+      ],
+      "conf": 96.2499,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "This is a picture of his feelings.",
+      "x": 0.5719,
+      "y": 0.1809,
+      "w": 0.2768,
+      "h": 0.0483,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "picture",
+        "of",
+        "his",
+        "feelings."
+      ],
+      "conf": 96.7083,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "It is because change in our motion is the cause of our feelings of motion.",
+      "x": 0.5493,
+      "y": 0.5769,
+      "w": 0.3462,
+      "h": 0.0959,
+      "words": [
+        "It",
+        "is",
+        "because",
+        "change",
+        "in",
+        "our",
+        "motion",
+        "is",
+        "the",
+        "cause",
+        "of",
+        "our",
+        "feelings",
+        "of",
+        "motion."
+      ],
+      "conf": 95.3477,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "He is not turning round.",
+      "x": 0.1304,
+      "y": 0.6024,
+      "w": 0.3604,
+      "h": 0.0238,
+      "words": [
+        "He",
+        "is",
+        "not",
+        "turning",
+        "round."
+      ],
+      "conf": 95.7341,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "But he seems to himself to be turning round.",
+      "x": 0.1271,
+      "y": 0.6273,
+      "w": 0.3537,
+      "h": 0.0504,
+      "words": [
+        "But",
+        "he",
+        "seems",
+        "to",
+        "himself",
+        "to",
+        "be",
+        "turning",
+        "round."
+      ],
+      "conf": 96.4405,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "And everything round him seems to be turning round.",
+      "x": 0.1271,
+      "y": 0.6793,
+      "w": 0.3629,
+      "h": 0.0699,
+      "words": [
+        "And",
+        "everything",
+        "round",
+        "him",
+        "seems",
+        "to",
+        "be",
+        "turning",
+        "round."
+      ],
+      "conf": 96.5275,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Through our sense of motion we get knowledge of changes in the rate and direction of our motion.",
+      "x": 0.5477,
+      "y": 0.6788,
+      "w": 0.3587,
+      "h": 0.1208,
+      "words": [
+        "Through",
+        "our",
+        "sense",
+        "of",
+        "motion",
+        "we",
+        "get",
+        "knowledge",
+        "of",
+        "changes",
+        "in",
+        "the",
+        "rate",
+        "and",
+        "direction",
+        "of",
+        "our",
+        "motion."
+      ],
+      "conf": 96.6945,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Why is this?",
+      "x": 0.1279,
+      "y": 0.7551,
+      "w": 0.1839,
+      "h": 0.0238,
+      "words": [
+        "Why",
+        "is",
+        "this?"
+      ],
+      "conf": 96.6175,
+      "source": "psm-11"
+    }
+  ]
+}

@@ -1,0 +1,227 @@
+{
+  "page": 300,
+  "image": "/books/page 300.png",
+  "imageApiPath": "/api/books/page%20300.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 8,
+    "wordCount": 89,
+    "imageWidth": 1196,
+    "imageHeight": 1884
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "The population of the earth has increased more than the amount of food. There is a great need for more food.",
+      "x": 0.1079,
+      "y": 0.0387,
+      "w": 0.8169,
+      "h": 0.0478,
+      "words": [
+        "The",
+        "population",
+        "of",
+        "the",
+        "earth",
+        "has",
+        "increased",
+        "more",
+        "than",
+        "the",
+        "amount",
+        "of",
+        "food.",
+        "There",
+        "is",
+        "a",
+        "great",
+        "need",
+        "for",
+        "more",
+        "food."
+      ],
+      "conf": 96.3899,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "More than a billion people on the earth today need more food than they can get. They cannot get enough food to keep them well and strong. The relation between amount",
+      "x": 0.107,
+      "y": 0.0876,
+      "w": 0.8194,
+      "h": 0.0754,
+      "words": [
+        "More",
+        "than",
+        "a",
+        "billion",
+        "people",
+        "on",
+        "the",
+        "earth",
+        "today",
+        "need",
+        "more",
+        "food",
+        "than",
+        "they",
+        "can",
+        "get.",
+        "They",
+        "cannot",
+        "get",
+        "enough",
+        "food",
+        "to",
+        "keep",
+        "them",
+        "well",
+        "and",
+        "strong.",
+        "The",
+        "relation",
+        "between",
+        "amount"
+      ],
+      "conf": 96.6679,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "of food and size of population has been changing",
+      "x": 0.107,
+      "y": 0.1672,
+      "w": 0.7207,
+      "h": 0.0223,
+      "words": [
+        "of",
+        "food",
+        "and",
+        "size",
+        "of",
+        "population",
+        "has",
+        "been",
+        "changing"
+      ],
+      "conf": 96.6623,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "biilion: in American numbers, a thousand million, cannot: are not able to.",
+      "x": 0.1087,
+      "y": 0.7436,
+      "w": 0.597,
+      "h": 0.0642,
+      "words": [
+        "biilion:",
+        "in",
+        "American",
+        "numbers,",
+        "a",
+        "thousand",
+        "million,",
+        "cannot:",
+        "are",
+        "not",
+        "able",
+        "to."
+      ],
+      "conf": 86.7818,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "can: are able to.",
+      "x": 0.1087,
+      "y": 0.7787,
+      "w": 0.1865,
+      "h": 0.0122,
+      "words": [
+        "can:",
+        "are",
+        "able",
+        "to."
+      ],
+      "conf": 88.2724,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "need: something important which Is not present.",
+      "x": 0.1095,
+      "y": 0.7606,
+      "w": 0.5477,
+      "h": 0.0159,
+      "words": [
+        "need:",
+        "something",
+        "important",
+        "which",
+        "Is",
+        "not",
+        "present."
+      ],
+      "conf": 94.5777,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "(will be able to)",
+      "x": 0.112,
+      "y": 0.8413,
+      "w": 0.2099,
+      "h": 0.0159,
+      "words": [
+        "(will",
+        "be",
+        "able",
+        "to)"
+      ],
+      "conf": 95.6469,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "could",
+      "x": 0.8662,
+      "y": 0.8418,
+      "w": 0.0644,
+      "h": 0.0127,
+      "words": [
+        "could"
+      ],
+      "conf": 93.6231,
+      "source": "psm-11"
+    }
+  ]
+}

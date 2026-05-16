@@ -1,0 +1,474 @@
+{
+  "page": 201,
+  "image": "/books/page 201.png",
+  "imageApiPath": "/api/books/page%20201.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 20,
+    "wordCount": 138,
+    "imageWidth": 1234,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5",
+        "r6",
+        "r8",
+        "r10"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r7",
+        "r9",
+        "r11"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r12",
+        "r13",
+        "r14",
+        "r17",
+        "r19"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r15",
+        "r16",
+        "r18",
+        "r20"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "What is the size of the moon?",
+      "x": 0.1329,
+      "y": 0.1125,
+      "w": 0.2747,
+      "h": 0.0439,
+      "words": [
+        "What",
+        "is",
+        "the",
+        "size",
+        "of",
+        "the",
+        "moon?"
+      ],
+      "conf": 96.6521,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "The moon is near the earth. The earth is far from the sun.",
+      "x": 0.5429,
+      "y": 0.1103,
+      "w": 0.3266,
+      "h": 0.0718,
+      "words": [
+        "The",
+        "moon",
+        "is",
+        "near",
+        "the",
+        "earth.",
+        "The",
+        "earth",
+        "is",
+        "far",
+        "from",
+        "the",
+        "sun."
+      ],
+      "conf": 95.8165,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "It is two thousand one hundred and sixty",
+      "x": 0.1345,
+      "y": 0.1628,
+      "w": 0.3209,
+      "h": 0.0498,
+      "words": [
+        "It",
+        "is",
+        "two",
+        "thousand",
+        "one",
+        "hundred",
+        "and",
+        "sixty"
+      ],
+      "conf": 90.0955,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "New York is near Washington. San Francisco is far from Washington.",
+      "x": 0.5494,
+      "y": 0.188,
+      "w": 0.2974,
+      "h": 0.0975,
+      "words": [
+        "New",
+        "York",
+        "is",
+        "near",
+        "Washington.",
+        "San",
+        "Francisco",
+        "is",
+        "far",
+        "from",
+        "Washington."
+      ],
+      "conf": 96.6386,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "miles through from one side to the other.",
+      "x": 0.1353,
+      "y": 0.2132,
+      "w": 0.3047,
+      "h": 0.0696,
+      "words": [
+        "miles",
+        "through",
+        "from",
+        "one",
+        "side",
+        "to",
+        "the",
+        "other."
+      ],
+      "conf": 96.3666,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Is the moon smafler than the earth?",
+      "x": 0.1361,
+      "y": 0.2887,
+      "w": 0.2821,
+      "h": 0.0439,
+      "words": [
+        "Is",
+        "the",
+        "moon",
+        "smafler",
+        "than",
+        "the",
+        "earth?"
+      ],
+      "conf": 88.4765,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "New York.",
+      "x": 0.6961,
+      "y": 0.2999,
+      "w": 0.1459,
+      "h": 0.0187,
+      "words": [
+        "New",
+        "York."
+      ],
+      "conf": 95.3887,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Is the earth smaller than the sun?",
+      "x": 0.137,
+      "y": 0.3385,
+      "w": 0.3582,
+      "h": 0.045,
+      "words": [
+        "Is",
+        "the",
+        "earth",
+        "smaller",
+        "than",
+        "the",
+        "sun?"
+      ],
+      "conf": 96.0279,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Washington",
+      "x": 0.6985,
+      "y": 0.3257,
+      "w": 0.1759,
+      "h": 0.0225,
+      "words": [
+        "Washington"
+      ],
+      "conf": 96.5778,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Is the sun greater than the moon?",
+      "x": 0.1361,
+      "y": 0.3905,
+      "w": 0.3291,
+      "h": 0.0428,
+      "words": [
+        "Is",
+        "the",
+        "sun",
+        "greater",
+        "than",
+        "the",
+        "moon?"
+      ],
+      "conf": 94.3743,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "San Francisco",
+      "x": 0.5357,
+      "y": 0.4537,
+      "w": 0.2034,
+      "h": 0.0177,
+      "words": [
+        "San",
+        "Francisco"
+      ],
+      "conf": 96.3781,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "Wye oh",
+      "x": 0.2026,
+      "y": 0.4917,
+      "w": 0.1961,
+      "h": 0.0525,
+      "words": [
+        "Wye",
+        "oh"
+      ],
+      "conf": 54.4788,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Are the stars smaller than the sun?",
+      "x": 0.1483,
+      "y": 0.5983,
+      "w": 0.3006,
+      "h": 0.0444,
+      "words": [
+        "Are",
+        "the",
+        "stars",
+        "smaller",
+        "than",
+        "the",
+        "sun?"
+      ],
+      "conf": 96.3945,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "No. Some of the stars are much greater than the sun.",
+      "x": 0.1475,
+      "y": 0.6492,
+      "w": 0.3306,
+      "h": 0.0685,
+      "words": [
+        "No.",
+        "Some",
+        "of",
+        "the",
+        "stars",
+        "are",
+        "much",
+        "greater",
+        "than",
+        "the",
+        "sun."
+      ],
+      "conf": 96.2368,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "How far from the earth is the nearest star?",
+      "x": 0.5324,
+      "y": 0.6497,
+      "w": 0.3412,
+      "h": 0.0439,
+      "words": [
+        "How",
+        "far",
+        "from",
+        "the",
+        "earth",
+        "is",
+        "the",
+        "nearest",
+        "star?"
+      ],
+      "conf": 96.1594,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "It is over four light-years from the earth.",
+      "x": 0.5324,
+      "y": 0.7001,
+      "w": 0.3614,
+      "h": 0.0449,
+      "words": [
+        "It",
+        "is",
+        "over",
+        "four",
+        "light-years",
+        "from",
+        "the",
+        "earth."
+      ],
+      "conf": 95.7698,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "Are they nearer than the sun?",
+      "x": 0.1459,
+      "y": 0.7242,
+      "w": 0.3193,
+      "h": 0.0434,
+      "words": [
+        "Are",
+        "they",
+        "nearer",
+        "than",
+        "the",
+        "sun?"
+      ],
+      "conf": 95.7209,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "What is a light-year?",
+      "x": 0.534,
+      "y": 0.7504,
+      "w": 0.3128,
+      "h": 0.0241,
+      "words": [
+        "What",
+        "is",
+        "a",
+        "light-year?"
+      ],
+      "conf": 93.1652,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "No, they are much farther than the sun.",
+      "x": 0.1459,
+      "y": 0.7745,
+      "w": 0.299,
+      "h": 0.045,
+      "words": [
+        "No,",
+        "they",
+        "are",
+        "much",
+        "farther",
+        "than",
+        "the",
+        "sun."
+      ],
+      "conf": 96.6415,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "It is the distance which light goes in a year.",
+      "x": 0.5332,
+      "y": 0.7761,
+      "w": 0.3322,
+      "h": 0.0487,
+      "words": [
+        "It",
+        "is",
+        "the",
+        "distance",
+        "which",
+        "light",
+        "goes",
+        "in",
+        "a",
+        "year."
+      ],
+      "conf": 95.4891,
+      "source": "psm-11"
+    }
+  ]
+}

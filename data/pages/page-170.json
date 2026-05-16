@@ -1,0 +1,184 @@
+{
+  "page": 170,
+  "image": "/books/page 170.png",
+  "imageApiPath": "/api/books/page%20170.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 8,
+    "wordCount": 46,
+    "imageWidth": 1155,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This is the front of the coat.",
+      "x": 0.5567,
+      "y": 0.1165,
+      "w": 0.3368,
+      "h": 0.045,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "front",
+        "of",
+        "the",
+        "coat."
+      ],
+      "conf": 96.7082,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "“Has your coat a collar?”",
+      "x": 0.103,
+      "y": 0.1408,
+      "w": 0.3879,
+      "h": 0.0233,
+      "words": [
+        "“Has",
+        "your",
+        "coat",
+        "a",
+        "collar?”"
+      ],
+      "conf": 83.6749,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Here is the collar. the coat.",
+      "x": 0.5368,
+      "y": 0.2048,
+      "w": 0.3697,
+      "h": 0.0498,
+      "words": [
+        "Here",
+        "is",
+        "the",
+        "collar.",
+        "the",
+        "coat."
+      ],
+      "conf": 96.633,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "\"Yes, it has. Here is the collar",
+      "x": 0.0883,
+      "y": 0.3483,
+      "w": 0.3541,
+      "h": 0.0439,
+      "words": [
+        "\"Yes,",
+        "it",
+        "has.",
+        "Here",
+        "is",
+        "the",
+        "collar"
+      ],
+      "conf": 92.5619,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Cee SFB em",
+      "x": 0.2511,
+      "y": 0.493,
+      "w": 0.6866,
+      "h": 0.0168,
+      "words": [
+        "Cee",
+        "SFB",
+        "em"
+      ],
+      "conf": 45.5343,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "This is the back of coat.",
+      "x": 0.1186,
+      "y": 0.5959,
+      "w": 0.2874,
+      "h": 0.045,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "back",
+        "of",
+        "coat."
+      ],
+      "conf": 96.6407,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is one side of it",
+      "x": 0.5602,
+      "y": 0.5997,
+      "w": 0.3056,
+      "h": 0.0206,
+      "words": [
+        "This",
+        "is",
+        "one",
+        "side",
+        "of",
+        "it"
+      ],
+      "conf": 96.3491,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This is one pocket of it.",
+      "x": 0.5489,
+      "y": 0.8456,
+      "w": 0.3558,
+      "h": 0.0255,
+      "words": [
+        "This",
+        "is",
+        "one",
+        "pocket",
+        "of",
+        "it."
+      ],
+      "conf": 95.8401,
+      "source": "psm-11"
+    }
+  ]
+}

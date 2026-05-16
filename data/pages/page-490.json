@@ -1,0 +1,779 @@
+{
+  "page": 490,
+  "image": "/books/page 490.png",
+  "imageApiPath": "/api/books/page%20490.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 34,
+    "wordCount": 247,
+    "imageWidth": 1180,
+    "imageHeight": 1884
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r13",
+        "r14",
+        "r15",
+        "r17"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r6",
+        "r16",
+        "r18",
+        "r19",
+        "r20",
+        "r21"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r22",
+        "r23",
+        "r24",
+        "r25",
+        "r26",
+        "r27",
+        "r28",
+        "r29",
+        "r30",
+        "r34"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r31",
+        "r32",
+        "r33"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Thinking is the most complex sort of self-control; and our brains, with which we think, are the most complex",
+      "x": 0.0983,
+      "y": 0.0361,
+      "w": 0.8323,
+      "h": 0.0473,
+      "words": [
+        "Thinking",
+        "is",
+        "the",
+        "most",
+        "complex",
+        "sort",
+        "of",
+        "self-control;",
+        "and",
+        "our",
+        "brains,",
+        "with",
+        "which",
+        "we",
+        "think,",
+        "are",
+        "the",
+        "most",
+        "complex"
+      ],
+      "conf": 96.3831,
+      "source": "psm-6"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Thinking is the most complex sort of self-control; and",
+      "x": 0.0992,
+      "y": 0.0361,
+      "w": 0.8314,
+      "h": 0.0207,
+      "words": [
+        "Thinking",
+        "is",
+        "the",
+        "most",
+        "complex",
+        "sort",
+        "of",
+        "self-control;",
+        "and"
+      ],
+      "conf": 96.3831,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "our brains, with which we think, are the most complex systems of feed-back. The thermostat and the flyball gov-",
+      "x": 0.0983,
+      "y": 0.0616,
+      "w": 0.833,
+      "h": 0.0472,
+      "words": [
+        "our",
+        "brains,",
+        "with",
+        "which",
+        "we",
+        "think,",
+        "are",
+        "the",
+        "most",
+        "complex",
+        "systems",
+        "of",
+        "feed-back.",
+        "The",
+        "thermostat",
+        "and",
+        "the",
+        "flyball",
+        "gov-"
+      ],
+      "conf": 96.4821,
+      "source": "psm-6"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "systems of feed-back. The thermostat and the flyball gov- emor are about the simplest of them. In feed-back sys-",
+      "x": 0.0992,
+      "y": 0.087,
+      "w": 0.8321,
+      "h": 0.0478,
+      "words": [
+        "systems",
+        "of",
+        "feed-back.",
+        "The",
+        "thermostat",
+        "and",
+        "the",
+        "flyball",
+        "gov-",
+        "emor",
+        "are",
+        "about",
+        "the",
+        "simplest",
+        "of",
+        "them.",
+        "In",
+        "feed-back",
+        "sys-"
+      ],
+      "conf": 95.2317,
+      "source": "psm-6"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "tems, effects control their causes.",
+      "x": 0.1008,
+      "y": 0.1385,
+      "w": 0.4771,
+      "h": 0.0196,
+      "words": [
+        "tems,",
+        "effects",
+        "control",
+        "their",
+        "causes."
+      ],
+      "conf": 96.166,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "THERMOSTAT",
+      "x": 0.6559,
+      "y": 0.2081,
+      "w": 0.1305,
+      "h": 0.0111,
+      "words": [
+        "THERMOSTAT"
+      ],
+      "conf": 96.4232,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "In the thermostat feed- back circle the effect of in-",
+      "x": 0.1017,
+      "y": 0.2293,
+      "w": 0.3797,
+      "h": 0.0419,
+      "words": [
+        "In",
+        "the",
+        "thermostat",
+        "feed-",
+        "back",
+        "circle",
+        "the",
+        "effect",
+        "of",
+        "in-"
+      ],
+      "conf": 94.5295,
+      "source": "psm-6"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "In the thermostat feed-",
+      "x": 0.1025,
+      "y": 0.2293,
+      "w": 0.378,
+      "h": 0.0165,
+      "words": [
+        "In",
+        "the",
+        "thermostat",
+        "feed-"
+      ],
+      "conf": 94.7609,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "back circle the effect of in- creased input of fuel is",
+      "x": 0.1017,
+      "y": 0.2542,
+      "w": 0.3797,
+      "h": 0.0462,
+      "words": [
+        "back",
+        "circle",
+        "the",
+        "effect",
+        "of",
+        "in-",
+        "creased",
+        "input",
+        "of",
+        "fuel",
+        "is"
+      ],
+      "conf": 95.4812,
+      "source": "psm-6"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "creased input of fuel is increased output of heat.",
+      "x": 0.1042,
+      "y": 0.2797,
+      "w": 0.3763,
+      "h": 0.0472,
+      "words": [
+        "creased",
+        "input",
+        "of",
+        "fuel",
+        "is",
+        "increased",
+        "output",
+        "of",
+        "heat."
+      ],
+      "conf": 96.3221,
+      "source": "psm-6"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "increased output of heat.",
+      "x": 0.1042,
+      "y": 0.3057,
+      "w": 0.3763,
+      "h": 0.0212,
+      "words": [
+        "increased",
+        "output",
+        "of",
+        "heat."
+      ],
+      "conf": 96.2798,
+      "source": "psm-6"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "This effect feeds back, through the thermostat,",
+      "x": 0.1034,
+      "y": 0.3312,
+      "w": 0.3771,
+      "h": 0.0462,
+      "words": [
+        "This",
+        "effect",
+        "feeds",
+        "back,",
+        "through",
+        "the",
+        "thermostat,"
+      ],
+      "conf": 91.6006,
+      "source": "psm-6"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "This effect feeds back,",
+      "x": 0.1042,
+      "y": 0.3312,
+      "w": 0.3763,
+      "h": 0.0191,
+      "words": [
+        "This",
+        "effect",
+        "feeds",
+        "back,"
+      ],
+      "conf": 91.6006,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "through the thermostat, and cuts down the input",
+      "x": 0.1034,
+      "y": 0.3567,
+      "w": 0.378,
+      "h": 0.0472,
+      "words": [
+        "through",
+        "the",
+        "thermostat,",
+        "and",
+        "cuts",
+        "down",
+        "the",
+        "input"
+      ],
+      "conf": 96.5559,
+      "source": "psm-6"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "and cuts down the input of fuel when the increase",
+      "x": 0.1051,
+      "y": 0.3827,
+      "w": 0.3763,
+      "h": 0.043,
+      "words": [
+        "and",
+        "cuts",
+        "down",
+        "the",
+        "input",
+        "of",
+        "fuel",
+        "when",
+        "the",
+        "increase"
+      ],
+      "conf": 96.4771,
+      "source": "psm-6"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "Q) becomes too great. output input of",
+      "x": 0.1059,
+      "y": 0.3641,
+      "w": 0.811,
+      "h": 0.0929,
+      "words": [
+        "Q)",
+        "becomes",
+        "too",
+        "great.",
+        "output",
+        "input",
+        "of"
+      ],
+      "conf": 77.794,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "of fuel when the increase becomes too great.",
+      "x": 0.1051,
+      "y": 0.4087,
+      "w": 0.3763,
+      "h": 0.0472,
+      "words": [
+        "of",
+        "fuel",
+        "when",
+        "the",
+        "increase",
+        "becomes",
+        "too",
+        "great."
+      ],
+      "conf": 96.6011,
+      "source": "psm-6"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "NL” of heat",
+      "x": 0.5136,
+      "y": 0.4257,
+      "w": 0.3135,
+      "h": 0.0393,
+      "words": [
+        "NL”",
+        "of",
+        "heat"
+      ],
+      "conf": 48.2728,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "of heat fuet",
+      "x": 0.5136,
+      "y": 0.4544,
+      "w": 0.3814,
+      "h": 0.0111,
+      "words": [
+        "of",
+        "heat",
+        "fuet"
+      ],
+      "conf": 90.9304,
+      "source": "psm-6"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "input of FLYBALL GOVERNOR",
+      "x": 0.6331,
+      "y": 0.4416,
+      "w": 0.2839,
+      "h": 0.0621,
+      "words": [
+        "input",
+        "of",
+        "FLYBALL",
+        "GOVERNOR"
+      ],
+      "conf": 94.0409,
+      "source": "psm-11"
+    },
+    {
+      "id": "r21",
+      "order": 20,
+      "text": "FLYBALL GOVERNOR",
+      "x": 0.6331,
+      "y": 0.4926,
+      "w": 0.2093,
+      "h": 0.0111,
+      "words": [
+        "FLYBALL",
+        "GOVERNOR"
+      ],
+      "conf": 93.6585,
+      "source": "psm-6"
+    },
+    {
+      "id": "r22",
+      "order": 21,
+      "text": "In ‘the flyball governor circle the effect of more",
+      "x": 0.1059,
+      "y": 0.5239,
+      "w": 0.3772,
+      "h": 0.043,
+      "words": [
+        "In",
+        "‘the",
+        "flyball",
+        "governor",
+        "circle",
+        "the",
+        "effect",
+        "of",
+        "more"
+      ],
+      "conf": 85.8252,
+      "source": "psm-6"
+    },
+    {
+      "id": "r23",
+      "order": 22,
+      "text": "circle the effect of more steam is more output of",
+      "x": 0.1059,
+      "y": 0.5504,
+      "w": 0.3772,
+      "h": 0.0467,
+      "words": [
+        "circle",
+        "the",
+        "effect",
+        "of",
+        "more",
+        "steam",
+        "is",
+        "more",
+        "output",
+        "of"
+      ],
+      "conf": 96.7715,
+      "source": "psm-6"
+    },
+    {
+      "id": "r24",
+      "order": 23,
+      "text": "steam is more output of work from the engine.",
+      "x": 0.1068,
+      "y": 0.5764,
+      "w": 0.3763,
+      "h": 0.0462,
+      "words": [
+        "steam",
+        "is",
+        "more",
+        "output",
+        "of",
+        "work",
+        "from",
+        "the",
+        "engine."
+      ],
+      "conf": 96.5214,
+      "source": "psm-6"
+    },
+    {
+      "id": "r25",
+      "order": 24,
+      "text": "from the engine.",
+      "x": 0.2076,
+      "y": 0.6019,
+      "w": 0.2737,
+      "h": 0.0207,
+      "words": [
+        "from",
+        "the",
+        "engine."
+      ],
+      "conf": 94.3073,
+      "source": "psm-6"
+    },
+    {
+      "id": "r26",
+      "order": 25,
+      "text": "This effect feeds back, through the governor, and",
+      "x": 0.1051,
+      "y": 0.6279,
+      "w": 0.3771,
+      "h": 0.0467,
+      "words": [
+        "This",
+        "effect",
+        "feeds",
+        "back,",
+        "through",
+        "the",
+        "governor,",
+        "and"
+      ],
+      "conf": 95.5806,
+      "source": "psm-6"
+    },
+    {
+      "id": "r27",
+      "order": 26,
+      "text": "This effect feeds back,",
+      "x": 0.1068,
+      "y": 0.6279,
+      "w": 0.3746,
+      "h": 0.0191,
+      "words": [
+        "This",
+        "effect",
+        "feeds",
+        "back,"
+      ],
+      "conf": 95.5806,
+      "source": "psm-11"
+    },
+    {
+      "id": "r28",
+      "order": 27,
+      "text": "cuts down the steam when C)",
+      "x": 0.1051,
+      "y": 0.6523,
+      "w": 0.5339,
+      "h": 0.0722,
+      "words": [
+        "cuts",
+        "down",
+        "the",
+        "steam",
+        "when",
+        "C)"
+      ],
+      "conf": 94.7468,
+      "source": "psm-6"
+    },
+    {
+      "id": "r29",
+      "order": 28,
+      "text": "cuts down the steam when the engine goes too fast.",
+      "x": 0.1025,
+      "y": 0.6794,
+      "w": 0.3797,
+      "h": 0.0637,
+      "words": [
+        "cuts",
+        "down",
+        "the",
+        "steam",
+        "when",
+        "the",
+        "engine",
+        "goes",
+        "too",
+        "fast."
+      ],
+      "conf": 96.1159,
+      "source": "psm-11"
+    },
+    {
+      "id": "r30",
+      "order": 29,
+      "text": "the engine goes too fast.",
+      "x": 0.1059,
+      "y": 0.7054,
+      "w": 0.3398,
+      "h": 0.0212,
+      "words": [
+        "the",
+        "engine",
+        "goes",
+        "too",
+        "fast."
+      ],
+      "conf": 96.8281,
+      "source": "psm-6"
+    },
+    {
+      "id": "r31",
+      "order": 30,
+      "text": "of work",
+      "x": 0.5271,
+      "y": 0.7394,
+      "w": 0.0763,
+      "h": 0.0106,
+      "words": [
+        "of",
+        "work"
+      ],
+      "conf": 94.118,
+      "source": "psm-11"
+    },
+    {
+      "id": "r32",
+      "order": 31,
+      "text": "input of",
+      "x": 0.8441,
+      "y": 0.7288,
+      "w": 0.078,
+      "h": 0.0122,
+      "words": [
+        "input",
+        "of"
+      ],
+      "conf": 91.5039,
+      "source": "psm-11"
+    },
+    {
+      "id": "r33",
+      "order": 32,
+      "text": "In the brain millions of feed-back circles are always con-",
+      "x": 0.1085,
+      "y": 0.8073,
+      "w": 0.8212,
+      "h": 0.0234,
+      "words": [
+        "In",
+        "the",
+        "brain",
+        "millions",
+        "of",
+        "feed-back",
+        "circles",
+        "are",
+        "always",
+        "con-"
+      ],
+      "conf": 96.1614,
+      "source": "psm-11"
+    },
+    {
+      "id": "r34",
+      "order": 33,
+      "text": "trolling one another.",
+      "x": 0.1059,
+      "y": 0.8328,
+      "w": 0.3042,
+      "h": 0.0207,
+      "words": [
+        "trolling",
+        "one",
+        "another."
+      ],
+      "conf": 96.4575,
+      "source": "psm-11"
+    }
+  ]
+}

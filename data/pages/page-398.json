@@ -1,0 +1,316 @@
+{
+  "page": 398,
+  "image": "/books/page 398.png",
+  "imageApiPath": "/api/books/page%20398.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 120,
+    "imageWidth": 1196,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r7",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r9"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "The earth itself is thought to be more than twice as old as life on it. Our picture of what it was like two billion",
+      "x": 0.102,
+      "y": 0.028,
+      "w": 0.8244,
+      "h": 0.0537,
+      "words": [
+        "The",
+        "earth",
+        "itself",
+        "is",
+        "thought",
+        "to",
+        "be",
+        "more",
+        "than",
+        "twice",
+        "as",
+        "old",
+        "as",
+        "life",
+        "on",
+        "it.",
+        "Our",
+        "picture",
+        "of",
+        "what",
+        "it",
+        "was",
+        "like",
+        "two",
+        "billion"
+      ],
+      "conf": 96.5248,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "years ago is of a great ball about as hot",
+      "x": 0.3645,
+      "y": 0.0807,
+      "w": 0.5594,
+      "h": 0.0264,
+      "words": [
+        "years",
+        "ago",
+        "is",
+        "of",
+        "a",
+        "great",
+        "ball",
+        "about",
+        "as",
+        "hot"
+      ],
+      "conf": 96.796,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "on its surface as boiling water.",
+      "x": 0.1045,
+      "y": 0.1103,
+      "w": 0.4231,
+      "h": 0.021,
+      "words": [
+        "on",
+        "its",
+        "surface",
+        "as",
+        "boiling",
+        "water."
+      ],
+      "conf": 95.424,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "In time, earth’s surface became less hot, the thick clouds round it, from which water went on raining down, got thinner. Then more sunlight could get through to the surface of the earth. Sunlight is necessary for life on",
+      "x": 0.1003,
+      "y": 0.1856,
+      "w": 0.8278,
+      "h": 0.1075,
+      "words": [
+        "In",
+        "time,",
+        "earth’s",
+        "surface",
+        "became",
+        "less",
+        "hot,",
+        "the",
+        "thick",
+        "clouds",
+        "round",
+        "it,",
+        "from",
+        "which",
+        "water",
+        "went",
+        "on",
+        "raining",
+        "down,",
+        "got",
+        "thinner.",
+        "Then",
+        "more",
+        "sunlight",
+        "could",
+        "get",
+        "through",
+        "to",
+        "the",
+        "surface",
+        "of",
+        "the",
+        "earth.",
+        "Sunlight",
+        "is",
+        "necessary",
+        "for",
+        "life",
+        "on"
+      ],
+      "conf": 95.9059,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "earth, as air and water are",
+      "x": 0.1003,
+      "y": 0.2926,
+      "w": 0.3788,
+      "h": 0.0247,
+      "words": [
+        "earth,",
+        "as",
+        "air",
+        "and",
+        "water",
+        "are"
+      ],
+      "conf": 96.0935,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Bife: in this sense, that which only living things have.",
+      "x": 0.1087,
+      "y": 0.7972,
+      "w": 0.592,
+      "h": 0.0156,
+      "words": [
+        "Bife:",
+        "in",
+        "this",
+        "sense,",
+        "that",
+        "which",
+        "only",
+        "living",
+        "things",
+        "have."
+      ],
+      "conf": 91.5682,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "surface: outside part. This page has two large when you turn over.",
+      "x": 0.1087,
+      "y": 0.8139,
+      "w": 0.5569,
+      "h": 0.0543,
+      "words": [
+        "surface:",
+        "outside",
+        "part.",
+        "This",
+        "page",
+        "has",
+        "two",
+        "large",
+        "when",
+        "you",
+        "turn",
+        "over."
+      ],
+      "conf": 93.4018,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "and the other {pege which you will see",
+      "x": 0.4105,
+      "y": 0.83,
+      "w": 0.5226,
+      "h": 0.0167,
+      "words": [
+        "and",
+        "the",
+        "other",
+        "{pege",
+        "which",
+        "you",
+        "will",
+        "see"
+      ],
+      "conf": 87.9522,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "surfaces: one",
+      "x": 0.7818,
+      "y": 0.8112,
+      "w": 0.153,
+      "h": 0.0194,
+      "words": [
+        "surfaces:",
+        "one"
+      ],
+      "conf": 95.0876,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "this side",
+      "x": 0.163,
+      "y": 0.8338,
+      "w": 0.0978,
+      "h": 0.0124,
+      "words": [
+        "this",
+        "side"
+      ],
+      "conf": 96.7409,
+      "source": "psm-11"
+    }
+  ]
+}

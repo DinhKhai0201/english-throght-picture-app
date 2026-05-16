@@ -1,0 +1,631 @@
+{
+  "page": 281,
+  "image": "/books/page 281.png",
+  "imageApiPath": "/api/books/page%20281.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 31,
+    "wordCount": 141,
+    "imageWidth": 1250,
+    "imageHeight": 1892
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5",
+        "r7",
+        "r9",
+        "r11",
+        "r12"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r6",
+        "r8",
+        "r10",
+        "r13"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r14",
+        "r16",
+        "r18",
+        "r20",
+        "r22",
+        "r24",
+        "r26",
+        "r28"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r15",
+        "r17",
+        "r19",
+        "r21",
+        "r23",
+        "r25",
+        "r27",
+        "r29",
+        "r30",
+        "r31"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "will do it.",
+      "x": 0.1792,
+      "y": 0.149,
+      "w": 0.1328,
+      "h": 0.019,
+      "words": [
+        "will",
+        "do",
+        "it."
+      ],
+      "conf": 95.1404,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "It will be done by me.",
+      "x": 0.5144,
+      "y": 0.1501,
+      "w": 0.3264,
+      "h": 0.0243,
+      "words": [
+        "It",
+        "will",
+        "be",
+        "done",
+        "by",
+        "me."
+      ],
+      "conf": 90.5011,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "lam doing it.",
+      "x": 0.1608,
+      "y": 0.1744,
+      "w": 0.1952,
+      "h": 0.0227,
+      "words": [
+        "lam",
+        "doing",
+        "it."
+      ],
+      "conf": 78.3738,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "It is being done by me.",
+      "x": 0.5136,
+      "y": 0.176,
+      "w": 0.3288,
+      "h": 0.0238,
+      "words": [
+        "It",
+        "is",
+        "being",
+        "done",
+        "by",
+        "me."
+      ],
+      "conf": 95.6155,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "i did it.",
+      "x": 0.1624,
+      "y": 0.1993,
+      "w": 0.1016,
+      "h": 0.0185,
+      "words": [
+        "i",
+        "did",
+        "it."
+      ],
+      "conf": 95.901,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "It was done by me.",
+      "x": 0.5144,
+      "y": 0.2008,
+      "w": 0.2736,
+      "h": 0.0238,
+      "words": [
+        "It",
+        "was",
+        "done",
+        "by",
+        "me."
+      ],
+      "conf": 95.7737,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "They will see it.",
+      "x": 0.1608,
+      "y": 0.2236,
+      "w": 0.2216,
+      "h": 0.0238,
+      "words": [
+        "They",
+        "will",
+        "see",
+        "it."
+      ],
+      "conf": 95.4048,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "It will be seen by them.",
+      "x": 0.5144,
+      "y": 0.2252,
+      "w": 0.3288,
+      "h": 0.0243,
+      "words": [
+        "It",
+        "will",
+        "be",
+        "seen",
+        "by",
+        "them."
+      ],
+      "conf": 96.1888,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "They are taking it.",
+      "x": 0.1616,
+      "y": 0.2489,
+      "w": 0.2688,
+      "h": 0.0233,
+      "words": [
+        "They",
+        "are",
+        "taking",
+        "it."
+      ],
+      "conf": 95.8286,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "It is being taken by them, It was given by them.",
+      "x": 0.5144,
+      "y": 0.2505,
+      "w": 0.3576,
+      "h": 0.0482,
+      "words": [
+        "It",
+        "is",
+        "being",
+        "taken",
+        "by",
+        "them,",
+        "It",
+        "was",
+        "given",
+        "by",
+        "them."
+      ],
+      "conf": 94.6661,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "They gave it.",
+      "x": 0.1608,
+      "y": 0.2733,
+      "w": 0.1888,
+      "h": 0.0233,
+      "words": [
+        "They",
+        "gave",
+        "it."
+      ],
+      "conf": 95.6534,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "DO TAKE SEE GIVE",
+      "x": 0.1616,
+      "y": 0.2992,
+      "w": 0.172,
+      "h": 0.0428,
+      "words": [
+        "DO",
+        "TAKE",
+        "SEE",
+        "GIVE"
+      ],
+      "conf": 74.7109,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "DONE TAKEN SEEN GIVEN",
+      "x": 0.5128,
+      "y": 0.3007,
+      "w": 0.2424,
+      "h": 0.0429,
+      "words": [
+        "DONE",
+        "TAKEN",
+        "SEEN",
+        "GIVEN"
+      ],
+      "conf": 92.1457,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "I will say it.",
+      "x": 0.1408,
+      "y": 0.5307,
+      "w": 0.1632,
+      "h": 0.0238,
+      "words": [
+        "I",
+        "will",
+        "say",
+        "it."
+      ],
+      "conf": 85.4007,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "It will be said by me.",
+      "x": 0.5312,
+      "y": 0.5322,
+      "w": 0.3,
+      "h": 0.0233,
+      "words": [
+        "It",
+        "will",
+        "be",
+        "said",
+        "by",
+        "me."
+      ],
+      "conf": 95.9841,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "said it.",
+      "x": 0.1576,
+      "y": 0.5555,
+      "w": 0.096,
+      "h": 0.0185,
+      "words": [
+        "said",
+        "it."
+      ],
+      "conf": 93.0645,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "It was said by me.",
+      "x": 0.5304,
+      "y": 0.5566,
+      "w": 0.2616,
+      "h": 0.0233,
+      "words": [
+        "It",
+        "was",
+        "said",
+        "by",
+        "me."
+      ],
+      "conf": 96.0248,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "I made it.",
+      "x": 0.14,
+      "y": 0.5809,
+      "w": 0.136,
+      "h": 0.0185,
+      "words": [
+        "I",
+        "made",
+        "it."
+      ],
+      "conf": 88.8935,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "It was made by me.",
+      "x": 0.5296,
+      "y": 0.5814,
+      "w": 0.2856,
+      "h": 0.0233,
+      "words": [
+        "It",
+        "was",
+        "made",
+        "by",
+        "me."
+      ],
+      "conf": 95.6528,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "kept it.",
+      "x": 0.1576,
+      "y": 0.6052,
+      "w": 0.0992,
+      "h": 0.0227,
+      "words": [
+        "kept",
+        "it."
+      ],
+      "conf": 88.9087,
+      "source": "psm-11"
+    },
+    {
+      "id": "r21",
+      "order": 20,
+      "text": "It was kept by me.",
+      "x": 0.5304,
+      "y": 0.6057,
+      "w": 0.2632,
+      "h": 0.0238,
+      "words": [
+        "It",
+        "was",
+        "kept",
+        "by",
+        "me."
+      ],
+      "conf": 95.4793,
+      "source": "psm-11"
+    },
+    {
+      "id": "r22",
+      "order": 21,
+      "text": "let it go.",
+      "x": 0.1584,
+      "y": 0.6295,
+      "w": 0.116,
+      "h": 0.0233,
+      "words": [
+        "let",
+        "it",
+        "go."
+      ],
+      "conf": 95.6492,
+      "source": "psm-11"
+    },
+    {
+      "id": "r23",
+      "order": 22,
+      "text": "It was let go by me.",
+      "x": 0.5296,
+      "y": 0.6316,
+      "w": 0.284,
+      "h": 0.0233,
+      "words": [
+        "It",
+        "was",
+        "let",
+        "go",
+        "by",
+        "me."
+      ],
+      "conf": 96.115,
+      "source": "psm-11"
+    },
+    {
+      "id": "r24",
+      "order": 23,
+      "text": "put it there.",
+      "x": 0.1576,
+      "y": 0.6554,
+      "w": 0.1688,
+      "h": 0.0227,
+      "words": [
+        "put",
+        "it",
+        "there."
+      ],
+      "conf": 93.0316,
+      "source": "psm-11"
+    },
+    {
+      "id": "r25",
+      "order": 24,
+      "text": "It was put there by me.",
+      "x": 0.5304,
+      "y": 0.657,
+      "w": 0.3376,
+      "h": 0.0233,
+      "words": [
+        "It",
+        "was",
+        "put",
+        "there",
+        "by",
+        "me."
+      ],
+      "conf": 95.474,
+      "source": "psm-11"
+    },
+    {
+      "id": "r26",
+      "order": 25,
+      "text": "got it.",
+      "x": 0.1568,
+      "y": 0.6818,
+      "w": 0.0832,
+      "h": 0.0206,
+      "words": [
+        "got",
+        "it."
+      ],
+      "conf": 92.818,
+      "source": "psm-11"
+    },
+    {
+      "id": "r27",
+      "order": 26,
+      "text": "It was got by me.",
+      "x": 0.5304,
+      "y": 0.6813,
+      "w": 0.2504,
+      "h": 0.0238,
+      "words": [
+        "It",
+        "was",
+        "got",
+        "by",
+        "me."
+      ],
+      "conf": 96.1032,
+      "source": "psm-11"
+    },
+    {
+      "id": "r28",
+      "order": 27,
+      "text": "I sent it, SAY MAKE KEEP LET PUT GET SEND",
+      "x": 0.1368,
+      "y": 0.7061,
+      "w": 0.3048,
+      "h": 0.092,
+      "words": [
+        "I",
+        "sent",
+        "it,",
+        "SAY",
+        "MAKE",
+        "KEEP",
+        "LET",
+        "PUT",
+        "GET",
+        "SEND"
+      ],
+      "conf": 87.532,
+      "source": "psm-11"
+    },
+    {
+      "id": "r29",
+      "order": 28,
+      "text": "It was sent by me.",
+      "x": 0.5304,
+      "y": 0.7067,
+      "w": 0.2584,
+      "h": 0.0233,
+      "words": [
+        "It",
+        "was",
+        "sent",
+        "by",
+        "me."
+      ],
+      "conf": 95.5937,
+      "source": "psm-11"
+    },
+    {
+      "id": "r30",
+      "order": 29,
+      "text": "SAID MADE KEPT LET",
+      "x": 0.5296,
+      "y": 0.732,
+      "w": 0.3176,
+      "h": 0.0423,
+      "words": [
+        "SAID",
+        "MADE",
+        "KEPT",
+        "LET"
+      ],
+      "conf": 75.4516,
+      "source": "psm-11"
+    },
+    {
+      "id": "r31",
+      "order": 30,
+      "text": "PUT GOT SENT",
+      "x": 0.5288,
+      "y": 0.7569,
+      "w": 0.1912,
+      "h": 0.0423,
+      "words": [
+        "PUT",
+        "GOT",
+        "SENT"
+      ],
+      "conf": 96.2254,
+      "source": "psm-11"
+    }
+  ]
+}

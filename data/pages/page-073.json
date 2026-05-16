@@ -1,0 +1,139 @@
+{
+  "page": 73,
+  "image": "/books/page 73.png",
+  "imageApiPath": "/api/books/page%2073.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 5,
+    "wordCount": 43,
+    "imageWidth": 1125,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "“Where is my hat? It fs pot on my head. It isn’t",
+      "x": 0.0729,
+      "y": 0.1419,
+      "w": 0.376,
+      "h": 0.0713,
+      "words": [
+        "“Where",
+        "is",
+        "my",
+        "hat?",
+        "It",
+        "fs",
+        "pot",
+        "on",
+        "my",
+        "head.",
+        "It",
+        "isn’t"
+      ],
+      "conf": 95.6098,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "“It isn’t (is not) here.”",
+      "x": 0.5413,
+      "y": 0.1666,
+      "w": 0.3333,
+      "h": 0.0236,
+      "words": [
+        "“It",
+        "isn’t",
+        "(is",
+        "not)",
+        "here.”"
+      ],
+      "conf": 93.4824,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "here.”",
+      "x": 0.08,
+      "y": 0.1923,
+      "w": 0.0942,
+      "h": 0.0193,
+      "words": [
+        "here.”"
+      ],
+      "conf": 96.1301,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Here is Mary. She is coming into the room She says, “Here am",
+      "x": 0.5564,
+      "y": 0.542,
+      "w": 0.3422,
+      "h": 0.0751,
+      "words": [
+        "Here",
+        "is",
+        "Mary.",
+        "She",
+        "is",
+        "coming",
+        "into",
+        "the",
+        "room",
+        "She",
+        "says,",
+        "“Here",
+        "am"
+      ],
+      "conf": 96.4027,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "“Where is it? Mary, where is my hat? Where are you, Mary?”",
+      "x": 0.0604,
+      "y": 0.5801,
+      "w": 0.3982,
+      "h": 0.0755,
+      "words": [
+        "“Where",
+        "is",
+        "it?",
+        "Mary,",
+        "where",
+        "is",
+        "my",
+        "hat?",
+        "Where",
+        "are",
+        "you,",
+        "Mary?”"
+      ],
+      "conf": 94.9147,
+      "source": "psm-11"
+    }
+  ]
+}

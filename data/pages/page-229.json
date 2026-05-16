@@ -1,0 +1,286 @@
+{
+  "page": 229,
+  "image": "/books/page 229.png",
+  "imageApiPath": "/api/books/page%20229.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 12,
+    "wordCount": 92,
+    "imageWidth": 1205,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "i After put it in the water it seemed bent.",
+      "x": 0.4954,
+      "y": 0.0769,
+      "w": 0.3876,
+      "h": 0.0506,
+      "words": [
+        "i",
+        "After",
+        "put",
+        "it",
+        "in",
+        "the",
+        "water",
+        "it",
+        "seemed",
+        "bent."
+      ],
+      "conf": 90.4818,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Before put the pencil in the water it seemed straight. It was straight.",
+      "x": 0.1203,
+      "y": 0.121,
+      "w": 0.356,
+      "h": 0.0732,
+      "words": [
+        "Before",
+        "put",
+        "the",
+        "pencil",
+        "in",
+        "the",
+        "water",
+        "it",
+        "seemed",
+        "straight.",
+        "It",
+        "was",
+        "straight."
+      ],
+      "conf": 96.032,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "It wasn’t bent.",
+      "x": 0.5162,
+      "y": 0.1339,
+      "w": 0.2083,
+      "h": 0.0188,
+      "words": [
+        "It",
+        "wasn’t",
+        "bent."
+      ],
+      "conf": 86.9694,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "When it is in the water it seems bent.",
+      "x": 0.517,
+      "y": 0.2329,
+      "w": 0.3718,
+      "h": 0.0436,
+      "words": [
+        "When",
+        "it",
+        "is",
+        "in",
+        "the",
+        "water",
+        "it",
+        "seems",
+        "bent."
+      ],
+      "conf": 94.8688,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "it is out of the water we see that it fs i straight.",
+      "x": 0.4979,
+      "y": 0.3394,
+      "w": 0.3618,
+      "h": 0.0738,
+      "words": [
+        "it",
+        "is",
+        "out",
+        "of",
+        "the",
+        "water",
+        "we",
+        "see",
+        "that",
+        "it",
+        "fs",
+        "i",
+        "straight."
+      ],
+      "conf": 95.342,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Why did it seem bent when it was in the water?",
+      "x": 0.1195,
+      "y": 0.5159,
+      "w": 0.366,
+      "h": 0.0441,
+      "words": [
+        "Why",
+        "did",
+        "it",
+        "seem",
+        "bent",
+        "when",
+        "it",
+        "was",
+        "in",
+        "the",
+        "water?"
+      ],
+      "conf": 96.6983,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is a light.",
+      "x": 0.122,
+      "y": 0.7111,
+      "w": 0.2017,
+      "h": 0.0231,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "light."
+      ],
+      "conf": 95.0808,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Here is a bit of glass.",
+      "x": 0.5402,
+      "y": 0.7101,
+      "w": 0.3178,
+      "h": 0.0231,
+      "words": [
+        "Here",
+        "is",
+        "a",
+        "bit",
+        "of",
+        "glass."
+      ],
+      "conf": 95.5369,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "A light sends out light.",
+      "x": 0.1195,
+      "y": 0.7343,
+      "w": 0.3369,
+      "h": 0.0274,
+      "words": [
+        "A",
+        "light",
+        "sends",
+        "out",
+        "light."
+      ],
+      "conf": 96.4863,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Aray of light is going",
+      "x": 0.5394,
+      "y": 0.7359,
+      "w": 0.3311,
+      "h": 0.0242,
+      "words": [
+        "Aray",
+        "of",
+        "light",
+        "is",
+        "going"
+      ],
+      "conf": 94.198,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "The light which it sends through the glass.",
+      "x": 0.122,
+      "y": 0.7612,
+      "w": 0.688,
+      "h": 0.0231,
+      "words": [
+        "The",
+        "light",
+        "which",
+        "it",
+        "sends",
+        "through",
+        "the",
+        "glass."
+      ],
+      "conf": 95.1473,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "out goes in straight lines.",
+      "x": 0.1237,
+      "y": 0.7875,
+      "w": 0.3643,
+      "h": 0.0221,
+      "words": [
+        "out",
+        "goes",
+        "in",
+        "straight",
+        "lines."
+      ],
+      "conf": 95.9884,
+      "source": "psm-11"
+    }
+  ]
+}

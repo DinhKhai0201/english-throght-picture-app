@@ -1,0 +1,450 @@
+{
+  "page": 182,
+  "image": "/books/page 182.png",
+  "imageApiPath": "/api/books/page%20182.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 19,
+    "wordCount": 128,
+    "imageWidth": 1175,
+    "imageHeight": 1884
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r8",
+        "r10"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r6",
+        "r7",
+        "r9",
+        "r11"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r12",
+        "r14",
+        "r16",
+        "r17"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r13",
+        "r15",
+        "r18",
+        "r19"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "In the spring the days.",
+      "x": 0.554,
+      "y": 0.1231,
+      "w": 0.3243,
+      "h": 0.0234,
+      "words": [
+        "In",
+        "the",
+        "spring",
+        "the",
+        "days."
+      ],
+      "conf": 95.7632,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "get longer.",
+      "x": 0.5532,
+      "y": 0.147,
+      "w": 0.1617,
+      "h": 0.0218,
+      "words": [
+        "get",
+        "longer."
+      ],
+      "conf": 96.6708,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Every day is longer than the day before it.",
+      "x": 0.5532,
+      "y": 0.1709,
+      "w": 0.3599,
+      "h": 0.0468,
+      "words": [
+        "Every",
+        "day",
+        "is",
+        "longer",
+        "than",
+        "the",
+        "day",
+        "before",
+        "it."
+      ],
+      "conf": 96.2223,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "In today is longer than yesterday.",
+      "x": 0.554,
+      "y": 0.2192,
+      "w": 0.3353,
+      "h": 0.0468,
+      "words": [
+        "In",
+        "today",
+        "is",
+        "longer",
+        "than",
+        "yesterday."
+      ],
+      "conf": 95.6937,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "tn the fall, the leaves come down from the branches of the trees Fall is the time of the fall of the leaves.",
+      "x": 0.1626,
+      "y": 0.2707,
+      "w": 0.3097,
+      "h": 0.1135,
+      "words": [
+        "tn",
+        "the",
+        "fall,",
+        "the",
+        "leaves",
+        "come",
+        "down",
+        "from",
+        "the",
+        "branches",
+        "of",
+        "the",
+        "trees",
+        "Fall",
+        "is",
+        "the",
+        "time",
+        "of",
+        "the",
+        "fall",
+        "of",
+        "the",
+        "leaves."
+      ],
+      "conf": 94.8742,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "In the fall the days get shorter.",
+      "x": 0.5498,
+      "y": 0.284,
+      "w": 0.3336,
+      "h": 0.0425,
+      "words": [
+        "In",
+        "the",
+        "fall",
+        "the",
+        "days",
+        "get",
+        "shorter."
+      ],
+      "conf": 96.5066,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Every day is shorter than the day before it.",
+      "x": 0.5489,
+      "y": 0.3323,
+      "w": 0.3328,
+      "h": 0.0467,
+      "words": [
+        "Every",
+        "day",
+        "is",
+        "shorter",
+        "than",
+        "the",
+        "day",
+        "before",
+        "it."
+      ],
+      "conf": 96.6115,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "They are coming down.",
+      "x": 0.1626,
+      "y": 0.3901,
+      "w": 0.3472,
+      "h": 0.0223,
+      "words": [
+        "They",
+        "are",
+        "coming",
+        "down."
+      ],
+      "conf": 96.4088,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "In the fall tomorrow will be shorter than today.",
+      "x": 0.5489,
+      "y": 0.3795,
+      "w": 0.3532,
+      "h": 0.0478,
+      "words": [
+        "In",
+        "the",
+        "fall",
+        "tomorrow",
+        "will",
+        "be",
+        "shorter",
+        "than",
+        "today."
+      ],
+      "conf": 92.7939,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "They are falling.",
+      "x": 0.1617,
+      "y": 0.414,
+      "w": 0.2443,
+      "h": 0.0223,
+      "words": [
+        "They",
+        "are",
+        "falling."
+      ],
+      "conf": 95.8988,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "Fifteen minutes make a",
+      "x": 0.5668,
+      "y": 0.4841,
+      "w": 0.3396,
+      "h": 0.0281,
+      "words": [
+        "Fifteen",
+        "minutes",
+        "make",
+        "a"
+      ],
+      "conf": 96.5353,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "This line is longer than",
+      "x": 0.2,
+      "y": 0.5111,
+      "w": 0.2323,
+      "h": 0.0558,
+      "words": [
+        "This",
+        "line",
+        "is",
+        "longer",
+        "than"
+      ],
+      "conf": 96.7728,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "quarter of an hour,",
+      "x": 0.5651,
+      "y": 0.518,
+      "w": 0.2843,
+      "h": 0.0218,
+      "words": [
+        "quarter",
+        "of",
+        "an",
+        "hour,"
+      ],
+      "conf": 91.4897,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "this line.",
+      "x": 0.3481,
+      "y": 0.586,
+      "w": 0.1217,
+      "h": 0.0186,
+      "words": [
+        "this",
+        "line."
+      ],
+      "conf": 96.8524,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "Thirty minutes make half an hour.",
+      "x": 0.5889,
+      "y": 0.6263,
+      "w": 0.2979,
+      "h": 0.042,
+      "words": [
+        "Thirty",
+        "minutes",
+        "make",
+        "half",
+        "an",
+        "hour."
+      ],
+      "conf": 96.6177,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "The time between three and four is shorter than the time between three and five.",
+      "x": 0.1557,
+      "y": 0.6518,
+      "w": 0.3507,
+      "h": 0.0902,
+      "words": [
+        "The",
+        "time",
+        "between",
+        "three",
+        "and",
+        "four",
+        "is",
+        "shorter",
+        "than",
+        "the",
+        "time",
+        "between",
+        "three",
+        "and",
+        "five."
+      ],
+      "conf": 96.5003,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "One hour is a shorter time than two hours.",
+      "x": 0.1591,
+      "y": 0.7686,
+      "w": 0.3149,
+      "h": 0.044,
+      "words": [
+        "One",
+        "hour",
+        "is",
+        "a",
+        "shorter",
+        "time",
+        "than",
+        "two",
+        "hours."
+      ],
+      "conf": 95.2969,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "Forty-five minutes make",
+      "x": 0.566,
+      "y": 0.7622,
+      "w": 0.3523,
+      "h": 0.0223,
+      "words": [
+        "Forty-five",
+        "minutes",
+        "make"
+      ],
+      "conf": 96.0037,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "of an hour.",
+      "x": 0.566,
+      "y": 0.7861,
+      "w": 0.2969,
+      "h": 0.0424,
+      "words": [
+        "of",
+        "an",
+        "hour."
+      ],
+      "conf": 96.4276,
+      "source": "psm-11"
+    }
+  ]
+}

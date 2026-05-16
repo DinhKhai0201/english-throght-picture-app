@@ -1,0 +1,145 @@
+{
+  "page": 74,
+  "image": "/books/page 74.png",
+  "imageApiPath": "/api/books/page%2074.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 6,
+    "wordCount": 35,
+    "imageWidth": 1288,
+    "imageHeight": 1855
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "“You put it on the table.",
+      "x": 0.528,
+      "y": 0.1364,
+      "w": 0.3401,
+      "h": 0.0243,
+      "words": [
+        "“You",
+        "put",
+        "it",
+        "on",
+        "the",
+        "table."
+      ],
+      "conf": 96.4465,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "“Where is your hat?”",
+      "x": 0.132,
+      "y": 0.1623,
+      "w": 0.2958,
+      "h": 0.0243,
+      "words": [
+        "“Where",
+        "is",
+        "your",
+        "hat?”"
+      ],
+      "conf": 95.8414,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "It was on the table.”",
+      "x": 0.5303,
+      "y": 0.1617,
+      "w": 0.2849,
+      "h": 0.0189,
+      "words": [
+        "It",
+        "was",
+        "on",
+        "the",
+        "table.”"
+      ],
+      "conf": 92.4261,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "“I took it. put it in the other room.”",
+      "x": 0.1328,
+      "y": 0.5412,
+      "w": 0.3168,
+      "h": 0.0459,
+      "words": [
+        "“I",
+        "took",
+        "it.",
+        "put",
+        "it",
+        "in",
+        "the",
+        "other",
+        "room.”"
+      ],
+      "conf": 89.7825,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "“It is on a hook there.",
+      "x": 0.538,
+      "y": 0.5278,
+      "w": 0.302,
+      "h": 0.0194,
+      "words": [
+        "“It",
+        "is",
+        "on",
+        "a",
+        "hook",
+        "there."
+      ],
+      "conf": 92.6229,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "You will see it there.”",
+      "x": 0.5388,
+      "y": 0.5536,
+      "w": 0.3005,
+      "h": 0.0189,
+      "words": [
+        "You",
+        "will",
+        "see",
+        "it",
+        "there.”"
+      ],
+      "conf": 96.4428,
+      "source": "psm-11"
+    }
+  ]
+}

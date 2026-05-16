@@ -1,0 +1,188 @@
+{
+  "page": 128,
+  "image": "/books/page 128.png",
+  "imageApiPath": "/api/books/page%20128.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 7,
+    "wordCount": 64,
+    "imageWidth": 1188,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "What is she doing?",
+      "x": 0.186,
+      "y": 0.3787,
+      "w": 0.2837,
+      "h": 0.0226,
+      "words": [
+        "What",
+        "is",
+        "she",
+        "doing?"
+      ],
+      "conf": 96.178,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "What is she putting into the bag? She is putting Mr. Smith's things into it.",
+      "x": 0.569,
+      "y": 0.3776,
+      "w": 0.3738,
+      "h": 0.0732,
+      "words": [
+        "What",
+        "is",
+        "she",
+        "putting",
+        "into",
+        "the",
+        "bag?",
+        "She",
+        "is",
+        "putting",
+        "Mr.",
+        "Smith's",
+        "things",
+        "into",
+        "it."
+      ],
+      "conf": 96.0563,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "She is putting things into the bag.",
+      "x": 0.186,
+      "y": 0.4045,
+      "w": 0.3106,
+      "h": 0.0474,
+      "words": [
+        "She",
+        "is",
+        "putting",
+        "things",
+        "into",
+        "the",
+        "bag."
+      ],
+      "conf": 96.2903,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Mr. Smith is going to California. Mr. and Mrs.",
+      "x": 0.1465,
+      "y": 0.5116,
+      "w": 0.3737,
+      "h": 0.044,
+      "words": [
+        "Mr.",
+        "Smith",
+        "is",
+        "going",
+        "to",
+        "California.",
+        "Mr.",
+        "and",
+        "Mrs."
+      ],
+      "conf": 96.5384,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Smith are in New York State.",
+      "x": 0.1473,
+      "y": 0.5621,
+      "w": 0.3485,
+      "h": 0.0442,
+      "words": [
+        "Smith",
+        "are",
+        "in",
+        "New",
+        "York",
+        "State."
+      ],
+      "conf": 96.1213,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "He will go by train. This is a train. From New York State to California is a long journey.",
+      "x": 0.5783,
+      "y": 0.7079,
+      "w": 0.3687,
+      "h": 0.1032,
+      "words": [
+        "He",
+        "will",
+        "go",
+        "by",
+        "train.",
+        "This",
+        "is",
+        "a",
+        "train.",
+        "From",
+        "New",
+        "York",
+        "State",
+        "to",
+        "California",
+        "is",
+        "a",
+        "long",
+        "journey."
+      ],
+      "conf": 96.5733,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "New York State California",
+      "x": 0.1835,
+      "y": 0.787,
+      "w": 0.2449,
+      "h": 0.0452,
+      "words": [
+        "New",
+        "York",
+        "State",
+        "California"
+      ],
+      "conf": 95.6669,
+      "source": "psm-11"
+    }
+  ]
+}

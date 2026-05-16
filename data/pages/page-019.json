@@ -1,0 +1,147 @@
+{
+  "page": 19,
+  "image": "/books/page 19.png",
+  "imageApiPath": "/api/books/page%2019.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 6,
+    "wordCount": 37,
+    "imageWidth": 1163,
+    "imageHeight": 1884
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "He is putting his hat on his head.",
+      "x": 0.5503,
+      "y": 0.1311,
+      "w": 0.3603,
+      "h": 0.0446,
+      "words": [
+        "He",
+        "is",
+        "putting",
+        "his",
+        "hat",
+        "on",
+        "his",
+        "head."
+      ],
+      "conf": 96.6041,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "He will put his hat on his head.",
+      "x": 0.0851,
+      "y": 0.1587,
+      "w": 0.3861,
+      "h": 0.0446,
+      "words": [
+        "He",
+        "will",
+        "put",
+        "his",
+        "hat",
+        "on",
+        "his",
+        "head."
+      ],
+      "conf": 96.3322,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "He put his hat on his head.",
+      "x": 0.1161,
+      "y": 0.5419,
+      "w": 0.319,
+      "h": 0.0435,
+      "words": [
+        "He",
+        "put",
+        "his",
+        "hat",
+        "on",
+        "his",
+        "head."
+      ],
+      "conf": 95.8843,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "It was on the table.",
+      "x": 0.589,
+      "y": 0.5419,
+      "w": 0.2992,
+      "h": 0.0186,
+      "words": [
+        "It",
+        "was",
+        "on",
+        "the",
+        "table."
+      ],
+      "conf": 91.7954,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "it is on his head.",
+      "x": 0.5899,
+      "y": 0.5663,
+      "w": 0.2519,
+      "h": 0.0186,
+      "words": [
+        "it",
+        "is",
+        "on",
+        "his",
+        "head."
+      ],
+      "conf": 91.0639,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "He put it on.",
+      "x": 0.1161,
+      "y": 0.5939,
+      "w": 0.1917,
+      "h": 0.0218,
+      "words": [
+        "He",
+        "put",
+        "it",
+        "on."
+      ],
+      "conf": 95.4202,
+      "source": "psm-11"
+    }
+  ]
+}

@@ -1,0 +1,378 @@
+{
+  "page": 428,
+  "image": "/books/page 428.png",
+  "imageApiPath": "/api/books/page%20428.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 15,
+    "wordCount": 112,
+    "imageWidth": 1146,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r5",
+        "r6"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r4",
+        "r7",
+        "r8",
+        "r9"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r14",
+        "r15"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r11",
+        "r12",
+        "r13"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Drawing can help to make ideas easier—the pictures",
+      "x": 0.0855,
+      "y": 0.0434,
+      "w": 0.8438,
+      "h": 0.023,
+      "words": [
+        "Drawing",
+        "can",
+        "help",
+        "to",
+        "make",
+        "ideas",
+        "easier—the",
+        "pictures"
+      ],
+      "conf": 95.5297,
+      "source": "psm-6"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "drawn in this book, for example.",
+      "x": 0.0864,
+      "y": 0.0696,
+      "w": 0.4764,
+      "h": 0.023,
+      "words": [
+        "drawn",
+        "in",
+        "this",
+        "book,",
+        "for",
+        "example."
+      ],
+      "conf": 96.2131,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "But the greatest drawing and painting and sculpture can make our highest powers come into play. The drawings",
+      "x": 0.0855,
+      "y": 0.1216,
+      "w": 0.8473,
+      "h": 0.0492,
+      "words": [
+        "But",
+        "the",
+        "greatest",
+        "drawing",
+        "and",
+        "painting",
+        "and",
+        "sculpture",
+        "can",
+        "make",
+        "our",
+        "highest",
+        "powers",
+        "come",
+        "into",
+        "play.",
+        "The",
+        "drawings"
+      ],
+      "conf": 96.6208,
+      "source": "psm-6"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "make our highest powers come into play. The drawings below are of two pieces of sculpture, one from India and",
+      "x": 0.0855,
+      "y": 0.1478,
+      "w": 0.8482,
+      "h": 0.0498,
+      "words": [
+        "make",
+        "our",
+        "highest",
+        "powers",
+        "come",
+        "into",
+        "play.",
+        "The",
+        "drawings",
+        "below",
+        "are",
+        "of",
+        "two",
+        "pieces",
+        "of",
+        "sculpture,",
+        "one",
+        "from",
+        "India",
+        "and"
+      ],
+      "conf": 96.4928,
+      "source": "psm-6"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "the other from Africa.",
+      "x": 0.0864,
+      "y": 0.2009,
+      "w": 0.3272,
+      "h": 0.0182,
+      "words": [
+        "the",
+        "other",
+        "from",
+        "Africa."
+      ],
+      "conf": 96.3143,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "vile,",
+      "x": 0.3185,
+      "y": 0.2769,
+      "w": 0.0384,
+      "h": 0.0129,
+      "words": [
+        "vile,"
+      ],
+      "conf": 66.9053,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Uf PSS",
+      "x": 0.6894,
+      "y": 0.4542,
+      "w": 0.2478,
+      "h": 0.0418,
+      "words": [
+        "Uf",
+        "PSS"
+      ],
+      "conf": 67.8227,
+      "source": "psm-6"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "SS",
+      "x": 0.863,
+      "y": 0.4681,
+      "w": 0.0201,
+      "h": 0.0134,
+      "words": [
+        "SS"
+      ],
+      "conf": 55.4124,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "SS",
+      "x": 0.8674,
+      "y": 0.4537,
+      "w": 0.0271,
+      "h": 0.015,
+      "words": [
+        "SS"
+      ],
+      "conf": 37.022,
+      "source": "psm-6"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "AF",
+      "x": 0.3691,
+      "y": 0.6058,
+      "w": 0.1265,
+      "h": 0.0305,
+      "words": [
+        "AF"
+      ],
+      "conf": 45.4834,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "sculpture: making beautiful things from stone, wood, metal or other",
+      "x": 0.0812,
+      "y": 0.8082,
+      "w": 0.8578,
+      "h": 0.0161,
+      "words": [
+        "sculpture:",
+        "making",
+        "beautiful",
+        "things",
+        "from",
+        "stone,",
+        "wood,",
+        "metal",
+        "or",
+        "other"
+      ],
+      "conf": 95.1079,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "sculpture: making beautiful things from stone, wood, metal or other For great drawings, see The Pocket Book of Great Drawings by",
+      "x": 0.0812,
+      "y": 0.8082,
+      "w": 0.8585,
+      "h": 0.0509,
+      "words": [
+        "sculpture:",
+        "making",
+        "beautiful",
+        "things",
+        "from",
+        "stone,",
+        "wood,",
+        "metal",
+        "or",
+        "other",
+        "For",
+        "great",
+        "drawings,",
+        "see",
+        "The",
+        "Pocket",
+        "Book",
+        "of",
+        "Great",
+        "Drawings",
+        "by"
+      ],
+      "conf": 93.8011,
+      "source": "psm-6"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "For great drawings, see The Pocket Book of Great Drawings by",
+      "x": 0.1387,
+      "y": 0.8436,
+      "w": 0.801,
+      "h": 0.0155,
+      "words": [
+        "For",
+        "great",
+        "drawings,",
+        "see",
+        "The",
+        "Pocket",
+        "Book",
+        "of",
+        "Great",
+        "Drawings",
+        "by"
+      ],
+      "conf": 96.1585,
+      "source": "psm-6"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "moterials; the works so made.",
+      "x": 0.1405,
+      "y": 0.827,
+      "w": 0.3421,
+      "h": 0.0129,
+      "words": [
+        "moterials;",
+        "the",
+        "works",
+        "so",
+        "made."
+      ],
+      "conf": 95.2568,
+      "source": "psm-6"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "Paul J. Sachs.",
+      "x": 0.1379,
+      "y": 0.8607,
+      "w": 0.1623,
+      "h": 0.0129,
+      "words": [
+        "Paul",
+        "J.",
+        "Sachs."
+      ],
+      "conf": 92.0835,
+      "source": "psm-11"
+    }
+  ]
+}

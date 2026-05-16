@@ -1,0 +1,328 @@
+{
+  "page": 269,
+  "image": "/books/page 269.png",
+  "imageApiPath": "/api/books/page%20269.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 12,
+    "wordCount": 104,
+    "imageWidth": 1196,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r4",
+        "r7"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r5",
+        "r6",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r11"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r12"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "She may or may notbe beautiful.",
+      "x": 0.1095,
+      "y": 0.1371,
+      "w": 0.3478,
+      "h": 0.0423,
+      "words": [
+        "She",
+        "may",
+        "or",
+        "may",
+        "notbe",
+        "beautiful."
+      ],
+      "conf": 91.0604,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Two and two are equal to four. That is certain.",
+      "x": 0.5167,
+      "y": 0.1435,
+      "w": 0.3755,
+      "h": 0.0712,
+      "words": [
+        "Two",
+        "and",
+        "two",
+        "are",
+        "equal",
+        "to",
+        "four.",
+        "That",
+        "is",
+        "certain."
+      ],
+      "conf": 95.546,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "But it is certain that she has on her lips.",
+      "x": 0.1104,
+      "y": 0.1864,
+      "w": 0.3503,
+      "h": 0.0498,
+      "words": [
+        "But",
+        "it",
+        "is",
+        "certain",
+        "that",
+        "she",
+        "has",
+        "on",
+        "her",
+        "lips."
+      ],
+      "conf": 95.3767,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "That is certain.",
+      "x": 0.1079,
+      "y": 0.2357,
+      "w": 0.2199,
+      "h": 0.0204,
+      "words": [
+        "That",
+        "is",
+        "certain."
+      ],
+      "conf": 95.7141,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "two are not equal to five.",
+      "x": 0.5201,
+      "y": 0.2871,
+      "w": 0.3737,
+      "h": 0.0541,
+      "words": [
+        "two",
+        "are",
+        "not",
+        "equal",
+        "to",
+        "five."
+      ],
+      "conf": 96.4031,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "That is certain.",
+      "x": 0.5192,
+      "y": 0.3385,
+      "w": 0.2224,
+      "h": 0.0204,
+      "words": [
+        "That",
+        "is",
+        "certain."
+      ],
+      "conf": 94.4285,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "It fs not certain that she is beautiful.",
+      "x": 0.0978,
+      "y": 0.376,
+      "w": 0.3721,
+      "h": 0.0428,
+      "words": [
+        "It",
+        "fs",
+        "not",
+        "certain",
+        "that",
+        "she",
+        "is",
+        "beautiful."
+      ],
+      "conf": 94.2073,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "It is certain that",
+      "x": 0.5828,
+      "y": 0.3899,
+      "w": 0.2383,
+      "h": 0.0198,
+      "words": [
+        "It",
+        "is",
+        "certain",
+        "that"
+      ],
+      "conf": 82.7835,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Things which are like one another may be equal or they may not.",
+      "x": 0.5242,
+      "y": 0.5313,
+      "w": 0.3436,
+      "h": 0.0755,
+      "words": [
+        "Things",
+        "which",
+        "are",
+        "like",
+        "one",
+        "another",
+        "may",
+        "be",
+        "equal",
+        "or",
+        "they",
+        "may",
+        "not."
+      ],
+      "conf": 95.3771,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "ais equal tob,and bis equal to c, and cis equal to So a is equal to d.",
+      "x": 0.0987,
+      "y": 0.6299,
+      "w": 0.3696,
+      "h": 0.0986,
+      "words": [
+        "ais",
+        "equal",
+        "tob,and",
+        "bis",
+        "equal",
+        "to",
+        "c,",
+        "and",
+        "cis",
+        "equal",
+        "to",
+        "So",
+        "a",
+        "is",
+        "equal",
+        "to",
+        "d."
+      ],
+      "conf": 64.949,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "Things which are equal to the same things are equal to one another.",
+      "x": 0.0987,
+      "y": 0.7295,
+      "w": 0.3512,
+      "h": 0.0745,
+      "words": [
+        "Things",
+        "which",
+        "are",
+        "equal",
+        "to",
+        "the",
+        "same",
+        "things",
+        "are",
+        "equal",
+        "to",
+        "one",
+        "another."
+      ],
+      "conf": 96.4688,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "These two are like one another but they are not equal.",
+      "x": 0.5159,
+      "y": 0.7252,
+      "w": 0.3721,
+      "h": 0.0745,
+      "words": [
+        "These",
+        "two",
+        "are",
+        "like",
+        "one",
+        "another",
+        "but",
+        "they",
+        "are",
+        "not",
+        "equal."
+      ],
+      "conf": 94.7284,
+      "source": "psm-11"
+    }
+  ]
+}

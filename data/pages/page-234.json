@@ -1,0 +1,263 @@
+{
+  "page": 234,
+  "image": "/books/page 234.png",
+  "imageApiPath": "/api/books/page%20234.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 10,
+    "wordCount": 67,
+    "imageWidth": 1180,
+    "imageHeight": 1875
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3",
+        "r4"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r5",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r9"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r10"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "This is his paint,",
+      "x": 0.6068,
+      "y": 0.128,
+      "w": 0.2398,
+      "h": 0.024,
+      "words": [
+        "This",
+        "is",
+        "his",
+        "paint,"
+      ],
+      "conf": 93.187,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is his brush",
+      "x": 0.5992,
+      "y": 0.2805,
+      "w": 0.2364,
+      "h": 0.0197,
+      "words": [
+        "This",
+        "is",
+        "his",
+        "brush"
+      ],
+      "conf": 96.5899,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "What is this man doing?",
+      "x": 0.122,
+      "y": 0.3163,
+      "w": 0.3678,
+      "h": 0.0235,
+      "words": [
+        "What",
+        "is",
+        "this",
+        "man",
+        "doing?"
+      ],
+      "conf": 96.5477,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "He is putting paint on the door. He is painting the door. He is a painter That is his work",
+      "x": 0.1237,
+      "y": 0.3419,
+      "w": 0.3763,
+      "h": 0.0944,
+      "words": [
+        "He",
+        "is",
+        "putting",
+        "paint",
+        "on",
+        "the",
+        "door.",
+        "He",
+        "is",
+        "painting",
+        "the",
+        "door.",
+        "He",
+        "is",
+        "a",
+        "painter",
+        "That",
+        "is",
+        "his",
+        "work"
+      ],
+      "conf": 96.1241,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "puts the paint on with his paint brush,",
+      "x": 0.5364,
+      "y": 0.3867,
+      "w": 0.3712,
+      "h": 0.049,
+      "words": [
+        "puts",
+        "the",
+        "paint",
+        "on",
+        "with",
+        "his",
+        "paint",
+        "brush,"
+      ],
+      "conf": 96.3089,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "OSS @gaaaae",
+      "x": 0.1966,
+      "y": 0.4779,
+      "w": 0.7347,
+      "h": 0.0133,
+      "words": [
+        "OSS",
+        "@gaaaae"
+      ],
+      "conf": 43.8672,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is a bank",
+      "x": 0.578,
+      "y": 0.5168,
+      "w": 0.2102,
+      "h": 0.0192,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "bank"
+      ],
+      "conf": 96.0911,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "qo This is addition,",
+      "x": 0.1915,
+      "y": 0.5685,
+      "w": 0.2441,
+      "h": 0.047,
+      "words": [
+        "qo",
+        "This",
+        "is",
+        "addition,"
+      ],
+      "conf": 86.5777,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "The boy is doing addition. That is his work.",
+      "x": 0.1619,
+      "y": 0.7963,
+      "w": 0.3059,
+      "h": 0.0699,
+      "words": [
+        "The",
+        "boy",
+        "is",
+        "doing",
+        "addition.",
+        "That",
+        "is",
+        "his",
+        "work."
+      ],
+      "conf": 96.7912,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "This is a check Bank of Mubdlrtown",
+      "x": 0.6831,
+      "y": 0.7824,
+      "w": 0.2322,
+      "h": 0.064,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "check",
+        "Bank",
+        "of",
+        "Mubdlrtown"
+      ],
+      "conf": 93.0687,
+      "source": "psm-11"
+    }
+  ]
+}

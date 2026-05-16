@@ -1,0 +1,134 @@
+{
+  "page": 92,
+  "image": "/books/page 92.png",
+  "imageApiPath": "/api/books/page%2092.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 4,
+    "wordCount": 52,
+    "imageWidth": 1288,
+    "imageHeight": 1859
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Mrs. Smith is taking a and fork off the She has them in her",
+      "x": 0.1398,
+      "y": 0.1022,
+      "w": 0.3058,
+      "h": 0.1178,
+      "words": [
+        "Mrs.",
+        "Smith",
+        "is",
+        "taking",
+        "a",
+        "and",
+        "fork",
+        "off",
+        "the",
+        "She",
+        "has",
+        "them",
+        "in",
+        "her"
+      ],
+      "conf": 92.2537,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "She is putting them on the table.",
+      "x": 0.5326,
+      "y": 0.1296,
+      "w": 0.3121,
+      "h": 0.0441,
+      "words": [
+        "She",
+        "is",
+        "putting",
+        "them",
+        "on",
+        "the",
+        "table."
+      ],
+      "conf": 96.4887,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Now she is putting the plates on the table",
+      "x": 0.1328,
+      "y": 0.5412,
+      "w": 0.3152,
+      "h": 0.05,
+      "words": [
+        "Now",
+        "she",
+        "is",
+        "putting",
+        "the",
+        "plates",
+        "on",
+        "the",
+        "table"
+      ],
+      "conf": 96.4655,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "She put the knives and forks and spoons and plates and glasses on the table She put these things on the table",
+      "x": 0.5264,
+      "y": 0.5288,
+      "w": 0.3253,
+      "h": 0.1463,
+      "words": [
+        "She",
+        "put",
+        "the",
+        "knives",
+        "and",
+        "forks",
+        "and",
+        "spoons",
+        "and",
+        "plates",
+        "and",
+        "glasses",
+        "on",
+        "the",
+        "table",
+        "She",
+        "put",
+        "these",
+        "things",
+        "on",
+        "the",
+        "table"
+      ],
+      "conf": 96.6507,
+      "source": "psm-11"
+    }
+  ]
+}

@@ -1,0 +1,395 @@
+{
+  "page": 60,
+  "image": "/books/page 60.png",
+  "imageApiPath": "/api/books/page%2060.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 15,
+    "wordCount": 129,
+    "imageWidth": 1271,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4",
+        "r7"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r5",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r10",
+        "r12",
+        "r14"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r11",
+        "r13",
+        "r15"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "Answers to questions on pages Page a The dog is in a room c¢ He is at the window.",
+      "x": 0.1338,
+      "y": 0.1907,
+      "w": 0.446,
+      "h": 0.1451,
+      "words": [
+        "Answers",
+        "to",
+        "questions",
+        "on",
+        "pages",
+        "Page",
+        "a",
+        "The",
+        "dog",
+        "is",
+        "in",
+        "a",
+        "room",
+        "c¢",
+        "He",
+        "is",
+        "at",
+        "the",
+        "window."
+      ],
+      "conf": 96.3585,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "He is at the door.",
+      "x": 0.6019,
+      "y": 0.2914,
+      "w": 0.2463,
+      "h": 0.019,
+      "words": [
+        "He",
+        "is",
+        "at",
+        "the",
+        "door."
+      ],
+      "conf": 94.4015,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "He is under the seat.",
+      "x": 0.6019,
+      "y": 0.3169,
+      "w": 0.2919,
+      "h": 0.0184,
+      "words": [
+        "He",
+        "is",
+        "under",
+        "the",
+        "seat."
+      ],
+      "conf": 96.2236,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "e He is under the table g He is between the table and the seat.",
+      "x": 0.133,
+      "y": 0.3424,
+      "w": 0.3399,
+      "h": 0.0704,
+      "words": [
+        "e",
+        "He",
+        "is",
+        "under",
+        "the",
+        "table",
+        "g",
+        "He",
+        "is",
+        "between",
+        "the",
+        "table",
+        "and",
+        "the",
+        "seat."
+      ],
+      "conf": 95.6369,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "He is on the table.",
+      "x": 0.6019,
+      "y": 0.3424,
+      "w": 0.2612,
+      "h": 0.019,
+      "words": [
+        "He",
+        "is",
+        "on",
+        "the",
+        "table."
+      ],
+      "conf": 95.806,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "He is on the seat.",
+      "x": 0.6019,
+      "y": 0.3689,
+      "w": 0.2431,
+      "h": 0.0184,
+      "words": [
+        "He",
+        "is",
+        "on",
+        "the",
+        "seat."
+      ],
+      "conf": 96.3811,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Page",
+      "x": 0.1361,
+      "y": 0.4458,
+      "w": 0.0708,
+      "h": 0.0217,
+      "words": [
+        "Page"
+      ],
+      "conf": 96.3151,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "o Isee a clock.",
+      "x": 0.1338,
+      "y": 0.4967,
+      "w": 0.2187,
+      "h": 0.0184,
+      "words": [
+        "o",
+        "Isee",
+        "a",
+        "clock."
+      ],
+      "conf": 54.7195,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "see a man's face.",
+      "x": 0.6208,
+      "y": 0.4973,
+      "w": 0.2447,
+      "h": 0.019,
+      "words": [
+        "see",
+        "a",
+        "man's",
+        "face."
+      ],
+      "conf": 85.1163,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "The time is four.",
+      "x": 0.1707,
+      "y": 0.5217,
+      "w": 0.2258,
+      "h": 0.0184,
+      "words": [
+        "The",
+        "time",
+        "is",
+        "four."
+      ],
+      "conf": 96.2204,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "see o baby. He is on his hands and knees.",
+      "x": 0.6019,
+      "y": 0.5228,
+      "w": 0.3108,
+      "h": 0.0444,
+      "words": [
+        "see",
+        "o",
+        "baby.",
+        "He",
+        "is",
+        "on",
+        "his",
+        "hands",
+        "and",
+        "knees."
+      ],
+      "conf": 93.123,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "a woman's face e Isee two books. One of them is open. The other is shut.",
+      "x": 0.1322,
+      "y": 0.5466,
+      "w": 0.3352,
+      "h": 0.0959,
+      "words": [
+        "a",
+        "woman's",
+        "face",
+        "e",
+        "Isee",
+        "two",
+        "books.",
+        "One",
+        "of",
+        "them",
+        "is",
+        "open.",
+        "The",
+        "other",
+        "is",
+        "shut."
+      ],
+      "conf": 89.6623,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "see two girls. One of them is giving a book to the other.",
+      "x": 0.6011,
+      "y": 0.5737,
+      "w": 0.2793,
+      "h": 0.0699,
+      "words": [
+        "see",
+        "two",
+        "girls.",
+        "One",
+        "of",
+        "them",
+        "is",
+        "giving",
+        "a",
+        "book",
+        "to",
+        "the",
+        "other."
+      ],
+      "conf": 89.3559,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "g two babies. One of them is on his hands and knees. The other is on his feet.",
+      "x": 0.133,
+      "y": 0.649,
+      "w": 0.3516,
+      "h": 0.097,
+      "words": [
+        "g",
+        "two",
+        "babies.",
+        "One",
+        "of",
+        "them",
+        "is",
+        "on",
+        "his",
+        "hands",
+        "and",
+        "knees.",
+        "The",
+        "other",
+        "is",
+        "on",
+        "his",
+        "feet."
+      ],
+      "conf": 95.2999,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "see a chest of drawers.",
+      "x": 0.6011,
+      "y": 0.6511,
+      "w": 0.2148,
+      "h": 0.0444,
+      "words": [
+        "see",
+        "a",
+        "chest",
+        "of",
+        "drawers."
+      ],
+      "conf": 94.7685,
+      "source": "psm-11"
+    }
+  ]
+}

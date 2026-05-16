@@ -1,0 +1,304 @@
+{
+  "page": 243,
+  "image": "/books/page 243.png",
+  "imageApiPath": "/api/books/page%20243.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 12,
+    "wordCount": 80,
+    "imageWidth": 1184,
+    "imageHeight": 1838
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r4",
+        "r6"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3",
+        "r5",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r11",
+        "r12"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "QUESTIONS",
+      "x": 0.3851,
+      "y": 0.1469,
+      "w": 0.1985,
+      "h": 0.0207,
+      "words": [
+        "QUESTIONS"
+      ],
+      "conf": 96.0681,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "a Is there more water in thesea than ina river?",
+      "x": 0.0912,
+      "y": 0.2661,
+      "w": 0.3784,
+      "h": 0.0679,
+      "words": [
+        "a",
+        "Is",
+        "there",
+        "more",
+        "water",
+        "in",
+        "thesea",
+        "than",
+        "ina",
+        "river?"
+      ],
+      "conf": 90.2126,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "b Give the names of three great discoveries.",
+      "x": 0.5524,
+      "y": 0.265,
+      "w": 0.3209,
+      "h": 0.0729,
+      "words": [
+        "b",
+        "Give",
+        "the",
+        "names",
+        "of",
+        "three",
+        "great",
+        "discoveries."
+      ],
+      "conf": 94.882,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "wool? What Is cotton? Where do we get silk from?’",
+      "x": 0.1326,
+      "y": 0.3678,
+      "w": 0.3378,
+      "h": 0.075,
+      "words": [
+        "wool?",
+        "What",
+        "Is",
+        "cotton?",
+        "Where",
+        "do",
+        "we",
+        "get",
+        "silk",
+        "from?’"
+      ],
+      "conf": 91.9497,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "d- Why is thick clothing warmer than thin clothing?",
+      "x": 0.5532,
+      "y": 0.3689,
+      "w": 0.359,
+      "h": 0.0756,
+      "words": [
+        "d-",
+        "Why",
+        "is",
+        "thick",
+        "clothing",
+        "warmer",
+        "than",
+        "thin",
+        "clothing?"
+      ],
+      "conf": 91.8951,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "e What is the chief work",
+      "x": 0.0946,
+      "y": 0.4701,
+      "w": 0.3758,
+      "h": 0.0212,
+      "words": [
+        "e",
+        "What",
+        "is",
+        "the",
+        "chief",
+        "work"
+      ],
+      "conf": 79.4094,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "What sorts of",
+      "x": 0.5954,
+      "y": 0.4701,
+      "w": 0.2095,
+      "h": 0.0267,
+      "words": [
+        "What",
+        "sorts",
+        "of"
+      ],
+      "conf": 96.0798,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "of the eyes, fhe ears, the mouth, and the fingers?",
+      "x": 0.1326,
+      "y": 0.4956,
+      "w": 0.3175,
+      "h": 0.0751,
+      "words": [
+        "of",
+        "the",
+        "eyes,",
+        "fhe",
+        "ears,",
+        "the",
+        "mouth,",
+        "and",
+        "the",
+        "fingers?"
+      ],
+      "conf": 95.0719,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "ranspor goon",
+      "x": 0.5938,
+      "y": 0.4973,
+      "w": 0.2542,
+      "h": 0.0473,
+      "words": [
+        "ranspor",
+        "goon"
+      ],
+      "conf": 69.4556,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "g Where does smoke come from? Where does steam come from?",
+      "x": 0.0946,
+      "y": 0.5974,
+      "w": 0.3353,
+      "h": 0.0957,
+      "words": [
+        "g",
+        "Where",
+        "does",
+        "smoke",
+        "come",
+        "from?",
+        "Where",
+        "does",
+        "steam",
+        "come",
+        "from?"
+      ],
+      "conf": 94.6212,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "h Where do we get wood from?",
+      "x": 0.5566,
+      "y": 0.5979,
+      "w": 0.3117,
+      "h": 0.0512,
+      "words": [
+        "h",
+        "Where",
+        "do",
+        "we",
+        "get",
+        "wood",
+        "from?"
+      ],
+      "conf": 95.7085,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "are on page",
+      "x": 0.4358,
+      "y": 0.7448,
+      "w": 0.1943,
+      "h": 0.018,
+      "words": [
+        "are",
+        "on",
+        "page"
+      ],
+      "conf": 96.6222,
+      "source": "psm-11"
+    }
+  ]
+}

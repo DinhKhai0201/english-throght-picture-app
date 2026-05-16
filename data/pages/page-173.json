@@ -1,0 +1,213 @@
+{
+  "page": 173,
+  "image": "/books/page 173.png",
+  "imageApiPath": "/api/books/page%20173.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 7,
+    "wordCount": 89,
+    "imageWidth": 1275,
+    "imageHeight": 1871
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "The girl will put the end of the thread through the needle..",
+      "x": 0.149,
+      "y": 0.148,
+      "w": 0.3404,
+      "h": 0.0696,
+      "words": [
+        "The",
+        "girl",
+        "will",
+        "put",
+        "the",
+        "end",
+        "of",
+        "the",
+        "thread",
+        "through",
+        "the",
+        "needle.."
+      ],
+      "conf": 96.5144,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is the end of the",
+      "x": 0.5451,
+      "y": 0.1742,
+      "w": 0.2957,
+      "h": 0.0192,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "end",
+        "of",
+        "the"
+      ],
+      "conf": 95.746,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This is the hole in the needle.",
+      "x": 0.5451,
+      "y": 0.2982,
+      "w": 0.298,
+      "h": 0.0444,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "hole",
+        "in",
+        "the",
+        "needle."
+      ],
+      "conf": 96.2807,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "She has the needle in the fingers of one hand and the thread in the fingers of the other hand.",
+      "x": 0.1482,
+      "y": 0.3634,
+      "w": 0.3506,
+      "h": 0.0952,
+      "words": [
+        "She",
+        "has",
+        "the",
+        "needle",
+        "in",
+        "the",
+        "fingers",
+        "of",
+        "one",
+        "hand",
+        "and",
+        "the",
+        "thread",
+        "in",
+        "the",
+        "fingers",
+        "of",
+        "the",
+        "other",
+        "hand."
+      ],
+      "conf": 95.2941,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "It is the eye of the needie.",
+      "x": 0.5482,
+      "y": 0.4164,
+      "w": 0.2643,
+      "h": 0.0443,
+      "words": [
+        "It",
+        "is",
+        "the",
+        "eye",
+        "of",
+        "the",
+        "needie."
+      ],
+      "conf": 95.404,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The end of the thread is not going straight. It is not going through the hole in the needle.",
+      "x": 0.1459,
+      "y": 0.5852,
+      "w": 0.3498,
+      "h": 0.0957,
+      "words": [
+        "The",
+        "end",
+        "of",
+        "the",
+        "thread",
+        "is",
+        "not",
+        "going",
+        "straight.",
+        "It",
+        "is",
+        "not",
+        "going",
+        "through",
+        "the",
+        "hole",
+        "in",
+        "the",
+        "needle."
+      ],
+      "conf": 96.5703,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "The thread did not go through the needle. It is not through the hole in the needle now.",
+      "x": 0.5545,
+      "y": 0.7536,
+      "w": 0.3404,
+      "h": 0.0951,
+      "words": [
+        "The",
+        "thread",
+        "did",
+        "not",
+        "go",
+        "through",
+        "the",
+        "needle.",
+        "It",
+        "is",
+        "not",
+        "through",
+        "the",
+        "hole",
+        "in",
+        "the",
+        "needle",
+        "now."
+      ],
+      "conf": 96.4906,
+      "source": "psm-11"
+    }
+  ]
+}

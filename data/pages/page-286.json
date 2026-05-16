@@ -1,0 +1,42 @@
+{
+  "page": 286,
+  "image": "/books/page 286.png",
+  "imageApiPath": "/api/books/page%20286.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 1,
+    "wordCount": 2,
+    "imageWidth": 1180,
+    "imageHeight": 1855
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": [
+        "r1"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "KHHTA BOOK",
+      "x": 0.4161,
+      "y": 0.2809,
+      "w": 0.2144,
+      "h": 0.0786,
+      "words": [
+        "KHHTA",
+        "BOOK"
+      ],
+      "conf": 57.1754,
+      "source": "psm-11"
+    }
+  ]
+}

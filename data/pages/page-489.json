@@ -1,0 +1,579 @@
+{
+  "page": 489,
+  "image": "/books/page 489.png",
+  "imageApiPath": "/api/books/page%20489.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 24,
+    "wordCount": 187,
+    "imageWidth": 1221,
+    "imageHeight": 1867
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r8",
+        "r10",
+        "r11",
+        "r12"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r9"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r19",
+        "r20",
+        "r21",
+        "r22"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r13",
+        "r14",
+        "r15",
+        "r16",
+        "r17",
+        "r18",
+        "r23",
+        "r24"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "How do men come by their ideas about what is better",
+      "x": 0.5012,
+      "y": 0.0354,
+      "w": 0.4046,
+      "h": 0.0433,
+      "words": [
+        "How",
+        "do",
+        "men",
+        "come",
+        "by",
+        "their",
+        "ideas",
+        "about",
+        "what",
+        "is",
+        "better"
+      ],
+      "conf": 95.9366,
+      "source": "psm-6"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "ideas about what is better and what is worse, about",
+      "x": 0.5012,
+      "y": 0.0616,
+      "w": 0.4046,
+      "h": 0.045,
+      "words": [
+        "ideas",
+        "about",
+        "what",
+        "is",
+        "better",
+        "and",
+        "what",
+        "is",
+        "worse,",
+        "about"
+      ],
+      "conf": 95.8336,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "and what is worse, about what things are important in",
+      "x": 0.5012,
+      "y": 0.0873,
+      "w": 0.4046,
+      "h": 0.0477,
+      "words": [
+        "and",
+        "what",
+        "is",
+        "worse,",
+        "about",
+        "what",
+        "things",
+        "are",
+        "important",
+        "in"
+      ],
+      "conf": 96.3617,
+      "source": "psm-6"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "what things are important in life, what unimportant? How",
+      "x": 0.502,
+      "y": 0.113,
+      "w": 0.4054,
+      "h": 0.0482,
+      "words": [
+        "what",
+        "things",
+        "are",
+        "important",
+        "in",
+        "life,",
+        "what",
+        "unimportant?",
+        "How"
+      ],
+      "conf": 96.3122,
+      "source": "psm-6"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "life, what unimportant? How do they judge between",
+      "x": 0.502,
+      "y": 0.1398,
+      "w": 0.4054,
+      "h": 0.0567,
+      "words": [
+        "life,",
+        "what",
+        "unimportant?",
+        "How",
+        "do",
+        "they",
+        "judge",
+        "between"
+      ],
+      "conf": 96.0902,
+      "source": "psm-6"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "do they judge between things?",
+      "x": 0.502,
+      "y": 0.166,
+      "w": 0.4054,
+      "h": 0.0477,
+      "words": [
+        "do",
+        "they",
+        "judge",
+        "between",
+        "things?"
+      ],
+      "conf": 96.3486,
+      "source": "psm-6"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Man has grown to what he is",
+      "x": 0.1007,
+      "y": 0.2973,
+      "w": 0.4046,
+      "h": 0.0209,
+      "words": [
+        "Man",
+        "has",
+        "grown",
+        "to",
+        "what",
+        "he",
+        "is"
+      ],
+      "conf": 96.0725,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Man has grown to what he is out of the past. He has come a very long way through",
+      "x": 0.1007,
+      "y": 0.2973,
+      "w": 0.4063,
+      "h": 0.0733,
+      "words": [
+        "Man",
+        "has",
+        "grown",
+        "to",
+        "what",
+        "he",
+        "is",
+        "out",
+        "of",
+        "the",
+        "past.",
+        "He",
+        "has",
+        "come",
+        "a",
+        "very",
+        "long",
+        "way",
+        "through"
+      ],
+      "conf": 96.4777,
+      "source": "psm-6"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "out of the past. He has come iD",
+      "x": 0.1024,
+      "y": 0.3155,
+      "w": 0.7952,
+      "h": 0.0327,
+      "words": [
+        "out",
+        "of",
+        "the",
+        "past.",
+        "He",
+        "has",
+        "come",
+        "iD"
+      ],
+      "conf": 92.7015,
+      "source": "psm-6"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "a very long way through change and growth from the",
+      "x": 0.1024,
+      "y": 0.3492,
+      "w": 0.4046,
+      "h": 0.0471,
+      "words": [
+        "a",
+        "very",
+        "long",
+        "way",
+        "through",
+        "change",
+        "and",
+        "growth",
+        "from",
+        "the"
+      ],
+      "conf": 96.1587,
+      "source": "psm-6"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "change and growth from the first living cells.",
+      "x": 0.1024,
+      "y": 0.3749,
+      "w": 0.4046,
+      "h": 0.0477,
+      "words": [
+        "change",
+        "and",
+        "growth",
+        "from",
+        "the",
+        "first",
+        "living",
+        "cells."
+      ],
+      "conf": 96.3823,
+      "source": "psm-6"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "first living cells.",
+      "x": 0.1024,
+      "y": 0.4017,
+      "w": 0.2179,
+      "h": 0.0209,
+      "words": [
+        "first",
+        "living",
+        "cells."
+      ],
+      "conf": 95.4818,
+      "source": "psm-6"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "All living things, however simple, A ia control themselves to some degree.",
+      "x": 0.1556,
+      "y": 0.5067,
+      "w": 0.7576,
+      "h": 0.0508,
+      "words": [
+        "All",
+        "living",
+        "things,",
+        "however",
+        "simple,",
+        "A",
+        "ia",
+        "control",
+        "themselves",
+        "to",
+        "some",
+        "degree."
+      ],
+      "conf": 96.7356,
+      "source": "psm-6"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "All living things, however simple,",
+      "x": 0.43,
+      "y": 0.5067,
+      "w": 0.4832,
+      "h": 0.0225,
+      "words": [
+        "All",
+        "living",
+        "things,",
+        "however",
+        "simple,"
+      ],
+      "conf": 96.7356,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "control themselves to some degree.",
+      "x": 0.4283,
+      "y": 0.5329,
+      "w": 0.484,
+      "h": 0.0214,
+      "words": [
+        "control",
+        "themselves",
+        "to",
+        "some",
+        "degree."
+      ],
+      "conf": 95.3992,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "Many cannot be said to have ideas",
+      "x": 0.4275,
+      "y": 0.5587,
+      "w": 0.4848,
+      "h": 0.0214,
+      "words": [
+        "Many",
+        "cannot",
+        "be",
+        "said",
+        "to",
+        "have",
+        "ideas"
+      ],
+      "conf": 96.6021,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "Many cannot be said to have ideas but they have direction. Within",
+      "x": 0.4275,
+      "y": 0.5587,
+      "w": 0.4857,
+      "h": 0.0482,
+      "words": [
+        "Many",
+        "cannot",
+        "be",
+        "said",
+        "to",
+        "have",
+        "ideas",
+        "but",
+        "they",
+        "have",
+        "direction.",
+        "Within"
+      ],
+      "conf": 96.4929,
+      "source": "psm-6"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "but they have direction. Within limits they have self-control.",
+      "x": 0.4292,
+      "y": 0.5849,
+      "w": 0.484,
+      "h": 0.0476,
+      "words": [
+        "but",
+        "they",
+        "have",
+        "direction.",
+        "Within",
+        "limits",
+        "they",
+        "have",
+        "self-control."
+      ],
+      "conf": 90.6388,
+      "source": "psm-6"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "J limits they have self-control.",
+      "x": 0.1409,
+      "y": 0.6079,
+      "w": 0.7011,
+      "h": 0.0246,
+      "words": [
+        "J",
+        "limits",
+        "they",
+        "have",
+        "self-control."
+      ],
+      "conf": 90.7425,
+      "source": "psm-6"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "come by: get, in the sense of develop.",
+      "x": 0.1007,
+      "y": 0.8024,
+      "w": 0.4234,
+      "h": 0.015,
+      "words": [
+        "come",
+        "by:",
+        "get,",
+        "in",
+        "the",
+        "sense",
+        "of",
+        "develop."
+      ],
+      "conf": 96.0075,
+      "source": "psm-11"
+    },
+    {
+      "id": "r21",
+      "order": 20,
+      "text": "judge: come to a clear idea of what is best.",
+      "x": 0.1016,
+      "y": 0.8195,
+      "w": 0.4758,
+      "h": 0.0155,
+      "words": [
+        "judge:",
+        "come",
+        "to",
+        "a",
+        "clear",
+        "idea",
+        "of",
+        "what",
+        "is",
+        "best."
+      ],
+      "conf": 90.5585,
+      "source": "psm-11"
+    },
+    {
+      "id": "r22",
+      "order": 21,
+      "text": "will judge",
+      "x": 0.1007,
+      "y": 0.8495,
+      "w": 0.122,
+      "h": 0.0155,
+      "words": [
+        "will",
+        "judge"
+      ],
+      "conf": 66.4328,
+      "source": "psm-11"
+    },
+    {
+      "id": "r23",
+      "order": 22,
+      "text": "will ledge(s) judged",
+      "x": 0.1007,
+      "y": 0.8415,
+      "w": 0.8051,
+      "h": 0.03,
+      "words": [
+        "will",
+        "ledge(s)",
+        "judged"
+      ],
+      "conf": 74.4789,
+      "source": "psm-6"
+    },
+    {
+      "id": "r24",
+      "order": 23,
+      "text": "judged",
+      "x": 0.8223,
+      "y": 0.849,
+      "w": 0.0835,
+      "h": 0.0161,
+      "words": [
+        "judged"
+      ],
+      "conf": 86.2012,
+      "source": "psm-11"
+    }
+  ]
+}

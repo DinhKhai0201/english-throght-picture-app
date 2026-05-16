@@ -1,0 +1,408 @@
+{
+  "page": 41,
+  "image": "/books/page 41.png",
+  "imageApiPath": "/api/books/page%2041.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 17,
+    "wordCount": 114,
+    "imageWidth": 1225,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r7",
+        "r9"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r5",
+        "r6",
+        "r8",
+        "r10",
+        "r11"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r12",
+        "r15",
+        "r16"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r13",
+        "r14",
+        "r17"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "What are things?",
+      "x": 0.1437,
+      "y": 0.0753,
+      "w": 0.258,
+      "h": 0.0238,
+      "words": [
+        "What",
+        "are",
+        "things?"
+      ],
+      "conf": 95.9735,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is a man.",
+      "x": 0.6449,
+      "y": 0.0883,
+      "w": 0.1976,
+      "h": 0.02,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "man."
+      ],
+      "conf": 95.699,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "A house is a thing Houses are things A hat is a thing. Hats are things.",
+      "x": 0.1331,
+      "y": 0.1761,
+      "w": 0.3167,
+      "h": 0.1359,
+      "words": [
+        "A",
+        "house",
+        "is",
+        "a",
+        "thing",
+        "Houses",
+        "are",
+        "things",
+        "A",
+        "hat",
+        "is",
+        "a",
+        "thing.",
+        "Hats",
+        "are",
+        "things."
+      ],
+      "conf": 95.8918,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "This is a woman.",
+      "x": 0.6122,
+      "y": 0.1728,
+      "w": 0.2424,
+      "h": 0.019,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "woman."
+      ],
+      "conf": 95.7151,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "This is a boy This is a girl.",
+      "x": 0.6229,
+      "y": 0.2378,
+      "w": 0.2147,
+      "h": 0.0775,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "boy",
+        "This",
+        "is",
+        "a",
+        "girl."
+      ],
+      "conf": 96.6845,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Men and women and boys and girls are not",
+      "x": 0.6065,
+      "y": 0.3348,
+      "w": 0.3249,
+      "h": 0.0488,
+      "words": [
+        "Men",
+        "and",
+        "women",
+        "and",
+        "boys",
+        "and",
+        "girls",
+        "are",
+        "not"
+      ],
+      "conf": 96.3329,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Doors and windows are things.",
+      "x": 0.1273,
+      "y": 0.3651,
+      "w": 0.3568,
+      "h": 0.0477,
+      "words": [
+        "Doors",
+        "and",
+        "windows",
+        "are",
+        "things."
+      ],
+      "conf": 95.2901,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "things. They are",
+      "x": 0.6963,
+      "y": 0.3852,
+      "w": 0.2351,
+      "h": 0.0238,
+      "words": [
+        "things.",
+        "They",
+        "are"
+      ],
+      "conf": 96.0964,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Tables and seats are things There are two persons",
+      "x": 0.1282,
+      "y": 0.4155,
+      "w": 0.3461,
+      "h": 0.0921,
+      "words": [
+        "Tables",
+        "and",
+        "seats",
+        "are",
+        "things",
+        "There",
+        "are",
+        "two",
+        "persons"
+      ],
+      "conf": 96.6016,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "persons.",
+      "x": 0.8122,
+      "y": 0.4171,
+      "w": 0.1094,
+      "h": 0.0173,
+      "words": [
+        "persons."
+      ],
+      "conf": 77.0352,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "You are a person",
+      "x": 0.5698,
+      "y": 0.4382,
+      "w": 0.2539,
+      "h": 0.0217,
+      "words": [
+        "You",
+        "are",
+        "a",
+        "person"
+      ],
+      "conf": 95.312,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "in this room They are a boy and a girl.",
+      "x": 0.1412,
+      "y": 0.5087,
+      "w": 0.3233,
+      "h": 0.0731,
+      "words": [
+        "in",
+        "this",
+        "room",
+        "They",
+        "are",
+        "a",
+        "boy",
+        "and",
+        "a",
+        "girl."
+      ],
+      "conf": 96.6581,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "The girl will go to the window.",
+      "x": 0.5592,
+      "y": 0.5255,
+      "w": 0.3167,
+      "h": 0.0444,
+      "words": [
+        "The",
+        "girl",
+        "will",
+        "go",
+        "to",
+        "the",
+        "window."
+      ],
+      "conf": 96.7201,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "She will be with the the boy B3y at the window.",
+      "x": 0.5894,
+      "y": 0.7784,
+      "w": 0.3559,
+      "h": 0.07,
+      "words": [
+        "She",
+        "will",
+        "be",
+        "with",
+        "the",
+        "the",
+        "boy",
+        "B3y",
+        "at",
+        "the",
+        "window."
+      ],
+      "conf": 92.1611,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "The girl is at the door.",
+      "x": 0.142,
+      "y": 0.8126,
+      "w": 0.3306,
+      "h": 0.0228,
+      "words": [
+        "The",
+        "girl",
+        "is",
+        "at",
+        "the",
+        "door."
+      ],
+      "conf": 95.7769,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "The boy is at the window.",
+      "x": 0.142,
+      "y": 0.838,
+      "w": 0.2482,
+      "h": 0.0439,
+      "words": [
+        "The",
+        "boy",
+        "is",
+        "at",
+        "the",
+        "window."
+      ],
+      "conf": 96.5085,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "She will be with him at the window.",
+      "x": 0.5886,
+      "y": 0.8543,
+      "w": 0.3355,
+      "h": 0.0438,
+      "words": [
+        "She",
+        "will",
+        "be",
+        "with",
+        "him",
+        "at",
+        "the",
+        "window."
+      ],
+      "conf": 96.326,
+      "source": "psm-11"
+    }
+  ]
+}

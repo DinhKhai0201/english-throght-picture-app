@@ -1,0 +1,24 @@
+{
+  "page": 6,
+  "image": "/books/page 6.png",
+  "imageApiPath": "/api/books/page%206.png",
+  "layout": "single",
+  "stats": {
+    "regionCount": 0,
+    "wordCount": 0,
+    "imageWidth": 1221,
+    "imageHeight": 1884
+  },
+  "panels": [
+    {
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
+      "regionIds": []
+    }
+  ],
+  "regions": []
+}

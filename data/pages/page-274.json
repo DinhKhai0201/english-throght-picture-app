@@ -1,0 +1,391 @@
+{
+  "page": 274,
+  "image": "/books/page 274.png",
+  "imageApiPath": "/api/books/page%20274.png",
+  "layout": "quad",
+  "stats": {
+    "regionCount": 16,
+    "wordCount": 111,
+    "imageWidth": 1213,
+    "imageHeight": 1846
+  },
+  "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r6",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r10",
+        "r13",
+        "r15"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r11",
+        "r12",
+        "r14",
+        "r16"
+      ]
+    }
+  ],
+  "regions": [
+    {
+      "id": "r1",
+      "order": 0,
+      "text": "We get knowledge by putting questions.",
+      "x": 0.1261,
+      "y": 0.1473,
+      "w": 0.3372,
+      "h": 0.0488,
+      "words": [
+        "We",
+        "get",
+        "knowledge",
+        "by",
+        "putting",
+        "questions."
+      ],
+      "conf": 96.496,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "When the answers are right, they give us knowledge.",
+      "x": 0.5556,
+      "y": 0.149,
+      "w": 0.3347,
+      "h": 0.0747,
+      "words": [
+        "When",
+        "the",
+        "answers",
+        "are",
+        "right,",
+        "they",
+        "give",
+        "us",
+        "knowledge."
+      ],
+      "conf": 96.4179,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "That is one way of getting knowledge.",
+      "x": 0.1253,
+      "y": 0.1988,
+      "w": 0.2902,
+      "h": 0.0493,
+      "words": [
+        "That",
+        "is",
+        "one",
+        "way",
+        "of",
+        "getting",
+        "knowledge."
+      ],
+      "conf": 96.6417,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "When they are wrong they do not give us knowledge.",
+      "x": 0.5556,
+      "y": 0.2259,
+      "w": 0.3265,
+      "h": 0.0748,
+      "words": [
+        "When",
+        "they",
+        "are",
+        "wrong",
+        "they",
+        "do",
+        "not",
+        "give",
+        "us",
+        "knowledge."
+      ],
+      "conf": 96.3645,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "The answers may give us knowledge or they may not.",
+      "x": 0.1237,
+      "y": 0.2497,
+      "w": 0.3718,
+      "h": 0.0693,
+      "words": [
+        "The",
+        "answers",
+        "may",
+        "give",
+        "us",
+        "knowledge",
+        "or",
+        "they",
+        "may",
+        "not."
+      ],
+      "conf": 96.6647,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Right Wrong",
+      "x": 0.7568,
+      "y": 0.2979,
+      "w": 0.1031,
+      "h": 0.0532,
+      "words": [
+        "Right",
+        "Wrong"
+      ],
+      "conf": 96.8872,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "eee Gene eaeeee",
+      "x": 0.2622,
+      "y": 0.4827,
+      "w": 0.6653,
+      "h": 0.0184,
+      "words": [
+        "eee",
+        "Gene",
+        "eaeeee"
+      ],
+      "conf": 50.6759,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Which is his right hand?",
+      "x": 0.5392,
+      "y": 0.5076,
+      "w": 0.3669,
+      "h": 0.0244,
+      "words": [
+        "Which",
+        "is",
+        "his",
+        "right",
+        "hand?"
+      ],
+      "conf": 96.1863,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "How the sun from the earth?",
+      "x": 0.1336,
+      "y": 0.5813,
+      "w": 0.3421,
+      "h": 0.0449,
+      "words": [
+        "How",
+        "the",
+        "sun",
+        "from",
+        "the",
+        "earth?"
+      ],
+      "conf": 95.7494,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Which is the right answer: “It is two miles away.”",
+      "x": 0.1336,
+      "y": 0.6316,
+      "w": 0.3314,
+      "h": 0.077,
+      "words": [
+        "Which",
+        "is",
+        "the",
+        "right",
+        "answer:",
+        "“It",
+        "is",
+        "two",
+        "miles",
+        "away.”"
+      ],
+      "conf": 96.9295,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "Which is his left hand?",
+      "x": 0.5556,
+      "y": 0.63,
+      "w": 0.3446,
+      "h": 0.02,
+      "words": [
+        "Which",
+        "is",
+        "his",
+        "left",
+        "hand?"
+      ],
+      "conf": 96.3604,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "He is facing you.",
+      "x": 0.5573,
+      "y": 0.6555,
+      "w": 0.2481,
+      "h": 0.0244,
+      "words": [
+        "He",
+        "is",
+        "facing",
+        "you."
+      ],
+      "conf": 96.1665,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "or “It is much more than two miles away”?",
+      "x": 0.1344,
+      "y": 0.7091,
+      "w": 0.3594,
+      "h": 0.0504,
+      "words": [
+        "or",
+        "“It",
+        "is",
+        "much",
+        "more",
+        "than",
+        "two",
+        "miles",
+        "away”?"
+      ],
+      "conf": 95.7448,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "Nowhe has his back to you.",
+      "x": 0.5523,
+      "y": 0.6956,
+      "w": 0.3397,
+      "h": 0.0508,
+      "words": [
+        "Nowhe",
+        "has",
+        "his",
+        "back",
+        "to",
+        "you."
+      ],
+      "conf": 90.5923,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "Which is the wrong answer to the question?",
+      "x": 0.1344,
+      "y": 0.7584,
+      "w": 0.3602,
+      "h": 0.0607,
+      "words": [
+        "Which",
+        "is",
+        "the",
+        "wrong",
+        "answer",
+        "to",
+        "the",
+        "question?"
+      ],
+      "conf": 93.6862,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "Which is his left hand now, and which is his right?",
+      "x": 0.5688,
+      "y": 0.8277,
+      "w": 0.3182,
+      "h": 0.0738,
+      "words": [
+        "Which",
+        "is",
+        "his",
+        "left",
+        "hand",
+        "now,",
+        "and",
+        "which",
+        "is",
+        "his",
+        "right?"
+      ],
+      "conf": 96.4572,
+      "source": "psm-11"
+    }
+  ]
+}
