@@ -51,14 +51,14 @@
     {
       "id": "r2",
       "order": 1,
-      "text": "He ts giving his hat to the man.",
+      "text": "He is giving his hat to the man.",
       "x": 0.553,
       "y": 0.1616,
       "w": 0.3309,
       "h": 0.0437,
       "words": [
         "He",
-        "ts",
+        "is",
         "giving",
         "his",
         "hat",
