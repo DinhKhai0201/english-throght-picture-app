@@ -43,8 +43,9 @@ self.addEventListener("fetch", (event) => {
   if (
     url.pathname.startsWith("/api/books/") ||
     url.pathname.startsWith("/_next/image") ||
-    url.pathname === "/icon" ||
-    url.pathname === "/apple-icon"
+    url.pathname === "/icon-192.png" ||
+    url.pathname === "/icon-512.png" ||
+    url.pathname === "/apple-touch-icon.png"
   ) {
     event.respondWith(cacheFirst(request, IMAGE_CACHE));
   }
