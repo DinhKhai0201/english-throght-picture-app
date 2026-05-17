@@ -55,6 +55,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const scrollSyncRafRef = useRef(null);
   const scrubberMoveRafRef = useRef(null);
   const pendingScrubberPageRef = useRef(null);
+  const scrubberGestureRef = useRef({ moved: false, startY: 0 });
   const lastHistoryUpdateRef = useRef(0);
   const currentPageNumberRef = useRef(initialPageNumber);
 
@@ -618,6 +619,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   function handleScrubberPointerDown(event) {
     const rail = event.currentTarget;
     event.preventDefault();
+    scrubberGestureRef.current = { moved: false, startY: event.clientY };
     setIsScrubbing(true);
     setShowScrollAnchor(true);
     if (hideScrollAnchorTimerRef.current) {
@@ -626,6 +628,9 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
     updateScrubberFromClientY(event.clientY, rail);
 
     const handleMove = (moveEvent) => {
+      if (Math.abs(moveEvent.clientY - scrubberGestureRef.current.startY) > 8) {
+        scrubberGestureRef.current.moved = true;
+      }
       updateScrubberFromClientY(moveEvent.clientY, rail);
     };
 
@@ -637,6 +642,10 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
       hideScrollAnchorTimerRef.current = setTimeout(() => {
         setShowScrollAnchor(false);
       }, 2000);
+      if (!scrubberGestureRef.current.moved) {
+        setPagePickerOpen(true);
+        setShowScrollAnchor(true);
+      }
       window.removeEventListener("pointermove", handleMove);
       window.removeEventListener("pointerup", handleUp);
     };
@@ -781,10 +790,9 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
               className="page-scrubber-thumb"
               style={{ "--scrubber-top": `${scrubberProgress * 100}%` }}
               aria-label={`Current page ${scrubberDisplayPage}`}
-              onClick={(event) => {
+              onPointerDown={(event) => {
                 event.stopPropagation();
-                setPagePickerOpen(true);
-                setShowScrollAnchor(true);
+                handleScrubberPointerDown(event);
               }}
             >
               <span>{scrubberDisplayPage}</span>

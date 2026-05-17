@@ -19,9 +19,6 @@ export const metadata = {
     "apple-touch-fullscreen": "yes",
     "apple-mobile-web-app-status-bar-style": "black-translucent",
   },
-  icons: {
-    apple: "/apple-icon",
-  },
 };
 
 export const viewport = {

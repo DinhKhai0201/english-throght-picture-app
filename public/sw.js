@@ -1,4 +1,4 @@
-const CACHE_VERSION = "etp-v2";
+const CACHE_VERSION = "etp-v3";
 const SHELL_CACHE = `${CACHE_VERSION}-shell`;
 const DATA_CACHE = `${CACHE_VERSION}-data`;
 const IMAGE_CACHE = `${CACHE_VERSION}-images`;
