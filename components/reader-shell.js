@@ -36,10 +36,10 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const [voices, setVoices] = useState([]);
   const [voiceUri, setVoiceUri] = useState("");
   const [pronunciationCard, setPronunciationCard] = useState(null);
-  const [renderablePages, setRenderablePages] = useState(() => new Set([initialPage.page]));
   const [showScrollAnchor, setShowScrollAnchor] = useState(false);
   const [isScrubbing, setIsScrubbing] = useState(false);
   const [scrubberPreviewPage, setScrubberPreviewPage] = useState(initialPage.page);
+  const [pageLoadRevision, setPageLoadRevision] = useState(0);
 
   const synthRef = useRef(null);
   const pageNodesRef = useRef(new Map());
@@ -55,6 +55,10 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const currentPageNumberRef = useRef(initialPageNumber);
   const isScrubbingRef = useRef(false);
   const scrubberCommitTimerRef = useRef(null);
+  const pendingTargetPageRef = useRef(null);
+  const audioUrlRef = useRef(null);
+  const retryTimerRef = useRef(null);
+  const audioRef = useRef(null);
 
   const totalChunks = Math.ceil(manifestPages.length / CHUNK_SIZE);
   const visibleEntries = useMemo(
@@ -166,7 +170,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
 
     missing.forEach((entry) => loadingRef.current.add(entry.page));
 
-    Promise.all(
+    Promise.allSettled(
       missing.map(async (entry) => {
         const response = await fetch(`/api/pages/${entry.page}`);
         if (!response.ok) {
@@ -175,8 +179,15 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
         return response.json();
       }),
     )
-      .then((pages) => {
+      .then((results) => {
         const allowedPages = new Set(neededPages);
+        const pages = results
+          .filter((result) => result.status === "fulfilled")
+          .map((result) => result.value);
+        const failures = results
+          .filter((result) => result.status === "rejected")
+          .map((result) => result.reason?.message || "Page load failed");
+
         setPageDataMap((current) => {
           const next = new Map();
           for (const [pageNumber, page] of current.entries()) {
@@ -187,15 +198,22 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
           pages.forEach((page) => next.set(page.page, page));
           return next;
         });
-      })
-      .catch((error) => {
-        console.error(error);
-        setStatus(error.message);
+
+        if (failures.length) {
+          console.error(failures);
+          setStatus(failures[0]);
+          if (retryTimerRef.current) {
+            clearTimeout(retryTimerRef.current);
+          }
+          retryTimerRef.current = setTimeout(() => {
+            setPageLoadRevision((value) => value + 1);
+          }, 600);
+        }
       })
       .finally(() => {
         missing.forEach((entry) => loadingRef.current.delete(entry.page));
       });
-  }, [mountedPageNumbers, pageDataMap, preloadPageNumbers]);
+  }, [mountedPageNumbers, pageDataMap, pageLoadRevision, preloadPageNumbers]);
 
   useEffect(() => {
     if (!hydrated) return;
@@ -229,6 +247,13 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
         if (!top) return;
         if (isScrubbingRef.current) return;
         const pageNumber = Number(top.target.getAttribute("data-page"));
+        if (pendingTargetPageRef.current) {
+          if (pageNumber === pendingTargetPageRef.current) {
+            pendingTargetPageRef.current = null;
+          } else {
+            return;
+          }
+        }
         if (!pageNumber || pageNumber === currentPageNumberRef.current) return;
         
         setCurrentPageNumber(pageNumber);
@@ -238,36 +263,6 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
       {
         threshold: [0.35, 0.6, 0.85],
         rootMargin: "-10% 0px -35% 0px",
-      },
-    );
-
-    for (const node of pageNodesRef.current.values()) {
-      observer.observe(node);
-    }
-
-    return () => observer.disconnect();
-  }, [visibleEntries]);
-
-  useEffect(() => {
-    const observer = new IntersectionObserver(
-      (entries) => {
-        const nextVisible = new Set();
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            nextVisible.add(Number(entry.target.getAttribute("data-page")));
-          }
-        });
-
-        if (!nextVisible.size) return;
-        setRenderablePages((current) => {
-          const next = new Set(current);
-          nextVisible.forEach((page) => next.add(page));
-          return next;
-        });
-      },
-      {
-        rootMargin: "1200px 0px 1200px 0px",
-        threshold: 0.01,
       },
     );
 
@@ -336,6 +331,14 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
             }
           }
 
+          if (pendingTargetPageRef.current) {
+            if (bestPage === pendingTargetPageRef.current) {
+              pendingTargetPageRef.current = null;
+            } else {
+              return;
+            }
+          }
+
           if (bestPage && bestPage !== currentPageNumberRef.current) {
             setCurrentPageNumber(bestPage);
             setSelectedRegion(null);
@@ -362,6 +365,9 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
       }
       if (scrubberCommitTimerRef.current) {
         clearTimeout(scrubberCommitTimerRef.current);
+      }
+      if (retryTimerRef.current) {
+        clearTimeout(retryTimerRef.current);
       }
     };
   }, [currentPageNumber, hydrated, isScrubbing]);
@@ -393,6 +399,8 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
     0,
     currentChunkEntries.findIndex((entry) => entry.page === scrubberDisplayPage),
   );
+  const scrubberMaxIndex = Math.max(0, currentChunkEntries.length - 1);
+  const scrubberControlValue = scrubberMaxIndex - scrubberDisplayIndex;
   const scrubberProgress = currentChunkEntries.length <= 1
     ? 0
     : scrubberDisplayIndex / (currentChunkEntries.length - 1);
@@ -412,46 +420,86 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   }
 
   function speakText(text, regionKey) {
+    void playText(text, {
+      regionKey,
+      pageNumber: Number(regionKey.split(":")[0]),
+      statusLabel: `Speaking: ${text.slice(0, 48)}${text.length > 48 ? "..." : ""}`,
+    });
+  }
+
+  async function playText(text, { regionKey, pageNumber, statusLabel }) {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current = null;
+    }
+    if (audioUrlRef.current) {
+      URL.revokeObjectURL(audioUrlRef.current);
+      audioUrlRef.current = null;
+    }
     if (!synthRef.current) return;
     setPronunciationCard(null);
     synthRef.current.cancel();
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "en-US";
-    utterance.rate = rate;
-    const voice = chooseVoice();
-    if (voice) utterance.voice = voice;
-    utterance.onstart = () => {
-      setSelectedRegion(regionKey);
-      setStatus(`Speaking: ${text.slice(0, 48)}${text.length > 48 ? "..." : ""}`);
-    };
-    utterance.onend = () => {
-      setStatus(defaultStatus);
-      setSelectedRegion(null);
-    };
-    synthRef.current.speak(utterance);
+
+    try {
+      const response = await fetch(`/api/tts?lang=en&text=${encodeURIComponent(text)}`);
+      if (!response.ok) {
+        throw new Error("Remote TTS unavailable");
+      }
+      const audioBlob = await response.blob();
+      const objectUrl = URL.createObjectURL(audioBlob);
+      audioUrlRef.current = objectUrl;
+
+      const audio = new Audio(objectUrl);
+      audioRef.current = audio;
+      audio.preload = "auto";
+      audio.playbackRate = Math.max(0.6, Math.min(1.4, rate));
+      await new Promise((resolve, reject) => {
+        audio.onplay = () => {
+          if (pageNumber) setCurrentPageNumber(pageNumber);
+          setSelectedRegion(regionKey);
+          setStatus(statusLabel);
+        };
+        audio.onended = () => {
+          setStatus(defaultStatus);
+          setSelectedRegion(null);
+          audioRef.current = null;
+          if (audioUrlRef.current) {
+            URL.revokeObjectURL(audioUrlRef.current);
+            audioUrlRef.current = null;
+          }
+          resolve();
+        };
+        audio.onerror = () => {
+          audioRef.current = null;
+          if (audioUrlRef.current) {
+            URL.revokeObjectURL(audioUrlRef.current);
+            audioUrlRef.current = null;
+          }
+          reject(new Error("Remote audio failed"));
+        };
+        audio.play().catch(reject);
+      });
+      return;
+    } catch {
+      await playWithBrowserTts(text, regionKey, statusLabel, pageNumber);
+    }
   }
 
   async function playPage(page) {
     if (!synthRef.current) return;
     synthRef.current.cancel();
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current = null;
+    }
 
     for (const region of page.regions) {
       const regionKey = `${page.page}:${region.id}`;
       // eslint-disable-next-line no-await-in-loop
-      await new Promise((resolve) => {
-        const utterance = new SpeechSynthesisUtterance(region.text);
-        utterance.lang = "en-US";
-        utterance.rate = rate;
-        const voice = chooseVoice();
-        if (voice) utterance.voice = voice;
-        utterance.onstart = () => {
-          setCurrentPageNumber(page.page);
-          setSelectedRegion(regionKey);
-          setStatus(`Playing page ${page.page}`);
-        };
-        utterance.onend = resolve;
-        utterance.onerror = resolve;
-        synthRef.current.speak(utterance);
+      await playText(region.text, {
+        regionKey,
+        pageNumber: page.page,
+        statusLabel: `Playing page ${page.page}`,
       });
     }
 
@@ -460,9 +508,43 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   }
 
   function stopPlayback() {
+    if (audioRef.current) {
+      audioRef.current.pause();
+      audioRef.current = null;
+    }
+    if (audioUrlRef.current) {
+      URL.revokeObjectURL(audioUrlRef.current);
+      audioUrlRef.current = null;
+    }
     synthRef.current?.cancel();
     setStatus("Stopped");
     setSelectedRegion(null);
+  }
+
+  function playWithBrowserTts(text, regionKey, statusLabel, pageNumber) {
+    return new Promise((resolve) => {
+      const utterance = new SpeechSynthesisUtterance(text);
+      utterance.lang = "en-US";
+      utterance.rate = rate;
+      const voice = chooseVoice();
+      if (voice) utterance.voice = voice;
+      utterance.onstart = () => {
+        if (pageNumber) setCurrentPageNumber(pageNumber);
+        setSelectedRegion(regionKey);
+        setStatus(statusLabel);
+      };
+      utterance.onend = () => {
+        setStatus(defaultStatus);
+        setSelectedRegion(null);
+        resolve();
+      };
+      utterance.onerror = () => {
+        setStatus("TTS failed");
+        setSelectedRegion(null);
+        resolve();
+      };
+      synthRef.current.speak(utterance);
+    });
   }
 
   function clearLongPressTimer() {
@@ -563,6 +645,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   }
 
   function scrollToChunkPage(pageNumber) {
+    pendingTargetPageRef.current = pageNumber;
     const node = pageNodesRef.current.get(pageNumber);
     if (node) {
       node.scrollIntoView({ behavior: "auto", block: "start" });
@@ -574,18 +657,23 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   }
 
   function handleScrubberIndexChange(nextIndexValue) {
-    const targetPage = currentChunkEntries[Number(nextIndexValue)]?.page;
+    const normalizedIndex = scrubberMaxIndex - Number(nextIndexValue);
+    const targetPage = currentChunkEntries[normalizedIndex]?.page;
     if (!targetPage) return;
     setScrubberPreviewPage(targetPage);
-    setCurrentPageNumber(targetPage);
+  }
 
+  function commitScrubberTargetPage() {
+    const targetPage = scrubberPreviewPage;
+    if (!targetPage) return;
+    pendingTargetPageRef.current = targetPage;
+    setCurrentPageNumber(targetPage);
     if (scrubberCommitTimerRef.current) {
       clearTimeout(scrubberCommitTimerRef.current);
     }
-
     scrubberCommitTimerRef.current = setTimeout(() => {
       scrollToChunkPage(targetPage);
-    }, 50);
+    }, 0);
   }
 
   function rememberPageNode(pageNumber, node) {
@@ -627,7 +715,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
       <main className="continuous-reader">
         {visibleEntries.map((entry) => {
           const page = pageDataMap.get(entry.page);
-          const shouldRenderPage = mountedPageNumbers.has(entry.page) && (renderablePages.has(entry.page) || entry.page === currentPageNumber);
+          const shouldRenderPage = mountedPageNumbers.has(entry.page);
           const imageWidth = page?.stats?.imageWidth || DEFAULT_IMAGE_WIDTH;
           const imageHeight = page?.stats?.imageHeight || DEFAULT_IMAGE_HEIGHT;
           const aspectRatio = `${imageWidth} / ${imageHeight}`;
@@ -722,9 +810,9 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
               type="range"
               className="page-scrubber-input"
               min="0"
-              max={Math.max(0, currentChunkEntries.length - 1)}
+              max={scrubberMaxIndex}
               step="1"
-              value={scrubberDisplayIndex}
+              value={scrubberControlValue}
               aria-label="Scroll pages in current chunk"
               onPointerDown={() => {
                 setIsScrubbing(true);
@@ -737,6 +825,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
               onChange={(event) => handleScrubberIndexChange(event.currentTarget.value)}
               onPointerUp={() => {
                 setIsScrubbing(false);
+                commitScrubberTargetPage();
                 if (hideScrollAnchorTimerRef.current) {
                   clearTimeout(hideScrollAnchorTimerRef.current);
                 }
