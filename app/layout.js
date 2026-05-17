@@ -5,7 +5,7 @@ export const metadataBase = new URL("https://english-throgh-picture.vercel.app")
 
 export const metadata = {
   title: "English Through Pictures",
-  description: "Interactive reader with OCR JSON and click-to-speak playback.",
+  description: "Learn English naturally through interactive pictures, audio pronunciation, and phonetic lookup.",
   manifest: "/manifest.json",
   applicationName: "English Through Pictures",
   appleWebApp: {

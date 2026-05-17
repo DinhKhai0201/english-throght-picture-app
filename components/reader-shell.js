@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { useEffect, useMemo, useRef, useState } from "react";
+import OnboardingTour from "./onboarding-tour";
 
 const LAST_PAGE_KEY = "english-through-pictures:last-page";
 const SETTINGS_KEY = "english-through-pictures:settings";
@@ -44,6 +45,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const [scrubberPreviewPage, setScrubberPreviewPage] = useState(initialPage.page);
   const [pageLoadRevision, setPageLoadRevision] = useState(0);
   const [pendingTargetPage, setPendingTargetPage] = useState(null);
+  const [tourActive, setTourActive] = useState(false);
 
   const synthRef = useRef(null);
   const pageNodesRef = useRef(new Map());
@@ -166,6 +168,16 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   useEffect(() => {
     voiceUriRef.current = voiceUri;
   }, [voiceUri]);
+
+  useEffect(() => {
+    if (!hydrated) return;
+    try {
+      const tourCompleted = window.localStorage.getItem("english-through-pictures:tour-completed");
+      if (!tourCompleted) {
+        setTourActive(true);
+      }
+    } catch (e) {}
+  }, [hydrated]);
 
   useEffect(() => {
     if (!hydrated) return;
@@ -951,6 +963,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
           <div className="settings-group">
             <button type="button" onClick={stopPlayback}>Stop Audio</button>
             <button type="button" onClick={copyCurrentPageJson}>Copy Current Page JSON</button>
+            <button type="button" onClick={() => { setTourActive(true); setSettingsOpen(false); }}>Replay Guide</button>
           </div>
 
           <label className="field inline">
@@ -1011,6 +1024,12 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
           </div>
         </div>
       </aside>
+
+      <OnboardingTour
+        active={tourActive}
+        onClose={() => setTourActive(false)}
+        currentPageNumber={currentPageNumber}
+      />
     </div>
   );
 }
