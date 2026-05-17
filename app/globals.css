@@ -103,20 +103,8 @@ button {
   height: 100vh;
   display: grid;
   place-items: center;
-  touch-action: none;
+  pointer-events: none;
   --scrubber-thumb-height: 72px;
-}
-
-.page-scrubber-input {
-  position: absolute;
-  inset: 0;
-  width: 100vh;
-  height: 60px;
-  margin: 0;
-  transform: rotate(-90deg) translateX(-100%);
-  transform-origin: top left;
-  opacity: 0.01;
-  cursor: ns-resize;
 }
 
 .page-scrubber-track {
@@ -151,6 +139,37 @@ button {
 .page-scrubber.is-scrubbing .page-scrubber-thumb {
   background: #fff6ef;
   border-color: rgba(181, 90, 54, 0.4);
+}
+
+.mobile-page-scrubber {
+  position: fixed;
+  left: 12px;
+  right: 12px;
+  bottom: calc(env(safe-area-inset-bottom, 0px) + 12px);
+  z-index: 18;
+}
+
+.mobile-page-scrubber-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 14px;
+  border: 1px solid var(--line);
+  border-radius: 18px;
+  background: rgba(255, 253, 247, 0.96);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(14px);
+}
+
+.mobile-page-scrubber-label {
+  min-width: 40px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.mobile-page-scrubber-input {
+  width: 100%;
 }
 
 .page-scrubber-form {
@@ -488,10 +507,6 @@ button:disabled {
     --scrubber-thumb-height: 52px;
   }
 
-  .page-scrubber-input {
-    height: 40px;
-  }
-
   .page-scrubber-thumb {
     width: 34px;
     min-width: 34px;
@@ -500,6 +515,11 @@ button:disabled {
     padding: 0 4px;
     font-size: 0.78rem;
     border-radius: 12px;
+  }
+
+  .mobile-page-scrubber {
+    left: 10px;
+    right: 10px;
   }
 
   .pronunciation-title {

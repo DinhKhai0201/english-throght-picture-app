@@ -33,6 +33,8 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const [rate, setRate] = useState(0.9);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [hydrated, setHydrated] = useState(false);
+  const [isCoarsePointer, setIsCoarsePointer] = useState(false);
+  const [isNarrowViewport, setIsNarrowViewport] = useState(false);
   const [savedPageNumber, setSavedPageNumber] = useState(initialPage.page);
   const [voices, setVoices] = useState([]);
   const [voiceUri, setVoiceUri] = useState("");
@@ -41,6 +43,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const [isScrubbing, setIsScrubbing] = useState(false);
   const [scrubberPreviewPage, setScrubberPreviewPage] = useState(initialPage.page);
   const [pageLoadRevision, setPageLoadRevision] = useState(0);
+  const [pendingTargetPage, setPendingTargetPage] = useState(null);
 
   const synthRef = useRef(null);
   const pageNodesRef = useRef(new Map());
@@ -58,6 +61,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const isScrubbingRef = useRef(false);
   const scrubberCommitTimerRef = useRef(null);
   const pendingTargetPageRef = useRef(null);
+  const scrubberPreviewPageRef = useRef(initialPage.page);
   const audioUrlRef = useRef(null);
   const retryTimerRef = useRef(null);
   const audioRef = useRef(null);
@@ -67,7 +71,8 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
     () => mountedChunkIndexes.flatMap((chunkIndex) => getChunkEntries(manifestPages, chunkIndex)),
     [manifestPages, mountedChunkIndexes],
   );
-  const currentVisibleIndex = Math.max(0, visibleEntries.findIndex((entry) => entry.page === currentPageNumber));
+  const windowCenterPage = pendingTargetPage || (isScrubbing ? scrubberPreviewPage : currentPageNumber);
+  const currentVisibleIndex = Math.max(0, visibleEntries.findIndex((entry) => entry.page === windowCenterPage));
   const mountedPageNumbers = useMemo(
     () => new Set(
       visibleEntries
@@ -86,6 +91,8 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   useEffect(() => {
     synthRef.current = window.speechSynthesis;
     setHydrated(true);
+    setIsCoarsePointer(window.matchMedia("(pointer: coarse)").matches);
+    setIsNarrowViewport(window.innerWidth <= 900);
 
     try {
       const savedSettings = JSON.parse(window.localStorage.getItem(SETTINGS_KEY) || "null");
@@ -120,6 +127,16 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
       window.speechSynthesis.cancel();
     };
   }, [initialPage.page, manifestPages, queryPageNumber]);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsCoarsePointer(window.matchMedia("(pointer: coarse)").matches);
+      setIsNarrowViewport(window.innerWidth <= 900);
+    };
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   useEffect(() => {
     const syncVoices = () => {
@@ -235,6 +252,10 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   }, [currentPageNumber]);
 
   useEffect(() => {
+    scrubberPreviewPageRef.current = scrubberPreviewPage;
+  }, [scrubberPreviewPage]);
+
+  useEffect(() => {
     isScrubbingRef.current = isScrubbing;
   }, [isScrubbing]);
 
@@ -249,13 +270,14 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
         if (!top) return;
         if (isScrubbingRef.current) return;
         const pageNumber = Number(top.target.getAttribute("data-page"));
-        if (pendingTargetPageRef.current) {
-          if (pageNumber === pendingTargetPageRef.current) {
-            pendingTargetPageRef.current = null;
-          } else {
-            return;
+          if (pendingTargetPage) {
+            if (pageNumber === pendingTargetPage) {
+              pendingTargetPageRef.current = null;
+              setPendingTargetPage(null);
+            } else {
+              return;
+            }
           }
-        }
         if (!pageNumber || pageNumber === currentPageNumberRef.current) return;
         
         setCurrentPageNumber(pageNumber);
@@ -304,10 +326,10 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   }, [currentChunkIndex, currentPageNumber, hydrated, manifestPages]);
 
   useEffect(() => {
-    if (!isScrubbing) {
+    if (!isScrubbing && !pendingTargetPage) {
       setScrubberPreviewPage(currentPageNumber);
     }
-  }, [currentPageNumber]);
+  }, [currentPageNumber, isScrubbing, pendingTargetPage]);
 
   useEffect(() => {
     if (!hydrated) return;
@@ -333,9 +355,10 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
             }
           }
 
-          if (pendingTargetPageRef.current) {
-            if (bestPage === pendingTargetPageRef.current) {
+          if (pendingTargetPage) {
+            if (bestPage === pendingTargetPage) {
               pendingTargetPageRef.current = null;
+              setPendingTargetPage(null);
             } else {
               return;
             }
@@ -372,7 +395,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
         clearTimeout(retryTimerRef.current);
       }
     };
-  }, [currentPageNumber, hydrated, isScrubbing]);
+  }, [currentPageNumber, hydrated, isScrubbing, pendingTargetPage]);
 
   useEffect(() => {
     const targetPage = hydratedTargetRef.current;
@@ -651,10 +674,12 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
 
   function scrollToChunkPage(pageNumber) {
     pendingTargetPageRef.current = pageNumber;
+    setPendingTargetPage(pageNumber);
     const node = pageNodesRef.current.get(pageNumber);
     if (node) {
       node.scrollIntoView({ behavior: "auto", block: "start" });
       setCurrentPageNumber(pageNumber);
+      setScrubberPreviewPage(pageNumber);
       return;
     }
 
@@ -668,17 +693,64 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
     setScrubberPreviewPage(targetPage);
   }
 
+  function handleDesktopScrubberClientY(clientY, rail) {
+    const rect = rail.getBoundingClientRect();
+    const relative = Math.max(0, Math.min(1, (clientY - rect.top) / rect.height));
+    const targetIndex = Math.round(relative * scrubberMaxIndex);
+    const targetPage = currentChunkEntries[targetIndex]?.page;
+    if (!targetPage) return;
+    setScrubberPreviewPage(targetPage);
+  }
+
+  function startDesktopScrubbing(event) {
+    const rail = event.currentTarget;
+    event.preventDefault();
+    setIsScrubbing(true);
+    setShowScrollAnchor(true);
+    if (hideScrollAnchorTimerRef.current) {
+      clearTimeout(hideScrollAnchorTimerRef.current);
+    }
+
+    handleDesktopScrubberClientY(event.clientY, rail);
+
+    const handleMove = (moveEvent) => {
+      handleDesktopScrubberClientY(moveEvent.clientY, rail);
+    };
+
+    const handleUp = () => {
+      finishScrubbing();
+      window.removeEventListener("pointermove", handleMove);
+      window.removeEventListener("pointerup", handleUp);
+    };
+
+    window.addEventListener("pointermove", handleMove);
+    window.addEventListener("pointerup", handleUp);
+  }
+
   function commitScrubberTargetPage() {
-    const targetPage = scrubberPreviewPage;
+    const targetPage = scrubberPreviewPageRef.current;
     if (!targetPage) return;
     pendingTargetPageRef.current = targetPage;
+    setPendingTargetPage(targetPage);
+    setScrubberPreviewPage(targetPage);
     setCurrentPageNumber(targetPage);
     if (scrubberCommitTimerRef.current) {
       clearTimeout(scrubberCommitTimerRef.current);
     }
     scrubberCommitTimerRef.current = setTimeout(() => {
-      scrollToChunkPage(targetPage);
-    }, 0);
+      jumpToPage(targetPage);
+    }, 120);
+  }
+
+  function finishScrubbing() {
+    commitScrubberTargetPage();
+    setIsScrubbing(false);
+    if (hideScrollAnchorTimerRef.current) {
+      clearTimeout(hideScrollAnchorTimerRef.current);
+    }
+    hideScrollAnchorTimerRef.current = setTimeout(() => {
+      setShowScrollAnchor(false);
+    }, 2000);
   }
 
   function rememberPageNode(pageNumber, node) {
@@ -830,37 +902,9 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
         })}
       </main>
 
-      {showScrollAnchor || isScrubbing ? (
-        <div className={["page-scrubber", isScrubbing ? "is-scrubbing" : ""].filter(Boolean).join(" ")}>
+      {showScrollAnchor ? (
+        <div className="page-scrubber">
           <div className="page-scrubber-rail">
-            <input
-              type="range"
-              className="page-scrubber-input"
-              min="0"
-              max={scrubberMaxIndex}
-              step="1"
-              value={scrubberControlValue}
-              aria-label="Scroll pages in current chunk"
-              onPointerDown={() => {
-                setIsScrubbing(true);
-                setShowScrollAnchor(true);
-                if (hideScrollAnchorTimerRef.current) {
-                  clearTimeout(hideScrollAnchorTimerRef.current);
-                }
-              }}
-              onInput={(event) => handleScrubberIndexChange(event.currentTarget.value)}
-              onChange={(event) => handleScrubberIndexChange(event.currentTarget.value)}
-              onPointerUp={() => {
-                setIsScrubbing(false);
-                commitScrubberTargetPage();
-                if (hideScrollAnchorTimerRef.current) {
-                  clearTimeout(hideScrollAnchorTimerRef.current);
-                }
-                hideScrollAnchorTimerRef.current = setTimeout(() => {
-                  setShowScrollAnchor(false);
-                }, 2000);
-              }}
-            />
             <div className="page-scrubber-track" />
             <div
               className="page-scrubber-thumb"
