@@ -8,6 +8,7 @@ const SETTINGS_KEY = "english-through-pictures:settings";
 const CHUNK_SIZE = 50;
 const defaultStatus = "Idle";
 const LONG_PRESS_MS = 420;
+const MOBILE_DOUBLE_TAP_MS = 1200;
 const VIRTUAL_WINDOW = 2;
 const PRELOAD_AHEAD = 3;
 const DEFAULT_IMAGE_WIDTH = 1180;
@@ -49,6 +50,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const voiceUriRef = useRef("");
   const longPressTimerRef = useRef(null);
   const longPressTriggeredRef = useRef(false);
+  const lastTapRef = useRef({ regionKey: "", timestamp: 0 });
   const hideScrollAnchorTimerRef = useRef(null);
   const scrollSyncRafRef = useRef(null);
   const lastHistoryUpdateRef = useRef(0);
@@ -555,6 +557,9 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   }
 
   function handleRegionPointerDown(event, region, pageNumber) {
+    if (window.matchMedia("(pointer: coarse)").matches) {
+      return;
+    }
     clearLongPressTimer();
     longPressTriggeredRef.current = false;
     const rect = event.currentTarget.getBoundingClientRect();
@@ -780,11 +785,33 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
                             onPointerCancel={handleRegionPointerUp}
                             onPointerLeave={handleRegionPointerLeave}
                             onContextMenu={(event) => event.preventDefault()}
-                            onClick={() => {
+                            onClick={(event) => {
                               if (longPressTriggeredRef.current) {
                                 longPressTriggeredRef.current = false;
                                 return;
                               }
+                              const isCoarsePointer = window.matchMedia("(pointer: coarse)").matches;
+
+                              if (isCoarsePointer) {
+                                const now = Date.now();
+                                const lastTap = lastTapRef.current;
+
+                                if (
+                                  lastTap.regionKey === regionKey &&
+                                  now - lastTap.timestamp <= MOBILE_DOUBLE_TAP_MS
+                                ) {
+                                  lastTapRef.current = { regionKey: "", timestamp: 0 };
+                                  const rect = event.currentTarget.getBoundingClientRect();
+                                  if (rect) {
+                                    void openPronunciationCard(region.text, rect);
+                                  }
+                                  setSelectedRegion(regionKey);
+                                  return;
+                                }
+
+                                lastTapRef.current = { regionKey, timestamp: now };
+                              }
+
                               speakText(region.text, regionKey);
                             }}
                           />
