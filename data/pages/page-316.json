@@ -2,62 +2,54 @@
   "page": 316,
   "image": "/books/page 316.png",
   "imageApiPath": "/api/books/page%20316.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 81,
+    "regionCount": 4,
+    "wordCount": 80,
     "imageWidth": 1146,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r2",
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "The milk must be kept clean and cold and put into bottles and taken to the stores and houses in the city. City governments see that milk is kept clean and has enough butterfat in it.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "The milk must",
-      "x": 0.5812,
-      "y": 0.0382,
-      "w": 0.2269,
-      "h": 0.0274,
       "words": [
         "The",
         "milk",
-        "must"
-      ],
-      "conf": 96.468,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "clean and cold and put into bottles and taken to the stores and houses in the city. City governments see that milk is",
-      "x": 0.0873,
-      "y": 0.0635,
-      "w": 0.8473,
-      "h": 0.0543,
-      "words": [
+        "must",
+        "be",
+        "kept",
         "clean",
         "and",
         "cold",
@@ -80,20 +72,7 @@
         "see",
         "that",
         "milk",
-        "is"
-      ],
-      "conf": 96.6713,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "kept clean and has enough butterfat in it,",
-      "x": 0.0881,
-      "y": 0.1178,
-      "w": 0.6152,
-      "h": 0.0226,
-      "words": [
+        "is",
         "kept",
         "clean",
         "and",
@@ -101,19 +80,17 @@
         "enough",
         "butterfat",
         "in",
-        "it,"
-      ],
-      "conf": 93.8796,
-      "source": "psm-11"
+        "it."
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "Some city-born children have never seen a cow and have",
-      "x": 0.089,
-      "y": 0.5734,
-      "w": 0.8429,
-      "h": 0.0215,
+      "text": "Some city-born children have never seen a cow and have to be taught where milk comes from.",
+      "x": 0.1,
+      "y": 0.58,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r2",
+      "order": 1,
       "words": [
         "Some",
         "city-born",
@@ -124,20 +101,7 @@
         "a",
         "cow",
         "and",
-        "have"
-      ],
-      "conf": 95.6995,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "to be taught where milk comes from.",
-      "x": 0.0899,
-      "y": 0.5998,
-      "w": 0.5393,
-      "h": 0.0215,
-      "words": [
+        "have",
         "to",
         "be",
         "taught",
@@ -145,24 +109,27 @@
         "milk",
         "comes",
         "from."
-      ],
-      "conf": 96.4146,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "fat: the part of miik from which butter is made is butterfat. There are",
-      "x": 0.0908,
+      "text": "away: off, from that place. fat: the part of milk from which butter is made is butterfat. never: not ever.",
+      "x": 0.1,
       "y": 0.78,
-      "w": 0.8438,
-      "h": 0.0156,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r3",
+      "order": 2,
       "words": [
+        "away:",
+        "off,",
+        "from",
+        "that",
+        "place.",
         "fat:",
         "the",
         "part",
         "of",
-        "miik",
+        "milk",
         "from",
         "which",
         "butter",
@@ -170,92 +137,28 @@
         "made",
         "is",
         "butterfat.",
-        "There",
-        "are"
-      ],
-      "conf": 93.8999,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "away: off, from that ploce",
-      "x": 0.0934,
-      "y": 0.7628,
-      "w": 0.3194,
-      "h": 0.0151,
-      "words": [
-        "away:",
-        "off,",
-        "from",
-        "that",
-        "ploce"
-      ],
-      "conf": 92.4609,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "never: not ever.",
-      "x": 0.0908,
-      "y": 0.8182,
-      "w": 0.1928,
-      "h": 0.0156,
-      "words": [
         "never:",
         "not",
         "ever."
-      ],
-      "conf": 87.3523,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "many sorts of fats.",
-      "x": 0.1475,
-      "y": 0.7994,
-      "w": 0.2138,
-      "h": 0.014,
+      "text": "FUTURE: will teach. PRESENT: teach(es). PAST: taught.",
+      "x": 0.1,
+      "y": 0.88,
+      "w": 0.85,
+      "h": 0.05,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "many",
-        "sorts",
-        "of",
-        "fats."
-      ],
-      "conf": 96.2219,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "will teach",
-      "x": 0.0864,
-      "y": 0.844,
-      "w": 0.1326,
-      "h": 0.0204,
-      "words": [
+        "FUTURE:",
         "will",
-        "teach"
-      ],
-      "conf": 96.4358,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "teach (es)",
-      "x": 0.4476,
-      "y": 0.8435,
-      "w": 0.1318,
-      "h": 0.021,
-      "words": [
-        "teach",
-        "(es)"
-      ],
-      "conf": 93.6955,
-      "source": "psm-11"
+        "teach.",
+        "PRESENT:",
+        "teach(es).",
+        "PAST:",
+        "taught."
+      ]
     }
   ]
 }

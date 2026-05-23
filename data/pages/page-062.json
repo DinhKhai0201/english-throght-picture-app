@@ -2,132 +2,133 @@
   "page": 62,
   "image": "/books/page 62.png",
   "imageApiPath": "/api/books/page%2062.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 54,
+    "regionCount": 9,
+    "wordCount": 47,
     "imageWidth": 1267,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
         "r2",
         "r3",
         "r4",
-        "r5",
-        "r6",
-        "r7",
+        "r5"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r8",
-        "r9",
-        "r10"
+        "r9"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Who is this?",
+      "x": 0.16,
+      "y": 0.08,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "Who is this?",
-      "x": 0.1657,
-      "y": 0.085,
-      "w": 0.1728,
-      "h": 0.0183,
       "words": [
         "Who",
         "is",
         "this?"
-      ],
-      "conf": 94.8101,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "He is John Smith.",
+      "x": 0.16,
+      "y": 0.11,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r2",
       "order": 1,
-      "text": "He is John Smith.",
-      "x": 0.1657,
-      "y": 0.1097,
-      "w": 0.2407,
-      "h": 0.0188,
       "words": [
         "He",
         "is",
         "John",
         "Smith."
-      ],
-      "conf": 96.472,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "His name is John Smith.",
+      "x": 0.16,
+      "y": 0.14,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r3",
       "order": 2,
-      "text": "His name is John Smith.",
-      "x": 0.1657,
-      "y": 0.135,
-      "w": 0.3315,
-      "h": 0.0188,
       "words": [
         "His",
         "name",
         "is",
         "John",
         "Smith."
-      ],
-      "conf": 95.8988,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "Where is John Smith?",
+      "x": 0.16,
+      "y": 0.16,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r4",
       "order": 3,
-      "text": "Where is John Smith?",
-      "x": 0.165,
-      "y": 0.1603,
-      "w": 0.3133,
-      "h": 0.0188,
       "words": [
         "Where",
         "is",
         "John",
         "Smith?"
-      ],
-      "conf": 95.8888,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "He is at the door of his house.",
+      "x": 0.16,
+      "y": 0.19,
+      "w": 0.35,
+      "h": 0.05,
       "id": "r5",
       "order": 4,
-      "text": "He has his hand in his pocket.",
-      "x": 0.6054,
-      "y": 0.1549,
-      "w": 0.2612,
-      "h": 0.0489,
-      "words": [
-        "He",
-        "has",
-        "his",
-        "hand",
-        "in",
-        "his",
-        "pocket."
-      ],
-      "conf": 95.5858,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "He is at the door of his house.",
-      "x": 0.1657,
-      "y": 0.1861,
-      "w": 0.2794,
-      "h": 0.0436,
       "words": [
         "He",
         "is",
@@ -137,38 +138,34 @@
         "of",
         "his",
         "house."
-      ],
-      "conf": 96.4946,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "He has his hand in his pocket.",
+      "x": 0.6,
+      "y": 0.16,
+      "w": 0.35,
+      "h": 0.05,
+      "id": "r6",
+      "order": 5,
+      "words": [
+        "He",
+        "has",
+        "his",
+        "hand",
+        "in",
+        "his",
+        "pocket."
+      ]
+    },
+    {
+      "text": "He is taking a key from his pocket.",
+      "x": 0.15,
+      "y": 0.55,
+      "w": 0.35,
+      "h": 0.05,
       "id": "r7",
       "order": 6,
-      "text": "eww eee ee Zee e wee eww",
-      "x": 0.2407,
-      "y": 0.4804,
-      "w": 0.6748,
-      "h": 0.0151,
-      "words": [
-        "eww",
-        "eee",
-        "ee",
-        "Zee",
-        "e",
-        "wee",
-        "eww"
-      ],
-      "conf": 52.5873,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "He is taking a key from his pocket.",
-      "x": 0.1594,
-      "y": 0.5541,
-      "w": 0.3268,
-      "h": 0.0484,
       "words": [
         "He",
         "is",
@@ -178,43 +175,37 @@
         "from",
         "his",
         "pocket."
-      ],
-      "conf": 95.4918,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
       "text": "This is a key.",
-      "x": 0.6425,
-      "y": 0.5342,
-      "w": 0.1831,
-      "h": 0.0237,
+      "x": 0.64,
+      "y": 0.53,
+      "w": 0.25,
+      "h": 0.03,
+      "id": "r8",
+      "order": 7,
       "words": [
         "This",
         "is",
         "a",
         "key."
-      ],
-      "conf": 96.0749,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
       "text": "These are other keys.",
-      "x": 0.5841,
-      "y": 0.6541,
-      "w": 0.3054,
-      "h": 0.0253,
+      "x": 0.58,
+      "y": 0.65,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r9",
+      "order": 8,
       "words": [
         "These",
         "are",
         "other",
         "keys."
-      ],
-      "conf": 96.8736,
-      "source": "psm-11"
+      ]
     }
   ]
 }

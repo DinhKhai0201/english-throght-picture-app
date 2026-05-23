@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Now the doctor is taking the man’s pulse. He has his finger on the man’s wrist and is counting the times his heart pumps the blood in one minute.", "x": 0.1, "y": 0.05, "w": 0.55, "h": 0.25 },
-    { "text": "The doctor can feel the motion or pulsing of the blood every time the man’s heart pumps. In most men the pulse rate is between seventy and eighty times a minute. In children it is higher.", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.15 },
-    { "text": "The runner’s pulse rate is 72. It will be higher when he is running. pulse: motion of the blood. pulse rate: number of pulses. wrist: end of arm. counting: discovering how many.", "x": 0.1, "y": 0.55, "w": 0.85, "h": 0.3 },
-    { "text": "FUTURE: will count. PRESENT: count(s). PAST: counted.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
-  ]
-}

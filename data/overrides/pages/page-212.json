@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "That is the story. The story may be true or it may not be true. But that is the story. It comes from the great writer, Voltaire.", "x": 0.08, "y": 0.12, "w": 0.38, "h": 0.35 },
-    { "text": "True? 2 + 2 = 4. That is true. 2 + 2 = 5. That is not true. It is a false statement. \"Apples are fruit.\" That statement is true. \"Apples are animals.\" That statement is false. False = not true Short = not long Shut = not open", "x": 0.52, "y": 0.13, "w": 0.4, "h": 0.35 },
-    { "text": "In this story the fall of the apple on Newton's head was the cause of the idea.", "x": 0.08, "y": 0.7, "w": 0.38, "h": 0.15 },
-    { "text": "The blow which the apple gave to Newton's head gave an idea to Newton. It made a question come into Newton's mind. This was the question: \"Have the fall of the apple and the motion of the moon the same cause?\"", "x": 0.52, "y": 0.52, "w": 0.4, "h": 0.4 }
-  ]
-}

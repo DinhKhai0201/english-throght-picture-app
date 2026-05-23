@@ -2,44 +2,58 @@
   "page": 328,
   "image": "/books/page 328.png",
   "imageApiPath": "/api/books/page%20328.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 126,
+    "regionCount": 4,
+    "wordCount": 131,
     "imageWidth": 1196,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "If all the people alive on the earth today were hand in hand like this, the line they would make would go more than fifty times round the earth. The line of people would go out to the moon and back three times. It would be long enough to do that.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.5,
+      "h": 0.25,
       "id": "r1",
       "order": 0,
-      "text": "If all the people alive on the earth today were hand in hand like this, the line they would make would go more than fifty times round the earth.",
-      "x": 0.1129,
-      "y": 0.045,
-      "w": 0.4138,
-      "h": 0.15,
       "words": [
         "If",
         "all",
@@ -69,20 +83,7 @@
         "times",
         "round",
         "the",
-        "earth."
-      ],
-      "conf": 95.6393,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "The line of people would go out to the moon and back three times. It would be long enough to do that.",
-      "x": 0.2349,
-      "y": 0.2046,
-      "w": 0.3721,
-      "h": 0.1001,
-      "words": [
+        "earth.",
         "The",
         "line",
         "of",
@@ -105,18 +106,16 @@
         "to",
         "do",
         "that."
-      ],
-      "conf": 96.3336,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "But there isn’t a line of people which goes out",
-      "x": 0.2366,
-      "y": 0.3878,
-      "w": 0.6923,
-      "h": 0.0214,
+      "text": "But there isn’t a line of people which goes out to the moon and back. And the people of the earth aren’t hand in hand; far from it! That is why we said “were” (not “are”) and “They would go” (not “they go”).",
+      "x": 0.25,
+      "y": 0.38,
+      "w": 0.7,
+      "h": 0.25,
+      "id": "r2",
+      "order": 1,
       "words": [
         "But",
         "there",
@@ -127,38 +126,12 @@
         "people",
         "which",
         "goes",
-        "out"
-      ],
-      "conf": 96.7213,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "to the moon and back.",
-      "x": 0.2375,
-      "y": 0.4146,
-      "w": 0.3236,
-      "h": 0.0171,
-      "words": [
+        "out",
         "to",
         "the",
         "moon",
         "and",
-        "back."
-      ],
-      "conf": 96.2881,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "And the people of the earth aren’t hand in hand; far",
-      "x": 0.1179,
-      "y": 0.5447,
-      "w": 0.8135,
-      "h": 0.0225,
-      "words": [
+        "back.",
         "And",
         "the",
         "people",
@@ -169,35 +142,9 @@
         "hand",
         "in",
         "hand;",
-        "far"
-      ],
-      "conf": 95.5996,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "from it!",
-      "x": 0.1171,
-      "y": 0.5715,
-      "w": 0.1054,
-      "h": 0.0171,
-      "words": [
+        "far",
         "from",
-        "it!"
-      ],
-      "conf": 96.6483,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "That is why we said “were” (not “are”) and “They would",
-      "x": 0.1162,
-      "y": 0.6235,
-      "w": 0.8152,
-      "h": 0.0225,
-      "words": [
+        "it!",
         "That",
         "is",
         "why",
@@ -208,36 +155,21 @@
         "“are”)",
         "and",
         "“They",
-        "would"
-      ],
-      "conf": 95.4495,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "go” (not “they go”).",
-      "x": 0.1154,
-      "y": 0.6502,
-      "w": 0.2943,
-      "h": 0.022,
-      "words": [
+        "would",
         "go”",
         "(not",
         "“they",
         "go”)."
-      ],
-      "conf": 82.3177,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "We say: If the angles in this triangle are equal, then the sides will be equal.",
-      "x": 0.1212,
-      "y": 0.7049,
-      "w": 0.5443,
-      "h": 0.0492,
+      "text": "We say: If the angles in this triangle are equal, then the sides will be equal. But we say: If the angles in this triangle were equal, the sides would be equal.",
+      "x": 0.1,
+      "y": 0.65,
+      "w": 0.6,
+      "h": 0.15,
+      "id": "r3",
+      "order": 2,
       "words": [
         "We",
         "say:",
@@ -254,20 +186,7 @@
         "sides",
         "will",
         "be",
-        "equal."
-      ],
-      "conf": 96.615,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "But we say: If the angles in this triangl were equal, the sides would be equal.",
-      "x": 0.1154,
-      "y": 0.7815,
-      "w": 0.5602,
-      "h": 0.0482,
-      "words": [
+        "equal.",
         "But",
         "we",
         "say:",
@@ -276,7 +195,7 @@
         "angles",
         "in",
         "this",
-        "triangl",
+        "triangle",
         "were",
         "equal,",
         "the",
@@ -284,9 +203,23 @@
         "would",
         "be",
         "equal."
-      ],
-      "conf": 92.954,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "text": "triangle: this is another triangle.",
+      "x": 0.1,
+      "y": 0.85,
+      "w": 0.85,
+      "h": 0.05,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "triangle:",
+        "this",
+        "is",
+        "another",
+        "triangle."
+      ]
     }
   ]
 }

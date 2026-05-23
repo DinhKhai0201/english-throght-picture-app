@@ -2,123 +2,129 @@
   "page": 172,
   "image": "/books/page 172.png",
   "imageApiPath": "/api/books/page%20172.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 8,
-    "wordCount": 36,
+    "regionCount": 6,
+    "wordCount": 37,
     "imageWidth": 1205,
     "imageHeight": 1863
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8"
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6"
       ]
     }
   ],
   "regions": [
     {
+      "text": "This is a button.",
+      "x": 0.15,
+      "y": 0.14,
+      "w": 0.3,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "This is a button,",
-      "x": 0.1726,
-      "y": 0.1433,
-      "w": 0.2357,
-      "h": 0.0209,
       "words": [
         "This",
         "is",
         "a",
-        "button,"
-      ],
-      "conf": 92.8346,
-      "source": "psm-11"
+        "button."
+      ]
     },
     {
+      "text": "This is a button-hole.",
+      "x": 0.15,
+      "y": 0.33,
+      "w": 0.3,
+      "h": 0.03,
       "id": "r2",
       "order": 1,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "button-hole."
+      ]
+    },
+    {
       "text": "This is a needle.",
-      "x": 0.6282,
-      "y": 0.204,
-      "w": 0.2373,
-      "h": 0.0338,
+      "x": 0.6,
+      "y": 0.2,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r3",
+      "order": 2,
       "words": [
         "This",
         "is",
         "a",
         "needle."
-      ],
-      "conf": 89.5796,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "This is a button-hole,",
-      "x": 0.151,
-      "y": 0.3301,
-      "w": 0.3112,
-      "h": 0.0209,
+      "text": "This is thread.",
+      "x": 0.58,
+      "y": 0.35,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r4",
+      "order": 3,
       "words": [
         "This",
         "is",
-        "a",
-        "button-hole,"
-      ],
-      "conf": 93.1717,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "This ts thread.",
-      "x": 0.595,
-      "y": 0.3457,
-      "w": 0.2066,
-      "h": 0.0199,
-      "words": [
-        "This",
-        "ts",
         "thread."
-      ],
-      "conf": 91.8276,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "What are you doing with your needle now? I am putting this button on the coat.",
+      "x": 0.12,
+      "y": 0.55,
+      "w": 0.4,
+      "h": 0.15,
       "id": "r5",
       "order": 4,
-      "text": "MY",
-      "x": 0.8598,
-      "y": 0.4461,
-      "w": 0.0324,
-      "h": 0.0156,
-      "words": [
-        "MY"
-      ],
-      "conf": 41.8534,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "What are you doing with your needle now?",
-      "x": 0.1261,
-      "y": 0.5529,
-      "w": 0.371,
-      "h": 0.0509,
       "words": [
         "What",
         "are",
@@ -127,48 +133,33 @@
         "with",
         "your",
         "needle",
-        "now?"
-      ],
-      "conf": 96.4257,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "And am making the button-holes.",
-      "x": 0.5643,
-      "y": 0.584,
-      "w": 0.317,
-      "h": 0.0451,
-      "words": [
-        "And",
+        "now?",
+        "I",
         "am",
-        "making",
-        "the",
-        "button-holes."
-      ],
-      "conf": 95.342,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "lam putting this button on the coat.",
-      "x": 0.1303,
-      "y": 0.6645,
-      "w": 0.3519,
-      "h": 0.0462,
-      "words": [
-        "lam",
         "putting",
         "this",
         "button",
         "on",
         "the",
         "coat."
-      ],
-      "conf": 82.0837,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "text": "And I am making the button-holes.",
+      "x": 0.56,
+      "y": 0.58,
+      "w": 0.38,
+      "h": 0.08,
+      "id": "r6",
+      "order": 5,
+      "words": [
+        "And",
+        "I",
+        "am",
+        "making",
+        "the",
+        "button-holes."
+      ]
     }
   ]
 }

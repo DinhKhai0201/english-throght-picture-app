@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "The engine's 'governor' is named after political government. In a free country, the people give power to a group to govern them.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.25 },
-    { "text": "(Diagram: A group of people representing a government within the borders of a country).", "x": 0.45, "y": 0.05, "w": 0.45, "h": 0.25 },
-    { "text": "Government should be 'of the people, by the people, for the people.' In free countries, people can change their government and limit its powers.", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.35 },
-    { "text": "govern: to be in control. limit: an edge or end point. FUTURE: will govern, limit. PRESENT: govern(s), limit(s). PAST: governed, limited.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.2 }
-  ]
-}

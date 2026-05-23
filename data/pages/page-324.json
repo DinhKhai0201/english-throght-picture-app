@@ -2,43 +2,48 @@
   "page": 324,
   "image": "/books/page 324.png",
   "imageApiPath": "/api/books/page%20324.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 9,
-    "wordCount": 110,
+    "regionCount": 4,
+    "wordCount": 108,
     "imageWidth": 1188,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r2",
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Bread, which is made from flour, supplies us with energy and is the chief food of many people. A small amount of seed planted in the earth can grow great amounts of good grain.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.35,
+      "h": 0.2,
       "id": "r1",
       "order": 0,
-      "text": "Bread, which is made from flour, supplies us with energy and is the chief food of many people.",
-      "x": 0.0859,
-      "y": 0.0214,
-      "w": 0.3409,
-      "h": 0.1462,
       "words": [
         "Bread,",
         "which",
@@ -57,20 +62,7 @@
         "food",
         "of",
         "many",
-        "people."
-      ],
-      "conf": 96.3879,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "A small amount of seed planted in the earth can grow great amounts of good grain.",
-      "x": 0.0918,
-      "y": 0.1966,
-      "w": 0.3383,
-      "h": 0.1007,
-      "words": [
+        "people.",
         "A",
         "small",
         "amount",
@@ -87,18 +79,16 @@
         "of",
         "good",
         "grain."
-      ],
-      "conf": 75.6346,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
       "text": "In eastern countries more rice is eaten than wheat.",
-      "x": 0.0943,
-      "y": 0.5629,
-      "w": 0.5808,
-      "h": 0.0953,
+      "x": 0.1,
+      "y": 0.55,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r2",
+      "order": 1,
       "words": [
         "In",
         "eastern",
@@ -109,32 +99,16 @@
         "eaten",
         "than",
         "wheat."
-      ],
-      "conf": 96.1291,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "Ny,",
-      "x": 0.4638,
-      "y": 0.6304,
-      "w": 0.1439,
-      "h": 0.0562,
-      "words": [
-        "Ny,"
-      ],
-      "conf": 55.1959,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "flour: a soft powder made from crushing wheat or other grain.",
-      "x": 0.0968,
-      "y": 0.7225,
-      "w": 0.7264,
-      "h": 0.0155,
+      "text": "flour: a soft powder made from crushing wheat or other grain. pound: measure of weight. One pound (1 lb.) is a little less than half a kilogram. One kilogram (1000 grams) is a little more than two pounds.",
+      "x": 0.1,
+      "y": 0.72,
+      "w": 0.85,
+      "h": 0.12,
+      "id": "r3",
+      "order": 2,
       "words": [
         "flour:",
         "a",
@@ -146,98 +120,50 @@
         "wheat",
         "or",
         "other",
-        "grain."
-      ],
-      "conf": 96.2409,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "pound: measure of weight. One pound Ib.) is a little less than half a",
-      "x": 0.0976,
-      "y": 0.7531,
-      "w": 0.8241,
-      "h": 0.0155,
-      "words": [
+        "grain.",
         "pound:",
         "measure",
         "of",
         "weight.",
         "One",
         "pound",
-        "Ib.)",
+        "(1",
+        "lb.)",
         "is",
         "a",
         "little",
         "less",
         "than",
         "half",
-        "a"
-      ],
-      "conf": 85.1572,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "kilogram, One kilogram grams) is a public use: use by anyone. The pubiic are the or west in the same",
-      "x": 0.0985,
-      "y": 0.7708,
-      "w": 0.5782,
-      "h": 0.0937,
-      "words": [
-        "kilogram,",
+        "a",
+        "kilogram.",
         "One",
         "kilogram",
+        "(1000",
         "grams)",
         "is",
         "a",
+        "little",
+        "more",
+        "than",
+        "two",
+        "pounds."
+      ]
+    },
+    {
+      "text": "public use: use by anyone. eastern: in or of the east (ern may be put on the end of north, south or west in the same way).",
+      "x": 0.1,
+      "y": 0.85,
+      "w": 0.85,
+      "h": 0.08,
+      "id": "r4",
+      "order": 3,
+      "words": [
         "public",
         "use:",
         "use",
         "by",
         "anyone.",
-        "The",
-        "pubiic",
-        "are",
-        "the",
-        "or",
-        "west",
-        "in",
-        "the",
-        "same"
-      ],
-      "conf": 92.4491,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "little more than two pounds",
-      "x": 0.1524,
-      "y": 0.7879,
-      "w": 0.3182,
-      "h": 0.0145,
-      "words": [
-        "little",
-        "more",
-        "than",
-        "two",
-        "pounds"
-      ],
-      "conf": 94.9323,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "eastern: in or of the east (ern may be put on the end of north, south",
-      "x": 0.0976,
-      "y": 0.8345,
-      "w": 0.8232,
-      "h": 0.015,
-      "words": [
         "eastern:",
         "in",
         "or",
@@ -253,10 +179,14 @@
         "end",
         "of",
         "north,",
-        "south"
-      ],
-      "conf": 94.9348,
-      "source": "psm-11"
+        "south",
+        "or",
+        "west",
+        "in",
+        "the",
+        "same",
+        "way)."
+      ]
     }
   ]
 }

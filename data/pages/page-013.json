@@ -46,27 +46,6 @@
       "source": "psm-11"
     },
     {
-      "id": "r2",
-      "order": 1,
-      "text": "This man is here. That man is there.",
-      "x": 0.1531,
-      "y": 0.1269,
-      "w": 0.7653,
-      "h": 0.0208,
-      "words": [
-        "This",
-        "man",
-        "is",
-        "here.",
-        "That",
-        "man",
-        "is",
-        "there."
-      ],
-      "conf": 96.2393,
-      "source": "psm-6"
-    },
-    {
       "id": "r3",
       "order": 2,
       "text": "That man is there.",
@@ -99,27 +78,6 @@
       ],
       "conf": 96.3549,
       "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "This woman is here. That woman is there.",
-      "x": 0.1281,
-      "y": 0.5637,
-      "w": 0.7911,
-      "h": 0.0219,
-      "words": [
-        "This",
-        "woman",
-        "is",
-        "here.",
-        "That",
-        "woman",
-        "is",
-        "there."
-      ],
-      "conf": 93.7095,
-      "source": "psm-6"
     },
     {
       "id": "r6",

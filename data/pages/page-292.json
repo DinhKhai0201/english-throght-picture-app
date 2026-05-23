@@ -2,48 +2,60 @@
   "page": 292,
   "image": "/books/page 292.png",
   "imageApiPath": "/api/books/page%20292.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 123,
+    "regionCount": 4,
+    "wordCount": 96,
     "imageWidth": 1180,
     "imageHeight": 1846
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12"
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "\"When were you born? Give me the date of your birth. What is your age?\" \"I was born on January 10, 1920. I am thirty-seven (years old).\"",
+      "x": 0.08,
+      "y": 0.05,
+      "w": 0.5,
+      "h": 0.2,
       "id": "r1",
       "order": 0,
-      "text": "“When were you born? Give me the date of your birth. What is your age?”",
-      "x": 0.0898,
-      "y": 0.0482,
-      "w": 0.5008,
-      "h": 0.077,
       "words": [
-        "“When",
+        "\"When",
         "were",
         "you",
         "born?",
@@ -57,44 +69,31 @@
         "What",
         "is",
         "your",
-        "age?”"
-      ],
-      "conf": 96.3934,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "“I was born on January I am thirty-seven (years old).”",
-      "x": 0.0898,
-      "y": 0.1436,
-      "w": 0.4627,
-      "h": 0.0476,
-      "words": [
-        "“I",
+        "age?\"",
+        "\"I",
         "was",
         "born",
         "on",
         "January",
+        "10,",
+        "1920.",
         "I",
         "am",
         "thirty-seven",
         "(years",
-        "old).”"
-      ],
-      "conf": 95.1183,
-      "source": "psm-11"
+        "old).\""
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "“When were you at school? How long were you there? How many years were you at school?”",
-      "x": 0.0924,
-      "y": 0.2459,
-      "w": 0.5008,
-      "h": 0.077,
+      "text": "\"When were you at school? How long were you there? How many years were you at school?\" \"I was at school eight years.\"",
+      "x": 0.08,
+      "y": 0.25,
+      "w": 0.5,
+      "h": 0.2,
+      "id": "r2",
+      "order": 1,
       "words": [
-        "“When",
+        "\"When",
         "were",
         "you",
         "at",
@@ -110,40 +109,25 @@
         "were",
         "you",
         "at",
-        "school?”"
-      ],
-      "conf": 96.2839,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "“I was at schooi eight years.”",
-      "x": 0.0949,
-      "y": 0.3391,
-      "w": 0.4339,
-      "h": 0.0217,
-      "words": [
-        "“I",
+        "school?\"",
+        "\"I",
         "was",
         "at",
-        "schooi",
+        "school",
         "eight",
-        "years.”"
-      ],
-      "conf": 93.4166,
-      "source": "psm-11"
+        "years.\""
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "“What work do you do? What is your occupation?”",
-      "x": 0.0949,
-      "y": 0.4437,
-      "w": 0.4992,
-      "h": 0.0498,
+      "text": "\"What work do you do? What is your occupation?\" \"I am a cook.\"",
+      "x": 0.08,
+      "y": 0.45,
+      "w": 0.5,
+      "h": 0.2,
+      "id": "r3",
+      "order": 2,
       "words": [
-        "“What",
+        "\"What",
         "work",
         "do",
         "you",
@@ -151,36 +135,21 @@
         "What",
         "is",
         "your",
-        "occupation?”"
-      ],
-      "conf": 96.359,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "“I am a cook.”",
-      "x": 0.0966,
-      "y": 0.5114,
-      "w": 0.2178,
-      "h": 0.0173,
-      "words": [
-        "“I",
+        "occupation?\"",
+        "\"I",
         "am",
         "a",
-        "cook.”"
-      ],
-      "conf": 82.1113,
-      "source": "psm-11"
+        "cook.\""
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "date: day of the month and year, If you give the day, month and year of your birth, that is a way of giving your age, saying how old",
-      "x": 0.0983,
-      "y": 0.7319,
-      "w": 0.8254,
-      "h": 0.0347,
+      "text": "date: day of the month and year. age: your age is the number of years you have lived. how many: what number of. occupation: work. cook: person who makes food ready by heating.",
+      "x": 0.1,
+      "y": 0.72,
+      "w": 0.85,
+      "h": 0.2,
+      "id": "r4",
+      "order": 3,
       "words": [
         "date:",
         "day",
@@ -188,42 +157,7 @@
         "the",
         "month",
         "and",
-        "year,",
-        "If",
-        "you",
-        "give",
-        "the",
-        "day,",
-        "month",
-        "and",
-        "year",
-        "of",
-        "your",
-        "birth,",
-        "that",
-        "is",
-        "a",
-        "way",
-        "of",
-        "giving",
-        "your",
-        "age,",
-        "saying",
-        "how",
-        "old"
-      ],
-      "conf": 92.2234,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "age: your age is the number of years you have lived.",
-      "x": 0.0992,
-      "y": 0.7855,
-      "w": 0.6229,
-      "h": 0.0163,
-      "words": [
+        "year.",
         "age:",
         "your",
         "age",
@@ -234,73 +168,14 @@
         "years",
         "you",
         "have",
-        "lived."
-      ],
-      "conf": 91.17,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "you are, how many: what number of.",
-      "x": 0.1,
-      "y": 0.7719,
-      "w": 0.3407,
-      "h": 0.0472,
-      "words": [
-        "you",
-        "are,",
+        "lived.",
         "how",
         "many:",
         "what",
         "number",
-        "of."
-      ],
-      "conf": 89.9757,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "eccupation: work.",
-      "x": 0.1,
-      "y": 0.8391,
-      "w": 0.2136,
-      "h": 0.0152,
-      "words": [
-        "eccupation:",
-        "work."
-      ],
-      "conf": 84.0233,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "many: a great number of.",
-      "x": 0.1008,
-      "y": 0.8212,
-      "w": 0.3093,
-      "h": 0.0157,
-      "words": [
-        "many:",
-        "a",
-        "great",
-        "number",
-        "of."
-      ],
-      "conf": 90.6044,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "cook: person who makes food ready by heating",
-      "x": 0.1,
-      "y": 0.8564,
-      "w": 0.5754,
-      "h": 0.0157,
-      "words": [
+        "of.",
+        "occupation:",
+        "work.",
         "cook:",
         "person",
         "who",
@@ -308,10 +183,8 @@
         "food",
         "ready",
         "by",
-        "heating"
-      ],
-      "conf": 95.2506,
-      "source": "psm-11"
+        "heating."
+      ]
     }
   ]
 }

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "A thermostat's design uses the fact that metals expand when heated. Different metals expand by different amounts.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "(Diagram: Comparing metals at low and high temperatures. Two metals are bent together inside the device).", "x": 0.45, "y": 0.2, "w": 0.5, "h": 0.35 },
-    { "text": "When the room gets too hot, one metal expands more, moving an arm that shuts off the heating fuel.", "x": 0.1, "y": 0.6, "w": 0.85, "h": 0.2 },
-    { "text": "purpose: what a thing is designed to do. (Illustrations of thermal expansion and bimetallic strip mechanics).", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
-  ]
-}

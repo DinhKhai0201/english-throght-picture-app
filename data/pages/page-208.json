@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20208.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 107,
+    "regionCount": 4,
+    "wordCount": 110,
     "imageWidth": 1163,
     "imageHeight": 1859
   },
@@ -18,9 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r5",
-        "r6"
+        "r1"
       ]
     },
     {
@@ -31,9 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r4"
+        "r2"
       ]
     },
     {
@@ -44,8 +40,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r9"
+        "r3"
       ]
     },
     {
@@ -56,21 +51,45 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r10",
-        "r11"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "What keeps the moon up in the sky? Why does not the moon come down?",
+      "x": 0.12,
+      "y": 0.32,
+      "w": 0.38,
+      "h": 0.1,
       "id": "r1",
       "order": 0,
-      "text": "The moon is a great body. Its weight is great.",
-      "x": 0.5675,
-      "y": 0.1388,
-      "w": 0.3113,
-      "h": 0.0736,
+      "words": [
+        "What",
+        "keeps",
+        "the",
+        "moon",
+        "up",
+        "in",
+        "the",
+        "sky?",
+        "Why",
+        "does",
+        "not",
+        "the",
+        "moon",
+        "come",
+        "down?"
+      ]
+    },
+    {
+      "text": "The moon is a great body. Its weight is great. The earth is a great body. Its weight is eighty-one times the weight of the moon. Two times three is six. 2 X 3 = 6",
+      "x": 0.56,
+      "y": 0.13,
+      "w": 0.4,
+      "h": 0.25,
+      "id": "r2",
+      "order": 1,
       "words": [
         "The",
         "moon",
@@ -81,20 +100,7 @@
         "Its",
         "weight",
         "is",
-        "great."
-      ],
-      "conf": 96.6604,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "The earth is a great body. Its weight is eighty-one times the weight of the moon.",
-      "x": 0.5684,
-      "y": 0.2141,
-      "w": 0.3146,
-      "h": 0.1006,
-      "words": [
+        "great.",
         "The",
         "earth",
         "is",
@@ -110,94 +116,27 @@
         "weight",
         "of",
         "the",
-        "moon."
-      ],
-      "conf": 96.3739,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "What keeps the moon up in the sky?",
-      "x": 0.1324,
-      "y": 0.3201,
-      "w": 0.3414,
-      "h": 0.05,
-      "words": [
-        "What",
-        "keeps",
-        "the",
-        "moon",
-        "up",
-        "in",
-        "the",
-        "sky?"
-      ],
-      "conf": 96.7303,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "Two times three is six,",
-      "x": 0.5684,
-      "y": 0.3174,
-      "w": 0.3362,
-      "h": 0.0194,
-      "words": [
+        "moon.",
         "Two",
         "times",
         "three",
         "is",
-        "six,"
-      ],
-      "conf": 94.7819,
-      "source": "psm-11"
+        "six.",
+        "2",
+        "X",
+        "3",
+        "=",
+        "6"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "Why does not the moon come down?",
-      "x": 0.1333,
-      "y": 0.3701,
-      "w": 0.2923,
-      "h": 0.0452,
-      "words": [
-        "Why",
-        "does",
-        "not",
-        "the",
-        "moon",
-        "come",
-        "down?"
-      ],
-      "conf": 96.595,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "we owe se",
-      "x": 0.1874,
-      "y": 0.4825,
-      "w": 0.129,
-      "h": 0.0194,
-      "words": [
-        "we",
-        "owe",
-        "se"
-      ],
-      "conf": 45.9373,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "The moon and the earth are not very far from one another.",
-      "x": 0.1195,
-      "y": 0.5503,
-      "w": 0.3405,
-      "h": 0.071,
+      "text": "The moon and the earth are not very far from one another. The distance between them is about two hundred and thirty-nine thousand (239,000) miles.",
+      "x": 0.1,
+      "y": 0.54,
+      "w": 0.4,
+      "h": 0.2,
+      "id": "r3",
+      "order": 2,
       "words": [
         "The",
         "moon",
@@ -210,19 +149,30 @@
         "far",
         "from",
         "one",
-        "another."
-      ],
-      "conf": 96.284,
-      "source": "psm-11"
+        "another.",
+        "The",
+        "distance",
+        "between",
+        "them",
+        "is",
+        "about",
+        "two",
+        "hundred",
+        "and",
+        "thirty-nine",
+        "thousand",
+        "(239,000)",
+        "miles."
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "Because they are great bodies and near one another, the attraction between the moon and the earth is very great.",
-      "x": 0.5537,
-      "y": 0.5745,
-      "w": 0.3586,
-      "h": 0.1254,
+      "text": "Because they are great bodies and near one another, the attraction between the moon and the earth is very great. Why does the moon not come down to the earth? That is a question.",
+      "x": 0.54,
+      "y": 0.57,
+      "w": 0.4,
+      "h": 0.22,
+      "id": "r4",
+      "order": 3,
       "words": [
         "Because",
         "they",
@@ -243,45 +193,7 @@
         "earth",
         "is",
         "very",
-        "great."
-      ],
-      "conf": 96.4558,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "The distance between them is about two hundred and thirty-nine thousand miles.",
-      "x": 0.1204,
-      "y": 0.6267,
-      "w": 0.3723,
-      "h": 0.1221,
-      "words": [
-        "The",
-        "distance",
-        "between",
-        "them",
-        "is",
-        "about",
-        "two",
-        "hundred",
-        "and",
-        "thirty-nine",
-        "thousand",
-        "miles."
-      ],
-      "conf": 96.5324,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "Why does the moon not come down to the earth?",
-      "x": 0.5537,
-      "y": 0.7015,
-      "w": 0.3697,
-      "h": 0.0704,
-      "words": [
+        "great.",
         "Why",
         "does",
         "the",
@@ -291,27 +203,12 @@
         "down",
         "to",
         "the",
-        "earth?"
-      ],
-      "conf": 96.719,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "That is a question.",
-      "x": 0.5537,
-      "y": 0.7784,
-      "w": 0.282,
-      "h": 0.0242,
-      "words": [
+        "earth?",
         "That",
         "is",
         "a",
         "question."
-      ],
-      "conf": 95.1488,
-      "source": "psm-11"
+      ]
     }
   ]
 }

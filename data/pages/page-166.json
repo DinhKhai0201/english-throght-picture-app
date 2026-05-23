@@ -2,41 +2,88 @@
   "page": 166,
   "image": "/books/page 166.png",
   "imageApiPath": "/api/books/page%20166.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 7,
-    "wordCount": 42,
+    "regionCount": 5,
+    "wordCount": 44,
     "imageWidth": 1188,
     "imageHeight": 1834
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3",
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r4",
-        "r5",
-        "r6",
-        "r7"
+        "r5"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Tom is making the holes for the nails.",
+      "x": 0.1,
+      "y": 0.38,
+      "w": 0.38,
+      "h": 0.08,
       "id": "r1",
       "order": 0,
+      "words": [
+        "Tom",
+        "is",
+        "making",
+        "the",
+        "holes",
+        "for",
+        "the",
+        "nails."
+      ]
+    },
+    {
       "text": "Now he is putting the nails in with his hammer.",
-      "x": 0.5185,
-      "y": 0.2094,
-      "w": 0.373,
-      "h": 0.0464,
+      "x": 0.52,
+      "y": 0.2,
+      "w": 0.4,
+      "h": 0.1,
+      "id": "r2",
+      "order": 1,
       "words": [
         "Now",
         "he",
@@ -48,53 +95,16 @@
         "with",
         "his",
         "hammer."
-      ],
-      "conf": 95.8072,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r2",
-      "order": 1,
-      "text": "Tom is making the holes for the nails.",
-      "x": 0.0918,
-      "y": 0.3877,
-      "w": 0.367,
-      "h": 0.0452,
-      "words": [
-        "Tom",
-        "is",
-        "making",
-        "the",
-        "holes",
-        "for",
-        "the",
-        "nails."
-      ],
-      "conf": 96.4648,
-      "source": "psm-11"
-    },
-    {
+      "text": "Now the two parts of the roof are together. These are the nails. The roof is ready.",
+      "x": 0.1,
+      "y": 0.54,
+      "w": 0.4,
+      "h": 0.35,
       "id": "r3",
       "order": 2,
-      "text": "AL",
-      "x": 0.5934,
-      "y": 0.3877,
-      "w": 0.1162,
-      "h": 0.0458,
-      "words": [
-        "AL"
-      ],
-      "conf": 42.9535,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "Now the two parts of the roof are together.",
-      "x": 0.096,
-      "y": 0.5425,
-      "w": 0.3746,
-      "h": 0.0475,
       "words": [
         "Now",
         "the",
@@ -104,19 +114,39 @@
         "the",
         "roof",
         "are",
-        "together."
-      ],
-      "conf": 96.7518,
-      "source": "psm-11"
+        "together.",
+        "These",
+        "are",
+        "the",
+        "nails.",
+        "The",
+        "roof",
+        "is",
+        "ready."
+      ]
     },
     {
+      "text": "Is it strong?",
+      "x": 0.74,
+      "y": 0.55,
+      "w": 0.18,
+      "h": 0.08,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "Is",
+        "it",
+        "strong?"
+      ]
+    },
+    {
+      "text": "Oh yes, it is very strong.",
+      "x": 0.53,
+      "y": 0.63,
+      "w": 0.2,
+      "h": 0.1,
       "id": "r5",
       "order": 4,
-      "text": "Oh yes, it is very strong.",
-      "x": 0.5463,
-      "y": 0.6401,
-      "w": 0.1279,
-      "h": 0.0769,
       "words": [
         "Oh",
         "yes,",
@@ -124,43 +154,7 @@
         "is",
         "very",
         "strong."
-      ],
-      "conf": 96.798,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "These are the nails.",
-      "x": 0.2668,
-      "y": 0.6663,
-      "w": 0.1481,
-      "h": 0.0458,
-      "words": [
-        "These",
-        "are",
-        "the",
-        "nails."
-      ],
-      "conf": 96.7798,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "The roof is ready.",
-      "x": 0.1338,
-      "y": 0.8413,
-      "w": 0.2702,
-      "h": 0.0251,
-      "words": [
-        "The",
-        "roof",
-        "is",
-        "ready."
-      ],
-      "conf": 94.6398,
-      "source": "psm-11"
+      ]
     }
   ]
 }

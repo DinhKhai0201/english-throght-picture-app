@@ -1,8 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "The greater the number of parts a thing has, the more complex it is. The smaller the number of parts a thing has, the simpler it is. Which of these is the more complex?", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "The more different the parts of a thing are from one another, the more complex it is. The less different the parts are, the less complex it is.", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.15 },
-    { "text": "Which of these is more complex?", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.05 }
-  ]
-}

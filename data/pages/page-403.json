@@ -4,26 +4,12 @@
   "imageApiPath": "/api/books/page%20403.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 129,
+    "regionCount": 4,
+    "wordCount": 101,
     "imageWidth": 1234,
     "imageHeight": 1859
   },
   "panels": [
-    {
-      "id": "top-left",
-      "label": "Top Left",
-      "x": 0,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2",
-        "r4",
-        "r5",
-        "r6"
-      ]
-    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -33,20 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3",
-        "r7"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r9",
-        "r12"
+        "r2"
       ]
     },
     {
@@ -57,21 +30,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r10",
-        "r11"
+        "r3",
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "The more the parts of a thing need one another, the more complex it is. Take one little wheel out of a watch and see if the other parts can work without it.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "The more the parts of a thing need one another, the more",
-      "x": 0.1094,
-      "y": 0.0296,
-      "w": 0.7917,
-      "h": 0.0221,
       "words": [
         "The",
         "more",
@@ -84,36 +56,10 @@
         "one",
         "another,",
         "the",
-        "more"
-      ],
-      "conf": 96.6062,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "complex it is.",
-      "x": 0.107,
-      "y": 0.0559,
-      "w": 0.1848,
-      "h": 0.021,
-      "words": [
+        "more",
         "complex",
         "it",
-        "is."
-      ],
-      "conf": 96.1565,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "Take one little wheel out of a watch, for example, and",
-      "x": 0.1078,
-      "y": 0.1081,
-      "w": 0.795,
-      "h": 0.0215,
-      "words": [
+        "is.",
         "Take",
         "one",
         "little",
@@ -121,46 +67,27 @@
         "out",
         "of",
         "a",
-        "watch,",
-        "for",
-        "example,",
-        "and"
-      ],
-      "conf": 96.3889,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "see if the other parts can do their work without it.",
-      "x": 0.1078,
-      "y": 0.135,
-      "w": 0.6961,
-      "h": 0.0215,
-      "words": [
+        "watch",
+        "and",
         "see",
         "if",
         "the",
         "other",
         "parts",
         "can",
-        "do",
-        "their",
         "work",
         "without",
         "it."
-      ],
-      "conf": 96.6101,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "Which is more complex—a stone or a plant?",
-      "x": 0.1086,
-      "y": 0.1877,
-      "w": 0.5972,
-      "h": 0.0221,
+      "text": "Which is more complex—a stone or a plant? The parts of the plant work together to keep it alive. Each part is dependent upon the others.",
+      "x": 0.1,
+      "y": 0.18,
+      "w": 0.85,
+      "h": 0.25,
+      "id": "r2",
+      "order": 1,
       "words": [
         "Which",
         "is",
@@ -169,111 +96,35 @@
         "stone",
         "or",
         "a",
-        "plant?"
-      ],
-      "conf": 95.6531,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "SIS",
-      "x": 0.1872,
-      "y": 0.2776,
-      "w": 0.064,
-      "h": 0.0151,
-      "words": [
-        "SIS"
-      ],
-      "conf": 57.3042,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "The leaves, the flower, stem and roots of the plant work",
-      "x": 0.1086,
-      "y": 0.4572,
-      "w": 0.795,
-      "h": 0.0393,
-      "words": [
+        "plant?",
         "The",
-        "leaves,",
-        "the",
-        "flower,",
-        "stem",
-        "and",
-        "roots",
+        "parts",
         "of",
         "the",
         "plant",
-        "work"
-      ],
-      "conf": 96.7703,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "together to keep it alive. But each does a different sort of work and each is dependent upon all the others. The",
-      "x": 0.1094,
-      "y": 0.4981,
-      "w": 0.7958,
-      "h": 0.049,
-      "words": [
+        "work",
         "together",
         "to",
         "keep",
         "it",
         "alive.",
-        "But",
-        "each",
-        "does",
-        "a",
-        "different",
-        "sort",
-        "of",
-        "work",
-        "and",
-        "each",
+        "Each",
+        "part",
         "is",
         "dependent",
         "upon",
-        "all",
         "the",
-        "others.",
-        "The"
-      ],
-      "conf": 95.974,
-      "source": "psm-11"
+        "others."
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "work of each part is different.",
-      "x": 0.1102,
-      "y": 0.5524,
-      "w": 0.4003,
-      "h": 0.021,
-      "words": [
-        "work",
-        "of",
-        "each",
-        "part",
-        "is",
-        "different."
-      ],
-      "conf": 96.6052,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "The parts of a stone do not work in this way for one another. A stone is a much simpler thing than a plant.",
-      "x": 0.1094,
-      "y": 0.6046,
-      "w": 0.7966,
-      "h": 0.0474,
+      "text": "The parts of a stone do not work in this way for one another. A stone is much simpler than a plant.",
+      "x": 0.1,
+      "y": 0.6,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r3",
+      "order": 2,
       "words": [
         "The",
         "parts",
@@ -292,25 +143,21 @@
         "A",
         "stone",
         "is",
-        "a",
         "much",
         "simpler",
-        "thing",
         "than",
         "a",
         "plant."
-      ],
-      "conf": 96.4851,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "Any living thing, however small or simple it may seem,",
-      "x": 0.1094,
-      "y": 0.6837,
-      "w": 0.7958,
-      "h": 0.0215,
+      "text": "Any living thing, however small or simple it may seem, is far more complex than anything which has no life.",
+      "x": 0.1,
+      "y": 0.72,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r4",
+      "order": 3,
       "words": [
         "Any",
         "living",
@@ -321,20 +168,7 @@
         "simple",
         "it",
         "may",
-        "seem,"
-      ],
-      "conf": 96.6327,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "is far more complex than anything which has no life.",
-      "x": 0.1102,
-      "y": 0.7101,
-      "w": 0.7293,
-      "h": 0.0226,
-      "words": [
+        "seem,",
         "is",
         "far",
         "more",
@@ -345,9 +179,7 @@
         "has",
         "no",
         "life."
-      ],
-      "conf": 96.6426,
-      "source": "psm-11"
+      ]
     }
   ]
 }

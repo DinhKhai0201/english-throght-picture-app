@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20480.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 15,
-    "wordCount": 117,
+    "regionCount": 4,
+    "wordCount": 77,
     "imageWidth": 1180,
     "imageHeight": 1846
   },
@@ -18,10 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r4",
-        "r6",
-        "r7"
+        "r2"
       ]
     },
     {
@@ -32,9 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r3",
-        "r5"
+        "r1"
       ]
     },
     {
@@ -45,10 +40,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r9",
-        "r12",
-        "r13"
+        "r3"
       ]
     },
     {
@@ -59,325 +51,131 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r10",
-        "r11",
-        "r14",
-        "r15"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Self-serving restaurants reduce the need for waitresses and save time. The AUTOMAT is a great example of this.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "There are ways of making restaurants self-serving, that is, of getting the public to do more of the work so that fewer waitresses are needed and less time is wasted in",
-      "x": 0.1102,
-      "y": 0.0282,
-      "w": 0.8271,
-      "h": 0.0894,
       "words": [
-        "There",
-        "are",
-        "ways",
-        "of",
-        "making",
+        "Self-serving",
         "restaurants",
-        "self-serving,",
-        "that",
-        "is,",
-        "of",
-        "getting",
+        "reduce",
         "the",
-        "public",
-        "to",
-        "do",
-        "more",
-        "of",
-        "the",
-        "work",
-        "so",
-        "that",
-        "fewer",
+        "need",
+        "for",
         "waitresses",
-        "are",
-        "needed",
         "and",
-        "less",
-        "time",
+        "save",
+        "time.",
+        "The",
+        "AUTOMAT",
         "is",
-        "wasted",
-        "in"
-      ],
-      "conf": 96.5547,
-      "source": "psm-11"
+        "a",
+        "great",
+        "example",
+        "of",
+        "this."
+      ]
     },
     {
+      "text": "Food is kept in boxes with glass doors. You look at the food, put in money, and the door unlocks for you.",
+      "x": 0.1,
+      "y": 0.22,
+      "w": 0.55,
+      "h": 0.35,
       "id": "r2",
       "order": 1,
-      "text": "waiting to be served.",
-      "x": 0.1093,
-      "y": 0.1257,
-      "w": 0.2924,
-      "h": 0.0211,
       "words": [
-        "waiting",
-        "to",
-        "be",
-        "served."
-      ],
-      "conf": 96.4181,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "The nearest thing to complete self-serving is the AUTO- MAT. Food and drink are put into boxes with glass",
-      "x": 0.1119,
-      "y": 0.1777,
-      "w": 0.8271,
-      "h": 0.0487,
-      "words": [
-        "The",
-        "nearest",
-        "thing",
-        "to",
-        "complete",
-        "self-serving",
-        "is",
-        "the",
-        "AUTO-",
-        "MAT.",
         "Food",
-        "and",
-        "drink",
-        "are",
-        "put",
-        "into",
+        "is",
+        "kept",
+        "in",
         "boxes",
         "with",
-        "glass"
-      ],
-      "conf": 95.5318,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "doors in front.",
-      "x": 0.111,
-      "y": 0.2308,
-      "w": 0.2093,
-      "h": 0.0173,
-      "words": [
-        "doors",
-        "in",
-        "front."
-      ],
-      "conf": 95.8708,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "=e)",
-      "x": 0.7551,
-      "y": 0.2654,
-      "w": 0.1136,
-      "h": 0.033,
-      "words": [
-        "=e)"
-      ],
-      "conf": 44.4976,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "You look at the food.",
-      "x": 0.111,
-      "y": 0.2963,
-      "w": 0.3237,
-      "h": 0.0179,
-      "words": [
+        "glass",
+        "doors.",
         "You",
         "look",
         "at",
         "the",
-        "food."
-      ],
-      "conf": 96.0301,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "If you want what you see, you put in the right amount of money and the door is unlocked so that you can",
-      "x": 0.1093,
-      "y": 0.3884,
-      "w": 0.4187,
-      "h": 0.0991,
-      "words": [
-        "If",
-        "you",
-        "want",
-        "what",
-        "you",
-        "see,",
-        "you",
+        "food,",
         "put",
         "in",
-        "the",
-        "right",
-        "amount",
-        "of",
-        "money",
+        "money,",
         "and",
         "the",
         "door",
-        "is",
-        "unlocked",
-        "so",
-        "that",
+        "unlocks",
+        "for",
+        "you."
+      ]
+    },
+    {
+      "text": "After you take your food and shut the door, fresh supplies are put in as the boxes are emptied.",
+      "x": 0.1,
+      "y": 0.58,
+      "w": 0.55,
+      "h": 0.2,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "After",
         "you",
-        "can"
-      ],
-      "conf": 96.2867,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "open it.",
-      "x": 0.1093,
-      "y": 0.493,
-      "w": 0.1169,
-      "h": 0.0211,
-      "words": [
-        "open",
-        "it."
-      ],
-      "conf": 94.9949,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "You take the food out and shut the door again.",
-      "x": 0.1068,
-      "y": 0.5704,
-      "w": 0.4186,
-      "h": 0.0623,
-      "words": [
-        "You",
         "take",
-        "the",
+        "your",
         "food",
-        "out",
         "and",
         "shut",
         "the",
-        "door",
-        "again."
-      ],
-      "conf": 96.4912,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "ry)",
-      "x": 0.8017,
-      "y": 0.6056,
-      "w": 0.0534,
-      "h": 0.0135,
-      "words": [
-        "ry)"
-      ],
-      "conf": 53.2506,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "Fresh supplies of food are put in the boxes as they are",
-      "x": 0.1042,
-      "y": 0.6901,
-      "w": 0.8305,
-      "h": 0.0217,
-      "words": [
-        "Fresh",
+        "door,",
+        "fresh",
         "supplies",
-        "of",
-        "food",
         "are",
         "put",
         "in",
+        "as",
         "the",
         "boxes",
-        "as",
-        "they",
-        "are"
-      ],
-      "conf": 96.686,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "emptied.",
-      "x": 0.1042,
-      "y": 0.7161,
-      "w": 0.1246,
-      "h": 0.0211,
-      "words": [
+        "are",
         "emptied."
-      ],
-      "conf": 96.7391,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r13",
-      "order": 12,
-      "text": "will empty",
-      "x": 0.1017,
-      "y": 0.8667,
-      "w": 0.1398,
-      "h": 0.0228,
+      "text": "(Illustrations: Using an Automat—looking at food, paying, and taking the meal). FUTURE: will empty. PRESENT: empty(ies). PAST: emptied.",
+      "x": 0.1,
+      "y": 0.8,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r4",
+      "order": 3,
       "words": [
+        "(Illustrations:",
+        "Using",
+        "an",
+        "Automat—looking",
+        "at",
+        "food,",
+        "paying,",
+        "and",
+        "taking",
+        "the",
+        "meal).",
+        "FUTURE:",
         "will",
-        "empty"
-      ],
-      "conf": 96.094,
-      "source": "psm-11"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "empty (ies)",
-      "x": 0.4458,
-      "y": 0.8667,
-      "w": 0.1475,
-      "h": 0.0228,
-      "words": [
-        "empty",
-        "(ies)"
-      ],
-      "conf": 73.6485,
-      "source": "psm-11"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "emptied",
-      "x": 0.8331,
-      "y": 0.8678,
-      "w": 0.1017,
-      "h": 0.0152,
-      "words": [
-        "emptied"
-      ],
-      "conf": 96.0722,
-      "source": "psm-11"
+        "empty.",
+        "PRESENT:",
+        "empty(ies).",
+        "PAST:",
+        "emptied."
+      ]
     }
   ]
 }

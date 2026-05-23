@@ -4,24 +4,12 @@
   "imageApiPath": "/api/books/page%20348.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 165,
+    "regionCount": 4,
+    "wordCount": 150,
     "imageWidth": 1180,
     "imageHeight": 1850
   },
   "panels": [
-    {
-      "id": "top-left",
-      "label": "Top Left",
-      "x": 0,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2",
-        "r4"
-      ]
-    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -31,23 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3",
-        "r5"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r7",
-        "r9",
-        "r10",
-        "r11",
-        "r12"
+        "r2"
       ]
     },
     {
@@ -58,21 +30,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r8",
-        "r13"
+        "r3",
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "In time some men discovered how to represent the sounds in words by marks. In any language there are only a small number of different sounds. By writing down marks to represent sounds, not ideas, men can spell any of the words in a language with only a small number of marks. Every written language today has its spelling system. The hardest languages to spell are those in which—as with English—many of the letters may represent more than one sound.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.25,
       "id": "r1",
       "order": 0,
-      "text": "In time some men discovered how to represent the sounds in words by marks. In any language there are only a small number of different sounds. By writing down marks to represent sounds, not ideas, men can spell any of the words in a language with only a smail number of marks. Every written language today has its spelling system. The hardest languages to spell are those in which—as with English—many of the letters may repre-",
-      "x": 0.1102,
-      "y": 0.0341,
-      "w": 0.833,
-      "h": 0.2113,
       "words": [
         "In",
         "time",
@@ -122,7 +93,7 @@
         "with",
         "only",
         "a",
-        "smail",
+        "small",
         "number",
         "of",
         "marks.",
@@ -149,80 +120,47 @@
         "the",
         "letters",
         "may",
-        "repre-"
-      ],
-      "conf": 95.6199,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "sent more than one sound.",
-      "x": 0.1119,
-      "y": 0.2432,
-      "w": 0.4186,
-      "h": 0.0216,
-      "words": [
-        "sent",
+        "represent",
         "more",
         "than",
         "one",
         "sound."
-      ],
-      "conf": 96.5996,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "ABCDEFGHI JKUMNOPQR",
-      "x": 0.5441,
-      "y": 0.2816,
-      "w": 0.3839,
-      "h": 0.1048,
-      "words": [
-        "ABCDEFGHI",
-        "JKUMNOPQR"
-      ],
-      "conf": 89.9799,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "Here is the complete Roman alphabet in which English and many other languages are written.",
-      "x": 0.1068,
-      "y": 0.3249,
-      "w": 0.4237,
-      "h": 0.1021,
+      "text": "Here is the complete Roman alphabet: ABCDEFGHIJKLMNOPQRSTUVWXYZ. English and many other languages use this system.",
+      "x": 0.1,
+      "y": 0.32,
+      "w": 0.85,
+      "h": 0.18,
+      "id": "r2",
+      "order": 1,
       "words": [
         "Here",
         "is",
         "the",
         "complete",
         "Roman",
-        "alphabet",
-        "in",
-        "which",
+        "alphabet:",
+        "ABCDEFGHIJKLMNOPQRSTUVWXYZ.",
         "English",
         "and",
         "many",
         "other",
         "languages",
-        "are",
-        "written."
-      ],
-      "conf": 96.5718,
-      "source": "psm-11"
+        "use",
+        "this",
+        "system."
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "Something written in English has a meaning only if it",
-      "x": 0.1034,
-      "y": 0.4795,
-      "w": 0.8339,
-      "h": 0.0276,
+      "text": "Something written in English has a meaning only if it is read as English, because the letters in English represent English sounds. What is written in Italian must be read as Italian.",
+      "x": 0.1,
+      "y": 0.52,
+      "w": 0.85,
+      "h": 0.12,
+      "id": "r3",
+      "order": 2,
       "words": [
         "Something",
         "written",
@@ -233,20 +171,7 @@
         "meaning",
         "only",
         "if",
-        "it"
-      ],
-      "conf": 95.6089,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "is read as English, because the letters in English represent English sounds. What is written in Italian must be read",
-      "x": 0.1025,
-      "y": 0.5086,
-      "w": 0.8339,
-      "h": 0.0492,
-      "words": [
+        "it",
         "is",
         "read",
         "as",
@@ -266,138 +191,44 @@
         "Italian",
         "must",
         "be",
-        "read"
-      ],
-      "conf": 96.6715,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "as Italian.",
-      "x": 0.1051,
-      "y": 0.5605,
-      "w": 0.1449,
-      "h": 0.0173,
-      "words": [
+        "read",
         "as",
         "Italian."
-      ],
-      "conf": 96.089,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "System: way ports are put together. tere letters are put together to",
-      "x": 0.1008,
-      "y": 0.7897,
-      "w": 0.8339,
-      "h": 0.0341,
+      "text": "spell: put letters together. system: way parts are put together. complete: all of it is there. FUTURE: will spell. PRESENT: spell(s). PAST: spelled.",
+      "x": 0.1,
+      "y": 0.78,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "System:",
+        "spell:",
+        "put",
+        "letters",
+        "together.",
+        "system:",
         "way",
-        "ports",
+        "parts",
         "are",
         "put",
         "together.",
-        "tere",
-        "letters",
-        "are",
-        "put",
-        "together",
-        "to"
-      ],
-      "conf": 89.7483,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "put letters together to make words.",
-      "x": 0.1805,
-      "y": 0.7724,
-      "w": 0.3941,
-      "h": 0.02,
-      "words": [
-        "put",
-        "letters",
-        "together",
-        "to",
-        "make",
-        "words."
-      ],
-      "conf": 96.315,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "represent the sounds of a languag",
-      "x": 0.1576,
-      "y": 0.8097,
-      "w": 0.3847,
-      "h": 0.0157,
-      "words": [
-        "represent",
-        "the",
-        "sounds",
-        "of",
-        "a",
-        "languag"
-      ],
-      "conf": 92.9744,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "something is complete ‘all of it Is there.",
-      "x": 0.2364,
-      "y": 0.8157,
-      "w": 0.5008,
-      "h": 0.0281,
-      "words": [
-        "something",
-        "is",
-        "complete",
-        "‘all",
+        "complete:",
+        "all",
         "of",
         "it",
-        "Is",
-        "there."
-      ],
-      "conf": 89.6756,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "will spell",
-      "x": 0.1008,
-      "y": 0.8551,
-      "w": 0.1212,
-      "h": 0.0205,
-      "words": [
+        "is",
+        "there.",
+        "FUTURE:",
         "will",
-        "spell"
-      ],
-      "conf": 92.9318,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "spelied",
-      "x": 0.8441,
-      "y": 0.8551,
-      "w": 0.089,
-      "h": 0.0157,
-      "words": [
-        "spelied"
-      ],
-      "conf": 86.669,
-      "source": "psm-11"
+        "spell.",
+        "PRESENT:",
+        "spell(s).",
+        "PAST:",
+        "spelled."
+      ]
     }
   ]
 }

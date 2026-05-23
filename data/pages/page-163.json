@@ -2,61 +2,70 @@
   "page": 163,
   "image": "/books/page 163.png",
   "imageApiPath": "/api/books/page%20163.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 5,
+    "regionCount": 4,
     "wordCount": 45,
     "imageWidth": 1284,
     "imageHeight": 1846
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5"
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "\"Keep on the line when you are cutting. Don't go off it.\"",
+      "x": 0.1,
+      "y": 0.14,
+      "w": 0.4,
+      "h": 0.08,
       "id": "r1",
       "order": 0,
-      "text": "Oh! You are going off the line!",
-      "x": 0.4969,
-      "y": 0.1159,
-      "w": 0.3232,
-      "h": 0.0493,
       "words": [
-        "Oh!",
-        "You",
-        "are",
-        "going",
-        "off",
-        "the",
-        "line!"
-      ],
-      "conf": 93.6929,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "“Keep on the line when you are cutting. Don't go off it.”",
-      "x": 0.1192,
-      "y": 0.143,
-      "w": 0.3481,
-      "h": 0.0705,
-      "words": [
-        "“Keep",
+        "\"Keep",
         "on",
         "the",
         "line",
@@ -67,20 +76,25 @@
         "Don't",
         "go",
         "off",
-        "it.”"
-      ],
-      "conf": 96.5093,
-      "source": "psm-11"
+        "it.\""
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "The cut is not on the line.",
-      "x": 0.5086,
-      "y": 0.1674,
-      "w": 0.3466,
-      "h": 0.0195,
+      "text": "Oh! You are going off the line! The cut is not on the line.",
+      "x": 0.52,
+      "y": 0.12,
+      "w": 0.4,
+      "h": 0.08,
+      "id": "r2",
+      "order": 1,
       "words": [
+        "Oh!",
+        "You",
+        "are",
+        "going",
+        "off",
+        "the",
+        "line!",
         "The",
         "cut",
         "is",
@@ -88,18 +102,16 @@
         "on",
         "the",
         "line."
-      ],
-      "conf": 96.494,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
       "text": "That is bad! The cut is off the line.",
-      "x": 0.1355,
-      "y": 0.5693,
-      "w": 0.3069,
-      "h": 0.045,
+      "x": 0.12,
+      "y": 0.57,
+      "w": 0.35,
+      "h": 0.05,
+      "id": "r3",
+      "order": 2,
       "words": [
         "That",
         "is",
@@ -110,18 +122,16 @@
         "off",
         "the",
         "line."
-      ],
-      "conf": 91.1768,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
       "text": "You did that! You gave a push to the table.",
-      "x": 0.5047,
-      "y": 0.5699,
-      "w": 0.3497,
-      "h": 0.0493,
+      "x": 0.52,
+      "y": 0.57,
+      "w": 0.4,
+      "h": 0.05,
+      "id": "r4",
+      "order": 3,
       "words": [
         "You",
         "did",
@@ -133,9 +143,7 @@
         "to",
         "the",
         "table."
-      ],
-      "conf": 96.1308,
-      "source": "psm-11"
+      ]
     }
   ]
 }

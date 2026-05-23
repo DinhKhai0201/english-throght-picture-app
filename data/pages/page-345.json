@@ -4,25 +4,12 @@
   "imageApiPath": "/api/books/page%20345.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 20,
-    "wordCount": 157,
+    "regionCount": 4,
+    "wordCount": 110,
     "imageWidth": 1234,
     "imageHeight": 1859
   },
   "panels": [
-    {
-      "id": "top-left",
-      "label": "Top Left",
-      "x": 0,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r1",
-        "r2",
-        "r3"
-      ]
-    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -31,28 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4",
-        "r5",
-        "r6"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r8",
-        "r9",
-        "r11",
-        "r12",
-        "r13",
-        "r16",
-        "r17",
-        "r18",
-        "r19"
+        "r1",
+        "r2"
       ]
     },
     {
@@ -63,23 +30,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r10",
-        "r14",
-        "r15",
-        "r20"
+        "r3",
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Writing is a very much newer invention than talking. Nobody knows when men first began to talk, but they did not begin to write, so far as we know, until seven or eight thousand years ago.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.12,
       "id": "r1",
       "order": 0,
-      "text": "Writing is a very much newer invention than talking.",
-      "x": 0.0956,
-      "y": 0.0382,
-      "w": 0.7958,
-      "h": 0.0231,
       "words": [
         "Writing",
         "is",
@@ -89,20 +53,7 @@
         "newer",
         "invention",
         "than",
-        "talking."
-      ],
-      "conf": 94.2163,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "Nobody knows when men first began to talk, but they did not begin to write, so far as we know, until seven or eight thousand years ago.",
-      "x": 0.0924,
-      "y": 0.0646,
-      "w": 0.8023,
-      "h": 0.0748,
-      "words": [
+        "talking.",
         "Nobody",
         "knows",
         "when",
@@ -130,81 +81,42 @@
         "thousand",
         "years",
         "ago."
-      ],
-      "conf": 96.3417,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "IN EGYPT, IN MESOPOTAMIA, IN CHINA: Ancient writing systems developed independently in these regions.",
+      "x": 0.1,
+      "y": 0.18,
+      "w": 0.85,
+      "h": 0.35,
+      "id": "r2",
+      "order": 1,
+      "words": [
+        "IN",
+        "EGYPT,",
+        "IN",
+        "MESOPOTAMIA,",
+        "IN",
+        "CHINA:",
+        "Ancient",
+        "writing",
+        "systems",
+        "developed",
+        "independently",
+        "in",
+        "these",
+        "regions."
+      ]
+    },
+    {
+      "text": "In Egypt, Mesopotamia, and China, and later in Palestine and Greece, men began to make marks and pictures with sticks and sharp stones from which others, or they themselves, later, could see what they had thought.",
+      "x": 0.1,
+      "y": 0.55,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r3",
       "order": 2,
-      "text": "IN EGYPT",
-      "x": 0.1629,
-      "y": 0.1737,
-      "w": 0.0964,
-      "h": 0.0118,
       "words": [
-        "IN",
-        "EGYPT"
-      ],
-      "conf": 81.4193,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "IN MESOPOTAMIA",
-      "x": 0.4327,
-      "y": 0.1732,
-      "w": 0.184,
-      "h": 0.0113,
-      "words": [
-        "IN",
-        "MESOPOTAMIA"
-      ],
-      "conf": 93.8991,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "IN CHINA",
-      "x": 0.7674,
-      "y": 0.1727,
-      "w": 0.1005,
-      "h": 0.0113,
-      "words": [
-        "IN",
-        "CHINA"
-      ],
-      "conf": 83.7843,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "O Dp",
-      "x": 0.7358,
-      "y": 0.404,
-      "w": 0.1483,
-      "h": 0.0608,
-      "words": [
-        "O",
-        "Dp"
-      ],
-      "conf": 63.1235,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "ag oO) In Egypt, Mesopotamia, and China, and later in Pales- tine and Greece, men began to make marks and pictures with sticks and sharp stones from which others, or they",
-      "x": 0.1062,
-      "y": 0.4744,
-      "w": 0.795,
-      "h": 0.1658,
-      "words": [
-        "ag",
-        "oO)",
         "In",
         "Egypt,",
         "Mesopotamia,",
@@ -213,8 +125,7 @@
         "and",
         "later",
         "in",
-        "Pales-",
-        "tine",
+        "Palestine",
         "and",
         "Greece,",
         "men",
@@ -233,35 +144,7 @@
         "which",
         "others,",
         "or",
-        "they"
-      ],
-      "conf": 56.2436,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "<Q i",
-      "x": 0.3817,
-      "y": 0.4766,
-      "w": 0.2293,
-      "h": 0.0495,
-      "words": [
-        "<Q",
-        "i"
-      ],
-      "conf": 55.0095,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "themselves, later, could see what they had thought.",
-      "x": 0.1062,
-      "y": 0.6439,
-      "w": 0.7293,
-      "h": 0.0221,
-      "words": [
+        "they",
         "themselves,",
         "later,",
         "could",
@@ -270,224 +153,42 @@
         "they",
         "had",
         "thought."
-      ],
-      "conf": 96.6653,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "lnvention: some new thing or a new way of doing something worked",
-      "x": 0.107,
-      "y": 0.6993,
-      "w": 0.7974,
-      "h": 0.0167,
+      "text": "invention: some new thing. began: started. sharp: cutting. stone: a hard material. later: opposite of earlier. FUTURE: will begin. PRESENT: begin(s). PAST: began, begun.",
+      "x": 0.1,
+      "y": 0.72,
+      "w": 0.85,
+      "h": 0.25,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "lnvention:",
+        "invention:",
         "some",
         "new",
-        "thing",
-        "or",
-        "a",
-        "new",
-        "way",
-        "of",
-        "doing",
-        "something",
-        "worked"
-      ],
-      "conf": 93.3151,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "sharp: cutting.",
-      "x": 0.1078,
-      "y": 0.7526,
-      "w": 0.1661,
-      "h": 0.0156,
-      "words": [
-        "sharp:",
-        "cutting."
-      ],
-      "conf": 92.7208,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "began: started.",
-      "x": 0.1086,
-      "y": 0.7348,
-      "w": 0.1702,
-      "h": 0.0156,
-      "words": [
+        "thing.",
         "began:",
-        "started."
-      ],
-      "conf": 89.8157,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "out by men,",
-      "x": 0.158,
-      "y": 0.7176,
-      "w": 0.1305,
-      "h": 0.0151,
-      "words": [
-        "out",
-        "by",
-        "men,"
-      ],
-      "conf": 93.1152,
-      "source": "psm-11"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "stone: a hard material, or a bit of it. Much of the earth is made of stone.",
-      "x": 0.1086,
-      "y": 0.7703,
-      "w": 0.7958,
-      "h": 0.014,
-      "words": [
+        "started.",
+        "sharp:",
+        "cutting.",
         "stone:",
         "a",
         "hard",
-        "material,",
-        "or",
-        "a",
-        "bit",
-        "of",
-        "it.",
-        "Much",
-        "of",
-        "the",
-        "earth",
-        "is",
-        "made",
-        "of",
-        "stone."
-      ],
-      "conf": 85.8508,
-      "source": "psm-11"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "Some stones are round and smooth from being rolled about by water.",
-      "x": 0.1596,
-      "y": 0.7875,
-      "w": 0.7455,
-      "h": 0.0151,
-      "words": [
-        "Some",
-        "stones",
-        "are",
-        "round",
-        "and",
-        "smooth",
-        "from",
-        "being",
-        "rolled",
-        "about",
-        "by",
-        "water."
-      ],
-      "conf": 94.1212,
-      "source": "psm-11"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "later (late, later, latest): opposite of earlier (early, earliest).",
-      "x": 0.1102,
-      "y": 0.8214,
-      "w": 0.765,
-      "h": 0.0167,
-      "words": [
-        "later",
-        "(late,",
-        "later,",
-        "latest):",
+        "material.",
+        "later:",
         "opposite",
         "of",
-        "earlier",
-        "(early,",
-        "earliest)."
-      ],
-      "conf": 95.9189,
-      "source": "psm-11"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "Others are sharp and early men made them into knives.",
-      "x": 0.1605,
-      "y": 0.8047,
-      "w": 0.6086,
-      "h": 0.0151,
-      "words": [
-        "Others",
-        "are",
-        "sharp",
-        "and",
-        "early",
-        "men",
-        "made",
-        "them",
-        "into",
-        "knives."
-      ],
-      "conf": 94.9982,
-      "source": "psm-11"
-    },
-    {
-      "id": "r18",
-      "order": 17,
-      "text": "wiil begin",
-      "x": 0.1094,
-      "y": 0.8521,
-      "w": 0.1199,
-      "h": 0.0156,
-      "words": [
-        "wiil",
-        "begin"
-      ],
-      "conf": 79.2443,
-      "source": "psm-11"
-    },
-    {
-      "id": "r19",
-      "order": 18,
-      "text": "begin(s)",
-      "x": 0.4287,
-      "y": 0.8515,
-      "w": 0.107,
-      "h": 0.0161,
-      "words": [
-        "begin(s)"
-      ],
-      "conf": 48.2088,
-      "source": "psm-11"
-    },
-    {
-      "id": "r20",
-      "order": 19,
-      "text": "began, begun",
-      "x": 0.7399,
-      "y": 0.8521,
-      "w": 0.1661,
-      "h": 0.0151,
-      "words": [
+        "earlier.",
+        "FUTURE:",
+        "will",
+        "begin.",
+        "PRESENT:",
+        "begin(s).",
+        "PAST:",
         "began,",
-        "begun"
-      ],
-      "conf": 96.1641,
-      "source": "psm-11"
+        "begun."
+      ]
     }
   ]
 }

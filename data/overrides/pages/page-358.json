@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "All men need air; we breathe in air from outside our bodies in every breath. When you put your face under water you cannot keep it there long.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "A swimmer can't swim under water very long. He needs air. A good swimmer may swim with his face in the water; if so, he keeps turning his head to take a breath through his mouth.", "x": 0.1, "y": 0.25, "w": 0.85, "h": 0.15 },
-    { "text": "He does not take in air through his nose under the water because water would get in through his nose with the air and go to his lungs. With water in his lungs a man can't go on living.", "x": 0.1, "y": 0.58, "w": 0.85, "h": 0.15 },
-    { "text": "swim: be swimming. lung: see next page. FUTURE: will swim. PRESENT: swim(s). PAST: swam.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.15 }
-  ]
-}

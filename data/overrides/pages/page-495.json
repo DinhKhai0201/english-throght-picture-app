@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "In the distant past, only physical changes took place. This is what the science of physics studies.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "(Diagrams: A turning wheel and boiling water). A wheel spinning and water boiling are examples of physical changes.", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.25 },
-    { "text": "(Diagrams: Ice forming and rain falling). Water turning to ice or falling as rain are also physical changes.", "x": 0.1, "y": 0.48, "w": 0.85, "h": 0.3 },
-    { "text": "physical: having to do with material bodies and movement, rather than minds.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
-  ]
-}

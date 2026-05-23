@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Centuries later, Galileo and Newton put geometry to wide use. Science has deeply changed how we live.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.2 },
-    { "text": "Here is a horse walking around a well to pull water. His motion turns a chain with buckets.", "x": 0.45, "y": 0.35, "w": 0.5, "h": 0.1 },
-    { "text": "The chain carries full buckets up and empty buckets down. The horse's eyes are covered so he doesn't know he's walking in a circle.", "x": 0.25, "y": 0.5, "w": 0.7, "h": 0.25 },
-    { "text": "empty: with nothing inside.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.08 }
-  ]
-}

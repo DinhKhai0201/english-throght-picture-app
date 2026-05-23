@@ -2,7 +2,7 @@
   "page": 157,
   "image": "/books/page 157.png",
   "imageApiPath": "/api/books/page%20157.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
     "regionCount": 4,
     "wordCount": 30,
@@ -11,29 +11,59 @@
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3",
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "This is the front of the box.",
+      "x": 0.12,
+      "y": 0.16,
+      "w": 0.35,
+      "h": 0.05,
       "id": "r1",
       "order": 0,
-      "text": "This is the front of the box.",
-      "x": 0.1533,
-      "y": 0.1651,
-      "w": 0.309,
-      "h": 0.044,
       "words": [
         "This",
         "is",
@@ -42,20 +72,18 @@
         "of",
         "the",
         "box."
-      ],
-      "conf": 96.7586,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "And this is the back of the box.",
+      "x": 0.54,
+      "y": 0.16,
+      "w": 0.38,
+      "h": 0.05,
       "id": "r2",
       "order": 1,
-      "text": "And. this is the back of the box.",
-      "x": 0.5393,
-      "y": 0.164,
-      "w": 0.3209,
-      "h": 0.0457,
       "words": [
-        "And.",
+        "And",
         "this",
         "is",
         "the",
@@ -63,18 +91,16 @@
         "of",
         "the",
         "box."
-      ],
-      "conf": 82.0713,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "This is the floor of the box.",
+      "x": 0.12,
+      "y": 0.61,
+      "w": 0.35,
+      "h": 0.05,
       "id": "r3",
       "order": 2,
-      "text": "This is the floor of the OX.",
-      "x": 0.1509,
-      "y": 0.6051,
-      "w": 0.3106,
-      "h": 0.0462,
       "words": [
         "This",
         "is",
@@ -82,31 +108,27 @@
         "floor",
         "of",
         "the",
-        "OX."
-      ],
-      "conf": 96.6173,
-      "source": "psm-11"
+        "box."
+      ]
     },
     {
+      "text": "And this is the cover of the box.",
+      "x": 0.54,
+      "y": 0.61,
+      "w": 0.38,
+      "h": 0.05,
       "id": "r4",
       "order": 3,
-      "text": "And this is the eover of the box.",
-      "x": 0.552,
-      "y": 0.6051,
-      "w": 0.3304,
-      "h": 0.0451,
       "words": [
         "And",
         "this",
         "is",
         "the",
-        "eover",
+        "cover",
         "of",
         "the",
         "box."
-      ],
-      "conf": 89.7972,
-      "source": "psm-11"
+      ]
     }
   ]
 }

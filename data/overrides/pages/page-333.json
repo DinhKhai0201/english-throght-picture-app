@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Some birds have eyes which can see great distances, and they have good hearing. Some of them can hear sounds which we cannot hear.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.15 },
-    { "text": "But man has made himself new ears and new eyes. Today he can talk with a person at the other side of the earth by telephone. Through the radio he can hear sounds which come to him through space from thousands of miles away.", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.3 },
-    { "text": "He can see through a telescope the mountains on the moon, and, through a microscope, thousands of living things in a drop of water.", "x": 0.1, "y": 0.55, "w": 0.85, "h": 0.15 },
-    { "text": "hear: take in sounds. space: distance between things. FUTURE: will hear. PRESENT: hear(s). PAST: heard.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.15 }
-  ]
-}

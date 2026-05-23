@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Hundreds of families may make their homes in one apartment house.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "In these stores people who live in the city can buy food, clothing and supplies of everything they need. Some stores sell food, some sell clothing and some sell furniture. In most cities there are great stores which sell almost everything. They supply these families with what they need.", "x": 0.1, "y": 0.42, "w": 0.85, "h": 0.35 },
-    { "text": "buy: get something by giving money for it. sell: supply for money. If I buy something from you, you sell it to me. supply: give a supply of.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.1 },
-    { "text": "FUTURE: will buy/sell/supply. PRESENT: buy(s)/sell(s)/supply(ies). PAST: bought/sold/supplied.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.08 }
-  ]
-}

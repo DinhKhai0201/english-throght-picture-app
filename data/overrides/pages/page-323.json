@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Man had to go from place to place for food until he discovered how to grow grain. Uncooked meat and parts of plants were all he had to eat until he made use of fire. And he had to get new supplies of food every day. He hadn't any way of keeping it good.", "x": 0.1, "y": 0.05, "w": 0.5, "h": 0.2 },
-    { "text": "How could he get enough good food for himself, his wife and his children without having to go looking for it every day?", "x": 0.1, "y": 0.28, "w": 0.55, "h": 0.1 },
-    { "text": "When he started growing grain, he had time to do other things than get the family food day by day. He could keep a supply of grain on hand through the winter until the next spring. He could make a home for himself and keep animals for his use.", "x": 0.1, "y": 0.52, "w": 0.5, "h": 0.2 },
-    { "text": "until (till): up to the time that.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.05 }
-  ]
-}

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20468.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 17,
-    "wordCount": 127,
+    "regionCount": 4,
+    "wordCount": 71,
     "imageWidth": 1188,
     "imageHeight": 1859
   },
@@ -18,25 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3",
-        "r5",
-        "r7",
-        "r8",
-        "r9"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r1",
-        "r4",
-        "r6"
+        "r1"
       ]
     },
     {
@@ -47,12 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15"
+        "r2"
       ]
     },
     {
@@ -63,359 +40,126 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r16",
-        "r17"
+        "r3",
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Rabbit tricks Fox, saying he's fishing. Fox gets in the top bucket to go down, which pulls Rabbit up.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.55,
+      "h": 0.3,
       "id": "r1",
       "order": 0,
-      "text": "doing a little fishing. There are hundreds of fish",
-      "x": 0.1852,
-      "y": 0.035,
-      "w": 0.7416,
-      "h": 0.0264,
       "words": [
-        "doing",
-        "a",
-        "little",
-        "fishing.",
-        "There",
-        "are",
-        "hundreds",
-        "of",
-        "fish"
-      ],
-      "conf": 96.072,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "down here.”",
-      "x": 0.1019,
-      "y": 0.0629,
-      "w": 0.1759,
-      "h": 0.0172,
-      "words": [
-        "down",
-        "here.”"
-      ],
-      "conf": 94.9299,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "“How can I get down there?” says Brer Fox.",
-      "x": 0.1035,
-      "y": 0.1162,
-      "w": 0.6726,
-      "h": 0.0285,
-      "words": [
-        "“How",
-        "can",
-        "I",
-        "get",
-        "down",
-        "there?”",
-        "says",
-        "Brer",
-        "Fox."
-      ],
-      "conf": 87.3843,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "“Just get in the bucket, Br’er Fox. It’ll bring you down",
-      "x": 0.1035,
-      "y": 0.1684,
-      "w": 0.8249,
-      "h": 0.0226,
-      "words": [
-        "“Just",
-        "get",
-        "in",
-        "the",
-        "bucket,",
-        "Br’er",
-        "Fox.",
-        "It’ll",
-        "bring",
-        "you",
-        "down"
-      ],
-      "conf": 91.5486,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "in no time,” says Br’er Rabbit.",
-      "x": 0.1052,
-      "y": 0.1942,
-      "w": 0.4495,
-      "h": 0.021,
-      "words": [
-        "in",
-        "no",
-        "time,”",
-        "says",
-        "Br’er",
-        "Rabbit."
-      ],
-      "conf": 94.8273,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "A?)",
-      "x": 0.7584,
-      "y": 0.2114,
-      "w": 0.101,
-      "h": 0.0533,
-      "words": [
-        "A?)"
-      ],
-      "conf": 64.6291,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "And as the fox goes down...",
-      "x": 0.1044,
-      "y": 0.2442,
-      "w": 0.1557,
-      "h": 0.071,
-      "words": [
-        "And",
-        "as",
-        "the",
-        "fox",
-        "goes",
-        "down..."
-      ],
-      "conf": 96.3861,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "up comes Br’er Rabbit to the top in his bucket, as he wanted to do.",
-      "x": 0.1044,
-      "y": 0.3507,
-      "w": 0.4992,
-      "h": 0.0463,
-      "words": [
-        "up",
-        "comes",
-        "Br’er",
         "Rabbit",
-        "to",
+        "tricks",
+        "Fox,",
+        "saying",
+        "he's",
+        "fishing.",
+        "Fox",
+        "gets",
+        "in",
         "the",
         "top",
-        "in",
-        "his",
-        "bucket,",
-        "as",
-        "he",
-        "wanted",
+        "bucket",
         "to",
-        "do."
-      ],
-      "conf": 95.1018,
-      "source": "psm-11"
+        "go",
+        "down,",
+        "which",
+        "pulls",
+        "Rabbit",
+        "up."
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "The two buckets go by one another on the way. “Good day, Brer Fox, some go up and some go down. A",
-      "x": 0.1077,
-      "y": 0.4293,
-      "w": 0.4983,
-      "h": 0.0737,
+      "text": "They pass each other. Rabbit says, 'Good day! Some go up and some go down.' This story is as old as any invention.",
+      "x": 0.1,
+      "y": 0.38,
+      "w": 0.55,
+      "h": 0.25,
+      "id": "r2",
+      "order": 1,
       "words": [
-        "The",
-        "two",
-        "buckets",
-        "go",
-        "by",
-        "one",
-        "another",
-        "on",
-        "the",
-        "way.",
-        "“Good",
-        "day,",
-        "Brer",
-        "Fox,",
-        "some",
+        "They",
+        "pass",
+        "each",
+        "other.",
+        "Rabbit",
+        "says,",
+        "'Good",
+        "day!",
+        "Some",
         "go",
         "up",
         "and",
         "some",
         "go",
-        "down.",
-        "A"
-      ],
-      "conf": 96.2343,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "happy landing to you,” says Br’er Rabbit with a smile and a wave of the hand.",
-      "x": 0.1086,
-      "y": 0.5073,
-      "w": 0.4991,
-      "h": 0.0688,
-      "words": [
-        "happy",
-        "landing",
-        "to",
-        "you,”",
-        "says",
-        "Br’er",
-        "Rabbit",
-        "with",
-        "a",
-        "smile",
-        "and",
-        "a",
-        "wave",
-        "of",
-        "the",
-        "hand."
-      ],
-      "conf": 93.5172,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "Such stories about animals are as old as any of man’s inventions.",
-      "x": 0.1103,
-      "y": 0.6116,
-      "w": 0.4975,
-      "h": 0.0474,
-      "words": [
-        "Such",
-        "stories",
-        "about",
-        "animals",
-        "are",
+        "down.'",
+        "This",
+        "story",
+        "is",
         "as",
         "old",
         "as",
         "any",
-        "of",
-        "man’s",
-        "inventions."
-      ],
-      "conf": 96.4608,
-      "source": "psm-11"
+        "invention."
+      ]
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "bring: come with.",
-      "x": 0.112,
-      "y": 0.8047,
-      "w": 0.3754,
-      "h": 0.0151,
+      "text": "(Illustration: Fox descending and Rabbit ascending in buckets connected by a pulley).",
+      "x": 0.65,
+      "y": 0.25,
+      "w": 0.3,
+      "h": 0.5,
+      "id": "r3",
+      "order": 2,
       "words": [
-        "bring:",
-        "come",
-        "with."
-      ],
-      "conf": 92.0934,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "in this sense, only.",
-      "x": 0.1742,
-      "y": 0.787,
-      "w": 0.2037,
-      "h": 0.0156,
-      "words": [
+        "(Illustration:",
+        "Fox",
+        "descending",
+        "and",
+        "Rabbit",
+        "ascending",
         "in",
-        "this",
-        "sense,",
-        "only."
-      ],
-      "conf": 93.9587,
-      "source": "psm-11"
+        "buckets",
+        "connected",
+        "by",
+        "a",
+        "pulley)."
+      ]
     },
     {
-      "id": "r14",
-      "order": 13,
-      "text": "coming to land, to earth, to harbor.",
-      "x": 0.2222,
-      "y": 0.8219,
-      "w": 0.3923,
-      "h": 0.0151,
+      "text": "just: only. bring: make come with. landing: coming to earth. FUTURE: will bring. PRESENT: bring(s). PAST: brought.",
+      "x": 0.1,
+      "y": 0.78,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r4",
+      "order": 3,
       "words": [
+        "just:",
+        "only.",
+        "bring:",
+        "make",
+        "come",
+        "with.",
+        "landing:",
         "coming",
         "to",
-        "land,",
-        "to",
-        "earth,",
-        "to",
-        "harbor."
-      ],
-      "conf": 96.2799,
-      "source": "psm-11"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "will bring",
-      "x": 0.1111,
-      "y": 0.8531,
-      "w": 0.1237,
-      "h": 0.0151,
-      "words": [
+        "earth.",
+        "FUTURE:",
         "will",
-        "bring"
-      ],
-      "conf": 95.944,
-      "source": "psm-11"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "bring(s)",
-      "x": 0.4823,
-      "y": 0.8526,
-      "w": 0.1069,
-      "h": 0.0161,
-      "words": [
-        "bring(s)"
-      ],
-      "conf": 91.0205,
-      "source": "psm-11"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "brought",
-      "x": 0.8392,
-      "y": 0.8531,
-      "w": 0.0968,
-      "h": 0.0151,
-      "words": [
-        "brought"
-      ],
-      "conf": 95.8795,
-      "source": "psm-11"
+        "bring.",
+        "PRESENT:",
+        "bring(s).",
+        "PAST:",
+        "brought."
+      ]
     }
   ]
 }

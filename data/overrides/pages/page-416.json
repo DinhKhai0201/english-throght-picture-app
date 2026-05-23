@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Most of the energy man uses comes from the sun through photosynthesis. Scientists know only a little so far, but scientific knowledge is increasing all the time.", "x": 0.1, "y": 0.05, "w": 0.5, "h": 0.25 },
-    { "text": "The rate at which scientific knowledge is increasing is going up all the time.", "x": 0.1, "y": 0.48, "w": 0.5, "h": 0.1 },
-    { "text": "In time it may be possible to use light energy in industry as plants do in their cells. since: from the time when. industry: making things on a large scale.", "x": 0.1, "y": 0.58, "w": 0.85, "h": 0.2 },
-    { "text": "scientific: to do with science. wait: be waiting. FUTURE: will wait. PRESENT: wait(s). PAST: waited.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
-  ]
-}

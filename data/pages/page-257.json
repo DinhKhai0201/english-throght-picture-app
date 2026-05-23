@@ -4,7 +4,7 @@
   "imageApiPath": "/api/books/page%20257.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 12,
+    "regionCount": 4,
     "wordCount": 77,
     "imageWidth": 1213,
     "imageHeight": 1884
@@ -18,10 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3",
-        "r6"
+        "r1"
       ]
     },
     {
@@ -32,9 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4",
-        "r5",
-        "r7"
+        "r2"
       ]
     },
     {
@@ -45,8 +40,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r10",
-        "r12"
+        "r3"
       ]
     },
     {
@@ -57,71 +51,47 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r9",
-        "r11"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "What is he doing? He is hammering. This is his hammer. These are nails of different sizes.",
+      "x": 0.1,
+      "y": 0.22,
+      "w": 0.38,
+      "h": 0.25,
       "id": "r1",
       "order": 0,
-      "text": "What is he doing?",
-      "x": 0.1748,
-      "y": 0.2256,
-      "w": 0.2745,
-      "h": 0.0234,
       "words": [
         "What",
         "is",
         "he",
-        "doing?"
-      ],
-      "conf": 96.103,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "He is hammering.",
-      "x": 0.1731,
-      "y": 0.2505,
-      "w": 0.2613,
-      "h": 0.0239,
-      "words": [
+        "doing?",
         "He",
         "is",
-        "hammering."
-      ],
-      "conf": 94.1468,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "This is his hammer.",
-      "x": 0.2061,
-      "y": 0.2935,
-      "w": 0.2951,
-      "h": 0.0239,
-      "words": [
+        "hammering.",
         "This",
         "is",
         "his",
-        "hammer."
-      ],
-      "conf": 96.668,
-      "source": "psm-11"
+        "hammer.",
+        "These",
+        "are",
+        "nails",
+        "of",
+        "different",
+        "sizes."
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "He is putting the cover on a Dox.",
-      "x": 0.5359,
-      "y": 0.3206,
-      "w": 0.3396,
-      "h": 0.0435,
+      "text": "He is putting the cover on a box. He is nailing down the cover of the box. The cover is on the top of the box.",
+      "x": 0.53,
+      "y": 0.32,
+      "w": 0.4,
+      "h": 0.15,
+      "id": "r2",
+      "order": 1,
       "words": [
         "He",
         "is",
@@ -130,20 +100,7 @@
         "cover",
         "on",
         "a",
-        "Dox."
-      ],
-      "conf": 96.5355,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "He is nailing down the cover of the box.",
-      "x": 0.535,
-      "y": 0.3705,
-      "w": 0.3381,
-      "h": 0.0435,
-      "words": [
+        "box.",
         "He",
         "is",
         "nailing",
@@ -152,39 +109,7 @@
         "cover",
         "of",
         "the",
-        "box."
-      ],
-      "conf": 96.2432,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "These are nails of different sizes.",
-      "x": 0.2094,
-      "y": 0.4193,
-      "w": 0.2663,
-      "h": 0.0441,
-      "words": [
-        "These",
-        "are",
-        "nails",
-        "of",
-        "different",
-        "sizes."
-      ],
-      "conf": 95.9501,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "The cover is on the top of the box.",
-      "x": 0.5334,
-      "y": 0.4199,
-      "w": 0.2836,
-      "h": 0.0483,
-      "words": [
+        "box.",
         "The",
         "cover",
         "is",
@@ -194,54 +119,16 @@
         "of",
         "the",
         "box."
-      ],
-      "conf": 96.7712,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "Mary has her hands over her ears.",
-      "x": 0.5293,
-      "y": 0.7139,
-      "w": 0.3017,
-      "h": 0.0441,
-      "words": [
-        "Mary",
-        "has",
-        "her",
-        "hands",
-        "over",
-        "her",
-        "ears."
-      ],
-      "conf": 96.1556,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "“What a noise!”",
-      "x": 0.5293,
-      "y": 0.7638,
-      "w": 0.2366,
-      "h": 0.0186,
-      "words": [
-        "“What",
-        "a",
-        "noise!”"
-      ],
-      "conf": 95.8601,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "The blows of the hammer make a noise.",
-      "x": 0.1237,
-      "y": 0.7893,
-      "w": 0.3397,
-      "h": 0.0435,
+      "text": "The blows of the hammer make a noise. He is making a very loud noise.",
+      "x": 0.1,
+      "y": 0.78,
+      "w": 0.38,
+      "h": 0.15,
+      "id": "r3",
+      "order": 2,
       "words": [
         "The",
         "blows",
@@ -250,42 +137,7 @@
         "hammer",
         "make",
         "a",
-        "noise."
-      ],
-      "conf": 96.486,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "She is saying, “What a noise you are making.”",
-      "x": 0.5276,
-      "y": 0.7887,
-      "w": 0.3471,
-      "h": 0.0489,
-      "words": [
-        "She",
-        "is",
-        "saying,",
-        "“What",
-        "a",
-        "noise",
-        "you",
-        "are",
-        "making.”"
-      ],
-      "conf": 96.2198,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "He is making a very loud noise.",
-      "x": 0.1237,
-      "y": 0.8397,
-      "w": 0.2992,
-      "h": 0.0425,
-      "words": [
+        "noise.",
         "He",
         "is",
         "making",
@@ -293,9 +145,37 @@
         "very",
         "loud",
         "noise."
-      ],
-      "conf": 96.3241,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "text": "Mary has her hands over her ears. \"What a noise!\" She is saying, \"What a noise you are making.\"",
+      "x": 0.52,
+      "y": 0.71,
+      "w": 0.4,
+      "h": 0.15,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "Mary",
+        "has",
+        "her",
+        "hands",
+        "over",
+        "her",
+        "ears.",
+        "\"What",
+        "a",
+        "noise!\"",
+        "She",
+        "is",
+        "saying,",
+        "\"What",
+        "a",
+        "noise",
+        "you",
+        "are",
+        "making.\""
+      ]
     }
   ]
 }

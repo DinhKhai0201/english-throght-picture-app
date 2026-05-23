@@ -2,45 +2,48 @@
   "page": 302,
   "image": "/books/page 302.png",
   "imageApiPath": "/api/books/page%20302.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 129,
+    "regionCount": 4,
+    "wordCount": 131,
     "imageWidth": 1205,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r2",
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "There were over two billion six hundred million (2,600,000,000) people in the world in 1954. Less than half of them could get as much food as they needed. Many of them because of this are not healthy.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "There were over two billion six hundred million",
-      "x": 0.1062,
-      "y": 0.0337,
-      "w": 0.8083,
-      "h": 0.0182,
       "words": [
         "There",
         "were",
@@ -49,25 +52,14 @@
         "billion",
         "six",
         "hundred",
-        "million"
-      ],
-      "conf": 96.2978,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "people in the world in Less than half of them could get as much food as they needed.",
-      "x": 0.1054,
-      "y": 0.06,
-      "w": 0.8099,
-      "h": 0.0476,
-      "words": [
+        "million",
+        "(2,600,000,000)",
         "people",
         "in",
         "the",
         "world",
         "in",
+        "1954.",
         "Less",
         "than",
         "half",
@@ -80,20 +72,7 @@
         "food",
         "as",
         "they",
-        "needed."
-      ],
-      "conf": 96.8558,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "Many of them because of this are not healthy.",
-      "x": 0.1054,
-      "y": 0.1109,
-      "w": 0.6963,
-      "h": 0.0225,
-      "words": [
+        "needed.",
         "Many",
         "of",
         "them",
@@ -103,18 +82,16 @@
         "are",
         "not",
         "healthy."
-      ],
-      "conf": 96.6075,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "There are some people everywhere who take more food than is good for them, but many more get less than",
-      "x": 0.1104,
-      "y": 0.5013,
-      "w": 0.8166,
-      "h": 0.0482,
+      "text": "There are some people everywhere who take more food than is good for them, but many more get less than they need. People are asking one another what the world population will be in 2050 if it goes on increasing like this.",
+      "x": 0.1,
+      "y": 0.5,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r2",
+      "order": 1,
       "words": [
         "There",
         "are",
@@ -135,35 +112,9 @@
         "more",
         "get",
         "less",
-        "than"
-      ],
-      "conf": 96.5442,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "they need.",
-      "x": 0.1095,
-      "y": 0.5533,
-      "w": 0.1477,
-      "h": 0.0209,
-      "words": [
+        "than",
         "they",
-        "need."
-      ],
-      "conf": 96.7981,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "People are asking one another what the world popula- tion will be in if it goes on increasing like this. It will be very great. It will be much greater in some parts",
-      "x": 0.1095,
-      "y": 0.6047,
-      "w": 0.8175,
-      "h": 0.0734,
-      "words": [
+        "need.",
         "People",
         "are",
         "asking",
@@ -172,18 +123,29 @@
         "what",
         "the",
         "world",
-        "popula-",
-        "tion",
+        "population",
         "will",
         "be",
         "in",
+        "2050",
         "if",
         "it",
         "goes",
         "on",
         "increasing",
         "like",
-        "this.",
+        "this."
+      ]
+    },
+    {
+      "text": "It will be very great. It will be much greater in some parts of the world than in others. Some people say it will be between five and ten billion and some that it may be as much as thirty billion.",
+      "x": 0.1,
+      "y": 0.65,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r3",
+      "order": 2,
+      "words": [
         "It",
         "will",
         "be",
@@ -196,39 +158,13 @@
         "greater",
         "in",
         "some",
-        "parts"
-      ],
-      "conf": 95.8912,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "of the world than in others.",
-      "x": 0.1104,
-      "y": 0.6829,
-      "w": 0.405,
-      "h": 0.0171,
-      "words": [
+        "parts",
         "of",
         "the",
         "world",
         "than",
         "in",
-        "others."
-      ],
-      "conf": 96.4763,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "Some people say it will be between five and ten billion",
-      "x": 0.1104,
-      "y": 0.7349,
-      "w": 0.8166,
-      "h": 0.0225,
-      "words": [
+        "others.",
         "Some",
         "people",
         "say",
@@ -239,20 +175,7 @@
         "five",
         "and",
         "ten",
-        "billion"
-      ],
-      "conf": 96.2091,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "and some that it may be as much as thirty billion.",
-      "x": 0.112,
-      "y": 0.7611,
-      "w": 0.7145,
-      "h": 0.022,
-      "words": [
+        "billion",
         "and",
         "some",
         "that",
@@ -264,46 +187,29 @@
         "as",
         "thirty",
         "billion."
-      ],
-      "conf": 96.5142,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "healthy: weil, right in body and mind.",
-      "x": 0.112,
-      "y": 0.827,
-      "w": 0.439,
-      "h": 0.0166,
+      "text": "healthy: well, right in body and mind. everywhere: in every place.",
+      "x": 0.1,
+      "y": 0.82,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r4",
+      "order": 3,
       "words": [
         "healthy:",
-        "weil,",
+        "well,",
         "right",
         "in",
         "body",
         "and",
-        "mind."
-      ],
-      "conf": 91.6144,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "everywhere: in every place.",
-      "x": 0.1137,
-      "y": 0.8447,
-      "w": 0.3344,
-      "h": 0.015,
-      "words": [
+        "mind.",
         "everywhere:",
         "in",
         "every",
         "place."
-      ],
-      "conf": 91.1435,
-      "source": "psm-11"
+      ]
     }
   ]
 }

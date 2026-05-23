@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Are some of the sounds used in one language very unlike any of those used in another? Yes. You may have felt in learning English that some of the sounds it uses are strange.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "But if you do not have a well-trained ear, you will not hear English words as they are heard by an Englishman or an American. You will hear the nearest sounds in your mother language.", "x": 0.1, "y": 0.15, "w": 0.85, "h": 0.1 },
-    { "text": "A good way of learning to make the sounds of a new language is to use recordings which have spaces after each sentence giving you time to say what you have heard before the next sentence comes.", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.15 },
-    { "text": "may have felt: may have had the feeling. trained: taught to do something well. FUTURE: will feel/train. PRESENT: feel(s)/train(s). PAST: felt/trained.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.15 }
-  ]
-}

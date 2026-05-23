@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Reading and thinking show us how ideas, people, and body organs are all interdependent. (Diagram: Grid comparing organs to social systems like direction, work, supply, and transport).", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.42 },
-    { "text": "Through reflection, we know ourselves. Shakespeare wrote that thinking must travel to be 'mirrored' where it can see itself.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.2 },
-    { "text": "Troilus and Cressida (Shakespeare). Some think the word was 'married' instead of 'mirrored'.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.08 },
-    { "text": "organ: body part. interdependent: needing each other. reflection: a mirror image. FUTURE: will reflect. PRESENT: reflect(s). PAST: reflected.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.15 }
-  ]
-}

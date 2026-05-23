@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "All organisms have needs in common: air, water, food, and the sun’s light and heat. But men have many other needs, like our need for other people.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.12 },
-    { "text": "We need other people to do things for us when we are very young, very old, or when we are ill. We need others to take care of us.", "x": 0.1, "y": 0.18, "w": 0.85, "h": 0.12 },
-    { "text": "We need their help and their love. care: when people look after us and help us.", "x": 0.1, "y": 0.58, "w": 0.85, "h": 0.2 },
-    { "text": "love: warm feeling for someone. Desire to take care of a person is one sort of love.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
-  ]
-}

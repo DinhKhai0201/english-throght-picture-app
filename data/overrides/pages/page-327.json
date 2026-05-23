@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Why do men work? Do they work only for their private needs — because of their need for homes and food and clothing for themselves and their families?", "x": 0.1, "y": 0.05, "w": 0.3, "h": 0.3 },
-    { "text": "Why do some men work when they have enough of all these things? Do they work for pleasure, because making things, for example, gives them pleasure? Do some men work for the public good? Why are some men happier when they are working? Isn’t work one of their needs?", "x": 0.1, "y": 0.38, "w": 0.85, "h": 0.15 },
-    { "text": "Why do you work? Do you need to work to be happy? Do we know one another’s needs? Aren’t we in the dark about some of them?", "x": 0.1, "y": 0.55, "w": 0.85, "h": 0.15 },
-    { "text": "private needs: needs of one person. public good: good of all. isn't/aren't: is not/are not. in the dark: people aren't able to see in the dark.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.15 }
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Bread, which is made from flour, supplies us with energy and is the chief food of many people. A small amount of seed planted in the earth can grow great amounts of good grain.", "x": 0.1, "y": 0.05, "w": 0.35, "h": 0.2 },
-    { "text": "In eastern countries more rice is eaten than wheat.", "x": 0.1, "y": 0.55, "w": 0.85, "h": 0.1 },
-    { "text": "flour: a soft powder made from crushing wheat or other grain. pound: measure of weight. One pound (1 lb.) is a little less than half a kilogram. One kilogram (1000 grams) is a little more than two pounds.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.12 },
-    { "text": "public use: use by anyone. eastern: in or of the east (ern may be put on the end of north, south or west in the same way).", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.08 }
-  ]
-}

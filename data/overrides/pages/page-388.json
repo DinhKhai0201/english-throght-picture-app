@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Thirty years after Columbus discovered America, the ship of Magellan was the first to make its way south of South America and on round the world back to Europe.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "Magellan himself died on one of the Philippine Islands on April 27 (in) 1521.", "x": 0.1, "y": 0.6, "w": 0.85, "h": 0.05 },
-    { "text": "When a ship sailed out to the west and came back home from the east three years later men could see that the earth must be round. This proved that the earth was round.", "x": 0.1, "y": 0.68, "w": 0.85, "h": 0.12 },
-    { "text": "sailor: man who works on ships. cape: piece of land pointing into the water.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
-  ]
-}

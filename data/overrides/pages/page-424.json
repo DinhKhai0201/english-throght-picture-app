@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "A man living in a city today is more like a cell in a complex organism. Other people do almost everything for him. Workers make things and stores sell them.", "x": 0.1, "y": 0.05, "w": 0.5, "h": 0.25 },
-    { "text": "Other people teach in schools, care for the ill in hospitals. Police and fire stations watch the city. Public services provide light, water, and waste removal.", "x": 0.1, "y": 0.3, "w": 0.5, "h": 0.25 },
-    { "text": "In exchange, each does his own sort of work, his daily round. police: those who see laws are kept. public: done for the good of all. service: work for others.", "x": 0.1, "y": 0.55, "w": 0.85, "h": 0.25 },
-    { "text": "upkeep: keeping things ready to be used. daily: every day.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.08 }
-  ]
-}

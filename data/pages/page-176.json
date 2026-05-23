@@ -2,10 +2,10 @@
   "page": 176,
   "image": "/books/page 176.png",
   "imageApiPath": "/api/books/page%20176.png",
-  "layout": "quad",
+  "layout": "questions",
   "stats": {
-    "regionCount": 14,
-    "wordCount": 94,
+    "regionCount": 10,
+    "wordCount": 86,
     "imageWidth": 1192,
     "imageHeight": 1859
   },
@@ -19,9 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r2",
-        "r4",
-        "r6",
-        "r8"
+        "r4"
       ]
     },
     {
@@ -34,8 +32,7 @@
       "regionIds": [
         "r1",
         "r3",
-        "r5",
-        "r7"
+        "r5"
       ]
     },
     {
@@ -46,9 +43,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r12",
-        "r14"
+        "r6",
+        "r8"
       ]
     },
     {
@@ -59,72 +55,38 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r10",
-        "r11",
-        "r13"
+        "r7",
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
+      "text": "QUESTIONS",
+      "x": 0.4,
+      "y": 0.08,
+      "w": 0.2,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "QUESTIONS",
-      "x": 0.4161,
-      "y": 0.0802,
-      "w": 0.193,
-      "h": 0.0194,
       "words": [
         "QUESTIONS"
-      ],
-      "conf": 96.2347,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "These are two walls. Which of them is thicker? Is wall A or wall B thicker?",
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.35,
+      "h": 0.18,
       "id": "r2",
       "order": 1,
-      "text": "a These-are two walls.",
-      "x": 0.13,
-      "y": 0.1194,
-      "w": 0.3473,
-      "h": 0.0188,
       "words": [
-        "a",
-        "These-are",
-        "two",
-        "walls."
-      ],
-      "conf": 91.3329,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "b These are two cuts.",
-      "x": 0.5663,
-      "y": 0.1173,
-      "w": 0.3221,
-      "h": 0.0409,
-      "words": [
-        "b",
         "These",
         "are",
         "two",
-        "cuts."
-      ],
-      "conf": 89.9397,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "rt: Which of them is thicker? Is wall A or wall B thicker?",
-      "x": 0.1728,
-      "y": 0.1904,
-      "w": 0.302,
-      "h": 0.099,
-      "words": [
-        "rt:",
+        "walls.",
         "Which",
         "of",
         "them",
@@ -137,19 +99,21 @@
         "wall",
         "B",
         "thicker?"
-      ],
-      "conf": 63.4252,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "Which of them is wider? Is cut A or cut B wider?",
-      "x": 0.6015,
-      "y": 0.2205,
-      "w": 0.2617,
-      "h": 0.0689,
+      "text": "These are two cuts. Which of them is wider? Is cut A or cut B wider?",
+      "x": 0.54,
+      "y": 0.12,
+      "w": 0.38,
+      "h": 0.18,
+      "id": "r3",
+      "order": 2,
       "words": [
+        "These",
+        "are",
+        "two",
+        "cuts.",
         "Which",
         "of",
         "them",
@@ -162,38 +126,37 @@
         "cut",
         "B",
         "wider?"
-      ],
-      "conf": 95.795,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "c These are two nails,",
-      "x": 0.1284,
-      "y": 0.3125,
-      "w": 0.3389,
-      "h": 0.0204,
+      "text": "These are two nails. Which of them is longer?",
+      "x": 0.12,
+      "y": 0.31,
+      "w": 0.38,
+      "h": 0.05,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "c",
         "These",
         "are",
         "two",
-        "nails,"
-      ],
-      "conf": 92.4373,
-      "source": "psm-11"
+        "nails.",
+        "Which",
+        "of",
+        "them",
+        "is",
+        "longer?"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "d Which of these two men is stronger?",
-      "x": 0.5461,
-      "y": 0.3131,
-      "w": 0.177,
-      "h": 0.1043,
+      "text": "Which of these two men is stronger?",
+      "x": 0.54,
+      "y": 0.31,
+      "w": 0.35,
+      "h": 0.12,
+      "id": "r5",
+      "order": 4,
       "words": [
-        "d",
         "Which",
         "of",
         "these",
@@ -201,38 +164,17 @@
         "men",
         "is",
         "stronger?"
-      ],
-      "conf": 88.6192,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "Which of them is longer?",
-      "x": 0.2693,
-      "y": 0.3545,
-      "w": 0.2206,
-      "h": 0.0489,
+      "text": "Which of these two pencils is shorter?",
+      "x": 0.12,
+      "y": 0.51,
+      "w": 0.38,
+      "h": 0.05,
+      "id": "r6",
+      "order": 5,
       "words": [
-        "Which",
-        "of",
-        "them",
-        "is",
-        "longer?"
-      ],
-      "conf": 95.7367,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "e Which of these two pencils is shorter?",
-      "x": 0.1351,
-      "y": 0.5164,
-      "w": 0.3297,
-      "h": 0.049,
-      "words": [
-        "e",
         "Which",
         "of",
         "these",
@@ -240,57 +182,38 @@
         "pencils",
         "is",
         "shorter?"
-      ],
-      "conf": 95.3176,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "f Which of these two cards is longer?",
-      "x": 0.5579,
-      "y": 0.5169,
-      "w": 0.3263,
-      "h": 0.0484,
+      "text": "Which of these two cards is longer? Which is wider?",
+      "x": 0.54,
+      "y": 0.51,
+      "w": 0.4,
+      "h": 0.15,
+      "id": "r7",
+      "order": 6,
       "words": [
-        "f",
         "Which",
         "of",
         "these",
         "two",
         "cards",
         "is",
-        "longer?"
-      ],
-      "conf": 94.6593,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "Which is wider?",
-      "x": 0.6116,
-      "y": 0.6503,
-      "w": 0.2391,
-      "h": 0.0183,
-      "words": [
+        "longer?",
         "Which",
         "is",
         "wider?"
-      ],
-      "conf": 96.4447,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "g Which of these three angles is a right angle?",
-      "x": 0.1225,
-      "y": 0.7047,
-      "w": 0.3557,
-      "h": 0.0737,
+      "text": "Which of these three angles is a right angle?",
+      "x": 0.12,
+      "y": 0.7,
+      "w": 0.38,
+      "h": 0.08,
+      "id": "r8",
+      "order": 7,
       "words": [
-        "g",
         "Which",
         "of",
         "these",
@@ -300,47 +223,40 @@
         "a",
         "right",
         "angle?"
-      ],
-      "conf": 96.0111,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r13",
-      "order": 12,
-      "text": "h Which of these things are broken?",
-      "x": 0.5361,
-      "y": 0.7063,
-      "w": 0.3674,
-      "h": 0.0446,
+      "text": "Which of these things are broken?",
+      "x": 0.54,
+      "y": 0.7,
+      "w": 0.38,
+      "h": 0.05,
+      "id": "r9",
+      "order": 8,
       "words": [
-        "h",
         "Which",
         "of",
         "these",
         "things",
         "are",
         "broken?"
-      ],
-      "conf": 87.7137,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r14",
-      "order": 13,
-      "text": "Ps) Answers are on page",
-      "x": 0.2894,
-      "y": 0.8338,
-      "w": 0.3524,
-      "h": 0.0817,
+      "text": "Answers are on page 174.",
+      "x": 0.3,
+      "y": 0.89,
+      "w": 0.4,
+      "h": 0.03,
+      "id": "r10",
+      "order": 9,
       "words": [
-        "Ps)",
         "Answers",
         "are",
         "on",
-        "page"
-      ],
-      "conf": 47.0479,
-      "source": "psm-11"
+        "page",
+        "174."
+      ]
     }
   ]
 }

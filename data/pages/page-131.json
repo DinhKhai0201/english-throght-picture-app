@@ -2,146 +2,130 @@
   "page": 131,
   "image": "/books/page 131.png",
   "imageApiPath": "/api/books/page%20131.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 7,
-    "wordCount": 36,
+    "regionCount": 6,
+    "wordCount": 35,
     "imageWidth": 1259,
     "imageHeight": 1846
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7"
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6"
       ]
     }
   ],
   "regions": [
     {
+      "text": "This plate is clean.",
+      "x": 0.1,
+      "y": 0.11,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "This plate is clean.",
-      "x": 0.1557,
-      "y": 0.1105,
-      "w": 0.2685,
-      "h": 0.0238,
       "words": [
         "This",
         "plate",
         "is",
         "clean."
-      ],
-      "conf": 96.8938,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "This plate is dirty.",
+      "x": 0.1,
+      "y": 0.29,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r2",
       "order": 1,
-      "text": "His face is dirty.",
-      "x": 0.5751,
-      "y": 0.1197,
-      "w": 0.2351,
-      "h": 0.0358,
-      "words": [
-        "His",
-        "face",
-        "is",
-        "dirty."
-      ],
-      "conf": 96.0269,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "oy,",
-      "x": 0.6458,
-      "y": 0.1593,
-      "w": 0.0898,
-      "h": 0.0764,
-      "words": [
-        "oy,"
-      ],
-      "conf": 41.6939,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "This plate is dirty.",
-      "x": 0.1604,
-      "y": 0.2882,
-      "w": 0.2589,
-      "h": 0.0255,
       "words": [
         "This",
         "plate",
         "is",
         "dirty."
-      ],
-      "conf": 96.8866,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
+      "text": "His face is dirty.",
+      "x": 0.54,
+      "y": 0.12,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "His",
+        "face",
+        "is",
+        "dirty."
+      ]
+    },
+    {
       "text": "His face is clean.",
-      "x": 0.5759,
-      "y": 0.2963,
-      "w": 0.2431,
-      "h": 0.019,
+      "x": 0.54,
+      "y": 0.3,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r4",
+      "order": 3,
       "words": [
         "His",
         "face",
         "is",
         "clean."
-      ],
-      "conf": 96.7263,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "Now the cloth is dirty i but plate is clean.",
-      "x": 0.4726,
-      "y": 0.5125,
-      "w": 0.3757,
-      "h": 0.0921,
-      "words": [
-        "Now",
-        "the",
-        "cloth",
-        "is",
-        "dirty",
-        "i",
-        "but",
-        "plate",
-        "is",
-        "clean."
-      ],
-      "conf": 96.8426,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
       "text": "The plate is dirty but the cloth is clean.",
-      "x": 0.1382,
-      "y": 0.539,
-      "w": 0.3026,
-      "h": 0.0455,
+      "x": 0.09,
+      "y": 0.54,
+      "w": 0.38,
+      "h": 0.08,
+      "id": "r5",
+      "order": 4,
       "words": [
         "The",
         "plate",
@@ -152,9 +136,28 @@
         "cloth",
         "is",
         "clean."
-      ],
-      "conf": 96.6591,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "text": "Now the cloth is dirty but the plate is clean.",
+      "x": 0.53,
+      "y": 0.54,
+      "w": 0.4,
+      "h": 0.08,
+      "id": "r6",
+      "order": 5,
+      "words": [
+        "Now",
+        "the",
+        "cloth",
+        "is",
+        "dirty",
+        "but",
+        "the",
+        "plate",
+        "is",
+        "clean."
+      ]
     }
   ]
 }

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "There were more than twice as many people in the world in the year 1850 as in 1650. There were more than twice as many in 1950 as in 1850. Will the population of the world go on increasing? Look at the curve in this picture.", "x": 0.1, "y": 0.05, "w": 0.5, "h": 0.25 },
-    { "text": "Graph: years 1650, 1750, 1850, 1950. Billions: 0, 1/2, 1, 2, 2 1/2.", "x": 0.65, "y": 0.1, "w": 0.3, "h": 0.6 },
-    { "text": "twice: twice a thing is two times it. world: the earth and all that (which) is on it—people, other living things and the things that man has made.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.08 },
-    { "text": "curve: line that goes on changing its direction.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
-  ]
-}

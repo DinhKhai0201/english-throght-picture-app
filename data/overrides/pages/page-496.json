@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "More complex changes developed later. A burning candle involves both physical and chemical changes.", "x": 0.1, "y": 0.05, "w": 0.55, "h": 0.15 },
-    { "text": "(Diagram: A burning candle). Melting wax and turning into gas are physical changes.", "x": 0.68, "y": 0.05, "w": 0.25, "h": 0.3 },
-    { "text": "Inside the flame, carbon and oxygen create carbon dioxide and water. This is a chemical change. You can see the water by holding a glass over the flame.", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.35 },
-    { "text": "chemical changes: when the structure of materials changes into something new. Light and heat are also given out.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.2 }
-  ]
-}

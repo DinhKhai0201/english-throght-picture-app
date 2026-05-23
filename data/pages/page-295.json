@@ -2,40 +2,47 @@
   "page": 295,
   "image": "/books/page 295.png",
   "imageApiPath": "/api/books/page%20295.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 6,
-    "wordCount": 138,
+    "regionCount": 3,
+    "wordCount": 141,
     "imageWidth": 1234,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6"
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Japan and India and China are parts of Asia. Germany, Italy and France are in Europe. In all these countries there are many people. In some countries there is very little land for the size of the population.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "Japan and India and China are parts of Asia. Germany, Italy and France are in Europe. In all these countries there are many people. In some countries there is very little land for the size of the population. Europe has less land than Canada and not much more than the U.S.A., but it has a population more than thirty times as great as Canada’s. And the numbers keep going up. Between",
-      "x": 0.1037,
-      "y": 0.0398,
-      "w": 0.8006,
-      "h": 0.1802,
       "words": [
         "Japan",
         "and",
@@ -74,7 +81,18 @@
         "size",
         "of",
         "the",
-        "population.",
+        "population."
+      ]
+    },
+    {
+      "text": "Europe has less land than Canada and not much more than the U.S.A., but it has a population more than thirty times as great as Canada's. And the numbers keep going up. Between 1850 and 1950, more than thirty million people went from Europe to live in the U.S.A., but the population of Europe in 1954 was greater than the populations of North and South America together.",
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.85,
+      "h": 0.35,
+      "id": "r2",
+      "order": 1,
+      "words": [
         "Europe",
         "has",
         "less",
@@ -100,47 +118,23 @@
         "as",
         "great",
         "as",
-        "Canada’s.",
+        "Canada's.",
         "And",
         "the",
         "numbers",
         "keep",
         "going",
         "up.",
-        "Between"
-      ],
-      "conf": 89.9695,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "and more than thirty million people went",
-      "x": 0.1929,
-      "y": 0.2249,
-      "w": 0.7115,
-      "h": 0.021,
-      "words": [
+        "Between",
+        "1850",
         "and",
+        "1950,",
         "more",
         "than",
         "thirty",
         "million",
         "people",
-        "went"
-      ],
-      "conf": 96.3726,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "from Europe to live in the U.S.A., but the population of Europe in",
-      "x": 0.4222,
-      "y": 0.2507,
-      "w": 0.4822,
-      "h": 0.0478,
-      "words": [
+        "went",
         "from",
         "Europe",
         "to",
@@ -153,45 +147,29 @@
         "population",
         "of",
         "Europe",
-        "in"
-      ],
-      "conf": 93.6305,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "was greater than the popu- lations of North and South Amer- ica together.",
-      "x": 0.4246,
-      "y": 0.3034,
-      "w": 0.4806,
-      "h": 0.0726,
-      "words": [
+        "in",
+        "1954",
         "was",
         "greater",
         "than",
         "the",
-        "popu-",
-        "lations",
+        "populations",
         "of",
         "North",
         "and",
         "South",
-        "Amer-",
-        "ica",
+        "America",
         "together."
-      ],
-      "conf": 94.7509,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "times as great: in this picture B is four times the size of A, It Is four times as great as A,",
-      "x": 0.1175,
-      "y": 0.7558,
-      "w": 0.4044,
-      "h": 0.05,
+      "text": "times as great: in this picture B is four times the size of A. It is four times as great as A. population: the population of a place is the number of people living in it.",
+      "x": 0.1,
+      "y": 0.75,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r3",
+      "order": 2,
       "words": [
         "times",
         "as",
@@ -206,28 +184,15 @@
         "the",
         "size",
         "of",
-        "A,",
+        "A.",
         "It",
-        "Is",
+        "is",
         "four",
         "times",
         "as",
         "great",
         "as",
-        "A,"
-      ],
-      "conf": 94.2045,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "population: the population of a place is the number of people living",
-      "x": 0.1167,
-      "y": 0.8311,
-      "w": 0.8023,
-      "h": 0.0339,
-      "words": [
+        "A.",
         "population:",
         "the",
         "population",
@@ -239,10 +204,10 @@
         "number",
         "of",
         "people",
-        "living"
-      ],
-      "conf": 95.0744,
-      "source": "psm-11"
+        "living",
+        "in",
+        "it."
+      ]
     }
   ]
 }

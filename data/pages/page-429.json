@@ -4,25 +4,12 @@
   "imageApiPath": "/api/books/page%20429.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 9,
-    "wordCount": 90,
+    "regionCount": 3,
+    "wordCount": 66,
     "imageWidth": 1250,
     "imageHeight": 1859
   },
   "panels": [
-    {
-      "id": "top-left",
-      "label": "Top Left",
-      "x": 0,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r1",
-        "r3",
-        "r4"
-      ]
-    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -31,20 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r5"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r7",
-        "r9"
+        "r1"
       ]
     },
     {
@@ -55,182 +29,91 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r8"
+        "r2",
+        "r3"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Men need to hear beautiful things. Music may go back farther than other arts, but we have no records before the discovery of writing.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "Men need to hear beautiful things.",
-      "x": 0.1152,
-      "y": 0.0414,
-      "w": 0.4672,
-      "h": 0.0258,
       "words": [
         "Men",
         "need",
         "to",
         "hear",
         "beautiful",
-        "things."
-      ],
-      "conf": 96.4212,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "Music may go back still farther in time than the other arts, but unhappily we have no records of music before the discovery of writing. As with language the writing of",
-      "x": 0.1112,
-      "y": 0.0958,
-      "w": 0.7896,
-      "h": 0.0855,
-      "words": [
+        "things.",
         "Music",
         "may",
         "go",
         "back",
-        "still",
         "farther",
-        "in",
-        "time",
         "than",
-        "the",
         "other",
         "arts,",
         "but",
-        "unhappily",
         "we",
         "have",
         "no",
         "records",
-        "of",
-        "music",
         "before",
         "the",
         "discovery",
         "of",
-        "writing.",
-        "As",
-        "with",
-        "language",
-        "the",
-        "writing",
-        "of"
-      ],
-      "conf": 96.4203,
-      "source": "psm-11"
+        "writing."
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "music may have started with pictures.",
-      "x": 0.1136,
-      "y": 0.1754,
-      "w": 0.5136,
-      "h": 0.0226,
+      "text": "The writing of music may have started with pictures. Today we can write down music and make copies of the sound as it is played.",
+      "x": 0.1,
+      "y": 0.65,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r2",
+      "order": 1,
       "words": [
+        "The",
+        "writing",
+        "of",
         "music",
         "may",
         "have",
         "started",
         "with",
-        "pictures."
-      ],
-      "conf": 95.9103,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "wa Sat",
-      "x": 0.384,
-      "y": 0.4024,
-      "w": 0.2088,
-      "h": 0.0468,
-      "words": [
-        "wa",
-        "Sat"
-      ],
-      "conf": 43.8868,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "we.",
-      "x": 0.4792,
-      "y": 0.475,
-      "w": 0.24,
-      "h": 0.0253,
-      "words": [
-        "we."
-      ],
-      "conf": 55.8079,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "Today not only do we have ways of writing down music, but we can make copies of the sound of music as it is",
-      "x": 0.1168,
-      "y": 0.6407,
-      "w": 0.7856,
-      "h": 0.049,
-      "words": [
+        "pictures.",
         "Today",
-        "not",
-        "only",
-        "do",
-        "we",
-        "have",
-        "ways",
-        "of",
-        "writing",
-        "down",
-        "music,",
-        "but",
         "we",
         "can",
+        "write",
+        "down",
+        "music",
+        "and",
         "make",
         "copies",
         "of",
         "the",
         "sound",
-        "of",
-        "music",
         "as",
         "it",
-        "is"
-      ],
-      "conf": 96.5429,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "played.",
-      "x": 0.1168,
-      "y": 0.6939,
-      "w": 0.1,
-      "h": 0.0226,
-      "words": [
+        "is",
         "played."
-      ],
-      "conf": 77.1917,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "art: work done to feed the mind and heart through the senses and feel-",
-      "x": 0.116,
-      "y": 0.8419,
-      "w": 0.7864,
-      "h": 0.0167,
+      "text": "art: work done to feed the mind and heart through senses and feelings. examples: painting, sculpture, music.",
+      "x": 0.1,
+      "y": 0.82,
+      "w": 0.85,
+      "h": 0.12,
+      "id": "r3",
+      "order": 2,
       "words": [
         "art:",
         "work",
@@ -242,31 +125,14 @@
         "and",
         "heart",
         "through",
-        "the",
         "senses",
         "and",
-        "feel-"
-      ],
-      "conf": 95.3011,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "ings: painting, sculpture, music, etc.",
-      "x": 0.168,
-      "y": 0.8591,
-      "w": 0.3808,
-      "h": 0.0151,
-      "words": [
-        "ings:",
+        "feelings.",
+        "examples:",
         "painting,",
         "sculpture,",
-        "music,",
-        "etc."
-      ],
-      "conf": 95.5454,
-      "source": "psm-11"
+        "music."
+      ]
     }
   ]
 }

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Cameras and eyes both form upside-down pictures. (Diagrams: Camera and eye showing inverted images of a person).", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.38 },
-    { "text": "Light reaching the eye is physical. But in the retina, chemical changes happen, similar to how film records photos.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.22 },
-    { "text": "(Illustration: A roll of film). These chemical changes cause even more complex changes in the retina's living cells.", "x": 0.1, "y": 0.75, "w": 0.55, "h": 0.22 },
-    { "text": "film: material for taking photos. cause: to make something happen. FUTURE: will cause. PRESENT: cause(s). PAST: caused.", "x": 0.6, "y": 0.75, "w": 0.35, "h": 0.22 }
-  ]
-}

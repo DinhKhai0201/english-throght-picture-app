@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Men have been attempting for thousands of years to make wings that will let them fly like the birds.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.12 },
-    { "text": "Here is the picture of the first flying machine to take men into the sky, made in 1903. It did not fly very fast or very far.", "x": 0.45, "y": 0.25, "w": 0.5, "h": 0.12 },
-    { "text": "Now planes can fly farther and faster than the fastest bird and can carry heavy weights through the air. Man can go faster than sound in the newest planes.", "x": 0.1, "y": 0.42, "w": 0.85, "h": 0.1 },
-    { "text": "heavy: of great weight. fast: quickly. fly: go through the air. FUTURE: will fly. PRESENT: fly(ies). PAST: flew, flown.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.15 }
-  ]
-}

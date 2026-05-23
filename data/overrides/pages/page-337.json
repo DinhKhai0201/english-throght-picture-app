@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "We can see why distances between people are not as important now as they were. They may be bridged in so many ways.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.08 },
-    { "text": "What is a bridge? Here is a wide river with a bridge over it. The bridge is more than a mile long and is made of steel. It can carry very heavy weights. It is so strong that not only automobiles but trains go across it. It is so high that great ships go under it.", "x": 0.1, "y": 0.15, "w": 0.85, "h": 0.15 },
-    { "text": "Language is a bridge between minds, a bridge so strong that trains of thought can go across. Language can bridge distances.", "x": 0.1, "y": 0.62, "w": 0.85, "h": 0.1 },
-    { "text": "so: very. so strong that: strong enough to let. FUTURE: will bridge. PRESENT: bridge(s). PAST: bridged.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.15 }
-  ]
-}

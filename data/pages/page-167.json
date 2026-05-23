@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20167.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 50,
+    "regionCount": 6,
+    "wordCount": 54,
     "imageWidth": 1221,
     "imageHeight": 1834
   },
@@ -18,8 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r3"
+        "r1"
       ]
     },
     {
@@ -30,8 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r4"
+        "r2"
       ]
     },
     {
@@ -42,11 +40,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r6",
-        "r7",
-        "r9",
-        "r10"
+        "r3",
+        "r4"
       ]
     },
     {
@@ -57,232 +52,131 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r11",
-        "r12",
-        "r13"
+        "r5",
+        "r6"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Don't do that! Oh, now it is broken!",
+      "x": 0.15,
+      "y": 0.12,
+      "w": 0.25,
+      "h": 0.1,
       "id": "r1",
       "order": 0,
-      "text": "Don't do that!",
-      "x": 0.1622,
-      "y": 0.1189,
-      "w": 0.2039,
-      "h": 0.0185,
       "words": [
         "Don't",
         "do",
-        "that!"
-      ],
-      "conf": 96.5588,
-      "source": "psm-11"
+        "that!",
+        "Oh,",
+        "now",
+        "it",
+        "is",
+        "broken!"
+      ]
     },
     {
+      "text": "But you said, \"It is very strong!\" It wasn't strong.",
+      "x": 0.6,
+      "y": 0.12,
+      "w": 0.3,
+      "h": 0.1,
       "id": "r2",
       "order": 1,
-      "text": "But you said, “It is very strong!”",
-      "x": 0.6077,
-      "y": 0.102,
-      "w": 0.267,
-      "h": 0.067,
       "words": [
         "But",
         "you",
         "said,",
-        "“It",
+        "\"It",
         "is",
         "very",
-        "strong!”"
-      ],
-      "conf": 94.1953,
-      "source": "psm-11"
+        "strong!\"",
+        "It",
+        "wasn't",
+        "strong."
+      ]
     },
     {
+      "text": "I will make it stronger. Give the roof to me, please.",
+      "x": 0.12,
+      "y": 0.49,
+      "w": 0.25,
+      "h": 0.15,
       "id": "r3",
       "order": 2,
-      "text": "Oh, now it",
-      "x": 0.1613,
-      "y": 0.1445,
-      "w": 0.154,
-      "h": 0.0196,
-      "words": [
-        "Oh,",
-        "now",
-        "it"
-      ],
-      "conf": 94.9874,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "It wasn’t strong.",
-      "x": 0.6093,
-      "y": 0.1723,
-      "w": 0.2318,
-      "h": 0.0218,
-      "words": [
-        "It",
-        "wasn’t",
-        "strong."
-      ],
-      "conf": 76.2606,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "I'm giving) Give the roof",
-      "x": 0.1376,
-      "y": 0.5082,
-      "w": 0.3923,
-      "h": 0.0545,
-      "words": [
-        "I'm",
-        "giving)",
-        "Give",
-        "the",
-        "roof"
-      ],
-      "conf": 81.5,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "I will make it stronger.",
-      "x": 0.1392,
-      "y": 0.4929,
-      "w": 0.1564,
-      "h": 0.0485,
       "words": [
         "I",
         "will",
         "make",
         "it",
-        "stronger."
-      ],
-      "conf": 91.0962,
-      "source": "psm-11"
+        "stronger.",
+        "Give",
+        "the",
+        "roof",
+        "to",
+        "me,",
+        "please."
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "it to you.",
-      "x": 0.3653,
-      "y": 0.5349,
-      "w": 0.1278,
-      "h": 0.0218,
+      "text": "I'm giving it to you.",
+      "x": 0.35,
+      "y": 0.5,
+      "w": 0.18,
+      "h": 0.1,
+      "id": "r4",
+      "order": 3,
       "words": [
+        "I'm",
+        "giving",
         "it",
         "to",
         "you."
-      ],
-      "conf": 92.42,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "Is this line long?",
-      "x": 0.5643,
-      "y": 0.5202,
-      "w": 0.2342,
-      "h": 0.024,
+      "text": "Is this line long? This line is longer.",
+      "x": 0.56,
+      "y": 0.52,
+      "w": 0.38,
+      "h": 0.1,
+      "id": "r5",
+      "order": 4,
       "words": [
         "Is",
         "this",
         "line",
-        "long?"
-      ],
-      "conf": 94.9895,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "to me,",
-      "x": 0.1376,
-      "y": 0.572,
-      "w": 0.0885,
-      "h": 0.0185,
-      "words": [
-        "to",
-        "me,"
-      ],
-      "conf": 96.5733,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "lease",
-      "x": 0.2588,
-      "y": 0.5692,
-      "w": 0.0729,
-      "h": 0.0185,
-      "words": [
-        "lease"
-      ],
-      "conf": 96.7415,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "This line is longer.",
-      "x": 0.5938,
-      "y": 0.5747,
-      "w": 0.2629,
-      "h": 0.0245,
-      "words": [
+        "long?",
         "This",
         "line",
         "is",
         "longer."
-      ],
-      "conf": 96.7984,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "bit of wood strong?",
-      "x": 0.6396,
-      "y": 0.6505,
-      "w": 0.2801,
-      "h": 0.0234,
+      "text": "Is this bit of wood strong? This bit of wood is stronger.",
+      "x": 0.54,
+      "y": 0.65,
+      "w": 0.4,
+      "h": 0.25,
+      "id": "r6",
+      "order": 5,
       "words": [
+        "Is",
+        "this",
         "bit",
         "of",
         "wood",
-        "strong?"
-      ],
-      "conf": 96.4042,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "This bit of wood is stronger.",
-      "x": 0.5545,
-      "y": 0.7863,
-      "w": 0.2711,
-      "h": 0.0491,
-      "words": [
+        "strong?",
         "This",
         "bit",
         "of",
         "wood",
         "is",
         "stronger."
-      ],
-      "conf": 96.3317,
-      "source": "psm-11"
+      ]
     }
   ]
 }

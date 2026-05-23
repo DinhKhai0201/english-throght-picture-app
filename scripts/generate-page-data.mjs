@@ -5,7 +5,6 @@ import { basename, join } from "node:path";
 const booksDir = join(process.cwd(), "books");
 const dataDir = join(process.cwd(), "data");
 const pagesDir = join(dataDir, "pages");
-const overridesDir = join(dataDir, "overrides", "pages");
 
 mkdirSync(pagesDir, { recursive: true });
 
@@ -300,17 +299,17 @@ function normalizeComparableText(text) {
 }
 
 function applyPageOverride(payload) {
-  const filePath = join(overridesDir, `page-${String(payload.page).padStart(3, "0")}.json`);
+  const filePath = join(pagesDir, `page-${String(payload.page).padStart(3, "0")}.json`);
   if (!existsSync(filePath)) return payload;
 
-  const override = JSON.parse(readFileSync(filePath, "utf8"));
+  const existing = JSON.parse(readFileSync(filePath, "utf8"));
   const next = {
     ...payload,
-    ...override,
+    ...existing,
   };
 
-  if (override.regions) {
-    next.regions = override.regions.map((region, index) => ({
+  if (existing.regions) {
+    next.regions = existing.regions.map((region, index) => ({
       ...region,
       id: region.id || `r${index + 1}`,
       order: index,
@@ -318,8 +317,8 @@ function applyPageOverride(payload) {
     }));
   }
 
-  if (override.layout && !override.panels) {
-    next.panels = buildPanels(override.layout, next.regions);
+  if (existing.layout && !existing.panels) {
+    next.panels = buildPanels(existing.layout, next.regions);
   }
 
   return next;

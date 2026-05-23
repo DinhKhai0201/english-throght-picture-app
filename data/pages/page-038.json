@@ -2,92 +2,62 @@
   "page": 38,
   "image": "/books/page 38.png",
   "imageApiPath": "/api/books/page%2038.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
     "regionCount": 28,
-    "wordCount": 180,
+    "wordCount": 181,
     "imageWidth": 1267,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2",
-        "r4",
-        "r7",
-        "r9",
-        "r13"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
+        "r2",
         "r3",
+        "r4",
         "r5",
         "r6",
+        "r7",
         "r8",
+        "r9",
         "r10",
         "r11",
-        "r12"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r12",
+        "r13",
         "r14",
+        "r15",
         "r16",
         "r17",
-        "r19",
-        "r21",
-        "r23",
-        "r25",
-        "r27"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r15",
         "r18",
+        "r19",
         "r20",
+        "r21",
         "r22",
+        "r23",
         "r24",
+        "r25",
         "r26",
+        "r27",
         "r28"
       ]
     }
   ],
   "regions": [
     {
+      "text": "These are answers to questions on pages 31, 32, and 33. This page is page 34.",
+      "x": 0.15,
+      "y": 0.1,
+      "w": 0.7,
+      "h": 0.05,
       "id": "r1",
       "order": 0,
-      "text": "These are answers to questions on pages and",
-      "x": 0.1555,
-      "y": 0.0944,
-      "w": 0.7561,
-      "h": 0.0251,
       "words": [
         "These",
         "are",
@@ -96,127 +66,147 @@
         "questions",
         "on",
         "pages",
-        "and"
-      ],
-      "conf": 96.7394,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "This page is page Page a Itis a house.",
-      "x": 0.1602,
-      "y": 0.1211,
-      "w": 0.2983,
-      "h": 0.1168,
-      "words": [
+        "31,",
+        "32,",
+        "and",
+        "33.",
         "This",
         "page",
         "is",
         "page",
-        "Page",
-        "a",
-        "Itis",
-        "a",
-        "house."
-      ],
-      "conf": 96.7105,
-      "source": "psm-11"
+        "34."
+      ]
     },
     {
+      "text": "Page 31",
+      "x": 0.15,
+      "y": 0.18,
+      "w": 0.1,
+      "h": 0.03,
+      "id": "r2",
+      "order": 1,
+      "words": [
+        "Page",
+        "31"
+      ]
+    },
+    {
+      "text": "It is a house.",
+      "x": 0.2,
+      "y": 0.22,
+      "w": 0.2,
+      "h": 0.03,
       "id": "r3",
       "order": 2,
-      "text": "b Itis a ship.",
-      "x": 0.5785,
-      "y": 0.2171,
-      "w": 0.1839,
-      "h": 0.0235,
       "words": [
-        "b",
-        "Itis",
+        "It",
+        "is",
         "a",
-        "ship."
-      ],
-      "conf": 75.037,
-      "source": "psm-11"
+        "house."
+      ]
     },
     {
+      "text": "It is a ship.",
+      "x": 0.6,
+      "y": 0.22,
+      "w": 0.2,
+      "h": 0.03,
       "id": "r4",
       "order": 3,
-      "text": "a table.",
-      "x": 0.2526,
-      "y": 0.2432,
-      "w": 0.1073,
-      "h": 0.0187,
       "words": [
+        "It",
+        "is",
         "a",
-        "table."
-      ],
-      "conf": 39.6418,
-      "source": "psm-11"
+        "ship."
+      ]
     },
     {
+      "text": "It is a table.",
+      "x": 0.2,
+      "y": 0.25,
+      "w": 0.2,
+      "h": 0.03,
       "id": "r5",
       "order": 4,
-      "text": "d a bottle.",
-      "x": 0.5777,
-      "y": 0.2416,
-      "w": 0.2107,
-      "h": 0.0197,
       "words": [
-        "d",
+        "It",
+        "is",
         "a",
-        "bottle."
-      ],
-      "conf": 92.9484,
-      "source": "psm-11"
+        "table."
+      ]
     },
     {
+      "text": "It is a bottle.",
+      "x": 0.6,
+      "y": 0.25,
+      "w": 0.2,
+      "h": 0.03,
       "id": "r6",
       "order": 5,
-      "text": "f itis anarm.",
-      "x": 0.5777,
-      "y": 0.2672,
-      "w": 0.2005,
-      "h": 0.0187,
       "words": [
-        "f",
-        "itis",
-        "anarm."
-      ],
-      "conf": 63.9702,
-      "source": "psm-11"
+        "It",
+        "is",
+        "a",
+        "bottle."
+      ]
     },
     {
+      "text": "It is a leg.",
+      "x": 0.2,
+      "y": 0.28,
+      "w": 0.2,
+      "h": 0.03,
       "id": "r7",
       "order": 6,
-      "text": "g itis a leg of a table.",
-      "x": 0.1594,
-      "y": 0.2907,
-      "w": 0.206,
-      "h": 0.0453,
       "words": [
-        "g",
-        "itis",
+        "It",
+        "is",
+        "a",
+        "leg."
+      ]
+    },
+    {
+      "text": "It is an arm.",
+      "x": 0.6,
+      "y": 0.28,
+      "w": 0.2,
+      "h": 0.03,
+      "id": "r8",
+      "order": 7,
+      "words": [
+        "It",
+        "is",
+        "an",
+        "arm."
+      ]
+    },
+    {
+      "text": "It is a leg of a table.",
+      "x": 0.2,
+      "y": 0.3,
+      "w": 0.2,
+      "h": 0.05,
+      "id": "r9",
+      "order": 8,
+      "words": [
+        "It",
+        "is",
         "a",
         "leg",
         "of",
         "a",
         "table."
-      ],
-      "conf": 63.0058,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "h It is an arm of a seat.",
-      "x": 0.5785,
-      "y": 0.2907,
-      "w": 0.3331,
-      "h": 0.0197,
+      "text": "It is an arm of a seat.",
+      "x": 0.6,
+      "y": 0.3,
+      "w": 0.25,
+      "h": 0.05,
+      "id": "r10",
+      "order": 9,
       "words": [
-        "h",
         "It",
         "is",
         "an",
@@ -224,21 +214,30 @@
         "of",
         "a",
         "seat."
-      ],
-      "conf": 91.6947,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "Page a They are three men. That is a woman.",
-      "x": 0.1586,
-      "y": 0.3675,
-      "w": 0.2415,
-      "h": 0.1146,
+      "text": "Page 32",
+      "x": 0.15,
+      "y": 0.38,
+      "w": 0.1,
+      "h": 0.03,
+      "id": "r11",
+      "order": 10,
       "words": [
         "Page",
-        "a",
+        "32"
+      ]
+    },
+    {
+      "text": "They are three men. That is a woman.",
+      "x": 0.2,
+      "y": 0.43,
+      "w": 0.3,
+      "h": 0.05,
+      "id": "r12",
+      "order": 11,
+      "words": [
         "They",
         "are",
         "three",
@@ -247,110 +246,91 @@
         "is",
         "a",
         "woman."
-      ],
-      "conf": 95.805,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "b They are glasses.",
-      "x": 0.5777,
-      "y": 0.4128,
-      "w": 0.2739,
-      "h": 0.0235,
+      "text": "They are glasses. That is a glass.",
+      "x": 0.6,
+      "y": 0.43,
+      "w": 0.3,
+      "h": 0.05,
+      "id": "r13",
+      "order": 12,
       "words": [
-        "b",
         "They",
         "are",
-        "glasses."
-      ],
-      "conf": 93.5725,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "That is a glass.",
-      "x": 0.6133,
-      "y": 0.4379,
-      "w": 0.2076,
-      "h": 0.0224,
-      "words": [
+        "glasses.",
         "That",
         "is",
         "a",
         "glass."
-      ],
-      "conf": 95.1182,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "d They are windows, That is a door.",
-      "x": 0.5777,
-      "y": 0.4624,
-      "w": 0.2999,
-      "h": 0.0438,
-      "words": [
-        "d",
-        "They",
-        "are",
-        "windows,",
-        "That",
-        "is",
-        "a",
-        "door."
-      ],
-      "conf": 92.4227,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "c They are fingers.",
-      "x": 0.1586,
-      "y": 0.4885,
-      "w": 0.2723,
-      "h": 0.0229,
-      "words": [
-        "c",
-        "They",
-        "are",
-        "fingers."
-      ],
-      "conf": 84.4581,
-      "source": "psm-11"
-    },
-    {
+      "text": "They are fingers. That is the thumb.",
+      "x": 0.2,
+      "y": 0.51,
+      "w": 0.3,
+      "h": 0.05,
       "id": "r14",
       "order": 13,
-      "text": "That is the thumb.",
-      "x": 0.1949,
-      "y": 0.5131,
-      "w": 0.2486,
-      "h": 0.0187,
       "words": [
+        "They",
+        "are",
+        "fingers.",
         "That",
         "is",
         "the",
         "thumb."
-      ],
-      "conf": 96.6994,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "They are windows. That is a door.",
+      "x": 0.6,
+      "y": 0.5,
+      "w": 0.3,
+      "h": 0.05,
       "id": "r15",
       "order": 14,
-      "text": "f Itis a picture of a man and a house.",
-      "x": 0.5777,
-      "y": 0.5115,
-      "w": 0.2857,
-      "h": 0.0442,
       "words": [
-        "f",
-        "Itis",
+        "They",
+        "are",
+        "windows.",
+        "That",
+        "is",
+        "a",
+        "door."
+      ]
+    },
+    {
+      "text": "They are houses. That is a street.",
+      "x": 0.2,
+      "y": 0.57,
+      "w": 0.3,
+      "h": 0.05,
+      "id": "r16",
+      "order": 15,
+      "words": [
+        "They",
+        "are",
+        "houses.",
+        "That",
+        "is",
+        "a",
+        "street."
+      ]
+    },
+    {
+      "text": "It is a picture of a man and a house. That is the frame of the picture. (Its frame)",
+      "x": 0.6,
+      "y": 0.57,
+      "w": 0.35,
+      "h": 0.08,
+      "id": "r17",
+      "order": 16,
+      "words": [
+        "It",
+        "is",
         "a",
         "picture",
         "of",
@@ -358,58 +338,7 @@
         "man",
         "and",
         "a",
-        "house."
-      ],
-      "conf": 80.4893,
-      "source": "psm-11"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "e They are houses.",
-      "x": 0.1602,
-      "y": 0.5381,
-      "w": 0.2684,
-      "h": 0.0224,
-      "words": [
-        "e",
-        "They",
-        "are",
-        "houses."
-      ],
-      "conf": 95.1141,
-      "source": "psm-11"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "That is a street, g They are feet.",
-      "x": 0.1594,
-      "y": 0.5627,
-      "w": 0.2494,
-      "h": 0.0714,
-      "words": [
-        "That",
-        "is",
-        "a",
-        "street,",
-        "g",
-        "They",
-        "are",
-        "feet."
-      ],
-      "conf": 96.674,
-      "source": "psm-11"
-    },
-    {
-      "id": "r18",
-      "order": 17,
-      "text": "That is the frame of the picture. (Its frame) h That is a room A table is in it.",
-      "x": 0.5785,
-      "y": 0.5605,
-      "w": 0.3426,
-      "h": 0.0928,
-      "words": [
+        "house.",
         "That",
         "is",
         "the",
@@ -418,8 +347,36 @@
         "the",
         "picture.",
         "(Its",
-        "frame)",
-        "h",
+        "frame)"
+      ]
+    },
+    {
+      "text": "They are feet. That is a foot.",
+      "x": 0.2,
+      "y": 0.64,
+      "w": 0.3,
+      "h": 0.05,
+      "id": "r18",
+      "order": 17,
+      "words": [
+        "They",
+        "are",
+        "feet.",
+        "That",
+        "is",
+        "a",
+        "foot."
+      ]
+    },
+    {
+      "text": "That is a room A table is in it.",
+      "x": 0.6,
+      "y": 0.64,
+      "w": 0.3,
+      "h": 0.05,
+      "id": "r19",
+      "order": 18,
+      "words": [
         "That",
         "is",
         "a",
@@ -429,151 +386,116 @@
         "is",
         "in",
         "it."
-      ],
-      "conf": 96.7343,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r19",
-      "order": 18,
-      "text": "That is a foot, Page a Yes, it is.",
-      "x": 0.1571,
-      "y": 0.6357,
-      "w": 0.2304,
-      "h": 0.1179,
+      "text": "Page 33",
+      "x": 0.15,
+      "y": 0.7,
+      "w": 0.1,
+      "h": 0.03,
+      "id": "r20",
+      "order": 19,
       "words": [
-        "That",
-        "is",
-        "a",
-        "foot,",
         "Page",
-        "a",
+        "33"
+      ]
+    },
+    {
+      "text": "Yes, it is.",
+      "x": 0.2,
+      "y": 0.74,
+      "w": 0.15,
+      "h": 0.03,
+      "id": "r21",
+      "order": 20,
+      "words": [
         "Yes,",
         "it",
         "is."
-      ],
-      "conf": 96.0992,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r20",
-      "order": 19,
-      "text": "b Yes, he is.",
-      "x": 0.5777,
-      "y": 0.7323,
-      "w": 0.1752,
-      "h": 0.0208,
+      "text": "Yes, he is.",
+      "x": 0.6,
+      "y": 0.74,
+      "w": 0.15,
+      "h": 0.03,
+      "id": "r22",
+      "order": 21,
       "words": [
-        "b",
         "Yes,",
         "he",
         "is."
-      ],
-      "conf": 95.2984,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r21",
-      "order": 20,
-      "text": "c No, it is not.",
-      "x": 0.1586,
-      "y": 0.7584,
-      "w": 0.2036,
-      "h": 0.0197,
-      "words": [
-        "c",
-        "No,",
-        "it",
-        "is",
-        "not."
-      ],
-      "conf": 91.7378,
-      "source": "psm-11"
-    },
-    {
-      "id": "r22",
-      "order": 21,
-      "text": "d No, it is not.",
-      "x": 0.5777,
-      "y": 0.7568,
-      "w": 0.2068,
-      "h": 0.0208,
-      "words": [
-        "d",
-        "No,",
-        "it",
-        "is",
-        "not."
-      ],
-      "conf": 93.287,
-      "source": "psm-11"
-    },
-    {
+      "text": "No, it is not. It is on the floor.",
+      "x": 0.2,
+      "y": 0.79,
+      "w": 0.3,
+      "h": 0.05,
       "id": "r23",
       "order": 22,
-      "text": "It is on the floor.",
-      "x": 0.1949,
-      "y": 0.7824,
-      "w": 0.2281,
-      "h": 0.0181,
       "words": [
+        "No,",
+        "it",
+        "is",
+        "not.",
         "It",
         "is",
         "on",
         "the",
         "floor."
-      ],
-      "conf": 93.7673,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "No, it is not. It is on the floor.",
+      "x": 0.6,
+      "y": 0.79,
+      "w": 0.3,
+      "h": 0.05,
       "id": "r24",
       "order": 23,
-      "text": "It is on the floor.",
-      "x": 0.6148,
-      "y": 0.7813,
-      "w": 0.2273,
-      "h": 0.0187,
       "words": [
+        "No,",
+        "it",
+        "is",
+        "not.",
         "It",
         "is",
         "on",
         "the",
         "floor."
-      ],
-      "conf": 91.9439,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "No. It is in the man's hand.",
+      "x": 0.2,
+      "y": 0.85,
+      "w": 0.3,
+      "h": 0.05,
       "id": "r25",
       "order": 24,
-      "text": "e No. It isin the man's hand.",
-      "x": 0.1571,
-      "y": 0.8069,
-      "w": 0.232,
-      "h": 0.0427,
       "words": [
-        "e",
         "No.",
         "It",
-        "isin",
+        "is",
+        "in",
         "the",
         "man's",
         "hand."
-      ],
-      "conf": 90.4969,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "No, it is not in the glass.",
+      "x": 0.6,
+      "y": 0.85,
+      "w": 0.3,
+      "h": 0.05,
       "id": "r26",
       "order": 25,
-      "text": "f No, it is not in the glass.",
-      "x": 0.577,
-      "y": 0.8059,
-      "w": 0.2873,
-      "h": 0.0469,
       "words": [
-        "f",
         "No,",
         "it",
         "is",
@@ -581,48 +503,41 @@
         "in",
         "the",
         "glass."
-      ],
-      "conf": 93.7849,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "No. It is on the water.",
+      "x": 0.2,
+      "y": 0.89,
+      "w": 0.3,
+      "h": 0.05,
       "id": "r27",
       "order": 26,
-      "text": "g No. It is on the water,",
-      "x": 0.1571,
-      "y": 0.8555,
-      "w": 0.2439,
-      "h": 0.0432,
       "words": [
-        "g",
         "No.",
         "It",
         "is",
         "on",
         "the",
-        "water,"
-      ],
-      "conf": 93.7532,
-      "source": "psm-11"
+        "water."
+      ]
     },
     {
+      "text": "Yes, they are at the door.",
+      "x": 0.6,
+      "y": 0.89,
+      "w": 0.3,
+      "h": 0.05,
       "id": "r28",
       "order": 27,
-      "text": "h Yes, they are at the",
-      "x": 0.577,
-      "y": 0.8549,
-      "w": 0.322,
-      "h": 0.024,
       "words": [
-        "h",
         "Yes,",
         "they",
         "are",
         "at",
-        "the"
-      ],
-      "conf": 95.8128,
-      "source": "psm-11"
+        "the",
+        "door."
+      ]
     }
   ]
 }

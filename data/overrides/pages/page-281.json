@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "I will do it. I am doing it. I did it. They will see it. They are taking it. They gave it. DO TAKE SEE GIVE", "x": 0.12, "y": 0.14, "w": 0.35, "h": 0.25 },
-    { "text": "It will be done by me. It is being done by me. It was done by me. It will be seen by them. It is being taken by them. It was given by them. DONE TAKEN SEEN GIVEN", "x": 0.52, "y": 0.14, "w": 0.42, "h": 0.25 },
-    { "text": "I will say it. I said it. I made it. I kept it. I let it go. I put it there. I got it. I sent it. SAY MAKE KEEP LET PUT GET SEND", "x": 0.12, "y": 0.53, "w": 0.35, "h": 0.35 },
-    { "text": "It will be said by me. It was said by me. It was made by me. It was kept by me. It was let go by me. It was put there by me. It was got by me. It was sent by me. SAID MADE KEPT LET PUT GOT SENT", "x": 0.52, "y": 0.53, "w": 0.42, "h": 0.35 }
-  ]
-}

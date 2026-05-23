@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20225.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 69,
+    "regionCount": 4,
+    "wordCount": 67,
     "imageWidth": 1259,
     "imageHeight": 1875
   },
@@ -18,10 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r3",
-        "r6",
-        "r7"
+        "r1"
       ]
     },
     {
@@ -32,9 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r4",
-        "r5"
+        "r2"
       ]
     },
     {
@@ -45,8 +40,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r11"
+        "r3"
       ]
     },
     {
@@ -57,92 +51,56 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r10"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "These are other threads. They go across the first threads. They go under and over them.",
+      "x": 0.12,
+      "y": 0.08,
+      "w": 0.35,
+      "h": 0.35,
       "id": "r1",
       "order": 0,
-      "text": "These are other threads.",
-      "x": 0.1223,
-      "y": 0.088,
-      "w": 0.355,
-      "h": 0.0229,
       "words": [
         "These",
         "are",
         "other",
-        "threads."
-      ],
-      "conf": 96.5408,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "This is cloth.",
-      "x": 0.6068,
-      "y": 0.1125,
-      "w": 0.1732,
-      "h": 0.0192,
-      "words": [
-        "This",
-        "is",
-        "cloth."
-      ],
-      "conf": 96.597,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "They go across the first threads,",
-      "x": 0.1279,
-      "y": 0.2672,
-      "w": 0.3304,
-      "h": 0.0448,
-      "words": [
+        "threads.",
         "They",
         "go",
         "across",
         "the",
         "first",
-        "threads,"
-      ],
-      "conf": 96.6956,
-      "source": "psm-11"
+        "threads.",
+        "They",
+        "go",
+        "under",
+        "and",
+        "over",
+        "them."
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "This is a roll of cloth.",
-      "x": 0.5171,
-      "y": 0.3152,
-      "w": 0.2859,
-      "h": 0.0197,
+      "text": "This is cloth. This is a roll of cloth. We make clothing of cloth. We make cloth of threads.",
+      "x": 0.52,
+      "y": 0.11,
+      "w": 0.38,
+      "h": 0.3,
+      "id": "r2",
+      "order": 1,
       "words": [
+        "This",
+        "is",
+        "cloth.",
         "This",
         "is",
         "a",
         "roll",
         "of",
-        "cloth."
-      ],
-      "conf": 93.7495,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "We make clothing of cloth. We make cloth of threads.",
-      "x": 0.5171,
-      "y": 0.3403,
-      "w": 0.3415,
-      "h": 0.0693,
-      "words": [
+        "cloth.",
         "We",
         "make",
         "clothing",
@@ -153,52 +111,16 @@
         "cloth",
         "of",
         "threads."
-      ],
-      "conf": 96.5216,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "They go under and over them.",
-      "x": 0.1223,
-      "y": 0.4064,
-      "w": 0.3463,
-      "h": 0.0443,
-      "words": [
-        "They",
-        "go",
-        "under",
-        "and",
-        "over",
-        "them."
-      ],
-      "conf": 96.4451,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "wwe eT",
-      "x": 0.2526,
-      "y": 0.4779,
-      "w": 0.1382,
-      "h": 0.0149,
-      "words": [
-        "wwe",
-        "eT"
-      ],
-      "conf": 53.2862,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "We make threads from wool and cotton and silk.",
-      "x": 0.1231,
-      "y": 0.512,
-      "w": 0.3344,
-      "h": 0.0683,
+      "text": "We make threads from wool and cotton and silk. We get wool from sheep.",
+      "x": 0.12,
+      "y": 0.51,
+      "w": 0.35,
+      "h": 0.35,
+      "id": "r3",
+      "order": 2,
       "words": [
         "We",
         "make",
@@ -208,19 +130,22 @@
         "and",
         "cotton",
         "and",
-        "silk."
-      ],
-      "conf": 96.4125,
-      "source": "psm-11"
+        "silk.",
+        "We",
+        "get",
+        "wool",
+        "from",
+        "sheep."
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "Wool is the thick warm hair of sheep.",
-      "x": 0.5195,
-      "y": 0.5131,
-      "w": 0.3288,
-      "h": 0.0485,
+      "text": "Wool is the thick warm hair of sheep. Men take the wool off the sheep's back with scissors.",
+      "x": 0.52,
+      "y": 0.51,
+      "w": 0.38,
+      "h": 0.35,
+      "id": "r4",
+      "order": 3,
       "words": [
         "Wool",
         "is",
@@ -229,20 +154,7 @@
         "warm",
         "hair",
         "of",
-        "sheep."
-      ],
-      "conf": 95.9146,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "Men take the wool off the sheep's back with scissors,",
-      "x": 0.5155,
-      "y": 0.5643,
-      "w": 0.3217,
-      "h": 0.0687,
-      "words": [
+        "sheep.",
         "Men",
         "take",
         "the",
@@ -252,28 +164,8 @@
         "sheep's",
         "back",
         "with",
-        "scissors,"
-      ],
-      "conf": 96.2587,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "We get wool from sheep.",
-      "x": 0.116,
-      "y": 0.8011,
-      "w": 0.3535,
-      "h": 0.0235,
-      "words": [
-        "We",
-        "get",
-        "wool",
-        "from",
-        "sheep."
-      ],
-      "conf": 96.4587,
-      "source": "psm-11"
+        "scissors."
+      ]
     }
   ]
 }

@@ -2,52 +2,68 @@
   "page": 193,
   "image": "/books/page 193.png",
   "imageApiPath": "/api/books/page%20193.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 18,
-    "wordCount": 95,
+    "regionCount": 4,
+    "wordCount": 97,
     "imageWidth": 1259,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17",
-        "r18"
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "We see the same side at all times because the moon is turning round.",
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.38,
+      "h": 0.1,
       "id": "r1",
       "order": 0,
-      "text": "We see the same side at all times because the moon is turning round,",
-      "x": 0.1104,
-      "y": 0.1382,
-      "w": 0.3606,
-      "h": 0.0743,
       "words": [
         "We",
         "see",
@@ -62,38 +78,22 @@
         "moon",
         "is",
         "turning",
-        "round,"
-      ],
-      "conf": 96.3128,
-      "source": "psm-11"
+        "round."
+      ]
     },
     {
+      "text": "The moon The earth It is going round the earth and it is turning round itself. It keeps the same side to the earth.",
+      "x": 0.54,
+      "y": 0.13,
+      "w": 0.38,
+      "h": 0.3,
       "id": "r2",
       "order": 1,
-      "text": "The moon",
-      "x": 0.579,
-      "y": 0.1307,
-      "w": 0.1469,
-      "h": 0.0183,
       "words": [
         "The",
-        "moon"
-      ],
-      "conf": 91.6526,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "The earth O It is going round the earth and it is turning round itself.",
-      "x": 0.5385,
-      "y": 0.2227,
-      "w": 0.3169,
-      "h": 0.1393,
-      "words": [
+        "moon",
         "The",
         "earth",
-        "O",
         "It",
         "is",
         "going",
@@ -105,20 +105,7 @@
         "is",
         "turning",
         "round",
-        "itself."
-      ],
-      "conf": 93.8697,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "It keeps the same side to the earth.",
-      "x": 0.5393,
-      "y": 0.3685,
-      "w": 0.3312,
-      "h": 0.0452,
-      "words": [
+        "itself.",
         "It",
         "keeps",
         "the",
@@ -127,18 +114,16 @@
         "to",
         "the",
         "earth."
-      ],
-      "conf": 95.3865,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "We see the same side of the moon at all times.",
-      "x": 0.1176,
-      "y": 0.5487,
-      "w": 0.3566,
-      "h": 0.0441,
+      "text": "We see the same side of the moon at all times. Sometimes we see it like this. One half of the moon is dark. The other half is bright. This is a half moon.",
+      "x": 0.1,
+      "y": 0.54,
+      "w": 0.4,
+      "h": 0.38,
+      "id": "r3",
+      "order": 2,
       "words": [
         "We",
         "see",
@@ -150,19 +135,40 @@
         "moon",
         "at",
         "all",
-        "times."
-      ],
-      "conf": 96.3477,
-      "source": "psm-11"
+        "times.",
+        "Sometimes",
+        "we",
+        "see",
+        "it",
+        "like",
+        "this.",
+        "One",
+        "half",
+        "of",
+        "the",
+        "moon",
+        "is",
+        "dark.",
+        "The",
+        "other",
+        "half",
+        "is",
+        "bright.",
+        "This",
+        "is",
+        "a",
+        "half",
+        "moon."
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "Sometimes we see the moon like this.",
-      "x": 0.5346,
-      "y": 0.5718,
-      "w": 0.3177,
-      "h": 0.0441,
+      "text": "Sometimes we see the moon like this. This part of the moon is dark. This part of it is bright. This is a quarter moon.",
+      "x": 0.54,
+      "y": 0.56,
+      "w": 0.4,
+      "h": 0.35,
+      "id": "r4",
+      "order": 3,
       "words": [
         "Sometimes",
         "we",
@@ -170,204 +176,26 @@
         "the",
         "moon",
         "like",
-        "this."
-      ],
-      "conf": 96.4139,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "Sometimes we see it like this.",
-      "x": 0.1168,
-      "y": 0.6009,
-      "w": 0.2883,
-      "h": 0.0436,
-      "words": [
-        "Sometimes",
-        "we",
-        "see",
-        "it",
-        "like",
-        "this."
-      ],
-      "conf": 96.0559,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "This part of the moon",
-      "x": 0.5052,
-      "y": 0.6783,
-      "w": 0.4011,
-      "h": 0.043,
-      "words": [
+        "this.",
         "This",
         "part",
         "of",
         "the",
-        "moon"
-      ],
-      "conf": 96.0553,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "This part",
-      "x": 0.5298,
-      "y": 0.6772,
-      "w": 0.1287,
-      "h": 0.0237,
-      "words": [
+        "moon",
+        "is",
+        "dark.",
         "This",
-        "part"
-      ],
-      "conf": 96.8145,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "One half of the",
-      "x": 0.0977,
-      "y": 0.7036,
-      "w": 0.1279,
-      "h": 0.0452,
-      "words": [
-        "One",
-        "half",
-        "of",
-        "the"
-      ],
-      "conf": 96.4071,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "of it bright.",
-      "x": 0.7967,
-      "y": 0.7031,
-      "w": 0.0945,
-      "h": 0.0742,
-      "words": [
+        "part",
         "of",
         "it",
-        "bright."
-      ],
-      "conf": 95.7283,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "The other!",
-      "x": 0.3431,
-      "y": 0.7289,
-      "w": 0.1509,
-      "h": 0.0188,
-      "words": [
-        "The",
-        "other!"
-      ],
-      "conf": 92.741,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "moon",
-      "x": 0.1215,
-      "y": 0.7617,
-      "w": 0.077,
-      "h": 0.0124,
-      "words": [
-        "moon"
-      ],
-      "conf": 96.621,
-      "source": "psm-11"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "half is dark.",
-      "x": 0.1223,
-      "y": 0.7547,
-      "w": 0.3344,
-      "h": 0.0672,
-      "words": [
-        "half",
         "is",
-        "dark."
-      ],
-      "conf": 96.8634,
-      "source": "psm-11"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "dark.",
-      "x": 0.5576,
-      "y": 0.7353,
-      "w": 0.0763,
-      "h": 0.0377,
-      "words": [
-        "dark."
-      ],
-      "conf": 91.3682,
-      "source": "psm-11"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "bright.",
-      "x": 0.3701,
-      "y": 0.7805,
-      "w": 0.0961,
-      "h": 0.0226,
-      "words": [
-        "bright."
-      ],
-      "conf": 96.4523,
-      "source": "psm-11"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "This is a half moon.",
-      "x": 0.1517,
-      "y": 0.8408,
-      "w": 0.2812,
-      "h": 0.0188,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "half",
-        "moon."
-      ],
-      "conf": 96.2871,
-      "source": "psm-11"
-    },
-    {
-      "id": "r18",
-      "order": 17,
-      "text": "This is a quarter moon.",
-      "x": 0.5369,
-      "y": 0.8408,
-      "w": 0.3336,
-      "h": 0.0237,
-      "words": [
+        "bright.",
         "This",
         "is",
         "a",
         "quarter",
         "moon."
-      ],
-      "conf": 94.8591,
-      "source": "psm-11"
+      ]
     }
   ]
 }

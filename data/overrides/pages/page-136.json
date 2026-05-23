@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Now it is in her hair. It was in her hand. It is in her hair now. But it is the same hairpin.", "x": 0.12, "y": 0.36, "w": 0.4, "h": 0.12 },
-    { "text": "He is brushing his hair. He does not put pins in his hair.", "x": 0.54, "y": 0.37, "w": 0.4, "h": 0.08 },
-    { "text": "Mrs. Smith put some shirts and some socks and shoes (in a shoe bag) and a comb and brushes and toothpaste and soap and a wash cloth in Mr. Smith's bag.", "x": 0.09, "y": 0.61, "w": 0.4, "h": 0.2 },
-    { "text": "She put all these things in his bag.", "x": 0.54, "y": 0.53, "w": 0.4, "h": 0.05 }
-  ]
-}

@@ -1,8 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Air travel would have seemed strange 3000 years ago. Modern changes come from the invention of numbers.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.12 },
-    { "text": "Before men could count, how did they know which sheep were theirs? He put a mark on his sheep. He was their owner.", "x": 0.1, "y": 0.25, "w": 0.45, "h": 0.2 },
-    { "text": "He owned his own sheep. Sometimes he gave them names to see if they were all there. FUTURE: will own. PRESENT: own(s). PAST: owned.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.25 }
-  ]
-}

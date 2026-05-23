@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2039.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 66,
+    "regionCount": 17,
+    "wordCount": 76,
     "imageWidth": 1206,
     "imageHeight": 1855
   },
@@ -19,9 +19,10 @@
       "h": 0.5,
       "regionIds": [
         "r1",
+        "r2",
         "r3",
-        "r5",
-        "r6"
+        "r4",
+        "r5"
       ]
     },
     {
@@ -32,8 +33,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r4"
+        "r6",
+        "r7",
+        "r8",
+        "r9"
       ]
     },
     {
@@ -44,8 +47,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r9"
+        "r10",
+        "r11",
+        "r12",
+        "r13"
       ]
     },
     {
@@ -56,207 +61,276 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r10"
+        "r14",
+        "r15",
+        "r16",
+        "r17"
       ]
     }
   ],
   "regions": [
     {
+      "text": "What is this?",
+      "x": 0.15,
+      "y": 0.31,
+      "w": 0.2,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "What is this?",
-      "x": 0.1517,
-      "y": 0.3046,
-      "w": 0.194,
-      "h": 0.0189,
       "words": [
         "What",
         "is",
         "this?"
-      ],
-      "conf": 96.2869,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "This is a clock.",
+      "x": 0.15,
+      "y": 0.33,
+      "w": 0.2,
+      "h": 0.03,
       "id": "r2",
       "order": 1,
-      "text": "What is the time?",
-      "x": 0.5771,
-      "y": 0.3057,
-      "w": 0.2637,
-      "h": 0.0189,
-      "words": [
-        "What",
-        "is",
-        "the",
-        "time?"
-      ],
-      "conf": 95.7714,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "This is a clock.",
-      "x": 0.1509,
-      "y": 0.3299,
-      "w": 0.2156,
-      "h": 0.0194,
       "words": [
         "This",
         "is",
         "a",
         "clock."
-      ],
-      "conf": 96.5901,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "The time is two It was one It will be three",
-      "x": 0.5755,
-      "y": 0.331,
-      "w": 0.2247,
-      "h": 0.0684,
-      "words": [
-        "The",
-        "time",
-        "is",
-        "two",
-        "It",
-        "was",
-        "one",
-        "It",
-        "will",
-        "be",
-        "three"
-      ],
-      "conf": 96.2979,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
       "text": "What is the time?",
-      "x": 0.1501,
-      "y": 0.3553,
-      "w": 0.2653,
-      "h": 0.0189,
+      "x": 0.15,
+      "y": 0.36,
+      "w": 0.25,
+      "h": 0.03,
+      "id": "r3",
+      "order": 2,
       "words": [
         "What",
         "is",
         "the",
         "time?"
-      ],
-      "conf": 96.0062,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "The time is one One hand is at one.",
-      "x": 0.1484,
-      "y": 0.3806,
-      "w": 0.3019,
-      "h": 0.0442,
+      "text": "The time is one (1:00).",
+      "x": 0.15,
+      "y": 0.39,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r4",
+      "order": 3,
       "words": [
         "The",
         "time",
         "is",
         "one",
+        "(1:00)."
+      ]
+    },
+    {
+      "text": "One hand is at one.",
+      "x": 0.15,
+      "y": 0.41,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r5",
+      "order": 4,
+      "words": [
         "One",
         "hand",
         "is",
         "at",
         "one."
-      ],
-      "conf": 96.3922,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "What is the time?",
+      "x": 0.58,
+      "y": 0.31,
+      "w": 0.25,
+      "h": 0.03,
+      "id": "r6",
+      "order": 5,
+      "words": [
+        "What",
+        "is",
+        "the",
+        "time?"
+      ]
+    },
+    {
+      "text": "The time is two (2:00).",
+      "x": 0.58,
+      "y": 0.34,
+      "w": 0.3,
+      "h": 0.03,
       "id": "r7",
       "order": 6,
-      "text": "What is the time?",
-      "x": 0.1526,
-      "y": 0.7294,
-      "w": 0.267,
-      "h": 0.0189,
       "words": [
-        "What",
+        "The",
+        "time",
         "is",
-        "the",
-        "time?"
-      ],
-      "conf": 96.2841,
-      "source": "psm-11"
+        "two",
+        "(2:00)."
+      ]
     },
     {
+      "text": "It was one (1:00).",
+      "x": 0.58,
+      "y": 0.36,
+      "w": 0.3,
+      "h": 0.03,
       "id": "r8",
       "order": 7,
+      "words": [
+        "It",
+        "was",
+        "one",
+        "(1:00)."
+      ]
+    },
+    {
+      "text": "It will be three (3:00).",
+      "x": 0.58,
+      "y": 0.39,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r9",
+      "order": 8,
+      "words": [
+        "It",
+        "will",
+        "be",
+        "three",
+        "(3:00)."
+      ]
+    },
+    {
       "text": "What is the time?",
-      "x": 0.5862,
-      "y": 0.7288,
-      "w": 0.2645,
-      "h": 0.0189,
+      "x": 0.15,
+      "y": 0.74,
+      "w": 0.25,
+      "h": 0.03,
+      "id": "r10",
+      "order": 9,
       "words": [
         "What",
         "is",
         "the",
         "time?"
-      ],
-      "conf": 95.709,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "The time is four It was three It will be five",
-      "x": 0.1534,
-      "y": 0.7558,
-      "w": 0.2313,
-      "h": 0.069,
+      "text": "The time is four (4:00).",
+      "x": 0.15,
+      "y": 0.76,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r11",
+      "order": 10,
       "words": [
         "The",
         "time",
         "is",
         "four",
+        "(4:00)."
+      ]
+    },
+    {
+      "text": "It was three (3:00).",
+      "x": 0.15,
+      "y": 0.79,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r12",
+      "order": 11,
+      "words": [
         "It",
         "was",
         "three",
+        "(3:00)."
+      ]
+    },
+    {
+      "text": "It will be five (5:00).",
+      "x": 0.15,
+      "y": 0.81,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r13",
+      "order": 12,
+      "words": [
         "It",
         "will",
         "be",
-        "five"
-      ],
-      "conf": 96.7047,
-      "source": "psm-11"
+        "five",
+        "(5:00)."
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "Now the time is six It was five it will be seven",
-      "x": 0.5862,
-      "y": 0.7547,
-      "w": 0.2845,
-      "h": 0.0949,
+      "text": "What is the time?",
+      "x": 0.58,
+      "y": 0.74,
+      "w": 0.25,
+      "h": 0.03,
+      "id": "r14",
+      "order": 13,
+      "words": [
+        "What",
+        "is",
+        "the",
+        "time?"
+      ]
+    },
+    {
+      "text": "Now the time is six (6:00).",
+      "x": 0.58,
+      "y": 0.76,
+      "w": 0.35,
+      "h": 0.05,
+      "id": "r15",
+      "order": 14,
       "words": [
         "Now",
         "the",
         "time",
         "is",
         "six",
+        "(6:00)."
+      ]
+    },
+    {
+      "text": "It was five (5:00).",
+      "x": 0.58,
+      "y": 0.81,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r16",
+      "order": 15,
+      "words": [
         "It",
         "was",
         "five",
-        "it",
+        "(5:00)."
+      ]
+    },
+    {
+      "text": "It will be seven (7:00).",
+      "x": 0.58,
+      "y": 0.84,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r17",
+      "order": 16,
+      "words": [
+        "It",
         "will",
         "be",
-        "seven"
-      ],
-      "conf": 96.5734,
-      "source": "psm-11"
+        "seven",
+        "(7:00)."
+      ]
     }
   ]
 }

@@ -1,8 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "How do these very complex materials come into being? The answer is, through the work of plants. Plants need sunlight. This is common knowledge within our experience.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "Grow two bean seeds over glasses of water in a dark cupboard. After a few days take one into the daylight. Compare the two.", "x": 0.1, "y": 0.25, "w": 0.85, "h": 0.1 },
-    { "text": "You will find that the plant in the light grows a strong stem and green leaves. within: inside. experience: knowledge we get as we live. experiment: doing something to get knowledge. bean: a common food plant.", "x": 0.1, "y": 0.38, "w": 0.85, "h": 0.45 }
-  ]
-}

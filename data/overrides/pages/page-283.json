@@ -1,6 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Here are the other fifteen words. They go like this: Past, Present, Future. had/have/will have; did/do/will do; seemed/seem/will seem; came/come/will come; went/go/will go; put/put/will put; took/take/will take; gave/give/will give; got/get/will get; kept/keep/will keep; let/let/will let; made/make/will make; sent/send/will send; saw/see/will see; said/say/will say.", "x": 0.1, "y": 0.15, "w": 0.8, "h": 0.75 }
-  ]
-}

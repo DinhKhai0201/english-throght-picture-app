@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Modern factories use automatic controls. The Assembly Line lets us make things like automobiles much more cheaply.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "(Diagram: Workers and machines at a moving assembly line). Each part of the process depends on the one before it.", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.15 },
-    { "text": "Assembly lines are parts of an overall design. By using machines, we can free up people's time. What should we do with this new free time?", "x": 0.1, "y": 0.38, "w": 0.85, "h": 0.38 },
-    { "text": "free: to make free. FUTURE: will free. PRESENT: free(s). PAST: freed.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
-  ]
-}

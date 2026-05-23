@@ -2,44 +2,48 @@
   "page": 303,
   "image": "/books/page 303.png",
   "imageApiPath": "/api/books/page%20303.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 106,
+    "regionCount": 4,
+    "wordCount": 108,
     "imageWidth": 1213,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
         "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10"
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "More than a hundred million people on earth today live in cities. Some cities have more people in them than some countries have. There are nineteen or more cities in the world which have over two million people in them.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "More than a hundred million people on earth today live in cities. Some cities have more people in them than some",
-      "x": 0.0998,
-      "y": 0.0352,
-      "w": 0.8145,
-      "h": 0.0475,
       "words": [
         "More",
         "than",
@@ -61,35 +65,9 @@
         "in",
         "them",
         "than",
-        "some"
-      ],
-      "conf": 96.3631,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "countries have.",
-      "x": 0.0998,
-      "y": 0.0869,
-      "w": 0.2143,
-      "h": 0.0171,
-      "words": [
+        "some",
         "countries",
-        "have."
-      ],
-      "conf": 96.6656,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "There are nineteen or more cities in the world which",
-      "x": 0.1022,
-      "y": 0.1381,
-      "w": 0.8153,
-      "h": 0.0176,
-      "words": [
+        "have.",
         "There",
         "are",
         "nineteen",
@@ -99,20 +77,7 @@
         "in",
         "the",
         "world",
-        "which"
-      ],
-      "conf": 96.478,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "have over two million people in them.",
-      "x": 0.1006,
-      "y": 0.1653,
-      "w": 0.5408,
-      "h": 0.0213,
-      "words": [
+        "which",
         "have",
         "over",
         "two",
@@ -120,18 +85,16 @@
         "people",
         "in",
         "them."
-      ],
-      "conf": 96.4917,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "Cities have been increasing in size in our time. Before the twentieth century it was hard for the people in a",
-      "x": 0.1022,
-      "y": 0.2165,
-      "w": 0.8162,
-      "h": 0.0486,
+      "text": "Cities have been increasing in size in our time. Before the twentieth century it was hard for the people in a great city to get enough food.",
+      "x": 0.1,
+      "y": 0.22,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r2",
+      "order": 1,
       "words": [
         "Cities",
         "have",
@@ -153,38 +116,23 @@
         "the",
         "people",
         "in",
-        "a"
-      ],
-      "conf": 96.1642,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "great city to get enough food.",
-      "x": 0.1047,
-      "y": 0.2683,
-      "w": 0.4312,
-      "h": 0.0219,
-      "words": [
+        "a",
         "great",
         "city",
         "to",
         "get",
         "enough",
         "food."
-      ],
-      "conf": 96.1901,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "On the next page you will see a map of the world on which are marked ten cities with more than three million",
-      "x": 0.1055,
-      "y": 0.3195,
-      "w": 0.8137,
-      "h": 0.0432,
+      "text": "On the next page you will see a map of the world on which are marked ten cities with more than three million people in each.",
+      "x": 0.1,
+      "y": 0.32,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r3",
+      "order": 2,
       "words": [
         "On",
         "the",
@@ -208,54 +156,26 @@
         "more",
         "than",
         "three",
-        "million"
-      ],
-      "conf": 96.0547,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "people in each.",
-      "x": 0.1055,
-      "y": 0.3707,
-      "w": 0.2127,
-      "h": 0.0219,
-      "words": [
+        "million",
         "people",
         "in",
         "each."
-      ],
-      "conf": 96.7334,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "city: town of great size.",
-      "x": 0.1129,
-      "y": 0.7899,
-      "w": 0.2622,
-      "h": 0.0144,
+      "text": "city: town of great size. twentieth century: the hundred years numbered from 1900 through 1999.",
+      "x": 0.1,
+      "y": 0.78,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r4",
+      "order": 3,
       "words": [
         "city:",
         "town",
         "of",
         "great",
-        "size."
-      ],
-      "conf": 95.0484,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "twentieth century: the hundred years numbered from through",
-      "x": 0.1129,
-      "y": 0.8064,
-      "w": 0.8096,
-      "h": 0.0171,
-      "words": [
+        "size.",
         "twentieth",
         "century:",
         "the",
@@ -263,10 +183,10 @@
         "years",
         "numbered",
         "from",
-        "through"
-      ],
-      "conf": 93.4712,
-      "source": "psm-11"
+        "1900",
+        "through",
+        "1999."
+      ]
     }
   ]
 }

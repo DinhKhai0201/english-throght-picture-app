@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Beautiful things give us pleasure. When she sees herself in the glass, she sees that she is beautiful. That gives her pleasure.", "x": 0.12, "y": 0.11, "w": 0.38, "h": 0.35 },
-    { "text": "When I say that she is beautiful, that gives her pleasure. \"You are beautiful.\" There is a smile on her face now. Why is the smile there?", "x": 0.52, "y": 0.1, "w": 0.4, "h": 0.38 },
-    { "text": "It is there because she has a feeling of pleasure. Her pleasure is the cause of her smile. She is saying to herself, \"I am beautiful.\"", "x": 0.12, "y": 0.62, "w": 0.38, "h": 0.25 },
-    { "text": "She is saying to herself that she is beautiful. A smile does not make a sound. A laugh makes a sound. A laugh is a smile with a sound.", "x": 0.52, "y": 0.55, "w": 0.4, "h": 0.38 }
-  ]
-}

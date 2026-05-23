@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20192.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 82,
+    "regionCount": 4,
+    "wordCount": 79,
     "imageWidth": 1167,
     "imageHeight": 1859
   },
@@ -18,9 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r3",
-        "r4"
+        "r1"
       ]
     },
     {
@@ -31,8 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r5"
+        "r2"
       ]
     },
     {
@@ -43,9 +40,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r9",
-        "r12"
+        "r3"
       ]
     },
     {
@@ -56,22 +51,19 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r8",
-        "r10",
-        "r11"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "This is the earth. We are seeing it from the north. There is more land than water on this side of the earth.",
+      "x": 0.12,
+      "y": 0.09,
+      "w": 0.38,
+      "h": 0.35,
       "id": "r1",
       "order": 0,
-      "text": "This is the earth. We are seeing it from the north.",
-      "x": 0.1577,
-      "y": 0.0828,
-      "w": 0.3376,
-      "h": 0.0694,
       "words": [
         "This",
         "is",
@@ -83,121 +75,84 @@
         "it",
         "from",
         "the",
-        "north."
-      ],
-      "conf": 96.6621,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "This is the earth. We are seeing it from the south,",
-      "x": 0.5827,
-      "y": 0.0834,
-      "w": 0.335,
-      "h": 0.0709,
-      "words": [
-        "This",
-        "is",
-        "the",
-        "earth.",
-        "We",
-        "are",
-        "seeing",
-        "it",
-        "from",
-        "the",
-        "south,"
-      ],
-      "conf": 96.5266,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "Ve",
-      "x": 0.3419,
-      "y": 0.1614,
-      "w": 0.036,
-      "h": 0.0194,
-      "words": [
-        "Ve"
-      ],
-      "conf": 95.0429,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "There is more land than earth.",
-      "x": 0.1345,
-      "y": 0.3416,
-      "w": 0.3728,
-      "h": 0.0715,
-      "words": [
+        "north.",
         "There",
         "is",
         "more",
         "land",
         "than",
-        "earth."
-      ],
-      "conf": 94.9188,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "There ts more water water on this side of the than land on this side.",
-      "x": 0.1354,
-      "y": 0.3427,
-      "w": 0.7909,
-      "h": 0.0462,
-      "words": [
-        "There",
-        "ts",
-        "more",
-        "water",
         "water",
         "on",
         "this",
         "side",
         "of",
         "the",
+        "earth."
+      ]
+    },
+    {
+      "text": "This is the earth. We are seeing it from the south. There is more water than land on this side.",
+      "x": 0.54,
+      "y": 0.09,
+      "w": 0.38,
+      "h": 0.3,
+      "id": "r2",
+      "order": 1,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "earth.",
+        "We",
+        "are",
+        "seeing",
+        "it",
+        "from",
+        "the",
+        "south.",
+        "There",
+        "is",
+        "more",
+        "water",
         "than",
         "land",
         "on",
         "this",
         "side."
-      ],
-      "conf": 96.2533,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "This is the moon.",
-      "x": 0.1474,
-      "y": 0.5148,
-      "w": 0.2631,
-      "h": 0.0188,
+      "text": "This is the moon. The moon goes round the earth in a month.",
+      "x": 0.12,
+      "y": 0.53,
+      "w": 0.38,
+      "h": 0.25,
+      "id": "r3",
+      "order": 2,
       "words": [
         "This",
         "is",
         "the",
-        "moon."
-      ],
-      "conf": 96.3667,
-      "source": "psm-11"
+        "moon.",
+        "The",
+        "moon",
+        "goes",
+        "round",
+        "the",
+        "earth",
+        "in",
+        "a",
+        "month."
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "Do we ever see the other side of the moon?",
-      "x": 0.5638,
-      "y": 0.5315,
-      "w": 0.3702,
-      "h": 0.05,
+      "text": "Do we ever see the other side of the moon? No. We see the same side of the moon at all times. Why?",
+      "x": 0.54,
+      "y": 0.53,
+      "w": 0.4,
+      "h": 0.35,
+      "id": "r4",
+      "order": 3,
       "words": [
         "Do",
         "we",
@@ -208,56 +163,8 @@
         "side",
         "of",
         "the",
-        "moon?"
-      ],
-      "conf": 95.7086,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "No.",
-      "x": 0.563,
-      "y": 0.5831,
-      "w": 0.0574,
-      "h": 0.0178,
-      "words": [
-        "No."
-      ],
-      "conf": 96.5167,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "The moon goes round the earth in a month.",
-      "x": 0.1474,
-      "y": 0.6762,
-      "w": 0.347,
-      "h": 0.0452,
-      "words": [
-        "The",
-        "moon",
-        "goes",
-        "round",
-        "the",
-        "earth",
-        "in",
-        "a",
-        "month."
-      ],
-      "conf": 96.4479,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "We see the same side of the moon at all times.",
-      "x": 0.563,
-      "y": 0.7929,
-      "w": 0.377,
-      "h": 0.0446,
-      "words": [
+        "moon?",
+        "No.",
         "We",
         "see",
         "the",
@@ -268,39 +175,9 @@
         "moon",
         "at",
         "all",
-        "times."
-      ],
-      "conf": 95.8809,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "Why?",
-      "x": 0.5638,
-      "y": 0.8429,
-      "w": 0.0917,
-      "h": 0.0242,
-      "words": [
+        "times.",
         "Why?"
-      ],
-      "conf": 96.1077,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "en ow",
-      "x": 0.2648,
-      "y": 0.8843,
-      "w": 0.0857,
-      "h": 0.0172,
-      "words": [
-        "en",
-        "ow"
-      ],
-      "conf": 45.5359,
-      "source": "psm-11"
+      ]
     }
   ]
 }

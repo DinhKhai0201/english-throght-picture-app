@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "He sent the last apple up. But then it came down. Why did it come down?", "x": 0.1, "y": 0.38, "w": 0.38, "h": 0.1 },
-    { "text": "The first apple went north and then it came down. The other apples went south and east and west and then they all came down to the earth. They all came down to the earth? Why did they come down?", "x": 0.52, "y": 0.13, "w": 0.4, "h": 0.35 },
-    { "text": "The first apple ... The last apple ... What is \"the first\" ...? What is \"the last\" ...? These men are in a line. This is the first man. This is the last man.", "x": 0.1, "y": 0.52, "w": 0.4, "h": 0.32 },
-    { "text": "Here are three dogs. Which is the first dog? Which is the last dog? The other dog is the dog in the middle. He is between the first dog and the last dog. Two of the dogs are white. The other dog is black. The dog in the middle is black.", "x": 0.54, "y": 0.6, "w": 0.4, "h": 0.3 }
-  ]
-}

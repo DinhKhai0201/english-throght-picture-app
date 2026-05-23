@@ -2,67 +2,79 @@
   "page": 159,
   "image": "/books/page 159.png",
   "imageApiPath": "/api/books/page%20159.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 68,
+    "regionCount": 7,
+    "wordCount": 73,
     "imageWidth": 1259,
     "imageHeight": 1846
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r5",
         "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12"
+        "r7"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Jane said, \"A house has a roof. Will you put a roof on the house? How will you make the roof?\"",
+      "x": 0.1,
+      "y": 0.11,
+      "w": 0.35,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "Jane said, “A house has a roof.",
-      "x": 0.1168,
-      "y": 0.1203,
-      "w": 0.2415,
-      "h": 0.0438,
       "words": [
         "Jane",
         "said,",
-        "“A",
+        "\"A",
         "house",
         "has",
         "a",
-        "roof."
-      ],
-      "conf": 96.0861,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "Will you put a roof on the house?",
-      "x": 0.1168,
-      "y": 0.1712,
-      "w": 0.2612,
-      "h": 0.0439,
-      "words": [
+        "roof.",
         "Will",
         "you",
         "put",
@@ -70,20 +82,25 @@
         "roof",
         "on",
         "the",
-        "house?"
-      ],
-      "conf": 86.3229,
-      "source": "psm-11"
+        "house?",
+        "How",
+        "will",
+        "you",
+        "make",
+        "the",
+        "roof?\""
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "will make the roof from the cover of the box.",
-      "x": 0.5179,
-      "y": 0.1717,
-      "w": 0.3558,
-      "h": 0.0477,
+      "text": "I will make the roof from the cover of the box.",
+      "x": 0.54,
+      "y": 0.17,
+      "w": 0.38,
+      "h": 0.05,
+      "id": "r2",
+      "order": 1,
       "words": [
+        "I",
         "will",
         "make",
         "the",
@@ -94,37 +111,16 @@
         "of",
         "the",
         "box."
-      ],
-      "conf": 95.7917,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "How will you make the roof?”",
-      "x": 0.1183,
-      "y": 0.2221,
-      "w": 0.2303,
-      "h": 0.0445,
-      "words": [
-        "How",
-        "will",
-        "you",
-        "make",
-        "the",
-        "roof?”"
-      ],
-      "conf": 96.2871,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
       "text": "No. There is not enough wood in the cover.",
-      "x": 0.1279,
-      "y": 0.5352,
-      "w": 0.367,
-      "h": 0.0455,
+      "x": 0.12,
+      "y": 0.53,
+      "w": 0.35,
+      "h": 0.05,
+      "id": "r3",
+      "order": 2,
       "words": [
         "No.",
         "There",
@@ -135,128 +131,83 @@
         "in",
         "the",
         "cover."
-      ],
-      "conf": 95.7966,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "The cover is not long enough.",
-      "x": 0.5377,
-      "y": 0.5184,
-      "w": 0.2994,
-      "h": 0.0493,
+      "text": "How long is the cover? How wide is the cover? I am measuring it.",
+      "x": 0.12,
+      "y": 0.64,
+      "w": 0.35,
+      "h": 0.25,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "How",
+        "long",
+        "is",
+        "the",
+        "cover?",
+        "How",
+        "wide",
+        "is",
+        "the",
+        "cover?",
+        "I",
+        "am",
+        "measuring",
+        "it."
+      ]
+    },
+    {
+      "text": "The cover is not long enough. It is not wide enough.",
+      "x": 0.53,
+      "y": 0.52,
+      "w": 0.35,
+      "h": 0.08,
+      "id": "r5",
+      "order": 4,
       "words": [
         "The",
         "cover",
         "is",
         "not",
         "long",
-        "enough."
-      ],
-      "conf": 96.694,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "It is not wide enough",
-      "x": 0.5393,
-      "y": 0.5699,
-      "w": 0.2994,
-      "h": 0.0238,
-      "words": [
+        "enough.",
         "It",
         "is",
         "not",
         "wide",
-        "enough"
-      ],
-      "conf": 94.0754,
-      "source": "psm-11"
+        "enough."
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "How long is the cover?",
-      "x": 0.1271,
-      "y": 0.6414,
-      "w": 0.3249,
-      "h": 0.0233,
-      "words": [
-        "How",
-        "long",
-        "is",
-        "the",
-        "cover?"
-      ],
-      "conf": 96.1862,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "The roof is",
-      "x": 0.5115,
-      "y": 0.6452,
-      "w": 0.1533,
-      "h": 0.0358,
+      "text": "The roof is like this.",
+      "x": 0.52,
+      "y": 0.66,
+      "w": 0.3,
+      "h": 0.05,
+      "id": "r6",
+      "order": 5,
       "words": [
         "The",
         "roof",
-        "is"
-      ],
-      "conf": 95.6474,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "like",
-      "x": 0.5171,
-      "y": 0.6723,
-      "w": 0.0508,
-      "h": 0.0195,
-      "words": [
-        "like"
-      ],
-      "conf": 96.9621,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "How wide is the cover?",
-      "x": 0.1263,
-      "y": 0.8001,
-      "w": 0.3328,
-      "h": 0.0265,
-      "words": [
-        "How",
-        "wide",
         "is",
-        "the",
-        "cover?"
-      ],
-      "conf": 86.4485,
-      "source": "psm-11"
+        "like",
+        "this."
+      ]
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "lam measuring it.",
-      "x": 0.1255,
-      "y": 0.8657,
-      "w": 0.2661,
-      "h": 0.0228,
+      "text": "The roof.",
+      "x": 0.65,
+      "y": 0.81,
+      "w": 0.2,
+      "h": 0.03,
+      "id": "r7",
+      "order": 6,
       "words": [
-        "lam",
-        "measuring",
-        "it."
-      ],
-      "conf": 85.928,
-      "source": "psm-11"
+        "The",
+        "roof."
+      ]
     }
   ]
 }

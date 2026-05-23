@@ -2,64 +2,151 @@
   "page": 198,
   "image": "/books/page 198.png",
   "imageApiPath": "/api/books/page%20198.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 8,
-    "wordCount": 106,
+    "regionCount": 10,
+    "wordCount": 113,
     "imageWidth": 1138,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r3",
         "r4",
-        "r5",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r6",
-        "r7",
-        "r8"
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
+      "text": "QUESTIONS",
+      "x": 0.45,
+      "y": 0.08,
+      "w": 0.15,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "QUESTIONS O® i\" got a book. I gave",
-      "x": 0.3409,
-      "y": 0.0785,
-      "w": 0.5791,
-      "h": 0.1001,
       "words": [
-        "QUESTIONS",
-        "O®",
-        "i\"",
+        "QUESTIONS"
+      ]
+    },
+    {
+      "text": "a",
+      "x": 0.13,
+      "y": 0.26,
+      "w": 0.02,
+      "h": 0.02,
+      "id": "r2",
+      "order": 1,
+      "words": [
+        "a"
+      ]
+    },
+    {
+      "text": "Which of these is a half moon, which is a full moon, which is a quarter moon, and which is a new moon?",
+      "x": 0.17,
+      "y": 0.26,
+      "w": 0.35,
+      "h": 0.15,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "Which",
+        "of",
+        "these",
+        "is",
+        "a",
+        "half",
+        "moon,",
+        "which",
+        "is",
+        "a",
+        "full",
+        "moon,",
+        "which",
+        "is",
+        "a",
+        "quarter",
+        "moon,",
+        "and",
+        "which",
+        "is",
+        "a",
+        "new",
+        "moon?"
+      ]
+    },
+    {
+      "text": "b",
+      "x": 0.56,
+      "y": 0.15,
+      "w": 0.02,
+      "h": 0.02,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "b"
+      ]
+    },
+    {
+      "text": "I got a book. I gave three dollars to the man in the bookstore. He gave me the book and fifty cents. What was the price of the book? How much was the book? How much change did he give me?",
+      "x": 0.6,
+      "y": 0.15,
+      "w": 0.35,
+      "h": 0.25,
+      "id": "r5",
+      "order": 4,
+      "words": [
+        "I",
         "got",
         "a",
         "book.",
         "I",
-        "gave"
-      ],
-      "conf": 96.0963,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "three dollars to the man in the bookstore.",
-      "x": 0.6072,
-      "y": 0.1786,
-      "w": 0.3436,
-      "h": 0.0452,
-      "words": [
+        "gave",
         "three",
         "dollars",
         "to",
@@ -67,20 +154,7 @@
         "man",
         "in",
         "the",
-        "bookstore."
-      ],
-      "conf": 96.743,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "He gave me the book and fifty cents. What was the price of the book? How much was the book? How much change did he give me?",
-      "x": 0.6063,
-      "y": 0.2297,
-      "w": 0.3445,
-      "h": 0.17,
-      "words": [
+        "bookstore.",
         "He",
         "gave",
         "me",
@@ -108,102 +182,39 @@
         "he",
         "give",
         "me?"
-      ],
-      "conf": 96.3819,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "a Which of these is a half moon, which isa full moon, which is a quarter moon, and which is a new moon?",
-      "x": 0.1362,
-      "y": 0.2534,
-      "w": 0.3875,
-      "h": 0.1387,
+      "text": "c",
+      "x": 0.14,
+      "y": 0.59,
+      "w": 0.02,
+      "h": 0.02,
+      "id": "r6",
+      "order": 5,
       "words": [
-        "a",
-        "Which",
-        "of",
-        "these",
-        "is",
-        "a",
-        "half",
-        "moon,",
-        "which",
-        "isa",
-        "full",
-        "moon,",
-        "which",
-        "is",
-        "a",
-        "quarter",
-        "moon,",
-        "and",
-        "which",
-        "is",
-        "a",
-        "new",
-        "moon?"
-      ],
-      "conf": 94.8037,
-      "source": "psm-11"
+        "c"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "c How far may a quick d What are some",
-      "x": 0.1503,
-      "y": 0.5869,
-      "w": 0.7214,
-      "h": 0.0231,
+      "text": "How far may a quick train go in an hour? How far may you go on your feet in an hour, four miles or forty?",
+      "x": 0.18,
+      "y": 0.59,
+      "w": 0.35,
+      "h": 0.15,
+      "id": "r7",
+      "order": 6,
       "words": [
-        "c",
         "How",
         "far",
         "may",
         "a",
         "quick",
-        "d",
-        "What",
-        "are",
-        "some"
-      ],
-      "conf": 92.9495,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "different sorts of transport? Which is the quickest sort of transport?",
-      "x": 0.6283,
-      "y": 0.6116,
-      "w": 0.3066,
-      "h": 0.1012,
-      "words": [
-        "different",
-        "sorts",
-        "of",
-        "transport?",
-        "Which",
-        "is",
-        "the",
-        "quickest",
-        "sort",
-        "of",
-        "transport?"
-      ],
-      "conf": 96.7491,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "How far may you go on your feet in an hour, four miles or forty?",
-      "x": 0.1898,
-      "y": 0.638,
-      "w": 0.3312,
-      "h": 0.0995,
-      "words": [
+        "train",
+        "go",
+        "in",
+        "an",
+        "hour?",
         "How",
         "far",
         "may",
@@ -219,26 +230,60 @@
         "miles",
         "or",
         "forty?"
-      ],
-      "conf": 96.0053,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "d",
+      "x": 0.58,
+      "y": 0.59,
+      "w": 0.02,
+      "h": 0.02,
       "id": "r8",
       "order": 7,
-      "text": "Answers are on page",
-      "x": 0.348,
-      "y": 0.8822,
-      "w": 0.3392,
-      "h": 0.0215,
+      "words": [
+        "d"
+      ]
+    },
+    {
+      "text": "What are some different sorts of transport? Which is the quickest sort of transport?",
+      "x": 0.62,
+      "y": 0.59,
+      "w": 0.35,
+      "h": 0.15,
+      "id": "r9",
+      "order": 8,
+      "words": [
+        "What",
+        "are",
+        "some",
+        "different",
+        "sorts",
+        "of",
+        "transport?",
+        "Which",
+        "is",
+        "the",
+        "quickest",
+        "sort",
+        "of",
+        "transport?"
+      ]
+    },
+    {
+      "text": "Answers are on page 194.",
+      "x": 0.35,
+      "y": 0.88,
+      "w": 0.4,
+      "h": 0.03,
+      "id": "r10",
+      "order": 9,
       "words": [
         "Answers",
         "are",
         "on",
-        "page"
-      ],
-      "conf": 96.9182,
-      "source": "psm-11"
+        "page",
+        "194."
+      ]
     }
   ]
 }

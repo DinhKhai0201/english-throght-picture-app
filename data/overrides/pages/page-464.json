@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Here is the answer for the 3-4-5 triangle: 3x3=9, 4x4=16, 5x5=25.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.05 },
-    { "text": "(Diagram: A triangle with squares of 9, 16, and 25 units. 9 + 16 = 25).", "x": 0.1, "y": 0.1, "w": 0.85, "h": 0.55 },
-    { "text": "To multiply a number by itself is to 'square' it. 5 is the square root of 25.", "x": 0.1, "y": 0.7, "w": 0.85, "h": 0.1 },
-    { "text": "to square: multiply by itself. FUTURE: will square. PRESENT: square(s). PAST: squared.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
-  ]
-}

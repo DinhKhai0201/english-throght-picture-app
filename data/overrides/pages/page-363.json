@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "The blood is like a stream. The cells take what they need, their fuel, out of the blood stream, as plants and fishes take their food out of water.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "The blood stream carries food and the oxygen which it has taken up in our lungs to all the cells in the body. Old cells die and give place to new cells in the body as plants and fish and other living things in the world about us die and give place to others.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.15 },
-    { "text": "Three million of your red blood cells die every second and other cells take their place. The red cell population of your body changes completely in about three months.", "x": 0.1, "y": 0.68, "w": 0.85, "h": 0.1 },
-    { "text": "stream: river. oxygen: one of the gases in air. Our lungs take it out of the air we breathe. Fire takes oxygen out of the air as it burns.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
-  ]
-}

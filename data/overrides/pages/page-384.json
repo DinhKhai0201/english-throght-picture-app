@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "When we move about from one country to another we sometimes have to change our money, our watches or both. When we change our watches we move the hands forward if we are going east and back if we are going west.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "Here is a map giving time lines across the Pacific Ocean.", "x": 0.1, "y": 0.3, "w": 0.45, "h": 0.1 },
-    { "text": "In the days when Galileo used his pulse as a timekeeper, most men did not even know that the earth was round. They knew no more about the journey of the earth around the sun than they did about the journey of their blood stream.", "x": 0.1, "y": 0.48, "w": 0.85, "h": 0.15 },
-    { "text": "both: the two. even: so much as; used to show something is more or less than expected.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
-  ]
-}

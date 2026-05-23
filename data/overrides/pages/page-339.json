@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "All men have more in common with all other men on earth than most of them know. What do the words “in common” mean? What is their meaning? What do the people in this family have in common? They have their family name in common. They are the Smiths, or the Wangs. They have a house in common; it is their home. The husband and wife have their children in common.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.25 },
-    { "text": "In some parts of the world a man may have a number of wives. In other parts a woman may have a number of husbands. In these countries the wives have their husband in common or the husbands have their wife in common.", "x": 0.45, "y": 0.32, "w": 0.5, "h": 0.15 },
-    { "text": "People of the same country have that country in common. It is their country. Every country has a flag. What is the flag of your country?", "x": 0.1, "y": 0.52, "w": 0.6, "h": 0.12 },
-    { "text": "meaning: sense. flag: represents your country. FUTURE: will mean. PRESENT: mean(s). PAST: meant.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.15 }
-  ]
-}

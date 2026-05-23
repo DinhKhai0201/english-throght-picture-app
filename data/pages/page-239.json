@@ -2,56 +2,79 @@
   "page": 239,
   "image": "/books/page 239.png",
   "imageApiPath": "/api/books/page%20239.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 7,
+    "regionCount": 4,
     "wordCount": 93,
     "imageWidth": 1271,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7"
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "You will have a strange feeling. Are two pencils touching your fingers, or is only one pencil touching them?",
+      "x": 0.12,
+      "y": 0.14,
+      "w": 0.38,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "You will have a strange feeling Are two pencils touching feeling that two pencils your fingers, or is only one pencil touching them?",
-      "x": 0.1385,
-      "y": 0.1479,
-      "w": 0.7191,
-      "h": 0.1458,
       "words": [
         "You",
         "will",
         "have",
         "a",
         "strange",
-        "feeling",
+        "feeling.",
         "Are",
         "two",
         "pencils",
         "touching",
-        "feeling",
-        "that",
-        "two",
-        "pencils",
         "your",
         "fingers,",
         "or",
@@ -61,24 +84,26 @@
         "pencil",
         "touching",
         "them?"
-      ],
-      "conf": 73.3963,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "Do you have the strange feeling that two pencils are there? When you are touching one finger only, you seem to be touching the other?",
+      "x": 0.52,
+      "y": 0.17,
+      "w": 0.38,
+      "h": 0.15,
       "id": "r2",
       "order": 1,
-      "text": "Do you have the strange are there? When you are touching one finger only, you seem to be touching i the other?",
-      "x": 0.5012,
-      "y": 0.1732,
-      "w": 0.3745,
-      "h": 0.1506,
       "words": [
         "Do",
         "you",
         "have",
         "the",
         "strange",
+        "feeling",
+        "that",
+        "two",
+        "pencils",
         "are",
         "there?",
         "When",
@@ -93,54 +118,50 @@
         "to",
         "be",
         "touching",
-        "i",
         "the",
         "other?"
-      ],
-      "conf": 96.1652,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "Why is that? Here is the answer. When the fingers are like this, or like this, they do their work together.",
+      "x": 0.12,
+      "y": 0.54,
+      "w": 0.38,
+      "h": 0.35,
       "id": "r3",
       "order": 2,
-      "text": "Why is that? Here isthe answer.",
-      "x": 0.1369,
-      "y": 0.5514,
-      "w": 0.3328,
-      "h": 0.0441,
       "words": [
         "Why",
         "is",
         "that?",
         "Here",
-        "isthe",
-        "answer."
-      ],
-      "conf": 74.1904,
-      "source": "psm-11"
+        "is",
+        "the",
+        "answer.",
+        "When",
+        "the",
+        "fingers",
+        "are",
+        "like",
+        "this,",
+        "or",
+        "like",
+        "this,",
+        "they",
+        "do",
+        "their",
+        "work",
+        "together."
+      ]
     },
     {
+      "text": "But when they are across one another they do not do their work together. Then a touch to one sometimes seems to be a touch to the other.",
+      "x": 0.52,
+      "y": 0.71,
+      "w": 0.38,
+      "h": 0.2,
       "id": "r4",
       "order": 3,
-      "text": "MA",
-      "x": 0.1967,
-      "y": 0.6514,
-      "w": 0.0952,
-      "h": 0.0678,
-      "words": [
-        "MA"
-      ],
-      "conf": 54.3379,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "But when they are across one another they do not do their work together.",
-      "x": 0.5193,
-      "y": 0.7063,
-      "w": 0.354,
-      "h": 0.0747,
       "words": [
         "But",
         "when",
@@ -155,63 +176,22 @@
         "do",
         "their",
         "work",
-        "together."
-      ],
-      "conf": 96.5669,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "When the fingers are like Then a touch to one this, or like this, they do sometimes seems to bea their work together.",
-      "x": 0.1306,
-      "y": 0.7832,
-      "w": 0.7325,
-      "h": 0.0742,
-      "words": [
-        "When",
-        "the",
-        "fingers",
-        "are",
-        "like",
+        "together.",
         "Then",
         "a",
         "touch",
         "to",
         "one",
-        "this,",
-        "or",
-        "like",
-        "this,",
-        "they",
-        "do",
         "sometimes",
         "seems",
         "to",
-        "bea",
-        "their",
-        "work",
-        "together."
-      ],
-      "conf": 95.1897,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "touch to the other.",
-      "x": 0.5201,
-      "y": 0.8343,
-      "w": 0.2612,
-      "h": 0.0199,
-      "words": [
+        "be",
+        "a",
         "touch",
         "to",
         "the",
         "other."
-      ],
-      "conf": 95.35,
-      "source": "psm-11"
+      ]
     }
   ]
 }

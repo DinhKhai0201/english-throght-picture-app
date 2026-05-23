@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Where do we get our food? We get much of it from the earth. We use some sorts of animals and birds to give us food. Great parts of the earth are covered with grass, a plant which grows with narrow green leaves and puts down roots quickly. There are more than three thousand different sorts of grasses growing.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.2 },
-    { "text": "Grass has very small seeds which are used as food by birds and small animals. Man has discovered how to grow grasses with larger seeds.", "x": 0.1, "y": 0.25, "w": 0.85, "h": 0.1 },
-    { "text": "Wheat, rice, corn, and other grains come from grass. The grain lands of the world have been planted by men. From grain man gets an important part of the food that gives him energy.", "x": 0.1, "y": 0.55, "w": 0.85, "h": 0.15 },
-    { "text": "discover: get to know. large: great in size. grow: come up from seeds. FUTURE: will discover/grow. PRESENT: discover(s)/grow(s). PAST: discovered/grew, grown.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.15 }
-  ]
-}

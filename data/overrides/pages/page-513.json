@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "The start of a circle depends on how big it will be. (Illustration: Curves of different sizes).", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "There is feed-forward as well as feed-back. Feed-back only works if you have a direction (feed-forward) for what you are trying to do.", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.18 },
-    { "text": "You might not know your direction yet; you may be searching for it.", "x": 0.1, "y": 0.42, "w": 0.85, "h": 0.08 },
-    { "text": "Just as microscopes helped us see better, improved 'instruments of thought' help us design, direct, and understand our own actions. unless: if not.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.42 }
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "There is a good story about the use the great Italian scientist Galileo once made of his knowledge of the pulse rate. Galileo lived three hundred years ago before men had watches for measuring time.", "x": 0.1, "y": 0.05, "w": 0.5, "h": 0.2 },
-    { "text": "In the sixteenth century there were very few clocks in the world and no watches. One day when Galileo was a young man of eighteen, he was in the great church of the city of Pisa where he lived.", "x": 0.1, "y": 0.25, "w": 0.45, "h": 0.2 },
-    { "text": "Watching the motion of a light hanging down on a long chain from the roof high above his head, he saw that as the light moved forward and back on its chain, it seemed to take the same time between turns, however far it went.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.2 },
-    { "text": "once: at one time in the past. forward: to the front. chain: metal rings. however far: whether short or long distance. however: in whatever way.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.15 }
-  ]
-}

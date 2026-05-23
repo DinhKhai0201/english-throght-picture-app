@@ -2,42 +2,48 @@
   "page": 363,
   "image": "/books/page 363.png",
   "imageApiPath": "/api/books/page%20363.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 8,
+    "regionCount": 4,
     "wordCount": 141,
     "imageWidth": 1205,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r2",
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "The blood is like a stream. The cells take what they need, their fuel, out of the blood stream, as plants and fishes take their food out of water.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.1,
       "id": "r1",
       "order": 0,
-      "text": "The blood is like a stream. The cells take what they need, their fuel, out of the blood stream, as plants and fishes",
-      "x": 0.1154,
-      "y": 0.0391,
-      "w": 0.8091,
-      "h": 0.0471,
       "words": [
         "The",
         "blood",
@@ -61,38 +67,23 @@
         "as",
         "plants",
         "and",
-        "fishes"
-      ],
-      "conf": 96.7505,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "take their food out of water.",
-      "x": 0.1154,
-      "y": 0.0905,
-      "w": 0.4133,
-      "h": 0.0166,
-      "words": [
+        "fishes",
         "take",
         "their",
         "food",
         "out",
         "of",
         "water."
-      ],
-      "conf": 96.467,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "The blood stream carries food and the oxygen which it has taken up in our lungs to all the cells in the body.",
-      "x": 0.1162,
-      "y": 0.5217,
-      "w": 0.8108,
-      "h": 0.0477,
+      "text": "The blood stream carries food and the oxygen which it has taken up in our lungs to all the cells in the body. Old cells die and give place to new cells in the body as plants and fish and other living things in the world about us die and give place to others.",
+      "x": 0.1,
+      "y": 0.52,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r2",
+      "order": 1,
       "words": [
         "The",
         "blood",
@@ -116,20 +107,7 @@
         "cells",
         "in",
         "the",
-        "body."
-      ],
-      "conf": 96.3831,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "Old cells die and give place to new cells in the body as plants and fish and other living things in the world about us die and give place to others. Three million of your red blood cells die every second and other cells take their place. The red cell population of your body changes",
-      "x": 0.1145,
-      "y": 0.5731,
-      "w": 0.8117,
-      "h": 0.1238,
-      "words": [
+        "body.",
         "Old",
         "cells",
         "die",
@@ -160,7 +138,18 @@
         "give",
         "place",
         "to",
-        "others.",
+        "others."
+      ]
+    },
+    {
+      "text": "Three million of your red blood cells die every second and other cells take their place. The red cell population of your body changes completely in about three months.",
+      "x": 0.1,
+      "y": 0.68,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r3",
+      "order": 2,
+      "words": [
         "Three",
         "million",
         "of",
@@ -184,45 +173,32 @@
         "of",
         "your",
         "body",
-        "changes"
-      ],
-      "conf": 96.4203,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "completely in about three months.",
-      "x": 0.1129,
-      "y": 0.7017,
-      "w": 0.5062,
-      "h": 0.0214,
-      "words": [
+        "changes",
         "completely",
         "in",
         "about",
         "three",
         "months."
-      ],
-      "conf": 96.2614,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "exygen: one of the gases in cir. Our lungs take it out of the alr we",
-      "x": 0.1112,
-      "y": 0.8656,
-      "w": 0.8116,
-      "h": 0.015,
+      "text": "stream: river. oxygen: one of the gases in air. Our lungs take it out of the air we breathe. Fire takes oxygen out of the air as it burns.",
+      "x": 0.1,
+      "y": 0.82,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "exygen:",
+        "stream:",
+        "river.",
+        "oxygen:",
         "one",
         "of",
         "the",
         "gases",
         "in",
-        "cir.",
+        "air.",
         "Our",
         "lungs",
         "take",
@@ -230,36 +206,8 @@
         "out",
         "of",
         "the",
-        "alr",
-        "we"
-      ],
-      "conf": 93.6737,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "stream: river.",
-      "x": 0.1129,
-      "y": 0.8495,
-      "w": 0.1618,
-      "h": 0.0118,
-      "words": [
-        "stream:",
-        "river."
-      ],
-      "conf": 95.2093,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "breathe. Fire takes oxygen out of the air as it burns,",
-      "x": 0.166,
-      "y": 0.8827,
-      "w": 0.5834,
-      "h": 0.0145,
-      "words": [
+        "air",
+        "we",
         "breathe.",
         "Fire",
         "takes",
@@ -270,10 +218,8 @@
         "air",
         "as",
         "it",
-        "burns,"
-      ],
-      "conf": 90.8081,
-      "source": "psm-11"
+        "burns."
+      ]
     }
   ]
 }

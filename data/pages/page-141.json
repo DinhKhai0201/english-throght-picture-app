@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20141.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 23,
-    "wordCount": 143,
+    "regionCount": 4,
+    "wordCount": 133,
     "imageWidth": 1238,
     "imageHeight": 1825
   },
@@ -18,12 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r7",
-        "r8"
+        "r1"
       ]
     },
     {
@@ -34,11 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r6",
-        "r9",
-        "r10",
-        "r11"
+        "r2"
       ]
     },
     {
@@ -49,12 +40,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r12",
-        "r14",
-        "r16",
-        "r17",
-        "r20",
-        "r23"
+        "r3"
       ]
     },
     {
@@ -65,149 +51,48 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r13",
-        "r15",
-        "r18",
-        "r19",
-        "r21",
-        "r22"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "This is a letter: a. These are letters: a, b, c. This is a word: man. Three letters make the word man. The man is writing a letter. He is writing on paper with a pen.",
+      "x": 0.12,
+      "y": 0.08,
+      "w": 0.4,
+      "h": 0.25,
       "id": "r1",
       "order": 0,
-      "text": "This is a letter: a.",
-      "x": 0.1365,
-      "y": 0.0767,
-      "w": 0.252,
-      "h": 0.0203,
       "words": [
         "This",
         "is",
         "a",
         "letter:",
-        "a."
-      ],
-      "conf": 94.8058,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "These are letters: a, b, c.",
-      "x": 0.1365,
-      "y": 0.1025,
-      "w": 0.3635,
-      "h": 0.0225,
-      "words": [
+        "a.",
         "These",
         "are",
         "letters:",
         "a,",
         "b,",
-        "c."
-      ],
-      "conf": 94.1274,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "This is a word: man.",
-      "x": 0.1365,
-      "y": 0.1293,
-      "w": 0.2956,
-      "h": 0.0197,
-      "words": [
+        "c.",
         "This",
         "is",
         "a",
         "word:",
-        "man."
-      ],
-      "conf": 95.366,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "Three letters make the word man.",
-      "x": 0.1365,
-      "y": 0.154,
-      "w": 0.2722,
-      "h": 0.046,
-      "words": [
+        "man.",
         "Three",
         "letters",
         "make",
         "the",
         "word",
-        "man."
-      ],
-      "conf": 96.3814,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "Daas. ta, Dow",
-      "x": 0.5905,
-      "y": 0.1436,
-      "w": 0.1737,
-      "h": 0.0274,
-      "words": [
-        "Daas.",
-        "ta,",
-        "Dow"
-      ],
-      "conf": 48.5856,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "ba rw",
-      "x": 0.7504,
-      "y": 0.1688,
-      "w": 0.0937,
-      "h": 0.0285,
-      "words": [
-        "ba",
-        "rw"
-      ],
-      "conf": 71.199,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "The man is writing a letter.",
-      "x": 0.1365,
-      "y": 0.2055,
-      "w": 0.2997,
-      "h": 0.046,
-      "words": [
+        "man.",
         "The",
         "man",
         "is",
         "writing",
         "a",
-        "letter."
-      ],
-      "conf": 96.6691,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "He is writing on paper with a pen.",
-      "x": 0.1357,
-      "y": 0.2581,
-      "w": 0.3344,
-      "h": 0.052,
-      "words": [
+        "letter.",
         "He",
         "is",
         "writing",
@@ -216,34 +101,16 @@
         "with",
         "a",
         "pen."
-      ],
-      "conf": 96.3076,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "ark fet go.",
-      "x": 0.6624,
-      "y": 0.2597,
-      "w": 0.2052,
-      "h": 0.034,
-      "words": [
-        "ark",
-        "fet",
-        "go."
-      ],
-      "conf": 43.7496,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "This is the letter: It is in Mr. writing.",
-      "x": 0.5638,
-      "y": 0.3633,
-      "w": 0.3538,
-      "h": 0.051,
+      "text": "This is the letter: It is in Mr. Roe's writing. Mr. Roe will send the letter to Mr. Doe.",
+      "x": 0.55,
+      "y": 0.36,
+      "w": 0.4,
+      "h": 0.12,
+      "id": "r2",
+      "order": 1,
       "words": [
         "This",
         "is",
@@ -253,20 +120,8 @@
         "is",
         "in",
         "Mr.",
-        "writing."
-      ],
-      "conf": 96.7891,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "Mr. Roe will send the letter to Mr. Doe.",
-      "x": 0.5638,
-      "y": 0.4159,
-      "w": 0.311,
-      "h": 0.0455,
-      "words": [
+        "Roe's",
+        "writing.",
         "Mr.",
         "Roe",
         "will",
@@ -276,18 +131,16 @@
         "to",
         "Mr.",
         "Doe."
-      ],
-      "conf": 96.4966,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "Here is the letter ready for the post.",
-      "x": 0.1422,
-      "y": 0.4997,
-      "w": 0.3425,
-      "h": 0.0494,
+      "text": "Here is the letter ready for the post. Here is the stamp. Mr. Doe's name and street and town are on the letter. Mass. is short for Massachusetts. Middlefield is in Massachusetts.",
+      "x": 0.12,
+      "y": 0.51,
+      "w": 0.4,
+      "h": 0.45,
+      "id": "r3",
+      "order": 2,
       "words": [
         "Here",
         "is",
@@ -296,96 +149,11 @@
         "ready",
         "for",
         "the",
-        "post."
-      ],
-      "conf": 96.7397,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "This is the back of the letter.",
-      "x": 0.5582,
-      "y": 0.4992,
-      "w": 0.3183,
-      "h": 0.0449,
-      "words": [
-        "This",
-        "is",
-        "the",
-        "back",
-        "of",
-        "the",
-        "letter."
-      ],
-      "conf": 96.6986,
-      "source": "psm-11"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "Here is the stamp.",
-      "x": 0.21,
-      "y": 0.5715,
-      "w": 0.2625,
-      "h": 0.0247,
-      "words": [
+        "post.",
         "Here",
         "is",
         "the",
-        "stamp."
-      ],
-      "conf": 96.3628,
-      "source": "psm-11"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "Mr. Roe’s name, and the town where he is living",
-      "x": 0.5574,
-      "y": 0.5518,
-      "w": 0.3651,
-      "h": 0.0493,
-      "words": [
-        "Mr.",
-        "Roe’s",
-        "name,",
-        "and",
-        "the",
-        "town",
-        "where",
-        "he",
-        "is",
-        "living"
-      ],
-      "conf": 93.3095,
-      "source": "psm-11"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "Wr Bre Main",
-      "x": 0.1801,
-      "y": 0.6351,
-      "w": 0.1801,
-      "h": 0.0329,
-      "words": [
-        "Wr",
-        "Bre",
-        "Main"
-      ],
-      "conf": 67.239,
-      "source": "psm-11"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "Mr. Doe's name and street and town are on the letter.",
-      "x": 0.1422,
-      "y": 0.7101,
-      "w": 0.336,
-      "h": 0.0784,
-      "words": [
+        "stamp.",
         "Mr.",
         "Doe's",
         "name",
@@ -396,94 +164,61 @@
         "are",
         "on",
         "the",
-        "letter."
-      ],
-      "conf": 90.7999,
-      "source": "psm-11"
+        "letter.",
+        "Mass.",
+        "is",
+        "short",
+        "for",
+        "Massachusetts.",
+        "Middlefield",
+        "is",
+        "in",
+        "Massachusetts."
+      ]
     },
     {
-      "id": "r18",
-      "order": 17,
-      "text": "are on the back of the letter.",
-      "x": 0.5638,
-      "y": 0.714,
-      "w": 0.3279,
-      "h": 0.0438,
+      "text": "This is the back of the letter. Mr. Roe's name, and the town where he is living are on the back of the letter. Me. is short for Maine. Bar Harbor is in Maine. Massachusetts and Maine are two states of the United States of America.",
+      "x": 0.54,
+      "y": 0.51,
+      "w": 0.4,
+      "h": 0.45,
+      "id": "r4",
+      "order": 3,
       "words": [
+        "This",
+        "is",
+        "the",
+        "back",
+        "of",
+        "the",
+        "letter.",
+        "Mr.",
+        "Roe's",
+        "name,",
+        "and",
+        "the",
+        "town",
+        "where",
+        "he",
+        "is",
+        "living",
         "are",
         "on",
         "the",
         "back",
         "of",
         "the",
-        "letter."
-      ],
-      "conf": 96.3263,
-      "source": "psm-11"
-    },
-    {
-      "id": "r19",
-      "order": 18,
-      "text": "Me. is short for Maine.",
-      "x": 0.563,
-      "y": 0.7655,
-      "w": 0.3328,
-      "h": 0.0203,
-      "words": [
+        "letter.",
         "Me.",
         "is",
         "short",
         "for",
-        "Maine."
-      ],
-      "conf": 96.2711,
-      "source": "psm-11"
-    },
-    {
-      "id": "r20",
-      "order": 19,
-      "text": "Mass. is short for Massachusetts.",
-      "x": 0.1414,
-      "y": 0.7956,
-      "w": 0.2488,
-      "h": 0.0444,
-      "words": [
-        "Mass.",
-        "is",
-        "short",
-        "for",
-        "Massachusetts."
-      ],
-      "conf": 96.4994,
-      "source": "psm-11"
-    },
-    {
-      "id": "r21",
-      "order": 20,
-      "text": "Bar Harbor is in Maine.",
-      "x": 0.5646,
-      "y": 0.7912,
-      "w": 0.3449,
-      "h": 0.0208,
-      "words": [
+        "Maine.",
         "Bar",
         "Harbor",
         "is",
         "in",
-        "Maine."
-      ],
-      "conf": 96.5677,
-      "source": "psm-11"
-    },
-    {
-      "id": "r22",
-      "order": 21,
-      "text": "Massachusetts and Maine are two states of the United States of America.",
-      "x": 0.5598,
-      "y": 0.817,
-      "w": 0.311,
-      "h": 0.097,
-      "words": [
+        "Maine.",
         "Massachusetts",
         "and",
         "Maine",
@@ -496,26 +231,7 @@
         "States",
         "of",
         "America."
-      ],
-      "conf": 96.5246,
-      "source": "psm-11"
-    },
-    {
-      "id": "r23",
-      "order": 22,
-      "text": "Middlefield is in Massachusetts.",
-      "x": 0.1422,
-      "y": 0.8466,
-      "w": 0.2351,
-      "h": 0.0454,
-      "words": [
-        "Middlefield",
-        "is",
-        "in",
-        "Massachusetts."
-      ],
-      "conf": 96.2462,
-      "source": "psm-11"
+      ]
     }
   ]
 }

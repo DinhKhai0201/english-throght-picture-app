@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Tallies are simple records that tell how many things have been counted. In a bank, a man who handles money is called a teller.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.12 },
-    { "text": "The table he works at is a counter. He counts money and keeps records in an account book.", "x": 0.1, "y": 0.42, "w": 0.45, "h": 0.1 },
-    { "text": "Banks make monthly statements to tell people what their account is. Both the person and the bank have the record straight.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.15 },
-    { "text": "To get a statement ready, the banker takes money given out from money put in. tell: give an account. straight: right. FUTURE: will tell. PRESENT: tell(s). PAST: told.", "x": 0.1, "y": 0.7, "w": 0.85, "h": 0.25 }
-  ]
-}

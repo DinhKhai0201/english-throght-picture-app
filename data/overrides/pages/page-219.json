@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "The rain comes down from the clouds on me. It comes down on my head.", "x": 0.15, "y": 0.09, "w": 0.35, "h": 0.1 },
-    { "text": "The rain comes down from the clouds on us. It comes down on our heads.", "x": 0.55, "y": 0.09, "w": 0.35, "h": 0.1 },
-    { "text": "Why is it raining today? Yesterday the weather was good. The sun was bright. The air was warm.", "x": 0.13, "y": 0.51, "w": 0.38, "h": 0.12 },
-    { "text": "Today the weather is bad. The rain is coming down. The wind is blowing. It is cold and the rain makes us wet.", "x": 0.53, "y": 0.51, "w": 0.38, "h": 0.12 }
-  ]
-}

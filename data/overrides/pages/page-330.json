@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Another way in which people are getting to know more about one another is through the radio. Man’s words were first sent from one place to another by telephone less than a hundred years ago. A word can now go by telephone from the Atlantic to the Pacific in one-twelfth (1/12) of a second. A telephone needs wires, but the radio, which came into use less than fifty years ago, can send sounds any distance without wires.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.35 },
-    { "text": "Television, which is one of the great new powers—for good or bad—of this century, lets a public man talk to millions while they sit in their private homes seeing him as if he were there in front of them.", "x": 0.1, "y": 0.45, "w": 0.45, "h": 0.2 },
-    { "text": "wire: thread of metal. talk: say things. sit: be seated. telephone, radio, television: instruments for sending sound and pictures.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.12 },
-    { "text": "FUTURE: will talk/sit. PRESENT: talk(s)/sit(s). PAST: talked/sat.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
-  ]
-}

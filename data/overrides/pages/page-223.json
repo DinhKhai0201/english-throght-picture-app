@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Changes in the heat which comes to the earth from the sun are one cause of changes in the weather. This discovery is new. A man of science made the discovery in 1944.", "x": 0.1, "y": 0.13, "w": 0.38, "h": 0.25 },
-    { "text": "He made it by measuring the heat which comes to the earth every day from the sun. The amount of heat is different from day to day.", "x": 0.52, "y": 0.13, "w": 0.4, "h": 0.18 },
-    { "text": "On some days the sun sends more heat to the earth. On other days it sends less heat to the earth. There is more water in this glass than in that. More Less", "x": 0.08, "y": 0.54, "w": 0.38, "h": 0.35 },
-    { "text": "Men are making new discoveries every day. Columbus made the discovery of America in 1492. Columbus came to America in his ship in 1492.", "x": 0.52, "y": 0.52, "w": 0.4, "h": 0.2 }
-  ]
-}

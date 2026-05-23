@@ -1,7 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Early man used hands for things we now do with machines. Fingers were made before forks.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.12 },
-    { "text": "Fingers were also good counters. We use a base-ten number system today because we have ten fingers.", "x": 0.1, "y": 0.6, "w": 0.85, "h": 0.15 }
-  ]
-}

@@ -1,8 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "In 1772 Joseph Priestley, the discoverer of oxygen, made a most important experiment. He knew that if you put a live mouse under a glass, it will die without oxygen.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.2 },
-    { "text": "Priestley put a green plant under a large glass cover standing in water so that no fresh air could get in. He thought he would find the plant dead like the mouse.", "x": 0.1, "y": 0.55, "w": 0.85, "h": 0.15 },
-    { "text": "live: alive, living. mouse: small animal with a long tail. while: a space of time.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
-  ]
-}

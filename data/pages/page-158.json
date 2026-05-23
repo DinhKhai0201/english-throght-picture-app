@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20158.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 9,
-    "wordCount": 62,
+    "regionCount": 8,
+    "wordCount": 64,
     "imageWidth": 1163,
     "imageHeight": 1871
   },
@@ -19,7 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r4"
+        "r2"
       ]
     },
     {
@@ -30,8 +30,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3"
+        "r3",
+        "r4"
       ]
     },
     {
@@ -42,8 +42,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r7"
+        "r5",
+        "r6"
       ]
     },
     {
@@ -54,21 +54,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r8",
-        "r9"
+        "r7",
+        "r8"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Now this side will be one wall of the house.",
+      "x": 0.12,
+      "y": 0.13,
+      "w": 0.38,
+      "h": 0.05,
       "id": "r1",
       "order": 0,
-      "text": "Now this side will be one wall of the house.",
-      "x": 0.141,
-      "y": 0.1368,
-      "w": 0.3431,
-      "h": 0.0449,
       "words": [
         "Now",
         "this",
@@ -80,18 +79,34 @@
         "of",
         "the",
         "house."
-      ],
-      "conf": 96.4515,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "I will put a window in here.",
+      "x": 0.12,
+      "y": 0.36,
+      "w": 0.38,
+      "h": 0.05,
       "id": "r2",
       "order": 1,
+      "words": [
+        "I",
+        "will",
+        "put",
+        "a",
+        "window",
+        "in",
+        "here."
+      ]
+    },
+    {
       "text": "This will be the opposite wall of the house.",
-      "x": 0.5477,
-      "y": 0.1363,
-      "w": 0.3766,
-      "h": 0.0454,
+      "x": 0.54,
+      "y": 0.13,
+      "w": 0.4,
+      "h": 0.05,
+      "id": "r3",
+      "order": 2,
       "words": [
         "This",
         "will",
@@ -102,18 +117,16 @@
         "of",
         "the",
         "house."
-      ],
-      "conf": 96.5917,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "I will put another window in this opposite wall,",
-      "x": 0.5486,
-      "y": 0.3442,
-      "w": 0.3637,
-      "h": 0.0679,
+      "text": "I will put another window in this opposite wall.",
+      "x": 0.54,
+      "y": 0.35,
+      "w": 0.38,
+      "h": 0.08,
+      "id": "r4",
+      "order": 3,
       "words": [
         "I",
         "will",
@@ -123,55 +136,17 @@
         "in",
         "this",
         "opposite",
-        "wall,"
-      ],
-      "conf": 91.0621,
-      "source": "psm-11"
+        "wall."
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "will put a window in here.",
-      "x": 0.1453,
-      "y": 0.3677,
-      "w": 0.3337,
-      "h": 0.0439,
-      "words": [
-        "will",
-        "put",
-        "a",
-        "window",
-        "in",
-        "here."
-      ],
-      "conf": 92.2883,
-      "source": "psm-11"
-    },
-    {
+      "text": "The front of the box will be the front of the house.",
+      "x": 0.12,
+      "y": 0.56,
+      "w": 0.4,
+      "h": 0.05,
       "id": "r5",
       "order": 4,
-      "text": "This is a step.",
-      "x": 0.5761,
-      "y": 0.542,
-      "w": 0.2046,
-      "h": 0.0224,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "step."
-      ],
-      "conf": 92.7829,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "The front of the box will be the front of the house.",
-      "x": 0.129,
-      "y": 0.5681,
-      "w": 0.3826,
-      "h": 0.0438,
       "words": [
         "The",
         "front",
@@ -185,19 +160,18 @@
         "of",
         "the",
         "house."
-      ],
-      "conf": 96.6868,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "will put a step under the door.",
-      "x": 0.1522,
-      "y": 0.7531,
-      "w": 0.3422,
-      "h": 0.0454,
+      "text": "I will put a step under the door.",
+      "x": 0.12,
+      "y": 0.75,
+      "w": 0.38,
+      "h": 0.08,
+      "id": "r6",
+      "order": 5,
       "words": [
+        "I",
         "will",
         "put",
         "a",
@@ -205,40 +179,38 @@
         "under",
         "the",
         "door."
-      ],
-      "conf": 95.1824,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "This is a step.",
+      "x": 0.56,
+      "y": 0.53,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r7",
+      "order": 6,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "step."
+      ]
+    },
+    {
+      "text": "These are steps. Three steps.",
+      "x": 0.56,
+      "y": 0.76,
+      "w": 0.35,
+      "h": 0.08,
       "id": "r8",
       "order": 7,
-      "text": "These are steps.",
-      "x": 0.5838,
-      "y": 0.7413,
-      "w": 0.2451,
-      "h": 0.0241,
       "words": [
         "These",
         "are",
-        "steps."
-      ],
-      "conf": 96.5785,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "Three steps.",
-      "x": 0.8469,
-      "y": 0.7809,
-      "w": 0.0868,
-      "h": 0.0475,
-      "words": [
+        "steps.",
         "Three",
         "steps."
-      ],
-      "conf": 97.0149,
-      "source": "psm-11"
+      ]
     }
   ]
 }

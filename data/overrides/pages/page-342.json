@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "There are more than 2600 million people on the earth and about 2500 languages. Of these languages only about twelve are used by more than 50 million people.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "Here are the names of some languages which have very wide use: Chinese (Mandarin and Cantonese), English, French, German, Hindi, Japanese, Russian and Spanish. All these languages have more people talking them today than ever before. A hundred and fifty years ago there were only about twenty million people who talked English, for example. Now there are at least two hundred and fifty million, and there may be many, many more.", "x": 0.1, "y": 0.15, "w": 0.85, "h": 0.25 },
-    { "text": "Graph of English speakers: 1800 (~20 million), 1850 (~40 million), 1900 (~120 million), 1950 (over 250 million).", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.35 },
-    { "text": "at least: that number or more.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.05 }
-  ]
-}

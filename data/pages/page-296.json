@@ -2,47 +2,52 @@
   "page": 296,
   "image": "/books/page 296.png",
   "imageApiPath": "/api/books/page%20296.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 81,
+    "regionCount": 4,
+    "wordCount": 90,
     "imageWidth": 1188,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "There are 50,000,000 more people in Europe today than there were twenty-five years ago. The increase in population in twenty-five years is 50,000,000. Europe has increased her population by 50,000,000 in the last twenty-five years.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "There are more people in Europe today than there were twenty-five years ago. The increase in pop- ulation in twenty-five years is Europe has increased her population by in the last",
-      "x": 0.0985,
-      "y": 0.0398,
-      "w": 0.8266,
-      "h": 0.1006,
       "words": [
         "There",
         "are",
+        "50,000,000",
         "more",
         "people",
         "in",
@@ -57,48 +62,34 @@
         "The",
         "increase",
         "in",
-        "pop-",
-        "ulation",
+        "population",
         "in",
         "twenty-five",
         "years",
         "is",
+        "50,000,000.",
         "Europe",
         "has",
         "increased",
         "her",
         "population",
         "by",
+        "50,000,000",
         "in",
         "the",
-        "last"
-      ],
-      "conf": 96.5937,
-      "source": "psm-11"
+        "last",
+        "twenty-five",
+        "years."
+      ]
     },
     {
+      "text": "This map gives a picture of the number of people in each country of Europe today. Legend: less than 1 million, 1-6 millions, 6-11 millions, 11-36 millions, 36-70 millions.",
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.85,
+      "h": 0.35,
       "id": "r2",
       "order": 1,
-      "text": "twenty-five years",
-      "x": 0.0976,
-      "y": 0.1442,
-      "w": 0.2542,
-      "h": 0.0215,
-      "words": [
-        "twenty-five",
-        "years"
-      ],
-      "conf": 96.5634,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "This map gives a picture of the number of people in",
-      "x": 0.0985,
-      "y": 0.1963,
-      "w": 0.8291,
-      "h": 0.0226,
       "words": [
         "This",
         "map",
@@ -110,138 +101,74 @@
         "number",
         "of",
         "people",
-        "in"
-      ],
-      "conf": 96.5208,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "each country of Europe today",
-      "x": 0.0993,
-      "y": 0.2232,
-      "w": 0.4588,
-      "h": 0.0221,
-      "words": [
+        "in",
         "each",
         "country",
         "of",
         "Europe",
-        "today"
-      ],
-      "conf": 96.4737,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "tess than million",
-      "x": 0.1684,
-      "y": 0.3012,
-      "w": 0.1869,
-      "h": 0.0102,
-      "words": [
-        "tess",
+        "today.",
+        "Legend:",
+        "less",
         "than",
-        "million"
-      ],
-      "conf": 83.8865,
-      "source": "psm-11"
+        "1",
+        "million,",
+        "1-6",
+        "millions,",
+        "6-11",
+        "millions,",
+        "11-36",
+        "millions,",
+        "36-70",
+        "millions."
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "ago: before now, before the present to increase: to get greater in size.",
-      "x": 0.1077,
-      "y": 0.773,
-      "w": 0.4235,
-      "h": 0.049,
+      "text": "ago: before now, before the present. increase: amount by which something gets greater. each: every, all, one by one.",
+      "x": 0.1,
+      "y": 0.75,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r3",
+      "order": 2,
       "words": [
         "ago:",
         "before",
         "now,",
         "before",
         "the",
-        "present",
-        "to",
-        "increase:",
-        "to",
-        "get",
-        "greater",
-        "in",
-        "size."
-      ],
-      "conf": 95.345,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "increase: amount by which something gets greater.",
-      "x": 0.1086,
-      "y": 0.7902,
-      "w": 0.5749,
-      "h": 0.0145,
-      "words": [
+        "present.",
         "increase:",
         "amount",
         "by",
         "which",
         "something",
         "gets",
-        "greater."
-      ],
-      "conf": 95.5995,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "each: every; ali, one by one.",
-      "x": 0.1086,
-      "y": 0.8246,
-      "w": 0.3224,
-      "h": 0.0151,
-      "words": [
+        "greater.",
         "each:",
-        "every;",
-        "ali,",
+        "every,",
+        "all,",
         "one",
         "by",
         "one."
-      ],
-      "conf": 94.1765,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "wiil increase",
-      "x": 0.1086,
-      "y": 0.8548,
-      "w": 0.1582,
-      "h": 0.0124,
+      "text": "FUTURE: will increase. PRESENT: increase(s). PAST: increased.",
+      "x": 0.1,
+      "y": 0.85,
+      "w": 0.85,
+      "h": 0.05,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "wiil",
-        "increase"
-      ],
-      "conf": 84.9339,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "increased",
-      "x": 0.8182,
-      "y": 0.8499,
-      "w": 0.1178,
-      "h": 0.0134,
-      "words": [
-        "increased"
-      ],
-      "conf": 95.8209,
-      "source": "psm-11"
+        "FUTURE:",
+        "will",
+        "increase.",
+        "PRESENT:",
+        "increase(s).",
+        "PAST:",
+        "increased."
+      ]
     }
   ]
 }

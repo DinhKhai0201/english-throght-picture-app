@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Blood requires a healthy heart and oxygen from the lungs. These depend on the stomach for food and the nervous system for overall control.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "(Diagram: A detailed system map showing arrows between MUSCLES, NERVES, BLOOD STREAM, STOMACH, LUNGS, and HEART).", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.55 },
-    { "text": "The entire body is a network of systems working together. nervous system: the complete network of nerves in the body.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.12 },
-    { "text": "FUTURE: will control. PRESENT: control(s). PAST: controlled.", "x": 0.1, "y": 0.9, "w": 0.85, "h": 0.05 }
-  ]
-}

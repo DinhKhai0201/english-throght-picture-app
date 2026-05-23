@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "All organisms which you see in the world about you have grown by cell division. You and I have become what we are through billions of divisions.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "In cell division the two halves of the cell (picture four) become ready to separate. In picture five they have separated. The daughter cells do the same as their mother cell.", "x": 0.1, "y": 0.55, "w": 0.85, "h": 0.15 },
-    { "text": "One of the greatest questions scientists are working on is: What keeps the daughter cells doing what they have to do?", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.1 },
-    { "text": "separate: become or make separate. FUTURE: will separate. PRESENT: separate(s). PAST: separated.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "While our bodies are at rest the large muscles are not in use. It is these large muscles which pull on our bones and let us move as we want to.", "x": 0.1, "y": 0.05, "w": 0.55, "h": 0.15 },
-    { "text": "Hard work with our large muscles uses up energy quickly so that we come to feel hungry and want to eat.", "x": 0.1, "y": 0.22, "w": 0.55, "h": 0.12 },
-    { "text": "The more we know about our bodies, the more new questions come to our minds: How can we grow from one cell? How can cells work without us being conscious of them?", "x": 0.1, "y": 0.38, "w": 0.85, "h": 0.25 },
-    { "text": "while: in the time when. hungry: feeling need for food. FUTURE: will pull. PRESENT: pull(s). PAST: pulled.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
-  ]
-}

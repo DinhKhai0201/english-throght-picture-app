@@ -2,44 +2,48 @@
   "page": 354,
   "image": "/books/page 354.png",
   "imageApiPath": "/api/books/page%20354.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 182,
+    "regionCount": 4,
+    "wordCount": 164,
     "imageWidth": 1188,
     "imageHeight": 1850
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Another part of the answer is that children are not, as older people sometimes are, fixed in their ways of living. When they are taken about from one country to another they change easily from one language to another, from one bed to another, from one food to another.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.12,
       "id": "r1",
       "order": 0,
-      "text": "Another part of the answer is that children are not, as",
-      "x": 0.0875,
-      "y": 0.0384,
-      "w": 0.8224,
-      "h": 0.0276,
       "words": [
         "Another",
         "part",
@@ -51,20 +55,7 @@
         "children",
         "are",
         "not,",
-        "as"
-      ],
-      "conf": 96.6197,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "older people sometimes are, fixed in their ways of living.",
-      "x": 0.0909,
-      "y": 0.0638,
-      "w": 0.8182,
-      "h": 0.0276,
-      "words": [
+        "as",
         "older",
         "people",
         "sometimes",
@@ -74,20 +65,7 @@
         "their",
         "ways",
         "of",
-        "living."
-      ],
-      "conf": 96.3502,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "When they are taken about from one country to an- other they change easily from one language to another, from one bed to another, from one food to another.",
-      "x": 0.0875,
-      "y": 0.0914,
-      "w": 0.8266,
-      "h": 0.0751,
-      "words": [
+        "living.",
         "When",
         "they",
         "are",
@@ -97,8 +75,7 @@
         "one",
         "country",
         "to",
-        "an-",
-        "other",
+        "another",
         "they",
         "change",
         "easily",
@@ -117,18 +94,16 @@
         "food",
         "to",
         "another."
-      ],
-      "conf": 93.221,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "Older people are more fixed in their ways. They have been hearing and talking one language for a long time.",
-      "x": 0.0918,
-      "y": 0.1719,
-      "w": 0.8207,
-      "h": 0.0481,
+      "text": "Older people are more fixed in their ways. They have been hearing and talking one language for a long time. Their ways of hearing and making sounds and of putting words together are like the rails a train goes on.",
+      "x": 0.1,
+      "y": 0.18,
+      "w": 0.85,
+      "h": 0.12,
+      "id": "r2",
+      "order": 1,
       "words": [
         "Older",
         "people",
@@ -149,20 +124,7 @@
         "for",
         "a",
         "long",
-        "time."
-      ],
-      "conf": 96.5402,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "Their ways of hearing and making sounds and of putting words together are like the rails a train goes on. They have been up and down their lines of talk and thought too",
-      "x": 0.0918,
-      "y": 0.2238,
-      "w": 0.8224,
-      "h": 0.0751,
-      "words": [
+        "time.",
         "Their",
         "ways",
         "of",
@@ -182,51 +144,17 @@
         "a",
         "train",
         "goes",
-        "on.",
-        "They",
-        "have",
-        "been",
-        "up",
-        "and",
-        "down",
-        "their",
-        "lines",
-        "of",
-        "talk",
-        "and",
-        "thought",
-        "too"
-      ],
-      "conf": 96.354,
-      "source": "psm-11"
+        "on."
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "many times to change them easily.",
-      "x": 0.0918,
-      "y": 0.3032,
-      "w": 0.5042,
-      "h": 0.0216,
-      "words": [
-        "many",
-        "times",
-        "to",
-        "change",
-        "them",
-        "easily."
-      ],
-      "conf": 96.5849,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "A child is freer in his ways. He is more like an airplane or, better, like a bird; he is free to go in any direction he wents. He is free to hear sounds as they are make them as he hears them. He is free to put new words to-",
-      "x": 0.0892,
-      "y": 0.6108,
-      "w": 0.8316,
-      "h": 0.1065,
+      "text": "A child is freer in his ways. He is more like an airplane or, better, like a bird; he is free to go in any direction he wants. He is free to hear sounds as they are and make them as he hears them. He is free to put new words together in new ways in talking a new language.",
+      "x": 0.1,
+      "y": 0.6,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r3",
+      "order": 2,
       "words": [
         "A",
         "child",
@@ -255,7 +183,7 @@
         "any",
         "direction",
         "he",
-        "wents.",
+        "wants.",
         "He",
         "is",
         "free",
@@ -265,6 +193,7 @@
         "as",
         "they",
         "are",
+        "and",
         "make",
         "them",
         "as",
@@ -278,21 +207,7 @@
         "put",
         "new",
         "words",
-        "to-"
-      ],
-      "conf": 96.6811,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "gether in new ways in talking a new language.",
-      "x": 0.0918,
-      "y": 0.7178,
-      "w": 0.7155,
-      "h": 0.0227,
-      "words": [
-        "gether",
+        "together",
         "in",
         "new",
         "ways",
@@ -301,48 +216,33 @@
         "a",
         "new",
         "language."
-      ],
-      "conf": 95.542,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "free: opposite of fixed.",
-      "x": 0.0943,
-      "y": 0.8086,
-      "w": 0.2736,
-      "h": 0.0157,
+      "text": "free: opposite of fixed. change: make a change. FUTURE: will change. PRESENT: change(s). PAST: changed.",
+      "x": 0.1,
+      "y": 0.85,
+      "w": 0.85,
+      "h": 0.08,
+      "id": "r4",
+      "order": 3,
       "words": [
         "free:",
         "opposite",
         "of",
-        "fixed."
-      ],
-      "conf": 95.5743,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "change: make a change, make changes in, will change",
-      "x": 0.0943,
-      "y": 0.8265,
-      "w": 0.5143,
-      "h": 0.0465,
-      "words": [
+        "fixed.",
         "change:",
         "make",
         "a",
-        "change,",
-        "make",
-        "changes",
-        "in,",
+        "change.",
+        "FUTURE:",
         "will",
-        "change"
-      ],
-      "conf": 90.5209,
-      "source": "psm-11"
+        "change.",
+        "PRESENT:",
+        "change(s).",
+        "PAST:",
+        "changed."
+      ]
     }
   ]
 }

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "The chief work of the ends of our fingers is touching. Here is a man who is not able to see.", "x": 0.12, "y": 0.14, "w": 0.38, "h": 0.15 },
-    { "text": "That is a Braille book which he has before him. He is reading the book with the ends of his fingers.", "x": 0.52, "y": 0.14, "w": 0.38, "h": 0.15 },
-    { "text": "Braille letters and words are like this. He is touching them with the ends of his fingers.", "x": 0.1, "y": 0.7, "w": 0.38, "h": 0.15 },
-    { "text": "This other man is reading with his eyes. He is not reading with his fingers. What are those things on his nose? They are his glasses.", "x": 0.52, "y": 0.52, "w": 0.4, "h": 0.35 }
-  ]
-}

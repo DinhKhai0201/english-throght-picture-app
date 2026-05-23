@@ -2,43 +2,48 @@
   "page": 299,
   "image": "/books/page 299.png",
   "imageApiPath": "/api/books/page%20299.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 9,
-    "wordCount": 127,
+    "regionCount": 4,
+    "wordCount": 105,
     "imageWidth": 1225,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r2",
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Which are the countries with the most people in them? China, India, the U.S.S.R. and the U.S.A. all have populations of over a hundred million. Some countries have less room in them than these four, but these have the greatest populations.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "Which are the countries with the most people in them?",
-      "x": 0.1069,
-      "y": 0.0373,
-      "w": 0.8,
-      "h": 0.0219,
       "words": [
         "Which",
         "are",
@@ -49,31 +54,17 @@
         "most",
         "people",
         "in",
-        "them?"
-      ],
-      "conf": 96.2974,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "China, India, the U.S.S:R. and the U.S.A. all have pop- ulations of over a hundred million. Some countries have less room in them than these four, but these have the",
-      "x": 0.1045,
-      "y": 0.0629,
-      "w": 0.8032,
-      "h": 0.0715,
-      "words": [
+        "them?",
         "China,",
         "India,",
         "the",
-        "U.S.S:R.",
+        "U.S.S.R.",
         "and",
         "the",
         "U.S.A.",
         "all",
         "have",
-        "pop-",
-        "ulations",
+        "populations",
         "of",
         "over",
         "a",
@@ -92,59 +83,46 @@
         "but",
         "these",
         "have",
-        "the"
-      ],
-      "conf": 90.7224,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "greatest populations.",
-      "x": 0.1061,
-      "y": 0.1403,
-      "w": 0.2906,
-      "h": 0.0213,
-      "words": [
+        "the",
         "greatest",
         "populations."
-      ],
-      "conf": 96.2445,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "India has more than U.S.S.R. has more than U.S.A, has more than",
-      "x": 0.4376,
-      "y": 0.5333,
-      "w": 0.2188,
-      "h": 0.0875,
+      "text": "China: more than 600,000,000. India: more than 300,000,000. U.S.S.R.: more than 200,000,000. U.S.A.: more than 150,000,000.",
+      "x": 0.45,
+      "y": 0.5,
+      "w": 0.45,
+      "h": 0.2,
+      "id": "r2",
+      "order": 1,
       "words": [
-        "India",
-        "has",
+        "China:",
         "more",
         "than",
-        "U.S.S.R.",
-        "has",
+        "600,000,000.",
+        "India:",
         "more",
         "than",
-        "U.S.A,",
-        "has",
+        "300,000,000.",
+        "U.S.S.R.:",
         "more",
-        "than"
-      ],
-      "conf": 95.0393,
-      "source": "psm-11"
+        "than",
+        "200,000,000.",
+        "U.S.A.:",
+        "more",
+        "than",
+        "150,000,000."
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "It is not good for a country if it does not have enough room for all its people. A person who does not have",
-      "x": 0.1037,
-      "y": 0.6763,
-      "w": 0.7959,
-      "h": 0.0479,
+      "text": "It is not good for a country if it does not have enough room for all its people. A person who does not have enough room to live in may not be able to keep well.",
+      "x": 0.1,
+      "y": 0.7,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r3",
+      "order": 2,
       "words": [
         "It",
         "is",
@@ -169,20 +147,7 @@
         "who",
         "does",
         "not",
-        "have"
-      ],
-      "conf": 96.4511,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "enough room to live in may not be able to keep well.",
-      "x": 0.1053,
-      "y": 0.7291,
-      "w": 0.7461,
-      "h": 0.0229,
-      "words": [
+        "have",
         "enough",
         "room",
         "to",
@@ -195,85 +160,30 @@
         "to",
         "keep",
         "well."
-      ],
-      "conf": 96.4447,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "over: more than.",
-      "x": 0.1045,
-      "y": 0.792,
-      "w": 0.1845,
-      "h": 0.0117,
+      "text": "over: more than. room: space available. well: healthy in body and mind.",
+      "x": 0.1,
+      "y": 0.82,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r4",
+      "order": 3,
       "words": [
         "over:",
         "more",
-        "than."
-      ],
-      "conf": 93.7357,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "room: when there is ne more room in a room, in building, in a country, well: c person Is weil if there is nothing wrong with his body or his mind.",
-      "x": 0.1045,
-      "y": 0.8085,
-      "w": 0.7935,
-      "h": 0.0507,
-      "words": [
+        "than.",
         "room:",
-        "when",
-        "there",
-        "is",
-        "ne",
-        "more",
-        "room",
-        "in",
-        "a",
-        "room,",
-        "in",
-        "building,",
-        "in",
-        "a",
-        "country,",
+        "space",
+        "available.",
         "well:",
-        "c",
-        "person",
-        "Is",
-        "weil",
-        "if",
-        "there",
-        "is",
-        "nothing",
-        "wrong",
-        "with",
-        "his",
+        "healthy",
+        "in",
         "body",
-        "or",
-        "his",
+        "and",
         "mind."
-      ],
-      "conf": 89.4941,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "it is full,",
-      "x": 0.1576,
-      "y": 0.8261,
-      "w": 0.0939,
-      "h": 0.0123,
-      "words": [
-        "it",
-        "is",
-        "full,"
-      ],
-      "conf": 94.9653,
-      "source": "psm-11"
+      ]
     }
   ]
 }

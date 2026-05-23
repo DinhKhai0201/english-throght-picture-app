@@ -2,41 +2,58 @@
   "page": 323,
   "image": "/books/page 323.png",
   "imageApiPath": "/api/books/page%20323.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 7,
-    "wordCount": 135,
+    "regionCount": 4,
+    "wordCount": 133,
     "imageWidth": 1220,
     "imageHeight": 1850
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7"
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Man had to go from place to place for food until he discovered how to grow grain. Uncooked meat and parts of plants were all he had to eat until he made use of fire. And he had to get new supplies of food every day. He hadn't any way of keeping it good.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.5,
+      "h": 0.2,
       "id": "r1",
       "order": 0,
-      "text": "Man had to go from place to place for food until he dis- plants were all he had to eat until he made use of fire. And he had to get new supplies of food every He hadn’t any way of keeping it m7",
-      "x": 0.0918,
-      "y": 0.0341,
-      "w": 0.8049,
-      "h": 0.1729,
       "words": [
         "Man",
         "had",
@@ -50,7 +67,16 @@
         "food",
         "until",
         "he",
-        "dis-",
+        "discovered",
+        "how",
+        "to",
+        "grow",
+        "grain.",
+        "Uncooked",
+        "meat",
+        "and",
+        "parts",
+        "of",
         "plants",
         "were",
         "all",
@@ -74,49 +100,25 @@
         "of",
         "food",
         "every",
+        "day.",
         "He",
-        "hadn’t",
+        "hadn't",
         "any",
         "way",
         "of",
         "keeping",
         "it",
-        "m7"
-      ],
-      "conf": 95.9677,
-      "source": "psm-11"
+        "good."
+      ]
     },
     {
+      "text": "How could he get enough good food for himself, his wife and his children without having to go looking for it every day?",
+      "x": 0.1,
+      "y": 0.28,
+      "w": 0.55,
+      "h": 0.1,
       "id": "r2",
       "order": 1,
-      "text": "overed how to grow grain. Uncooked meat and parts of",
-      "x": 0.1066,
-      "y": 0.06,
-      "w": 0.7902,
-      "h": 0.0216,
-      "words": [
-        "overed",
-        "how",
-        "to",
-        "grow",
-        "grain.",
-        "Uncooked",
-        "meat",
-        "and",
-        "parts",
-        "of"
-      ],
-      "conf": 95.7709,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "How could he get enough good food for himself, his wife and his children without having to go looking for it every day?",
-      "x": 0.0951,
-      "y": 0.2941,
-      "w": 0.5656,
-      "h": 0.074,
       "words": [
         "How",
         "could",
@@ -141,18 +143,16 @@
         "it",
         "every",
         "day?"
-      ],
-      "conf": 96.6343,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "When he started growing grain, he had time to do other things than get the family food day by day. He could keep a supply of grain on hand through the winter until the",
-      "x": 0.0984,
-      "y": 0.5276,
-      "w": 0.8065,
-      "h": 0.0741,
+      "text": "When he started growing grain, he had time to do other things than get the family food day by day. He could keep a supply of grain on hand through the winter until the next spring. He could make a home for himself and keep animals for his use.",
+      "x": 0.1,
+      "y": 0.52,
+      "w": 0.5,
+      "h": 0.2,
+      "id": "r3",
+      "order": 2,
       "words": [
         "When",
         "he",
@@ -187,20 +187,7 @@
         "the",
         "winter",
         "until",
-        "the"
-      ],
-      "conf": 96.1682,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "next spring. He could make a home for himself and keep ani- mals for his use.",
-      "x": 0.0992,
-      "y": 0.6054,
-      "w": 0.4451,
-      "h": 0.0746,
-      "words": [
+        "the",
         "next",
         "spring.",
         "He",
@@ -212,48 +199,29 @@
         "himself",
         "and",
         "keep",
-        "ani-",
-        "mals",
+        "animals",
         "for",
         "his",
         "use."
-      ],
-      "conf": 96.2613,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "HM,",
-      "x": 0.7418,
-      "y": 0.6216,
-      "w": 0.127,
-      "h": 0.0497,
+      "text": "until (till): up to the time that.",
+      "x": 0.1,
+      "y": 0.85,
+      "w": 0.85,
+      "h": 0.05,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "HM,"
-      ],
-      "conf": 48.1022,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "watil (till): up to the time that.",
-      "x": 0.1008,
-      "y": 0.8503,
-      "w": 0.3443,
-      "h": 0.0216,
-      "words": [
-        "watil",
+        "until",
         "(till):",
         "up",
         "to",
         "the",
         "time",
         "that."
-      ],
-      "conf": 80.4837,
-      "source": "psm-11"
+      ]
     }
   ]
 }

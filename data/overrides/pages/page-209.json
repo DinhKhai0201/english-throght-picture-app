@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "The answer is: \"Because it is going round the earth.\" The moon The earth", "x": 0.12, "y": 0.1, "w": 0.38, "h": 0.35 },
-    { "text": "This is a cord in my hand. The cord has a weight at its end. The weight is hanging down on the cord which is in my hand.", "x": 0.56, "y": 0.15, "w": 0.38, "h": 0.3 },
-    { "text": "I make the weight go round on the cord. I keep the end of the cord in my hand.", "x": 0.12, "y": 0.54, "w": 0.38, "h": 0.3 },
-    { "text": "Now I let the end of the cord in my hand go. The weight goes off in a straight line. It takes the cord with it.", "x": 0.56, "y": 0.53, "w": 0.38, "h": 0.35 }
-  ]
-}

@@ -1,8 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Men need to see beautiful things and to have beautiful things about them. Drawing goes back very far in man’s past.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "The drawings of animals copied on this page may have been made as early as 25,000 B.C. drawing: making pictures with lines.", "x": 0.1, "y": 0.15, "w": 0.85, "h": 0.1 },
-    { "text": "copied: another thing made as much like the original as possible. FUTURE: will draw, will copy. PRESENT: draw(s), copy(ies). PAST: drew, drawn, copied.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.15 }
-  ]
-}

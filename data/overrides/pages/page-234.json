@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "What is this man doing? He is putting paint on the door. He is painting the door. He is a painter. That is his work.", "x": 0.12, "y": 0.31, "w": 0.38, "h": 0.15 },
-    { "text": "This is his paint. This is his brush. He puts the paint on with his paint brush.", "x": 0.53, "y": 0.12, "w": 0.38, "h": 0.35 },
-    { "text": "2 + 2 = 4. 3 + 7 = 10. 14 + 26 = 40. This is addition. The boy is doing addition. That is his work.", "x": 0.12, "y": 0.51, "w": 0.35, "h": 0.4 },
-    { "text": "This is a bank. This is a check. Bank of Middletown fifteen dollars $15 John Jones", "x": 0.53, "y": 0.51, "w": 0.4, "h": 0.4 }
-  ]
-}

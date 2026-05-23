@@ -2,133 +2,108 @@
   "page": 136,
   "image": "/books/page 136.png",
   "imageApiPath": "/api/books/page%20136.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 78,
+    "regionCount": 4,
+    "wordCount": 75,
     "imageWidth": 1167,
     "imageHeight": 1834
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10"
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Now it is in her hair. It was in her hand. It is in her hair now. But it is the same hairpin.",
+      "x": 0.12,
+      "y": 0.36,
+      "w": 0.4,
+      "h": 0.12,
       "id": "r1",
       "order": 0,
-      "text": "NY.",
-      "x": 0.6804,
-      "y": 0.247,
-      "w": 0.0617,
-      "h": 0.042,
-      "words": [
-        "NY."
-      ],
-      "conf": 47.335,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "Now it is in her hair.",
-      "x": 0.1388,
-      "y": 0.3593,
-      "w": 0.3171,
-      "h": 0.0196,
       "words": [
         "Now",
         "it",
         "is",
         "in",
         "her",
-        "hair."
-      ],
-      "conf": 90.0062,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "It was in her hand.",
-      "x": 0.1405,
-      "y": 0.3855,
-      "w": 0.2879,
-      "h": 0.0191,
-      "words": [
+        "hair.",
         "It",
         "was",
         "in",
         "her",
-        "hand."
-      ],
-      "conf": 94.7978,
-      "source": "psm-11"
+        "hand.",
+        "It",
+        "is",
+        "in",
+        "her",
+        "hair",
+        "now.",
+        "But",
+        "it",
+        "is",
+        "the",
+        "same",
+        "hairpin."
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "He is brushing his hair.",
-      "x": 0.5433,
-      "y": 0.3686,
-      "w": 0.3505,
-      "h": 0.0234,
+      "text": "He is brushing his hair. He does not put pins in his hair.",
+      "x": 0.54,
+      "y": 0.37,
+      "w": 0.4,
+      "h": 0.08,
+      "id": "r2",
+      "order": 1,
       "words": [
         "He",
         "is",
         "brushing",
         "his",
-        "hair."
-      ],
-      "conf": 93.103,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "lt is in her hair now.",
-      "x": 0.1405,
-      "y": 0.4106,
-      "w": 0.3076,
-      "h": 0.0202,
-      "words": [
-        "lt",
-        "is",
-        "in",
-        "her",
-        "hair",
-        "now."
-      ],
-      "conf": 89.5551,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "He does not put pins in his hair.",
-      "x": 0.5433,
-      "y": 0.3948,
-      "w": 0.3521,
-      "h": 0.0441,
-      "words": [
+        "hair.",
         "He",
         "does",
         "not",
@@ -137,73 +112,16 @@
         "in",
         "his",
         "hair."
-      ],
-      "conf": 96.3512,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "But it is the same hairpin.",
-      "x": 0.1362,
-      "y": 0.4368,
-      "w": 0.2614,
-      "h": 0.0495,
-      "words": [
-        "But",
-        "it",
-        "is",
-        "the",
-        "same",
-        "hairpin."
-      ],
-      "conf": 95.336,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "sun dt",
-      "x": 0.1851,
-      "y": 0.4891,
-      "w": 0.3153,
-      "h": 0.018,
-      "words": [
-        "sun",
-        "dt"
-      ],
-      "conf": 43.4938,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "She put all these things in his bag.",
-      "x": 0.5398,
-      "y": 0.53,
-      "w": 0.3599,
-      "h": 0.0496,
-      "words": [
-        "She",
-        "put",
-        "all",
-        "these",
-        "things",
-        "in",
-        "his",
-        "bag."
-      ],
-      "conf": 96.608,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
       "text": "Mrs. Smith put some shirts and some socks and shoes (in a shoe bag) and a comb and brushes and toothpaste and soap and a wash cloth in Mr. Smith's bag.",
-      "x": 0.0917,
-      "y": 0.6063,
-      "w": 0.3761,
-      "h": 0.1788,
+      "x": 0.09,
+      "y": 0.61,
+      "w": 0.4,
+      "h": 0.2,
+      "id": "r3",
+      "order": 2,
       "words": [
         "Mrs.",
         "Smith",
@@ -236,9 +154,26 @@
         "Mr.",
         "Smith's",
         "bag."
-      ],
-      "conf": 96.5272,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "text": "She put all these things in his bag.",
+      "x": 0.54,
+      "y": 0.53,
+      "w": 0.4,
+      "h": 0.05,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "She",
+        "put",
+        "all",
+        "these",
+        "things",
+        "in",
+        "his",
+        "bag."
+      ]
     }
   ]
 }

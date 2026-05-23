@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "\"I am here\" is the first statement in English Through Pictures, Book 1 (EP 1). That book uses about five hundred words of English in a great number of different ways.", "x": 0.35, "y": 0.05, "w": 0.55, "h": 0.2 },
-    { "text": "Using those same words, together with about the same number of new words and more pictures, this book (EP 2) goes farther into the language. This new book uses about a thousand words of English.", "x": 0.35, "y": 0.25, "w": 0.55, "h": 0.35 },
-    { "text": "use: when you make use of something you use it. language: all the words used by persons talking or writing to one another.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.08 },
-    { "text": "FUTURE: will use. PRESENT: use(s). PAST: used.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "What is this man doing? He is working with a spade. That is his work.", "x": 0.12, "y": 0.38, "w": 0.38, "h": 0.1 },
-    { "text": "What is this woman doing? She is working with her needle. That is her work.", "x": 0.54, "y": 0.11, "w": 0.38, "h": 0.3 },
-    { "text": "What is this man doing? He is making shoes. He is a shoemaker. That is his work.", "x": 0.12, "y": 0.79, "w": 0.38, "h": 0.15 },
-    { "text": "These are shoes. These are boots. He makes boots and shoes. That is his work.", "x": 0.56, "y": 0.61, "w": 0.38, "h": 0.3 }
-  ]
-}

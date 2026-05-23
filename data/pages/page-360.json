@@ -2,62 +2,52 @@
   "page": 360,
   "image": "/books/page 360.png",
   "imageApiPath": "/api/books/page%20360.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 151,
+    "regionCount": 4,
+    "wordCount": 123,
     "imageWidth": 1242,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "What is blood? It is the red liquid which comes out of your finger when you cut it. There are about thirteen pints of blood in a man’s body.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "What is blood?",
-      "x": 0.1353,
-      "y": 0.0453,
-      "w": 0.2134,
-      "h": 0.0181,
       "words": [
         "What",
         "is",
-        "blood?"
-      ],
-      "conf": 96.4054,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "It is the red liquid which comes out of your finger when you cut it.",
-      "x": 0.1345,
-      "y": 0.1227,
-      "w": 0.3994,
-      "h": 0.0731,
-      "words": [
+        "blood?",
         "It",
         "is",
         "the",
@@ -72,20 +62,7 @@
         "when",
         "you",
         "cut",
-        "it."
-      ],
-      "conf": 96.0802,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "There are about thirteen pints of blood in a man’s body. He can give a pint of blood at a time to a blood bank for the use of other men who may need it. A healthy body makes up the pint of blood",
-      "x": 0.3575,
-      "y": 0.2507,
-      "w": 0.5556,
-      "h": 0.1317,
-      "words": [
+        "it.",
         "There",
         "are",
         "about",
@@ -96,7 +73,18 @@
         "in",
         "a",
         "man’s",
-        "body.",
+        "body."
+      ]
+    },
+    {
+      "text": "He can give a pint of blood at a time to a blood bank for the use of other men who may need it. A healthy body makes up the pint of blood quickly.",
+      "x": 0.35,
+      "y": 0.25,
+      "w": 0.6,
+      "h": 0.18,
+      "id": "r2",
+      "order": 1,
+      "words": [
         "He",
         "can",
         "give",
@@ -129,33 +117,18 @@
         "the",
         "pint",
         "of",
-        "blood"
-      ],
-      "conf": 96.4984,
-      "source": "psm-11"
+        "blood",
+        "quickly."
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "quickly,",
-      "x": 0.3567,
-      "y": 0.3819,
-      "w": 0.1111,
-      "h": 0.0213,
-      "words": [
-        "quickly,"
-      ],
-      "conf": 74.3316,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "What does our blood do for us? It takes food to all parts of our bodies and takes waste away from them.",
-      "x": 0.1345,
-      "y": 0.5605,
-      "w": 0.789,
-      "h": 0.047,
+      "text": "What does our blood do for us? It takes food to all parts of our bodies and takes waste away from them. All the parts of our bodies are made up of cells.",
+      "x": 0.1,
+      "y": 0.58,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r3",
+      "order": 2,
       "words": [
         "What",
         "does",
@@ -178,20 +151,7 @@
         "waste",
         "away",
         "from",
-        "them."
-      ],
-      "conf": 96.2105,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "All the parts of our bodies are made up of cells. These cells, which are very small, all need food all the time.",
-      "x": 0.1329,
-      "y": 0.6128,
-      "w": 0.7907,
-      "h": 0.0469,
-      "words": [
+        "them.",
         "All",
         "the",
         "parts",
@@ -202,130 +162,46 @@
         "made",
         "up",
         "of",
-        "cells.",
-        "These",
-        "cells,",
-        "which",
-        "are",
-        "very",
-        "small,",
-        "all",
-        "need",
-        "food",
-        "all",
-        "the",
-        "time."
-      ],
-      "conf": 96.3673,
-      "source": "psm-11"
+        "cells."
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "cut: make o cut in.",
-      "x": 0.1304,
-      "y": 0.7701,
-      "w": 0.2005,
-      "h": 0.0133,
+      "text": "cut: make a cut in. blood bank: place where blood is kept. waste: materials not needed. cells: smallest living part. FUTURE: will cut. PRESENT: cut(s). PAST: cut.",
+      "x": 0.1,
+      "y": 0.78,
+      "w": 0.85,
+      "h": 0.18,
+      "id": "r4",
+      "order": 3,
       "words": [
         "cut:",
         "make",
-        "o",
+        "a",
         "cut",
-        "in."
-      ],
-      "conf": 75.5831,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "bleed bank: place where blood is kept as money is kept in a bank, smoliest living thing, or smaliest living port of living thing.",
-      "x": 0.1304,
-      "y": 0.7872,
-      "w": 0.752,
-      "h": 0.0507,
-      "words": [
-        "bleed",
+        "in.",
+        "blood",
         "bank:",
         "place",
         "where",
         "blood",
         "is",
-        "kept",
-        "as",
-        "money",
-        "is",
-        "kept",
-        "in",
-        "a",
-        "bank,",
-        "smoliest",
-        "living",
-        "thing,",
-        "or",
-        "smaliest",
-        "living",
-        "port",
-        "of",
-        "living",
-        "thing."
-      ],
-      "conf": 90.3346,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "waste: that which is of no more use; materiols not needed.",
-      "x": 0.1304,
-      "y": 0.8053,
-      "w": 0.6465,
-      "h": 0.0144,
-      "words": [
+        "kept.",
         "waste:",
-        "that",
-        "which",
-        "is",
-        "of",
-        "no",
-        "more",
-        "use;",
-        "materiols",
+        "materials",
         "not",
-        "needed."
-      ],
-      "conf": 94.9156,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "will cut",
-      "x": 0.1264,
-      "y": 0.8501,
-      "w": 0.095,
-      "h": 0.0203,
-      "words": [
+        "needed.",
+        "cells:",
+        "smallest",
+        "living",
+        "part.",
+        "FUTURE:",
         "will",
-        "cut"
-      ],
-      "conf": 95.4653,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "cut(s)",
-      "x": 0.5024,
-      "y": 0.8507,
-      "w": 0.0733,
-      "h": 0.0171,
-      "words": [
-        "cut(s)"
-      ],
-      "conf": 84.1883,
-      "source": "psm-11"
+        "cut.",
+        "PRESENT:",
+        "cut(s).",
+        "PAST:",
+        "cut."
+      ]
     }
   ]
 }

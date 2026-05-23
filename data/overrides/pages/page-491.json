@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Human history is a tiny but vital part of time. We cannot be certain how old the universe is, but it seems to be about five billion years old.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.25 },
-    { "text": "The universe has become more complex over time. (Illustration: A bag with balls to explain probability).", "x": 0.1, "y": 0.32, "w": 0.85, "h": 0.15 },
-    { "text": "certain: 1. having no doubt. 2. being a proven fact. We are sometimes sure of things that aren't facts.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.15 },
-    { "text": "probable: more likely than not. If most balls in a bag are black, you'll probably pick a black one.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
-  ]
-}

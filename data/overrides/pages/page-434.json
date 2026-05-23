@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "In English we do not always say what we mean. 'How do you do?' and 'How are you?' are said on meeting. Sometimes people shake hands.", "x": 0.1, "y": 0.05, "w": 0.65, "h": 0.15 },
-    { "text": "'How are you?' looks like a question, and sometimes it is a question about someone’s health.", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.1 },
-    { "text": "meeting: coming together. shake hands: taking each other’s right hand. health: being well or ill. WHO was started in 1947.", "x": 0.1, "y": 0.68, "w": 0.85, "h": 0.2 },
-    { "text": "FUTURE: will shake. PRESENT: shake(s). PAST: shook, shaken.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.1 }
-  ]
-}

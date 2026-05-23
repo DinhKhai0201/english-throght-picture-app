@@ -2,128 +2,92 @@
   "page": 453,
   "image": "/books/page 453.png",
   "imageApiPath": "/api/books/page%20453.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 47,
+    "regionCount": 2,
+    "wordCount": 33,
     "imageWidth": 1259,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3",
-        "r4"
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Early man used hands for things we now do with machines. Fingers were made before forks.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.12,
       "id": "r1",
       "order": 0,
-      "text": "Early man did things with his hands which we do with instruments or by machine",
-      "x": 0.085,
-      "y": 0.0377,
-      "w": 0.7832,
-      "h": 0.0478,
       "words": [
         "Early",
         "man",
-        "did",
-        "things",
-        "with",
-        "his",
+        "used",
         "hands",
-        "which",
+        "for",
+        "things",
         "we",
+        "now",
         "do",
         "with",
-        "instruments",
-        "or",
-        "by",
-        "machine"
-      ],
-      "conf": 96.4586,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "GN",
-      "x": 0.1604,
-      "y": 0.2259,
-      "w": 0.0588,
-      "h": 0.0457,
-      "words": [
-        "GN"
-      ],
-      "conf": 53.3974,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "Fingers were made before forks.",
-      "x": 0.0858,
-      "y": 0.3647,
-      "w": 0.4369,
-      "h": 0.0221,
-      "words": [
+        "machines.",
         "Fingers",
         "were",
         "made",
         "before",
         "forks."
-      ],
-      "conf": 95.2201,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "Among their early uses, fingers made good counters. We still use the number ten as the key to our number system because we have ten fingers",
-      "x": 0.0842,
-      "y": 0.5955,
-      "w": 0.7808,
-      "h": 0.0737,
+      "text": "Fingers were also good counters. We use a base-ten number system today because we have ten fingers.",
+      "x": 0.1,
+      "y": 0.6,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r2",
+      "order": 1,
       "words": [
-        "Among",
-        "their",
-        "early",
-        "uses,",
-        "fingers",
-        "made",
+        "Fingers",
+        "were",
+        "also",
         "good",
         "counters.",
         "We",
-        "still",
         "use",
-        "the",
-        "number",
-        "ten",
-        "as",
-        "the",
-        "key",
-        "to",
-        "our",
+        "a",
+        "base-ten",
         "number",
         "system",
+        "today",
         "because",
         "we",
         "have",
         "ten",
-        "fingers"
-      ],
-      "conf": 96.0989,
-      "source": "psm-11"
+        "fingers."
+      ]
     }
   ]
 }

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20277.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 77,
+    "regionCount": 4,
+    "wordCount": 79,
     "imageWidth": 1230,
     "imageHeight": 1838
   },
@@ -18,12 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r8"
+        "r1"
       ]
     },
     {
@@ -34,8 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r7"
+        "r2"
       ]
     },
     {
@@ -46,9 +40,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r10",
-        "r11",
-        "r12"
+        "r3"
       ]
     },
     {
@@ -59,37 +51,52 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r13"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "This is a boy. He will be a man. He was a baby. He seems to be about twelve years old now.",
+      "x": 0.12,
+      "y": 0.09,
+      "w": 0.35,
+      "h": 0.4,
       "id": "r1",
       "order": 0,
-      "text": "This is a boy",
-      "x": 0.1829,
-      "y": 0.0947,
-      "w": 0.1829,
-      "h": 0.025,
       "words": [
         "This",
         "is",
         "a",
-        "boy"
-      ],
-      "conf": 96.3958,
-      "source": "psm-11"
+        "boy.",
+        "He",
+        "will",
+        "be",
+        "a",
+        "man.",
+        "He",
+        "was",
+        "a",
+        "baby.",
+        "He",
+        "seems",
+        "to",
+        "be",
+        "about",
+        "twelve",
+        "years",
+        "old",
+        "now."
+      ]
     },
     {
+      "text": "Every night he has a long sleep in his bed. He goes to bed at eight every night.",
+      "x": 0.54,
+      "y": 0.1,
+      "w": 0.38,
+      "h": 0.25,
       "id": "r2",
       "order": 1,
-      "text": "Every night he has a long sleep in his bed",
-      "x": 0.5447,
-      "y": 0.1039,
-      "w": 0.365,
-      "h": 0.0506,
       "words": [
         "Every",
         "night",
@@ -100,173 +107,33 @@
         "sleep",
         "in",
         "his",
-        "bed"
-      ],
-      "conf": 86.1823,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "He will be a man.",
-      "x": 0.1902,
-      "y": 0.1828,
-      "w": 0.1822,
-      "h": 0.0446,
-      "words": [
-        "He",
-        "will",
-        "be",
-        "a",
-        "man."
-      ],
-      "conf": 93.8764,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "He",
-      "x": 0.2016,
-      "y": 0.2922,
-      "w": 0.0398,
-      "h": 0.018,
-      "words": [
-        "He"
-      ],
-      "conf": 93.2669,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "FR.",
-      "x": 0.3537,
-      "y": 0.2829,
-      "w": 0.1244,
-      "h": 0.056,
-      "words": [
-        "FR."
-      ],
-      "conf": 54.1595,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "baby",
-      "x": 0.2008,
-      "y": 0.3161,
-      "w": 0.0789,
-      "h": 0.0234,
-      "words": [
-        "baby"
-      ],
-      "conf": 93.8142,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "He goes to bed at every night.",
-      "x": 0.552,
-      "y": 0.2971,
-      "w": 0.2643,
-      "h": 0.0489,
-      "words": [
+        "bed.",
         "He",
         "goes",
         "to",
         "bed",
         "at",
+        "eight",
         "every",
         "night."
-      ],
-      "conf": 93.6082,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "He seems to be about twelve year: old now.",
-      "x": 0.1187,
-      "y": 0.3966,
-      "w": 0.2821,
-      "h": 0.0702,
-      "words": [
-        "He",
-        "seems",
-        "to",
-        "be",
-        "about",
-        "twelve",
-        "year:",
-        "old",
-        "now."
-      ],
-      "conf": 96.4131,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "He puts his clothing on.",
-      "x": 0.5504,
-      "y": 0.5131,
-      "w": 0.3423,
-      "h": 0.0267,
-      "words": [
-        "He",
-        "puts",
-        "his",
-        "clothing",
-        "on."
-      ],
-      "conf": 96.711,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "He gets up every morning",
-      "x": 0.1569,
-      "y": 0.5571,
-      "w": 0.2106,
-      "h": 0.0566,
+      "text": "He gets up every morning at seven. He gets out of bed and gives himself a good wash.",
+      "x": 0.12,
+      "y": 0.55,
+      "w": 0.38,
+      "h": 0.38,
+      "id": "r3",
+      "order": 2,
       "words": [
         "He",
         "gets",
         "up",
         "every",
-        "morning"
-      ],
-      "conf": 96.7461,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "at seven.",
-      "x": 0.1561,
-      "y": 0.6099,
-      "w": 0.1309,
-      "h": 0.0158,
-      "words": [
+        "morning",
         "at",
-        "seven."
-      ],
-      "conf": 94.8832,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "He gets out of bed and gives himself a good wash.",
-      "x": 0.1293,
-      "y": 0.7323,
-      "w": 0.2187,
-      "h": 0.0969,
-      "words": [
+        "seven.",
         "He",
         "gets",
         "out",
@@ -278,23 +145,26 @@
         "a",
         "good",
         "wash."
-      ],
-      "conf": 96.7509,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r13",
-      "order": 12,
-      "text": "He says “Good morning” to his mother and father and takes his place at the table.",
-      "x": 0.5447,
-      "y": 0.8166,
-      "w": 0.3658,
-      "h": 0.0958,
+      "text": "He puts his clothing on. He says \"Good morning\" to his mother and father and takes his place at the table.",
+      "x": 0.54,
+      "y": 0.52,
+      "w": 0.4,
+      "h": 0.42,
+      "id": "r4",
+      "order": 3,
       "words": [
         "He",
+        "puts",
+        "his",
+        "clothing",
+        "on.",
+        "He",
         "says",
-        "“Good",
-        "morning”",
+        "\"Good",
+        "morning\"",
         "to",
         "his",
         "mother",
@@ -307,9 +177,7 @@
         "at",
         "the",
         "table."
-      ],
-      "conf": 96.3913,
-      "source": "psm-11"
+      ]
     }
   ]
 }

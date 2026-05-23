@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "This is a looking glass. What do you see in the looking glass? I see a girl's face in the glass.", "x": 0.12, "y": 0.13, "w": 0.38, "h": 0.3 },
-    { "text": "She is looking at herself in the glass. What does she see in the looking glass? She sees herself in the glass.", "x": 0.53, "y": 0.17, "w": 0.38, "h": 0.15 },
-    { "text": "She seems to be here. She is here. She is on this side of the glass. She seems to be on the other side of the glass.", "x": 0.12, "y": 0.51, "w": 0.38, "h": 0.35 },
-    { "text": "Why? Because the glass sends the light back. There seem to be two girls in this picture. There is only one.", "x": 0.53, "y": 0.53, "w": 0.38, "h": 0.35 }
-  ]
-}

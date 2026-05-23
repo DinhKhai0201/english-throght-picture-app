@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Here is a picture of a man’s lungs. They are soft like sponges with thousands of little pipes going through them. The pipes keep branching like the branches of a tree so that they go through every part of each lung.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.25 },
-    { "text": "Our lungs are in the upper part of our chest. We have two of them. The air we breathe goes right in to every part of the lungs through these branching pipes.", "x": 0.1, "y": 0.32, "w": 0.85, "h": 0.1 },
-    { "text": "They take it to the blood which is moving all the time through the lungs and round to every part of our bodies. The blood makes a journey round the body and back to the lungs in a very short time.", "x": 0.45, "y": 0.38, "w": 0.5, "h": 0.25 },
-    { "text": "sponge: soft framework. upper: higher up. blood: red liquid in bodies. moving: in motion. FUTURE: will move. PRESENT: move(s). PAST: moved.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.25 }
-  ]
-}

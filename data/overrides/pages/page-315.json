@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Grain and meat and milk and fruit and vegetables must be transported into the cities of the world day and night all through the year to feed its city populations. Much of this food comes great distances in ships, trains, or trucks, and must be kept cold and clean all the way.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.35 },
-    { "text": "This is a bag of grain.", "x": 0.1, "y": 0.42, "w": 0.45, "h": 0.1 },
-    { "text": "grain: seeds of some grass plants used for making bread and some other cooked foods. feed: when we give people food, we feed them. truck: road transport for goods.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.15 },
-    { "text": "FUTURE: will feed. PRESENT: feed(s). PAST: fed.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
-  ]
-}

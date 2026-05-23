@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "These are other threads. They go across the first threads. They go under and over them.", "x": 0.12, "y": 0.08, "w": 0.35, "h": 0.35 },
-    { "text": "This is cloth. This is a roll of cloth. We make clothing of cloth. We make cloth of threads.", "x": 0.52, "y": 0.11, "w": 0.38, "h": 0.3 },
-    { "text": "We make threads from wool and cotton and silk. We get wool from sheep.", "x": 0.12, "y": 0.51, "w": 0.35, "h": 0.35 },
-    { "text": "Wool is the thick warm hair of sheep. Men take the wool off the sheep's back with scissors.", "x": 0.52, "y": 0.51, "w": 0.38, "h": 0.35 }
-  ]
-}

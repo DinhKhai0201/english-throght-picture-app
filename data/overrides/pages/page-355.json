@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "The more languages you hear and get to know, the more you will see how any language is made up of a small number of sounds put together in different ways. For example, in English, light and right are different words with only one sound in them different.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.12 },
-    { "text": "Turn to the right / at the light. The wrong way / a long way. If a learner does not hear these different sounds as different, he may not get the meaning of what is said to him.", "x": 0.1, "y": 0.58, "w": 0.85, "h": 0.15 },
-    { "text": "turn: make a turn. ah: a cry not a word.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.08 },
-    { "text": "FUTURE: will turn. PRESENT: turn(s). PAST: turned.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
-  ]
-}

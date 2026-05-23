@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Put your fingers across one another like this. I have my first and second fingers across one another.", "x": 0.12, "y": 0.11, "w": 0.38, "h": 0.35 },
-    { "text": "Across? These two lines go across one another. My second finger is over and across my first finger. These are finger nails.", "x": 0.54, "y": 0.11, "w": 0.38, "h": 0.3 },
-    { "text": "Did you put your fingers across one another? That is right. You have your fingers across one another.", "x": 0.12, "y": 0.51, "w": 0.38, "h": 0.3 },
-    { "text": "Now take a pencil and give a touch to one finger, and then a touch to the other and then put the pencil between them. Do this with your eyes shut.", "x": 0.54, "y": 0.51, "w": 0.38, "h": 0.35 }
-  ]
-}

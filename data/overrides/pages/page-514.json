@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Writing a word uses feedback from letters and knowledge of spelling. This only works because you 'fed forward' the word you intended to write.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.18 },
-    { "text": "Sentences depend on paragraphs, paragraphs on chapters, and chapters on the whole book. Each level provides a general direction for the smaller parts.", "x": 0.1, "y": 0.25, "w": 0.85, "h": 0.22 },
-    { "text": "What is 'general'? (Diagram: Concentric circles showing categories: YOU -> MEN -> ANIMALS -> ORGANISMS -> EVERYTHING). Each outer circle is more general.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.3 },
-    { "text": "paragraph: a group of sentences. chapter: a section of a book. FUTURE: will write. PRESENT: write(s). PAST: wrote, written.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "But it was harder to take in the idea that the earth might be moving round the sun, as Copernicus of Poland said it was. Very few men had made any sense of the writings of Copernicus by the time he died.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "Few people could read or write in those days. It was Galileo who made the first telescope, through which he could watch the stars and look into the ideas that Copernicus had been working upon.", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.15 },
-    { "text": "Through his telescope the stars seemed more than thirty times as near. He could see the mountains of the moon, spots on the sun, and the moons of Jupiter.", "x": 0.1, "y": 0.38, "w": 0.45, "h": 0.25 },
-    { "text": "very few: opposite of very many. spot: small mark. Jupiter: name of one of the planets moving round the sun.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.12 }
-  ]
-}

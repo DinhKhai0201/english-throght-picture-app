@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20101.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 17,
-    "wordCount": 62,
+    "regionCount": 15,
+    "wordCount": 65,
     "imageWidth": 1171,
     "imageHeight": 1867
   },
@@ -18,9 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r4",
-        "r7"
+        "r1",
+        "r2"
       ]
     },
     {
@@ -31,10 +30,11 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
         "r3",
+        "r4",
         "r5",
-        "r6"
+        "r6",
+        "r7"
       ]
     },
     {
@@ -46,9 +46,9 @@
       "h": 0.5,
       "regionIds": [
         "r8",
-        "r11",
-        "r13",
-        "r15"
+        "r9",
+        "r10",
+        "r11"
       ]
     },
     {
@@ -59,75 +59,37 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r10",
         "r12",
+        "r13",
         "r14",
-        "r16",
-        "r17"
+        "r15"
       ]
     }
   ],
   "regions": [
     {
+      "text": "This is a clock.",
+      "x": 0.17,
+      "y": 0.14,
+      "w": 0.25,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "This is an instrument for measuring heat..",
-      "x": 0.5371,
-      "y": 0.0868,
-      "w": 0.3732,
-      "h": 0.0481,
-      "words": [
-        "This",
-        "is",
-        "an",
-        "instrument",
-        "for",
-        "measuring",
-        "heat.."
-      ],
-      "conf": 96.6253,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "This is a clock.",
-      "x": 0.1776,
-      "y": 0.1334,
-      "w": 0.2254,
-      "h": 0.0209,
       "words": [
         "This",
         "is",
         "a",
         "clock."
-      ],
-      "conf": 87.7511,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "worm",
-      "x": 0.7139,
-      "y": 0.188,
-      "w": 0.0888,
-      "h": 0.0129,
-      "words": [
-        "worm"
-      ],
-      "conf": 96.3702,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
       "text": "A clock is an instrument for measuring time.",
-      "x": 0.1008,
-      "y": 0.3321,
-      "w": 0.374,
-      "h": 0.0482,
+      "x": 0.08,
+      "y": 0.33,
+      "w": 0.4,
+      "h": 0.05,
+      "id": "r2",
+      "order": 1,
       "words": [
         "A",
         "clock",
@@ -137,140 +99,115 @@
         "for",
         "measuring",
         "time."
-      ],
-      "conf": 94.6985,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "This is an instrument for measuring heat.",
+      "x": 0.54,
+      "y": 0.09,
+      "w": 0.38,
+      "h": 0.05,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "This",
+        "is",
+        "an",
+        "instrument",
+        "for",
+        "measuring",
+        "heat."
+      ]
+    },
+    {
+      "text": "Very warm",
+      "x": 0.63,
+      "y": 0.18,
+      "w": 0.25,
+      "h": 0.03,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "Very",
+        "warm"
+      ]
+    },
+    {
+      "text": "Warm",
+      "x": 0.63,
+      "y": 0.25,
+      "w": 0.25,
+      "h": 0.03,
       "id": "r5",
       "order": 4,
-      "text": "Cold",
-      "x": 0.6354,
-      "y": 0.3321,
-      "w": 0.0743,
-      "h": 0.0193,
       "words": [
-        "Cold"
-      ],
-      "conf": 96.3493,
-      "source": "psm-11"
+        "Warm"
+      ]
     },
     {
+      "text": "Cold",
+      "x": 0.63,
+      "y": 0.33,
+      "w": 0.25,
+      "h": 0.03,
       "id": "r6",
       "order": 5,
+      "words": [
+        "Cold"
+      ]
+    },
+    {
       "text": "Very cold",
-      "x": 0.6345,
-      "y": 0.3915,
-      "w": 0.152,
-      "h": 0.0262,
+      "x": 0.63,
+      "y": 0.39,
+      "w": 0.25,
+      "h": 0.03,
+      "id": "r7",
+      "order": 6,
       "words": [
         "Very",
         "cold"
-      ],
-      "conf": 96.3993,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "SF S88 Of",
-      "x": 0.1998,
-      "y": 0.4762,
-      "w": 0.3108,
-      "h": 0.0134,
-      "words": [
-        "SF",
-        "S88",
-        "Of"
-      ],
-      "conf": 43.0079,
-      "source": "psm-11"
-    },
-    {
+      "text": "This is a measure.",
+      "x": 0.11,
+      "y": 0.53,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r8",
       "order": 7,
-      "text": "This is a measure.",
-      "x": 0.1264,
-      "y": 0.5303,
-      "w": 0.2775,
-      "h": 0.0193,
       "words": [
         "This",
         "is",
         "a",
         "measure."
-      ],
-      "conf": 96.0083,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "It is a yard measure.",
+      "x": 0.11,
+      "y": 0.56,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r9",
       "order": 8,
-      "text": "This is",
-      "x": 0.532,
-      "y": 0.5131,
-      "w": 0.0974,
-      "h": 0.0187,
-      "words": [
-        "This",
-        "is"
-      ],
-      "conf": 96.6016,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "UN",
-      "x": 0.7395,
-      "y": 0.5078,
-      "w": 0.1827,
-      "h": 0.0712,
-      "words": [
-        "UN"
-      ],
-      "conf": 46.2792,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "It isa yard measure.",
-      "x": 0.1289,
-      "y": 0.5554,
-      "w": 0.3194,
-      "h": 0.0236,
       "words": [
         "It",
-        "isa",
+        "is",
+        "a",
         "yard",
         "measure."
-      ],
-      "conf": 94.2322,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "foot.",
-      "x": 0.6576,
-      "y": 0.5372,
-      "w": 0.0751,
-      "h": 0.0193,
-      "words": [
-        "foot."
-      ],
-      "conf": 96.7379,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "There are three feet in a yard,",
-      "x": 0.117,
-      "y": 0.6883,
-      "w": 0.3553,
-      "h": 0.0503,
+      "text": "There are three feet in a yard.",
+      "x": 0.11,
+      "y": 0.69,
+      "w": 0.35,
+      "h": 0.05,
+      "id": "r10",
+      "order": 9,
       "words": [
         "There",
         "are",
@@ -278,79 +215,87 @@
         "feet",
         "in",
         "a",
-        "yard,"
-      ],
-      "conf": 96.2815,
-      "source": "psm-11"
+        "yard."
+      ]
     },
     {
-      "id": "r14",
-      "order": 13,
+      "text": "There are twelve inches in a foot.",
+      "x": 0.1,
+      "y": 0.8,
+      "w": 0.38,
+      "h": 0.05,
+      "id": "r11",
+      "order": 10,
+      "words": [
+        "There",
+        "are",
+        "twelve",
+        "inches",
+        "in",
+        "a",
+        "foot."
+      ]
+    },
+    {
+      "text": "This is Mary's foot.",
+      "x": 0.53,
+      "y": 0.52,
+      "w": 0.2,
+      "h": 0.05,
+      "id": "r12",
+      "order": 11,
+      "words": [
+        "This",
+        "is",
+        "Mary's",
+        "foot."
+      ]
+    },
+    {
       "text": "These are her feet.",
-      "x": 0.544,
-      "y": 0.6824,
-      "w": 0.3023,
-      "h": 0.0193,
+      "x": 0.54,
+      "y": 0.68,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r13",
+      "order": 12,
       "words": [
         "These",
         "are",
         "her",
         "feet."
-      ],
-      "conf": 96.0891,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r15",
-      "order": 14,
-      "text": "There are twelve inches",
-      "x": 0.105,
-      "y": 0.7991,
-      "w": 0.3715,
-      "h": 0.0198,
-      "words": [
-        "There",
-        "are",
-        "twelve",
-        "inches"
-      ],
-      "conf": 96.1621,
-      "source": "psm-11"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "This is John’s foot.",
-      "x": 0.5764,
-      "y": 0.8473,
-      "w": 0.2895,
-      "h": 0.0198,
+      "text": "This is John's foot.",
+      "x": 0.57,
+      "y": 0.85,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r14",
+      "order": 13,
       "words": [
         "This",
         "is",
-        "John’s",
+        "John's",
         "foot."
-      ],
-      "conf": 91.2653,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r17",
-      "order": 16,
       "text": "It is ten inches long.",
-      "x": 0.5559,
-      "y": 0.872,
-      "w": 0.3108,
-      "h": 0.0214,
+      "x": 0.55,
+      "y": 0.88,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r15",
+      "order": 14,
       "words": [
         "It",
         "is",
         "ten",
         "inches",
         "long."
-      ],
-      "conf": 95.9527,
-      "source": "psm-11"
+      ]
     }
   ]
 }

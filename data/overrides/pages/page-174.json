@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "It is on one side of the needle. It is on this side of the needle.", "x": 0.12, "y": 0.15, "w": 0.38, "h": 0.2 },
-    { "text": "Now the girl is doing it again. Is the end of the thread through the hole? No, it is not. It is on the other side of the needle.", "x": 0.54, "y": 0.31, "w": 0.4, "h": 0.15 },
-    { "text": "The girl is making another attempt. This time the thread will go through the hole. The end of the thread is straight.", "x": 0.12, "y": 0.56, "w": 0.4, "h": 0.15 },
-    { "text": "It went through. The girl is taking the end of the thread in her fingers. The thread is through the needle.", "x": 0.54, "y": 0.56, "w": 0.4, "h": 0.12 }
-  ]
-}

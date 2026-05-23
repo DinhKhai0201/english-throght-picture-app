@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "The girl and the boy will go from the window.", "x": 0.1, "y": 0.11, "w": 0.4, "h": 0.05 },
-    { "text": "They are going from the window. They were at the window.", "x": 0.55, "y": 0.1, "w": 0.4, "h": 0.1 },
-    { "text": "They went from the window. She went with him and he went with her.", "x": 0.13, "y": 0.53, "w": 0.35, "h": 0.1 },
-    { "text": "Now they are at the door together. The boy is with the girl at the door. She is at the door again.", "x": 0.55, "y": 0.5, "w": 0.4, "h": 0.15 }
-  ]
-}

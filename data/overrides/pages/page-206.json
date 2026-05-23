@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "This is a scale. A scale is an instrument for measuring weight.", "x": 0.1, "y": 0.28, "w": 0.38, "h": 0.15 },
-    { "text": "Which man's weight is greater? They are on the scale. The weight of the thin man is 100 pounds. The weight of the fat man is 200 pounds.", "x": 0.58, "y": 0.08, "w": 0.38, "h": 0.38 },
-    { "text": "Clocks are instruments for measuring time. This is a watch. Watches and clocks are instruments for measuring time.", "x": 0.1, "y": 0.56, "w": 0.38, "h": 0.32 },
-    { "text": "This is an instrument for measuring heat. A yard measure is an instrument for measuring distance. Inches, feet, yards, metres, and miles are measures of distance.", "x": 0.58, "y": 0.5, "w": 0.38, "h": 0.42 }
-  ]
-}

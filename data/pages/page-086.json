@@ -2,196 +2,148 @@
   "page": 86,
   "image": "/books/page 86.png",
   "imageApiPath": "/api/books/page%2086.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 12,
+    "regionCount": 17,
     "wordCount": 137,
     "imageWidth": 1213,
     "imageHeight": 1813
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
         "r2",
         "r3",
         "r4",
         "r5",
-        "r6",
+        "r6"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r7",
         "r8",
         "r9",
         "r10",
-        "r11",
-        "r12"
+        "r11"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r12",
+        "r13",
+        "r14"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r15",
+        "r16",
+        "r17"
       ]
     }
   ],
   "regions": [
     {
+      "text": "This is a tree.",
+      "x": 0.25,
+      "y": 0.11,
+      "w": 0.2,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "This is a This is a branch sy» of the tree.",
-      "x": 0.0833,
-      "y": 0.1109,
-      "w": 0.2893,
-      "h": 0.1076,
       "words": [
         "This",
         "is",
         "a",
+        "tree."
+      ]
+    },
+    {
+      "text": "This is a branch of the tree.",
+      "x": 0.08,
+      "y": 0.14,
+      "w": 0.25,
+      "h": 0.05,
+      "id": "r2",
+      "order": 1,
+      "words": [
         "This",
         "is",
         "a",
         "branch",
-        "sy»",
         "of",
         "the",
         "tree."
-      ],
-      "conf": 92.1157,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r2",
-      "order": 1,
-      "text": "She put her and up She took the apple. It is in her hand.",
-      "x": 0.5153,
-      "y": 0.1202,
-      "w": 0.1929,
-      "h": 0.1219,
-      "words": [
-        "She",
-        "put",
-        "her",
-        "and",
-        "up",
-        "She",
-        "took",
-        "the",
-        "apple.",
-        "It",
-        "is",
-        "in",
-        "her",
-        "hand."
-      ],
-      "conf": 96.107,
-      "source": "psm-11"
-    },
-    {
+      "text": "An apple is on this branch.",
+      "x": 0.08,
+      "y": 0.23,
+      "w": 0.2,
+      "h": 0.08,
       "id": "r3",
       "order": 2,
-      "text": "An apple.",
-      "x": 0.0841,
-      "y": 0.2295,
-      "w": 0.1756,
-      "h": 0.0436,
       "words": [
         "An",
-        "apple."
-      ],
-      "conf": 82.3008,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "is on this branch.",
-      "x": 0.0849,
-      "y": 0.2587,
-      "w": 0.1344,
-      "h": 0.0458,
-      "words": [
+        "apple",
         "is",
         "on",
         "this",
         "branch."
-      ],
-      "conf": 96.7453,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "She took the apple which is in her hand She has it in her hand She is putting it in her basket",
-      "x": 0.5144,
-      "y": 0.2488,
-      "w": 0.2424,
-      "h": 0.1749,
-      "words": [
-        "She",
-        "took",
-        "the",
-        "apple",
-        "which",
-        "is",
-        "in",
-        "her",
-        "hand",
-        "She",
-        "has",
-        "it",
-        "in",
-        "her",
-        "hand",
-        "She",
-        "is",
-        "putting",
-        "it",
-        "in",
-        "her",
-        "basket"
-      ],
-      "conf": 96.3968,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "It is over",
-      "x": 0.0874,
-      "y": 0.3199,
-      "w": 0.1278,
-      "h": 0.0232,
+      "text": "It is over the girl's head.",
+      "x": 0.08,
+      "y": 0.32,
+      "w": 0.2,
+      "h": 0.08,
+      "id": "r4",
+      "order": 3,
       "words": [
         "It",
         "is",
-        "over"
-      ],
-      "conf": 93.9744,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "the girl’s head.",
-      "x": 0.0857,
-      "y": 0.3403,
-      "w": 0.1311,
-      "h": 0.0502,
-      "words": [
+        "over",
         "the",
-        "girl’s",
+        "girl's",
         "head."
-      ],
-      "conf": 91.6439,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
       "text": "She will take the apple from the branch.",
-      "x": 0.0857,
-      "y": 0.4021,
-      "w": 0.3512,
-      "h": 0.048,
+      "x": 0.08,
+      "y": 0.4,
+      "w": 0.35,
+      "h": 0.05,
+      "id": "r5",
+      "order": 4,
       "words": [
         "She",
         "will",
@@ -201,18 +153,16 @@
         "from",
         "the",
         "branch."
-      ],
-      "conf": 91.7071,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
       "text": "She will put her hand up.",
-      "x": 0.0857,
-      "y": 0.4539,
-      "w": 0.3669,
-      "h": 0.0243,
+      "x": 0.08,
+      "y": 0.45,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r6",
+      "order": 5,
       "words": [
         "She",
         "will",
@@ -220,25 +170,125 @@
         "her",
         "hand",
         "up."
-      ],
-      "conf": 95.8243,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "She put her hand up.",
+      "x": 0.51,
+      "y": 0.11,
+      "w": 0.25,
+      "h": 0.05,
+      "id": "r7",
+      "order": 6,
+      "words": [
+        "She",
+        "put",
+        "her",
+        "hand",
+        "up."
+      ]
+    },
+    {
+      "text": "She took the apple. It is in her hand.",
+      "x": 0.51,
+      "y": 0.16,
+      "w": 0.25,
+      "h": 0.08,
+      "id": "r8",
+      "order": 7,
+      "words": [
+        "She",
+        "took",
+        "the",
+        "apple.",
+        "It",
+        "is",
+        "in",
+        "her",
+        "hand."
+      ]
+    },
+    {
+      "text": "She took the apple which is in her hand.",
+      "x": 0.51,
+      "y": 0.24,
+      "w": 0.25,
+      "h": 0.08,
+      "id": "r9",
+      "order": 8,
+      "words": [
+        "She",
+        "took",
+        "the",
+        "apple",
+        "which",
+        "is",
+        "in",
+        "her",
+        "hand."
+      ]
+    },
+    {
+      "text": "She has it in her hand.",
+      "x": 0.51,
+      "y": 0.32,
+      "w": 0.25,
+      "h": 0.05,
       "id": "r10",
       "order": 9,
-      "text": "She put it in her basket She had it in her hand before she put it in her basket It was on the branch before she put her hand up and took it.",
-      "x": 0.0874,
-      "y": 0.572,
-      "w": 0.3866,
-      "h": 0.1803,
+      "words": [
+        "She",
+        "has",
+        "it",
+        "in",
+        "her",
+        "hand."
+      ]
+    },
+    {
+      "text": "She is putting it in her basket.",
+      "x": 0.51,
+      "y": 0.37,
+      "w": 0.25,
+      "h": 0.05,
+      "id": "r11",
+      "order": 10,
+      "words": [
+        "She",
+        "is",
+        "putting",
+        "it",
+        "in",
+        "her",
+        "basket."
+      ]
+    },
+    {
+      "text": "She put it in her basket.",
+      "x": 0.08,
+      "y": 0.57,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r12",
+      "order": 11,
       "words": [
         "She",
         "put",
         "it",
         "in",
         "her",
-        "basket",
+        "basket."
+      ]
+    },
+    {
+      "text": "She had it in her hand before she put it in her basket.",
+      "x": 0.08,
+      "y": 0.6,
+      "w": 0.35,
+      "h": 0.08,
+      "id": "r13",
+      "order": 12,
+      "words": [
         "She",
         "had",
         "it",
@@ -251,7 +301,18 @@
         "it",
         "in",
         "her",
-        "basket",
+        "basket."
+      ]
+    },
+    {
+      "text": "It was on the branch before she put her hand up and took it.",
+      "x": 0.08,
+      "y": 0.68,
+      "w": 0.35,
+      "h": 0.08,
+      "id": "r14",
+      "order": 13,
+      "words": [
         "It",
         "was",
         "on",
@@ -266,18 +327,16 @@
         "and",
         "took",
         "it."
-      ],
-      "conf": 95.9543,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "After she took the apple she put it in the basket Then she put her basket down, The apple was up on the tree Now it is down in the",
-      "x": 0.5004,
-      "y": 0.5725,
-      "w": 0.3677,
-      "h": 0.1506,
+      "text": "After she took the apple she put it in the basket.",
+      "x": 0.5,
+      "y": 0.57,
+      "w": 0.4,
+      "h": 0.05,
+      "id": "r15",
+      "order": 14,
       "words": [
         "After",
         "she",
@@ -289,43 +348,50 @@
         "it",
         "in",
         "the",
-        "basket",
+        "basket."
+      ]
+    },
+    {
+      "text": "Then she put her basket down. The apple was up on the tree.",
+      "x": 0.5,
+      "y": 0.62,
+      "w": 0.4,
+      "h": 0.08,
+      "id": "r16",
+      "order": 15,
+      "words": [
         "Then",
         "she",
         "put",
         "her",
         "basket",
-        "down,",
+        "down.",
         "The",
         "apple",
         "was",
         "up",
         "on",
         "the",
-        "tree",
+        "tree."
+      ]
+    },
+    {
+      "text": "Now it is down in the basket.",
+      "x": 0.5,
+      "y": 0.7,
+      "w": 0.4,
+      "h": 0.05,
+      "id": "r17",
+      "order": 16,
+      "words": [
         "Now",
         "it",
         "is",
         "down",
         "in",
-        "the"
-      ],
-      "conf": 96.7105,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "VV)",
-      "x": 0.765,
-      "y": 0.7893,
-      "w": 0.0569,
-      "h": 0.0243,
-      "words": [
-        "VV)"
-      ],
-      "conf": 62.7997,
-      "source": "psm-11"
+        "the",
+        "basket."
+      ]
     }
   ]
 }

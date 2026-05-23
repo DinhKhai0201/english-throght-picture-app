@@ -2,57 +2,37 @@
   "page": 287,
   "image": "/books/page 287.png",
   "imageApiPath": "/api/books/page%20287.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 8,
-    "wordCount": 129,
+    "regionCount": 1,
+    "wordCount": 131,
     "imageWidth": 1242,
     "imageHeight": 1813
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
-      "y": 0,
-      "w": 1,
-      "h": 1,
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8"
+        "r1"
       ]
     }
   ],
   "regions": [
     {
+      "text": "PREFACE. This is a second book in a series English Through Pictures. It keeps in mind that its readers will have many different needs. Some will want more English to help them to find work, some as a step on the way to higher education, some for business, travel or better living — and some because English opens for them a window with a wider outlook on the world. We have tried in designing English Through Pictures, Book 2 to serve all this needs. However, our first care has been the ordering of the teaching itself. It is the purpose of this book to supply starting points from which people can go out in different directions as their different interests take them. We hope it will be a book of beginnings.",
+      "x": 0.1,
+      "y": 0.15,
+      "w": 0.8,
+      "h": 0.7,
       "id": "r1",
       "order": 0,
-      "text": "PREFACE",
-      "x": 0.4171,
-      "y": 0.1776,
-      "w": 0.1651,
-      "h": 0.0171,
       "words": [
-        "PREFACE"
-      ],
-      "conf": 96.9186,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "This is a second book in a series English Through Pictures. It keeps in mind that its readers will have",
-      "x": 0.1039,
-      "y": 0.2477,
-      "w": 0.793,
-      "h": 0.0507,
-      "words": [
+        "PREFACE.",
         "This",
         "is",
         "a",
@@ -72,20 +52,7 @@
         "its",
         "readers",
         "will",
-        "have"
-      ],
-      "conf": 95.7749,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "many different needs. Some will want more English to help them to find work, some as a step on the way to living and some because English opens for them a window with a wider outlook on the world.",
-      "x": 0.1014,
-      "y": 0.3001,
-      "w": 0.7956,
-      "h": 0.1163,
-      "words": [
+        "have",
         "many",
         "different",
         "needs.",
@@ -108,7 +75,16 @@
         "the",
         "way",
         "to",
+        "higher",
+        "education,",
+        "some",
+        "for",
+        "business,",
+        "travel",
+        "or",
+        "better",
         "living",
+        "—",
         "and",
         "some",
         "because",
@@ -124,63 +100,17 @@
         "outlook",
         "on",
         "the",
-        "world."
-      ],
-      "conf": 96.5988,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "higher education, some for business, travel or better",
-      "x": 0.1023,
-      "y": 0.3497,
-      "w": 0.7955,
-      "h": 0.0215,
-      "words": [
-        "higher",
-        "education,",
-        "some",
-        "for",
-        "business,",
-        "travel",
-        "or",
-        "better"
-      ],
-      "conf": 96.4277,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "We have tried in designing English Through",
-      "x": 0.1562,
-      "y": 0.4231,
-      "w": 0.7399,
-      "h": 0.0215,
-      "words": [
+        "world.",
         "We",
         "have",
         "tried",
         "in",
         "designing",
         "English",
-        "Through"
-      ],
-      "conf": 95.8722,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "Pictures, Book to serve all this needs. However, our first care has been the ordering of the teaching itself.",
-      "x": 0.1006,
-      "y": 0.4473,
-      "w": 0.7964,
-      "h": 0.0464,
-      "words": [
+        "Through",
         "Pictures,",
         "Book",
+        "2",
         "to",
         "serve",
         "all",
@@ -197,20 +127,7 @@
         "of",
         "the",
         "teaching",
-        "itself."
-      ],
-      "conf": 95.7825,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "It is the purpose of this book to supply starting points from which people can go out in different",
-      "x": 0.1031,
-      "y": 0.497,
-      "w": 0.7947,
-      "h": 0.0468,
-      "words": [
+        "itself.",
         "It",
         "is",
         "the",
@@ -229,20 +146,7 @@
         "go",
         "out",
         "in",
-        "different"
-      ],
-      "conf": 96.2436,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "directions as their different interests take them. We hope it will be a book of beginnings.",
-      "x": 0.1023,
-      "y": 0.5461,
-      "w": 0.7939,
-      "h": 0.0469,
-      "words": [
+        "different",
         "directions",
         "as",
         "their",
@@ -259,9 +163,7 @@
         "book",
         "of",
         "beginnings."
-      ],
-      "conf": 96.5087,
-      "source": "psm-11"
+      ]
     }
   ]
 }

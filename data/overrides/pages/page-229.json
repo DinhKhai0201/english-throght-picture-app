@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Before I put the pencil in the water it seemed straight. It was straight.", "x": 0.12, "y": 0.11, "w": 0.35, "h": 0.1 },
-    { "text": "After I put it in the water it seemed bent. It wasn't bent. When it is in the water it seems bent. When it is out of the water we see that it is straight.", "x": 0.52, "y": 0.08, "w": 0.4, "h": 0.35 },
-    { "text": "Why did it seem bent when it was in the water? This is a light. A light sends out light. The light which it sends out goes in straight lines.", "x": 0.12, "y": 0.51, "w": 0.38, "h": 0.35 },
-    { "text": "Here is a bit of glass. A ray of light is going through the glass.", "x": 0.52, "y": 0.71, "w": 0.38, "h": 0.15 }
-  ]
-}

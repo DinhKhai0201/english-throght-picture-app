@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Some people working in cities have no time or place to cook for themselves. Many of them go out to restaurants for all of their meals. There are many restaurants in a great city, all needing supplies of food every day and some of them cooking for great numbers of people.", "x": 0.1, "y": 0.05, "w": 0.35, "h": 0.4 },
-    { "text": "A good restaurant keeps its food clean and does not let flies get at it. If flies get on food they may poison it.", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.1 },
-    { "text": "cook: do cooking. themselves: himself and herself. meal: food taken at one time (breakfast, lunch, dinner, supper). restaurant: place where you can take meals. fly: housefly.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.15 },
-    { "text": "FUTURE: will cook. PRESENT: cook(s). PAST: cooked.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
-  ]
-}

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20336.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 9,
-    "wordCount": 99,
+    "regionCount": 4,
+    "wordCount": 94,
     "imageWidth": 1188,
     "imageHeight": 1859
   },
@@ -18,8 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r4"
+        "r1"
       ]
     },
     {
@@ -35,19 +34,6 @@
       ]
     },
     {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r5",
-        "r6",
-        "r7"
-      ]
-    },
-    {
       "id": "bottom-right",
       "label": "Bottom Right",
       "x": 0.5,
@@ -55,20 +41,19 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r9"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Men have been attempting for thousands of years to make wings that will let them fly like the birds.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.45,
+      "h": 0.12,
       "id": "r1",
       "order": 0,
-      "text": "Men have been attempting for thousands of years to make wings that will let them fly like the birds.",
-      "x": 0.096,
-      "y": 0.0651,
-      "w": 0.42,
-      "h": 0.0995,
       "words": [
         "Men",
         "have",
@@ -89,18 +74,16 @@
         "like",
         "the",
         "birds."
-      ],
-      "conf": 96.4605,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "Here is the picture of the first flying machine to take men into the sky, made in 1903. It did not fly very fast or very far.",
+      "x": 0.45,
+      "y": 0.25,
+      "w": 0.5,
+      "h": 0.12,
       "id": "r2",
       "order": 1,
-      "text": "Here is the picture of the first flying machine to take men into the sky, made in It did not fly very fast or very far.",
-      "x": 0.4672,
-      "y": 0.2448,
-      "w": 0.4579,
-      "h": 0.1038,
       "words": [
         "Here",
         "is",
@@ -119,6 +102,7 @@
         "sky,",
         "made",
         "in",
+        "1903.",
         "It",
         "did",
         "not",
@@ -128,18 +112,16 @@
         "or",
         "very",
         "far."
-      ],
-      "conf": 96.4437,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "Now planes can fly farther and faster than the fastest bird and can carry heavy weights through the air. Man can go faster than sound in the newest planes.",
+      "x": 0.1,
+      "y": 0.42,
+      "w": 0.85,
+      "h": 0.1,
       "id": "r3",
       "order": 2,
-      "text": "Now planes can fly farther and faster than the fastest bird and can carry heavy weights through the air. Man",
-      "x": 0.0976,
-      "y": 0.412,
-      "w": 0.8258,
-      "h": 0.064,
       "words": [
         "Now",
         "planes",
@@ -160,20 +142,7 @@
         "through",
         "the",
         "air.",
-        "Man"
-      ],
-      "conf": 90.8962,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "can go faster than sound in the newest planes.",
-      "x": 0.0968,
-      "y": 0.4798,
-      "w": 0.6827,
-      "h": 0.0226,
-      "words": [
+        "Man",
         "can",
         "go",
         "faster",
@@ -183,99 +152,37 @@
         "the",
         "newest",
         "planes."
-      ],
-      "conf": 96.6459,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "heavy: of great weight; opposite of light, fast (faster, fastest): quickly.",
-      "x": 0.0985,
-      "y": 0.78,
-      "w": 0.4739,
-      "h": 0.0414,
+      "text": "heavy: of great weight. fast: quickly. fly: go through the air. FUTURE: will fly. PRESENT: fly(ies). PAST: flew, flown.",
+      "x": 0.1,
+      "y": 0.8,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r4",
+      "order": 3,
       "words": [
         "heavy:",
         "of",
         "great",
-        "weight;",
-        "opposite",
-        "of",
-        "light,",
-        "fast",
-        "(faster,",
-        "fastest):",
-        "quickly."
-      ],
-      "conf": 94.7674,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "fly: go like a fly through the alr.",
-      "x": 0.1002,
-      "y": 0.8241,
-      "w": 0.3645,
-      "h": 0.0156,
-      "words": [
+        "weight.",
+        "fast:",
+        "quickly.",
         "fly:",
         "go",
-        "like",
-        "a",
-        "fly",
         "through",
         "the",
-        "alr."
-      ],
-      "conf": 92.8051,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "will fly",
-      "x": 0.0951,
-      "y": 0.8526,
-      "w": 0.096,
-      "h": 0.021,
-      "words": [
+        "air.",
+        "FUTURE:",
         "will",
-        "fly"
-      ],
-      "conf": 90.2007,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "fly (ies)",
-      "x": 0.4579,
-      "y": 0.8515,
-      "w": 0.1019,
-      "h": 0.0264,
-      "words": [
-        "fly",
-        "(ies)"
-      ],
-      "conf": 85.6706,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "flew, flown",
-      "x": 0.7795,
-      "y": 0.8537,
-      "w": 0.1448,
-      "h": 0.0145,
-      "words": [
+        "fly.",
+        "PRESENT:",
+        "fly(ies).",
+        "PAST:",
         "flew,",
-        "flown"
-      ],
-      "conf": 95.9898,
-      "source": "psm-11"
+        "flown."
+      ]
     }
   ]
 }

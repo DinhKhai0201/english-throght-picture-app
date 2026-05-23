@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Living things are made up of cells, and cells do not grow to be more than twice the size they were at first. But trees can grow thousands of times their seed size.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "The tallest tree known is 364 feet high. One great tree in California is as much as 115 feet round its trunk at the thickest point.", "x": 0.4, "y": 0.15, "w": 0.55, "h": 0.25 },
-    { "text": "How does such growth take place? It all takes place through division. When you were born you had as many as 200 billion cells, all from the division of one cell.", "x": 0.1, "y": 0.42, "w": 0.85, "h": 0.3 },
-    { "text": "trunk: stem of a tree. growth: becoming greater in number or size.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
-  ]
-}

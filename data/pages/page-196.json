@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20196.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 87,
+    "regionCount": 5,
+    "wordCount": 99,
     "imageWidth": 1188,
     "imageHeight": 1855
   },
@@ -18,8 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3"
+        "r1"
       ]
     },
     {
@@ -30,8 +29,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r4"
+        "r2",
+        "r3"
       ]
     },
     {
@@ -42,9 +41,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r9",
-        "r10"
+        "r4"
       ]
     },
     {
@@ -55,22 +52,42 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r7",
-        "r8",
-        "r11"
+        "r5"
       ]
     }
   ],
   "regions": [
     {
+      "text": "I took a newspaper and gave a dollar ($1) to the man.",
+      "x": 0.12,
+      "y": 0.33,
+      "w": 0.38,
+      "h": 0.1,
       "id": "r1",
       "order": 0,
-      "text": "He took the dollar and he gave a half dollar@ and a quarter (dollar) and twenty cents",
-      "x": 0.5808,
-      "y": 0.0965,
-      "w": 0.3468,
-      "h": 0.1946,
+      "words": [
+        "I",
+        "took",
+        "a",
+        "newspaper",
+        "and",
+        "gave",
+        "a",
+        "dollar",
+        "($1)",
+        "to",
+        "the",
+        "man."
+      ]
+    },
+    {
+      "text": "He took the dollar and he gave a half dollar and a quarter (dollar) and twenty cents",
+      "x": 0.58,
+      "y": 0.09,
+      "w": 0.38,
+      "h": 0.2,
+      "id": "r2",
+      "order": 1,
       "words": [
         "He",
         "took",
@@ -81,7 +98,7 @@
         "gave",
         "a",
         "half",
-        "dollar@",
+        "dollar",
         "and",
         "a",
         "quarter",
@@ -89,55 +106,16 @@
         "and",
         "twenty",
         "cents"
-      ],
-      "conf": 96.6417,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r2",
-      "order": 1,
-      "text": "SX",
-      "x": 0.1667,
-      "y": 0.1919,
-      "w": 0.1094,
-      "h": 0.0469,
-      "words": [
-        "SX"
-      ],
-      "conf": 64.5905,
-      "source": "psm-11"
-    },
-    {
+      "text": "This is the money which he gave to me with the paper.",
+      "x": 0.6,
+      "y": 0.35,
+      "w": 0.35,
+      "h": 0.08,
       "id": "r3",
       "order": 2,
-      "text": "I took-a. newspaper and gave a dollar to the man.",
-      "x": 0.1507,
-      "y": 0.3245,
-      "w": 0.367,
-      "h": 0.0803,
-      "words": [
-        "I",
-        "took-a.",
-        "newspaper",
-        "and",
-        "gave",
-        "a",
-        "dollar",
-        "to",
-        "the",
-        "man."
-      ],
-      "conf": 82.9021,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "This is the money which he gave to me with the paper.",
-      "x": 0.6035,
-      "y": 0.3526,
-      "w": 0.314,
-      "h": 0.0776,
       "words": [
         "This",
         "is",
@@ -151,18 +129,16 @@
         "with",
         "the",
         "paper."
-      ],
-      "conf": 96.1983,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "The price of the paper was five cents. got the poper and ninety-five cents from him.",
-      "x": 0.1448,
-      "y": 0.5623,
-      "w": 0.3813,
-      "h": 0.0948,
+      "text": "The price of the paper was five cents. I got the paper and ninety-five cents from him. $1.00 — 100 cents Paper — 5 cents 95 cents",
+      "x": 0.1,
+      "y": 0.56,
+      "w": 0.4,
+      "h": 0.25,
+      "id": "r4",
+      "order": 3,
       "words": [
         "The",
         "price",
@@ -172,126 +148,68 @@
         "was",
         "five",
         "cents.",
+        "I",
         "got",
         "the",
-        "poper",
+        "paper",
         "and",
         "ninety-five",
         "cents",
         "from",
-        "him."
-      ],
-      "conf": 96.243,
-      "source": "psm-11"
+        "him.",
+        "$1.00",
+        "—",
+        "100",
+        "cents",
+        "Paper",
+        "—",
+        "5",
+        "cents",
+        "95",
+        "cents"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "That money was my change.",
-      "x": 0.569,
-      "y": 0.566,
-      "w": 0.314,
-      "h": 0.047,
+      "text": "That money was my change. I had a dollar. After I got the paper I had the paper and ninety-five cents. I did not have the dollar. That was a change.",
+      "x": 0.56,
+      "y": 0.56,
+      "w": 0.38,
+      "h": 0.22,
+      "id": "r5",
+      "order": 4,
       "words": [
         "That",
         "money",
         "was",
         "my",
-        "change."
-      ],
-      "conf": 96.7195,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "had a dollar.",
-      "x": 0.5909,
-      "y": 0.6156,
-      "w": 0.2062,
-      "h": 0.0194,
-      "words": [
+        "change.",
+        "I",
         "had",
         "a",
-        "dollar."
-      ],
-      "conf": 95.6996,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "After got the paper had the paper and ninety-five cents. did not have the dollar.",
-      "x": 0.569,
-      "y": 0.6415,
-      "w": 0.3468,
-      "h": 0.0938,
-      "words": [
+        "dollar.",
         "After",
+        "I",
         "got",
         "the",
         "paper",
+        "I",
         "had",
         "the",
         "paper",
         "and",
         "ninety-five",
         "cents.",
+        "I",
         "did",
         "not",
         "have",
         "the",
-        "dollar."
-      ],
-      "conf": 96.3588,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "cents Paper",
-      "x": 0.1886,
-      "y": 0.6916,
-      "w": 0.3046,
-      "h": 0.0453,
-      "words": [
-        "cents",
-        "Paper"
-      ],
-      "conf": 95.2932,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "cents cents",
-      "x": 0.4141,
-      "y": 0.717,
-      "w": 0.0792,
-      "h": 0.0447,
-      "words": [
-        "cents",
-        "cents"
-      ],
-      "conf": 96.2779,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "That was a change.",
-      "x": 0.5682,
-      "y": 0.7429,
-      "w": 0.3123,
-      "h": 0.021,
-      "words": [
+        "dollar.",
         "That",
         "was",
         "a",
         "change."
-      ],
-      "conf": 95.2534,
-      "source": "psm-11"
+      ]
     }
   ]
 }

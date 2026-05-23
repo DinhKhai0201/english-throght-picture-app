@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Low-melting-point metals are used in fire controls. A fire melts the metal, which triggers an electric system.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.25 },
-    { "text": "This opens ceiling outlets that spray water to put out the fire. (Illustration: Fire melting a link and sprinklers activating).", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.25 },
-    { "text": "A fire system may be expensive, but it's much cheaper than the cost of a new building. It is cheap insurance.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.15 },
-    { "text": "melt: become liquid. ceiling: inner roof. cheap: low price for value. FUTURE: will melt. PRESENT: melt(s). PAST: melted.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Let's use a scale of one million years—the time since humans began. (Diagram: A line representing 1,000,000 years).", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "(Diagram: A complexity graph showing the emergence of 'SPEECH' as a key turning point). This curve shows the steps into complex living.", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.22 },
-    { "text": "Speech made us human. It developed slowly and gave us control over the world and ourselves. Language grew alongside the parts of the brain used for talking.", "x": 0.1, "y": 0.48, "w": 0.85, "h": 0.3 },
-    { "text": "speech: spoken language. human: distinct from animals. FUTURE: will speak. PRESENT: speak(s). PAST: spoke, spoken.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
-  ]
-}

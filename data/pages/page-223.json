@@ -2,45 +2,68 @@
   "page": 223,
   "image": "/books/page 223.png",
   "imageApiPath": "/api/books/page%20223.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 115,
+    "regionCount": 4,
+    "wordCount": 117,
     "imageWidth": 1205,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11"
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Changes in the heat which comes to the earth from the sun are one cause of changes in the weather. This discovery is new. A man of science made the discovery in 1944.",
+      "x": 0.1,
+      "y": 0.13,
+      "w": 0.38,
+      "h": 0.25,
       "id": "r1",
       "order": 0,
-      "text": "Changes in the heat which comes to the earth from the sun are to the earth every day one cause of changes in the weather. This discovery is new. A man of science made the discovery in",
-      "x": 0.1095,
-      "y": 0.1371,
-      "w": 0.7419,
-      "h": 0.2019,
       "words": [
         "Changes",
         "in",
@@ -55,11 +78,6 @@
         "the",
         "sun",
         "are",
-        "to",
-        "the",
-        "earth",
-        "every",
-        "day",
         "one",
         "cause",
         "of",
@@ -78,101 +96,56 @@
         "made",
         "the",
         "discovery",
-        "in"
-      ],
-      "conf": 96.1017,
-      "source": "psm-11"
+        "in",
+        "1944."
+      ]
     },
     {
+      "text": "He made it by measuring the heat which comes to the earth every day from the sun. The amount of heat is different from day to day.",
+      "x": 0.52,
+      "y": 0.13,
+      "w": 0.4,
+      "h": 0.18,
       "id": "r2",
       "order": 1,
-      "text": "He made it by measuring t the heat which comes t from the sun.",
-      "x": 0.4838,
-      "y": 0.1366,
-      "w": 0.3983,
-      "h": 0.0959,
       "words": [
         "He",
         "made",
         "it",
         "by",
         "measuring",
-        "t",
         "the",
         "heat",
         "which",
         "comes",
-        "t",
+        "to",
+        "the",
+        "earth",
+        "every",
+        "day",
         "from",
         "the",
-        "sun."
-      ],
-      "conf": 95.876,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "The amount of heat is",
-      "x": 0.5079,
-      "y": 0.2373,
-      "w": 0.3311,
-      "h": 0.0198,
-      "words": [
+        "sun.",
         "The",
         "amount",
         "of",
         "heat",
-        "is"
-      ],
-      "conf": 96.404,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "from day to day.",
-      "x": 0.5071,
-      "y": 0.2625,
-      "w": 0.3245,
-      "h": 0.053,
-      "words": [
+        "is",
+        "different",
         "from",
         "day",
         "to",
         "day."
-      ],
-      "conf": 96.6273,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "Men are making new discoveries every day.",
-      "x": 0.5071,
-      "y": 0.519,
-      "w": 0.3427,
-      "h": 0.0519,
-      "words": [
-        "Men",
-        "are",
-        "making",
-        "new",
-        "discoveries",
-        "every",
-        "day."
-      ],
-      "conf": 95.8086,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "On some days the sun sends more heat to the earth. On other days it i discovery of America",
-      "x": 0.0988,
-      "y": 0.5453,
-      "w": 0.7344,
-      "h": 0.083,
+      "text": "On some days the sun sends more heat to the earth. On other days it sends less heat to the earth. There is more water in this glass than in that. More Less",
+      "x": 0.08,
+      "y": 0.54,
+      "w": 0.38,
+      "h": 0.35,
+      "id": "r3",
+      "order": 2,
       "words": [
         "On",
         "some",
@@ -189,80 +162,12 @@
         "other",
         "days",
         "it",
-        "i",
-        "discovery",
-        "of",
-        "America"
-      ],
-      "conf": 95.987,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "Columbus made the in Columbus came to America in his ship",
-      "x": 0.5054,
-      "y": 0.5694,
-      "w": 0.3767,
-      "h": 0.1034,
-      "words": [
-        "Columbus",
-        "made",
-        "the",
-        "in",
-        "Columbus",
-        "came",
-        "to",
-        "America",
-        "in",
-        "his",
-        "ship"
-      ],
-      "conf": 95.9912,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "sends less heat to the earth.",
-      "x": 0.0979,
-      "y": 0.6208,
-      "w": 0.3212,
-      "h": 0.0444,
-      "words": [
         "sends",
         "less",
         "heat",
         "to",
         "the",
-        "earth."
-      ],
-      "conf": 95.8757,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "in",
-      "x": 0.5104,
-      "y": 0.6636,
-      "w": 0.0266,
-      "h": 0.0316,
-      "words": [
-        "in"
-      ],
-      "conf": 92.2088,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "There is more water in this glass than in that,",
-      "x": 0.0979,
-      "y": 0.729,
-      "w": 0.3411,
-      "h": 0.0482,
-      "words": [
+        "earth.",
         "There",
         "is",
         "more",
@@ -272,24 +177,45 @@
         "glass",
         "than",
         "in",
-        "that,"
-      ],
-      "conf": 95.9572,
-      "source": "psm-11"
+        "that.",
+        "More",
+        "Less"
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "WY",
-      "x": 0.3295,
-      "y": 0.805,
-      "w": 0.0739,
-      "h": 0.0568,
+      "text": "Men are making new discoveries every day. Columbus made the discovery of America in 1492. Columbus came to America in his ship in 1492.",
+      "x": 0.52,
+      "y": 0.52,
+      "w": 0.4,
+      "h": 0.2,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "WY"
-      ],
-      "conf": 63.1619,
-      "source": "psm-11"
+        "Men",
+        "are",
+        "making",
+        "new",
+        "discoveries",
+        "every",
+        "day.",
+        "Columbus",
+        "made",
+        "the",
+        "discovery",
+        "of",
+        "America",
+        "in",
+        "1492.",
+        "Columbus",
+        "came",
+        "to",
+        "America",
+        "in",
+        "his",
+        "ship",
+        "in",
+        "1492."
+      ]
     }
   ]
 }

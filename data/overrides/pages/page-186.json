@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "This is a short coat. This is a longer coat. This is the longest coat of the three.", "x": 0.12, "y": 0.11, "w": 0.25, "h": 0.3 },
-    { "text": "This is a thin book. This is a thicker book. This is the thickest book of the three.", "x": 0.54, "y": 0.11, "w": 0.35, "h": 0.3 },
-    { "text": "This is a narrow street. This is a wider street. This is the widest street of the three. Which is the narrowest street of the three?", "x": 0.1, "y": 0.53, "w": 0.4, "h": 0.38 },
-    { "text": "This is a dirty face. This is a cleaner face. This is the cleanest face of the three. Which is the dirtiest face?", "x": 0.54, "y": 0.52, "w": 0.4, "h": 0.38 }
-  ]
-}

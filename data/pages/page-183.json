@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20183.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 15,
-    "wordCount": 97,
+    "regionCount": 9,
+    "wordCount": 99,
     "imageWidth": 1250,
     "imageHeight": 1871
   },
@@ -19,7 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r4"
+        "r2"
       ]
     },
     {
@@ -30,11 +30,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
         "r3",
-        "r5",
-        "r6",
-        "r7"
+        "r4",
+        "r5"
       ]
     },
     {
@@ -45,10 +43,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r11",
-        "r13",
-        "r14"
+        "r6",
+        "r7"
       ]
     },
     {
@@ -59,22 +55,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r10",
-        "r12",
-        "r15"
+        "r8",
+        "r9"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Which is shorter—a quarter of an hour or half an hour?",
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.38,
+      "h": 0.08,
       "id": "r1",
       "order": 0,
-      "text": "Which is shorter—a quarter of an hour or half an hour?",
-      "x": 0.1376,
-      "y": 0.1229,
-      "w": 0.3144,
-      "h": 0.0684,
       "words": [
         "Which",
         "is",
@@ -87,57 +81,16 @@
         "half",
         "an",
         "hour?"
-      ],
-      "conf": 93.8772,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "Which is shorter—the minute hand or the hour hand of a clock?",
+      "x": 0.12,
+      "y": 0.23,
+      "w": 0.38,
+      "h": 0.08,
       "id": "r2",
       "order": 1,
-      "text": "This is an inch.",
-      "x": 0.6224,
-      "y": 0.1256,
-      "w": 0.2112,
-      "h": 0.0187,
-      "words": [
-        "This",
-        "is",
-        "an",
-        "inch."
-      ],
-      "conf": 93.8283,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "The distance from A to B is one inch.",
-      "x": 0.5192,
-      "y": 0.1903,
-      "w": 0.3616,
-      "h": 0.0448,
-      "words": [
-        "The",
-        "distance",
-        "from",
-        "A",
-        "to",
-        "B",
-        "is",
-        "one",
-        "inch."
-      ],
-      "conf": 94.2365,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "Which is shorter—the minute hand or the hour hand of a clock?",
-      "x": 0.1224,
-      "y": 0.2346,
-      "w": 0.3608,
-      "h": 0.0695,
       "words": [
         "Which",
         "is",
@@ -151,18 +104,40 @@
         "of",
         "a",
         "clock?"
-      ],
-      "conf": 93.8149,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
+      "text": "This is an inch. The distance from A to B is one inch.",
+      "x": 0.52,
+      "y": 0.12,
+      "w": 0.4,
+      "h": 0.1,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "This",
+        "is",
+        "an",
+        "inch.",
+        "The",
+        "distance",
+        "from",
+        "A",
+        "to",
+        "B",
+        "is",
+        "one",
+        "inch."
+      ]
+    },
+    {
       "text": "Half an inch is a shorter distance than an inch.",
-      "x": 0.5176,
-      "y": 0.2806,
-      "w": 0.36,
-      "h": 0.0438,
+      "x": 0.52,
+      "y": 0.28,
+      "w": 0.4,
+      "h": 0.05,
+      "id": "r4",
+      "order": 3,
       "words": [
         "Half",
         "an",
@@ -174,95 +149,87 @@
         "than",
         "an",
         "inch."
-      ],
-      "conf": 96.0505,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "A quarter Three-quarters of an inch",
-      "x": 0.524,
-      "y": 0.3848,
-      "w": 0.3888,
-      "h": 0.0433,
+      "text": "A quarter of an inch Three-quarters of an inch",
+      "x": 0.52,
+      "y": 0.38,
+      "w": 0.4,
+      "h": 0.05,
+      "id": "r5",
+      "order": 4,
       "words": [
         "A",
         "quarter",
+        "of",
+        "an",
+        "inch",
         "Three-quarters",
         "of",
         "an",
         "inch"
-      ],
-      "conf": 57.9389,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "of an inch",
-      "x": 0.7328,
-      "y": 0.4089,
-      "w": 0.144,
-      "h": 0.0187,
-      "words": [
-        "of",
-        "an",
-        "inch"
-      ],
-      "conf": 94.6817,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
       "text": "Twelve inches make a foot.",
-      "x": 0.1336,
+      "x": 0.12,
       "y": 0.52,
-      "w": 0.3184,
-      "h": 0.0439,
+      "w": 0.35,
+      "h": 0.05,
+      "id": "r6",
+      "order": 5,
       "words": [
         "Twelve",
         "inches",
         "make",
         "a",
         "foot."
-      ],
-      "conf": 96.2248,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "Three feet make a yard This is a yard measure.",
-      "x": 0.544,
-      "y": 0.5067,
-      "w": 0.3536,
-      "h": 0.0604,
+      "text": "This is a foot. How long is it? It is ten inches long.",
+      "x": 0.15,
+      "y": 0.78,
+      "w": 0.35,
+      "h": 0.08,
+      "id": "r7",
+      "order": 6,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "foot.",
+        "How",
+        "long",
+        "is",
+        "it?",
+        "It",
+        "is",
+        "ten",
+        "inches",
+        "long."
+      ]
+    },
+    {
+      "text": "Three feet make a yard. This is a yard measure. There are thirty-six inches in a yard.",
+      "x": 0.54,
+      "y": 0.51,
+      "w": 0.4,
+      "h": 0.18,
+      "id": "r8",
+      "order": 7,
       "words": [
         "Three",
         "feet",
         "make",
         "a",
-        "yard",
+        "yard.",
         "This",
         "is",
         "a",
         "yard",
-        "measure."
-      ],
-      "conf": 96.4856,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "There are thirty-six inches in a yard.",
-      "x": 0.588,
-      "y": 0.6221,
-      "w": 0.28,
-      "h": 0.0486,
-      "words": [
+        "measure.",
         "There",
         "are",
         "thirty-six",
@@ -270,94 +237,27 @@
         "in",
         "a",
         "yard."
-      ],
-      "conf": 96.6909,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "a foot.",
-      "x": 0.3648,
-      "y": 0.6954,
-      "w": 0.096,
-      "h": 0.0187,
-      "words": [
-        "a",
-        "foot."
-      ],
-      "conf": 95.5036,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "These are feet.",
-      "x": 0.66,
-      "y": 0.7098,
-      "w": 0.2176,
-      "h": 0.0187,
+      "text": "These are feet. They are not twelve inches long.",
+      "x": 0.54,
+      "y": 0.71,
+      "w": 0.4,
+      "h": 0.2,
+      "id": "r9",
+      "order": 8,
       "words": [
         "These",
         "are",
-        "feet."
-      ],
-      "conf": 96.4875,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "How long is it?",
-      "x": 0.1632,
-      "y": 0.7825,
-      "w": 0.2152,
-      "h": 0.023,
-      "words": [
-        "How",
-        "long",
-        "is",
-        "it?"
-      ],
-      "conf": 96.6804,
-      "source": "psm-11"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "It is ten inches long.",
-      "x": 0.164,
-      "y": 0.8076,
-      "w": 0.2864,
-      "h": 0.023,
-      "words": [
-        "It",
-        "is",
-        "ten",
-        "inches",
-        "long."
-      ],
-      "conf": 93.3825,
-      "source": "psm-11"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "They are not twelve inches long.",
-      "x": 0.5568,
-      "y": 0.8413,
-      "w": 0.2928,
-      "h": 0.055,
-      "words": [
+        "feet.",
         "They",
         "are",
         "not",
         "twelve",
         "inches",
         "long."
-      ],
-      "conf": 96.1292,
-      "source": "psm-11"
+      ]
     }
   ]
 }

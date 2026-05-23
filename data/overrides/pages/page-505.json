@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Famous sayings live on in our minds. For centuries, Chinese children started reading with this: 'Men’s nature is good.' (Mencius, 4th century B.C.).", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "(Illustration: Portrait of the philosopher Mencius).", "x": 0.1, "y": 0.18, "w": 0.5, "h": 0.45 },
-    { "text": "From the Chung Yung: 'What makes us is named our nature. What directs our nature is named the Way. What makes the Way possible is education.'", "x": 0.1, "y": 0.62, "w": 0.85, "h": 0.18 },
-    { "text": "our nature: who we truly ARE. directs: gives guidance to. FUTURE: will direct. PRESENT: direct(s). PAST: directed.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
-  ]
-}

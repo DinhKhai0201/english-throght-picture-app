@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "The first man to discover that the blood goes to all parts of the body, out through the valves of the heart through one system of pipes and back again through another, was the seventeenth-century doctor William Harvey.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.2 },
-    { "text": "The journey of our blood all round the body is the circulation of the blood. As you see in the picture opposite, the branches of the arteries are like the branches of a tree which get smaller and smaller the farther they are from the roots.", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.15 },
-    { "text": "The small branches go to all parts of the body. They go to the ends of your fingers and toes, to all the muscles—those parts by which you move your arms and legs and head and other parts of the body.", "x": 0.1, "y": 0.5, "w": 0.85, "h": 0.15 },
-    { "text": "doctor: man with training who keeps people healthy. circulation: motion round and round. picture opposite: picture on the facing page.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.12 }
-  ]
-}

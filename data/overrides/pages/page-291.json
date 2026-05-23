@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "\"What is your name?\" the man on the right asks. The other man answers: \"My name is Jean Schmidt.\" \"Where do you come from? What is the country of your birth? Where were you born?\" (These are different ways of asking the same question.)", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.3 },
-    { "text": "\"Geneva, Switzerland,\" answers Jean Schmidt. \"Have you any relations in this country?\" \"Yes, I have one. My uncle, my father's brother, lives in Boston, Massachusetts, U.S.A.\"", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.25 },
-    { "text": "asks: puts a question. answers: gives an answer. born: given birth or given being. any: one or more, some. relation: person of same family. uncle: father's or mother's brother.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.15 },
-    { "text": "FUTURE: will ask/answer. PRESENT: ask(s)/answer(s). PAST: asked/answered.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.08 }
-  ]
-}

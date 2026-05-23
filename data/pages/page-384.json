@@ -2,46 +2,58 @@
   "page": 384,
   "image": "/books/page 384.png",
   "imageApiPath": "/api/books/page%20384.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 141,
+    "regionCount": 4,
+    "wordCount": 115,
     "imageWidth": 1230,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "When we move about from one country to another we sometimes have to change our money, our watches or both. When we change our watches we move the hands forward if we are going east and back if we are going west.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "When we move about from one country to another we sometimes have to change our money, we sometimes have to change our watches and sometimes we change both.",
-      "x": 0.0927,
-      "y": 0.0178,
-      "w": 0.8049,
-      "h": 0.0968,
       "words": [
         "When",
         "we",
@@ -59,31 +71,10 @@
         "change",
         "our",
         "money,",
-        "we",
-        "sometimes",
-        "have",
-        "to",
-        "change",
         "our",
         "watches",
-        "and",
-        "sometimes",
-        "we",
-        "change",
-        "both."
-      ],
-      "conf": 96.3989,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "When we change our watches we move the hands forward or back: forward if we are going east and back if we are",
-      "x": 0.0919,
-      "y": 0.1178,
-      "w": 0.8049,
-      "h": 0.0565,
-      "words": [
+        "or",
+        "both.",
         "When",
         "we",
         "change",
@@ -94,9 +85,6 @@
         "the",
         "hands",
         "forward",
-        "or",
-        "back:",
-        "forward",
         "if",
         "we",
         "are",
@@ -106,34 +94,19 @@
         "back",
         "if",
         "we",
-        "are"
-      ],
-      "conf": 96.5116,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "going west.",
-      "x": 0.0911,
-      "y": 0.17,
-      "w": 0.1553,
-      "h": 0.0215,
-      "words": [
+        "are",
         "going",
         "west."
-      ],
-      "conf": 96.8126,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "Here is a map giving time lines across the Pacific",
-      "x": 0.0919,
-      "y": 0.298,
-      "w": 0.4041,
-      "h": 0.0629,
+      "text": "Here is a map giving time lines across the Pacific Ocean.",
+      "x": 0.1,
+      "y": 0.3,
+      "w": 0.45,
+      "h": 0.1,
+      "id": "r2",
+      "order": 1,
       "words": [
         "Here",
         "is",
@@ -144,49 +117,20 @@
         "lines",
         "across",
         "the",
-        "Pacific"
-      ],
-      "conf": 95.8429,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "YO",
-      "x": 0.6252,
-      "y": 0.3072,
-      "w": 0.1041,
-      "h": 0.0414,
-      "words": [
-        "YO"
-      ],
-      "conf": 58.4568,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "Ocean.",
-      "x": 0.0911,
-      "y": 0.3534,
-      "w": 0.0967,
-      "h": 0.0172,
-      "words": [
+        "Pacific",
         "Ocean."
-      ],
-      "conf": 96.2787,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "tn the days when Galileo used his pulse as a timekeeper,",
-      "x": 0.0886,
-      "y": 0.454,
-      "w": 0.8057,
-      "h": 0.0527,
+      "text": "In the days when Galileo used his pulse as a timekeeper, most men did not even know that the earth was round. They knew no more about the journey of the earth around the sun than they did about the journey of their blood stream.",
+      "x": 0.1,
+      "y": 0.48,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r3",
+      "order": 2,
       "words": [
-        "tn",
+        "In",
         "the",
         "days",
         "when",
@@ -196,44 +140,18 @@
         "pulse",
         "as",
         "a",
-        "timekeeper,"
-      ],
-      "conf": 93.5148,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "most men did not even know. that the earth was round.",
-      "x": 0.0919,
-      "y": 0.5056,
-      "w": 0.8016,
-      "h": 0.0253,
-      "words": [
+        "timekeeper,",
         "most",
         "men",
         "did",
         "not",
         "even",
-        "know.",
+        "know",
         "that",
         "the",
         "earth",
         "was",
-        "round."
-      ],
-      "conf": 94.4189,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "They knew no more about the journey of the earth around the sun than they did about the journey of their blood stream through their bodies.",
-      "x": 0.0919,
-      "y": 0.5358,
-      "w": 0.8033,
-      "h": 0.0748,
-      "words": [
+        "round.",
         "They",
         "knew",
         "no",
@@ -256,80 +174,36 @@
         "of",
         "their",
         "blood",
-        "stream",
-        "through",
-        "their",
-        "bodies."
-      ],
-      "conf": 96.39,
-      "source": "psm-11"
+        "stream."
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "even: so much as. Even gives the ideo that something is much more than",
-      "x": 0.0911,
-      "y": 0.8413,
-      "w": 0.8033,
-      "h": 0.0156,
-      "words": [
-        "even:",
-        "so",
-        "much",
-        "as.",
-        "Even",
-        "gives",
-        "the",
-        "ideo",
-        "that",
-        "something",
-        "is",
-        "much",
-        "more",
-        "than"
-      ],
-      "conf": 95.3089,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "both: the two, one and the other of two.",
-      "x": 0.0919,
-      "y": 0.8236,
-      "w": 0.4415,
-      "h": 0.014,
+      "text": "both: the two. even: so much as; used to show something is more or less than expected.",
+      "x": 0.1,
+      "y": 0.82,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r4",
+      "order": 3,
       "words": [
         "both:",
         "the",
-        "two,",
-        "one",
-        "and",
-        "the",
-        "other",
-        "of",
-        "two."
-      ],
-      "conf": 96.2478,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "we would think—or much less.",
-      "x": 0.1423,
-      "y": 0.8564,
-      "w": 0.3333,
-      "h": 0.0215,
-      "words": [
-        "we",
-        "would",
-        "think—or",
+        "two.",
+        "even:",
+        "so",
         "much",
-        "less."
-      ],
-      "conf": 83.0469,
-      "source": "psm-11"
+        "as;",
+        "used",
+        "to",
+        "show",
+        "something",
+        "is",
+        "more",
+        "or",
+        "less",
+        "than",
+        "expected."
+      ]
     }
   ]
 }

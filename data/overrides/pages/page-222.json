@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "The amount of heat which the earth gets from the sun is different from time to time. There are changes in the sun.", "x": 0.12, "y": 0.13, "w": 0.38, "h": 0.15 },
-    { "text": "If you take a look at the sun through a bit of dark glass you may see small marks on the face of the sun.", "x": 0.54, "y": 0.09, "w": 0.38, "h": 0.12 },
-    { "text": "Amount? One dollar is a small amount of money. A million dollars is a great amount of money. A drop of rain is a very small amount of water. There is a small amount of water in this glass.", "x": 0.1, "y": 0.51, "w": 0.38, "h": 0.4 },
-    { "text": "There is a great amount of water in the sea. This is the sea. Those are ships which are on the sea.", "x": 0.52, "y": 0.75, "w": 0.38, "h": 0.15 }
-  ]
-}

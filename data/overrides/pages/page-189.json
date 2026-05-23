@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "We may go on our feet from one place to another. When we go on our feet, we are walking.", "x": 0.12, "y": 0.12, "w": 0.38, "h": 0.35 },
-    { "text": "Or we may go in a train or in a ship or in an automobile or in a plane", "x": 0.52, "y": 0.18, "w": 0.4, "h": 0.12 },
-    { "text": "Some places are near to one another. Some places are far from one another.", "x": 0.12, "y": 0.54, "w": 0.38, "h": 0.3 },
-    { "text": "Places in Washington are near to one another. The distance from one place to another is not far. But some places in the United States are far from one another.", "x": 0.54, "y": 0.53, "w": 0.4, "h": 0.38 }
-  ]
-}

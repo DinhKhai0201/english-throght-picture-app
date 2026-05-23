@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "This is the front of the box.", "x": 0.12, "y": 0.16, "w": 0.35, "h": 0.05 },
-    { "text": "And this is the back of the box.", "x": 0.54, "y": 0.16, "w": 0.38, "h": 0.05 },
-    { "text": "This is the floor of the box.", "x": 0.12, "y": 0.61, "w": 0.35, "h": 0.05 },
-    { "text": "And this is the cover of the box.", "x": 0.54, "y": 0.61, "w": 0.38, "h": 0.05 }
-  ]
-}

@@ -1,8 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "People need play as well as work. If your interest is deep enough, work and play can be the same thing. Some work even when they don’t need to.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "Plato said: 'All learning is best done as play. Nothing learned under pressure takes root rightly in the mind. So let children’s work be a sort of play.'", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.2 },
-    { "text": "interest: attraction of the mind to something. philosopher: thinker, lover of knowledge.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
-  ]
-}

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20391.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 15,
-    "wordCount": 150,
+    "regionCount": 4,
+    "wordCount": 96,
     "imageWidth": 1188,
     "imageHeight": 1867
   },
@@ -19,36 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r4"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3",
-        "r5"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r6",
-        "r7",
-        "r8",
-        "r12",
-        "r13",
-        "r14"
+        "r2"
       ]
     },
     {
@@ -59,22 +30,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r10",
-        "r11",
-        "r15"
+        "r3",
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Newton, who was born the year that Galileo died (1642), took the new line of thought much farther. Like Galileo he became a great watcher and recorder.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.45,
+      "h": 0.25,
       "id": "r1",
       "order": 0,
-      "text": "Newton, who was born the year that Galileo died",
-      "x": 0.0699,
-      "y": 0.0423,
-      "w": 0.3703,
-      "h": 0.0472,
       "words": [
         "Newton,",
         "who",
@@ -84,20 +53,8 @@
         "year",
         "that",
         "Galileo",
-        "died"
-      ],
-      "conf": 96.2052,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "took the new line of thought much farther.",
-      "x": 0.0699,
-      "y": 0.0948,
-      "w": 0.3694,
-      "h": 0.0461,
-      "words": [
+        "died",
+        "(1642),",
         "took",
         "the",
         "new",
@@ -105,34 +62,7 @@
         "of",
         "thought",
         "much",
-        "farther."
-      ],
-      "conf": 96.7717,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "Ci.",
-      "x": 0.6094,
-      "y": 0.0911,
-      "w": 0.0673,
-      "h": 0.0364,
-      "words": [
-        "Ci."
-      ],
-      "conf": 60.2498,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "Like Galileo he became a great watcher and record- er, asking the question “how,” more than “why,” and answering by meas- uring and recording and comparing and proving, Even more than Galileo, he saw the universe as part of a great machine, and he was able to put into words great natural laws—accounts of its workings",
-      "x": 0.069,
-      "y": 0.1719,
-      "w": 0.824,
-      "h": 0.2839,
-      "words": [
+        "farther.",
         "Like",
         "Galileo",
         "he",
@@ -141,42 +71,55 @@
         "great",
         "watcher",
         "and",
-        "record-",
-        "er,",
-        "asking",
+        "recorder."
+      ]
+    },
+    {
+      "text": "He asked the question 'how,' more than 'why,' answering by measuring and recording and comparing and proving. He saw the universe as a great machine.",
+      "x": 0.1,
+      "y": 0.3,
+      "w": 0.45,
+      "h": 0.2,
+      "id": "r2",
+      "order": 1,
+      "words": [
+        "He",
+        "asked",
         "the",
         "question",
-        "“how,”",
+        "'how,'",
         "more",
         "than",
-        "“why,”",
-        "and",
+        "'why,'",
         "answering",
         "by",
-        "meas-",
-        "uring",
+        "measuring",
         "and",
         "recording",
         "and",
         "comparing",
         "and",
-        "proving,",
-        "Even",
-        "more",
-        "than",
-        "Galileo,",
-        "he",
+        "proving.",
+        "He",
         "saw",
         "the",
         "universe",
         "as",
-        "part",
-        "of",
         "a",
         "great",
-        "machine,",
-        "and",
-        "he",
+        "machine."
+      ]
+    },
+    {
+      "text": "He was able to put into words great natural laws. comparing: finding how things are the same or different. law: statements backed by power. natural: not made by man. natural law: statement of causes and effects.",
+      "x": 0.1,
+      "y": 0.52,
+      "w": 0.85,
+      "h": 0.3,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "He",
         "was",
         "able",
         "to",
@@ -185,232 +128,53 @@
         "words",
         "great",
         "natural",
-        "laws—accounts",
-        "of",
-        "its",
-        "workings"
-      ],
-      "conf": 95.9757,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "SS OS",
-      "x": 0.6372,
-      "y": 0.1575,
-      "w": 0.1557,
-      "h": 0.0524,
-      "words": [
-        "SS",
-        "OS"
-      ],
-      "conf": 52.5097,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "comparing: finding where and how things are the same or different.",
-      "x": 0.0749,
-      "y": 0.7017,
-      "w": 0.7854,
-      "h": 0.0155,
-      "words": [
+        "laws.",
         "comparing:",
         "finding",
-        "where",
-        "and",
         "how",
         "things",
         "are",
         "the",
         "same",
         "or",
-        "different."
-      ],
-      "conf": 95.7316,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "ment power, controlling what men may or",
-      "x": 0.1279,
-      "y": 0.737,
-      "w": 0.4773,
-      "h": 0.015,
-      "words": [
-        "ment",
-        "power,",
-        "controlling",
-        "what",
-        "men",
-        "may",
-        "or"
-      ],
-      "conf": 96.0268,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "laws which are made by man are statements, backed by did so, may be put in prison.",
-      "x": 0.1279,
-      "y": 0.7193,
-      "w": 0.67,
-      "h": 0.0681,
-      "words": [
-        "laws",
-        "which",
-        "are",
-        "made",
-        "by",
-        "man",
-        "are",
-        "statements,",
+        "different.",
+        "law:",
+        "statements",
         "backed",
         "by",
-        "did",
-        "so,",
-        "may",
-        "be",
-        "put",
-        "in",
-        "prison."
-      ],
-      "conf": 96.0224,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "laws are broken, the person who breaks them, if It is proved that he",
-      "x": 0.1279,
-      "y": 0.7542,
-      "w": 0.7677,
-      "h": 0.015,
-      "words": [
-        "laws",
-        "are",
-        "broken,",
-        "the",
-        "person",
-        "who",
-        "breaks",
-        "them,",
-        "if",
-        "It",
-        "is",
-        "proved",
-        "that",
-        "he"
-      ],
-      "conf": 94.7597,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "net do, When some",
-      "x": 0.6717,
-      "y": 0.7365,
-      "w": 0.2231,
-      "h": 0.0129,
-      "words": [
-        "net",
-        "do,",
-        "When",
-        "some"
-      ],
-      "conf": 90.728,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "law: statement of causes and effects at work everywhere.",
-      "x": 0.1726,
-      "y": 0.8066,
-      "w": 0.6582,
-      "h": 0.015,
-      "words": [
+        "power.",
+        "natural:",
+        "not",
+        "made",
+        "by",
+        "man.",
+        "natural",
         "law:",
         "statement",
         "of",
         "causes",
         "and",
-        "effects",
-        "at",
-        "work",
-        "everywhere."
-      ],
-      "conf": 93.7568,
-      "source": "psm-11"
+        "effects."
+      ]
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "not made by man.",
-      "x": 0.1793,
-      "y": 0.79,
-      "w": 0.1978,
-      "h": 0.0145,
+      "text": "FUTURE: will compare/break. PRESENT: compare(s)/break(s). PAST: compared/broke, broken.",
+      "x": 0.1,
+      "y": 0.82,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "not",
-        "made",
-        "by",
-        "man."
-      ],
-      "conf": 96.2509,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "will compare will break",
-      "x": 0.0758,
-      "y": 0.8372,
-      "w": 0.1557,
-      "h": 0.03,
-      "words": [
+        "FUTURE:",
         "will",
-        "compare",
-        "will",
-        "break"
-      ],
-      "conf": 95.8806,
-      "source": "psm-11"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "compare (s)",
-      "x": 0.4057,
-      "y": 0.8345,
-      "w": 0.1515,
-      "h": 0.0204,
-      "words": [
-        "compare",
-        "(s)"
-      ],
-      "conf": 80.8963,
-      "source": "psm-11"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "broke, broken",
-      "x": 0.7104,
-      "y": 0.8511,
-      "w": 0.1869,
-      "h": 0.0187,
-      "words": [
-        "broke,",
-        "broken"
-      ],
-      "conf": 95.7816,
-      "source": "psm-11"
+        "compare/break.",
+        "PRESENT:",
+        "compare(s)/break(s).",
+        "PAST:",
+        "compared/broke,",
+        "broken."
+      ]
     }
   ]
 }

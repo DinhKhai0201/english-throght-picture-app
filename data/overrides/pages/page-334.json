@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Hundreds of millions of people today can hear on the radio important statements by public men, statements which in earlier times could have been heard by few. It is a question whether at any time in history a man has been able to make his voice heard by as many as a hundred thousand people at the same time. Without the telephone and the radio a man can be heard only as far as his voice can carry.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.2 },
-    { "text": "New instruments are making men’s homes less private and public men more public.", "x": 0.35, "y": 0.5, "w": 0.6, "h": 0.1 },
-    { "text": "whether: if or not. history: man’s past as we know it, the account or story of it.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.05 },
-    { "text": "voice: sound made through the mouth; the power to make such sounds.", "x": 0.1, "y": 0.83, "w": 0.85, "h": 0.05 }
-  ]
-}

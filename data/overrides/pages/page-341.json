@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Talking with someone is saying things to him, hearing what he says and taking in his meaning. People can talk together only when they have a language in common. When you were very young your parents talked to you and after a time you saw what they meant and learned to talk to them. A baby’s first words are commonly names for its parents. Some children learn to talk earlier than others.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.3 },
-    { "text": "We go on learning our language all our lives. Some people talk more than they think, and some people think more than they talk. Most of our thinking is done through language.", "x": 0.45, "y": 0.4, "w": 0.5, "h": 0.2 },
-    { "text": "parent: father or mother. commonly: most times. think: have thoughts, use the mind.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.12 },
-    { "text": "FUTURE: will think. PRESENT: think(s). PAST: thought.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
-  ]
-}

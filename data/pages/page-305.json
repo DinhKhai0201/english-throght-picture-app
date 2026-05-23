@@ -2,43 +2,47 @@
   "page": 305,
   "image": "/books/page 305.png",
   "imageApiPath": "/api/books/page%20305.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 9,
+    "regionCount": 3,
     "wordCount": 96,
     "imageWidth": 1234,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9"
+        "r3"
       ]
     }
   ],
   "regions": [
     {
+      "text": "This city has great buildings, some of which have machines in them for doing many sorts of work by steam or electric power. These are factories. One of them is a factory where furniture is made. In it men make tables and chairs in great numbers.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.2,
       "id": "r1",
       "order": 0,
-      "text": "This city has great buildings, some of which have ma- chines in them for doing many sorts of work by steam or electric power. These are factories. One of them is a factory where furniture is made. In it men make tables",
-      "x": 0.124,
-      "y": 0.0371,
-      "w": 0.7917,
-      "h": 0.1007,
       "words": [
         "This",
         "city",
@@ -49,8 +53,7 @@
         "of",
         "which",
         "have",
-        "ma-",
-        "chines",
+        "machines",
         "in",
         "them",
         "for",
@@ -81,58 +84,42 @@
         "it",
         "men",
         "make",
-        "tables"
-      ],
-      "conf": 95.7208,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "and chairs in great numbers.",
-      "x": 0.124,
-      "y": 0.1425,
-      "w": 0.4109,
-      "h": 0.0215,
-      "words": [
+        "tables",
         "and",
         "chairs",
         "in",
         "great",
         "numbers."
-      ],
-      "conf": 96.2595,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "machine: Instrument which does work for men.",
-      "x": 0.1183,
-      "y": 0.723,
-      "w": 0.5089,
-      "h": 0.014,
+      "text": "machine: instrument which does work for men. power: a thing's power is the work it is able to do. electric power: power which gives us electric light, heat, telephones. factory: building where men and machines make things.",
+      "x": 0.1,
+      "y": 0.72,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r2",
+      "order": 1,
       "words": [
         "machine:",
-        "Instrument",
+        "instrument",
         "which",
         "does",
         "work",
         "for",
-        "men."
-      ],
-      "conf": 95.1514,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "electric power: power which gives us electric light, heat, telephones.",
-      "x": 0.1175,
-      "y": 0.7579,
-      "w": 0.7707,
-      "h": 0.0156,
-      "words": [
+        "men.",
+        "power:",
+        "a",
+        "thing's",
+        "power",
+        "is",
+        "the",
+        "work",
+        "it",
+        "is",
+        "able",
+        "to",
+        "do.",
         "electric",
         "power:",
         "power",
@@ -142,45 +129,7 @@
         "electric",
         "light,",
         "heat,",
-        "telephones."
-      ],
-      "conf": 93.6711,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "power: a thing’s power is the work it ts oble to de.",
-      "x": 0.1183,
-      "y": 0.7402,
-      "w": 0.5519,
-      "h": 0.0161,
-      "words": [
-        "power:",
-        "a",
-        "thing’s",
-        "power",
-        "is",
-        "the",
-        "work",
-        "it",
-        "ts",
-        "oble",
-        "to",
-        "de."
-      ],
-      "conf": 92.5729,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "factory: building where men and machines make things.",
-      "x": 0.1183,
-      "y": 0.7751,
-      "w": 0.6378,
-      "h": 0.0156,
-      "words": [
+        "telephones.",
         "factory:",
         "building",
         "where",
@@ -189,60 +138,31 @@
         "machines",
         "make",
         "things."
-      ],
-      "conf": 95.8707,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "bookshelves, etc.",
-      "x": 0.171,
-      "y": 0.8107,
-      "w": 0.184,
-      "h": 0.0145,
+      "text": "furniture: beds, tables, chests of drawers, bookshelves, etc. chair: seat for one person.",
+      "x": 0.1,
+      "y": 0.88,
+      "w": 0.85,
+      "h": 0.08,
+      "id": "r3",
+      "order": 2,
       "words": [
-        "bookshelves,",
-        "etc."
-      ],
-      "conf": 91.3733,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "beds, lables, chests of drawers,",
-      "x": 0.2464,
-      "y": 0.7934,
-      "w": 0.3509,
-      "h": 0.014,
-      "words": [
+        "furniture:",
         "beds,",
-        "lables,",
+        "tables,",
         "chests",
         "of",
-        "drawers,"
-      ],
-      "conf": 94.4553,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "chair: seat for one person.",
-      "x": 0.1151,
-      "y": 0.851,
-      "w": 0.2925,
-      "h": 0.0204,
-      "words": [
+        "drawers,",
+        "bookshelves,",
+        "etc.",
         "chair:",
         "seat",
         "for",
         "one",
         "person."
-      ],
-      "conf": 96.1534,
-      "source": "psm-11"
+      ]
     }
   ]
 }

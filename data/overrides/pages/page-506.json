@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Writing started as record-keeping. The first great poems, like the Iliad, were spoken and memorized long before being written.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "The teachings of Buddha, Confucius, and others were oral first. Socrates and Jesus taught through words and examples, not writing.", "x": 0.1, "y": 0.22, "w": 0.55, "h": 0.28 },
-    { "text": "(Illustration: A small seated figure representing a teacher or spiritual icon).", "x": 0.68, "y": 0.18, "w": 0.25, "h": 0.32 },
-    { "text": "Later, the written word became the main way humans tried to understand themselves and the world. poet: a maker of poems.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.4 }
-  ]
-}

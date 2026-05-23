@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Self-serving restaurants reduce the need for waitresses and save time. The AUTOMAT is a great example of this.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "Food is kept in boxes with glass doors. You look at the food, put in money, and the door unlocks for you.", "x": 0.1, "y": 0.22, "w": 0.55, "h": 0.35 },
-    { "text": "After you take your food and shut the door, fresh supplies are put in as the boxes are emptied.", "x": 0.1, "y": 0.58, "w": 0.55, "h": 0.2 },
-    { "text": "(Illustrations: Using an Automat—looking at food, paying, and taking the meal). FUTURE: will empty. PRESENT: empty(ies). PAST: emptied.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.15 }
-  ]
-}

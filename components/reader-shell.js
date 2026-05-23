@@ -30,22 +30,19 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const [selectedRegion, setSelectedRegion] = useState(null);
   const [status, setStatus] = useState(defaultStatus);
   const [showBoxes, setShowBoxes] = useState(true);
-  const [editorMode, setEditorMode] = useState(false);
   const [rate, setRate] = useState(0.9);
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [hydrated, setHydrated] = useState(false);
-  const [isCoarsePointer, setIsCoarsePointer] = useState(false);
-  const [isNarrowViewport, setIsNarrowViewport] = useState(false);
   const [savedPageNumber, setSavedPageNumber] = useState(initialPage.page);
   const [voices, setVoices] = useState([]);
   const [voiceUri, setVoiceUri] = useState("");
   const [pronunciationCard, setPronunciationCard] = useState(null);
   const [showScrollAnchor, setShowScrollAnchor] = useState(false);
-  const [isScrubbing, setIsScrubbing] = useState(false);
-  const [scrubberPreviewPage, setScrubberPreviewPage] = useState(initialPage.page);
   const [pageLoadRevision, setPageLoadRevision] = useState(0);
-  const [pendingTargetPage, setPendingTargetPage] = useState(null);
   const [tourActive, setTourActive] = useState(false);
+  const [imageReadyPages, setImageReadyPages] = useState(() => new Set());
+  const [editMode, setEditMode] = useState(false);
+  const dragInteractionRef = useRef(null);
 
   const synthRef = useRef(null);
   const pageNodesRef = useRef(new Map());
@@ -60,10 +57,6 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const scrollSyncRafRef = useRef(null);
   const lastHistoryUpdateRef = useRef(0);
   const currentPageNumberRef = useRef(initialPageNumber);
-  const isScrubbingRef = useRef(false);
-  const scrubberCommitTimerRef = useRef(null);
-  const pendingTargetPageRef = useRef(null);
-  const scrubberPreviewPageRef = useRef(initialPage.page);
   const audioUrlRef = useRef(null);
   const retryTimerRef = useRef(null);
   const audioRef = useRef(null);
@@ -73,7 +66,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
     () => mountedChunkIndexes.flatMap((chunkIndex) => getChunkEntries(manifestPages, chunkIndex)),
     [manifestPages, mountedChunkIndexes],
   );
-  const windowCenterPage = pendingTargetPage || (isScrubbing ? scrubberPreviewPage : currentPageNumber);
+  const windowCenterPage = currentPageNumber;
   const currentVisibleIndex = Math.max(0, visibleEntries.findIndex((entry) => entry.page === windowCenterPage));
   const mountedPageNumbers = useMemo(
     () => new Set(
@@ -93,14 +86,11 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   useEffect(() => {
     synthRef.current = window.speechSynthesis;
     setHydrated(true);
-    setIsCoarsePointer(window.matchMedia("(pointer: coarse)").matches);
-    setIsNarrowViewport(window.innerWidth <= 900);
 
     try {
       const savedSettings = JSON.parse(window.localStorage.getItem(SETTINGS_KEY) || "null");
       if (savedSettings && typeof savedSettings === "object") {
         if (typeof savedSettings.showBoxes === "boolean") setShowBoxes(savedSettings.showBoxes);
-        if (typeof savedSettings.editorMode === "boolean") setEditorMode(savedSettings.editorMode);
         if (typeof savedSettings.rate === "number") setRate(savedSettings.rate);
         if (typeof savedSettings.voiceUri === "string") {
           voiceUriRef.current = savedSettings.voiceUri;
@@ -129,16 +119,6 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
       window.speechSynthesis.cancel();
     };
   }, [initialPage.page, manifestPages, queryPageNumber]);
-
-  useEffect(() => {
-    const handleResize = () => {
-      setIsCoarsePointer(window.matchMedia("(pointer: coarse)").matches);
-      setIsNarrowViewport(window.innerWidth <= 900);
-    };
-
-    window.addEventListener("resize", handleResize);
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
   useEffect(() => {
     const syncVoices = () => {
@@ -185,12 +165,11 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
       SETTINGS_KEY,
       JSON.stringify({
         showBoxes,
-        editorMode,
         rate,
         voiceUri,
       }),
     );
-  }, [editorMode, hydrated, rate, showBoxes, voiceUri]);
+  }, [hydrated, rate, showBoxes, voiceUri]);
 
   useEffect(() => {
     const neededPages = [...new Set([...mountedPageNumbers, ...preloadPageNumbers])];
@@ -260,16 +239,21 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   }, [hydrated, pageDataMap, preloadPageNumbers]);
 
   useEffect(() => {
+    setImageReadyPages((current) => {
+      const allowedPages = new Set(visibleEntries.map((entry) => entry.page));
+      const next = new Set();
+      current.forEach((pageNumber) => {
+        if (allowedPages.has(pageNumber)) {
+          next.add(pageNumber);
+        }
+      });
+      return next;
+    });
+  }, [visibleEntries]);
+
+  useEffect(() => {
     currentPageNumberRef.current = currentPageNumber;
   }, [currentPageNumber]);
-
-  useEffect(() => {
-    scrubberPreviewPageRef.current = scrubberPreviewPage;
-  }, [scrubberPreviewPage]);
-
-  useEffect(() => {
-    isScrubbingRef.current = isScrubbing;
-  }, [isScrubbing]);
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -280,16 +264,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
 
         const top = candidates[0];
         if (!top) return;
-        if (isScrubbingRef.current) return;
         const pageNumber = Number(top.target.getAttribute("data-page"));
-          if (pendingTargetPage) {
-            if (pageNumber === pendingTargetPage) {
-              pendingTargetPageRef.current = null;
-              setPendingTargetPage(null);
-            } else {
-              return;
-            }
-          }
         if (!pageNumber || pageNumber === currentPageNumberRef.current) return;
         
         setCurrentPageNumber(pageNumber);
@@ -338,51 +313,33 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   }, [currentChunkIndex, currentPageNumber, hydrated, manifestPages]);
 
   useEffect(() => {
-    if (!isScrubbing && !pendingTargetPage) {
-      setScrubberPreviewPage(currentPageNumber);
-    }
-  }, [currentPageNumber, isScrubbing, pendingTargetPage]);
-
-  useEffect(() => {
     if (!hydrated) return;
 
     const showWithTimeout = () => {
       setShowScrollAnchor(true);
-      if (!isScrubbing) {
-        if (scrollSyncRafRef.current) {
-          cancelAnimationFrame(scrollSyncRafRef.current);
-        }
-        scrollSyncRafRef.current = requestAnimationFrame(() => {
-          if (isScrubbingRef.current) return;
-          let bestPage = null;
-          let bestDistance = Number.POSITIVE_INFINITY;
-          const viewportAnchor = window.innerHeight * 0.22;
-
-          for (const [pageNumber, node] of pageNodesRef.current.entries()) {
-            const rect = node.getBoundingClientRect();
-            const distance = Math.abs(rect.top - viewportAnchor);
-            if (rect.bottom > 0 && rect.top < window.innerHeight && distance < bestDistance) {
-              bestPage = pageNumber;
-              bestDistance = distance;
-            }
-          }
-
-          if (pendingTargetPage) {
-            if (bestPage === pendingTargetPage) {
-              pendingTargetPageRef.current = null;
-              setPendingTargetPage(null);
-            } else {
-              return;
-            }
-          }
-
-          if (bestPage && bestPage !== currentPageNumberRef.current) {
-            setCurrentPageNumber(bestPage);
-            setSelectedRegion(null);
-            setPronunciationCard(null);
-          }
-        });
+      if (scrollSyncRafRef.current) {
+        cancelAnimationFrame(scrollSyncRafRef.current);
       }
+      scrollSyncRafRef.current = requestAnimationFrame(() => {
+        let bestPage = null;
+        let bestDistance = Number.POSITIVE_INFINITY;
+        const viewportAnchor = window.innerHeight * 0.22;
+
+        for (const [pageNumber, node] of pageNodesRef.current.entries()) {
+          const rect = node.getBoundingClientRect();
+          const distance = Math.abs(rect.top - viewportAnchor);
+          if (rect.bottom > 0 && rect.top < window.innerHeight && distance < bestDistance) {
+            bestPage = pageNumber;
+            bestDistance = distance;
+          }
+        }
+
+        if (bestPage && bestPage !== currentPageNumberRef.current) {
+          setCurrentPageNumber(bestPage);
+          setSelectedRegion(null);
+          setPronunciationCard(null);
+        }
+      });
       if (hideScrollAnchorTimerRef.current) {
         clearTimeout(hideScrollAnchorTimerRef.current);
       }
@@ -400,14 +357,11 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
       if (scrollSyncRafRef.current) {
         cancelAnimationFrame(scrollSyncRafRef.current);
       }
-      if (scrubberCommitTimerRef.current) {
-        clearTimeout(scrubberCommitTimerRef.current);
-      }
       if (retryTimerRef.current) {
         clearTimeout(retryTimerRef.current);
       }
     };
-  }, [currentPageNumber, hydrated, isScrubbing, pendingTargetPage]);
+  }, [currentPageNumber, hydrated]);
 
   useEffect(() => {
     const targetPage = hydratedTargetRef.current;
@@ -422,7 +376,6 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
     });
   }, [pageDataMap, mountedChunkIndexes]);
 
-  const currentPage = pageDataMap.get(currentPageNumber) || initialPage;
   const currentIndex = Math.max(
     0,
     manifestPages.findIndex((entry) => entry.page === currentPageNumber),
@@ -430,14 +383,11 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
   const currentChunkEntries = getChunkEntries(manifestPages, currentChunkIndex);
   const currentChunkStartPage = currentChunkEntries[0]?.page;
   const currentChunkEndPage = currentChunkEntries.at(-1)?.page;
-  const selectedRegionText = resolveSelectedRegionText(selectedRegion, pageDataMap);
-  const scrubberDisplayPage = isScrubbing ? scrubberPreviewPage : currentPageNumber;
+  const scrubberDisplayPage = currentPageNumber;
   const scrubberDisplayIndex = Math.max(
     0,
     currentChunkEntries.findIndex((entry) => entry.page === scrubberDisplayPage),
   );
-  const scrubberMaxIndex = Math.max(0, currentChunkEntries.length - 1);
-  const scrubberControlValue = scrubberMaxIndex - scrubberDisplayIndex;
   const scrubberProgress = currentChunkEntries.length <= 1
     ? 0
     : scrubberDisplayIndex / (currentChunkEntries.length - 1);
@@ -591,6 +541,125 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
     }
   }
 
+  function updateRegionLocally(pageNumber, regionId, updates) {
+    setPageDataMap((current) => {
+      const next = new Map(current);
+      const pageData = next.get(pageNumber);
+      if (!pageData) return current;
+
+      const nextRegions = pageData.regions.map((r) => {
+        if (r.id === regionId) {
+          return { ...r, ...updates };
+        }
+        return r;
+      });
+
+      next.set(pageNumber, {
+        ...pageData,
+        regions: nextRegions,
+      });
+      return next;
+    });
+  }
+
+  async function saveRegionsToServer(pageNumber, regions) {
+    try {
+      const response = await fetch(`/api/pages/${pageNumber}`, {
+        method: "PUT",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ regions }),
+      });
+      if (!response.ok) {
+        throw new Error("Failed to save coordinates");
+      }
+      const data = await response.json();
+      if (data.success && data.page) {
+        setPageDataMap((current) => {
+          const next = new Map(current);
+          next.set(pageNumber, data.page);
+          return next;
+        });
+      }
+    } catch (error) {
+      console.error("Error saving coordinates:", error);
+      setStatus("Failed to save coordinates");
+    }
+  }
+
+  function handleEditPointerDown(event, type, region, pageNumber) {
+    event.stopPropagation();
+    event.preventDefault();
+
+    const canvas = event.currentTarget.closest(".page-canvas");
+    if (!canvas) return;
+    const rect = canvas.getBoundingClientRect();
+    
+    try {
+      event.currentTarget.setPointerCapture(event.pointerId);
+    } catch (e) {}
+
+    dragInteractionRef.current = {
+      type,
+      pageNumber,
+      regionId: region.id,
+      startX: event.clientX,
+      startY: event.clientY,
+      initialX: region.x,
+      initialY: region.y,
+      initialW: region.w,
+      initialH: region.h,
+      rect,
+    };
+  }
+
+  function handleEditPointerMove(event, regionId, pageNumber) {
+    const interaction = dragInteractionRef.current;
+    if (!interaction || interaction.regionId !== regionId || interaction.pageNumber !== pageNumber) {
+      return;
+    }
+
+    event.stopPropagation();
+    event.preventDefault();
+
+    const dx = event.clientX - interaction.startX;
+    const dy = event.clientY - interaction.startY;
+    const dnx = dx / interaction.rect.width;
+    const dny = dy / interaction.rect.height;
+
+    if (interaction.type === "move") {
+      const nextX = Math.max(0, Math.min(1 - interaction.initialW, interaction.initialX + dnx));
+      const nextY = Math.max(0, Math.min(1 - interaction.initialH, interaction.initialY + dny));
+      updateRegionLocally(pageNumber, regionId, { x: Number(nextX.toFixed(4)), y: Number(nextY.toFixed(4)) });
+    } else if (interaction.type === "resize") {
+      const nextW = Math.max(0.01, Math.min(1 - interaction.initialX, interaction.initialW + dnx));
+      const nextH = Math.max(0.01, Math.min(1 - interaction.initialY, interaction.initialH + dny));
+      updateRegionLocally(pageNumber, regionId, { w: Number(nextW.toFixed(4)), h: Number(nextH.toFixed(4)) });
+    }
+  }
+
+  function handleEditPointerUp(event, regionId, pageNumber) {
+    const interaction = dragInteractionRef.current;
+    if (!interaction || interaction.regionId !== regionId || interaction.pageNumber !== pageNumber) {
+      return;
+    }
+
+    event.stopPropagation();
+    event.preventDefault();
+
+    try {
+      event.currentTarget.releasePointerCapture(event.pointerId);
+    } catch (e) {}
+
+    dragInteractionRef.current = null;
+
+    const pageData = pageDataMap.get(pageNumber);
+    if (pageData) {
+      void saveRegionsToServer(pageNumber, pageData.regions);
+    }
+  }
+
   function handleRegionPointerDown(event, region, pageNumber) {
     if (window.matchMedia("(pointer: coarse)").matches) {
       return;
@@ -656,11 +725,6 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
     }
   }
 
-  async function copyCurrentPageJson() {
-    await navigator.clipboard.writeText(JSON.stringify(currentPage, null, 2));
-    setStatus(`Copied page ${currentPage.page} JSON`);
-  }
-
   function jumpToPage(pageNumber) {
     const targetIndex = manifestPages.findIndex((entry) => entry.page === pageNumber);
     if (targetIndex < 0) return;
@@ -670,6 +734,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
     setCurrentChunkIndex(targetChunkIndex);
     setMountedChunkIndexes([targetChunkIndex]);
     setPronunciationCard(null);
+    setSelectedRegion(null);
   }
 
   function goToChunk(chunkIndex) {
@@ -682,87 +747,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
     setMountedChunkIndexes([clamped]);
     setCurrentPageNumber(targetPage);
     setPronunciationCard(null);
-  }
-
-  function scrollToChunkPage(pageNumber) {
-    pendingTargetPageRef.current = pageNumber;
-    setPendingTargetPage(pageNumber);
-    const node = pageNodesRef.current.get(pageNumber);
-    if (node) {
-      node.scrollIntoView({ behavior: "auto", block: "start" });
-      setCurrentPageNumber(pageNumber);
-      setScrubberPreviewPage(pageNumber);
-      return;
-    }
-
-    jumpToPage(pageNumber);
-  }
-
-  function handleScrubberIndexChange(nextIndexValue) {
-    const normalizedIndex = scrubberMaxIndex - Number(nextIndexValue);
-    const targetPage = currentChunkEntries[normalizedIndex]?.page;
-    if (!targetPage) return;
-    setScrubberPreviewPage(targetPage);
-  }
-
-  function handleDesktopScrubberClientY(clientY, rail) {
-    const rect = rail.getBoundingClientRect();
-    const relative = Math.max(0, Math.min(1, (clientY - rect.top) / rect.height));
-    const targetIndex = Math.round(relative * scrubberMaxIndex);
-    const targetPage = currentChunkEntries[targetIndex]?.page;
-    if (!targetPage) return;
-    setScrubberPreviewPage(targetPage);
-  }
-
-  function startDesktopScrubbing(event) {
-    const rail = event.currentTarget;
-    event.preventDefault();
-    setIsScrubbing(true);
-    setShowScrollAnchor(true);
-    if (hideScrollAnchorTimerRef.current) {
-      clearTimeout(hideScrollAnchorTimerRef.current);
-    }
-
-    handleDesktopScrubberClientY(event.clientY, rail);
-
-    const handleMove = (moveEvent) => {
-      handleDesktopScrubberClientY(moveEvent.clientY, rail);
-    };
-
-    const handleUp = () => {
-      finishScrubbing();
-      window.removeEventListener("pointermove", handleMove);
-      window.removeEventListener("pointerup", handleUp);
-    };
-
-    window.addEventListener("pointermove", handleMove);
-    window.addEventListener("pointerup", handleUp);
-  }
-
-  function commitScrubberTargetPage() {
-    const targetPage = scrubberPreviewPageRef.current;
-    if (!targetPage) return;
-    pendingTargetPageRef.current = targetPage;
-    setPendingTargetPage(targetPage);
-    setScrubberPreviewPage(targetPage);
-    setCurrentPageNumber(targetPage);
-    if (scrubberCommitTimerRef.current) {
-      clearTimeout(scrubberCommitTimerRef.current);
-    }
-    scrubberCommitTimerRef.current = setTimeout(() => {
-      jumpToPage(targetPage);
-    }, 120);
-  }
-
-  function finishScrubbing() {
-    commitScrubberTargetPage();
-    setIsScrubbing(false);
-    if (hideScrollAnchorTimerRef.current) {
-      clearTimeout(hideScrollAnchorTimerRef.current);
-    }
-    hideScrollAnchorTimerRef.current = setTimeout(() => {
-      setShowScrollAnchor(false);
-    }, 2000);
+    setSelectedRegion(null);
   }
 
   function rememberPageNode(pageNumber, node) {
@@ -773,10 +758,26 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
     pageNodesRef.current.set(pageNumber, node);
   }
 
+  function markImageReady(pageNumber) {
+    setImageReadyPages((current) => {
+      if (current.has(pageNumber)) return current;
+      const next = new Set(current);
+      next.add(pageNumber);
+      return next;
+    });
+  }
+
   return (
     <div className="reader-layout">
       <header className="topbar">
         <div className="topbar-actions">
+          <button
+            type="button"
+            className={["ghost-button", editMode ? "edit-mode-active" : ""].filter(Boolean).join(" ")}
+            onClick={() => setEditMode((active) => !active)}
+          >
+            {editMode ? "Exit Edit Mode ✏️" : "Edit Mode ✏️"}
+          </button>
           <button type="button" className="ghost-button" onClick={() => setSettingsOpen((open) => !open)}>
             {settingsOpen ? "Close Settings" : "Open Settings"}
           </button>
@@ -805,6 +806,7 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
         {visibleEntries.map((entry) => {
           const page = pageDataMap.get(entry.page);
           const shouldRenderPage = mountedPageNumbers.has(entry.page);
+          const isImageReady = imageReadyPages.has(entry.page);
           const imageWidth = page?.stats?.imageWidth || DEFAULT_IMAGE_WIDTH;
           const imageHeight = page?.stats?.imageHeight || DEFAULT_IMAGE_HEIGHT;
           const aspectRatio = `${imageWidth} / ${imageHeight}`;
@@ -816,22 +818,21 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
               className={[
                 "page-section",
                 currentPageNumber === entry.page ? "is-current" : "",
+                isImageReady ? "is-image-ready" : "is-image-pending",
               ]
                 .filter(Boolean)
                 .join(" ")}
             >
               <div className="page-stage">
                 {page && shouldRenderPage ? (
-                  <div className="page-canvas">
-                    <button
-                      type="button"
-                      className="page-play-button"
-                      onClick={() => playPage(page)}
-                      aria-label={`Play page ${page.page}`}
-                      title={`Play page ${page.page}`}
-                    >
-                      ▶
-                    </button>
+                  <div className={["page-canvas", isImageReady ? "is-image-ready" : ""].filter(Boolean).join(" ")}>
+                    {!isImageReady ? (
+                      <div className="page-image-shell" aria-hidden="true">
+                        <div className="page-image-skeleton">
+                          <span>Loading page {page.page}…</span>
+                        </div>
+                      </div>
+                    ) : null}
                     <Image
                       src={page.imageApiPath || `/api/books/${encodeURIComponent(`page ${page.page}.png`)}`}
                       alt={`Page ${page.page}`}
@@ -840,67 +841,114 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
                       height={imageHeight}
                       sizes="(max-width: 900px) 100vw, 1240px"
                       priority={entry.page === currentPageNumber}
+                      loading={entry.page === currentPageNumber ? "eager" : "lazy"}
+                      quality={72}
+                      onLoad={() => markImageReady(page.page)}
                     />
-                    <div className="region-layer">
-                      {page.regions.map((region) => {
-                        const regionKey = `${page.page}:${region.id}`;
-                        return (
-                          <button
-                            key={region.id}
-                            type="button"
-                            title={region.text}
-                            aria-label={region.text}
-                            className={[
-                              "region",
-                              showBoxes ? "show-boxes" : "",
-                              editorMode ? "manual" : "",
-                              selectedRegion === regionKey ? "active" : "",
-                            ]
-                              .filter(Boolean)
-                              .join(" ")}
-                            style={{
-                              left: `${region.x * 100}%`,
-                              top: `${region.y * 100}%`,
-                              width: `${region.w * 100}%`,
-                              height: `${region.h * 100}%`,
-                            }}
-                            onPointerDown={(event) => handleRegionPointerDown(event, region, page.page)}
-                            onPointerUp={handleRegionPointerUp}
-                            onPointerCancel={handleRegionPointerUp}
-                            onPointerLeave={handleRegionPointerLeave}
-                            onContextMenu={(event) => event.preventDefault()}
-                            onClick={(event) => {
-                              if (longPressTriggeredRef.current) {
-                                longPressTriggeredRef.current = false;
-                                return;
-                              }
-                              const isCoarsePointer = window.matchMedia("(pointer: coarse)").matches;
-
-                              if (isCoarsePointer) {
-                                const now = Date.now();
-                                const lastTap = lastTapRef.current;
-
-                                if (
-                                  lastTap.regionKey === regionKey &&
-                                  now - lastTap.timestamp <= MOBILE_DOUBLE_TAP_MS
-                                ) {
-                                  lastTapRef.current = { regionKey: "", timestamp: 0 };
-                                  const rect = event.currentTarget.getBoundingClientRect();
-                                  if (rect) {
-                                    void openPronunciationCard(region.text, rect);
-                                  }
-                                  setSelectedRegion(regionKey);
+                    {isImageReady ? (
+                      <button
+                        type="button"
+                        className="page-play-button"
+                        onClick={() => playPage(page)}
+                        aria-label={`Play page ${page.page}`}
+                        title={`Play page ${page.page}`}
+                      >
+                        ▶
+                      </button>
+                    ) : null}
+                    <div className={["region-layer", isImageReady ? "is-ready" : ""].filter(Boolean).join(" ")}>
+                      {isImageReady
+                        ? page.regions.map((region) => {
+                          const regionKey = `${page.page}:${region.id}`;
+                          if (editMode) {
+                            return (
+                              <div
+                                key={region.id}
+                                className={[
+                                  "region",
+                                  "edit-mode-box",
+                                  selectedRegion === regionKey ? "active" : "",
+                                ]
+                                  .filter(Boolean)
+                                  .join(" ")}
+                                style={{
+                                  left: `${region.x * 100}%`,
+                                  top: `${region.y * 100}%`,
+                                  width: `${region.w * 100}%`,
+                                  height: `${region.h * 100}%`,
+                                }}
+                                onPointerDown={(event) => handleEditPointerDown(event, "move", region, page.page)}
+                                onPointerMove={(event) => handleEditPointerMove(event, region.id, page.page)}
+                                onPointerUp={(event) => handleEditPointerUp(event, region.id, page.page)}
+                                onContextMenu={(event) => event.preventDefault()}
+                              >
+                                <span className="region-edit-label">{region.text}</span>
+                                <div
+                                  className="resize-handle"
+                                  onPointerDown={(event) => handleEditPointerDown(event, "resize", region, page.page)}
+                                  onPointerMove={(event) => handleEditPointerMove(event, region.id, page.page)}
+                                  onPointerUp={(event) => handleEditPointerUp(event, region.id, page.page)}
+                                />
+                              </div>
+                            );
+                          }
+                          return (
+                            <button
+                              key={region.id}
+                              type="button"
+                              title={region.text}
+                              aria-label={region.text}
+                              className={[
+                                "region",
+                                showBoxes ? "show-boxes" : "",
+                                selectedRegion === regionKey ? "active" : "",
+                              ]
+                                .filter(Boolean)
+                                .join(" ")}
+                              style={{
+                                left: `${region.x * 100}%`,
+                                top: `${region.y * 100}%`,
+                                width: `${region.w * 100}%`,
+                                height: `${region.h * 100}%`,
+                              }}
+                              onPointerDown={(event) => handleRegionPointerDown(event, region, page.page)}
+                              onPointerUp={handleRegionPointerUp}
+                              onPointerCancel={handleRegionPointerUp}
+                              onPointerLeave={handleRegionPointerLeave}
+                              onContextMenu={(event) => event.preventDefault()}
+                              onClick={(event) => {
+                                if (longPressTriggeredRef.current) {
+                                  longPressTriggeredRef.current = false;
                                   return;
                                 }
+                                const isCoarsePointer = window.matchMedia("(pointer: coarse)").matches;
 
-                                lastTapRef.current = { regionKey, timestamp: now };
-                              }
+                                if (isCoarsePointer) {
+                                  const now = Date.now();
+                                  const lastTap = lastTapRef.current;
 
-                              speakText(region.text, regionKey);
-                            }}
-                          />
-                        );
-                      })}
+                                  if (
+                                    lastTap.regionKey === regionKey &&
+                                    now - lastTap.timestamp <= MOBILE_DOUBLE_TAP_MS
+                                  ) {
+                                    lastTapRef.current = { regionKey: "", timestamp: 0 };
+                                    const rect = event.currentTarget.getBoundingClientRect();
+                                    if (rect) {
+                                      void openPronunciationCard(region.text, rect);
+                                    }
+                                    setSelectedRegion(regionKey);
+                                    return;
+                                  }
+
+                                  lastTapRef.current = { regionKey, timestamp: now };
+                                }
+
+                                speakText(region.text, regionKey);
+                              }}
+                            />
+                          );
+                        })
+                        : null}
                     </div>
                   </div>
                 ) : (
@@ -953,17 +1001,11 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
           <div className="settings-head">
             <div>
               <p className="eyebrow">Settings</p>
-              <h2>Reader Controls</h2>
+              <h2>Reading Controls</h2>
             </div>
             <button type="button" className="icon-button" onClick={() => setSettingsOpen(false)}>
               Close
             </button>
-          </div>
-
-          <div className="settings-group">
-            <button type="button" onClick={stopPlayback}>Stop Audio</button>
-            <button type="button" onClick={copyCurrentPageJson}>Copy Current Page JSON</button>
-            <button type="button" onClick={() => { setTourActive(true); setSettingsOpen(false); }}>Replay Guide</button>
           </div>
 
           <label className="field inline">
@@ -972,44 +1014,38 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
             <output>{rate.toFixed(2)}x</output>
           </label>
 
-          <label className="field">
-            <span>Voice</span>
-            <select value={voiceUri} onChange={(event) => setVoiceUri(event.target.value)}>
-              {voices.map((voice) => (
-                <option key={voice.voiceURI} value={voice.voiceURI}>
-                  {voice.name} ({voice.lang})
-                </option>
-              ))}
-            </select>
-          </label>
-
           <label className="checkbox">
             <input type="checkbox" checked={showBoxes} onChange={(event) => setShowBoxes(event.target.checked)} />
-            <span>Show OCR boxes</span>
-          </label>
-
-          <label className="checkbox">
-            <input type="checkbox" checked={editorMode} onChange={(event) => setEditorMode(event.target.checked)} />
-            <span>Editor mode highlight</span>
+            <span>Show text boxes</span>
           </label>
 
           <div className="details">
-            <h3>Status</h3>
-            <p>{status}</p>
-          </div>
-
-          <div className="details">
-            <h3>Resume</h3>
-            <p>Last opened page: <strong>{savedPageNumber}</strong></p>
+            <h3>Now Reading</h3>
             <p>Current page: <strong>{currentPageNumber}</strong></p>
-            <p>Current chunk: <strong>{currentChunkIndex + 1}</strong> / {totalChunks}</p>
-            <p>Chunk range: <strong>{currentChunkStartPage} - {currentChunkEndPage}</strong></p>
-            <p>Total pages: <strong>{manifest.totalPages || manifest.pages.length}</strong></p>
+            <p>Saved page: <strong>{savedPageNumber}</strong></p>
+            <p>Status: <strong>{status}</strong></p>
           </div>
 
           <div className="details">
-            <h3>Selected Region</h3>
-            <p className="region-preview">{selectedRegionText || "Click a text region to preview and play it."}</p>
+            <h3>Chunk</h3>
+            <label className="field">
+              <span>Choose chunk</span>
+              <select value={currentChunkIndex} onChange={(event) => goToChunk(Number(event.target.value))}>
+                {Array.from({ length: totalChunks }, (_, index) => {
+                  const entries = getChunkEntries(manifestPages, index);
+                  const startPage = entries[0]?.page;
+                  const endPage = entries.at(-1)?.page;
+                  return (
+                    <option key={index} value={index}>
+                      Chunk {index + 1} ({startPage} - {endPage})
+                    </option>
+                  );
+                })}
+              </select>
+            </label>
+            <p>Current chunk: <strong>{currentChunkIndex + 1}</strong> / {totalChunks}</p>
+            <p>Chunk pages: <strong>{currentChunkStartPage} - {currentChunkEndPage}</strong></p>
+            <p>Total pages: <strong>{manifest.totalPages || manifest.pages.length}</strong></p>
           </div>
 
           <div className="details">
@@ -1049,13 +1085,6 @@ function buildJumpPages(entries, currentIndex, currentChunkEntries) {
     .filter((index) => index >= 0 && index < entries.length)
     .sort((a, b) => a - b)
     .map((index) => entries[index]);
-}
-
-function resolveSelectedRegionText(regionKey, pageDataMap) {
-  if (!regionKey) return "";
-  const [pageNumberText, regionId] = regionKey.split(":");
-  const page = pageDataMap.get(Number(pageNumberText));
-  return page?.regions.find((region) => region.id === regionId)?.text || "";
 }
 
 function chooseBestDefaultVoice(voices) {

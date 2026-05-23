@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Eratosthenes (276-194 B.C.) was the first to work out the earth's size. He used a deep well and the angle of the sun's light.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "By using geometry, he calculated the earth was 29,000 miles round. Scientists now say it is about 25,000 miles round.", "x": 0.1, "y": 0.18, "w": 0.85, "h": 0.1 },
-    { "text": "(Diagram: Sun's light hitting a well at 7.2 degrees to measure the earth's circumference from its middle point).", "x": 0.1, "y": 0.3, "w": 0.85, "h": 0.4 },
-    { "text": "well: a deep hole for water. bottom: lowest part, opposite of top. Arrow points to the bottom of the glass.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.15 }
-  ]
-}

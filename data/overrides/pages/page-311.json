@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "In some factories food is put into cans. It is canned. These are machines in a canning factory. Most foods today can be bought in cans. Food stores sell canned soups, meats, fruit and vegetables.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.2 },
-    { "text": "Food is canned to keep it from the air. When air can get at it, it quickly goes bad—if it is not kept very cold. Canned food that has gone bad is a poison. Bad food is very bad for people; it poisons them. If they take much of it they may die. After a person dies, he is dead.", "x": 0.1, "y": 0.42, "w": 0.85, "h": 0.25 },
-    { "text": "can: metal box (in Britain, a tin). vegetables: plants used as food. poison: anything which is very bad in its effect if taken by mouth. die: come to the end of living. dead: no longer living.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.15 },
-    { "text": "FUTURE: will poison/die. PRESENT: poison(s)/die(s). PAST: poisoned/died.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.08 }
-  ]
-}

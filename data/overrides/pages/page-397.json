@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Through about two billion years the development of plants and animals has been going on. At first both were very small, much less than a pin point in size.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "The first plants or animals were bodies living in one-roomed houses (cells). They do not give birth but divide to become two daughter cells.", "x": 0.1, "y": 0.15, "w": 0.45, "h": 0.25 },
-    { "text": "These three pictures show the division of a cell into two separate cells each of which may in turn divide into two more.", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.12 },
-    { "text": "much less: a great amount less. show: make clear. division: becoming two. separate: not together. divide: become two. FUTURE: will divide/show. PRESENT: divide(s)/shows(s). PAST: divided/showed, shown.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.15 }
-  ]
-}

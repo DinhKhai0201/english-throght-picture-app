@@ -2,46 +2,102 @@
   "page": 255,
   "image": "/books/page 255.png",
   "imageApiPath": "/api/books/page%20255.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 12,
+    "regionCount": 4,
     "wordCount": 116,
     "imageWidth": 1230,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12"
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "After a time, if the rate of turning is the same, the man seems to himself to be at rest (not in motion).",
+      "x": 0.1,
+      "y": 0.35,
+      "w": 0.38,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "words": [
+        "After",
+        "a",
+        "time,",
+        "if",
+        "the",
+        "rate",
+        "of",
+        "turning",
+        "is",
+        "the",
+        "same,",
+        "the",
+        "man",
+        "seems",
+        "to",
+        "himself",
+        "to",
+        "be",
+        "at",
+        "rest",
+        "(not",
+        "in",
+        "motion)."
+      ]
+    },
+    {
       "text": "He is like all the men and women on the earth. We are all turning round all the time with the earth, but we seem to ourselves to be at rest.",
-      "x": 0.513,
-      "y": 0.1162,
-      "w": 0.3699,
-      "h": 0.1457,
+      "x": 0.52,
+      "y": 0.11,
+      "w": 0.4,
+      "h": 0.18,
+      "id": "r2",
+      "order": 1,
       "words": [
         "He",
         "is",
@@ -74,54 +130,16 @@
         "be",
         "at",
         "rest."
-      ],
-      "conf": 90.8911,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r2",
-      "order": 1,
-      "text": "After a time, if the rate of turning is the sgme, the man seems to himself to be at rest (not in motion),",
-      "x": 0.1146,
-      "y": 0.3471,
-      "w": 0.352,
-      "h": 0.1275,
-      "words": [
-        "After",
-        "a",
-        "time,",
-        "if",
-        "the",
-        "rate",
-        "of",
-        "turning",
-        "is",
-        "the",
-        "sgme,",
-        "the",
-        "man",
-        "seems",
-        "to",
-        "himself",
-        "to",
-        "be",
-        "at",
-        "rest",
-        "(not",
-        "in",
-        "motion),"
-      ],
-      "conf": 94.6739,
-      "source": "psm-11"
-    },
-    {
+      "text": "We have no feeling that we are in motion. This is because the rate of turning is the same. The man is in motion. He seems to himself to be at rest.",
+      "x": 0.12,
+      "y": 0.6,
+      "w": 0.38,
+      "h": 0.25,
       "id": "r3",
       "order": 2,
-      "text": "We have no feeling that we are in motion.",
-      "x": 0.1228,
-      "y": 0.6026,
-      "w": 0.3236,
-      "h": 0.0449,
       "words": [
         "We",
         "have",
@@ -131,20 +149,7 @@
         "we",
         "are",
         "in",
-        "motion."
-      ],
-      "conf": 96.0626,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "This is because the rate of turning is the same.",
-      "x": 0.122,
-      "y": 0.6524,
-      "w": 0.3439,
-      "h": 0.0493,
-      "words": [
+        "motion.",
         "This",
         "is",
         "because",
@@ -154,55 +159,12 @@
         "turning",
         "is",
         "the",
-        "same."
-      ],
-      "conf": 96.5332,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "The man is in motion.",
-      "x": 0.122,
-      "y": 0.7033,
-      "w": 0.3138,
-      "h": 0.0193,
-      "words": [
+        "same.",
         "The",
         "man",
         "is",
         "in",
-        "motion."
-      ],
-      "conf": 96.5988,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "Here are three boys",
-      "x": 0.5374,
-      "y": 0.7038,
-      "w": 0.2976,
-      "h": 0.0241,
-      "words": [
-        "Here",
-        "are",
-        "three",
-        "boys"
-      ],
-      "conf": 96.2005,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "He seems to himself to be at rest.",
-      "x": 0.1228,
-      "y": 0.7284,
-      "w": 0.3276,
-      "h": 0.044,
-      "words": [
+        "motion.",
         "He",
         "seems",
         "to",
@@ -211,88 +173,38 @@
         "be",
         "at",
         "rest."
-      ],
-      "conf": 95.7773,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "and a dog.",
-      "x": 0.5358,
-      "y": 0.7258,
-      "w": 0.1659,
-      "h": 0.0284,
+      "text": "Here are three boys and a dog. Two of the boys are taking a rest. They are resting on their beds. The other boy and the dog are in motion.",
+      "x": 0.53,
+      "y": 0.7,
+      "w": 0.38,
+      "h": 0.22,
+      "id": "r4",
+      "order": 3,
       "words": [
+        "Here",
+        "are",
+        "three",
+        "boys",
         "and",
         "a",
-        "dog."
-      ],
-      "conf": 95.9663,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "Two of the boys are",
-      "x": 0.5366,
-      "y": 0.7509,
-      "w": 0.2992,
-      "h": 0.0284,
-      "words": [
+        "dog.",
         "Two",
         "of",
         "the",
         "boys",
-        "are"
-      ],
-      "conf": 96.5997,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "taking a rest.",
-      "x": 0.5374,
-      "y": 0.7756,
-      "w": 0.1959,
-      "h": 0.0252,
-      "words": [
+        "are",
         "taking",
         "a",
-        "rest."
-      ],
-      "conf": 96.0213,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "They are resting on their beds.",
-      "x": 0.5366,
-      "y": 0.8029,
-      "w": 0.2894,
-      "h": 0.0439,
-      "words": [
+        "rest.",
         "They",
         "are",
         "resting",
         "on",
         "their",
-        "beds."
-      ],
-      "conf": 96.6805,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "The other boy and the dog are in motion.",
-      "x": 0.5374,
-      "y": 0.8527,
-      "w": 0.3309,
-      "h": 0.0482,
-      "words": [
+        "beds.",
         "The",
         "other",
         "boy",
@@ -302,9 +214,7 @@
         "are",
         "in",
         "motion."
-      ],
-      "conf": 96.7247,
-      "source": "psm-11"
+      ]
     }
   ]
 }

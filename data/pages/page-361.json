@@ -4,25 +4,12 @@
   "imageApiPath": "/api/books/page%20361.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 144,
+    "regionCount": 4,
+    "wordCount": 99,
     "imageWidth": 1188,
     "imageHeight": 1867
   },
   "panels": [
-    {
-      "id": "top-left",
-      "label": "Top Left",
-      "x": 0,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2",
-        "r4",
-        "r5"
-      ]
-    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -31,8 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r3"
+        "r1"
       ]
     },
     {
@@ -43,10 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r9",
-        "r10",
-        "r11"
+        "r2"
       ]
     },
     {
@@ -57,22 +40,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r8",
-        "r12",
-        "r13"
+        "r3",
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Here are some cells, thousands of times the size they are in the body. Each different sort of cell has its own work to do, different from the work other sorts of cells do.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.25,
       "id": "r1",
       "order": 0,
-      "text": "Here are some cells, thousands of times the size they are",
-      "x": 0.0976,
-      "y": 0.0375,
-      "w": 0.8215,
-      "h": 0.0279,
       "words": [
         "Here",
         "are",
@@ -84,36 +65,10 @@
         "the",
         "size",
         "they",
-        "are"
-      ],
-      "conf": 96.3653,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "in the body.",
-      "x": 0.0943,
-      "y": 0.0675,
-      "w": 0.1793,
-      "h": 0.0252,
-      "words": [
+        "are",
         "in",
         "the",
-        "body."
-      ],
-      "conf": 96.2269,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "Each different sort of cell has its own work to do, dif-",
-      "x": 0.0976,
-      "y": 0.301,
-      "w": 0.8241,
-      "h": 0.0214,
-      "words": [
+        "body.",
         "Each",
         "different",
         "sort",
@@ -125,21 +80,7 @@
         "work",
         "to",
         "do,",
-        "dif-"
-      ],
-      "conf": 96.0459,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "ferent from the work other sorts of cells do.",
-      "x": 0.0985,
-      "y": 0.3273,
-      "w": 0.617,
-      "h": 0.0177,
-      "words": [
-        "ferent",
+        "different",
         "from",
         "the",
         "work",
@@ -148,18 +89,16 @@
         "of",
         "cells",
         "do."
-      ],
-      "conf": 96.2377,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "No one had seen cells before the invention of the microscope and its",
-      "x": 0.0976,
-      "y": 0.4558,
-      "w": 0.4966,
-      "h": 0.0482,
+      "text": "No one had seen cells before the invention of the microscope and its development in the sixteenth and seventeenth centuries. Before then no one could make pictures of cells because no one could see them.",
+      "x": 0.1,
+      "y": 0.45,
+      "w": 0.5,
+      "h": 0.25,
+      "id": "r2",
+      "order": 1,
       "words": [
         "No",
         "one",
@@ -173,20 +112,7 @@
         "the",
         "microscope",
         "and",
-        "its"
-      ],
-      "conf": 95.7547,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "development in the sixteenth and seventeenth centuries. Before then no one could make pictures of cells because no one could see them.",
-      "x": 0.0951,
-      "y": 0.5078,
-      "w": 0.4992,
-      "h": 0.0963,
-      "words": [
+        "its",
         "development",
         "in",
         "the",
@@ -209,174 +135,59 @@
         "could",
         "see",
         "them."
-      ],
-      "conf": 96.5982,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "own: a cell’s own work is ifs work, not that of any other sort of cell.",
-      "x": 0.0934,
-      "y": 0.7354,
-      "w": 0.8224,
-      "h": 0.0161,
+      "text": "own: a cell's own work is its work. development: change by which something becomes better. All plants and animals developed from single cells.",
+      "x": 0.1,
+      "y": 0.72,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r3",
+      "order": 2,
       "words": [
         "own:",
         "a",
-        "cell’s",
+        "cell's",
         "own",
         "work",
         "is",
-        "ifs",
-        "work,",
-        "not",
-        "that",
-        "of",
-        "any",
-        "other",
-        "sort",
-        "of",
-        "cell."
-      ],
-      "conf": 93.7488,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "development: change by which something (living thing, ideo, inven- tion) becomes better, or more able fo do things, All the animals and plants we see about us have developed from earlier living things",
-      "x": 0.0934,
-      "y": 0.7708,
-      "w": 0.8233,
-      "h": 0.0519,
-      "words": [
+        "its",
+        "work.",
         "development:",
         "change",
         "by",
         "which",
         "something",
-        "(living",
-        "thing,",
-        "ideo,",
-        "inven-",
-        "tion)",
         "becomes",
-        "better,",
-        "or",
-        "more",
-        "able",
-        "fo",
-        "do",
-        "things,",
+        "better.",
         "All",
-        "the",
-        "animals",
-        "and",
         "plants",
-        "we",
-        "see",
-        "about",
-        "us",
-        "have",
+        "and",
+        "animals",
         "developed",
         "from",
-        "earlier",
-        "living",
-        "things"
-      ],
-      "conf": 91.3178,
-      "source": "psm-11"
+        "single",
+        "cells."
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "Your own hat is yours, not any other person's hat.",
-      "x": 0.1481,
-      "y": 0.7542,
-      "w": 0.5505,
-      "h": 0.0161,
+      "text": "FUTURE: will develop. PRESENT: develop(s). PAST: developed.",
+      "x": 0.1,
+      "y": 0.88,
+      "w": 0.85,
+      "h": 0.05,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "Your",
-        "own",
-        "hat",
-        "is",
-        "yours,",
-        "not",
-        "any",
-        "other",
-        "person's",
-        "hat."
-      ],
-      "conf": 93.5642,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "which were at first made up of only one cell.",
-      "x": 0.1465,
-      "y": 0.8211,
-      "w": 0.4941,
-      "h": 0.0209,
-      "words": [
-        "which",
-        "were",
-        "at",
-        "first",
-        "made",
-        "up",
-        "of",
-        "only",
-        "one",
-        "cell."
-      ],
-      "conf": 95.1182,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "will develop",
-      "x": 0.0875,
-      "y": 0.8532,
-      "w": 0.1641,
-      "h": 0.0198,
-      "words": [
+        "FUTURE:",
         "will",
-        "develop"
-      ],
-      "conf": 71.4787,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "develop (s)",
-      "x": 0.4285,
-      "y": 0.8522,
-      "w": 0.1456,
-      "h": 0.0198,
-      "words": [
-        "develop",
-        "(s)"
-      ],
-      "conf": 76.6831,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "developed",
-      "x": 0.7837,
-      "y": 0.8522,
-      "w": 0.1305,
-      "h": 0.0155,
-      "words": [
-        "developed"
-      ],
-      "conf": 96.1876,
-      "source": "psm-11"
+        "develop.",
+        "PRESENT:",
+        "develop(s).",
+        "PAST:",
+        "developed."
+      ]
     }
   ]
 }

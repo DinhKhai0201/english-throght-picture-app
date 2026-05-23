@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "A bank teller must keep complete records of money taken in and given out to make certain accounts are in order. Banking is important business.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "A bank must keep accounts in good order and make true statements. (Statement shows columns for OUT, IN, DATE, NO., and BALANCE).", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.45 },
-    { "text": "in order: with nothing wrong; in the right place. An ill man’s body is 'out of order'. Police help keep law and order.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.1 },
-    { "text": "making certain: proving to oneself and others.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
-  ]
-}

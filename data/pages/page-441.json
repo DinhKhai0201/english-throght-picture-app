@@ -2,39 +2,58 @@
   "page": 441,
   "image": "/books/page 441.png",
   "imageApiPath": "/api/books/page%20441.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 5,
-    "wordCount": 100,
+    "regionCount": 4,
+    "wordCount": 81,
     "imageWidth": 1225,
     "imageHeight": 1842
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "The earth seems to be getting smaller because men’s experience is getting wider. New ways of living have come in the last fifty years.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.12,
       "id": "r1",
       "order": 0,
-      "text": "The earth seems to be getting smaller because men’s ex- perience is getting wider. All sorts of new ways of living and new ways of doing things have come to us in the last fifty years.",
-      "x": 0.0955,
-      "y": 0.0347,
-      "w": 0.8082,
-      "h": 0.1049,
       "words": [
         "The",
         "earth",
@@ -45,100 +64,69 @@
         "smaller",
         "because",
         "men’s",
-        "ex-",
-        "perience",
+        "experience",
         "is",
         "getting",
         "wider.",
-        "All",
-        "sorts",
-        "of",
-        "new",
+        "New",
         "ways",
         "of",
         "living",
-        "and",
-        "new",
-        "ways",
-        "of",
-        "doing",
-        "things",
         "have",
         "come",
-        "to",
-        "us",
         "in",
         "the",
         "last",
         "fifty",
         "years."
-      ],
-      "conf": 95.8091,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "Stranger things are coming. Men can today travel through space to the moon.",
+      "x": 0.1,
+      "y": 0.18,
+      "w": 0.5,
+      "h": 0.35,
       "id": "r2",
       "order": 1,
-      "text": "Stranger things are coming.",
-      "x": 0.0947,
-      "y": 0.1488,
-      "w": 0.3829,
-      "h": 0.0456,
       "words": [
         "Stranger",
         "things",
         "are",
-        "coming."
-      ],
-      "conf": 93.0476,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "Men travel through space to the moon,",
-      "x": 0.1029,
-      "y": 0.4175,
-      "w": 0.4841,
-      "h": 0.0662,
-      "words": [
+        "coming.",
         "Men",
+        "can",
+        "today",
         "travel",
         "through",
         "space",
         "to",
         "the",
-        "moon,"
-      ],
-      "conf": 96.7127,
-      "source": "psm-11"
+        "moon."
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "What is Space? That is hard to say. It is equally hard to say what Time is. We and the sun and the moon and the stars are all in Space and Time. But no one under- stands what Space and Time are. Not even the best phi-",
-      "x": 0.1037,
-      "y": 0.7421,
-      "w": 0.8057,
-      "h": 0.1026,
+      "text": "What is Space? It is hard to say what Space and Time are. We and the sun and the moon are all in Space and Time.",
+      "x": 0.1,
+      "y": 0.72,
+      "w": 0.85,
+      "h": 0.12,
+      "id": "r3",
+      "order": 2,
       "words": [
         "What",
         "is",
         "Space?",
-        "That",
-        "is",
-        "hard",
-        "to",
-        "say.",
         "It",
         "is",
-        "equally",
         "hard",
         "to",
         "say",
         "what",
+        "Space",
+        "and",
         "Time",
-        "is.",
+        "are.",
         "We",
         "and",
         "the",
@@ -146,20 +134,27 @@
         "and",
         "the",
         "moon",
-        "and",
-        "the",
-        "stars",
         "are",
         "all",
         "in",
         "Space",
         "and",
-        "Time.",
+        "Time."
+      ]
+    },
+    {
+      "text": "But no one understands what Space and Time are. Not even the best philosophers are clear about them.",
+      "x": 0.1,
+      "y": 0.85,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r4",
+      "order": 3,
+      "words": [
         "But",
         "no",
         "one",
-        "under-",
-        "stands",
+        "understands",
         "what",
         "Space",
         "and",
@@ -169,28 +164,12 @@
         "even",
         "the",
         "best",
-        "phi-"
-      ],
-      "conf": 96.4528,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "losophers are clear about them.",
-      "x": 0.1053,
-      "y": 0.8491,
-      "w": 0.4359,
-      "h": 0.0228,
-      "words": [
-        "losophers",
+        "philosophers",
         "are",
         "clear",
         "about",
         "them."
-      ],
-      "conf": 95.5138,
-      "source": "psm-11"
+      ]
     }
   ]
 }

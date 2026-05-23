@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "(Diagram: Time clock record with station numbers and times like 1:11, 1:12). This record is needed for insurance claims.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.35 },
-    { "text": "Insurance companies pay for fire damage if the building was kept safe. The watchman is part of that safety system.", "x": 0.45, "y": 0.15, "w": 0.5, "h": 0.15 },
-    { "text": "Companies pay yearly for insurance. The motion picture company must act responsibly to keep the studio safe.", "x": 0.1, "y": 0.42, "w": 0.85, "h": 0.25 },
-    { "text": "responsible: having a duty. insurance: safety from loss. company: business group. damage: harm done to something. FUTURE: will damage. PRESENT: damage(s). PAST: damaged.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.25 }
-  ]
-}

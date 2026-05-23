@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "The grasslands of the earth supply food to many different animals. From some of them we get meat and milk. From milk we make butter and cheese and other foods.", "x": 0.45, "y": 0.05, "w": 0.5, "h": 0.15 },
-    { "text": "From birds living on grain we get eggs and meat.", "x": 0.1, "y": 0.28, "w": 0.5, "h": 0.05 },
-    { "text": "Seeds planted in good earth supply grains and fruits and vegetables of many sorts. The seas and rivers supply fish and some sea plants for food.", "x": 0.45, "y": 0.4, "w": 0.5, "h": 0.2 },
-    { "text": "fish: water-breathing animal.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.05 }
-  ]
-}

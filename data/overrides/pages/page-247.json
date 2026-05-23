@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "We get salt from the sea. The water in the sea has salt in it.", "x": 0.12, "y": 0.33, "w": 0.35, "h": 0.1 },
-    { "text": "We get salt from salt mines. Some mines are deep. They go far down into the earth.", "x": 0.54, "y": 0.33, "w": 0.38, "h": 0.15 },
-    { "text": "We get sugar from plants. We get it from the stems of some plants.", "x": 0.12, "y": 0.53, "w": 0.35, "h": 0.15 },
-    { "text": "We get sugar from the roots of some plants. The salt or sugar which we put in our food is a white powder.", "x": 0.54, "y": 0.51, "w": 0.38, "h": 0.3 }
-  ]
-}

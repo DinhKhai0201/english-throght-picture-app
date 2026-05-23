@@ -4,7 +4,7 @@
   "imageApiPath": "/api/books/page%2034.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 13,
+    "regionCount": 9,
     "wordCount": 64,
     "imageWidth": 1276,
     "imageHeight": 1830
@@ -18,10 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r1",
         "r2",
-        "r3",
-        "r4",
-        "r6"
+        "r3"
       ]
     },
     {
@@ -32,7 +31,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
+        "r4",
         "r5"
       ]
     },
@@ -44,10 +43,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r9",
-        "r11",
-        "r12"
+        "r6",
+        "r7"
       ]
     },
     {
@@ -59,90 +56,88 @@
       "h": 0.5,
       "regionIds": [
         "r8",
-        "r10",
-        "r13"
+        "r9"
       ]
     }
   ],
   "regions": [
     {
+      "text": "What is this? It is a hat.",
+      "x": 0.15,
+      "y": 0.26,
+      "w": 0.3,
+      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "words": [
+        "What",
+        "is",
+        "this?",
+        "It",
+        "is",
+        "a",
+        "hat."
+      ]
+    },
+    {
+      "text": "\"What is this?\" is a question.",
+      "x": 0.15,
+      "y": 0.32,
+      "w": 0.3,
+      "h": 0.05,
+      "id": "r2",
+      "order": 1,
+      "words": [
+        "\"What",
+        "is",
+        "this?\"",
+        "is",
+        "a",
+        "question."
+      ]
+    },
+    {
+      "text": "\"It is a hat,\" is an answer.",
+      "x": 0.15,
+      "y": 0.37,
+      "w": 0.3,
+      "h": 0.05,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "\"It",
+        "is",
+        "a",
+        "hat,\"",
+        "is",
+        "an",
+        "answer."
+      ]
+    },
+    {
       "text": "This is a question mark.",
-      "x": 0.5361,
-      "y": 0.129,
-      "w": 0.3417,
-      "h": 0.023,
+      "x": 0.53,
+      "y": 0.13,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r4",
+      "order": 3,
       "words": [
         "This",
         "is",
         "a",
         "question",
         "mark."
-      ],
-      "conf": 92.6023,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r2",
-      "order": 1,
-      "text": "What is this?",
-      "x": 0.1481,
-      "y": 0.2639,
-      "w": 0.1803,
-      "h": 0.0186,
-      "words": [
-        "What",
-        "is",
-        "this?"
-      ],
-      "conf": 96.0351,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "It is a hat.",
-      "x": 0.1505,
-      "y": 0.2896,
-      "w": 0.1364,
-      "h": 0.0191,
-      "words": [
-        "It",
-        "is",
-        "a",
-        "hat."
-      ],
-      "conf": 92.5098,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "“What is this?” is a question.",
-      "x": 0.1489,
-      "y": 0.3153,
-      "w": 0.2602,
-      "h": 0.0492,
-      "words": [
-        "“What",
-        "is",
-        "this?”",
-        "is",
-        "a",
-        "question."
-      ],
-      "conf": 90.0683,
-      "source": "psm-11"
-    },
-    {
+      "text": "We put question marks after questions.",
+      "x": 0.53,
+      "y": 0.31,
+      "w": 0.4,
+      "h": 0.05,
       "id": "r5",
       "order": 4,
-      "text": "We put question marks after questions.",
-      "x": 0.5384,
-      "y": 0.3131,
-      "w": 0.3417,
-      "h": 0.0482,
       "words": [
         "We",
         "put",
@@ -150,91 +145,59 @@
         "marks",
         "after",
         "questions."
-      ],
-      "conf": 96.3338,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "\"Is this a hat?\" That is a question.",
+      "x": 0.15,
+      "y": 0.75,
+      "w": 0.3,
+      "h": 0.05,
       "id": "r6",
       "order": 5,
-      "text": "“It is a hat,” is an answer,",
-      "x": 0.1497,
-      "y": 0.3672,
-      "w": 0.2375,
-      "h": 0.0443,
       "words": [
-        "“It",
-        "is",
-        "a",
-        "hat,”",
-        "is",
-        "an",
-        "answer,"
-      ],
-      "conf": 93.5505,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "“Is this a hat?”",
-      "x": 0.1708,
-      "y": 0.7459,
-      "w": 0.2006,
-      "h": 0.0197,
-      "words": [
-        "“Is",
+        "\"Is",
         "this",
         "a",
-        "hat?”"
-      ],
-      "conf": 91.377,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "“Is this a hat?”",
-      "x": 0.5376,
-      "y": 0.7459,
-      "w": 0.2022,
-      "h": 0.0186,
-      "words": [
-        "“Is",
-        "this",
-        "a",
-        "hat?”"
-      ],
-      "conf": 93.6311,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "That is a question.",
-      "x": 0.1708,
-      "y": 0.7721,
-      "w": 0.2571,
-      "h": 0.0235,
-      "words": [
+        "hat?\"",
         "That",
         "is",
         "a",
         "question."
-      ],
-      "conf": 94.4743,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "“No, it is not a hat. It is a hand.”",
-      "x": 0.5353,
-      "y": 0.771,
-      "w": 0.3299,
-      "h": 0.0448,
+      "text": "\"Yes, it is.\" That is an answer.",
+      "x": 0.15,
+      "y": 0.8,
+      "w": 0.3,
+      "h": 0.05,
+      "id": "r7",
+      "order": 6,
       "words": [
-        "“No,",
+        "\"Yes,",
+        "it",
+        "is.\"",
+        "That",
+        "is",
+        "an",
+        "answer."
+      ]
+    },
+    {
+      "text": "\"Is this a hat?\" \"No, it is not a hat. It is a hand.\"",
+      "x": 0.53,
+      "y": 0.75,
+      "w": 0.4,
+      "h": 0.08,
+      "id": "r8",
+      "order": 7,
+      "words": [
+        "\"Is",
+        "this",
+        "a",
+        "hat?\"",
+        "\"No,",
         "it",
         "is",
         "not",
@@ -243,60 +206,23 @@
         "It",
         "is",
         "a",
-        "hand.”"
-      ],
-      "conf": 94.043,
-      "source": "psm-11"
+        "hand.\""
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "“Yes, it is.”",
-      "x": 0.1701,
-      "y": 0.7984,
-      "w": 0.1481,
-      "h": 0.0208,
-      "words": [
-        "“Yes,",
-        "it",
-        "is.”"
-      ],
-      "conf": 95.5012,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
       "text": "That is an answer.",
-      "x": 0.1716,
-      "y": 0.8235,
-      "w": 0.2563,
-      "h": 0.0191,
+      "x": 0.53,
+      "y": 0.83,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r9",
+      "order": 8,
       "words": [
         "That",
         "is",
         "an",
         "answer."
-      ],
-      "conf": 95.8335,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "That is an answer.",
-      "x": 0.5384,
-      "y": 0.8224,
-      "w": 0.2594,
-      "h": 0.0197,
-      "words": [
-        "That",
-        "is",
-        "an",
-        "answer."
-      ],
-      "conf": 95.9557,
-      "source": "psm-11"
+      ]
     }
   ]
 }

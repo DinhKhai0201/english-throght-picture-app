@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "We get knowledge in different ways--through our senses, through talk with other men,", "x": 0.1, "y": 0.1, "w": 0.38, "h": 0.35 },
-    { "text": "through the work we do with our hands and our heads, and through books. These are all ways of getting knowledge.", "x": 0.54, "y": 0.1, "w": 0.38, "h": 0.35 },
-    { "text": "Knowledge is very important. It is important in itself. And it is important as a way to other things. A man who has no knowledge is of no use to other men.", "x": 0.12, "y": 0.56, "w": 0.38, "h": 0.25 },
-    { "text": "Is the word \"use\" part of your knowledge of English? (See page 219.) Knowledge gives us light. It makes things clearer to us.", "x": 0.54, "y": 0.56, "w": 0.38, "h": 0.2 }
-  ]
-}

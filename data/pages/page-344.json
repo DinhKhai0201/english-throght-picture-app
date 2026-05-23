@@ -2,46 +2,58 @@
   "page": 344,
   "image": "/books/page 344.png",
   "imageApiPath": "/api/books/page%20344.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 116,
+    "regionCount": 4,
+    "wordCount": 102,
     "imageWidth": 1188,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "We need good pictures to teach us meanings in the new language and good motion pictures to help many more people to learn languages quickly and well. The learners will then be able to work in groups with the help of teachers or by themselves, using books, records, radio, sound motion pictures and television.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.25,
       "id": "r1",
       "order": 0,
-      "text": "We need good pictures to teach us meanings m the new language and good motion pictures to help many more people to learn languages quickly and well. The learners will then be able to work in groups with the help of teachers or by themselves, using books, records, radio,",
-      "x": 0.1035,
-      "y": 0.0464,
-      "w": 0.8283,
-      "h": 0.1264,
       "words": [
         "We",
         "need",
@@ -51,7 +63,7 @@
         "teach",
         "us",
         "meanings",
-        "m",
+        "in",
         "the",
         "new",
         "language",
@@ -91,220 +103,94 @@
         "using",
         "books,",
         "records,",
-        "radio,"
-      ],
-      "conf": 95.8281,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "sound motion pictures and television.",
-      "x": 0.1061,
-      "y": 0.1771,
-      "w": 0.5631,
-      "h": 0.0219,
-      "words": [
+        "radio,",
         "sound",
         "motion",
         "pictures",
         "and",
         "television."
-      ],
-      "conf": 96.4635,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "OK",
-      "x": 0.3889,
-      "y": 0.3445,
-      "w": 0.0438,
-      "h": 0.0123,
-      "words": [
-        "OK"
-      ],
-      "conf": 78.966,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "CD",
-      "x": 0.3948,
-      "y": 0.3531,
-      "w": 0.0311,
-      "h": 0.0107,
-      "words": [
-        "CD"
-      ],
-      "conf": 80.7063,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "A teacher can help a Jearner to Jearn. Reading and writing",
-      "x": 0.1044,
-      "y": 0.5083,
-      "w": 0.8232,
-      "h": 0.0224,
+      "text": "A teacher can help a learner to learn. Reading and writing can help us to think.",
+      "x": 0.1,
+      "y": 0.52,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r2",
+      "order": 1,
       "words": [
         "A",
         "teacher",
         "can",
         "help",
         "a",
-        "Jearner",
+        "learner",
         "to",
-        "Jearn.",
+        "learn.",
         "Reading",
         "and",
-        "writing"
-      ],
-      "conf": 94.6497,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "can help us to think.",
-      "x": 0.0985,
-      "y": 0.5328,
-      "w": 0.2971,
-      "h": 0.0256,
-      "words": [
+        "writing",
         "can",
         "help",
         "us",
         "to",
         "think."
-      ],
-      "conf": 96.6914,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "help: something which does port of our work for us. A stick may be a",
-      "x": 0.1019,
-      "y": 0.6987,
-      "w": 0.8207,
-      "h": 0.0251,
+      "text": "well: in a good way. help: something which does part of our work for us. in groups: together with others. group: those doing something together.",
+      "x": 0.1,
+      "y": 0.68,
+      "w": 0.6,
+      "h": 0.2,
+      "id": "r3",
+      "order": 2,
       "words": [
+        "well:",
+        "in",
+        "a",
+        "good",
+        "way.",
         "help:",
         "something",
         "which",
         "does",
-        "port",
+        "part",
         "of",
         "our",
         "work",
         "for",
         "us.",
-        "A",
-        "stick",
-        "may",
-        "be",
-        "a"
-      ],
-      "conf": 92.5123,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "welt ina help to an old man; ft may help him.",
-      "x": 0.1027,
-      "y": 0.6896,
-      "w": 0.4866,
-      "h": 0.0507,
-      "words": [
-        "welt",
-        "ina",
-        "help",
-        "to",
-        "an",
-        "old",
-        "man;",
-        "ft",
-        "may",
-        "help",
-        "him."
-      ],
-      "conf": 73.6754,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "group: those dolng something together or having something in common.",
-      "x": 0.0976,
-      "y": 0.8235,
-      "w": 0.8224,
-      "h": 0.016,
-      "words": [
-        "group:",
-        "those",
-        "dolng",
-        "something",
-        "together",
-        "or",
-        "having",
-        "something",
-        "in",
-        "common."
-      ],
-      "conf": 89.3054,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "in groups: together with others.",
-      "x": 0.1002,
-      "y": 0.8069,
-      "w": 0.3678,
-      "h": 0.0155,
-      "words": [
         "in",
         "groups:",
         "together",
         "with",
-        "others."
-      ],
-      "conf": 87.3759,
-      "source": "psm-11"
+        "others.",
+        "group:",
+        "those",
+        "doing",
+        "something",
+        "together."
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "will help",
-      "x": 0.096,
-      "y": 0.8512,
-      "w": 0.1212,
-      "h": 0.0224,
+      "text": "FUTURE: will help. PRESENT: help(s). PAST: helped.",
+      "x": 0.1,
+      "y": 0.88,
+      "w": 0.85,
+      "h": 0.05,
+      "id": "r4",
+      "order": 3,
       "words": [
+        "FUTURE:",
         "will",
-        "help"
-      ],
-      "conf": 79.5098,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "help(s)",
-      "x": 0.4764,
-      "y": 0.8528,
-      "w": 0.096,
-      "h": 0.016,
-      "words": [
-        "help(s)"
-      ],
-      "conf": 53.4502,
-      "source": "psm-11"
+        "help.",
+        "PRESENT:",
+        "help(s).",
+        "PAST:",
+        "helped."
+      ]
     }
   ]
 }

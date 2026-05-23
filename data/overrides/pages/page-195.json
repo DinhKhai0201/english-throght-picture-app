@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Here are two trains. The man was in this train. He is going to the other train. He is making a change. He is changing trains.", "x": 0.08, "y": 0.28, "w": 0.38, "h": 0.18 },
-    { "text": "The potatoes were hard. After a time they were soft. There was a change in the potatoes.", "x": 0.48, "y": 0.2, "w": 0.4, "h": 0.12 },
-    { "text": "This water was cold. Now it is boiling. That is a change. There was a change in the water.", "x": 0.08, "y": 0.55, "w": 0.38, "h": 0.35 },
-    { "text": "In the summer the leaves are on the trees. in the fall the leaves come down off the trees. That is a change.", "x": 0.48, "y": 0.68, "w": 0.4, "h": 0.22 }
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "People want to automate restaurant service to avoid waiting on each other. Waiters and waitresses make food more expensive.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.35 },
-    { "text": "(Diagram: A waitress carrying a tray in a busy restaurant). One person can only serve a few people at a time.", "x": 0.45, "y": 0.05, "w": 0.5, "h": 0.35 },
-    { "text": "More people eat out now than in the past. Many people who once had servants now do their own housework.", "x": 0.1, "y": 0.42, "w": 0.85, "h": 0.3 },
-    { "text": "serve: to help or give out food. waiter/waitress: person who serves. servant: person paid for housework. FUTURE: will serve. PRESENT: serve(s). PAST: served.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.2 }
-  ]
-}

@@ -2,10 +2,10 @@
   "page": 177,
   "image": "/books/page 177.png",
   "imageApiPath": "/api/books/page%20177.png",
-  "layout": "quad",
+  "layout": "questions",
   "stats": {
     "regionCount": 10,
-    "wordCount": 55,
+    "wordCount": 42,
     "imageWidth": 1259,
     "imageHeight": 1834
   },
@@ -18,8 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r3"
+        "r2",
+        "r4"
       ]
     },
     {
@@ -30,8 +30,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r4"
+        "r1",
+        "r3",
+        "r5"
       ]
     },
     {
@@ -42,9 +43,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r7",
-        "r10"
+        "r6",
+        "r8"
       ]
     },
     {
@@ -55,197 +55,164 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r8",
-        "r9"
+        "r7",
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
+      "text": "QUESTIONS",
+      "x": 0.4,
+      "y": 0.08,
+      "w": 0.2,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "QUESTIONS a What is he doing?",
-      "x": 0.1334,
-      "y": 0.0791,
-      "w": 0.4496,
-      "h": 0.0643,
       "words": [
-        "QUESTIONS",
-        "a",
-        "What",
-        "is",
-        "he",
-        "doing?"
-      ],
-      "conf": 96.9123,
-      "source": "psm-11"
+        "QUESTIONS"
+      ]
     },
     {
+      "text": "What is he doing?",
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.35,
+      "h": 0.05,
       "id": "r2",
       "order": 1,
-      "text": "b What is she doing?",
-      "x": 0.5258,
-      "y": 0.12,
-      "w": 0.3129,
-      "h": 0.0229,
       "words": [
-        "b",
         "What",
         "is",
-        "she",
+        "he",
         "doing?"
-      ],
-      "conf": 93.7248,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "What is she doing?",
+      "x": 0.54,
+      "y": 0.12,
+      "w": 0.35,
+      "h": 0.05,
       "id": "r3",
       "order": 2,
-      "text": "ee L What is he doing?",
-      "x": 0.166,
-      "y": 0.2868,
-      "w": 0.34,
-      "h": 0.0469,
       "words": [
-        "ee",
-        "L",
         "What",
         "is",
-        "he",
+        "she",
         "doing?"
-      ],
-      "conf": 44.8761,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "What is he doing?",
+      "x": 0.12,
+      "y": 0.31,
+      "w": 0.35,
+      "h": 0.05,
       "id": "r4",
       "order": 3,
-      "text": "d What is he doing now?",
-      "x": 0.5218,
-      "y": 0.3103,
-      "w": 0.2836,
-      "h": 0.0446,
       "words": [
-        "d",
         "What",
         "is",
         "he",
-        "doing",
-        "now?"
-      ],
-      "conf": 95.6977,
-      "source": "psm-11"
+        "doing?"
+      ]
     },
     {
+      "text": "What is he doing now?",
+      "x": 0.54,
+      "y": 0.31,
+      "w": 0.35,
+      "h": 0.05,
       "id": "r5",
       "order": 4,
-      "text": "e What is he doing?",
-      "x": 0.1271,
-      "y": 0.5104,
-      "w": 0.2979,
-      "h": 0.024,
       "words": [
-        "e",
+        "What",
+        "is",
+        "he",
+        "doing",
+        "now?"
+      ]
+    },
+    {
+      "text": "What is he doing?",
+      "x": 0.12,
+      "y": 0.51,
+      "w": 0.35,
+      "h": 0.05,
+      "id": "r6",
+      "order": 5,
+      "words": [
         "What",
         "is",
         "he",
         "doing?"
-      ],
-      "conf": 95.8816,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "f What is she doing?",
-      "x": 0.521,
-      "y": 0.5104,
-      "w": 0.3122,
-      "h": 0.0234,
+      "text": "What is she doing?",
+      "x": 0.54,
+      "y": 0.51,
+      "w": 0.35,
+      "h": 0.05,
+      "id": "r7",
+      "order": 6,
       "words": [
-        "f",
         "What",
         "is",
         "she",
         "doing?"
-      ],
-      "conf": 93.2655,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "g What is she doing now?",
-      "x": 0.1239,
-      "y": 0.7094,
-      "w": 0.2955,
-      "h": 0.0441,
+      "text": "What is she doing now?",
+      "x": 0.12,
+      "y": 0.72,
+      "w": 0.35,
+      "h": 0.05,
+      "id": "r8",
+      "order": 7,
       "words": [
-        "g",
         "What",
         "is",
         "she",
         "doing",
         "now?"
-      ],
-      "conf": 95.4344,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "h And what is she doing now?",
-      "x": 0.5187,
-      "y": 0.7094,
-      "w": 0.2653,
-      "h": 0.0485,
+      "text": "And what is she doing now?",
+      "x": 0.52,
+      "y": 0.72,
+      "w": 0.4,
+      "h": 0.05,
+      "id": "r9",
+      "order": 8,
       "words": [
-        "h",
         "And",
         "what",
         "is",
         "she",
         "doing",
         "now?"
-      ],
-      "conf": 95.6453,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "www we hh ewe meen",
-      "x": 0.2272,
-      "y": 0.8811,
-      "w": 0.6616,
-      "h": 0.0115,
-      "words": [
-        "www",
-        "we",
-        "hh",
-        "ewe",
-        "meen"
-      ],
-      "conf": 40.0863,
-      "source": "psm-11"
-    },
-    {
+      "text": "Answers are on page 174.",
+      "x": 0.3,
+      "y": 0.89,
+      "w": 0.4,
+      "h": 0.03,
       "id": "r10",
       "order": 9,
-      "text": "Answers are on page",
-      "x": 0.301,
-      "y": 0.8931,
-      "w": 0.3098,
-      "h": 0.024,
       "words": [
         "Answers",
         "are",
         "on",
-        "page"
-      ],
-      "conf": 96.4807,
-      "source": "psm-11"
+        "page",
+        "174."
+      ]
     }
   ]
 }

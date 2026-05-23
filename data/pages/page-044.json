@@ -2,180 +2,168 @@
   "page": 44,
   "image": "/books/page 44.png",
   "imageApiPath": "/api/books/page%2044.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 9,
+    "regionCount": 7,
     "wordCount": 29,
     "imageWidth": 1284,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
         "r4",
-        "r5",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r6",
-        "r7",
-        "r8",
-        "r9"
+        "r7"
       ]
     }
   ],
   "regions": [
     {
+      "text": "This is my head.",
+      "x": 0.2,
+      "y": 0.15,
+      "w": 0.25,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "This is my head.",
-      "x": 0.204,
-      "y": 0.1462,
-      "w": 0.2336,
-      "h": 0.0241,
       "words": [
         "This",
         "is",
         "my",
         "head."
-      ],
-      "conf": 96.4109,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "That is her head.",
+      "x": 0.55,
+      "y": 0.15,
+      "w": 0.25,
+      "h": 0.03,
       "id": "r2",
       "order": 1,
-      "text": "That is her head.",
-      "x": 0.5545,
-      "y": 0.1457,
-      "w": 0.2399,
-      "h": 0.0187,
       "words": [
         "That",
         "is",
         "her",
         "head."
-      ],
-      "conf": 95.7344,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "These are my eyes.",
+      "x": 0.15,
+      "y": 0.53,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r3",
       "order": 2,
-      "text": "These are my eyes.",
-      "x": 0.1698,
-      "y": 0.5169,
-      "w": 0.2905,
-      "h": 0.023,
       "words": [
         "These",
         "are",
         "my",
         "eyes."
-      ],
-      "conf": 96.5209,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "This is one eye.",
+      "x": 0.15,
+      "y": 0.77,
+      "w": 0.2,
+      "h": 0.08,
       "id": "r4",
       "order": 3,
+      "words": [
+        "This",
+        "is",
+        "one",
+        "eye."
+      ]
+    },
+    {
+      "text": "This is the other eye.",
+      "x": 0.36,
+      "y": 0.75,
+      "w": 0.2,
+      "h": 0.1,
+      "id": "r5",
+      "order": 4,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "other",
+        "eye."
+      ]
+    },
+    {
       "text": "Her eyes are open.",
-      "x": 0.6051,
-      "y": 0.5169,
-      "w": 0.2679,
-      "h": 0.023,
+      "x": 0.6,
+      "y": 0.53,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r6",
+      "order": 5,
       "words": [
         "Her",
         "eyes",
         "are",
         "open."
-      ],
-      "conf": 96.6126,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "This is This is",
-      "x": 0.176,
-      "y": 0.7472,
-      "w": 0.2803,
-      "h": 0.0439,
-      "words": [
-        "This",
-        "is",
-        "This",
-        "is"
-      ],
-      "conf": 96.4388,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
       "text": "Her eyes are shut.",
-      "x": 0.6012,
-      "y": 0.7402,
-      "w": 0.2547,
-      "h": 0.0241,
+      "x": 0.58,
+      "y": 0.75,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r7",
+      "order": 6,
       "words": [
         "Her",
         "eyes",
         "are",
         "shut."
-      ],
-      "conf": 96.0961,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "the one",
-      "x": 0.176,
-      "y": 0.7724,
-      "w": 0.2353,
-      "h": 0.0444,
-      "words": [
-        "the",
-        "one"
-      ],
-      "conf": 96.5854,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "other eye",
-      "x": 0.176,
-      "y": 0.7981,
-      "w": 0.2656,
-      "h": 0.0482,
-      "words": [
-        "other",
-        "eye"
-      ],
-      "conf": 96.3827,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "eye.",
-      "x": 0.3653,
-      "y": 0.8297,
-      "w": 0.0615,
-      "h": 0.0177,
-      "words": [
-        "eye."
-      ],
-      "conf": 95.4438,
-      "source": "psm-11"
+      ]
     }
   ]
 }

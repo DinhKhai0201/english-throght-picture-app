@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "It is hard to say what Time is. One man has time on his hands. Another man has not enough time for his reading.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.35 },
-    { "text": "The same amount of time may seem short to one person and long to another. A sense of time changes with feelings.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.15 },
-    { "text": "Some hours seem like they will never end. Others are past before they begin. Time goes quickly as you get older.", "x": 0.1, "y": 0.7, "w": 0.85, "h": 0.12 },
-    { "text": "never: not ever. end: come to an end. FUTURE: will end. PRESENT: end(s). PAST: ended.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
-  ]
-}

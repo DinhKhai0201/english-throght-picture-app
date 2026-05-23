@@ -2,28 +2,58 @@
   "page": 124,
   "image": "/books/page 124.png",
   "imageApiPath": "/api/books/page%20124.png",
-  "layout": "single",
+  "layout": "grid-3x2",
   "stats": {
     "regionCount": 8,
-    "wordCount": 52,
+    "wordCount": 48,
     "imageWidth": 1167,
     "imageHeight": 1834
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
         "r3",
-        "r4",
-        "r5",
-        "r6",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r7",
         "r8"
       ]
@@ -31,100 +61,85 @@
   ],
   "regions": [
     {
+      "text": "QUESTIONS",
+      "x": 0.4,
+      "y": 0.08,
+      "w": 0.2,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "QUESTIONS",
-      "x": 0.4087,
-      "y": 0.066,
-      "w": 0.2014,
-      "h": 0.0202,
       "words": [
         "QUESTIONS"
-      ],
-      "conf": 95.9002,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "What do you see?",
+      "x": 0.15,
+      "y": 0.12,
+      "w": 0.3,
+      "h": 0.03,
       "id": "r2",
       "order": 1,
-      "text": "a What do you see?",
-      "x": 0.138,
-      "y": 0.1172,
-      "w": 0.3308,
-      "h": 0.0234,
       "words": [
-        "a",
         "What",
         "do",
         "you",
         "see?"
-      ],
-      "conf": 94.7103,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "What is he doing?",
+      "x": 0.58,
+      "y": 0.12,
+      "w": 0.3,
+      "h": 0.03,
       "id": "r3",
       "order": 2,
-      "text": "b What is he doing?",
-      "x": 0.5578,
-      "y": 0.1161,
-      "w": 0.3273,
-      "h": 0.024,
       "words": [
-        "b",
         "What",
         "is",
         "he",
         "doing?"
-      ],
-      "conf": 95.2874,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "What are they doing?",
+      "x": 0.12,
+      "y": 0.43,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r4",
       "order": 3,
-      "text": "e¢ What are they doing?",
-      "x": 0.1063,
-      "y": 0.4269,
-      "w": 0.3907,
-      "h": 0.0256,
       "words": [
-        "e¢",
         "What",
         "are",
         "they",
         "doing?"
-      ],
-      "conf": 86.5804,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "What are these?",
+      "x": 0.58,
+      "y": 0.41,
+      "w": 0.3,
+      "h": 0.03,
       "id": "r5",
       "order": 4,
-      "text": "d What are these?",
-      "x": 0.5638,
-      "y": 0.4084,
-      "w": 0.2991,
-      "h": 0.0207,
       "words": [
-        "d",
         "What",
         "are",
         "these?"
-      ],
-      "conf": 94.4505,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "What do we keep in the fridge?",
+      "x": 0.12,
+      "y": 0.66,
+      "w": 0.35,
+      "h": 0.08,
       "id": "r6",
       "order": 5,
-      "text": "e What do we keep in the fridge?",
-      "x": 0.1105,
-      "y": 0.6516,
-      "w": 0.3239,
-      "h": 0.0736,
       "words": [
-        "e",
         "What",
         "do",
         "we",
@@ -132,18 +147,16 @@
         "in",
         "the",
         "fridge?"
-      ],
-      "conf": 95.1813,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "What are some different sorts of things? Give the names of ten different things which you see in a house.",
+      "x": 0.54,
+      "y": 0.67,
+      "w": 0.4,
+      "h": 0.15,
       "id": "r7",
       "order": 6,
-      "text": "What are some different sorts of things? Give the names of ten different things which you see in a house",
-      "x": 0.5767,
-      "y": 0.6679,
-      "w": 0.3453,
-      "h": 0.1522,
       "words": [
         "What",
         "are",
@@ -164,27 +177,24 @@
         "see",
         "in",
         "a",
-        "house"
-      ],
-      "conf": 95.9554,
-      "source": "psm-11"
+        "house."
+      ]
     },
     {
+      "text": "Answers are on page 121.",
+      "x": 0.3,
+      "y": 0.91,
+      "w": 0.4,
+      "h": 0.03,
       "id": "r8",
       "order": 7,
-      "text": "Answers are on page",
-      "x": 0.329,
-      "y": 0.8991,
-      "w": 0.335,
-      "h": 0.0267,
       "words": [
         "Answers",
         "are",
         "on",
-        "page"
-      ],
-      "conf": 96.2149,
-      "source": "psm-11"
+        "page",
+        "121."
+      ]
     }
   ]
 }

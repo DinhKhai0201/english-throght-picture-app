@@ -2,98 +2,95 @@
   "page": 271,
   "image": "/books/page 271.png",
   "imageApiPath": "/api/books/page%20271.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 9,
-    "wordCount": 90,
+    "regionCount": 4,
+    "wordCount": 94,
     "imageWidth": 1196,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9"
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Pleasure and pain are feelings. We have feelings of pleasure and pain. Here are some pleasures.",
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.38,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "Pleasure and pain are feelings.",
-      "x": 0.1037,
-      "y": 0.195,
-      "w": 0.3394,
-      "h": 0.0487,
       "words": [
         "Pleasure",
         "and",
         "pain",
         "are",
-        "feelings."
-      ],
-      "conf": 78.4985,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "We have feelings of pleasure and pain.",
-      "x": 0.1045,
-      "y": 0.2458,
-      "w": 0.3027,
-      "h": 0.0488,
-      "words": [
+        "feelings.",
         "We",
         "have",
         "feelings",
         "of",
         "pleasure",
         "and",
-        "pain."
-      ],
-      "conf": 96.4891,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "Here are some pleasures.",
-      "x": 0.1045,
-      "y": 0.2978,
-      "w": 0.2174,
-      "h": 0.0472,
-      "words": [
+        "pain.",
         "Here",
         "are",
         "some",
         "pleasures."
-      ],
-      "conf": 96.6048,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "He is on the sand at the seaside, looking at and hearing the sound of the waves and warming himself in the sun These are pleasures.",
-      "x": 0.505,
-      "y": 0.3149,
-      "w": 0.3704,
-      "h": 0.1495,
+      "text": "He is on the sand at the seaside, looking at and hearing the sound of the waves and warming himself in the sun. These are pleasures.",
+      "x": 0.51,
+      "y": 0.32,
+      "w": 0.4,
+      "h": 0.15,
+      "id": "r2",
+      "order": 1,
       "words": [
         "He",
         "is",
@@ -117,22 +114,20 @@
         "himself",
         "in",
         "the",
-        "sun",
+        "sun.",
         "These",
         "are",
         "pleasures."
-      ],
-      "conf": 96.4207,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "Now he is taking a swim Now he is resting in the in the sea",
-      "x": 0.092,
-      "y": 0.5345,
-      "w": 0.7742,
-      "h": 0.0445,
+      "text": "Now he is taking a swim in the sea. He is swimming through the waves. He is a good swimmer. To a good swimmer, swimming is a pleasure.",
+      "x": 0.08,
+      "y": 0.53,
+      "w": 0.4,
+      "h": 0.35,
+      "id": "r3",
+      "order": 2,
       "words": [
         "Now",
         "he",
@@ -140,66 +135,50 @@
         "taking",
         "a",
         "swim",
+        "in",
+        "the",
+        "sea.",
+        "He",
+        "is",
+        "swimming",
+        "through",
+        "the",
+        "waves.",
+        "He",
+        "is",
+        "a",
+        "good",
+        "swimmer.",
+        "To",
+        "a",
+        "good",
+        "swimmer,",
+        "swimming",
+        "is",
+        "a",
+        "pleasure."
+      ]
+    },
+    {
+      "text": "Now he is resting in the sun again after his swim. After the water the sun on his skin is a pleasure to him.",
+      "x": 0.5,
+      "y": 0.53,
+      "w": 0.4,
+      "h": 0.35,
+      "id": "r4",
+      "order": 3,
+      "words": [
         "Now",
         "he",
         "is",
         "resting",
         "in",
         "the",
-        "in",
-        "the",
-        "sea"
-      ],
-      "conf": 95.6648,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "sun again after his swim",
-      "x": 0.5059,
-      "y": 0.5592,
-      "w": 0.3595,
-      "h": 0.023,
-      "words": [
         "sun",
         "again",
         "after",
         "his",
-        "swim"
-      ],
-      "conf": 95.577,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "the waves. He is a a good",
-      "x": 0.0878,
-      "y": 0.7686,
-      "w": 0.3645,
-      "h": 0.0471,
-      "words": [
-        "the",
-        "waves.",
-        "He",
-        "is",
-        "a",
-        "a",
-        "good"
-      ],
-      "conf": 94.03,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "After the water the sun on his skin is",
-      "x": 0.5075,
-      "y": 0.7959,
-      "w": 0.2985,
-      "h": 0.0472,
-      "words": [
+        "swim.",
         "After",
         "the",
         "water",
@@ -208,35 +187,12 @@
         "on",
         "his",
         "skin",
-        "is"
-      ],
-      "conf": 96.0754,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "To a good swimmer, swimming is a pleasure. a pleasure to him",
-      "x": 0.0886,
-      "y": 0.8259,
-      "w": 0.6814,
-      "h": 0.0503,
-      "words": [
-        "To",
-        "a",
-        "good",
-        "swimmer,",
-        "swimming",
         "is",
-        "a",
-        "pleasure.",
         "a",
         "pleasure",
         "to",
-        "him"
-      ],
-      "conf": 96.0852,
-      "source": "psm-11"
+        "him."
+      ]
     }
   ]
 }

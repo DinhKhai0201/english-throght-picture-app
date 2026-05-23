@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "How did a man know how many sheep he owned? He used stones, putting one in a bag for each sheep.", "x": 0.45, "y": 0.05, "w": 0.5, "h": 0.2 },
-    { "text": "The number of stones in the bag was the same as the number of his sheep. They were equal in number.", "x": 0.1, "y": 0.48, "w": 0.85, "h": 0.1 },
-    { "text": "When a sheep died, he took a stone out. When lambs were born, he put a stone in. The stones were a record.", "x": 0.1, "y": 0.58, "w": 0.85, "h": 0.15 },
-    { "text": "lamb: baby sheep. In U.S.A. meat from sheep is lamb. In Britain, mutton is used for meat of full-grown sheep.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
-  ]
-}

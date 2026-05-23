@@ -2,47 +2,48 @@
   "page": 317,
   "image": "/books/page 317.png",
   "imageApiPath": "/api/books/page%20317.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 165,
+    "regionCount": 4,
+    "wordCount": 126,
     "imageWidth": 1259,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r2",
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Milk is the best food there is for babies. It is good for children and for older people too. It has in it fat, which gives energy, and it has the most important of the materials needed for building up our bodies. Milk makes strong bones and strong teeth too. It is good for a child to drink two or three glasses of it every day.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.2,
       "id": "r1",
       "order": 0,
-      "text": "Milk is the best food there is for babies. It is good for children and for older people too. It has in it fat, which gives energy, and it has the most important of the ma- terials needed for building up our bodies. Milk makes strong bones and strong teeth too. It is good for a child to drink two or three glasses of it every day.",
-      "x": 0.1001,
-      "y": 0.042,
-      "w": 0.784,
-      "h": 0.1571,
       "words": [
         "Milk",
         "is",
@@ -79,8 +80,7 @@
         "important",
         "of",
         "the",
-        "ma-",
-        "terials",
+        "materials",
         "needed",
         "for",
         "building",
@@ -111,18 +111,16 @@
         "it",
         "every",
         "day."
-      ],
-      "conf": 96.4745,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "In addition, milk has in it most of the vitamins which are needed to keep us healthy. Vitamins are a discovery of this century. A hundred years ago no one knew anything about them.",
+      "x": 0.1,
+      "y": 0.5,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r2",
       "order": 1,
-      "text": "In addition, milk has in it most of the vitamins which are",
-      "x": 0.0961,
-      "y": 0.4825,
-      "w": 0.7847,
-      "h": 0.0258,
       "words": [
         "In",
         "addition,",
@@ -135,20 +133,7 @@
         "the",
         "vitamins",
         "which",
-        "are"
-      ],
-      "conf": 96.2883,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "needed to keep us healthy. Vitamins are a discovery of this century. A hundred years ago no one knew anything about them.",
-      "x": 0.0985,
-      "y": 0.5116,
-      "w": 0.7816,
-      "h": 0.0699,
-      "words": [
+        "are",
         "needed",
         "to",
         "keep",
@@ -171,203 +156,55 @@
         "anything",
         "about",
         "them."
-      ],
-      "conf": 96.6522,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "feo: In addition. After the addition of one thing to another we hove the one and the other foo, bulid: putting vp a is building It. We can bulid houses with drinks toke in by mouth, toke a drink.",
-      "x": 0.0977,
-      "y": 0.6896,
-      "w": 0.7824,
-      "h": 0.1039,
+      "text": "too: in addition. energy: power. build: putting up a building. drink: take in by mouth. know: have knowledge of.",
+      "x": 0.1,
+      "y": 0.72,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r3",
+      "order": 2,
       "words": [
-        "feo:",
-        "In",
+        "too:",
+        "in",
         "addition.",
-        "After",
-        "the",
-        "addition",
-        "of",
-        "one",
-        "thing",
-        "to",
-        "another",
-        "we",
-        "hove",
-        "the",
-        "one",
-        "and",
-        "the",
-        "other",
-        "foo,",
-        "bulid:",
+        "energy:",
+        "power.",
+        "build:",
         "putting",
-        "vp",
+        "up",
         "a",
-        "is",
-        "building",
-        "It.",
-        "We",
-        "can",
-        "bulid",
-        "houses",
-        "with",
-        "drinks",
-        "toke",
+        "building.",
+        "drink:",
+        "take",
         "in",
         "by",
-        "mouth,",
-        "toke",
-        "a",
-        "drink."
-      ],
-      "conf": 93.4149,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "wood and bodies with food.",
-      "x": 0.1501,
-      "y": 0.7601,
-      "w": 0.2955,
-      "h": 0.0134,
-      "words": [
-        "wood",
-        "and",
-        "bodies",
-        "with",
-        "food."
-      ],
-      "conf": 96.3136,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "know: have knowledge of.",
-      "x": 0.0993,
-      "y": 0.7945,
-      "w": 0.2883,
-      "h": 0.0167,
-      "words": [
+        "mouth.",
         "know:",
         "have",
         "knowledge",
         "of."
-      ],
-      "conf": 95.2525,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "will drink",
-      "x": 0.0985,
-      "y": 0.8424,
-      "w": 0.1144,
-      "h": 0.0134,
+      "text": "FUTURE: will build/drink/know. PRESENT: build(s)/drink(s)/know(s). PAST: built/drank,drunk/knew,known.",
+      "x": 0.1,
+      "y": 0.88,
+      "w": 0.85,
+      "h": 0.08,
+      "id": "r4",
+      "order": 3,
       "words": [
+        "FUTURE:",
         "will",
-        "drink"
-      ],
-      "conf": 95.2515,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "will bulld",
-      "x": 0.0993,
-      "y": 0.8252,
-      "w": 0.1104,
-      "h": 0.0129,
-      "words": [
-        "will",
-        "bulld"
-      ],
-      "conf": 82.4223,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "bulld(s) will know",
-      "x": 0.0993,
-      "y": 0.8252,
-      "w": 0.4376,
-      "h": 0.0478,
-      "words": [
-        "bulld(s)",
-        "will",
-        "know"
-      ],
-      "conf": 63.1538,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "built know, known",
-      "x": 0.7204,
-      "y": 0.8252,
-      "w": 0.1604,
-      "h": 0.0489,
-      "words": [
-        "built",
-        "know,",
-        "known"
-      ],
-      "conf": 93.7964,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "know (s)",
-      "x": 0.4337,
-      "y": 0.8575,
-      "w": 0.108,
-      "h": 0.021,
-      "words": [
-        "know",
-        "(s)"
-      ],
-      "conf": 83.1403,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "drink (s)",
-      "x": 0.4345,
-      "y": 0.8429,
-      "w": 0.1017,
-      "h": 0.0161,
-      "words": [
-        "drink",
-        "(s)"
-      ],
-      "conf": 85.7574,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "drank, druak",
-      "x": 0.7212,
-      "y": 0.8402,
-      "w": 0.1628,
-      "h": 0.021,
-      "words": [
-        "drank,",
-        "druak"
-      ],
-      "conf": 91.7233,
-      "source": "psm-11"
+        "build/drink/know.",
+        "PRESENT:",
+        "build(s)/drink(s)/know(s).",
+        "PAST:",
+        "built/drank,drunk/knew,known."
+      ]
     }
   ]
 }

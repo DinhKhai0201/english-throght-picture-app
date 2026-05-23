@@ -2,10 +2,10 @@
   "page": 122,
   "image": "/books/page 122.png",
   "imageApiPath": "/api/books/page%20122.png",
-  "layout": "quad",
+  "layout": "grid-4x2",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 78,
+    "regionCount": 14,
+    "wordCount": 73,
     "imageWidth": 1142,
     "imageHeight": 1875
   },
@@ -20,7 +20,7 @@
       "regionIds": [
         "r2",
         "r3",
-        "r4"
+        "r5"
       ]
     },
     {
@@ -32,8 +32,9 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r5",
-        "r6"
+        "r4",
+        "r7",
+        "r8"
       ]
     },
     {
@@ -44,10 +45,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r9",
-        "r11",
-        "r13"
+        "r6",
+        "r10",
+        "r12"
       ]
     },
     {
@@ -58,57 +58,49 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r10",
-        "r12"
+        "r9",
+        "r11",
+        "r13",
+        "r14"
       ]
     }
   ],
   "regions": [
     {
+      "text": "QUESTIONS",
+      "x": 0.4,
+      "y": 0.08,
+      "w": 0.2,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "QUESTIONS a Where are the b What are these?",
-      "x": 0.2058,
-      "y": 0.0795,
-      "w": 0.655,
-      "h": 0.0624,
       "words": [
-        "QUESTIONS",
-        "a",
+        "QUESTIONS"
+      ]
+    },
+    {
+      "text": "Where are the women?",
+      "x": 0.22,
+      "y": 0.12,
+      "w": 0.25,
+      "h": 0.05,
+      "id": "r2",
+      "order": 1,
+      "words": [
         "Where",
         "are",
         "the",
-        "b",
-        "What",
-        "are",
-        "these?"
-      ],
-      "conf": 96.6983,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "women?",
-      "x": 0.2443,
-      "y": 0.1419,
-      "w": 0.1331,
-      "h": 0.0181,
-      "words": [
         "women?"
-      ],
-      "conf": 95.9537,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "What has one woman in her hands?",
+      "x": 0.12,
+      "y": 0.3,
+      "w": 0.35,
+      "h": 0.05,
       "id": "r3",
       "order": 2,
-      "text": "What has one woman in her hands?",
-      "x": 0.1252,
-      "y": 0.2901,
-      "w": 0.3529,
-      "h": 0.0448,
       "words": [
         "What",
         "has",
@@ -117,56 +109,78 @@
         "in",
         "her",
         "hands?"
-      ],
-      "conf": 96.4007,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "What are these?",
+      "x": 0.58,
+      "y": 0.12,
+      "w": 0.3,
+      "h": 0.03,
       "id": "r4",
       "order": 3,
+      "words": [
+        "What",
+        "are",
+        "these?"
+      ]
+    },
+    {
       "text": "What is the girl doing?",
-      "x": 0.0911,
-      "y": 0.4272,
-      "w": 0.2706,
-      "h": 0.0726,
+      "x": 0.09,
+      "y": 0.45,
+      "w": 0.3,
+      "h": 0.05,
+      "id": "r5",
+      "order": 4,
       "words": [
         "What",
         "is",
         "the",
         "girl",
         "doing?"
-      ],
-      "conf": 96.5412,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "d Where will she put the apple?",
-      "x": 0.5438,
-      "y": 0.4101,
-      "w": 0.3503,
-      "h": 0.0502,
+      "text": "Where is the apple?",
+      "x": 0.1,
+      "y": 0.56,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r6",
+      "order": 5,
       "words": [
-        "d",
+        "Where",
+        "is",
+        "the",
+        "apple?"
+      ]
+    },
+    {
+      "text": "Where will she put the apple?",
+      "x": 0.55,
+      "y": 0.41,
+      "w": 0.35,
+      "h": 0.05,
+      "id": "r7",
+      "order": 6,
+      "words": [
         "Where",
         "will",
         "she",
         "put",
         "the",
         "apple?"
-      ],
-      "conf": 96.0945,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
       "text": "Where was it before she took it?",
-      "x": 0.5849,
-      "y": 0.4608,
-      "w": 0.3424,
-      "h": 0.0459,
+      "x": 0.55,
+      "y": 0.46,
+      "w": 0.38,
+      "h": 0.05,
+      "id": "r8",
+      "order": 7,
       "words": [
         "Where",
         "was",
@@ -175,52 +189,31 @@
         "she",
         "took",
         "it?"
-      ],
-      "conf": 96.0285,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "(See pages",
-      "x": 0.5902,
-      "y": 0.5147,
-      "w": 0.1778,
-      "h": 0.0235,
-      "words": [
-        "(See",
-        "pages"
-      ],
-      "conf": 96.4204,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "Where is the apple?",
-      "x": 0.1033,
-      "y": 0.5605,
-      "w": 0.3266,
-      "h": 0.0256,
-      "words": [
-        "Where",
-        "is",
-        "the",
-        "apple?"
-      ],
-      "conf": 96.3627,
-      "source": "psm-11"
-    },
-    {
+      "text": "(See pages 82-83)",
+      "x": 0.55,
+      "y": 0.51,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r9",
       "order": 8,
-      "text": "e What are some different sorts of food?",
-      "x": 0.1217,
-      "y": 0.6395,
-      "w": 0.3118,
-      "h": 0.0704,
       "words": [
-        "e",
+        "(See",
+        "pages",
+        "82-83)"
+      ]
+    },
+    {
+      "text": "What are some different sorts of food?",
+      "x": 0.15,
+      "y": 0.64,
+      "w": 0.3,
+      "h": 0.08,
+      "id": "r10",
+      "order": 9,
+      "words": [
         "What",
         "are",
         "some",
@@ -228,20 +221,17 @@
         "sorts",
         "of",
         "food?"
-      ],
-      "conf": 94.8935,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "f What are some different sorts of animals?",
-      "x": 0.5648,
-      "y": 0.6405,
-      "w": 0.3091,
-      "h": 0.0699,
+      "text": "What are some different sorts of animals?",
+      "x": 0.58,
+      "y": 0.64,
+      "w": 0.3,
+      "h": 0.08,
+      "id": "r11",
+      "order": 10,
       "words": [
-        "f",
         "What",
         "are",
         "some",
@@ -249,41 +239,35 @@
         "sorts",
         "of",
         "animals?"
-      ],
-      "conf": 93.5911,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "g What are some different sorts of Fruits?",
-      "x": 0.1156,
-      "y": 0.792,
-      "w": 0.3117,
-      "h": 0.0714,
+      "text": "What are some different sorts of fruits?",
+      "x": 0.15,
+      "y": 0.79,
+      "w": 0.3,
+      "h": 0.08,
+      "id": "r12",
+      "order": 11,
       "words": [
-        "g",
         "What",
         "are",
         "some",
         "different",
         "sorts",
         "of",
-        "Fruits?"
-      ],
-      "conf": 95.4634,
-      "source": "psm-11"
+        "fruits?"
+      ]
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "h What are some different sorts of persons?",
-      "x": 0.5639,
-      "y": 0.7941,
-      "w": 0.3083,
-      "h": 0.0763,
+      "text": "What are some different sorts of persons?",
+      "x": 0.58,
+      "y": 0.79,
+      "w": 0.3,
+      "h": 0.08,
+      "id": "r13",
+      "order": 12,
       "words": [
-        "h",
         "What",
         "are",
         "some",
@@ -291,26 +275,23 @@
         "sorts",
         "of",
         "persons?"
-      ],
-      "conf": 95.7307,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r13",
-      "order": 12,
-      "text": "Answers are on page",
-      "x": 0.31,
-      "y": 0.888,
-      "w": 0.3398,
-      "h": 0.024,
+      "text": "Answers are on page 120.",
+      "x": 0.3,
+      "y": 0.89,
+      "w": 0.4,
+      "h": 0.03,
+      "id": "r14",
+      "order": 13,
       "words": [
         "Answers",
         "are",
         "on",
-        "page"
-      ],
-      "conf": 96.1301,
-      "source": "psm-11"
+        "page",
+        "120."
+      ]
     }
   ]
 }

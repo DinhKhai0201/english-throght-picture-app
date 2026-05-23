@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Newton, who was born the year that Galileo died (1642), took the new line of thought much farther. Like Galileo he became a great watcher and recorder.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.25 },
-    { "text": "He asked the question 'how,' more than 'why,' answering by measuring and recording and comparing and proving. He saw the universe as a great machine.", "x": 0.1, "y": 0.3, "w": 0.45, "h": 0.2 },
-    { "text": "He was able to put into words great natural laws. comparing: finding how things are the same or different. law: statements backed by power. natural: not made by man. natural law: statement of causes and effects.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.3 },
-    { "text": "FUTURE: will compare/break. PRESENT: compare(s)/break(s). PAST: compared/broke, broken.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
-  ]
-}

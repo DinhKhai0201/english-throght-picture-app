@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Christopher Columbus has gone down in history as the man who discovered America. He was looking for a way of getting to the East by sailing west.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "It was hard for him to get help for this journey. He was laughed at by most people when he said he could go this way to India because the earth was round.", "x": 0.1, "y": 0.15, "w": 0.85, "h": 0.12 },
-    { "text": "This is the sort of ship Columbus sailed in. He made use of a half-hour sand glass for measuring time at sea. The glasses had to be turned every half-hour.", "x": 0.1, "y": 0.3, "w": 0.6, "h": 0.25 },
-    { "text": "gone down: been given a place. When a person's name goes down in history something he has done is recorded in history books. could: would be able to.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
-  ]
-}

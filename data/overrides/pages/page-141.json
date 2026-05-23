@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "This is a letter: a. These are letters: a, b, c. This is a word: man. Three letters make the word man. The man is writing a letter. He is writing on paper with a pen.", "x": 0.12, "y": 0.08, "w": 0.4, "h": 0.25 },
-    { "text": "This is the letter: It is in Mr. Roe's writing. Mr. Roe will send the letter to Mr. Doe.", "x": 0.55, "y": 0.36, "w": 0.4, "h": 0.12 },
-    { "text": "Here is the letter ready for the post. Here is the stamp. Mr. Doe's name and street and town are on the letter. Mass. is short for Massachusetts. Middlefield is in Massachusetts.", "x": 0.12, "y": 0.51, "w": 0.4, "h": 0.45 },
-    { "text": "This is the back of the letter. Mr. Roe's name, and the town where he is living are on the back of the letter. Me. is short for Maine. Bar Harbor is in Maine. Massachusetts and Maine are two states of the United States of America.", "x": 0.54, "y": 0.51, "w": 0.4, "h": 0.45 }
-  ]
-}

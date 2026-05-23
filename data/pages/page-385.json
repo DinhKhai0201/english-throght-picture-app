@@ -2,46 +2,48 @@
   "page": 385,
   "image": "/books/page 385.png",
   "imageApiPath": "/api/books/page%20385.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 156,
+    "regionCount": 4,
+    "wordCount": 154,
     "imageWidth": 1225,
     "imageHeight": 1842
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "But for another two thousand years most men went on thinking that the earth was flat like a large plate with the sun and stars journeying round it. How was the idea that the earth is not flat but round like a ball proved true in the end?",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "But for another two thousand years most men went on thinking that the earth was flat like a large plate with the sun and stars journeying round it.",
-      "x": 0.0914,
-      "y": 0.0342,
-      "w": 0.8073,
-      "h": 0.0771,
       "words": [
         "But",
         "for",
@@ -70,20 +72,7 @@
         "stars",
         "journeying",
         "round",
-        "it."
-      ],
-      "conf": 96.3662,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "How was the idea that the earth is not flat but round like a ball proved true in the end?",
-      "x": 0.0914,
-      "y": 0.139,
-      "w": 0.809,
-      "h": 0.0505,
-      "words": [
+        "it.",
         "How",
         "was",
         "the",
@@ -104,18 +93,16 @@
         "in",
         "the",
         "end?"
-      ],
-      "conf": 96.5002,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "Sailing men went out in their ships to find a way by water from Europe to India and China. Though some ships from the north of Europe had sailed west to parts of America in the tenth century, most of Eu- rope had no knowledge of the land across the Atlantic.",
-      "x": 0.0914,
-      "y": 0.2204,
-      "w": 0.8114,
-      "h": 0.2568,
+      "text": "Sailing men went out in their ships to find a way by water from Europe to India and China. Though some ships from the north of Europe had sailed west to parts of America in the tenth century, most of Europe had no knowledge of the land across the Atlantic.",
+      "x": 0.1,
+      "y": 0.22,
+      "w": 0.85,
+      "h": 0.2,
+      "id": "r2",
+      "order": 1,
       "words": [
         "Sailing",
         "men",
@@ -157,8 +144,7 @@
         "century,",
         "most",
         "of",
-        "Eu-",
-        "rope",
+        "Europe",
         "had",
         "no",
         "knowledge",
@@ -168,60 +154,16 @@
         "across",
         "the",
         "Atlantic."
-      ],
-      "conf": 96.6359,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "TIBET",
-      "x": 0.658,
-      "y": 0.4891,
-      "w": 0.0653,
-      "h": 0.0114,
-      "words": [
-        "TIBET"
-      ],
-      "conf": 95.8251,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "CHINA",
-      "x": 0.7739,
-      "y": 0.4984,
-      "w": 0.0792,
-      "h": 0.0114,
-      "words": [
-        "CHINA"
-      ],
-      "conf": 95.3184,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "ARAB!",
-      "x": 0.3976,
-      "y": 0.5217,
-      "w": 0.0563,
-      "h": 0.0119,
-      "words": [
-        "ARAB!"
-      ],
-      "conf": 43.4477,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "Men like Marco Polo had gone east to India and China, went sailing west with the idea that he could get round to",
-      "x": 0.0996,
-      "y": 0.6574,
-      "w": 0.8082,
-      "h": 0.0765,
+      "text": "Men like Marco Polo had gone east to India and China, much of the way by land, long before Columbus, in 1492, went sailing west with the idea that he could get round to the Far East by water.",
+      "x": 0.1,
+      "y": 0.65,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r3",
+      "order": 2,
       "words": [
         "Men",
         "like",
@@ -234,6 +176,17 @@
         "India",
         "and",
         "China,",
+        "much",
+        "of",
+        "the",
+        "way",
+        "by",
+        "land,",
+        "long",
+        "before",
+        "Columbus,",
+        "in",
+        "1492,",
         "went",
         "sailing",
         "west",
@@ -245,63 +198,22 @@
         "could",
         "get",
         "round",
-        "to"
-      ],
-      "conf": 96.4269,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "much of the way by land, long before Columbus, in the Far East by water.",
-      "x": 0.0996,
-      "y": 0.684,
-      "w": 0.7175,
-      "h": 0.075,
-      "words": [
-        "much",
-        "of",
-        "the",
-        "way",
-        "by",
-        "land,",
-        "long",
-        "before",
-        "Columbus,",
-        "in",
+        "to",
         "the",
         "Far",
         "East",
         "by",
         "water."
-      ],
-      "conf": 96.5564,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "though: even if.",
-      "x": 0.0955,
-      "y": 0.8284,
-      "w": 0.191,
-      "h": 0.0157,
-      "words": [
-        "though:",
-        "even",
-        "if."
-      ],
-      "conf": 95.2212,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "to find: to look for and discover or come upon.",
-      "x": 0.0971,
-      "y": 0.8094,
-      "w": 0.5167,
-      "h": 0.0179,
+      "text": "to find: to look for and discover. though: even if. FUTURE: will find. PRESENT: find(s). PAST: found.",
+      "x": 0.1,
+      "y": 0.85,
+      "w": 0.85,
+      "h": 0.08,
+      "id": "r4",
+      "order": 3,
       "words": [
         "to",
         "find:",
@@ -309,42 +221,18 @@
         "look",
         "for",
         "and",
-        "discover",
-        "or",
-        "come",
-        "upon."
-      ],
-      "conf": 93.5665,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "will find",
-      "x": 0.0988,
-      "y": 0.8594,
-      "w": 0.1004,
-      "h": 0.013,
-      "words": [
+        "discover.",
+        "though:",
+        "even",
+        "if.",
+        "FUTURE:",
         "will",
-        "find"
-      ],
-      "conf": 96.396,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "find(s)",
-      "x": 0.4555,
-      "y": 0.8605,
-      "w": 0.0873,
-      "h": 0.0163,
-      "words": [
-        "find(s)"
-      ],
-      "conf": 87.6993,
-      "source": "psm-11"
+        "find.",
+        "PRESENT:",
+        "find(s).",
+        "PAST:",
+        "found."
+      ]
     }
   ]
 }

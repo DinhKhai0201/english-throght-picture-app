@@ -2,27 +2,57 @@
   "page": 72,
   "image": "/books/page 72.png",
   "imageApiPath": "/api/books/page%2072.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
     "regionCount": 8,
-    "wordCount": 40,
+    "wordCount": 41,
     "imageWidth": 1288,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r2",
         "r3",
-        "r4",
-        "r5",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r6",
         "r7",
         "r8"
@@ -31,49 +61,13 @@
   ],
   "regions": [
     {
+      "text": "John is coming into the room again.",
+      "x": 0.15,
+      "y": 0.38,
+      "w": 0.35,
+      "h": 0.05,
       "id": "r1",
       "order": 0,
-      "text": "He came into the room.",
-      "x": 0.5458,
-      "y": 0.0864,
-      "w": 0.3307,
-      "h": 0.0187,
-      "words": [
-        "He",
-        "came",
-        "into",
-        "the",
-        "room."
-      ],
-      "conf": 95.9504,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "He went to the table.",
-      "x": 0.5458,
-      "y": 0.1115,
-      "w": 0.2981,
-      "h": 0.0187,
-      "words": [
-        "He",
-        "went",
-        "to",
-        "the",
-        "table."
-      ],
-      "conf": 96.6731,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "John is coming into the room again.",
-      "x": 0.1537,
-      "y": 0.3877,
-      "w": 0.3276,
-      "h": 0.0486,
       "words": [
         "John",
         "is",
@@ -82,35 +76,63 @@
         "the",
         "room",
         "again."
-      ],
-      "conf": 96.3939,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "He came into the room.",
+      "x": 0.54,
+      "y": 0.08,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r2",
+      "order": 1,
+      "words": [
+        "He",
+        "came",
+        "into",
+        "the",
+        "room."
+      ]
+    },
+    {
+      "text": "He went to the table.",
+      "x": 0.54,
+      "y": 0.11,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "He",
+        "went",
+        "to",
+        "the",
+        "table."
+      ]
+    },
+    {
+      "text": "He is there now.",
+      "x": 0.57,
+      "y": 0.43,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r4",
       "order": 3,
-      "text": "He is there now.",
-      "x": 0.5784,
-      "y": 0.4357,
-      "w": 0.2298,
-      "h": 0.0192,
       "words": [
         "He",
         "is",
         "there",
         "now."
-      ],
-      "conf": 96.332,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "The hat is not on the table.",
+      "x": 0.15,
+      "y": 0.53,
+      "w": 0.35,
+      "h": 0.05,
       "id": "r5",
       "order": 4,
-      "text": "The hat is not on the table.",
-      "x": 0.1576,
-      "y": 0.5349,
-      "w": 0.2888,
-      "h": 0.0443,
       "words": [
         "The",
         "hat",
@@ -119,60 +141,53 @@
         "on",
         "the",
         "table."
-      ],
-      "conf": 95.8095,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "He is saying,",
+      "x": 0.57,
+      "y": 0.52,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r6",
       "order": 5,
-      "text": "He is saying,",
-      "x": 0.5707,
-      "y": 0.5211,
-      "w": 0.1801,
-      "h": 0.0224,
       "words": [
         "He",
         "is",
         "saying,"
-      ],
-      "conf": 96.6419,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "Where is my hat?",
+      "x": 0.59,
+      "y": 0.59,
+      "w": 0.3,
+      "h": 0.03,
       "id": "r7",
       "order": 6,
-      "text": "Where is my hat?",
-      "x": 0.5924,
-      "y": 0.5904,
-      "w": 0.2593,
-      "h": 0.0235,
       "words": [
         "Where",
         "is",
         "my",
         "hat?"
-      ],
-      "conf": 76.4116,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "I put it on the table.",
+      "x": 0.58,
+      "y": 0.62,
+      "w": 0.3,
+      "h": 0.03,
       "id": "r8",
       "order": 7,
-      "text": "put it on the table.",
-      "x": 0.6009,
-      "y": 0.6235,
-      "w": 0.2663,
-      "h": 0.024,
       "words": [
+        "I",
         "put",
         "it",
         "on",
         "the",
         "table."
-      ],
-      "conf": 94.3928,
-      "source": "psm-11"
+      ]
     }
   ]
 }

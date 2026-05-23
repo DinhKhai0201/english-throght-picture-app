@@ -2,43 +2,57 @@
   "page": 423,
   "image": "/books/page 423.png",
   "imageApiPath": "/api/books/page%20423.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 9,
-    "wordCount": 91,
+    "regionCount": 3,
+    "wordCount": 68,
     "imageWidth": 1242,
     "imageHeight": 1850
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9"
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
       ]
     }
   ],
   "regions": [
     {
+      "text": "All our lives we need other people. In many parts of the world families do everything for themselves. Until the nineteenth century families were self-supporting.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.2,
       "id": "r1",
       "order": 0,
-      "text": "All our lives we need other people.",
-      "x": 0.0862,
-      "y": 0.0314,
-      "w": 0.4734,
-      "h": 0.0259,
       "words": [
         "All",
         "our",
@@ -46,20 +60,7 @@
         "we",
         "need",
         "other",
-        "people."
-      ],
-      "conf": 96.5757,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "In many parts of the world families do everything for themselves.",
-      "x": 0.0878,
-      "y": 0.0822,
-      "w": 0.7907,
-      "h": 0.0465,
-      "words": [
+        "people.",
         "In",
         "many",
         "parts",
@@ -70,128 +71,41 @@
         "do",
         "everything",
         "for",
-        "themselves."
-      ],
-      "conf": 96.5117,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "Until the nineteenth century this was true almost every- where outside the cities. Families were self-supporting.",
-      "x": 0.087,
-      "y": 0.1632,
-      "w": 0.7915,
-      "h": 0.0601,
-      "words": [
+        "themselves.",
         "Until",
         "the",
         "nineteenth",
         "century",
-        "this",
-        "was",
-        "true",
-        "almost",
-        "every-",
-        "where",
-        "outside",
-        "the",
-        "cities.",
-        "Families",
+        "families",
         "were",
         "self-supporting."
-      ],
-      "conf": 95.847,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "They grew the food they needed,",
-      "x": 0.0886,
-      "y": 0.2427,
-      "w": 0.4348,
-      "h": 0.0227,
+      "text": "They grew their food, built their houses, made their clothing and furniture, candles for lighting, and plows and carts for work on the farm.",
+      "x": 0.1,
+      "y": 0.25,
+      "w": 0.5,
+      "h": 0.5,
+      "id": "r2",
+      "order": 1,
       "words": [
         "They",
         "grew",
-        "the",
-        "food",
-        "they",
-        "needed,"
-      ],
-      "conf": 96.6274,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "built their own houses, and",
-      "x": 0.0894,
-      "y": 0.347,
-      "w": 0.38,
-      "h": 0.0211,
-      "words": [
+        "their",
+        "food,",
         "built",
         "their",
-        "own",
         "houses,",
-        "and"
-      ],
-      "conf": 96.4479,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "made their own clothing and furniture,",
-      "x": 0.091,
-      "y": 0.4643,
-      "w": 0.5209,
-      "h": 0.0222,
-      "words": [
         "made",
         "their",
-        "own",
         "clothing",
         "and",
-        "furniture,"
-      ],
-      "conf": 96.1647,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "the candles for lighting the rooms at night,",
-      "x": 0.0926,
-      "y": 0.5827,
-      "w": 0.4847,
-      "h": 0.047,
-      "words": [
-        "the",
+        "furniture,",
         "candles",
         "for",
-        "lighting",
-        "the",
-        "rooms",
-        "at",
-        "night,"
-      ],
-      "conf": 96.3102,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "and the plows and carts for work on the farm by day...",
-      "x": 0.091,
-      "y": 0.7124,
-      "w": 0.4758,
-      "h": 0.0487,
-      "words": [
+        "lighting,",
         "and",
-        "the",
         "plows",
         "and",
         "carts",
@@ -199,21 +113,17 @@
         "work",
         "on",
         "the",
-        "farm",
-        "by",
-        "day..."
-      ],
-      "conf": 96.4522,
-      "source": "psm-11"
+        "farm."
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "In every way they took care of them- selves. Living like this, a family is very like a simple organism.",
-      "x": 0.0958,
-      "y": 0.7924,
-      "w": 0.5169,
-      "h": 0.0747,
+      "text": "In every way they took care of themselves. Living like this, a family is very like a simple organism.",
+      "x": 0.1,
+      "y": 0.8,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r3",
+      "order": 2,
       "words": [
         "In",
         "every",
@@ -222,8 +132,7 @@
         "took",
         "care",
         "of",
-        "them-",
-        "selves.",
+        "themselves.",
         "Living",
         "like",
         "this,",
@@ -235,9 +144,7 @@
         "a",
         "simple",
         "organism."
-      ],
-      "conf": 95.4323,
-      "source": "psm-11"
+      ]
     }
   ]
 }

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "The light comes from here. But it seems to come from here.", "x": 0.1, "y": 0.28, "w": 0.38, "h": 0.15 },
-    { "text": "The part of the pencil which is under the water seems to be where it is not.", "x": 0.52, "y": 0.31, "w": 0.4, "h": 0.1 },
-    { "text": "The light from the pencil is bent here. It comes out of the water here. The point of the pencil seems to be here. It is here.", "x": 0.1, "y": 0.49, "w": 0.38, "h": 0.42 },
-    { "text": "Here is your eye. The light is bent where it comes out of the water.", "x": 0.52, "y": 0.49, "w": 0.4, "h": 0.4 }
-  ]
-}

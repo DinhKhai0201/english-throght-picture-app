@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "What were some other great discoveries? One of them was fire. Smoke Fire is of very great use to men. It gives us heat.", "x": 0.12, "y": 0.09, "w": 0.35, "h": 0.35 },
-    { "text": "Another great discovery was the wheel. Wheels are round. They go round. A cart They are of very great use to man.", "x": 0.54, "y": 0.09, "w": 0.38, "h": 0.35 },
-    { "text": "Another great discovery was clothing. What are these? These are some other sorts of clothing. A skirt A shirt", "x": 0.1, "y": 0.51, "w": 0.4, "h": 0.4 },
-    { "text": "The making of cloth was a great discovery. This is how we make cloth. These are threads. (See page 167.) They go across from one side to the other of a frame.", "x": 0.54, "y": 0.54, "w": 0.38, "h": 0.38 }
-  ]
-}

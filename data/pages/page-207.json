@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20207.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 110,
+    "regionCount": 4,
+    "wordCount": 117,
     "imageWidth": 1242,
     "imageHeight": 1884
   },
@@ -18,10 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3",
-        "r5",
-        "r7"
+        "r1"
       ]
     },
     {
@@ -32,21 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r4"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r6",
-        "r9",
-        "r12"
+        "r2"
       ]
     },
     {
@@ -57,22 +40,59 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r10",
-        "r11",
-        "r13"
+        "r3",
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "All bodies have an attraction for one another. If the bodies are great the attraction between them is great. If the bodies are small the attraction is small.",
+      "x": 0.1,
+      "y": 0.12,
+      "w": 0.38,
+      "h": 0.32,
       "id": "r1",
       "order": 0,
-      "text": "If the bodies go farther from one another the attraction gets smaller.",
-      "x": 0.5282,
-      "y": 0.0929,
-      "w": 0.3438,
-      "h": 0.0706,
+      "words": [
+        "All",
+        "bodies",
+        "have",
+        "an",
+        "attraction",
+        "for",
+        "one",
+        "another.",
+        "If",
+        "the",
+        "bodies",
+        "are",
+        "great",
+        "the",
+        "attraction",
+        "between",
+        "them",
+        "is",
+        "great.",
+        "If",
+        "the",
+        "bodies",
+        "are",
+        "small",
+        "the",
+        "attraction",
+        "is",
+        "small."
+      ]
+    },
+    {
+      "text": "If the bodies go farther from one another the attraction gets smaller. Distance Attraction 1 1 2 1/4 3 1/9 4 1/16 5 1/25",
+      "x": 0.52,
+      "y": 0.09,
+      "w": 0.4,
+      "h": 0.38,
+      "id": "r2",
+      "order": 1,
       "words": [
         "If",
         "the",
@@ -85,189 +105,57 @@
         "the",
         "attraction",
         "gets",
-        "smaller."
-      ],
-      "conf": 95.7644,
-      "source": "psm-11"
+        "smaller.",
+        "Distance",
+        "Attraction",
+        "1",
+        "1",
+        "2",
+        "1/4",
+        "3",
+        "1/9",
+        "4",
+        "1/16",
+        "5",
+        "1/25"
+      ]
     },
     {
-      "id": "r2",
-      "order": 1,
-      "text": "All bodies have an attraction for one another.",
-      "x": 0.1651,
-      "y": 0.1285,
-      "w": 0.2746,
-      "h": 0.0673,
-      "words": [
-        "All",
-        "bodies",
-        "have",
-        "an",
-        "attraction",
-        "for",
-        "one",
-        "another."
-      ],
-      "conf": 95.9369,
-      "source": "psm-11"
-    },
-    {
+      "text": "Here is a light. It sends out light in every direction. Here is a square.",
+      "x": 0.15,
+      "y": 0.5,
+      "w": 0.7,
+      "h": 0.12,
       "id": "r3",
       "order": 2,
-      "text": "Or +O If the bodies are great the attraction between them is great.",
-      "x": 0.12,
-      "y": 0.2208,
-      "w": 0.3486,
-      "h": 0.1508,
-      "words": [
-        "Or",
-        "+O",
-        "If",
-        "the",
-        "bodies",
-        "are",
-        "great",
-        "the",
-        "attraction",
-        "between",
-        "them",
-        "is",
-        "great."
-      ],
-      "conf": 72.4601,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "Distance Attraction",
-      "x": 0.5507,
-      "y": 0.311,
-      "w": 0.31,
-      "h": 0.018,
-      "words": [
-        "Distance",
-        "Attraction"
-      ],
-      "conf": 86.0626,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "If the bodies are small the attraction is small.",
-      "x": 0.1393,
-      "y": 0.4124,
-      "w": 0.3229,
-      "h": 0.0436,
-      "words": [
-        "If",
-        "the",
-        "bodies",
-        "are",
-        "small",
-        "the",
-        "attraction",
-        "is",
-        "small."
-      ],
-      "conf": 95.1222,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "Here is a light.",
-      "x": 0.1804,
-      "y": 0.4889,
-      "w": 0.2101,
-      "h": 0.0435,
       "words": [
         "Here",
         "is",
         "a",
-        "light."
-      ],
-      "conf": 94.8146,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "cee eee ct",
-      "x": 0.252,
-      "y": 0.4729,
-      "w": 0.2512,
-      "h": 0.0159,
-      "words": [
-        "cee",
-        "eee",
-        "ct"
-      ],
-      "conf": 50.1705,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "Here is a square",
-      "x": 0.6055,
-      "y": 0.543,
-      "w": 0.2391,
-      "h": 0.0228,
-      "words": [
-        "Here",
-        "is",
-        "a",
-        "square"
-      ],
-      "conf": 96.4728,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "It sends out light in every direction.",
-      "x": 0.1916,
-      "y": 0.5743,
-      "w": 0.2754,
-      "h": 0.0579,
-      "words": [
+        "light.",
         "It",
         "sends",
         "out",
         "light",
         "in",
         "every",
-        "direction."
-      ],
-      "conf": 84.6679,
-      "source": "psm-11"
+        "direction.",
+        "Here",
+        "is",
+        "a",
+        "square."
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "TT",
-      "x": 0.81,
-      "y": 0.6316,
-      "w": 0.0717,
-      "h": 0.0223,
+      "text": "I put the square at different distances from the light. At distance 1, it gets all the light which is going out between the lines. At distance 2, it gets one-fourth of the light. At distance 5, it gets one twenty-fifth. It is the same with the attraction between bodies.",
+      "x": 0.15,
+      "y": 0.75,
+      "w": 0.7,
+      "h": 0.15,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "TT"
-      ],
-      "conf": 50.0343,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "TTT put the square at different distances from the light. At distance it gets all the light which is",
-      "x": 0.1707,
-      "y": 0.7128,
-      "w": 0.711,
-      "h": 0.0914,
-      "words": [
-        "TTT",
+        "I",
         "put",
         "the",
         "square",
@@ -279,26 +167,14 @@
         "light.",
         "At",
         "distance",
+        "1,",
         "it",
         "gets",
         "all",
         "the",
         "light",
         "which",
-        "is"
-      ],
-      "conf": 43.5219,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "going out between the lines. At distance it gets one-fourth of the light. At distance attraction between bodies.",
-      "x": 0.1699,
-      "y": 0.8063,
-      "w": 0.6489,
-      "h": 0.0945,
-      "words": [
+        "is",
         "going",
         "out",
         "between",
@@ -306,6 +182,7 @@
         "lines.",
         "At",
         "distance",
+        "2,",
         "it",
         "gets",
         "one-fourth",
@@ -314,22 +191,7 @@
         "light.",
         "At",
         "distance",
-        "attraction",
-        "between",
-        "bodies."
-      ],
-      "conf": 96.4448,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "it gets one twenty-fifth. It is the same with the",
-      "x": 0.1707,
-      "y": 0.8562,
-      "w": 0.6651,
-      "h": 0.0244,
-      "words": [
+        "5,",
         "it",
         "gets",
         "one",
@@ -339,10 +201,11 @@
         "the",
         "same",
         "with",
-        "the"
-      ],
-      "conf": 95.1947,
-      "source": "psm-11"
+        "the",
+        "attraction",
+        "between",
+        "bodies."
+      ]
     }
   ]
 }

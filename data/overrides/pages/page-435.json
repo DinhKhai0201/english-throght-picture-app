@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "When greetings are questions, the person wants an answer. But most of the time they do not ask for an answer. We do not say 'I am tired' or 'I have a cold'.", "x": 0.1, "y": 0.05, "w": 0.55, "h": 0.15 },
-    { "text": "We say the same thing back: 'How are you?' or 'Hullo!' These words are like a smile or a wave of the hand.", "x": 0.1, "y": 0.25, "w": 0.55, "h": 0.15 },
-    { "text": "We say 'Good morning!' even if the weather is bad. We are not talking about the morning itself. tired: in need of rest. meet: come together with.", "x": 0.1, "y": 0.58, "w": 0.85, "h": 0.25 },
-    { "text": "FUTURE: will meet. PRESENT: meet(s). PAST: met.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.1 }
-  ]
-}

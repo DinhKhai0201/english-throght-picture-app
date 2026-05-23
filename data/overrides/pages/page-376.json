@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Our bodies control themselves in many other ways. For example, the temperature of our bodies (and those of all warm-blooded animals) is controlled; our blood temperature is kept at 98.6 degrees Fahrenheit, or near it.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "BOILING: 212 F / 100 C. BODY: 98.6 F / 37 C. ICE: 32 F / 0 C. -40 F / -40 C.", "x": 0.35, "y": 0.18, "w": 0.55, "h": 0.3 },
-    { "text": "When a person is very ill (sick) some of the automatic controls of his body stop working. His temperature, measured by a Fahrenheit thermometer, may go as high as 103°F or 104°F.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.15 },
-    { "text": "temperature: measure of heat. warm: middle degree of heat. degree: unit of temperature. ill: sick. thermometer: instrument for measuring heat.", "x": 0.1, "y": 0.68, "w": 0.85, "h": 0.2 }
-  ]
-}

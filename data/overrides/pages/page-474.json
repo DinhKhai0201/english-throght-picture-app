@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Automatic doors in hotels use 'electric eyes.' When a person blocks the light, the door opens.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.25 },
-    { "text": "In a bank, an alarm bell rings if someone touches a window. This keeps safes and money protected from thieves.", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.25 },
-    { "text": "Automatic watchers keep offices and stores safe at all times.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.1 },
-    { "text": "ringing: sound of a bell. safe: secure box for money. hotel: place to stay. FUTURE: will ring, touch, break. PRESENT: ring(s), touch(es), break(s). PAST: rang/rung, touched, broke/broken.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.2 }
-  ]
-}

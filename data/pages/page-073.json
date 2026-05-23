@@ -2,124 +2,110 @@
   "page": 73,
   "image": "/books/page 73.png",
   "imageApiPath": "/api/books/page%2073.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 5,
-    "wordCount": 43,
+    "regionCount": 4,
+    "wordCount": 44,
     "imageWidth": 1125,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5"
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "\"Where is my hat? It is not on my head. It isn't here.\"",
+      "x": 0.08,
+      "y": 0.14,
+      "w": 0.4,
+      "h": 0.08,
       "id": "r1",
       "order": 0,
-      "text": "“Where is my hat? It fs pot on my head. It isn’t",
-      "x": 0.0729,
-      "y": 0.1419,
-      "w": 0.376,
-      "h": 0.0713,
       "words": [
-        "“Where",
+        "\"Where",
         "is",
         "my",
         "hat?",
         "It",
-        "fs",
-        "pot",
+        "is",
+        "not",
         "on",
         "my",
         "head.",
         "It",
-        "isn’t"
-      ],
-      "conf": 95.6098,
-      "source": "psm-11"
+        "isn't",
+        "here.\""
+      ]
     },
     {
+      "text": "\"It isn't (is not) here.\"",
+      "x": 0.54,
+      "y": 0.16,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r2",
       "order": 1,
-      "text": "“It isn’t (is not) here.”",
-      "x": 0.5413,
-      "y": 0.1666,
-      "w": 0.3333,
-      "h": 0.0236,
       "words": [
-        "“It",
-        "isn’t",
+        "\"It",
+        "isn't",
         "(is",
         "not)",
-        "here.”"
-      ],
-      "conf": 93.4824,
-      "source": "psm-11"
+        "here.\""
+      ]
     },
     {
+      "text": "\"Where is it? Mary, where is my hat? Where are you, Mary?\"",
+      "x": 0.06,
+      "y": 0.58,
+      "w": 0.4,
+      "h": 0.08,
       "id": "r3",
       "order": 2,
-      "text": "here.”",
-      "x": 0.08,
-      "y": 0.1923,
-      "w": 0.0942,
-      "h": 0.0193,
       "words": [
-        "here.”"
-      ],
-      "conf": 96.1301,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "Here is Mary. She is coming into the room She says, “Here am",
-      "x": 0.5564,
-      "y": 0.542,
-      "w": 0.3422,
-      "h": 0.0751,
-      "words": [
-        "Here",
-        "is",
-        "Mary.",
-        "She",
-        "is",
-        "coming",
-        "into",
-        "the",
-        "room",
-        "She",
-        "says,",
-        "“Here",
-        "am"
-      ],
-      "conf": 96.4027,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "“Where is it? Mary, where is my hat? Where are you, Mary?”",
-      "x": 0.0604,
-      "y": 0.5801,
-      "w": 0.3982,
-      "h": 0.0755,
-      "words": [
-        "“Where",
+        "\"Where",
         "is",
         "it?",
         "Mary,",
@@ -130,10 +116,33 @@
         "Where",
         "are",
         "you,",
-        "Mary?”"
-      ],
-      "conf": 94.9147,
-      "source": "psm-11"
+        "Mary?\""
+      ]
+    },
+    {
+      "text": "Here is Mary. She is coming into the room. She says, \"Here I am.\"",
+      "x": 0.55,
+      "y": 0.54,
+      "w": 0.35,
+      "h": 0.08,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "Here",
+        "is",
+        "Mary.",
+        "She",
+        "is",
+        "coming",
+        "into",
+        "the",
+        "room.",
+        "She",
+        "says,",
+        "\"Here",
+        "I",
+        "am.\""
+      ]
     }
   ]
 }

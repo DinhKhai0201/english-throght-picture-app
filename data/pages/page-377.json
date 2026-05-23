@@ -2,43 +2,48 @@
   "page": 377,
   "image": "/books/page 377.png",
   "imageApiPath": "/api/books/page%20377.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 9,
-    "wordCount": 139,
+    "regionCount": 4,
+    "wordCount": 111,
     "imageWidth": 1188,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "The body has many different ways of keeping itself warm enough and not too warm. It uses up more food, more fuel for the cells, in cold weather. It shivers—that is, its muscles go on making quick little motions to keep it warm.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "The body has many different ways of keeping itself warm enough and not too warm. It uses up more food, mere fuel for the cells, in cold weather. It shivers—that is, its muscles go on making quick little motions to keep it warm. We cannot stop ourselves from shivering. The body’s heating system is not under a man’s conscious control; it is automatic. To stop shivering he has to warm himself some other way: he may run or walk quickly, or take hot drinks, or cover himself up warmly,",
-      "x": 0.0985,
-      "y": 0.0337,
-      "w": 0.8308,
-      "h": 0.2314,
       "words": [
         "The",
         "body",
@@ -60,7 +65,7 @@
         "up",
         "more",
         "food,",
-        "mere",
+        "more",
         "fuel",
         "for",
         "the",
@@ -82,7 +87,18 @@
         "to",
         "keep",
         "it",
-        "warm.",
+        "warm."
+      ]
+    },
+    {
+      "text": "We cannot stop ourselves from shivering. The body’s heating system is automatic. To stop shivering he has to warm himself some other way: he may run or walk quickly, or take hot drinks.",
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r2",
+      "order": 1,
+      "words": [
         "We",
         "cannot",
         "stop",
@@ -93,14 +109,6 @@
         "body’s",
         "heating",
         "system",
-        "is",
-        "not",
-        "under",
-        "a",
-        "man’s",
-        "conscious",
-        "control;",
-        "it",
         "is",
         "automatic.",
         "To",
@@ -123,75 +131,35 @@
         "or",
         "take",
         "hot",
-        "drinks,",
-        "or",
-        "cover",
-        "himself",
-        "up",
-        "warmly,"
-      ],
-      "conf": 96.5862,
-      "source": "psm-11"
+        "drinks."
+      ]
     },
     {
-      "id": "r2",
-      "order": 1,
-      "text": "or use a hot water bottle to warm his bed.",
-      "x": 0.0976,
-      "y": 0.2662,
-      "w": 0.6456,
-      "h": 0.0246,
-      "words": [
-        "or",
-        "use",
-        "a",
-        "hot",
-        "water",
-        "bottle",
-        "to",
-        "warm",
-        "his",
-        "bed."
-      ],
-      "conf": 96.1153,
-      "source": "psm-11"
-    },
-    {
+      "text": "shivering: shaking all over from cold. warm: make warm. hot: very warm. heat: make hotter. We warm our hands at a fire, but we heat water on it.",
+      "x": 0.1,
+      "y": 0.72,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r3",
       "order": 2,
-      "text": "shivering: shaking all over as an effect of cold.",
-      "x": 0.1086,
-      "y": 0.729,
-      "w": 0.5471,
-      "h": 0.0161,
       "words": [
         "shivering:",
         "shaking",
         "all",
         "over",
-        "as",
-        "an",
-        "effect",
-        "of",
-        "cold."
-      ],
-      "conf": 93.5275,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "heah moke hotter, We worm our hands at a fire, but we heat water on R.",
-      "x": 0.1044,
-      "y": 0.7783,
-      "w": 0.8375,
-      "h": 0.0209,
-      "words": [
-        "heah",
-        "moke",
-        "hotter,",
+        "from",
+        "cold.",
+        "warm:",
+        "make",
+        "warm.",
+        "hot:",
+        "very",
+        "warm.",
+        "heat:",
+        "make",
+        "hotter.",
         "We",
-        "worm",
+        "warm",
         "our",
         "hands",
         "at",
@@ -202,90 +170,26 @@
         "heat",
         "water",
         "on",
-        "R."
-      ],
-      "conf": 91.4933,
-      "source": "psm-11"
+        "it."
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "very worm, at a high temperature.",
-      "x": 0.1625,
-      "y": 0.7611,
-      "w": 0.3923,
-      "h": 0.0204,
+      "text": "FUTURE: will shiver/warm/heat. PRESENT: shiver(s)/warm(s)/heat(s). PAST: shivered/warmed/heated.",
+      "x": 0.1,
+      "y": 0.88,
+      "w": 0.85,
+      "h": 0.08,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "very",
-        "worm,",
-        "at",
-        "a",
-        "high",
-        "temperature."
-      ],
-      "conf": 87.6731,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "will shiver will heat",
-      "x": 0.1061,
-      "y": 0.8104,
-      "w": 0.1372,
-      "h": 0.0525,
-      "words": [
+        "FUTURE:",
         "will",
-        "shiver",
-        "will",
-        "heat"
-      ],
-      "conf": 96.6239,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "will warm",
-      "x": 0.1086,
-      "y": 0.8275,
-      "w": 0.1296,
-      "h": 0.0134,
-      "words": [
-        "will",
-        "warm"
-      ],
-      "conf": 94.0579,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "shivered heat{s)",
-      "x": 0.4756,
-      "y": 0.8099,
-      "w": 0.4621,
-      "h": 0.0519,
-      "words": [
-        "shivered",
-        "heat{s)"
-      ],
-      "conf": 92.0265,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "heated",
-      "x": 0.851,
-      "y": 0.8441,
-      "w": 0.0875,
-      "h": 0.0139,
-      "words": [
-        "heated"
-      ],
-      "conf": 94.8578,
-      "source": "psm-11"
+        "shiver/warm/heat.",
+        "PRESENT:",
+        "shiver(s)/warm(s)/heat(s).",
+        "PAST:",
+        "shivered/warmed/heated."
+      ]
     }
   ]
 }

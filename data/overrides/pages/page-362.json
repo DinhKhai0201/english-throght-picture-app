@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Cells are like little flames. A flame needs food. We get a quick flame—for a fire or a cigarette—by lighting a match or using a lighter.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "The flame of the match burns the match and the flame of the lighter burns the liquid in the lighter, if there is air for them to burn in. All fires burn something. What they burn is their fuel. Fuel is food for fire.", "x": 0.1, "y": 0.15, "w": 0.85, "h": 0.25 },
-    { "text": "cigarette: roll of tobacco for smoking. cigarette lighter: box with liquid. tobacco: dried leaves. burn: changed by fire. match: gives flame. fuel: material for fire.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.2 },
-    { "text": "FUTURE: will burn. PRESENT: burn(s). PAST: burned, burnt.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
-  ]
-}

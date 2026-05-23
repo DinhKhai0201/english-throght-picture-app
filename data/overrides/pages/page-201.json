@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "What is the size of the moon? It is two thousand one hundred and sixty (2160) miles through from one side to the other. Is the moon smaller than the earth? Is the earth smaller than the sun? Is the sun greater than the moon?", "x": 0.1, "y": 0.1, "w": 0.38, "h": 0.35 },
-    { "text": "The moon is near the earth. The earth is far from the sun. New York is near Washington. San Francisco is far from Washington. New York-Washington San Francisco", "x": 0.52, "y": 0.1, "w": 0.4, "h": 0.35 },
-    { "text": "Are the stars smaller than the sun? No. Some of the stars are much greater than the sun. Are they nearer than the sun? No, they are much farther than the sun.", "x": 0.1, "y": 0.58, "w": 0.38, "h": 0.3 },
-    { "text": "How far from the earth is the nearest star? It is over four light-years from the earth. What is a light-year? It is the distance which light goes in a year.", "x": 0.52, "y": 0.63, "w": 0.4, "h": 0.25 }
-  ]
-}

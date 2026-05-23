@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "These are the winter months: December, January, February. These are the summer months: June, July, August. These are the spring months: March, April, May. These are the fall months: September, October, November.", "x": 0.12, "y": 0.1, "w": 0.38, "h": 0.35 },
-    { "text": "In the North, the earth is cold in the winter. The wind is cold. Snow comes down from the sky. There are no leaves on the trees. There is ice over the water. The days are short.", "x": 0.52, "y": 0.08, "w": 0.4, "h": 0.25 },
-    { "text": "In the North, the earth and the air are warm in the summer. There are leaves on the trees. The days are long. There is no ice or snow.", "x": 0.1, "y": 0.54, "w": 0.4, "h": 0.15 },
-    { "text": "In the spring the leaves come out on the trees. Plants come up out of the earth, and flowers come out on the plants.", "x": 0.52, "y": 0.74, "w": 0.4, "h": 0.15 }
-  ]
-}

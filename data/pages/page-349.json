@@ -4,25 +4,12 @@
   "imageApiPath": "/api/books/page%20349.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 63,
+    "regionCount": 2,
+    "wordCount": 49,
     "imageWidth": 1334,
     "imageHeight": 1917
   },
   "panels": [
-    {
-      "id": "top-left",
-      "label": "Top Left",
-      "x": 0,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2",
-        "r3",
-        "r5"
-      ]
-    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -31,22 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r4",
-        "r6",
-        "r7"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r8",
-        "r10"
+        "r1"
       ]
     },
     {
@@ -57,20 +29,19 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r11"
+        "r2"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Here is the name of the book English Through Pictures written in a number of different languages. The names of the languages are given in English.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.1,
       "id": "r1",
       "order": 0,
-      "text": "Here is the name of the book English Through Pictures written in a number of different languages. The names",
-      "x": 0.1364,
-      "y": 0.0532,
-      "w": 0.7384,
-      "h": 0.0459,
       "words": [
         "Here",
         "is",
@@ -90,20 +61,7 @@
         "different",
         "languages.",
         "The",
-        "names"
-      ],
-      "conf": 96.2881,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "of the languages are given in English.",
-      "x": 0.1327,
-      "y": 0.1017,
-      "w": 0.5,
-      "h": 0.0261,
-      "words": [
+        "names",
         "of",
         "the",
         "languages",
@@ -111,163 +69,41 @@
         "given",
         "in",
         "English."
-      ],
-      "conf": 96.4713,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "Arabic",
-      "x": 0.1364,
-      "y": 0.1513,
-      "w": 0.0885,
-      "h": 0.0172,
+      "text": "Translations of 'English Through Pictures' in: Arabic, Bengali, Burmese, Chinese, Greek, Hebrew, Hindi, Japanese, Korean, Persian, Russian, Sinhalese, Tamil, Telugu, Thai, and Urdu.",
+      "x": 0.1,
+      "y": 0.15,
+      "w": 0.85,
+      "h": 0.75,
+      "id": "r2",
+      "order": 1,
       "words": [
-        "Arabic"
-      ],
-      "conf": 96.8421,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "cess an cre",
-      "x": 0.5487,
-      "y": 0.1878,
-      "w": 0.3261,
-      "h": 0.0323,
-      "words": [
-        "cess",
-        "an",
-        "cre"
-      ],
-      "conf": 47.7989,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "Burmese Chinese Greek Hebrew Hindi Japanese",
-      "x": 0.1372,
-      "y": 0.2441,
-      "w": 0.1192,
-      "h": 0.2525,
-      "words": [
-        "Burmese",
-        "Chinese",
-        "Greek",
-        "Hebrew",
-        "Hindi",
-        "Japanese"
-      ],
-      "conf": 95.2637,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "AGS A ave 9S",
-      "x": 0.6687,
-      "y": 0.2332,
-      "w": 0.2031,
-      "h": 0.0365,
-      "words": [
-        "AGS",
-        "A",
-        "ave",
-        "9S"
-      ],
-      "conf": 54.0135,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "ME EIKONES",
-      "x": 0.7069,
-      "y": 0.338,
-      "w": 0.1657,
-      "h": 0.0141,
-      "words": [
-        "ME",
-        "EIKONES"
-      ],
-      "conf": 86.7598,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "Korean Persian Russian Sinhalese GBB w2wO0",
-      "x": 0.1387,
-      "y": 0.5206,
-      "w": 0.5405,
-      "h": 0.1612,
-      "words": [
-        "Korean",
-        "Persian",
-        "Russian",
-        "Sinhalese",
-        "GBB",
-        "w2wO0"
-      ],
-      "conf": 95.9675,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "YY PS! OLS pl AHIJIMACKHA A3bIK B KAPTHHKAX",
-      "x": 0.3966,
-      "y": 0.5123,
-      "w": 0.4805,
-      "h": 0.1215,
-      "words": [
-        "YY",
-        "PS!",
-        "OLS",
-        "pl",
-        "AHIJIMACKHA",
-        "A3bIK",
-        "B",
-        "KAPTHHKAX"
-      ],
-      "conf": 66.4931,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "Telugu Thai Urdu",
-      "x": 0.1409,
-      "y": 0.7507,
-      "w": 0.09,
-      "h": 0.1043,
-      "words": [
-        "Telugu",
-        "Thai",
-        "Urdu"
-      ],
-      "conf": 96.0107,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "wna wh TS) S",
-      "x": 0.5532,
-      "y": 0.7809,
-      "w": 0.2294,
-      "h": 0.0814,
-      "words": [
-        "wna",
-        "wh",
-        "TS)",
-        "S"
-      ],
-      "conf": 50.3083,
-      "source": "psm-11"
+        "Translations",
+        "of",
+        "'English",
+        "Through",
+        "Pictures'",
+        "in:",
+        "Arabic,",
+        "Bengali,",
+        "Burmese,",
+        "Chinese,",
+        "Greek,",
+        "Hebrew,",
+        "Hindi,",
+        "Japanese,",
+        "Korean,",
+        "Persian,",
+        "Russian,",
+        "Sinhalese,",
+        "Tamil,",
+        "Telugu,",
+        "Thai,",
+        "and",
+        "Urdu."
+      ]
     }
   ]
 }

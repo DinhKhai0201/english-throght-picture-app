@@ -4,7 +4,7 @@
   "imageApiPath": "/api/books/page%20187.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 15,
+    "regionCount": 4,
     "wordCount": 120,
     "imageWidth": 1259,
     "imageHeight": 1846
@@ -18,10 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r5",
-        "r7",
-        "r9"
+        "r1"
       ]
     },
     {
@@ -32,11 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r3",
-        "r4",
-        "r6",
-        "r8"
+        "r2"
       ]
     },
     {
@@ -47,10 +40,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r10",
-        "r12",
-        "r14",
-        "r15"
+        "r3"
       ]
     },
     {
@@ -61,154 +51,76 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r11",
-        "r13"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Glass is harder than wood. Wood is harder than bread. Bread is harder than butter. Which is the softest of these? Which is the hardest?",
+      "x": 0.12,
+      "y": 0.1,
+      "w": 0.38,
+      "h": 0.35,
       "id": "r1",
       "order": 0,
-      "text": "STIs man is",
-      "x": 0.5147,
-      "y": 0.0699,
-      "w": 0.3201,
-      "h": 0.0271,
       "words": [
-        "STIs",
-        "man",
-        "is"
-      ],
-      "conf": 81.1278,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "con U is harder than wood.",
-      "x": 0.1398,
-      "y": 0.0926,
-      "w": 0.2049,
-      "h": 0.1052,
-      "words": [
-        "con",
-        "U",
+        "Glass",
         "is",
         "harder",
         "than",
-        "wood."
-      ],
-      "conf": 63.8186,
-      "source": "psm-11"
+        "wood.",
+        "Wood",
+        "is",
+        "harder",
+        "than",
+        "bread.",
+        "Bread",
+        "is",
+        "harder",
+        "than",
+        "butter.",
+        "Which",
+        "is",
+        "the",
+        "softest",
+        "of",
+        "these?",
+        "Which",
+        "is",
+        "the",
+        "hardest?"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "older than this boy.",
-      "x": 0.6736,
-      "y": 0.1035,
-      "w": 0.1501,
-      "h": 0.0504,
+      "text": "This man is older than this boy. The boy is older than this baby. Which of them is the oldest? The baby is the youngest. He is very young.",
+      "x": 0.54,
+      "y": 0.08,
+      "w": 0.4,
+      "h": 0.38,
+      "id": "r2",
+      "order": 1,
       "words": [
+        "This",
+        "man",
+        "is",
         "older",
         "than",
         "this",
-        "boy."
-      ],
-      "conf": 96.2955,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "The boy is older than this baby.",
-      "x": 0.5695,
-      "y": 0.1863,
-      "w": 0.1509,
-      "h": 0.0759,
-      "words": [
+        "boy.",
         "The",
         "boy",
         "is",
         "older",
         "than",
         "this",
-        "baby."
-      ],
-      "conf": 95.8649,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "Wood is harder than bread.",
-      "x": 0.1414,
-      "y": 0.2291,
-      "w": 0.3042,
-      "h": 0.0624,
-      "words": [
-        "Wood",
-        "is",
-        "harder",
-        "than",
-        "bread."
-      ],
-      "conf": 96.2266,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "Which of them is the oldest?",
-      "x": 0.5695,
-      "y": 0.2996,
-      "w": 0.1565,
-      "h": 0.0698,
-      "words": [
+        "baby.",
         "Which",
         "of",
         "them",
         "is",
         "the",
-        "oldest?"
-      ],
-      "conf": 96.7164,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "Bread is harder than butter Which is the softest of these?",
-      "x": 0.1414,
-      "y": 0.3207,
-      "w": 0.3201,
-      "h": 0.1267,
-      "words": [
-        "Bread",
-        "is",
-        "harder",
-        "than",
-        "butter",
-        "Which",
-        "is",
-        "the",
-        "softest",
-        "of",
-        "these?"
-      ],
-      "conf": 96.6803,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "The baby is the youngest. He is very young.",
-      "x": 0.5695,
-      "y": 0.3754,
-      "w": 0.2939,
-      "h": 0.0769,
-      "words": [
+        "oldest?",
         "The",
         "baby",
         "is",
@@ -218,82 +130,24 @@
         "is",
         "very",
         "young."
-      ],
-      "conf": 96.6918,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "Which is the hardest?",
-      "x": 0.1446,
-      "y": 0.4534,
-      "w": 0.3153,
-      "h": 0.02,
-      "words": [
-        "Which",
-        "is",
-        "the",
-        "hardest?"
-      ],
-      "conf": 96.3013,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "This man ts stronger than this boy.",
-      "x": 0.1732,
-      "y": 0.5152,
-      "w": 0.15,
-      "h": 0.1007,
+      "text": "This man is stronger than this boy. The boy is not as strong as the man. He is not as old as the man. The baby is not as old as the boy or as strong as the boy.",
+      "x": 0.12,
+      "y": 0.52,
+      "w": 0.38,
+      "h": 0.38,
+      "id": "r3",
+      "order": 2,
       "words": [
         "This",
         "man",
-        "ts",
+        "is",
         "stronger",
         "than",
         "this",
-        "boy."
-      ],
-      "conf": 96.4534,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "This line is as long as this line The two lines are equal",
-      "x": 0.5647,
-      "y": 0.5255,
-      "w": 0.2542,
-      "h": 0.1717,
-      "words": [
-        "This",
-        "line",
-        "is",
-        "as",
-        "long",
-        "as",
-        "this",
-        "line",
-        "The",
-        "two",
-        "lines",
-        "are",
-        "equal"
-      ],
-      "conf": 96.7099,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "The boy is not as strong as the man He is not as old as the man, The baby is not as old",
-      "x": 0.1438,
-      "y": 0.6343,
-      "w": 0.328,
-      "h": 0.2113,
-      "words": [
+        "boy.",
         "The",
         "boy",
         "is",
@@ -302,7 +156,7 @@
         "strong",
         "as",
         "the",
-        "man",
+        "man.",
         "He",
         "is",
         "not",
@@ -310,26 +164,47 @@
         "old",
         "as",
         "the",
-        "man,",
+        "man.",
         "The",
         "baby",
         "is",
         "not",
         "as",
-        "old"
-      ],
-      "conf": 96.9034,
-      "source": "psm-11"
+        "old",
+        "as",
+        "the",
+        "boy",
+        "or",
+        "as",
+        "strong",
+        "as",
+        "the",
+        "boy."
+      ]
     },
     {
-      "id": "r13",
-      "order": 12,
-      "text": "This line is not as long as this line They are not equal.",
-      "x": 0.5655,
-      "y": 0.7427,
-      "w": 0.2796,
-      "h": 0.1604,
+      "text": "This line is as long as this line. The two lines are equal (=). This line is not as long as this line. They are not equal.",
+      "x": 0.54,
+      "y": 0.52,
+      "w": 0.4,
+      "h": 0.38,
+      "id": "r4",
+      "order": 3,
       "words": [
+        "This",
+        "line",
+        "is",
+        "as",
+        "long",
+        "as",
+        "this",
+        "line.",
+        "The",
+        "two",
+        "lines",
+        "are",
+        "equal",
+        "(=).",
         "This",
         "line",
         "is",
@@ -338,49 +213,12 @@
         "long",
         "as",
         "this",
-        "line",
+        "line.",
         "They",
         "are",
         "not",
         "equal."
-      ],
-      "conf": 96.6811,
-      "source": "psm-11"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "as the boy or as strong",
-      "x": 0.1517,
-      "y": 0.8402,
-      "w": 0.3312,
-      "h": 0.0276,
-      "words": [
-        "as",
-        "the",
-        "boy",
-        "or",
-        "as",
-        "strong"
-      ],
-      "conf": 94.715,
-      "source": "psm-11"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "as the boy.",
-      "x": 0.1517,
-      "y": 0.864,
-      "w": 0.1589,
-      "h": 0.0287,
-      "words": [
-        "as",
-        "the",
-        "boy."
-      ],
-      "conf": 96.7493,
-      "source": "psm-11"
+      ]
     }
   ]
 }

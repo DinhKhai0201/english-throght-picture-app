@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "The pull of the cord in my hand kept the weight from going off in a straight line.", "x": 0.1, "y": 0.13, "w": 0.38, "h": 0.12 },
-    { "text": "The attraction between the earth and the moon keeps the moon from going off in a straight line.", "x": 0.52, "y": 0.13, "w": 0.4, "h": 0.12 },
-    { "text": "The moon goes round and round the earth month after month", "x": 0.08, "y": 0.78, "w": 0.38, "h": 0.12 },
-    { "text": "It does not get farther from the earth or nearer to the earth. It keeps about the same distance from the earth.", "x": 0.52, "y": 0.58, "w": 0.4, "h": 0.3 }
-  ]
-}

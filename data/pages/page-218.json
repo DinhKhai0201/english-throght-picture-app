@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20218.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 17,
-    "wordCount": 105,
+    "regionCount": 4,
+    "wordCount": 104,
     "imageWidth": 1167,
     "imageHeight": 1859
   },
@@ -18,11 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r4",
-        "r7",
-        "r8",
-        "r9"
+        "r1"
       ]
     },
     {
@@ -33,12 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r3",
-        "r5",
-        "r6",
-        "r10",
-        "r11"
+        "r2"
       ]
     },
     {
@@ -49,8 +40,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r12",
-        "r17"
+        "r3"
       ]
     },
     {
@@ -61,73 +51,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r13",
-        "r14",
-        "r15",
-        "r16"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "What is this? The man has an umbrella in his hand. It is open. He has it over his head. Why?",
+      "x": 0.1,
+      "y": 0.3,
+      "w": 0.38,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "Because it is raining.",
-      "x": 0.5364,
-      "y": 0.2717,
-      "w": 0.3171,
-      "h": 0.0269,
-      "words": [
-        "Because",
-        "it",
-        "is",
-        "raining."
-      ],
-      "conf": 81.4197,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "What is this?",
-      "x": 0.1071,
-      "y": 0.2948,
-      "w": 0.2005,
-      "h": 0.0194,
       "words": [
         "What",
         "is",
-        "this?"
-      ],
-      "conf": 94.2999,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "Water is coming down",
-      "x": 0.5373,
-      "y": 0.2985,
-      "w": 0.3496,
-      "h": 0.0247,
-      "words": [
-        "Water",
-        "is",
-        "coming",
-        "down"
-      ],
-      "conf": 96.2922,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "The man has an umbrella in his hand.",
-      "x": 0.1063,
-      "y": 0.3195,
-      "w": 0.335,
-      "h": 0.0463,
-      "words": [
+        "this?",
         "The",
         "man",
         "has",
@@ -135,139 +75,63 @@
         "umbrella",
         "in",
         "his",
-        "hand."
-      ],
-      "conf": 95.4897,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "from the sky.",
-      "x": 0.5373,
-      "y": 0.3206,
-      "w": 0.2005,
-      "h": 0.0274,
-      "words": [
-        "from",
-        "the",
-        "sky."
-      ],
-      "conf": 89.7448,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "The water is rain, Rain is coming down, Rain is falling.",
-      "x": 0.5373,
-      "y": 0.348,
-      "w": 0.3248,
-      "h": 0.0764,
-      "words": [
-        "The",
-        "water",
-        "is",
-        "rain,",
-        "Rain",
-        "is",
-        "coming",
-        "down,",
-        "Rain",
-        "is",
-        "falling."
-      ],
-      "conf": 92.5808,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "It is open.",
-      "x": 0.108,
-      "y": 0.3701,
-      "w": 0.1482,
-      "h": 0.0237,
-      "words": [
+        "hand.",
         "It",
         "is",
-        "open."
-      ],
-      "conf": 83.0614,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "He has it over his head.",
-      "x": 0.1071,
-      "y": 0.3948,
-      "w": 0.3642,
-      "h": 0.0215,
-      "words": [
+        "open.",
         "He",
         "has",
         "it",
         "over",
         "his",
-        "head."
-      ],
-      "conf": 95.2799,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "Why?",
-      "x": 0.1054,
-      "y": 0.4201,
-      "w": 0.0925,
-      "h": 0.0247,
-      "words": [
+        "head.",
         "Why?"
-      ],
-      "conf": 96.6574,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "It is raining,",
-      "x": 0.539,
-      "y": 0.425,
-      "w": 0.1825,
-      "h": 0.0242,
+      "text": "Because it is raining. Water is coming down from the sky. The water is rain. Rain is coming down. Rain is falling. It is raining.",
+      "x": 0.53,
+      "y": 0.27,
+      "w": 0.38,
+      "h": 0.18,
+      "id": "r2",
+      "order": 1,
       "words": [
+        "Because",
+        "it",
+        "is",
+        "raining.",
+        "Water",
+        "is",
+        "coming",
+        "down",
+        "from",
+        "the",
+        "sky.",
+        "The",
+        "water",
+        "is",
+        "rain.",
+        "Rain",
+        "is",
+        "coming",
+        "down.",
+        "Rain",
+        "is",
+        "falling.",
         "It",
         "is",
-        "raining,"
-      ],
-      "conf": 93.4443,
-      "source": "psm-11"
+        "raining."
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "sea ae",
-      "x": 0.8166,
-      "y": 0.4809,
-      "w": 0.1063,
-      "h": 0.0151,
-      "words": [
-        "sea",
-        "ae"
-      ],
-      "conf": 38.3571,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "The rain made the man put up his umbrella. That was the effect of the rain Today is Monday, Yesterday (Sunday) the sun was bright.",
-      "x": 0.0848,
-      "y": 0.5309,
-      "w": 0.3625,
-      "h": 0.1759,
+      "text": "The rain made the man put up his umbrella. That was the effect of the rain. Today is Monday. Yesterday (Sunday) the sun was bright. There were no clouds in the sky.",
+      "x": 0.08,
+      "y": 0.53,
+      "w": 0.4,
+      "h": 0.22,
+      "id": "r3",
+      "order": 2,
       "words": [
         "The",
         "rain",
@@ -284,28 +148,33 @@
         "effect",
         "of",
         "the",
-        "rain",
+        "rain.",
         "Today",
         "is",
-        "Monday,",
+        "Monday.",
         "Yesterday",
         "(Sunday)",
         "the",
         "sun",
         "was",
-        "bright."
-      ],
-      "conf": 96.1128,
-      "source": "psm-11"
+        "bright.",
+        "There",
+        "were",
+        "no",
+        "clouds",
+        "in",
+        "the",
+        "sky."
+      ]
     },
     {
-      "id": "r13",
-      "order": 12,
-      "text": "Today there are dark clouds in the sky.",
-      "x": 0.5253,
-      "y": 0.5342,
-      "w": 0.3342,
-      "h": 0.0527,
+      "text": "Today there are dark clouds in the sky. They come between us and the sun. The dark clouds keep the light of the sun from us.",
+      "x": 0.52,
+      "y": 0.53,
+      "w": 0.4,
+      "h": 0.18,
+      "id": "r4",
+      "order": 3,
       "words": [
         "Today",
         "there",
@@ -314,86 +183,26 @@
         "clouds",
         "in",
         "the",
-        "sky."
-      ],
-      "conf": 96.1274,
-      "source": "psm-11"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "They come between us",
-      "x": 0.5227,
-      "y": 0.5815,
-      "w": 0.353,
-      "h": 0.0301,
-      "words": [
+        "sky.",
         "They",
         "come",
         "between",
-        "us"
-      ],
-      "conf": 96.4672,
-      "source": "psm-11"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "and the sun.",
-      "x": 0.5253,
-      "y": 0.6095,
-      "w": 0.1885,
-      "h": 0.0199,
-      "words": [
+        "us",
         "and",
         "the",
-        "sun."
-      ],
-      "conf": 96.0525,
-      "source": "psm-11"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "The dark clouds k the light of the sun from",
-      "x": 0.5219,
-      "y": 0.6342,
-      "w": 0.3701,
-      "h": 0.049,
-      "words": [
+        "sun.",
         "The",
         "dark",
         "clouds",
-        "k",
+        "keep",
         "the",
         "light",
         "of",
         "the",
         "sun",
-        "from"
-      ],
-      "conf": 94.877,
-      "source": "psm-11"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "There were no clouds in the sky.",
-      "x": 0.0848,
-      "y": 0.7068,
-      "w": 0.3333,
-      "h": 0.0522,
-      "words": [
-        "There",
-        "were",
-        "no",
-        "clouds",
-        "in",
-        "the",
-        "sky."
-      ],
-      "conf": 96.5595,
-      "source": "psm-11"
+        "from",
+        "us."
+      ]
     }
   ]
 }

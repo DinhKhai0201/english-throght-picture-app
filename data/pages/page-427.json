@@ -2,42 +2,47 @@
   "page": 427,
   "image": "/books/page 427.png",
   "imageApiPath": "/api/books/page%20427.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 8,
-    "wordCount": 67,
+    "regionCount": 3,
+    "wordCount": 66,
     "imageWidth": 1205,
     "imageHeight": 1892
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8"
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Men need to see beautiful things and to have beautiful things about them. Drawing goes back very far in man’s past.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.1,
       "id": "r1",
       "order": 0,
-      "text": "Men need to see beautiful things and to have beautiful things about them.",
-      "x": 0.0606,
-      "y": 0.0439,
-      "w": 0.8207,
-      "h": 0.0491,
       "words": [
         "Men",
         "need",
@@ -51,20 +56,7 @@
         "beautiful",
         "things",
         "about",
-        "them."
-      ],
-      "conf": 96.2216,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "Drawing goes back very far in man’s past. The drawings of animals copied on this page may have been made as early as B.C.",
-      "x": 0.0531,
-      "y": 0.1226,
-      "w": 0.8241,
-      "h": 0.0761,
-      "words": [
+        "them.",
         "Drawing",
         "goes",
         "back",
@@ -72,7 +64,18 @@
         "far",
         "in",
         "man’s",
-        "past.",
+        "past."
+      ]
+    },
+    {
+      "text": "The drawings of animals copied on this page may have been made as early as 25,000 B.C. drawing: making pictures with lines.",
+      "x": 0.1,
+      "y": 0.15,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r2",
+      "order": 1,
+      "words": [
         "The",
         "drawings",
         "of",
@@ -88,118 +91,48 @@
         "as",
         "early",
         "as",
-        "B.C."
-      ],
-      "conf": 96.1423,
-      "source": "psm-11"
+        "25,000",
+        "B.C.",
+        "drawing:",
+        "making",
+        "pictures",
+        "with",
+        "lines."
+      ]
     },
     {
+      "text": "copied: another thing made as much like the original as possible. FUTURE: will draw, will copy. PRESENT: draw(s), copy(ies). PAST: drew, drawn, copied.",
+      "x": 0.1,
+      "y": 0.8,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r3",
       "order": 2,
-      "text": "copled: a copy of something is another thing made as much like It",
-      "x": 0.0539,
-      "y": 0.7801,
-      "w": 0.8224,
-      "h": 0.0169,
       "words": [
-        "copled:",
-        "a",
-        "copy",
-        "of",
-        "something",
-        "is",
+        "copied:",
         "another",
         "thing",
         "made",
         "as",
         "much",
         "like",
-        "It"
-      ],
-      "conf": 89.2039,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "drawing: making pictures with lines as possible, will copy",
-      "x": 0.0539,
-      "y": 0.7627,
-      "w": 0.4092,
-      "h": 0.0962,
-      "words": [
-        "drawing:",
-        "making",
-        "pictures",
-        "with",
-        "lines",
+        "the",
+        "original",
         "as",
-        "possible,",
+        "possible.",
+        "FUTURE:",
         "will",
-        "copy"
-      ],
-      "conf": 96.0594,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "draw",
-      "x": 0.1087,
-      "y": 0.8266,
-      "w": 0.0647,
-      "h": 0.0122,
-      "words": [
-        "draw"
-      ],
-      "conf": 94.4396,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "draw (s) copy (les)",
-      "x": 0.4017,
-      "y": 0.8251,
-      "w": 0.1228,
-      "h": 0.0364,
-      "words": [
-        "draw",
-        "(s)",
-        "copy",
-        "(les)"
-      ],
-      "conf": 76.9918,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "drew, drawn",
-      "x": 0.7129,
-      "y": 0.8282,
-      "w": 0.1627,
-      "h": 0.0143,
-      "words": [
+        "draw,",
+        "will",
+        "copy.",
+        "PRESENT:",
+        "draw(s),",
+        "copy(ies).",
+        "PAST:",
         "drew,",
-        "drawn"
-      ],
-      "conf": 95.6351,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "copied",
-      "x": 0.7934,
-      "y": 0.8451,
-      "w": 0.0822,
-      "h": 0.0159,
-      "words": [
-        "copied"
-      ],
-      "conf": 87.8175,
-      "source": "psm-11"
+        "drawn,",
+        "copied."
+      ]
     }
   ]
 }

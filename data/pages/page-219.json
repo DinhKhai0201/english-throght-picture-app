@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20219.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 72,
+    "regionCount": 4,
+    "wordCount": 71,
     "imageWidth": 1242,
     "imageHeight": 1867
   },
@@ -18,9 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r3",
-        "r5"
+        "r1"
       ]
     },
     {
@@ -31,8 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r4"
+        "r2"
       ]
     },
     {
@@ -43,8 +40,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r9"
+        "r3"
       ]
     },
     {
@@ -55,21 +51,19 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r8",
-        "r10"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "The rain comes down from the clouds on me. It comes down on my head.",
+      "x": 0.15,
+      "y": 0.09,
+      "w": 0.35,
+      "h": 0.1,
       "id": "r1",
       "order": 0,
-      "text": "The rain comes down from the clouds on me.",
-      "x": 0.1538,
-      "y": 0.0964,
-      "w": 0.3325,
-      "h": 0.0467,
       "words": [
         "The",
         "rain",
@@ -79,19 +73,23 @@
         "the",
         "clouds",
         "on",
-        "me."
-      ],
-      "conf": 96.5769,
-      "source": "psm-11"
+        "me.",
+        "It",
+        "comes",
+        "down",
+        "on",
+        "my",
+        "head."
+      ]
     },
     {
+      "text": "The rain comes down from the clouds on us. It comes down on our heads.",
+      "x": 0.55,
+      "y": 0.09,
+      "w": 0.35,
+      "h": 0.1,
       "id": "r2",
       "order": 1,
-      "text": "The rain comes down from the clouds on us.",
-      "x": 0.5548,
-      "y": 0.098,
-      "w": 0.3213,
-      "h": 0.0461,
       "words": [
         "The",
         "rain",
@@ -101,124 +99,66 @@
         "the",
         "clouds",
         "on",
-        "us."
-      ],
-      "conf": 95.3918,
-      "source": "psm-11"
+        "us.",
+        "It",
+        "comes",
+        "down",
+        "on",
+        "our",
+        "heads."
+      ]
     },
     {
+      "text": "Why is it raining today? Yesterday the weather was good. The sun was bright. The air was warm.",
+      "x": 0.13,
+      "y": 0.51,
+      "w": 0.38,
+      "h": 0.12,
       "id": "r3",
       "order": 2,
-      "text": "it comes down on my",
-      "x": 0.1546,
-      "y": 0.1489,
-      "w": 0.306,
-      "h": 0.0252,
-      "words": [
-        "it",
-        "comes",
-        "down",
-        "on",
-        "my"
-      ],
-      "conf": 89.5024,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "it comes down on our",
-      "x": 0.5556,
-      "y": 0.1489,
-      "w": 0.3116,
-      "h": 0.0204,
-      "words": [
-        "it",
-        "comes",
-        "down",
-        "on",
-        "our"
-      ],
-      "conf": 92.0563,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "Cee of",
-      "x": 0.2713,
-      "y": 0.4804,
-      "w": 0.244,
-      "h": 0.0134,
-      "words": [
-        "Cee",
-        "of"
-      ],
-      "conf": 57.1148,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "Why is if raining today? Today the weather is was good. The sun was down. The wind is bright.",
-      "x": 0.1353,
-      "y": 0.511,
-      "w": 0.7133,
-      "h": 0.098,
       "words": [
         "Why",
         "is",
-        "if",
+        "it",
         "raining",
         "today?",
-        "Today",
+        "Yesterday",
         "the",
         "weather",
-        "is",
         "was",
         "good.",
         "The",
         "sun",
         "was",
-        "down.",
+        "bright.",
         "The",
-        "wind",
-        "is",
-        "bright."
-      ],
-      "conf": 95.3812,
-      "source": "psm-11"
+        "air",
+        "was",
+        "warm."
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "Yesterday the weather bad. The rain is coming",
-      "x": 0.1377,
-      "y": 0.5367,
-      "w": 0.7456,
-      "h": 0.0252,
+      "text": "Today the weather is bad. The rain is coming down. The wind is blowing. It is cold and the rain makes us wet.",
+      "x": 0.53,
+      "y": 0.51,
+      "w": 0.38,
+      "h": 0.12,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "Yesterday",
+        "Today",
         "the",
         "weather",
+        "is",
         "bad.",
         "The",
         "rain",
         "is",
-        "coming"
-      ],
-      "conf": 95.7109,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "blowing. It is cold and the rain makes us wet.",
-      "x": 0.5386,
-      "y": 0.5865,
-      "w": 0.3237,
-      "h": 0.0461,
-      "words": [
+        "coming",
+        "down.",
+        "The",
+        "wind",
+        "is",
         "blowing.",
         "It",
         "is",
@@ -229,40 +169,7 @@
         "makes",
         "us",
         "wet."
-      ],
-      "conf": 92.8273,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "The air was warm?",
-      "x": 0.1361,
-      "y": 0.6111,
-      "w": 0.2673,
-      "h": 0.0209,
-      "words": [
-        "The",
-        "air",
-        "was",
-        "warm?"
-      ],
-      "conf": 81.5318,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "NS.",
-      "x": 0.8567,
-      "y": 0.8168,
-      "w": 0.0515,
-      "h": 0.0273,
-      "words": [
-        "NS."
-      ],
-      "conf": 39.4099,
-      "source": "psm-11"
+      ]
     }
   ]
 }

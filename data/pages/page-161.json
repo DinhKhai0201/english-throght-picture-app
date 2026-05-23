@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20161.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 60,
+    "regionCount": 10,
+    "wordCount": 62,
     "imageWidth": 1275,
     "imageHeight": 1871
   },
@@ -19,9 +19,8 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3",
-        "r5",
-        "r6"
+        "r2",
+        "r3"
       ]
     },
     {
@@ -32,9 +31,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
         "r4",
-        "r7"
+        "r5",
+        "r6"
       ]
     },
     {
@@ -45,8 +44,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r13"
+        "r7",
+        "r8"
       ]
     },
     {
@@ -57,145 +56,150 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r10",
-        "r11",
-        "r12"
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
+      "text": "\"What are you doing, Tom?\" \"I am measuring the wood.\"",
+      "x": 0.12,
+      "y": 0.09,
+      "w": 0.38,
+      "h": 0.1,
       "id": "r1",
       "order": 0,
-      "text": "*What are you doing, Tom?”",
-      "x": 0.1318,
-      "y": 0.0962,
-      "w": 0.3129,
-      "h": 0.0444,
       "words": [
-        "*What",
+        "\"What",
         "are",
         "you",
         "doing,",
-        "Tom?”"
-      ],
-      "conf": 94.5949,
-      "source": "psm-11"
+        "Tom?\"",
+        "\"I",
+        "am",
+        "measuring",
+        "the",
+        "wood.\""
+      ]
     },
     {
+      "text": "It is good wood.",
+      "x": 0.12,
+      "y": 0.25,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r2",
       "order": 1,
+      "words": [
+        "It",
+        "is",
+        "good",
+        "wood."
+      ]
+    },
+    {
+      "text": "This is a measure.",
+      "x": 0.12,
+      "y": 0.32,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "measure."
+      ]
+    },
+    {
       "text": "We get wood from trees.",
-      "x": 0.5067,
-      "y": 0.1208,
-      "w": 0.3514,
-      "h": 0.0235,
+      "x": 0.54,
+      "y": 0.12,
+      "w": 0.4,
+      "h": 0.03,
+      "id": "r4",
+      "order": 3,
       "words": [
         "We",
         "get",
         "wood",
         "from",
         "trees."
-      ],
-      "conf": 93.864,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "“lam measuring the wood.”",
-      "x": 0.1325,
-      "y": 0.1459,
-      "w": 0.2847,
-      "h": 0.0443,
-      "words": [
-        "“lam",
-        "measuring",
-        "the",
-        "wood.”"
-      ],
-      "conf": 91.5096,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
       "text": "These are trees.",
-      "x": 0.5663,
-      "y": 0.1951,
-      "w": 0.2243,
-      "h": 0.0192,
+      "x": 0.58,
+      "y": 0.2,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r5",
+      "order": 4,
       "words": [
         "These",
         "are",
         "trees."
-      ],
-      "conf": 95.0714,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "It is good wood.",
-      "x": 0.1859,
-      "y": 0.2437,
-      "w": 0.229,
-      "h": 0.023,
-      "words": [
-        "It",
-        "is",
-        "good",
-        "wood."
-      ],
-      "conf": 95.0189,
-      "source": "psm-11"
-    },
-    {
+      "text": "Some wood is hard. Some wood is soft.",
+      "x": 0.54,
+      "y": 0.4,
+      "w": 0.38,
+      "h": 0.08,
       "id": "r6",
       "order": 5,
-      "text": "is a measure.",
-      "x": 0.2361,
-      "y": 0.3159,
-      "w": 0.1875,
-      "h": 0.0128,
-      "words": [
-        "is",
-        "a",
-        "measure."
-      ],
-      "conf": 85.3472,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "Some wood is hard Some wood is soft.",
-      "x": 0.5388,
-      "y": 0.3891,
-      "w": 0.2761,
-      "h": 0.0529,
       "words": [
         "Some",
         "wood",
         "is",
-        "hard",
+        "hard.",
         "Some",
         "wood",
         "is",
         "soft."
-      ],
-      "conf": 95.8607,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "This is a tree.",
+      "x": 0.15,
+      "y": 0.54,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r7",
+      "order": 6,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "tree."
+      ]
+    },
+    {
+      "text": "These are its roots.",
+      "x": 0.25,
+      "y": 0.81,
+      "w": 0.25,
+      "h": 0.05,
       "id": "r8",
       "order": 7,
-      "text": "We get hard wood from some trees.",
-      "x": 0.5035,
-      "y": 0.5067,
-      "w": 0.2706,
-      "h": 0.0438,
+      "words": [
+        "These",
+        "are",
+        "its",
+        "roots."
+      ]
+    },
+    {
+      "text": "We get hard wood from some trees. They give hard wood to us.",
+      "x": 0.52,
+      "y": 0.52,
+      "w": 0.38,
+      "h": 0.12,
+      "id": "r9",
+      "order": 8,
       "words": [
         "We",
         "get",
@@ -203,68 +207,23 @@
         "wood",
         "from",
         "some",
-        "trees."
-      ],
-      "conf": 95.9092,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "This is a tree.",
-      "x": 0.2031,
-      "y": 0.5345,
-      "w": 0.1773,
-      "h": 0.0192,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "tree."
-      ],
-      "conf": 85.2126,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "They give hard wood",
-      "x": 0.5067,
-      "y": 0.6162,
-      "w": 0.2949,
-      "h": 0.0246,
-      "words": [
+        "trees.",
         "They",
         "give",
         "hard",
-        "wood"
-      ],
-      "conf": 96.567,
-      "source": "psm-11"
+        "wood",
+        "to",
+        "us."
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "ito Us.",
-      "x": 0.4831,
-      "y": 0.6376,
-      "w": 0.0871,
-      "h": 0.0294,
-      "words": [
-        "ito",
-        "Us."
-      ],
-      "conf": 63.6283,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
       "text": "Other trees give soft wood to us.",
-      "x": 0.502,
-      "y": 0.7103,
-      "w": 0.2902,
-      "h": 0.0695,
+      "x": 0.52,
+      "y": 0.73,
+      "w": 0.38,
+      "h": 0.08,
+      "id": "r10",
+      "order": 9,
       "words": [
         "Other",
         "trees",
@@ -273,26 +232,7 @@
         "wood",
         "to",
         "us."
-      ],
-      "conf": 96.5413,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "These are its roots,",
-      "x": 0.2604,
-      "y": 0.7937,
-      "w": 0.1812,
-      "h": 0.0438,
-      "words": [
-        "These",
-        "are",
-        "its",
-        "roots,"
-      ],
-      "conf": 95.7282,
-      "source": "psm-11"
+      ]
     }
   ]
 }

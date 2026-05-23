@@ -1,8 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Drawing can help to make ideas easier. The greatest drawing, painting, and sculpture make our highest powers come into play.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "These drawings are of two pieces of sculpture, one from India and the other from Africa.", "x": 0.1, "y": 0.2, "w": 0.85, "h": 0.1 },
-    { "text": "sculpture: making beautiful things from stone, wood, or metal. For great drawings, see 'The Pocket Book of Great Drawings'.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
-  ]
-}

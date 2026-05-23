@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "The higher up we go the less is the pressure of the air, because the weight of the air above us is less. As the pressure becomes less the amount of oxygen we get in one breath becomes less.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.2 },
-    { "text": "EVEREST (Asia) 28,000. ACONCAGUA (S. America) 24,000. McKINLEY (N. America) 20,000. KILIMANJARO (Africa) 16,000. MONT BLANC (Europe) 12,000. AORANGI (New Zealand) 8,000.", "x": 0.45, "y": 0.05, "w": 0.5, "h": 0.4 },
-    { "text": "The instrument we use to measure the pressure of the air is the barometer. pressure: the push on something. above: over, higher up. measure: take the measure of.", "x": 0.1, "y": 0.48, "w": 0.85, "h": 0.3 },
-    { "text": "FUTURE: will measure. PRESENT: measure(s). PAST: measured.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.08 }
-  ]
-}

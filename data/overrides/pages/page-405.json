@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "There are about five million red cells in one cubic millimeter of our blood. One millimeter is a thousandth part of a meter and a tenth of a centimeter.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "One cubic centimeter—how much space does that take up? Here is a picture of a cube which is one centimeter long, one centimeter wide and one centimeter high.", "x": 0.1, "y": 0.15, "w": 0.85, "h": 0.15 },
-    { "text": "A centimeter is a little less than half an inch. millimeter (mm): .001 of a meter. centimeter (cm): .01 of a meter. cube: solid with six equal square sides.", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.45 },
-    { "text": "square: four equal sides and four right angles.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.08 }
-  ]
-}

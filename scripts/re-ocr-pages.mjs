@@ -5,7 +5,6 @@ import { basename, join } from "node:path";
 const booksDir = join(process.cwd(), "books");
 const dataDir = join(process.cwd(), "data");
 const pagesDir = join(dataDir, "pages");
-const overridesDir = join(dataDir, "overrides", "pages");
 
 mkdirSync(pagesDir, { recursive: true });
 
@@ -137,12 +136,12 @@ function readPngDimensions(filePath) {
 }
 
 function applyPageOverride(payload) {
-  const filePath = join(overridesDir, `page-${String(payload.page).padStart(3, "0")}.json`);
+  const filePath = join(pagesDir, `page-${String(payload.page).padStart(3, "0")}.json`);
   if (!existsSync(filePath)) return payload;
-  const override = JSON.parse(readFileSync(filePath, "utf8"));
-  const next = { ...payload, ...override };
-  if (override.regions) {
-    next.regions = override.regions.map((r, i) => ({ ...r, id: r.id || `r${i+1}`, order: i, words: r.words || r.text.split(/\s+/).filter(Boolean) }));
+  const existing = JSON.parse(readFileSync(filePath, "utf8"));
+  const next = { ...payload, ...existing };
+  if (existing.regions) {
+    next.regions = existing.regions.map((r, i) => ({ ...r, id: r.id || `r${i+1}`, order: i, words: r.words || r.text.split(/\s+/).filter(Boolean) }));
   }
   return next;
 }

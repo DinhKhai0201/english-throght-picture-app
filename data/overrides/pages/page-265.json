@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Good weather. The day is bright. The air is warm. The sky is blue. They are happy.", "x": 0.1, "y": 0.35, "w": 0.38, "h": 0.12 },
-    { "text": "Bad weather. The wind is blowing. The rain is falling. It is cold. It is wet. They are unhappy.", "x": 0.52, "y": 0.35, "w": 0.4, "h": 0.12 },
-    { "text": "Bright is the opposite of dark. Warm is the opposite of cold.", "x": 0.1, "y": 0.5, "w": 0.38, "h": 0.25 },
-    { "text": "White is the opposite of black. What is the opposite of dry? (See page 128.) What is the opposite of happy?", "x": 0.52, "y": 0.5, "w": 0.4, "h": 0.35 }
-  ]
-}

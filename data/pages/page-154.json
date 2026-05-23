@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20154.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 17,
-    "wordCount": 132,
+    "regionCount": 6,
+    "wordCount": 127,
     "imageWidth": 1205,
     "imageHeight": 1834
   },
@@ -18,8 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r8"
+        "r2"
       ]
     },
     {
@@ -30,14 +29,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r9",
-        "r10"
+        "r1",
+        "r3"
       ]
     },
     {
@@ -48,9 +41,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r11",
-        "r13",
-        "r17"
+        "r4",
+        "r5"
       ]
     },
     {
@@ -61,264 +53,132 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r12",
-        "r14",
-        "r15",
-        "r16"
+        "r6"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Answers to questions on pages 146-147.",
+      "x": 0.2,
+      "y": 0.15,
+      "w": 0.6,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "Answers to questions on pages Page a abed d astocking g a toothbrush j alock m an engine p apen",
-      "x": 0.1303,
-      "y": 0.1532,
-      "w": 0.5701,
-      "h": 0.2367,
       "words": [
         "Answers",
         "to",
         "questions",
         "on",
         "pages",
-        "Page",
-        "a",
-        "abed",
-        "d",
-        "astocking",
-        "g",
-        "a",
-        "toothbrush",
-        "j",
-        "alock",
-        "m",
-        "an",
-        "engine",
-        "p",
-        "apen"
-      ],
-      "conf": 96.4141,
-      "source": "psm-11"
+        "146-147."
+      ]
     },
     {
+      "text": "Page 146",
+      "x": 0.12,
+      "y": 0.21,
+      "w": 0.3,
+      "h": 0.03,
       "id": "r2",
       "order": 1,
-      "text": "b abag",
-      "x": 0.4456,
-      "y": 0.2377,
-      "w": 0.1295,
-      "h": 0.0245,
-      "words": [
-        "b",
-        "abag"
-      ],
-      "conf": 91.9944,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "a sock e ashoe",
-      "x": 0.4481,
-      "y": 0.2394,
-      "w": 0.3984,
-      "h": 0.0435,
-      "words": [
-        "a",
-        "sock",
-        "e",
-        "ashoe"
-      ],
-      "conf": 89.3846,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "a hairbrush h acomb",
-      "x": 0.4481,
-      "y": 0.2655,
-      "w": 0.4806,
-      "h": 0.0431,
-      "words": [
-        "a",
-        "hairbrush",
-        "h",
-        "acomb"
-      ],
-      "conf": 92.0739,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "a key k a hairpin",
-      "x": 0.4481,
-      "y": 0.2912,
-      "w": 0.3901,
-      "h": 0.048,
-      "words": [
-        "a",
-        "key",
-        "k",
-        "a",
-        "hairpin"
-      ],
-      "conf": 93.8842,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "a fork n aplate",
-      "x": 0.449,
-      "y": 0.3173,
-      "w": 0.3983,
-      "h": 0.0475,
-      "words": [
-        "a",
-        "fork",
-        "n",
-        "aplate"
-      ],
-      "conf": 75.4048,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "two pins a card t aflame",
-      "x": 0.444,
-      "y": 0.3441,
-      "w": 0.4341,
-      "h": 0.0659,
-      "words": [
-        "two",
-        "pins",
-        "a",
-        "card",
-        "t",
-        "aflame"
-      ],
-      "conf": 96.6448,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "q rails $s a stamp y a bottle",
-      "x": 0.1303,
-      "y": 0.3664,
-      "w": 0.4183,
-      "h": 0.0993,
-      "words": [
-        "q",
-        "rails",
-        "$s",
-        "a",
-        "stamp",
-        "y",
-        "a",
-        "bottle"
-      ],
-      "conf": 94.3435,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "a frame w a book",
-      "x": 0.4432,
-      "y": 0.3926,
-      "w": 0.4298,
-      "h": 0.043,
-      "words": [
-        "a",
-        "frame",
-        "w",
-        "a",
-        "book"
-      ],
-      "conf": 95.1268,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "a bell z aglove",
-      "x": 0.4423,
-      "y": 0.4177,
-      "w": 0.395,
-      "h": 0.0479,
-      "words": [
-        "a",
-        "bell",
-        "z",
-        "aglove"
-      ],
-      "conf": 69.0694,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "Page a Eighteen. Sixty.",
-      "x": 0.1286,
-      "y": 0.494,
-      "w": 0.2747,
-      "h": 0.0573,
       "words": [
         "Page",
+        "146"
+      ]
+    },
+    {
+      "text": "a bed, a bag, a sock, a stocking, a shoe, a hairbrush, a toothbrush, a comb, a key, a lock, a hairpin, a fork, an engine, a plate, two pins, a pen, rails, a card, a stamp, a flame, a frame, a hook, a book, a bell, a bottle, a glove",
+      "x": 0.12,
+      "y": 0.23,
+      "w": 0.8,
+      "h": 0.25,
+      "id": "r3",
+      "order": 2,
+      "words": [
         "a",
+        "bed,",
+        "a",
+        "bag,",
+        "a",
+        "sock,",
+        "a",
+        "stocking,",
+        "a",
+        "shoe,",
+        "a",
+        "hairbrush,",
+        "a",
+        "toothbrush,",
+        "a",
+        "comb,",
+        "a",
+        "key,",
+        "a",
+        "lock,",
+        "a",
+        "hairpin,",
+        "a",
+        "fork,",
+        "an",
+        "engine,",
+        "a",
+        "plate,",
+        "two",
+        "pins,",
+        "a",
+        "pen,",
+        "rails,",
+        "a",
+        "card,",
+        "a",
+        "stamp,",
+        "a",
+        "flame,",
+        "a",
+        "frame,",
+        "a",
+        "hook,",
+        "a",
+        "book,",
+        "a",
+        "bell,",
+        "a",
+        "bottle,",
+        "a",
+        "glove"
+      ]
+    },
+    {
+      "text": "Page 147",
+      "x": 0.12,
+      "y": 0.5,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "Page",
+        "147"
+      ]
+    },
+    {
+      "text": "Eighteen. Sixty. Forty-three. Five hundred and seven. We put his street under his name and we put the name of the town under the name of the street. And under that we put the name of the state.",
+      "x": 0.12,
+      "y": 0.53,
+      "w": 0.4,
+      "h": 0.3,
+      "id": "r5",
+      "order": 4,
+      "words": [
         "Eighteen.",
-        "Sixty."
-      ],
-      "conf": 96.8134,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "b The sun comes up in the East.and goes down in the West.",
-      "x": 0.5776,
-      "y": 0.5289,
-      "w": 0.3369,
-      "h": 0.0758,
-      "words": [
-        "b",
-        "The",
-        "sun",
-        "comes",
-        "up",
-        "in",
-        "the",
-        "East.and",
-        "goes",
-        "down",
-        "in",
-        "the",
-        "West."
-      ],
-      "conf": 96.1725,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "Forty-three. Five hundred and seven c We put his street under his name and we put the name of the town under the name of the street.",
-      "x": 0.1278,
-      "y": 0.5534,
-      "w": 0.3395,
-      "h": 0.1963,
-      "words": [
+        "Sixty.",
         "Forty-three.",
         "Five",
         "hundred",
         "and",
-        "seven",
-        "c",
+        "seven.",
         "We",
         "put",
         "his",
@@ -339,75 +199,7 @@
         "name",
         "of",
         "the",
-        "street."
-      ],
-      "conf": 96.5233,
-      "source": "psm-11"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "Yes, day comes after",
-      "x": 0.6149,
-      "y": 0.6036,
-      "w": 0.312,
-      "h": 0.0294,
-      "words": [
-        "Yes,",
-        "day",
-        "comes",
-        "after"
-      ],
-      "conf": 90.4726,
-      "source": "psm-11"
-    },
-    {
-      "id": "r15",
-      "order": 14,
-      "text": "night. Yes, night comes after day.",
-      "x": 0.6149,
-      "y": 0.6309,
-      "w": 0.2515,
-      "h": 0.0501,
-      "words": [
-        "night.",
-        "Yes,",
-        "night",
-        "comes",
-        "after",
-        "day."
-      ],
-      "conf": 96.9034,
-      "source": "psm-11"
-    },
-    {
-      "id": "r16",
-      "order": 15,
-      "text": "d The teacher's work is teaching.",
-      "x": 0.5784,
-      "y": 0.7067,
-      "w": 0.3187,
-      "h": 0.0506,
-      "words": [
-        "d",
-        "The",
-        "teacher's",
-        "work",
-        "is",
-        "teaching."
-      ],
-      "conf": 89.7752,
-      "source": "psm-11"
-    },
-    {
-      "id": "r17",
-      "order": 16,
-      "text": "And under that we put the name of the state.",
-      "x": 0.166,
-      "y": 0.7563,
-      "w": 0.297,
-      "h": 0.0698,
-      "words": [
+        "street.",
         "And",
         "under",
         "that",
@@ -418,9 +210,46 @@
         "of",
         "the",
         "state."
-      ],
-      "conf": 96.3844,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "text": "The sun comes up in the East and goes down in the West. Yes, day comes after night. Yes, night comes after day. The teacher's work is teaching.",
+      "x": 0.54,
+      "y": 0.53,
+      "w": 0.4,
+      "h": 0.25,
+      "id": "r6",
+      "order": 5,
+      "words": [
+        "The",
+        "sun",
+        "comes",
+        "up",
+        "in",
+        "the",
+        "East",
+        "and",
+        "goes",
+        "down",
+        "in",
+        "the",
+        "West.",
+        "Yes,",
+        "day",
+        "comes",
+        "after",
+        "night.",
+        "Yes,",
+        "night",
+        "comes",
+        "after",
+        "day.",
+        "The",
+        "teacher's",
+        "work",
+        "is",
+        "teaching."
+      ]
     }
   ]
 }

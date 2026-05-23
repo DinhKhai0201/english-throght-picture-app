@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20481.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 125,
+    "regionCount": 4,
+    "wordCount": 55,
     "imageWidth": 1221,
     "imageHeight": 1859
   },
@@ -18,8 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r5"
+        "r1"
       ]
     },
     {
@@ -30,21 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3",
-        "r4"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r8",
-        "r9"
+        "r2"
       ]
     },
     {
@@ -55,281 +40,110 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r7",
-        "r10",
-        "r11"
+        "r3",
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Vending machines sell many things automatically in public places, from food to books.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.45,
+      "h": 0.25,
       "id": "r1",
       "order": 0,
-      "text": "More and more use is being made, in public places, of automatic machines which sell food, cigarettes, drinks, stamps, or even books.",
-      "x": 0.0999,
-      "y": 0.0979,
-      "w": 0.4079,
-      "h": 0.1258,
       "words": [
-        "More",
-        "and",
-        "more",
-        "use",
-        "is",
-        "being",
-        "made,",
+        "Vending",
+        "machines",
+        "sell",
+        "many",
+        "things",
+        "automatically",
         "in",
         "public",
         "places,",
-        "of",
-        "automatic",
-        "machines",
-        "which",
-        "sell",
-        "food,",
-        "cigarettes,",
-        "drinks,",
-        "stamps,",
-        "or",
-        "even",
+        "from",
+        "food",
+        "to",
         "books."
-      ],
-      "conf": 96.0827,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "(Diagram: Using a vending machine). Automating buying and selling makes life simpler.",
+      "x": 0.55,
+      "y": 0.05,
+      "w": 0.35,
+      "h": 0.2,
       "id": "r2",
       "order": 1,
-      "text": "ef)",
-      "x": 0.6249,
-      "y": 0.2006,
-      "w": 0.0311,
-      "h": 0.0108,
       "words": [
-        "ef)"
-      ],
-      "conf": 68.9574,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "To make. buying and selling simpler and more auto- matic is important. Too many housewives have to give up too much of their time to shopping for their families.",
-      "x": 0.1032,
-      "y": 0.2808,
-      "w": 0.8116,
-      "h": 0.0731,
-      "words": [
-        "To",
-        "make.",
+        "(Diagram:",
+        "Using",
+        "a",
+        "vending",
+        "machine).",
+        "Automating",
         "buying",
         "and",
         "selling",
-        "simpler",
-        "and",
-        "more",
-        "auto-",
-        "matic",
-        "is",
-        "important.",
-        "Too",
-        "many",
-        "housewives",
-        "have",
-        "to",
-        "give",
+        "makes",
+        "life",
+        "simpler."
+      ]
+    },
+    {
+      "text": "Shopping can take up too much time. Self-service frees people from waiting in line. (Illustration: People shopping together).",
+      "x": 0.1,
+      "y": 0.35,
+      "w": 0.85,
+      "h": 0.45,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "Shopping",
+        "can",
+        "take",
         "up",
         "too",
         "much",
-        "of",
-        "their",
-        "time",
-        "to",
-        "shopping",
-        "for",
-        "their",
-        "families."
-      ],
-      "conf": 93.0878,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "Some of them use up a large part of their lives going from shop to shop to get what they want and waiting in line",
-      "x": 0.1057,
-      "y": 0.3556,
-      "w": 0.8083,
-      "h": 0.0511,
-      "words": [
-        "Some",
-        "of",
-        "them",
-        "use",
-        "up",
-        "a",
-        "large",
-        "part",
-        "of",
-        "their",
-        "lives",
-        "going",
+        "time.",
+        "Self-service",
+        "frees",
+        "people",
         "from",
-        "shop",
-        "to",
-        "shop",
-        "to",
-        "get",
-        "what",
-        "they",
-        "want",
-        "and",
         "waiting",
         "in",
-        "line"
-      ],
-      "conf": 96.5592,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "for people to serve them. Serving themselves frees from this.",
-      "x": 0.1048,
-      "y": 0.4099,
-      "w": 0.7265,
-      "h": 0.0431,
-      "words": [
-        "for",
-        "people",
-        "to",
-        "serve",
-        "them.",
-        "Serving",
-        "themselves",
-        "frees",
-        "from",
-        "this."
-      ],
-      "conf": 96.3984,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "AN",
-      "x": 0.7068,
-      "y": 0.5928,
-      "w": 0.1409,
-      "h": 0.0253,
-      "words": [
-        "AN"
-      ],
-      "conf": 47.1135,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "shop: store. in the United Kingdom shop Is used and in the United States store; bet you go shopping In both countries—that is, you go to",
-      "x": 0.1097,
-      "y": 0.7999,
-      "w": 0.8018,
-      "h": 0.0366,
-      "words": [
-        "shop:",
-        "store.",
-        "in",
-        "the",
-        "United",
-        "Kingdom",
-        "shop",
-        "Is",
-        "used",
-        "and",
-        "in",
-        "the",
-        "United",
-        "States",
-        "store;",
-        "bet",
-        "you",
-        "go",
+        "line.",
+        "(Illustration:",
+        "People",
         "shopping",
-        "In",
-        "both",
-        "countries—that",
-        "is,",
-        "you",
-        "go",
-        "to"
-      ],
-      "conf": 91.8523,
-      "source": "psm-11"
+        "together)."
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "stores to see what you can buy.",
-      "x": 0.1622,
-      "y": 0.8332,
-      "w": 0.335,
-      "h": 0.0194,
+      "text": "shop/store: place to buy things. FUTURE: will shop. PRESENT: shop(s). PAST: shopped.",
+      "x": 0.1,
+      "y": 0.82,
+      "w": 0.85,
+      "h": 0.12,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "stores",
+        "shop/store:",
+        "place",
         "to",
-        "see",
-        "what",
-        "you",
-        "can",
-        "buy."
-      ],
-      "conf": 89.5641,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "will shop",
-      "x": 0.1048,
-      "y": 0.8558,
-      "w": 0.1163,
-      "h": 0.0269,
-      "words": [
+        "buy",
+        "things.",
+        "FUTURE:",
         "will",
-        "shop"
-      ],
-      "conf": 94.4372,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "shop(s)",
-      "x": 0.4611,
-      "y": 0.865,
-      "w": 0.0958,
-      "h": 0.0161,
-      "words": [
-        "shop(s)"
-      ],
-      "conf": 90.1146,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "shopped",
-      "x": 0.8084,
-      "y": 0.8682,
-      "w": 0.1016,
-      "h": 0.0161,
-      "words": [
-        "shopped"
-      ],
-      "conf": 93.8584,
-      "source": "psm-11"
+        "shop.",
+        "PRESENT:",
+        "shop(s).",
+        "PAST:",
+        "shopped."
+      ]
     }
   ]
 }

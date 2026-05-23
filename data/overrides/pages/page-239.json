@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "You will have a strange feeling. Are two pencils touching your fingers, or is only one pencil touching them?", "x": 0.12, "y": 0.14, "w": 0.38, "h": 0.15 },
-    { "text": "Do you have the strange feeling that two pencils are there? When you are touching one finger only, you seem to be touching the other?", "x": 0.52, "y": 0.17, "w": 0.38, "h": 0.15 },
-    { "text": "Why is that? Here is the answer. When the fingers are like this, or like this, they do their work together.", "x": 0.12, "y": 0.54, "w": 0.38, "h": 0.35 },
-    { "text": "But when they are across one another they do not do their work together. Then a touch to one sometimes seems to be a touch to the other.", "x": 0.52, "y": 0.71, "w": 0.38, "h": 0.2 }
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Six thousand years ago in Egypt, men measured land using squares and triangles. How large is this square?", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "(4x4 Grid) We count small squares to find the area. There are sixteen small squares in this large square.", "x": 0.1, "y": 0.18, "w": 0.85, "h": 0.25 },
-    { "text": "The area is sixteen units squared (inches, feet, or yards). The relation of side to area is always the same.", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.25 },
-    { "text": "area: the measure of a surface. unit: a division of measure used as one.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
-  ]
-}

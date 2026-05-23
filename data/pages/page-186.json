@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20186.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 14,
-    "wordCount": 83,
+    "regionCount": 4,
+    "wordCount": 85,
     "imageWidth": 1180,
     "imageHeight": 1850
   },
@@ -18,9 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r3",
-        "r5"
+        "r1"
       ]
     },
     {
@@ -31,9 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r4",
-        "r6"
+        "r2"
       ]
     },
     {
@@ -44,10 +40,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r9",
-        "r11",
-        "r13"
+        "r3"
       ]
     },
     {
@@ -58,93 +51,30 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r10",
-        "r12",
-        "r14"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "This is a short coat. This is a longer coat. This is the longest coat of the three.",
+      "x": 0.12,
+      "y": 0.11,
+      "w": 0.25,
+      "h": 0.3,
       "id": "r1",
       "order": 0,
-      "text": "This isa short coat.",
-      "x": 0.1661,
-      "y": 0.1157,
-      "w": 0.161,
-      "h": 0.0454,
       "words": [
         "This",
-        "isa",
+        "is",
+        "a",
         "short",
-        "coat."
-      ],
-      "conf": 88.396,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "This is a thin book.",
-      "x": 0.678,
-      "y": 0.1146,
-      "w": 0.1873,
-      "h": 0.046,
-      "words": [
+        "coat.",
         "This",
         "is",
         "a",
-        "thin",
-        "book."
-      ],
-      "conf": 96.0107,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "This isa longer coat.",
-      "x": 0.1424,
-      "y": 0.2276,
-      "w": 0.1847,
-      "h": 0.0492,
-      "words": [
-        "This",
-        "isa",
         "longer",
-        "coat."
-      ],
-      "conf": 86.5859,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "This is a thicker book.",
-      "x": 0.6144,
-      "y": 0.2286,
-      "w": 0.2356,
-      "h": 0.0455,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "thicker",
-        "book."
-      ],
-      "conf": 92.5839,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "This is the longest coat of the three.",
-      "x": 0.1347,
-      "y": 0.3449,
-      "w": 0.189,
-      "h": 0.0718,
-      "words": [
+        "coat.",
         "This",
         "is",
         "the",
@@ -153,19 +83,27 @@
         "of",
         "the",
         "three."
-      ],
-      "conf": 96.5197,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "This is the thickest book of the three.",
-      "x": 0.5746,
-      "y": 0.3714,
-      "w": 0.2746,
-      "h": 0.0454,
+      "text": "This is a thin book. This is a thicker book. This is the thickest book of the three.",
+      "x": 0.54,
+      "y": 0.11,
+      "w": 0.35,
+      "h": 0.3,
+      "id": "r2",
+      "order": 1,
       "words": [
+        "This",
+        "is",
+        "a",
+        "thin",
+        "book.",
+        "This",
+        "is",
+        "a",
+        "thicker",
+        "book.",
         "This",
         "is",
         "the",
@@ -174,91 +112,27 @@
         "of",
         "the",
         "three."
-      ],
-      "conf": 96.7763,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "This is a narrow street.",
-      "x": 0.128,
-      "y": 0.5411,
-      "w": 0.35,
-      "h": 0.0205,
+      "text": "This is a narrow street. This is a wider street. This is the widest street of the three. Which is the narrowest street of the three?",
+      "x": 0.1,
+      "y": 0.53,
+      "w": 0.4,
+      "h": 0.38,
+      "id": "r3",
+      "order": 2,
       "words": [
         "This",
         "is",
         "a",
         "narrow",
-        "street."
-      ],
-      "conf": 95.8058,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "This is a dirty face.",
-      "x": 0.6051,
-      "y": 0.5292,
-      "w": 0.2915,
-      "h": 0.0238,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "dirty",
-        "face."
-      ],
-      "conf": 96.4227,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "This is a wider street.",
-      "x": 0.1271,
-      "y": 0.6557,
-      "w": 0.3254,
-      "h": 0.0195,
-      "words": [
+        "street.",
         "This",
         "is",
         "a",
         "wider",
-        "street."
-      ],
-      "conf": 95.8901,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "This is a cleaner face.",
-      "x": 0.5831,
-      "y": 0.6459,
-      "w": 0.3322,
-      "h": 0.0195,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "cleaner",
-        "face."
-      ],
-      "conf": 95.7721,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "This is the widest street of the three.",
-      "x": 0.128,
-      "y": 0.7724,
-      "w": 0.3542,
-      "h": 0.0449,
-      "words": [
+        "street.",
         "This",
         "is",
         "the",
@@ -266,42 +140,8 @@
         "street",
         "of",
         "the",
-        "three."
-      ],
-      "conf": 96.8457,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "This is the cleanest face of the three.",
-      "x": 0.5695,
-      "y": 0.7589,
-      "w": 0.361,
-      "h": 0.0449,
-      "words": [
-        "This",
-        "is",
-        "the",
-        "cleanest",
-        "face",
-        "of",
-        "the",
-        "three."
-      ],
-      "conf": 96.7743,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "hich is the narrowest street of the three?",
-      "x": 0.1178,
-      "y": 0.8708,
-      "w": 0.3559,
-      "h": 0.0438,
-      "words": [
-        "hich",
+        "three.",
+        "Which",
         "is",
         "the",
         "narrowest",
@@ -309,27 +149,41 @@
         "of",
         "the",
         "three?"
-      ],
-      "conf": 95.4703,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r14",
-      "order": 13,
-      "text": "Which is the dirtiest face?",
-      "x": 0.5805,
-      "y": 0.8708,
-      "w": 0.3051,
-      "h": 0.047,
+      "text": "This is a dirty face. This is a cleaner face. This is the cleanest face of the three. Which is the dirtiest face?",
+      "x": 0.54,
+      "y": 0.52,
+      "w": 0.4,
+      "h": 0.38,
+      "id": "r4",
+      "order": 3,
       "words": [
+        "This",
+        "is",
+        "a",
+        "dirty",
+        "face.",
+        "This",
+        "is",
+        "a",
+        "cleaner",
+        "face.",
+        "This",
+        "is",
+        "the",
+        "cleanest",
+        "face",
+        "of",
+        "the",
+        "three.",
         "Which",
         "is",
         "the",
         "dirtiest",
         "face?"
-      ],
-      "conf": 96.3763,
-      "source": "psm-11"
+      ]
     }
   ]
 }

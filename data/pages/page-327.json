@@ -2,63 +2,63 @@
   "page": 327,
   "image": "/books/page 327.png",
   "imageApiPath": "/api/books/page%20327.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 155,
+    "regionCount": 4,
+    "wordCount": 130,
     "imageWidth": 1292,
     "imageHeight": 1842
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Why do men work? Do they work only for their private needs — because of their need for homes and food and clothing for themselves and their families?",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.3,
+      "h": 0.3,
       "id": "r1",
       "order": 0,
-      "text": "Why do men work?",
-      "x": 0.1014,
-      "y": 0.0597,
-      "w": 0.267,
-      "h": 0.0217,
       "words": [
         "Why",
         "do",
         "men",
-        "work?"
-      ],
-      "conf": 96.0738,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "Do they work only for their private needs because of their need for homes and food and cloth- ing for themselves and their families?",
-      "x": 0.0991,
-      "y": 0.1395,
-      "w": 0.2724,
-      "h": 0.1759,
-      "words": [
+        "work?",
         "Do",
         "they",
         "work",
@@ -67,6 +67,7 @@
         "their",
         "private",
         "needs",
+        "—",
         "because",
         "of",
         "their",
@@ -76,25 +77,22 @@
         "and",
         "food",
         "and",
-        "cloth-",
-        "ing",
+        "clothing",
         "for",
         "themselves",
         "and",
         "their",
         "families?"
-      ],
-      "conf": 96.4107,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
       "text": "Why do some men work when they have enough of all these things? Do they work for pleasure, because making things, for example, gives them pleasure? Do some men work for the public good? Why are some men happier when they are working? Isn’t work one of their needs?",
-      "x": 0.1029,
-      "y": 0.3768,
-      "w": 0.764,
-      "h": 0.1276,
+      "x": 0.1,
+      "y": 0.38,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r2",
+      "order": 1,
       "words": [
         "Why",
         "do",
@@ -145,18 +143,16 @@
         "of",
         "their",
         "needs?"
-      ],
-      "conf": 96.3847,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "Why do you work? Do you need to work to be happy?",
-      "x": 0.106,
-      "y": 0.5613,
-      "w": 0.7601,
-      "h": 0.0233,
+      "text": "Why do you work? Do you need to work to be happy? Do we know one another’s needs? Aren’t we in the dark about some of them?",
+      "x": 0.1,
+      "y": 0.55,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r3",
+      "order": 2,
       "words": [
         "Why",
         "do",
@@ -169,20 +165,7 @@
         "work",
         "to",
         "be",
-        "happy?"
-      ],
-      "conf": 96.6452,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "Do we know one another’s needs? Aren’t we in the dark about some of them?",
-      "x": 0.1068,
-      "y": 0.6406,
-      "w": 0.7608,
-      "h": 0.0446,
-      "words": [
+        "happy?",
         "Do",
         "we",
         "know",
@@ -198,138 +181,44 @@
         "some",
         "of",
         "them?"
-      ],
-      "conf": 94.383,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "private needs: needs of one person or of o.small number.",
-      "x": 0.1091,
-      "y": 0.7942,
-      "w": 0.637,
-      "h": 0.0174,
+      "text": "private needs: needs of one person. public good: good of all. isn't/aren't: is not/are not. in the dark: people aren't able to see in the dark.",
+      "x": 0.1,
+      "y": 0.8,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r4",
+      "order": 3,
       "words": [
         "private",
         "needs:",
         "needs",
         "of",
         "one",
-        "person",
-        "or",
-        "of",
-        "o.small",
-        "number."
-      ],
-      "conf": 89.3318,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "public good: good of all.",
-      "x": 0.1091,
-      "y": 0.8116,
-      "w": 0.2663,
-      "h": 0.0157,
-      "words": [
+        "person.",
         "public",
         "good:",
         "good",
         "of",
-        "all."
-      ],
-      "conf": 88.7682,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "aren’h are not. When isn’t of cren’t starts o question in place of is or",
-      "x": 0.1091,
-      "y": 0.8469,
-      "w": 0.7608,
-      "h": 0.0163,
-      "words": [
-        "aren’h",
-        "are",
+        "all.",
+        "isn't/aren't:",
+        "is",
+        "not/are",
         "not.",
-        "When",
-        "isn’t",
-        "of",
-        "cren’t",
-        "starts",
-        "o",
-        "question",
-        "in",
-        "place",
-        "of",
-        "is",
-        "or"
-      ],
-      "conf": 82.876,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "is not.",
-      "x": 0.1749,
-      "y": 0.8301,
-      "w": 0.0619,
-      "h": 0.0125,
-      "words": [
-        "is",
-        "not."
-      ],
-      "conf": 92.0777,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "in the daria people area’t able ta see in the dark,",
-      "x": 0.1091,
-      "y": 0.88,
-      "w": 0.5418,
-      "h": 0.0206,
-      "words": [
         "in",
         "the",
-        "daria",
+        "dark:",
         "people",
-        "area’t",
+        "aren't",
         "able",
-        "ta",
+        "to",
         "see",
         "in",
         "the",
-        "dark,"
-      ],
-      "conf": 82.4672,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "ore, we are looking for the onswer “Yes.”",
-      "x": 0.1579,
-      "y": 0.8648,
-      "w": 0.4481,
-      "h": 0.0147,
-      "words": [
-        "ore,",
-        "we",
-        "are",
-        "looking",
-        "for",
-        "the",
-        "onswer",
-        "“Yes.”"
-      ],
-      "conf": 88.8556,
-      "source": "psm-11"
+        "dark."
+      ]
     }
   ]
 }

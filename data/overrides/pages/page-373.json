@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Men have been able (1953) to get to the top of the highest mountain in the world, Mount Everest. They had to use oxygen when they got up high. They had to keep control over the amount of oxygen they used.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.2 },
-    { "text": "This man, who is going up a high mountain, is using a supply of oxygen which is stored in those cans he is carrying on his back. By opening and shutting a valve, he controls the amount of oxygen he breathes in.", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.15 },
-    { "text": "The gas has been pumped into the small space inside the cans. It is under pressure in there and comes out when the valve is opened. control: power over. below: lower down, opposite to above.", "x": 0.1, "y": 0.6, "w": 0.85, "h": 0.2 },
-    { "text": "FUTURE: will control. PRESENT: control(s). PAST: controlled.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.08 }
-  ]
-}

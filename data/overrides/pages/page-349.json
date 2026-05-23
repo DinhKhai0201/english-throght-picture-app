@@ -1,7 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Here is the name of the book English Through Pictures written in a number of different languages. The names of the languages are given in English.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "Translations of 'English Through Pictures' in: Arabic, Bengali, Burmese, Chinese, Greek, Hebrew, Hindi, Japanese, Korean, Persian, Russian, Sinhalese, Tamil, Telugu, Thai, and Urdu.", "x": 0.1, "y": 0.15, "w": 0.85, "h": 0.75 }
-  ]
-}

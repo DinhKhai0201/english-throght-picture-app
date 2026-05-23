@@ -2,61 +2,52 @@
   "page": 289,
   "image": "/books/page 289.png",
   "imageApiPath": "/api/books/page%20289.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 91,
+    "regionCount": 4,
+    "wordCount": 96,
     "imageWidth": 1275,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "\"I am here\" is the first statement in English Through Pictures, Book 1 (EP 1). That book uses about five hundred words of English in a great number of different ways.",
+      "x": 0.35,
+      "y": 0.05,
+      "w": 0.55,
+      "h": 0.2,
       "id": "r1",
       "order": 0,
-      "text": "“I am here",
-      "x": 0.1161,
-      "y": 0.0389,
-      "w": 0.142,
-      "h": 0.0165,
       "words": [
-        "“I",
+        "\"I",
         "am",
-        "here"
-      ],
-      "conf": 87.3785,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "is the first statement in English Through Pictures, Book I (EP That book uses about five hundred words of English in a great number of",
-      "x": 0.3545,
-      "y": 0.0683,
-      "w": 0.5412,
-      "h": 0.1259,
-      "words": [
+        "here\"",
         "is",
         "the",
         "first",
@@ -66,8 +57,9 @@
         "Through",
         "Pictures,",
         "Book",
-        "I",
+        "1",
         "(EP",
+        "1).",
         "That",
         "book",
         "uses",
@@ -81,34 +73,19 @@
         "a",
         "great",
         "number",
-        "of"
-      ],
-      "conf": 96.5464,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "different ways.",
-      "x": 0.3576,
-      "y": 0.1995,
-      "w": 0.1945,
-      "h": 0.0208,
-      "words": [
+        "of",
         "different",
         "ways."
-      ],
-      "conf": 96.8693,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "Using those same words, together with about the same number of new words and more pictures, this book (EP goes farther into the language.",
-      "x": 0.3576,
-      "y": 0.2517,
-      "w": 0.538,
-      "h": 0.0993,
+      "text": "Using those same words, together with about the same number of new words and more pictures, this book (EP 2) goes farther into the language. This new book uses about a thousand words of English.",
+      "x": 0.35,
+      "y": 0.25,
+      "w": 0.55,
+      "h": 0.35,
+      "id": "r2",
+      "order": 1,
       "words": [
         "Using",
         "those",
@@ -129,24 +106,12 @@
         "this",
         "book",
         "(EP",
+        "2)",
         "goes",
         "farther",
         "into",
         "the",
-        "language."
-      ],
-      "conf": 96.2855,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "This new book uses about a thousand words of English.",
-      "x": 0.0988,
-      "y": 0.6395,
-      "w": 0.7639,
-      "h": 0.0213,
-      "words": [
+        "language.",
         "This",
         "new",
         "book",
@@ -157,19 +122,27 @@
         "words",
         "of",
         "English."
-      ],
-      "conf": 96.2376,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "language: all the words used by persons talking or writing to one",
-      "x": 0.1004,
-      "y": 0.8069,
-      "w": 0.7671,
-      "h": 0.0149,
+      "text": "use: when you make use of something you use it. language: all the words used by persons talking or writing to one another.",
+      "x": 0.1,
+      "y": 0.8,
+      "w": 0.85,
+      "h": 0.08,
+      "id": "r3",
+      "order": 2,
       "words": [
+        "use:",
+        "when",
+        "you",
+        "make",
+        "use",
+        "of",
+        "something",
+        "you",
+        "use",
+        "it.",
         "language:",
         "all",
         "the",
@@ -181,77 +154,27 @@
         "or",
         "writing",
         "to",
-        "one"
-      ],
-      "conf": 95.1923,
-      "source": "psm-11"
+        "one",
+        "another."
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "use: when you make use of something you use it.",
-      "x": 0.102,
-      "y": 0.7893,
-      "w": 0.509,
-      "h": 0.0149,
+      "text": "FUTURE: will use. PRESENT: use(s). PAST: used.",
+      "x": 0.1,
+      "y": 0.88,
+      "w": 0.85,
+      "h": 0.05,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "use:",
-        "when",
-        "you",
-        "make",
-        "use",
-        "of",
-        "something",
-        "you",
-        "use",
-        "it."
-      ],
-      "conf": 95.8756,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "anather, will use",
-      "x": 0.1027,
-      "y": 0.8251,
-      "w": 0.131,
-      "h": 0.0416,
-      "words": [
-        "anather,",
+        "FUTURE:",
         "will",
-        "use"
-      ],
-      "conf": 38.2035,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "use(s)",
-      "x": 0.44,
-      "y": 0.8555,
-      "w": 0.0769,
-      "h": 0.0144,
-      "words": [
-        "use(s)"
-      ],
-      "conf": 88.4942,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "used",
-      "x": 0.8149,
-      "y": 0.8539,
-      "w": 0.0533,
-      "h": 0.0123,
-      "words": [
-        "used"
-      ],
-      "conf": 92.7315,
-      "source": "psm-11"
+        "use.",
+        "PRESENT:",
+        "use(s).",
+        "PAST:",
+        "used."
+      ]
     }
   ]
 }

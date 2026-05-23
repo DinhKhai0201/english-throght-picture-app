@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "The population of the earth has increased more than the amount of food. There is a great need for more food. More than a billion people on the earth today need more food than they can get. They cannot get enough food to keep them well and strong. The relation between amount of food and size of population has been changing.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "1650, 1750, 1850, 1950", "x": 0.1, "y": 0.25, "w": 0.1, "h": 0.5 },
-    { "text": "a billion: 1,000,000,000. need: something important which is not present. can: are able to. cannot: are not able to.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.1 },
-    { "text": "FUTURE: will need (will be able to). PRESENT: need(s) (can). PAST: needed (could).", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.05 }
-  ]
-}

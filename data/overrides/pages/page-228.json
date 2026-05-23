@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Here is a pencil. It is straight. It is not bent. Here is a glass of water.", "x": 0.12, "y": 0.11, "w": 0.35, "h": 0.25 },
-    { "text": "I put the pencil in the water. The pencil seems bent where it goes into the water.", "x": 0.54, "y": 0.11, "w": 0.38, "h": 0.35 },
-    { "text": "The pencil is straight but it seems bent.", "x": 0.15, "y": 0.53, "w": 0.35, "h": 0.05 },
-    { "text": "It seems like this. But it is like this. It is straight, not bent. It seems bent, not straight.", "x": 0.54, "y": 0.53, "w": 0.38, "h": 0.4 }
-  ]
-}

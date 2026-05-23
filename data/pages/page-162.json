@@ -2,44 +2,74 @@
   "page": 162,
   "image": "/books/page 162.png",
   "imageApiPath": "/api/books/page%20162.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 8,
-    "wordCount": 53,
+    "regionCount": 7,
+    "wordCount": 56,
     "imageWidth": 1180,
     "imageHeight": 1846
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r6",
-        "r7",
-        "r8"
+        "r7"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Now I am making a cut at this angle in this bit of wood.",
+      "x": 0.12,
+      "y": 0.15,
+      "w": 0.4,
+      "h": 0.08,
       "id": "r1",
       "order": 0,
-      "text": "Now am making a cut at this angle in this bit of wood.",
-      "x": 0.1432,
-      "y": 0.1566,
-      "w": 0.3814,
-      "h": 0.071,
       "words": [
         "Now",
+        "I",
         "am",
         "making",
         "a",
@@ -52,55 +82,16 @@
         "bit",
         "of",
         "wood."
-      ],
-      "conf": 90.2256,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "The blade is going through the wood.",
+      "x": 0.15,
+      "y": 0.36,
+      "w": 0.35,
+      "h": 0.05,
       "id": "r2",
       "order": 1,
-      "text": "This is my knife.",
-      "x": 0.5814,
-      "y": 0.1815,
-      "w": 0.2364,
-      "h": 0.0244,
-      "words": [
-        "This",
-        "is",
-        "my",
-        "knife."
-      ],
-      "conf": 96.7927,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "This is the blade of my knife.",
-      "x": 0.5797,
-      "y": 0.3142,
-      "w": 0.3381,
-      "h": 0.0445,
-      "words": [
-        "This",
-        "is",
-        "the",
-        "blade",
-        "of",
-        "my",
-        "knife."
-      ],
-      "conf": 96.9559,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "The blade is going through the wood.",
-      "x": 0.1983,
-      "y": 0.3527,
-      "w": 0.289,
-      "h": 0.0482,
       "words": [
         "The",
         "blade",
@@ -109,83 +100,97 @@
         "through",
         "the",
         "wood."
-      ],
-      "conf": 96.4192,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "This is my knife.",
+      "x": 0.56,
+      "y": 0.18,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "This",
+        "is",
+        "my",
+        "knife."
+      ]
+    },
+    {
+      "text": "This is the blade of my knife.",
+      "x": 0.56,
+      "y": 0.32,
+      "w": 0.38,
+      "h": 0.05,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "blade",
+        "of",
+        "my",
+        "knife."
+      ]
+    },
+    {
+      "text": "I am making a line on the wood. I am making a line with a pencil.",
+      "x": 0.12,
+      "y": 0.54,
+      "w": 0.4,
+      "h": 0.1,
       "id": "r5",
       "order": 4,
-      "text": "H OF",
-      "x": 0.222,
-      "y": 0.4762,
-      "w": 0.3271,
-      "h": 0.0179,
       "words": [
-        "H",
-        "OF"
-      ],
-      "conf": 56.6933,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "lam making aline on the lam making a line with a pencil.",
-      "x": 0.1508,
-      "y": 0.5363,
-      "w": 0.3797,
-      "h": 0.0997,
-      "words": [
-        "lam",
+        "I",
+        "am",
         "making",
-        "aline",
+        "a",
+        "line",
         "on",
         "the",
-        "lam",
+        "wood.",
+        "I",
+        "am",
         "making",
         "a",
         "line",
         "with",
         "a",
         "pencil."
-      ],
-      "conf": 93.205,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
       "text": "This is the pencil.",
-      "x": 0.6644,
-      "y": 0.6013,
-      "w": 0.2602,
-      "h": 0.0249,
+      "x": 0.6,
+      "y": 0.6,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r6",
+      "order": 5,
       "words": [
         "This",
         "is",
         "the",
         "pencil."
-      ],
-      "conf": 96.5021,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
       "text": "This is the line.",
-      "x": 0.7305,
-      "y": 0.7243,
-      "w": 0.222,
-      "h": 0.0206,
+      "x": 0.65,
+      "y": 0.73,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r7",
+      "order": 6,
       "words": [
         "This",
         "is",
         "the",
         "line."
-      ],
-      "conf": 95.6309,
-      "source": "psm-11"
+      ]
     }
   ]
 }

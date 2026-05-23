@@ -2,46 +2,48 @@
   "page": 326,
   "image": "/books/page 326.png",
   "imageApiPath": "/api/books/page%20326.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 146,
+    "regionCount": 4,
+    "wordCount": 144,
     "imageWidth": 1188,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "If we asked the question, “If there were enough good food for everybody, would the world be a better place?” some men would answer: “Yes, the world would be a better place.” Others would say, “No, nobody would do any work! The world would be a worse place.”",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.2,
       "id": "r1",
       "order": 0,
-      "text": "If we asked the question, “If there were enough good food for everybody, would the world be a better place?”",
-      "x": 0.101,
-      "y": 0.0407,
-      "w": 0.8173,
-      "h": 0.0483,
       "words": [
         "If",
         "we",
@@ -62,20 +64,7 @@
         "be",
         "a",
         "better",
-        "place?”"
-      ],
-      "conf": 96.5671,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "some men would answer: “Yes, the world would be a better place.” Others would say, “No, nobody would do",
-      "x": 0.1019,
-      "y": 0.0932,
-      "w": 0.819,
-      "h": 0.0482,
-      "words": [
+        "place?”",
         "some",
         "men",
         "would",
@@ -94,20 +83,7 @@
         "“No,",
         "nobody",
         "would",
-        "do"
-      ],
-      "conf": 95.7815,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "any work! The world would be a worse place.”",
-      "x": 0.1035,
-      "y": 0.1457,
-      "w": 0.6692,
-      "h": 0.0225,
-      "words": [
+        "do",
         "any",
         "work!",
         "The",
@@ -117,18 +93,16 @@
         "a",
         "worse",
         "place.”"
-      ],
-      "conf": 96.7281,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "And some others would say something like this: “That is a strange question to ask when half the people of the world today do not get enough food. There will be time to answer your question when we have grown enough",
-      "x": 0.101,
-      "y": 0.225,
-      "w": 0.8199,
-      "h": 0.1001,
+      "text": "And some others would say something like this: “That is a strange question to ask when half the people of the world today do not get enough food. There will be time to answer your question when we have grown enough food for everybody.” What would your answer be?",
+      "x": 0.1,
+      "y": 0.25,
+      "w": 0.85,
+      "h": 0.2,
+      "id": "r2",
+      "order": 1,
       "words": [
         "And",
         "some",
@@ -170,98 +144,53 @@
         "we",
         "have",
         "grown",
-        "enough"
-      ],
-      "conf": 95.5008,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "food for everybody.”",
-      "x": 0.1002,
-      "y": 0.3289,
-      "w": 0.2988,
-      "h": 0.0225,
-      "words": [
+        "enough",
         "food",
         "for",
-        "everybody.”"
-      ],
-      "conf": 95.6349,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "What would your answer be?",
-      "x": 0.1019,
-      "y": 0.4076,
-      "w": 0.4141,
-      "h": 0.023,
-      "words": [
+        "everybody.”",
         "What",
         "would",
         "your",
         "answer",
         "be?"
-      ],
-      "conf": 96.7292,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "everybody: all persons, e.",
-      "x": 0.1077,
-      "y": 0.7547,
-      "w": 0.399,
-      "h": 0.015,
+      "text": "everybody: all persons, everyone. nobody: no person, no one.",
+      "x": 0.1,
+      "y": 0.75,
+      "w": 0.85,
+      "h": 0.05,
+      "id": "r3",
+      "order": 2,
       "words": [
         "everybody:",
         "all",
         "persons,",
-        "e."
-      ],
-      "conf": 86.0902,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "nobody: no person, no one, not anyone.",
-      "x": 0.1086,
-      "y": 0.7713,
-      "w": 0.4503,
-      "h": 0.015,
-      "words": [
+        "everyone.",
         "nobody:",
         "no",
         "person,",
         "no",
-        "one,",
-        "not",
-        "anyone."
-      ],
-      "conf": 93.5888,
-      "source": "psm-11"
+        "one."
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "would: if this. line from A to. B were straight, then it would be the",
-      "x": 0.1094,
-      "y": 0.7868,
-      "w": 0.8148,
-      "h": 0.0155,
+      "text": "would: if this line from A to B were straight, then it would be the shortest distance between A and B. But the line is not straight. That is why we say were and would in this example.",
+      "x": 0.1,
+      "y": 0.8,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r4",
+      "order": 3,
       "words": [
         "would:",
         "if",
-        "this.",
+        "this",
         "line",
         "from",
         "A",
-        "to.",
+        "to",
         "B",
         "were",
         "straight,",
@@ -269,60 +198,13 @@
         "it",
         "would",
         "be",
-        "the"
-      ],
-      "conf": 87.4333,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "shortest distance between A and B.",
-      "x": 0.1633,
-      "y": 0.805,
-      "w": 0.4377,
-      "h": 0.0145,
-      "words": [
+        "the",
         "shortest",
         "distance",
         "between",
         "A",
         "and",
-        "B."
-      ],
-      "conf": 92.9179,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "why we say were and would in this",
-      "x": 0.1625,
-      "y": 0.8377,
-      "w": 0.4428,
-      "h": 0.0214,
-      "words": [
-        "why",
-        "we",
-        "say",
-        "were",
-        "and",
-        "would",
-        "in",
-        "this"
-      ],
-      "conf": 91.9224,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "But the line is not straight. That Is example,",
-      "x": 0.1641,
-      "y": 0.8227,
-      "w": 0.4369,
-      "h": 0.0514,
-      "words": [
+        "B.",
         "But",
         "the",
         "line",
@@ -330,11 +212,17 @@
         "not",
         "straight.",
         "That",
-        "Is",
-        "example,"
-      ],
-      "conf": 95.1953,
-      "source": "psm-11"
+        "is",
+        "why",
+        "we",
+        "say",
+        "were",
+        "and",
+        "would",
+        "in",
+        "this",
+        "example."
+      ]
     }
   ]
 }

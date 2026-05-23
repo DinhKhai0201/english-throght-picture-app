@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Becoming wise takes a lifetime. We spend our lives learning how to understand, act, and speak rightly. It is a very large question.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.2 },
-    { "text": "This book doesn't give answers, but offers the ideas and facts needed for us to ask: What should we know, think, feel, desire, and do?", "x": 0.1, "y": 0.28, "w": 0.85, "h": 0.22 },
-    { "text": "Which ways of living are best? Our lives are the search for that answer, and language is our most important tool for the task.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.28 },
-    { "text": "desire: to want something strongly. FUTURE: will desire. PRESENT: desire(s). PAST: desired.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.12 }
-  ]
-}

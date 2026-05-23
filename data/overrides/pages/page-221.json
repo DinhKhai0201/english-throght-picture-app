@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "What are the causes of these changes in the weather? Change? What is that? (See page 190.) Here is a line. Here is a change in the direction of the line.", "x": 0.12, "y": 0.11, "w": 0.38, "h": 0.35 },
-    { "text": "This bird was wet. It was in the rain. Now it is dry. That is a change. It was wet. It is dry.", "x": 0.54, "y": 0.11, "w": 0.25, "h": 0.35 },
-    { "text": "What is the cause of these changes in the weather? Good Bad Dry Wet Warm Cold Weather Why are there these changes of weather?", "x": 0.12, "y": 0.52, "w": 0.38, "h": 0.35 },
-    { "text": "There is not one cause only. There are numbers of causes. Changes in the heat which comes to us from the sun are one cause of changes of weather.", "x": 0.52, "y": 0.53, "w": 0.4, "h": 0.22 }
-  ]
-}

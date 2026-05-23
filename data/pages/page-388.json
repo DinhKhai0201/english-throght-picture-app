@@ -2,42 +2,48 @@
   "page": 388,
   "image": "/books/page 388.png",
   "imageApiPath": "/api/books/page%20388.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 8,
-    "wordCount": 112,
+    "regionCount": 4,
+    "wordCount": 91,
     "imageWidth": 1196,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r2",
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Thirty years after Columbus discovered America, the ship of Magellan was the first to make its way south of South America and on round the world back to Europe.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "Thirty years after Columbus discovered America, the ship of Magellan, a sailor of Portugal, was the first to make its way south of South America and on round the world through the Indian Ocean and past the Cape of",
-      "x": 0.0962,
-      "y": 0.0321,
-      "w": 0.8169,
-      "h": 0.1013,
       "words": [
         "Thirty",
         "years",
@@ -48,11 +54,7 @@
         "the",
         "ship",
         "of",
-        "Magellan,",
-        "a",
-        "sailor",
-        "of",
-        "Portugal,",
+        "Magellan",
         "was",
         "the",
         "first",
@@ -69,45 +71,19 @@
         "round",
         "the",
         "world",
-        "through",
-        "the",
-        "Indian",
-        "Ocean",
-        "and",
-        "past",
-        "the",
-        "Cape",
-        "of"
-      ],
-      "conf": 96.5832,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "Good Hope back to Europe.",
-      "x": 0.0978,
-      "y": 0.136,
-      "w": 0.4114,
-      "h": 0.0262,
-      "words": [
-        "Good",
-        "Hope",
         "back",
         "to",
         "Europe."
-      ],
-      "conf": 96.5392,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "Magellan himself died on one of the Philippine Islands",
-      "x": 0.0995,
-      "y": 0.6004,
-      "w": 0.8211,
-      "h": 0.0209,
+      "text": "Magellan himself died on one of the Philippine Islands on April 27 (in) 1521.",
+      "x": 0.1,
+      "y": 0.6,
+      "w": 0.85,
+      "h": 0.05,
+      "id": "r2",
+      "order": 1,
       "words": [
         "Magellan",
         "himself",
@@ -117,35 +93,22 @@
         "of",
         "the",
         "Philippine",
-        "Islands"
-      ],
-      "conf": 91.0129,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "on April (in)",
-      "x": 0.0978,
-      "y": 0.624,
-      "w": 0.2375,
-      "h": 0.0252,
-      "words": [
+        "Islands",
         "on",
         "April",
-        "(in)"
-      ],
-      "conf": 95.8329,
-      "source": "psm-11"
+        "27",
+        "(in)",
+        "1521."
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "When a ship sailed out to the west and came back home from the east three years later men could see that the earth must be round. This proved that the earth was",
-      "x": 0.1012,
-      "y": 0.676,
-      "w": 0.8219,
-      "h": 0.0755,
+      "text": "When a ship sailed out to the west and came back home from the east three years later men could see that the earth must be round. This proved that the earth was round.",
+      "x": 0.1,
+      "y": 0.68,
+      "w": 0.85,
+      "h": 0.12,
+      "id": "r3",
+      "order": 2,
       "words": [
         "When",
         "a",
@@ -179,72 +142,34 @@
         "that",
         "the",
         "earth",
-        "was"
-      ],
-      "conf": 96.3786,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "round. It was proof enough for most men.",
-      "x": 0.1003,
-      "y": 0.7563,
-      "w": 0.6246,
-      "h": 0.0214,
-      "words": [
-        "round.",
-        "It",
         "was",
-        "proof",
-        "enough",
-        "for",
-        "most",
-        "men."
-      ],
-      "conf": 96.4244,
-      "source": "psm-11"
+        "round."
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "piece of land pointing out into the water.",
-      "x": 0.1789,
-      "y": 0.8259,
-      "w": 0.4582,
-      "h": 0.0198,
+      "text": "sailor: man who works on ships. cape: piece of land pointing into the water.",
+      "x": 0.1,
+      "y": 0.82,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "piece",
-        "of",
-        "land",
-        "pointing",
-        "out",
-        "into",
-        "the",
-        "water."
-      ],
-      "conf": 93.5033,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "man who works on ships at sea.",
-      "x": 0.1915,
-      "y": 0.8104,
-      "w": 0.3503,
-      "h": 0.0155,
-      "words": [
+        "sailor:",
         "man",
         "who",
         "works",
         "on",
-        "ships",
-        "at",
-        "sea."
-      ],
-      "conf": 95.7919,
-      "source": "psm-11"
+        "ships.",
+        "cape:",
+        "piece",
+        "of",
+        "land",
+        "pointing",
+        "into",
+        "the",
+        "water."
+      ]
     }
   ]
 }

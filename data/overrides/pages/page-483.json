@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Machines keep business accounts and photograph records. They work much faster than people when dealing with millions of facts.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "(Diagram: A large accounting machine vs. many manual workers). Machines can do in a minute what a man does in a year.", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.3 },
-    { "text": "However, the questions and ideas come from human minds. Men still control the machines. (Illustration: Men planning and calculating).", "x": 0.1, "y": 0.55, "w": 0.85, "h": 0.22 },
-    { "text": "FUTURE: will photograph. PRESENT: photograph(s). PAST: photographed.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
-  ]
-}

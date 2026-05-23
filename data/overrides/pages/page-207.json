@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "All bodies have an attraction for one another. If the bodies are great the attraction between them is great. If the bodies are small the attraction is small.", "x": 0.1, "y": 0.12, "w": 0.38, "h": 0.32 },
-    { "text": "If the bodies go farther from one another the attraction gets smaller. Distance Attraction 1 1 2 1/4 3 1/9 4 1/16 5 1/25", "x": 0.52, "y": 0.09, "w": 0.4, "h": 0.38 },
-    { "text": "Here is a light. It sends out light in every direction. Here is a square.", "x": 0.15, "y": 0.5, "w": 0.7, "h": 0.12 },
-    { "text": "I put the square at different distances from the light. At distance 1, it gets all the light which is going out between the lines. At distance 2, it gets one-fourth of the light. At distance 5, it gets one twenty-fifth. It is the same with the attraction between bodies.", "x": 0.15, "y": 0.75, "w": 0.7, "h": 0.15 }
-  ]
-}

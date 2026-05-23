@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Mary is coming into the room.", "x": 0.13, "y": 0.13, "w": 0.35, "h": 0.05 },
-    { "text": "She is going to the table.", "x": 0.53, "y": 0.13, "w": 0.35, "h": 0.03 },
-    { "text": "She will see the hat.", "x": 0.14, "y": 0.57, "w": 0.35, "h": 0.03 },
-    { "text": "She sees it.", "x": 0.58, "y": 0.57, "w": 0.35, "h": 0.03 }
-  ]
-}

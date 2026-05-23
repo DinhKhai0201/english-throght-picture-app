@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "\"Where is your hat?\"", "x": 0.13, "y": 0.16, "w": 0.35, "h": 0.03 },
-    { "text": "\"You put it on the table. It was on the table.\"", "x": 0.52, "y": 0.14, "w": 0.35, "h": 0.05 },
-    { "text": "\"I took it. I put it in the other room.\"", "x": 0.13, "y": 0.54, "w": 0.35, "h": 0.05 },
-    { "text": "\"It is on a hook there. You will see it there.\"", "x": 0.53, "y": 0.53, "w": 0.35, "h": 0.05 }
-  ]
-}

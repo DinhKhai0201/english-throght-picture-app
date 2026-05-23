@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "How do we know if a man is telling the truth? If he promises three bags of grain for one sheep, we know the truth when the grain arrives.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.25 },
-    { "text": "A man may mean to give the grain, but if he doesn't, he is not true to his word.", "x": 0.1, "y": 0.35, "w": 0.85, "h": 0.12 },
-    { "text": "We sometimes know if a man tells the truth by the look in his eye or the sound of his voice.", "x": 0.1, "y": 0.5, "w": 0.85, "h": 0.1 },
-    { "text": "truth: things which are true. A man tells the truth when what he says is true.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.08 }
-  ]
-}

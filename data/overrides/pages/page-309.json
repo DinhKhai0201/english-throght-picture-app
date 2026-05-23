@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "People in apartment houses have no place to keep a supply of food. They may have enough food in an icebox to take them through a day or two, but on most days they buy meat and milk and fruit and other things they need from a store near their home.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.3 },
-    { "text": "Many families have supplies of milk and other foods sent to their houses every day. People with children in the family may buy four or five quarts of milk at a time.", "x": 0.1, "y": 0.42, "w": 0.85, "h": 0.1 },
-    { "text": "Here is a family with five persons in it: a husband, a wife and their three children. The man is the woman's husband and she is his wife. They have been married ten years.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.2 },
-    { "text": "child: a baby or a young boy or young girl. quart: see next page. married: husbands and wives are men and women who are married.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.1 }
-  ]
-}

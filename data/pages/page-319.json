@@ -2,56 +2,69 @@
   "page": 319,
   "image": "/books/page 319.png",
   "imageApiPath": "/api/books/page%20319.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 109,
+    "regionCount": 4,
+    "wordCount": 90,
     "imageWidth": 1242,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Vitamin C is very important to the body. Without it men’s teeth become loose and their arms and legs weak. Lemons, oranges and tomatoes have Vitamin C in them.",
+      "x": 0.52,
+      "y": 0.05,
+      "w": 0.45,
+      "h": 0.25,
       "id": "r1",
       "order": 0,
-      "text": "Vitamin C is very impor- tant to the body. Without t men’s teeth become loose and their arms and legs weak. Lemons, or- anges and tomatoes have Vitamin C in them",
-      "x": 0.5298,
-      "y": 0.0398,
-      "w": 0.3599,
-      "h": 0.1748,
       "words": [
         "Vitamin",
         "C",
         "is",
         "very",
-        "impor-",
-        "tant",
+        "important",
         "to",
         "the",
         "body.",
         "Without",
-        "t",
+        "it",
         "men’s",
         "teeth",
         "become",
@@ -63,35 +76,31 @@
         "legs",
         "weak.",
         "Lemons,",
-        "or-",
-        "anges",
+        "oranges",
         "and",
         "tomatoes",
         "have",
         "Vitamin",
         "C",
         "in",
-        "them"
-      ],
-      "conf": 93.8188,
-      "source": "psm-11"
+        "them."
+      ]
     },
     {
+      "text": "Vitamin D is the sun vitamin. We get it in milk and eggs and from sunlight on our skin. There are other vitamins, but these, A, B, C and D, are the most important.",
+      "x": 0.1,
+      "y": 0.35,
+      "w": 0.45,
+      "h": 0.25,
       "id": "r2",
       "order": 1,
-      "text": "Vitamin D is the sun vita- min. We get it in milk and eggs and from sunlight on our skin. There are other vitamins, but these, A, B C and D, are the most important.",
-      "x": 0.0942,
-      "y": 0.3023,
-      "w": 0.3655,
-      "h": 0.1808,
       "words": [
         "Vitamin",
         "D",
         "is",
         "the",
         "sun",
-        "vita-",
-        "min.",
+        "vitamin.",
         "We",
         "get",
         "it",
@@ -112,7 +121,7 @@
         "but",
         "these,",
         "A,",
-        "B",
+        "B,",
         "C",
         "and",
         "D,",
@@ -120,156 +129,56 @@
         "the",
         "most",
         "important."
-      ],
-      "conf": 93.5952,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "without: not having. become: come to be. loose: not strongly rooted. weak: opposite of strong. lemon: yellow fruit. tomato: red or yellow fruit.",
+      "x": 0.1,
+      "y": 0.72,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r3",
       "order": 2,
-      "text": "vi, O:",
-      "x": 0.6747,
-      "y": 0.2883,
-      "w": 0.07,
-      "h": 0.0506,
-      "words": [
-        "vi,",
-        "O:"
-      ],
-      "conf": 55.8424,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "without: not having.",
-      "x": 0.0974,
-      "y": 0.7439,
-      "w": 0.223,
-      "h": 0.0161,
       "words": [
         "without:",
         "not",
-        "having."
-      ],
-      "conf": 93.5071,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "become: come to be.",
-      "x": 0.0982,
-      "y": 0.7612,
-      "w": 0.2303,
-      "h": 0.014,
-      "words": [
+        "having.",
         "become:",
         "come",
         "to",
-        "be."
-      ],
-      "conf": 90.4233,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "loose: not strongly rooted; not supported or kept in place.",
-      "x": 0.0982,
-      "y": 0.7789,
-      "w": 0.6288,
-      "h": 0.0167,
-      "words": [
+        "be.",
         "loose:",
         "not",
         "strongly",
-        "rooted;",
-        "not",
-        "supported",
-        "or",
-        "kept",
-        "in",
-        "place."
-      ],
-      "conf": 93.4975,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "weak: opposite of strong lemon: yellow fruit like an orange but not sweet.",
-      "x": 0.0982,
-      "y": 0.7972,
-      "w": 0.525,
-      "h": 0.0328,
-      "words": [
+        "rooted.",
         "weak:",
         "opposite",
         "of",
-        "strong",
+        "strong.",
         "lemon:",
         "yellow",
-        "fruit",
-        "like",
-        "an",
-        "orange",
-        "but",
-        "not",
-        "sweet."
-      ],
-      "conf": 95.0232,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "a red or yellow frult used as a vegetable.",
-      "x": 0.1973,
-      "y": 0.8322,
-      "w": 0.4452,
-      "h": 0.0151,
-      "words": [
-        "a",
+        "fruit.",
+        "tomato:",
         "red",
         "or",
         "yellow",
-        "frult",
-        "used",
-        "as",
-        "a",
-        "vegetable."
-      ],
-      "conf": 94.8972,
-      "source": "psm-11"
+        "fruit."
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "become",
-      "x": 0.0974,
-      "y": 0.8612,
-      "w": 0.0918,
-      "h": 0.0134,
+      "text": "PRESENT: become(s). PAST: became.",
+      "x": 0.1,
+      "y": 0.88,
+      "w": 0.85,
+      "h": 0.05,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "become"
-      ],
-      "conf": 95.9703,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "became",
-      "x": 0.8027,
-      "y": 0.8612,
-      "w": 0.0926,
-      "h": 0.0129,
-      "words": [
-        "became"
-      ],
-      "conf": 96.2916,
-      "source": "psm-11"
+        "PRESENT:",
+        "become(s).",
+        "PAST:",
+        "became."
+      ]
     }
   ]
 }

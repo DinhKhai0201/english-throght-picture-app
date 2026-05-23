@@ -5,7 +5,7 @@
   "layout": "quad",
   "stats": {
     "regionCount": 8,
-    "wordCount": 49,
+    "wordCount": 50,
     "imageWidth": 1125,
     "imageHeight": 1830
   },
@@ -31,7 +31,8 @@
       "h": 0.5,
       "regionIds": [
         "r3",
-        "r4"
+        "r4",
+        "r5"
       ]
     },
     {
@@ -42,8 +43,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r6"
+        "r6",
+        "r7"
       ]
     },
     {
@@ -54,39 +55,34 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
         "r8"
       ]
     }
   ],
   "regions": [
     {
+      "text": "The potatoes are hard.",
+      "x": 0.07,
+      "y": 0.11,
+      "w": 0.38,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "The potatoes are hard. is five-fifty",
-      "x": 0.0729,
-      "y": 0.1082,
-      "w": 0.6524,
-      "h": 0.0322,
       "words": [
         "The",
         "potatoes",
         "are",
-        "hard.",
-        "is",
-        "five-fifty"
-      ],
-      "conf": 89.1056,
-      "source": "psm-11"
+        "hard."
+      ]
     },
     {
+      "text": "The fork does not go into them.",
+      "x": 0.07,
+      "y": 0.14,
+      "w": 0.38,
+      "h": 0.05,
       "id": "r2",
       "order": 1,
-      "text": "The fork does not go into them.",
-      "x": 0.0729,
-      "y": 0.135,
-      "w": 0.3378,
-      "h": 0.0454,
       "words": [
         "The",
         "fork",
@@ -95,18 +91,31 @@
         "go",
         "into",
         "them."
-      ],
-      "conf": 95.7148,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "It is five-fifty (5:50).",
+      "x": 0.52,
+      "y": 0.11,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r3",
       "order": 2,
+      "words": [
+        "It",
+        "is",
+        "five-fifty",
+        "(5:50)."
+      ]
+    },
+    {
       "text": "Mary is putting the fork in again.",
-      "x": 0.5253,
-      "y": 0.141,
-      "w": 0.3822,
-      "h": 0.0464,
+      "x": 0.52,
+      "y": 0.14,
+      "w": 0.38,
+      "h": 0.05,
+      "id": "r4",
+      "order": 3,
       "words": [
         "Mary",
         "is",
@@ -115,85 +124,63 @@
         "fork",
         "in",
         "again."
-      ],
-      "conf": 94.1058,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
       "text": "She is doing it again.",
-      "x": 0.5244,
-      "y": 0.194,
-      "w": 0.3431,
-      "h": 0.0235,
+      "x": 0.52,
+      "y": 0.19,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r5",
+      "order": 4,
       "words": [
         "She",
         "is",
         "doing",
         "it",
         "again."
-      ],
-      "conf": 96.5876,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
       "text": "The potatoes are soft.",
-      "x": 0.072,
-      "y": 0.5568,
-      "w": 0.352,
-      "h": 0.024,
+      "x": 0.07,
+      "y": 0.56,
+      "w": 0.38,
+      "h": 0.03,
+      "id": "r6",
+      "order": 5,
       "words": [
         "The",
         "potatoes",
         "are",
         "soft."
-      ],
-      "conf": 96.1069,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
       "text": "The fork goes into them.",
-      "x": 0.072,
-      "y": 0.5825,
-      "w": 0.3956,
-      "h": 0.0235,
+      "x": 0.07,
+      "y": 0.59,
+      "w": 0.4,
+      "h": 0.03,
+      "id": "r7",
+      "order": 6,
       "words": [
         "The",
         "fork",
         "goes",
         "into",
         "them."
-      ],
-      "conf": 95.6218,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "Cy)",
-      "x": 0.8071,
-      "y": 0.647,
-      "w": 0.0924,
-      "h": 0.0311,
-      "words": [
-        "Cy)"
-      ],
-      "conf": 71.4015,
-      "source": "psm-11"
-    },
-    {
+      "text": "She is taking them out of the pot and putting them on a plate.",
+      "x": 0.52,
+      "y": 0.74,
+      "w": 0.38,
+      "h": 0.08,
       "id": "r8",
       "order": 7,
-      "text": "She is taking them out of the pot and putting them on a plate.",
-      "x": 0.5262,
-      "y": 0.7284,
-      "w": 0.3565,
-      "h": 0.0787,
       "words": [
         "She",
         "is",
@@ -209,9 +196,7 @@
         "on",
         "a",
         "plate."
-      ],
-      "conf": 95.1201,
-      "source": "psm-11"
+      ]
     }
   ]
 }

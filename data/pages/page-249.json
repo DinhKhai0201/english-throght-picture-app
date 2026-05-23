@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20249.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 113,
+    "regionCount": 4,
+    "wordCount": 116,
     "imageWidth": 1188,
     "imageHeight": 1867
   },
@@ -18,9 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r3",
-        "r4"
+        "r1"
       ]
     },
     {
@@ -31,8 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r5"
+        "r2"
       ]
     },
     {
@@ -43,11 +40,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r9",
-        "r10",
-        "r11",
-        "r12"
+        "r3"
       ]
     },
     {
@@ -58,20 +51,19 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r8"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "What is the work of the nose? What do we do with our noses? She has a flower in her hand. She is smelling the flower.",
+      "x": 0.12,
+      "y": 0.11,
+      "w": 0.35,
+      "h": 0.25,
       "id": "r1",
       "order": 0,
-      "text": "What is the work of the nose?",
-      "x": 0.1465,
-      "y": 0.1071,
-      "w": 0.3013,
-      "h": 0.0439,
       "words": [
         "What",
         "is",
@@ -79,150 +71,118 @@
         "work",
         "of",
         "the",
-        "nose?"
-      ],
-      "conf": 95.9486,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "Some flowers have a sweet smell Some flowers have no smell",
-      "x": 0.548,
-      "y": 0.1082,
-      "w": 0.3367,
-      "h": 0.0937,
-      "words": [
-        "Some",
-        "flowers",
-        "have",
-        "a",
-        "sweet",
-        "smell",
-        "Some",
-        "flowers",
-        "have",
-        "no",
-        "smell"
-      ],
-      "conf": 96.6035,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "What do we do with our noses?",
-      "x": 0.1465,
-      "y": 0.158,
-      "w": 0.3114,
-      "h": 0.044,
-      "words": [
+        "nose?",
         "What",
         "do",
         "we",
         "do",
         "with",
         "our",
-        "noses?"
-      ],
-      "conf": 96.2617,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "She has a flower in her hand She is smelling the flower.",
-      "x": 0.1423,
-      "y": 0.2084,
-      "w": 0.2938,
-      "h": 0.0936,
-      "words": [
+        "noses?",
         "She",
         "has",
         "a",
         "flower",
         "in",
         "her",
-        "hand",
+        "hand.",
         "She",
         "is",
         "smelling",
         "the",
         "flower."
-      ],
-      "conf": 95.955,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "This is grass These flowers are in a garden They have a sweet smell",
-      "x": 0.5556,
-      "y": 0.3385,
-      "w": 0.3064,
-      "h": 0.1194,
+      "text": "Some flowers have a sweet smell. Some flowers have no smell. This is grass. These flowers are in a garden. They have a sweet smell.",
+      "x": 0.54,
+      "y": 0.11,
+      "w": 0.38,
+      "h": 0.35,
+      "id": "r2",
+      "order": 1,
       "words": [
+        "Some",
+        "flowers",
+        "have",
+        "a",
+        "sweet",
+        "smell.",
+        "Some",
+        "flowers",
+        "have",
+        "no",
+        "smell.",
         "This",
         "is",
-        "grass",
+        "grass.",
         "These",
         "flowers",
         "are",
         "in",
         "a",
-        "garden",
+        "garden.",
         "They",
         "have",
         "a",
         "sweet",
-        "smell"
-      ],
-      "conf": 96.7047,
-      "source": "psm-11"
+        "smell."
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "This is smoke This fs",
-      "x": 0.5421,
-      "y": 0.5104,
-      "w": 0.3384,
-      "h": 0.0498,
-      "words": [
-        "This",
-        "is",
-        "smoke",
-        "This",
-        "fs"
-      ],
-      "conf": 92.1309,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "These are pigs.",
-      "x": 0.1195,
-      "y": 0.6545,
-      "w": 0.2197,
-      "h": 0.0236,
+      "text": "These are pigs. Some pigs are dirty. Some pigs are clean. (See page 125.) The smell of dirty pigs is not sweet. It is a bad smell.",
+      "x": 0.1,
+      "y": 0.65,
+      "w": 0.38,
+      "h": 0.25,
+      "id": "r3",
+      "order": 2,
       "words": [
         "These",
         "are",
-        "pigs."
-      ],
-      "conf": 96.3446,
-      "source": "psm-11"
+        "pigs.",
+        "Some",
+        "pigs",
+        "are",
+        "dirty.",
+        "Some",
+        "pigs",
+        "are",
+        "clean.",
+        "(See",
+        "page",
+        "125.)",
+        "The",
+        "smell",
+        "of",
+        "dirty",
+        "pigs",
+        "is",
+        "not",
+        "sweet.",
+        "It",
+        "is",
+        "a",
+        "bad",
+        "smell."
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "Some smoke has a good smell. The smell may not be sweet, but it may be a good smell He is smoking a pipe Is the smell of the smoke good?",
-      "x": 0.5219,
-      "y": 0.6545,
-      "w": 0.3771,
-      "h": 0.1736,
+      "text": "This is a fire. This is smoke. Some smoke has a good smell. The smell may not be sweet, but it may be a good smell. He is smoking a pipe. Is the smell of the smoke good?",
+      "x": 0.52,
+      "y": 0.51,
+      "w": 0.4,
+      "h": 0.4,
+      "id": "r4",
+      "order": 3,
       "words": [
+        "This",
+        "is",
+        "a",
+        "fire.",
+        "This",
+        "is",
+        "smoke.",
         "Some",
         "smoke",
         "has",
@@ -241,12 +201,12 @@
         "be",
         "a",
         "good",
-        "smell",
+        "smell.",
         "He",
         "is",
         "smoking",
         "a",
-        "pipe",
+        "pipe.",
         "Is",
         "the",
         "smell",
@@ -254,84 +214,7 @@
         "the",
         "smoke",
         "good?"
-      ],
-      "conf": 96.393,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "Some pigs are dirty",
-      "x": 0.1212,
-      "y": 0.6802,
-      "w": 0.2997,
-      "h": 0.0305,
-      "words": [
-        "Some",
-        "pigs",
-        "are",
-        "dirty"
-      ],
-      "conf": 94.3044,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "Some pigs are clean.",
-      "x": 0.1212,
-      "y": 0.7049,
-      "w": 0.3173,
-      "h": 0.0241,
-      "words": [
-        "Some",
-        "pigs",
-        "are",
-        "clean."
-      ],
-      "conf": 95.9086,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "(See page The smell of dirty pigs is not sweet.",
-      "x": 0.1187,
-      "y": 0.7317,
-      "w": 0.3384,
-      "h": 0.0674,
-      "words": [
-        "(See",
-        "page",
-        "The",
-        "smell",
-        "of",
-        "dirty",
-        "pigs",
-        "is",
-        "not",
-        "sweet."
-      ],
-      "conf": 96.2832,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "Ht is a bad smell,",
-      "x": 0.1229,
-      "y": 0.804,
-      "w": 0.2458,
-      "h": 0.0198,
-      "words": [
-        "Ht",
-        "is",
-        "a",
-        "bad",
-        "smell,"
-      ],
-      "conf": 83.5114,
-      "source": "psm-11"
+      ]
     }
   ]
 }

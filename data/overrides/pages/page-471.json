@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Climate can be too hot or too cold. Now we can use automatic controls to regulate temperature in buildings.", "x": 0.45, "y": 0.05, "w": 0.5, "h": 0.2 },
-    { "text": "A thermostat keeps the air at a set level. If we point it to 70°F, it keeps the room at that temperature.", "x": 0.1, "y": 0.35, "w": 0.55, "h": 0.2 },
-    { "text": "(Illustrations: A radiator and a thermostat with a temperature scale).", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.65 },
-    { "text": "climate: weather patterns. thermostat: temperature control instrument. pointer: something that points. FUTURE: will point. PRESENT: point(s). PAST: pointed.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.2 }
-  ]
-}

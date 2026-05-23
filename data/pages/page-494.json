@@ -4,24 +4,12 @@
   "imageApiPath": "/api/books/page%20494.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 95,
+    "regionCount": 4,
+    "wordCount": 88,
     "imageWidth": 1196,
     "imageHeight": 1859
   },
   "panels": [
-    {
-      "id": "top-left",
-      "label": "Top Left",
-      "x": 0,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2",
-        "r4"
-      ]
-    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -31,20 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r6",
-        "r8",
-        "r10"
+        "r2"
       ]
     },
     {
@@ -55,237 +30,143 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r7",
-        "r9"
+        "r3",
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "This curving line shows how the world has grown from simple to complex over time.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.1,
       "id": "r1",
       "order": 0,
-      "text": "Let this curving line represent growth from simple to",
-      "x": 0.1054,
-      "y": 0.036,
-      "w": 0.8186,
-      "h": 0.0221,
       "words": [
-        "Let",
-        "this",
+        "This",
         "curving",
         "line",
-        "represent",
-        "growth",
+        "shows",
+        "how",
+        "the",
+        "world",
+        "has",
+        "grown",
         "from",
         "simple",
-        "to"
-      ],
-      "conf": 96.4176,
-      "source": "psm-11"
+        "to",
+        "complex",
+        "over",
+        "time."
+      ]
     },
     {
+      "text": "(Diagram: A graph with a curve rising sharply to the right. Left is the 'PAST', bottom right is 'SIMPLE', top right is 'COMPLEX').",
+      "x": 0.1,
+      "y": 0.18,
+      "w": 0.85,
+      "h": 0.28,
       "id": "r2",
       "order": 1,
-      "text": "complex in the world.",
-      "x": 0.1054,
-      "y": 0.0624,
-      "w": 0.3085,
-      "h": 0.0215,
       "words": [
-        "complex",
-        "in",
-        "the",
-        "world."
-      ],
-      "conf": 96.7165,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "COMPLEX",
-      "x": 0.7651,
-      "y": 0.1732,
-      "w": 0.0936,
-      "h": 0.0113,
-      "words": [
-        "COMPLEX"
-      ],
-      "conf": 96.4488,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "PAST",
-      "x": 0.1773,
-      "y": 0.3932,
-      "w": 0.0477,
-      "h": 0.0102,
-      "words": [
-        "PAST"
-      ],
-      "conf": 96.465,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "In this picture the past is to the left and we men of today",
-      "x": 0.1012,
-      "y": 0.546,
-      "w": 0.8169,
-      "h": 0.0221,
-      "words": [
-        "In",
-        "this",
-        "picture",
-        "the",
-        "past",
-        "is",
+        "(Diagram:",
+        "A",
+        "graph",
+        "with",
+        "a",
+        "curve",
+        "rising",
+        "sharply",
         "to",
         "the",
-        "left",
-        "and",
-        "we",
-        "men",
-        "of",
-        "today"
-      ],
-      "conf": 96.7243,
-      "source": "psm-11"
+        "right.",
+        "Left",
+        "is",
+        "the",
+        "'PAST',",
+        "bottom",
+        "right",
+        "is",
+        "'SIMPLE',",
+        "top",
+        "right",
+        "is",
+        "'COMPLEX')."
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "are at the top of thé curve.",
-      "x": 0.1003,
-      "y": 0.5729,
-      "w": 0.3687,
-      "h": 0.0215,
+      "text": "The past is on the left, and humans today are at the top of the curve. Long ago, changes were simple compared to the complex changes in us today.",
+      "x": 0.1,
+      "y": 0.52,
+      "w": 0.85,
+      "h": 0.22,
+      "id": "r3",
+      "order": 2,
       "words": [
+        "The",
+        "past",
+        "is",
+        "on",
+        "the",
+        "left,",
+        "and",
+        "humans",
+        "today",
         "are",
         "at",
         "the",
         "top",
         "of",
-        "thé",
-        "curve."
-      ],
-      "conf": 95.6576,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "Long, long ago, the only sorts of changes that took place were—so men of science say—very simple in comparison with the changes which are taking place in you now as",
-      "x": 0.0987,
-      "y": 0.6573,
-      "w": 0.8194,
-      "h": 0.0743,
-      "words": [
-        "Long,",
-        "long",
+        "the",
+        "curve.",
+        "Long",
         "ago,",
-        "the",
-        "only",
-        "sorts",
-        "of",
         "changes",
-        "that",
-        "took",
-        "place",
-        "were—so",
-        "men",
-        "of",
-        "science",
-        "say—very",
+        "were",
         "simple",
-        "in",
-        "comparison",
-        "with",
-        "the",
-        "changes",
-        "which",
-        "are",
-        "taking",
-        "place",
-        "in",
-        "you",
-        "now",
-        "as"
-      ],
-      "conf": 96.6857,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "you read this.",
-      "x": 0.1003,
-      "y": 0.7364,
-      "w": 0.1931,
-      "h": 0.0215,
-      "words": [
-        "you",
-        "read",
-        "this."
-      ],
-      "conf": 96.1236,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "The curve represents the change from simple to com- plex. The higher it goes the more complex are the sorts",
-      "x": 0.1003,
-      "y": 0.8241,
-      "w": 0.8195,
-      "h": 0.0485,
-      "words": [
-        "The",
-        "curve",
-        "represents",
-        "the",
-        "change",
-        "from",
-        "simple",
+        "compared",
         "to",
-        "com-",
-        "plex.",
+        "the",
+        "complex",
+        "changes",
+        "in",
+        "us",
+        "today."
+      ]
+    },
+    {
+      "text": "The higher the curve goes, the more complex the changes become. We are living through the most complex stage of growth.",
+      "x": 0.1,
+      "y": 0.78,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r4",
+      "order": 3,
+      "words": [
         "The",
         "higher",
-        "it",
-        "goes",
+        "the",
+        "curve",
+        "goes,",
         "the",
         "more",
         "complex",
-        "are",
         "the",
-        "sorts"
-      ],
-      "conf": 95.4624,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "of changes which are taking place.",
-      "x": 0.1003,
-      "y": 0.8768,
-      "w": 0.4833,
-      "h": 0.0221,
-      "words": [
-        "of",
         "changes",
-        "which",
+        "become.",
+        "We",
         "are",
-        "taking",
-        "place."
-      ],
-      "conf": 96.6912,
-      "source": "psm-11"
+        "living",
+        "through",
+        "the",
+        "most",
+        "complex",
+        "stage",
+        "of",
+        "growth."
+      ]
     }
   ]
 }

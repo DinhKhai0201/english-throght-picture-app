@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "If we asked the question, “If there were enough good food for everybody, would the world be a better place?” some men would answer: “Yes, the world would be a better place.” Others would say, “No, nobody would do any work! The world would be a worse place.”", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.2 },
-    { "text": "And some others would say something like this: “That is a strange question to ask when half the people of the world today do not get enough food. There will be time to answer your question when we have grown enough food for everybody.” What would your answer be?", "x": 0.1, "y": 0.25, "w": 0.85, "h": 0.2 },
-    { "text": "everybody: all persons, everyone. nobody: no person, no one.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.05 },
-    { "text": "would: if this line from A to B were straight, then it would be the shortest distance between A and B. But the line is not straight. That is why we say were and would in this example.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.15 }
-  ]
-}

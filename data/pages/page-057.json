@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2057.png",
   "layout": "single",
   "stats": {
-    "regionCount": 5,
-    "wordCount": 18,
+    "regionCount": 3,
+    "wordCount": 13,
     "imageWidth": 1142,
     "imageHeight": 1867
   },
@@ -20,52 +20,46 @@
       "regionIds": [
         "r1",
         "r2",
-        "r3",
-        "r4",
-        "r5"
+        "r3"
       ]
     }
   ],
   "regions": [
     {
+      "text": "QUESTIONS",
+      "x": 0.08,
+      "y": 0.08,
+      "w": 0.2,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "QUESTIONS",
-      "x": 0.0744,
-      "y": 0.0712,
-      "w": 0.2032,
-      "h": 0.0204,
       "words": [
         "QUESTIONS"
-      ],
-      "conf": 96.5715,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "What do you see?",
+      "x": 0.4,
+      "y": 0.08,
+      "w": 0.3,
+      "h": 0.03,
       "id": "r2",
       "order": 1,
-      "text": "What do you see?",
-      "x": 0.4019,
-      "y": 0.0702,
-      "w": 0.289,
-      "h": 0.0236,
       "words": [
         "What",
         "do",
         "you",
         "see?"
-      ],
-      "conf": 96.2869,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "Answers to these questions are on page 56.",
+      "x": 0.15,
+      "y": 0.88,
+      "w": 0.7,
+      "h": 0.03,
       "id": "r3",
       "order": 2,
-      "text": "Answers to these questions are on page",
-      "x": 0.1611,
-      "y": 0.865,
-      "w": 0.6401,
-      "h": 0.0332,
       "words": [
         "Answers",
         "to",
@@ -73,42 +67,9 @@
         "questions",
         "are",
         "on",
-        "page"
-      ],
-      "conf": 96.3498,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "wee ew oe",
-      "x": 0.4256,
-      "y": 0.8607,
-      "w": 0.162,
-      "h": 0.015,
-      "words": [
-        "wee",
-        "ew",
-        "oe"
-      ],
-      "conf": 57.9671,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "em me wwe",
-      "x": 0.8222,
-      "y": 0.8634,
-      "w": 0.12,
-      "h": 0.015,
-      "words": [
-        "em",
-        "me",
-        "wwe"
-      ],
-      "conf": 56.4189,
-      "source": "psm-11"
+        "page",
+        "56."
+      ]
     }
   ]
 }

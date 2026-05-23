@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20314.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 14,
-    "wordCount": 154,
+    "regionCount": 4,
+    "wordCount": 138,
     "imageWidth": 1188,
     "imageHeight": 1838
   },
@@ -18,9 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r5"
+        "r1"
       ]
     },
     {
@@ -31,24 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11"
+        "r2"
       ]
     },
     {
@@ -59,21 +40,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r12",
-        "r13",
-        "r14"
+        "r3",
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Here is a supply of meat, vegetables, milk, butter, cheese, bread, fruit and eggs, enough for a family of four persons for one day in the U.S.A. If a person does not get enough food of the right sorts, he will not keep well. He will not be able to work or play well.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.5,
+      "h": 0.25,
       "id": "r1",
       "order": 0,
-      "text": "Here is a supply of meat, vege- tables, milk, butter, cheese, bread, fruit and eggs, enough for a family of four persons for one day in the U.S.A. If a per- son does not get enough food of the right sorts, he will not keep well. He will not be able to work or play well.",
-      "x": 0.0976,
-      "y": 0.0446,
-      "w": 0.4639,
-      "h": 0.2372,
       "words": [
         "Here",
         "is",
@@ -81,8 +61,7 @@
         "supply",
         "of",
         "meat,",
-        "vege-",
-        "tables,",
+        "vegetables,",
         "milk,",
         "butter,",
         "cheese,",
@@ -105,8 +84,7 @@
         "U.S.A.",
         "If",
         "a",
-        "per-",
-        "son",
+        "person",
         "does",
         "not",
         "get",
@@ -131,38 +109,23 @@
         "or",
         "play",
         "well."
-      ],
-      "conf": 95.6116,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "Fresh food must be supplied to a city day by day. It will not keep good very long if it is open to the air. If uncovered, it may get flies on it. Flies get on dirty things. Their dirty feet make food dirty. Canned food will keep good for a long time. It can be stored.",
+      "x": 0.1,
+      "y": 0.35,
+      "w": 0.85,
+      "h": 0.2,
       "id": "r2",
       "order": 1,
-      "text": "Fresh food must be supplied to",
-      "x": 0.1019,
-      "y": 0.3395,
-      "w": 0.4604,
-      "h": 0.0223,
       "words": [
         "Fresh",
         "food",
         "must",
         "be",
         "supplied",
-        "to"
-      ],
-      "conf": 96.6622,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "a city day by day. It will not keep good very long if it is open to the air. If uncovered, it may get flies on it. Flies get on dirty things. Their dirty feet make food dirty.",
-      "x": 0.1044,
-      "y": 0.3645,
-      "w": 0.8224,
-      "h": 0.0757,
-      "words": [
+        "to",
         "a",
         "city",
         "day",
@@ -200,20 +163,7 @@
         "feet",
         "make",
         "food",
-        "dirty."
-      ],
-      "conf": 96.2005,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "Canned food will keep good for a long time. It can be",
-      "x": 0.1019,
-      "y": 0.4418,
-      "w": 0.8283,
-      "h": 0.0272,
-      "words": [
+        "dirty.",
         "Canned",
         "food",
         "will",
@@ -225,33 +175,18 @@
         "time.",
         "It",
         "can",
-        "be"
-      ],
-      "conf": 96.5784,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "stored.",
-      "x": 0.1052,
-      "y": 0.4717,
-      "w": 0.0976,
-      "h": 0.0163,
-      "words": [
+        "be",
         "stored."
-      ],
-      "conf": 96.6417,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "fresh: new, not kept for a long time.",
-      "x": 0.1094,
-      "y": 0.7361,
-      "w": 0.4116,
-      "h": 0.0163,
+      "text": "fresh: new, not kept for a long time. must: has to. uncovered: not covered. stored: kept for use when needed.",
+      "x": 0.1,
+      "y": 0.75,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r3",
+      "order": 2,
       "words": [
         "fresh:",
         "new,",
@@ -260,147 +195,38 @@
         "for",
         "a",
         "long",
-        "time."
-      ],
-      "conf": 91.0816,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "wncovered: not covered.",
-      "x": 0.1094,
-      "y": 0.772,
-      "w": 0.303,
-      "h": 0.0136,
-      "words": [
-        "wncovered:",
-        "not",
-        "covered."
-      ],
-      "conf": 85.5835,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "must: has to. A man must hove air, water and food to live.",
-      "x": 0.1103,
-      "y": 0.7541,
-      "w": 0.6456,
-      "h": 0.0147,
-      "words": [
+        "time.",
         "must:",
         "has",
         "to.",
-        "A",
-        "man",
-        "must",
-        "hove",
-        "air,",
-        "water",
-        "and",
-        "food",
-        "to",
-        "live."
-      ],
-      "conf": 92.3785,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "stored: kept for use when needed.",
-      "x": 0.1077,
-      "y": 0.8074,
-      "w": 0.3956,
-      "h": 0.0158,
-      "words": [
+        "uncovered:",
+        "not",
+        "covered.",
         "stored:",
         "kept",
         "for",
         "use",
         "when",
         "needed."
-      ],
-      "conf": 96.0025,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "will work",
-      "x": 0.1086,
-      "y": 0.8564,
-      "w": 0.1204,
-      "h": 0.0125,
+      "text": "FUTURE: will store/work/play. PRESENT: store(s)/work(s)/play(s). PAST: stored/worked/played.",
+      "x": 0.1,
+      "y": 0.85,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r4",
+      "order": 3,
       "words": [
+        "FUTURE:",
         "will",
-        "work"
-      ],
-      "conf": 94.9902,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "will store wili play",
-      "x": 0.1086,
-      "y": 0.8384,
-      "w": 0.1203,
-      "h": 0.0512,
-      "words": [
-        "will",
-        "store",
-        "wili",
-        "play"
-      ],
-      "conf": 94.3432,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "store(s) play(s)",
-      "x": 0.4689,
-      "y": 0.839,
-      "w": 0.1035,
-      "h": 0.0511,
-      "words": [
-        "store(s)",
-        "play(s)"
-      ],
-      "conf": 94.5413,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "worked",
-      "x": 0.8409,
-      "y": 0.8553,
-      "w": 0.0934,
-      "h": 0.0131,
-      "words": [
-        "worked"
-      ],
-      "conf": 96.5893,
-      "source": "psm-11"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "stored played",
-      "x": 0.8502,
-      "y": 0.8379,
-      "w": 0.0842,
-      "h": 0.0516,
-      "words": [
-        "stored",
-        "played"
-      ],
-      "conf": 96.0629,
-      "source": "psm-11"
+        "store/work/play.",
+        "PRESENT:",
+        "store(s)/work(s)/play(s).",
+        "PAST:",
+        "stored/worked/played."
+      ]
     }
   ]
 }

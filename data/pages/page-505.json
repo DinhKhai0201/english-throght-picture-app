@@ -2,173 +2,122 @@
   "page": 505,
   "image": "/books/page 505.png",
   "imageApiPath": "/api/books/page%20505.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 9,
-    "wordCount": 93,
+    "regionCount": 4,
+    "wordCount": 72,
     "imageWidth": 1221,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Famous sayings live on in our minds. For centuries, Chinese children started reading with this: 'Men’s nature is good.' (Mencius, 4th century B.C.).",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "Here are some of the greatest sayings of all time which, in one language or another, go on living in men’s minds.",
-      "x": 0.077,
-      "y": 0.0375,
-      "w": 0.8067,
-      "h": 0.0487,
       "words": [
-        "Here",
-        "are",
-        "some",
-        "of",
-        "the",
-        "greatest",
+        "Famous",
         "sayings",
-        "of",
-        "all",
-        "time",
-        "which,",
-        "in",
-        "one",
-        "language",
-        "or",
-        "another,",
-        "go",
+        "live",
         "on",
-        "living",
         "in",
-        "men’s",
-        "minds."
-      ],
-      "conf": 96.4833,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "For many centuries school children in China began to learn to read with this sentence:",
-      "x": 0.0762,
-      "y": 0.0894,
-      "w": 0.81,
-      "h": 0.0488,
-      "words": [
+        "our",
+        "minds.",
         "For",
-        "many",
-        "centuries",
-        "school",
+        "centuries,",
+        "Chinese",
         "children",
-        "in",
-        "China",
-        "began",
-        "to",
-        "learn",
-        "to",
-        "read",
+        "started",
+        "reading",
         "with",
-        "this",
-        "sentence:"
-      ],
-      "conf": 96.5014,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "nature is good.”",
-      "x": 0.6675,
-      "y": 0.3508,
-      "w": 0.2211,
-      "h": 0.0209,
-      "words": [
+        "this:",
+        "'Men’s",
         "nature",
         "is",
-        "good.”"
-      ],
-      "conf": 96.6397,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "Mencius (4th century B.C.)",
-      "x": 0.6233,
-      "y": 0.3771,
-      "w": 0.267,
-      "h": 0.0471,
-      "words": [
-        "Mencius",
-        "(4th",
+        "good.'",
+        "(Mencius,",
+        "4th",
         "century",
-        "B.C.)"
-      ],
-      "conf": 91.7605,
-      "source": "psm-11"
+        "B.C.)."
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "From the Chung Yung (a later work of the school of Confucius) “What makes us is named our nature. What",
-      "x": 0.0811,
-      "y": 0.5854,
-      "w": 0.8108,
-      "h": 0.0996,
+      "text": "(Illustration: Portrait of the philosopher Mencius).",
+      "x": 0.1,
+      "y": 0.18,
+      "w": 0.5,
+      "h": 0.45,
+      "id": "r2",
+      "order": 1,
+      "words": [
+        "(Illustration:",
+        "Portrait",
+        "of",
+        "the",
+        "philosopher",
+        "Mencius)."
+      ]
+    },
+    {
+      "text": "From the Chung Yung: 'What makes us is named our nature. What directs our nature is named the Way. What makes the Way possible is education.'",
+      "x": 0.1,
+      "y": 0.62,
+      "w": 0.85,
+      "h": 0.18,
+      "id": "r3",
+      "order": 2,
       "words": [
         "From",
         "the",
         "Chung",
-        "Yung",
-        "(a",
-        "later",
-        "work",
-        "of",
-        "the",
-        "school",
-        "of",
-        "Confucius)",
-        "“What",
+        "Yung:",
+        "'What",
         "makes",
         "us",
         "is",
         "named",
         "our",
         "nature.",
-        "What"
-      ],
-      "conf": 95.7759,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "directs our nature is named the Way. What makes the Way possible is education.”",
-      "x": 0.1622,
-      "y": 0.6888,
-      "w": 0.6495,
-      "h": 0.0477,
-      "words": [
+        "What",
         "directs",
         "our",
         "nature",
@@ -182,64 +131,36 @@
         "Way",
         "possible",
         "is",
-        "education.”"
-      ],
-      "conf": 96.421,
-      "source": "psm-11"
+        "education.'"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "our nature: what we most deeply and truly ARE.",
-      "x": 0.0827,
-      "y": 0.8056,
-      "w": 0.5348,
-      "h": 0.0161,
+      "text": "our nature: who we truly ARE. directs: gives guidance to. FUTURE: will direct. PRESENT: direct(s). PAST: directed.",
+      "x": 0.1,
+      "y": 0.82,
+      "w": 0.85,
+      "h": 0.12,
+      "id": "r4",
+      "order": 3,
       "words": [
         "our",
         "nature:",
-        "what",
+        "who",
         "we",
-        "most",
-        "deeply",
-        "and",
         "truly",
-        "ARE."
-      ],
-      "conf": 93.3706,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "directs: gives directions to.",
-      "x": 0.0827,
-      "y": 0.8227,
-      "w": 0.3047,
-      "h": 0.0155,
-      "words": [
+        "ARE.",
         "directs:",
         "gives",
-        "directions",
-        "to."
-      ],
-      "conf": 89.8906,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "will direct",
-      "x": 0.0827,
-      "y": 0.8511,
-      "w": 0.1278,
-      "h": 0.0209,
-      "words": [
+        "guidance",
+        "to.",
+        "FUTURE:",
         "will",
-        "direct"
-      ],
-      "conf": 84.8166,
-      "source": "psm-11"
+        "direct.",
+        "PRESENT:",
+        "direct(s).",
+        "PAST:",
+        "directed."
+      ]
     }
   ]
 }

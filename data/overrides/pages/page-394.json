@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Together with all this new knowledge of the cell structure of plants and animals, the microscope opened up a world of living beings so small that men had had no idea such things were possible.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.12 },
-    { "text": "It was a surprise to the scientist to see that in a drop of water there might be thousands of living things of many different sorts moving about and taking in food.", "x": 0.1, "y": 0.2, "w": 0.45, "h": 0.2 },
-    { "text": "With the invention of such instruments as the microscope and telescope man found himself walking between two strange new worlds. Thinking men came to feel less and less at home in the universe.", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.2 },
-    { "text": "such: like these. surprise: a feeling we have when we see something strange.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.08 }
-  ]
-}

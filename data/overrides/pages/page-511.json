@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Aristotle said everything has a purpose—the work it does best. (Illustrations: Wheel, knife, clock, apple tree, cow).", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.25 },
-    { "text": "A good wheel turns well; a good knife cuts well. Likewise, every part of the body has its own work.", "x": 0.1, "y": 0.32, "w": 0.85, "h": 0.18 },
-    { "text": "What is the true work of a human? Is it to learn? If so, what should we learn? How to act?", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.22 },
-    { "text": "Do we learn through feedback? Do we learn by seeing if the outcome of our actions is right?", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.15 }
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Here are two bodies. One is a great body. It is the earth. The other is a small body. It is an apple. The apple is coming down to the earth. Why?", "x": 0.12, "y": 0.23, "w": 0.35, "h": 0.22 },
-    { "text": "It is coming down because there is an attraction between the two bodies. The attraction between them makes the apple come down.", "x": 0.54, "y": 0.13, "w": 0.38, "h": 0.18 },
-    { "text": "All bodies which have weight have an attraction for one another. Here are two bodies. These are springs. Which body has the greater weight?", "x": 0.12, "y": 0.54, "w": 0.38, "h": 0.35 },
-    { "text": "Here are two men. This man is thin. His body is thin. This man is fat. His body is fat. Which man's weight is greater?", "x": 0.54, "y": 0.54, "w": 0.38, "h": 0.38 }
-  ]
-}

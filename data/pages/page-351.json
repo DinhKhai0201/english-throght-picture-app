@@ -2,45 +2,48 @@
   "page": 351,
   "image": "/books/page 351.png",
   "imageApiPath": "/api/books/page%20351.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 125,
+    "regionCount": 4,
+    "wordCount": 127,
     "imageWidth": 1250,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Are some of the sounds used in one language very unlike any of those used in another? Yes. You may have felt in learning English that some of the sounds it uses are strange.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.1,
       "id": "r1",
       "order": 0,
-      "text": "Are some of the sounds used in one language very unlike any of those used in another?",
-      "x": 0.0856,
-      "y": 0.0371,
-      "w": 0.7904,
-      "h": 0.0533,
       "words": [
         "Are",
         "some",
@@ -58,20 +61,7 @@
         "those",
         "used",
         "in",
-        "another?"
-      ],
-      "conf": 96.4239,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "Yes. You may have felt in learning English that some of the sounds it uses are strange. But if you do not have a well-trained ear, you will not bear English words as they are heard by an Englishman or an American. You will hear the nearest sounds in your mother language.",
-      "x": 0.0832,
-      "y": 0.1183,
-      "w": 0.7928,
-      "h": 0.127,
-      "words": [
+        "another?",
         "Yes.",
         "You",
         "may",
@@ -88,7 +78,18 @@
         "it",
         "uses",
         "are",
-        "strange.",
+        "strange."
+      ]
+    },
+    {
+      "text": "But if you do not have a well-trained ear, you will not hear English words as they are heard by an Englishman or an American. You will hear the nearest sounds in your mother language.",
+      "x": 0.1,
+      "y": 0.15,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r2",
+      "order": 1,
+      "words": [
         "But",
         "if",
         "you",
@@ -101,7 +102,7 @@
         "you",
         "will",
         "not",
-        "bear",
+        "hear",
         "English",
         "words",
         "as",
@@ -124,18 +125,16 @@
         "your",
         "mother",
         "language."
-      ],
-      "conf": 96.4528,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "A good way of learning to make the sounds of a new language is to use recordings which have spaces after each sentence giving you time to say what you have heard before the next sentence comes.",
+      "x": 0.1,
+      "y": 0.45,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r3",
       "order": 2,
-      "text": "A good way of learning to make the sounds of a new language is to use recordings which have spaces after",
-      "x": 0.0864,
-      "y": 0.4497,
-      "w": 0.7904,
-      "h": 0.0549,
       "words": [
         "A",
         "good",
@@ -157,20 +156,7 @@
         "which",
         "have",
         "spaces",
-        "after"
-      ],
-      "conf": 95.9904,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "each sentence giving you time to say what you have heard before the next sentence comes.",
-      "x": 0.084,
-      "y": 0.5078,
-      "w": 0.7936,
-      "h": 0.049,
-      "words": [
+        "after",
         "each",
         "sentence",
         "giving",
@@ -187,34 +173,16 @@
         "next",
         "sentence",
         "comes."
-      ],
-      "conf": 96.3288,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "traineds to do",
-      "x": 0.0872,
-      "y": 0.809,
-      "w": 0.2368,
-      "h": 0.014,
-      "words": [
-        "traineds",
-        "to",
-        "do"
-      ],
-      "conf": 91.9825,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "may have felt: may have had the feeling.",
-      "x": 0.088,
-      "y": 0.7918,
-      "w": 0.4664,
-      "h": 0.0167,
+      "text": "may have felt: may have had the feeling. trained: taught to do something well. FUTURE: will feel/train. PRESENT: feel(s)/train(s). PAST: felt/trained.",
+      "x": 0.1,
+      "y": 0.78,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r4",
+      "order": 3,
       "words": [
         "may",
         "have",
@@ -223,83 +191,21 @@
         "have",
         "had",
         "the",
-        "feeling."
-      ],
-      "conf": 95.8501,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "will feel",
-      "x": 0.0848,
-      "y": 0.837,
-      "w": 0.1016,
-      "h": 0.021,
-      "words": [
+        "feeling.",
+        "trained:",
+        "taught",
+        "to",
+        "do",
+        "something",
+        "well.",
+        "FUTURE:",
         "will",
-        "feel"
-      ],
-      "conf": 84.9403,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "will train",
-      "x": 0.0848,
-      "y": 0.8548,
-      "w": 0.1152,
-      "h": 0.0215,
-      "words": [
-        "will",
-        "train"
-      ],
-      "conf": 91.7887,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "train (s)",
-      "x": 0.4272,
-      "y": 0.8558,
-      "w": 0.1008,
-      "h": 0.0215,
-      "words": [
-        "train",
-        "(s)"
-      ],
-      "conf": 69.8354,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "feel(s)",
-      "x": 0.436,
-      "y": 0.8408,
-      "w": 0.0864,
-      "h": 0.0161,
-      "words": [
-        "feel(s)"
-      ],
-      "conf": 67.1171,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "trained",
-      "x": 0.7888,
-      "y": 0.8591,
-      "w": 0.0888,
-      "h": 0.0134,
-      "words": [
-        "trained"
-      ],
-      "conf": 95.0881,
-      "source": "psm-11"
+        "feel/train.",
+        "PRESENT:",
+        "feel(s)/train(s).",
+        "PAST:",
+        "felt/trained."
+      ]
     }
   ]
 }

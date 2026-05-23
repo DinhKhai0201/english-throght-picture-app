@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Rabbit tricks Fox, saying he's fishing. Fox gets in the top bucket to go down, which pulls Rabbit up.", "x": 0.1, "y": 0.05, "w": 0.55, "h": 0.3 },
-    { "text": "They pass each other. Rabbit says, 'Good day! Some go up and some go down.' This story is as old as any invention.", "x": 0.1, "y": 0.38, "w": 0.55, "h": 0.25 },
-    { "text": "(Illustration: Fox descending and Rabbit ascending in buckets connected by a pulley).", "x": 0.65, "y": 0.25, "w": 0.3, "h": 0.5 },
-    { "text": "just: only. bring: make come with. landing: coming to earth. FUTURE: will bring. PRESENT: bring(s). PAST: brought.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.15 }
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "John Amos Comenius (1592-1670) was the first to use pictures for teaching languages. He almost became the first head of Harvard.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.2 },
-    { "text": "His famous book, 'Orbis Pictus' (1657), started with this image. (Illustration: A teacher and a young student).", "x": 0.1, "y": 0.28, "w": 0.85, "h": 0.1 },
-    { "text": "(Illustration: A 17th-century teacher instructing a boy in an open field, with a town in the distance).", "x": 0.1, "y": 0.4, "w": 0.85, "h": 0.38 },
-    { "text": "The teacher: 'Come, Boy, learn to be wise.' The boy: 'What is it to be wise?' The teacher: 'To understand, act, and speak rightly.'", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.18 }
-  ]
-}

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20242.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 71,
+    "regionCount": 4,
+    "wordCount": 87,
     "imageWidth": 1163,
     "imageHeight": 1846
   },
@@ -18,10 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r5",
-        "r6"
+        "r1"
       ]
     },
     {
@@ -32,8 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r2"
       ]
     },
     {
@@ -44,8 +40,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r9"
+        "r3"
       ]
     },
     {
@@ -56,131 +51,85 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r10",
-        "r11"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "What is the work of the eyes? Seeing. Their work is seeing. What is the work of the ears? Hearing. Their work is hearing.",
+      "x": 0.12,
+      "y": 0.11,
+      "w": 0.38,
+      "h": 0.35,
       "id": "r1",
       "order": 0,
-      "text": "eyes?",
-      "x": 0.1178,
-      "y": 0.1327,
-      "w": 0.0868,
-      "h": 0.0238,
       "words": [
-        "eyes?"
-      ],
-      "conf": 95.9621,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "Seeing. Their work is seeing What is the work of the ears?",
-      "x": 0.1204,
-      "y": 0.2037,
-      "w": 0.3672,
-      "h": 0.117,
-      "words": [
-        "Seeing.",
-        "Their",
-        "work",
-        "is",
-        "seeing",
         "What",
         "is",
         "the",
         "work",
         "of",
         "the",
-        "ears?"
-      ],
-      "conf": 96.3966,
-      "source": "psm-11"
+        "eyes?",
+        "Seeing.",
+        "Their",
+        "work",
+        "is",
+        "seeing.",
+        "What",
+        "is",
+        "the",
+        "work",
+        "of",
+        "the",
+        "ears?",
+        "Hearing.",
+        "Their",
+        "work",
+        "is",
+        "hearing."
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "Walking. Walking Is their chief work.",
-      "x": 0.5658,
-      "y": 0.2562,
-      "w": 0.3224,
-      "h": 0.0455,
-      "words": [
-        "Walking.",
-        "Walking",
-        "Is",
-        "their",
-        "chief",
-        "work."
-      ],
-      "conf": 89.5076,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "What i is the work of the mouth?",
-      "x": 0.5434,
-      "y": 0.3164,
-      "w": 0.3637,
-      "h": 0.0639,
+      "text": "What is the work of the legs? Walking. Walking is their chief work. What is the work of the mouth?",
+      "x": 0.54,
+      "y": 0.11,
+      "w": 0.38,
+      "h": 0.35,
+      "id": "r2",
+      "order": 1,
       "words": [
         "What",
-        "i",
+        "is",
+        "the",
+        "work",
+        "of",
+        "the",
+        "legs?",
+        "Walking.",
+        "Walking",
+        "is",
+        "their",
+        "chief",
+        "work.",
+        "What",
         "is",
         "the",
         "work",
         "of",
         "the",
         "mouth?"
-      ],
-      "conf": 90.6809,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "C) Hearing. Their workis",
-      "x": 0.1359,
-      "y": 0.338,
-      "w": 0.3431,
-      "h": 0.1089,
-      "words": [
-        "C)",
-        "Hearing.",
-        "Their",
-        "workis"
-      ],
-      "conf": 59.868,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "earing.",
-      "x": 0.1539,
-      "y": 0.441,
-      "w": 0.1126,
-      "h": 0.0217,
-      "words": [
-        "earing."
-      ],
-      "conf": 72.0866,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "Is talking or taking in food the chief work of the mouth?",
-      "x": 0.1341,
-      "y": 0.5103,
-      "w": 0.3465,
-      "h": 0.0699,
+      "text": "Is talking or taking in food the chief work of the mouth? I say this. This is talk.",
+      "x": 0.12,
+      "y": 0.51,
+      "w": 0.38,
+      "h": 0.2,
+      "id": "r3",
+      "order": 2,
       "words": [
         "Is",
         "talking",
@@ -193,19 +142,23 @@
         "work",
         "of",
         "the",
-        "mouth?"
-      ],
-      "conf": 93.7127,
-      "source": "psm-11"
+        "mouth?",
+        "I",
+        "say",
+        "this.",
+        "This",
+        "is",
+        "talk."
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "What is the work of the hands?",
-      "x": 0.5451,
-      "y": 0.5872,
-      "w": 0.3637,
-      "h": 0.0455,
+      "text": "What is the work of the hands? Taking things up, putting them down, getting things, giving things, making things. We do things with our hands.",
+      "x": 0.54,
+      "y": 0.58,
+      "w": 0.4,
+      "h": 0.35,
+      "id": "r4",
+      "order": 3,
       "words": [
         "What",
         "is",
@@ -213,35 +166,7 @@
         "work",
         "of",
         "the",
-        "hands?"
-      ],
-      "conf": 96.578,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "This Is",
-      "x": 0.3826,
-      "y": 0.6208,
-      "w": 0.0946,
-      "h": 0.019,
-      "words": [
-        "This",
-        "Is"
-      ],
-      "conf": 86.6236,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "Taking things up, putting them down, getting things, giving things, making things.",
-      "x": 0.5443,
-      "y": 0.6381,
-      "w": 0.3818,
-      "h": 0.1008,
-      "words": [
+        "hands?",
         "Taking",
         "things",
         "up,",
@@ -253,29 +178,14 @@
         "giving",
         "things,",
         "making",
-        "things."
-      ],
-      "conf": 96.8373,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "We do things with our hands,",
-      "x": 0.5434,
-      "y": 0.7405,
-      "w": 0.3439,
-      "h": 0.0455,
-      "words": [
+        "things.",
         "We",
         "do",
         "things",
         "with",
         "our",
-        "hands,"
-      ],
-      "conf": 96.5866,
-      "source": "psm-11"
+        "hands."
+      ]
     }
   ]
 }

@@ -58,10 +58,10 @@
   "regions": [
     {
       "text": "The man will give his hat to the woman.",
-      "x": 0.15,
-      "y": 0.14,
-      "w": 0.3,
-      "h": 0.05,
+      "x": 0.1557,
+      "y": 0.129,
+      "w": 0.3192,
+      "h": 0.055,
       "id": "r1",
       "order": 0,
       "words": [
@@ -78,8 +78,8 @@
     },
     {
       "text": "He is giving his hat to the woman.",
-      "x": 0.58,
-      "y": 0.14,
+      "x": 0.5718,
+      "y": 0.1281,
       "w": 0.3,
       "h": 0.05,
       "id": "r2",

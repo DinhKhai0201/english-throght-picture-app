@@ -2,47 +2,54 @@
   "page": 373,
   "image": "/books/page 373.png",
   "imageApiPath": "/api/books/page%20373.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 8,
-    "wordCount": 132,
+    "regionCount": 4,
+    "wordCount": 125,
     "imageWidth": 1171,
     "imageHeight": 1884
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r2",
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Men have been able (1953) to get to the top of the highest mountain in the world, Mount Everest. They had to use oxygen when they got up high. They had to keep control over the amount of oxygen they used.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.45,
+      "h": 0.2,
       "id": "r1",
       "order": 0,
-      "text": "Men have been able to get to the top of the high- est mountain in the world, Mount Everest. They had to",
-      "x": 0.0939,
-      "y": 0.0345,
-      "w": 0.8352,
-      "h": 0.0521,
       "words": [
         "Men",
         "have",
         "been",
         "able",
+        "(1953)",
         "to",
         "get",
         "to",
@@ -50,8 +57,7 @@
         "top",
         "of",
         "the",
-        "high-",
-        "est",
+        "highest",
         "mountain",
         "in",
         "the",
@@ -60,20 +66,7 @@
         "Everest.",
         "They",
         "had",
-        "to"
-      ],
-      "conf": 95.5836,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "use oxygen when they got up high. They had to keep con- trol over the amount of oxy- gen they used. They could get no more supplies from those below.",
-      "x": 0.0931,
-      "y": 0.0892,
-      "w": 0.4269,
-      "h": 0.147,
-      "words": [
+        "to",
         "use",
         "oxygen",
         "when",
@@ -85,37 +78,24 @@
         "had",
         "to",
         "keep",
-        "con-",
-        "trol",
+        "control",
         "over",
         "the",
         "amount",
         "of",
-        "oxy-",
-        "gen",
+        "oxygen",
         "they",
-        "used.",
-        "They",
-        "could",
-        "get",
-        "no",
-        "more",
-        "supplies",
-        "from",
-        "those",
-        "below."
-      ],
-      "conf": 96.298,
-      "source": "psm-11"
+        "used."
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "This man, who is going up a high mountain, is using a supply of oxygen which is stored in those cans he is car-",
-      "x": 0.0905,
-      "y": 0.4352,
-      "w": 0.8377,
-      "h": 0.0589,
+      "text": "This man, who is going up a high mountain, is using a supply of oxygen which is stored in those cans he is carrying on his back. By opening and shutting a valve, he controls the amount of oxygen he breathes in.",
+      "x": 0.1,
+      "y": 0.45,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r2",
+      "order": 1,
       "words": [
         "This",
         "man,",
@@ -140,21 +120,7 @@
         "cans",
         "he",
         "is",
-        "car-"
-      ],
-      "conf": 96.6388,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "rying on his back. By opening and shutting a valve, he controls the amount of oxygen he breathes in. The gas has been pumped into the small space inside the cans. It is under pressure in there and comes out when the valve",
-      "x": 0.0897,
-      "y": 0.4989,
-      "w": 0.8386,
-      "h": 0.0988,
-      "words": [
-        "rying",
+        "carrying",
         "on",
         "his",
         "back.",
@@ -172,7 +138,18 @@
         "oxygen",
         "he",
         "breathes",
-        "in.",
+        "in."
+      ]
+    },
+    {
+      "text": "The gas has been pumped into the small space inside the cans. It is under pressure in there and comes out when the valve is opened. control: power over. below: lower down, opposite to above.",
+      "x": 0.1,
+      "y": 0.6,
+      "w": 0.85,
+      "h": 0.2,
+      "id": "r3",
+      "order": 2,
+      "words": [
         "The",
         "gas",
         "has",
@@ -196,75 +173,37 @@
         "out",
         "when",
         "the",
-        "valve"
-      ],
-      "conf": 96.2979,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "is opened.",
-      "x": 0.0897,
-      "y": 0.5998,
-      "w": 0.1486,
-      "h": 0.026,
-      "words": [
+        "valve",
         "is",
-        "opened."
-      ],
-      "conf": 96.3575,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "control: power over.",
-      "x": 0.088,
-      "y": 0.7946,
-      "w": 0.2391,
-      "h": 0.0149,
-      "words": [
+        "opened.",
         "control:",
         "power",
-        "over."
-      ],
-      "conf": 93.4746,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "below: lower down, opposite to above.",
-      "x": 0.0888,
-      "y": 0.8116,
-      "w": 0.4577,
-      "h": 0.0149,
-      "words": [
+        "over.",
         "below:",
         "lower",
         "down,",
         "opposite",
         "to",
         "above."
-      ],
-      "conf": 95.0633,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "will control",
-      "x": 0.0871,
-      "y": 0.8408,
-      "w": 0.1443,
-      "h": 0.0127,
+      "text": "FUTURE: will control. PRESENT: control(s). PAST: controlled.",
+      "x": 0.1,
+      "y": 0.85,
+      "w": 0.85,
+      "h": 0.08,
+      "id": "r4",
+      "order": 3,
       "words": [
+        "FUTURE:",
         "will",
-        "control"
-      ],
-      "conf": 93.4531,
-      "source": "psm-11"
+        "control.",
+        "PRESENT:",
+        "control(s).",
+        "PAST:",
+        "controlled."
+      ]
     }
   ]
 }

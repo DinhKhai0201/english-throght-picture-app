@@ -2,46 +2,48 @@
   "page": 368,
   "image": "/books/page 368.png",
   "imageApiPath": "/api/books/page%20368.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 175,
+    "regionCount": 4,
+    "wordCount": 134,
     "imageWidth": 1242,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Everywhere the blood stream does two things: supplies the cells with food and oxygen and takes away waste. It is as if the blood kept the little fires in the cells burning and took away the ashes.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.1,
       "id": "r1",
       "order": 0,
-      "text": "Everywhere the blood stream does two things: supplies the cells with food and oxygen and takes away waste. It is as if the blood kept the little fires in the cells burning and took away the ashes.",
-      "x": 0.0982,
-      "y": 0.0403,
-      "w": 0.7907,
-      "h": 0.1001,
       "words": [
         "Everywhere",
         "the",
@@ -80,18 +82,16 @@
         "away",
         "the",
         "ashes."
-      ],
-      "conf": 96.3079,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "The fuel for the fires in the cells is given us by the food we eat. It cannot burn without oxygen. This gas is as necessary to all living things as it is necessary to the burning of fires made of wood or coal.",
+      "x": 0.1,
+      "y": 0.18,
+      "w": 0.85,
+      "h": 0.12,
       "id": "r2",
       "order": 1,
-      "text": "The fuel for the fires in the cells is given us by the food we eat. It cannot burn without oxygen. This gas is as necessary to all living things as it is necessary to the burn- ing of fires made of wood or coal.",
-      "x": 0.095,
-      "y": 0.1689,
-      "w": 0.7987,
-      "h": 0.1044,
       "words": [
         "The",
         "fuel",
@@ -129,8 +129,7 @@
         "necessary",
         "to",
         "the",
-        "burn-",
-        "ing",
+        "burning",
         "of",
         "fires",
         "made",
@@ -138,46 +137,16 @@
         "wood",
         "or",
         "coal."
-      ],
-      "conf": 96.5713,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "Burning is the change which takes place when oxygen and fuel unite. Coal, wood and other fuels (cooking gas, for example) burn by taking oxygen from the air.",
+      "x": 0.1,
+      "y": 0.58,
+      "w": 0.85,
+      "h": 0.1,
       "id": "r3",
       "order": 2,
-      "text": "a)",
-      "x": 0.43,
-      "y": 0.3846,
-      "w": 0.0419,
-      "h": 0.0317,
-      "words": [
-        "a)"
-      ],
-      "conf": 56.6623,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "WT",
-      "x": 0.756,
-      "y": 0.412,
-      "w": 0.0507,
-      "h": 0.0242,
-      "words": [
-        "WT"
-      ],
-      "conf": 60.9041,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "Burning is the change which takes place when oxygen and fuel unite. Coal, wood and other fuels cooking gas, for example) burn by taking oxygen from the air.",
-      "x": 0.1023,
-      "y": 0.5568,
-      "w": 0.7882,
-      "h": 0.0752,
       "words": [
         "Burning",
         "is",
@@ -196,7 +165,7 @@
         "and",
         "other",
         "fuels",
-        "cooking",
+        "(cooking",
         "gas,",
         "for",
         "example)",
@@ -207,163 +176,43 @@
         "from",
         "the",
         "air."
-      ],
-      "conf": 96.5431,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "ash: powder you con see in the ploce where a wood fire hos been",
-      "x": 0.1039,
-      "y": 0.7536,
-      "w": 0.789,
-      "h": 0.0178,
-      "words": [
-        "ash:",
-        "powder",
-        "you",
-        "con",
-        "see",
-        "in",
-        "the",
-        "ploce",
-        "where",
-        "a",
-        "wood",
-        "fire",
-        "hos",
-        "been"
-      ],
-      "conf": 95.0311,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "everywhere: in all ploces, in oll ports, at olf points.",
-      "x": 0.1055,
-      "y": 0.7364,
-      "w": 0.5604,
-      "h": 0.0167,
+      "text": "everywhere: in all places. ash: powder from fire. unite: become one thing. coal: black fuel mined from earth. FUTURE: will unite. PRESENT: unite(s). PAST: united.",
+      "x": 0.1,
+      "y": 0.75,
+      "w": 0.85,
+      "h": 0.18,
+      "id": "r4",
+      "order": 3,
       "words": [
         "everywhere:",
         "in",
         "all",
-        "ploces,",
-        "in",
-        "oll",
-        "ports,",
-        "at",
-        "olf",
-        "points."
-      ],
-      "conf": 92.3999,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "coal: coal is mined from the earth. Trees living millions of yeors ogo",
-      "x": 0.1031,
-      "y": 0.8058,
-      "w": 0.7899,
-      "h": 0.0221,
-      "words": [
-        "coal:",
-        "coal",
-        "is",
-        "mined",
+        "places.",
+        "ash:",
+        "powder",
         "from",
-        "the",
-        "earth.",
-        "Trees",
-        "living",
-        "millions",
-        "of",
-        "yeors",
-        "ogo"
-      ],
-      "conf": 94.041,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "unite: become one new thing, in this sense of unite.",
-      "x": 0.1055,
-      "y": 0.7891,
-      "w": 0.5564,
-      "h": 0.0167,
-      "words": [
+        "fire.",
         "unite:",
         "become",
         "one",
-        "new",
-        "thing,",
-        "in",
-        "this",
-        "sense",
-        "of",
-        "unite."
-      ],
-      "conf": 94.7517,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "burning.",
-      "x": 0.1562,
-      "y": 0.7725,
-      "w": 0.087,
-      "h": 0.0145,
-      "words": [
-        "burning."
-      ],
-      "conf": 96.0669,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "have been slowly changed into the hard, black coal in use os fuel.",
-      "x": 0.1562,
-      "y": 0.8241,
-      "w": 0.7351,
-      "h": 0.0226,
-      "words": [
-        "have",
-        "been",
-        "slowly",
-        "changed",
-        "into",
-        "the",
-        "hard,",
+        "thing.",
+        "coal:",
         "black",
-        "coal",
-        "in",
-        "use",
-        "os",
-        "fuel."
-      ],
-      "conf": 91.4271,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "will unite",
-      "x": 0.1047,
-      "y": 0.8531,
-      "w": 0.1111,
-      "h": 0.0129,
-      "words": [
+        "fuel",
+        "mined",
+        "from",
+        "earth.",
+        "FUTURE:",
         "will",
-        "unite"
-      ],
-      "conf": 85.6016,
-      "source": "psm-11"
+        "unite.",
+        "PRESENT:",
+        "unite(s).",
+        "PAST:",
+        "united."
+      ]
     }
   ]
 }

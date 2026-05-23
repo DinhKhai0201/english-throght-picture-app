@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "He will put the key in the lock of the door.", "x": 0.13, "y": 0.15, "w": 0.35, "h": 0.05 },
-    { "text": "He is putting the key in the lock.", "x": 0.56, "y": 0.15, "w": 0.35, "h": 0.05 },
-    { "text": "He is giving a turn to the key.", "x": 0.13, "y": 0.58, "w": 0.35, "h": 0.05 },
-    { "text": "He is giving a push to the door. The door is open now.", "x": 0.56, "y": 0.55, "w": 0.35, "h": 0.08 }
-  ]
-}

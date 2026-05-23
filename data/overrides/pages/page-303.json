@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "More than a hundred million people on earth today live in cities. Some cities have more people in them than some countries have. There are nineteen or more cities in the world which have over two million people in them.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "Cities have been increasing in size in our time. Before the twentieth century it was hard for the people in a great city to get enough food.", "x": 0.1, "y": 0.22, "w": 0.85, "h": 0.1 },
-    { "text": "On the next page you will see a map of the world on which are marked ten cities with more than three million people in each.", "x": 0.1, "y": 0.32, "w": 0.85, "h": 0.1 },
-    { "text": "city: town of great size. twentieth century: the hundred years numbered from 1900 through 1999.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.1 }
-  ]
-}

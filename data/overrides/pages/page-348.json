@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "In time some men discovered how to represent the sounds in words by marks. In any language there are only a small number of different sounds. By writing down marks to represent sounds, not ideas, men can spell any of the words in a language with only a small number of marks. Every written language today has its spelling system. The hardest languages to spell are those in which—as with English—many of the letters may represent more than one sound.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.25 },
-    { "text": "Here is the complete Roman alphabet: ABCDEFGHIJKLMNOPQRSTUVWXYZ. English and many other languages use this system.", "x": 0.1, "y": 0.32, "w": 0.85, "h": 0.18 },
-    { "text": "Something written in English has a meaning only if it is read as English, because the letters in English represent English sounds. What is written in Italian must be read as Italian.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.12 },
-    { "text": "spell: put letters together. system: way parts are put together. complete: all of it is there. FUTURE: will spell. PRESENT: spell(s). PAST: spelled.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.15 }
-  ]
-}

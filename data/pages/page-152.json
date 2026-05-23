@@ -2,167 +2,101 @@
   "page": 152,
   "image": "/books/page 152.png",
   "imageApiPath": "/api/books/page%20152.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 96,
+    "regionCount": 6,
+    "wordCount": 91,
     "imageWidth": 1180,
     "imageHeight": 1825
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r3",
-        "r4",
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11"
+        "r6"
       ]
     }
   ],
   "regions": [
     {
+      "text": "QUESTIONS",
+      "x": 0.35,
+      "y": 0.06,
+      "w": 0.3,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "QUESTIONS",
-      "x": 0.4025,
-      "y": 0.0581,
-      "w": 0.1975,
-      "h": 0.0433,
       "words": [
         "QUESTIONS"
-      ],
-      "conf": 95.7717,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "What do seven and eleven make? What do twenty and forty make? What do thirteen and thirty make? What do two hundred and three and three hundred and four make?",
+      "x": 0.12,
+      "y": 0.13,
+      "w": 0.38,
+      "h": 0.3,
       "id": "r2",
       "order": 1,
-      "text": "a What do seven and eleven make?",
-      "x": 0.0924,
-      "y": 0.1321,
-      "w": 0.3449,
-      "h": 0.046,
       "words": [
-        "a",
         "What",
         "do",
         "seven",
         "and",
         "eleven",
-        "make?"
-      ],
-      "conf": 91.136,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "b Where does the sun come up and where does it go down?",
-      "x": 0.5288,
-      "y": 0.131,
-      "w": 0.3432,
-      "h": 0.0767,
-      "words": [
-        "b",
-        "Where",
-        "does",
-        "the",
-        "sun",
-        "come",
-        "up",
-        "and",
-        "where",
-        "does",
-        "it",
-        "go",
-        "down?"
-      ],
-      "conf": 95.5174,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "What do twenty and forty make?",
-      "x": 0.1288,
-      "y": 0.1836,
-      "w": 0.3221,
-      "h": 0.0515,
-      "words": [
+        "make?",
         "What",
         "do",
         "twenty",
         "and",
         "forty",
-        "make?"
-      ],
-      "conf": 96.6265,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "Does day come after night Does night come after day?",
-      "x": 0.5695,
-      "y": 0.2121,
-      "w": 0.3203,
-      "h": 0.0773,
-      "words": [
-        "Does",
-        "day",
-        "come",
-        "after",
-        "night",
-        "Does",
-        "night",
-        "come",
-        "after",
-        "day?"
-      ],
-      "conf": 95.3215,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "What do thirteen and thirty make?",
-      "x": 0.1305,
-      "y": 0.2367,
-      "w": 0.339,
-      "h": 0.051,
-      "words": [
+        "make?",
         "What",
         "do",
         "thirteen",
         "and",
         "thirty",
-        "make?"
-      ],
-      "conf": 96.1536,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "What do two hundred and three and three hundred and four make?",
-      "x": 0.1305,
-      "y": 0.2882,
-      "w": 0.3407,
-      "h": 0.0976,
-      "words": [
+        "make?",
         "What",
         "do",
         "two",
@@ -175,37 +109,79 @@
         "and",
         "four",
         "make?"
-      ],
-      "conf": 95.5405,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "Wm. Tom East Sreel~",
-      "x": 0.1559,
-      "y": 0.5874,
-      "w": 0.1763,
-      "h": 0.0329,
+      "text": "Where does the sun come up and where does it go down? Does day come after night? Does night come after day?",
+      "x": 0.54,
+      "y": 0.13,
+      "w": 0.38,
+      "h": 0.2,
+      "id": "r3",
+      "order": 2,
       "words": [
-        "Wm.",
-        "Tom",
-        "East",
-        "Sreel~"
-      ],
-      "conf": 65.5216,
-      "source": "psm-11"
+        "Where",
+        "does",
+        "the",
+        "sun",
+        "come",
+        "up",
+        "and",
+        "where",
+        "does",
+        "it",
+        "go",
+        "down?",
+        "Does",
+        "day",
+        "come",
+        "after",
+        "night?",
+        "Does",
+        "night",
+        "come",
+        "after",
+        "day?"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "d Tom's work at school is learning. He is a learner. What is the teacher's work?",
-      "x": 0.5203,
+      "text": "This is a letter. Where do we put Mr. Green's street and town and state on the letter?",
+      "x": 0.1,
+      "y": 0.67,
+      "w": 0.4,
+      "h": 0.15,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "letter.",
+        "Where",
+        "do",
+        "we",
+        "put",
+        "Mr.",
+        "Green's",
+        "street",
+        "and",
+        "town",
+        "and",
+        "state",
+        "on",
+        "the",
+        "letter?"
+      ]
+    },
+    {
+      "text": "Tom's work at school is learning. He is a learner. What is the teacher's work?",
+      "x": 0.54,
       "y": 0.6,
-      "w": 0.3593,
-      "h": 0.0976,
+      "w": 0.38,
+      "h": 0.12,
+      "id": "r5",
+      "order": 4,
       "words": [
-        "d",
         "Tom's",
         "work",
         "at",
@@ -221,56 +197,23 @@
         "the",
         "teacher's",
         "work?"
-      ],
-      "conf": 83.9282,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "This is a Where do we put Mr, Green's street and town and state on the letter?",
-      "x": 0.1288,
-      "y": 0.6745,
-      "w": 0.35,
-      "h": 0.0987,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "Where",
-        "do",
-        "we",
-        "put",
-        "Mr,",
-        "Green's",
-        "street",
-        "and",
-        "town",
-        "and",
-        "state",
-        "on",
-        "the",
-        "letter?"
-      ],
-      "conf": 95.9434,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "Answers are on page",
-      "x": 0.2898,
-      "y": 0.8521,
-      "w": 0.3339,
-      "h": 0.0411,
+      "text": "Answers are on page 149.",
+      "x": 0.3,
+      "y": 0.87,
+      "w": 0.4,
+      "h": 0.03,
+      "id": "r6",
+      "order": 5,
       "words": [
         "Answers",
         "are",
         "on",
-        "page"
-      ],
-      "conf": 94.7468,
-      "source": "psm-11"
+        "page",
+        "149."
+      ]
     }
   ]
 }

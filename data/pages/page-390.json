@@ -4,24 +4,12 @@
   "imageApiPath": "/api/books/page%20390.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 90,
+    "regionCount": 4,
+    "wordCount": 89,
     "imageWidth": 1263,
     "imageHeight": 1934
   },
   "panels": [
-    {
-      "id": "top-left",
-      "label": "Top Left",
-      "x": 0,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2",
-        "r5"
-      ]
-    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -31,21 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3",
-        "r4"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r7",
-        "r9",
-        "r10"
+        "r2"
       ]
     },
     {
@@ -56,20 +30,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r8"
+        "r3",
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Galileo could let men look through his telescope but he could not make most of them see the picture of the universe that was becoming clear in his mind.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.12,
       "id": "r1",
       "order": 0,
-      "text": "Galileo could let men look through his telescope but he could not make most of them see the picture of the uni-",
-      "x": 0.1267,
-      "y": 0.0558,
-      "w": 0.7775,
-      "h": 0.0518,
       "words": [
         "Galileo",
         "could",
@@ -92,33 +66,24 @@
         "picture",
         "of",
         "the",
-        "uni-"
-      ],
-      "conf": 94.6423,
-      "source": "psm-11"
+        "universe",
+        "that",
+        "was",
+        "becoming",
+        "clear",
+        "in",
+        "his",
+        "mind."
+      ]
     },
     {
+      "text": "He could not do that any more than Copernicus had been able to do it. Men’s ideas were changing, but not as quickly as his.",
+      "x": 0.1,
+      "y": 0.4,
+      "w": 0.85,
+      "h": 0.1,
       "id": "r2",
       "order": 1,
-      "text": "a”",
-      "x": 0.2375,
-      "y": 0.2001,
-      "w": 0.0245,
-      "h": 0.0109,
-      "words": [
-        "a”"
-      ],
-      "conf": 48.1275,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "He could not do that any more than Copernicus had been",
-      "x": 0.1283,
-      "y": 0.4002,
-      "w": 0.7736,
-      "h": 0.0279,
       "words": [
         "He",
         "could",
@@ -130,20 +95,7 @@
         "than",
         "Copernicus",
         "had",
-        "been"
-      ],
-      "conf": 96.6554,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "able to do it. Men’s ideas were changing, but not as",
-      "x": 0.1291,
-      "y": 0.4261,
-      "w": 0.7704,
-      "h": 0.0248,
-      "words": [
+        "been",
         "able",
         "to",
         "do",
@@ -154,35 +106,20 @@
         "changing,",
         "but",
         "not",
-        "as"
-      ],
-      "conf": 95.6338,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "quickly as his.",
-      "x": 0.1267,
-      "y": 0.4524,
-      "w": 0.1956,
-      "h": 0.0207,
-      "words": [
+        "as",
         "quickly",
         "as",
         "his."
-      ],
-      "conf": 96.6819,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "Galileo was put in prison for saying that the ideas written down by Ptolemy fifteen hundred years before did not",
-      "x": 0.1298,
-      "y": 0.5295,
-      "w": 0.7728,
-      "h": 0.047,
+      "text": "Galileo was put in prison for saying that the ideas written down by Ptolemy fifteen hundred years before did not make sense to him.",
+      "x": 0.1,
+      "y": 0.52,
+      "w": 0.85,
+      "h": 0.12,
+      "id": "r3",
+      "order": 2,
       "words": [
         "Galileo",
         "was",
@@ -203,84 +140,34 @@
         "years",
         "before",
         "did",
-        "not"
-      ],
-      "conf": 96.7177,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "make sense to him.",
-      "x": 0.1298,
-      "y": 0.5781,
-      "w": 0.2676,
-      "h": 0.0238,
-      "words": [
+        "not",
         "make",
         "sense",
         "to",
         "him."
-      ],
-      "conf": 95.59,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "prison: place where wrongdoers or those said to have done wrong ore",
-      "x": 0.1227,
-      "y": 0.8201,
-      "w": 0.7743,
-      "h": 0.0181,
+      "text": "universe: everything there is. prison: place where wrongdoers are locked up.",
+      "x": 0.1,
+      "y": 0.8,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r4",
+      "order": 3,
       "words": [
+        "universe:",
+        "everything",
+        "there",
+        "is.",
         "prison:",
         "place",
         "where",
         "wrongdoers",
-        "or",
-        "those",
-        "said",
-        "to",
-        "have",
-        "done",
-        "wrong",
-        "ore"
-      ],
-      "conf": 94.5571,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "wnlverse: everything there is.",
-      "x": 0.1235,
-      "y": 0.8035,
-      "w": 0.3222,
-      "h": 0.015,
-      "words": [
-        "wnlverse:",
-        "everything",
-        "there",
-        "is."
-      ],
-      "conf": 87.6384,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "locked up.",
-      "x": 0.1742,
-      "y": 0.8366,
-      "w": 0.1116,
-      "h": 0.015,
-      "words": [
+        "are",
         "locked",
         "up."
-      ],
-      "conf": 93.5204,
-      "source": "psm-11"
+      ]
     }
   ]
 }

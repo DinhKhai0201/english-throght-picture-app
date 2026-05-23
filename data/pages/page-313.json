@@ -2,47 +2,48 @@
   "page": 313,
   "image": "/books/page 313.png",
   "imageApiPath": "/api/books/page%20313.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 132,
+    "regionCount": 4,
+    "wordCount": 108,
     "imageWidth": 1242,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r2",
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12",
-        "r13"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Some people working in cities have no time or place to cook for themselves. Many of them go out to restaurants for all of their meals. There are many restaurants in a great city, all needing supplies of food every day and some of them cooking for great numbers of people.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.35,
+      "h": 0.4,
       "id": "r1",
       "order": 0,
-      "text": "Some people working in cities have no time or place to cook for them- selves. Many of them go out to restaurants for all of their meals.",
-      "x": 0.091,
-      "y": 0.0421,
-      "w": 0.322,
-      "h": 0.1461,
       "words": [
         "Some",
         "people",
@@ -57,8 +58,7 @@
         "to",
         "cook",
         "for",
-        "them-",
-        "selves.",
+        "themselves.",
         "Many",
         "of",
         "them",
@@ -70,25 +70,11 @@
         "all",
         "of",
         "their",
-        "meals."
-      ],
-      "conf": 96.5375,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "There are many restau- rants in a great city, all needing supplies of food every day and some of them cooking for great numbers of people.",
-      "x": 0.0878,
-      "y": 0.1973,
-      "w": 0.3261,
-      "h": 0.1787,
-      "words": [
+        "meals.",
         "There",
         "are",
         "many",
-        "restau-",
-        "rants",
+        "restaurants",
         "in",
         "a",
         "great",
@@ -110,32 +96,16 @@
         "numbers",
         "of",
         "people."
-      ],
-      "conf": 94.5746,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "CQ",
-      "x": 0.7271,
-      "y": 0.3205,
-      "w": 0.0894,
-      "h": 0.0229,
-      "words": [
-        "CQ"
-      ],
-      "conf": 41.4705,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
       "text": "A good restaurant keeps its food clean and does not let flies get at it. If flies get on food they may poison it.",
-      "x": 0.091,
-      "y": 0.4053,
-      "w": 0.7947,
-      "h": 0.0469,
+      "x": 0.1,
+      "y": 0.45,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r2",
+      "order": 1,
       "words": [
         "A",
         "good",
@@ -161,180 +131,62 @@
         "may",
         "poison",
         "it."
-      ],
-      "conf": 96.6668,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "cook: do cooking. A cook cooks.",
-      "x": 0.095,
-      "y": 0.6933,
-      "w": 0.3478,
-      "h": 0.0144,
+      "text": "cook: do cooking. themselves: himself and herself. meal: food taken at one time (breakfast, lunch, dinner, supper). restaurant: place where you can take meals. fly: housefly.",
+      "x": 0.1,
+      "y": 0.72,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r3",
+      "order": 2,
       "words": [
         "cook:",
         "do",
         "cooking.",
-        "A",
-        "cook",
-        "cooks."
-      ],
-      "conf": 92.9001,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "meal: food taken at ane time, in the morning (breakfast), in the middle",
-      "x": 0.095,
-      "y": 0.7275,
-      "w": 0.7915,
-      "h": 0.0149,
-      "words": [
+        "themselves:",
+        "himself",
+        "and",
+        "herself.",
         "meal:",
         "food",
         "taken",
         "at",
-        "ane",
-        "time,",
-        "in",
-        "the",
-        "morning",
-        "(breakfast),",
-        "in",
-        "the",
-        "middle"
-      ],
-      "conf": 95.2157,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "themselves: himself and herself.",
-      "x": 0.0958,
-      "y": 0.7104,
-      "w": 0.3647,
-      "h": 0.0128,
-      "words": [
-        "themselves:",
-        "himself",
-        "and",
-        "herself."
-      ],
-      "conf": 94.3117,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "restaurant: ploce where you can take meals at different prices.",
-      "x": 0.0974,
-      "y": 0.7621,
-      "w": 0.6948,
-      "h": 0.016,
-      "words": [
+        "one",
+        "time",
+        "(breakfast,",
+        "lunch,",
+        "dinner,",
+        "supper).",
         "restaurant:",
-        "ploce",
+        "place",
         "where",
         "you",
         "can",
         "take",
-        "meals",
-        "at",
-        "different",
-        "prices."
-      ],
-      "conf": 86.8872,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "of the day (luncheon, lunch or dinner) or at night (dinner or supper).",
-      "x": 0.1473,
-      "y": 0.7445,
-      "w": 0.7383,
-      "h": 0.016,
-      "words": [
-        "of",
-        "the",
-        "day",
-        "(luncheon,",
-        "lunch",
-        "or",
-        "dinner)",
-        "or",
-        "at",
-        "night",
-        "(dinner",
-        "or",
-        "supper)."
-      ],
-      "conf": 90.6861,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "this is a housefly.",
-      "x": 0.1465,
-      "y": 0.8192,
-      "w": 0.1812,
-      "h": 0.016,
-      "words": [
-        "this",
-        "is",
-        "a",
+        "meals.",
+        "fly:",
         "housefly."
-      ],
-      "conf": 94.1269,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "will cook",
-      "x": 0.0998,
-      "y": 0.8491,
-      "w": 0.1079,
-      "h": 0.0133,
+      "text": "FUTURE: will cook. PRESENT: cook(s). PAST: cooked.",
+      "x": 0.1,
+      "y": 0.88,
+      "w": 0.85,
+      "h": 0.05,
+      "id": "r4",
+      "order": 3,
       "words": [
+        "FUTURE:",
         "will",
-        "cook"
-      ],
-      "conf": 96.4425,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "cook(s)",
-      "x": 0.4412,
-      "y": 0.8485,
-      "w": 0.0958,
-      "h": 0.0176,
-      "words": [
-        "cook(s)"
-      ],
-      "conf": 81.0056,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "cooked",
-      "x": 0.8003,
-      "y": 0.8485,
-      "w": 0.0853,
-      "h": 0.0128,
-      "words": [
-        "cooked"
-      ],
-      "conf": 96.6382,
-      "source": "psm-11"
+        "cook.",
+        "PRESENT:",
+        "cook(s).",
+        "PAST:",
+        "cooked."
+      ]
     }
   ]
 }

@@ -2,44 +2,48 @@
   "page": 309,
   "image": "/books/page 309.png",
   "imageApiPath": "/api/books/page%20309.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 146,
+    "regionCount": 4,
+    "wordCount": 142,
     "imageWidth": 1213,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "People in apartment houses have no place to keep a supply of food. They may have enough food in an icebox to take them through a day or two, but on most days they buy meat and milk and fruit and other things they need from a store near their home.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.3,
       "id": "r1",
       "order": 0,
-      "text": "People in apartment houses have no place to keep a supply of food. They may have enough food in an icebox to take them through a day or two,",
-      "x": 0.108,
-      "y": 0.0643,
-      "w": 0.5309,
-      "h": 0.1006,
       "words": [
         "People",
         "in",
@@ -69,20 +73,7 @@
         "a",
         "day",
         "or",
-        "two,"
-      ],
-      "conf": 96.3506,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "but on most days they buy meat and milk and fruit and other things they need from a store near their home.",
-      "x": 0.4666,
-      "y": 0.2458,
-      "w": 0.4477,
-      "h": 0.0959,
-      "words": [
+        "two,",
         "but",
         "on",
         "most",
@@ -105,18 +96,16 @@
         "near",
         "their",
         "home."
-      ],
-      "conf": 96.677,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
       "text": "Many families have supplies of milk and other foods sent to their houses every day. People with children in the family may buy four or five quarts of milk at a time.",
-      "x": 0.0998,
-      "y": 0.4285,
-      "w": 0.812,
-      "h": 0.0739,
+      "x": 0.1,
+      "y": 0.42,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r2",
+      "order": 1,
       "words": [
         "Many",
         "families",
@@ -150,20 +139,20 @@
         "at",
         "a",
         "time."
-      ],
-      "conf": 96.5353,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "Here family with five persons in it: a husband, a wife",
-      "x": 0.0998,
-      "y": 0.5313,
-      "w": 0.8096,
-      "h": 0.023,
+      "text": "Here is a family with five persons in it: a husband, a wife and their three children. The man is the woman's husband and she is his wife. They have been married ten years.",
+      "x": 0.1,
+      "y": 0.52,
+      "w": 0.85,
+      "h": 0.2,
+      "id": "r3",
+      "order": 2,
       "words": [
         "Here",
+        "is",
+        "a",
         "family",
         "with",
         "five",
@@ -173,42 +162,16 @@
         "a",
         "husband,",
         "a",
-        "wife"
-      ],
-      "conf": 96.0715,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "and their three children.",
-      "x": 0.0998,
-      "y": 0.5549,
-      "w": 0.3405,
-      "h": 0.0204,
-      "words": [
+        "wife",
         "and",
         "their",
         "three",
-        "children."
-      ],
-      "conf": 96.8831,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "The man is the woman’s husband and she is his wife. They have been married ten years.",
-      "x": 0.0981,
-      "y": 0.6101,
-      "w": 0.488,
-      "h": 0.0733,
-      "words": [
+        "children.",
         "The",
         "man",
         "is",
         "the",
-        "woman’s",
+        "woman's",
         "husband",
         "and",
         "she",
@@ -221,47 +184,31 @@
         "married",
         "ten",
         "years."
-      ],
-      "conf": 94.4558,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "child: a baby or a yoyng boy or young girl. Young bays and girls ore",
-      "x": 0.094,
-      "y": 0.8265,
-      "w": 0.812,
-      "h": 0.0155,
+      "text": "child: a baby or a young boy or young girl. quart: see next page. married: husbands and wives are men and women who are married.",
+      "x": 0.1,
+      "y": 0.8,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r4",
+      "order": 3,
       "words": [
         "child:",
         "a",
         "baby",
         "or",
         "a",
-        "yoyng",
+        "young",
         "boy",
         "or",
         "young",
         "girl.",
-        "Young",
-        "bays",
-        "and",
-        "girls",
-        "ore"
-      ],
-      "conf": 92.0822,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "married: husbands and wives are men and women who are married.",
-      "x": 0.0948,
-      "y": 0.879,
-      "w": 0.7634,
-      "h": 0.0129,
-      "words": [
+        "quart:",
+        "see",
+        "next",
+        "page.",
         "married:",
         "husbands",
         "and",
@@ -273,40 +220,7 @@
         "who",
         "are",
         "married."
-      ],
-      "conf": 90.442,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "quart: see next page.",
-      "x": 0.0956,
-      "y": 0.8634,
-      "w": 0.2391,
-      "h": 0.0134,
-      "words": [
-        "quart:",
-        "see",
-        "next",
-        "page."
-      ],
-      "conf": 94.8267,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "children.",
-      "x": 0.1467,
-      "y": 0.8441,
-      "w": 0.094,
-      "h": 0.0123,
-      "words": [
-        "children."
-      ],
-      "conf": 92.6163,
-      "source": "psm-11"
+      ]
     }
   ]
 }

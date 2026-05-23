@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "A water wheel uses water power to turn millstones. These stones crush grain into flour.", "x": 0.1, "y": 0.05, "w": 0.45, "h": 0.2 },
-    { "text": "Men took grain to the miller. Then their wives made the flour into bread. (Illustrations: Water wheel, milling, and bread making).", "x": 0.45, "y": 0.25, "w": 0.5, "h": 0.3 },
-    { "text": "This was common before steam engines and electric power were invented.", "x": 0.1, "y": 0.58, "w": 0.85, "h": 0.15 },
-    { "text": "mill: a place for making flour. miller: the person who works there.", "x": 0.1, "y": 0.82, "w": 0.85, "h": 0.1 }
-  ]
-}

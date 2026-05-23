@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Pleasure and pain are feelings. We have feelings of pleasure and pain. Here are some pleasures.", "x": 0.1, "y": 0.2, "w": 0.38, "h": 0.15 },
-    { "text": "He is on the sand at the seaside, looking at and hearing the sound of the waves and warming himself in the sun. These are pleasures.", "x": 0.51, "y": 0.32, "w": 0.4, "h": 0.15 },
-    { "text": "Now he is taking a swim in the sea. He is swimming through the waves. He is a good swimmer. To a good swimmer, swimming is a pleasure.", "x": 0.08, "y": 0.53, "w": 0.4, "h": 0.35 },
-    { "text": "Now he is resting in the sun again after his swim. After the water the sun on his skin is a pleasure to him.", "x": 0.5, "y": 0.53, "w": 0.4, "h": 0.35 }
-  ]
-}

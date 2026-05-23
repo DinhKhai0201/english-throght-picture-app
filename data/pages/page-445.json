@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20445.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 103,
+    "regionCount": 3,
+    "wordCount": 64,
     "imageWidth": 1234,
     "imageHeight": 1859
   },
@@ -18,7 +18,6 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
         "r2"
       ]
     },
@@ -30,21 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r6",
-        "r8",
-        "r9"
+        "r1"
       ]
     },
     {
@@ -55,71 +40,47 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r7",
-        "r10"
+        "r3"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Air travel would have seemed strange 3000 years ago. Modern changes come from the invention of numbers.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.12,
       "id": "r1",
       "order": 0,
-      "text": "Air travel would have seemed very strange two or threo thousand years ago, to men keeping their sheep on the mountainsides. All these changes are the outcome of the great step taken in the invention of numbers.",
-      "x": 0.1005,
-      "y": 0.036,
-      "w": 0.7966,
-      "h": 0.1028,
       "words": [
         "Air",
         "travel",
         "would",
         "have",
         "seemed",
-        "very",
         "strange",
-        "two",
-        "or",
-        "threo",
-        "thousand",
+        "3000",
         "years",
-        "ago,",
-        "to",
-        "men",
-        "keeping",
-        "their",
-        "sheep",
-        "on",
-        "the",
-        "mountainsides.",
-        "All",
-        "these",
+        "ago.",
+        "Modern",
         "changes",
-        "are",
-        "the",
-        "outcome",
-        "of",
-        "the",
-        "great",
-        "step",
-        "taken",
-        "in",
+        "come",
+        "from",
         "the",
         "invention",
         "of",
         "numbers."
-      ],
-      "conf": 92.6298,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "Before men could count, how did they know which sheep were theirs? He put a mark on his sheep. He was their owner.",
+      "x": 0.1,
+      "y": 0.25,
+      "w": 0.45,
+      "h": 0.2,
       "id": "r2",
       "order": 1,
-      "text": "Before men could count, how did anyone know which were his sheep and which were another man’s?",
-      "x": 0.1013,
-      "y": 0.2474,
-      "w": 0.4003,
-      "h": 0.1238,
       "words": [
         "Before",
         "men",
@@ -127,63 +88,15 @@
         "count,",
         "how",
         "did",
-        "anyone",
+        "they",
         "know",
         "which",
-        "were",
-        "his",
         "sheep",
-        "and",
-        "which",
         "were",
-        "another",
-        "man’s?"
-      ],
-      "conf": 96.519,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "A Ww)",
-      "x": 0.6062,
-      "y": 0.3287,
-      "w": 0.1321,
-      "h": 0.0409,
-      "words": [
-        "A",
-        "Ww)"
-      ],
-      "conf": 54.5547,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "rT ae",
-      "x": 0.7958,
-      "y": 0.3416,
-      "w": 0.0843,
-      "h": 0.0237,
-      "words": [
-        "rT",
-        "ae"
-      ],
-      "conf": 68.0771,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "He put his mark on his sheep. He was their owner. They",
-      "x": 0.1045,
-      "y": 0.6627,
-      "w": 0.7998,
-      "h": 0.0226,
-      "words": [
+        "theirs?",
         "He",
         "put",
-        "his",
+        "a",
         "mark",
         "on",
         "his",
@@ -191,109 +104,43 @@
         "He",
         "was",
         "their",
-        "owner.",
-        "They"
-      ],
-      "conf": 96.3588,
-      "source": "psm-11"
+        "owner."
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "were his own sheep. He owned them.",
-      "x": 0.1053,
-      "y": 0.6891,
-      "w": 0.5105,
-      "h": 0.0221,
+      "text": "He owned his own sheep. Sometimes he gave them names to see if they were all there. FUTURE: will own. PRESENT: own(s). PAST: owned.",
+      "x": 0.1,
+      "y": 0.65,
+      "w": 0.85,
+      "h": 0.25,
+      "id": "r3",
+      "order": 2,
       "words": [
-        "were",
+        "He",
+        "owned",
         "his",
         "own",
         "sheep.",
-        "He",
-        "owned",
-        "them."
-      ],
-      "conf": 96.5838,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "Sometimes he gave his sheep names, and then he would go through all the names—with his sheep—to see if they",
-      "x": 0.1037,
-      "y": 0.7413,
-      "w": 0.8015,
-      "h": 0.0495,
-      "words": [
         "Sometimes",
         "he",
         "gave",
-        "his",
-        "sheep",
-        "names,",
-        "and",
-        "then",
-        "he",
-        "would",
-        "go",
-        "through",
-        "all",
-        "the",
-        "names—with",
-        "his",
-        "sheep—to",
+        "them",
+        "names",
+        "to",
         "see",
         "if",
-        "they"
-      ],
-      "conf": 96.5509,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "were all there.",
-      "x": 0.1053,
-      "y": 0.7945,
-      "w": 0.1929,
-      "h": 0.0178,
-      "words": [
+        "they",
         "were",
         "all",
-        "there."
-      ],
-      "conf": 96.4629,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "will ows",
-      "x": 0.1053,
-      "y": 0.8526,
-      "w": 0.1037,
-      "h": 0.0134,
-      "words": [
+        "there.",
+        "FUTURE:",
         "will",
-        "ows"
-      ],
-      "conf": 93.6917,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "owned",
-      "x": 0.8233,
-      "y": 0.8526,
-      "w": 0.0827,
-      "h": 0.0134,
-      "words": [
-        "owned"
-      ],
-      "conf": 95.1239,
-      "source": "psm-11"
+        "own.",
+        "PRESENT:",
+        "own(s).",
+        "PAST:",
+        "owned."
+      ]
     }
   ]
 }

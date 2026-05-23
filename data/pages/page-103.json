@@ -19,7 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r4"
+        "r2"
       ]
     },
     {
@@ -30,8 +30,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
         "r3",
+        "r4",
         "r5"
       ]
     },
@@ -43,9 +43,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r6",
         "r7",
-        "r9",
-        "r11"
+        "r8"
       ]
     },
     {
@@ -56,54 +56,68 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r8",
+        "r9",
         "r10",
+        "r11",
         "r12"
       ]
     }
   ],
   "regions": [
     {
+      "text": "This is meat.",
+      "x": 0.16,
+      "y": 0.13,
+      "w": 0.25,
+      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "text": "This is meat.",
-      "x": 0.1667,
-      "y": 0.1311,
-      "w": 0.1984,
-      "h": 0.0191,
       "words": [
         "This",
         "is",
         "meat."
-      ],
-      "conf": 96.0093,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "Mary keeps the meat in the fridge.",
+      "x": 0.06,
+      "y": 0.39,
+      "w": 0.4,
+      "h": 0.05,
       "id": "r2",
       "order": 1,
-      "text": "This fs bread.",
-      "x": 0.5476,
-      "y": 0.1295,
-      "w": 0.2169,
-      "h": 0.0208,
       "words": [
-        "This",
-        "fs",
-        "bread."
-      ],
-      "conf": 89.0936,
-      "source": "psm-11"
+        "Mary",
+        "keeps",
+        "the",
+        "meat",
+        "in",
+        "the",
+        "fridge."
+      ]
     },
     {
+      "text": "This is bread.",
+      "x": 0.54,
+      "y": 0.13,
+      "w": 0.25,
+      "h": 0.03,
       "id": "r3",
       "order": 2,
+      "words": [
+        "This",
+        "is",
+        "bread."
+      ]
+    },
+    {
       "text": "Mary does not keep the bread in the fridge.",
-      "x": 0.5256,
-      "y": 0.3235,
-      "w": 0.3818,
-      "h": 0.0497,
+      "x": 0.52,
+      "y": 0.32,
+      "w": 0.4,
+      "h": 0.05,
+      "id": "r4",
+      "order": 3,
       "words": [
         "Mary",
         "does",
@@ -114,125 +128,109 @@
         "in",
         "the",
         "fridge."
-      ],
-      "conf": 96.3973,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "Mary keeps the meat in the fridge.",
-      "x": 0.0617,
-      "y": 0.3945,
-      "w": 0.3863,
-      "h": 0.0492,
-      "words": [
-        "Mary",
-        "keeps",
-        "the",
-        "meat",
-        "in",
-        "the",
-        "fridge."
-      ],
-      "conf": 96.2668,
-      "source": "psm-11"
-    },
-    {
+      "text": "She keeps it in a bread-box.",
+      "x": 0.52,
+      "y": 0.37,
+      "w": 0.35,
+      "h": 0.05,
       "id": "r5",
       "order": 4,
-      "text": "She keeps it in a bread-box,",
-      "x": 0.5247,
-      "y": 0.3749,
-      "w": 0.2646,
-      "h": 0.0458,
       "words": [
         "She",
         "keeps",
         "it",
         "in",
         "a",
-        "bread-box,"
-      ],
-      "conf": 91.9458,
-      "source": "psm-11"
+        "bread-box."
+      ]
     },
     {
+      "text": "This is cheese.",
+      "x": 0.14,
+      "y": 0.58,
+      "w": 0.25,
+      "h": 0.03,
       "id": "r6",
       "order": 5,
-      "text": "This is butter.",
-      "x": 0.5758,
-      "y": 0.5503,
-      "w": 0.2116,
-      "h": 0.0197,
-      "words": [
-        "This",
-        "is",
-        "butter."
-      ],
-      "conf": 96.7731,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "This is cheese.",
-      "x": 0.1429,
-      "y": 0.5847,
-      "w": 0.2249,
-      "h": 0.0208,
       "words": [
         "This",
         "is",
         "cheese."
-      ],
-      "conf": 92.1962,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "We make butter from milk.",
-      "x": 0.5247,
-      "y": 0.7404,
-      "w": 0.3492,
-      "h": 0.0454,
-      "words": [
-        "We",
-        "make",
-        "butter",
-        "from",
-        "milk."
-      ],
-      "conf": 96.414,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
       "text": "We make cheese from milk.",
-      "x": 0.0626,
-      "y": 0.7913,
-      "w": 0.3624,
-      "h": 0.0453,
+      "x": 0.06,
+      "y": 0.79,
+      "w": 0.4,
+      "h": 0.05,
+      "id": "r7",
+      "order": 6,
       "words": [
         "We",
         "make",
         "cheese",
         "from",
         "milk."
-      ],
-      "conf": 96.3415,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "We get milk from cows.",
+      "x": 0.06,
+      "y": 0.84,
+      "w": 0.4,
+      "h": 0.03,
+      "id": "r8",
+      "order": 7,
+      "words": [
+        "We",
+        "get",
+        "milk",
+        "from",
+        "cows."
+      ]
+    },
+    {
+      "text": "This is butter.",
+      "x": 0.57,
+      "y": 0.55,
+      "w": 0.25,
+      "h": 0.03,
+      "id": "r9",
+      "order": 8,
+      "words": [
+        "This",
+        "is",
+        "butter."
+      ]
+    },
+    {
+      "text": "We make butter from milk.",
+      "x": 0.52,
+      "y": 0.74,
+      "w": 0.4,
+      "h": 0.05,
       "id": "r10",
       "order": 9,
+      "words": [
+        "We",
+        "make",
+        "butter",
+        "from",
+        "milk."
+      ]
+    },
+    {
       "text": "Mary keeps the butter with the milk in the fridge.",
-      "x": 0.5229,
-      "y": 0.7923,
-      "w": 0.3624,
-      "h": 0.0733,
+      "x": 0.52,
+      "y": 0.79,
+      "w": 0.4,
+      "h": 0.08,
+      "id": "r11",
+      "order": 10,
       "words": [
         "Mary",
         "keeps",
@@ -244,45 +242,23 @@
         "in",
         "the",
         "fridge."
-      ],
-      "conf": 96.2081,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "We get milk from cows.",
-      "x": 0.0617,
-      "y": 0.8426,
-      "w": 0.3827,
-      "h": 0.0246,
-      "words": [
-        "We",
-        "get",
-        "milk",
-        "from",
-        "cows."
-      ],
-      "conf": 96.5544,
-      "source": "psm-11"
-    },
-    {
+      "text": "She keeps the cheese there.",
+      "x": 0.52,
+      "y": 0.87,
+      "w": 0.4,
+      "h": 0.05,
       "id": "r12",
       "order": 11,
-      "text": "She keeps the cheese there,",
-      "x": 0.5247,
-      "y": 0.8689,
-      "w": 0.3448,
-      "h": 0.0458,
       "words": [
         "She",
         "keeps",
         "the",
         "cheese",
-        "there,"
-      ],
-      "conf": 96.4968,
-      "source": "psm-11"
+        "there."
+      ]
     }
   ]
 }

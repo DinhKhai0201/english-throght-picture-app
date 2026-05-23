@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Language can bridge time as well as space. Ideas can go from mind to mind across the language bridge, and they can come from the past to the present. We can read what men before us wrote and keep their books for others to read in the future.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "Here are some of the great books of all time: Bible, Gita, Homer, Republic, Confucius, Shakespeare, War and Peace.", "x": 0.1, "y": 0.2, "w": 0.85, "h": 0.35 },
-    { "text": "Books are the most important records we have of men’s thoughts and feelings, their ideas and desires.", "x": 0.1, "y": 0.55, "w": 0.85, "h": 0.1 },
-    { "text": "read: do reading. write: do writing. past: before now. present: here and now. future: what will be. record: store of knowledge. FUTURE: will read/write. PRESENT: read(s)/write(s). PAST: read/wrote, written.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.2 }
-  ]
-}

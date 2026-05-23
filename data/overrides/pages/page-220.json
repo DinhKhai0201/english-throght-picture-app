@@ -1,7 +1,0 @@
-{
-  "layout": "full",
-  "regions": [
-    { "text": "Tomorrow the weather may be worse. It may be very cold. All the water may be ice. Snow may be coming down making everything white. Will tomorrow be like this? Is this winter or summer?", "x": 0.15, "y": 0.08, "w": 0.7, "h": 0.18 },
-    { "text": "Or tomorrow the weather may be better. The sun may be bright again. The air may be warm again and the streets may be dry again. Will tomorrow be like this?", "x": 0.15, "y": 0.51, "w": 0.7, "h": 0.15 }
-  ]
-}

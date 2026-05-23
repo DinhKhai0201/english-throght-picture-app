@@ -1,8 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Japan and India and China are parts of Asia. Germany, Italy and France are in Europe. In all these countries there are many people. In some countries there is very little land for the size of the population.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "Europe has less land than Canada and not much more than the U.S.A., but it has a population more than thirty times as great as Canada's. And the numbers keep going up. Between 1850 and 1950, more than thirty million people went from Europe to live in the U.S.A., but the population of Europe in 1954 was greater than the populations of North and South America together.", "x": 0.1, "y": 0.2, "w": 0.85, "h": 0.35 },
-    { "text": "times as great: in this picture B is four times the size of A. It is four times as great as A. population: the population of a place is the number of people living in it.", "x": 0.1, "y": 0.75, "w": 0.85, "h": 0.15 }
-  ]
-}

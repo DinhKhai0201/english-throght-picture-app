@@ -2,46 +2,48 @@
   "page": 341,
   "image": "/books/page 341.png",
   "imageApiPath": "/api/books/page%20341.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 142,
+    "regionCount": 4,
+    "wordCount": 124,
     "imageWidth": 1242,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r2",
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Talking with someone is saying things to him, hearing what he says and taking in his meaning. People can talk together only when they have a language in common. When you were very young your parents talked to you and after a time you saw what they meant and learned to talk to them. A baby’s first words are commonly names for its parents. Some children learn to talk earlier than others.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.3,
       "id": "r1",
       "order": 0,
-      "text": "Talking with someone is saying things to him, hearing what he says and taking in his meaning. People can",
-      "x": 0.1031,
-      "y": 0.0375,
-      "w": 0.7874,
-      "h": 0.0482,
       "words": [
         "Talking",
         "with",
@@ -61,20 +63,7 @@
         "his",
         "meaning.",
         "People",
-        "can"
-      ],
-      "conf": 96.5456,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "talk together only when they have a language in common.",
-      "x": 0.4557,
-      "y": 0.09,
-      "w": 0.4356,
-      "h": 0.0471,
-      "words": [
+        "can",
         "talk",
         "together",
         "only",
@@ -84,20 +73,7 @@
         "a",
         "language",
         "in",
-        "common."
-      ],
-      "conf": 96.058,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "When you were very young your parents talked to you and after a time you saw what they meant and learned to talk to them. A baby’s first words are commonly names for its par- ents. Some children learn to talk earlier than others.",
-      "x": 0.4549,
-      "y": 0.1425,
-      "w": 0.438,
-      "h": 0.1992,
-      "words": [
+        "common.",
         "When",
         "you",
         "were",
@@ -132,8 +108,7 @@
         "names",
         "for",
         "its",
-        "par-",
-        "ents.",
+        "parents.",
         "Some",
         "children",
         "learn",
@@ -142,18 +117,16 @@
         "earlier",
         "than",
         "others."
-      ],
-      "conf": 96.7094,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "We go on learning our language all our lives.",
-      "x": 0.4557,
-      "y": 0.4012,
-      "w": 0.438,
-      "h": 0.0428,
+      "text": "We go on learning our language all our lives. Some people talk more than they think, and some people think more than they talk. Most of our thinking is done through language.",
+      "x": 0.45,
+      "y": 0.4,
+      "w": 0.5,
+      "h": 0.2,
+      "id": "r2",
+      "order": 1,
       "words": [
         "We",
         "go",
@@ -163,20 +136,7 @@
         "language",
         "all",
         "our",
-        "lives."
-      ],
-      "conf": 96.363,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "Some people talk more than they think, and some people",
-      "x": 0.4557,
-      "y": 0.5051,
-      "w": 0.4372,
-      "h": 0.0477,
-      "words": [
+        "lives.",
         "Some",
         "people",
         "talk",
@@ -186,20 +146,7 @@
         "think,",
         "and",
         "some",
-        "people"
-      ],
-      "conf": 96.4108,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "think more than they talk. Most of our thinking is done through language.",
-      "x": 0.0998,
-      "y": 0.5554,
-      "w": 0.7939,
-      "h": 0.0472,
-      "words": [
+        "people",
         "think",
         "more",
         "than",
@@ -213,124 +160,49 @@
         "done",
         "through",
         "language."
-      ],
-      "conf": 96.5334,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "parent: father or mother.",
-      "x": 0.0974,
-      "y": 0.7686,
-      "w": 0.281,
-      "h": 0.015,
+      "text": "parent: father or mother. commonly: most times. think: have thoughts, use the mind.",
+      "x": 0.1,
+      "y": 0.75,
+      "w": 0.85,
+      "h": 0.12,
+      "id": "r3",
+      "order": 2,
       "words": [
         "parent:",
         "father",
         "or",
-        "mother."
-      ],
-      "conf": 94.6021,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "commonly: most times. It is common for babies to say names for their think: hove thoughts, use the mind, have ideas,",
-      "x": 0.0974,
-      "y": 0.7858,
-      "w": 0.7955,
-      "h": 0.054,
-      "words": [
+        "mother.",
         "commonly:",
         "most",
         "times.",
-        "It",
-        "is",
-        "common",
-        "for",
-        "babies",
-        "to",
-        "say",
-        "names",
-        "for",
-        "their",
         "think:",
-        "hove",
+        "have",
         "thoughts,",
         "use",
         "the",
-        "mind,",
-        "have",
-        "ideas,"
-      ],
-      "conf": 87.4354,
-      "source": "psm-11"
+        "mind."
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "porents first. Babies have this in common.",
-      "x": 0.1522,
-      "y": 0.804,
-      "w": 0.4509,
-      "h": 0.0145,
+      "text": "FUTURE: will think. PRESENT: think(s). PAST: thought.",
+      "x": 0.1,
+      "y": 0.88,
+      "w": 0.85,
+      "h": 0.05,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "porents",
-        "first.",
-        "Babies",
-        "have",
-        "this",
-        "in",
-        "common."
-      ],
-      "conf": 94.1425,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "will think",
-      "x": 0.0982,
-      "y": 0.8506,
-      "w": 0.1184,
-      "h": 0.0134,
-      "words": [
+        "FUTURE:",
         "will",
-        "think"
-      ],
-      "conf": 90.7887,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "think (s)",
-      "x": 0.4517,
-      "y": 0.849,
-      "w": 0.1047,
-      "h": 0.0204,
-      "words": [
-        "think",
-        "(s)"
-      ],
-      "conf": 53.0493,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "thought",
-      "x": 0.7987,
-      "y": 0.8511,
-      "w": 0.095,
-      "h": 0.0155,
-      "words": [
-        "thought"
-      ],
-      "conf": 96.8052,
-      "source": "psm-11"
+        "think.",
+        "PRESENT:",
+        "think(s).",
+        "PAST:",
+        "thought."
+      ]
     }
   ]
 }

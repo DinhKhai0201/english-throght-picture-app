@@ -2,41 +2,48 @@
   "page": 405,
   "image": "/books/page 405.png",
   "imageApiPath": "/api/books/page%20405.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 7,
-    "wordCount": 116,
+    "regionCount": 4,
+    "wordCount": 94,
     "imageWidth": 1225,
     "imageHeight": 1850
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
-      "x": 0,
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "There are about five million red cells in one cubic millimeter of our blood. One millimeter is a thousandth part of a meter and a tenth of a centimeter.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.1,
       "id": "r1",
       "order": 0,
-      "text": "There are about five million red cells in one cubic milli- meter of our blood. One millimeter is a thousandth part of a meter and a tenth of a centimeter.",
-      "x": 0.0776,
-      "y": 0.0335,
-      "w": 0.8114,
-      "h": 0.0795,
       "words": [
         "There",
         "are",
@@ -48,8 +55,7 @@
         "in",
         "one",
         "cubic",
-        "milli-",
-        "meter",
+        "millimeter",
         "of",
         "our",
         "blood.",
@@ -68,18 +74,16 @@
         "of",
         "a",
         "centimeter."
-      ],
-      "conf": 95.6201,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "One cubic centimeter—how much space does that take up? Here is a picture of a cube which is one centimeter long, one centimeter wide and one centimeter high.",
+      "x": 0.1,
+      "y": 0.15,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r2",
       "order": 1,
-      "text": "One cubic centimeter—how much space does that take up?",
-      "x": 0.0792,
-      "y": 0.1416,
-      "w": 0.8065,
-      "h": 0.0503,
       "words": [
         "One",
         "cubic",
@@ -89,20 +93,7 @@
         "does",
         "that",
         "take",
-        "up?"
-      ],
-      "conf": 95.6544,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "Here is a picture of a cube which is one centimeter long, one centimeter wide and one centimeter high. It takes up one cubic centimeter of space. A centimeter is a little less than half an inch.",
-      "x": 0.0767,
-      "y": 0.2789,
-      "w": 0.8139,
-      "h": 0.1167,
-      "words": [
+        "up?",
         "Here",
         "is",
         "a",
@@ -121,15 +112,18 @@
         "and",
         "one",
         "centimeter",
-        "high.",
-        "It",
-        "takes",
-        "up",
-        "one",
-        "cubic",
-        "centimeter",
-        "of",
-        "space.",
+        "high."
+      ]
+    },
+    {
+      "text": "A centimeter is a little less than half an inch. millimeter (mm): .001 of a meter. centimeter (cm): .01 of a meter. cube: solid with six equal square sides.",
+      "x": 0.1,
+      "y": 0.35,
+      "w": 0.85,
+      "h": 0.45,
+      "id": "r3",
+      "order": 2,
+      "words": [
         "A",
         "centimeter",
         "is",
@@ -139,102 +133,46 @@
         "than",
         "half",
         "an",
-        "inch."
-      ],
-      "conf": 95.8753,
-      "source": "psm-11"
+        "inch.",
+        "millimeter",
+        "(mm):",
+        ".001",
+        "of",
+        "a",
+        "meter.",
+        "centimeter",
+        "(cm):",
+        ".01",
+        "of",
+        "a",
+        "meter.",
+        "cube:",
+        "solid",
+        "with",
+        "six",
+        "equal",
+        "square",
+        "sides."
+      ]
     },
     {
+      "text": "square: four equal sides and four right angles.",
+      "x": 0.1,
+      "y": 0.82,
+      "w": 0.85,
+      "h": 0.08,
       "id": "r4",
       "order": 3,
-      "text": "centimeter: cm. of o meter, or of an inch.",
-      "x": 0.0792,
-      "y": 0.8049,
-      "w": 0.6024,
-      "h": 0.0157,
-      "words": [
-        "centimeter:",
-        "cm.",
-        "of",
-        "o",
-        "meter,",
-        "or",
-        "of",
-        "an",
-        "inch."
-      ],
-      "conf": 89.312,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "mm. of a meter.",
-      "x": 0.2212,
-      "y": 0.7897,
-      "w": 0.258,
-      "h": 0.0119,
-      "words": [
-        "mm.",
-        "of",
-        "a",
-        "meter."
-      ],
-      "conf": 94.2987,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "evber a solid the six sides of which are equal squares.",
-      "x": 0.0784,
-      "y": 0.8227,
-      "w": 0.5927,
-      "h": 0.0173,
-      "words": [
-        "evber",
-        "a",
-        "solid",
-        "the",
-        "six",
-        "sides",
-        "of",
-        "which",
-        "are",
-        "equal",
-        "squares."
-      ],
-      "conf": 91.4614,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "square: a square has four sides which are equal and four angles which are right angles",
-      "x": 0.0784,
-      "y": 0.8411,
-      "w": 0.8049,
-      "h": 0.0318,
       "words": [
         "square:",
-        "a",
-        "square",
-        "has",
         "four",
-        "sides",
-        "which",
-        "are",
         "equal",
+        "sides",
         "and",
         "four",
-        "angles",
-        "which",
-        "are",
         "right",
-        "angles"
-      ],
-      "conf": 93.8605,
-      "source": "psm-11"
+        "angles."
+      ]
     }
   ]
 }

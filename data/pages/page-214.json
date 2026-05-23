@@ -2,30 +2,60 @@
   "page": 214,
   "image": "/books/page 214.png",
   "imageApiPath": "/api/books/page%20214.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
     "regionCount": 10,
-    "wordCount": 149,
+    "wordCount": 164,
     "imageWidth": 1167,
     "imageHeight": 1884
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
         "r2",
         "r3",
+        "r6"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
         "r4",
         "r5",
-        "r6",
-        "r7",
-        "r8",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r9",
         "r10"
       ]
@@ -33,13 +63,13 @@
   ],
   "regions": [
     {
+      "text": "Which of the statements on this page are true and which are false? Put a T before the true statements and an F before the false.",
+      "x": 0.08,
+      "y": 0.08,
+      "w": 0.85,
+      "h": 0.08,
       "id": "r1",
       "order": 0,
-      "text": "Which of the statements on this page are true and which are false? Put a T before the true statements and an F before the false.",
-      "x": 0.0728,
-      "y": 0.0966,
-      "w": 0.844,
-      "h": 0.07,
       "words": [
         "Which",
         "of",
@@ -67,96 +97,183 @@
         "before",
         "the",
         "false."
-      ],
-      "conf": 96.2116,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "a",
+      "x": 0.08,
+      "y": 0.2,
+      "w": 0.02,
+      "h": 0.02,
       "id": "r2",
       "order": 1,
-      "text": "a The earth is in",
-      "x": 0.0737,
-      "y": 0.1975,
-      "w": 0.3222,
-      "h": 0.0196,
       "words": [
-        "a",
+        "a"
+      ]
+    },
+    {
+      "text": "1. The earth is in motion. 2. The earth is turning round. 3. The earth goes round the moon.",
+      "x": 0.12,
+      "y": 0.2,
+      "w": 0.35,
+      "h": 0.15,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "1.",
         "The",
         "earth",
         "is",
-        "in"
-      ],
-      "conf": 90.3126,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "b The moon ts",
-      "x": 0.5381,
-      "y": 0.1959,
-      "w": 0.2853,
-      "h": 0.0265,
-      "words": [
-        "b",
-        "The",
-        "moon",
-        "ts"
-      ],
-      "conf": 68.2377,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "motion The earth is turning round The earth goes round the moon.",
-      "x": 0.1731,
-      "y": 0.2272,
-      "w": 0.2571,
-      "h": 0.1156,
-      "words": [
-        "motion",
+        "in",
+        "motion.",
+        "2.",
         "The",
         "earth",
         "is",
         "turning",
-        "round",
+        "round.",
+        "3.",
         "The",
         "earth",
         "goes",
         "round",
         "the",
         "moon."
-      ],
-      "conf": 92.459,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "b",
+      "x": 0.53,
+      "y": 0.2,
+      "w": 0.02,
+      "h": 0.02,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "b"
+      ]
+    },
+    {
+      "text": "1. The moon is greater than the sun. 2. The sun is colder than the moon. 3. The moon goes round the earth.",
+      "x": 0.58,
+      "y": 0.2,
+      "w": 0.35,
+      "h": 0.18,
       "id": "r5",
       "order": 4,
-      "text": "greater than the sun The sun is colder than the moon The moon goes round the earth When a blow puts a ball in motion, the blow is the cause of",
-      "x": 0.6384,
-      "y": 0.224,
-      "w": 0.2588,
-      "h": 0.268,
       "words": [
+        "1.",
+        "The",
+        "moon",
+        "is",
         "greater",
         "than",
         "the",
-        "sun",
+        "sun.",
+        "2.",
         "The",
         "sun",
         "is",
         "colder",
         "than",
         "the",
-        "moon",
+        "moon.",
+        "3.",
         "The",
         "moon",
         "goes",
         "round",
         "the",
-        "earth",
+        "earth."
+      ]
+    },
+    {
+      "text": "c",
+      "x": 0.08,
+      "y": 0.4,
+      "w": 0.02,
+      "h": 0.02,
+      "id": "r6",
+      "order": 5,
+      "words": [
+        "c"
+      ]
+    },
+    {
+      "text": "1. The attraction between two bodies gets greater as they go farther from one another. 2. The attraction between two bodies is greater when they are nearer. 3. When two great bodies are near one another the attraction between them is small.",
+      "x": 0.12,
+      "y": 0.4,
+      "w": 0.35,
+      "h": 0.45,
+      "id": "r7",
+      "order": 6,
+      "words": [
+        "1.",
+        "The",
+        "attraction",
+        "between",
+        "two",
+        "bodies",
+        "gets",
+        "greater",
+        "as",
+        "they",
+        "go",
+        "farther",
+        "from",
+        "one",
+        "another.",
+        "2.",
+        "The",
+        "attraction",
+        "between",
+        "two",
+        "bodies",
+        "is",
+        "greater",
+        "when",
+        "they",
+        "are",
+        "nearer.",
+        "3.",
+        "When",
+        "two",
+        "great",
+        "bodies",
+        "are",
+        "near",
+        "one",
+        "another",
+        "the",
+        "attraction",
+        "between",
+        "them",
+        "is",
+        "small."
+      ]
+    },
+    {
+      "text": "d",
+      "x": 0.53,
+      "y": 0.4,
+      "w": 0.02,
+      "h": 0.02,
+      "id": "r8",
+      "order": 7,
+      "words": [
+        "d"
+      ]
+    },
+    {
+      "text": "1. When a blow puts a ball in motion, the blow is the cause of the motion. 2. When a blow puts a ball in motion, the motion is the effect of the blow. 3. When a body is in motion it is at rest.",
+      "x": 0.58,
+      "y": 0.4,
+      "w": 0.35,
+      "h": 0.35,
+      "id": "r9",
+      "order": 8,
+      "words": [
+        "1.",
         "When",
         "a",
         "blow",
@@ -170,75 +287,10 @@
         "is",
         "the",
         "cause",
-        "of"
-      ],
-      "conf": 96.6541,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "The attraction between two bodies gets greater as they",
-      "x": 0.174,
-      "y": 0.3976,
-      "w": 0.2408,
-      "h": 0.1008,
-      "words": [
-        "The",
-        "attraction",
-        "between",
-        "two",
-        "bodies",
-        "gets",
-        "greater",
-        "as",
-        "they"
-      ],
-      "conf": 96.43,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "go farther from one another The attraction between two bodies is greater when they are When two great",
-      "x": 0.174,
-      "y": 0.4989,
-      "w": 0.2648,
-      "h": 0.1975,
-      "words": [
-        "go",
-        "farther",
-        "from",
-        "one",
-        "another",
-        "The",
-        "attraction",
-        "between",
-        "two",
-        "bodies",
-        "is",
-        "greater",
-        "when",
-        "they",
-        "are",
-        "When",
-        "two",
-        "great"
-      ],
-      "conf": 96.7081,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "the motion When a blow puts a ball in motion, the motion is the effect of the blow When a body is in motion it Is at rest.",
-      "x": 0.6392,
-      "y": 0.4989,
-      "w": 0.2408,
-      "h": 0.2431,
-      "words": [
+        "of",
         "the",
-        "motion",
+        "motion.",
+        "2.",
         "When",
         "a",
         "blow",
@@ -254,7 +306,8 @@
         "effect",
         "of",
         "the",
-        "blow",
+        "blow.",
+        "3.",
         "When",
         "a",
         "body",
@@ -262,54 +315,26 @@
         "in",
         "motion",
         "it",
-        "Is",
+        "is",
         "at",
         "rest."
-      ],
-      "conf": 96.8217,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "nearer bodies are near one another the attraction between them Is small",
-      "x": 0.174,
-      "y": 0.655,
-      "w": 0.2571,
-      "h": 0.1629,
-      "words": [
-        "nearer",
-        "bodies",
-        "are",
-        "near",
-        "one",
-        "another",
-        "the",
-        "attraction",
-        "between",
-        "them",
-        "Is",
-        "small"
-      ],
-      "conf": 95.9014,
-      "source": "psm-11"
-    },
-    {
+      "text": "Answers are on page 212.",
+      "x": 0.3,
+      "y": 0.84,
+      "w": 0.4,
+      "h": 0.03,
       "id": "r10",
       "order": 9,
-      "text": "Answers are on page",
-      "x": 0.2956,
-      "y": 0.8493,
-      "w": 0.335,
-      "h": 0.0228,
       "words": [
         "Answers",
         "are",
         "on",
-        "page"
-      ],
-      "conf": 95.7512,
-      "source": "psm-11"
+        "page",
+        "212."
+      ]
     }
   ]
 }

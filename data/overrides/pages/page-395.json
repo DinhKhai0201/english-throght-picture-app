@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Our bodies can be looked upon as machines which are kept going by fuel. As food is burned up in the body cells it gives us heat and other sorts of energy. All through a man’s life—from birth to death.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "Even when we are sleeping we are using up some food to keep our bodies warm. Our lungs and heart keep on working. Some animals sleep through the cold winter weather: snakes, for example.", "x": 0.1, "y": 0.2, "w": 0.85, "h": 0.15 },
-    { "text": "When they are asleep their rate of breathing and pulse rate and temperature go down. life: time of living. death: end of living. snake: long animal with no legs. asleep: sleeping.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.2 },
-    { "text": "FUTURE: will sleep. PRESENT: sleep(s). PAST: slept.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.08 }
-  ]
-}

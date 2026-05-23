@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Vitamin C is very important to the body. Without it men’s teeth become loose and their arms and legs weak. Lemons, oranges and tomatoes have Vitamin C in them.", "x": 0.52, "y": 0.05, "w": 0.45, "h": 0.25 },
-    { "text": "Vitamin D is the sun vitamin. We get it in milk and eggs and from sunlight on our skin. There are other vitamins, but these, A, B, C and D, are the most important.", "x": 0.1, "y": 0.35, "w": 0.45, "h": 0.25 },
-    { "text": "without: not having. become: come to be. loose: not strongly rooted. weak: opposite of strong. lemon: yellow fruit. tomato: red or yellow fruit.", "x": 0.1, "y": 0.72, "w": 0.85, "h": 0.15 },
-    { "text": "PRESENT: become(s). PAST: became.", "x": 0.1, "y": 0.88, "w": 0.85, "h": 0.05 }
-  ]
-}

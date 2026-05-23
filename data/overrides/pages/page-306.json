@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "We are living at a time when machines do work which men used to do. Now materials and things of all sorts can be transported long distances quickly. Its transport lines are very important to any great city.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "IRON MINE. STEEL PLANT. TRANSPORTING MATERIALS.", "x": 0.1, "y": 0.25, "w": 0.85, "h": 0.35 },
-    { "text": "Materials such as iron, which is mined from the earth in some places, and steel, which is made from iron, are used to make machines. Iron and steel are metals.", "x": 0.1, "y": 0.65, "w": 0.85, "h": 0.1 },
-    { "text": "material: that from which things can be made. any: every. plant: factory. metal: any material of a certain sort, such as iron and steel. Metals are hard and are got from the earth.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.15 }
-  ]
-}

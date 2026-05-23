@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20139.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 88,
+    "regionCount": 5,
+    "wordCount": 95,
     "imageWidth": 1250,
     "imageHeight": 1838
   },
@@ -19,8 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r5"
+        "r2"
       ]
     },
     {
@@ -31,8 +30,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r3"
       ]
     },
     {
@@ -43,10 +41,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r7",
-        "r9",
-        "r10"
+        "r4"
       ]
     },
     {
@@ -57,55 +52,54 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r11"
+        "r5"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Here is his ticket. He gave $132.35 for his ticket.",
+      "x": 0.1,
+      "y": 0.11,
+      "w": 0.4,
+      "h": 0.1,
       "id": "r1",
       "order": 0,
-      "text": "Here is his ticket.",
-      "x": 0.1304,
-      "y": 0.0729,
-      "w": 0.2424,
-      "h": 0.0196,
       "words": [
         "Here",
         "is",
         "his",
-        "ticket."
-      ],
-      "conf": 96.3261,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "He gave for his ticket.",
-      "x": 0.128,
-      "y": 0.0996,
-      "w": 0.3584,
-      "h": 0.044,
-      "words": [
+        "ticket.",
         "He",
         "gave",
+        "$132.35",
         "for",
         "his",
         "ticket."
-      ],
-      "conf": 96.6797,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "These are tickets.",
+      "x": 0.12,
+      "y": 0.35,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r2",
+      "order": 1,
+      "words": [
+        "These",
+        "are",
+        "tickets."
+      ]
+    },
+    {
+      "text": "How much was his ticket for the journey to Los Angeles? It was one hundred and thirty-two dollars and thirty-five cents ($132.35).",
+      "x": 0.55,
+      "y": 0.14,
+      "w": 0.4,
+      "h": 0.2,
       "id": "r3",
       "order": 2,
-      "text": "How much was his ticket for the journey to Los Angeles?",
-      "x": 0.5584,
-      "y": 0.1349,
-      "w": 0.3576,
-      "h": 0.0746,
       "words": [
         "How",
         "much",
@@ -117,20 +111,7 @@
         "journey",
         "to",
         "Los",
-        "Angeles?"
-      ],
-      "conf": 95.8779,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "It was one hundred and thirty-two dollars and thirty-five cents",
-      "x": 0.5576,
-      "y": 0.2122,
-      "w": 0.3224,
-      "h": 0.075,
-      "words": [
+        "Angeles?",
         "It",
         "was",
         "one",
@@ -140,68 +121,64 @@
         "dollars",
         "and",
         "thirty-five",
-        "cents"
-      ],
-      "conf": 93.0029,
-      "source": "psm-11"
+        "cents",
+        "($132.35)."
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "These are tickets.",
-      "x": 0.1752,
-      "y": 0.3368,
-      "w": 0.2496,
-      "h": 0.0201,
-      "words": [
-        "These",
-        "are",
-        "tickets."
-      ],
-      "conf": 95.7328,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "How long is the journey?",
-      "x": 0.128,
-      "y": 0.5511,
-      "w": 0.3848,
-      "h": 0.0294,
+      "text": "How long is the journey? Four days. Which days will he be on the train? He will be on the train Sunday, Monday, Tuesday, Wednesday. The other days of the week are Thursday, Friday, Saturday.",
+      "x": 0.12,
+      "y": 0.56,
+      "w": 0.38,
+      "h": 0.3,
+      "id": "r4",
+      "order": 3,
       "words": [
         "How",
         "long",
         "is",
         "the",
-        "journey?"
-      ],
-      "conf": 95.0138,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "Four days.",
-      "x": 0.1296,
-      "y": 0.5773,
-      "w": 0.1488,
-      "h": 0.019,
-      "words": [
+        "journey?",
         "Four",
-        "days."
-      ],
-      "conf": 96.9217,
-      "source": "psm-11"
+        "days.",
+        "Which",
+        "days",
+        "will",
+        "he",
+        "be",
+        "on",
+        "the",
+        "train?",
+        "He",
+        "will",
+        "be",
+        "on",
+        "the",
+        "train",
+        "Sunday,",
+        "Monday,",
+        "Tuesday,",
+        "Wednesday.",
+        "The",
+        "other",
+        "days",
+        "of",
+        "the",
+        "week",
+        "are",
+        "Thursday,",
+        "Friday,",
+        "Saturday."
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "How much money did he take with him for his journey?",
-      "x": 0.5544,
-      "y": 0.5707,
-      "w": 0.344,
-      "h": 0.0757,
+      "text": "How much money did he take with him for his journey? He took five hundred and nineteen dollars ($519.00). Much money: $5000 Little money: $5",
+      "x": 0.54,
+      "y": 0.58,
+      "w": 0.4,
+      "h": 0.25,
+      "id": "r5",
+      "order": 4,
       "words": [
         "How",
         "much",
@@ -213,74 +190,7 @@
         "him",
         "for",
         "his",
-        "journey?"
-      ],
-      "conf": 96.4627,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "Which days will he be on the train?",
-      "x": 0.1256,
-      "y": 0.6028,
-      "w": 0.3272,
-      "h": 0.0452,
-      "words": [
-        "Which",
-        "days",
-        "will",
-        "he",
-        "be",
-        "on",
-        "the",
-        "train?"
-      ],
-      "conf": 96.709,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "He will be on the train Sunday, Monday, Tuesday, Wednesday, The other days of the week are Thursday, Friday, Saturday.",
-      "x": 0.124,
-      "y": 0.6545,
-      "w": 0.3288,
-      "h": 0.1545,
-      "words": [
-        "He",
-        "will",
-        "be",
-        "on",
-        "the",
-        "train",
-        "Sunday,",
-        "Monday,",
-        "Tuesday,",
-        "Wednesday,",
-        "The",
-        "other",
-        "days",
-        "of",
-        "the",
-        "week",
-        "are",
-        "Thursday,",
-        "Friday,",
-        "Saturday."
-      ],
-      "conf": 96.1666,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "He took five hundred and nineteen dollars Much money:",
-      "x": 0.5512,
-      "y": 0.648,
-      "w": 0.3112,
-      "h": 0.1017,
-      "words": [
+        "journey?",
         "He",
         "took",
         "five",
@@ -288,11 +198,14 @@
         "and",
         "nineteen",
         "dollars",
+        "($519.00).",
         "Much",
-        "money:"
-      ],
-      "conf": 96.3247,
-      "source": "psm-11"
+        "money:",
+        "$5000",
+        "Little",
+        "money:",
+        "$5"
+      ]
     }
   ]
 }

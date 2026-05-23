@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "First units of measure came from bodies: a thumb is about an inch, and a foot is about twelve inches.", "x": 0.4, "y": 0.05, "w": 0.55, "h": 0.15 },
-    { "text": "A long step is about three feet or one yard. Stepping is the simplest way to measure short distances.", "x": 0.1, "y": 0.3, "w": 0.55, "h": 0.12 },
-    { "text": "Measuring lets us build rooms of specific sizes, like twenty feet long, sixteen wide, and twelve high.", "x": 0.1, "y": 0.58, "w": 0.85, "h": 0.15 },
-    { "text": "volume: cubic space. shape: outline. All circles are the same shape, but not all triangles. FUTURE: will step. PRESENT: step(s). PAST: stepped.", "x": 0.1, "y": 0.78, "w": 0.85, "h": 0.15 }
-  ]
-}

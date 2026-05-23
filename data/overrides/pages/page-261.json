@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "I have two dollars. You have twenty dollars. He has a thousand dollars. He has more money than we have. You have more than I have. He has the most money.", "x": 0.08, "y": 0.13, "w": 0.38, "h": 0.25 },
-    { "text": "I have less money than he has. I have less than you have. I have the least money. The most $1000, More $20, Less $2, The least.", "x": 0.5, "y": 0.1, "w": 0.4, "h": 0.35 },
-    { "text": "This is the highest note. This is a lower note, but it is higher than this note. Which is the lowest note of the three?", "x": 0.08, "y": 0.55, "w": 0.35, "h": 0.35 },
-    { "text": "Farming is an important sort of work. Is it more important than banking?", "x": 0.5, "y": 0.63, "w": 0.4, "h": 0.15 }
-  ]
-}

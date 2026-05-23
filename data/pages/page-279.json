@@ -2,41 +2,57 @@
   "page": 279,
   "image": "/books/page 279.png",
   "imageApiPath": "/api/books/page%20279.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 7,
-    "wordCount": 85,
+    "regionCount": 3,
+    "wordCount": 88,
     "imageWidth": 1234,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7"
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Men are persons. They have their work. They put and take things and give and get them. They come and go.",
+      "x": 0.08,
+      "y": 0.08,
+      "w": 0.4,
+      "h": 0.35,
       "id": "r1",
       "order": 0,
-      "text": "Men are persons. They have their work.",
-      "x": 0.1216,
-      "y": 0.0885,
-      "w": 0.3266,
-      "h": 0.047,
       "words": [
         "Men",
         "are",
@@ -44,23 +60,35 @@
         "They",
         "have",
         "their",
-        "work."
-      ],
-      "conf": 96.3185,
-      "source": "psm-11"
+        "work.",
+        "They",
+        "put",
+        "and",
+        "take",
+        "things",
+        "and",
+        "give",
+        "and",
+        "get",
+        "them.",
+        "They",
+        "come",
+        "and",
+        "go."
+      ]
     },
     {
+      "text": "They see and say things, keep things, and let them (go), make and send them",
+      "x": 0.52,
+      "y": 0.08,
+      "w": 0.42,
+      "h": 0.35,
       "id": "r2",
       "order": 1,
-      "text": "They'see and Pig say things, keep things, and let them (go), make and send them (fe",
-      "x": 0.5243,
-      "y": 0.0848,
-      "w": 0.3736,
-      "h": 0.3552,
       "words": [
-        "They'see",
+        "They",
+        "see",
         "and",
-        "Pig",
         "say",
         "things,",
         "keep",
@@ -72,88 +100,23 @@
         "make",
         "and",
         "send",
-        "them",
-        "(fe"
-      ],
-      "conf": 78.3428,
-      "source": "psm-11"
+        "them"
+      ]
     },
     {
+      "text": "Some seem happier than others. All these sorts of things are done by men and women. Things are put and taken by them. Things are given and got by them. Things are seen and said by them. Things are kept and let go by them. Things are made and sent by them.",
+      "x": 0.08,
+      "y": 0.55,
+      "w": 0.85,
+      "h": 0.35,
       "id": "r3",
       "order": 2,
-      "text": "They put and take things",
-      "x": 0.1297,
-      "y": 0.1611,
-      "w": 0.2269,
-      "h": 0.0501,
-      "words": [
-        "They",
-        "put",
-        "and",
-        "take",
-        "things"
-      ],
-      "conf": 96.4776,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "and give",
-      "x": 0.3128,
-      "y": 0.2581,
-      "w": 0.1321,
-      "h": 0.0213,
-      "words": [
-        "and",
-        "give"
-      ],
-      "conf": 96.7846,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "ten: They come",
-      "x": 0.205,
-      "y": 0.2923,
-      "w": 0.299,
-      "h": 0.0917,
-      "words": [
-        "ten:",
-        "They",
-        "come"
-      ],
-      "conf": 48.3889,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "Some seem happier than others.",
-      "x": 0.0948,
-      "y": 0.5915,
-      "w": 0.4619,
-      "h": 0.0235,
       "words": [
         "Some",
         "seem",
         "happier",
         "than",
-        "others."
-      ],
-      "conf": 94.3166,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "All these sorts of things are done by men and women Things are put and taken by them Things are given and got by them Things are seen and said by them Things are kept and let go by them Things are made and sent by them",
-      "x": 0.094,
-      "y": 0.6165,
-      "w": 0.7893,
-      "h": 0.1483,
-      "words": [
+        "others.",
         "All",
         "these",
         "sorts",
@@ -164,28 +127,28 @@
         "by",
         "men",
         "and",
-        "women",
+        "women.",
         "Things",
         "are",
         "put",
         "and",
         "taken",
         "by",
-        "them",
+        "them.",
         "Things",
         "are",
         "given",
         "and",
         "got",
         "by",
-        "them",
+        "them.",
         "Things",
         "are",
         "seen",
         "and",
         "said",
         "by",
-        "them",
+        "them.",
         "Things",
         "are",
         "kept",
@@ -193,17 +156,15 @@
         "let",
         "go",
         "by",
-        "them",
+        "them.",
         "Things",
         "are",
         "made",
         "and",
         "sent",
         "by",
-        "them"
-      ],
-      "conf": 96.562,
-      "source": "psm-11"
+        "them."
+      ]
     }
   ]
 }

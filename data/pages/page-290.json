@@ -4,24 +4,12 @@
   "imageApiPath": "/api/books/page%20290.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 12,
+    "regionCount": 4,
     "wordCount": 97,
     "imageWidth": 1213,
     "imageHeight": 1875
   },
   "panels": [
-    {
-      "id": "top-left",
-      "label": "Top Left",
-      "x": 0,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2",
-        "r3"
-      ]
-    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -30,24 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r4"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r6",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12"
+        "r1"
       ]
     },
     {
@@ -58,20 +29,21 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r7"
+        "r2",
+        "r3",
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Are you a man or a woman or a girl or a boy? What is your country? Is the country where you live now the country of your birth?",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.1,
       "id": "r1",
       "order": 0,
-      "text": "Are you a man or a woman or a girl or a boy? What is your country? Is the country where you live now the",
-      "x": 0.1063,
-      "y": 0.0421,
-      "w": 0.8038,
-      "h": 0.0507,
       "words": [
         "Are",
         "you",
@@ -97,50 +69,21 @@
         "you",
         "live",
         "now",
-        "the"
-      ],
-      "conf": 95.3855,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "country of your birth?",
-      "x": 0.1063,
-      "y": 0.0907,
-      "w": 0.3215,
-      "h": 0.0299,
-      "words": [
+        "the",
         "country",
         "of",
         "your",
         "birth?"
-      ],
-      "conf": 96.5215,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "PHILIPPINES",
-      "x": 0.1014,
-      "y": 0.2363,
-      "w": 0.1228,
-      "h": 0.0117,
-      "words": [
-        "PHILIPPINES"
-      ],
-      "conf": 95.1436,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "Do you see on this page a map of the country where you",
-      "x": 0.1096,
-      "y": 0.4821,
-      "w": 0.798,
-      "h": 0.0219,
+      "text": "Do you see on this page a map of the country where you live? Is it Germany, the Philippines, Brazil, Australia, Kenya, or some other country?",
+      "x": 0.1,
+      "y": 0.48,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r2",
+      "order": 1,
       "words": [
         "Do",
         "you",
@@ -154,20 +97,7 @@
         "the",
         "country",
         "where",
-        "you"
-      ],
-      "conf": 96.2421,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "live? Is it Germany, the Philippines, Brazil, Australia,",
-      "x": 0.1088,
-      "y": 0.5083,
-      "w": 0.7988,
-      "h": 0.0224,
-      "words": [
+        "you",
         "live?",
         "Is",
         "it",
@@ -175,37 +105,22 @@
         "the",
         "Philippines,",
         "Brazil,",
-        "Australia,"
-      ],
-      "conf": 96.385,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "Kenya, or some other country?",
-      "x": 0.1088,
-      "y": 0.5349,
-      "w": 0.4378,
-      "h": 0.0213,
-      "words": [
+        "Australia,",
         "Kenya,",
         "or",
         "some",
         "other",
         "country?"
-      ],
-      "conf": 96.5246,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "There are millions of readers of EP The book is used",
-      "x": 0.108,
-      "y": 0.5872,
-      "w": 0.8005,
-      "h": 0.0176,
+      "text": "There are millions of readers of EP 1. The book is used in almost every country.",
+      "x": 0.1,
+      "y": 0.58,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r3",
+      "order": 2,
       "words": [
         "There",
         "are",
@@ -214,75 +129,35 @@
         "readers",
         "of",
         "EP",
+        "1.",
         "The",
         "book",
         "is",
-        "used"
-      ],
-      "conf": 96.4261,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "in almost every country.",
-      "x": 0.1072,
-      "y": 0.6123,
-      "w": 0.3446,
-      "h": 0.0224,
-      "words": [
+        "used",
         "in",
         "almost",
         "every",
         "country."
-      ],
-      "conf": 96.3962,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "country: land under one government.",
-      "x": 0.1072,
-      "y": 0.7104,
-      "w": 0.4246,
-      "h": 0.0144,
+      "text": "country: land under one government. birth: coming into being. almost: the shorter line here is almost as long as the other. \"almost every country\": most countries.",
+      "x": 0.1,
+      "y": 0.7,
+      "w": 0.85,
+      "h": 0.2,
+      "id": "r4",
+      "order": 3,
       "words": [
         "country:",
         "land",
         "under",
         "one",
-        "government."
-      ],
-      "conf": 95.411,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "birth: coming into being",
-      "x": 0.1072,
-      "y": 0.7269,
-      "w": 0.2721,
-      "h": 0.0165,
-      "words": [
+        "government.",
         "birth:",
         "coming",
         "into",
-        "being"
-      ],
-      "conf": 95.8405,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "almost: the shorter line here is almost as long as “almost every country”: most countries,",
-      "x": 0.1055,
-      "y": 0.8229,
-      "w": 0.5647,
-      "h": 0.0507,
-      "words": [
+        "being.",
         "almost:",
         "the",
         "shorter",
@@ -293,29 +168,14 @@
         "as",
         "long",
         "as",
-        "“almost",
-        "every",
-        "country”:",
-        "most",
-        "countries,"
-      ],
-      "conf": 93.1484,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "the other.",
-      "x": 0.1591,
-      "y": 0.8416,
-      "w": 0.1088,
-      "h": 0.0123,
-      "words": [
         "the",
-        "other."
-      ],
-      "conf": 96.2748,
-      "source": "psm-11"
+        "other.",
+        "\"almost",
+        "every",
+        "country\":",
+        "most",
+        "countries."
+      ]
     }
   ]
 }

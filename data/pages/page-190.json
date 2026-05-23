@@ -2,26 +2,14 @@
   "page": 190,
   "image": "/books/page 190.png",
   "imageApiPath": "/api/books/page%20190.png",
-  "layout": "quad",
+  "layout": "mixed",
   "stats": {
-    "regionCount": 13,
-    "wordCount": 49,
+    "regionCount": 10,
+    "wordCount": 48,
     "imageWidth": 1175,
     "imageHeight": 1871
   },
   "panels": [
-    {
-      "id": "top-left",
-      "label": "Top Left",
-      "x": 0,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2",
-        "r4"
-      ]
-    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -30,9 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r3",
-        "r5"
+        "r1"
       ]
     },
     {
@@ -43,10 +29,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r7",
-        "r9",
-        "r11"
+        "r2",
+        "r3",
+        "r4",
+        "r5"
       ]
     },
     {
@@ -57,231 +43,172 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r6",
+        "r7",
         "r8",
-        "r10",
-        "r12",
-        "r13"
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
+      "text": "This is a map of North America. Mackenzie River, Ottawa, Los Angeles, Mississippi River, New York, Washington, Mexico City.",
+      "x": 0.15,
+      "y": 0.08,
+      "w": 0.75,
+      "h": 0.38,
       "id": "r1",
       "order": 0,
-      "text": "This is a. map of North America",
-      "x": 0.3013,
-      "y": 0.093,
-      "w": 0.4843,
-      "h": 0.0283,
       "words": [
         "This",
         "is",
-        "a.",
+        "a",
         "map",
         "of",
         "North",
-        "America"
-      ],
-      "conf": 91.5805,
-      "source": "psm-11"
+        "America.",
+        "Mackenzie",
+        "River,",
+        "Ottawa,",
+        "Los",
+        "Angeles,",
+        "Mississippi",
+        "River,",
+        "New",
+        "York,",
+        "Washington,",
+        "Mexico",
+        "City."
+      ]
     },
     {
+      "text": "These are mountains.",
+      "x": 0.1,
+      "y": 0.5,
+      "w": 0.4,
+      "h": 0.05,
       "id": "r2",
       "order": 1,
-      "text": "Mackenzie River,",
-      "x": 0.143,
-      "y": 0.1438,
-      "w": 0.2562,
-      "h": 0.0198,
-      "words": [
-        "Mackenzie",
-        "River,"
-      ],
-      "conf": 94.278,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "New York Washington i River",
-      "x": 0.5047,
-      "y": 0.2886,
-      "w": 0.4357,
-      "h": 0.092,
-      "words": [
-        "New",
-        "York",
-        "Washington",
-        "i",
-        "River"
-      ],
-      "conf": 95.6093,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "Los Angeles AY",
-      "x": 0.2085,
-      "y": 0.3095,
-      "w": 0.2936,
-      "h": 0.0577,
-      "words": [
-        "Los",
-        "Angeles",
-        "AY"
-      ],
-      "conf": 80.2987,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "Mexico City",
-      "x": 0.4238,
-      "y": 0.4313,
-      "w": 0.2085,
-      "h": 0.0241,
-      "words": [
-        "Mexico",
-        "City"
-      ],
-      "conf": 83.0775,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "These are mountains",
-      "x": 0.1753,
-      "y": 0.5051,
-      "w": 0.3183,
-      "h": 0.0192,
       "words": [
         "These",
         "are",
-        "mountains"
-      ],
-      "conf": 95.6665,
-      "source": "psm-11"
+        "mountains."
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "NS",
-      "x": 0.4562,
-      "y": 0.5313,
-      "w": 0.0238,
-      "h": 0.015,
-      "words": [
-        "NS"
-      ],
-      "conf": 54.0589,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "Men go up mountains Mountains ore high Trains go on railroads",
-      "x": 0.5898,
-      "y": 0.5387,
-      "w": 0.3421,
-      "h": 0.108,
-      "words": [
-        "Men",
-        "go",
-        "up",
-        "mountains",
-        "Mountains",
-        "ore",
-        "high",
-        "Trains",
-        "go",
-        "on",
-        "railroads"
-      ],
-      "conf": 94.5902,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
       "text": "These are railroads.",
-      "x": 0.1719,
-      "y": 0.6579,
-      "w": 0.1507,
-      "h": 0.0454,
+      "x": 0.1,
+      "y": 0.65,
+      "w": 0.4,
+      "h": 0.05,
+      "id": "r3",
+      "order": 2,
       "words": [
         "These",
         "are",
         "railroads."
-      ],
-      "conf": 96.2284,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "These are roads.",
+      "x": 0.1,
+      "y": 0.81,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r4",
+      "order": 3,
+      "words": [
+        "These",
+        "are",
+        "roads."
+      ]
+    },
+    {
+      "text": "These are rivers.",
+      "x": 0.1,
+      "y": 0.88,
+      "w": 0.3,
+      "h": 0.03,
+      "id": "r5",
+      "order": 4,
+      "words": [
+        "These",
+        "are",
+        "rivers."
+      ]
+    },
+    {
+      "text": "Men go up mountains. Mountains are high.",
+      "x": 0.58,
+      "y": 0.53,
+      "w": 0.4,
+      "h": 0.08,
+      "id": "r6",
+      "order": 5,
+      "words": [
+        "Men",
+        "go",
+        "up",
+        "mountains.",
+        "Mountains",
+        "are",
+        "high."
+      ]
+    },
+    {
+      "text": "Trains go on railroads.",
+      "x": 0.58,
+      "y": 0.62,
+      "w": 0.38,
+      "h": 0.05,
+      "id": "r7",
+      "order": 6,
+      "words": [
+        "Trains",
+        "go",
+        "on",
+        "railroads."
+      ]
+    },
+    {
+      "text": "A road",
+      "x": 0.57,
+      "y": 0.71,
+      "w": 0.2,
+      "h": 0.03,
+      "id": "r8",
+      "order": 7,
+      "words": [
+        "A",
+        "road"
+      ]
+    },
+    {
+      "text": "A river",
+      "x": 0.57,
+      "y": 0.86,
+      "w": 0.2,
+      "h": 0.03,
+      "id": "r9",
+      "order": 8,
+      "words": [
+        "A",
+        "river"
+      ]
+    },
+    {
+      "text": "An island",
+      "x": 0.8,
+      "y": 0.86,
+      "w": 0.2,
+      "h": 0.03,
       "id": "r10",
       "order": 9,
-      "text": "Aroad",
-      "x": 0.6153,
-      "y": 0.7157,
-      "w": 0.1064,
-      "h": 0.0187,
-      "words": [
-        "Aroad"
-      ],
-      "conf": 88.9846,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "These are road Ss These are we i",
-      "x": 0.1183,
-      "y": 0.8145,
-      "w": 0.4306,
-      "h": 0.0887,
-      "words": [
-        "These",
-        "are",
-        "road",
-        "Ss",
-        "These",
-        "are",
-        "we",
-        "i"
-      ],
-      "conf": 87.0853,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "Ariver",
-      "x": 0.5753,
-      "y": 0.8701,
-      "w": 0.103,
-      "h": 0.0171,
-      "words": [
-        "Ariver"
-      ],
-      "conf": 92.0792,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "An island:",
-      "x": 0.8068,
-      "y": 0.8685,
-      "w": 0.1532,
-      "h": 0.0187,
       "words": [
         "An",
-        "island:"
-      ],
-      "conf": 90.2741,
-      "source": "psm-11"
+        "island"
+      ]
     }
   ]
 }

@@ -2,41 +2,58 @@
   "page": 386,
   "image": "/books/page 386.png",
   "imageApiPath": "/api/books/page%20386.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 7,
-    "wordCount": 141,
+    "regionCount": 4,
+    "wordCount": 118,
     "imageWidth": 1180,
     "imageHeight": 1850
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7"
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Christopher Columbus has gone down in history as the man who discovered America. He was looking for a way of getting to the East by sailing west.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.1,
       "id": "r1",
       "order": 0,
-      "text": "Christopher Columbus has gone down in history as the man who discovered America. He was looking for a way of getting to the East by sailing west. It was hard for him to get help for this journey. He was laughed at by most people when he said he could go this way to India be-",
-      "x": 0.1,
-      "y": 0.0314,
-      "w": 0.8339,
-      "h": 0.134,
       "words": [
         "Christopher",
         "Columbus",
@@ -64,7 +81,18 @@
         "East",
         "by",
         "sailing",
-        "west.",
+        "west."
+      ]
+    },
+    {
+      "text": "It was hard for him to get help for this journey. He was laughed at by most people when he said he could go this way to India because the earth was round.",
+      "x": 0.1,
+      "y": 0.15,
+      "w": 0.85,
+      "h": 0.12,
+      "id": "r2",
+      "order": 1,
+      "words": [
         "It",
         "was",
         "hard",
@@ -93,37 +121,21 @@
         "way",
         "to",
         "India",
-        "be-"
-      ],
-      "conf": 96.7257,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "cause the earth was round.",
-      "x": 0.1017,
-      "y": 0.1659,
-      "w": 0.3881,
-      "h": 0.0243,
-      "words": [
-        "cause",
+        "because",
         "the",
         "earth",
         "was",
         "round."
-      ],
-      "conf": 96.4148,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "This is the sort of ship Columbus sailed in. He made use of a half-hour sand glass for measuring time at sea. The glasses had to be turned every half-hour.",
+      "x": 0.1,
+      "y": 0.3,
+      "w": 0.6,
+      "h": 0.25,
       "id": "r3",
       "order": 2,
-      "text": "This is the sort of ship Columbus sailed in.",
-      "x": 0.1025,
-      "y": 0.2941,
-      "w": 0.3424,
-      "h": 0.0469,
       "words": [
         "This",
         "is",
@@ -133,20 +145,7 @@
         "ship",
         "Columbus",
         "sailed",
-        "in."
-      ],
-      "conf": 96.6535,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "He made use of a half-hour sand glass for measuring time at sea. Through all",
-      "x": 0.1059,
-      "y": 0.4486,
-      "w": 0.5915,
-      "h": 0.0541,
-      "words": [
+        "in.",
         "He",
         "made",
         "use",
@@ -160,54 +159,24 @@
         "time",
         "at",
         "sea.",
-        "Through",
-        "all"
-      ],
-      "conf": 95.8351,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "the long months the glasses on Colum- bus’s three ships had to be turned every half-hour as the sand ran out.",
-      "x": 0.1093,
-      "y": 0.5043,
-      "w": 0.5864,
-      "h": 0.0752,
-      "words": [
-        "the",
-        "long",
-        "months",
-        "the",
+        "The",
         "glasses",
-        "on",
-        "Colum-",
-        "bus’s",
-        "three",
-        "ships",
         "had",
         "to",
         "be",
         "turned",
         "every",
-        "half-hour",
-        "as",
-        "the",
-        "sand",
-        "ran",
-        "out."
-      ],
-      "conf": 94.7714,
-      "source": "psm-11"
+        "half-hour."
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "gone down: been given a place. When a name goes down in could: in this sense, would be able to—as used on the opposite page.",
-      "x": 0.1153,
+      "text": "gone down: been given a place. When a person's name goes down in history something he has done is recorded in history books. could: would be able to.",
+      "x": 0.1,
       "y": 0.82,
-      "w": 0.8305,
-      "h": 0.0508,
+      "w": 0.85,
+      "h": 0.1,
+      "id": "r4",
+      "order": 3,
       "words": [
         "gone",
         "down:",
@@ -217,36 +186,11 @@
         "place.",
         "When",
         "a",
+        "person's",
         "name",
         "goes",
         "down",
         "in",
-        "could:",
-        "in",
-        "this",
-        "sense,",
-        "would",
-        "be",
-        "able",
-        "to—as",
-        "used",
-        "on",
-        "the",
-        "opposite",
-        "page."
-      ],
-      "conf": 92.1026,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "history something he has done is recorded in history books.",
-      "x": 0.1712,
-      "y": 0.8373,
-      "w": 0.6856,
-      "h": 0.0157,
-      "words": [
         "history",
         "something",
         "he",
@@ -256,10 +200,13 @@
         "recorded",
         "in",
         "history",
-        "books."
-      ],
-      "conf": 95.2798,
-      "source": "psm-11"
+        "books.",
+        "could:",
+        "would",
+        "be",
+        "able",
+        "to."
+      ]
     }
   ]
 }

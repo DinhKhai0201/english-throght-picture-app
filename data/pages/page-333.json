@@ -2,46 +2,58 @@
   "page": 333,
   "image": "/books/page 333.png",
   "imageApiPath": "/api/books/page%20333.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 115,
+    "regionCount": 4,
+    "wordCount": 107,
     "imageWidth": 1250,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10",
-        "r11",
-        "r12"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Some birds have eyes which can see great distances, and they have good hearing. Some of them can hear sounds which we cannot hear.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.45,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "Some birds have eyes which can see great distances, and they have good hearing.",
-      "x": 0.1056,
-      "y": 0.0455,
-      "w": 0.396,
-      "h": 0.0751,
       "words": [
         "Some",
         "birds",
@@ -56,20 +68,7 @@
         "they",
         "have",
         "good",
-        "hearing."
-      ],
-      "conf": 96.5062,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "Some of them can hear sounds which we cannot hear.",
-      "x": 0.1056,
-      "y": 0.1253,
-      "w": 0.396,
-      "h": 0.0697,
-      "words": [
+        "hearing.",
         "Some",
         "of",
         "them",
@@ -80,18 +79,16 @@
         "we",
         "cannot",
         "hear."
-      ],
-      "conf": 96.2328,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "But man has made himself new ears and new eyes.",
-      "x": 0.1048,
-      "y": 0.2298,
-      "w": 0.7112,
-      "h": 0.0214,
+      "text": "But man has made himself new ears and new eyes. Today he can talk with a person at the other side of the earth by telephone. Through the radio he can hear sounds which come to him through space from thousands of miles away.",
+      "x": 0.1,
+      "y": 0.22,
+      "w": 0.85,
+      "h": 0.3,
+      "id": "r2",
+      "order": 1,
       "words": [
         "But",
         "man",
@@ -102,20 +99,7 @@
         "ears",
         "and",
         "new",
-        "eyes."
-      ],
-      "conf": 96.2943,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "Today he can talk with a person at the other side of the",
-      "x": 0.108,
-      "y": 0.4703,
-      "w": 0.7896,
-      "h": 0.0262,
-      "words": [
+        "eyes.",
         "Today",
         "he",
         "can",
@@ -128,20 +112,7 @@
         "other",
         "side",
         "of",
-        "the"
-      ],
-      "conf": 96.3848,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "earth by telephone. Through the radio he can hear sounds which come to him through space from thousands of",
-      "x": 0.1088,
-      "y": 0.4981,
-      "w": 0.7896,
-      "h": 0.0504,
-      "words": [
+        "the",
         "earth",
         "by",
         "telephone.",
@@ -160,34 +131,19 @@
         "space",
         "from",
         "thousands",
-        "of"
-      ],
-      "conf": 96.5047,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "miles away.",
-      "x": 0.1088,
-      "y": 0.5501,
-      "w": 0.1608,
-      "h": 0.0225,
-      "words": [
+        "of",
         "miles",
         "away."
-      ],
-      "conf": 96.3786,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
-      "text": "He can see through a telescope the mountains on the moon, and, through a microscope, thousands of living",
-      "x": 0.1088,
-      "y": 0.7054,
-      "w": 0.7936,
-      "h": 0.0499,
+      "text": "He can see through a telescope the mountains on the moon, and, through a microscope, thousands of living things in a drop of water.",
+      "x": 0.1,
+      "y": 0.55,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r3",
+      "order": 2,
       "words": [
         "He",
         "can",
@@ -206,104 +162,40 @@
         "microscope,",
         "thousands",
         "of",
-        "living"
-      ],
-      "conf": 96.0206,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "things in a drop of water.",
-      "x": 0.1104,
-      "y": 0.759,
-      "w": 0.36,
-      "h": 0.0214,
-      "words": [
+        "living",
         "things",
         "in",
         "a",
         "drop",
         "of",
         "water."
-      ],
-      "conf": 96.4085,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "hear: take In sounds, use the sense of hearing.",
-      "x": 0.112,
-      "y": 0.8109,
-      "w": 0.5024,
-      "h": 0.0139,
+      "text": "hear: take in sounds. space: distance between things. FUTURE: will hear. PRESENT: hear(s). PAST: heard.",
+      "x": 0.1,
+      "y": 0.8,
+      "w": 0.85,
+      "h": 0.15,
+      "id": "r4",
+      "order": 3,
       "words": [
         "hear:",
         "take",
-        "In",
-        "sounds,",
-        "use",
-        "the",
-        "sense",
-        "of",
-        "hearing."
-      ],
-      "conf": 94.6248,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "space: distance between things; that in which all things are.",
-      "x": 0.1128,
-      "y": 0.8281,
-      "w": 0.644,
-      "h": 0.0161,
-      "words": [
+        "in",
+        "sounds.",
         "space:",
         "distance",
         "between",
-        "things;",
-        "that",
-        "in",
-        "which",
-        "all",
-        "things",
-        "are."
-      ],
-      "conf": 93.7698,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "will hear",
-      "x": 0.1136,
-      "y": 0.8559,
-      "w": 0.1112,
-      "h": 0.0204,
-      "words": [
+        "things.",
+        "FUTURE:",
         "will",
-        "hear"
-      ],
-      "conf": 94.9464,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "hear (s)",
-      "x": 0.4752,
-      "y": 0.8559,
-      "w": 0.0976,
-      "h": 0.0209,
-      "words": [
-        "hear",
-        "(s)"
-      ],
-      "conf": 54.986,
-      "source": "psm-11"
+        "hear.",
+        "PRESENT:",
+        "hear(s).",
+        "PAST:",
+        "heard."
+      ]
     }
   ]
 }

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "The path from your toe to your brain and back can be twelve feet. Signals travel this loop to help you step and move your foot.", "x": 0.1, "y": 0.05, "w": 0.7, "h": 0.2 },
-    { "text": "(Diagram: A person on a ladder illustrating the signal loop from toe to brain).", "x": 0.8, "y": 0.05, "w": 0.15, "h": 0.15 },
-    { "text": "Walking requires almost all your muscles to work together to keep you balanced. Nerves and muscles keep you on your feet.", "x": 0.1, "y": 0.35, "w": 0.35, "h": 0.35 },
-    { "text": "(Diagram: Human muscular system in a walking pose). Nerve and muscle cells depend on other cells throughout the body.", "x": 0.45, "y": 0.22, "w": 0.5, "h": 0.7 }
-  ]
-}

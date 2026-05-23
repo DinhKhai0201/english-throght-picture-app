@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "These two men know there is a space between them without being able to say what Space is.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "There is not enough space in this car for all these travelers. They know this, though they cannot say what Space is.", "x": 0.1, "y": 0.42, "w": 0.85, "h": 0.1 },
-    { "text": "There is more space free on this page than on other pages which take longer to read.", "x": 0.1, "y": 0.8, "w": 0.85, "h": 0.1 },
-    { "text": "traveler: person who travels.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.05 }
-  ]
-}

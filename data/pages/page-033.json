@@ -2,61 +2,70 @@
   "page": 33,
   "image": "/books/page 33.png",
   "imageApiPath": "/api/books/page%2033.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 8,
-    "wordCount": 43,
+    "regionCount": 6,
+    "wordCount": 41,
     "imageWidth": 1188,
     "imageHeight": 1846
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
+        "r1"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
         "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8"
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6"
       ]
     }
   ],
   "regions": [
     {
+      "text": "The man will go to his house.",
+      "x": 0.13,
+      "y": 0.17,
+      "w": 0.25,
+      "h": 0.08,
       "id": "r1",
       "order": 0,
-      "text": "He is going to his house.",
-      "x": 0.564,
-      "y": 0.1154,
-      "w": 0.1793,
-      "h": 0.0693,
-      "words": [
-        "He",
-        "is",
-        "going",
-        "to",
-        "his",
-        "house."
-      ],
-      "conf": 95.3361,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "The man will go to his house.",
-      "x": 0.1414,
-      "y": 0.1701,
-      "w": 0.1894,
-      "h": 0.0715,
       "words": [
         "The",
         "man",
@@ -65,59 +74,87 @@
         "to",
         "his",
         "house."
-      ],
-      "conf": 96.0757,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "He is going to his house.",
+      "x": 0.5536,
+      "y": 0.1129,
+      "w": 0.2,
+      "h": 0.08,
+      "id": "r2",
+      "order": 1,
+      "words": [
+        "He",
+        "is",
+        "going",
+        "to",
+        "his",
+        "house."
+      ]
+    },
+    {
+      "text": "The man went to his house. He is there.",
+      "x": 0.13,
+      "y": 0.53,
+      "w": 0.25,
+      "h": 0.08,
       "id": "r3",
       "order": 2,
-      "text": "The man went to his house He is there.",
-      "x": 0.138,
-      "y": 0.5336,
-      "w": 0.2172,
-      "h": 0.0699,
       "words": [
         "The",
         "man",
         "went",
         "to",
         "his",
-        "house",
+        "house.",
         "He",
         "is",
         "there."
-      ],
-      "conf": 96.5857,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "He went there.",
+      "x": 0.2347,
+      "y": 0.6837,
+      "w": 0.25,
+      "h": 0.03,
       "id": "r4",
       "order": 3,
-      "text": "He is at his door.",
-      "x": 0.654,
-      "y": 0.5856,
-      "w": 0.2449,
-      "h": 0.02,
+      "words": [
+        "He",
+        "went",
+        "there."
+      ]
+    },
+    {
+      "text": "He was here.",
+      "x": 0.2487,
+      "y": 0.8431,
+      "w": 0.25,
+      "h": 0.03,
+      "id": "r5",
+      "order": 4,
+      "words": [
+        "He",
+        "was",
+        "here."
+      ]
+    },
+    {
+      "text": "He is at his door. He is at the door of his house.",
+      "x": 0.599,
+      "y": 0.589,
+      "w": 0.35,
+      "h": 0.08,
+      "id": "r6",
+      "order": 5,
       "words": [
         "He",
         "is",
         "at",
         "his",
-        "door."
-      ],
-      "conf": 91.6288,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "He is at the door of his house.",
-      "x": 0.6532,
-      "y": 0.6241,
-      "w": 0.2542,
-      "h": 0.0449,
-      "words": [
+        "door.",
         "He",
         "is",
         "at",
@@ -126,56 +163,7 @@
         "of",
         "his",
         "house."
-      ],
-      "conf": 96.4242,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "He went there",
-      "x": 0.2466,
-      "y": 0.6863,
-      "w": 0.2155,
-      "h": 0.02,
-      "words": [
-        "He",
-        "went",
-        "there"
-      ],
-      "conf": 96.5693,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "ais) i was here,",
-      "x": 0.1355,
-      "y": 0.8369,
-      "w": 0.319,
-      "h": 0.085,
-      "words": [
-        "ais)",
-        "i",
-        "was",
-        "here,"
-      ],
-      "conf": 78.4758,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "MS",
-      "x": 0.6902,
-      "y": 0.8407,
-      "w": 0.1549,
-      "h": 0.0119,
-      "words": [
-        "MS"
-      ],
-      "conf": 43.7241,
-      "source": "psm-11"
+      ]
     }
   ]
 }

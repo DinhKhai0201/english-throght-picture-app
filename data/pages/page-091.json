@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2091.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 14,
-    "wordCount": 79,
+    "regionCount": 13,
+    "wordCount": 78,
     "imageWidth": 1167,
     "imageHeight": 1830
   },
@@ -19,7 +19,8 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r4"
+        "r2",
+        "r3"
       ]
     },
     {
@@ -30,8 +31,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3"
+        "r4",
+        "r5"
       ]
     },
     {
@@ -42,11 +43,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
+        "r6",
+        "r7",
         "r8",
-        "r11",
-        "r13",
-        "r14"
+        "r9"
       ]
     },
     {
@@ -57,23 +57,22 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r7",
-        "r9",
         "r10",
-        "r12"
+        "r11",
+        "r12",
+        "r13"
       ]
     }
   ],
   "regions": [
     {
+      "text": "She put the tray on the table.",
+      "x": 0.1,
+      "y": 0.1,
+      "w": 0.35,
+      "h": 0.05,
       "id": "r1",
       "order": 0,
-      "text": "She put the tray on the table.",
-      "x": 0.1165,
-      "y": 0.0984,
-      "w": 0.365,
-      "h": 0.047,
       "words": [
         "She",
         "put",
@@ -82,35 +81,64 @@
         "on",
         "the",
         "table."
-      ],
-      "conf": 93.0214,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "It was in her hands.",
+      "x": 0.12,
+      "y": 0.38,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r2",
       "order": 1,
+      "words": [
+        "It",
+        "was",
+        "in",
+        "her",
+        "hands."
+      ]
+    },
+    {
+      "text": "It is on the table now.",
+      "x": 0.12,
+      "y": 0.42,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r3",
+      "order": 2,
+      "words": [
+        "It",
+        "is",
+        "on",
+        "the",
+        "table",
+        "now."
+      ]
+    },
+    {
       "text": "Here is the tray.",
-      "x": 0.6033,
-      "y": 0.1311,
-      "w": 0.2511,
-      "h": 0.0262,
+      "x": 0.55,
+      "y": 0.12,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r4",
+      "order": 3,
       "words": [
         "Here",
         "is",
         "the",
         "tray."
-      ],
-      "conf": 95.986,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
       "text": "What are these things on the tray?",
-      "x": 0.5613,
-      "y": 0.3601,
-      "w": 0.3461,
-      "h": 0.0508,
+      "x": 0.55,
+      "y": 0.36,
+      "w": 0.35,
+      "h": 0.05,
+      "id": "r5",
+      "order": 4,
       "words": [
         "What",
         "are",
@@ -119,213 +147,144 @@
         "on",
         "the",
         "tray?"
-      ],
-      "conf": 86.6351,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "it was in her hands it is on the table now",
-      "x": 0.144,
-      "y": 0.4027,
-      "w": 0.3299,
-      "h": 0.0481,
-      "words": [
-        "it",
-        "was",
-        "in",
-        "her",
-        "hands",
-        "it",
-        "is",
-        "on",
-        "the",
-        "table",
-        "now"
-      ],
-      "conf": 91.4963,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "These are glasses",
-      "x": 0.1405,
-      "y": 0.5191,
-      "w": 0.2751,
-      "h": 0.0268,
+      "text": "These are glasses.",
+      "x": 0.12,
+      "y": 0.51,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r6",
+      "order": 5,
       "words": [
         "These",
         "are",
-        "glasses"
-      ],
-      "conf": 85.1144,
-      "source": "psm-11"
+        "glasses."
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "What are these?",
-      "x": 0.5596,
-      "y": 0.5377,
-      "w": 0.2571,
-      "h": 0.0208,
-      "words": [
-        "What",
-        "are",
-        "these?"
-      ],
-      "conf": 95.9515,
-      "source": "psm-11"
-    },
-    {
+      "text": "What are these? They are forks.",
+      "x": 0.1,
+      "y": 0.62,
+      "w": 0.25,
+      "h": 0.05,
       "id": "r7",
       "order": 6,
-      "text": "t They are spoons.",
-      "x": 0.5116,
-      "y": 0.5639,
-      "w": 0.3111,
-      "h": 0.0257,
-      "words": [
-        "t",
-        "They",
-        "are",
-        "spoons."
-      ],
-      "conf": 94.3458,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "What are these They are forks.",
-      "x": 0.1225,
-      "y": 0.6251,
-      "w": 0.2468,
-      "h": 0.0514,
       "words": [
         "What",
         "are",
-        "these",
+        "these?",
         "They",
         "are",
         "forks."
-      ],
-      "conf": 96.5723,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "What is this?",
-      "x": 0.5973,
-      "y": 0.6426,
-      "w": 0.2014,
-      "h": 0.0208,
+      "text": "What is this? It is a knife.",
+      "x": 0.16,
+      "y": 0.72,
+      "w": 0.25,
+      "h": 0.05,
+      "id": "r8",
+      "order": 7,
       "words": [
         "What",
         "is",
-        "this?"
-      ],
-      "conf": 96.5574,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "It is another spoon What is this?",
-      "x": 0.5981,
-      "y": 0.6694,
-      "w": 0.2871,
-      "h": 0.0836,
-      "words": [
-        "It",
-        "is",
-        "another",
-        "spoon",
-        "What",
-        "is",
-        "this?"
-      ],
-      "conf": 95.8886,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "What is this It is a knife.",
-      "x": 0.1937,
-      "y": 0.7273,
-      "w": 0.1868,
-      "h": 0.0476,
-      "words": [
-        "What",
-        "is",
-        "this",
+        "this?",
         "It",
         "is",
         "a",
         "knife."
-      ],
-      "conf": 96.4437,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "What are these? They are two other knives.",
+      "x": 0.08,
+      "y": 0.81,
+      "w": 0.3,
+      "h": 0.08,
+      "id": "r9",
+      "order": 8,
+      "words": [
+        "What",
+        "are",
+        "these?",
+        "They",
+        "are",
+        "two",
+        "other",
+        "knives."
+      ]
+    },
+    {
+      "text": "What are these? They are spoons.",
+      "x": 0.55,
+      "y": 0.53,
+      "w": 0.25,
+      "h": 0.05,
+      "id": "r10",
+      "order": 9,
+      "words": [
+        "What",
+        "are",
+        "these?",
+        "They",
+        "are",
+        "spoons."
+      ]
+    },
+    {
+      "text": "What is this? It is another spoon.",
+      "x": 0.56,
+      "y": 0.64,
+      "w": 0.28,
+      "h": 0.05,
+      "id": "r11",
+      "order": 10,
+      "words": [
+        "What",
+        "is",
+        "this?",
+        "It",
+        "is",
+        "another",
+        "spoon."
+      ]
+    },
+    {
+      "text": "What is this? It is a plate.",
+      "x": 0.6,
+      "y": 0.73,
+      "w": 0.25,
+      "h": 0.05,
       "id": "r12",
       "order": 11,
-      "text": "It is a plate These are three other plates",
-      "x": 0.5938,
-      "y": 0.759,
-      "w": 0.3359,
-      "h": 0.1077,
       "words": [
+        "What",
+        "is",
+        "this?",
         "It",
         "is",
         "a",
-        "plate",
+        "plate."
+      ]
+    },
+    {
+      "text": "These are three other plates.",
+      "x": 0.55,
+      "y": 0.81,
+      "w": 0.35,
+      "h": 0.05,
+      "id": "r13",
+      "order": 12,
+      "words": [
         "These",
         "are",
         "three",
         "other",
-        "plates"
-      ],
-      "conf": 93.8867,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "What are these?",
-      "x": 0.0968,
-      "y": 0.8093,
-      "w": 0.2605,
-      "h": 0.0202,
-      "words": [
-        "What",
-        "are",
-        "these?"
-      ],
-      "conf": 96.458,
-      "source": "psm-11"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "They are two oth knives.",
-      "x": 0.0951,
-      "y": 0.8355,
-      "w": 0.2682,
-      "h": 0.0459,
-      "words": [
-        "They",
-        "are",
-        "two",
-        "oth",
-        "knives."
-      ],
-      "conf": 95.6652,
-      "source": "psm-11"
+        "plates."
+      ]
     }
   ]
 }

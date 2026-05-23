@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Are you a man or a woman or a girl or a boy? What is your country? Is the country where you live now the country of your birth?", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "Do you see on this page a map of the country where you live? Is it Germany, the Philippines, Brazil, Australia, Kenya, or some other country?", "x": 0.1, "y": 0.48, "w": 0.85, "h": 0.1 },
-    { "text": "There are millions of readers of EP 1. The book is used in almost every country.", "x": 0.1, "y": 0.58, "w": 0.85, "h": 0.1 },
-    { "text": "country: land under one government. birth: coming into being. almost: the shorter line here is almost as long as the other. \"almost every country\": most countries.", "x": 0.1, "y": 0.7, "w": 0.85, "h": 0.2 }
-  ]
-}

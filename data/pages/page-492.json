@@ -4,25 +4,12 @@
   "imageApiPath": "/api/books/page%20492.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 119,
+    "regionCount": 4,
+    "wordCount": 77,
     "imageWidth": 1205,
     "imageHeight": 1875
   },
   "panels": [
-    {
-      "id": "top-left",
-      "label": "Top Left",
-      "x": 0,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2",
-        "r4",
-        "r5"
-      ]
-    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -32,20 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r7",
-        "r8",
-        "r11"
+        "r2"
       ]
     },
     {
@@ -56,216 +30,97 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r9",
-        "r10"
+        "r3",
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "The earth is far older than we can imagine. Time stretches long into the past and far into the future.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.15,
       "id": "r1",
       "order": 0,
-      "text": "However we try to think of time, it seems certain that the",
-      "x": 0.1054,
-      "y": 0.0437,
-      "w": 0.8141,
-      "h": 0.0224,
       "words": [
-        "However",
-        "we",
-        "try",
-        "to",
-        "think",
-        "of",
-        "time,",
-        "it",
-        "seems",
-        "certain",
-        "that",
-        "the"
-      ],
-      "conf": 96.796,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "earth is older than our minds can take in.",
-      "x": 0.1054,
-      "y": 0.0709,
-      "w": 0.5784,
-      "h": 0.0197,
-      "words": [
+        "The",
         "earth",
         "is",
+        "far",
         "older",
         "than",
-        "our",
-        "minds",
+        "we",
         "can",
-        "take",
-        "in."
-      ],
-      "conf": 96.6268,
-      "source": "psm-11"
+        "imagine.",
+        "Time",
+        "stretches",
+        "long",
+        "into",
+        "the",
+        "past",
+        "and",
+        "far",
+        "into",
+        "the",
+        "future."
+      ]
     },
     {
+      "text": "(Illustration: A person sitting by a lake among ancient mountains, contemplating the passage of time).",
+      "x": 0.1,
+      "y": 0.22,
+      "w": 0.85,
+      "h": 0.3,
+      "id": "r2",
+      "order": 1,
+      "words": [
+        "(Illustration:",
+        "A",
+        "person",
+        "sitting",
+        "by",
+        "a",
+        "lake",
+        "among",
+        "ancient",
+        "mountains,",
+        "contemplating",
+        "the",
+        "passage",
+        "of",
+        "time)."
+      ]
+    },
+    {
+      "text": "Seventy years is long compared to a minute, but nothing compared to a stone. A Chinese poem says: 'Quickly the years fly past forever, Here forever is this spring morning.'",
+      "x": 0.1,
+      "y": 0.52,
+      "w": 0.85,
+      "h": 0.3,
       "id": "r3",
       "order": 2,
-      "text": "Things have been going on for a longer time than we can think of and they will go on and on through a longer",
-      "x": 0.1054,
-      "y": 0.1227,
-      "w": 0.8166,
-      "h": 0.0474,
-      "words": [
-        "Things",
-        "have",
-        "been",
-        "going",
-        "on",
-        "for",
-        "a",
-        "longer",
-        "time",
-        "than",
-        "we",
-        "can",
-        "think",
-        "of",
-        "and",
-        "they",
-        "will",
-        "go",
-        "on",
-        "and",
-        "on",
-        "through",
-        "a",
-        "longer"
-      ],
-      "conf": 96.4491,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "time in the future than we can think of.",
-      "x": 0.1046,
-      "y": 0.1744,
-      "w": 0.5452,
-      "h": 0.0181,
-      "words": [
-        "time",
-        "in",
-        "the",
-        "future",
-        "than",
-        "we",
-        "can",
-        "think",
-        "of."
-      ],
-      "conf": 96.5904,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "om,",
-      "x": 0.2697,
-      "y": 0.2965,
-      "w": 0.0274,
-      "h": 0.0171,
-      "words": [
-        "om,"
-      ],
-      "conf": 38.3973,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "Seventy years seems a long life-time if compared with the present minute. But if compared with the age of a",
-      "x": 0.1095,
-      "y": 0.5355,
-      "w": 0.8142,
-      "h": 0.0485,
       "words": [
         "Seventy",
         "years",
-        "seems",
-        "a",
-        "long",
-        "life-time",
-        "if",
-        "compared",
-        "with",
-        "the",
-        "present",
-        "minute.",
-        "But",
-        "if",
-        "compared",
-        "with",
-        "the",
-        "age",
-        "of",
-        "a"
-      ],
-      "conf": 96.6005,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "stone it seems no time at all.",
-      "x": 0.1104,
-      "y": 0.5867,
-      "w": 0.3909,
-      "h": 0.0176,
-      "words": [
-        "stone",
-        "it",
-        "seems",
-        "no",
-        "time",
-        "at",
-        "all."
-      ],
-      "conf": 95.918,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "There is a Chinese poem which says:",
-      "x": 0.1112,
-      "y": 0.6389,
-      "w": 0.5145,
-      "h": 0.0219,
-      "words": [
-        "There",
         "is",
+        "long",
+        "compared",
+        "to",
         "a",
+        "minute,",
+        "but",
+        "nothing",
+        "compared",
+        "to",
+        "a",
+        "stone.",
+        "A",
         "Chinese",
         "poem",
-        "which",
-        "says:"
-      ],
-      "conf": 96.5994,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "Quickly the years fly past forever, Here forever is this spring morning.",
-      "x": 0.2531,
-      "y": 0.6779,
-      "w": 0.5278,
-      "h": 0.048,
-      "words": [
-        "Quickly",
+        "says:",
+        "'Quickly",
         "the",
         "years",
         "fly",
@@ -276,54 +131,31 @@
         "is",
         "this",
         "spring",
-        "morning."
-      ],
-      "conf": 96.6635,
-      "source": "psm-11"
+        "morning.'"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "poem: something said for the complete man (his thoughts, feelings,",
-      "x": 0.1112,
-      "y": 0.832,
-      "w": 0.8124,
-      "h": 0.0165,
+      "text": "poem: a way of expressing a person's complete thoughts and feelings perfectly.",
+      "x": 0.1,
+      "y": 0.82,
+      "w": 0.85,
+      "h": 0.12,
+      "id": "r4",
+      "order": 3,
       "words": [
         "poem:",
-        "something",
-        "said",
-        "for",
-        "the",
+        "a",
+        "way",
+        "of",
+        "expressing",
+        "a",
+        "person's",
         "complete",
-        "man",
-        "(his",
-        "thoughts,",
-        "feelings,"
-      ],
-      "conf": 95.8325,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "desires, hopes, fears...) in the best poss’ way.",
-      "x": 0.166,
-      "y": 0.8491,
-      "w": 0.5851,
-      "h": 0.0165,
-      "words": [
-        "desires,",
-        "hopes,",
-        "fears...)",
-        "in",
-        "the",
-        "best",
-        "poss’",
-        "way."
-      ],
-      "conf": 92.2939,
-      "source": "psm-11"
+        "thoughts",
+        "and",
+        "feelings",
+        "perfectly."
+      ]
     }
   ]
 }

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "This boy's name is Tom.", "x": 0.12, "y": 0.17, "w": 0.35, "h": 0.05 },
-    { "text": "This girl's name is Jane.", "x": 0.52, "y": 0.17, "w": 0.4, "h": 0.05 },
-    { "text": "Tom is making something.", "x": 0.15, "y": 0.58, "w": 0.3, "h": 0.05 },
-    { "text": "Jane is saying, \"What are you making, Tom?\"", "x": 0.53, "y": 0.54, "w": 0.4, "h": 0.05 }
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Wool, cotton, and silk are different sorts of cloth. We make clothing of all these sorts of cloth. (See page 81.)", "x": 0.08, "y": 0.09, "w": 0.4, "h": 0.15 },
-    { "text": "When the weather is cold we put on thick warm wool clothing. When the weather is warm we put on thin cotton clothing. Cotton clothing is not as warm as wool clothing.", "x": 0.52, "y": 0.16, "w": 0.38, "h": 0.25 },
-    { "text": "Thick clothing keeps us warm. It keeps us warmer than thin clothing. Thick cloth keeps air in it, between the threads. The air does not let heat go through it.", "x": 0.1, "y": 0.53, "w": 0.38, "h": 0.2 },
-    { "text": "A thick roof keeps the heat of the house in. A thin roof lets the heat go through it. A thick roof keeps the heat of the sun out.", "x": 0.52, "y": 0.65, "w": 0.38, "h": 0.25 }
-  ]
-}

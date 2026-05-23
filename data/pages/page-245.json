@@ -2,10 +2,10 @@
   "page": 245,
   "image": "/books/page 245.png",
   "imageApiPath": "/api/books/page%20245.png",
-  "layout": "quad",
+  "layout": "full",
   "stats": {
-    "regionCount": 15,
-    "wordCount": 136,
+    "regionCount": 21,
+    "wordCount": 152,
     "imageWidth": 1242,
     "imageHeight": 1859
   },
@@ -18,10 +18,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
+        "r2",
         "r3",
         "r5",
-        "r6"
+        "r7"
       ]
     },
     {
@@ -32,9 +32,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
+        "r1",
         "r4",
-        "r7"
+        "r6",
+        "r8"
       ]
     },
     {
@@ -45,12 +46,13 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
         "r9",
-        "r10",
+        "r11",
         "r12",
-        "r13",
-        "r14"
+        "r14",
+        "r16",
+        "r18",
+        "r20"
       ]
     },
     {
@@ -61,27 +63,55 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r11",
-        "r15"
+        "r10",
+        "r13",
+        "r15",
+        "r17",
+        "r19",
+        "r21"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Answers to questions on pages 238-239.",
+      "x": 0.2,
+      "y": 0.08,
+      "w": 0.6,
+      "h": 0.05,
       "id": "r1",
       "order": 0,
-      "text": "Answers to questions on pages Page a There is more water in the sea than ina river.",
-      "x": 0.1159,
-      "y": 0.0769,
-      "w": 0.5613,
-      "h": 0.1474,
       "words": [
         "Answers",
         "to",
         "questions",
         "on",
         "pages",
+        "238-239."
+      ]
+    },
+    {
+      "text": "Page 238",
+      "x": 0.11,
+      "y": 0.13,
+      "w": 0.2,
+      "h": 0.03,
+      "id": "r2",
+      "order": 1,
+      "words": [
         "Page",
+        "238"
+      ]
+    },
+    {
+      "text": "a There is more water in the sea than in a river.",
+      "x": 0.11,
+      "y": 0.16,
+      "w": 0.38,
+      "h": 0.08,
+      "id": "r3",
+      "order": 2,
+      "words": [
         "a",
         "There",
         "is",
@@ -91,20 +121,19 @@
         "the",
         "sea",
         "than",
-        "ina",
+        "in",
+        "a",
         "river."
-      ],
-      "conf": 96.6085,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r2",
-      "order": 1,
       "text": "b Fire, the wheel, and clothing were three great discoveries.",
-      "x": 0.5548,
-      "y": 0.1538,
-      "w": 0.3309,
-      "h": 0.0742,
+      "x": 0.55,
+      "y": 0.16,
+      "w": 0.38,
+      "h": 0.08,
+      "id": "r4",
+      "order": 3,
       "words": [
         "b",
         "Fire,",
@@ -116,19 +145,18 @@
         "three",
         "great",
         "discoveries."
-      ],
-      "conf": 95.8629,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
-      "text": "Wool is the hair of sheep. Cotton is the hair round the seeds of the cotton plant.",
-      "x": 0.1473,
-      "y": 0.241,
-      "w": 0.3044,
-      "h": 0.099,
+      "text": "c Wool is the hair of sheep. Cotton is the hair round the seeds of the cotton plant. We get silk from the silkworm.",
+      "x": 0.11,
+      "y": 0.25,
+      "w": 0.38,
+      "h": 0.15,
+      "id": "r5",
+      "order": 4,
       "words": [
+        "c",
         "Wool",
         "is",
         "the",
@@ -145,19 +173,23 @@
         "of",
         "the",
         "cotton",
-        "plant."
-      ],
-      "conf": 94.9257,
-      "source": "psm-11"
+        "plant.",
+        "We",
+        "get",
+        "silk",
+        "from",
+        "the",
+        "silkworm."
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
       "text": "d Because thick clothing keeps heat from going through it.",
-      "x": 0.5507,
-      "y": 0.2421,
-      "w": 0.277,
-      "h": 0.1011,
+      "x": 0.55,
+      "y": 0.25,
+      "w": 0.38,
+      "h": 0.1,
+      "id": "r6",
+      "order": 5,
       "words": [
         "d",
         "Because",
@@ -169,38 +201,18 @@
         "going",
         "through",
         "it."
-      ],
-      "conf": 95.4612,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "We get silk from the silkworm.",
-      "x": 0.1522,
-      "y": 0.341,
-      "w": 0.2971,
-      "h": 0.0447,
+      "text": "e The chief work of the eyes is seeing, of the ears is hearing, of the mouth is taking in food, and of the fingers is touching.",
+      "x": 0.11,
+      "y": 0.4,
+      "w": 0.38,
+      "h": 0.18,
+      "id": "r7",
+      "order": 6,
       "words": [
-        "We",
-        "get",
-        "silk",
-        "from",
-        "the",
-        "silkworm."
-      ],
-      "conf": 96.446,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "The chief work of the eyes is seeing, of the ears is hearing, of the mouth is tak-",
-      "x": 0.1498,
-      "y": 0.3975,
-      "w": 0.3076,
-      "h": 0.0974,
-      "words": [
+        "e",
         "The",
         "chief",
         "work",
@@ -218,19 +230,25 @@
         "the",
         "mouth",
         "is",
-        "tak-"
-      ],
-      "conf": 96.7321,
-      "source": "psm-11"
+        "taking",
+        "in",
+        "food,",
+        "and",
+        "of",
+        "the",
+        "fingers",
+        "is",
+        "touching."
+      ]
     },
     {
-      "id": "r7",
-      "order": 6,
       "text": "f Carts, automobiles, and trains go on wheels.",
-      "x": 0.5507,
-      "y": 0.4002,
-      "w": 0.3213,
-      "h": 0.0952,
+      "x": 0.55,
+      "y": 0.4,
+      "w": 0.38,
+      "h": 0.08,
+      "id": "r8",
+      "order": 7,
       "words": [
         "f",
         "Carts,",
@@ -240,163 +258,203 @@
         "go",
         "on",
         "wheels."
-      ],
-      "conf": 95.2382,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "ing in food, and of the fingers is touching.",
-      "x": 0.153,
-      "y": 0.5008,
-      "w": 0.2762,
-      "h": 0.0731,
-      "words": [
-        "ing",
-        "in",
-        "food,",
-        "and",
-        "of",
-        "the",
-        "fingers",
-        "is",
-        "touching."
-      ],
-      "conf": 96.5777,
-      "source": "psm-11"
-    },
-    {
+      "text": "g Smoke comes from fire. Steam comes from boiling water.",
+      "x": 0.11,
+      "y": 0.59,
+      "w": 0.38,
+      "h": 0.1,
       "id": "r9",
       "order": 8,
-      "text": "g Smoke comes",
-      "x": 0.1159,
-      "y": 0.5896,
-      "w": 0.2351,
-      "h": 0.0226,
       "words": [
         "g",
         "Smoke",
-        "comes"
-      ],
-      "conf": 94.2998,
-      "source": "psm-11"
+        "comes",
+        "from",
+        "fire.",
+        "Steam",
+        "comes",
+        "from",
+        "boiling",
+        "water."
+      ]
     },
     {
+      "text": "h We get wood from trees.",
+      "x": 0.55,
+      "y": 0.59,
+      "w": 0.38,
+      "h": 0.05,
       "id": "r10",
       "order": 9,
-      "text": "from",
-      "x": 0.3599,
-      "y": 0.5874,
-      "w": 0.0717,
-      "h": 0.0425,
-      "words": [
-        "from"
-      ],
-      "conf": 96.9158,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "h We get wood from trees,",
-      "x": 0.5539,
-      "y": 0.5896,
-      "w": 0.314,
-      "h": 0.044,
       "words": [
         "h",
         "We",
         "get",
         "wood",
         "from",
-        "trees,"
-      ],
-      "conf": 95.8661,
-      "source": "psm-11"
+        "trees."
+      ]
     },
     {
-      "id": "r12",
-      "order": 11,
-      "text": "fire.",
-      "x": 0.1522,
-      "y": 0.6143,
-      "w": 0.0572,
-      "h": 0.0183,
-      "words": [
-        "fire."
-      ],
-      "conf": 95.8784,
-      "source": "psm-11"
-    },
-    {
-      "id": "r13",
-      "order": 12,
-      "text": "Steam comes from boiling water.",
-      "x": 0.1522,
-      "y": 0.6391,
-      "w": 0.2681,
-      "h": 0.0484,
-      "words": [
-        "Steam",
-        "comes",
-        "from",
-        "boiling",
-        "water."
-      ],
-      "conf": 95.926,
-      "source": "psm-11"
-    },
-    {
-      "id": "r14",
-      "order": 13,
-      "text": "Page a acart aboot e askirt and a shirt g afire i aroll of cloth",
-      "x": 0.1151,
-      "y": 0.7154,
-      "w": 0.2963,
-      "h": 0.1442,
+      "text": "Page 239",
+      "x": 0.11,
+      "y": 0.72,
+      "w": 0.2,
+      "h": 0.03,
+      "id": "r11",
+      "order": 10,
       "words": [
         "Page",
-        "a",
-        "acart",
-        "aboot",
-        "e",
-        "askirt",
-        "and",
-        "a",
-        "shirt",
-        "g",
-        "afire",
-        "i",
-        "aroll",
-        "of",
-        "cloth"
-      ],
-      "conf": 95.6629,
-      "source": "psm-11"
+        "239"
+      ]
     },
     {
-      "id": "r15",
-      "order": 14,
-      "text": "b aplow d a looking-glass a wheel h a spade",
-      "x": 0.5539,
-      "y": 0.7407,
-      "w": 0.2634,
-      "h": 0.0996,
+      "text": "a a cart",
+      "x": 0.11,
+      "y": 0.75,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r12",
+      "order": 11,
+      "words": [
+        "a",
+        "a",
+        "cart"
+      ]
+    },
+    {
+      "text": "b a plow",
+      "x": 0.55,
+      "y": 0.75,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r13",
+      "order": 12,
       "words": [
         "b",
-        "aplow",
+        "a",
+        "plow"
+      ]
+    },
+    {
+      "text": "c a boot",
+      "x": 0.11,
+      "y": 0.78,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r14",
+      "order": 13,
+      "words": [
+        "c",
+        "a",
+        "boot"
+      ]
+    },
+    {
+      "text": "d a looking-glass",
+      "x": 0.55,
+      "y": 0.78,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r15",
+      "order": 14,
+      "words": [
         "d",
         "a",
-        "looking-glass",
+        "looking-glass"
+      ]
+    },
+    {
+      "text": "e a skirt and a shirt",
+      "x": 0.11,
+      "y": 0.81,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r16",
+      "order": 15,
+      "words": [
+        "e",
         "a",
-        "wheel",
+        "skirt",
+        "and",
+        "a",
+        "shirt"
+      ]
+    },
+    {
+      "text": "f a wheel",
+      "x": 0.55,
+      "y": 0.81,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r17",
+      "order": 16,
+      "words": [
+        "f",
+        "a",
+        "wheel"
+      ]
+    },
+    {
+      "text": "g a fire",
+      "x": 0.11,
+      "y": 0.84,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r18",
+      "order": 17,
+      "words": [
+        "g",
+        "a",
+        "fire"
+      ]
+    },
+    {
+      "text": "h a spade",
+      "x": 0.55,
+      "y": 0.84,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r19",
+      "order": 18,
+      "words": [
         "h",
         "a",
         "spade"
-      ],
-      "conf": 87.4964,
-      "source": "psm-11"
+      ]
+    },
+    {
+      "text": "i a roll of cloth",
+      "x": 0.11,
+      "y": 0.87,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r20",
+      "order": 19,
+      "words": [
+        "i",
+        "a",
+        "roll",
+        "of",
+        "cloth"
+      ]
+    },
+    {
+      "text": "j an umbrella",
+      "x": 0.55,
+      "y": 0.87,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r21",
+      "order": 20,
+      "words": [
+        "j",
+        "an",
+        "umbrella"
+      ]
     }
   ]
 }

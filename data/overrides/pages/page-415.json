@@ -1,8 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Chlorophyll makes plants green and is necessary for growth. Plants take what they need from air, earth, and water. They make carbohydrates from H2O and CO2.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.15 },
-    { "text": "This power of plants is named photosynthesis (putting together with light). Men and animals depend upon photosynthesis for food and energy.", "x": 0.1, "y": 0.38, "w": 0.85, "h": 0.12 },
-    { "text": "We and the animals either eat plants or eat plant-eating animals or both. carbohydrate: material made by green plants from C, H, and O.", "x": 0.1, "y": 0.52, "w": 0.85, "h": 0.3 }
-  ]
-}

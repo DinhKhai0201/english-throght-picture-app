@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20400.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 173,
+    "regionCount": 4,
+    "wordCount": 98,
     "imageWidth": 1196,
     "imageHeight": 1850
   },
@@ -18,8 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3"
+        "r2"
       ]
     },
     {
@@ -30,23 +29,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r4"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r6",
-        "r7",
-        "r8",
-        "r9",
-        "r10"
+        "r1"
       ]
     },
     {
@@ -57,70 +40,36 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r11"
+        "r3",
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "The first living things were eating, growing organisms which divided to become others like them. Under a microscope, a cell looks like a bit of clear jelly with a thin wall round it.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.12,
       "id": "r1",
       "order": 0,
-      "text": "The first living things, though they were too small to be seen, were eating, growing organisms which divided to",
-      "x": 0.1112,
-      "y": 0.0422,
-      "w": 0.8186,
-      "h": 0.0508,
       "words": [
         "The",
         "first",
         "living",
-        "things,",
-        "though",
-        "they",
-        "were",
-        "too",
-        "small",
-        "to",
-        "be",
-        "seen,",
+        "things",
         "were",
         "eating,",
         "growing",
         "organisms",
         "which",
         "divided",
-        "to"
-      ],
-      "conf": 96.5522,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "become others like them.",
-      "x": 0.1137,
-      "y": 0.0973,
-      "w": 0.3704,
-      "h": 0.0173,
-      "words": [
+        "to",
         "become",
         "others",
         "like",
-        "them."
-      ],
-      "conf": 96.6195,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "Under a microscope, a cell looks like a bit of clear jelly with a thin wall round it. Very small open- ings in the walls of the cell let food in and waste out.",
-      "x": 0.1104,
-      "y": 0.1773,
-      "w": 0.3787,
-      "h": 0.1546,
-      "words": [
+        "them.",
         "Under",
         "a",
         "microscope,",
@@ -138,11 +87,21 @@
         "thin",
         "wall",
         "round",
-        "it.",
+        "it."
+      ]
+    },
+    {
+      "text": "Very small openings in the walls of the cell let food in and waste out. In every cell there is a nucleus, which organizes the work of the cell.",
+      "x": 0.1,
+      "y": 0.18,
+      "w": 0.45,
+      "h": 0.2,
+      "id": "r2",
+      "order": 1,
+      "words": [
         "Very",
         "small",
-        "open-",
-        "ings",
+        "openings",
         "in",
         "the",
         "walls",
@@ -154,34 +113,13 @@
         "in",
         "and",
         "waste",
-        "out."
-      ],
-      "conf": 96.0529,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "In every cell there is a part like a little ball. This is the nucleus, which organizes the work of the cell. Though cells were discovered two and a half centuries ago, it is only in the last hundred years that knowledge of the work of the nucleus has developed. It is this nucleus which keeps the cell working at what has to be done. It is to",
-      "x": 0.1087,
-      "y": 0.333,
-      "w": 0.8253,
-      "h": 0.1573,
-      "words": [
+        "out.",
         "In",
         "every",
         "cell",
         "there",
         "is",
         "a",
-        "part",
-        "like",
-        "a",
-        "little",
-        "ball.",
-        "This",
-        "is",
-        "the",
         "nucleus,",
         "which",
         "organizes",
@@ -189,195 +127,66 @@
         "work",
         "of",
         "the",
-        "cell.",
-        "Though",
-        "cells",
-        "were",
-        "discovered",
-        "two",
-        "and",
-        "a",
-        "half",
-        "centuries",
-        "ago,",
-        "it",
-        "is",
-        "only",
-        "in",
-        "the",
-        "last",
-        "hundred",
-        "years",
-        "that",
-        "knowledge",
-        "of",
-        "the",
-        "work",
-        "of",
-        "the",
-        "nucleus",
-        "has",
-        "developed.",
-        "It",
-        "is",
-        "this",
-        "nucleus",
-        "which",
-        "keeps",
-        "the",
-        "cell",
-        "working",
-        "at",
-        "what",
-        "has",
-        "to",
-        "be",
-        "done.",
-        "It",
-        "is",
-        "to"
-      ],
-      "conf": 96.0642,
-      "source": "psm-11"
+        "cell."
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
-      "text": "the cell what London is to Britain, New Delhi to India,",
-      "x": 0.1112,
-      "y": 0.4946,
-      "w": 0.8186,
-      "h": 0.0205,
+      "text": "The nucleus is the seat of government. It is to the cell what London is to Britain. jelly: soft material. nucleus: cell center. organize: give every part its work.",
+      "x": 0.1,
+      "y": 0.38,
+      "w": 0.85,
+      "h": 0.4,
+      "id": "r3",
+      "order": 2,
       "words": [
+        "The",
+        "nucleus",
+        "is",
+        "the",
+        "seat",
+        "of",
+        "government.",
+        "It",
+        "is",
+        "to",
         "the",
         "cell",
         "what",
         "London",
         "is",
         "to",
-        "Britain,",
-        "New",
-        "Delhi",
-        "to",
-        "India,"
-      ],
-      "conf": 96.3532,
-      "source": "psm-11"
-    },
-    {
-      "id": "r6",
-      "order": 5,
-      "text": "Peking to China. Tt is the seat of government.",
-      "x": 0.1112,
-      "y": 0.5195,
-      "w": 0.6664,
-      "h": 0.0465,
-      "words": [
-        "Peking",
-        "to",
-        "China.",
-        "Tt",
-        "is",
-        "the",
-        "seat",
-        "of",
-        "government."
-      ],
-      "conf": 93.3337,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "lolly: a soft material, not solid and not liquid.",
-      "x": 0.1129,
-      "y": 0.7989,
-      "w": 0.5134,
-      "h": 0.0157,
-      "words": [
-        "lolly:",
-        "a",
+        "Britain.",
+        "jelly:",
         "soft",
-        "material,",
-        "not",
-        "solid",
-        "and",
-        "not",
-        "liquid."
-      ],
-      "conf": 77.1873,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "organize: give every part its work to do ond control it.",
-      "x": 0.1104,
-      "y": 0.8319,
-      "w": 0.6187,
-      "h": 0.02,
-      "words": [
+        "material.",
+        "nucleus:",
+        "cell",
+        "center.",
         "organize:",
         "give",
         "every",
         "part",
         "its",
-        "work",
-        "to",
-        "do",
-        "ond",
-        "control",
-        "it."
-      ],
-      "conf": 93.6085,
-      "source": "psm-11"
+        "work."
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "see above On this page.",
-      "x": 0.2216,
-      "y": 0.8168,
-      "w": 0.2634,
-      "h": 0.0151,
+      "text": "FUTURE: will organize. PRESENT: organize(s). PAST: organized.",
+      "x": 0.1,
+      "y": 0.85,
+      "w": 0.85,
+      "h": 0.08,
+      "id": "r4",
+      "order": 3,
       "words": [
-        "see",
-        "above",
-        "On",
-        "this",
-        "page."
-      ],
-      "conf": 90.5363,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "will organize",
-      "x": 0.1095,
-      "y": 0.8616,
-      "w": 0.1706,
-      "h": 0.02,
-      "words": [
+        "FUTURE:",
         "will",
-        "organize"
-      ],
-      "conf": 94.9734,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "orgonize(s)",
-      "x": 0.4457,
-      "y": 0.8643,
-      "w": 0.1505,
-      "h": 0.0162,
-      "words": [
-        "orgonize(s)"
-      ],
-      "conf": 54.9411,
-      "source": "psm-11"
+        "organize.",
+        "PRESENT:",
+        "organize(s).",
+        "PAST:",
+        "organized."
+      ]
     }
   ]
 }

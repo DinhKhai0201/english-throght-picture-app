@@ -2,43 +2,58 @@
   "page": 394,
   "image": "/books/page 394.png",
   "imageApiPath": "/api/books/page%20394.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 9,
-    "wordCount": 159,
+    "regionCount": 4,
+    "wordCount": 113,
     "imageWidth": 1188,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
+        "r2"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r3",
-        "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9"
+        "r4"
       ]
     }
   ],
   "regions": [
     {
+      "text": "Together with all this new knowledge of the cell structure of plants and animals, the microscope opened up a world of living beings so small that men had had no idea such things were possible.",
+      "x": 0.1,
+      "y": 0.05,
+      "w": 0.85,
+      "h": 0.12,
       "id": "r1",
       "order": 0,
-      "text": "Together with all this new knowledge of the cell structure of plants and animals, the microscope opened up a world of living beings so small that men had had no idea such",
-      "x": 0.0985,
-      "y": 0.0423,
-      "w": 0.8232,
-      "h": 0.0766,
       "words": [
         "Together",
         "with",
@@ -71,35 +86,20 @@
         "had",
         "no",
         "idea",
-        "such"
-      ],
-      "conf": 96.0091,
-      "source": "psm-11"
-    },
-    {
-      "id": "r2",
-      "order": 1,
-      "text": "things were possible.",
-      "x": 0.1019,
-      "y": 0.121,
-      "w": 0.2997,
-      "h": 0.0214,
-      "words": [
+        "such",
         "things",
         "were",
         "possible."
-      ],
-      "conf": 96.2305,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r3",
-      "order": 2,
       "text": "It was a surprise to the scientist to see that in a drop of water there might be thousands of living things of many different sorts moving about and taking in food.",
-      "x": 0.0993,
-      "y": 0.1998,
-      "w": 0.3813,
-      "h": 0.1821,
+      "x": 0.1,
+      "y": 0.2,
+      "w": 0.45,
+      "h": 0.2,
+      "id": "r2",
+      "order": 1,
       "words": [
         "It",
         "was",
@@ -133,18 +133,16 @@
         "taking",
         "in",
         "food."
-      ],
-      "conf": 96.3936,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r4",
-      "order": 3,
-      "text": "With the invention of such instruments as the microscope and telescope man found himself walking between two",
-      "x": 0.1027,
-      "y": 0.4339,
-      "w": 0.8224,
-      "h": 0.0503,
+      "text": "With the invention of such instruments as the microscope and telescope man found himself walking between two strange new worlds. Thinking men came to feel less and less at home in the universe.",
+      "x": 0.1,
+      "y": 0.45,
+      "w": 0.85,
+      "h": 0.2,
+      "id": "r3",
+      "order": 2,
       "words": [
         "With",
         "the",
@@ -162,52 +160,11 @@
         "himself",
         "walking",
         "between",
-        "two"
-      ],
-      "conf": 95.7786,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "strange new worlds: one too far off and great, the other too near and small for anyone but the scientist to know much about or do much about. As science developed, thinking men came to feel less and less at home in the universe. They had enough knowledge to become con-",
-      "x": 0.0976,
-      "y": 0.4869,
-      "w": 0.8292,
-      "h": 0.1275,
-      "words": [
+        "two",
         "strange",
         "new",
-        "worlds:",
-        "one",
-        "too",
-        "far",
-        "off",
-        "and",
-        "great,",
-        "the",
-        "other",
-        "too",
-        "near",
-        "and",
-        "small",
-        "for",
-        "anyone",
-        "but",
-        "the",
-        "scientist",
-        "to",
-        "know",
-        "much",
-        "about",
-        "or",
-        "do",
-        "much",
-        "about.",
-        "As",
-        "science",
-        "developed,",
-        "thinking",
+        "worlds.",
+        "Thinking",
         "men",
         "came",
         "to",
@@ -219,80 +176,21 @@
         "home",
         "in",
         "the",
-        "universe.",
-        "They",
-        "had",
-        "enough",
-        "knowledge",
-        "to",
-        "become",
-        "con-"
-      ],
-      "conf": 96.5221,
-      "source": "psm-11"
+        "universe."
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "scious of the need for more.",
-      "x": 0.1002,
-      "y": 0.6186,
-      "w": 0.4015,
-      "h": 0.0177,
-      "words": [
-        "scious",
-        "of",
-        "the",
-        "need",
-        "for",
-        "more."
-      ],
-      "conf": 96.2282,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "such: like these.",
-      "x": 0.0993,
-      "y": 0.8141,
-      "w": 0.1818,
-      "h": 0.0182,
+      "text": "such: like these. surprise: a feeling we have when we see something strange.",
+      "x": 0.1,
+      "y": 0.82,
+      "w": 0.85,
+      "h": 0.08,
+      "id": "r4",
+      "order": 3,
       "words": [
         "such:",
         "like",
-        "these."
-      ],
-      "conf": 94.6991,
-      "source": "psm-11"
-    },
-    {
-      "id": "r8",
-      "order": 7,
-      "text": "such things: things like these.",
-      "x": 0.0985,
-      "y": 0.8372,
-      "w": 0.3434,
-      "h": 0.015,
-      "words": [
-        "such",
-        "things:",
-        "things",
-        "like",
-        "these."
-      ],
-      "conf": 95.6272,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "surprise: a feeling we have when we see something strange.",
-      "x": 0.0985,
-      "y": 0.8538,
-      "w": 0.7054,
-      "h": 0.0155,
-      "words": [
+        "these.",
         "surprise:",
         "a",
         "feeling",
@@ -303,9 +201,7 @@
         "see",
         "something",
         "strange."
-      ],
-      "conf": 94.9665,
-      "source": "psm-11"
+      ]
     }
   ]
 }

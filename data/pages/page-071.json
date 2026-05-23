@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2071.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 73,
+    "regionCount": 10,
+    "wordCount": 75,
     "imageWidth": 1150,
     "imageHeight": 1838
   },
@@ -20,8 +20,7 @@
       "regionIds": [
         "r1",
         "r2",
-        "r3",
-        "r7"
+        "r5"
       ]
     },
     {
@@ -32,8 +31,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r3",
         "r4",
-        "r5",
         "r6"
       ]
     },
@@ -45,9 +44,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r10",
-        "r12"
+        "r7",
+        "r9"
       ]
     },
     {
@@ -58,144 +56,121 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r11"
+        "r8",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
+      "text": "She is in another room now.",
+      "x": 0.08,
+      "y": 0.08,
+      "w": 0.35,
+      "h": 0.05,
       "id": "r1",
       "order": 0,
-      "text": "She is in another room",
-      "x": 0.0904,
-      "y": 0.086,
-      "w": 0.3583,
-      "h": 0.0446,
       "words": [
         "She",
         "is",
         "in",
         "another",
-        "room"
-      ],
-      "conf": 95.8815,
-      "source": "psm-11"
+        "room",
+        "now."
+      ]
     },
     {
+      "text": "She came into this room through this door.",
+      "x": 0.08,
+      "y": 0.13,
+      "w": 0.35,
+      "h": 0.05,
       "id": "r2",
       "order": 1,
-      "text": "She, came into this room",
-      "x": 0.0904,
-      "y": 0.1186,
-      "w": 0.3896,
-      "h": 0.0381,
       "words": [
-        "She,",
+        "She",
         "came",
         "into",
         "this",
-        "room"
-      ],
-      "conf": 88.3585,
-      "source": "psm-11"
+        "room",
+        "through",
+        "this",
+        "door."
+      ]
     },
     {
+      "text": "What are these?",
+      "x": 0.58,
+      "y": 0.16,
+      "w": 0.35,
+      "h": 0.03,
       "id": "r3",
       "order": 2,
-      "text": "this doo",
-      "x": 0.2261,
-      "y": 0.1627,
-      "w": 0.1252,
-      "h": 0.019,
-      "words": [
-        "this",
-        "doo"
-      ],
-      "conf": 96.6953,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "What are these?",
-      "x": 0.5922,
-      "y": 0.1654,
-      "w": 0.2626,
-      "h": 0.0196,
       "words": [
         "What",
         "are",
         "these?"
-      ],
-      "conf": 95.4699,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r5",
-      "order": 4,
       "text": "They are hooks.",
-      "x": 0.5922,
-      "y": 0.191,
-      "w": 0.2504,
-      "h": 0.0245,
+      "x": 0.58,
+      "y": 0.19,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r4",
+      "order": 3,
       "words": [
         "They",
         "are",
         "hooks."
-      ],
-      "conf": 96.4854,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "That is another hat It is on a hook",
-      "x": 0.5948,
-      "y": 0.3868,
-      "w": 0.2974,
-      "h": 0.0446,
-      "words": [
-        "That",
-        "is",
-        "another",
-        "hat",
-        "It",
-        "is",
-        "on",
-        "a",
-        "hook"
-      ],
-      "conf": 95.5669,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "She has the hat with her",
-      "x": 0.1191,
-      "y": 0.4227,
-      "w": 0.3548,
-      "h": 0.0469,
+      "text": "She has the hat with her.",
+      "x": 0.1,
+      "y": 0.42,
+      "w": 0.35,
+      "h": 0.05,
+      "id": "r5",
+      "order": 4,
       "words": [
         "She",
         "has",
         "the",
         "hat",
         "with",
-        "her"
-      ],
-      "conf": 96.369,
-      "source": "psm-11"
+        "her."
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "She will put John's hat on a hook",
-      "x": 0.1165,
-      "y": 0.5811,
-      "w": 0.3548,
-      "h": 0.0456,
+      "text": "That is another hat. It is on a hook.",
+      "x": 0.58,
+      "y": 0.38,
+      "w": 0.35,
+      "h": 0.05,
+      "id": "r6",
+      "order": 5,
+      "words": [
+        "That",
+        "is",
+        "another",
+        "hat.",
+        "It",
+        "is",
+        "on",
+        "a",
+        "hook."
+      ]
+    },
+    {
+      "text": "She will put John's hat on a hook.",
+      "x": 0.1,
+      "y": 0.58,
+      "w": 0.35,
+      "h": 0.05,
+      "id": "r7",
+      "order": 6,
       "words": [
         "She",
         "will",
@@ -204,19 +179,17 @@
         "hat",
         "on",
         "a",
-        "hook"
-      ],
-      "conf": 92.6383,
-      "source": "psm-11"
+        "hook."
+      ]
     },
     {
-      "id": "r9",
-      "order": 8,
       "text": "She put it on the hook.",
-      "x": 0.5583,
-      "y": 0.5811,
-      "w": 0.3557,
-      "h": 0.0245,
+      "x": 0.55,
+      "y": 0.58,
+      "w": 0.35,
+      "h": 0.03,
+      "id": "r8",
+      "order": 7,
       "words": [
         "She",
         "put",
@@ -224,18 +197,16 @@
         "on",
         "the",
         "hook."
-      ],
-      "conf": 96.3536,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r10",
-      "order": 9,
-      "text": "She will put it on a hook",
-      "x": 0.1,
-      "y": 0.8014,
-      "w": 0.3887,
-      "h": 0.0245,
+      "text": "She will put it on a hook with the other hat.",
+      "x": 0.08,
+      "y": 0.8,
+      "w": 0.35,
+      "h": 0.05,
+      "id": "r9",
+      "order": 8,
       "words": [
         "She",
         "will",
@@ -243,19 +214,21 @@
         "it",
         "on",
         "a",
-        "hook"
-      ],
-      "conf": 96.6215,
-      "source": "psm-11"
+        "hook",
+        "with",
+        "the",
+        "other",
+        "hat."
+      ]
     },
     {
-      "id": "r11",
-      "order": 10,
-      "text": "Now it is with the other hat The other hat is one of Mary's hats.",
-      "x": 0.5452,
-      "y": 0.7927,
-      "w": 0.3687,
-      "h": 0.1001,
+      "text": "Now it is with the other hat. The other hat is one of Mary's hats.",
+      "x": 0.53,
+      "y": 0.79,
+      "w": 0.35,
+      "h": 0.08,
+      "id": "r10",
+      "order": 9,
       "words": [
         "Now",
         "it",
@@ -263,7 +236,7 @@
         "with",
         "the",
         "other",
-        "hat",
+        "hat.",
         "The",
         "other",
         "hat",
@@ -272,26 +245,7 @@
         "of",
         "Mary's",
         "hats."
-      ],
-      "conf": 96.2878,
-      "source": "psm-11"
-    },
-    {
-      "id": "r12",
-      "order": 11,
-      "text": "with the other hat.",
-      "x": 0.0991,
-      "y": 0.821,
-      "w": 0.293,
-      "h": 0.0261,
-      "words": [
-        "with",
-        "the",
-        "other",
-        "hat."
-      ],
-      "conf": 92.9332,
-      "source": "psm-11"
+      ]
     }
   ]
 }

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20202.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 89,
+    "regionCount": 5,
+    "wordCount": 95,
     "imageWidth": 1188,
     "imageHeight": 1855
   },
@@ -19,9 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3",
-        "r4",
-        "r6"
+        "r2"
       ]
     },
     {
@@ -32,8 +30,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r5"
+        "r3"
       ]
     },
     {
@@ -44,9 +41,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r9",
-        "r11"
+        "r4"
       ]
     },
     {
@@ -57,166 +52,134 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r10"
+        "r5"
       ]
     }
   ],
   "regions": [
     {
+      "text": "This is a flame. It sends out light.",
+      "x": 0.12,
+      "y": 0.12,
+      "w": 0.3,
+      "h": 0.05,
       "id": "r1",
       "order": 0,
-      "text": "This is a flame It sends out light.",
-      "x": 0.1473,
-      "y": 0.1326,
-      "w": 0.2517,
-      "h": 0.0491,
       "words": [
         "This",
         "is",
         "a",
-        "flame",
+        "flame.",
         "It",
         "sends",
         "out",
         "light."
-      ],
-      "conf": 94.7697,
-      "source": "psm-11"
+      ]
     },
     {
+      "text": "The sun sends out light. The light goes out from the sun in every direction.",
+      "x": 0.1,
+      "y": 0.23,
+      "w": 0.38,
+      "h": 0.1,
       "id": "r2",
       "order": 1,
-      "text": "Light goes miles ina secon How far does it go ina year?",
-      "x": 0.5286,
-      "y": 0.1326,
-      "w": 0.3737,
-      "h": 0.1003,
+      "words": [
+        "The",
+        "sun",
+        "sends",
+        "out",
+        "light.",
+        "The",
+        "light",
+        "goes",
+        "out",
+        "from",
+        "the",
+        "sun",
+        "in",
+        "every",
+        "direction."
+      ]
+    },
+    {
+      "text": "Light goes 186,300 miles in a second. How far does it go in a year? It goes about 6,000,000,000,000 miles in a year.",
+      "x": 0.52,
+      "y": 0.12,
+      "w": 0.4,
+      "h": 0.22,
+      "id": "r3",
+      "order": 2,
       "words": [
         "Light",
         "goes",
+        "186,300",
         "miles",
-        "ina",
-        "secon",
+        "in",
+        "a",
+        "second.",
         "How",
         "far",
         "does",
         "it",
         "go",
-        "ina",
-        "year?"
-      ],
-      "conf": 95.7095,
-      "source": "psm-11"
-    },
-    {
-      "id": "r3",
-      "order": 2,
-      "text": "The sun sends out light.",
-      "x": 0.1271,
-      "y": 0.2539,
-      "w": 0.3813,
-      "h": 0.027,
-      "words": [
-        "The",
-        "sun",
-        "sends",
-        "out",
-        "light."
-      ],
-      "conf": 95.8338,
-      "source": "psm-11"
-    },
-    {
-      "id": "r4",
-      "order": 3,
-      "text": "The light goes out from",
-      "x": 0.1279,
-      "y": 0.2782,
-      "w": 0.3544,
-      "h": 0.0318,
-      "words": [
-        "The",
-        "light",
-        "goes",
-        "out",
-        "from"
-      ],
-      "conf": 96.274,
-      "source": "psm-11"
-    },
-    {
-      "id": "r5",
-      "order": 4,
-      "text": "it goes about miles in a year.",
-      "x": 0.5699,
-      "y": 0.2814,
-      "w": 0.2315,
-      "h": 0.0738,
-      "words": [
-        "it",
+        "in",
+        "a",
+        "year?",
+        "It",
         "goes",
         "about",
+        "6,000,000,000,000",
         "miles",
         "in",
         "a",
         "year."
-      ],
-      "conf": 86.4508,
-      "source": "psm-11"
+      ]
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "the sun in every direction",
-      "x": 0.1279,
-      "y": 0.3046,
-      "w": 0.2391,
-      "h": 0.0453,
-      "words": [
-        "the",
-        "sun",
-        "in",
-        "every",
-        "direction"
-      ],
-      "conf": 94.652,
-      "source": "psm-11"
-    },
-    {
-      "id": "r7",
-      "order": 6,
-      "text": "A light-year is miles.",
-      "x": 0.1515,
-      "y": 0.5558,
-      "w": 0.2222,
-      "h": 0.0728,
+      "text": "A light-year is 6,000,000,000,000 miles. The nearest star is over four light-years from the earth.",
+      "x": 0.12,
+      "y": 0.54,
+      "w": 0.35,
+      "h": 0.2,
+      "id": "r4",
+      "order": 3,
       "words": [
         "A",
         "light-year",
         "is",
-        "miles."
-      ],
-      "conf": 90.498,
-      "source": "psm-11"
+        "6,000,000,000,000",
+        "miles.",
+        "The",
+        "nearest",
+        "star",
+        "is",
+        "over",
+        "four",
+        "light-years",
+        "from",
+        "the",
+        "earth."
+      ]
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "The nearest star Is miles from the earth The nearest stars are very far from us.",
-      "x": 0.5354,
-      "y": 0.5601,
-      "w": 0.3189,
-      "h": 0.13,
+      "text": "The nearest star is 25,000,000,000,000 miles from the earth. The nearest stars are very far from us. Some of the stars are very much farther. The farthest stars are thousands of light-years from us.",
+      "x": 0.52,
+      "y": 0.54,
+      "w": 0.4,
+      "h": 0.28,
+      "id": "r5",
+      "order": 4,
       "words": [
         "The",
         "nearest",
         "star",
-        "Is",
+        "is",
+        "25,000,000,000,000",
         "miles",
         "from",
         "the",
-        "earth",
+        "earth.",
         "The",
         "nearest",
         "stars",
@@ -224,38 +187,7 @@
         "very",
         "far",
         "from",
-        "us."
-      ],
-      "conf": 93.3466,
-      "source": "psm-11"
-    },
-    {
-      "id": "r9",
-      "order": 8,
-      "text": "The neorest star Is over!",
-      "x": 0.1414,
-      "y": 0.6809,
-      "w": 0.3687,
-      "h": 0.0367,
-      "words": [
-        "The",
-        "neorest",
-        "star",
-        "Is",
-        "over!"
-      ],
-      "conf": 87.7735,
-      "source": "psm-11"
-    },
-    {
-      "id": "r10",
-      "order": 9,
-      "text": "Some of the stars are very much farther The farthest stars are thousands of light-years from us.",
-      "x": 0.5345,
-      "y": 0.6868,
-      "w": 0.3662,
-      "h": 0.1202,
-      "words": [
+        "us.",
         "Some",
         "of",
         "the",
@@ -263,7 +195,7 @@
         "are",
         "very",
         "much",
-        "farther",
+        "farther.",
         "The",
         "farthest",
         "stars",
@@ -273,27 +205,7 @@
         "light-years",
         "from",
         "us."
-      ],
-      "conf": 96.5249,
-      "source": "psm-11"
-    },
-    {
-      "id": "r11",
-      "order": 10,
-      "text": "four light-years from the earth.",
-      "x": 0.1423,
-      "y": 0.717,
-      "w": 0.3173,
-      "h": 0.0452,
-      "words": [
-        "four",
-        "light-years",
-        "from",
-        "the",
-        "earth."
-      ],
-      "conf": 96.4252,
-      "source": "psm-11"
+      ]
     }
   ]
 }

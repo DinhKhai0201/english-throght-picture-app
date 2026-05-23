@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "Our bodies are far more complex than a simple description can say. Billions of cells work together in every breath and movement.", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.18 },
-    { "text": "The same applies to the world. Global issues affect everyone. Damage anywhere hurts everywhere, making world organization vital.", "x": 0.1, "y": 0.25, "w": 0.85, "h": 0.2 },
-    { "text": "(Illustration: Three questioning masks). 'What to do?' asked Confucius. A wise person asks two things: What should I become? and How can I get there?", "x": 0.1, "y": 0.45, "w": 0.85, "h": 0.4 },
-    { "text": "organization: the way something is structured and works together. (See page 115).", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.1 }
-  ]
-}

@@ -1,9 +1,0 @@
-{
-  "layout": "quad",
-  "regions": [
-    { "text": "These early records were the beginning of writing. The first writing was picture writing. Here are some early Chinese picture words. Can you see what they represent?", "x": 0.1, "y": 0.05, "w": 0.85, "h": 0.1 },
-    { "text": "Early Chinese symbols: rain, woman, child. Later Chinese symbols: rain, door, horse. These show the evolution from pictures to abstract characters.", "x": 0.1, "y": 0.15, "w": 0.85, "h": 0.4 },
-    { "text": "Here are some Egyptian words in picture writing: eye, fish, water, plow.", "x": 0.1, "y": 0.6, "w": 0.85, "h": 0.15 },
-    { "text": "beginning: starting point.", "x": 0.1, "y": 0.85, "w": 0.85, "h": 0.05 }
-  ]
-}
