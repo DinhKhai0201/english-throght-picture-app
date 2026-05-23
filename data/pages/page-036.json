@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2036.png",
   "layout": "single",
   "stats": {
-    "regionCount": 18,
-    "wordCount": 68,
+    "regionCount": 16,
+    "wordCount": 56,
     "imageWidth": 1284,
     "imageHeight": 1850
   },
@@ -33,164 +33,150 @@
         "r13",
         "r14",
         "r15",
-        "r16",
-        "r17",
-        "r18"
+        "r16"
       ]
     }
   ],
   "regions": [
     {
-      "text": "QUESTIONS",
-      "x": 0.4,
-      "y": 0.08,
-      "w": 0.2,
+      "text": "What are these?",
+      "x": 0.2,
+      "y": 0.11,
+      "w": 0.25,
       "h": 0.03,
       "id": "r1",
       "order": 0,
       "words": [
-        "QUESTIONS"
+        "What",
+        "are",
+        "these?"
       ]
     },
     {
-      "text": "What are these?",
-      "x": 0.2,
-      "y": 0.11,
+      "text": "And what is this?",
+      "x": 0.18,
+      "y": 0.2312,
       "w": 0.25,
       "h": 0.03,
       "id": "r2",
       "order": 1,
       "words": [
-        "What",
-        "are",
-        "these?"
+        "And",
+        "what",
+        "is",
+        "this?"
       ]
     },
     {
-      "text": "And what is this?",
-      "x": 0.18,
-      "y": 0.24,
+      "text": "What are these?",
+      "x": 0.6019,
+      "y": 0.0966,
       "w": 0.25,
       "h": 0.03,
       "id": "r3",
       "order": 2,
       "words": [
-        "And",
-        "what",
-        "is",
-        "this?"
+        "What",
+        "are",
+        "these?"
       ]
     },
     {
-      "text": "What are these?",
-      "x": 0.6,
-      "y": 0.11,
+      "text": "And what is this?",
+      "x": 0.5826,
+      "y": 0.2282,
       "w": 0.25,
       "h": 0.03,
       "id": "r4",
       "order": 3,
       "words": [
-        "What",
-        "are",
-        "these?"
+        "And",
+        "what",
+        "is",
+        "this?"
       ]
     },
     {
-      "text": "And what is this?",
-      "x": 0.58,
-      "y": 0.24,
+      "text": "What are these?",
+      "x": 0.2,
+      "y": 0.2871,
       "w": 0.25,
       "h": 0.03,
       "id": "r5",
       "order": 4,
       "words": [
-        "And",
-        "what",
-        "is",
-        "this?"
+        "What",
+        "are",
+        "these?"
       ]
     },
     {
-      "text": "What are these?",
-      "x": 0.2,
-      "y": 0.3,
+      "text": "And what is this?",
+      "x": 0.15,
+      "y": 0.4341,
       "w": 0.25,
       "h": 0.03,
       "id": "r6",
       "order": 5,
       "words": [
-        "What",
-        "are",
-        "these?"
+        "And",
+        "what",
+        "is",
+        "this?"
       ]
     },
     {
-      "text": "And what is this?",
-      "x": 0.15,
-      "y": 0.44,
+      "text": "What are these?",
+      "x": 0.6,
+      "y": 0.2892,
       "w": 0.25,
       "h": 0.03,
       "id": "r7",
       "order": 6,
       "words": [
-        "And",
-        "what",
-        "is",
-        "this?"
+        "What",
+        "are",
+        "these?"
       ]
     },
     {
-      "text": "What are these?",
-      "x": 0.6,
-      "y": 0.3,
+      "text": "And what is this?",
+      "x": 0.5507,
+      "y": 0.417,
       "w": 0.25,
       "h": 0.03,
       "id": "r8",
       "order": 7,
       "words": [
-        "What",
-        "are",
-        "these?"
+        "And",
+        "what",
+        "is",
+        "this?"
       ]
     },
     {
-      "text": "And what is this?",
-      "x": 0.55,
-      "y": 0.43,
+      "text": "What are these?",
+      "x": 0.1998,
+      "y": 0.4855,
       "w": 0.25,
       "h": 0.03,
       "id": "r9",
       "order": 8,
       "words": [
-        "And",
-        "what",
-        "is",
-        "this?"
+        "What",
+        "are",
+        "these?"
       ]
     },
     {
-      "text": "What are these?",
-      "x": 0.2,
-      "y": 0.5,
+      "text": "And what is this?",
+      "x": 0.1817,
+      "y": 0.6336,
       "w": 0.25,
       "h": 0.03,
       "id": "r10",
       "order": 9,
       "words": [
-        "What",
-        "are",
-        "these?"
-      ]
-    },
-    {
-      "text": "And what is this?",
-      "x": 0.18,
-      "y": 0.65,
-      "w": 0.25,
-      "h": 0.03,
-      "id": "r11",
-      "order": 10,
-      "words": [
         "And",
         "what",
         "is",
@@ -199,12 +185,12 @@
     },
     {
       "text": "What is this?",
-      "x": 0.6,
-      "y": 0.5,
+      "x": 0.6029,
+      "y": 0.4868,
       "w": 0.2,
       "h": 0.03,
-      "id": "r12",
-      "order": 11,
+      "id": "r11",
+      "order": 10,
       "words": [
         "What",
         "is",
@@ -213,12 +199,12 @@
     },
     {
       "text": "And what is this?",
-      "x": 0.58,
-      "y": 0.64,
+      "x": 0.5899,
+      "y": 0.6237,
       "w": 0.25,
       "h": 0.03,
-      "id": "r13",
-      "order": 12,
+      "id": "r12",
+      "order": 11,
       "words": [
         "And",
         "what",
@@ -228,12 +214,12 @@
     },
     {
       "text": "What are these?",
-      "x": 0.2,
-      "y": 0.71,
+      "x": 0.2045,
+      "y": 0.6975,
       "w": 0.25,
       "h": 0.03,
-      "id": "r14",
-      "order": 13,
+      "id": "r13",
+      "order": 12,
       "words": [
         "What",
         "are",
@@ -242,12 +228,12 @@
     },
     {
       "text": "And what is this?",
-      "x": 0.15,
-      "y": 0.8,
+      "x": 0.1521,
+      "y": 0.7915,
       "w": 0.25,
       "h": 0.03,
-      "id": "r15",
-      "order": 14,
+      "id": "r14",
+      "order": 13,
       "words": [
         "And",
         "what",
@@ -257,12 +243,12 @@
     },
     {
       "text": "What is this?",
-      "x": 0.62,
-      "y": 0.7,
+      "x": 0.6237,
+      "y": 0.6824,
       "w": 0.2,
       "h": 0.03,
-      "id": "r16",
-      "order": 15,
+      "id": "r15",
+      "order": 14,
       "words": [
         "What",
         "is",
@@ -271,39 +257,17 @@
     },
     {
       "text": "What is in it?",
-      "x": 0.6,
-      "y": 0.83,
+      "x": 0.615,
+      "y": 0.8193,
       "w": 0.2,
       "h": 0.03,
-      "id": "r17",
-      "order": 16,
+      "id": "r16",
+      "order": 15,
       "words": [
         "What",
         "is",
         "in",
         "it?"
-      ]
-    },
-    {
-      "text": "This page is page 32. The answers are on page 34.",
-      "x": 0.15,
-      "y": 0.87,
-      "w": 0.7,
-      "h": 0.03,
-      "id": "r18",
-      "order": 17,
-      "words": [
-        "This",
-        "page",
-        "is",
-        "page",
-        "32.",
-        "The",
-        "answers",
-        "are",
-        "on",
-        "page",
-        "34."
       ]
     }
   ]

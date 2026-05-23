@@ -660,6 +660,104 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
     }
   }
 
+  function handleDeleteRegion(event, region, pageNumber) {
+    event.preventDefault();
+    event.stopPropagation();
+
+    const confirmed = window.confirm(`Delete text box "${region.text}"?`);
+    if (!confirmed) return;
+
+    const pageData = pageDataMap.get(pageNumber);
+    if (!pageData) return;
+
+    const nextRegions = pageData.regions.filter((r) => r.id !== region.id);
+
+    setPageDataMap((current) => {
+      const next = new Map(current);
+      next.set(pageNumber, {
+        ...pageData,
+        regions: nextRegions,
+      });
+      return next;
+    });
+
+    void saveRegionsToServer(pageNumber, nextRegions);
+  }
+
+  function handleTextEdit(event, region, pageNumber) {
+    event.stopPropagation();
+    event.preventDefault();
+
+    const newText = window.prompt("Edit text box content:", region.text);
+    if (newText === null) return; // User cancelled
+
+    const trimmed = newText.trim();
+    if (!trimmed) {
+      alert("Text cannot be empty. Right-click the box if you want to delete it.");
+      return;
+    }
+
+    const pageData = pageDataMap.get(pageNumber);
+    if (!pageData) return;
+
+    const nextRegions = pageData.regions.map((r) => {
+      if (r.id === region.id) {
+        return {
+          ...r,
+          text: trimmed,
+          words: trimmed.split(/\s+/).filter(Boolean),
+        };
+      }
+      return r;
+    });
+
+    setPageDataMap((current) => {
+      const next = new Map(current);
+      next.set(pageNumber, {
+        ...pageData,
+        regions: nextRegions,
+      });
+      return next;
+    });
+
+    void saveRegionsToServer(pageNumber, nextRegions);
+  }
+
+  function handleAddBox(pageNumber) {
+    const text = window.prompt("Enter text for the new box:", "New text");
+    if (text === null) return; // User cancelled
+
+    const trimmed = text.trim();
+    if (!trimmed) return;
+
+    const pageData = pageDataMap.get(pageNumber);
+    if (!pageData) return;
+
+    const newRegion = {
+      id: `r${pageData.regions.length + 1}`,
+      order: pageData.regions.length,
+      text: trimmed,
+      x: 0.35,
+      y: 0.35,
+      w: 0.30,
+      h: 0.05,
+      words: trimmed.split(/\s+/).filter(Boolean),
+    };
+
+    const nextRegions = [...pageData.regions, newRegion];
+
+    setPageDataMap((current) => {
+      const next = new Map(current);
+      next.set(pageNumber, {
+        ...pageData,
+        regions: nextRegions,
+      });
+      return next;
+    });
+
+    void saveRegionsToServer(pageNumber, nextRegions);
+  }
+
   function handleRegionPointerDown(event, region, pageNumber) {
     if (window.matchMedia("(pointer: coarse)").matches) {
       return;
@@ -856,6 +954,16 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
                         ▶
                       </button>
                     ) : null}
+                    {isImageReady && editMode ? (
+                      <button
+                        type="button"
+                        className="page-add-box-button"
+                        onClick={() => handleAddBox(page.page)}
+                        title="Add a new text box to this page"
+                      >
+                        ➕ Add Box
+                      </button>
+                    ) : null}
                     <div className={["region-layer", isImageReady ? "is-ready" : ""].filter(Boolean).join(" ")}>
                       {isImageReady
                         ? page.regions.map((region) => {
@@ -880,7 +988,8 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
                                 onPointerDown={(event) => handleEditPointerDown(event, "move", region, page.page)}
                                 onPointerMove={(event) => handleEditPointerMove(event, region.id, page.page)}
                                 onPointerUp={(event) => handleEditPointerUp(event, region.id, page.page)}
-                                onContextMenu={(event) => event.preventDefault()}
+                                onContextMenu={(event) => handleDeleteRegion(event, region, page.page)}
+                                onDoubleClick={(event) => handleTextEdit(event, region, page.page)}
                               >
                                 <span className="region-edit-label">{region.text}</span>
                                 <div

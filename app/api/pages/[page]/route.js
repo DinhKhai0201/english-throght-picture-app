@@ -75,7 +75,7 @@ export async function PUT(request, { params }) {
 
     const nextRegions = regions.map((region, index) => ({
       ...region,
-      id: region.id || `r${index + 1}`,
+      id: `r${index + 1}`,
       order: index,
       words: region.words || region.text.split(/\s+/).filter(Boolean),
     }));

@@ -828,3 +828,45 @@ button:disabled {
   transform: scale(1.18);
 }
 
+.page-add-box-button {
+  position: absolute;
+  top: 14px;
+  left: 14px;
+  z-index: 3;
+  min-height: 44px;
+  padding: 0 16px;
+  border-radius: 22px;
+  background: rgba(255, 253, 247, 0.94);
+  border: 1px solid var(--line-strong);
+  color: var(--accent);
+  font-weight: 600;
+  box-shadow: var(--shadow);
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+  font-size: 0.92rem;
+}
+
+.page-add-box-button:hover {
+  background: #fff3ed;
+  border-color: var(--accent);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 20px rgba(181, 90, 54, 0.15);
+}
+
+.page-add-box-button:active {
+  transform: translateY(0);
+}
+
+@media (max-width: 560px) {
+  .page-add-box-button {
+    top: 10px;
+    left: 10px;
+    min-height: 38px;
+    padding: 0 12px;
+    font-size: 0.84rem;
+  }
+}
+
+

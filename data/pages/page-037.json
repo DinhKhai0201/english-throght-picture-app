@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2037.png",
   "layout": "single",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 64,
+    "regionCount": 8,
+    "wordCount": 52,
     "imageWidth": 1188,
     "imageHeight": 1846
   },
@@ -25,33 +25,19 @@
         "r5",
         "r6",
         "r7",
-        "r8",
-        "r9",
-        "r10"
+        "r8"
       ]
     }
   ],
   "regions": [
     {
-      "text": "QUESTIONS",
-      "x": 0.4,
-      "y": 0.08,
-      "w": 0.2,
-      "h": 0.03,
-      "id": "r1",
-      "order": 0,
-      "words": [
-        "QUESTIONS"
-      ]
-    },
-    {
       "text": "Is the hat on the table?",
-      "x": 0.22,
-      "y": 0.11,
+      "x": 0.222,
+      "y": 0.0999,
       "w": 0.25,
       "h": 0.05,
-      "id": "r2",
-      "order": 1,
+      "id": "r1",
+      "order": 0,
       "words": [
         "Is",
         "the",
@@ -63,12 +49,12 @@
     },
     {
       "text": "Is the man in the room?",
-      "x": 0.62,
-      "y": 0.11,
+      "x": 0.6226,
+      "y": 0.1052,
       "w": 0.25,
       "h": 0.05,
-      "id": "r3",
-      "order": 2,
+      "id": "r2",
+      "order": 1,
       "words": [
         "Is",
         "the",
@@ -80,12 +66,12 @@
     },
     {
       "text": "Is the picture on the wall?",
-      "x": 0.22,
-      "y": 0.3,
+      "x": 0.1551,
+      "y": 0.2878,
       "w": 0.25,
       "h": 0.05,
-      "id": "r4",
-      "order": 3,
+      "id": "r3",
+      "order": 2,
       "words": [
         "Is",
         "the",
@@ -97,12 +83,12 @@
     },
     {
       "text": "Is the bird on the seat?",
-      "x": 0.62,
-      "y": 0.3,
+      "x": 0.6395,
+      "y": 0.2903,
       "w": 0.25,
       "h": 0.05,
-      "id": "r5",
-      "order": 4,
+      "id": "r4",
+      "order": 3,
       "words": [
         "Is",
         "the",
@@ -114,12 +100,12 @@
     },
     {
       "text": "Is the glass in the woman's hand?",
-      "x": 0.22,
-      "y": 0.5,
+      "x": 0.1495,
+      "y": 0.4964,
       "w": 0.3,
       "h": 0.05,
-      "id": "r6",
-      "order": 5,
+      "id": "r5",
+      "order": 4,
       "words": [
         "Is",
         "the",
@@ -136,8 +122,8 @@
       "y": 0.5,
       "w": 0.25,
       "h": 0.05,
-      "id": "r7",
-      "order": 6,
+      "id": "r6",
+      "order": 5,
       "words": [
         "Is",
         "the",
@@ -149,12 +135,12 @@
     },
     {
       "text": "Is this ship in a bottle?",
-      "x": 0.22,
-      "y": 0.7,
+      "x": 0.2213,
+      "y": 0.6807,
       "w": 0.25,
       "h": 0.05,
-      "id": "r8",
-      "order": 7,
+      "id": "r7",
+      "order": 6,
       "words": [
         "Is",
         "this",
@@ -167,11 +153,11 @@
     {
       "text": "Are the man and the woman at the door?",
       "x": 0.58,
-      "y": 0.7,
+      "y": 0.6851,
       "w": 0.35,
       "h": 0.05,
-      "id": "r9",
-      "order": 8,
+      "id": "r8",
+      "order": 7,
       "words": [
         "Are",
         "the",
@@ -182,28 +168,6 @@
         "at",
         "the",
         "door?"
-      ]
-    },
-    {
-      "text": "This page is page 33. The answers are on page 34.",
-      "x": 0.15,
-      "y": 0.88,
-      "w": 0.7,
-      "h": 0.03,
-      "id": "r10",
-      "order": 9,
-      "words": [
-        "This",
-        "page",
-        "is",
-        "page",
-        "33.",
-        "The",
-        "answers",
-        "are",
-        "on",
-        "page",
-        "34."
       ]
     }
   ]
