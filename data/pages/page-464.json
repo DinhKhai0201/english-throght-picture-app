@@ -2,139 +2,163 @@
   "page": 464,
   "image": "/books/page 464.png",
   "imageApiPath": "/api/books/page%20464.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 56,
+    "regionCount": 7,
+    "wordCount": 40,
     "imageWidth": 1188,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r2",
         "r3",
-        "r4"
+        "r4",
+        "r5",
+        "r6",
+        "r7"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Here is the answer for the 3-4-5 triangle: 3x3=9, 4x4=16, 5x5=25.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "Here is the answer:",
+      "x": 0.085,
+      "y": 0.0384,
+      "w": 0.2803,
+      "h": 0.0304,
       "words": [
         "Here",
         "is",
         "the",
-        "answer",
-        "for",
-        "the",
-        "3-4-5",
-        "triangle:",
-        "3x3=9,",
-        "4x4=16,",
-        "5x5=25."
-      ]
+        "answer:"
+      ],
+      "conf": 95.2236,
+      "source": "psm-11"
     },
     {
-      "text": "(Diagram: A triangle with squares of 9, 16, and 25 units. 9 + 16 = 25).",
-      "x": 0.1,
-      "y": 0.1,
-      "w": 0.85,
-      "h": 0.55,
       "id": "r2",
       "order": 1,
+      "text": "pt tt",
+      "x": 0.3628,
+      "y": 0.4309,
+      "w": 0.2904,
+      "h": 0.0656,
       "words": [
-        "(Diagram:",
-        "A",
-        "triangle",
-        "with",
-        "squares",
-        "of",
-        "9,",
-        "16,",
-        "and",
-        "25",
-        "units.",
-        "9",
-        "+",
-        "16",
-        "=",
-        "25)."
-      ]
+        "pt",
+        "tt"
+      ],
+      "conf": 41.4186,
+      "source": "psm-11"
     },
     {
-      "text": "To multiply a number by itself is to 'square' it. 5 is the square root of 25.",
-      "x": 0.1,
-      "y": 0.7,
-      "w": 0.85,
-      "h": 0.1,
       "id": "r3",
       "order": 2,
+      "text": "When we multiply a number Any number is the square root is the square root of to square: to multiply a number by will",
+      "x": 0.0951,
+      "y": 0.7099,
+      "w": 0.4604,
+      "h": 0.1531,
       "words": [
-        "To",
+        "When",
+        "we",
         "multiply",
         "a",
         "number",
-        "by",
-        "itself",
+        "Any",
+        "number",
         "is",
-        "to",
-        "'square'",
-        "it.",
-        "5",
+        "the",
+        "square",
+        "root",
         "is",
         "the",
         "square",
         "root",
         "of",
-        "25."
-      ]
-    },
-    {
-      "text": "to square: multiply by itself. FUTURE: will square. PRESENT: square(s). PAST: squared.",
-      "x": 0.1,
-      "y": 0.82,
-      "w": 0.85,
-      "h": 0.12,
-      "id": "r4",
-      "order": 3,
-      "words": [
         "to",
         "square:",
+        "to",
         "multiply",
+        "a",
+        "number",
         "by",
-        "itself.",
-        "FUTURE:",
-        "will",
-        "square.",
-        "PRESENT:",
-        "square(s).",
-        "PAST:",
-        "squared."
-      ]
+        "will"
+      ],
+      "conf": 96.4181,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "by itself we “square” it.",
+      "x": 0.5337,
+      "y": 0.7099,
+      "w": 0.3468,
+      "h": 0.0213,
+      "words": [
+        "by",
+        "itself",
+        "we",
+        "“square”",
+        "it."
+      ],
+      "conf": 95.1393,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "of its square.",
+      "x": 0.5673,
+      "y": 0.736,
+      "w": 0.1902,
+      "h": 0.0208,
+      "words": [
+        "of",
+        "its",
+        "square."
+      ],
+      "conf": 96.4954,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Itself.",
+      "x": 0.5084,
+      "y": 0.8208,
+      "w": 0.0598,
+      "h": 0.0128,
+      "words": [
+        "Itself."
+      ],
+      "conf": 87.9657,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "(s)",
+      "x": 0.537,
+      "y": 0.8507,
+      "w": 0.0362,
+      "h": 0.0155,
+      "words": [
+        "(s)"
+      ],
+      "conf": 51.6728,
+      "source": "psm-11"
     }
   ]
 }

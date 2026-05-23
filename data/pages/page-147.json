@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20147.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 9,
-    "wordCount": 65,
+    "regionCount": 15,
+    "wordCount": 66,
     "imageWidth": 1209,
     "imageHeight": 1859
   },
@@ -20,7 +20,10 @@
       "regionIds": [
         "r1",
         "r2",
-        "r3"
+        "r5",
+        "r6",
+        "r7",
+        "r9"
       ]
     },
     {
@@ -31,7 +34,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r3",
+        "r4",
+        "r8"
       ]
     },
     {
@@ -42,7 +47,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5"
+        "r11",
+        "r14"
       ]
     },
     {
@@ -53,60 +59,121 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r7",
-        "r8",
-        "r9"
+        "r10",
+        "r12",
+        "r13",
+        "r15"
       ]
     }
   ],
   "regions": [
     {
-      "text": "This is a plate. The plate is round.",
-      "x": 0.1,
-      "y": 0.11,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "This is a plate.",
+      "x": 0.1299,
+      "y": 0.1022,
+      "w": 0.2225,
+      "h": 0.0258,
       "words": [
         "This",
         "is",
         "a",
-        "plate.",
+        "plate."
+      ],
+      "conf": 95.5064,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "The plate is round.",
+      "x": 0.129,
+      "y": 0.1291,
+      "w": 0.2903,
+      "h": 0.0253,
+      "words": [
         "The",
         "plate",
         "is",
         "round."
-      ]
+      ],
+      "conf": 96.3385,
+      "source": "psm-11"
     },
     {
-      "text": "This is an orange. The orange is round.",
-      "x": 0.1,
-      "y": 0.25,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r2",
-      "order": 1,
+      "id": "r3",
+      "order": 2,
+      "text": "This is the earth.",
+      "x": 0.5972,
+      "y": 0.1485,
+      "w": 0.2556,
+      "h": 0.0194,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "earth."
+      ],
+      "conf": 96.5963,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Cr",
+      "x": 0.7527,
+      "y": 0.1883,
+      "w": 0.048,
+      "h": 0.0188,
+      "words": [
+        "Cr"
+      ],
+      "conf": 87.3689,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "This is an orange.",
+      "x": 0.1348,
+      "y": 0.2534,
+      "w": 0.2771,
+      "h": 0.0226,
       "words": [
         "This",
         "is",
         "an",
-        "orange.",
+        "orange."
+      ],
+      "conf": 95.9786,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The orange is round.",
+      "x": 0.1356,
+      "y": 0.2781,
+      "w": 0.3251,
+      "h": 0.0247,
+      "words": [
         "The",
         "orange",
         "is",
         "round."
-      ]
+      ],
+      "conf": 96.2509,
+      "source": "psm-11"
     },
     {
-      "text": "The face of the clock is round. The hands of the clock go round.",
-      "x": 0.1,
-      "y": 0.36,
-      "w": 0.35,
-      "h": 0.1,
-      "id": "r3",
-      "order": 2,
+      "id": "r7",
+      "order": 6,
+      "text": "The face of the clock is round.",
+      "x": 0.1249,
+      "y": 0.3593,
+      "w": 0.177,
+      "h": 0.0715,
       "words": [
         "The",
         "face",
@@ -114,7 +181,37 @@
         "the",
         "clock",
         "is",
-        "round.",
+        "round."
+      ],
+      "conf": 96.7872,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "The earth is round.",
+      "x": 0.5798,
+      "y": 0.3642,
+      "w": 0.2945,
+      "h": 0.0199,
+      "words": [
+        "The",
+        "earth",
+        "is",
+        "round."
+      ],
+      "conf": 96.6048,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "The hands of the clock go round.",
+      "x": 0.1249,
+      "y": 0.4373,
+      "w": 0.3011,
+      "h": 0.0511,
+      "words": [
         "The",
         "hands",
         "of",
@@ -122,84 +219,69 @@
         "clock",
         "go",
         "round."
-      ]
+      ],
+      "conf": 95.9064,
+      "source": "psm-11"
     },
     {
-      "text": "This is the earth. The earth is round.",
-      "x": 0.55,
-      "y": 0.15,
-      "w": 0.4,
-      "h": 0.25,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "This",
-        "is",
-        "the",
-        "earth.",
-        "The",
-        "earth",
-        "is",
-        "round."
-      ]
-    },
-    {
-      "text": "This is the moon. The moon is round.",
-      "x": 0.1,
-      "y": 0.57,
-      "w": 0.35,
-      "h": 0.28,
-      "id": "r5",
-      "order": 4,
-      "words": [
-        "This",
-        "is",
-        "the",
-        "moon.",
-        "The",
-        "moon",
-        "is",
-        "round."
-      ]
-    },
-    {
+      "id": "r10",
+      "order": 9,
       "text": "This is the sun.",
-      "x": 0.54,
-      "y": 0.53,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r6",
-      "order": 5,
+      "x": 0.5426,
+      "y": 0.5309,
+      "w": 0.2242,
+      "h": 0.0199,
       "words": [
         "This",
         "is",
         "the",
         "sun."
-      ]
+      ],
+      "conf": 96.4573,
+      "source": "psm-11"
     },
     {
+      "id": "r11",
+      "order": 10,
+      "text": "This is the moon.",
+      "x": 0.1497,
+      "y": 0.5756,
+      "w": 0.2548,
+      "h": 0.0199,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "moon."
+      ],
+      "conf": 96.2609,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
       "text": "This is the sky.",
-      "x": 0.74,
-      "y": 0.58,
-      "w": 0.2,
-      "h": 0.05,
-      "id": "r7",
-      "order": 6,
+      "x": 0.7477,
+      "y": 0.5815,
+      "w": 0.1158,
+      "h": 0.0511,
       "words": [
         "This",
         "is",
         "the",
         "sky."
-      ]
+      ],
+      "conf": 96.6274,
+      "source": "psm-11"
     },
     {
+      "id": "r13",
+      "order": 12,
       "text": "This is a cloud in the sky.",
-      "x": 0.53,
-      "y": 0.72,
-      "w": 0.4,
-      "h": 0.05,
-      "id": "r8",
-      "order": 7,
+      "x": 0.5302,
+      "y": 0.7267,
+      "w": 0.3854,
+      "h": 0.0247,
       "words": [
         "This",
         "is",
@@ -208,22 +290,43 @@
         "in",
         "the",
         "sky."
-      ]
+      ],
+      "conf": 96.1753,
+      "source": "psm-11"
     },
     {
+      "id": "r14",
+      "order": 13,
+      "text": "The moon is round",
+      "x": 0.1423,
+      "y": 0.8112,
+      "w": 0.2895,
+      "h": 0.0204,
+      "words": [
+        "The",
+        "moon",
+        "is",
+        "round"
+      ],
+      "conf": 96.3101,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
       "text": "This is the earth.",
-      "x": 0.58,
-      "y": 0.84,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r9",
-      "order": 8,
+      "x": 0.5955,
+      "y": 0.8375,
+      "w": 0.2548,
+      "h": 0.0204,
       "words": [
         "This",
         "is",
         "the",
         "earth."
-      ]
+      ],
+      "conf": 95.3676,
+      "source": "psm-11"
     }
   ]
 }

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20109.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 15,
-    "wordCount": 75,
+    "regionCount": 13,
+    "wordCount": 71,
     "imageWidth": 1142,
     "imageHeight": 1813
   },
@@ -19,8 +19,6 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r3",
         "r4",
         "r5"
       ]
@@ -33,9 +31,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r7",
-        "r8"
+        "r2",
+        "r3",
+        "r6"
       ]
     },
     {
@@ -46,9 +44,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r7",
+        "r8",
         "r9",
-        "r10",
-        "r11"
+        "r13"
       ]
     },
     {
@@ -59,101 +58,39 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r12",
-        "r13",
-        "r14",
-        "r15"
+        "r10",
+        "r11",
+        "r12"
       ]
     }
   ],
   "regions": [
     {
-      "text": "What is the time?",
-      "x": 0.09,
-      "y": 0.11,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "What is the time?",
+      "x": 0.0972,
+      "y": 0.1098,
+      "w": 0.2811,
+      "h": 0.0204,
       "words": [
         "What",
         "is",
         "the",
         "time?"
-      ]
+      ],
+      "conf": 96.5617,
+      "source": "psm-11"
     },
     {
-      "text": "It is six (6:00).",
-      "x": 0.09,
-      "y": 0.14,
-      "w": 0.25,
-      "h": 0.03,
       "id": "r2",
       "order": 1,
+      "text": "she is putting the soup in the plates.",
+      "x": 0.5315,
+      "y": 0.1059,
+      "w": 0.3547,
+      "h": 0.0524,
       "words": [
-        "It",
-        "is",
-        "six",
-        "(6:00)."
-      ]
-    },
-    {
-      "text": "Mary is tasting the soup.",
-      "x": 0.07,
-      "y": 0.36,
-      "w": 0.4,
-      "h": 0.03,
-      "id": "r3",
-      "order": 2,
-      "words": [
-        "Mary",
-        "is",
-        "tasting",
-        "the",
-        "soup."
-      ]
-    },
-    {
-      "text": "It has a good taste.",
-      "x": 0.07,
-      "y": 0.39,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "It",
-        "has",
-        "a",
-        "good",
-        "taste."
-      ]
-    },
-    {
-      "text": "The soup is ready.",
-      "x": 0.07,
-      "y": 0.42,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r5",
-      "order": 4,
-      "words": [
-        "The",
-        "soup",
-        "is",
-        "ready."
-      ]
-    },
-    {
-      "text": "Now she is putting the soup in the plates.",
-      "x": 0.52,
-      "y": 0.11,
-      "w": 0.4,
-      "h": 0.05,
-      "id": "r6",
-      "order": 5,
-      "words": [
-        "Now",
         "she",
         "is",
         "putting",
@@ -162,32 +99,75 @@
         "in",
         "the",
         "plates."
-      ]
+      ],
+      "conf": 96.3887,
+      "source": "psm-11"
     },
     {
-      "text": "It was in the pot.",
-      "x": 0.53,
-      "y": 0.3,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r7",
-      "order": 6,
+      "id": "r3",
+      "order": 2,
+      "text": "was in the pot.",
+      "x": 0.5701,
+      "y": 0.299,
+      "w": 0.2329,
+      "h": 0.0248,
       "words": [
-        "It",
         "was",
         "in",
         "the",
         "pot."
-      ]
+      ],
+      "conf": 90.0112,
+      "source": "psm-11"
     },
     {
+      "id": "r4",
+      "order": 3,
+      "text": "Mary is tasting the soup.",
+      "x": 0.0779,
+      "y": 0.358,
+      "w": 0.3897,
+      "h": 0.0502,
+      "words": [
+        "Mary",
+        "is",
+        "tasting",
+        "the",
+        "soup."
+      ],
+      "conf": 87.4586,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "It has a good taste, The soup is ready.",
+      "x": 0.0797,
+      "y": 0.3878,
+      "w": 0.3065,
+      "h": 0.0518,
+      "words": [
+        "It",
+        "has",
+        "a",
+        "good",
+        "taste,",
+        "The",
+        "soup",
+        "is",
+        "ready."
+      ],
+      "conf": 91.693,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
       "text": "Now it is in the plates.",
-      "x": 0.53,
-      "y": 0.42,
-      "w": 0.4,
-      "h": 0.03,
-      "id": "r8",
-      "order": 7,
+      "x": 0.5412,
+      "y": 0.4087,
+      "w": 0.3538,
+      "h": 0.0347,
       "words": [
         "Now",
         "it",
@@ -195,31 +175,35 @@
         "in",
         "the",
         "plates."
-      ]
+      ],
+      "conf": 91.2249,
+      "source": "psm-11"
     },
     {
+      "id": "r7",
+      "order": 6,
       "text": "She made the soup.",
-      "x": 0.1,
-      "y": 0.61,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r9",
-      "order": 8,
+      "x": 0.1077,
+      "y": 0.6067,
+      "w": 0.3144,
+      "h": 0.0254,
       "words": [
         "She",
         "made",
         "the",
         "soup."
-      ]
+      ],
+      "conf": 96.4254,
+      "source": "psm-11"
     },
     {
+      "id": "r8",
+      "order": 7,
       "text": "She put it in the plates.",
-      "x": 0.1,
-      "y": 0.64,
-      "w": 0.38,
-      "h": 0.03,
-      "id": "r10",
-      "order": 9,
+      "x": 0.1095,
+      "y": 0.6332,
+      "w": 0.3993,
+      "h": 0.0287,
       "words": [
         "She",
         "put",
@@ -227,16 +211,18 @@
         "in",
         "the",
         "plates."
-      ]
+      ],
+      "conf": 95.6498,
+      "source": "psm-11"
     },
     {
+      "id": "r9",
+      "order": 8,
       "text": "She took them to the table.",
-      "x": 0.1,
-      "y": 0.67,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r11",
-      "order": 10,
+      "x": 0.1077,
+      "y": 0.6591,
+      "w": 0.2715,
+      "h": 0.0469,
       "words": [
         "She",
         "took",
@@ -244,16 +230,18 @@
         "to",
         "the",
         "table."
-      ]
+      ],
+      "conf": 96.0935,
+      "source": "psm-11"
     },
     {
+      "id": "r10",
+      "order": 9,
       "text": "The plates are on the table.",
-      "x": 0.56,
-      "y": 0.66,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r12",
-      "order": 11,
+      "x": 0.5701,
+      "y": 0.6575,
+      "w": 0.2767,
+      "h": 0.0463,
       "words": [
         "The",
         "plates",
@@ -261,51 +249,61 @@
         "on",
         "the",
         "table."
-      ]
+      ],
+      "conf": 96.2835,
+      "source": "psm-11"
     },
     {
+      "id": "r11",
+      "order": 10,
       "text": "The soup is ready.",
-      "x": 0.56,
-      "y": 0.71,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r13",
-      "order": 12,
+      "x": 0.5701,
+      "y": 0.7093,
+      "w": 0.282,
+      "h": 0.0254,
       "words": [
         "The",
         "soup",
         "is",
         "ready."
-      ]
+      ],
+      "conf": 95.47,
+      "source": "psm-11"
     },
     {
-      "text": "It is good soup.",
-      "x": 0.56,
-      "y": 0.74,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r14",
-      "order": 13,
+      "id": "r12",
+      "order": 11,
+      "text": "It is good soup Mary made it.",
+      "x": 0.5701,
+      "y": 0.7363,
+      "w": 0.2338,
+      "h": 0.0508,
       "words": [
         "It",
         "is",
         "good",
-        "soup."
-      ]
-    },
-    {
-      "text": "Mary made it.",
-      "x": 0.56,
-      "y": 0.77,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r15",
-      "order": 14,
-      "words": [
+        "soup",
         "Mary",
         "made",
         "it."
-      ]
+      ],
+      "conf": 94.6819,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "oe IS",
+      "x": 0.148,
+      "y": 0.797,
+      "w": 0.2653,
+      "h": 0.0563,
+      "words": [
+        "oe",
+        "IS"
+      ],
+      "conf": 76.7889,
+      "source": "psm-11"
     }
   ]
 }

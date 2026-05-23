@@ -4,12 +4,24 @@
   "imageApiPath": "/api/books/page%20495.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 65,
+    "regionCount": 11,
+    "wordCount": 101,
     "imageWidth": 1234,
     "imageHeight": 1867
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r6"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +30,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r3",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9",
+        "r10"
       ]
     },
     {
@@ -30,120 +57,255 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r8",
+        "r11"
       ]
     }
   ],
   "regions": [
     {
-      "text": "In the distant past, only physical changes took place. This is what the science of physics studies.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "In the beginning—as long ago, we can talk about—the only place, scientists say, were physical the sorts of changes which the Here is a wheel turning round. Its motion is a physical change.",
+      "x": 0.1094,
+      "y": 0.0359,
+      "w": 0.4992,
+      "h": 0.2041,
       "words": [
         "In",
         "the",
-        "distant",
-        "past,",
+        "beginning—as",
+        "long",
+        "ago,",
+        "we",
+        "can",
+        "talk",
+        "about—the",
         "only",
+        "place,",
+        "scientists",
+        "say,",
+        "were",
         "physical",
-        "changes",
-        "took",
-        "place.",
-        "This",
-        "is",
-        "what",
         "the",
+        "sorts",
+        "of",
+        "changes",
+        "which",
+        "the",
+        "Here",
+        "is",
+        "a",
+        "wheel",
+        "turning",
+        "round.",
+        "Its",
+        "motion",
+        "is",
+        "a",
+        "physical",
+        "change."
+      ],
+      "conf": 94.4407,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "as far back in the past, as sorts of changes which took",
+      "x": 0.5122,
+      "y": 0.0364,
+      "w": 0.3947,
+      "h": 0.0472,
+      "words": [
+        "as",
+        "far",
+        "back",
+        "in",
+        "the",
+        "past,",
+        "as",
+        "sorts",
+        "of",
+        "changes",
+        "which",
+        "took"
+      ],
+      "conf": 96.8567,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "changes. They were science of physics is about.",
+      "x": 0.534,
+      "y": 0.0884,
+      "w": 0.3728,
+      "h": 0.0482,
+      "words": [
+        "changes.",
+        "They",
+        "were",
         "science",
         "of",
         "physics",
-        "studies."
-      ]
+        "is",
+        "about."
+      ],
+      "conf": 96.4316,
+      "source": "psm-11"
     },
     {
-      "text": "(Diagrams: A turning wheel and boiling water). A wheel spinning and water boiling are examples of physical changes.",
-      "x": 0.1,
-      "y": 0.22,
-      "w": 0.85,
-      "h": 0.25,
-      "id": "r2",
-      "order": 1,
-      "words": [
-        "(Diagrams:",
-        "A",
-        "turning",
-        "wheel",
-        "and",
-        "boiling",
-        "water).",
-        "A",
-        "wheel",
-        "spinning",
-        "and",
-        "water",
-        "boiling",
-        "are",
-        "examples",
-        "of",
-        "physical",
-        "changes."
-      ]
-    },
-    {
-      "text": "(Diagrams: Ice forming and rain falling). Water turning to ice or falling as rain are also physical changes.",
-      "x": 0.1,
-      "y": 0.48,
-      "w": 0.85,
-      "h": 0.3,
-      "id": "r3",
-      "order": 2,
-      "words": [
-        "(Diagrams:",
-        "Ice",
-        "forming",
-        "and",
-        "rain",
-        "falling).",
-        "Water",
-        "turning",
-        "to",
-        "ice",
-        "or",
-        "falling",
-        "as",
-        "rain",
-        "are",
-        "also",
-        "physical",
-        "changes."
-      ]
-    },
-    {
-      "text": "physical: having to do with material bodies and movement, rather than minds.",
-      "x": 0.1,
-      "y": 0.82,
-      "w": 0.85,
-      "h": 0.12,
       "id": "r4",
       "order": 3,
+      "text": "Here",
+      "x": 0.4652,
+      "y": 0.3476,
+      "w": 0.0713,
+      "h": 0.0171,
+      "words": [
+        "Here"
+      ],
+      "conf": 96.7723,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "is water boiling",
+      "x": 0.5454,
+      "y": 0.3476,
+      "w": 0.2164,
+      "h": 0.0214,
+      "words": [
+        "is",
+        "water",
+        "boiling"
+      ],
+      "conf": 96.7673,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "And here is water",
+      "x": 0.111,
+      "y": 0.4772,
+      "w": 0.2609,
+      "h": 0.0166,
+      "words": [
+        "And",
+        "here",
+        "is",
+        "water"
+      ],
+      "conf": 96.1422,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "turning into Here are clouds forming and",
+      "x": 0.1102,
+      "y": 0.5046,
+      "w": 0.3947,
+      "h": 0.0701,
+      "words": [
+        "turning",
+        "into",
+        "Here",
+        "are",
+        "clouds",
+        "forming",
+        "and"
+      ],
+      "conf": 95.8629,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "rain falling.",
+      "x": 0.5105,
+      "y": 0.5544,
+      "w": 0.1605,
+      "h": 0.0209,
+      "words": [
+        "rain",
+        "falling."
+      ],
+      "conf": 96.5327,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "These are physical changes.",
+      "x": 0.107,
+      "y": 0.7584,
+      "w": 0.3833,
+      "h": 0.0225,
+      "words": [
+        "These",
+        "are",
+        "physical",
+        "changes."
+      ],
+      "conf": 96.6623,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "physical: in the narrow sense used af physics. In a wide sense, material minds,",
+      "x": 0.1086,
+      "y": 0.8104,
+      "w": 0.4594,
+      "h": 0.0482,
       "words": [
         "physical:",
+        "in",
+        "the",
+        "narrow",
+        "sense",
+        "used",
+        "af",
+        "physics.",
+        "In",
+        "a",
+        "wide",
+        "sense,",
+        "material",
+        "minds,"
+      ],
+      "conf": 96.1141,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "here, within the field of the science having to do with bodies not",
+      "x": 0.5097,
+      "y": 0.812,
+      "w": 0.3922,
+      "h": 0.0332,
+      "words": [
+        "here,",
+        "within",
+        "the",
+        "field",
+        "of",
+        "the",
+        "science",
         "having",
         "to",
         "do",
         "with",
-        "material",
         "bodies",
-        "and",
-        "movement,",
-        "rather",
-        "than",
-        "minds."
-      ]
+        "not"
+      ],
+      "conf": 96.4437,
+      "source": "psm-11"
     }
   ]
 }

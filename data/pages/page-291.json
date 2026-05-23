@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20291.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 106,
+    "regionCount": 19,
+    "wordCount": 132,
     "imageWidth": 1300,
     "imageHeight": 1934
   },
@@ -18,7 +18,11 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r3",
+        "r4",
+        "r6",
+        "r7"
       ]
     },
     {
@@ -29,7 +33,28 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r2",
+        "r5",
+        "r8",
+        "r9",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r11",
+        "r12",
+        "r13",
+        "r14",
+        "r16",
+        "r18",
+        "r19"
       ]
     },
     {
@@ -40,25 +65,25 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r15",
+        "r17"
       ]
     }
   ],
   "regions": [
     {
-      "text": "\"What is your name?\" the man on the right asks. The other man answers: \"My name is Jean Schmidt.\" \"Where do you come from? What is the country of your birth? Where were you born?\" (These are different ways of asking the same question.)",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.45,
-      "h": 0.3,
       "id": "r1",
       "order": 0,
+      "text": "“What is your name?” the man on the right asks. The other man answers: “My name Jean Schmidt.”",
+      "x": 0.11,
+      "y": 0.06,
+      "w": 0.4131,
+      "h": 0.0925,
       "words": [
-        "\"What",
+        "“What",
         "is",
         "your",
-        "name?\"",
+        "name?”",
         "the",
         "man",
         "on",
@@ -69,16 +94,55 @@
         "other",
         "man",
         "answers:",
-        "\"My",
+        "“My",
         "name",
-        "is",
         "Jean",
-        "Schmidt.\"",
-        "\"Where",
+        "Schmidt.”"
+      ],
+      "conf": 96.5841,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "is",
+      "x": 0.5008,
+      "y": 0.1107,
+      "w": 0.0223,
+      "h": 0.016,
+      "words": [
+        "is"
+      ],
+      "conf": 96.6178,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "“Where do you come from?",
+      "x": 0.1092,
+      "y": 0.1856,
+      "w": 0.4146,
+      "h": 0.0212,
+      "words": [
+        "“Where",
         "do",
         "you",
         "come",
-        "from?",
+        "from?"
+      ],
+      "conf": 96.1894,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "What is the country of your birth? Where were you born?”",
+      "x": 0.11,
+      "y": 0.2115,
+      "w": 0.4138,
+      "h": 0.046,
+      "words": [
         "What",
         "is",
         "the",
@@ -89,7 +153,34 @@
         "Where",
         "were",
         "you",
-        "born?\"",
+        "born?”"
+      ],
+      "conf": 96.1365,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "LE",
+      "x": 0.7085,
+      "y": 0.197,
+      "w": 0.0538,
+      "h": 0.0331,
+      "words": [
+        "LE"
+      ],
+      "conf": 39.6504,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "(These are different ways of asking the same question.)",
+      "x": 0.1108,
+      "y": 0.2616,
+      "w": 0.4146,
+      "h": 0.0471,
+      "words": [
         "(These",
         "are",
         "different",
@@ -99,102 +190,265 @@
         "the",
         "same",
         "question.)"
-      ]
+      ],
+      "conf": 96.4406,
+      "source": "psm-11"
     },
     {
-      "text": "\"Geneva, Switzerland,\" answers Jean Schmidt. \"Have you any relations in this country?\" \"Yes, I have one. My uncle, my father's brother, lives in Boston, Massachusetts, U.S.A.\"",
-      "x": 0.1,
-      "y": 0.35,
-      "w": 0.85,
-      "h": 0.25,
-      "id": "r2",
-      "order": 1,
+      "id": "r7",
+      "order": 6,
+      "text": "“Geneva, Switzerland,” answers “Have you any relations in this “Yes, I have one. My uncle, in Boston, Massachusetts, U.S.A.”",
+      "x": 0.1123,
+      "y": 0.3382,
+      "w": 0.4546,
+      "h": 0.1525,
       "words": [
-        "\"Geneva,",
-        "Switzerland,\"",
+        "“Geneva,",
+        "Switzerland,”",
         "answers",
-        "Jean",
-        "Schmidt.",
-        "\"Have",
+        "“Have",
         "you",
         "any",
         "relations",
         "in",
         "this",
-        "country?\"",
-        "\"Yes,",
+        "“Yes,",
         "I",
         "have",
         "one.",
         "My",
         "uncle,",
-        "my",
-        "father's",
-        "brother,",
-        "lives",
         "in",
         "Boston,",
         "Massachusetts,",
-        "U.S.A.\""
-      ]
+        "U.S.A.”"
+      ],
+      "conf": 95.7844,
+      "source": "psm-11"
     },
     {
-      "text": "asks: puts a question. answers: gives an answer. born: given birth or given being. any: one or more, some. relation: person of same family. uncle: father's or mother's brother.",
-      "x": 0.1,
-      "y": 0.65,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r3",
-      "order": 2,
+      "id": "r8",
+      "order": 7,
+      "text": "Jean Schmidt.",
+      "x": 0.5577,
+      "y": 0.3376,
+      "w": 0.1885,
+      "h": 0.0165,
       "words": [
-        "asks:",
-        "puts",
-        "a",
-        "question.",
+        "Jean",
+        "Schmidt."
+      ],
+      "conf": 95.4312,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "country?”",
+      "x": 0.5515,
+      "y": 0.3873,
+      "w": 0.1308,
+      "h": 0.0212,
+      "words": [
+        "country?”"
+      ],
+      "conf": 95.8744,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "my father’s brother, lives",
+      "x": 0.5215,
+      "y": 0.4442,
+      "w": 0.3415,
+      "h": 0.0212,
+      "words": [
+        "my",
+        "father’s",
+        "brother,",
+        "lives"
+      ],
+      "conf": 96.4746,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "answers: gives on answer.",
+      "x": 0.1169,
+      "y": 0.6898,
+      "w": 0.2754,
+      "h": 0.014,
+      "words": [
         "answers:",
         "gives",
-        "an",
-        "answer.",
+        "on",
+        "answer."
+      ],
+      "conf": 90.6184,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "Gsks: puts o question.",
+      "x": 0.1177,
+      "y": 0.6722,
+      "w": 0.2231,
+      "h": 0.0145,
+      "words": [
+        "Gsks:",
+        "puts",
+        "o",
+        "question."
+      ],
+      "conf": 89.243,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "born: given birth or given being.",
+      "x": 0.1169,
+      "y": 0.7058,
+      "w": 0.34,
+      "h": 0.0155,
+      "words": [
         "born:",
         "given",
         "birth",
         "or",
         "given",
-        "being.",
-        "any:",
+        "being."
+      ],
+      "conf": 90.1337,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "Gay: one or more, some. In answering money?” we soy “Yes, hove some” relation: person of some fomily.",
+      "x": 0.1169,
+      "y": 0.7239,
+      "w": 0.4315,
+      "h": 0.0657,
+      "words": [
+        "Gay:",
         "one",
         "or",
         "more,",
         "some.",
+        "In",
+        "answering",
+        "money?”",
+        "we",
+        "soy",
+        "“Yes,",
+        "hove",
+        "some”",
         "relation:",
         "person",
         "of",
-        "same",
-        "family.",
-        "uncle:",
-        "father's",
-        "or",
-        "mother's",
-        "brother."
-      ]
+        "some",
+        "fomily."
+      ],
+      "conf": 86.8253,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will ask/answer. PRESENT: ask(s)/answer(s). PAST: asked/answered.",
-      "x": 0.1,
-      "y": 0.82,
-      "w": 0.85,
-      "h": 0.08,
-      "id": "r4",
-      "order": 3,
+      "id": "r15",
+      "order": 14,
+      "text": "the question “Have you any aay.”",
+      "x": 0.5569,
+      "y": 0.7239,
+      "w": 0.3108,
+      "h": 0.0491,
       "words": [
-        "FUTURE:",
+        "the",
+        "question",
+        "“Have",
+        "you",
+        "any",
+        "aay.”"
+      ],
+      "conf": 94.7825,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "have no money, we say \"No, haven’t uncle: father’s or mother’s brother.",
+      "x": 0.1177,
+      "y": 0.7585,
+      "w": 0.4331,
+      "h": 0.0455,
+      "words": [
+        "have",
+        "no",
+        "money,",
+        "we",
+        "say",
+        "\"No,",
+        "haven’t",
+        "uncle:",
+        "father’s",
+        "or",
+        "mother’s",
+        "brother."
+      ],
+      "conf": 86.7173,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "(not “Yes, have any”). If we",
+      "x": 0.5585,
+      "y": 0.741,
+      "w": 0.3092,
+      "h": 0.0145,
+      "words": [
+        "(not",
+        "“Yes,",
+        "have",
+        "any”).",
+        "If",
+        "we"
+      ],
+      "conf": 88.505,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "will ask will answer",
+      "x": 0.12,
+      "y": 0.8278,
+      "w": 0.1308,
+      "h": 0.031,
+      "words": [
         "will",
-        "ask/answer.",
-        "PRESENT:",
-        "ask(s)/answer(s).",
-        "PAST:",
-        "asked/answered."
-      ]
+        "ask",
+        "will",
+        "answer"
+      ],
+      "conf": 93.1876,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "ask(s)",
+      "x": 0.4546,
+      "y": 0.8299,
+      "w": 0.0777,
+      "h": 0.0155,
+      "words": [
+        "ask(s)"
+      ],
+      "conf": 90.7703,
+      "source": "psm-11"
     }
   ]
 }

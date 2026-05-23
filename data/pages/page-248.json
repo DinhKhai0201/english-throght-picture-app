@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20248.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 79,
+    "regionCount": 12,
+    "wordCount": 76,
     "imageWidth": 1188,
     "imageHeight": 1838
   },
@@ -18,7 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r4",
+        "r6"
       ]
     },
     {
@@ -29,7 +31,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r2",
+        "r3",
+        "r5",
+        "r7"
       ]
     },
     {
@@ -40,7 +45,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r9",
+        "r10"
       ]
     },
     {
@@ -51,37 +57,110 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r8",
+        "r11",
+        "r12"
       ]
     }
   ],
   "regions": [
     {
-      "text": "The taste of sugar is sweet. This is a cake. It has white sugar on the top. Cakes with sugar on them are very sweet.",
-      "x": 0.12,
-      "y": 0.12,
-      "w": 0.35,
-      "h": 0.35,
       "id": "r1",
       "order": 0,
+      "text": "The taste of sugar is",
+      "x": 0.138,
+      "y": 0.1224,
+      "w": 0.3064,
+      "h": 0.0245,
       "words": [
         "The",
         "taste",
         "of",
         "sugar",
+        "is"
+      ],
+      "conf": 96.6531,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is an orange.",
+      "x": 0.5648,
+      "y": 0.1083,
+      "w": 0.2694,
+      "h": 0.0229,
+      "words": [
+        "This",
         "is",
-        "sweet.",
+        "an",
+        "orange."
+      ],
+      "conf": 96.4449,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "FD",
+      "x": 0.6995,
+      "y": 0.1545,
+      "w": 0.0766,
+      "h": 0.0348,
+      "words": [
+        "FD"
+      ],
+      "conf": 57.6331,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "This is a cake.",
+      "x": 0.1742,
+      "y": 0.2655,
+      "w": 0.213,
+      "h": 0.0267,
+      "words": [
         "This",
         "is",
         "a",
-        "cake.",
+        "cake."
+      ],
+      "conf": 92.6269,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "This is its skin.",
+      "x": 0.5943,
+      "y": 0.2943,
+      "w": 0.2121,
+      "h": 0.019,
+      "words": [
+        "This",
+        "is",
+        "its",
+        "skin."
+      ],
+      "conf": 95.9688,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "It has white sugar on Cakes with sugar on them are very sweet.",
+      "x": 0.1397,
+      "y": 0.34,
+      "w": 0.3166,
+      "h": 0.1007,
+      "words": [
         "It",
         "has",
         "white",
         "sugar",
         "on",
-        "the",
-        "top.",
         "Cakes",
         "with",
         "sugar",
@@ -90,25 +169,19 @@
         "are",
         "very",
         "sweet."
-      ]
+      ],
+      "conf": 85.7891,
+      "source": "psm-11"
     },
     {
-      "text": "This is an orange. This is its skin. Some oranges are sweet. But the taste of their skin is bitter.",
-      "x": 0.54,
-      "y": 0.11,
-      "w": 0.38,
-      "h": 0.35,
-      "id": "r2",
-      "order": 1,
+      "id": "r7",
+      "order": 6,
+      "text": "Some oranges are sweet. But the taste of their skin is bitter.",
+      "x": 0.5311,
+      "y": 0.3672,
+      "w": 0.3351,
+      "h": 0.0692,
       "words": [
-        "This",
-        "is",
-        "an",
-        "orange.",
-        "This",
-        "is",
-        "its",
-        "skin.",
         "Some",
         "oranges",
         "are",
@@ -121,27 +194,63 @@
         "skin",
         "is",
         "bitter."
-      ]
+      ],
+      "conf": 96.0514,
+      "source": "psm-11"
     },
     {
-      "text": "Salt has a salt taste. Sugar has a sweet taste. To the eye salt and sugar seem the same.",
-      "x": 0.12,
-      "y": 0.61,
-      "w": 0.35,
-      "h": 0.2,
-      "id": "r3",
-      "order": 2,
+      "id": "r8",
+      "order": 7,
+      "text": "But to the tongue they are very different.",
+      "x": 0.5354,
+      "y": 0.5169,
+      "w": 0.335,
+      "h": 0.0495,
+      "words": [
+        "But",
+        "to",
+        "the",
+        "tongue",
+        "they",
+        "are",
+        "very",
+        "different."
+      ],
+      "conf": 95.1108,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Salt has a salt taste.",
+      "x": 0.1372,
+      "y": 0.6164,
+      "w": 0.3072,
+      "h": 0.019,
       "words": [
         "Salt",
         "has",
         "a",
         "salt",
-        "taste.",
+        "taste."
+      ],
+      "conf": 96.4079,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Sugar has a sweet taste, To the eye salt and sugar seem the same.",
+      "x": 0.1364,
+      "y": 0.642,
+      "w": 0.3283,
+      "h": 0.1002,
+      "words": [
         "Sugar",
         "has",
         "a",
         "sweet",
-        "taste.",
+        "taste,",
         "To",
         "the",
         "eye",
@@ -151,33 +260,41 @@
         "seem",
         "the",
         "same."
-      ]
+      ],
+      "conf": 95.3591,
+      "source": "psm-11"
     },
     {
-      "text": "But to the tongue they are very different. Their taste is very different. Salt. Sugar.",
-      "x": 0.53,
-      "y": 0.52,
-      "w": 0.38,
-      "h": 0.4,
-      "id": "r4",
-      "order": 3,
+      "id": "r11",
+      "order": 10,
+      "text": "Their taste is very different,",
+      "x": 0.5236,
+      "y": 0.6817,
+      "w": 0.218,
+      "h": 0.0489,
       "words": [
-        "But",
-        "to",
-        "the",
-        "tongue",
-        "they",
-        "are",
-        "very",
-        "different.",
         "Their",
         "taste",
         "is",
         "very",
-        "different.",
-        "Salt.",
-        "Sugar."
-      ]
+        "different,"
+      ],
+      "conf": 96.6159,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "Sugor",
+      "x": 0.8013,
+      "y": 0.8879,
+      "w": 0.0918,
+      "h": 0.0229,
+      "words": [
+        "Sugor"
+      ],
+      "conf": 87.2045,
+      "source": "psm-11"
     }
   ]
 }

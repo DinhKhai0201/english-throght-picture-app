@@ -19,7 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2"
+        "r3"
       ]
     },
     {
@@ -30,7 +30,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
+        "r2",
         "r4"
       ]
     },
@@ -43,7 +43,7 @@
       "h": 0.5,
       "regionIds": [
         "r5",
-        "r6"
+        "r7"
       ]
     },
     {
@@ -54,55 +54,38 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
+        "r6",
         "r8"
       ]
     }
   ],
   "regions": [
     {
-      "text": "He will take some shoes.",
-      "x": 0.09,
-      "y": 0.13,
-      "w": 0.38,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "He will take some shoes.",
+      "x": 0.1086,
+      "y": 0.1333,
+      "w": 0.3746,
+      "h": 0.019,
       "words": [
         "He",
         "will",
         "take",
         "some",
         "shoes."
-      ]
+      ],
+      "conf": 96.4048,
+      "source": "psm-11"
     },
     {
-      "text": "He will put them in a shoe bag.",
-      "x": 0.12,
-      "y": 0.25,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r2",
       "order": 1,
-      "words": [
-        "He",
-        "will",
-        "put",
-        "them",
-        "in",
-        "a",
-        "shoe",
-        "bag."
-      ]
-    },
-    {
       "text": "The shoe bag will keep the other things clean.",
-      "x": 0.53,
-      "y": 0.12,
-      "w": 0.4,
-      "h": 0.05,
-      "id": "r3",
-      "order": 2,
+      "x": 0.5404,
+      "y": 0.1241,
+      "w": 0.3468,
+      "h": 0.0493,
       "words": [
         "The",
         "shoe",
@@ -113,16 +96,39 @@
         "other",
         "things",
         "clean."
-      ]
+      ],
+      "conf": 96.3373,
+      "source": "psm-11"
     },
     {
-      "text": "The bag is between the shoes and the shirt. The shoes will not make the shirt dirty.",
-      "x": 0.54,
-      "y": 0.31,
-      "w": 0.4,
-      "h": 0.1,
+      "id": "r3",
+      "order": 2,
+      "text": "He will put them in a shoe bag.",
+      "x": 0.1364,
+      "y": 0.2541,
+      "w": 0.3189,
+      "h": 0.0487,
+      "words": [
+        "He",
+        "will",
+        "put",
+        "them",
+        "in",
+        "a",
+        "shoe",
+        "bag."
+      ],
+      "conf": 94.3768,
+      "source": "psm-11"
+    },
+    {
       "id": "r4",
       "order": 3,
+      "text": "The bag is between the shoes and the shirt. The shoes will not make the shirt dirty.",
+      "x": 0.5446,
+      "y": 0.3131,
+      "w": 0.3578,
+      "h": 0.1013,
       "words": [
         "The",
         "bag",
@@ -141,67 +147,77 @@
         "the",
         "shirt",
         "dirty."
-      ]
+      ],
+      "conf": 96.5488,
+      "source": "psm-11"
     },
     {
-      "text": "My hands are dirty.",
-      "x": 0.1,
-      "y": 0.54,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r5",
       "order": 4,
+      "text": "My hands are dirty.",
+      "x": 0.1473,
+      "y": 0.5379,
+      "w": 0.3013,
+      "h": 0.0244,
       "words": [
         "My",
         "hands",
         "are",
         "dirty."
-      ]
+      ],
+      "conf": 96.8532,
+      "source": "psm-11"
     },
     {
-      "text": "My hands are clean.",
-      "x": 0.1,
-      "y": 0.74,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r6",
       "order": 5,
-      "words": [
-        "My",
-        "hands",
-        "are",
-        "clean."
-      ]
-    },
-    {
       "text": "This cloth is dirty.",
-      "x": 0.54,
-      "y": 0.55,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r7",
-      "order": 6,
+      "x": 0.5589,
+      "y": 0.5493,
+      "w": 0.2652,
+      "h": 0.0244,
       "words": [
         "This",
         "cloth",
         "is",
         "dirty."
-      ]
+      ],
+      "conf": 95.8945,
+      "source": "psm-11"
     },
     {
-      "text": "This cloth is clean.",
-      "x": 0.54,
+      "id": "r7",
+      "order": 6,
+      "text": "My hands are clean.",
+      "x": 0.1456,
       "y": 0.74,
-      "w": 0.35,
-      "h": 0.03,
+      "w": 0.3131,
+      "h": 0.0255,
+      "words": [
+        "My",
+        "hands",
+        "are",
+        "clean."
+      ],
+      "conf": 96.4367,
+      "source": "psm-11"
+    },
+    {
       "id": "r8",
       "order": 7,
+      "text": "This cloth is clean",
+      "x": 0.5606,
+      "y": 0.7405,
+      "w": 0.2643,
+      "h": 0.0206,
       "words": [
         "This",
         "cloth",
         "is",
-        "clean."
-      ]
+        "clean"
+      ],
+      "conf": 96.4966,
+      "source": "psm-11"
     }
   ]
 }

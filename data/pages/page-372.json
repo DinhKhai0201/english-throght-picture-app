@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20372.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 96,
+    "regionCount": 17,
+    "wordCount": 112,
     "imageWidth": 1250,
     "imageHeight": 1867
   },
@@ -18,7 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r5",
+        "r7"
       ]
     },
     {
@@ -29,7 +31,27 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r2",
+        "r3",
+        "r4",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r9",
+        "r10",
+        "r13",
+        "r14",
+        "r15",
+        "r16"
       ]
     },
     {
@@ -40,20 +62,21 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r11",
+        "r12",
+        "r17"
       ]
     }
   ],
   "regions": [
     {
-      "text": "The higher up we go the less is the pressure of the air, because the weight of the air above us is less. As the pressure becomes less the amount of oxygen we get in one breath becomes less.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.45,
-      "h": 0.2,
       "id": "r1",
       "order": 0,
+      "text": "The higher up we go the less is the air, because the weight of the air above us is less. As the pressure becomes less (air gets thinner) the amount of oxygen we get in one breath comes less. We must take in more air to get the same amount of oxygen.",
+      "x": 0.0936,
+      "y": 0.0359,
+      "w": 0.4216,
+      "h": 0.233,
       "words": [
         "The",
         "higher",
@@ -63,9 +86,6 @@
         "the",
         "less",
         "is",
-        "the",
-        "pressure",
-        "of",
         "the",
         "air,",
         "because",
@@ -83,6 +103,9 @@
         "pressure",
         "becomes",
         "less",
+        "(air",
+        "gets",
+        "thinner)",
         "the",
         "amount",
         "of",
@@ -92,99 +115,292 @@
         "in",
         "one",
         "breath",
-        "becomes",
-        "less."
-      ]
+        "comes",
+        "less.",
+        "We",
+        "must",
+        "take",
+        "in",
+        "more",
+        "air",
+        "to",
+        "get",
+        "the",
+        "same",
+        "amount",
+        "of",
+        "oxygen."
+      ],
+      "conf": 96.9339,
+      "source": "psm-11"
     },
     {
-      "text": "EVEREST (Asia) 28,000. ACONCAGUA (S. America) 24,000. McKINLEY (N. America) 20,000. KILIMANJARO (Africa) 16,000. MONT BLANC (Europe) 12,000. AORANGI (New Zealand) 8,000.",
-      "x": 0.45,
-      "y": 0.05,
-      "w": 0.5,
-      "h": 0.4,
       "id": "r2",
       "order": 1,
+      "text": "the pressure of",
+      "x": 0.5272,
+      "y": 0.0359,
+      "w": 0.2,
+      "h": 0.0279,
       "words": [
-        "EVEREST",
-        "(Asia)",
-        "28,000.",
-        "ACONCAGUA",
-        "(S.",
-        "America)",
-        "24,000.",
-        "McKINLEY",
-        "(N.",
-        "America)",
-        "20,000.",
-        "KILIMANJARO",
-        "(Africa)",
-        "16,000.",
-        "MONT",
-        "BLANC",
-        "(Europe)",
-        "12,000.",
-        "AORANGI",
-        "(New",
-        "Zealand)",
-        "8,000."
-      ]
+        "the",
+        "pressure",
+        "of"
+      ],
+      "conf": 96.6745,
+      "source": "psm-11"
     },
     {
-      "text": "The instrument we use to measure the pressure of the air is the barometer. pressure: the push on something. above: over, higher up. measure: take the measure of.",
-      "x": 0.1,
-      "y": 0.48,
-      "w": 0.85,
-      "h": 0.3,
       "id": "r3",
       "order": 2,
+      "text": "be- Amertes)",
+      "x": 0.5288,
+      "y": 0.166,
+      "w": 0.1968,
+      "h": 0.0273,
+      "words": [
+        "be-",
+        "Amertes)"
+      ],
+      "conf": 75.095,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "MONT BLANC",
+      "x": 0.6352,
+      "y": 0.3005,
+      "w": 0.1344,
+      "h": 0.0107,
+      "words": [
+        "MONT",
+        "BLANC"
+      ],
+      "conf": 95.0286,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "{New Zealand)",
+      "x": 0.4224,
+      "y": 0.3401,
+      "w": 0.148,
+      "h": 0.0182,
+      "words": [
+        "{New",
+        "Zealand)"
+      ],
+      "conf": 84.9782,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "SEA LEVEL the pres-",
+      "x": 0.6,
+      "y": 0.4526,
+      "w": 0.3272,
+      "h": 0.0493,
+      "words": [
+        "SEA",
+        "LEVEL",
+        "the",
+        "pres-"
+      ],
+      "conf": 95.9506,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "The instrument we use to measure",
+      "x": 0.0968,
+      "y": 0.4751,
+      "w": 0.4904,
+      "h": 0.0268,
       "words": [
         "The",
         "instrument",
         "we",
         "use",
         "to",
-        "measure",
-        "the",
-        "pressure",
+        "measure"
+      ],
+      "conf": 96.5796,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "sure of the air is the barometer.",
+      "x": 0.0984,
+      "y": 0.5013,
+      "w": 0.4392,
+      "h": 0.0246,
+      "words": [
+        "sure",
         "of",
         "the",
         "air",
         "is",
         "the",
-        "barometer.",
-        "pressure:",
+        "barometer."
+      ],
+      "conf": 96.3194,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "the ball, putting pressure on It, from",
+      "x": 0.0984,
+      "y": 0.7365,
+      "w": 0.4128,
+      "h": 0.0327,
+      "words": [
         "the",
-        "push",
+        "ball,",
+        "putting",
+        "pressure",
         "on",
-        "something.",
+        "It,",
+        "from"
+      ],
+      "conf": 96.0344,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "on something: the push",
+      "x": 0.2576,
+      "y": 0.7365,
+      "w": 0.2744,
+      "h": 0.0155,
+      "words": [
+        "on",
+        "something:",
+        "the",
+        "push"
+      ],
+      "conf": 94.7077,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "all sides",
+      "x": 0.5224,
+      "y": 0.7542,
+      "w": 0.0912,
+      "h": 0.0123,
+      "words": [
+        "all",
+        "sides"
+      ],
+      "conf": 89.5077,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "on it. The alr is pushing on this",
+      "x": 0.5416,
+      "y": 0.7359,
+      "w": 0.3456,
+      "h": 0.0161,
+      "words": [
+        "on",
+        "it.",
+        "The",
+        "alr",
+        "is",
+        "pushing",
+        "on",
+        "this"
+      ],
+      "conf": 93.1938,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "above: over, higher up.",
+      "x": 0.1,
+      "y": 0.8013,
+      "w": 0.2584,
+      "h": 0.0155,
+      "words": [
         "above:",
         "over,",
         "higher",
-        "up.",
+        "up."
+      ],
+      "conf": 88.108,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "measure: take the measure of.",
+      "x": 0.1,
+      "y": 0.8184,
+      "w": 0.3272,
+      "h": 0.0129,
+      "words": [
         "measure:",
         "take",
         "the",
         "measure",
         "of."
-      ]
+      ],
+      "conf": 79.7321,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will measure. PRESENT: measure(s). PAST: measured.",
-      "x": 0.1,
-      "y": 0.85,
-      "w": 0.85,
-      "h": 0.08,
-      "id": "r4",
-      "order": 3,
+      "id": "r15",
+      "order": 14,
+      "text": "will measure",
+      "x": 0.0952,
+      "y": 0.8468,
+      "w": 0.1584,
+      "h": 0.0193,
       "words": [
-        "FUTURE:",
         "will",
-        "measure.",
-        "PRESENT:",
-        "measure(s).",
-        "PAST:",
-        "measured."
-      ]
+        "measure"
+      ],
+      "conf": 86.5578,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "moasure(s)",
+      "x": 0.4184,
+      "y": 0.8479,
+      "w": 0.1432,
+      "h": 0.0161,
+      "words": [
+        "moasure(s)"
+      ],
+      "conf": 43.6968,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "measured",
+      "x": 0.768,
+      "y": 0.8463,
+      "w": 0.1192,
+      "h": 0.0139,
+      "words": [
+        "measured"
+      ],
+      "conf": 85.9347,
+      "source": "psm-11"
     }
   ]
 }

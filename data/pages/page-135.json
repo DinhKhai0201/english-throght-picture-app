@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20135.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 6,
-    "wordCount": 56,
+    "regionCount": 12,
+    "wordCount": 59,
     "imageWidth": 1234,
     "imageHeight": 1884
   },
@@ -19,7 +19,9 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2"
+        "r4",
+        "r7",
+        "r8"
       ]
     },
     {
@@ -30,8 +32,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r2",
         "r3",
-        "r4"
+        "r5",
+        "r6"
       ]
     },
     {
@@ -42,7 +46,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5"
+        "r11",
+        "r12"
       ]
     },
     {
@@ -53,77 +58,103 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6"
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "What are these? They are pins.",
-      "x": 0.15,
-      "y": 0.15,
-      "w": 0.35,
-      "h": 0.12,
       "id": "r1",
       "order": 0,
+      "text": "What are these?",
+      "x": 0.1783,
+      "y": 0.1189,
+      "w": 0.2431,
+      "h": 0.0191,
       "words": [
         "What",
         "are",
-        "these?",
-        "They",
-        "are",
-        "pins."
-      ]
+        "these?"
+      ],
+      "conf": 96.1288,
+      "source": "psm-11"
     },
     {
-      "text": "One pin is very like another pin.",
-      "x": 0.1,
-      "y": 0.36,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r2",
       "order": 1,
-      "words": [
-        "One",
-        "pin",
-        "is",
-        "very",
-        "like",
-        "another",
-        "pin."
-      ]
-    },
-    {
-      "text": "This pin is like this pin.",
-      "x": 0.58,
-      "y": 0.12,
-      "w": 0.35,
-      "h": 0.15,
-      "id": "r3",
-      "order": 2,
+      "text": "This pin",
+      "x": 0.6216,
+      "y": 0.1279,
+      "w": 0.1118,
+      "h": 0.0234,
       "words": [
         "This",
-        "pin",
+        "pin"
+      ],
+      "conf": 96.9077,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "is like this pin.",
+      "x": 0.624,
+      "y": 0.2044,
+      "w": 0.2058,
+      "h": 0.0239,
+      "words": [
         "is",
         "like",
         "this",
         "pin."
-      ]
+      ],
+      "conf": 96.8003,
+      "source": "psm-11"
     },
     {
-      "text": "But they are two pins. They are not the same pin. They are different pins.",
-      "x": 0.55,
-      "y": 0.28,
-      "w": 0.4,
-      "h": 0.12,
       "id": "r4",
       "order": 3,
+      "text": "They are pins.",
+      "x": 0.188,
+      "y": 0.2298,
+      "w": 0.2066,
+      "h": 0.0234,
+      "words": [
+        "They",
+        "are",
+        "pins."
+      ],
+      "conf": 95.6418,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "But they are two pins.",
+      "x": 0.5616,
+      "y": 0.2787,
+      "w": 0.3201,
+      "h": 0.0228,
       "words": [
         "But",
         "they",
         "are",
         "two",
-        "pins.",
+        "pins."
+      ],
+      "conf": 96.4694,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "They are not the same pin. They are different pins.",
+      "x": 0.5616,
+      "y": 0.3036,
+      "w": 0.3339,
+      "h": 0.0728,
+      "words": [
         "They",
         "are",
         "not",
@@ -134,35 +165,54 @@
         "are",
         "different",
         "pins."
-      ]
+      ],
+      "conf": 96.5901,
+      "source": "psm-11"
     },
     {
-      "text": "These are three hairpins. They are different hairpins.",
-      "x": 0.1,
-      "y": 0.74,
-      "w": 0.38,
-      "h": 0.08,
-      "id": "r5",
-      "order": 4,
+      "id": "r7",
+      "order": 6,
+      "text": "One pin is very like another pin.",
+      "x": 0.1718,
+      "y": 0.3583,
+      "w": 0.2869,
+      "h": 0.0478,
       "words": [
-        "These",
-        "are",
-        "three",
-        "hairpins.",
-        "They",
-        "are",
-        "different",
-        "hairpins."
-      ]
+        "One",
+        "pin",
+        "is",
+        "very",
+        "like",
+        "another",
+        "pin."
+      ],
+      "conf": 96.3254,
+      "source": "psm-11"
     },
     {
-      "text": "She has a hairpin in her hand. She is putting it in her hair.",
-      "x": 0.55,
-      "y": 0.51,
-      "w": 0.4,
-      "h": 0.1,
-      "id": "r6",
-      "order": 5,
+      "id": "r8",
+      "order": 7,
+      "text": "Seg aaa ea",
+      "x": 0.1143,
+      "y": 0.4788,
+      "w": 0.1426,
+      "h": 0.0149,
+      "words": [
+        "Seg",
+        "aaa",
+        "ea"
+      ],
+      "conf": 53.5486,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "She has a hairpin in her hand.",
+      "x": 0.5575,
+      "y": 0.5032,
+      "w": 0.2958,
+      "h": 0.0435,
       "words": [
         "She",
         "has",
@@ -170,7 +220,20 @@
         "hairpin",
         "in",
         "her",
-        "hand.",
+        "hand."
+      ],
+      "conf": 96.037,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "She is putting it in her hair.",
+      "x": 0.5583,
+      "y": 0.5531,
+      "w": 0.3233,
+      "h": 0.043,
+      "words": [
         "She",
         "is",
         "putting",
@@ -178,7 +241,43 @@
         "in",
         "her",
         "hair."
-      ]
+      ],
+      "conf": 96.1083,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "These are three hairpins.",
+      "x": 0.128,
+      "y": 0.7298,
+      "w": 0.3622,
+      "h": 0.0239,
+      "words": [
+        "These",
+        "are",
+        "three",
+        "hairpins."
+      ],
+      "conf": 88.149,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "They are different hairpins.",
+      "x": 0.1272,
+      "y": 0.7548,
+      "w": 0.2674,
+      "h": 0.0483,
+      "words": [
+        "They",
+        "are",
+        "different",
+        "hairpins."
+      ],
+      "conf": 96.6853,
+      "source": "psm-11"
     }
   ]
 }

@@ -4,12 +4,27 @@
   "imageApiPath": "/api/books/page%20311.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 138,
+    "regionCount": 19,
+    "wordCount": 161,
     "imageWidth": 1275,
     "imageHeight": 1842
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r4",
+        "r6",
+        "r7"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,7 +33,25 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r5",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r11",
+        "r14",
+        "r16",
+        "r17",
+        "r18"
       ]
     },
     {
@@ -29,21 +62,37 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3",
-        "r4"
+        "r10",
+        "r12",
+        "r13",
+        "r15",
+        "r19"
       ]
     }
   ],
   "regions": [
     {
-      "text": "In some factories food is put into cans. It is canned. These are machines in a canning factory. Most foods today can be bought in cans. Food stores sell canned soups, meats, fruit and vegetables.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.2,
       "id": "r1",
       "order": 0,
+      "text": "ON",
+      "x": 0.6361,
+      "y": 0.0516,
+      "w": 0.0314,
+      "h": 0.0195,
+      "words": [
+        "ON"
+      ],
+      "conf": 84.1153,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "In some factories food is put into cans. It is canned.",
+      "x": 0.1263,
+      "y": 0.1042,
+      "w": 0.3443,
+      "h": 0.0473,
       "words": [
         "In",
         "some",
@@ -55,41 +104,96 @@
         "cans.",
         "It",
         "is",
-        "canned.",
+        "canned."
+      ],
+      "conf": 95.5281,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "These are machines in a canning factory",
+      "x": 0.1263,
+      "y": 0.1564,
+      "w": 0.3467,
+      "h": 0.0483,
+      "words": [
         "These",
         "are",
         "machines",
         "in",
         "a",
         "canning",
-        "factory.",
+        "factory"
+      ],
+      "conf": 96.1266,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Most foods Food stores fruit and vegetables.",
+      "x": 0.3553,
+      "y": 0.2866,
+      "w": 0.2706,
+      "h": 0.0739,
+      "words": [
         "Most",
         "foods",
+        "Food",
+        "stores",
+        "fruit",
+        "and",
+        "vegetables."
+      ],
+      "conf": 96.5316,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "today can be bought in cans sell canned soups, meats,",
+      "x": 0.5129,
+      "y": 0.2861,
+      "w": 0.3797,
+      "h": 0.0483,
+      "words": [
         "today",
         "can",
         "be",
         "bought",
         "in",
-        "cans.",
-        "Food",
-        "stores",
+        "cans",
         "sell",
         "canned",
         "soups,",
-        "meats,",
-        "fruit",
-        "and",
-        "vegetables."
-      ]
+        "meats,"
+      ],
+      "conf": 91.9706,
+      "source": "psm-11"
     },
     {
-      "text": "Food is canned to keep it from the air. When air can get at it, it quickly goes bad—if it is not kept very cold. Canned food that has gone bad is a poison. Bad food is very bad for people; it poisons them. If they take much of it they may die. After a person dies, he is dead.",
-      "x": 0.1,
-      "y": 0.42,
-      "w": 0.85,
-      "h": 0.25,
-      "id": "r2",
-      "order": 1,
+      "id": "r6",
+      "order": 5,
+      "text": "ar)",
+      "x": 0.2494,
+      "y": 0.3773,
+      "w": 0.0337,
+      "h": 0.0125,
+      "words": [
+        "ar)"
+      ],
+      "conf": 44.2106,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Food is canned to keep it from at it, it quickly goes bad—if it",
+      "x": 0.1263,
+      "y": 0.4441,
+      "w": 0.4188,
+      "h": 0.0472,
       "words": [
         "Food",
         "is",
@@ -98,29 +202,81 @@
         "keep",
         "it",
         "from",
-        "the",
-        "air.",
-        "When",
-        "air",
-        "can",
-        "get",
         "at",
         "it,",
         "it",
         "quickly",
         "goes",
         "bad—if",
-        "it",
+        "it"
+      ],
+      "conf": 96.2126,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "the air. When air can get is not kept very cold",
+      "x": 0.5224,
+      "y": 0.4441,
+      "w": 0.3702,
+      "h": 0.0472,
+      "words": [
+        "the",
+        "air.",
+        "When",
+        "air",
+        "can",
+        "get",
         "is",
         "not",
         "kept",
         "very",
-        "cold.",
+        "cold"
+      ],
+      "conf": 96.6861,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Canned food that has gone very bad for people; it poisons of it they may die. After a",
+      "x": 0.1247,
+      "y": 0.5223,
+      "w": 0.4212,
+      "h": 0.0749,
+      "words": [
         "Canned",
         "food",
         "that",
         "has",
         "gone",
+        "very",
+        "bad",
+        "for",
+        "people;",
+        "it",
+        "poisons",
+        "of",
+        "it",
+        "they",
+        "may",
+        "die.",
+        "After",
+        "a"
+      ],
+      "conf": 96.5192,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "bad is a poison. Bad food is them. If they take much person dies, he is dead.",
+      "x": 0.5075,
+      "y": 0.5223,
+      "w": 0.3843,
+      "h": 0.0749,
+      "words": [
         "bad",
         "is",
         "a",
@@ -128,95 +284,200 @@
         "Bad",
         "food",
         "is",
-        "very",
-        "bad",
-        "for",
-        "people;",
-        "it",
-        "poisons",
         "them.",
         "If",
         "they",
         "take",
         "much",
-        "of",
-        "it",
-        "they",
-        "may",
-        "die.",
-        "After",
-        "a",
         "person",
         "dies,",
         "he",
         "is",
         "dead."
-      ]
+      ],
+      "conf": 96.5888,
+      "source": "psm-11"
     },
     {
-      "text": "can: metal box (in Britain, a tin). vegetables: plants used as food. poison: anything which is very bad in its effect if taken by mouth. die: come to the end of living. dead: no longer living.",
-      "x": 0.1,
-      "y": 0.72,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r3",
-      "order": 2,
+      "id": "r11",
+      "order": 10,
+      "text": "can: metal box. A can can keep food a tin. Tin is a metal which is vegetables: plants used as food.",
+      "x": 0.1247,
+      "y": 0.6759,
+      "w": 0.3992,
+      "h": 0.0684,
       "words": [
         "can:",
         "metal",
-        "box",
-        "(in",
-        "Britain,",
+        "box.",
+        "A",
+        "can",
+        "can",
+        "keep",
+        "food",
         "a",
-        "tin).",
+        "tin.",
+        "Tin",
+        "is",
+        "a",
+        "metal",
+        "which",
+        "is",
         "vegetables:",
         "plants",
         "used",
         "as",
-        "food.",
-        "poison:",
+        "food."
+      ],
+      "conf": 95.1427,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "used as a",
+      "x": 0.5184,
+      "y": 0.6944,
+      "w": 0.1075,
+      "h": 0.0114,
+      "words": [
+        "used",
+        "as",
+        "a"
+      ],
+      "conf": 94.4756,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "good for years. In Britain a can is",
+      "x": 0.5325,
+      "y": 0.6754,
+      "w": 0.3608,
+      "h": 0.0152,
+      "words": [
+        "good",
+        "for",
+        "years.",
+        "In",
+        "Britain",
+        "a",
+        "can",
+        "is"
+      ],
+      "conf": 94.7184,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "coating for cans, polson: anything which is very bad if taken by mouth.",
+      "x": 0.1224,
+      "y": 0.7117,
+      "w": 0.3733,
+      "h": 0.0798,
+      "words": [
+        "coating",
+        "for",
+        "cans,",
+        "polson:",
         "anything",
         "which",
         "is",
         "very",
         "bad",
-        "in",
-        "its",
-        "effect",
         "if",
         "taken",
         "by",
-        "mouth.",
+        "mouth."
+      ],
+      "conf": 86.0575,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "in its effect",
+      "x": 0.5043,
+      "y": 0.76,
+      "w": 0.1176,
+      "h": 0.0125,
+      "words": [
+        "in",
+        "its",
+        "effect"
+      ],
+      "conf": 94.7695,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "dead: no longer living.",
+      "x": 0.1216,
+      "y": 0.8246,
+      "w": 0.2408,
+      "h": 0.0157,
+      "words": [
+        "dead:",
+        "no",
+        "longer",
+        "living."
+      ],
+      "conf": 93.9136,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "die: come to the end of living.",
+      "x": 0.1231,
+      "y": 0.8073,
+      "w": 0.3114,
+      "h": 0.0152,
+      "words": [
         "die:",
         "come",
         "to",
         "the",
         "end",
         "of",
-        "living.",
-        "dead:",
-        "no",
-        "longer",
         "living."
-      ]
+      ],
+      "conf": 95.8194,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will poison/die. PRESENT: poison(s)/die(s). PAST: poisoned/died.",
-      "x": 0.1,
-      "y": 0.88,
-      "w": 0.85,
-      "h": 0.08,
-      "id": "r4",
-      "order": 3,
+      "id": "r18",
+      "order": 17,
+      "text": "will poison witi die",
+      "x": 0.1216,
+      "y": 0.8556,
+      "w": 0.1247,
+      "h": 0.0299,
       "words": [
-        "FUTURE:",
         "will",
-        "poison/die.",
-        "PRESENT:",
-        "poison(s)/die(s).",
-        "PAST:",
-        "poisoned/died."
-      ]
+        "poison",
+        "witi",
+        "die"
+      ],
+      "conf": 80.6283,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "poison(s)",
+      "x": 0.4424,
+      "y": 0.8556,
+      "w": 0.1153,
+      "h": 0.0163,
+      "words": [
+        "poison(s)"
+      ],
+      "conf": 81.9699,
+      "source": "psm-11"
     }
   ]
 }

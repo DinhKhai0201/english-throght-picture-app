@@ -1071,6 +1071,29 @@ export default function ReaderShell({ manifest, initialPage, initialPageNumber, 
         })}
       </main>
 
+      <div className="chunk-navigation-footer">
+        <button
+          type="button"
+          className="ghost-button footer-nav-btn"
+          onClick={() => goToChunk(currentChunkIndex - 1)}
+          disabled={currentChunkIndex === 0}
+        >
+          ⏮ Previous Chunk
+        </button>
+        <div className="chunk-summary-footer">
+          <strong>Chunk {currentChunkIndex + 1}</strong> of <strong>{totalChunks}</strong>
+          <span className="pages-span">Pages {currentChunkStartPage} - {currentChunkEndPage}</span>
+        </div>
+        <button
+          type="button"
+          className="ghost-button footer-nav-btn next-btn"
+          onClick={() => goToChunk(currentChunkIndex + 1)}
+          disabled={currentChunkIndex >= totalChunks - 1}
+        >
+          Next Chunk ⏭
+        </button>
+      </div>
+
       {showScrollAnchor ? (
         <div className="page-scrubber">
           <div className="page-scrubber-rail">

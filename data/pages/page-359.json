@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20359.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 135,
+    "regionCount": 18,
+    "wordCount": 164,
     "imageWidth": 1280,
     "imageHeight": 1959
   },
@@ -18,7 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r3",
+        "r5"
       ]
     },
     {
@@ -29,7 +31,26 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r2",
+        "r4",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r10",
+        "r11",
+        "r13",
+        "r14",
+        "r16",
+        "r17"
       ]
     },
     {
@@ -40,20 +61,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r8",
+        "r9",
+        "r12",
+        "r15",
+        "r18"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Here is a picture of a man’s lungs. They are soft like sponges with thousands of little pipes going through them. The pipes keep branching like the branches of a tree so that they go through every part of each lung.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.45,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "Here is a picture of a man’s lungs. They are soft like sponges with thousands of little pipes going through them. The pipes keep branching like the branches of a tree so that they go through every part of each lung.",
+      "x": 0.1062,
+      "y": 0.071,
+      "w": 0.3868,
+      "h": 0.2189,
       "words": [
         "Here",
         "is",
@@ -96,16 +120,32 @@
         "of",
         "each",
         "lung."
-      ]
+      ],
+      "conf": 96.428,
+      "source": "psm-11"
     },
     {
-      "text": "Our lungs are in the upper part of our chest. We have two of them. The air we breathe goes right in to every part of the lungs through these branching pipes.",
-      "x": 0.1,
-      "y": 0.32,
-      "w": 0.85,
-      "h": 0.1,
       "id": "r2",
       "order": 1,
+      "text": "SY",
+      "x": 0.8133,
+      "y": 0.1894,
+      "w": 0.0289,
+      "h": 0.0153,
+      "words": [
+        "SY"
+      ],
+      "conf": 37.0234,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Our lungs are in the upper part two of them. The air we breathe",
+      "x": 0.1086,
+      "y": 0.3201,
+      "w": 0.4578,
+      "h": 0.0408,
       "words": [
         "Our",
         "lungs",
@@ -114,116 +154,319 @@
         "the",
         "upper",
         "part",
-        "of",
-        "our",
-        "chest.",
-        "We",
-        "have",
         "two",
         "of",
         "them.",
         "The",
         "air",
         "we",
-        "breathe",
+        "breathe"
+      ],
+      "conf": 96.0141,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "of our chest. We have goes right in to every of the lungs through these branching",
+      "x": 0.457,
+      "y": 0.3196,
+      "w": 0.4165,
+      "h": 0.0944,
+      "words": [
+        "of",
+        "our",
+        "chest.",
+        "We",
+        "have",
         "goes",
         "right",
         "in",
         "to",
         "every",
-        "part",
         "of",
         "the",
         "lungs",
         "through",
         "these",
-        "branching",
-        "pipes."
-      ]
+        "branching"
+      ],
+      "conf": 96.48,
+      "source": "psm-11"
     },
     {
-      "text": "They take it to the blood which is moving all the time through the lungs and round to every part of our bodies. The blood makes a journey round the body and back to the lungs in a very short time.",
-      "x": 0.45,
-      "y": 0.38,
-      "w": 0.5,
-      "h": 0.25,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "part the the round",
+      "x": 0.457,
+      "y": 0.3731,
+      "w": 0.0821,
+      "h": 0.1113,
       "words": [
+        "part",
+        "the",
+        "the",
+        "round"
+      ],
+      "conf": 96.8493,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "pipes. They take it to blood which is moving all time through the lungs and to every part of our bod-",
+      "x": 0.5109,
+      "y": 0.3941,
+      "w": 0.3657,
+      "h": 0.0949,
+      "words": [
+        "pipes.",
         "They",
         "take",
         "it",
         "to",
-        "the",
         "blood",
         "which",
         "is",
         "moving",
         "all",
-        "the",
         "time",
         "through",
         "the",
         "lungs",
         "and",
-        "round",
         "to",
         "every",
         "part",
         "of",
         "our",
-        "bodies.",
+        "bod-"
+      ],
+      "conf": 95.9797,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "ies.",
+      "x": 0.4602,
+      "y": 0.4936,
+      "w": 0.0422,
+      "h": 0.0153,
+      "words": [
+        "ies."
+      ],
+      "conf": 95.8164,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "The blood makes a journey round",
+      "x": 0.4609,
+      "y": 0.4931,
+      "w": 0.4157,
+      "h": 0.0413,
+      "words": [
         "The",
         "blood",
         "makes",
         "a",
         "journey",
-        "round",
+        "round"
+      ],
+      "conf": 96.5316,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "the body and back to the in a very short time.",
+      "x": 0.5375,
+      "y": 0.5176,
+      "w": 0.339,
+      "h": 0.0459,
+      "words": [
         "the",
         "body",
         "and",
         "back",
         "to",
         "the",
-        "lungs",
         "in",
         "a",
         "very",
         "short",
         "time."
-      ]
+      ],
+      "conf": 96.7447,
+      "source": "psm-11"
     },
     {
-      "text": "sponge: soft framework. upper: higher up. blood: red liquid in bodies. moving: in motion. FUTURE: will move. PRESENT: move(s). PAST: moved.",
-      "x": 0.1,
-      "y": 0.72,
-      "w": 0.85,
-      "h": 0.25,
-      "id": "r4",
-      "order": 3,
+      "id": "r10",
+      "order": 9,
+      "text": "lungs",
+      "x": 0.4594,
+      "y": 0.5442,
+      "w": 0.0711,
+      "h": 0.0194,
+      "words": [
+        "lungs"
+      ],
+      "conf": 95.0868,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "sponge: framework built up by one animal as its home; soft in water by men for washing.",
+      "x": 0.118,
+      "y": 0.7039,
+      "w": 0.4242,
+      "h": 0.0475,
       "words": [
         "sponge:",
+        "framework",
+        "built",
+        "up",
+        "by",
+        "one",
+        "animal",
+        "as",
+        "its",
+        "home;",
         "soft",
-        "framework.",
+        "in",
+        "water",
+        "by",
+        "men",
+        "for",
+        "washing."
+      ],
+      "conf": 95.7286,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "sort of water and used",
+      "x": 0.5195,
+      "y": 0.705,
+      "w": 0.1352,
+      "h": 0.0275,
+      "words": [
+        "sort",
+        "of",
+        "water",
+        "and",
+        "used"
+      ],
+      "conf": 96.356,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "vight all the way in.",
+      "x": 0.1187,
+      "y": 0.7836,
+      "w": 0.2484,
+      "h": 0.0138,
+      "words": [
+        "vight",
+        "all",
+        "the",
+        "way",
+        "in."
+      ],
+      "conf": 91.0634,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "upper: higher up than the middle, blood: red liquid in bodies of higher moving: in motion.",
+      "x": 0.1195,
+      "y": 0.7662,
+      "w": 0.3859,
+      "h": 0.0643,
+      "words": [
         "upper:",
         "higher",
-        "up.",
+        "up",
+        "than",
+        "the",
+        "middle,",
         "blood:",
         "red",
         "liquid",
         "in",
-        "bodies.",
+        "bodies",
+        "of",
+        "higher",
         "moving:",
         "in",
-        "motion.",
-        "FUTURE:",
+        "motion."
+      ],
+      "conf": 95.3308,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "animals,",
+      "x": 0.5117,
+      "y": 0.7994,
+      "w": 0.0875,
+      "h": 0.0128,
+      "words": [
+        "animals,"
+      ],
+      "conf": 80.9019,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "will move",
+      "x": 0.1203,
+      "y": 0.8453,
+      "w": 0.1148,
+      "h": 0.0117,
+      "words": [
         "will",
-        "move.",
-        "PRESENT:",
-        "move(s).",
-        "PAST:",
-        "moved."
-      ]
+        "move"
+      ],
+      "conf": 80.3012,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "nisve(s)",
+      "x": 0.4469,
+      "y": 0.8341,
+      "w": 0.1039,
+      "h": 0.0291,
+      "words": [
+        "nisve(s)"
+      ],
+      "conf": 54.3681,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "moved",
+      "x": 0.8023,
+      "y": 0.8443,
+      "w": 0.0773,
+      "h": 0.0123,
+      "words": [
+        "moved"
+      ],
+      "conf": 96.5773,
+      "source": "psm-11"
     }
   ]
 }

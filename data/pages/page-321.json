@@ -4,12 +4,25 @@
   "imageApiPath": "/api/books/page%20321.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 139,
+    "regionCount": 18,
+    "wordCount": 155,
     "imageWidth": 1234,
     "imageHeight": 1859
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +31,26 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r4",
+        "r6",
+        "r7",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r11",
+        "r13",
+        "r15",
+        "r16"
       ]
     },
     {
@@ -30,20 +61,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r10",
+        "r12",
+        "r14",
+        "r17",
+        "r18"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Where do we get our food? We get much of it from the earth. We use some sorts of animals and birds to give us food. Great parts of the earth are covered with grass, a plant which grows with narrow green leaves and puts down roots quickly. There are more than three thousand different sorts of grasses growing.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.2,
       "id": "r1",
       "order": 0,
+      "text": "Where do we get our food? We earth. We use some sorts of us food.",
+      "x": 0.0924,
+      "y": 0.0377,
+      "w": 0.4497,
+      "h": 0.0682,
       "words": [
         "Where",
         "do",
@@ -52,104 +86,189 @@
         "our",
         "food?",
         "We",
-        "get",
-        "much",
-        "of",
-        "it",
-        "from",
-        "the",
         "earth.",
         "We",
         "use",
         "some",
         "sorts",
         "of",
+        "us",
+        "food."
+      ],
+      "conf": 96.506,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "get much of it from the animals and birds to give",
+      "x": 0.5178,
+      "y": 0.0226,
+      "w": 0.3712,
+      "h": 0.0613,
+      "words": [
+        "get",
+        "much",
+        "of",
+        "it",
+        "from",
+        "the",
         "animals",
         "and",
         "birds",
         "to",
-        "give",
-        "us",
-        "food.",
+        "give"
+      ],
+      "conf": 96.0757,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Great parts of the earth are which grows with narrow green roots quickly. There are more ferent sorts of grasses growing.",
+      "x": 0.0908,
+      "y": 0.1415,
+      "w": 0.4635,
+      "h": 0.0995,
+      "words": [
         "Great",
         "parts",
         "of",
         "the",
         "earth",
         "are",
-        "covered",
-        "with",
-        "grass,",
-        "a",
-        "plant",
         "which",
         "grows",
         "with",
         "narrow",
         "green",
-        "leaves",
-        "and",
-        "puts",
-        "down",
         "roots",
         "quickly.",
         "There",
         "are",
         "more",
-        "than",
-        "three",
-        "thousand",
-        "different",
+        "ferent",
         "sorts",
         "of",
         "grasses",
         "growing."
-      ]
+      ],
+      "conf": 96.6171,
+      "source": "psm-11"
     },
     {
-      "text": "Grass has very small seeds which are used as food by birds and small animals. Man has discovered how to grow grasses with larger seeds.",
-      "x": 0.1,
-      "y": 0.25,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r2",
-      "order": 1,
+      "id": "r4",
+      "order": 3,
+      "text": "covered with grass, a plant leaves and puts down than three thousand dif-",
+      "x": 0.5032,
+      "y": 0.1409,
+      "w": 0.3858,
+      "h": 0.0694,
+      "words": [
+        "covered",
+        "with",
+        "grass,",
+        "a",
+        "plant",
+        "leaves",
+        "and",
+        "puts",
+        "down",
+        "than",
+        "three",
+        "thousand",
+        "dif-"
+      ],
+      "conf": 96.4711,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Grass has very small seeds birds and small animals. Man grasses with larger seeds.",
+      "x": 0.0908,
+      "y": 0.2727,
+      "w": 0.4076,
+      "h": 0.0721,
       "words": [
         "Grass",
         "has",
         "very",
         "small",
         "seeds",
+        "birds",
+        "and",
+        "small",
+        "animals.",
+        "Man",
+        "grasses",
+        "with",
+        "larger",
+        "seeds."
+      ],
+      "conf": 95.381,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "which are used as food by has discovered how to grow",
+      "x": 0.5008,
+      "y": 0.2722,
+      "w": 0.3882,
+      "h": 0.0462,
+      "words": [
         "which",
         "are",
         "used",
         "as",
         "food",
         "by",
-        "birds",
-        "and",
-        "small",
-        "animals.",
-        "Man",
         "has",
         "discovered",
         "how",
         "to",
-        "grow",
-        "grasses",
-        "with",
-        "larger",
-        "seeds."
-      ]
+        "grow"
+      ],
+      "conf": 96.4661,
+      "source": "psm-11"
     },
     {
-      "text": "Wheat, rice, corn, and other grains come from grass. The grain lands of the world have been planted by men. From grain man gets an important part of the food that gives him energy.",
-      "x": 0.1,
-      "y": 0.55,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r3",
-      "order": 2,
+      "id": "r7",
+      "order": 6,
+      "text": "A)",
+      "x": 0.7366,
+      "y": 0.4599,
+      "w": 0.0284,
+      "h": 0.0151,
+      "words": [
+        "A)"
+      ],
+      "conf": 43.6664,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "NA",
+      "x": 0.7901,
+      "y": 0.4578,
+      "w": 0.0292,
+      "h": 0.0151,
+      "words": [
+        "NA"
+      ],
+      "conf": 67.3669,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Wheat, rice, corn, and other grains grain lands of the world have grain man gets an important him energy.",
+      "x": 0.0916,
+      "y": 0.5562,
+      "w": 0.4838,
+      "h": 0.0985,
       "words": [
         "Wheat,",
         "rice,",
@@ -157,67 +276,188 @@
         "and",
         "other",
         "grains",
-        "come",
-        "from",
-        "grass.",
-        "The",
         "grain",
         "lands",
         "of",
         "the",
         "world",
         "have",
-        "been",
-        "planted",
-        "by",
-        "men.",
-        "From",
         "grain",
         "man",
         "gets",
         "an",
         "important",
+        "him",
+        "energy."
+      ],
+      "conf": 96.4677,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "come from grass. The been planted by men. From part of the food that gives",
+      "x": 0.5057,
+      "y": 0.5573,
+      "w": 0.3841,
+      "h": 0.0726,
+      "words": [
+        "come",
+        "from",
+        "grass.",
+        "The",
+        "been",
+        "planted",
+        "by",
+        "men.",
+        "From",
         "part",
         "of",
         "the",
         "food",
         "that",
-        "gives",
-        "him",
-        "energy."
-      ]
+        "gives"
+      ],
+      "conf": 96.4868,
+      "source": "psm-11"
     },
     {
-      "text": "discover: get to know. large: great in size. grow: come up from seeds. FUTURE: will discover/grow. PRESENT: discover(s)/grow(s). PAST: discovered/grew, grown.",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r4",
-      "order": 3,
+      "id": "r11",
+      "order": 10,
+      "text": "discover: make the discovery of, get large: great in size (large, larger, largest).",
+      "x": 0.0948,
+      "y": 0.7687,
+      "w": 0.4635,
+      "h": 0.0328,
       "words": [
         "discover:",
+        "make",
+        "the",
+        "discovery",
+        "of,",
         "get",
-        "to",
-        "know.",
         "large:",
         "great",
         "in",
-        "size.",
+        "size",
+        "(large,",
+        "larger,",
+        "largest)."
+      ],
+      "conf": 96.346,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "to know.",
+      "x": 0.5024,
+      "y": 0.7692,
+      "w": 0.09,
+      "h": 0.0124,
+      "words": [
+        "to",
+        "know."
+      ],
+      "conf": 96.2642,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "grow: come up from seeds in the earth, will grow",
+      "x": 0.094,
+      "y": 0.8042,
+      "w": 0.4303,
+      "h": 0.0624,
+      "words": [
         "grow:",
         "come",
         "up",
         "from",
-        "seeds.",
-        "FUTURE:",
+        "seeds",
+        "in",
+        "the",
+        "earth,",
         "will",
-        "discover/grow.",
-        "PRESENT:",
-        "discover(s)/grow(s).",
-        "PAST:",
-        "discovered/grew,",
-        "grown."
-      ]
+        "grow"
+      ],
+      "conf": 95.1509,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "get larger.",
+      "x": 0.5316,
+      "y": 0.8042,
+      "w": 0.1118,
+      "h": 0.0145,
+      "words": [
+        "get",
+        "larger."
+      ],
+      "conf": 95.8905,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "will discover",
+      "x": 0.0948,
+      "y": 0.8343,
+      "w": 0.1532,
+      "h": 0.0124,
+      "words": [
+        "will",
+        "discover"
+      ],
+      "conf": 96.1174,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "discover(s)",
+      "x": 0.419,
+      "y": 0.8343,
+      "w": 0.1426,
+      "h": 0.0151,
+      "words": [
+        "discover(s)"
+      ],
+      "conf": 85.5546,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "(s)",
+      "x": 0.5073,
+      "y": 0.8515,
+      "w": 0.0357,
+      "h": 0.0156,
+      "words": [
+        "(s)"
+      ],
+      "conf": 67.8349,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "discovered grew, grown",
+      "x": 0.7342,
+      "y": 0.8338,
+      "w": 0.1556,
+      "h": 0.0328,
+      "words": [
+        "discovered",
+        "grew,",
+        "grown"
+      ],
+      "conf": 96.5015,
+      "source": "psm-11"
     }
   ]
 }

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2047.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 9,
-    "wordCount": 81,
+    "regionCount": 11,
+    "wordCount": 79,
     "imageWidth": 1196,
     "imageHeight": 1846
   },
@@ -20,7 +20,7 @@
       "regionIds": [
         "r1",
         "r2",
-        "r3"
+        "r4"
       ]
     },
     {
@@ -31,7 +31,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r3",
+        "r5"
       ]
     },
     {
@@ -42,9 +43,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r6",
-        "r7"
+        "r7",
+        "r9",
+        "r11"
       ]
     },
     {
@@ -55,51 +56,76 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r6",
         "r8",
-        "r9"
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "These are three books.",
-      "x": 0.13,
-      "y": 0.1,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "These are three books.",
+      "x": 0.1271,
+      "y": 0.0948,
+      "w": 0.342,
+      "h": 0.0195,
       "words": [
         "These",
         "are",
         "three",
         "books."
-      ]
+      ],
+      "conf": 96.5044,
+      "source": "psm-11"
     },
     {
-      "text": "They are on a shelf.",
-      "x": 0.13,
-      "y": 0.23,
-      "w": 0.3,
-      "h": 0.03,
       "id": "r2",
       "order": 1,
+      "text": "They are on a shelf.",
+      "x": 0.1246,
+      "y": 0.2226,
+      "w": 0.301,
+      "h": 0.0287,
       "words": [
         "They",
         "are",
         "on",
         "a",
         "shelf."
-      ]
+      ],
+      "conf": 94.1863,
+      "source": "psm-11"
     },
     {
-      "text": "This book is between the other two books.",
-      "x": 0.1,
-      "y": 0.4,
-      "w": 0.4,
-      "h": 0.05,
       "id": "r3",
       "order": 2,
+      "text": "have the book in my hand now.",
+      "x": 0.5627,
+      "y": 0.3353,
+      "w": 0.3252,
+      "h": 0.0444,
+      "words": [
+        "have",
+        "the",
+        "book",
+        "in",
+        "my",
+        "hand",
+        "now."
+      ],
+      "conf": 96.2697,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "This book is between the other two books,",
+      "x": 0.1079,
+      "y": 0.4025,
+      "w": 0.3737,
+      "h": 0.0455,
       "words": [
         "This",
         "book",
@@ -108,26 +134,20 @@
         "the",
         "other",
         "two",
-        "books."
-      ]
+        "books,"
+      ],
+      "conf": 96.4983,
+      "source": "psm-11"
     },
     {
-      "text": "I have the book in my hand now. It was on the shelf. It was between the other two books on the shelf.",
-      "x": 0.55,
-      "y": 0.34,
-      "w": 0.4,
-      "h": 0.12,
-      "id": "r4",
-      "order": 3,
+      "id": "r5",
+      "order": 4,
+      "text": "It was on the shelf. It was between the other two books on the shelf.",
+      "x": 0.5577,
+      "y": 0.3862,
+      "w": 0.3462,
+      "h": 0.0705,
       "words": [
-        "I",
-        "have",
-        "the",
-        "book",
-        "in",
-        "my",
-        "hand",
-        "now.",
         "It",
         "was",
         "on",
@@ -143,34 +163,73 @@
         "on",
         "the",
         "shelf."
-      ]
+      ],
+      "conf": 95.2169,
+      "source": "psm-11"
     },
     {
-      "text": "These are the pages of the book.",
-      "x": 0.13,
-      "y": 0.56,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r5",
-      "order": 4,
+      "id": "r6",
+      "order": 5,
+      "text": "These are the fingers of my hand.",
+      "x": 0.5393,
+      "y": 0.5244,
+      "w": 0.3554,
+      "h": 0.0498,
+      "words": [
+        "These",
+        "are",
+        "the",
+        "fingers",
+        "of",
+        "my",
+        "hand."
+      ],
+      "conf": 93.3992,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "These are the pages of the",
+      "x": 0.1104,
+      "y": 0.5547,
+      "w": 0.3519,
+      "h": 0.0493,
       "words": [
         "These",
         "are",
         "the",
         "pages",
         "of",
-        "the",
-        "book."
-      ]
+        "the"
+      ],
+      "conf": 96.5903,
+      "source": "psm-11"
     },
     {
+      "id": "r8",
+      "order": 7,
+      "text": "This finger between",
+      "x": 0.7383,
+      "y": 0.7237,
+      "w": 0.1313,
+      "h": 0.0965,
+      "words": [
+        "This",
+        "finger",
+        "between"
+      ],
+      "conf": 96.6742,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
       "text": "These are the covers of the book.",
-      "x": 0.13,
-      "y": 0.78,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r6",
-      "order": 5,
+      "x": 0.1162,
+      "y": 0.779,
+      "w": 0.3512,
+      "h": 0.0449,
       "words": [
         "These",
         "are",
@@ -179,16 +238,39 @@
         "of",
         "the",
         "book."
-      ]
+      ],
+      "conf": 96.4105,
+      "source": "psm-11"
     },
     {
+      "id": "r10",
+      "order": 9,
+      "text": "ts hese other two fingers of my hand.",
+      "x": 0.5669,
+      "y": 0.7822,
+      "w": 0.301,
+      "h": 0.0927,
+      "words": [
+        "ts",
+        "hese",
+        "other",
+        "two",
+        "fingers",
+        "of",
+        "my",
+        "hand."
+      ],
+      "conf": 92.4577,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
       "text": "The pages are between the covers of the book.",
-      "x": 0.13,
-      "y": 0.86,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r7",
-      "order": 6,
+      "x": 0.1145,
+      "y": 0.8499,
+      "w": 0.3579,
+      "h": 0.0455,
       "words": [
         "The",
         "pages",
@@ -199,47 +281,9 @@
         "of",
         "the",
         "book."
-      ]
-    },
-    {
-      "text": "These are the fingers of my hand.",
-      "x": 0.53,
-      "y": 0.53,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r8",
-      "order": 7,
-      "words": [
-        "These",
-        "are",
-        "the",
-        "fingers",
-        "of",
-        "my",
-        "hand."
-      ]
-    },
-    {
-      "text": "This finger is between these other two fingers of my hand.",
-      "x": 0.55,
-      "y": 0.72,
-      "w": 0.35,
-      "h": 0.15,
-      "id": "r9",
-      "order": 8,
-      "words": [
-        "This",
-        "finger",
-        "is",
-        "between",
-        "these",
-        "other",
-        "two",
-        "fingers",
-        "of",
-        "my",
-        "hand."
-      ]
+      ],
+      "conf": 96.3871,
+      "source": "psm-11"
     }
   ]
 }

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20216.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 147,
+    "regionCount": 11,
+    "wordCount": 142,
     "imageWidth": 1142,
     "imageHeight": 1884
   },
@@ -19,7 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r2",
-        "r3"
+        "r4"
       ]
     },
     {
@@ -31,7 +31,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r4",
+        "r3",
         "r5"
       ]
     },
@@ -44,7 +44,8 @@
       "h": 0.5,
       "regionIds": [
         "r6",
-        "r7"
+        "r9",
+        "r10"
       ]
     },
     {
@@ -55,53 +56,77 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r7",
         "r8",
-        "r9",
-        "r10"
+        "r11"
       ]
     }
   ],
   "regions": [
     {
-      "text": "QUESTIONS",
-      "x": 0.4,
-      "y": 0.1,
-      "w": 0.2,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "QUESTIONS",
+      "x": 0.4081,
+      "y": 0.1046,
+      "w": 0.2058,
+      "h": 0.0186,
       "words": [
         "QUESTIONS"
-      ]
+      ],
+      "conf": 96.2894,
+      "source": "psm-11"
     },
     {
-      "text": "a",
-      "x": 0.08,
-      "y": 0.18,
-      "w": 0.02,
-      "h": 0.02,
       "id": "r2",
       "order": 1,
+      "text": "a We put a bottle on a shelf.",
+      "x": 0.0744,
+      "y": 0.1858,
+      "w": 0.345,
+      "h": 0.0446,
       "words": [
-        "a"
-      ]
-    },
-    {
-      "text": "We put a bottle on a shelf. Which of these things may we put on a shelf: a book, a mountain, a cup, a box, a star, a clock, a horse, a distance, a plate, a carriage, a river, a house, a spoon, a garden?",
-      "x": 0.12,
-      "y": 0.18,
-      "w": 0.35,
-      "h": 0.3,
-      "id": "r3",
-      "order": 2,
-      "words": [
+        "a",
         "We",
         "put",
         "a",
         "bottle",
         "on",
         "a",
-        "shelf.",
+        "shelf."
+      ],
+      "conf": 94.3416,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "b We put potatoes in a pot.",
+      "x": 0.5534,
+      "y": 0.1863,
+      "w": 0.3433,
+      "h": 0.0488,
+      "words": [
+        "b",
+        "We",
+        "put",
+        "potatoes",
+        "in",
+        "a",
+        "pot."
+      ],
+      "conf": 95.1836,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Which of these things may we put ona a book, a mountain, a cup, a box, a star, a clock, a horse, a distance, a plate, a carriage, a river, a house, a spoon, a garden?",
+      "x": 0.1173,
+      "y": 0.2362,
+      "w": 0.324,
+      "h": 0.2468,
+      "words": [
         "Which",
         "of",
         "these",
@@ -109,9 +134,7 @@
         "may",
         "we",
         "put",
-        "on",
-        "a",
-        "shelf:",
+        "ona",
         "a",
         "book,",
         "a",
@@ -140,35 +163,19 @@
         "spoon,",
         "a",
         "garden?"
-      ]
+      ],
+      "conf": 96.5557,
+      "source": "psm-11"
     },
     {
-      "text": "b",
-      "x": 0.53,
-      "y": 0.18,
-      "w": 0.02,
-      "h": 0.02,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "b"
-      ]
-    },
-    {
-      "text": "We put potatoes in a pot. Which of these things may we put in a pot: water, windows, food, streets, tables, milk, soup, trains, salt, colors, eggs, wood, ideas?",
-      "x": 0.58,
-      "y": 0.18,
-      "w": 0.35,
-      "h": 0.25,
       "id": "r5",
       "order": 4,
+      "text": "Which of these things may we put in a pot: water, windows, food, streets, tables, milk, soup, trains, salt, colors, eggs, wood, ideas?",
+      "x": 0.5928,
+      "y": 0.2373,
+      "w": 0.3406,
+      "h": 0.1719,
       "words": [
-        "We",
-        "put",
-        "potatoes",
-        "in",
-        "a",
-        "pot.",
         "Which",
         "of",
         "these",
@@ -192,88 +199,56 @@
         "eggs,",
         "wood,",
         "ideas?"
-      ]
+      ],
+      "conf": 96.7817,
+      "source": "psm-11"
     },
     {
-      "text": "c",
-      "x": 0.08,
-      "y": 0.51,
-      "w": 0.02,
-      "h": 0.02,
       "id": "r6",
       "order": 5,
-      "words": [
-        "c"
-      ]
-    },
-    {
-      "text": "We put money in our pockets. Which of these things may we put in our pockets: pipes, education, letters, pencils, offices, islands, maps, hands, governments, buttons, watches, distance, balls, roofs, knives?",
-      "x": 0.12,
-      "y": 0.51,
-      "w": 0.35,
-      "h": 0.3,
-      "id": "r7",
-      "order": 6,
+      "text": "We put money in our pockets.",
+      "x": 0.1165,
+      "y": 0.5122,
+      "w": 0.2732,
+      "h": 0.0467,
       "words": [
         "We",
         "put",
         "money",
         "in",
         "our",
-        "pockets.",
-        "Which",
-        "of",
-        "these",
-        "things",
-        "may",
-        "we",
-        "put",
-        "in",
-        "our",
-        "pockets:",
-        "pipes,",
-        "education,",
-        "letters,",
-        "pencils,",
-        "offices,",
-        "islands,",
-        "maps,",
-        "hands,",
-        "governments,",
-        "buttons,",
-        "watches,",
-        "distance,",
-        "balls,",
-        "roofs,",
-        "knives?"
-      ]
+        "pockets."
+      ],
+      "conf": 96.5585,
+      "source": "psm-11"
     },
     {
-      "text": "d",
-      "x": 0.53,
-      "y": 0.51,
-      "w": 0.02,
-      "h": 0.02,
-      "id": "r8",
-      "order": 7,
-      "words": [
-        "d"
-      ]
-    },
-    {
-      "text": "We put our hats on. Which of these things may we put on: feet, boots, seats, gloves, shirts, walls, directions, coats, buildings, soap, scissors, collars, locks, socks, trousers, branches, trays, shoes, apples?",
-      "x": 0.58,
-      "y": 0.51,
-      "w": 0.35,
-      "h": 0.28,
-      "id": "r9",
-      "order": 8,
+      "id": "r7",
+      "order": 6,
+      "text": "We put our hats on.",
+      "x": 0.5937,
+      "y": 0.5127,
+      "w": 0.3144,
+      "h": 0.0228,
       "words": [
         "We",
         "put",
         "our",
         "hats",
-        "on.",
+        "on."
+      ],
+      "conf": 96.1123,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Which of these things may we put on: feet, boots, seats, gloves, shirts, walls, directions, coats, buildings, soap, scissors, collars, locks, socks, trousers, branches, trays, shoes, apples?",
+      "x": 0.5867,
+      "y": 0.5372,
+      "w": 0.352,
+      "h": 0.2229,
+      "words": [
         "Which",
         "of",
         "these",
@@ -301,23 +276,77 @@
         "trays,",
         "shoes,",
         "apples?"
-      ]
+      ],
+      "conf": 96.4928,
+      "source": "psm-11"
     },
     {
-      "text": "Answers are on page 212.",
-      "x": 0.3,
-      "y": 0.81,
-      "w": 0.4,
-      "h": 0.03,
+      "id": "r9",
+      "order": 8,
+      "text": "Which of these things may we put in our pockets: pipes, education, letters, pencils, offices, islands, maps, hands, governments, buttons, watches, distance, balls, roofs, knives?",
+      "x": 0.1147,
+      "y": 0.5605,
+      "w": 0.352,
+      "h": 0.2197,
+      "words": [
+        "Which",
+        "of",
+        "these",
+        "things",
+        "may",
+        "we",
+        "put",
+        "in",
+        "our",
+        "pockets:",
+        "pipes,",
+        "education,",
+        "letters,",
+        "pencils,",
+        "offices,",
+        "islands,",
+        "maps,",
+        "hands,",
+        "governments,",
+        "buttons,",
+        "watches,",
+        "distance,",
+        "balls,",
+        "roofs,",
+        "knives?"
+      ],
+      "conf": 96.1295,
+      "source": "psm-11"
+    },
+    {
       "id": "r10",
       "order": 9,
+      "text": "Answers are",
+      "x": 0.2977,
+      "y": 0.81,
+      "w": 0.1944,
+      "h": 0.0186,
       "words": [
         "Answers",
-        "are",
+        "are"
+      ],
+      "conf": 96.245,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "on page",
+      "x": 0.5035,
+      "y": 0.8163,
+      "w": 0.1322,
+      "h": 0.017,
+      "words": [
         "on",
-        "page",
-        "212."
-      ]
+        "page"
+      ],
+      "conf": 96.0028,
+      "source": "psm-11"
     }
   ]
 }

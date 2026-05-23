@@ -4,12 +4,24 @@
   "imageApiPath": "/api/books/page%20492.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 77,
+    "regionCount": 12,
+    "wordCount": 119,
     "imageWidth": 1205,
     "imageHeight": 1875
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +30,22 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r7",
+        "r9",
+        "r10"
       ]
     },
     {
@@ -30,132 +56,288 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r6",
+        "r8",
+        "r11",
+        "r12"
       ]
     }
   ],
   "regions": [
     {
-      "text": "The earth is far older than we can imagine. Time stretches long into the past and far into the future.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "However we try to think of earth is older than our minds Things have been going on think of and they will go time in the future than we can",
+      "x": 0.1046,
+      "y": 0.0448,
+      "w": 0.4191,
+      "h": 0.1477,
       "words": [
-        "The",
+        "However",
+        "we",
+        "try",
+        "to",
+        "think",
+        "of",
         "earth",
         "is",
-        "far",
         "older",
+        "than",
+        "our",
+        "minds",
+        "Things",
+        "have",
+        "been",
+        "going",
+        "on",
+        "think",
+        "of",
+        "and",
+        "they",
+        "will",
+        "go",
+        "time",
+        "in",
+        "the",
+        "future",
+        "than",
+        "we",
+        "can"
+      ],
+      "conf": 96.7074,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "time, it seems certain that the can take in.",
+      "x": 0.5037,
+      "y": 0.0437,
+      "w": 0.4158,
+      "h": 0.0437,
+      "words": [
+        "time,",
+        "it",
+        "seems",
+        "certain",
+        "that",
+        "the",
+        "can",
+        "take",
+        "in."
+      ],
+      "conf": 96.8845,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "for a longer time than we can on and on through a longer think of.",
+      "x": 0.5021,
+      "y": 0.1227,
+      "w": 0.4199,
+      "h": 0.0688,
+      "words": [
+        "for",
+        "a",
+        "longer",
+        "time",
         "than",
         "we",
         "can",
-        "imagine.",
-        "Time",
-        "stretches",
-        "long",
-        "into",
-        "the",
-        "past",
+        "on",
         "and",
-        "far",
-        "into",
-        "the",
-        "future."
-      ]
-    },
-    {
-      "text": "(Illustration: A person sitting by a lake among ancient mountains, contemplating the passage of time).",
-      "x": 0.1,
-      "y": 0.22,
-      "w": 0.85,
-      "h": 0.3,
-      "id": "r2",
-      "order": 1,
-      "words": [
-        "(Illustration:",
-        "A",
-        "person",
-        "sitting",
-        "by",
+        "on",
+        "through",
         "a",
-        "lake",
-        "among",
-        "ancient",
-        "mountains,",
-        "contemplating",
-        "the",
-        "passage",
-        "of",
-        "time)."
-      ]
+        "longer",
+        "think",
+        "of."
+      ],
+      "conf": 96.2994,
+      "source": "psm-11"
     },
     {
-      "text": "Seventy years is long compared to a minute, but nothing compared to a stone. A Chinese poem says: 'Quickly the years fly past forever, Here forever is this spring morning.'",
-      "x": 0.1,
-      "y": 0.52,
-      "w": 0.85,
-      "h": 0.3,
-      "id": "r3",
-      "order": 2,
+      "id": "r4",
+      "order": 3,
+      "text": "om,",
+      "x": 0.2697,
+      "y": 0.2965,
+      "w": 0.0274,
+      "h": 0.0171,
+      "words": [
+        "om,"
+      ],
+      "conf": 38.3973,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Seventy years seems a long the present minute. But if stone it seems no time at all.",
+      "x": 0.1095,
+      "y": 0.5355,
+      "w": 0.4116,
+      "h": 0.0688,
       "words": [
         "Seventy",
         "years",
-        "is",
+        "seems",
+        "a",
         "long",
+        "the",
+        "present",
+        "minute.",
+        "But",
+        "if",
+        "stone",
+        "it",
+        "seems",
+        "no",
+        "time",
+        "at",
+        "all."
+      ],
+      "conf": 96.4926,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "life-time if compared with compared with the age of a",
+      "x": 0.5129,
+      "y": 0.536,
+      "w": 0.4108,
+      "h": 0.048,
+      "words": [
+        "life-time",
+        "if",
         "compared",
-        "to",
-        "a",
-        "minute,",
-        "but",
-        "nothing",
+        "with",
         "compared",
-        "to",
+        "with",
+        "the",
+        "age",
+        "of",
+        "a"
+      ],
+      "conf": 96.7354,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "There is a Chinese poem which",
+      "x": 0.1112,
+      "y": 0.6389,
+      "w": 0.4373,
+      "h": 0.0213,
+      "words": [
+        "There",
+        "is",
         "a",
-        "stone.",
-        "A",
         "Chinese",
         "poem",
+        "which"
+      ],
+      "conf": 96.5722,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "says: fly past forever, spring morning.",
+      "x": 0.5212,
+      "y": 0.6448,
+      "w": 0.2597,
+      "h": 0.0811,
+      "words": [
         "says:",
-        "'Quickly",
-        "the",
-        "years",
         "fly",
         "past",
         "forever,",
+        "spring",
+        "morning."
+      ],
+      "conf": 96.7622,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Quickly the years Here forever is this",
+      "x": 0.2531,
+      "y": 0.6779,
+      "w": 0.2863,
+      "h": 0.0432,
+      "words": [
+        "Quickly",
+        "the",
+        "years",
         "Here",
         "forever",
         "is",
-        "this",
-        "spring",
-        "morning.'"
-      ]
+        "this"
+      ],
+      "conf": 96.5104,
+      "source": "psm-11"
     },
     {
-      "text": "poem: a way of expressing a person's complete thoughts and feelings perfectly.",
-      "x": 0.1,
-      "y": 0.82,
-      "w": 0.85,
-      "h": 0.12,
-      "id": "r4",
-      "order": 3,
+      "id": "r10",
+      "order": 9,
+      "text": "poem: something said for the complete desires, hopes, fears...) in the",
+      "x": 0.1112,
+      "y": 0.832,
+      "w": 0.4755,
+      "h": 0.0331,
       "words": [
         "poem:",
-        "a",
-        "way",
-        "of",
-        "expressing",
-        "a",
-        "person's",
+        "something",
+        "said",
+        "for",
+        "the",
         "complete",
-        "thoughts",
-        "and",
-        "feelings",
-        "perfectly."
-      ]
+        "desires,",
+        "hopes,",
+        "fears...)",
+        "in",
+        "the"
+      ],
+      "conf": 96.4451,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "best poss’ way.",
+      "x": 0.5411,
+      "y": 0.8501,
+      "w": 0.21,
+      "h": 0.0155,
+      "words": [
+        "best",
+        "poss’",
+        "way."
+      ],
+      "conf": 86.0546,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "man (his thoughts, feelings,",
+      "x": 0.6025,
+      "y": 0.8331,
+      "w": 0.3212,
+      "h": 0.0155,
+      "words": [
+        "man",
+        "(his",
+        "thoughts,",
+        "feelings,"
+      ],
+      "conf": 94.9135,
+      "source": "psm-11"
     }
   ]
 }

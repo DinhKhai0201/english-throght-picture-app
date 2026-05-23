@@ -5,7 +5,7 @@
   "layout": "single",
   "stats": {
     "regionCount": 3,
-    "wordCount": 13,
+    "wordCount": 11,
     "imageWidth": 1142,
     "imageHeight": 1855
   },
@@ -26,50 +26,54 @@
   ],
   "regions": [
     {
-      "text": "QUESTIONS",
-      "x": 0.08,
-      "y": 0.08,
-      "w": 0.2,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "ew ewe wee we",
+      "x": 0.2391,
+      "y": 0.4868,
+      "w": 0.2233,
+      "h": 0.0151,
       "words": [
-        "QUESTIONS"
-      ]
+        "ew",
+        "ewe",
+        "wee",
+        "we"
+      ],
+      "conf": 45.3874,
+      "source": "psm-11"
     },
     {
-      "text": "What do you see?",
-      "x": 0.38,
-      "y": 0.08,
-      "w": 0.3,
-      "h": 0.03,
       "id": "r2",
       "order": 1,
-      "words": [
-        "What",
-        "do",
-        "you",
-        "see?"
-      ]
-    },
-    {
-      "text": "Answers to these questions are on page 57.",
-      "x": 0.15,
-      "y": 0.88,
-      "w": 0.7,
-      "h": 0.03,
-      "id": "r3",
-      "order": 2,
+      "text": "Answers to these questions",
+      "x": 0.1602,
+      "y": 0.8884,
+      "w": 0.4291,
+      "h": 0.0243,
       "words": [
         "Answers",
         "to",
         "these",
-        "questions",
+        "questions"
+      ],
+      "conf": 96.6377,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "are on page",
+      "x": 0.5998,
+      "y": 0.8943,
+      "w": 0.1996,
+      "h": 0.0178,
+      "words": [
         "are",
         "on",
-        "page",
-        "57."
-      ]
+        "page"
+      ],
+      "conf": 96.6534,
+      "source": "psm-11"
     }
   ]
 }

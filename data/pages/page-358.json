@@ -4,12 +4,25 @@
   "imageApiPath": "/api/books/page%20358.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 117,
+    "regionCount": 13,
+    "wordCount": 115,
     "imageWidth": 1225,
     "imageHeight": 1867
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4",
+        "r6"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +31,24 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r3",
+        "r5",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r10",
+        "r11",
+        "r12"
       ]
     },
     {
@@ -30,20 +59,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r9",
+        "r13"
       ]
     }
   ],
   "regions": [
     {
-      "text": "All men need air; we breathe in air from outside our bodies in every breath. When you put your face under water you cannot keep it there long.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.1,
       "id": "r1",
       "order": 0,
+      "text": "All men need air; we breathe bodies in every breath.",
+      "x": 0.1102,
+      "y": 0.0364,
+      "w": 0.44,
+      "h": 0.0535,
       "words": [
         "All",
         "men",
@@ -51,15 +80,41 @@
         "air;",
         "we",
         "breathe",
+        "bodies",
+        "in",
+        "every",
+        "breath."
+      ],
+      "conf": 96.2468,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "in air from outside our",
+      "x": 0.5633,
+      "y": 0.0364,
+      "w": 0.3543,
+      "h": 0.0262,
+      "words": [
         "in",
         "air",
         "from",
         "outside",
-        "our",
-        "bodies",
-        "in",
-        "every",
-        "breath.",
+        "our"
+      ],
+      "conf": 96.4466,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "When you put your face under water you cannot keep it there long.",
+      "x": 0.591,
+      "y": 0.1184,
+      "w": 0.3241,
+      "h": 0.099,
+      "words": [
         "When",
         "you",
         "put",
@@ -73,39 +128,61 @@
         "it",
         "there",
         "long."
-      ]
+      ],
+      "conf": 96.4435,
+      "source": "psm-11"
     },
     {
-      "text": "A swimmer can't swim under water very long. He needs air. A good swimmer may swim with his face in the water; if so, he keeps turning his head to take a breath through his mouth.",
-      "x": 0.1,
-      "y": 0.25,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r2",
-      "order": 1,
+      "id": "r4",
+      "order": 3,
+      "text": "A swimmer can’t swim under alr.",
+      "x": 0.1078,
+      "y": 0.2475,
+      "w": 0.4212,
+      "h": 0.0433,
       "words": [
         "A",
         "swimmer",
-        "can't",
+        "can’t",
         "swim",
         "under",
+        "alr."
+      ],
+      "conf": 94.9419,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "water very long. He needs",
+      "x": 0.538,
+      "y": 0.248,
+      "w": 0.3747,
+      "h": 0.0214,
+      "words": [
         "water",
         "very",
         "long.",
         "He",
-        "needs",
-        "air.",
+        "needs"
+      ],
+      "conf": 96.5585,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "A good swimmer may swim if so, he keeps turning his head his mouth.",
+      "x": 0.1069,
+      "y": 0.3262,
+      "w": 0.4457,
+      "h": 0.0696,
+      "words": [
         "A",
         "good",
         "swimmer",
         "may",
         "swim",
-        "with",
-        "his",
-        "face",
-        "in",
-        "the",
-        "water;",
         "if",
         "so,",
         "he",
@@ -113,23 +190,44 @@
         "turning",
         "his",
         "head",
+        "his",
+        "mouth."
+      ],
+      "conf": 96.3121,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "with his face in the water; to take a breath through",
+      "x": 0.529,
+      "y": 0.3257,
+      "w": 0.3829,
+      "h": 0.0482,
+      "words": [
+        "with",
+        "his",
+        "face",
+        "in",
+        "the",
+        "water;",
         "to",
         "take",
         "a",
         "breath",
-        "through",
-        "his",
-        "mouth."
-      ]
+        "through"
+      ],
+      "conf": 96.3973,
+      "source": "psm-11"
     },
     {
-      "text": "He does not take in air through his nose under the water because water would get in through his nose with the air and go to his lungs. With water in his lungs a man can't go on living.",
-      "x": 0.1,
-      "y": 0.58,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r3",
-      "order": 2,
+      "id": "r8",
+      "order": 7,
+      "text": "He does not take in air through because water would get in through and go to his lungs. With water go on living.",
+      "x": 0.1045,
+      "y": 0.5592,
+      "w": 0.5036,
+      "h": 0.1007,
       "words": [
         "He",
         "does",
@@ -138,22 +236,12 @@
         "in",
         "air",
         "through",
-        "his",
-        "nose",
-        "under",
-        "the",
-        "water",
         "because",
         "water",
         "would",
         "get",
         "in",
         "through",
-        "his",
-        "nose",
-        "with",
-        "the",
-        "air",
         "and",
         "go",
         "to",
@@ -161,41 +249,105 @@
         "lungs.",
         "With",
         "water",
+        "go",
+        "on",
+        "living."
+      ],
+      "conf": 96.5329,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "his nose under the water his nose with the air in his lungs a man can’t",
+      "x": 0.5584,
+      "y": 0.5597,
+      "w": 0.3502,
+      "h": 0.0745,
+      "words": [
+        "his",
+        "nose",
+        "under",
+        "the",
+        "water",
+        "his",
+        "nose",
+        "with",
+        "the",
+        "air",
         "in",
         "his",
         "lungs",
         "a",
         "man",
-        "can't",
-        "go",
-        "on",
-        "living."
-      ]
+        "can’t"
+      ],
+      "conf": 96.5492,
+      "source": "psm-11"
     },
     {
-      "text": "swim: be swimming. lung: see next page. FUTURE: will swim. PRESENT: swim(s). PAST: swam.",
-      "x": 0.1,
-      "y": 0.8,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r4",
-      "order": 3,
+      "id": "r10",
+      "order": 9,
+      "text": "fung: see top of next poge.",
+      "x": 0.1029,
+      "y": 0.819,
+      "w": 0.2971,
+      "h": 0.0177,
+      "words": [
+        "fung:",
+        "see",
+        "top",
+        "of",
+        "next",
+        "poge."
+      ],
+      "conf": 91.8817,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "swim: be swimming.",
+      "x": 0.1037,
+      "y": 0.8024,
+      "w": 0.2269,
+      "h": 0.0155,
       "words": [
         "swim:",
         "be",
-        "swimming.",
-        "lung:",
-        "see",
-        "next",
-        "page.",
-        "FUTURE:",
+        "swimming."
+      ],
+      "conf": 94.6021,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "will swim",
+      "x": 0.0996,
+      "y": 0.8479,
+      "w": 0.1192,
+      "h": 0.0198,
+      "words": [
         "will",
-        "swim.",
-        "PRESENT:",
-        "swim(s).",
-        "PAST:",
-        "swam."
-      ]
+        "swim"
+      ],
+      "conf": 95.5218,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "swim(s)",
+      "x": 0.4482,
+      "y": 0.8511,
+      "w": 0.1037,
+      "h": 0.0198,
+      "words": [
+        "swim(s)"
+      ],
+      "conf": 90.3271,
+      "source": "psm-11"
     }
   ]
 }

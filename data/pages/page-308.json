@@ -4,12 +4,25 @@
   "imageApiPath": "/api/books/page%20308.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 95,
+    "regionCount": 23,
+    "wordCount": 112,
     "imageWidth": 1230,
     "imageHeight": 1942
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r6",
+        "r9"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,7 +31,28 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r7",
+        "r8",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r12",
+        "r14",
+        "r15",
+        "r18",
+        "r19"
       ]
     },
     {
@@ -29,49 +63,176 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3",
-        "r4"
+        "r11",
+        "r13",
+        "r16",
+        "r17",
+        "r20",
+        "r21",
+        "r22",
+        "r23"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Hundreds of families may make their homes in one apartment house.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.1,
       "id": "r1",
       "order": 0,
+      "text": "Hundreds of families may make ment house.",
+      "x": 0.1154,
+      "y": 0.0602,
+      "w": 0.4455,
+      "h": 0.0433,
       "words": [
         "Hundreds",
         "of",
         "families",
         "may",
         "make",
+        "ment",
+        "house."
+      ],
+      "conf": 96.5094,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "their homes in one apart-",
+      "x": 0.5667,
+      "y": 0.0577,
+      "w": 0.3439,
+      "h": 0.0273,
+      "words": [
         "their",
         "homes",
         "in",
         "one",
-        "apartment",
-        "house."
-      ]
+        "apart-"
+      ],
+      "conf": 95.2837,
+      "source": "psm-11"
     },
     {
-      "text": "In these stores people who live in the city can buy food, clothing and supplies of everything they need. Some stores sell food, some sell clothing and some sell furniture. In most cities there are great stores which sell almost everything. They supply these families with what they need.",
-      "x": 0.1,
-      "y": 0.42,
-      "w": 0.85,
-      "h": 0.35,
-      "id": "r2",
-      "order": 1,
+      "id": "r3",
+      "order": 2,
+      "text": "LLLL",
+      "x": 0.4837,
+      "y": 0.2497,
+      "w": 0.0683,
+      "h": 0.018,
+      "words": [
+        "LLLL"
+      ],
+      "conf": 77.7345,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "LLLL LLLL LLL",
+      "x": 0.4854,
+      "y": 0.2621,
+      "w": 0.2552,
+      "h": 0.0664,
+      "words": [
+        "LLLL",
+        "LLLL",
+        "LLL"
+      ],
+      "conf": 84.615,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "LLL LLL",
+      "x": 0.5992,
+      "y": 0.2456,
+      "w": 0.0545,
+      "h": 0.051,
+      "words": [
+        "LLL",
+        "LLL"
+      ],
+      "conf": 90.5323,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "LL tr)",
+      "x": 0.2691,
+      "y": 0.3079,
+      "w": 0.0618,
+      "h": 0.0459,
+      "words": [
+        "LL",
+        "tr)"
+      ],
+      "conf": 94.8329,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "ELL LLL",
+      "x": 0.6,
+      "y": 0.3048,
+      "w": 0.0528,
+      "h": 0.05,
+      "words": [
+        "ELL",
+        "LLL"
+      ],
+      "conf": 60.1103,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "LLLL",
+      "x": 0.6764,
+      "y": 0.3162,
+      "w": 0.0642,
+      "h": 0.0232,
+      "words": [
+        "LLLL"
+      ],
+      "conf": 69.5199,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "In these stores people who clothing and supplies of",
+      "x": 0.1195,
+      "y": 0.4114,
+      "w": 0.3813,
+      "h": 0.0464,
       "words": [
         "In",
         "these",
         "stores",
         "people",
         "who",
+        "clothing",
+        "and",
+        "supplies",
+        "of"
+      ],
+      "conf": 96.3473,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "live in the city can buy food, everything they need.",
+      "x": 0.5041,
+      "y": 0.4114,
+      "w": 0.4097,
+      "h": 0.0464,
+      "words": [
         "live",
         "in",
         "the",
@@ -79,53 +240,111 @@
         "can",
         "buy",
         "food,",
-        "clothing",
-        "and",
-        "supplies",
-        "of",
         "everything",
         "they",
-        "need.",
+        "need."
+      ],
+      "conf": 96.5806,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "ape:",
+      "x": 0.7293,
+      "y": 0.499,
+      "w": 0.1862,
+      "h": 0.0433,
+      "words": [
+        "ape:"
+      ],
+      "conf": 41.4061,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "Some stores sell food, some furniture. In most cities there almost everything. They supply they need.",
+      "x": 0.1195,
+      "y": 0.6411,
+      "w": 0.4472,
+      "h": 0.0963,
+      "words": [
         "Some",
         "stores",
         "sell",
         "food,",
         "some",
-        "sell",
-        "clothing",
-        "and",
-        "some",
-        "sell",
         "furniture.",
         "In",
         "most",
         "cities",
         "there",
+        "almost",
+        "everything.",
+        "They",
+        "supply",
+        "they",
+        "need."
+      ],
+      "conf": 96.4699,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "sell clothing and some sell are great stores which sell these families with what",
+      "x": 0.5366,
+      "y": 0.6406,
+      "w": 0.3788,
+      "h": 0.0674,
+      "words": [
+        "sell",
+        "clothing",
+        "and",
+        "some",
+        "sell",
         "are",
         "great",
         "stores",
         "which",
         "sell",
-        "almost",
-        "everything.",
-        "They",
-        "supply",
         "these",
         "families",
         "with",
-        "what",
-        "they",
-        "need."
-      ]
+        "what"
+      ],
+      "conf": 96.0174,
+      "source": "psm-11"
     },
     {
-      "text": "buy: get something by giving money for it. sell: supply for money. If I buy something from you, you sell it to me. supply: give a supply of.",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r3",
-      "order": 2,
+      "id": "r14",
+      "order": 13,
+      "text": "sell: supply for money. If buy something",
+      "x": 0.1211,
+      "y": 0.7698,
+      "w": 0.4667,
+      "h": 0.0144,
+      "words": [
+        "sell:",
+        "supply",
+        "for",
+        "money.",
+        "If",
+        "buy",
+        "something"
+      ],
+      "conf": 94.9975,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "buy: get something by giving money supply: give a supply of.",
+      "x": 0.1211,
+      "y": 0.7533,
+      "w": 0.4009,
+      "h": 0.0484,
       "words": [
         "buy:",
         "get",
@@ -133,47 +352,139 @@
         "by",
         "giving",
         "money",
-        "for",
-        "it.",
-        "sell:",
-        "supply",
-        "for",
-        "money.",
-        "If",
-        "I",
-        "buy",
-        "something",
-        "from",
-        "you,",
-        "you",
-        "sell",
-        "it",
-        "to",
-        "me.",
         "supply:",
         "give",
         "a",
         "supply",
         "of."
-      ]
+      ],
+      "conf": 96.208,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will buy/sell/supply. PRESENT: buy(s)/sell(s)/supply(ies). PAST: bought/sold/supplied.",
-      "x": 0.1,
-      "y": 0.88,
-      "w": 0.85,
-      "h": 0.08,
-      "id": "r4",
-      "order": 3,
+      "id": "r16",
+      "order": 15,
+      "text": "for it.",
+      "x": 0.5293,
+      "y": 0.7539,
+      "w": 0.0585,
+      "h": 0.0113,
       "words": [
-        "FUTURE:",
+        "for",
+        "it."
+      ],
+      "conf": 95.8055,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "from you, you sell It to me.",
+      "x": 0.5976,
+      "y": 0.7698,
+      "w": 0.2927,
+      "h": 0.0149,
+      "words": [
+        "from",
+        "you,",
+        "you",
+        "sell",
+        "It",
+        "to",
+        "me."
+      ],
+      "conf": 92.1439,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "will sell",
+      "x": 0.1195,
+      "y": 0.8311,
+      "w": 0.0927,
+      "h": 0.0134,
+      "words": [
         "will",
-        "buy/sell/supply.",
-        "PRESENT:",
-        "buy(s)/sell(s)/supply(ies).",
-        "PAST:",
-        "bought/sold/supplied."
-      ]
+        "sell"
+      ],
+      "conf": 74.1521,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "will buy will supply",
+      "x": 0.1195,
+      "y": 0.8162,
+      "w": 0.1317,
+      "h": 0.0483,
+      "words": [
+        "will",
+        "buy",
+        "will",
+        "supply"
+      ],
+      "conf": 96.0439,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "buy(s) seli(s)",
+      "x": 0.4772,
+      "y": 0.8157,
+      "w": 0.0829,
+      "h": 0.0323,
+      "words": [
+        "buy(s)",
+        "seli(s)"
+      ],
+      "conf": 82.4071,
+      "source": "psm-11"
+    },
+    {
+      "id": "r21",
+      "order": 20,
+      "text": "bought (les)",
+      "x": 0.5317,
+      "y": 0.8151,
+      "w": 0.3845,
+      "h": 0.0547,
+      "words": [
+        "bought",
+        "(les)"
+      ],
+      "conf": 96.3314,
+      "source": "psm-11"
+    },
+    {
+      "id": "r22",
+      "order": 21,
+      "text": "supplied",
+      "x": 0.8146,
+      "y": 0.8486,
+      "w": 0.1,
+      "h": 0.0149,
+      "words": [
+        "supplied"
+      ],
+      "conf": 89.1525,
+      "source": "psm-11"
+    },
+    {
+      "id": "r23",
+      "order": 22,
+      "text": "sold",
+      "x": 0.8675,
+      "y": 0.8321,
+      "w": 0.048,
+      "h": 0.0113,
+      "words": [
+        "sold"
+      ],
+      "conf": 96.1015,
+      "source": "psm-11"
     }
   ]
 }

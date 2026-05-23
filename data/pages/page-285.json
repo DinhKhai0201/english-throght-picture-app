@@ -4,12 +4,33 @@
   "imageApiPath": "/api/books/page%20285.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 132,
+    "regionCount": 31,
+    "wordCount": 136,
     "imageWidth": 1259,
     "imageHeight": 1813
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r4",
+        "r6",
+        "r10",
+        "r13",
+        "r14",
+        "r17",
+        "r19",
+        "r20",
+        "r21"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,9 +39,33 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
         "r2",
-        "r3"
+        "r5",
+        "r7",
+        "r8",
+        "r9",
+        "r11",
+        "r12",
+        "r15",
+        "r16",
+        "r18"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r22",
+        "r23",
+        "r25",
+        "r26",
+        "r27",
+        "r28",
+        "r31"
       ]
     },
     {
@@ -31,19 +76,21 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r24",
+        "r29",
+        "r30"
       ]
     }
   ],
   "regions": [
     {
-      "text": "In English we do not make statements like this: She gave you money to I. That is wrong. We make statements like this: She gave your money to me. That is right.",
-      "x": 0.1,
-      "y": 0.1,
-      "w": 0.8,
-      "h": 0.12,
       "id": "r1",
       "order": 0,
+      "text": "In English we do not make statements",
+      "x": 0.1048,
+      "y": 0.1081,
+      "w": 0.4694,
+      "h": 0.0204,
       "words": [
         "In",
         "English",
@@ -51,122 +98,430 @@
         "do",
         "not",
         "make",
-        "statements",
+        "statements"
+      ],
+      "conf": 93.9596,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "like this: That Is wrong.",
+      "x": 0.5838,
+      "y": 0.1098,
+      "w": 0.2049,
+      "h": 0.0562,
+      "words": [
         "like",
         "this:",
+        "That",
+        "Is",
+        "wrong."
+      ],
+      "conf": 96.7819,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "She gave you money to We make statements like this:",
+      "x": 0.1041,
+      "y": 0.1434,
+      "w": 0.3987,
+      "h": 0.0513,
+      "words": [
         "She",
         "gave",
         "you",
         "money",
         "to",
-        "I.",
-        "That",
-        "is",
-        "wrong.",
         "We",
         "make",
         "statements",
         "like",
-        "this:",
+        "this:"
+      ],
+      "conf": 96.6397,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "She gave your money to my",
+      "x": 0.2073,
+      "y": 0.2124,
+      "w": 0.3082,
+      "h": 0.0562,
+      "words": [
         "She",
         "gave",
         "your",
         "money",
         "to",
+        "my"
+      ],
+      "conf": 96.1202,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "me. That fs right.",
+      "x": 0.525,
+      "y": 0.214,
+      "w": 0.2272,
+      "h": 0.0199,
+      "words": [
         "me.",
         "That",
-        "is",
+        "fs",
         "right."
-      ]
+      ],
+      "conf": 86.8963,
+      "source": "psm-11"
     },
     {
-      "text": "I my me; we our us. you your you. he his him; they their them. she her her. it its it.",
-      "x": 0.1,
-      "y": 0.22,
-      "w": 0.8,
-      "h": 0.12,
-      "id": "r2",
-      "order": 1,
+      "id": "r6",
+      "order": 5,
+      "text": "me our",
+      "x": 0.2605,
+      "y": 0.2532,
+      "w": 0.1628,
+      "h": 0.033,
       "words": [
-        "I",
-        "my",
-        "me;",
-        "we",
-        "our",
-        "us.",
+        "me",
+        "our"
+      ],
+      "conf": 95.8654,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "we",
+      "x": 0.5401,
+      "y": 0.2537,
+      "w": 0.0349,
+      "h": 0.011,
+      "words": [
+        "we"
+      ],
+      "conf": 96.8435,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "us you",
+      "x": 0.5409,
+      "y": 0.2532,
+      "w": 0.3129,
+      "h": 0.038,
+      "words": [
+        "us",
+        "you"
+      ],
+      "conf": 95.5364,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "our",
+      "x": 0.6815,
+      "y": 0.2543,
+      "w": 0.0413,
+      "h": 0.011,
+      "words": [
+        "our"
+      ],
+      "conf": 96.4525,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "you him she",
+      "x": 0.1048,
+      "y": 0.2752,
+      "w": 0.3273,
+      "h": 0.0546,
+      "words": [
         "you",
-        "your",
-        "you.",
-        "he",
-        "his",
-        "him;",
-        "they",
-        "their",
-        "them.",
-        "she",
-        "her",
-        "her.",
-        "it",
-        "its",
-        "it."
-      ]
+        "him",
+        "she"
+      ],
+      "conf": 96.4643,
+      "source": "psm-11"
     },
     {
-      "text": "In English we make COMPARISONS like this: good better best; bad worse worst; much more most; little less least; beautiful more beautiful most beautiful; small smaller smallest; bright brighter brightest; short shorter shortest; thin thinner thinnest.",
-      "x": 0.1,
-      "y": 0.36,
-      "w": 0.8,
-      "h": 0.22,
-      "id": "r3",
-      "order": 2,
+      "id": "r11",
+      "order": 10,
+      "text": "you they",
+      "x": 0.5377,
+      "y": 0.2763,
+      "w": 0.3344,
+      "h": 0.058,
       "words": [
+        "you",
+        "they"
+      ],
+      "conf": 96.8749,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "your",
+      "x": 0.6839,
+      "y": 0.2763,
+      "w": 0.0564,
+      "h": 0.0149,
+      "words": [
+        "your"
+      ],
+      "conf": 96.4203,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "her its In English we make COMPARISONS",
+      "x": 0.1072,
+      "y": 0.3138,
+      "w": 0.4575,
+      "h": 0.0762,
+      "words": [
+        "her",
+        "its",
         "In",
         "English",
         "we",
         "make",
-        "COMPARISONS",
-        "like",
-        "this:",
-        "good",
-        "better",
-        "best;",
-        "bad",
-        "worse",
-        "worst;",
-        "much",
-        "more",
-        "most;",
-        "little",
-        "less",
-        "least;",
-        "beautiful",
-        "more",
-        "beautiful",
-        "most",
-        "beautiful;",
-        "small",
-        "smaller",
-        "smallest;",
-        "bright",
-        "brighter",
-        "brightest;",
-        "short",
-        "shorter",
-        "shortest;",
-        "thin",
-        "thinner",
-        "thinnest."
-      ]
+        "COMPARISONS"
+      ],
+      "conf": 96.8568,
+      "source": "psm-11"
     },
     {
-      "text": "In English we make changes in names like this: 1 cat/2 or more cats (dog/dogs, etc.); 1 glass/2 glasses; 1 body/2 bodies; 1 knife/2 knives; 1 tooth/2 teeth; 1 foot/2 feet; 1 man/2 men; 1 woman/2 women. 1 or more sheep, scissors, trousers.",
-      "x": 0.1,
-      "y": 0.6,
-      "w": 0.8,
-      "h": 0.25,
-      "id": "r4",
-      "order": 3,
+      "id": "r14",
+      "order": 13,
+      "text": "her",
+      "x": 0.2462,
+      "y": 0.3133,
+      "w": 0.0389,
+      "h": 0.0165,
       "words": [
+        "her"
+      ],
+      "conf": 96.9253,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "them like this:",
+      "x": 0.5766,
+      "y": 0.3133,
+      "w": 0.3106,
+      "h": 0.0728,
+      "words": [
+        "them",
+        "like",
+        "this:"
+      ],
+      "conf": 96.955,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "thelr",
+      "x": 0.6799,
+      "y": 0.3133,
+      "w": 0.058,
+      "h": 0.0177,
+      "words": [
+        "thelr"
+      ],
+      "conf": 95.474,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "better much",
+      "x": 0.1716,
+      "y": 0.4038,
+      "w": 0.3002,
+      "h": 0.059,
+      "words": [
+        "better",
+        "much"
+      ],
+      "conf": 96.5152,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "best worst most least most beautiful",
+      "x": 0.6616,
+      "y": 0.4054,
+      "w": 0.1771,
+      "h": 0.1009,
+      "words": [
+        "best",
+        "worst",
+        "most",
+        "least",
+        "most",
+        "beautiful"
+      ],
+      "conf": 96.4239,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "worse little",
+      "x": 0.1724,
+      "y": 0.4308,
+      "w": 0.297,
+      "h": 0.0534,
+      "words": [
+        "worse",
+        "little"
+      ],
+      "conf": 96.2982,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "more beautitul",
+      "x": 0.1716,
+      "y": 0.4523,
+      "w": 0.2891,
+      "h": 0.0534,
+      "words": [
+        "more",
+        "beautitul"
+      ],
+      "conf": 96.4113,
+      "source": "psm-11"
+    },
+    {
+      "id": "r21",
+      "order": 20,
+      "text": "more beautiful",
+      "x": 0.3987,
+      "y": 0.4892,
+      "w": 0.1827,
+      "h": 0.0171,
+      "words": [
+        "more",
+        "beautiful"
+      ],
+      "conf": 84.1814,
+      "source": "psm-11"
+    },
+    {
+      "id": "r22",
+      "order": 21,
+      "text": "smaller bright",
+      "x": 0.1716,
+      "y": 0.5119,
+      "w": 0.3153,
+      "h": 0.0408,
+      "words": [
+        "smaller",
+        "bright"
+      ],
+      "conf": 96.3101,
+      "source": "psm-11"
+    },
+    {
+      "id": "r23",
+      "order": 22,
+      "text": "small",
+      "x": 0.1732,
+      "y": 0.5113,
+      "w": 0.0643,
+      "h": 0.016,
+      "words": [
+        "small"
+      ],
+      "conf": 89.5112,
+      "source": "psm-11"
+    },
+    {
+      "id": "r24",
+      "order": 23,
+      "text": "smallest brightest shortest thinnest like this: ar more cats (dogs, boots, days, noses, faces...)",
+      "x": 0.5671,
+      "y": 0.5119,
+      "w": 0.3257,
+      "h": 0.1748,
+      "words": [
+        "smallest",
+        "brightest",
+        "shortest",
+        "thinnest",
+        "like",
+        "this:",
+        "ar",
+        "more",
+        "cats",
+        "(dogs,",
+        "boots,",
+        "days,",
+        "noses,",
+        "faces...)"
+      ],
+      "conf": 95.0618,
+      "source": "psm-11"
+    },
+    {
+      "id": "r25",
+      "order": 24,
+      "text": "brighter short",
+      "x": 0.1732,
+      "y": 0.5328,
+      "w": 0.324,
+      "h": 0.0381,
+      "words": [
+        "brighter",
+        "short"
+      ],
+      "conf": 96.3629,
+      "source": "psm-11"
+    },
+    {
+      "id": "r26",
+      "order": 25,
+      "text": "shorter thin",
+      "x": 0.1732,
+      "y": 0.5543,
+      "w": 0.3105,
+      "h": 0.038,
+      "words": [
+        "shorter",
+        "thin"
+      ],
+      "conf": 96.3945,
+      "source": "psm-11"
+    },
+    {
+      "id": "r27",
+      "order": 26,
+      "text": "thinner In English we make changes in names cat (dog, boot, day, nose, face...",
+      "x": 0.1072,
+      "y": 0.5764,
+      "w": 0.4678,
+      "h": 0.1081,
+      "words": [
+        "thinner",
         "In",
         "English",
         "we",
@@ -174,43 +529,98 @@
         "changes",
         "in",
         "names",
-        "like",
-        "this:",
-        "1",
-        "cat/2",
-        "or",
-        "more",
-        "cats",
-        "(dog/dogs,",
-        "etc.);",
-        "1",
-        "glass/2",
-        "glasses;",
-        "1",
-        "body/2",
-        "bodies;",
-        "1",
-        "knife/2",
-        "knives;",
-        "1",
-        "tooth/2",
-        "teeth;",
-        "1",
-        "foot/2",
-        "feet;",
-        "1",
-        "man/2",
-        "men;",
-        "1",
-        "woman/2",
-        "women.",
-        "1",
-        "or",
-        "more",
-        "sheep,",
+        "cat",
+        "(dog,",
+        "boot,",
+        "day,",
+        "nose,",
+        "face..."
+      ],
+      "conf": 96.2251,
+      "source": "psm-11"
+    },
+    {
+      "id": "r28",
+      "order": 27,
+      "text": "glass (watch, brush body (ery, baby knife (leaf, shelf tooth, foot mon, woman",
+      "x": 0.135,
+      "y": 0.6873,
+      "w": 0.2351,
+      "h": 0.1262,
+      "words": [
+        "glass",
+        "(watch,",
+        "brush",
+        "body",
+        "(ery,",
+        "baby",
+        "knife",
+        "(leaf,",
+        "shelf",
+        "tooth,",
+        "foot",
+        "mon,",
+        "woman"
+      ],
+      "conf": 88.4147,
+      "source": "psm-11"
+    },
+    {
+      "id": "r29",
+      "order": 28,
+      "text": "glasses (watches, brushes bodies (cries, babies knives (leaves, shelves...)",
+      "x": 0.5663,
+      "y": 0.6867,
+      "w": 0.3265,
+      "h": 0.0839,
+      "words": [
+        "glasses",
+        "(watches,",
+        "brushes",
+        "bodies",
+        "(cries,",
+        "babies",
+        "knives",
+        "(leaves,",
+        "shelves...)"
+      ],
+      "conf": 96.386,
+      "source": "psm-11"
+    },
+    {
+      "id": "r30",
+      "order": 29,
+      "text": "teeth, feet men, women scissors, trousers",
+      "x": 0.5099,
+      "y": 0.7733,
+      "w": 0.2153,
+      "h": 0.0745,
+      "words": [
+        "teeth,",
+        "feet",
+        "men,",
+        "women",
         "scissors,",
-        "trousers."
-      ]
+        "trousers"
+      ],
+      "conf": 96.1285,
+      "source": "psm-11"
+    },
+    {
+      "id": "r31",
+      "order": 30,
+      "text": "oF more sheep,",
+      "x": 0.3082,
+      "y": 0.8296,
+      "w": 0.1898,
+      "h": 0.0204,
+      "words": [
+        "oF",
+        "more",
+        "sheep,"
+      ],
+      "conf": 82.4819,
+      "source": "psm-11"
     }
   ]
 }

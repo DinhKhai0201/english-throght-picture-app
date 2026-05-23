@@ -4,12 +4,27 @@
   "imageApiPath": "/api/books/page%20383.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 141,
+    "regionCount": 19,
+    "wordCount": 180,
     "imageWidth": 1188,
     "imageHeight": 1859
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r4",
+        "r7",
+        "r8"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,9 +33,25 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
         "r2",
-        "r3"
+        "r5",
+        "r6",
+        "r9"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r11",
+        "r13",
+        "r14",
+        "r15",
+        "r18"
       ]
     },
     {
@@ -31,37 +62,66 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r10",
+        "r12",
+        "r16",
+        "r17",
+        "r19"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Measuring how fast something is moving gives us the rate of motion. This plane has gone 300 miles in half an hour. Its rate was 600 m.p.h.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "Measuring how fast something rate of motion.",
+      "x": 0.0926,
+      "y": 0.028,
+      "w": 0.4705,
+      "h": 0.0479,
       "words": [
         "Measuring",
         "how",
         "fast",
         "something",
+        "rate",
+        "of",
+        "motion."
+      ],
+      "conf": 96.46,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "is moving gives us tho",
+      "x": 0.5791,
+      "y": 0.028,
+      "w": 0.3418,
+      "h": 0.028,
+      "words": [
         "is",
         "moving",
         "gives",
         "us",
-        "the",
-        "rate",
-        "of",
-        "motion.",
+        "tho"
+      ],
+      "conf": 95.9033,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This plane has gone miles in half an hour. Its rate was m.p.h.",
+      "x": 0.0943,
+      "y": 0.1103,
+      "w": 0.4234,
+      "h": 0.0753,
+      "words": [
         "This",
         "plane",
         "has",
         "gone",
-        "300",
         "miles",
         "in",
         "half",
@@ -70,64 +130,106 @@
         "Its",
         "rate",
         "was",
-        "600",
         "m.p.h."
-      ]
+      ],
+      "conf": 95.7962,
+      "source": "psm-11"
     },
     {
-      "text": "This man has walked two miles in half an hour. He was walking at a rate of four miles an hour. Now he is standing. He is not moving.",
-      "x": 0.2,
-      "y": 0.22,
-      "w": 0.65,
-      "h": 0.15,
-      "id": "r2",
-      "order": 1,
+      "id": "r4",
+      "order": 3,
+      "text": "This man has walked half an hour. He rate of four miles",
+      "x": 0.2584,
+      "y": 0.2136,
+      "w": 0.3106,
+      "h": 0.0779,
       "words": [
         "This",
         "man",
         "has",
         "walked",
-        "two",
-        "miles",
-        "in",
         "half",
         "an",
         "hour.",
         "He",
+        "rate",
+        "of",
+        "four",
+        "miles"
+      ],
+      "conf": 96.6564,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "two miles in was walking at a an hour. Now he is standing. He",
+      "x": 0.2584,
+      "y": 0.2136,
+      "w": 0.5026,
+      "h": 0.1059,
+      "words": [
+        "two",
+        "miles",
+        "in",
         "was",
         "walking",
         "at",
         "a",
-        "rate",
-        "of",
-        "four",
-        "miles",
         "an",
         "hour.",
         "Now",
         "he",
         "is",
         "standing.",
-        "He",
-        "is",
-        "not",
-        "moving."
-      ]
+        "He"
+      ],
+      "conf": 96.3603,
+      "source": "psm-11"
     },
     {
-      "text": "This man is working slowly. His pay will be small if he is paid by the amount of work he does in a day. This other man is working quickly. His pay will be high if he is paid by the amount of work done in a day.",
-      "x": 0.1,
-      "y": 0.38,
-      "w": 0.85,
-      "h": 0.2,
-      "id": "r3",
-      "order": 2,
+      "id": "r6",
+      "order": 5,
+      "text": "is not moving,",
+      "x": 0.5421,
+      "y": 0.2926,
+      "w": 0.2214,
+      "h": 0.0269,
+      "words": [
+        "is",
+        "not",
+        "moving,"
+      ],
+      "conf": 95.4384,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This man is working slowly.",
+      "x": 0.096,
+      "y": 0.3448,
+      "w": 0.42,
+      "h": 0.0274,
       "words": [
         "This",
         "man",
         "is",
         "working",
-        "slowly.",
+        "slowly."
+      ],
+      "conf": 96.2149,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "His pay will be small if he is paid by the amount of work he does in a day.",
+      "x": 0.096,
+      "y": 0.3717,
+      "w": 0.4268,
+      "h": 0.0791,
+      "words": [
         "His",
         "pay",
         "will",
@@ -146,12 +248,38 @@
         "does",
         "in",
         "a",
-        "day.",
+        "day."
+      ],
+      "conf": 95.5869,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "This other man is working",
+      "x": 0.5135,
+      "y": 0.4761,
+      "w": 0.415,
+      "h": 0.028,
+      "words": [
         "This",
         "other",
         "man",
         "is",
-        "working",
+        "working"
+      ],
+      "conf": 95.9863,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "quickly. His pay will be high if he is paid by the amount of work done in a day.",
+      "x": 0.5152,
+      "y": 0.503,
+      "w": 0.4183,
+      "h": 0.0796,
+      "words": [
         "quickly.",
         "His",
         "pay",
@@ -171,28 +299,24 @@
         "in",
         "a",
         "day."
-      ]
+      ],
+      "conf": 96.6452,
+      "source": "psm-11"
     },
     {
-      "text": "The two commonest ways of paying a worker are by the hour and by the amount of work done (piecework). piece: bit. m.p.h.: miles per hour. pay: money for work. FUTURE: will pay. PRESENT: pay(s). PAST: paid.",
-      "x": 0.1,
-      "y": 0.62,
-      "w": 0.85,
-      "h": 0.3,
-      "id": "r4",
-      "order": 3,
+      "id": "r11",
+      "order": 10,
+      "text": "The two commonest ways of hour and by the amount of work paid by the amount done.",
+      "x": 0.0993,
+      "y": 0.6089,
+      "w": 0.4715,
+      "h": 0.0775,
       "words": [
         "The",
         "two",
         "commonest",
         "ways",
         "of",
-        "paying",
-        "a",
-        "worker",
-        "are",
-        "by",
-        "the",
         "hour",
         "and",
         "by",
@@ -200,26 +324,179 @@
         "amount",
         "of",
         "work",
-        "done",
-        "(piecework).",
-        "piece:",
-        "bit.",
-        "m.p.h.:",
+        "paid",
+        "by",
+        "the",
+        "amount",
+        "done."
+      ],
+      "conf": 96.5796,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "paying a worker are by the done. Piecework is work For different sorts of work Sometimes rates for tho in different places.",
+      "x": 0.5219,
+      "y": 0.6089,
+      "w": 0.4082,
+      "h": 0.1297,
+      "words": [
+        "paying",
+        "a",
+        "worker",
+        "are",
+        "by",
+        "the",
+        "done.",
+        "Piecework",
+        "is",
+        "work",
+        "For",
+        "different",
+        "sorts",
+        "of",
+        "work",
+        "Sometimes",
+        "rates",
+        "for",
+        "tho",
+        "in",
+        "different",
+        "places."
+      ],
+      "conf": 95.2316,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "rates of pay may be different.",
+      "x": 0.1035,
+      "y": 0.6907,
+      "w": 0.4562,
+      "h": 0.0221,
+      "words": [
+        "rates",
+        "of",
+        "pay",
+        "may",
+        "be",
+        "different."
+      ],
+      "conf": 96.5686,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "same sort of work are different",
+      "x": 0.1035,
+      "y": 0.7165,
+      "w": 0.4815,
+      "h": 0.0178,
+      "words": [
+        "same",
+        "sort",
+        "of",
+        "work",
+        "are",
+        "different"
+      ],
+      "conf": 96.3945,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "bit, part of something miles per hour. miles In Pay: amount of money given for work.",
+      "x": 0.1044,
+      "y": 0.7687,
+      "w": 0.4402,
+      "h": 0.0704,
+      "words": [
+        "bit,",
+        "part",
+        "of",
+        "something",
         "miles",
         "per",
         "hour.",
-        "pay:",
+        "miles",
+        "In",
+        "Pay:",
+        "amount",
+        "of",
         "money",
+        "given",
         "for",
-        "work.",
-        "FUTURE:",
+        "work."
+      ],
+      "conf": 96.6732,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "an hour, meosure of rate of motion",
+      "x": 0.5084,
+      "y": 0.7864,
+      "w": 0.4226,
+      "h": 0.0167,
+      "words": [
+        "an",
+        "hour,",
+        "meosure",
+        "of",
+        "rate",
+        "of",
+        "motion"
+      ],
+      "conf": 86.6884,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "solid.",
+      "x": 0.5354,
+      "y": 0.7692,
+      "w": 0.0598,
+      "h": 0.0124,
+      "words": [
+        "solid."
+      ],
+      "conf": 94.967,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "will pay",
+      "x": 0.1035,
+      "y": 0.8494,
+      "w": 0.1111,
+      "h": 0.0242,
+      "words": [
         "will",
-        "pay.",
-        "PRESENT:",
-        "pay(s).",
-        "PAST:",
-        "paid."
-      ]
+        "pay"
+      ],
+      "conf": 80.8232,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "paid",
+      "x": 0.8754,
+      "y": 0.8515,
+      "w": 0.0564,
+      "h": 0.0172,
+      "words": [
+        "paid"
+      ],
+      "conf": 87.6257,
+      "source": "psm-11"
     }
   ]
 }

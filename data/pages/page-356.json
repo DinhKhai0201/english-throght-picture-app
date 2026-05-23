@@ -2,34 +2,68 @@
   "page": 356,
   "image": "/books/page 356.png",
   "imageApiPath": "/api/books/page%20356.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 12,
+    "regionCount": 16,
     "wordCount": 116,
     "imageWidth": 1221,
     "imageHeight": 1850
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r3",
         "r4",
         "r5",
         "r6",
-        "r7",
         "r8",
-        "r9",
-        "r10",
+        "r9"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r7",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r11",
-        "r12"
+        "r13",
+        "r14",
+        "r15"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r12",
+        "r16"
       ]
     }
   ],
@@ -37,36 +71,23 @@
     {
       "id": "r1",
       "order": 0,
-      "text": "The more languages you hear and get to know, the more you will see how any language is made up of a small num- ber of sounds put together in different ways. For example, in English, light and right are different words with only one sound in them different. The same is true of long and wrong.",
+      "text": "The more languages you hear you will see how any language ber of sounds put together in different in English, light and right are one sound in them different.",
       "x": 0.0827,
-      "y": 0.0405,
-      "w": 0.8027,
-      "h": 0.1557,
+      "y": 0.0427,
+      "w": 0.5218,
+      "h": 0.1238,
       "words": [
         "The",
         "more",
         "languages",
         "you",
         "hear",
-        "and",
-        "get",
-        "to",
-        "know,",
-        "the",
-        "more",
         "you",
         "will",
         "see",
         "how",
         "any",
         "language",
-        "is",
-        "made",
-        "up",
-        "of",
-        "a",
-        "small",
-        "num-",
         "ber",
         "of",
         "sounds",
@@ -74,39 +95,91 @@
         "together",
         "in",
         "different",
-        "ways.",
-        "For",
-        "example,",
         "in",
         "English,",
         "light",
         "and",
         "right",
         "are",
-        "different",
-        "words",
-        "with",
-        "only",
         "one",
         "sound",
         "in",
         "them",
-        "different.",
-        "The",
-        "same",
-        "is",
-        "true",
-        "of",
-        "long",
-        "and",
-        "wrong."
+        "different."
       ],
-      "conf": 96.5278,
+      "conf": 96.5146,
       "source": "psm-11"
     },
     {
       "id": "r2",
       "order": 1,
+      "text": "and get to know, the more is made up of a small num-",
+      "x": 0.5078,
+      "y": 0.0405,
+      "w": 0.3751,
+      "h": 0.0487,
+      "words": [
+        "and",
+        "get",
+        "to",
+        "know,",
+        "the",
+        "more",
+        "is",
+        "made",
+        "up",
+        "of",
+        "a",
+        "small",
+        "num-"
+      ],
+      "conf": 96.5388,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "ways. For example, different words with only The same is true of long",
+      "x": 0.516,
+      "y": 0.0919,
+      "w": 0.3694,
+      "h": 0.073,
+      "words": [
+        "ways.",
+        "For",
+        "example,",
+        "different",
+        "words",
+        "with",
+        "only",
+        "The",
+        "same",
+        "is",
+        "true",
+        "of",
+        "long"
+      ],
+      "conf": 96.8824,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "and wrong.",
+      "x": 0.0835,
+      "y": 0.1751,
+      "w": 0.1581,
+      "h": 0.0211,
+      "words": [
+        "and",
+        "wrong."
+      ],
+      "conf": 96.4576,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
       "text": "Where Is the station, please?",
       "x": 0.1966,
       "y": 0.2103,
@@ -123,8 +196,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r3",
-      "order": 2,
+      "id": "r6",
+      "order": 5,
       "text": "Tem to the right.",
       "x": 0.2219,
       "y": 0.2741,
@@ -140,8 +213,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r4",
-      "order": 3,
+      "id": "r7",
+      "order": 6,
       "text": "Ah, he sald turn at the light.",
       "x": 0.7232,
       "y": 0.2816,
@@ -160,8 +233,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r5",
-      "order": 4,
+      "id": "r8",
+      "order": 7,
       "text": "the wrong",
       "x": 0.2899,
       "y": 0.4297,
@@ -175,8 +248,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
+      "id": "r9",
+      "order": 8,
       "text": "You are going",
       "x": 0.294,
       "y": 0.4124,
@@ -191,8 +264,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r10",
+      "order": 9,
       "text": "He sald",
       "x": 0.5299,
       "y": 0.4114,
@@ -206,12 +279,12 @@
       "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "If a learner does not hear these different sounds as dif- ferent, he may not get the meaning of what is said to him.",
+      "id": "r11",
+      "order": 10,
+      "text": "If a learner does not hear these ferent, he may not get the meaning",
       "x": 0.0868,
       "y": 0.6643,
-      "w": 0.8075,
+      "w": 0.634,
       "h": 0.0536,
       "words": [
         "If",
@@ -221,17 +294,30 @@
         "not",
         "hear",
         "these",
-        "different",
-        "sounds",
-        "as",
-        "dif-",
         "ferent,",
         "he",
         "may",
         "not",
         "get",
         "the",
-        "meaning",
+        "meaning"
+      ],
+      "conf": 96.1977,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "different sounds as dif- of what is said to him.",
+      "x": 0.5577,
+      "y": 0.6643,
+      "w": 0.3366,
+      "h": 0.0536,
+      "words": [
+        "different",
+        "sounds",
+        "as",
+        "dif-",
         "of",
         "what",
         "is",
@@ -239,12 +325,12 @@
         "to",
         "him."
       ],
-      "conf": 95.5931,
+      "conf": 94.535,
       "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
+      "id": "r13",
+      "order": 12,
       "text": "ah: o cry nol a word.",
       "x": 0.086,
       "y": 0.8292,
@@ -262,8 +348,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r10",
-      "order": 9,
+      "id": "r14",
+      "order": 13,
       "text": "moke o turn.",
       "x": 0.1613,
       "y": 0.8124,
@@ -278,8 +364,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r11",
-      "order": 10,
+      "id": "r15",
+      "order": 14,
       "text": "wii tern",
       "x": 0.0852,
       "y": 0.86,
@@ -293,8 +379,8 @@
       "source": "psm-11"
     },
     {
-      "id": "r12",
-      "order": 11,
+      "id": "r16",
+      "order": 15,
       "text": "turned",
       "x": 0.8141,
       "y": 0.8627,

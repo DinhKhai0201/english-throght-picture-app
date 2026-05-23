@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2099.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 21,
-    "wordCount": 96,
+    "regionCount": 16,
+    "wordCount": 79,
     "imageWidth": 1155,
     "imageHeight": 1884
   },
@@ -19,9 +19,9 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
         "r3",
-        "r4"
+        "r5",
+        "r7"
       ]
     },
     {
@@ -32,10 +32,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r6",
-        "r7",
-        "r8"
+        "r2",
+        "r4",
+        "r6"
       ]
     },
     {
@@ -46,16 +45,11 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r8",
         "r9",
         "r10",
-        "r11",
-        "r12",
         "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17",
-        "r18"
+        "r16"
       ]
     },
     {
@@ -66,52 +60,56 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r19",
-        "r20",
-        "r21"
+        "r11",
+        "r12",
+        "r14",
+        "r15"
       ]
     }
   ],
   "regions": [
     {
-      "text": "This is a bird.",
-      "x": 0.22,
-      "y": 0.09,
-      "w": 0.2,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "This Is a bird.",
+      "x": 0.226,
+      "y": 0.0987,
+      "w": 0.2139,
+      "h": 0.0196,
+      "words": [
+        "This",
+        "Is",
+        "a",
+        "bird."
+      ],
+      "conf": 86.1099,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is o plane.",
+      "x": 0.5602,
+      "y": 0.2102,
+      "w": 0.2355,
+      "h": 0.0249,
       "words": [
         "This",
         "is",
-        "a",
-        "bird."
-      ]
+        "o",
+        "plane."
+      ],
+      "conf": 90.1777,
+      "source": "psm-11"
     },
     {
-      "text": "It is on a tree.",
-      "x": 0.22,
-      "y": 0.12,
-      "w": 0.2,
-      "h": 0.03,
-      "id": "r2",
-      "order": 1,
-      "words": [
-        "It",
-        "is",
-        "on",
-        "a",
-        "tree."
-      ]
-    },
-    {
-      "text": "The other birds are not on the tree.",
-      "x": 0.08,
-      "y": 0.25,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r3",
       "order": 2,
+      "text": "The other birds are not on the tree.",
+      "x": 0.0779,
+      "y": 0.2537,
+      "w": 0.3082,
+      "h": 0.0494,
       "words": [
         "The",
         "other",
@@ -121,284 +119,241 @@
         "on",
         "the",
         "tree."
-      ]
+      ],
+      "conf": 96.8147,
+      "source": "psm-11"
     },
     {
-      "text": "They are in the air.",
-      "x": 0.08,
-      "y": 0.3,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r4",
       "order": 3,
+      "text": "it is in the sir.",
+      "x": 0.561,
+      "y": 0.2362,
+      "w": 0.2147,
+      "h": 0.0191,
+      "words": [
+        "it",
+        "is",
+        "in",
+        "the",
+        "sir."
+      ],
+      "conf": 81.8299,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "They are Ia the air.",
+      "x": 0.0788,
+      "y": 0.3015,
+      "w": 0.3022,
+      "h": 0.0281,
       "words": [
         "They",
         "are",
-        "in",
+        "Ia",
         "the",
         "air."
-      ]
+      ],
+      "conf": 86.7848,
+      "source": "psm-11"
     },
     {
-      "text": "This is a plane.",
-      "x": 0.55,
-      "y": 0.21,
-      "w": 0.25,
-      "h": 0.03,
-      "id": "r5",
-      "order": 4,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "plane."
-      ]
-    },
-    {
-      "text": "It is in the air.",
-      "x": 0.55,
-      "y": 0.24,
-      "w": 0.25,
-      "h": 0.03,
       "id": "r6",
       "order": 5,
-      "words": [
-        "It",
-        "is",
-        "in",
-        "the",
-        "air."
-      ]
-    },
-    {
-      "text": "It is going through the air.",
-      "x": 0.55,
-      "y": 0.29,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r7",
-      "order": 6,
-      "words": [
-        "It",
-        "is",
-        "going",
-        "through",
-        "the",
-        "air."
-      ]
-    },
-    {
       "text": "These are planes.",
-      "x": 0.55,
-      "y": 0.37,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r8",
-      "order": 7,
+      "x": 0.555,
+      "y": 0.3678,
+      "w": 0.3229,
+      "h": 0.0297,
       "words": [
         "These",
         "are",
         "planes."
-      ]
+      ],
+      "conf": 75.0253,
+      "source": "psm-11"
     },
     {
-      "text": "We take in air through our mouths and through our noses.",
-      "x": 0.08,
-      "y": 0.49,
-      "w": 0.4,
-      "h": 0.08,
-      "id": "r9",
-      "order": 8,
+      "id": "r7",
+      "order": 6,
+      "text": "CH",
+      "x": 0.4719,
+      "y": 0.4666,
+      "w": 0.032,
+      "h": 0.0138,
+      "words": [
+        "CH"
+      ],
+      "conf": 63.328,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "We take in air through our",
+      "x": 0.0814,
+      "y": 0.491,
+      "w": 0.361,
+      "h": 0.0456,
       "words": [
         "We",
         "take",
         "in",
         "air",
         "through",
-        "our",
-        "mouths",
-        "and",
-        "through",
-        "our",
-        "noses."
-      ]
+        "our"
+      ],
+      "conf": 94.9305,
+      "source": "psm-11"
     },
     {
-      "text": "The air comes in. Then it goes out. That is a breath.",
-      "x": 0.08,
-      "y": 0.73,
-      "w": 0.4,
-      "h": 0.08,
+      "id": "r9",
+      "order": 8,
+      "text": "rough our noses.",
+      "x": 0.0805,
+      "y": 0.5165,
+      "w": 0.3819,
+      "h": 0.045,
+      "words": [
+        "rough",
+        "our",
+        "noses."
+      ],
+      "conf": 91.3944,
+      "source": "psm-11"
+    },
+    {
       "id": "r10",
       "order": 9,
+      "text": "and",
+      "x": 0.2658,
+      "y": 0.5165,
+      "w": 0.0623,
+      "h": 0.0191,
+      "words": [
+        "and"
+      ],
+      "conf": 96.4869,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "The alr is coming out. it Is warm.",
+      "x": 0.5455,
+      "y": 0.5175,
+      "w": 0.2658,
+      "h": 0.0446,
+      "words": [
+        "The",
+        "alr",
+        "is",
+        "coming",
+        "out.",
+        "it",
+        "Is",
+        "warm."
+      ],
+      "conf": 89.6276,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "When it comes out It is worm.",
+      "x": 0.5463,
+      "y": 0.5653,
+      "w": 0.2329,
+      "h": 0.0461,
+      "words": [
+        "When",
+        "it",
+        "comes",
+        "out",
+        "It",
+        "is",
+        "worm."
+      ],
+      "conf": 95.3372,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "The air comes in. Then goes out. That is a in Out one breath in breaths",
+      "x": 0.084,
+      "y": 0.7224,
+      "w": 0.3567,
+      "h": 0.1587,
       "words": [
         "The",
         "air",
         "comes",
         "in.",
         "Then",
-        "it",
         "goes",
         "out.",
         "That",
         "is",
         "a",
-        "breath."
-      ]
-    },
-    {
-      "text": "in",
-      "x": 0.13,
-      "y": 0.81,
-      "w": 0.05,
-      "h": 0.03,
-      "id": "r11",
-      "order": 10,
-      "words": [
-        "in"
-      ]
-    },
-    {
-      "text": "out",
-      "x": 0.19,
-      "y": 0.81,
-      "w": 0.05,
-      "h": 0.03,
-      "id": "r12",
-      "order": 11,
-      "words": [
-        "out"
-      ]
-    },
-    {
-      "text": "one breath",
-      "x": 0.25,
-      "y": 0.82,
-      "w": 0.15,
-      "h": 0.03,
-      "id": "r13",
-      "order": 12,
-      "words": [
+        "in",
+        "Out",
         "one",
-        "breath"
-      ]
+        "breath",
+        "in",
+        "breaths"
+      ],
+      "conf": 96.3983,
+      "source": "psm-11"
     },
     {
-      "text": "in",
-      "x": 0.09,
-      "y": 0.85,
-      "w": 0.05,
-      "h": 0.03,
       "id": "r14",
       "order": 13,
-      "words": [
-        "in"
-      ]
-    },
-    {
-      "text": "out",
-      "x": 0.15,
-      "y": 0.85,
-      "w": 0.05,
-      "h": 0.03,
-      "id": "r15",
-      "order": 14,
-      "words": [
-        "out"
-      ]
-    },
-    {
-      "text": "in",
-      "x": 0.09,
-      "y": 0.88,
-      "w": 0.05,
-      "h": 0.03,
-      "id": "r16",
-      "order": 15,
-      "words": [
-        "in"
-      ]
-    },
-    {
-      "text": "out",
-      "x": 0.15,
-      "y": 0.88,
-      "w": 0.05,
-      "h": 0.03,
-      "id": "r17",
-      "order": 16,
-      "words": [
-        "out"
-      ]
-    },
-    {
-      "text": "two breaths",
-      "x": 0.22,
-      "y": 0.86,
-      "w": 0.15,
-      "h": 0.03,
-      "id": "r18",
-      "order": 17,
-      "words": [
-        "two",
-        "breaths"
-      ]
-    },
-    {
-      "text": "The air is coming out. It is warm.",
-      "x": 0.54,
-      "y": 0.51,
-      "w": 0.3,
-      "h": 0.05,
-      "id": "r19",
-      "order": 18,
-      "words": [
-        "The",
-        "air",
-        "is",
-        "coming",
-        "out.",
-        "It",
-        "is",
-        "warm."
-      ]
-    },
-    {
-      "text": "When it comes out it is warm.",
-      "x": 0.54,
-      "y": 0.57,
-      "w": 0.3,
-      "h": 0.05,
-      "id": "r20",
-      "order": 19,
-      "words": [
-        "When",
-        "it",
-        "comes",
-        "out",
-        "it",
-        "is",
-        "warm."
-      ]
-    },
-    {
-      "text": "Put your hand here. Your breath is warm.",
-      "x": 0.57,
-      "y": 0.74,
-      "w": 0.3,
-      "h": 0.08,
-      "id": "r21",
-      "order": 20,
+      "text": "Put your hand",
+      "x": 0.5758,
+      "y": 0.7373,
+      "w": 0.2225,
+      "h": 0.0303,
       "words": [
         "Put",
         "your",
-        "hand",
-        "here.",
-        "Your",
+        "hand"
+      ],
+      "conf": 96.4681,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "breath ls warm.",
+      "x": 0.5775,
+      "y": 0.7649,
+      "w": 0.2649,
+      "h": 0.0509,
+      "words": [
         "breath",
-        "is",
+        "ls",
         "warm."
-      ]
+      ],
+      "conf": 95.9283,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "in ovt",
+      "x": 0.0909,
+      "y": 0.8737,
+      "w": 0.1247,
+      "h": 0.0255,
+      "words": [
+        "in",
+        "ovt"
+      ],
+      "conf": 71.2888,
+      "source": "psm-11"
     }
   ]
 }

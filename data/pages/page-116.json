@@ -4,7 +4,7 @@
   "imageApiPath": "/api/books/page%20116.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 5,
+    "regionCount": 8,
     "wordCount": 75,
     "imageWidth": 1221,
     "imageHeight": 1846
@@ -18,7 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r3"
       ]
     },
     {
@@ -29,7 +30,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r2",
+        "r4"
       ]
     },
     {
@@ -40,7 +42,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r6",
+        "r7"
       ]
     },
     {
@@ -51,20 +54,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4",
-        "r5"
+        "r5",
+        "r8"
       ]
     }
   ],
   "regions": [
     {
-      "text": "This is a spoon. It is in my hand. This is a spoon which is in my hand.",
-      "x": 0.12,
-      "y": 0.28,
-      "w": 0.35,
-      "h": 0.1,
       "id": "r1",
       "order": 0,
+      "text": "This is a spoon. It is in my hand.",
+      "x": 0.1278,
+      "y": 0.2763,
+      "w": 0.3219,
+      "h": 0.0504,
       "words": [
         "This",
         "is",
@@ -74,26 +77,19 @@
         "is",
         "in",
         "my",
-        "hand.",
-        "This",
-        "is",
-        "a",
-        "spoon",
-        "which",
-        "is",
-        "in",
-        "my",
         "hand."
-      ]
+      ],
+      "conf": 95.7459,
+      "source": "psm-11"
     },
     {
-      "text": "That is a glass of water. It is on the table. That is a glass of water which is on the table.",
-      "x": 0.52,
-      "y": 0.29,
-      "w": 0.4,
-      "h": 0.15,
       "id": "r2",
       "order": 1,
+      "text": "That is a glass of water. It is on the table.",
+      "x": 0.5184,
+      "y": 0.2952,
+      "w": 0.1843,
+      "h": 0.098,
       "words": [
         "That",
         "is",
@@ -105,7 +101,42 @@
         "is",
         "on",
         "the",
-        "table.",
+        "table."
+      ],
+      "conf": 85.5061,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This is a spoon which is in my hand,",
+      "x": 0.1278,
+      "y": 0.3283,
+      "w": 0.3096,
+      "h": 0.0503,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "spoon",
+        "which",
+        "is",
+        "in",
+        "my",
+        "hand,"
+      ],
+      "conf": 94.4868,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "That is a glass of water which is on the table.",
+      "x": 0.5168,
+      "y": 0.3987,
+      "w": 0.3415,
+      "h": 0.0471,
+      "words": [
         "That",
         "is",
         "a",
@@ -117,16 +148,39 @@
         "on",
         "the",
         "table."
-      ]
+      ],
+      "conf": 95.5575,
+      "source": "psm-11"
     },
     {
-      "text": "This is a bone. It was in the dog's mouth. This is a bone which was in the dog's mouth.",
-      "x": 0.09,
-      "y": 0.66,
-      "w": 0.4,
-      "h": 0.1,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "This is a dog. He had the bone.",
+      "x": 0.5446,
+      "y": 0.5683,
+      "w": 0.3161,
+      "h": 0.0444,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "dog.",
+        "He",
+        "had",
+        "the",
+        "bone."
+      ],
+      "conf": 96.4265,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "This is a bone. It was in the dog’s mouth.",
+      "x": 0.0958,
+      "y": 0.6603,
+      "w": 0.3448,
+      "h": 0.0494,
       "words": [
         "This",
         "is",
@@ -136,8 +190,21 @@
         "was",
         "in",
         "the",
-        "dog's",
-        "mouth.",
+        "dog’s",
+        "mouth."
+      ],
+      "conf": 95.3911,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is a bone which was in the dog's mouth.",
+      "x": 0.0925,
+      "y": 0.7107,
+      "w": 0.3464,
+      "h": 0.0499,
+      "words": [
         "This",
         "is",
         "a",
@@ -148,35 +215,18 @@
         "the",
         "dog's",
         "mouth."
-      ]
+      ],
+      "conf": 96.3224,
+      "source": "psm-11"
     },
     {
-      "text": "This is a dog. He had the bone.",
-      "x": 0.54,
-      "y": 0.57,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "dog.",
-        "He",
-        "had",
-        "the",
-        "bone."
-      ]
-    },
-    {
+      "id": "r8",
+      "order": 7,
       "text": "This is the dog who had it.",
-      "x": 0.54,
-      "y": 0.79,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r5",
-      "order": 4,
+      "x": 0.5495,
+      "y": 0.7849,
+      "w": 0.2891,
+      "h": 0.0445,
       "words": [
         "This",
         "is",
@@ -185,7 +235,9 @@
         "who",
         "had",
         "it."
-      ]
+      ],
+      "conf": 96.7853,
+      "source": "psm-11"
     }
   ]
 }

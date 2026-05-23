@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2055.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 81,
+    "regionCount": 12,
+    "wordCount": 82,
     "imageWidth": 1188,
     "imageHeight": 1925
   },
@@ -19,7 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2"
+        "r3"
       ]
     },
     {
@@ -30,7 +30,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
+        "r2",
         "r4",
         "r5"
       ]
@@ -44,7 +44,7 @@
       "h": 0.5,
       "regionIds": [
         "r6",
-        "r7"
+        "r10"
       ]
     },
     {
@@ -55,38 +55,58 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r7",
         "r8",
         "r9",
-        "r10",
-        "r11"
+        "r11",
+        "r12"
       ]
     }
   ],
   "regions": [
     {
-      "text": "This is a man's body.",
-      "x": 0.15,
-      "y": 0.12,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "This is a man’s body",
+      "x": 0.1305,
+      "y": 0.1174,
+      "w": 0.3157,
+      "h": 0.0234,
       "words": [
         "This",
         "is",
         "a",
-        "man's",
-        "body."
-      ]
+        "man’s",
+        "body"
+      ],
+      "conf": 95.9065,
+      "source": "psm-11"
     },
     {
-      "text": "The part which is between his head, his arms, and his legs is his body.",
-      "x": 0.3,
-      "y": 0.19,
-      "w": 0.2,
-      "h": 0.2,
       "id": "r2",
       "order": 1,
+      "text": "This is his body.",
+      "x": 0.5985,
+      "y": 0.1169,
+      "w": 0.2382,
+      "h": 0.0234,
+      "words": [
+        "This",
+        "is",
+        "his",
+        "body."
+      ],
+      "conf": 96.5371,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "The part which is between his head, his arms, and his legs is his body.",
+      "x": 0.3148,
+      "y": 0.1953,
+      "w": 0.1414,
+      "h": 0.1933,
       "words": [
         "The",
         "part",
@@ -103,31 +123,18 @@
         "is",
         "his",
         "body."
-      ]
+      ],
+      "conf": 96.4769,
+      "source": "psm-11"
     },
     {
-      "text": "This is his body.",
-      "x": 0.55,
-      "y": 0.12,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r3",
-      "order": 2,
-      "words": [
-        "This",
-        "is",
-        "his",
-        "body."
-      ]
-    },
-    {
-      "text": "This part of him is his chest.",
-      "x": 0.78,
-      "y": 0.24,
-      "w": 0.18,
-      "h": 0.08,
       "id": "r4",
       "order": 3,
+      "text": "This part of him is his chest.",
+      "x": 0.7971,
+      "y": 0.2473,
+      "w": 0.1348,
+      "h": 0.067,
       "words": [
         "This",
         "part",
@@ -136,16 +143,18 @@
         "is",
         "his",
         "chest."
-      ]
+      ],
+      "conf": 96.2375,
+      "source": "psm-11"
     },
     {
-      "text": "This is a chest of drawers.",
-      "x": 0.53,
-      "y": 0.36,
-      "w": 0.4,
-      "h": 0.03,
       "id": "r5",
       "order": 4,
+      "text": "This is a chest of drawers.",
+      "x": 0.5598,
+      "y": 0.3548,
+      "w": 0.3721,
+      "h": 0.0187,
       "words": [
         "This",
         "is",
@@ -153,16 +162,18 @@
         "chest",
         "of",
         "drawers."
-      ]
+      ],
+      "conf": 93.211,
+      "source": "psm-11"
     },
     {
-      "text": "This man has his finger on his chin.",
-      "x": 0.1,
-      "y": 0.53,
-      "w": 0.4,
-      "h": 0.05,
       "id": "r6",
       "order": 5,
+      "text": "This man has his finger on his chin.",
+      "x": 0.117,
+      "y": 0.5221,
+      "w": 0.346,
+      "h": 0.0431,
       "words": [
         "This",
         "man",
@@ -172,16 +183,78 @@
         "on",
         "his",
         "chin."
-      ]
+      ],
+      "conf": 96.4867,
+      "source": "psm-11"
     },
     {
-      "text": "This man has his hand on his chest.",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.4,
-      "h": 0.05,
       "id": "r7",
       "order": 6,
+      "text": "This baby is on his hands and knees. Opn.",
+      "x": 0.537,
+      "y": 0.5148,
+      "w": 0.3923,
+      "h": 0.0711,
+      "words": [
+        "This",
+        "baby",
+        "is",
+        "on",
+        "his",
+        "hands",
+        "and",
+        "knees.",
+        "Opn."
+      ],
+      "conf": 96.1891,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This baby is on his hands and feet.",
+      "x": 0.5867,
+      "y": 0.6665,
+      "w": 0.2786,
+      "h": 0.0431,
+      "words": [
+        "This",
+        "baby",
+        "is",
+        "on",
+        "his",
+        "hands",
+        "and",
+        "feet."
+      ],
+      "conf": 96.7365,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "This baby is on",
+      "x": 0.6136,
+      "y": 0.7553,
+      "w": 0.2222,
+      "h": 0.0229,
+      "words": [
+        "This",
+        "baby",
+        "is",
+        "on"
+      ],
+      "conf": 96.6173,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "This man has his hand on his chest.",
+      "x": 0.1246,
+      "y": 0.7797,
+      "w": 0.2786,
+      "h": 0.0442,
       "words": [
         "This",
         "man",
@@ -191,71 +264,33 @@
         "on",
         "his",
         "chest."
-      ]
+      ],
+      "conf": 96.0998,
+      "source": "psm-11"
     },
     {
-      "text": "This baby is on his hands and knees.",
-      "x": 0.53,
-      "y": 0.52,
-      "w": 0.3,
-      "h": 0.05,
-      "id": "r8",
-      "order": 7,
-      "words": [
-        "This",
-        "baby",
-        "is",
-        "on",
-        "his",
-        "hands",
-        "and",
-        "knees."
-      ]
-    },
-    {
-      "text": "This baby is on his hands and feet.",
-      "x": 0.55,
-      "y": 0.67,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r9",
-      "order": 8,
-      "words": [
-        "This",
-        "baby",
-        "is",
-        "on",
-        "his",
-        "hands",
-        "and",
-        "feet."
-      ]
-    },
-    {
-      "text": "This baby is on his knees.",
-      "x": 0.6,
-      "y": 0.75,
-      "w": 0.25,
-      "h": 0.05,
-      "id": "r10",
-      "order": 9,
-      "words": [
-        "This",
-        "baby",
-        "is",
-        "on",
-        "his",
-        "knees."
-      ]
-    },
-    {
-      "text": "This baby is on his feet.",
-      "x": 0.64,
-      "y": 0.84,
-      "w": 0.25,
-      "h": 0.05,
       "id": "r11",
       "order": 10,
+      "text": "his knees",
+      "x": 0.7029,
+      "y": 0.7787,
+      "w": 0.133,
+      "h": 0.0177,
+      "words": [
+        "his",
+        "knees"
+      ],
+      "conf": 96.6836,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "This baby is on his feet.",
+      "x": 0.6448,
+      "y": 0.8436,
+      "w": 0.2264,
+      "h": 0.0447,
       "words": [
         "This",
         "baby",
@@ -263,7 +298,9 @@
         "on",
         "his",
         "feet."
-      ]
+      ],
+      "conf": 96.7821,
+      "source": "psm-11"
     }
   ]
 }

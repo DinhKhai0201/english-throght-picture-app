@@ -2,119 +2,92 @@
   "page": 77,
   "image": "/books/page 77.png",
   "imageApiPath": "/api/books/page%2077.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 7,
-    "wordCount": 29,
+    "regionCount": 6,
+    "wordCount": 24,
     "imageWidth": 1142,
     "imageHeight": 1867
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
-        "r2"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r2",
+        "r3",
         "r4",
-        "r5"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r6",
-        "r7"
+        "r5",
+        "r6"
       ]
     }
   ],
   "regions": [
     {
-      "text": "What is in the hat?",
-      "x": 0.12,
-      "y": 0.15,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "What is in the hat?",
+      "x": 0.12,
+      "y": 0.1484,
+      "w": 0.3082,
+      "h": 0.0262,
       "words": [
         "What",
         "is",
         "in",
         "the",
         "hat?"
-      ]
+      ],
+      "conf": 95.059,
+      "source": "psm-11"
     },
     {
-      "text": "Mary will see.",
-      "x": 0.12,
-      "y": 0.18,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r2",
       "order": 1,
-      "words": [
-        "Mary",
-        "will",
-        "see."
-      ]
-    },
-    {
-      "text": "What is she taking from the hat?",
-      "x": 0.54,
-      "y": 0.15,
-      "w": 0.4,
-      "h": 0.05,
-      "id": "r3",
-      "order": 2,
+      "text": "What is she taking from",
+      "x": 0.5455,
+      "y": 0.1484,
+      "w": 0.3783,
+      "h": 0.0487,
       "words": [
         "What",
         "is",
         "she",
         "taking",
-        "from",
-        "the",
-        "hat?"
-      ]
+        "from"
+      ],
+      "conf": 95.5501,
+      "source": "psm-11"
     },
     {
-      "text": "What is that in her hand?",
-      "x": 0.14,
-      "y": 0.54,
-      "w": 0.35,
-      "h": 0.05,
+      "id": "r3",
+      "order": 2,
+      "text": "Mary will see.",
+      "x": 0.12,
+      "y": 0.1757,
+      "w": 0.2233,
+      "h": 0.0236,
+      "words": [
+        "Mary",
+        "will",
+        "see."
+      ],
+      "conf": 95.7887,
+      "source": "psm-11"
+    },
+    {
       "id": "r4",
       "order": 3,
+      "text": "What is that in her hand?",
+      "x": 0.1392,
+      "y": 0.5415,
+      "w": 0.3012,
+      "h": 0.046,
       "words": [
         "What",
         "is",
@@ -122,48 +95,40 @@
         "in",
         "her",
         "hand?"
-      ]
+      ],
+      "conf": 94.8701,
+      "source": "psm-11"
     },
     {
-      "text": "It is money.",
-      "x": 0.14,
-      "y": 0.59,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r5",
       "order": 4,
+      "text": "It is money.",
+      "x": 0.1427,
+      "y": 0.5951,
+      "w": 0.1804,
+      "h": 0.0241,
       "words": [
         "It",
         "is",
         "money."
-      ]
+      ],
+      "conf": 95.6456,
+      "source": "psm-11"
     },
     {
-      "text": "\"Do you see?\"",
-      "x": 0.67,
-      "y": 0.58,
-      "w": 0.25,
-      "h": 0.03,
       "id": "r6",
       "order": 5,
-      "words": [
-        "\"Do",
-        "you",
-        "see?\""
-      ]
-    },
-    {
       "text": "She sees.",
-      "x": 0.74,
-      "y": 0.71,
-      "w": 0.2,
-      "h": 0.03,
-      "id": "r7",
-      "order": 6,
+      "x": 0.7364,
+      "y": 0.7092,
+      "w": 0.1489,
+      "h": 0.0273,
       "words": [
         "She",
         "sees."
-      ]
+      ],
+      "conf": 82.8207,
+      "source": "psm-11"
     }
   ]
 }

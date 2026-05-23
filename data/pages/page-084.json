@@ -2,7 +2,7 @@
   "page": 84,
   "image": "/books/page 84.png",
   "imageApiPath": "/api/books/page%2084.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
     "regionCount": 9,
     "wordCount": 44,
@@ -11,49 +11,19 @@
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
-        "r2"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r2",
         "r3",
         "r4",
-        "r5"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r6"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r5",
+        "r6",
         "r7",
         "r8",
         "r9"
@@ -62,13 +32,32 @@
   ],
   "regions": [
     {
-      "text": "What will we do with our money?",
-      "x": 0.15,
-      "y": 0.14,
-      "w": 0.18,
-      "h": 0.1,
       "id": "r1",
       "order": 0,
+      "text": "i will get a new dress.",
+      "x": 0.5635,
+      "y": 0.1216,
+      "w": 0.1819,
+      "h": 0.0444,
+      "words": [
+        "i",
+        "will",
+        "get",
+        "a",
+        "new",
+        "dress."
+      ],
+      "conf": 94.8282,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "What will we do with our money?",
+      "x": 0.1571,
+      "y": 0.1452,
+      "w": 0.1535,
+      "h": 0.11,
       "words": [
         "What",
         "will",
@@ -77,131 +66,128 @@
         "with",
         "our",
         "money?"
-      ]
+      ],
+      "conf": 92.7214,
+      "source": "psm-11"
     },
     {
+      "id": "r3",
+      "order": 2,
       "text": "What will you do?",
-      "x": 0.35,
-      "y": 0.16,
-      "w": 0.15,
-      "h": 0.05,
-      "id": "r2",
-      "order": 1,
+      "x": 0.3277,
+      "y": 0.1538,
+      "w": 0.1666,
+      "h": 0.0764,
       "words": [
         "What",
         "will",
         "you",
         "do?"
-      ]
+      ],
+      "conf": 95.8728,
+      "source": "psm-11"
     },
     {
-      "text": "I will get a new dress.",
-      "x": 0.58,
-      "y": 0.12,
-      "w": 0.18,
-      "h": 0.05,
-      "id": "r3",
-      "order": 2,
-      "words": [
-        "I",
-        "will",
-        "get",
-        "a",
-        "new",
-        "dress."
-      ]
-    },
-    {
-      "text": "This dress is new.",
-      "x": 0.68,
-      "y": 0.24,
-      "w": 0.25,
-      "h": 0.03,
       "id": "r4",
       "order": 3,
+      "text": "This dress is new.",
+      "x": 0.6842,
+      "y": 0.2432,
+      "w": 0.2461,
+      "h": 0.0198,
       "words": [
         "This",
         "dress",
         "is",
         "new."
-      ]
+      ],
+      "conf": 96.5344,
+      "source": "psm-11"
     },
     {
-      "text": "This dress is old.",
-      "x": 0.69,
-      "y": 0.33,
-      "w": 0.25,
-      "h": 0.03,
       "id": "r5",
       "order": 4,
+      "text": "This dress is old",
+      "x": 0.6935,
+      "y": 0.3321,
+      "w": 0.2446,
+      "h": 0.021,
       "words": [
         "This",
         "dress",
         "is",
-        "old."
-      ]
+        "old"
+      ],
+      "conf": 96.5435,
+      "source": "psm-11"
     },
     {
-      "text": "And what will you get?",
-      "x": 0.18,
-      "y": 0.61,
-      "w": 0.25,
-      "h": 0.05,
       "id": "r6",
       "order": 5,
+      "text": "i will get a new pipe.",
+      "x": 0.6238,
+      "y": 0.5216,
+      "w": 0.2887,
+      "h": 0.0246,
+      "words": [
+        "i",
+        "will",
+        "get",
+        "a",
+        "new",
+        "pipe."
+      ],
+      "conf": 95.2451,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "And what will you get?",
+      "x": 0.185,
+      "y": 0.6197,
+      "w": 0.2415,
+      "h": 0.0525,
       "words": [
         "And",
         "what",
         "will",
         "you",
         "get?"
-      ]
+      ],
+      "conf": 96.5964,
+      "source": "psm-11"
     },
     {
-      "text": "I will get a new pipe.",
-      "x": 0.59,
-      "y": 0.52,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r7",
-      "order": 6,
-      "words": [
-        "I",
-        "will",
-        "get",
-        "a",
-        "new",
-        "pipe."
-      ]
-    },
-    {
-      "text": "This pipe is new.",
-      "x": 0.62,
-      "y": 0.62,
-      "w": 0.25,
-      "h": 0.03,
       "id": "r8",
       "order": 7,
+      "text": "This pipe is new.",
+      "x": 0.6308,
+      "y": 0.624,
+      "w": 0.2376,
+      "h": 0.0246,
       "words": [
         "This",
         "pipe",
         "is",
         "new."
-      ]
+      ],
+      "conf": 96.2114,
+      "source": "psm-11"
     },
     {
-      "text": "This pipe is old.",
-      "x": 0.54,
-      "y": 0.78,
-      "w": 0.25,
-      "h": 0.03,
       "id": "r9",
       "order": 8,
+      "text": "this pipe is old",
+      "x": 0.5323,
+      "y": 0.768,
+      "w": 0.3,
+      "h": 0.05,
       "words": [
-        "This",
+        "this",
         "pipe",
         "is",
-        "old."
+        "old"
       ]
     }
   ]

@@ -2,7 +2,7 @@
   "page": 82,
   "image": "/books/page 82.png",
   "imageApiPath": "/api/books/page%2082.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
     "regionCount": 6,
     "wordCount": 39,
@@ -11,47 +11,17 @@
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
-        "r2"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r2",
+        "r3",
+        "r4",
         "r5",
         "r6"
       ]
@@ -59,45 +29,31 @@
   ],
   "regions": [
     {
-      "text": "Mary is getting the soup.",
-      "x": 0.1,
-      "y": 0.14,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "Mary is getting the soup.",
+      "x": 0.1074,
+      "y": 0.1243,
+      "w": 0.3748,
+      "h": 0.0436,
       "words": [
         "Mary",
         "is",
         "getting",
         "the",
         "soup."
-      ]
+      ],
+      "conf": 93.5435,
+      "source": "psm-11"
     },
     {
-      "text": "These are plates of soup.",
-      "x": 0.1,
-      "y": 0.17,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r2",
       "order": 1,
-      "words": [
-        "These",
-        "are",
-        "plates",
-        "of",
-        "soup."
-      ]
-    },
-    {
       "text": "John is taking the seats to the table.",
-      "x": 0.54,
-      "y": 0.13,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r3",
-      "order": 2,
+      "x": 0.5428,
+      "y": 0.135,
+      "w": 0.3546,
+      "h": 0.0452,
       "words": [
         "John",
         "is",
@@ -107,16 +63,54 @@
         "to",
         "the",
         "table."
-      ]
+      ],
+      "conf": 91.5409,
+      "source": "psm-11"
     },
     {
-      "text": "Mary is in her seat at the table.",
-      "x": 0.12,
-      "y": 0.56,
-      "w": 0.35,
-      "h": 0.05,
+      "id": "r3",
+      "order": 2,
+      "text": "These are plates of soup.",
+      "x": 0.1115,
+      "y": 0.1668,
+      "w": 0.3796,
+      "h": 0.0253,
+      "words": [
+        "These",
+        "are",
+        "plates",
+        "of",
+        "soup."
+      ],
+      "conf": 95.7512,
+      "source": "psm-11"
+    },
+    {
       "id": "r4",
       "order": 3,
+      "text": "John is in his seat.",
+      "x": 0.5533,
+      "y": 0.5352,
+      "w": 0.2714,
+      "h": 0.0204,
+      "words": [
+        "John",
+        "is",
+        "in",
+        "his",
+        "seat."
+      ],
+      "conf": 95.648,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Mary is in her seat at the table.",
+      "x": 0.1276,
+      "y": 0.5627,
+      "w": 0.3215,
+      "h": 0.0468,
       "words": [
         "Mary",
         "is",
@@ -126,32 +120,18 @@
         "at",
         "the",
         "table."
-      ]
+      ],
+      "conf": 95.3422,
+      "source": "psm-11"
     },
     {
-      "text": "John is in his seat.",
-      "x": 0.54,
-      "y": 0.53,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r5",
-      "order": 4,
-      "words": [
-        "John",
-        "is",
-        "in",
-        "his",
-        "seat."
-      ]
-    },
-    {
-      "text": "They are in their seats at the table.",
-      "x": 0.54,
-      "y": 0.56,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r6",
       "order": 5,
+      "text": "They are in their seats at the table.",
+      "x": 0.5477,
+      "y": 0.5616,
+      "w": 0.3408,
+      "h": 0.0468,
       "words": [
         "They",
         "are",
@@ -161,7 +141,9 @@
         "at",
         "the",
         "table."
-      ]
+      ],
+      "conf": 96.4231,
+      "source": "psm-11"
     }
   ]
 }

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20270.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 103,
+    "regionCount": 14,
+    "wordCount": 102,
     "imageWidth": 1117,
     "imageHeight": 1838
   },
@@ -18,7 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r2",
+        "r6"
       ]
     },
     {
@@ -29,7 +31,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r3",
+        "r4",
+        "r5",
+        "r7"
       ]
     },
     {
@@ -40,7 +45,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r8",
+        "r11",
+        "r13",
+        "r14"
       ]
     },
     {
@@ -51,133 +59,206 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r9",
+        "r10",
+        "r12"
       ]
     }
   ],
   "regions": [
     {
-      "text": "A smile is like a laugh. But a laugh makes a sound. This girl is laughing. She is happy.",
-      "x": 0.1,
-      "y": 0.18,
-      "w": 0.38,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "we wa A smile is like a laugh But a laugh makes a sound",
+      "x": 0.0806,
+      "y": 0.1306,
+      "w": 0.3768,
+      "h": 0.117,
       "words": [
+        "we",
+        "wa",
         "A",
         "smile",
         "is",
         "like",
         "a",
-        "laugh.",
+        "laugh",
         "But",
         "a",
         "laugh",
         "makes",
         "a",
-        "sound.",
+        "sound"
+      ],
+      "conf": 67.1701,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This girl is laughing. She is happy",
+      "x": 0.094,
+      "y": 0.3656,
+      "w": 0.3984,
+      "h": 0.0495,
+      "words": [
         "This",
         "girl",
         "is",
         "laughing.",
         "She",
         "is",
-        "happy."
-      ]
+        "happy"
+      ],
+      "conf": 96.5281,
+      "source": "psm-11"
     },
     {
-      "text": "She has a fall. She gives a cry. Now she is crying. She is not laughing now. She is crying. Why?",
-      "x": 0.52,
-      "y": 0.35,
-      "w": 0.42,
-      "h": 0.12,
-      "id": "r2",
-      "order": 1,
+      "id": "r3",
+      "order": 2,
+      "text": "She has a fall. She gives",
+      "x": 0.5291,
+      "y": 0.3498,
+      "w": 0.3948,
+      "h": 0.0332,
       "words": [
         "She",
         "has",
         "a",
         "fall.",
         "She",
-        "gives",
+        "gives"
+      ],
+      "conf": 96.1609,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "a cry. Now she is crying She is not laughing now.",
+      "x": 0.5354,
+      "y": 0.377,
+      "w": 0.3859,
+      "h": 0.049,
+      "words": [
         "a",
         "cry.",
         "Now",
         "she",
         "is",
-        "crying.",
+        "crying",
         "She",
         "is",
         "not",
         "laughing",
-        "now.",
+        "now."
+      ],
+      "conf": 86.4719,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "She is crying. Why?",
+      "x": 0.5372,
+      "y": 0.4282,
+      "w": 0.3232,
+      "h": 0.0245,
+      "words": [
         "She",
         "is",
         "crying.",
         "Why?"
-      ]
+      ],
+      "conf": 94.8391,
+      "source": "psm-11"
     },
     {
-      "text": "Because she gave her knee a blow in her fall. This is her knee. She was on her feet. Then she was on her face. She had a fall.",
-      "x": 0.1,
-      "y": 0.5,
-      "w": 0.38,
-      "h": 0.4,
-      "id": "r3",
-      "order": 2,
+      "id": "r6",
+      "order": 5,
+      "text": "Because she gave her",
+      "x": 0.1038,
+      "y": 0.4875,
+      "w": 0.3518,
+      "h": 0.0234,
       "words": [
         "Because",
         "she",
         "gave",
-        "her",
-        "knee",
-        "a",
-        "blow",
-        "in",
-        "her",
-        "fall.",
-        "This",
-        "is",
-        "her",
-        "knee.",
-        "She",
-        "was",
-        "on",
-        "her",
-        "feet.",
-        "Then",
-        "she",
-        "was",
-        "on",
-        "her",
-        "face.",
-        "She",
-        "had",
-        "a",
-        "fall."
-      ]
+        "her"
+      ],
+      "conf": 96.6134,
+      "source": "psm-11"
     },
     {
-      "text": "The fall was the cause of the blow to her knee. The blow was the cause of the pain in her knee. And the pain in her knee was the cause of her crying.",
-      "x": 0.52,
-      "y": 0.5,
-      "w": 0.42,
-      "h": 0.38,
-      "id": "r4",
-      "order": 3,
+      "id": "r7",
+      "order": 6,
+      "text": "The fall was the cause of",
+      "x": 0.5318,
+      "y": 0.4886,
+      "w": 0.3975,
+      "h": 0.0201,
       "words": [
         "The",
         "fall",
         "was",
         "the",
         "cause",
-        "of",
+        "of"
+      ],
+      "conf": 96.5186,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "knee a blow in her fall This is er knee",
+      "x": 0.1038,
+      "y": 0.5131,
+      "w": 0.3626,
+      "h": 0.086,
+      "words": [
+        "knee",
+        "a",
+        "blow",
+        "in",
+        "her",
+        "fall",
+        "This",
+        "is",
+        "er",
+        "knee"
+      ],
+      "conf": 95.5228,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "the blow to her knee.",
+      "x": 0.5336,
+      "y": 0.5152,
+      "w": 0.333,
+      "h": 0.019,
+      "words": [
         "the",
         "blow",
         "to",
         "her",
-        "knee.",
+        "knee."
+      ],
+      "conf": 91.4613,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "The blow was the cause of the pain in her knee.",
+      "x": 0.5354,
+      "y": 0.6235,
+      "w": 0.3868,
+      "h": 0.0495,
+      "words": [
         "The",
         "blow",
         "was",
@@ -188,10 +269,38 @@
         "pain",
         "in",
         "her",
-        "knee.",
-        "And",
-        "the",
-        "pain",
+        "knee."
+      ],
+      "conf": 96.2602,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "She was on her feet.",
+      "x": 0.1289,
+      "y": 0.7247,
+      "w": 0.1853,
+      "h": 0.0446,
+      "words": [
+        "She",
+        "was",
+        "on",
+        "her",
+        "feet."
+      ],
+      "conf": 96.4019,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "in her knee was the cause of her crying",
+      "x": 0.5748,
+      "y": 0.7753,
+      "w": 0.2292,
+      "h": 0.0745,
+      "words": [
         "in",
         "her",
         "knee",
@@ -200,8 +309,46 @@
         "cause",
         "of",
         "her",
-        "crying."
-      ]
+        "crying"
+      ],
+      "conf": 96.7066,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Then she was on her face She hada fall",
+      "x": 0.1244,
+      "y": 0.7954,
+      "w": 0.2122,
+      "h": 0.0942,
+      "words": [
+        "Then",
+        "she",
+        "was",
+        "on",
+        "her",
+        "face",
+        "She",
+        "hada",
+        "fall"
+      ],
+      "conf": 96.4427,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "CL.",
+      "x": 0.2963,
+      "y": 0.8531,
+      "w": 0.1755,
+      "h": 0.0413,
+      "words": [
+        "CL."
+      ],
+      "conf": 61.6159,
+      "source": "psm-11"
     }
   ]
 }

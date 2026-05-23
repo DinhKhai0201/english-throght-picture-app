@@ -2,218 +2,105 @@
   "page": 244,
   "image": "/books/page 244.png",
   "imageApiPath": "/api/books/page%20244.png",
-  "layout": "full",
+  "layout": "single",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 19,
+    "regionCount": 5,
+    "wordCount": 10,
     "imageWidth": 1196,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2",
-        "r4",
-        "r6"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
+        "r2",
         "r3",
-        "r5",
-        "r7"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r8",
-        "r10"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r9",
-        "r11",
-        "r12"
+        "r4",
+        "r5"
       ]
     }
   ],
   "regions": [
     {
-      "text": "WHAT ARE THESE THINGS?",
-      "x": 0.28,
-      "y": 0.08,
-      "w": 0.45,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "WHAT ARE THESE",
+      "x": 0.2901,
+      "y": 0.0789,
+      "w": 0.2926,
+      "h": 0.0181,
       "words": [
         "WHAT",
         "ARE",
-        "THESE",
-        "THINGS?"
-      ]
+        "THESE"
+      ],
+      "conf": 96.7272,
+      "source": "psm-6"
     },
     {
-      "text": "a",
-      "x": 0.14,
-      "y": 0.12,
-      "w": 0.03,
-      "h": 0.03,
       "id": "r2",
       "order": 1,
+      "text": "THINGS?",
+      "x": 0.5978,
+      "y": 0.0789,
+      "w": 0.1421,
+      "h": 0.0176,
       "words": [
-        "a"
-      ]
+        "THINGS?"
+      ],
+      "conf": 96.417,
+      "source": "psm-11"
     },
     {
-      "text": "b",
-      "x": 0.54,
-      "y": 0.12,
-      "w": 0.03,
-      "h": 0.03,
       "id": "r3",
       "order": 2,
-      "words": [
-        "b"
-      ]
-    },
-    {
-      "text": "c",
-      "x": 0.14,
-      "y": 0.29,
-      "w": 0.03,
-      "h": 0.03,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "c"
-      ]
-    },
-    {
-      "text": "d",
-      "x": 0.54,
-      "y": 0.29,
-      "w": 0.03,
-      "h": 0.03,
-      "id": "r5",
-      "order": 4,
-      "words": [
-        "d"
-      ]
-    },
-    {
-      "text": "e",
-      "x": 0.14,
-      "y": 0.43,
-      "w": 0.03,
-      "h": 0.03,
-      "id": "r6",
-      "order": 5,
-      "words": [
-        "e"
-      ]
-    },
-    {
-      "text": "f",
-      "x": 0.54,
-      "y": 0.43,
-      "w": 0.03,
-      "h": 0.03,
-      "id": "r7",
-      "order": 6,
-      "words": [
-        "f"
-      ]
-    },
-    {
-      "text": "g",
-      "x": 0.14,
-      "y": 0.59,
-      "w": 0.03,
-      "h": 0.03,
-      "id": "r8",
-      "order": 7,
-      "words": [
-        "g"
-      ]
-    },
-    {
-      "text": "h",
-      "x": 0.54,
-      "y": 0.59,
-      "w": 0.03,
-      "h": 0.03,
-      "id": "r9",
-      "order": 8,
-      "words": [
-        "h"
-      ]
-    },
-    {
-      "text": "i",
-      "x": 0.14,
-      "y": 0.73,
-      "w": 0.03,
-      "h": 0.03,
-      "id": "r10",
-      "order": 9,
-      "words": [
-        "i"
-      ]
-    },
-    {
-      "text": "j",
-      "x": 0.54,
-      "y": 0.73,
-      "w": 0.03,
-      "h": 0.03,
-      "id": "r11",
-      "order": 10,
-      "words": [
-        "j"
-      ]
-    },
-    {
-      "text": "Answers are on page 240.",
-      "x": 0.3,
-      "y": 0.87,
-      "w": 0.4,
-      "h": 0.05,
-      "id": "r12",
-      "order": 11,
+      "text": "Answers are",
+      "x": 0.3102,
+      "y": 0.8811,
+      "w": 0.1881,
+      "h": 0.0176,
       "words": [
         "Answers",
-        "are",
+        "are"
+      ],
+      "conf": 96.0859,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "eee ee",
+      "x": 0.4064,
+      "y": 0.8624,
+      "w": 0.0936,
+      "h": 0.0165,
+      "words": [
+        "eee",
+        "ee"
+      ],
+      "conf": 46.3058,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "on page",
+      "x": 0.5084,
+      "y": 0.8859,
+      "w": 0.1271,
+      "h": 0.0181,
+      "words": [
         "on",
-        "page",
-        "240."
-      ]
+        "page"
+      ],
+      "conf": 96.4799,
+      "source": "psm-11"
     }
   ]
 }

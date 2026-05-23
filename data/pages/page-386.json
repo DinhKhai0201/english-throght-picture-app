@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20386.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 118,
+    "regionCount": 14,
+    "wordCount": 141,
     "imageWidth": 1180,
     "imageHeight": 1850
   },
@@ -18,7 +18,11 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r1",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
       ]
     },
     {
@@ -29,8 +33,22 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r10",
+        "r11",
+        "r12"
       ]
     },
     {
@@ -41,39 +59,85 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r9",
+        "r13",
+        "r14"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Christopher Columbus has gone down in history as the man who discovered America. He was looking for a way of getting to the East by sailing west.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.1,
       "id": "r1",
       "order": 0,
+      "text": "Christopher Columbus has man who discovered America.",
+      "x": 0.1,
+      "y": 0.0314,
+      "w": 0.455,
+      "h": 0.054,
       "words": [
         "Christopher",
         "Columbus",
         "has",
+        "man",
+        "who",
+        "discovered",
+        "America."
+      ],
+      "conf": 96.4716,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "gone down in history as the He was looking for a way west. It was hard for him He was laughed at by most go this way to India be-",
+      "x": 0.5153,
+      "y": 0.0314,
+      "w": 0.4186,
+      "h": 0.134,
+      "words": [
         "gone",
         "down",
         "in",
         "history",
         "as",
         "the",
-        "man",
-        "who",
-        "discovered",
-        "America.",
         "He",
         "was",
         "looking",
         "for",
         "a",
         "way",
+        "west.",
+        "It",
+        "was",
+        "hard",
+        "for",
+        "him",
+        "He",
+        "was",
+        "laughed",
+        "at",
+        "by",
+        "most",
+        "go",
+        "this",
+        "way",
+        "to",
+        "India",
+        "be-"
+      ],
+      "conf": 96.8528,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "of getting to the East by sailing to get help for this journey.",
+      "x": 0.1,
+      "y": 0.0849,
+      "w": 0.4576,
+      "h": 0.0524,
+      "words": [
         "of",
         "getting",
         "to",
@@ -81,61 +145,48 @@
         "East",
         "by",
         "sailing",
-        "west."
-      ]
-    },
-    {
-      "text": "It was hard for him to get help for this journey. He was laughed at by most people when he said he could go this way to India because the earth was round.",
-      "x": 0.1,
-      "y": 0.15,
-      "w": 0.85,
-      "h": 0.12,
-      "id": "r2",
-      "order": 1,
-      "words": [
-        "It",
-        "was",
-        "hard",
-        "for",
-        "him",
         "to",
         "get",
         "help",
         "for",
         "this",
-        "journey.",
-        "He",
-        "was",
-        "laughed",
-        "at",
-        "by",
-        "most",
+        "journey."
+      ],
+      "conf": 96.5185,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "people when he said he could cause the earth was round.",
+      "x": 0.1,
+      "y": 0.1373,
+      "w": 0.4517,
+      "h": 0.0529,
+      "words": [
         "people",
         "when",
         "he",
         "said",
         "he",
         "could",
-        "go",
-        "this",
-        "way",
-        "to",
-        "India",
-        "because",
+        "cause",
         "the",
         "earth",
         "was",
         "round."
-      ]
+      ],
+      "conf": 96.4411,
+      "source": "psm-11"
     },
     {
-      "text": "This is the sort of ship Columbus sailed in. He made use of a half-hour sand glass for measuring time at sea. The glasses had to be turned every half-hour.",
-      "x": 0.1,
-      "y": 0.3,
-      "w": 0.6,
-      "h": 0.25,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "This is the sort of ship Columbus sailed in.",
+      "x": 0.1025,
+      "y": 0.2941,
+      "w": 0.3424,
+      "h": 0.0469,
       "words": [
         "This",
         "is",
@@ -145,68 +196,198 @@
         "ship",
         "Columbus",
         "sailed",
-        "in.",
+        "in."
+      ],
+      "conf": 96.6535,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "He made use of a half-hour for measuring time at sea.",
+      "x": 0.1059,
+      "y": 0.4486,
+      "w": 0.4203,
+      "h": 0.0541,
+      "words": [
         "He",
         "made",
         "use",
         "of",
         "a",
         "half-hour",
-        "sand",
-        "glass",
         "for",
         "measuring",
         "time",
         "at",
-        "sea.",
-        "The",
+        "sea."
+      ],
+      "conf": 95.7376,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "sand glass Through all",
+      "x": 0.528,
+      "y": 0.4486,
+      "w": 0.1695,
+      "h": 0.0541,
+      "words": [
+        "sand",
+        "glass",
+        "Through",
+        "all"
+      ],
+      "conf": 96.1277,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "the long months the glasses bus’s three ships had to be half-hour as the sand ran out.",
+      "x": 0.1093,
+      "y": 0.5043,
+      "w": 0.4424,
+      "h": 0.0752,
+      "words": [
+        "the",
+        "long",
+        "months",
+        "the",
         "glasses",
+        "bus’s",
+        "three",
+        "ships",
         "had",
         "to",
         "be",
-        "turned",
-        "every",
-        "half-hour."
-      ]
+        "half-hour",
+        "as",
+        "the",
+        "sand",
+        "ran",
+        "out."
+      ],
+      "conf": 96.2249,
+      "source": "psm-11"
     },
     {
-      "text": "gone down: been given a place. When a person's name goes down in history something he has done is recorded in history books. could: would be able to.",
-      "x": 0.1,
+      "id": "r9",
+      "order": 8,
+      "text": "on Colum- turned every",
+      "x": 0.5085,
+      "y": 0.5043,
+      "w": 0.1873,
+      "h": 0.0487,
+      "words": [
+        "on",
+        "Colum-",
+        "turned",
+        "every"
+      ],
+      "conf": 91.1375,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "gone down: been given a place.",
+      "x": 0.1153,
       "y": 0.82,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r4",
-      "order": 3,
+      "w": 0.3941,
+      "h": 0.0157,
       "words": [
         "gone",
         "down:",
         "been",
         "given",
         "a",
-        "place.",
-        "When",
-        "a",
-        "person's",
-        "name",
-        "goes",
-        "down",
+        "place."
+      ],
+      "conf": 88.2339,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "could: in this sense, would be able",
+      "x": 0.1153,
+      "y": 0.8551,
+      "w": 0.4229,
+      "h": 0.0151,
+      "words": [
+        "could:",
         "in",
+        "this",
+        "sense,",
+        "would",
+        "be",
+        "able"
+      ],
+      "conf": 95.6851,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "history something he has done",
+      "x": 0.1712,
+      "y": 0.8378,
+      "w": 0.3517,
+      "h": 0.0151,
+      "words": [
         "history",
         "something",
         "he",
         "has",
-        "done",
+        "done"
+      ],
+      "conf": 96.1122,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "When a name goes down in is recorded in history books.",
+      "x": 0.5203,
+      "y": 0.82,
+      "w": 0.4254,
+      "h": 0.0324,
+      "words": [
+        "When",
+        "a",
+        "name",
+        "goes",
+        "down",
+        "in",
         "is",
         "recorded",
         "in",
         "history",
-        "books.",
-        "could:",
-        "would",
-        "be",
-        "able",
-        "to."
-      ]
+        "books."
+      ],
+      "conf": 95.9714,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "to—as used on the opposite page.",
+      "x": 0.55,
+      "y": 0.8546,
+      "w": 0.3958,
+      "h": 0.0162,
+      "words": [
+        "to—as",
+        "used",
+        "on",
+        "the",
+        "opposite",
+        "page."
+      ],
+      "conf": 94.4394,
+      "source": "psm-11"
     }
   ]
 }

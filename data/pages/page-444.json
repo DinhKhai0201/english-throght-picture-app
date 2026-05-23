@@ -2,58 +2,41 @@
   "page": 444,
   "image": "/books/page 444.png",
   "imageApiPath": "/api/books/page%20444.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 75,
+    "regionCount": 7,
+    "wordCount": 95,
     "imageWidth": 1171,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r1",
+        "r2",
         "r3",
-        "r4"
+        "r4",
+        "r5",
+        "r6",
+        "r7"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Our ideas about Space and Time are changing. Today we can fly round the world in twenty-four hours.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.45,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "Our ideas about Space and Time are changing Today we can fly round the world in twenty-four hours.",
+      "x": 0.0828,
+      "y": 0.0448,
+      "w": 0.3835,
+      "h": 0.1206,
       "words": [
         "Our",
         "ideas",
@@ -62,7 +45,7 @@
         "and",
         "Time",
         "are",
-        "changing.",
+        "changing",
         "Today",
         "we",
         "can",
@@ -73,97 +56,164 @@
         "in",
         "twenty-four",
         "hours."
-      ]
+      ],
+      "conf": 93.4711,
+      "source": "psm-11"
     },
     {
-      "text": "The earth turns in twenty-four hours. A man flying west at 1000 m.p.h. would see the earth turning under him while the sun stays in place.",
-      "x": 0.1,
-      "y": 0.25,
-      "w": 0.85,
-      "h": 0.2,
       "id": "r2",
       "order": 1,
+      "text": "The earth turns round on itself A man in a",
+      "x": 0.0845,
+      "y": 0.2523,
+      "w": 0.4714,
+      "h": 0.0747,
       "words": [
         "The",
         "earth",
         "turns",
-        "in",
-        "twenty-four",
-        "hours.",
+        "round",
+        "on",
+        "itself",
         "A",
         "man",
+        "in",
+        "a"
+      ],
+      "conf": 96.6838,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "in twenty-four hours.",
+      "x": 0.5662,
+      "y": 0.2523,
+      "w": 0.3066,
+      "h": 0.0213,
+      "words": [
+        "in",
+        "twenty-four",
+        "hours."
+      ],
+      "conf": 96.154,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "plane flying (m.p.h.) would see the earth would turn under him.",
+      "x": 0.0863,
+      "y": 0.3056,
+      "w": 0.4586,
+      "h": 0.0944,
+      "words": [
+        "plane",
         "flying",
-        "west",
-        "at",
-        "1000",
-        "m.p.h.",
+        "(m.p.h.)",
         "would",
         "see",
         "the",
         "earth",
-        "turning",
+        "would",
+        "turn",
         "under",
-        "him",
-        "while",
-        "the",
-        "sun",
-        "stays",
-        "in",
-        "place."
-      ]
+        "him."
+      ],
+      "conf": 77.0591,
+      "source": "psm-11"
     },
     {
-      "text": "A hundred years ago people thought the world was 6000 years old. Now scientists say it is six billion years old.",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "west at miles an hour turning. The sun would in the aky for him, ‘The cert",
+      "x": 0.5107,
+      "y": 0.3045,
+      "w": 0.415,
+      "h": 0.0997,
+      "words": [
+        "west",
+        "at",
+        "miles",
+        "an",
+        "hour",
+        "turning.",
+        "The",
+        "sun",
+        "would",
+        "in",
+        "the",
+        "aky",
+        "for",
+        "him,",
+        "‘The",
+        "cert"
+      ],
+      "conf": 96.6768,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "A hundred years ago men world was only about that it is nearer six billion years is at least five hundred thousand.",
+      "x": 0.0845,
+      "y": 0.7957,
+      "w": 0.5218,
+      "h": 0.0955,
       "words": [
         "A",
         "hundred",
         "years",
         "ago",
-        "people",
-        "thought",
-        "the",
+        "men",
         "world",
         "was",
-        "6000",
-        "years",
-        "old.",
-        "Now",
-        "scientists",
-        "say",
+        "only",
+        "about",
+        "that",
         "it",
         "is",
+        "nearer",
         "six",
         "billion",
         "years",
-        "old."
-      ]
-    },
-    {
-      "text": "Man himself is at least five hundred thousand years old.",
-      "x": 0.1,
-      "y": 0.88,
-      "w": 0.85,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "Man",
-        "himself",
         "is",
         "at",
         "least",
         "five",
         "hundred",
-        "thousand",
+        "thousand."
+      ],
+      "conf": 96.7508,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "of learning thought that the years old. Now scientists say old and that Man himself",
+      "x": 0.5038,
+      "y": 0.7947,
+      "w": 0.421,
+      "h": 0.0709,
+      "words": [
+        "of",
+        "learning",
+        "thought",
+        "that",
+        "the",
         "years",
-        "old."
-      ]
+        "old.",
+        "Now",
+        "scientists",
+        "say",
+        "old",
+        "and",
+        "that",
+        "Man",
+        "himself"
+      ],
+      "conf": 96.4363,
+      "source": "psm-11"
     }
   ]
 }

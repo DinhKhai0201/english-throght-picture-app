@@ -2,10 +2,10 @@
   "page": 119,
   "image": "/books/page 119.png",
   "imageApiPath": "/api/books/page%20119.png",
-  "layout": "grid-4x2",
+  "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 30,
+    "regionCount": 11,
+    "wordCount": 38,
     "imageWidth": 1209,
     "imageHeight": 1805
   },
@@ -18,7 +18,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
+        "r1",
         "r4"
       ]
     },
@@ -30,9 +30,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r3",
-        "r5"
+        "r2",
+        "r3"
       ]
     },
     {
@@ -44,7 +43,8 @@
       "h": 0.5,
       "regionIds": [
         "r6",
-        "r8"
+        "r8",
+        "r10"
       ]
     },
     {
@@ -55,152 +55,194 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r5",
         "r7",
         "r9",
-        "r10"
+        "r11"
       ]
     }
   ],
   "regions": [
     {
-      "text": "QUESTIONS",
-      "x": 0.4,
-      "y": 0.08,
-      "w": 0.2,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "QUESTIONS a What is this?",
+      "x": 0.1696,
+      "y": 0.0787,
+      "w": 0.4169,
+      "h": 0.0731,
       "words": [
-        "QUESTIONS"
-      ]
+        "QUESTIONS",
+        "a",
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 96.154,
+      "source": "psm-11"
     },
     {
-      "text": "What is this?",
-      "x": 0.1,
-      "y": 0.14,
-      "w": 0.3,
-      "h": 0.03,
       "id": "r2",
       "order": 1,
+      "text": "b What is this?",
+      "x": 0.5591,
+      "y": 0.1324,
+      "w": 0.2341,
+      "h": 0.0199,
       "words": [
+        "b",
         "What",
         "is",
         "this?"
-      ]
+      ],
+      "conf": 95.0428,
+      "source": "psm-11"
     },
     {
-      "text": "What is this?",
-      "x": 0.55,
-      "y": 0.14,
-      "w": 0.3,
-      "h": 0.03,
       "id": "r3",
       "order": 2,
+      "text": "d What is this?",
+      "x": 0.5674,
+      "y": 0.328,
+      "w": 0.2324,
+      "h": 0.0199,
       "words": [
+        "d",
         "What",
         "is",
         "this?"
-      ]
+      ],
+      "conf": 95.4425,
+      "source": "psm-11"
     },
     {
-      "text": "What are these?",
-      "x": 0.1,
-      "y": 0.47,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r4",
       "order": 3,
+      "text": "What are these?",
+      "x": 0.1216,
+      "y": 0.4648,
+      "w": 0.2506,
+      "h": 0.0199,
       "words": [
         "What",
         "are",
         "these?"
-      ]
+      ],
+      "conf": 95.4998,
+      "source": "psm-11"
     },
     {
-      "text": "What is this?",
-      "x": 0.55,
-      "y": 0.33,
-      "w": 0.3,
-      "h": 0.03,
       "id": "r5",
       "order": 4,
+      "text": "wz ewe",
+      "x": 0.7097,
+      "y": 0.5019,
+      "w": 0.0786,
+      "h": 0.0155,
       "words": [
-        "What",
-        "is",
-        "this?"
-      ]
+        "wz",
+        "ewe"
+      ],
+      "conf": 51.1751,
+      "source": "psm-11"
     },
     {
-      "text": "What is this?",
-      "x": 0.1,
-      "y": 0.69,
-      "w": 0.3,
-      "h": 0.03,
       "id": "r6",
       "order": 5,
+      "text": "e What is this?",
+      "x": 0.1017,
+      "y": 0.677,
+      "w": 0.2366,
+      "h": 0.0283,
       "words": [
+        "e",
         "What",
         "is",
         "this?"
-      ]
+      ],
+      "conf": 95.1313,
+      "source": "psm-11"
     },
     {
-      "text": "What are these?",
-      "x": 0.55,
-      "y": 0.69,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r7",
       "order": 6,
+      "text": "f What are these?",
+      "x": 0.5517,
+      "y": 0.6809,
+      "w": 0.2911,
+      "h": 0.0199,
       "words": [
+        "f",
         "What",
         "are",
         "these?"
-      ]
+      ],
+      "conf": 95.6135,
+      "source": "psm-11"
     },
     {
-      "text": "What is this?",
-      "x": 0.1,
-      "y": 0.87,
-      "w": 0.3,
-      "h": 0.03,
       "id": "r8",
       "order": 7,
+      "text": "g What is this?",
+      "x": 0.1605,
+      "y": 0.8687,
+      "w": 0.2341,
+      "h": 0.0238,
       "words": [
+        "g",
         "What",
         "is",
         "this?"
-      ]
+      ],
+      "conf": 95.5351,
+      "source": "psm-11"
     },
     {
-      "text": "What is this?",
-      "x": 0.55,
-      "y": 0.87,
-      "w": 0.3,
-      "h": 0.03,
       "id": "r9",
       "order": 8,
+      "text": "h What is this?",
+      "x": 0.5575,
+      "y": 0.8693,
+      "w": 0.2341,
+      "h": 0.0199,
       "words": [
+        "h",
         "What",
         "is",
         "this?"
-      ]
+      ],
+      "conf": 95.5536,
+      "source": "psm-11"
     },
     {
-      "text": "Answers are on page 116.",
-      "x": 0.3,
-      "y": 0.93,
-      "w": 0.4,
-      "h": 0.03,
       "id": "r10",
       "order": 9,
+      "text": "Answers are on",
+      "x": 0.273,
+      "y": 0.9269,
+      "w": 0.2341,
+      "h": 0.0188,
       "words": [
         "Answers",
         "are",
-        "on",
-        "page",
-        "116."
-      ]
+        "on"
+      ],
+      "conf": 96.4181,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "page",
+      "x": 0.5178,
+      "y": 0.933,
+      "w": 0.0786,
+      "h": 0.0183,
+      "words": [
+        "page"
+      ],
+      "conf": 96.4236,
+      "source": "psm-11"
     }
   ]
 }

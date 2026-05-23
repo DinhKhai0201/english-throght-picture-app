@@ -2,70 +2,40 @@
   "page": 165,
   "image": "/books/page 165.png",
   "imageApiPath": "/api/books/page%20165.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
     "regionCount": 6,
-    "wordCount": 56,
+    "wordCount": 52,
     "imageWidth": 1238,
     "imageHeight": 1821
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
-        "r2"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r2",
+        "r3",
         "r4",
-        "r5"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r5",
         "r6"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Now I have these two bits of wood.",
-      "x": 0.12,
-      "y": 0.12,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "Now I have these two bits of wood.",
+      "x": 0.147,
+      "y": 0.1186,
+      "w": 0.3142,
+      "h": 0.0456,
       "words": [
         "Now",
         "I",
@@ -75,34 +45,18 @@
         "bits",
         "of",
         "wood."
-      ]
+      ],
+      "conf": 94.4208,
+      "source": "psm-11"
     },
     {
-      "text": "I will put them together like this.",
-      "x": 0.12,
-      "y": 0.34,
-      "w": 0.38,
-      "h": 0.05,
       "id": "r2",
       "order": 1,
-      "words": [
-        "I",
-        "will",
-        "put",
-        "them",
-        "together",
-        "like",
-        "this."
-      ]
-    },
-    {
-      "text": "There is the roof of the house.",
-      "x": 0.54,
-      "y": 0.31,
-      "w": 0.38,
-      "h": 0.05,
-      "id": "r3",
-      "order": 2,
+      "text": "There is the roof of the house",
+      "x": 0.5452,
+      "y": 0.3059,
+      "w": 0.3336,
+      "h": 0.045,
       "words": [
         "There",
         "is",
@@ -110,60 +64,39 @@
         "roof",
         "of",
         "the",
-        "house."
-      ]
+        "house"
+      ],
+      "conf": 96.6294,
+      "source": "psm-11"
     },
     {
-      "text": "Now I will put the two parts of the roof together with nails.",
-      "x": 0.12,
-      "y": 0.65,
-      "w": 0.38,
-      "h": 0.1,
-      "id": "r4",
-      "order": 3,
+      "id": "r3",
+      "order": 2,
+      "text": "will put them like this.",
+      "x": 0.1309,
+      "y": 0.3344,
+      "w": 0.2084,
+      "h": 0.045,
       "words": [
-        "Now",
-        "I",
         "will",
         "put",
-        "the",
-        "two",
-        "parts",
-        "of",
-        "the",
-        "roof",
-        "together",
-        "with",
-        "nails."
-      ]
+        "them",
+        "like",
+        "this."
+      ],
+      "conf": 95.6641,
+      "source": "psm-11"
     },
     {
-      "text": "These are nails.",
-      "x": 0.25,
-      "y": 0.8,
-      "w": 0.25,
-      "h": 0.03,
-      "id": "r5",
-      "order": 4,
+      "id": "r4",
+      "order": 3,
+      "text": "Iwill hole through this part of the roof into the other part of the roof.",
+      "x": 0.5275,
+      "y": 0.6194,
+      "w": 0.3643,
+      "h": 0.078,
       "words": [
-        "These",
-        "are",
-        "nails."
-      ]
-    },
-    {
-      "text": "I will make a hole through this part of the roof into the other part of the roof.",
-      "x": 0.52,
-      "y": 0.63,
-      "w": 0.4,
-      "h": 0.1,
-      "id": "r6",
-      "order": 5,
-      "words": [
-        "I",
-        "will",
-        "make",
-        "a",
+        "Iwill",
         "hole",
         "through",
         "this",
@@ -178,7 +111,52 @@
         "of",
         "the",
         "roof."
-      ]
+      ],
+      "conf": 73.2098,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Now I will put the two parts of the roof together with nails.",
+      "x": 0.1187,
+      "y": 0.6425,
+      "w": 0.3627,
+      "h": 0.073,
+      "words": [
+        "Now",
+        "I",
+        "will",
+        "put",
+        "the",
+        "two",
+        "parts",
+        "of",
+        "the",
+        "roof",
+        "together",
+        "with",
+        "nails."
+      ],
+      "conf": 93.3754,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "These are nile yo,",
+      "x": 0.1042,
+      "y": 0.7809,
+      "w": 0.3974,
+      "h": 0.1236,
+      "words": [
+        "These",
+        "are",
+        "nile",
+        "yo,"
+      ],
+      "conf": 84.4344,
+      "source": "psm-11"
     }
   ]
 }

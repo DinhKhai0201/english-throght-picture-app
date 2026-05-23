@@ -4,12 +4,27 @@
   "imageApiPath": "/api/books/page%20282.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 2,
-    "wordCount": 71,
+    "regionCount": 21,
+    "wordCount": 72,
     "imageWidth": 1188,
     "imageHeight": 1884
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r6",
+        "r8",
+        "r9"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,7 +33,25 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r4",
+        "r5",
+        "r7",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r11",
+        "r15",
+        "r18",
+        "r19"
       ]
     },
     {
@@ -29,63 +62,161 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r12",
+        "r13",
+        "r14",
+        "r16",
+        "r17",
+        "r20",
+        "r21"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Every statement or question in this book has one or more of these sixteen words in it: be, come, give, make, have, go, get, send, do, put, keep, see, seem, take, let, say.",
-      "x": 0.1,
-      "y": 0.15,
-      "w": 0.8,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "Every statement or questian more of these sixteen words be",
+      "x": 0.1136,
+      "y": 0.1603,
+      "w": 0.4411,
+      "h": 0.0929,
       "words": [
         "Every",
         "statement",
         "or",
-        "question",
+        "questian",
+        "more",
+        "of",
+        "these",
+        "sixteen",
+        "words",
+        "be"
+      ],
+      "conf": 81.9562,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "in this book has one or in it: give",
+      "x": 0.5564,
+      "y": 0.1592,
+      "w": 0.3847,
+      "h": 0.0977,
+      "words": [
         "in",
         "this",
         "book",
         "has",
         "one",
         "or",
-        "more",
-        "of",
-        "these",
-        "sixteen",
-        "words",
         "in",
         "it:",
-        "be,",
-        "come,",
-        "give,",
-        "make,",
-        "have,",
-        "go,",
-        "get,",
-        "send,",
-        "do,",
-        "put,",
-        "keep,",
-        "see,",
-        "seem,",
-        "take,",
-        "let,",
-        "say."
-      ]
+        "give"
+      ],
+      "conf": 96.3637,
+      "source": "psm-11"
     },
     {
-      "text": "The first of these words, BE, comes into more statements than any other. Here it is. It goes like this: Past, Present, Future. I was, am, will be. He/She/It was, is, will be. We/You/They were, are, will be.",
-      "x": 0.1,
-      "y": 0.45,
-      "w": 0.8,
-      "h": 0.45,
-      "id": "r2",
-      "order": 1,
+      "id": "r3",
+      "order": 2,
+      "text": "come have do",
+      "x": 0.1911,
+      "y": 0.2404,
+      "w": 0.2904,
+      "h": 0.0621,
+      "words": [
+        "come",
+        "have",
+        "do"
+      ],
+      "conf": 96.184,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "make get",
+      "x": 0.6103,
+      "y": 0.2341,
+      "w": 0.2575,
+      "h": 0.0472,
+      "words": [
+        "make",
+        "get"
+      ],
+      "conf": 96.3242,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "send keep let",
+      "x": 0.6111,
+      "y": 0.2596,
+      "w": 0.2433,
+      "h": 0.0674,
+      "words": [
+        "send",
+        "keep",
+        "let"
+      ],
+      "conf": 95.473,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "put take",
+      "x": 0.3998,
+      "y": 0.2866,
+      "w": 0.0682,
+      "h": 0.0409,
+      "words": [
+        "put",
+        "take"
+      ],
+      "conf": 96.0325,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "see say",
+      "x": 0.7837,
+      "y": 0.2903,
+      "w": 0.0513,
+      "h": 0.0425,
+      "words": [
+        "see",
+        "say"
+      ],
+      "conf": 96.8622,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "seem",
+      "x": 0.1911,
+      "y": 0.3153,
+      "w": 0.0749,
+      "h": 0.0122,
+      "words": [
+        "seem"
+      ],
+      "conf": 95.4013,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "The first of these words, BE, than any other. Here it is.",
+      "x": 0.1111,
+      "y": 0.4273,
+      "w": 0.4066,
+      "h": 0.0494,
       "words": [
         "The",
         "first",
@@ -93,39 +224,199 @@
         "these",
         "words,",
         "BE,",
-        "comes",
-        "into",
-        "more",
-        "statements",
         "than",
         "any",
         "other.",
         "Here",
         "it",
-        "is.",
+        "is."
+      ],
+      "conf": 96.5624,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "comes Into more statements It goes like this:",
+      "x": 0.5109,
+      "y": 0.4289,
+      "w": 0.4251,
+      "h": 0.0467,
+      "words": [
+        "comes",
+        "Into",
+        "more",
+        "statements",
         "It",
         "goes",
         "like",
-        "this:",
-        "Past,",
-        "Present,",
-        "Future.",
-        "I",
-        "was,",
-        "am,",
+        "this:"
+      ],
+      "conf": 96.358,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "Past was He She",
+      "x": 0.186,
+      "y": 0.5042,
+      "w": 0.2239,
+      "h": 0.1418,
+      "words": [
+        "Past",
+        "was",
+        "He",
+        "She"
+      ],
+      "conf": 96.5439,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "Present",
+      "x": 0.5404,
+      "y": 0.5032,
+      "w": 0.1111,
+      "h": 0.0175,
+      "words": [
+        "Present"
+      ],
+      "conf": 95.9814,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Future am",
+      "x": 0.5766,
+      "y": 0.5037,
+      "w": 0.2846,
+      "h": 0.0664,
+      "words": [
+        "Future",
+        "am"
+      ],
+      "conf": 96.2652,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "will be",
+      "x": 0.7626,
+      "y": 0.552,
+      "w": 0.101,
+      "h": 0.0191,
+      "words": [
         "will",
-        "be.",
-        "He/She/It",
-        "was,",
-        "is,",
+        "be"
+      ],
+      "conf": 96.6031,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "was",
+      "x": 0.3485,
+      "y": 0.6332,
+      "w": 0.0598,
+      "h": 0.0117,
+      "words": [
+        "was"
+      ],
+      "conf": 96.0565,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "Is",
+      "x": 0.5758,
+      "y": 0.6274,
+      "w": 0.0227,
+      "h": 0.017,
+      "words": [
+        "Is"
+      ],
+      "conf": 94.1031,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "will be",
+      "x": 0.7618,
+      "y": 0.6263,
+      "w": 0.101,
+      "h": 0.0196,
+      "words": [
         "will",
-        "be.",
-        "We/You/They",
-        "were,",
-        "are,",
+        "be"
+      ],
+      "conf": 96.8717,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "We You",
+      "x": 0.186,
+      "y": 0.7033,
+      "w": 0.059,
+      "h": 0.042,
+      "words": [
+        "We",
+        "You"
+      ],
+      "conf": 96.92,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "were They",
+      "x": 0.186,
+      "y": 0.733,
+      "w": 0.2366,
+      "h": 0.0425,
+      "words": [
+        "were",
+        "They"
+      ],
+      "conf": 96.4749,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "are",
+      "x": 0.5758,
+      "y": 0.7325,
+      "w": 0.053,
+      "h": 0.0127,
+      "words": [
+        "are"
+      ],
+      "conf": 96.2227,
+      "source": "psm-11"
+    },
+    {
+      "id": "r21",
+      "order": 20,
+      "text": "will be",
+      "x": 0.7635,
+      "y": 0.7266,
+      "w": 0.101,
+      "h": 0.0196,
+      "words": [
         "will",
-        "be."
-      ]
+        "be"
+      ],
+      "conf": 95.9003,
+      "source": "psm-11"
     }
   ]
 }

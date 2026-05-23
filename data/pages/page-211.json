@@ -2,68 +2,44 @@
   "page": 211,
   "image": "/books/page 211.png",
   "imageApiPath": "/api/books/page%20211.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 72,
+    "regionCount": 10,
+    "wordCount": 71,
     "imageWidth": 1205,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Here is Sir Isaac Newton, the great man of science. Newton had a great mind.",
-      "x": 0.12,
-      "y": 0.08,
-      "w": 0.38,
-      "h": 0.12,
       "id": "r1",
       "order": 0,
+      "text": "Here is Sir Isaac Newton, the great man of science. Newton had a great mind.",
+      "x": 0.1436,
+      "y": 0.072,
+      "w": 0.3602,
+      "h": 0.1034,
       "words": [
         "Here",
         "is",
@@ -80,28 +56,42 @@
         "a",
         "great",
         "mind."
-      ]
+      ],
+      "conf": 85.5395,
+      "source": "psm-11"
     },
     {
-      "text": "He is under an apple tree. It is the year 1666. Those are apples which are over his head. The seat has three legs.",
-      "x": 0.54,
-      "y": 0.1,
-      "w": 0.38,
-      "h": 0.28,
       "id": "r2",
       "order": 1,
+      "text": "He is under an apple tree.",
+      "x": 0.5701,
+      "y": 0.1115,
+      "w": 0.322,
+      "h": 0.0443,
       "words": [
         "He",
         "is",
         "under",
         "an",
         "apple",
-        "tree.",
+        "tree."
+      ],
+      "conf": 90.2395,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "It is the year Those are apples which are over his head.",
+      "x": 0.5676,
+      "y": 0.2,
+      "w": 0.3561,
+      "h": 0.1141,
+      "words": [
         "It",
         "is",
         "the",
         "year",
-        "1666.",
         "Those",
         "are",
         "apples",
@@ -109,22 +99,37 @@
         "are",
         "over",
         "his",
-        "head.",
+        "head."
+      ],
+      "conf": 94.0056,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "The seat has three legs.",
+      "x": 0.5593,
+      "y": 0.3573,
+      "w": 0.3544,
+      "h": 0.024,
+      "words": [
         "The",
         "seat",
         "has",
         "three",
         "legs."
-      ]
+      ],
+      "conf": 96.6738,
+      "source": "psm-11"
     },
     {
-      "text": "Here is an apple which was over his head. The apple was on a branch of the tree.",
-      "x": 0.12,
-      "y": 0.51,
-      "w": 0.38,
-      "h": 0.12,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "Here is an apple which was over his head.",
+      "x": 0.1452,
+      "y": 0.512,
+      "w": 0.3428,
+      "h": 0.0448,
       "words": [
         "Here",
         "is",
@@ -134,7 +139,39 @@
         "was",
         "over",
         "his",
-        "head.",
+        "head."
+      ],
+      "conf": 96.3331,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The apple came off the branch.",
+      "x": 0.561,
+      "y": 0.5221,
+      "w": 0.351,
+      "h": 0.0443,
+      "words": [
+        "The",
+        "apple",
+        "came",
+        "off",
+        "the",
+        "branch."
+      ],
+      "conf": 96.5152,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "The apple was on a branch of the tree.",
+      "x": 0.1444,
+      "y": 0.5621,
+      "w": 0.2921,
+      "h": 0.0449,
+      "words": [
         "The",
         "apple",
         "was",
@@ -144,33 +181,57 @@
         "of",
         "the",
         "tree."
-      ]
+      ],
+      "conf": 94.4946,
+      "source": "psm-11"
     },
     {
-      "text": "The apple came off the branch. It came down. It came down on Newton's head.",
-      "x": 0.54,
-      "y": 0.52,
-      "w": 0.38,
-      "h": 0.38,
-      "id": "r4",
-      "order": 3,
+      "id": "r8",
+      "order": 7,
+      "text": "t It came down.",
+      "x": 0.5261,
+      "y": 0.5733,
+      "w": 0.2473,
+      "h": 0.0181,
       "words": [
-        "The",
-        "apple",
-        "came",
-        "off",
-        "the",
-        "branch.",
+        "t",
         "It",
         "came",
-        "down.",
+        "down."
+      ],
+      "conf": 77.2767,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "It came down on",
+      "x": 0.6108,
+      "y": 0.8251,
+      "w": 0.249,
+      "h": 0.0208,
+      "words": [
         "It",
         "came",
         "down",
-        "on",
-        "Newton's",
+        "on"
+      ],
+      "conf": 92.1966,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "head.",
+      "x": 0.756,
+      "y": 0.8517,
+      "w": 0.0846,
+      "h": 0.0192,
+      "words": [
         "head."
-      ]
+      ],
+      "conf": 96.6884,
+      "source": "psm-11"
     }
   ]
 }

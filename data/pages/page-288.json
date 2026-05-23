@@ -2,125 +2,221 @@
   "page": 288,
   "image": "/books/page 288.png",
   "imageApiPath": "/api/books/page%20288.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
+    "regionCount": 11,
     "wordCount": 42,
     "imageWidth": 1180,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r1",
         "r2",
         "r3",
-        "r4"
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11"
       ]
     }
   ],
   "regions": [
     {
-      "text": "\"I am here.\"",
-      "x": 0.45,
-      "y": 0.05,
-      "w": 0.15,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "“I am",
+      "x": 0.4576,
+      "y": 0.0453,
+      "w": 0.0839,
+      "h": 0.0165,
       "words": [
-        "\"I",
-        "am",
-        "here.\""
-      ]
+        "“I",
+        "am"
+      ],
+      "conf": 82.9553,
+      "source": "psm-11"
     },
     {
-      "text": "Where is \"here\"? Where are you? Where do you live? Who are you? What is your name?",
-      "x": 0.12,
-      "y": 0.65,
-      "w": 0.8,
-      "h": 0.1,
       "id": "r2",
       "order": 1,
+      "text": "here.”",
+      "x": 0.5525,
+      "y": 0.0453,
+      "w": 0.089,
+      "h": 0.0165,
+      "words": [
+        "here.”"
+      ],
+      "conf": 96.1923,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Where is “here”?",
+      "x": 0.1305,
+      "y": 0.6443,
+      "w": 0.2508,
+      "h": 0.016,
       "words": [
         "Where",
         "is",
-        "\"here\"?",
+        "“here”?"
+      ],
+      "conf": 78.0971,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Where are you? Where do Who are you? What is your live: the place where you are you live.",
+      "x": 0.1297,
+      "y": 0.6699,
+      "w": 0.4033,
+      "h": 0.1269,
+      "words": [
         "Where",
         "are",
         "you?",
         "Where",
         "do",
-        "you",
-        "live?",
         "Who",
         "are",
         "you?",
         "What",
         "is",
         "your",
-        "name?"
-      ]
-    },
-    {
-      "text": "live: the place where you are living or have your house is where you live.",
-      "x": 0.12,
-      "y": 0.78,
-      "w": 0.8,
-      "h": 0.05,
-      "id": "r3",
-      "order": 2,
-      "words": [
         "live:",
         "the",
         "place",
         "where",
         "you",
         "are",
+        "you",
+        "live."
+      ],
+      "conf": 96.6159,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "you live?",
+      "x": 0.5237,
+      "y": 0.6699,
+      "w": 0.1288,
+      "h": 0.0213,
+      "words": [
+        "you",
+        "live?"
+      ],
+      "conf": 96.4994,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "name?",
+      "x": 0.5424,
+      "y": 0.696,
+      "w": 0.0941,
+      "h": 0.016,
+      "words": [
+        "name?"
+      ],
+      "conf": 96.7198,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "living or have your house is where",
+      "x": 0.5263,
+      "y": 0.7627,
+      "w": 0.4314,
+      "h": 0.0149,
+      "words": [
         "living",
         "or",
         "have",
         "your",
         "house",
         "is",
-        "where",
-        "you",
-        "live."
-      ]
+        "where"
+      ],
+      "conf": 91.6561,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will live. PRESENT: live(s). PAST: lived.",
-      "x": 0.12,
-      "y": 0.85,
-      "w": 0.8,
-      "h": 0.08,
-      "id": "r4",
-      "order": 3,
+      "id": "r8",
+      "order": 7,
+      "text": "FUTURE will live",
+      "x": 0.1288,
+      "y": 0.8251,
+      "w": 0.1153,
+      "h": 0.0373,
       "words": [
-        "FUTURE:",
+        "FUTURE",
         "will",
-        "live.",
-        "PRESENT:",
-        "live(s).",
-        "PAST:",
-        "lived."
-      ]
+        "live"
+      ],
+      "conf": 95.4553,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "PRESENT",
+      "x": 0.4805,
+      "y": 0.8251,
+      "w": 0.1288,
+      "h": 0.0128,
+      "words": [
+        "PRESENT"
+      ],
+      "conf": 96.3064,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "PAST live(s)",
+      "x": 0.5,
+      "y": 0.8261,
+      "w": 0.4551,
+      "h": 0.0385,
+      "words": [
+        "PAST",
+        "live(s)"
+      ],
+      "conf": 96.3693,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "lived",
+      "x": 0.8958,
+      "y": 0.8496,
+      "w": 0.0593,
+      "h": 0.0128,
+      "words": [
+        "lived"
+      ],
+      "conf": 96.3106,
+      "source": "psm-11"
     }
   ]
 }

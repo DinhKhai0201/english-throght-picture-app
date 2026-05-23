@@ -2,55 +2,25 @@
   "page": 169,
   "image": "/books/page 169.png",
   "imageApiPath": "/api/books/page%20169.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
     "regionCount": 5,
-    "wordCount": 24,
+    "wordCount": 23,
     "imageWidth": 1221,
     "imageHeight": 1821
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
         "r4",
         "r5"
       ]
@@ -58,83 +28,92 @@
   ],
   "regions": [
     {
-      "text": "Jane is making something.",
-      "x": 0.15,
-      "y": 0.14,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "Jane is making something.",
+      "x": 0.1998,
+      "y": 0.1345,
+      "w": 0.2236,
+      "h": 0.049,
       "words": [
         "Jane",
         "is",
         "making",
         "something."
-      ]
+      ],
+      "conf": 95.991,
+      "source": "psm-11"
     },
     {
-      "text": "What are you doing, Jane?",
-      "x": 0.54,
-      "y": 0.14,
-      "w": 0.35,
-      "h": 0.08,
       "id": "r2",
       "order": 1,
+      "text": "What are you doing, Jane?",
+      "x": 0.5627,
+      "y": 0.1241,
+      "w": 0.3178,
+      "h": 0.0566,
       "words": [
         "What",
         "are",
         "you",
         "doing,",
         "Jane?"
-      ]
+      ],
+      "conf": 96.3599,
+      "source": "psm-11"
     },
     {
-      "text": "I am making a coat and trousers.",
-      "x": 0.12,
-      "y": 0.58,
-      "w": 0.4,
-      "h": 0.05,
       "id": "r3",
       "order": 2,
-      "words": [
-        "I",
-        "am",
-        "making",
-        "a",
-        "coat",
-        "and",
-        "trousers."
-      ]
-    },
-    {
       "text": "Here are the trousers.",
-      "x": 0.56,
-      "y": 0.52,
-      "w": 0.3,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
+      "x": 0.6028,
+      "y": 0.5255,
+      "w": 0.1916,
+      "h": 0.0445,
       "words": [
         "Here",
         "are",
         "the",
         "trousers."
-      ]
+      ],
+      "conf": 95.8394,
+      "source": "psm-11"
     },
     {
-      "text": "Here is the coat.",
-      "x": 0.54,
-      "y": 0.67,
-      "w": 0.3,
-      "h": 0.03,
+      "id": "r4",
+      "order": 3,
+      "text": "lam making a coat and trousers,",
+      "x": 0.1417,
+      "y": 0.5805,
+      "w": 0.3546,
+      "h": 0.0461,
+      "words": [
+        "lam",
+        "making",
+        "a",
+        "coat",
+        "and",
+        "trousers,"
+      ],
+      "conf": 84.4854,
+      "source": "psm-11"
+    },
+    {
       "id": "r5",
       "order": 4,
+      "text": "Here is the coat.",
+      "x": 0.5725,
+      "y": 0.6738,
+      "w": 0.24,
+      "h": 0.0198,
       "words": [
         "Here",
         "is",
         "the",
         "coat."
-      ]
+      ],
+      "conf": 95.8891,
+      "source": "psm-11"
     }
   ]
 }

@@ -2,93 +2,42 @@
   "page": 170,
   "image": "/books/page 170.png",
   "imageApiPath": "/api/books/page%20170.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 6,
+    "regionCount": 8,
     "wordCount": 45,
     "imageWidth": 1155,
     "imageHeight": 1846
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r1",
         "r2",
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r3",
+        "r4",
         "r5",
-        "r6"
+        "r6",
+        "r7",
+        "r8"
       ]
     }
   ],
   "regions": [
     {
-      "text": "\"Has your coat a collar?\" \"Yes, it has. Here is the collar.\"",
-      "x": 0.08,
-      "y": 0.14,
-      "w": 0.4,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
-      "words": [
-        "\"Has",
-        "your",
-        "coat",
-        "a",
-        "collar?\"",
-        "\"Yes,",
-        "it",
-        "has.",
-        "Here",
-        "is",
-        "the",
-        "collar.\""
-      ]
-    },
-    {
       "text": "This is the front of the coat.",
-      "x": 0.54,
-      "y": 0.11,
-      "w": 0.4,
-      "h": 0.08,
-      "id": "r2",
-      "order": 1,
+      "x": 0.5567,
+      "y": 0.1165,
+      "w": 0.3368,
+      "h": 0.045,
       "words": [
         "This",
         "is",
@@ -97,69 +46,128 @@
         "of",
         "the",
         "coat."
-      ]
+      ],
+      "conf": 96.7082,
+      "source": "psm-11"
     },
     {
-      "text": "Here is the collar of the coat.",
-      "x": 0.52,
-      "y": 0.21,
-      "w": 0.38,
-      "h": 0.08,
+      "id": "r2",
+      "order": 1,
+      "text": "“Has your coat a collar?”",
+      "x": 0.103,
+      "y": 0.1408,
+      "w": 0.3879,
+      "h": 0.0233,
+      "words": [
+        "“Has",
+        "your",
+        "coat",
+        "a",
+        "collar?”"
+      ],
+      "conf": 83.6749,
+      "source": "psm-11"
+    },
+    {
       "id": "r3",
       "order": 2,
+      "text": "Here is the collar. the coat.",
+      "x": 0.5368,
+      "y": 0.2048,
+      "w": 0.3697,
+      "h": 0.0498,
       "words": [
         "Here",
         "is",
         "the",
-        "collar",
-        "of",
+        "collar.",
         "the",
         "coat."
-      ]
+      ],
+      "conf": 96.633,
+      "source": "psm-11"
     },
     {
-      "text": "This is the back of the coat.",
-      "x": 0.1,
-      "y": 0.59,
-      "w": 0.38,
-      "h": 0.08,
       "id": "r4",
       "order": 3,
+      "text": "\"Yes, it has. Here is the collar",
+      "x": 0.0883,
+      "y": 0.3483,
+      "w": 0.3541,
+      "h": 0.0439,
+      "words": [
+        "\"Yes,",
+        "it",
+        "has.",
+        "Here",
+        "is",
+        "the",
+        "collar"
+      ],
+      "conf": 92.5619,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "SFB em",
+      "x": 0.529,
+      "y": 0.493,
+      "w": 0.4087,
+      "h": 0.0168,
+      "words": [
+        "SFB",
+        "em"
+      ],
+      "conf": 39.0671,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "This is the back of coat.",
+      "x": 0.1186,
+      "y": 0.5959,
+      "w": 0.2874,
+      "h": 0.045,
       "words": [
         "This",
         "is",
         "the",
         "back",
         "of",
-        "the",
         "coat."
-      ]
+      ],
+      "conf": 96.6407,
+      "source": "psm-11"
     },
     {
-      "text": "This is one side of it.",
-      "x": 0.54,
-      "y": 0.6,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r5",
-      "order": 4,
+      "id": "r7",
+      "order": 6,
+      "text": "This is one side of it",
+      "x": 0.5602,
+      "y": 0.5997,
+      "w": 0.3056,
+      "h": 0.0206,
       "words": [
         "This",
         "is",
         "one",
         "side",
         "of",
-        "it."
-      ]
+        "it"
+      ],
+      "conf": 96.3491,
+      "source": "psm-11"
     },
     {
+      "id": "r8",
+      "order": 7,
       "text": "This is one pocket of it.",
-      "x": 0.52,
-      "y": 0.85,
-      "w": 0.4,
-      "h": 0.03,
-      "id": "r6",
-      "order": 5,
+      "x": 0.5489,
+      "y": 0.8456,
+      "w": 0.3558,
+      "h": 0.0255,
       "words": [
         "This",
         "is",
@@ -167,7 +175,9 @@
         "pocket",
         "of",
         "it."
-      ]
+      ],
+      "conf": 95.8401,
+      "source": "psm-11"
     }
   ]
 }

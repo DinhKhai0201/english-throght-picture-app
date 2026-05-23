@@ -4,12 +4,25 @@
   "imageApiPath": "/api/books/page%20338.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 113,
+    "regionCount": 17,
+    "wordCount": 121,
     "imageWidth": 1188,
     "imageHeight": 1859
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +31,26 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r4",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9",
+        "r10",
+        "r11",
+        "r13",
+        "r14",
+        "r15"
       ]
     },
     {
@@ -30,168 +61,355 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r8",
+        "r12",
+        "r16",
+        "r17"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Language can bridge time as well as space. Ideas can go from mind to mind across the language bridge, and they can come from the past to the present. We can read what men before us wrote and keep their books for others to read in the future.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "Language can bridge time as go from mind to mind across they can come from the past read what men before us wrote others to read in the future.",
+      "x": 0.085,
+      "y": 0.0377,
+      "w": 0.4579,
+      "h": 0.1291,
       "words": [
         "Language",
         "can",
         "bridge",
         "time",
         "as",
-        "well",
-        "as",
-        "space.",
-        "Ideas",
-        "can",
         "go",
         "from",
         "mind",
         "to",
         "mind",
         "across",
-        "the",
-        "language",
-        "bridge,",
-        "and",
         "they",
         "can",
         "come",
         "from",
         "the",
         "past",
-        "to",
-        "the",
-        "present.",
-        "We",
-        "can",
         "read",
         "what",
         "men",
         "before",
         "us",
         "wrote",
-        "and",
-        "keep",
-        "their",
-        "books",
-        "for",
         "others",
         "to",
         "read",
         "in",
         "the",
         "future."
-      ]
+      ],
+      "conf": 96.4992,
+      "source": "psm-11"
     },
     {
-      "text": "Here are some of the great books of all time: Bible, Gita, Homer, Republic, Confucius, Shakespeare, War and Peace.",
-      "x": 0.1,
-      "y": 0.2,
-      "w": 0.85,
-      "h": 0.35,
       "id": "r2",
       "order": 1,
+      "text": "well as space. Ideas can the language bridge, and to the present. We can and keep their books for",
+      "x": 0.5438,
+      "y": 0.0377,
+      "w": 0.3712,
+      "h": 0.107,
+      "words": [
+        "well",
+        "as",
+        "space.",
+        "Ideas",
+        "can",
+        "the",
+        "language",
+        "bridge,",
+        "and",
+        "to",
+        "the",
+        "present.",
+        "We",
+        "can",
+        "and",
+        "keep",
+        "their",
+        "books",
+        "for"
+      ],
+      "conf": 96.6067,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Here are some of the great",
+      "x": 0.0833,
+      "y": 0.192,
+      "w": 0.4116,
+      "h": 0.029,
       "words": [
         "Here",
         "are",
         "some",
         "of",
         "the",
-        "great",
+        "great"
+      ],
+      "conf": 96.8263,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "books of all time.",
+      "x": 0.5109,
+      "y": 0.192,
+      "w": 0.2567,
+      "h": 0.029,
+      "words": [
         "books",
         "of",
         "all",
-        "time:",
-        "Bible,",
-        "Gita,",
-        "Homer,",
-        "Republic,",
-        "Confucius,",
-        "Shakespeare,",
-        "War",
-        "and",
-        "Peace."
-      ]
+        "time."
+      ],
+      "conf": 95.8312,
+      "source": "psm-11"
     },
     {
-      "text": "Books are the most important records we have of men’s thoughts and feelings, their ideas and desires.",
-      "x": 0.1,
-      "y": 0.55,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "WAR AND",
+      "x": 0.3375,
+      "y": 0.4739,
+      "w": 0.1616,
+      "h": 0.021,
+      "words": [
+        "WAR",
+        "AND"
+      ],
+      "conf": 94.669,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "PEACE",
+      "x": 0.5143,
+      "y": 0.4766,
+      "w": 0.1204,
+      "h": 0.0194,
+      "words": [
+        "PEACE"
+      ],
+      "conf": 96.1856,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Books are the most important thoughts and feelings, their",
+      "x": 0.0808,
+      "y": 0.5336,
+      "w": 0.447,
+      "h": 0.05,
       "words": [
         "Books",
         "are",
         "the",
         "most",
         "important",
+        "thoughts",
+        "and",
+        "feelings,",
+        "their"
+      ],
+      "conf": 96.8109,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "records we have of men’s ideas and desires.",
+      "x": 0.5025,
+      "y": 0.5347,
+      "w": 0.4083,
+      "h": 0.0447,
+      "words": [
         "records",
         "we",
         "have",
         "of",
         "men’s",
-        "thoughts",
-        "and",
-        "feelings,",
-        "their",
         "ideas",
         "and",
         "desires."
-      ]
+      ],
+      "conf": 96.7828,
+      "source": "psm-11"
     },
     {
-      "text": "read: do reading. write: do writing. past: before now. present: here and now. future: what will be. record: store of knowledge. FUTURE: will read/write. PRESENT: read(s)/write(s). PAST: read/wrote, written.",
-      "x": 0.1,
-      "y": 0.75,
-      "w": 0.85,
-      "h": 0.2,
-      "id": "r4",
-      "order": 3,
+      "id": "r9",
+      "order": 8,
+      "text": "read: do reading write: do writing past: what has been before now feture: what will be.",
+      "x": 0.0774,
+      "y": 0.7025,
+      "w": 0.394,
+      "h": 0.0834,
       "words": [
         "read:",
         "do",
-        "reading.",
+        "reading",
         "write:",
         "do",
-        "writing.",
+        "writing",
         "past:",
+        "what",
+        "has",
+        "been",
         "before",
-        "now.",
-        "present:",
-        "here",
-        "and",
-        "now.",
-        "future:",
+        "now",
+        "feture:",
         "what",
         "will",
-        "be.",
-        "record:",
+        "be."
+      ],
+      "conf": 82.0987,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "here and now.",
+      "x": 0.1936,
+      "y": 0.7563,
+      "w": 0.1566,
+      "h": 0.0118,
+      "words": [
+        "here",
+        "and",
+        "now."
+      ],
+      "conf": 86.4516,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "fecord: store of knowledge. From records in earlier times.",
+      "x": 0.0783,
+      "y": 0.7907,
+      "w": 0.484,
+      "h": 0.0307,
+      "words": [
+        "fecord:",
         "store",
         "of",
         "knowledge.",
-        "FUTURE:",
+        "From",
+        "records",
+        "in",
+        "earlier",
+        "times."
+      ],
+      "conf": 89.7019,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "men can learn what was done",
+      "x": 0.5715,
+      "y": 0.7891,
+      "w": 0.3367,
+      "h": 0.014,
+      "words": [
+        "men",
+        "can",
+        "learn",
+        "what",
+        "was",
+        "done"
+      ],
+      "conf": 95.9483,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "will read will write",
+      "x": 0.0732,
+      "y": 0.8365,
+      "w": 0.1305,
+      "h": 0.0371,
+      "words": [
         "will",
-        "read/write.",
-        "PRESENT:",
-        "read(s)/write(s).",
-        "PAST:",
-        "read/wrote,",
-        "written."
-      ]
+        "read",
+        "will",
+        "write"
+      ],
+      "conf": 96.4389,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "write(s)",
+      "x": 0.4411,
+      "y": 0.8558,
+      "w": 0.1077,
+      "h": 0.0156,
+      "words": [
+        "write(s)"
+      ],
+      "conf": 90.7616,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "read(s)",
+      "x": 0.4436,
+      "y": 0.8381,
+      "w": 0.0993,
+      "h": 0.0156,
+      "words": [
+        "read(s)"
+      ],
+      "conf": 90.7391,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "wrote, written",
+      "x": 0.7264,
+      "y": 0.8542,
+      "w": 0.181,
+      "h": 0.014,
+      "words": [
+        "wrote,",
+        "written"
+      ],
+      "conf": 95.8879,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "read",
+      "x": 0.8502,
+      "y": 0.8359,
+      "w": 0.0564,
+      "h": 0.0129,
+      "words": [
+        "read"
+      ],
+      "conf": 95.0145,
+      "source": "psm-11"
     }
   ]
 }

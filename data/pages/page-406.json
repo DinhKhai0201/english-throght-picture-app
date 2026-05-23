@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20406.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 92,
+    "regionCount": 11,
+    "wordCount": 127,
     "imageWidth": 1188,
     "imageHeight": 1867
   },
@@ -18,7 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r1",
+        "r4",
+        "r6"
       ]
     },
     {
@@ -29,7 +31,22 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r10",
+        "r11"
       ]
     },
     {
@@ -40,19 +57,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r8",
+        "r9"
       ]
     }
   ],
   "regions": [
     {
-      "text": "You can put a paper cube this size together for yourself. To make a paper cube, make six one-centimeter squares like this. Now take your scissors and cut round the outer lines.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "You can put a paper cube self, or cut one out of soap To make a paper cube, take centimeter squares like this:",
+      "x": 0.1237,
+      "y": 0.038,
+      "w": 0.4192,
+      "h": 0.1265,
       "words": [
         "You",
         "can",
@@ -60,82 +78,155 @@
         "a",
         "paper",
         "cube",
-        "this",
-        "size",
-        "together",
-        "for",
-        "yourself.",
+        "self,",
+        "or",
+        "cut",
+        "one",
+        "out",
+        "of",
+        "soap",
         "To",
         "make",
         "a",
         "paper",
         "cube,",
-        "make",
-        "six",
-        "one-centimeter",
+        "take",
+        "centimeter",
         "squares",
         "like",
-        "this.",
+        "this:"
+      ],
+      "conf": 96.6522,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "this size together for your- or cheese.",
+      "x": 0.5278,
+      "y": 0.0396,
+      "w": 0.4183,
+      "h": 0.0429,
+      "words": [
+        "this",
+        "size",
+        "together",
+        "for",
+        "your-",
+        "or",
+        "cheese."
+      ],
+      "conf": 95.3149,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "a pencil and make six one-",
+      "x": 0.5547,
+      "y": 0.1178,
+      "w": 0.3914,
+      "h": 0.022,
+      "words": [
+        "a",
+        "pencil",
+        "and",
+        "make",
+        "six",
+        "one-"
+      ],
+      "conf": 94.8028,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Now take your scissors and round the outer lines. Do cut the broken lines but folds there. Put the edges gether to make a hollow paper cube, as in the picture.",
+      "x": 0.1221,
+      "y": 0.2983,
+      "w": 0.457,
+      "h": 0.1532,
+      "words": [
         "Now",
         "take",
         "your",
         "scissors",
         "and",
-        "cut",
         "round",
         "the",
         "outer",
-        "lines."
-      ]
-    },
-    {
-      "text": "Do not cut the broken lines but make folds there. Put the edges together to make a hollow paper cube. Your cube will be a cubic centimeter in size.",
-      "x": 0.1,
-      "y": 0.3,
-      "w": 0.55,
-      "h": 0.2,
-      "id": "r2",
-      "order": 1,
-      "words": [
+        "lines.",
         "Do",
-        "not",
         "cut",
         "the",
         "broken",
         "lines",
         "but",
-        "make",
         "folds",
         "there.",
         "Put",
         "the",
         "edges",
-        "together",
+        "gether",
         "to",
         "make",
         "a",
         "hollow",
         "paper",
-        "cube.",
-        "Your",
+        "cube,",
+        "as",
+        "in",
+        "the",
+        "picture."
+      ],
+      "conf": 96.7548,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "cut not make to- Your",
+      "x": 0.5017,
+      "y": 0.3016,
+      "w": 0.0792,
+      "h": 0.1457,
+      "words": [
+        "cut",
+        "not",
+        "make",
+        "to-",
+        "Your"
+      ],
+      "conf": 96.853,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "cube will be a cubic centimeter",
+      "x": 0.1229,
+      "y": 0.4558,
+      "w": 0.4562,
+      "h": 0.0171,
+      "words": [
         "cube",
         "will",
         "be",
         "a",
         "cubic",
-        "centimeter",
-        "in",
-        "size."
-      ]
+        "centimeter"
+      ],
+      "conf": 96.5305,
+      "source": "psm-11"
     },
     {
-      "text": "A cube has six sides; its sides are equal squares. The surface of a one-centimeter cube is six square centimeters. fold: a page folded down. edge: the edge of the page.",
-      "x": 0.1,
-      "y": 0.65,
-      "w": 0.85,
-      "h": 0.2,
-      "id": "r3",
-      "order": 2,
+      "id": "r7",
+      "order": 6,
+      "text": "A cube has six sides; its surface of a one-centimeter In one cubic centimeter of are about five billion red",
+      "x": 0.1187,
+      "y": 0.6385,
+      "w": 0.3889,
+      "h": 0.0953,
       "words": [
         "A",
         "cube",
@@ -143,32 +234,104 @@
         "six",
         "sides;",
         "its",
+        "surface",
+        "of",
+        "a",
+        "one-centimeter",
+        "In",
+        "one",
+        "cubic",
+        "centimeter",
+        "of",
+        "are",
+        "about",
+        "five",
+        "billion",
+        "red"
+      ],
+      "conf": 96.5613,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "sides are equal squares. The cube is six square centimeters.",
+      "x": 0.5135,
+      "y": 0.6385,
+      "w": 0.4293,
+      "h": 0.0481,
+      "words": [
         "sides",
         "are",
         "equal",
         "squares.",
         "The",
-        "surface",
-        "of",
-        "a",
-        "one-centimeter",
         "cube",
         "is",
         "six",
         "square",
-        "centimeters.",
+        "centimeters."
+      ],
+      "conf": 96.5713,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "our blood there cells.",
+      "x": 0.5067,
+      "y": 0.6909,
+      "w": 0.2357,
+      "h": 0.0429,
+      "words": [
+        "our",
+        "blood",
+        "there",
+        "cells."
+      ],
+      "conf": 96.6747,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "fold: this is a page folded down.",
+      "x": 0.1195,
+      "y": 0.8227,
+      "w": 0.3712,
+      "h": 0.015,
+      "words": [
         "fold:",
+        "this",
+        "is",
         "a",
         "page",
         "folded",
-        "down.",
+        "down."
+      ],
+      "conf": 95.1968,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "edge: this is the edge of the page.",
+      "x": 0.1204,
+      "y": 0.8522,
+      "w": 0.3914,
+      "h": 0.0166,
+      "words": [
         "edge:",
+        "this",
+        "is",
         "the",
         "edge",
         "of",
         "the",
         "page."
-      ]
+      ],
+      "conf": 94.4262,
+      "source": "psm-11"
     }
   ]
 }

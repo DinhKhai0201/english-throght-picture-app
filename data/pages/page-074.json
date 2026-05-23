@@ -2,139 +2,144 @@
   "page": 74,
   "image": "/books/page 74.png",
   "imageApiPath": "/api/books/page%2074.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 36,
+    "regionCount": 6,
+    "wordCount": 35,
     "imageWidth": 1288,
     "imageHeight": 1855
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
       ]
     }
   ],
   "regions": [
     {
-      "text": "\"Where is your hat?\"",
-      "x": 0.13,
-      "y": 0.16,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "“You put it on the table.",
+      "x": 0.528,
+      "y": 0.1364,
+      "w": 0.3401,
+      "h": 0.0243,
       "words": [
-        "\"Where",
-        "is",
-        "your",
-        "hat?\""
-      ]
-    },
-    {
-      "text": "\"You put it on the table. It was on the table.\"",
-      "x": 0.52,
-      "y": 0.14,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r2",
-      "order": 1,
-      "words": [
-        "\"You",
+        "“You",
         "put",
         "it",
         "on",
         "the",
-        "table.",
+        "table."
+      ],
+      "conf": 96.4465,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "“Where is your hat?”",
+      "x": 0.132,
+      "y": 0.1623,
+      "w": 0.2958,
+      "h": 0.0243,
+      "words": [
+        "“Where",
+        "is",
+        "your",
+        "hat?”"
+      ],
+      "conf": 95.8414,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "It was on the table.”",
+      "x": 0.5303,
+      "y": 0.1617,
+      "w": 0.2849,
+      "h": 0.0189,
+      "words": [
         "It",
         "was",
         "on",
         "the",
-        "table.\""
-      ]
+        "table.”"
+      ],
+      "conf": 92.4261,
+      "source": "psm-11"
     },
     {
-      "text": "\"I took it. I put it in the other room.\"",
-      "x": 0.13,
-      "y": 0.54,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r3",
-      "order": 2,
+      "id": "r4",
+      "order": 3,
+      "text": "“I took it. put it in the other room.”",
+      "x": 0.1328,
+      "y": 0.5412,
+      "w": 0.3168,
+      "h": 0.0459,
       "words": [
-        "\"I",
+        "“I",
         "took",
         "it.",
-        "I",
         "put",
         "it",
         "in",
         "the",
         "other",
-        "room.\""
-      ]
+        "room.”"
+      ],
+      "conf": 89.7825,
+      "source": "psm-11"
     },
     {
-      "text": "\"It is on a hook there. You will see it there.\"",
-      "x": 0.53,
-      "y": 0.53,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
+      "id": "r5",
+      "order": 4,
+      "text": "“It is on a hook there.",
+      "x": 0.538,
+      "y": 0.5278,
+      "w": 0.302,
+      "h": 0.0194,
       "words": [
-        "\"It",
+        "“It",
         "is",
         "on",
         "a",
         "hook",
-        "there.",
+        "there."
+      ],
+      "conf": 92.6229,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "You will see it there.”",
+      "x": 0.5388,
+      "y": 0.5536,
+      "w": 0.3005,
+      "h": 0.0189,
+      "words": [
         "You",
         "will",
         "see",
         "it",
-        "there.\""
-      ]
+        "there.”"
+      ],
+      "conf": 96.4428,
+      "source": "psm-11"
     }
   ]
 }

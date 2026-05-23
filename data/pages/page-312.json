@@ -2,47 +2,41 @@
   "page": 312,
   "image": "/books/page 312.png",
   "imageApiPath": "/api/books/page%20312.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 83,
+    "regionCount": 7,
+    "wordCount": 85,
     "imageWidth": 1180,
     "imageHeight": 1838
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r1",
         "r2",
-        "r3"
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7"
       ]
     }
   ],
   "regions": [
     {
-      "text": "People can have only a few cans of meat and fruit and other things “on hand,” as we say, on their shelves. They may have a cupboard with two or three shelves of canned food, but most people have no room for more than that. If supplies do not come into the city day by day their supply of canned food is quickly used up.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.45,
-      "h": 0.4,
       "id": "r1",
       "order": 0,
+      "text": "People can have only a few cans of meat and fruit and other things ‘‘on hand,” as we say, on their shelves. They may have a cupboard with two or three shelves of canned food, but most people have no room for more than that. If supplies do not come into the city day by day their supply of canned",
+      "x": 0.1186,
+      "y": 0.0403,
+      "w": 0.395,
+      "h": 0.3155,
       "words": [
         "People",
         "can",
@@ -58,7 +52,7 @@
         "and",
         "other",
         "things",
-        "“on",
+        "‘‘on",
         "hand,”",
         "as",
         "we",
@@ -103,25 +97,68 @@
         "their",
         "supply",
         "of",
-        "canned",
+        "canned"
+      ],
+      "conf": 96.5188,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "BIL SE)",
+      "x": 0.6203,
+      "y": 0.1289,
+      "w": 0.295,
+      "h": 0.0963,
+      "words": [
+        "BIL",
+        "SE)"
+      ],
+      "conf": 40.1129,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "food is quickly used up.",
+      "x": 0.5212,
+      "y": 0.3335,
+      "w": 0.3415,
+      "h": 0.0229,
+      "words": [
         "food",
         "is",
         "quickly",
         "used",
         "up."
-      ]
+      ],
+      "conf": 96.638,
+      "source": "psm-11"
     },
     {
-      "text": "can't: cannot. few: a small number of, not many.",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.85,
-      "h": 0.05,
-      "id": "r2",
-      "order": 1,
+      "id": "r4",
+      "order": 3,
+      "text": "can’t: cannot.",
+      "x": 0.1271,
+      "y": 0.7791,
+      "w": 0.1593,
+      "h": 0.0125,
       "words": [
-        "can't:",
-        "cannot.",
+        "can’t:",
+        "cannot."
+      ],
+      "conf": 66.3135,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "few: a small number of, not many.",
+      "x": 0.1271,
+      "y": 0.7965,
+      "w": 0.389,
+      "h": 0.0158,
+      "words": [
         "few:",
         "a",
         "small",
@@ -129,27 +166,44 @@
         "of,",
         "not",
         "many."
-      ]
+      ],
+      "conf": 94.0629,
+      "source": "psm-11"
     },
     {
-      "text": "cupboard: walled-in shelves with doors in front of them.",
-      "x": 0.1,
-      "y": 0.83,
-      "w": 0.85,
-      "h": 0.05,
-      "id": "r3",
-      "order": 2,
+      "id": "r6",
+      "order": 5,
+      "text": "cupboard: walied-in shelves with",
+      "x": 0.1246,
+      "y": 0.8166,
+      "w": 0.3805,
+      "h": 0.0163,
       "words": [
         "cupboard:",
-        "walled-in",
+        "walied-in",
         "shelves",
-        "with",
+        "with"
+      ],
+      "conf": 73.7209,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "doors in front of them.",
+      "x": 0.5153,
+      "y": 0.8177,
+      "w": 0.2492,
+      "h": 0.0131,
+      "words": [
         "doors",
         "in",
         "front",
         "of",
         "them."
-      ]
+      ],
+      "conf": 89.9926,
+      "source": "psm-11"
     }
   ]
 }

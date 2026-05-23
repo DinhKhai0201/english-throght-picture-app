@@ -4,7 +4,7 @@
   "imageApiPath": "/api/books/page%20237.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
+    "regionCount": 13,
     "wordCount": 69,
     "imageWidth": 1275,
     "imageHeight": 1859
@@ -18,7 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r2"
       ]
     },
     {
@@ -29,7 +30,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r3",
+        "r4",
+        "r5"
       ]
     },
     {
@@ -40,7 +43,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r6",
+        "r8",
+        "r10",
+        "r11"
       ]
     },
     {
@@ -51,19 +57,22 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r7",
+        "r9",
+        "r12",
+        "r13"
       ]
     }
   ],
   "regions": [
     {
-      "text": "What sort of work is this man doing? He is cutting wood.",
-      "x": 0.12,
-      "y": 0.08,
-      "w": 0.38,
-      "h": 0.1,
       "id": "r1",
       "order": 0,
+      "text": "What sort of work is this man doing?",
+      "x": 0.1514,
+      "y": 0.0866,
+      "w": 0.3702,
+      "h": 0.049,
       "words": [
         "What",
         "sort",
@@ -72,46 +81,90 @@
         "is",
         "this",
         "man",
-        "doing?",
+        "doing?"
+      ],
+      "conf": 96.1081,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "He is cutting wood.",
+      "x": 0.1482,
+      "y": 0.135,
+      "w": 0.2675,
+      "h": 0.0285,
+      "words": [
         "He",
         "is",
         "cutting",
         "wood."
-      ]
+      ],
+      "conf": 93.4657,
+      "source": "psm-11"
     },
     {
-      "text": "What sort of work is this woman doing? She is washing stockings and dresses.",
-      "x": 0.52,
-      "y": 0.38,
-      "w": 0.38,
-      "h": 0.1,
-      "id": "r2",
-      "order": 1,
+      "id": "r3",
+      "order": 2,
+      "text": "i What sort of work is this.",
+      "x": 0.5153,
+      "y": 0.3685,
+      "w": 0.3796,
+      "h": 0.029,
       "words": [
+        "i",
         "What",
         "sort",
         "of",
         "work",
         "is",
-        "this",
+        "this."
+      ],
+      "conf": 91.4022,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "woman doing?",
+      "x": 0.5396,
+      "y": 0.4002,
+      "w": 0.2141,
+      "h": 0.028,
+      "words": [
         "woman",
-        "doing?",
+        "doing?"
+      ],
+      "conf": 92.0392,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "She is washing stockings and dresses.",
+      "x": 0.5365,
+      "y": 0.4271,
+      "w": 0.3545,
+      "h": 0.0457,
+      "words": [
         "She",
         "is",
         "washing",
         "stockings",
         "and",
         "dresses."
-      ]
+      ],
+      "conf": 95.9066,
+      "source": "psm-11"
     },
     {
-      "text": "What sort of work does this man do? He keeps a store. Fruit Store. It is a fruit store. He is a storekeeper.",
-      "x": 0.12,
-      "y": 0.51,
-      "w": 0.38,
-      "h": 0.4,
-      "id": "r3",
-      "order": 2,
+      "id": "r6",
+      "order": 5,
+      "text": "What sort of work does this man do?",
+      "x": 0.1592,
+      "y": 0.5186,
+      "w": 0.3318,
+      "h": 0.0457,
       "words": [
         "What",
         "sort",
@@ -120,32 +173,19 @@
         "does",
         "this",
         "man",
-        "do?",
-        "He",
-        "keeps",
-        "a",
-        "store.",
-        "Fruit",
-        "Store.",
-        "It",
-        "is",
-        "a",
-        "fruit",
-        "store.",
-        "He",
-        "is",
-        "a",
-        "storekeeper."
-      ]
+        "do?"
+      ],
+      "conf": 92.8355,
+      "source": "psm-11"
     },
     {
-      "text": "What sort of work does this woman do? She keeps a house. It is her house. She is a housekeeper.",
-      "x": 0.53,
-      "y": 0.51,
-      "w": 0.38,
-      "h": 0.4,
-      "id": "r4",
-      "order": 3,
+      "id": "r7",
+      "order": 6,
+      "text": "What sort of work does this woman do?",
+      "x": 0.5467,
+      "y": 0.5186,
+      "w": 0.3341,
+      "h": 0.0452,
       "words": [
         "What",
         "sort",
@@ -154,20 +194,114 @@
         "does",
         "this",
         "woman",
-        "do?",
+        "do?"
+      ],
+      "conf": 95.1083,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "He keeps a store.",
+      "x": 0.1584,
+      "y": 0.5697,
+      "w": 0.2369,
+      "h": 0.0242,
+      "words": [
+        "He",
+        "keeps",
+        "a",
+        "store."
+      ],
+      "conf": 95.0305,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "She keeps a house.",
+      "x": 0.5475,
+      "y": 0.5697,
+      "w": 0.2722,
+      "h": 0.0242,
+      "words": [
         "She",
         "keeps",
         "a",
-        "house.",
+        "house."
+      ],
+      "conf": 95.6613,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "FRUIT STORE",
+      "x": 0.1851,
+      "y": 0.6272,
+      "w": 0.2361,
+      "h": 0.014,
+      "words": [
+        "FRUIT",
+        "STORE"
+      ],
+      "conf": 83.4715,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "It is fruit store He is a storekeeper.",
+      "x": 0.1773,
+      "y": 0.7983,
+      "w": 0.2761,
+      "h": 0.0489,
+      "words": [
+        "It",
+        "is",
+        "fruit",
+        "store",
+        "He",
+        "is",
+        "a",
+        "storekeeper."
+      ],
+      "conf": 85.9977,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "It is her house.",
+      "x": 0.5608,
+      "y": 0.7972,
+      "w": 0.2047,
+      "h": 0.0204,
+      "words": [
         "It",
         "is",
         "her",
-        "house.",
+        "house."
+      ],
+      "conf": 91.9514,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "She is a housekeeper.",
+      "x": 0.5592,
+      "y": 0.8225,
+      "w": 0.3106,
+      "h": 0.0247,
+      "words": [
         "She",
         "is",
         "a",
         "housekeeper."
-      ]
+      ],
+      "conf": 93.4309,
+      "source": "psm-11"
     }
   ]
 }

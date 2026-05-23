@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20340.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 121,
+    "regionCount": 10,
+    "wordCount": 126,
     "imageWidth": 1188,
     "imageHeight": 1875
   },
@@ -19,7 +19,32 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2"
+        "r3"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r7"
       ]
     },
     {
@@ -30,31 +55,31 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r8",
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "People who talk the same language have that language in common. It is their language, the language of each and all of them. They have the ideas and feelings about things which that language carries.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.45,
-      "h": 0.2,
       "id": "r1",
       "order": 0,
+      "text": "People who talk the same guage have that language common. It is their language, the language of each and all them. They have the ideas feelings about things which language carries.",
+      "x": 0.1027,
+      "y": 0.0997,
+      "w": 0.4579,
+      "h": 0.1777,
       "words": [
         "People",
         "who",
         "talk",
         "the",
         "same",
-        "language",
+        "guage",
         "have",
         "that",
         "language",
-        "in",
         "common.",
         "It",
         "is",
@@ -66,30 +91,47 @@
         "each",
         "and",
         "all",
-        "of",
         "them.",
         "They",
         "have",
         "the",
         "ideas",
-        "and",
         "feelings",
         "about",
         "things",
         "which",
-        "that",
         "language",
         "carries."
-      ]
+      ],
+      "conf": 95.5832,
+      "source": "psm-11"
     },
     {
-      "text": "People who do not talk a language do not know what those who use it are saying. They do not know what its words can mean. They have less in common with those who talk it than those people have with one another.",
-      "x": 0.1,
-      "y": 0.35,
-      "w": 0.45,
-      "h": 0.2,
       "id": "r2",
       "order": 1,
+      "text": "lan- in of and that",
+      "x": 0.5034,
+      "y": 0.1008,
+      "w": 0.0606,
+      "h": 0.1467,
+      "words": [
+        "lan-",
+        "in",
+        "of",
+        "and",
+        "that"
+      ],
+      "conf": 91.8268,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "People who do not talk a guage do not know what those who use it are saying. They not. know what its words mean. They have less in com- mon with those who talk it than those people have with",
+      "x": 0.101,
+      "y": 0.3328,
+      "w": 0.4596,
+      "h": 0.1781,
       "words": [
         "People",
         "who",
@@ -97,7 +139,7 @@
         "not",
         "talk",
         "a",
-        "language",
+        "guage",
         "do",
         "not",
         "know",
@@ -109,19 +151,18 @@
         "are",
         "saying.",
         "They",
-        "do",
-        "not",
+        "not.",
         "know",
         "what",
         "its",
         "words",
-        "can",
         "mean.",
         "They",
         "have",
         "less",
         "in",
-        "common",
+        "com-",
+        "mon",
         "with",
         "those",
         "who",
@@ -131,26 +172,71 @@
         "those",
         "people",
         "have",
-        "with",
-        "one",
-        "another."
-      ]
+        "with"
+      ],
+      "conf": 95.612,
+      "source": "psm-11"
     },
     {
-      "text": "Sometimes, as in India, in one country under one flag people talk many languages.",
-      "x": 0.1,
-      "y": 0.6,
-      "w": 0.85,
-      "h": 0.05,
-      "id": "r3",
-      "order": 2,
+      "id": "r4",
+      "order": 3,
+      "text": "lan- do can",
+      "x": 0.5025,
+      "y": 0.3339,
+      "w": 0.0581,
+      "h": 0.0938,
+      "words": [
+        "lan-",
+        "do",
+        "can"
+      ],
+      "conf": 91.4811,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "oN e one",
+      "x": 0.5025,
+      "y": 0.4016,
+      "w": 0.2921,
+      "h": 0.1045,
+      "words": [
+        "oN",
+        "e",
+        "one"
+      ],
+      "conf": 64.6135,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "another.",
+      "x": 0.101,
+      "y": 0.5152,
+      "w": 0.1296,
+      "h": 0.0171,
+      "words": [
+        "another."
+      ],
+      "conf": 89.3956,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Sometimes, as in India, in country under one flag people talk many languages. They have their country and their of them have to lear the language to have a language in common.",
+      "x": 0.096,
+      "y": 0.5904,
+      "w": 0.5168,
+      "h": 0.153,
       "words": [
         "Sometimes,",
         "as",
         "in",
         "India,",
         "in",
-        "one",
         "country",
         "under",
         "one",
@@ -158,48 +244,79 @@
         "people",
         "talk",
         "many",
-        "languages."
-      ]
-    },
-    {
-      "text": "They have their country and their flag in common, but some of them have to learn the language of others if they are to have a language in common.",
-      "x": 0.1,
-      "y": 0.68,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r4",
-      "order": 3,
-      "words": [
+        "languages.",
         "They",
         "have",
         "their",
         "country",
         "and",
         "their",
-        "flag",
-        "in",
-        "common,",
-        "but",
-        "some",
         "of",
         "them",
         "have",
         "to",
-        "learn",
+        "lear",
         "the",
         "language",
-        "of",
-        "others",
-        "if",
-        "they",
-        "are",
         "to",
         "have",
         "a",
         "language",
         "in",
         "common."
-      ]
+      ],
+      "conf": 96.3217,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "one",
+      "x": 0.5093,
+      "y": 0.5904,
+      "w": 0.0522,
+      "h": 0.0245,
+      "words": [
+        "one"
+      ],
+      "conf": 96.7075,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "flag in common, but some",
+      "x": 0.5362,
+      "y": 0.6683,
+      "w": 0.3889,
+      "h": 0.0219,
+      "words": [
+        "flag",
+        "in",
+        "common,",
+        "but",
+        "some"
+      ],
+      "conf": 96.618,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "of others if they are",
+      "x": 0.6271,
+      "y": 0.6917,
+      "w": 0.3022,
+      "h": 0.0283,
+      "words": [
+        "of",
+        "others",
+        "if",
+        "they",
+        "are"
+      ],
+      "conf": 96.9378,
+      "source": "psm-11"
     }
   ]
 }

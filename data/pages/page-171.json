@@ -2,105 +2,137 @@
   "page": 171,
   "image": "/books/page 171.png",
   "imageApiPath": "/api/books/page%20171.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 35,
+    "regionCount": 10,
+    "wordCount": 31,
     "imageWidth": 1200,
     "imageHeight": 1846
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Here is the other side.",
-      "x": 0.12,
-      "y": 0.16,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "Here is the other side.",
+      "x": 0.1317,
+      "y": 0.1668,
+      "w": 0.3308,
+      "h": 0.0195,
       "words": [
         "Here",
         "is",
         "the",
         "other",
         "side."
-      ]
+      ],
+      "conf": 96.6777,
+      "source": "psm-11"
     },
     {
-      "text": "This is the right side. This is the left side.",
-      "x": 0.52,
-      "y": 0.3,
-      "w": 0.4,
-      "h": 0.1,
       "id": "r2",
       "order": 1,
+      "text": "This is the",
+      "x": 0.5333,
+      "y": 0.299,
+      "w": 0.3667,
+      "h": 0.045,
       "words": [
         "This",
         "is",
-        "the",
-        "right",
-        "side.",
-        "This",
-        "is",
-        "the",
-        "left",
-        "side."
-      ]
+        "the"
+      ],
+      "conf": 96.3707,
+      "source": "psm-11"
     },
     {
-      "text": "These are the arms of the coat. The right arm. The left arm.",
-      "x": 0.09,
-      "y": 0.58,
-      "w": 0.4,
-      "h": 0.25,
       "id": "r3",
       "order": 2,
+      "text": "This",
+      "x": 0.535,
+      "y": 0.2996,
+      "w": 0.0592,
+      "h": 0.0184,
+      "words": [
+        "This"
+      ],
+      "conf": 96.3398,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "is the right",
+      "x": 0.5358,
+      "y": 0.3245,
+      "w": 0.3809,
+      "h": 0.0493,
+      "words": [
+        "is",
+        "the",
+        "right"
+      ],
+      "conf": 96.8935,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "left side.",
+      "x": 0.535,
+      "y": 0.3505,
+      "w": 0.355,
+      "h": 0.045,
+      "words": [
+        "left",
+        "side."
+      ],
+      "conf": 96.7182,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "side.",
+      "x": 0.84,
+      "y": 0.3765,
+      "w": 0.0692,
+      "h": 0.019,
+      "words": [
+        "side."
+      ],
+      "conf": 84.4144,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "These are the arms of the coat.",
+      "x": 0.1042,
+      "y": 0.5813,
+      "w": 0.3725,
+      "h": 0.045,
       "words": [
         "These",
         "are",
@@ -108,23 +140,19 @@
         "arms",
         "of",
         "the",
-        "coat.",
-        "The",
-        "right",
-        "arm.",
-        "The",
-        "left",
-        "arm."
-      ]
+        "coat."
+      ],
+      "conf": 96.3551,
+      "source": "psm-11"
     },
     {
+      "id": "r8",
+      "order": 7,
       "text": "These are the buttons of the coat.",
-      "x": 0.52,
-      "y": 0.58,
-      "w": 0.4,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
+      "x": 0.5242,
+      "y": 0.5807,
+      "w": 0.3775,
+      "h": 0.0456,
       "words": [
         "These",
         "are",
@@ -133,7 +161,37 @@
         "of",
         "the",
         "coat."
-      ]
+      ],
+      "conf": 96.1655,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "arm.",
+      "x": 0.0908,
+      "y": 0.8223,
+      "w": 0.0667,
+      "h": 0.0125,
+      "words": [
+        "arm."
+      ],
+      "conf": 84.1045,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "arm.",
+      "x": 0.4058,
+      "y": 0.8202,
+      "w": 0.0692,
+      "h": 0.0125,
+      "words": [
+        "arm."
+      ],
+      "conf": 96.014,
+      "source": "psm-11"
     }
   ]
 }

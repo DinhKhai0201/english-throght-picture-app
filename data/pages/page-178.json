@@ -2,88 +2,75 @@
   "page": 178,
   "image": "/books/page 178.png",
   "imageApiPath": "/api/books/page%20178.png",
-  "layout": "questions",
+  "layout": "single",
   "stats": {
-    "regionCount": 6,
-    "wordCount": 31,
+    "regionCount": 7,
+    "wordCount": 34,
     "imageWidth": 1205,
     "imageHeight": 1871
   },
   "panels": [
     {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
+      "y": 0,
+      "w": 1,
+      "h": 1,
       "regionIds": [
+        "r1",
         "r2",
-        "r4"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
         "r3",
+        "r4",
         "r5",
-        "r6"
+        "r6",
+        "r7"
       ]
     }
   ],
   "regions": [
     {
-      "text": "QUESTIONS",
-      "x": 0.4,
-      "y": 0.08,
-      "w": 0.2,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "QUESTIONS",
+      "x": 0.4423,
+      "y": 0.0775,
+      "w": 0.1925,
+      "h": 0.0187,
       "words": [
         "QUESTIONS"
-      ]
+      ],
+      "conf": 96.808,
+      "source": "psm-11"
     },
     {
-      "text": "What are these things?",
-      "x": 0.12,
-      "y": 0.77,
-      "w": 0.35,
-      "h": 0.08,
       "id": "r2",
       "order": 1,
+      "text": "A What are these things?",
+      "x": 0.1485,
+      "y": 0.7787,
+      "w": 0.2772,
+      "h": 0.0444,
       "words": [
+        "A",
         "What",
         "are",
         "these",
         "things?"
-      ]
+      ],
+      "conf": 90.6861,
+      "source": "psm-11"
     },
     {
-      "text": "Which of them go through the air?",
-      "x": 0.54,
-      "y": 0.77,
-      "w": 0.38,
-      "h": 0.08,
       "id": "r3",
       "order": 2,
+      "text": "B Which of them go through the air?",
+      "x": 0.6008,
+      "y": 0.7771,
+      "w": 0.3071,
+      "h": 0.0487,
       "words": [
+        "B",
         "Which",
         "of",
         "them",
@@ -91,17 +78,20 @@
         "through",
         "the",
         "air?"
-      ]
+      ],
+      "conf": 95.8905,
+      "source": "psm-11"
     },
     {
-      "text": "Which of them go on their feet?",
-      "x": 0.12,
-      "y": 0.82,
-      "w": 0.35,
-      "h": 0.08,
       "id": "r4",
       "order": 3,
+      "text": "Cc Which of them go on their feet?",
+      "x": 0.1469,
+      "y": 0.8274,
+      "w": 0.3685,
+      "h": 0.0443,
       "words": [
+        "Cc",
         "Which",
         "of",
         "them",
@@ -109,17 +99,20 @@
         "on",
         "their",
         "feet?"
-      ]
+      ],
+      "conf": 87.8555,
+      "source": "psm-11"
     },
     {
-      "text": "Which of them go on the water?",
-      "x": 0.54,
-      "y": 0.82,
-      "w": 0.38,
-      "h": 0.08,
       "id": "r5",
       "order": 4,
+      "text": "D Which of them go on the water?",
+      "x": 0.5983,
+      "y": 0.8258,
+      "w": 0.3502,
+      "h": 0.0438,
       "words": [
+        "D",
         "Which",
         "of",
         "them",
@@ -127,23 +120,39 @@
         "on",
         "the",
         "water?"
-      ]
+      ],
+      "conf": 95.1514,
+      "source": "psm-11"
     },
     {
-      "text": "Answers are on page 174.",
-      "x": 0.3,
-      "y": 0.86,
-      "w": 0.4,
-      "h": 0.03,
       "id": "r6",
       "order": 5,
+      "text": "Answers are",
+      "x": 0.3303,
+      "y": 0.8739,
+      "w": 0.1859,
+      "h": 0.016,
       "words": [
         "Answers",
-        "are",
+        "are"
+      ],
+      "conf": 96.7567,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "on page",
+      "x": 0.5261,
+      "y": 0.8765,
+      "w": 0.1253,
+      "h": 0.0176,
+      "words": [
         "on",
-        "page",
-        "174."
-      ]
+        "page"
+      ],
+      "conf": 96.4326,
+      "source": "psm-11"
     }
   ]
 }

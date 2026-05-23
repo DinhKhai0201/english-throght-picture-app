@@ -4,7 +4,7 @@
   "imageApiPath": "/api/books/page%2040.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 9,
+    "regionCount": 19,
     "wordCount": 71,
     "imageWidth": 1302,
     "imageHeight": 1846
@@ -19,7 +19,9 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r3"
+        "r3",
+        "r5",
+        "r6"
       ]
     },
     {
@@ -32,7 +34,7 @@
       "regionIds": [
         "r2",
         "r4",
-        "r5"
+        "r7"
       ]
     },
     {
@@ -43,8 +45,12 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r8"
+        "r10",
+        "r11",
+        "r14",
+        "r16",
+        "r18",
+        "r19"
       ]
     },
     {
@@ -55,8 +61,12 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r9"
+        "r8",
+        "r9",
+        "r12",
+        "r13",
+        "r15",
+        "r17"
       ]
     }
   ],
@@ -98,24 +108,17 @@
     {
       "id": "r3",
       "order": 2,
-      "text": "Now the time is eight It was seven It will be nine",
+      "text": "Now the time is eight",
       "x": 0.1659,
       "y": 0.3369,
       "w": 0.2988,
-      "h": 0.0943,
+      "h": 0.0233,
       "words": [
         "Now",
         "the",
         "time",
         "is",
-        "eight",
-        "It",
-        "was",
-        "seven",
-        "It",
-        "will",
-        "be",
-        "nine"
+        "eight"
       ],
       "conf": 96.2211,
       "source": "psm-11"
@@ -141,6 +144,39 @@
     {
       "id": "r5",
       "order": 4,
+      "text": "It was seven",
+      "x": 0.1667,
+      "y": 0.3889,
+      "w": 0.1674,
+      "h": 0.0173,
+      "words": [
+        "It",
+        "was",
+        "seven"
+      ],
+      "conf": 95.846,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "It will be nine",
+      "x": 0.1667,
+      "y": 0.4122,
+      "w": 0.1866,
+      "h": 0.019,
+      "words": [
+        "It",
+        "will",
+        "be",
+        "nine"
+      ],
+      "conf": 94.3575,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
       "text": "It will be eleven",
       "x": 0.5591,
       "y": 0.415,
@@ -156,29 +192,42 @@
       "source": "psm-11"
     },
     {
-      "id": "r6",
-      "order": 5,
-      "text": "These are the numbers from one to twelve.",
+      "id": "r8",
+      "order": 7,
+      "text": "These are the numbers",
       "x": 0.5445,
       "y": 0.6625,
       "w": 0.318,
-      "h": 0.0472,
+      "h": 0.0217,
       "words": [
         "These",
         "are",
         "the",
-        "numbers",
-        "from",
-        "one",
-        "to",
-        "twelve."
+        "numbers"
       ],
       "conf": 96.6353,
       "source": "psm-11"
     },
     {
-      "id": "r7",
-      "order": 6,
+      "id": "r9",
+      "order": 8,
+      "text": "from one to twelve.",
+      "x": 0.5453,
+      "y": 0.688,
+      "w": 0.2704,
+      "h": 0.0217,
+      "words": [
+        "from",
+        "one",
+        "to",
+        "twelve."
+      ],
+      "conf": 90.7903,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
       "text": "What is the time?",
       "x": 0.1628,
       "y": 0.7145,
@@ -194,59 +243,150 @@
       "source": "psm-11"
     },
     {
-      "id": "r8",
-      "order": 7,
-      "text": "The time is twelve it was eleven It will be one The two hands are at twelve now.",
-      "x": 0.1613,
+      "id": "r11",
+      "order": 10,
+      "text": "The time is twelve",
+      "x": 0.1621,
       "y": 0.7389,
-      "w": 0.2988,
-      "h": 0.1478,
+      "w": 0.2512,
+      "h": 0.0222,
       "words": [
         "The",
         "time",
         "is",
-        "twelve",
-        "it",
-        "was",
-        "eleven",
-        "It",
-        "will",
-        "be",
-        "one",
-        "The",
-        "two",
-        "hands",
-        "are",
-        "at",
-        "twelve",
-        "now."
+        "twelve"
       ],
       "conf": 96.4347,
       "source": "psm-11"
     },
     {
-      "id": "r9",
-      "order": 8,
-      "text": "One, two, three, four, five, six, seven, eight, nine, ten, eleven, twelve.",
-      "x": 0.5492,
+      "id": "r12",
+      "order": 11,
+      "text": "One, two, three, four,",
+      "x": 0.5507,
       "y": 0.7308,
-      "w": 0.3041,
-      "h": 0.0953,
+      "w": 0.3026,
+      "h": 0.0244,
       "words": [
         "One,",
         "two,",
         "three,",
-        "four,",
+        "four,"
+      ],
+      "conf": 96.9796,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "five, six, seven, eight,",
+      "x": 0.5499,
+      "y": 0.7557,
+      "w": 0.2972,
+      "h": 0.026,
+      "words": [
         "five,",
         "six,",
         "seven,",
-        "eight,",
+        "eight,"
+      ],
+      "conf": 96.7437,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "it was eleven",
+      "x": 0.1636,
+      "y": 0.7914,
+      "w": 0.1813,
+      "h": 0.02,
+      "words": [
+        "it",
+        "was",
+        "eleven"
+      ],
+      "conf": 91.4725,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "nine, ten, eleven,",
+      "x": 0.5507,
+      "y": 0.7828,
+      "w": 0.2373,
+      "h": 0.0222,
+      "words": [
         "nine,",
         "ten,",
-        "eleven,",
+        "eleven,"
+      ],
+      "conf": 96.1154,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "It will be one",
+      "x": 0.1636,
+      "y": 0.8164,
+      "w": 0.1813,
+      "h": 0.02,
+      "words": [
+        "It",
+        "will",
+        "be",
+        "one"
+      ],
+      "conf": 96.3585,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "twelve.",
+      "x": 0.5492,
+      "y": 0.8066,
+      "w": 0.0975,
+      "h": 0.0195,
+      "words": [
         "twelve."
       ],
-      "conf": 96.9796,
+      "conf": 96.331,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "The two hands are at",
+      "x": 0.1613,
+      "y": 0.8407,
+      "w": 0.2988,
+      "h": 0.0222,
+      "words": [
+        "The",
+        "two",
+        "hands",
+        "are",
+        "at"
+      ],
+      "conf": 95.9194,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "twelve now.",
+      "x": 0.1621,
+      "y": 0.8667,
+      "w": 0.1651,
+      "h": 0.02,
+      "words": [
+        "twelve",
+        "now."
+      ],
+      "conf": 95.8657,
       "source": "psm-11"
     }
   ]

@@ -4,12 +4,24 @@
   "imageApiPath": "/api/books/page%20511.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 76,
+    "regionCount": 13,
+    "wordCount": 120,
     "imageWidth": 1259,
     "imageHeight": 1859
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +30,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r9",
+        "r10",
+        "r11"
       ]
     },
     {
@@ -30,131 +57,302 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r7",
+        "r8",
+        "r12",
+        "r13"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Aristotle said everything has a purpose—the work it does best. (Illustrations: Wheel, knife, clock, apple tree, cow).",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "Everything, said Aristotle, has work—or purpose—the work it the work which is right for it.",
+      "x": 0.1001,
+      "y": 0.028,
+      "w": 0.5894,
+      "h": 0.085,
       "words": [
-        "Aristotle",
+        "Everything,",
         "said",
-        "everything",
+        "Aristotle,",
         "has",
-        "a",
+        "work—or",
         "purpose—the",
         "work",
         "it",
-        "does",
-        "best.",
-        "(Illustrations:",
-        "Wheel,",
-        "knife,",
-        "clock,",
-        "apple",
-        "tree,",
-        "cow)."
-      ]
+        "the",
+        "work",
+        "which",
+        "is",
+        "right",
+        "for",
+        "it."
+      ],
+      "conf": 90.4796,
+      "source": "psm-11"
     },
     {
-      "text": "A good wheel turns well; a good knife cuts well. Likewise, every part of the body has its own work.",
-      "x": 0.1,
-      "y": 0.32,
-      "w": 0.85,
-      "h": 0.18,
       "id": "r2",
       "order": 1,
+      "text": "its own true can do best,",
+      "x": 0.5242,
+      "y": 0.028,
+      "w": 0.1692,
+      "h": 0.0543,
+      "words": [
+        "its",
+        "own",
+        "true",
+        "can",
+        "do",
+        "best,"
+      ],
+      "conf": 95.4704,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "A good wheel turns well, a good well, a good clock keeps time apple tree gives good fruit, gives good milk.",
+      "x": 0.1017,
+      "y": 0.2684,
+      "w": 0.44,
+      "h": 0.1022,
       "words": [
         "A",
         "good",
         "wheel",
         "turns",
-        "well;",
+        "well,",
         "a",
         "good",
+        "well,",
+        "a",
+        "good",
+        "clock",
+        "keeps",
+        "time",
+        "apple",
+        "tree",
+        "gives",
+        "good",
+        "fruit,",
+        "gives",
+        "good",
+        "milk."
+      ],
+      "conf": 96.4493,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "knife cuts well. A good",
+      "x": 0.5155,
+      "y": 0.2684,
+      "w": 0.1763,
+      "h": 0.0495,
+      "words": [
         "knife",
         "cuts",
         "well.",
-        "Likewise,",
-        "every",
-        "part",
-        "of",
-        "the",
-        "body",
-        "has",
-        "its",
-        "own",
-        "work."
-      ]
+        "A",
+        "good"
+      ],
+      "conf": 96.7663,
+      "source": "psm-11"
     },
     {
-      "text": "What is the true work of a human? Is it to learn? If so, what should we learn? How to act?",
-      "x": 0.1,
-      "y": 0.52,
-      "w": 0.85,
-      "h": 0.22,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "ATA a good cow",
+      "x": 0.5195,
+      "y": 0.2937,
+      "w": 0.2748,
+      "h": 0.0506,
       "words": [
-        "What",
-        "is",
-        "the",
-        "true",
-        "work",
-        "of",
+        "ATA",
         "a",
-        "human?",
+        "good",
+        "cow"
+      ],
+      "conf": 50.3777,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "In the body, eye, hand, foot, each What can Man do best? What Is it to learn? To learn what?",
+      "x": 0.1017,
+      "y": 0.532,
+      "w": 0.4614,
+      "h": 0.1216,
+      "words": [
+        "In",
+        "the",
+        "body,",
+        "eye,",
+        "hand,",
+        "foot,",
+        "each",
+        "What",
+        "can",
+        "Man",
+        "do",
+        "best?",
+        "What",
         "Is",
         "it",
         "to",
         "learn?",
-        "If",
-        "so,",
-        "what",
-        "should",
-        "we",
-        "learn?",
-        "How",
-        "to",
-        "act?"
-      ]
+        "To",
+        "learn",
+        "what?"
+      ],
+      "conf": 96.6799,
+      "source": "psm-11"
     },
     {
-      "text": "Do we learn through feedback? Do we learn by seeing if the outcome of our actions is right?",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r4",
-      "order": 3,
+      "id": "r7",
+      "order": 6,
+      "text": "has its own work to do.",
+      "x": 0.5711,
+      "y": 0.525,
+      "w": 0.3161,
+      "h": 0.0242,
       "words": [
-        "Do",
-        "we",
+        "has",
+        "its",
+        "own",
+        "work",
+        "to",
+        "do."
+      ],
+      "conf": 95.7719,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "is his own work as Man?",
+      "x": 0.5338,
+      "y": 0.5815,
+      "w": 0.3542,
+      "h": 0.0247,
+      "words": [
+        "is",
+        "his",
+        "own",
+        "work",
+        "as",
+        "Man?"
+      ],
+      "conf": 96.4084,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Is it to learn what to do?",
+      "x": 0.1009,
+      "y": 0.6853,
+      "w": 0.3264,
+      "h": 0.0247,
+      "words": [
+        "Is",
+        "it",
+        "to",
         "learn",
-        "through",
-        "feedback?",
-        "Do",
-        "we",
-        "learn",
+        "what",
+        "to",
+        "do?"
+      ],
+      "conf": 96.6359,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "How does he learn?",
+      "x": 0.1056,
+      "y": 0.7402,
+      "w": 0.2645,
+      "h": 0.0178,
+      "words": [
+        "How",
+        "does",
+        "he",
+        "learn?"
+      ],
+      "conf": 96.2655,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "Is it by the feed-back from the Is it by seeing from the outcome right thing?",
+      "x": 0.1017,
+      "y": 0.7907,
+      "w": 0.455,
+      "h": 0.084,
+      "words": [
+        "Is",
+        "it",
+        "by",
+        "the",
+        "feed-back",
+        "from",
+        "the",
+        "Is",
+        "it",
         "by",
         "seeing",
-        "if",
+        "from",
         "the",
         "outcome",
+        "right",
+        "thing?"
+      ],
+      "conf": 94.7362,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "effects of what he does?",
+      "x": 0.5512,
+      "y": 0.7929,
+      "w": 0.3384,
+      "h": 0.0172,
+      "words": [
+        "effects",
         "of",
-        "our",
-        "actions",
+        "what",
+        "he",
+        "does?"
+      ],
+      "conf": 96.4926,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "whether he is doing the",
+      "x": 0.5647,
+      "y": 0.8176,
+      "w": 0.3257,
+      "h": 0.0215,
+      "words": [
+        "whether",
+        "he",
         "is",
-        "right?"
-      ]
+        "doing",
+        "the"
+      ],
+      "conf": 96.473,
+      "source": "psm-11"
     }
   ]
 }

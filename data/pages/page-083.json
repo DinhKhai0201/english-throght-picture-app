@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2083.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 8,
-    "wordCount": 84,
+    "regionCount": 9,
+    "wordCount": 79,
     "imageWidth": 1180,
     "imageHeight": 1867
   },
@@ -19,7 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2"
+        "r4"
       ]
     },
     {
@@ -30,8 +30,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r2",
+        "r3"
       ]
     },
     {
@@ -43,7 +43,7 @@
       "h": 0.5,
       "regionIds": [
         "r5",
-        "r6"
+        "r7"
       ]
     },
     {
@@ -54,20 +54,21 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r8"
+        "r6",
+        "r8",
+        "r9"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Now they are taking their soup.",
-      "x": 0.12,
-      "y": 0.12,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "Now they are taking their soup.",
+      "x": 0.1212,
+      "y": 0.1194,
+      "w": 0.3313,
+      "h": 0.0483,
       "words": [
         "Now",
         "they",
@@ -75,17 +76,65 @@
         "taking",
         "their",
         "soup."
-      ]
+      ],
+      "conf": 96.1543,
+      "source": "psm-11"
     },
     {
-      "text": "They have their spoons in their hands.",
-      "x": 0.12,
-      "y": 0.39,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r2",
       "order": 1,
+      "text": "John is saying to Mary, took the hat up.”",
+      "x": 0.5483,
+      "y": 0.1216,
+      "w": 0.361,
+      "h": 0.0471,
       "words": [
+        "John",
+        "is",
+        "saying",
+        "to",
+        "Mary,",
+        "took",
+        "the",
+        "hat",
+        "up.”"
+      ],
+      "conf": 96.4312,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Mary is saying to John, “Where did the money come",
+      "x": 0.55,
+      "y": 0.2855,
+      "w": 0.3619,
+      "h": 0.0717,
+      "words": [
+        "Mary",
+        "is",
+        "saying",
+        "to",
+        "John,",
+        "“Where",
+        "did",
+        "the",
+        "money",
+        "come"
+      ],
+      "conf": 96.7071,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "CO They have their spoons in their hands.",
+      "x": 0.1237,
+      "y": 0.331,
+      "w": 0.3636,
+      "h": 0.1002,
+      "words": [
+        "CO",
         "They",
         "have",
         "their",
@@ -93,101 +142,43 @@
         "in",
         "their",
         "hands."
-      ]
+      ],
+      "conf": 49.943,
+      "source": "psm-11"
     },
     {
-      "text": "John is saying to Mary, \"I took the hat up.\"",
-      "x": 0.54,
-      "y": 0.12,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r3",
-      "order": 2,
-      "words": [
-        "John",
-        "is",
-        "saying",
-        "to",
-        "Mary,",
-        "\"I",
-        "took",
-        "the",
-        "hat",
-        "up.\""
-      ]
-    },
-    {
-      "text": "Mary is saying to John, \"Where did the money come from?\"",
-      "x": 0.54,
-      "y": 0.28,
-      "w": 0.4,
-      "h": 0.08,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "Mary",
-        "is",
-        "saying",
-        "to",
-        "John,",
-        "\"Where",
-        "did",
-        "the",
-        "money",
-        "come",
-        "from?\""
-      ]
-    },
-    {
-      "text": "John said, \"I saw it there under the hat.\"",
-      "x": 0.12,
-      "y": 0.53,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r5",
       "order": 4,
+      "text": "John said, saw it there under the hat.”",
+      "x": 0.1288,
+      "y": 0.5362,
+      "w": 0.3627,
+      "h": 0.0444,
       "words": [
         "John",
         "said,",
-        "\"I",
         "saw",
         "it",
         "there",
         "under",
         "the",
-        "hat.\""
-      ]
+        "hat.”"
+      ],
+      "conf": 92.8979,
+      "source": "psm-11"
     },
     {
-      "text": "Mary said, \"But who put it there?\"",
-      "x": 0.12,
-      "y": 0.74,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r6",
       "order": 5,
-      "words": [
-        "Mary",
-        "said,",
-        "\"But",
-        "who",
-        "put",
-        "it",
-        "there?\""
-      ]
-    },
-    {
-      "text": "John said, \"Nobody put it there. The money was there and the wind came and put the hat down over the money.\"",
-      "x": 0.54,
-      "y": 0.53,
-      "w": 0.35,
-      "h": 0.15,
-      "id": "r7",
-      "order": 6,
+      "text": "John said, “Nobody put it there. The money was there and the wind came and put the hat down over the money.”",
+      "x": 0.5508,
+      "y": 0.5329,
+      "w": 0.3636,
+      "h": 0.1532,
       "words": [
         "John",
         "said,",
-        "\"Nobody",
+        "“Nobody",
         "put",
         "it",
         "there.",
@@ -206,31 +197,65 @@
         "down",
         "over",
         "the",
-        "money.\""
-      ]
+        "money.”"
+      ],
+      "conf": 79.3281,
+      "source": "psm-11"
     },
     {
-      "text": "Nobody = no man or woman or boy or girl or baby.",
-      "x": 0.54,
-      "y": 0.72,
-      "w": 0.35,
-      "h": 0.08,
+      "id": "r7",
+      "order": 6,
+      "text": "Mary said, “But who put it there?’’",
+      "x": 0.1322,
+      "y": 0.7477,
+      "w": 0.3339,
+      "h": 0.0504,
+      "words": [
+        "Mary",
+        "said,",
+        "“But",
+        "who",
+        "put",
+        "it",
+        "there?’’"
+      ],
+      "conf": 93.9794,
+      "source": "psm-11"
+    },
+    {
       "id": "r8",
       "order": 7,
+      "text": "woman or boy or girl",
+      "x": 0.5559,
+      "y": 0.7499,
+      "w": 0.3398,
+      "h": 0.0246,
       "words": [
-        "Nobody",
-        "=",
-        "no",
-        "man",
-        "or",
         "woman",
         "or",
         "boy",
         "or",
-        "girl",
+        "girl"
+      ],
+      "conf": 96.3109,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "man or or baby.",
+      "x": 0.5585,
+      "y": 0.7306,
+      "w": 0.3263,
+      "h": 0.0712,
+      "words": [
+        "man",
+        "or",
         "or",
         "baby."
-      ]
+      ],
+      "conf": 95.427,
+      "source": "psm-11"
     }
   ]
 }

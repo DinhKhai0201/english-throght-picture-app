@@ -2,64 +2,51 @@
   "page": 401,
   "image": "/books/page 401.png",
   "imageApiPath": "/api/books/page%20401.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 69,
+    "regionCount": 7,
+    "wordCount": 88,
     "imageWidth": 1234,
     "imageHeight": 1838
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7"
       ]
     }
   ],
   "regions": [
     {
-      "text": "All living things are developments from these one-celled organisms. They have developed step by step through change upon change from these first, simple, living things.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.5,
-      "h": 0.2,
       "id": "r1",
       "order": 0,
+      "text": "All living things are developments organisms. They have developed change upon change from these first, simple, living things. Our bodies and the bodies of plants and animals we see about us are highly complex in their structure. They have in them millions of millions of some doing one sort of work, some another. Every different cell has its own sort of work to do.",
+      "x": 0.1045,
+      "y": 0.031,
+      "w": 0.4797,
+      "h": 0.34,
       "words": [
         "All",
         "living",
         "things",
         "are",
         "developments",
-        "from",
-        "these",
-        "one-celled",
         "organisms.",
         "They",
         "have",
         "developed",
-        "step",
-        "by",
-        "step",
-        "through",
         "change",
         "upon",
         "change",
@@ -68,18 +55,7 @@
         "first,",
         "simple,",
         "living",
-        "things."
-      ]
-    },
-    {
-      "text": "Our bodies and the bodies of plants and animals are highly complex in their structure. They have millions of cells, each with its own work to do.",
-      "x": 0.1,
-      "y": 0.25,
-      "w": 0.5,
-      "h": 0.2,
-      "id": "r2",
-      "order": 1,
-      "words": [
+        "things.",
         "Our",
         "bodies",
         "and",
@@ -89,6 +65,10 @@
         "plants",
         "and",
         "animals",
+        "we",
+        "see",
+        "about",
+        "us",
         "are",
         "highly",
         "complex",
@@ -97,45 +77,136 @@
         "structure.",
         "They",
         "have",
+        "in",
+        "them",
         "millions",
         "of",
-        "cells,",
-        "each",
-        "with",
+        "millions",
+        "of",
+        "some",
+        "doing",
+        "one",
+        "sort",
+        "of",
+        "work,",
+        "some",
+        "another.",
+        "Every",
+        "different",
+        "cell",
+        "has",
         "its",
         "own",
+        "sort",
+        "of",
         "work",
         "to",
         "do."
-      ]
+      ],
+      "conf": 96.7479,
+      "source": "psm-11"
     },
     {
-      "text": "What do the words simple and complex mean? simple: not complex. complex: not simple (see next page).",
-      "x": 0.1,
-      "y": 0.72,
-      "w": 0.85,
-      "h": 0.2,
+      "id": "r2",
+      "order": 1,
+      "text": "from these one-celled step by step through",
+      "x": 0.5964,
+      "y": 0.031,
+      "w": 0.3112,
+      "h": 0.0544,
+      "words": [
+        "from",
+        "these",
+        "one-celled",
+        "step",
+        "by",
+        "step",
+        "through"
+      ],
+      "conf": 79.0952,
+      "source": "psm-11"
+    },
+    {
       "id": "r3",
       "order": 2,
+      "text": "the",
+      "x": 0.5032,
+      "y": 0.1409,
+      "w": 0.0454,
+      "h": 0.0169,
+      "words": [
+        "the"
+      ],
+      "conf": 96.5465,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "What do the words simple",
+      "x": 0.1062,
+      "y": 0.6926,
+      "w": 0.3914,
+      "h": 0.0212,
       "words": [
         "What",
         "do",
         "the",
         "words",
-        "simple",
+        "simple"
+      ],
+      "conf": 96.2807,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "and complex mean?",
+      "x": 0.5113,
+      "y": 0.6937,
+      "w": 0.295,
+      "h": 0.0207,
+      "words": [
         "and",
         "complex",
-        "mean?",
-        "simple:",
-        "not",
-        "complex.",
+        "mean?"
+      ],
+      "conf": 96.2427,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "complex: not simple (see next",
+      "x": 0.1037,
+      "y": 0.8591,
+      "w": 0.3306,
+      "h": 0.0163,
+      "words": [
         "complex:",
         "not",
         "simple",
         "(see",
-        "next",
-        "page)."
-      ]
+        "next"
+      ],
+      "conf": 94.0504,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "simple: not complex.",
+      "x": 0.1045,
+      "y": 0.8422,
+      "w": 0.235,
+      "h": 0.0152,
+      "words": [
+        "simple:",
+        "not",
+        "complex."
+      ],
+      "conf": 86.5315,
+      "source": "psm-11"
     }
   ]
 }

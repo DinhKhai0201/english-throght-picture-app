@@ -4,12 +4,26 @@
   "imageApiPath": "/api/books/page%20457.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 71,
+    "regionCount": 14,
+    "wordCount": 118,
     "imageWidth": 1225,
     "imageHeight": 1859
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r4",
+        "r6"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +32,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r5",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r9",
+        "r12",
+        "r14"
       ]
     },
     {
@@ -30,29 +59,56 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r10",
+        "r11",
+        "r13"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Geometry starts with ideas about lines and spaces. Here are two circles and two squares.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "Geometry starts with ideas about",
+      "x": 0.0849,
+      "y": 0.0425,
+      "w": 0.4735,
+      "h": 0.0221,
       "words": [
         "Geometry",
         "starts",
         "with",
         "ideas",
-        "about",
+        "about"
+      ],
+      "conf": 96.6242,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "lines and spaces,",
+      "x": 0.5682,
+      "y": 0.042,
+      "w": 0.2376,
+      "h": 0.021,
+      "words": [
         "lines",
         "and",
-        "spaces.",
+        "spaces,"
+      ],
+      "conf": 92.4565,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Here are two circles and two squares.",
+      "x": 0.0857,
+      "y": 0.3497,
+      "w": 0.5184,
+      "h": 0.0221,
+      "words": [
         "Here",
         "are",
         "two",
@@ -60,16 +116,18 @@
         "and",
         "two",
         "squares."
-      ]
+      ],
+      "conf": 96.667,
+      "source": "psm-11"
     },
     {
-      "text": "The circle on the left is inside a square. The square on the right is inside a circle. These are relations.",
-      "x": 0.1,
-      "y": 0.35,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r2",
-      "order": 1,
+      "id": "r4",
+      "order": 3,
+      "text": "The circle on the left is inside tion of that circle to that square.",
+      "x": 0.0816,
+      "y": 0.3986,
+      "w": 0.4474,
+      "h": 0.0522,
       "words": [
         "The",
         "circle",
@@ -78,78 +136,235 @@
         "left",
         "is",
         "inside",
+        "tion",
+        "of",
+        "that",
+        "circle",
+        "to",
+        "that",
+        "square."
+      ],
+      "conf": 96.5697,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "a square. That is the",
+      "x": 0.5265,
+      "y": 0.3986,
+      "w": 0.2841,
+      "h": 0.028,
+      "words": [
         "a",
         "square.",
+        "That",
+        "is",
+        "the"
+      ],
+      "conf": 95.9866,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The square on the right is inside",
+      "x": 0.0857,
+      "y": 0.4782,
+      "w": 0.4996,
+      "h": 0.028,
+      "words": [
         "The",
         "square",
         "on",
         "the",
         "right",
         "is",
-        "inside",
-        "a",
-        "circle.",
-        "These",
-        "are",
-        "relations."
-      ]
+        "inside"
+      ],
+      "conf": 96.8513,
+      "source": "psm-11"
     },
     {
-      "text": "Statements that tally with facts are true. If they don't, they are untrue. To say the right square is outside the circle is a false statement.",
-      "x": 0.1,
-      "y": 0.55,
-      "w": 0.85,
-      "h": 0.2,
-      "id": "r3",
-      "order": 2,
+      "id": "r7",
+      "order": 6,
+      "text": "a circle. That is its",
+      "x": 0.6008,
+      "y": 0.4782,
+      "w": 0.2914,
+      "h": 0.028,
       "words": [
+        "a",
+        "circle.",
+        "That",
+        "is",
+        "its"
+      ],
+      "conf": 96.6393,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "relation to the circle.",
+      "x": 0.0873,
+      "y": 0.5078,
+      "w": 0.2849,
+      "h": 0.0178,
+      "words": [
+        "relation",
+        "to",
+        "the",
+        "circle."
+      ],
+      "conf": 95.235,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "These are facts about the circles Statements which tally with which don’t tally with facts are the square on the right is outside ‘would be to make a false statement.",
+      "x": 0.0808,
+      "y": 0.5573,
+      "w": 0.4988,
+      "h": 0.1565,
+      "words": [
+        "These",
+        "are",
+        "facts",
+        "about",
+        "the",
+        "circles",
         "Statements",
-        "that",
+        "which",
+        "tally",
+        "with",
+        "which",
+        "don’t",
         "tally",
         "with",
         "facts",
         "are",
-        "true.",
-        "If",
-        "they",
-        "don't,",
-        "they",
-        "are",
-        "untrue.",
-        "To",
-        "say",
+        "the",
+        "square",
+        "on",
         "the",
         "right",
-        "square",
         "is",
         "outside",
-        "the",
-        "circle",
-        "is",
+        "‘would",
+        "be",
+        "to",
+        "make",
         "a",
         "false",
         "statement."
-      ]
+      ],
+      "conf": 96.6335,
+      "source": "psm-11"
     },
     {
-      "text": "fact: something that is true. untrue: not true, false.",
-      "x": 0.1,
-      "y": 0.82,
-      "w": 0.85,
-      "h": 0.08,
-      "id": "r4",
-      "order": 3,
+      "id": "r10",
+      "order": 9,
+      "text": "and squares on this page.",
+      "x": 0.5404,
+      "y": 0.5573,
+      "w": 0.3518,
+      "h": 0.0274,
+      "words": [
+        "and",
+        "squares",
+        "on",
+        "this",
+        "page."
+      ],
+      "conf": 94.9888,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "facts are true. Statements not true. It is untrue that the circle. To say it is",
+      "x": 0.511,
+      "y": 0.6122,
+      "w": 0.3804,
+      "h": 0.0753,
+      "words": [
+        "facts",
+        "are",
+        "true.",
+        "Statements",
+        "not",
+        "true.",
+        "It",
+        "is",
+        "untrue",
+        "that",
+        "the",
+        "circle.",
+        "To",
+        "say",
+        "it",
+        "is"
+      ],
+      "conf": 96.5076,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "fact: it is a fact thot the word fact bas",
+      "x": 0.0824,
+      "y": 0.8375,
+      "w": 0.4139,
+      "h": 0.0215,
       "words": [
         "fact:",
-        "something",
-        "that",
+        "it",
         "is",
-        "true.",
-        "untrue:",
-        "not",
+        "a",
+        "fact",
+        "thot",
+        "the",
+        "word",
+        "fact",
+        "bas"
+      ],
+      "conf": 92.353,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "four letters In it.",
+      "x": 0.5037,
+      "y": 0.8375,
+      "w": 0.1755,
+      "h": 0.0215,
+      "words": [
+        "four",
+        "letters",
+        "In",
+        "it."
+      ],
+      "conf": 89.0542,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "sot true, f",
+      "x": 0.1796,
+      "y": 0.8585,
+      "w": 0.1069,
+      "h": 0.0145,
+      "words": [
+        "sot",
         "true,",
-        "false."
-      ]
+        "f"
+      ],
+      "conf": 87.4174,
+      "source": "psm-11"
     }
   ]
 }

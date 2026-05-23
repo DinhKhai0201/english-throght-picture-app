@@ -2,95 +2,93 @@
   "page": 304,
   "image": "/books/page 304.png",
   "imageApiPath": "/api/books/page%20304.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 2,
-    "wordCount": 36,
+    "regionCount": 4,
+    "wordCount": 12,
     "imageWidth": 1192,
     "imageHeight": 1884
   },
   "panels": [
     {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
+        "r1",
+        "r2",
+        "r3",
+        "r4"
       ]
     }
   ],
   "regions": [
     {
-      "text": "World map showing locations of major cities marked 1 to 10.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.35,
       "id": "r1",
       "order": 0,
+      "text": "MILLIONS Berlin",
+      "x": 0.1418,
+      "y": 0.4225,
+      "w": 0.1594,
+      "h": 0.0552,
       "words": [
-        "World",
-        "map",
-        "showing",
-        "locations",
-        "of",
-        "major",
-        "cities",
-        "marked",
-        "1",
-        "to",
-        "10."
-      ]
+        "MILLIONS",
+        "Berlin"
+      ],
+      "conf": 91.0005,
+      "source": "psm-11"
     },
     {
-      "text": "Populations in Millions: 1. Berlin, 2. Calcutta, 3. Leningrad, 4. London, 5. Mexico City, 6. Moscow, 7. New York, 8. Paris, 9. Shanghai, 10. Tokyo.",
-      "x": 0.1,
-      "y": 0.45,
-      "w": 0.85,
-      "h": 0.5,
       "id": "r2",
       "order": 1,
+      "text": "von ee",
+      "x": 0.1107,
+      "y": 0.449,
+      "w": 0.6493,
+      "h": 0.0499,
       "words": [
-        "Populations",
-        "in",
-        "Millions:",
-        "1.",
-        "Berlin,",
-        "2.",
-        "Calcutta,",
-        "3.",
-        "Leningrad,",
-        "4.",
-        "London,",
-        "5.",
+        "von",
+        "ee"
+      ],
+      "conf": 42.7028,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "London Mexico City Moscow New York",
+      "x": 0.1426,
+      "y": 0.595,
+      "w": 0.1158,
+      "h": 0.1401,
+      "words": [
+        "London",
         "Mexico",
-        "City,",
-        "6.",
-        "Moscow,",
-        "7.",
+        "City",
+        "Moscow",
         "New",
-        "York,",
-        "8.",
-        "Paris,",
-        "9.",
-        "Shanghai,",
-        "10.",
-        "Tokyo."
-      ]
+        "York"
+      ],
+      "conf": 92.7009,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "SS SS",
+      "x": 0.5696,
+      "y": 0.7978,
+      "w": 0.1133,
+      "h": 0.0287,
+      "words": [
+        "SS",
+        "SS"
+      ],
+      "conf": 44.7752,
+      "source": "psm-6"
     }
   ]
 }

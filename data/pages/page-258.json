@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20258.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 98,
+    "regionCount": 15,
+    "wordCount": 91,
     "imageWidth": 1150,
     "imageHeight": 1859
   },
@@ -18,7 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r4",
+        "r6"
       ]
     },
     {
@@ -29,7 +31,12 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r1",
+        "r3",
+        "r5",
+        "r7",
+        "r8",
+        "r10"
       ]
     },
     {
@@ -40,7 +47,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r9",
+        "r12",
+        "r14"
       ]
     },
     {
@@ -51,57 +60,59 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r11",
+        "r13",
+        "r15"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Some noises are loud. These are guns. Guns make loud noises. Those guns make more noise than this gun.",
-      "x": 0.12,
-      "y": 0.21,
-      "w": 0.38,
-      "h": 0.12,
       "id": "r1",
       "order": 0,
-      "words": [
-        "Some",
-        "noises",
-        "are",
-        "loud.",
-        "These",
-        "are",
-        "guns.",
-        "Guns",
-        "make",
-        "loud",
-        "noises.",
-        "Those",
-        "guns",
-        "make",
-        "more",
-        "noise",
-        "than",
-        "this",
-        "gun."
-      ]
-    },
-    {
-      "text": "What is this? It is a whistle. It is a steam whistle. It is making a loud noise. This boy has a pocket whistle. He is making some noise with it but not much noise.",
-      "x": 0.68,
-      "y": 0.09,
-      "w": 0.3,
-      "h": 0.35,
-      "id": "r2",
-      "order": 1,
+      "text": "What is this?",
+      "x": 0.6922,
+      "y": 0.0871,
+      "w": 0.1957,
+      "h": 0.0194,
       "words": [
         "What",
         "is",
-        "this?",
-        "It",
-        "is",
-        "a",
-        "whistle.",
+        "this?"
+      ],
+      "conf": 96.5257,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "SS Some noises are loud These are guns.",
+      "x": 0.1165,
+      "y": 0.1323,
+      "w": 0.4,
+      "h": 0.1248,
+      "words": [
+        "SS",
+        "Some",
+        "noises",
+        "are",
+        "loud",
+        "These",
+        "are",
+        "guns."
+      ],
+      "conf": 72.7047,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "It is a steam whistle. It is making a loud noise.",
+      "x": 0.6922,
+      "y": 0.1388,
+      "w": 0.2208,
+      "h": 0.092,
+      "words": [
         "It",
         "is",
         "a",
@@ -112,91 +123,235 @@
         "making",
         "a",
         "loud",
-        "noise.",
+        "noise."
+      ],
+      "conf": 90.7169,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Guns make loud noises.",
+      "x": 0.1165,
+      "y": 0.2582,
+      "w": 0.3687,
+      "h": 0.0194,
+      "words": [
+        "Guns",
+        "make",
+        "loud",
+        "noises."
+      ],
+      "conf": 96.1425,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "This boy has a pocket whistle.",
+      "x": 0.6913,
+      "y": 0.2415,
+      "w": 0.2278,
+      "h": 0.0484,
+      "words": [
         "This",
         "boy",
         "has",
         "a",
         "pocket",
-        "whistle.",
+        "whistle."
+      ],
+      "conf": 96.448,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Those guns thake moré noise than this gun.",
+      "x": 0.1157,
+      "y": 0.2829,
+      "w": 0.3617,
+      "h": 0.0484,
+      "words": [
+        "Those",
+        "guns",
+        "thake",
+        "moré",
+        "noise",
+        "than",
+        "this",
+        "gun."
+      ],
+      "conf": 93.0447,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "He is making",
+      "x": 0.6913,
+      "y": 0.291,
+      "w": 0.1974,
+      "h": 0.0312,
+      "words": [
         "He",
         "is",
-        "making",
+        "making"
+      ],
+      "conf": 96.5329,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "some noise ith it but not uch noise.",
+      "x": 0.6896,
+      "y": 0.3168,
+      "w": 0.2139,
+      "h": 0.0678,
+      "words": [
         "some",
         "noise",
-        "with",
+        "ith",
         "it",
         "but",
         "not",
-        "much",
+        "uch",
         "noise."
-      ]
+      ],
+      "conf": 95.645,
+      "source": "psm-11"
     },
     {
-      "text": "This is music. This is a song. These are notes. This is a high note. This is a low note.",
-      "x": 0.2,
-      "y": 0.51,
-      "w": 0.3,
-      "h": 0.4,
-      "id": "r3",
-      "order": 2,
+      "id": "r9",
+      "order": 8,
+      "text": "This is music.",
+      "x": 0.2113,
+      "y": 0.5056,
+      "w": 0.1957,
+      "h": 0.0221,
       "words": [
         "This",
         "is",
-        "music.",
-        "This",
-        "is",
-        "a",
-        "song.",
-        "These",
-        "are",
-        "notes.",
-        "This",
-        "is",
-        "a",
-        "high",
-        "note.",
-        "This",
-        "is",
-        "a",
-        "low",
-        "note."
-      ]
+        "music."
+      ],
+      "conf": 89.3006,
+      "source": "psm-11"
     },
     {
-      "text": "This is a very high mountain. These are high mountains. This is a high building. It is a church. This is a low building.",
-      "x": 0.54,
-      "y": 0.49,
-      "w": 0.35,
-      "h": 0.4,
-      "id": "r4",
-      "order": 3,
+      "id": "r10",
+      "order": 9,
+      "text": "This is a very high",
+      "x": 0.6139,
+      "y": 0.4874,
+      "w": 0.2765,
+      "h": 0.0242,
       "words": [
         "This",
         "is",
         "a",
         "very",
-        "high",
-        "mountain.",
+        "high"
+      ],
+      "conf": 95.7217,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "mountain",
+      "x": 0.6165,
+      "y": 0.5153,
+      "w": 0.1426,
+      "h": 0.0161,
+      "words": [
+        "mountain"
+      ],
+      "conf": 95.8882,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "This is a song hese are notes.",
+      "x": 0.3374,
+      "y": 0.6041,
+      "w": 0.1487,
+      "h": 0.1162,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "song",
+        "hese",
+        "are",
+        "notes."
+      ],
+      "conf": 96.574,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "These are high H mountains, This ts high building",
+      "x": 0.513,
+      "y": 0.6396,
+      "w": 0.3661,
+      "h": 0.1086,
+      "words": [
         "These",
         "are",
         "high",
-        "mountains.",
+        "H",
+        "mountains,",
+        "This",
+        "ts",
+        "high",
+        "building"
+      ],
+      "conf": 95.794,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "This is a high note, This is a low note.",
+      "x": 0.207,
+      "y": 0.7795,
+      "w": 0.1609,
+      "h": 0.1118,
+      "words": [
         "This",
         "is",
         "a",
         "high",
-        "building.",
-        "It",
-        "is",
-        "a",
-        "church.",
+        "note,",
         "This",
         "is",
         "a",
         "low",
-        "building."
-      ]
+        "note."
+      ],
+      "conf": 86.0788,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "This is a «low building",
+      "x": 0.5148,
+      "y": 0.8047,
+      "w": 0.2365,
+      "h": 0.0495,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "«low",
+        "building"
+      ],
+      "conf": 88.7991,
+      "source": "psm-11"
     }
   ]
 }

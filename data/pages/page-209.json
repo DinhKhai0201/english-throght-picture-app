@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20209.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 87,
+    "regionCount": 10,
+    "wordCount": 86,
     "imageWidth": 1234,
     "imageHeight": 1875
   },
@@ -18,7 +18,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r3",
+        "r4",
+        "r5"
       ]
     },
     {
@@ -29,7 +32,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r2",
+        "r6"
       ]
     },
     {
@@ -40,7 +44,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r8",
+        "r9"
       ]
     },
     {
@@ -51,48 +56,46 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r7",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "The answer is: \"Because it is going round the earth.\" The moon The earth",
-      "x": 0.12,
-      "y": 0.1,
-      "w": 0.38,
-      "h": 0.35,
       "id": "r1",
       "order": 0,
+      "text": "The answer is: “Because it is going round the ea",
+      "x": 0.1475,
+      "y": 0.1115,
+      "w": 0.3517,
+      "h": 0.0693,
       "words": [
         "The",
         "answer",
         "is:",
-        "\"Because",
+        "“Because",
         "it",
         "is",
         "going",
         "round",
         "the",
-        "earth.\"",
-        "The",
-        "moon",
-        "The",
-        "earth"
-      ]
+        "ea"
+      ],
+      "conf": 96.6689,
+      "source": "psm-11"
     },
     {
-      "text": "This is a cord in my hand. The cord has a weight at its end. The weight is hanging down on the cord which is in my hand.",
-      "x": 0.56,
-      "y": 0.15,
-      "w": 0.38,
-      "h": 0.3,
       "id": "r2",
       "order": 1,
+      "text": "This is cord in my hand. The cord has a weight at its end.",
+      "x": 0.5689,
+      "y": 0.1616,
+      "w": 0.3144,
+      "h": 0.0747,
       "words": [
         "This",
         "is",
-        "a",
         "cord",
         "in",
         "my",
@@ -104,12 +107,69 @@
         "weight",
         "at",
         "its",
-        "end.",
+        "end."
+      ],
+      "conf": 95.0033,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Th",
+      "x": 0.3347,
+      "y": 0.2107,
+      "w": 0.0357,
+      "h": 0.0203,
+      "words": [
+        "Th"
+      ],
+      "conf": 95.9425,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "re moon",
+      "x": 0.3614,
+      "y": 0.2155,
+      "w": 0.1207,
+      "h": 0.0352,
+      "words": [
+        "re",
+        "moon"
+      ],
+      "conf": 76.4381,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "The earth",
+      "x": 0.2293,
+      "y": 0.2997,
+      "w": 0.1418,
+      "h": 0.0197,
+      "words": [
+        "The",
+        "earth"
+      ],
+      "conf": 96.5425,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The weight is hanging dawn on the cord which is in my hand.",
+      "x": 0.6248,
+      "y": 0.3093,
+      "w": 0.1831,
+      "h": 0.1446,
+      "words": [
         "The",
         "weight",
         "is",
         "hanging",
-        "down",
+        "dawn",
         "on",
         "the",
         "cord",
@@ -118,16 +178,42 @@
         "in",
         "my",
         "hand."
-      ]
+      ],
+      "conf": 96.5228,
+      "source": "psm-11"
     },
     {
-      "text": "I make the weight go round on the cord. I keep the end of the cord in my hand.",
-      "x": 0.12,
-      "y": 0.54,
-      "w": 0.38,
-      "h": 0.3,
-      "id": "r3",
-      "order": 2,
+      "id": "r7",
+      "order": 6,
+      "text": "Now let the end of the cord in my hand go.",
+      "x": 0.577,
+      "y": 0.5296,
+      "w": 0.2998,
+      "h": 0.0741,
+      "words": [
+        "Now",
+        "let",
+        "the",
+        "end",
+        "of",
+        "the",
+        "cord",
+        "in",
+        "my",
+        "hand",
+        "go."
+      ],
+      "conf": 96.0767,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "I make the weight go round on the cord.",
+      "x": 0.1645,
+      "y": 0.5531,
+      "w": 0.3136,
+      "h": 0.0458,
       "words": [
         "I",
         "make",
@@ -137,7 +223,20 @@
         "round",
         "on",
         "the",
-        "cord.",
+        "cord."
+      ],
+      "conf": 94.4661,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "I keep the end of the cord in my hand.",
+      "x": 0.1645,
+      "y": 0.8048,
+      "w": 0.3103,
+      "h": 0.0496,
+      "words": [
         "I",
         "keep",
         "the",
@@ -148,29 +247,19 @@
         "in",
         "my",
         "hand."
-      ]
+      ],
+      "conf": 89.8925,
+      "source": "psm-11"
     },
     {
-      "text": "Now I let the end of the cord in my hand go. The weight goes off in a straight line. It takes the cord with it.",
-      "x": 0.56,
-      "y": 0.53,
-      "w": 0.38,
-      "h": 0.35,
-      "id": "r4",
-      "order": 3,
+      "id": "r10",
+      "order": 9,
+      "text": "The weight goes off in a straight line. It takes the cord with it,",
+      "x": 0.5648,
+      "y": 0.8043,
+      "w": 0.3194,
+      "h": 0.072,
       "words": [
-        "Now",
-        "I",
-        "let",
-        "the",
-        "end",
-        "of",
-        "the",
-        "cord",
-        "in",
-        "my",
-        "hand",
-        "go.",
         "The",
         "weight",
         "goes",
@@ -184,8 +273,10 @@
         "the",
         "cord",
         "with",
-        "it."
-      ]
+        "it,"
+      ],
+      "conf": 96.1705,
+      "source": "psm-11"
     }
   ]
 }

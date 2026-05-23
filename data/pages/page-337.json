@@ -4,12 +4,25 @@
   "imageApiPath": "/api/books/page%20337.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 116,
+    "regionCount": 13,
+    "wordCount": 123,
     "imageWidth": 1234,
     "imageHeight": 1850
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r4"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +31,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8",
+        "r9",
+        "r10",
+        "r11"
       ]
     },
     {
@@ -30,54 +58,83 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r7",
+        "r12",
+        "r13"
       ]
     }
   ],
   "regions": [
     {
-      "text": "We can see why distances between people are not as important now as they were. They may be bridged in so many ways.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.08,
       "id": "r1",
       "order": 0,
+      "text": "We can see why distances important now as they were.",
+      "x": 0.1135,
+      "y": 0.0427,
+      "w": 0.4182,
+      "h": 0.0487,
       "words": [
         "We",
         "can",
         "see",
         "why",
         "distances",
+        "important",
+        "now",
+        "as",
+        "they",
+        "were."
+      ],
+      "conf": 96.1715,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "between people are not as They may be bridged in",
+      "x": 0.5146,
+      "y": 0.0422,
+      "w": 0.3906,
+      "h": 0.0491,
+      "words": [
         "between",
         "people",
         "are",
         "not",
         "as",
-        "important",
-        "now",
-        "as",
-        "they",
-        "were.",
         "They",
         "may",
         "be",
         "bridged",
-        "in",
+        "in"
+      ],
+      "conf": 96.6021,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "so many ways.",
+      "x": 0.1126,
+      "y": 0.1,
+      "w": 0.201,
+      "h": 0.0168,
+      "words": [
         "so",
         "many",
         "ways."
-      ]
+      ],
+      "conf": 95.8549,
+      "source": "psm-11"
     },
     {
-      "text": "What is a bridge? Here is a wide river with a bridge over it. The bridge is more than a mile long and is made of steel. It can carry very heavy weights. It is so strong that not only automobiles but trains go across it. It is so high that great ships go under it.",
-      "x": 0.1,
-      "y": 0.15,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r2",
-      "order": 1,
+      "id": "r4",
+      "order": 3,
+      "text": "What is a bridge? Here is a it. The bridge is more than steel. It can carry very heavy not only automobiles but trains that great ships go under it.",
+      "x": 0.111,
+      "y": 0.1476,
+      "w": 0.4416,
+      "h": 0.127,
       "words": [
         "What",
         "is",
@@ -86,18 +143,48 @@
         "Here",
         "is",
         "a",
-        "wide",
-        "river",
-        "with",
-        "a",
-        "bridge",
-        "over",
         "it.",
         "The",
         "bridge",
         "is",
         "more",
         "than",
+        "steel.",
+        "It",
+        "can",
+        "carry",
+        "very",
+        "heavy",
+        "not",
+        "only",
+        "automobiles",
+        "but",
+        "trains",
+        "that",
+        "great",
+        "ships",
+        "go",
+        "under",
+        "it."
+      ],
+      "conf": 96.5997,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "wide river with a bridge over a mile long and is made of weights. It is so strong that go across it. It is so high",
+      "x": 0.5024,
+      "y": 0.1465,
+      "w": 0.4052,
+      "h": 0.1011,
+      "words": [
+        "wide",
+        "river",
+        "with",
+        "a",
+        "bridge",
+        "over",
         "a",
         "mile",
         "long",
@@ -105,96 +192,170 @@
         "is",
         "made",
         "of",
-        "steel.",
-        "It",
-        "can",
-        "carry",
-        "very",
-        "heavy",
         "weights.",
         "It",
         "is",
         "so",
         "strong",
         "that",
-        "not",
-        "only",
-        "automobiles",
-        "but",
-        "trains",
         "go",
         "across",
         "it.",
         "It",
         "is",
         "so",
-        "high",
-        "that",
-        "great",
-        "ships",
-        "go",
-        "under",
-        "it."
-      ]
+        "high"
+      ],
+      "conf": 96.9009,
+      "source": "psm-11"
     },
     {
-      "text": "Language is a bridge between minds, a bridge so strong that trains of thought can go across. Language can bridge distances.",
-      "x": 0.1,
-      "y": 0.62,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r3",
-      "order": 2,
+      "id": "r6",
+      "order": 5,
+      "text": "Language is a bridge between that trains of thought can go distances.",
+      "x": 0.1143,
+      "y": 0.6135,
+      "w": 0.4238,
+      "h": 0.0697,
       "words": [
         "Language",
         "is",
         "a",
         "bridge",
         "between",
-        "minds,",
-        "a",
-        "bridge",
-        "so",
-        "strong",
         "that",
         "trains",
         "of",
         "thought",
         "can",
         "go",
+        "distances."
+      ],
+      "conf": 96.2072,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "minds, a bridge so strong across. Language can bridgo",
+      "x": 0.5154,
+      "y": 0.6135,
+      "w": 0.3963,
+      "h": 0.0476,
+      "words": [
+        "minds,",
+        "a",
+        "bridge",
+        "so",
+        "strong",
         "across.",
         "Language",
         "can",
-        "bridge",
-        "distances."
-      ]
+        "bridgo"
+      ],
+      "conf": 96.3196,
+      "source": "psm-11"
     },
     {
-      "text": "so: very. so strong that: strong enough to let. FUTURE: will bridge. PRESENT: bridge(s). PAST: bridged.",
-      "x": 0.1,
-      "y": 0.8,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r4",
-      "order": 3,
+      "id": "r8",
+      "order": 7,
+      "text": "so: In this sense very.",
+      "x": 0.1175,
+      "y": 0.7951,
+      "w": 0.2391,
+      "h": 0.0157,
       "words": [
         "so:",
-        "very.",
+        "In",
+        "this",
+        "sense",
+        "very."
+      ],
+      "conf": 91.5878,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "so strong that: strong enough fo let.",
+      "x": 0.1175,
+      "y": 0.813,
+      "w": 0.4036,
+      "h": 0.0157,
+      "words": [
         "so",
         "strong",
         "that:",
         "strong",
         "enough",
+        "fo",
+        "let."
+      ],
+      "conf": 89.0576,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "to high that: high enough to let.",
+      "x": 0.1183,
+      "y": 0.8303,
+      "w": 0.3614,
+      "h": 0.0162,
+      "words": [
         "to",
-        "let.",
-        "FUTURE:",
+        "high",
+        "that:",
+        "high",
+        "enough",
+        "to",
+        "let."
+      ],
+      "conf": 93.7889,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "will bridge",
+      "x": 0.1191,
+      "y": 0.8605,
+      "w": 0.1329,
+      "h": 0.0162,
+      "words": [
         "will",
-        "bridge.",
-        "PRESENT:",
-        "bridge(s).",
-        "PAST:",
-        "bridged."
-      ]
+        "bridge"
+      ],
+      "conf": 96.224,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "bridge(s)",
+      "x": 0.4538,
+      "y": 0.8605,
+      "w": 0.1199,
+      "h": 0.0168,
+      "words": [
+        "bridge(s)"
+      ],
+      "conf": 90.8027,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "bridged",
+      "x": 0.8193,
+      "y": 0.8611,
+      "w": 0.0948,
+      "h": 0.0162,
+      "words": [
+        "bridged"
+      ],
+      "conf": 95.6338,
+      "source": "psm-11"
     }
   ]
 }

@@ -2,162 +2,253 @@
   "page": 322,
   "image": "/books/page 322.png",
   "imageApiPath": "/api/books/page%20322.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 69,
+    "regionCount": 11,
+    "wordCount": 74,
     "imageWidth": 1188,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r1",
+        "r2",
         "r3",
-        "r4"
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11"
       ]
     }
   ],
   "regions": [
     {
-      "text": "The grasslands of the earth supply food to many different animals. From some of them we get meat and milk. From milk we make butter and cheese and other foods.",
-      "x": 0.45,
-      "y": 0.05,
-      "w": 0.5,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "The food From MAT",
+      "x": 0.3401,
+      "y": 0.0931,
+      "w": 0.1859,
+      "h": 0.1145,
       "words": [
         "The",
+        "food",
+        "From",
+        "MAT"
+      ],
+      "conf": 96.4669,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "grasslands of the earth supply to many different animals.",
+      "x": 0.5118,
+      "y": 0.0925,
+      "w": 0.4242,
+      "h": 0.0473,
+      "words": [
         "grasslands",
         "of",
         "the",
         "earth",
         "supply",
-        "food",
         "to",
         "many",
         "different",
-        "animals.",
-        "From",
+        "animals."
+      ],
+      "conf": 96.6188,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "some of them we get meat milk. From milk we make but- and cheese and other foods.",
+      "x": 0.5042,
+      "y": 0.1447,
+      "w": 0.4335,
+      "h": 0.0699,
+      "words": [
         "some",
         "of",
         "them",
         "we",
         "get",
         "meat",
-        "and",
         "milk.",
         "From",
         "milk",
         "we",
         "make",
-        "butter",
+        "but-",
         "and",
         "cheese",
         "and",
         "other",
         "foods."
-      ]
+      ],
+      "conf": 96.3473,
+      "source": "psm-11"
     },
     {
-      "text": "From birds living on grain we get eggs and meat.",
-      "x": 0.1,
-      "y": 0.28,
-      "w": 0.5,
-      "h": 0.05,
-      "id": "r2",
-      "order": 1,
+      "id": "r4",
+      "order": 3,
+      "text": "and ter",
+      "x": 0.4461,
+      "y": 0.1711,
+      "w": 0.0522,
+      "h": 0.0435,
+      "words": [
+        "and",
+        "ter"
+      ],
+      "conf": 96.6562,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "From birds living on grain eggs and meat.",
+      "x": 0.1145,
+      "y": 0.2889,
+      "w": 0.3931,
+      "h": 0.0462,
       "words": [
         "From",
         "birds",
         "living",
         "on",
         "grain",
-        "we",
-        "get",
         "eggs",
         "and",
         "meat."
-      ]
+      ],
+      "conf": 96.5067,
+      "source": "psm-11"
     },
     {
-      "text": "Seeds planted in good earth supply grains and fruits and vegetables of many sorts. The seas and rivers supply fish and some sea plants for food.",
-      "x": 0.45,
-      "y": 0.4,
-      "w": 0.5,
-      "h": 0.2,
-      "id": "r3",
-      "order": 2,
+      "id": "r6",
+      "order": 5,
+      "text": "we get C",
+      "x": 0.5194,
+      "y": 0.276,
+      "w": 0.1448,
+      "h": 0.0344,
+      "words": [
+        "we",
+        "get",
+        "C"
+      ],
+      "conf": 91.0514,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Seeds ply tables",
+      "x": 0.4461,
+      "y": 0.4056,
+      "w": 0.0842,
+      "h": 0.0694,
       "words": [
         "Seeds",
+        "ply",
+        "tables"
+      ],
+      "conf": 96.4473,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "planted in good earth sup- grains and fruits and vege- of many sorts,",
+      "x": 0.5135,
+      "y": 0.4051,
+      "w": 0.4258,
+      "h": 0.0742,
+      "words": [
         "planted",
         "in",
         "good",
         "earth",
-        "supply",
+        "sup-",
         "grains",
         "and",
         "fruits",
         "and",
-        "vegetables",
+        "vege-",
         "of",
         "many",
-        "sorts.",
+        "sorts,"
+      ],
+      "conf": 95.1058,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "The seas and rivers supply and some sea plants for food.",
+      "x": 0.1153,
+      "y": 0.5481,
+      "w": 0.4184,
+      "h": 0.0479,
+      "words": [
         "The",
         "seas",
         "and",
         "rivers",
         "supply",
-        "fish",
         "and",
         "some",
         "sea",
         "plants",
         "for",
         "food."
-      ]
+      ],
+      "conf": 96.313,
+      "source": "psm-11"
     },
     {
+      "id": "r10",
+      "order": 9,
+      "text": "fish",
+      "x": 0.5168,
+      "y": 0.546,
+      "w": 0.0598,
+      "h": 0.0264,
+      "words": [
+        "fish"
+      ],
+      "conf": 96.8031,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
       "text": "fish: water-breathing animal.",
-      "x": 0.1,
-      "y": 0.85,
-      "w": 0.85,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
+      "x": 0.1145,
+      "y": 0.8564,
+      "w": 0.3367,
+      "h": 0.0151,
       "words": [
         "fish:",
         "water-breathing",
         "animal."
-      ]
+      ],
+      "conf": 86.089,
+      "source": "psm-11"
     }
   ]
 }

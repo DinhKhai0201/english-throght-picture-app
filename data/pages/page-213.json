@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20213.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 101,
+    "regionCount": 13,
+    "wordCount": 100,
     "imageWidth": 1255,
     "imageHeight": 1875
   },
@@ -18,7 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r4",
+        "r5"
       ]
     },
     {
@@ -29,7 +31,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r2",
+        "r3",
+        "r6",
+        "r7"
       ]
     },
     {
@@ -40,7 +45,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r8",
+        "r9",
+        "r10"
       ]
     },
     {
@@ -51,19 +58,21 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r11",
+        "r12",
+        "r13"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Here is a ball. It is hanging on a cord. I will give a blow to the ball with this stick.",
-      "x": 0.12,
-      "y": 0.13,
-      "w": 0.35,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "Here is a ball. It is hanging on a cord.",
+      "x": 0.1641,
+      "y": 0.1408,
+      "w": 0.2773,
+      "h": 0.0491,
       "words": [
         "Here",
         "is",
@@ -74,46 +83,112 @@
         "hanging",
         "on",
         "a",
-        "cord.",
-        "I",
-        "will",
-        "give",
-        "a",
-        "blow",
-        "to",
-        "the",
-        "ball",
-        "with",
-        "this",
-        "stick."
-      ]
+        "cord."
+      ],
+      "conf": 83.6637,
+      "source": "psm-11"
     },
     {
-      "text": "I gave the blow. Now the ball is in motion. What was the cause of the motion? The blow of the stick was the cause of the motion.",
-      "x": 0.54,
-      "y": 0.25,
-      "w": 0.38,
-      "h": 0.2,
       "id": "r2",
       "order": 1,
+      "text": "I gave the blow.",
+      "x": 0.5546,
+      "y": 0.2533,
+      "w": 0.2335,
+      "h": 0.0224,
       "words": [
         "I",
         "gave",
         "the",
-        "blow.",
+        "blow."
+      ],
+      "conf": 94.8767,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Now the ball is in motion.",
+      "x": 0.5538,
+      "y": 0.2784,
+      "w": 0.2558,
+      "h": 0.0438,
+      "words": [
         "Now",
         "the",
         "ball",
         "is",
         "in",
-        "motion.",
+        "motion."
+      ],
+      "conf": 95.2599,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "the ball with this stick.",
+      "x": 0.145,
+      "y": 0.3216,
+      "w": 0.3211,
+      "h": 0.0416,
+      "words": [
+        "the",
+        "ball",
+        "with",
+        "this",
+        "stick."
+      ],
+      "conf": 94.7009,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "will give a blow to",
+      "x": 0.1649,
+      "y": 0.3035,
+      "w": 0.2669,
+      "h": 0.0224,
+      "words": [
+        "will",
+        "give",
+        "a",
+        "blow",
+        "to"
+      ],
+      "conf": 95.1565,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "What was the cause of the motion?",
+      "x": 0.553,
+      "y": 0.3285,
+      "w": 0.2932,
+      "h": 0.0438,
+      "words": [
         "What",
         "was",
         "the",
         "cause",
         "of",
         "the",
-        "motion?",
+        "motion?"
+      ],
+      "conf": 96.0554,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "The blow of the stick was the cause of the motion.",
+      "x": 0.553,
+      "y": 0.376,
+      "w": 0.2988,
+      "h": 0.0725,
+      "words": [
         "The",
         "blow",
         "of",
@@ -125,16 +200,18 @@
         "of",
         "the",
         "motion."
-      ]
+      ],
+      "conf": 96.7879,
+      "source": "psm-11"
     },
     {
-      "text": "The ball was not in motion before the blow. It was at rest. It was hanging on the end of the cord. The blow was the cause of the motion.",
-      "x": 0.12,
-      "y": 0.51,
-      "w": 0.38,
-      "h": 0.35,
-      "id": "r3",
-      "order": 2,
+      "id": "r8",
+      "order": 7,
+      "text": "The ball was not in motion before ihe blow.",
+      "x": 0.1307,
+      "y": 0.5061,
+      "w": 0.349,
+      "h": 0.0449,
       "words": [
         "The",
         "ball",
@@ -143,8 +220,21 @@
         "in",
         "motion",
         "before",
-        "the",
-        "blow.",
+        "ihe",
+        "blow."
+      ],
+      "conf": 96.5183,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "It was at rest. It was hanging on the end of the cord.",
+      "x": 0.1307,
+      "y": 0.5573,
+      "w": 0.3251,
+      "h": 0.0689,
+      "words": [
         "It",
         "was",
         "at",
@@ -157,7 +247,20 @@
         "end",
         "of",
         "the",
-        "cord.",
+        "cord."
+      ],
+      "conf": 91.9679,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "The blow was the cause of the motion.",
+      "x": 0.161,
+      "y": 0.744,
+      "w": 0.2948,
+      "h": 0.0453,
+      "words": [
         "The",
         "blow",
         "was",
@@ -166,16 +269,18 @@
         "of",
         "the",
         "motion."
-      ]
+      ],
+      "conf": 96.1687,
+      "source": "psm-11"
     },
     {
-      "text": "After the blow the ball was in motion. The motion came from the blow. The motion was the effect of the blow.",
-      "x": 0.54,
-      "y": 0.76,
-      "w": 0.38,
-      "h": 0.15,
-      "id": "r4",
-      "order": 3,
+      "id": "r11",
+      "order": 10,
+      "text": "After the blow the ball was in motion.",
+      "x": 0.5394,
+      "y": 0.7451,
+      "w": 0.3323,
+      "h": 0.0448,
       "words": [
         "After",
         "the",
@@ -184,13 +289,39 @@
         "ball",
         "was",
         "in",
-        "motion.",
+        "motion."
+      ],
+      "conf": 96.6048,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "The motion came from the blow.",
+      "x": 0.5386,
+      "y": 0.7957,
+      "w": 0.3259,
+      "h": 0.0438,
+      "words": [
         "The",
         "motion",
         "came",
         "from",
         "the",
-        "blow.",
+        "blow."
+      ],
+      "conf": 96.377,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "The motion was the effect of the blow.",
+      "x": 0.5378,
+      "y": 0.8459,
+      "w": 0.294,
+      "h": 0.0453,
+      "words": [
         "The",
         "motion",
         "was",
@@ -199,7 +330,9 @@
         "of",
         "the",
         "blow."
-      ]
+      ],
+      "conf": 96.0977,
+      "source": "psm-11"
     }
   ]
 }

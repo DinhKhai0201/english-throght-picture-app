@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20471.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 69,
+    "regionCount": 18,
+    "wordCount": 120,
     "imageWidth": 1242,
     "imageHeight": 1875
   },
@@ -18,7 +18,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r1",
+        "r2",
+        "r8",
+        "r9"
       ]
     },
     {
@@ -29,8 +32,27 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r3"
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r11",
+        "r12",
+        "r13",
+        "r16",
+        "r17"
       ]
     },
     {
@@ -41,123 +63,366 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r14",
+        "r15",
+        "r18"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Climate can be too hot or too cold. Now we can use automatic controls to regulate temperature in buildings.",
-      "x": 0.45,
-      "y": 0.05,
-      "w": 0.5,
-      "h": 0.2,
       "id": "r1",
       "order": 0,
+      "text": "J)",
+      "x": 0.1973,
+      "y": 0.064,
+      "w": 0.0298,
+      "h": 0.0144,
       "words": [
-        "Climate",
-        "can",
-        "be",
+        "J)"
+      ],
+      "conf": 58.4564,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "In cold But",
+      "x": 0.4565,
+      "y": 0.0629,
+      "w": 0.0596,
+      "h": 0.0939,
+      "words": [
+        "In",
+        "cold",
+        "But"
+      ],
+      "conf": 96.9041,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "many parts of the earth the climate",
+      "x": 0.4565,
+      "y": 0.0608,
+      "w": 0.4372,
+      "h": 0.0443,
+      "words": [
+        "many",
+        "parts",
+        "of",
+        "the",
+        "earth",
+        "the",
+        "climate"
+      ],
+      "conf": 96.4928,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "is either too hot or too for man most of the year.",
+      "x": 0.5274,
+      "y": 0.0869,
+      "w": 0.3671,
+      "h": 0.047,
+      "words": [
+        "is",
+        "either",
         "too",
         "hot",
         "or",
         "too",
-        "cold.",
-        "Now",
-        "we",
-        "can",
-        "use",
-        "automatic",
-        "controls",
-        "to",
-        "regulate",
-        "temperature",
-        "in",
-        "buildings."
-      ]
+        "for",
+        "man",
+        "most",
+        "of",
+        "the",
+        "year."
+      ],
+      "conf": 96.3614,
+      "source": "psm-11"
     },
     {
-      "text": "A thermostat keeps the air at a set level. If we point it to 70°F, it keeps the room at that temperature.",
-      "x": 0.1,
-      "y": 0.35,
-      "w": 0.55,
-      "h": 0.2,
-      "id": "r2",
-      "order": 1,
+      "id": "r5",
+      "order": 4,
+      "text": "it is now possible to put automatic",
+      "x": 0.4573,
+      "y": 0.1392,
+      "w": 0.4373,
+      "h": 0.0438,
       "words": [
-        "A",
+        "it",
+        "is",
+        "now",
+        "possible",
+        "to",
+        "put",
+        "automatic"
+      ],
+      "conf": 96.4134,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "controls over tem- perature",
+      "x": 0.4557,
+      "y": 0.1653,
+      "w": 0.4396,
+      "h": 0.0475,
+      "words": [
+        "controls",
+        "over",
+        "tem-",
+        "perature"
+      ],
+      "conf": 93.9863,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "into houses, offices, work plants.",
+      "x": 0.5169,
+      "y": 0.1899,
+      "w": 0.376,
+      "h": 0.048,
+      "words": [
+        "into",
+        "houses,",
+        "offices,",
+        "work",
+        "plants."
+      ],
+      "conf": 96.3751,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "and",
+      "x": 0.4565,
+      "y": 0.2176,
+      "w": 0.0507,
+      "h": 0.016,
+      "words": [
+        "and"
+      ],
+      "conf": 96.4045,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Here is a thermostat which keeps temperature of the air as high as we want. We put the pointer 70°F; then the thermostat will the temperature of the room F, the point on the scale",
+      "x": 0.0974,
+      "y": 0.3461,
+      "w": 0.4758,
+      "h": 0.1505,
+      "words": [
+        "Here",
+        "is",
+        "a",
         "thermostat",
+        "which",
         "keeps",
+        "temperature",
+        "of",
         "the",
         "air",
-        "at",
-        "a",
-        "set",
-        "level.",
-        "If",
+        "as",
+        "high",
+        "as",
         "we",
-        "point",
-        "it",
-        "to",
-        "70°F,",
-        "it",
-        "keeps",
+        "want.",
+        "We",
+        "put",
+        "the",
+        "pointer",
+        "70°F;",
+        "then",
+        "the",
+        "thermostat",
+        "will",
+        "the",
+        "temperature",
+        "of",
         "the",
         "room",
-        "at",
-        "that",
-        "temperature."
-      ]
+        "F,",
+        "the",
+        "point",
+        "on",
+        "the",
+        "scale"
+      ],
+      "conf": 96.657,
+      "source": "psm-11"
     },
     {
-      "text": "(Illustrations: A radiator and a thermostat with a temperature scale).",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.65,
-      "id": "r3",
-      "order": 2,
+      "id": "r10",
+      "order": 9,
+      "text": "the or low at keep near to",
+      "x": 0.5266,
+      "y": 0.3467,
+      "w": 0.0902,
+      "h": 0.1445,
       "words": [
-        "(Illustrations:",
-        "A",
-        "radiator",
-        "and",
-        "a",
-        "thermostat",
-        "with",
-        "a",
-        "temperature",
-        "scale)."
-      ]
+        "the",
+        "or",
+        "low",
+        "at",
+        "keep",
+        "near",
+        "to"
+      ],
+      "conf": 96.4894,
+      "source": "psm-11"
     },
     {
-      "text": "climate: weather patterns. thermostat: temperature control instrument. pointer: something that points. FUTURE: will point. PRESENT: point(s). PAST: pointed.",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.85,
-      "h": 0.2,
-      "id": "r4",
-      "order": 3,
+      "id": "r11",
+      "order": 10,
+      "text": "which the pointer points.",
+      "x": 0.0958,
+      "y": 0.5003,
+      "w": 0.3623,
+      "h": 0.0224,
+      "words": [
+        "which",
+        "the",
+        "pointer",
+        "points."
+      ],
+      "conf": 96.666,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "climate: weather through the year; thermostat: instrument for keeping automatic",
+      "x": 0.0918,
+      "y": 0.7963,
+      "w": 0.5137,
+      "h": 0.0501,
       "words": [
         "climate:",
         "weather",
-        "patterns.",
+        "through",
+        "the",
+        "year;",
         "thermostat:",
-        "temperature",
-        "control",
-        "instrument.",
+        "instrument",
+        "for",
+        "keeping",
+        "automatic"
+      ],
+      "conf": 92.0868,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Gmount of water in the oir and so pointer: person or thing pointing.",
+      "x": 0.0934,
+      "y": 0.8144,
+      "w": 0.4106,
+      "h": 0.0502,
+      "words": [
+        "Gmount",
+        "of",
+        "water",
+        "in",
+        "the",
+        "oir",
+        "and",
+        "so",
         "pointer:",
-        "something",
-        "that",
-        "points.",
-        "FUTURE:",
+        "person",
+        "or",
+        "thing",
+        "pointing."
+      ],
+      "conf": 83.9185,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "temperature, amount af rainfall,",
+      "x": 0.5217,
+      "y": 0.7952,
+      "w": 0.368,
+      "h": 0.016,
+      "words": [
+        "temperature,",
+        "amount",
+        "af",
+        "rainfall,"
+      ],
+      "conf": 89.8708,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "contro] over temperature.",
+      "x": 0.6151,
+      "y": 0.8315,
+      "w": 0.2738,
+      "h": 0.0139,
+      "words": [
+        "contro]",
+        "over",
+        "temperature."
+      ],
+      "conf": 88.9231,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "will point",
+      "x": 0.095,
+      "y": 0.8789,
+      "w": 0.1159,
+      "h": 0.0155,
+      "words": [
         "will",
-        "point.",
-        "PRESENT:",
-        "point(s).",
-        "PAST:",
-        "pointed."
-      ]
+        "point"
+      ],
+      "conf": 70.3798,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "point(s)",
+      "x": 0.4388,
+      "y": 0.8795,
+      "w": 0.1006,
+      "h": 0.0149,
+      "words": [
+        "point(s)"
+      ],
+      "conf": 96.3925,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "pointed",
+      "x": 0.7987,
+      "y": 0.8779,
+      "w": 0.091,
+      "h": 0.0149,
+      "words": [
+        "pointed"
+      ],
+      "conf": 96.7324,
+      "source": "psm-11"
     }
   ]
 }

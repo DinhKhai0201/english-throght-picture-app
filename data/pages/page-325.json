@@ -4,12 +4,25 @@
   "imageApiPath": "/api/books/page%20325.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 104,
+    "regionCount": 11,
+    "wordCount": 106,
     "imageWidth": 1234,
     "imageHeight": 1850
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +31,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r4",
+        "r6"
       ]
     },
     {
@@ -30,20 +44,33 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r7",
+        "r9"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r10",
+        "r11"
       ]
     }
   ],
   "regions": [
     {
-      "text": "If there were enough good food in every country every day for every person, would the world be a better place than it is?",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.1,
       "id": "r1",
       "order": 0,
+      "text": "If there were enough good food day for every person, would than it is?",
+      "x": 0.0948,
+      "y": 0.0168,
+      "w": 0.4563,
+      "h": 0.0956,
       "words": [
         "If",
         "there",
@@ -51,34 +78,49 @@
         "enough",
         "good",
         "food",
-        "in",
-        "every",
-        "country",
-        "every",
         "day",
         "for",
         "every",
         "person,",
         "would",
+        "than",
+        "it",
+        "is?"
+      ],
+      "conf": 95.0801,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "in every country every the world be a better place",
+      "x": 0.5097,
+      "y": 0.0168,
+      "w": 0.389,
+      "h": 0.0724,
+      "words": [
+        "in",
+        "every",
+        "country",
+        "every",
         "the",
         "world",
         "be",
         "a",
         "better",
-        "place",
-        "than",
-        "it",
-        "is?"
-      ]
+        "place"
+      ],
+      "conf": 95.6297,
+      "source": "psm-11"
     },
     {
-      "text": "We say, “If there were enough food,” not, “If there is enough food,” because there is not enough, and we know it.",
-      "x": 0.1,
-      "y": 0.2,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r2",
-      "order": 1,
+      "id": "r3",
+      "order": 2,
+      "text": "We say, “If there were enough enough food,” because there know it.",
+      "x": 0.0981,
+      "y": 0.1962,
+      "w": 0.4522,
+      "h": 0.0708,
       "words": [
         "We",
         "say,",
@@ -86,32 +128,47 @@
         "there",
         "were",
         "enough",
+        "enough",
+        "food,”",
+        "because",
+        "there",
+        "know",
+        "it."
+      ],
+      "conf": 96.2756,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "food,” not, “If there is is not enough, and we",
+      "x": 0.5486,
+      "y": 0.1957,
+      "w": 0.3501,
+      "h": 0.0486,
+      "words": [
         "food,”",
         "not,",
         "“If",
         "there",
         "is",
-        "enough",
-        "food,”",
-        "because",
-        "there",
         "is",
         "not",
         "enough,",
         "and",
-        "we",
-        "know",
-        "it."
-      ]
+        "we"
+      ],
+      "conf": 96.5188,
+      "source": "psm-11"
     },
     {
-      "text": "We say, “If there were something in this hand you would see it,” because we know that there is nothing in the hand. But with this hand, which is shut, we say, “If there is something in this hand you will see it.”",
-      "x": 0.1,
-      "y": 0.35,
-      "w": 0.5,
-      "h": 0.3,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "We say, “If there were something this hand you would see it,” we know that there is nothing hand.",
+      "x": 0.0964,
+      "y": 0.3535,
+      "w": 0.483,
+      "h": 0.0968,
       "words": [
         "We",
         "say,",
@@ -119,53 +176,94 @@
         "there",
         "were",
         "something",
-        "in",
         "this",
         "hand",
         "you",
         "would",
         "see",
         "it,”",
-        "because",
         "we",
         "know",
         "that",
         "there",
         "is",
         "nothing",
+        "hand."
+      ],
+      "conf": 96.5987,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "in because in the",
+      "x": 0.5073,
+      "y": 0.3541,
+      "w": 0.1111,
+      "h": 0.0702,
+      "words": [
         "in",
-        "the",
-        "hand.",
+        "because",
+        "in",
+        "the"
+      ],
+      "conf": 96.9986,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "But with this hand, which is say, “If there is something hand you will see it.”",
+      "x": 0.0989,
+      "y": 0.5373,
+      "w": 0.4044,
+      "h": 0.0746,
+      "words": [
         "But",
         "with",
         "this",
         "hand,",
         "which",
         "is",
-        "shut,",
-        "we",
         "say,",
         "“If",
         "there",
         "is",
         "something",
-        "in",
-        "this",
         "hand",
         "you",
         "will",
         "see",
         "it.”"
-      ]
+      ],
+      "conf": 96.4783,
+      "source": "psm-11"
     },
     {
-      "text": "Now the hand is open. There is something in it and you do see it.",
-      "x": 0.1,
-      "y": 0.7,
-      "w": 0.5,
-      "h": 0.1,
-      "id": "r4",
-      "order": 3,
+      "id": "r8",
+      "order": 7,
+      "text": "shut, we in this",
+      "x": 0.5008,
+      "y": 0.5384,
+      "w": 0.1183,
+      "h": 0.0432,
+      "words": [
+        "shut,",
+        "we",
+        "in",
+        "this"
+      ],
+      "conf": 96.7484,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Now the hand is open. There thing in it and you do see it.",
+      "x": 0.0964,
+      "y": 0.6951,
+      "w": 0.4004,
+      "h": 0.0509,
       "words": [
         "Now",
         "the",
@@ -173,8 +271,7 @@
         "is",
         "open.",
         "There",
-        "is",
-        "something",
+        "thing",
         "in",
         "it",
         "and",
@@ -182,7 +279,38 @@
         "do",
         "see",
         "it."
-      ]
+      ],
+      "conf": 96.679,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "is some-",
+      "x": 0.5041,
+      "y": 0.6951,
+      "w": 0.1143,
+      "h": 0.0184,
+      "words": [
+        "is",
+        "some-"
+      ],
+      "conf": 90.9975,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "BF",
+      "x": 0.7099,
+      "y": 0.7178,
+      "w": 0.1767,
+      "h": 0.0573,
+      "words": [
+        "BF"
+      ],
+      "conf": 47.0684,
+      "source": "psm-11"
     }
   ]
 }

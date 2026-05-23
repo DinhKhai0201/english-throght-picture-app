@@ -4,12 +4,25 @@
   "imageApiPath": "/api/books/page%20429.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 66,
+    "regionCount": 11,
+    "wordCount": 88,
     "imageWidth": 1250,
     "imageHeight": 1859
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r4"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,7 +31,21 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r3",
+        "r5",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9"
       ]
     },
     {
@@ -29,91 +56,194 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3"
+        "r8",
+        "r10",
+        "r11"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Men need to hear beautiful things. Music may go back farther than other arts, but we have no records before the discovery of writing.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "Men need to hear beautiful things.",
+      "x": 0.1152,
+      "y": 0.0414,
+      "w": 0.4672,
+      "h": 0.0258,
       "words": [
         "Men",
         "need",
         "to",
         "hear",
         "beautiful",
-        "things.",
+        "things."
+      ],
+      "conf": 96.4212,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Music may go back still farther but unhappily we have no discovery of writing. As with",
+      "x": 0.1112,
+      "y": 0.0963,
+      "w": 0.432,
+      "h": 0.085,
+      "words": [
         "Music",
         "may",
         "go",
         "back",
+        "still",
         "farther",
-        "than",
-        "other",
-        "arts,",
         "but",
+        "unhappily",
         "we",
         "have",
         "no",
-        "records",
-        "before",
-        "the",
         "discovery",
         "of",
-        "writing."
-      ]
+        "writing.",
+        "As",
+        "with"
+      ],
+      "conf": 95.9595,
+      "source": "psm-11"
     },
     {
-      "text": "The writing of music may have started with pictures. Today we can write down music and make copies of the sound as it is played.",
-      "x": 0.1,
-      "y": 0.65,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r2",
-      "order": 1,
+      "id": "r3",
+      "order": 2,
+      "text": "in time than the other arts, records of music before the language the writing of",
+      "x": 0.504,
+      "y": 0.0958,
+      "w": 0.3968,
+      "h": 0.0855,
       "words": [
-        "The",
-        "writing",
+        "in",
+        "time",
+        "than",
+        "the",
+        "other",
+        "arts,",
+        "records",
         "of",
+        "music",
+        "before",
+        "the",
+        "language",
+        "the",
+        "writing",
+        "of"
+      ],
+      "conf": 96.8812,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "music may have started with",
+      "x": 0.1136,
+      "y": 0.1754,
+      "w": 0.388,
+      "h": 0.0215,
+      "words": [
         "music",
         "may",
         "have",
         "started",
-        "with",
-        "pictures.",
+        "with"
+      ],
+      "conf": 96.0521,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "pictures.",
+      "x": 0.508,
+      "y": 0.1754,
+      "w": 0.1192,
+      "h": 0.0226,
+      "words": [
+        "pictures."
+      ],
+      "conf": 95.2012,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "we.",
+      "x": 0.4792,
+      "y": 0.475,
+      "w": 0.24,
+      "h": 0.0253,
+      "words": [
+        "we."
+      ],
+      "conf": 55.8079,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Today not only do we have but we can make copies of played.",
+      "x": 0.1168,
+      "y": 0.6407,
+      "w": 0.3888,
+      "h": 0.0758,
+      "words": [
         "Today",
+        "not",
+        "only",
+        "do",
+        "we",
+        "have",
+        "but",
         "we",
         "can",
-        "write",
-        "down",
-        "music",
-        "and",
         "make",
         "copies",
         "of",
-        "the",
-        "sound",
-        "as",
-        "it",
-        "is",
         "played."
-      ]
+      ],
+      "conf": 96.5127,
+      "source": "psm-11"
     },
     {
-      "text": "art: work done to feed the mind and heart through senses and feelings. examples: painting, sculpture, music.",
-      "x": 0.1,
-      "y": 0.82,
-      "w": 0.85,
-      "h": 0.12,
-      "id": "r3",
-      "order": 2,
+      "id": "r8",
+      "order": 7,
+      "text": "ways of writing down music, the sound of music as it is",
+      "x": 0.5048,
+      "y": 0.6417,
+      "w": 0.3976,
+      "h": 0.0437,
+      "words": [
+        "ways",
+        "of",
+        "writing",
+        "down",
+        "music,",
+        "the",
+        "sound",
+        "of",
+        "music",
+        "as",
+        "it",
+        "is"
+      ],
+      "conf": 96.5792,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "art: work done to feed the mind and ings: painting, sculpture, music,",
+      "x": 0.116,
+      "y": 0.8419,
+      "w": 0.4048,
+      "h": 0.0323,
       "words": [
         "art:",
         "work",
@@ -123,16 +253,46 @@
         "the",
         "mind",
         "and",
-        "heart",
-        "through",
-        "senses",
-        "and",
-        "feelings.",
-        "examples:",
+        "ings:",
         "painting,",
         "sculpture,",
-        "music."
-      ]
+        "music,"
+      ],
+      "conf": 95.6723,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "etc.",
+      "x": 0.5128,
+      "y": 0.8612,
+      "w": 0.036,
+      "h": 0.0113,
+      "words": [
+        "etc."
+      ],
+      "conf": 92.0605,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "heart through the senses and feel-",
+      "x": 0.532,
+      "y": 0.8429,
+      "w": 0.3704,
+      "h": 0.0156,
+      "words": [
+        "heart",
+        "through",
+        "the",
+        "senses",
+        "and",
+        "feel-"
+      ],
+      "conf": 94.8061,
+      "source": "psm-11"
     }
   ]
 }

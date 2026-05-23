@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20392.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 116,
+    "regionCount": 11,
+    "wordCount": 141,
     "imageWidth": 1188,
     "imageHeight": 1859
   },
@@ -18,7 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r1",
+        "r3",
+        "r5"
       ]
     },
     {
@@ -29,7 +31,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r4",
+        "r6"
       ]
     },
     {
@@ -40,7 +44,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r7",
+        "r9",
+        "r10"
       ]
     },
     {
@@ -51,19 +57,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r8",
+        "r11"
       ]
     }
   ],
   "regions": [
     {
-      "text": "He was able to do this only because he was carried forward on the shoulders of such men as Galileo, Kepler and Copernicus. His Law of Gravitation says that all things in the universe have an attraction for one another.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "He was able to do this only ward on the shoulders of such Copernicus. With their. work out new ideas about the weights tions. His Law of Gravitation universe have an attraction",
+      "x": 0.1019,
+      "y": 0.036,
+      "w": 0.4747,
+      "h": 0.1534,
       "words": [
         "He",
         "was",
@@ -72,49 +79,85 @@
         "do",
         "this",
         "only",
-        "because",
-        "he",
-        "was",
-        "carried",
-        "forward",
+        "ward",
         "on",
         "the",
         "shoulders",
         "of",
         "such",
+        "Copernicus.",
+        "With",
+        "their.",
+        "work",
+        "out",
+        "new",
+        "ideas",
+        "about",
+        "the",
+        "weights",
+        "tions.",
+        "His",
+        "Law",
+        "of",
+        "Gravitation",
+        "universe",
+        "have",
+        "an",
+        "attraction"
+      ],
+      "conf": 96.8326,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "because he was carried for- men as Galileo, Kepler and before him he could think of things and their mo- says that all things in the for one another.",
+      "x": 0.5168,
+      "y": 0.036,
+      "w": 0.4108,
+      "h": 0.1534,
+      "words": [
+        "because",
+        "he",
+        "was",
+        "carried",
+        "for-",
         "men",
         "as",
         "Galileo,",
         "Kepler",
         "and",
-        "Copernicus.",
-        "His",
-        "Law",
+        "before",
+        "him",
+        "he",
+        "could",
+        "think",
         "of",
-        "Gravitation",
+        "things",
+        "and",
+        "their",
+        "mo-",
         "says",
         "that",
         "all",
         "things",
         "in",
         "the",
-        "universe",
-        "have",
-        "an",
-        "attraction",
         "for",
         "one",
         "another."
-      ]
+      ],
+      "conf": 95.1799,
+      "source": "psm-11"
     },
     {
-      "text": "It was only by standing on Newton’s and other men’s shoulders that Einstein (1879-1955) was able to get his picture of the universe and work out new ideas about time and space and energy.",
-      "x": 0.1,
-      "y": 0.25,
-      "w": 0.6,
-      "h": 0.25,
-      "id": "r2",
-      "order": 1,
+      "id": "r3",
+      "order": 2,
+      "text": "It was only by standing on Newton’s other men’s shoulders that",
+      "x": 0.1061,
+      "y": 0.277,
+      "w": 0.5184,
+      "h": 0.0447,
       "words": [
         "It",
         "was",
@@ -123,43 +166,84 @@
         "standing",
         "on",
         "Newton’s",
-        "and",
         "other",
         "men’s",
         "shoulders",
-        "that",
+        "that"
+      ],
+      "conf": 95.6101,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "and Einstein his picture new ideas",
+      "x": 0.532,
+      "y": 0.2765,
+      "w": 0.1557,
+      "h": 0.1017,
+      "words": [
+        "and",
         "Einstein",
-        "(1879-1955)",
+        "his",
+        "picture",
+        "new",
+        "ideas"
+      ],
+      "conf": 96.4458,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "was able to get of the universe and work out about time and space and energy.",
+      "x": 0.1061,
+      "y": 0.3308,
+      "w": 0.4789,
+      "h": 0.0742,
+      "words": [
         "was",
         "able",
         "to",
         "get",
-        "his",
-        "picture",
         "of",
         "the",
         "universe",
         "and",
         "work",
         "out",
-        "new",
-        "ideas",
         "about",
         "time",
         "and",
         "space",
         "and",
         "energy."
-      ]
+      ],
+      "conf": 96.4134,
+      "source": "psm-11"
     },
     {
+      "id": "r6",
+      "order": 5,
+      "text": "or.",
+      "x": 0.7559,
+      "y": 0.4868,
+      "w": 0.0236,
+      "h": 0.0108,
+      "words": [
+        "or."
+      ],
+      "conf": 63.3242,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
       "text": "Their work made it possible for him to see farther into the laws of the universe than they could. Younger men in their turn are developing new ideas made possible by Einstein.",
-      "x": 0.1,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.25,
-      "id": "r3",
-      "order": 2,
+      "x": 0.1052,
+      "y": 0.5116,
+      "w": 0.4209,
+      "h": 0.1748,
       "words": [
         "Their",
         "work",
@@ -193,28 +277,75 @@
         "possible",
         "by",
         "Einstein."
-      ]
+      ],
+      "conf": 95.8095,
+      "source": "psm-11"
     },
     {
-      "text": "about: of. shoulder: part of body between arm and neck.",
-      "x": 0.1,
-      "y": 0.82,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r4",
-      "order": 3,
+      "id": "r8",
+      "order": 7,
+      "text": "Sa)",
+      "x": 0.8392,
+      "y": 0.5648,
+      "w": 0.0345,
+      "h": 0.0151,
+      "words": [
+        "Sa)"
+      ],
+      "conf": 59.4666,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "about: in this sense, of.",
+      "x": 0.1052,
+      "y": 0.8397,
+      "w": 0.2887,
+      "h": 0.0145,
       "words": [
         "about:",
-        "of.",
-        "shoulder:",
+        "in",
+        "this",
+        "sense,",
+        "of."
+      ],
+      "conf": 82.2406,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "part of body between are,",
+      "x": 0.2315,
+      "y": 0.8499,
+      "w": 0.3013,
+      "h": 0.0242,
+      "words": [
         "part",
         "of",
         "body",
         "between",
-        "arm",
+        "are,"
+      ],
+      "conf": 92.8341,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "neck and chest.",
+      "x": 0.5404,
+      "y": 0.8564,
+      "w": 0.1709,
+      "h": 0.0134,
+      "words": [
+        "neck",
         "and",
-        "neck."
-      ]
+        "chest."
+      ],
+      "conf": 96.2237,
+      "source": "psm-11"
     }
   ]
 }

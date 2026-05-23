@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20243.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 17,
-    "wordCount": 89,
+    "regionCount": 13,
+    "wordCount": 80,
     "imageWidth": 1184,
     "imageHeight": 1838
   },
@@ -20,9 +20,8 @@
       "regionIds": [
         "r1",
         "r2",
-        "r5",
-        "r6",
-        "r9"
+        "r4",
+        "r6"
       ]
     },
     {
@@ -34,10 +33,8 @@
       "h": 0.5,
       "regionIds": [
         "r3",
-        "r4",
-        "r7",
-        "r8",
-        "r11"
+        "r5",
+        "r7"
       ]
     },
     {
@@ -48,9 +45,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r8",
         "r10",
-        "r13",
-        "r14"
+        "r12"
       ]
     },
     {
@@ -61,69 +58,60 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r12",
-        "r15",
-        "r16",
-        "r17"
+        "r9",
+        "r11",
+        "r13"
       ]
     }
   ],
   "regions": [
     {
-      "text": "a",
-      "x": 0.08,
-      "y": 0.26,
-      "w": 0.05,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "QUESTIONS",
+      "x": 0.3851,
+      "y": 0.1469,
+      "w": 0.1985,
+      "h": 0.0207,
       "words": [
-        "a"
-      ]
+        "QUESTIONS"
+      ],
+      "conf": 96.0681,
+      "source": "psm-11"
     },
     {
-      "text": "Is there more water in the sea than in a river?",
-      "x": 0.13,
-      "y": 0.26,
-      "w": 0.35,
-      "h": 0.1,
       "id": "r2",
       "order": 1,
+      "text": "a Is there more water in thesea than ina river?",
+      "x": 0.0912,
+      "y": 0.2661,
+      "w": 0.3784,
+      "h": 0.0679,
       "words": [
+        "a",
         "Is",
         "there",
         "more",
         "water",
         "in",
-        "the",
-        "sea",
+        "thesea",
         "than",
-        "in",
-        "a",
+        "ina",
         "river?"
-      ]
+      ],
+      "conf": 90.2126,
+      "source": "psm-11"
     },
     {
-      "text": "b",
-      "x": 0.53,
-      "y": 0.26,
-      "w": 0.05,
-      "h": 0.05,
       "id": "r3",
       "order": 2,
+      "text": "b Give the names of three great discoveries.",
+      "x": 0.5524,
+      "y": 0.265,
+      "w": 0.3209,
+      "h": 0.0729,
       "words": [
-        "b"
-      ]
-    },
-    {
-      "text": "Give the names of three great discoveries.",
-      "x": 0.58,
-      "y": 0.26,
-      "w": 0.35,
-      "h": 0.1,
-      "id": "r4",
-      "order": 3,
-      "words": [
+        "b",
         "Give",
         "the",
         "names",
@@ -131,64 +119,43 @@
         "three",
         "great",
         "discoveries."
-      ]
+      ],
+      "conf": 94.882,
+      "source": "psm-11"
     },
     {
-      "text": "c",
-      "x": 0.08,
-      "y": 0.36,
-      "w": 0.05,
-      "h": 0.05,
-      "id": "r5",
-      "order": 4,
+      "id": "r4",
+      "order": 3,
+      "text": "wool? What Is cotton? Where do we get silk from?’",
+      "x": 0.1326,
+      "y": 0.3678,
+      "w": 0.3378,
+      "h": 0.075,
       "words": [
-        "c"
-      ]
-    },
-    {
-      "text": "What is wool? What is cotton? Where do we get silk from?",
-      "x": 0.13,
-      "y": 0.36,
-      "w": 0.35,
-      "h": 0.1,
-      "id": "r6",
-      "order": 5,
-      "words": [
-        "What",
-        "is",
         "wool?",
         "What",
-        "is",
+        "Is",
         "cotton?",
         "Where",
         "do",
         "we",
         "get",
         "silk",
-        "from?"
-      ]
+        "from?’"
+      ],
+      "conf": 91.9497,
+      "source": "psm-11"
     },
     {
-      "text": "d",
-      "x": 0.53,
-      "y": 0.36,
-      "w": 0.05,
-      "h": 0.05,
-      "id": "r7",
-      "order": 6,
+      "id": "r5",
+      "order": 4,
+      "text": "d- Why is thick clothing warmer than thin clothing?",
+      "x": 0.5532,
+      "y": 0.3689,
+      "w": 0.359,
+      "h": 0.0756,
       "words": [
-        "d"
-      ]
-    },
-    {
-      "text": "Why is thick clothing warmer than thin clothing?",
-      "x": 0.58,
-      "y": 0.36,
-      "w": 0.35,
-      "h": 0.1,
-      "id": "r8",
-      "order": 7,
-      "words": [
+        "d-",
         "Why",
         "is",
         "thick",
@@ -197,97 +164,93 @@
         "than",
         "thin",
         "clothing?"
-      ]
+      ],
+      "conf": 91.8951,
+      "source": "psm-11"
     },
     {
-      "text": "e",
-      "x": 0.08,
-      "y": 0.46,
-      "w": 0.05,
-      "h": 0.05,
-      "id": "r9",
-      "order": 8,
+      "id": "r6",
+      "order": 5,
+      "text": "e What is the chief work",
+      "x": 0.0946,
+      "y": 0.4701,
+      "w": 0.3758,
+      "h": 0.0212,
       "words": [
-        "e"
-      ]
-    },
-    {
-      "text": "What is the chief work of the eyes, the ears, the mouth, and the fingers?",
-      "x": 0.13,
-      "y": 0.46,
-      "w": 0.35,
-      "h": 0.15,
-      "id": "r10",
-      "order": 9,
-      "words": [
+        "e",
         "What",
         "is",
         "the",
         "chief",
-        "work",
+        "work"
+      ],
+      "conf": 79.4094,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "What sorts of",
+      "x": 0.5954,
+      "y": 0.4701,
+      "w": 0.2095,
+      "h": 0.0267,
+      "words": [
+        "What",
+        "sorts",
+        "of"
+      ],
+      "conf": 96.0798,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "of the eyes, fhe ears, the mouth, and the fingers?",
+      "x": 0.1326,
+      "y": 0.4956,
+      "w": 0.3175,
+      "h": 0.0751,
+      "words": [
         "of",
         "the",
         "eyes,",
-        "the",
+        "fhe",
         "ears,",
         "the",
         "mouth,",
         "and",
         "the",
         "fingers?"
-      ]
+      ],
+      "conf": 95.0719,
+      "source": "psm-11"
     },
     {
-      "text": "f",
-      "x": 0.53,
-      "y": 0.46,
-      "w": 0.05,
-      "h": 0.05,
-      "id": "r11",
-      "order": 10,
+      "id": "r9",
+      "order": 8,
+      "text": "ranspor goon",
+      "x": 0.5938,
+      "y": 0.4973,
+      "w": 0.2542,
+      "h": 0.0473,
       "words": [
-        "f"
-      ]
+        "ranspor",
+        "goon"
+      ],
+      "conf": 69.4556,
+      "source": "psm-11"
     },
     {
-      "text": "What sorts of transport go on wheels?",
-      "x": 0.58,
-      "y": 0.46,
-      "w": 0.35,
-      "h": 0.1,
-      "id": "r12",
-      "order": 11,
+      "id": "r10",
+      "order": 9,
+      "text": "g Where does smoke come from? Where does steam come from?",
+      "x": 0.0946,
+      "y": 0.5974,
+      "w": 0.3353,
+      "h": 0.0957,
       "words": [
-        "What",
-        "sorts",
-        "of",
-        "transport",
-        "go",
-        "on",
-        "wheels?"
-      ]
-    },
-    {
-      "text": "g",
-      "x": 0.08,
-      "y": 0.59,
-      "w": 0.05,
-      "h": 0.05,
-      "id": "r13",
-      "order": 12,
-      "words": [
-        "g"
-      ]
-    },
-    {
-      "text": "Where does smoke come from? Where does steam come from?",
-      "x": 0.13,
-      "y": 0.59,
-      "w": 0.35,
-      "h": 0.15,
-      "id": "r14",
-      "order": 13,
-      "words": [
+        "g",
         "Where",
         "does",
         "smoke",
@@ -298,52 +261,58 @@
         "steam",
         "come",
         "from?"
-      ]
+      ],
+      "conf": 94.6212,
+      "source": "psm-11"
     },
     {
-      "text": "h",
-      "x": 0.53,
-      "y": 0.59,
-      "w": 0.05,
-      "h": 0.05,
-      "id": "r15",
-      "order": 14,
+      "id": "r11",
+      "order": 10,
+      "text": "h Where do we get wood from?",
+      "x": 0.5566,
+      "y": 0.5979,
+      "w": 0.3117,
+      "h": 0.0512,
       "words": [
-        "h"
-      ]
-    },
-    {
-      "text": "Where do we get wood from?",
-      "x": 0.58,
-      "y": 0.59,
-      "w": 0.35,
-      "h": 0.1,
-      "id": "r16",
-      "order": 15,
-      "words": [
+        "h",
         "Where",
         "do",
         "we",
         "get",
         "wood",
         "from?"
-      ]
+      ],
+      "conf": 95.7085,
+      "source": "psm-11"
     },
     {
-      "text": "Answers are on page 240.",
-      "x": 0.3,
-      "y": 0.73,
-      "w": 0.4,
-      "h": 0.05,
-      "id": "r17",
-      "order": 16,
+      "id": "r12",
+      "order": 11,
+      "text": "are on",
+      "x": 0.4358,
+      "y": 0.7448,
+      "w": 0.1014,
+      "h": 0.0136,
       "words": [
-        "Answers",
         "are",
-        "on",
-        "page",
-        "240."
-      ]
+        "on"
+      ],
+      "conf": 96.6295,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "page",
+      "x": 0.549,
+      "y": 0.7454,
+      "w": 0.0811,
+      "h": 0.0174,
+      "words": [
+        "page"
+      ],
+      "conf": 96.6077,
+      "source": "psm-11"
     }
   ]
 }

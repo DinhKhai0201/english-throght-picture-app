@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20200.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 6,
-    "wordCount": 123,
+    "regionCount": 20,
+    "wordCount": 107,
     "imageWidth": 1138,
     "imageHeight": 1875
   },
@@ -19,7 +19,9 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2"
+        "r6",
+        "r10",
+        "r12"
       ]
     },
     {
@@ -30,8 +32,14 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r2",
         "r3",
-        "r4"
+        "r4",
+        "r5",
+        "r7",
+        "r8",
+        "r9",
+        "r11"
       ]
     },
     {
@@ -42,7 +50,12 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5"
+        "r13",
+        "r15",
+        "r17",
+        "r18",
+        "r19",
+        "r20"
       ]
     },
     {
@@ -53,19 +66,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6"
+        "r14",
+        "r16"
       ]
     }
   ],
   "regions": [
     {
-      "text": "The distance through the earth from North to South is seven thousand nine hundred (7900) miles.",
-      "x": 0.1,
-      "y": 0.1,
-      "w": 0.38,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "The distance through the earth from North to South is seven thousand nine hundred",
+      "x": 0.1098,
+      "y": 0.112,
+      "w": 0.3893,
+      "h": 0.0912,
       "words": [
         "The",
         "distance",
@@ -80,19 +94,88 @@
         "seven",
         "thousand",
         "nine",
-        "hundred",
-        "(7900)",
-        "miles."
-      ]
+        "hundred"
+      ],
+      "conf": 96.1616,
+      "source": "psm-11"
     },
     {
-      "text": "The distance round the earth is twenty-four thousand nine hundred (24,900) miles.",
-      "x": 0.12,
-      "y": 0.33,
-      "w": 0.38,
-      "h": 0.12,
       "id": "r2",
       "order": 1,
+      "text": "How far is the moon from the earth?",
+      "x": 0.5211,
+      "y": 0.1035,
+      "w": 0.3023,
+      "h": 0.0437,
+      "words": [
+        "How",
+        "far",
+        "is",
+        "the",
+        "moon",
+        "from",
+        "the",
+        "earth?"
+      ],
+      "conf": 96.4873,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "ndred and forty thousand",
+      "x": 0.5228,
+      "y": 0.1509,
+      "w": 0.3164,
+      "h": 0.0491,
+      "words": [
+        "ndred",
+        "and",
+        "forty",
+        "thousand"
+      ],
+      "conf": 93.9222,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "miles from the earth.",
+      "x": 0.5237,
+      "y": 0.1984,
+      "w": 0.3682,
+      "h": 0.0448,
+      "words": [
+        "miles",
+        "from",
+        "the",
+        "earth."
+      ],
+      "conf": 96.6432,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "NY",
+      "x": 0.7759,
+      "y": 0.2368,
+      "w": 0.0308,
+      "h": 0.0123,
+      "words": [
+        "NY"
+      ],
+      "conf": 35.1617,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The distance round the earth is twenty-four thousand nine hundred",
+      "x": 0.123,
+      "y": 0.3077,
+      "w": 0.356,
+      "h": 0.0875,
       "words": [
         "The",
         "distance",
@@ -103,50 +186,19 @@
         "twenty-four",
         "thousand",
         "nine",
-        "hundred",
-        "(24,900)",
-        "miles."
-      ]
+        "hundred"
+      ],
+      "conf": 90.6428,
+      "source": "psm-11"
     },
     {
-      "text": "How far is the moon from the earth? It is two hundred and forty thousand (240,000) miles from the earth.",
-      "x": 0.52,
-      "y": 0.1,
-      "w": 0.4,
-      "h": 0.18,
-      "id": "r3",
-      "order": 2,
-      "words": [
-        "How",
-        "far",
-        "is",
-        "the",
-        "moon",
-        "from",
-        "the",
-        "earth?",
-        "It",
-        "is",
-        "two",
-        "hundred",
-        "and",
-        "forty",
-        "thousand",
-        "(240,000)",
-        "miles",
-        "from",
-        "the",
-        "earth."
-      ]
-    },
-    {
-      "text": "How far is the sun from the earth? The distance of the sun from the earth is ninety-three million (93,000,000) miles.",
-      "x": 0.53,
-      "y": 0.3,
-      "w": 0.4,
-      "h": 0.18,
-      "id": "r4",
-      "order": 3,
+      "id": "r7",
+      "order": 6,
+      "text": "How far is the sun from the ¢arth?",
+      "x": 0.5343,
+      "y": 0.3019,
+      "w": 0.3541,
+      "h": 0.0496,
       "words": [
         "How",
         "far",
@@ -155,77 +207,115 @@
         "sun",
         "from",
         "the",
-        "earth?",
+        "¢arth?"
+      ],
+      "conf": 92.9184,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "The distance of the sun",
+      "x": 0.5351,
+      "y": 0.3515,
+      "w": 0.3445,
+      "h": 0.0203,
+      "words": [
         "The",
         "distance",
         "of",
         "the",
-        "sun",
-        "from",
+        "sun"
+      ],
+      "conf": 95.7211,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "the earth is ninéty-three million",
+      "x": 0.5378,
+      "y": 0.3771,
+      "w": 0.2909,
+      "h": 0.0469,
+      "words": [
         "the",
         "earth",
         "is",
-        "ninety-three",
-        "million",
-        "(93,000,000)",
-        "miles."
-      ]
+        "ninéty-three",
+        "million"
+      ],
+      "conf": 94.6371,
+      "source": "psm-11"
     },
     {
-      "text": "What is that in your hand? It is a ball. The ball is small. What is that in the sky? It is the sun. The sun is great. The sun is a great ball of fire.",
-      "x": 0.12,
-      "y": 0.49,
-      "w": 0.38,
-      "h": 0.45,
-      "id": "r5",
-      "order": 4,
+      "id": "r10",
+      "order": 9,
+      "text": "miles,",
+      "x": 0.2689,
+      "y": 0.4005,
+      "w": 0.0835,
+      "h": 0.0197,
+      "words": [
+        "miles,"
+      ],
+      "conf": 96.3964,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "miles.",
+      "x": 0.7443,
+      "y": 0.424,
+      "w": 0.0817,
+      "h": 0.0187,
+      "words": [
+        "miles."
+      ],
+      "conf": 90.5633,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "What is that",
+      "x": 0.1696,
+      "y": 0.4805,
+      "w": 0.1889,
+      "h": 0.0187,
       "words": [
         "What",
         "is",
-        "that",
-        "in",
-        "your",
-        "hand?",
-        "It",
-        "is",
-        "a",
-        "ball.",
-        "The",
-        "ball",
-        "is",
-        "small.",
-        "What",
-        "is",
-        "that",
-        "in",
-        "the",
-        "sky?",
-        "It",
-        "is",
-        "the",
-        "sun.",
-        "The",
-        "sun",
-        "is",
-        "great.",
-        "The",
-        "sun",
-        "is",
-        "a",
-        "great",
-        "ball",
-        "of",
-        "fire."
-      ]
+        "that"
+      ],
+      "conf": 94.2906,
+      "source": "psm-11"
     },
     {
-      "text": "What is the size of the sun? It is 864,000 miles through from one side to the other.",
-      "x": 0.54,
-      "y": 0.53,
-      "w": 0.4,
-      "h": 0.15,
-      "id": "r6",
-      "order": 5,
+      "id": "r13",
+      "order": 12,
+      "text": "in your hand?",
+      "x": 0.1705,
+      "y": 0.5061,
+      "w": 0.1072,
+      "h": 0.0411,
+      "words": [
+        "in",
+        "your",
+        "hand?"
+      ],
+      "conf": 96.6188,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "What is the size of the sun?",
+      "x": 0.5422,
+      "y": 0.5312,
+      "w": 0.3374,
+      "h": 0.0432,
       "words": [
         "What",
         "is",
@@ -233,10 +323,39 @@
         "size",
         "of",
         "the",
-        "sun?",
-        "It",
+        "sun?"
+      ],
+      "conf": 96.5951,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "The ball is small.",
+      "x": 0.1714,
+      "y": 0.5771,
+      "w": 0.1573,
+      "h": 0.0421,
+      "words": [
+        "The",
+        "ball",
         "is",
-        "864,000",
+        "small."
+      ],
+      "conf": 92.0612,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "It js miles through from one side to the other.",
+      "x": 0.5431,
+      "y": 0.5787,
+      "w": 0.3348,
+      "h": 0.0677,
+      "words": [
+        "It",
+        "js",
         "miles",
         "through",
         "from",
@@ -245,7 +364,80 @@
         "to",
         "the",
         "other."
-      ]
+      ],
+      "conf": 93.0064,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "in the sky?",
+      "x": 0.1353,
+      "y": 0.7003,
+      "w": 0.1599,
+      "h": 0.0219,
+      "words": [
+        "in",
+        "the",
+        "sky?"
+      ],
+      "conf": 96.9069,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "It is the sun.",
+      "x": 0.1362,
+      "y": 0.7243,
+      "w": 0.1766,
+      "h": 0.0181,
+      "words": [
+        "It",
+        "is",
+        "the",
+        "sun."
+      ],
+      "conf": 95.3504,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "The sun is great.",
+      "x": 0.1353,
+      "y": 0.7477,
+      "w": 0.2487,
+      "h": 0.0219,
+      "words": [
+        "The",
+        "sun",
+        "is",
+        "great."
+      ],
+      "conf": 96.5118,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "The sun is a great ball of fire.",
+      "x": 0.1336,
+      "y": 0.7717,
+      "w": 0.3374,
+      "h": 0.0416,
+      "words": [
+        "The",
+        "sun",
+        "is",
+        "a",
+        "great",
+        "ball",
+        "of",
+        "fire."
+      ],
+      "conf": 82.8944,
+      "source": "psm-11"
     }
   ]
 }

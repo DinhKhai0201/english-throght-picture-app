@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20396.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 101,
+    "regionCount": 17,
+    "wordCount": 141,
     "imageWidth": 1171,
     "imageHeight": 1884
   },
@@ -19,7 +19,38 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2"
+        "r3",
+        "r6",
+        "r8"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r5",
+        "r7",
+        "r9"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r12",
+        "r14",
+        "r15"
       ]
     },
     {
@@ -30,20 +61,22 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r11",
+        "r13",
+        "r16",
+        "r17"
       ]
     }
   ],
   "regions": [
     {
-      "text": "While our bodies are at rest the large muscles are not in use. It is these large muscles which pull on our bones and let us move as we want to.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.55,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "While our bodies are at rest large muscles are not in use.",
+      "x": 0.0956,
+      "y": 0.0446,
+      "w": 0.4475,
+      "h": 0.0483,
       "words": [
         "While",
         "our",
@@ -51,41 +84,96 @@
         "are",
         "at",
         "rest",
-        "the",
         "large",
         "muscles",
         "are",
         "not",
         "in",
-        "use.",
+        "use."
+      ],
+      "conf": 96.4928,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "the It is",
+      "x": 0.5448,
+      "y": 0.0446,
+      "w": 0.0598,
+      "h": 0.0462,
+      "words": [
+        "the",
         "It",
-        "is",
+        "is"
+      ],
+      "conf": 96.9504,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "these large muscles which pull our bones and let us move want to.",
+      "x": 0.0991,
+      "y": 0.0977,
+      "w": 0.4568,
+      "h": 0.0684,
+      "words": [
         "these",
         "large",
         "muscles",
         "which",
         "pull",
-        "on",
         "our",
         "bones",
         "and",
         "let",
         "us",
         "move",
-        "as",
-        "we",
         "want",
         "to."
-      ]
+      ],
+      "conf": 93.9801,
+      "source": "psm-11"
     },
     {
-      "text": "Hard work with our large muscles uses up energy quickly so that we come to feel hungry and want to eat.",
-      "x": 0.1,
-      "y": 0.22,
-      "w": 0.55,
-      "h": 0.12,
-      "id": "r2",
-      "order": 1,
+      "id": "r4",
+      "order": 3,
+      "text": "CA",
+      "x": 0.7173,
+      "y": 0.0801,
+      "w": 0.0871,
+      "h": 0.0303,
+      "words": [
+        "CA"
+      ],
+      "conf": 55.4141,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "on as we",
+      "x": 0.5209,
+      "y": 0.104,
+      "w": 0.0854,
+      "h": 0.0372,
+      "words": [
+        "on",
+        "as",
+        "we"
+      ],
+      "conf": 96.561,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Hard work with our large muscles uses up energy quickly so that come to feel hungry and want eat.",
+      "x": 0.0999,
+      "y": 0.2277,
+      "w": 0.5047,
+      "h": 0.0951,
       "words": [
         "Hard",
         "work",
@@ -99,87 +187,249 @@
         "quickly",
         "so",
         "that",
-        "we",
         "come",
         "to",
         "feel",
         "hungry",
         "and",
         "want",
-        "to",
         "eat."
-      ]
+      ],
+      "conf": 96.5298,
+      "source": "psm-11"
     },
     {
-      "text": "The more we know about our bodies, the more new questions come to our minds: How can we grow from one cell? How can cells work without us being conscious of them?",
-      "x": 0.1,
-      "y": 0.38,
-      "w": 0.85,
-      "h": 0.25,
-      "id": "r3",
-      "order": 2,
+      "id": "r7",
+      "order": 6,
+      "text": "we to",
+      "x": 0.5645,
+      "y": 0.2596,
+      "w": 0.0418,
+      "h": 0.0376,
+      "words": [
+        "we",
+        "to"
+      ],
+      "conf": 96.8302,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "The more we know about the of our bodies and their work, more new questions come minds, questions such as:",
+      "x": 0.1016,
+      "y": 0.3827,
+      "w": 0.4466,
+      "h": 0.0992,
       "words": [
         "The",
         "more",
         "we",
         "know",
         "about",
-        "our",
-        "bodies,",
         "the",
+        "of",
+        "our",
+        "bodies",
+        "and",
+        "their",
+        "work,",
         "more",
         "new",
         "questions",
         "come",
-        "to",
-        "our",
-        "minds:",
-        "How",
-        "can",
-        "we",
-        "grow",
-        "from",
-        "one",
-        "cell?",
-        "How",
-        "can",
-        "cells",
-        "work",
-        "without",
-        "us",
-        "being",
-        "conscious",
-        "of",
-        "them?"
-      ]
+        "minds,",
+        "questions",
+        "such",
+        "as:"
+      ],
+      "conf": 96.7408,
+      "source": "psm-11"
     },
     {
-      "text": "while: in the time when. hungry: feeling need for food. FUTURE: will pull. PRESENT: pull(s). PAST: pulled.",
-      "x": 0.1,
-      "y": 0.82,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r4",
-      "order": 3,
+      "id": "r9",
+      "order": 8,
+      "text": "parts the to our",
+      "x": 0.5141,
+      "y": 0.3854,
+      "w": 0.0948,
+      "h": 0.0663,
       "words": [
-        "while:",
-        "in",
+        "parts",
         "the",
-        "time",
-        "when.",
+        "to",
+        "our"
+      ],
+      "conf": 96.7767,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "How is it possible for all the from one cell?",
+      "x": 0.1033,
+      "y": 0.5382,
+      "w": 0.4184,
+      "h": 0.043,
+      "words": [
+        "How",
+        "is",
+        "it",
+        "possible",
+        "for",
+        "all",
+        "the",
+        "from",
+        "one",
+        "cell?"
+      ],
+      "conf": 96.4761,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "different parts of us to grow",
+      "x": 0.532,
+      "y": 0.5382,
+      "w": 0.4091,
+      "h": 0.0218,
+      "words": [
+        "different",
+        "parts",
+        "of",
+        "us",
+        "to",
+        "grow"
+      ],
+      "conf": 96.7965,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "How is it possible for all the ing bodies to go on doing what conscious of their workings?",
+      "x": 0.1025,
+      "y": 0.6152,
+      "w": 0.4543,
+      "h": 0.0727,
+      "words": [
+        "How",
+        "is",
+        "it",
+        "possible",
+        "for",
+        "all",
+        "the",
+        "ing",
+        "bodies",
+        "to",
+        "go",
+        "on",
+        "doing",
+        "what",
+        "conscious",
+        "of",
+        "their",
+        "workings?"
+      ],
+      "conf": 96.5722,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "millions of cells in our grow- they do without our being",
+      "x": 0.526,
+      "y": 0.6152,
+      "w": 0.4142,
+      "h": 0.0478,
+      "words": [
+        "millions",
+        "of",
+        "cells",
+        "in",
+        "our",
+        "grow-",
+        "they",
+        "do",
+        "without",
+        "our",
+        "being"
+      ],
+      "conf": 95.0578,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "hungry: feeling need and desire for",
+      "x": 0.1059,
+      "y": 0.8211,
+      "w": 0.4184,
+      "h": 0.0154,
+      "words": [
         "hungry:",
         "feeling",
         "need",
-        "for",
-        "food.",
-        "FUTURE:",
+        "and",
+        "desire",
+        "for"
+      ],
+      "conf": 95.9296,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "while: through the time that; in the will pull",
+      "x": 0.1059,
+      "y": 0.8036,
+      "w": 0.4064,
+      "h": 0.0626,
+      "words": [
+        "while:",
+        "through",
+        "the",
+        "time",
+        "that;",
+        "in",
+        "the",
         "will",
-        "pull.",
-        "PRESENT:",
-        "pull(s).",
-        "PAST:",
-        "pulled."
-      ]
+        "pull"
+      ],
+      "conf": 92.9034,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "time when, food.",
+      "x": 0.5201,
+      "y": 0.8047,
+      "w": 0.1221,
+      "h": 0.0287,
+      "words": [
+        "time",
+        "when,",
+        "food."
+      ],
+      "conf": 96.2933,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "pull(s)",
+      "x": 0.4791,
+      "y": 0.8503,
+      "w": 0.0888,
+      "h": 0.0159,
+      "words": [
+        "pull(s)"
+      ],
+      "conf": 80.173,
+      "source": "psm-11"
     }
   ]
 }

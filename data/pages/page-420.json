@@ -4,12 +4,25 @@
   "imageApiPath": "/api/books/page%20420.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 64,
+    "regionCount": 14,
+    "wordCount": 118,
     "imageWidth": 1171,
     "imageHeight": 1859
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,7 +31,22 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r4",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r10",
+        "r13"
       ]
     },
     {
@@ -29,108 +57,314 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3"
+        "r8",
+        "r9",
+        "r11",
+        "r12",
+        "r14"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Nitrogen, carbon, oxygen, and hydrogen are used over and over again. Plants build them up; animals eat plants; waste and dead plants are broken down again.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "Nitrogen, like carbon, oxygen over and over again in support gen up into complex structures.",
+      "x": 0.0811,
+      "y": 0.035,
+      "w": 0.4782,
+      "h": 0.0742,
       "words": [
         "Nitrogen,",
+        "like",
         "carbon,",
-        "oxygen,",
+        "oxygen",
+        "over",
         "and",
-        "hydrogen",
-        "are",
+        "over",
+        "again",
+        "in",
+        "support",
+        "gen",
+        "up",
+        "into",
+        "complex",
+        "structures."
+      ],
+      "conf": 96.5475,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "and hydrogen, is used of life. Plants build nitro- Animals eat the plants.",
+      "x": 0.5448,
+      "y": 0.0355,
+      "w": 0.374,
+      "h": 0.0742,
+      "words": [
+        "and",
+        "hydrogen,",
+        "is",
         "used",
-        "over",
-        "and",
-        "over",
-        "again.",
+        "of",
+        "life.",
         "Plants",
         "build",
-        "them",
-        "up;",
-        "animals",
+        "nitro-",
+        "Animals",
         "eat",
-        "plants;",
+        "the",
+        "plants."
+      ],
+      "conf": 96.0743,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Then animal waste and dead broken down into simpler forms",
+      "x": 0.0854,
+      "y": 0.1135,
+      "w": 0.468,
+      "h": 0.0473,
+      "words": [
+        "Then",
+        "animal",
         "waste",
         "and",
         "dead",
-        "plants",
-        "are",
         "broken",
         "down",
-        "again."
-      ]
+        "into",
+        "simpler",
+        "forms"
+      ],
+      "conf": 96.5395,
+      "source": "psm-11"
     },
     {
-      "text": "The great round goes on without end, made possible by solar energy. Oxygen and carbon dioxide in the air are there because of photosynthesis.",
-      "x": 0.1,
-      "y": 0.45,
-      "w": 0.85,
-      "h": 0.2,
-      "id": "r2",
-      "order": 1,
+      "id": "r4",
+      "order": 3,
+      "text": "plants and fallen leaves are again.",
+      "x": 0.5201,
+      "y": 0.114,
+      "w": 0.3971,
+      "h": 0.0469,
       "words": [
-        "The",
+        "plants",
+        "and",
+        "fallen",
+        "leaves",
+        "are",
+        "again."
+      ],
+      "conf": 96.5756,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "So the great round goes on without",
+      "x": 0.0854,
+      "y": 0.4701,
+      "w": 0.5021,
+      "h": 0.0269,
+      "words": [
+        "So",
+        "the",
         "great",
         "round",
         "goes",
         "on",
-        "without",
+        "without"
+      ],
+      "conf": 96.8291,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "end, all made possible",
+      "x": 0.6012,
+      "y": 0.4701,
+      "w": 0.3211,
+      "h": 0.0269,
+      "words": [
         "end,",
+        "all",
         "made",
-        "possible",
+        "possible"
+      ],
+      "conf": 95.5304,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "only by energy coming from the Scientists say that all the dioxide now in the air have plants through photosynthesis.",
+      "x": 0.0854,
+      "y": 0.497,
+      "w": 0.4569,
+      "h": 0.1291,
+      "words": [
+        "only",
         "by",
-        "solar",
-        "energy.",
-        "Oxygen",
-        "and",
-        "carbon",
+        "energy",
+        "coming",
+        "from",
+        "the",
+        "Scientists",
+        "say",
+        "that",
+        "all",
+        "the",
         "dioxide",
+        "now",
         "in",
         "the",
         "air",
-        "are",
-        "there",
-        "because",
-        "of",
+        "have",
+        "plants",
+        "through",
         "photosynthesis."
-      ]
+      ],
+      "conf": 96.0806,
+      "source": "psm-11"
     },
     {
-      "text": "fallen: leaves which fell from trees. FUTURE: will fall. PRESENT: fall(s). PAST: fell, fallen.",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r3",
-      "order": 2,
+      "id": "r8",
+      "order": 7,
+      "text": "sun.",
+      "x": 0.5559,
+      "y": 0.497,
+      "w": 0.0598,
+      "h": 0.0264,
+      "words": [
+        "sun."
+      ],
+      "conf": 96.3219,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "oxygen and all the carbon been put there after use by",
+      "x": 0.5124,
+      "y": 0.5498,
+      "w": 0.4125,
+      "h": 0.0527,
+      "words": [
+        "oxygen",
+        "and",
+        "all",
+        "the",
+        "carbon",
+        "been",
+        "put",
+        "there",
+        "after",
+        "use",
+        "by"
+      ],
+      "conf": 96.1167,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "fallen: fatien tecves ore leaves which The of the leaves takes place fall from the branches.",
+      "x": 0.0897,
+      "y": 0.7816,
+      "w": 0.4449,
+      "h": 0.0543,
       "words": [
         "fallen:",
+        "fatien",
+        "tecves",
+        "ore",
         "leaves",
         "which",
+        "The",
+        "of",
+        "the",
+        "leaves",
+        "takes",
+        "place",
+        "fall",
+        "from",
+        "the",
+        "branches."
+      ],
+      "conf": 73.9804,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "in the foll of the year when they",
+      "x": 0.5431,
+      "y": 0.7988,
+      "w": 0.3877,
+      "h": 0.0204,
+      "words": [
+        "in",
+        "the",
+        "foll",
+        "of",
+        "the",
+        "year",
+        "when",
+        "they"
+      ],
+      "conf": 95.1374,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "fell from trees",
+      "x": 0.5457,
+      "y": 0.7843,
+      "w": 0.1648,
+      "h": 0.0124,
+      "words": [
         "fell",
         "from",
-        "trees.",
-        "FUTURE:",
+        "trees"
+      ],
+      "conf": 95.8224,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "will fall",
+      "x": 0.0871,
+      "y": 0.8462,
+      "w": 0.111,
+      "h": 0.0226,
+      "words": [
         "will",
-        "fall.",
-        "PRESENT:",
-        "fall(s).",
-        "PAST:",
+        "fall"
+      ],
+      "conf": 90.3915,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "fell, fallen",
+      "x": 0.7865,
+      "y": 0.8472,
+      "w": 0.1435,
+      "h": 0.0221,
+      "words": [
         "fell,",
-        "fallen."
-      ]
+        "fallen"
+      ],
+      "conf": 69.8429,
+      "source": "psm-11"
     }
   ]
 }

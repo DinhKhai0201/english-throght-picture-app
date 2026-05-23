@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20452.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 77,
+    "regionCount": 17,
+    "wordCount": 163,
     "imageWidth": 1188,
     "imageHeight": 1859
   },
@@ -18,7 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r5"
       ]
     },
     {
@@ -29,7 +30,25 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r2",
+        "r3",
+        "r4",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9",
+        "r10",
+        "r11",
+        "r14"
       ]
     },
     {
@@ -40,132 +59,399 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r8",
+        "r12",
+        "r13",
+        "r15",
+        "r16",
+        "r17"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Before money, men did business by exchanging goods they were willing to give up for things they wanted more. This still happens today.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.45,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "In early times, before men invented money, they did all their business by exchange goods. Men traded with other men by exchanging goods they were willing give up for goods they want- ed more. Exchange of things still goes on in some parts the world today.",
+      "x": 0.1145,
+      "y": 0.0516,
+      "w": 0.4184,
+      "h": 0.2566,
       "words": [
-        "Before",
-        "money,",
+        "In",
+        "early",
+        "times,",
+        "before",
         "men",
+        "invented",
+        "money,",
+        "they",
         "did",
+        "all",
+        "their",
         "business",
+        "by",
+        "exchange",
+        "goods.",
+        "Men",
+        "traded",
+        "with",
+        "other",
+        "men",
         "by",
         "exchanging",
         "goods",
         "they",
         "were",
         "willing",
-        "to",
         "give",
         "up",
         "for",
-        "things",
+        "goods",
         "they",
-        "wanted",
+        "want-",
+        "ed",
         "more.",
-        "This",
+        "Exchange",
+        "of",
+        "things",
         "still",
-        "happens",
+        "goes",
+        "on",
+        "in",
+        "some",
+        "parts",
+        "the",
+        "world",
         "today."
-      ]
+      ],
+      "conf": 95.7451,
+      "source": "psm-11"
     },
     {
-      "text": "Money made trade easier and business better. If you have money, you can buy what you want without finding something to exchange.",
-      "x": 0.1,
-      "y": 0.35,
-      "w": 0.85,
-      "h": 0.18,
       "id": "r2",
       "order": 1,
+      "text": "of",
+      "x": 0.5042,
+      "y": 0.1033,
+      "w": 0.0295,
+      "h": 0.0167,
       "words": [
-        "Money",
-        "made",
+        "of"
+      ],
+      "conf": 96.9825,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "to",
+      "x": 0.5034,
+      "y": 0.1845,
+      "w": 0.0286,
+      "h": 0.014,
+      "words": [
+        "to"
+      ],
+      "conf": 96.2294,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "of",
+      "x": 0.5025,
+      "y": 0.2587,
+      "w": 0.0311,
+      "h": 0.0258,
+      "words": [
+        "of"
+      ],
+      "conf": 96.6956,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "After the invention of money, experience that money can trade easier and in keeping you want something and have buy it. You do not have to you have something which",
+      "x": 0.1153,
+      "y": 0.3394,
+      "w": 0.4436,
+      "h": 0.1528,
+      "words": [
+        "After",
+        "the",
+        "invention",
+        "of",
+        "money,",
+        "experience",
+        "that",
+        "money",
+        "can",
         "trade",
         "easier",
         "and",
-        "business",
-        "better.",
-        "If",
-        "you",
-        "have",
-        "money,",
-        "you",
-        "can",
-        "buy",
-        "what",
+        "in",
+        "keeping",
         "you",
         "want",
-        "without",
-        "finding",
         "something",
+        "and",
+        "have",
+        "buy",
+        "it.",
+        "You",
+        "do",
+        "not",
+        "have",
         "to",
-        "exchange."
-      ]
+        "you",
+        "have",
+        "something",
+        "which"
+      ],
+      "conf": 96.5241,
+      "source": "psm-11"
     },
     {
-      "text": "exchange: giving one thing for another. willing: ready to do something. still: up to now. trade: exchange of things or money.",
-      "x": 0.1,
-      "y": 0.75,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r3",
-      "order": 2,
+      "id": "r6",
+      "order": 5,
+      "text": "trade increased. It is man’s be a great help in making business in better order. If the money for it, you can keep asking yourself whether the other man will be willing",
+      "x": 0.5194,
+      "y": 0.3384,
+      "w": 0.4225,
+      "h": 0.1533,
+      "words": [
+        "trade",
+        "increased.",
+        "It",
+        "is",
+        "man’s",
+        "be",
+        "a",
+        "great",
+        "help",
+        "in",
+        "making",
+        "business",
+        "in",
+        "better",
+        "order.",
+        "If",
+        "the",
+        "money",
+        "for",
+        "it,",
+        "you",
+        "can",
+        "keep",
+        "asking",
+        "yourself",
+        "whether",
+        "the",
+        "other",
+        "man",
+        "will",
+        "be",
+        "willing"
+      ],
+      "conf": 95.8744,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "to take in exchange for what",
+      "x": 0.1187,
+      "y": 0.497,
+      "w": 0.404,
+      "h": 0.021,
+      "words": [
+        "to",
+        "take",
+        "in",
+        "exchange",
+        "for",
+        "what"
+      ],
+      "conf": 96.8195,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "you want.",
+      "x": 0.5286,
+      "y": 0.5003,
+      "w": 0.1397,
+      "h": 0.0188,
+      "words": [
+        "you",
+        "want."
+      ],
+      "conf": 96.6966,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "exchange: giving one thing for onother.",
+      "x": 0.117,
+      "y": 0.7595,
+      "w": 0.4646,
+      "h": 0.0161,
       "words": [
         "exchange:",
         "giving",
         "one",
         "thing",
         "for",
-        "another.",
+        "onother."
+      ],
+      "conf": 94.4146,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "willing: if you are willing to do something trade: exchange of things for other",
+      "x": 0.117,
+      "y": 0.7773,
+      "w": 0.4941,
+      "h": 0.0501,
+      "words": [
         "willing:",
-        "ready",
+        "if",
+        "you",
+        "are",
+        "willing",
         "to",
         "do",
-        "something.",
-        "still:",
-        "up",
-        "to",
-        "now.",
+        "something",
         "trade:",
         "exchange",
         "of",
         "things",
-        "or",
-        "money."
-      ]
+        "for",
+        "other"
+      ],
+      "conf": 95.9803,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will trade, will invent. PRESENT: trade(s), invent(s). PAST: traded, invented.",
-      "x": 0.1,
-      "y": 0.85,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r4",
-      "order": 3,
+      "id": "r11",
+      "order": 10,
+      "text": "still: up to the present time.",
+      "x": 0.1178,
+      "y": 0.7945,
+      "w": 0.3165,
+      "h": 0.0156,
       "words": [
-        "FUTURE:",
+        "still:",
+        "up",
+        "to",
+        "the",
+        "present",
+        "time."
+      ],
+      "conf": 95.7694,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "yau will do it if you have te.",
+      "x": 0.6229,
+      "y": 0.78,
+      "w": 0.3215,
+      "h": 0.0145,
+      "words": [
+        "yau",
         "will",
-        "trade,",
+        "do",
+        "it",
+        "if",
+        "you",
+        "have",
+        "te."
+      ],
+      "conf": 92.1388,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "things or money.",
+      "x": 0.5286,
+      "y": 0.8128,
+      "w": 0.1852,
+      "h": 0.0161,
+      "words": [
+        "things",
+        "or",
+        "money."
+      ],
+      "conf": 96.5209,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "will trade wiiil invent",
+      "x": 0.117,
+      "y": 0.8419,
+      "w": 0.1355,
+      "h": 0.0296,
+      "words": [
         "will",
-        "invent.",
-        "PRESENT:",
-        "trade(s),",
-        "invent(s).",
-        "PAST:",
-        "traded,",
-        "invented."
-      ]
+        "trade",
+        "wiiil",
+        "invent"
+      ],
+      "conf": 90.8553,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "(s)",
+      "x": 0.5572,
+      "y": 0.8601,
+      "w": 0.0354,
+      "h": 0.0145,
+      "words": [
+        "(s)"
+      ],
+      "conf": 56.7525,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "invented",
+      "x": 0.835,
+      "y": 0.8607,
+      "w": 0.1094,
+      "h": 0.0129,
+      "words": [
+        "invented"
+      ],
+      "conf": 94.7024,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "traded",
+      "x": 0.8611,
+      "y": 0.8435,
+      "w": 0.0833,
+      "h": 0.0129,
+      "words": [
+        "traded"
+      ],
+      "conf": 91.0515,
+      "source": "psm-11"
     }
   ]
 }

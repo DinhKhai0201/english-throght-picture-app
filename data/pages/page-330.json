@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20330.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 142,
+    "regionCount": 15,
+    "wordCount": 151,
     "imageWidth": 1180,
     "imageHeight": 1875
   },
@@ -18,7 +18,21 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r2"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3",
+        "r4",
+        "r5"
       ]
     },
     {
@@ -29,7 +43,11 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10"
       ]
     },
     {
@@ -40,20 +58,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r11",
+        "r12",
+        "r13",
+        "r14",
+        "r15"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Another way in which people are getting to know more about one another is through the radio. Man’s words were first sent from one place to another by telephone less than a hundred years ago. A word can now go by telephone from the Atlantic to the Pacific in one-twelfth (1/12) of a second. A telephone needs wires, but the radio, which came into use less than fifty years ago, can send sounds any distance without wires.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.45,
-      "h": 0.35,
       "id": "r1",
       "order": 0,
+      "text": "Another way in which people are getting to know more about one another is through the radio. Man’s words were first sent from one place to another by telephone less than a hundred years ago. A word can now go by tele- phone from the Atlantic to the Pacific in one-twelfth",
+      "x": 0.1017,
+      "y": 0.0496,
+      "w": 0.4203,
+      "h": 0.2506,
       "words": [
         "Another",
         "way",
@@ -96,7 +117,8 @@
         "now",
         "go",
         "by",
-        "telephone",
+        "tele-",
+        "phone",
         "from",
         "the",
         "Atlantic",
@@ -104,13 +126,26 @@
         "the",
         "Pacific",
         "in",
-        "one-twelfth",
-        "(1/12)",
+        "one-twelfth"
+      ],
+      "conf": 96.6054,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "of a second. A tele- phone needs wires, but the radio, which came into use send sounds any distance without Television, which is one of good or bad—of this century,",
+      "x": 0.1042,
+      "y": 0.3072,
+      "w": 0.489,
+      "h": 0.1786,
+      "words": [
         "of",
         "a",
         "second.",
         "A",
-        "telephone",
+        "tele-",
+        "phone",
         "needs",
         "wires,",
         "but",
@@ -120,49 +155,90 @@
         "came",
         "into",
         "use",
-        "less",
-        "than",
-        "fifty",
-        "years",
-        "ago,",
-        "can",
         "send",
         "sounds",
         "any",
         "distance",
         "without",
-        "wires."
-      ]
-    },
-    {
-      "text": "Television, which is one of the great new powers—for good or bad—of this century, lets a public man talk to millions while they sit in their private homes seeing him as if he were there in front of them.",
-      "x": 0.1,
-      "y": 0.45,
-      "w": 0.45,
-      "h": 0.2,
-      "id": "r2",
-      "order": 1,
-      "words": [
         "Television,",
         "which",
         "is",
         "one",
         "of",
-        "the",
-        "great",
-        "new",
-        "powers—for",
         "good",
         "or",
         "bad—of",
         "this",
-        "century,",
+        "century,"
+      ],
+      "conf": 94.2463,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "less than fifty years ago, can",
+      "x": 0.5169,
+      "y": 0.3611,
+      "w": 0.4127,
+      "h": 0.0219,
+      "words": [
+        "less",
+        "than",
+        "fifty",
+        "years",
+        "ago,",
+        "can"
+      ],
+      "conf": 96.8175,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "wires.",
+      "x": 0.6017,
+      "y": 0.3872,
+      "w": 0.0831,
+      "h": 0.0165,
+      "words": [
+        "wires."
+      ],
+      "conf": 96.8398,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "the great new powers—for lets a public man talk to",
+      "x": 0.539,
+      "y": 0.4384,
+      "w": 0.394,
+      "h": 0.0475,
+      "words": [
+        "the",
+        "great",
+        "new",
+        "powers—for",
         "lets",
         "a",
         "public",
         "man",
         "talk",
-        "to",
+        "to"
+      ],
+      "conf": 93.5303,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "millions while they sit in their private homes seeing him as if he were there in front of them.",
+      "x": 0.1051,
+      "y": 0.4901,
+      "w": 0.378,
+      "h": 0.0944,
+      "words": [
         "millions",
         "while",
         "they",
@@ -182,55 +258,160 @@
         "front",
         "of",
         "them."
-      ]
+      ],
+      "conf": 96.4749,
+      "source": "psm-11"
     },
     {
-      "text": "wire: thread of metal. talk: say things. sit: be seated. telephone, radio, television: instruments for sending sound and pictures.",
-      "x": 0.1,
-      "y": 0.75,
-      "w": 0.85,
-      "h": 0.12,
-      "id": "r3",
-      "order": 2,
+      "id": "r7",
+      "order": 6,
+      "text": "talk: soy things.",
+      "x": 0.111,
+      "y": 0.7755,
+      "w": 0.1881,
+      "h": 0.0149,
       "words": [
-        "wire:",
+        "talk:",
+        "soy",
+        "things."
+      ],
+      "conf": 95.6779,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "wires thread of metal.",
+      "x": 0.1119,
+      "y": 0.7584,
+      "w": 0.2525,
+      "h": 0.0123,
+      "words": [
+        "wires",
         "thread",
         "of",
-        "metal.",
-        "talk:",
-        "say",
-        "things.",
-        "sit:",
-        "be",
-        "seated.",
+        "metal."
+      ],
+      "conf": 94.2165,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "telephone, radio, television: see",
+      "x": 0.1119,
+      "y": 0.8091,
+      "w": 0.4102,
+      "h": 0.016,
+      "words": [
         "telephone,",
         "radio,",
         "television:",
-        "instruments",
-        "for",
-        "sending",
-        "sound",
-        "and",
-        "pictures."
-      ]
+        "see"
+      ],
+      "conf": 93.9924,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will talk/sit. PRESENT: talk(s)/sit(s). PAST: talked/sat.",
-      "x": 0.1,
-      "y": 0.88,
-      "w": 0.85,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
+      "id": "r10",
+      "order": 9,
+      "text": "sit: be seated. When you toke a seat will sit",
+      "x": 0.1127,
+      "y": 0.7925,
+      "w": 0.4271,
+      "h": 0.0773,
       "words": [
-        "FUTURE:",
+        "sit:",
+        "be",
+        "seated.",
+        "When",
+        "you",
+        "toke",
+        "a",
+        "seat",
         "will",
-        "talk/sit.",
-        "PRESENT:",
-        "talk(s)/sit(s).",
-        "PAST:",
-        "talked/sat."
-      ]
+        "sit"
+      ],
+      "conf": 92.4784,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "pictures on this",
+      "x": 0.5322,
+      "y": 0.808,
+      "w": 0.1737,
+      "h": 0.0155,
+      "words": [
+        "pictures",
+        "on",
+        "this"
+      ],
+      "conf": 95.8893,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "on something, you sif on it.",
+      "x": 0.55,
+      "y": 0.7893,
+      "w": 0.3102,
+      "h": 0.016,
+      "words": [
+        "on",
+        "something,",
+        "you",
+        "sif",
+        "on",
+        "it."
+      ],
+      "conf": 93.0263,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "sit(s)",
+      "x": 0.4924,
+      "y": 0.856,
+      "w": 0.0703,
+      "h": 0.016,
+      "words": [
+        "sit(s)"
+      ],
+      "conf": 90.4976,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "(s)",
+      "x": 0.5364,
+      "y": 0.8384,
+      "w": 0.0356,
+      "h": 0.0155,
+      "words": [
+        "(s)"
+      ],
+      "conf": 71.0954,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "talked sat",
+      "x": 0.8627,
+      "y": 0.8352,
+      "w": 0.0822,
+      "h": 0.0309,
+      "words": [
+        "talked",
+        "sat"
+      ],
+      "conf": 96.1271,
+      "source": "psm-11"
     }
   ]
 }

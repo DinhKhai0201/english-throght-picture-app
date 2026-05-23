@@ -2,68 +2,42 @@
   "page": 265,
   "image": "/books/page 265.png",
   "imageApiPath": "/api/books/page%20265.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 69,
+    "regionCount": 8,
+    "wordCount": 67,
     "imageWidth": 1205,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Good weather. The day is bright. The air is warm. The sky is blue. They are happy.",
-      "x": 0.1,
-      "y": 0.35,
-      "w": 0.38,
-      "h": 0.12,
       "id": "r1",
       "order": 0,
+      "text": "Good weather. The day is bright. The air is warm The sky is blue. They are happy",
+      "x": 0.1112,
+      "y": 0.3499,
+      "w": 0.3685,
+      "h": 0.0986,
       "words": [
         "Good",
         "weather.",
@@ -74,24 +48,26 @@
         "The",
         "air",
         "is",
-        "warm.",
+        "warm",
         "The",
         "sky",
         "is",
         "blue.",
         "They",
         "are",
-        "happy."
-      ]
+        "happy"
+      ],
+      "conf": 96.1021,
+      "source": "psm-11"
     },
     {
-      "text": "Bad weather. The wind is blowing. The rain is falling. It is cold. It is wet. They are unhappy.",
-      "x": 0.52,
-      "y": 0.35,
-      "w": 0.4,
-      "h": 0.12,
       "id": "r2",
       "order": 1,
+      "text": "Bad weather. The wind is blowing. The rain is falling. It is cold. It is wet They are unhappy",
+      "x": 0.5195,
+      "y": 0.3493,
+      "w": 0.3718,
+      "h": 0.0987,
       "words": [
         "Bad",
         "weather.",
@@ -108,50 +84,91 @@
         "cold.",
         "It",
         "is",
-        "wet.",
+        "wet",
         "They",
         "are",
-        "unhappy."
-      ]
+        "unhappy"
+      ],
+      "conf": 95.871,
+      "source": "psm-11"
     },
     {
-      "text": "Bright is the opposite of dark. Warm is the opposite of cold.",
-      "x": 0.1,
-      "y": 0.5,
-      "w": 0.38,
-      "h": 0.25,
       "id": "r3",
       "order": 2,
+      "text": "Bright is the opposite",
+      "x": 0.1361,
+      "y": 0.5099,
+      "w": 0.3087,
+      "h": 0.0245,
       "words": [
         "Bright",
         "is",
         "the",
-        "opposite",
-        "of",
-        "dark.",
-        "Warm",
-        "is",
-        "the",
-        "opposite",
-        "of",
-        "cold."
-      ]
+        "opposite"
+      ],
+      "conf": 96.5958,
+      "source": "psm-11"
     },
     {
-      "text": "White is the opposite of black. What is the opposite of dry? (See page 128.) What is the opposite of happy?",
-      "x": 0.52,
-      "y": 0.5,
-      "w": 0.4,
-      "h": 0.35,
       "id": "r4",
       "order": 3,
+      "text": "White is the opposite of black.",
+      "x": 0.5494,
+      "y": 0.4987,
+      "w": 0.3137,
+      "h": 0.0432,
       "words": [
         "White",
         "is",
         "the",
         "opposite",
         "of",
-        "black.",
+        "black."
+      ],
+      "conf": 96.6368,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "of dark",
+      "x": 0.3651,
+      "y": 0.536,
+      "w": 0.0806,
+      "h": 0.0427,
+      "words": [
+        "of",
+        "dark"
+      ],
+      "conf": 96.8113,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Warm is the opposite",
+      "x": 0.1129,
+      "y": 0.6613,
+      "w": 0.3212,
+      "h": 0.0437,
+      "words": [
+        "Warm",
+        "is",
+        "the",
+        "opposite"
+      ],
+      "conf": 92.4764,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "What is the opposite of dry? (See page What is the opposite of happy?",
+      "x": 0.5328,
+      "y": 0.7163,
+      "w": 0.356,
+      "h": 0.1019,
+      "words": [
         "What",
         "is",
         "the",
@@ -160,14 +177,29 @@
         "dry?",
         "(See",
         "page",
-        "128.)",
         "What",
         "is",
         "the",
         "opposite",
         "of",
         "happy?"
-      ]
+      ],
+      "conf": 96.7318,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "ES",
+      "x": 0.3278,
+      "y": 0.7728,
+      "w": 0.0797,
+      "h": 0.0555,
+      "words": [
+        "ES"
+      ],
+      "conf": 46.8587,
+      "source": "psm-11"
     }
   ]
 }

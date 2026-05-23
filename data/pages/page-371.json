@@ -2,48 +2,47 @@
   "page": 371,
   "image": "/books/page 371.png",
   "imageApiPath": "/api/books/page%20371.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 118,
+    "regionCount": 13,
+    "wordCount": 147,
     "imageWidth": 1188,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r2",
         "r3",
-        "r4"
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r13"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Keeping your mouth shut, take your nose between your thumb and one finger, so that you shut the air out and shut your breath in. How long can you hold your breath?",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.35,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "Keeping your mouth shut, take your nose between your thumb and one fin- ger, so that you shut the air out and shut your breath in. How long can you hold your breath?",
+      "x": 0.0926,
+      "y": 0.048,
+      "w": 0.3738,
+      "h": 0.177,
       "words": [
         "Keeping",
         "your",
@@ -57,7 +56,8 @@
         "thumb",
         "and",
         "one",
-        "finger,",
+        "fin-",
+        "ger,",
         "so",
         "that",
         "you",
@@ -77,16 +77,18 @@
         "hold",
         "your",
         "breath?"
-      ]
+      ],
+      "conf": 96.2487,
+      "source": "psm-11"
     },
     {
-      "text": "You will be wise if you do not try to hold it more than a minute. If oxygen is kept from a person for long he will become unconscious.",
-      "x": 0.1,
-      "y": 0.25,
-      "w": 0.35,
-      "h": 0.15,
       "id": "r2",
       "order": 1,
+      "text": "You will be wise if you do not try to hold it more than a minute. If oxygen is kept‘from a person for long he will become un- conscious.",
+      "x": 0.0918,
+      "y": 0.2272,
+      "w": 0.3745,
+      "h": 0.1478,
       "words": [
         "You",
         "will",
@@ -107,8 +109,7 @@
         "If",
         "oxygen",
         "is",
-        "kept",
-        "from",
+        "kept‘from",
         "a",
         "person",
         "for",
@@ -116,87 +117,239 @@
         "he",
         "will",
         "become",
-        "unconscious."
-      ]
+        "un-",
+        "conscious."
+      ],
+      "conf": 96.2685,
+      "source": "psm-11"
     },
     {
-      "text": "When a person becomes unconscious through getting water or smoke in his lungs it is very important to start him breathing again. This is done by turning him face down and then working his lungs to start his breathing.",
-      "x": 0.1,
-      "y": 0.45,
-      "w": 0.85,
-      "h": 0.2,
       "id": "r3",
       "order": 2,
+      "text": "When a person becomes unconscious water or smoke in his lungs",
+      "x": 0.0926,
+      "y": 0.4619,
+      "w": 0.5775,
+      "h": 0.0469,
       "words": [
         "When",
         "a",
         "person",
         "becomes",
         "unconscious",
-        "through",
-        "getting",
         "water",
         "or",
         "smoke",
         "in",
         "his",
-        "lungs",
+        "lungs"
+      ],
+      "conf": 96.4255,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "through getting it is very important to start",
+      "x": 0.5185,
+      "y": 0.4608,
+      "w": 0.3974,
+      "h": 0.048,
+      "words": [
+        "through",
+        "getting",
         "it",
         "is",
         "very",
         "important",
         "to",
-        "start",
+        "start"
+      ],
+      "conf": 95.7777,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "him breathing again. This is down (putting something between mouth open) and then working breathing.",
+      "x": 0.0918,
+      "y": 0.5141,
+      "w": 0.5109,
+      "h": 0.0982,
+      "words": [
         "him",
         "breathing",
         "again.",
         "This",
         "is",
+        "down",
+        "(putting",
+        "something",
+        "between",
+        "mouth",
+        "open)",
+        "and",
+        "then",
+        "working",
+        "breathing."
+      ],
+      "conf": 96.3429,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "done by turning him face",
+      "x": 0.5362,
+      "y": 0.5131,
+      "w": 0.3805,
+      "h": 0.0219,
+      "words": [
         "done",
         "by",
         "turning",
         "him",
-        "face",
-        "down",
-        "and",
-        "then",
-        "working",
+        "face"
+      ],
+      "conf": 96.2583,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "his teeth to keep his his lungs to start his",
+      "x": 0.5993,
+      "y": 0.5387,
+      "w": 0.3173,
+      "h": 0.0474,
+      "words": [
+        "his",
+        "teeth",
+        "to",
+        "keep",
+        "his",
         "his",
         "lungs",
         "to",
         "start",
-        "his",
-        "breathing."
-      ]
+        "his"
+      ],
+      "conf": 96.4346,
+      "source": "psm-11"
     },
     {
-      "text": "hold: keep in one place. wise: having knowledge. unconscious: not conscious. FUTURE: will hold. PRESENT: hold(s). PAST: held.",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.85,
-      "h": 0.12,
-      "id": "r4",
-      "order": 3,
+      "id": "r8",
+      "order": 7,
+      "text": "hold: keep from changing, keep in unconscious: not conscious, having no",
+      "x": 0.0884,
+      "y": 0.7909,
+      "w": 0.4369,
+      "h": 0.0491,
       "words": [
         "hold:",
         "keep",
+        "from",
+        "changing,",
+        "keep",
         "in",
-        "one",
-        "place.",
-        "wise:",
-        "having",
-        "knowledge.",
         "unconscious:",
         "not",
-        "conscious.",
-        "FUTURE:",
+        "conscious,",
+        "having",
+        "no"
+      ],
+      "conf": 95.9894,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "wise: having knowledge and seeing will hold",
+      "x": 0.0884,
+      "y": 0.8085,
+      "w": 0.4309,
+      "h": 0.0597,
+      "words": [
+        "wise:",
+        "having",
+        "knowledge",
+        "and",
+        "seeing",
         "will",
-        "hold.",
-        "PRESENT:",
-        "hold(s).",
-        "PAST:",
-        "held."
-      ]
+        "hold"
+      ],
+      "conf": 96.3455,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "one place, keep from moving, what to do for the best.",
+      "x": 0.5017,
+      "y": 0.7915,
+      "w": 0.3367,
+      "h": 0.0298,
+      "words": [
+        "one",
+        "place,",
+        "keep",
+        "from",
+        "moving,",
+        "what",
+        "to",
+        "do",
+        "for",
+        "the",
+        "best."
+      ],
+      "conf": 96.1571,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "sense or feeling or knowledge.",
+      "x": 0.5345,
+      "y": 0.8256,
+      "w": 0.3401,
+      "h": 0.0149,
+      "words": [
+        "sense",
+        "or",
+        "feeling",
+        "or",
+        "knowledge."
+      ],
+      "conf": 91.4332,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "hold(s)",
+      "x": 0.4512,
+      "y": 0.848,
+      "w": 0.0976,
+      "h": 0.0229,
+      "words": [
+        "hold(s)"
+      ],
+      "conf": 79.4748,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "held",
+      "x": 0.8611,
+      "y": 0.8544,
+      "w": 0.053,
+      "h": 0.0128,
+      "words": [
+        "held"
+      ],
+      "conf": 96.5339,
+      "source": "psm-11"
     }
   ]
 }

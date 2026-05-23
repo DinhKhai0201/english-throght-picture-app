@@ -2,70 +2,42 @@
   "page": 114,
   "image": "/books/page 114.png",
   "imageApiPath": "/api/books/page%20114.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 6,
-    "wordCount": 87,
+    "regionCount": 8,
+    "wordCount": 84,
     "imageWidth": 1221,
     "imageHeight": 1850
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
-        "r2"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r2",
+        "r3",
         "r4",
-        "r5"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r6"
+        "r5",
+        "r6",
+        "r7",
+        "r8"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Here are Mrs. Smith, her daughter Jane, and her son Tom.",
-      "x": 0.12,
-      "y": 0.14,
-      "w": 0.35,
-      "h": 0.08,
       "id": "r1",
       "order": 0,
+      "text": "Here are Mrs. Smith, her daughter Jane, and her son Tom",
+      "x": 0.1229,
+      "y": 0.1373,
+      "w": 0.2997,
+      "h": 0.0698,
       "words": [
         "Here",
         "are",
@@ -77,39 +49,19 @@
         "and",
         "her",
         "son",
-        "Tom."
-      ]
+        "Tom"
+      ],
+      "conf": 94.9781,
+      "source": "psm-11"
     },
     {
-      "text": "They are at the table. They are having their potato soup.",
-      "x": 0.12,
-      "y": 0.35,
-      "w": 0.38,
-      "h": 0.08,
       "id": "r2",
       "order": 1,
-      "words": [
-        "They",
-        "are",
-        "at",
-        "the",
-        "table.",
-        "They",
-        "are",
-        "having",
-        "their",
-        "potato",
-        "soup."
-      ]
-    },
-    {
-      "text": "Potato soup is a thick soup. It is not clear. Thick soup and clear soup are two different sorts of soup.",
-      "x": 0.52,
-      "y": 0.27,
-      "w": 0.4,
-      "h": 0.15,
-      "id": "r3",
-      "order": 2,
+      "text": "Potato soup is a thick soup. It is not clear Thick soup and clear soup are two different sorts of soup.",
+      "x": 0.5315,
+      "y": 0.2665,
+      "w": 0.326,
+      "h": 0.1281,
       "words": [
         "Potato",
         "soup",
@@ -120,7 +72,7 @@
         "It",
         "is",
         "not",
-        "clear.",
+        "clear",
         "Thick",
         "soup",
         "and",
@@ -132,40 +84,123 @@
         "sorts",
         "of",
         "soup."
-      ]
+      ],
+      "conf": 95.0508,
+      "source": "psm-11"
     },
     {
-      "text": "This water is clear. When a liquid is clear we see through it.",
-      "x": 0.12,
-      "y": 0.52,
-      "w": 0.18,
-      "h": 0.18,
+      "id": "r3",
+      "order": 2,
+      "text": "They are at the table They are having potato soup.",
+      "x": 0.1261,
+      "y": 0.3514,
+      "w": 0.3162,
+      "h": 0.0756,
+      "words": [
+        "They",
+        "are",
+        "at",
+        "the",
+        "table",
+        "They",
+        "are",
+        "having",
+        "potato",
+        "soup."
+      ],
+      "conf": 96.2272,
+      "source": "psm-11"
+    },
+    {
       "id": "r4",
       "order": 3,
+      "text": "This water is clear.",
+      "x": 0.1302,
+      "y": 0.52,
+      "w": 0.163,
+      "h": 0.0449,
       "words": [
         "This",
         "water",
         "is",
-        "clear.",
+        "clear."
+      ],
+      "conf": 95.727,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "When a liquid is clear we",
+      "x": 0.1261,
+      "y": 0.5714,
+      "w": 0.131,
+      "h": 0.0962,
+      "words": [
         "When",
         "a",
         "liquid",
         "is",
         "clear",
-        "we",
-        "see",
-        "through",
-        "it."
-      ]
+        "we"
+      ],
+      "conf": 84.6299,
+      "source": "psm-11"
     },
     {
-      "text": "Milk is not a clear liquid. We do not see through it.",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.18,
-      "h": 0.12,
-      "id": "r5",
-      "order": 4,
+      "id": "r6",
+      "order": 5,
+      "text": "through i.",
+      "x": 0.1253,
+      "y": 0.653,
+      "w": 0.1597,
+      "h": 0.0476,
+      "words": [
+        "through",
+        "i."
+      ],
+      "conf": 66.9058,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "The air is clear. I see the mountains When the air is not clear do not see them.",
+      "x": 0.525,
+      "y": 0.6822,
+      "w": 0.3546,
+      "h": 0.0962,
+      "words": [
+        "The",
+        "air",
+        "is",
+        "clear.",
+        "I",
+        "see",
+        "the",
+        "mountains",
+        "When",
+        "the",
+        "air",
+        "is",
+        "not",
+        "clear",
+        "do",
+        "not",
+        "see",
+        "them."
+      ],
+      "conf": 92.4266,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Milk is not a clear liquid. We do not see through it",
+      "x": 0.1106,
+      "y": 0.7816,
+      "w": 0.1613,
+      "h": 0.1254,
       "words": [
         "Milk",
         "is",
@@ -178,38 +213,10 @@
         "not",
         "see",
         "through",
-        "it."
-      ]
-    },
-    {
-      "text": "The air is clear. I see the mountains. When the air is not clear I do not see them.",
-      "x": 0.52,
-      "y": 0.68,
-      "w": 0.4,
-      "h": 0.15,
-      "id": "r6",
-      "order": 5,
-      "words": [
-        "The",
-        "air",
-        "is",
-        "clear.",
-        "I",
-        "see",
-        "the",
-        "mountains.",
-        "When",
-        "the",
-        "air",
-        "is",
-        "not",
-        "clear",
-        "I",
-        "do",
-        "not",
-        "see",
-        "them."
-      ]
+        "it"
+      ],
+      "conf": 92.6784,
+      "source": "psm-11"
     }
   ]
 }

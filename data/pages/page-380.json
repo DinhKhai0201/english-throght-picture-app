@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20380.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 104,
+    "regionCount": 13,
+    "wordCount": 126,
     "imageWidth": 1234,
     "imageHeight": 1842
   },
@@ -18,7 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r3"
       ]
     },
     {
@@ -29,7 +30,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r7",
+        "r9",
+        "r10",
+        "r11"
       ]
     },
     {
@@ -40,20 +57,22 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r6",
+        "r8",
+        "r12",
+        "r13"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Now the doctor is taking the man’s pulse. He has his finger on the man’s wrist and is counting the times his heart pumps the blood in one minute.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.55,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "Now the doctor is taking the pulse. He has his finger on the wrist and is counting the times heart pumps the blood in one minute. The doctor can feel the motion or pulsing of the blood every time the man’s heart pumps,",
+      "x": 0.0924,
+      "y": 0.0635,
+      "w": 0.4586,
+      "h": 0.2394,
       "words": [
         "Now",
         "the",
@@ -61,7 +80,6 @@
         "is",
         "taking",
         "the",
-        "man’s",
         "pulse.",
         "He",
         "has",
@@ -69,32 +87,19 @@
         "finger",
         "on",
         "the",
-        "man’s",
         "wrist",
         "and",
         "is",
         "counting",
         "the",
         "times",
-        "his",
         "heart",
         "pumps",
         "the",
         "blood",
         "in",
         "one",
-        "minute."
-      ]
-    },
-    {
-      "text": "The doctor can feel the motion or pulsing of the blood every time the man’s heart pumps. In most men the pulse rate is between seventy and eighty times a minute. In children it is higher.",
-      "x": 0.1,
-      "y": 0.35,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r2",
-      "order": 1,
-      "words": [
+        "minute.",
         "The",
         "doctor",
         "can",
@@ -111,7 +116,36 @@
         "the",
         "man’s",
         "heart",
-        "pumps.",
+        "pumps,"
+      ],
+      "conf": 96.6528,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "man’s man’s his",
+      "x": 0.5316,
+      "y": 0.0635,
+      "w": 0.0835,
+      "h": 0.0825,
+      "words": [
+        "man’s",
+        "man’s",
+        "his"
+      ],
+      "conf": 96.4315,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "In most men the pulse rate is times a minute. In children it",
+      "x": 0.0956,
+      "y": 0.4077,
+      "w": 0.4181,
+      "h": 0.0478,
+      "words": [
         "In",
         "most",
         "men",
@@ -119,80 +153,212 @@
         "pulse",
         "rate",
         "is",
-        "between",
-        "seventy",
-        "and",
-        "eighty",
         "times",
         "a",
         "minute.",
         "In",
         "children",
-        "it",
-        "is",
-        "higher."
-      ]
+        "it"
+      ],
+      "conf": 96.4217,
+      "source": "psm-11"
     },
     {
-      "text": "The runner’s pulse rate is 72. It will be higher when he is running. pulse: motion of the blood. pulse rate: number of pulses. wrist: end of arm. counting: discovering how many.",
-      "x": 0.1,
-      "y": 0.55,
-      "w": 0.85,
-      "h": 0.3,
-      "id": "r3",
-      "order": 2,
+      "id": "r4",
+      "order": 3,
+      "text": "between seventy and eighty is higher.",
+      "x": 0.5219,
+      "y": 0.4077,
+      "w": 0.3728,
+      "h": 0.0527,
       "words": [
-        "The",
-        "runner’s",
+        "between",
+        "seventy",
+        "and",
+        "eighty",
+        "is",
+        "higher."
+      ],
+      "conf": 96.1673,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "‘The ramner’s pulse rate is is mmning.",
+      "x": 0.0924,
+      "y": 0.4875,
+      "w": 0.4303,
+      "h": 0.0526,
+      "words": [
+        "‘The",
+        "ramner’s",
         "pulse",
         "rate",
         "is",
-        "72.",
+        "is",
+        "mmning."
+      ],
+      "conf": 84.0748,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "It will be higher when he",
+      "x": 0.5357,
+      "y": 0.4875,
+      "w": 0.3622,
+      "h": 0.0288,
+      "words": [
         "It",
         "will",
         "be",
         "higher",
         "when",
-        "he",
-        "is",
-        "running.",
+        "he"
+      ],
+      "conf": 96.283,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "pulse: motion of the blood through the pulse rate: number of pulses in a minute.",
+      "x": 0.1005,
+      "y": 0.7367,
+      "w": 0.474,
+      "h": 0.0532,
+      "words": [
         "pulse:",
         "motion",
         "of",
         "the",
-        "blood.",
+        "blood",
+        "through",
+        "the",
         "pulse",
         "rate:",
         "number",
         "of",
-        "pulses.",
+        "pulses",
+        "in",
+        "a",
+        "minute."
+      ],
+      "conf": 94.3772,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "arteries os it may be felt at points",
+      "x": 0.5348,
+      "y": 0.7367,
+      "w": 0.3687,
+      "h": 0.0217,
+      "words": [
+        "arteries",
+        "os",
+        "it",
+        "may",
+        "be",
+        "felt",
+        "at",
+        "points"
+      ],
+      "conf": 92.7285,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "tn the body, for example, the wrist.",
+      "x": 0.1564,
+      "y": 0.7568,
+      "w": 0.3784,
+      "h": 0.0152,
+      "words": [
+        "tn",
+        "the",
+        "body,",
+        "for",
+        "example,",
+        "the",
+        "wrist."
+      ],
+      "conf": 94.6925,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "wrist: end of the orm nearest the hand.",
+      "x": 0.1005,
+      "y": 0.816,
+      "w": 0.4352,
+      "h": 0.0201,
+      "words": [
         "wrist:",
         "end",
         "of",
-        "arm.",
-        "counting:",
-        "discovering",
-        "how",
-        "many."
-      ]
+        "the",
+        "orm",
+        "nearest",
+        "the",
+        "hand."
+      ],
+      "conf": 94.891,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will count. PRESENT: count(s). PAST: counted.",
-      "x": 0.1,
-      "y": 0.88,
-      "w": 0.85,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
+      "id": "r11",
+      "order": 10,
+      "text": "counting: using numbers to discover will count",
+      "x": 0.1005,
+      "y": 0.8621,
+      "w": 0.4076,
+      "h": 0.0499,
       "words": [
-        "FUTURE:",
+        "counting:",
+        "using",
+        "numbers",
+        "to",
+        "discover",
         "will",
-        "count.",
-        "PRESENT:",
-        "count(s).",
-        "PAST:",
-        "counted."
-      ]
+        "count"
+      ],
+      "conf": 91.6309,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "how many.",
+      "x": 0.5154,
+      "y": 0.8626,
+      "w": 0.1183,
+      "h": 0.0163,
+      "words": [
+        "how",
+        "many."
+      ],
+      "conf": 95.4421,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "(s)",
+      "x": 0.5178,
+      "y": 0.8931,
+      "w": 0.0357,
+      "h": 0.0168,
+      "words": [
+        "(s)"
+      ],
+      "conf": 65.1631,
+      "source": "psm-11"
     }
   ]
 }

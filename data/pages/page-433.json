@@ -4,12 +4,24 @@
   "imageApiPath": "/api/books/page%20433.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 70,
+    "regionCount": 11,
+    "wordCount": 107,
     "imageWidth": 1267,
     "imageHeight": 1859
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,7 +30,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r3",
+        "r5",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r10",
+        "r11"
       ]
     },
     {
@@ -29,114 +57,261 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3"
+        "r8",
+        "r9"
       ]
     }
   ],
   "regions": [
     {
-      "text": "A little knowledge about other nations can make them seem bad. We cannot turn back the clock to when nations could keep to themselves.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "A little knowledge other nations—too knowledge—can them seem",
+      "x": 0.326,
+      "y": 0.0377,
+      "w": 0.277,
+      "h": 0.0957,
       "words": [
         "A",
         "little",
         "knowledge",
-        "about",
         "other",
-        "nations",
-        "can",
-        "make",
+        "nations—too",
+        "knowledge—can",
         "them",
-        "seem",
-        "bad.",
-        "We",
-        "cannot",
+        "seem"
+      ],
+      "conf": 96.3018,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "about little make bad.",
+      "x": 0.5541,
+      "y": 0.0377,
+      "w": 0.1286,
+      "h": 0.0952,
+      "words": [
+        "about",
+        "little",
+        "make",
+        "bad."
+      ],
+      "conf": 96.0314,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "BS",
+      "x": 0.6638,
+      "y": 0.1442,
+      "w": 0.0347,
+      "h": 0.0215,
+      "words": [
+        "BS"
+      ],
+      "conf": 73.2919,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "But we can’t turn the clock nations could keep to themselves knowledge of or help from other The thing to do now is to other peoples. And knowledge essary for this. We need many",
+      "x": 0.116,
+      "y": 0.3233,
+      "w": 0.4696,
+      "h": 0.1807,
+      "words": [
+        "But",
+        "we",
+        "can’t",
         "turn",
-        "back",
         "the",
         "clock",
-        "to",
-        "when",
         "nations",
         "could",
         "keep",
         "to",
-        "themselves."
-      ]
+        "themselves",
+        "knowledge",
+        "of",
+        "or",
+        "help",
+        "from",
+        "other",
+        "The",
+        "thing",
+        "to",
+        "do",
+        "now",
+        "is",
+        "to",
+        "other",
+        "peoples.",
+        "And",
+        "knowledge",
+        "essary",
+        "for",
+        "this.",
+        "We",
+        "need",
+        "many"
+      ],
+      "conf": 96.4787,
+      "source": "psm-11"
     },
     {
-      "text": "We must get more knowledge about other peoples. Knowledge of other languages is necessary. We need people who know other languages well.",
-      "x": 0.1,
-      "y": 0.45,
-      "w": 0.85,
-      "h": 0.2,
-      "id": "r2",
-      "order": 1,
+      "id": "r5",
+      "order": 4,
+      "text": "back to yesterday when and live without any countries.",
+      "x": 0.5462,
+      "y": 0.3233,
+      "w": 0.3473,
+      "h": 0.0705,
       "words": [
-        "We",
-        "must",
+        "back",
+        "to",
+        "yesterday",
+        "when",
+        "and",
+        "live",
+        "without",
+        "any",
+        "countries."
+      ],
+      "conf": 96.5241,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "get more knowledge about of other languages is nec- more people with a deep",
+      "x": 0.5146,
+      "y": 0.4287,
+      "w": 0.3804,
+      "h": 0.0753,
+      "words": [
         "get",
         "more",
         "knowledge",
         "about",
-        "other",
-        "peoples.",
-        "Knowledge",
         "of",
         "other",
         "languages",
         "is",
-        "necessary.",
-        "We",
-        "need",
+        "nec-",
+        "more",
         "people",
-        "who",
-        "know",
-        "other",
-        "languages",
-        "well."
-      ]
+        "with",
+        "a",
+        "deep"
+      ],
+      "conf": 96.6144,
+      "source": "psm-11"
     },
     {
-      "text": "We have to know a language well to know what people mean and think. have to: must. are to: are to become able to.",
-      "x": 0.1,
-      "y": 0.58,
-      "w": 0.85,
-      "h": 0.3,
-      "id": "r3",
-      "order": 2,
+      "id": "r7",
+      "order": 6,
+      "text": "knowledge of other languages We have to know a language people who use it mean and think.",
+      "x": 0.1176,
+      "y": 0.5073,
+      "w": 0.4609,
+      "h": 0.1129,
       "words": [
+        "knowledge",
+        "of",
+        "other",
+        "languages",
         "We",
         "have",
         "to",
         "know",
         "a",
         "language",
-        "well",
-        "to",
-        "know",
-        "what",
         "people",
+        "who",
+        "use",
+        "it",
         "mean",
         "and",
-        "think.",
-        "have",
-        "to:",
-        "must.",
+        "think."
+      ],
+      "conf": 96.3657,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "than their own.",
+      "x": 0.5241,
+      "y": 0.5083,
+      "w": 0.2021,
+      "h": 0.0172,
+      "words": [
+        "than",
+        "their",
+        "own."
+      ],
+      "conf": 96.734,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "well if we are to know what",
+      "x": 0.5185,
+      "y": 0.56,
+      "w": 0.3757,
+      "h": 0.0178,
+      "words": [
+        "well",
+        "if",
+        "we",
         "are",
+        "to",
+        "know",
+        "what"
+      ],
+      "conf": 96.7469,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "gre to: are to become able to.",
+      "x": 0.1176,
+      "y": 0.8505,
+      "w": 0.322,
+      "h": 0.0134,
+      "words": [
+        "gre",
         "to:",
         "are",
         "to",
         "become",
         "able",
         "to."
-      ]
+      ],
+      "conf": 89.5719,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "have to: must.",
+      "x": 0.12,
+      "y": 0.8327,
+      "w": 0.161,
+      "h": 0.0129,
+      "words": [
+        "have",
+        "to:",
+        "must."
+      ],
+      "conf": 89.4148,
+      "source": "psm-11"
     }
   ]
 }

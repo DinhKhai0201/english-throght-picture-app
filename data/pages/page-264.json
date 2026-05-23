@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20264.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 91,
+    "regionCount": 11,
+    "wordCount": 87,
     "imageWidth": 1180,
     "imageHeight": 1830
   },
@@ -18,7 +18,11 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r3",
+        "r4",
+        "r6",
+        "r7"
       ]
     },
     {
@@ -29,7 +33,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r2",
+        "r5"
       ]
     },
     {
@@ -40,7 +45,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r10",
+        "r11"
       ]
     },
     {
@@ -51,58 +57,44 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r8",
+        "r9"
       ]
     }
   ],
   "regions": [
     {
-      "text": "\"Pleasure\"? What is that? \"Pain\"? What is that? Put your finger in the flame. No, I will not. Why not? Because of the pain.",
-      "x": 0.12,
-      "y": 0.09,
-      "w": 0.35,
-      "h": 0.35,
       "id": "r1",
       "order": 0,
+      "text": "“Pleasure”? What is that? “Pain”? What is that?",
+      "x": 0.1356,
+      "y": 0.0929,
+      "w": 0.3263,
+      "h": 0.0727,
       "words": [
-        "\"Pleasure\"?",
+        "“Pleasure”?",
         "What",
         "is",
         "that?",
-        "\"Pain\"?",
+        "“Pain”?",
         "What",
         "is",
-        "that?",
-        "Put",
-        "your",
-        "finger",
-        "in",
-        "the",
-        "flame.",
-        "No,",
-        "I",
-        "will",
-        "not.",
-        "Why",
-        "not?",
-        "Because",
-        "of",
-        "the",
-        "pain."
-      ]
+        "that?"
+      ],
+      "conf": 92.9296,
+      "source": "psm-11"
     },
     {
-      "text": "Here is a nail. You put your finger nail over this nail, and I will give it a blow with this hammer.",
-      "x": 0.52,
-      "y": 0.16,
-      "w": 0.25,
-      "h": 0.25,
       "id": "r2",
       "order": 1,
+      "text": "Here isa nail. You put your finger nail over this nail, and!",
+      "x": 0.5305,
+      "y": 0.1667,
+      "w": 0.2001,
+      "h": 0.1224,
       "words": [
         "Here",
-        "is",
-        "a",
+        "isa",
         "nail.",
         "You",
         "put",
@@ -112,66 +104,107 @@
         "over",
         "this",
         "nail,",
-        "and",
+        "and!"
+      ],
+      "conf": 88.6706,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Put your finger in the flame.",
+      "x": 0.1314,
+      "y": 0.2607,
+      "w": 0.228,
+      "h": 0.0453,
+      "words": [
+        "Put",
+        "your",
+        "finger",
+        "in",
+        "the",
+        "flame."
+      ],
+      "conf": 96.8552,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "No, I will not.",
+      "x": 0.1322,
+      "y": 0.312,
+      "w": 0.2059,
+      "h": 0.0219,
+      "words": [
+        "No,",
         "I",
         "will",
+        "not."
+      ],
+      "conf": 91.0245,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "will give ita blow with this hammer,",
+      "x": 0.5339,
+      "y": 0.2934,
+      "w": 0.1974,
+      "h": 0.0711,
+      "words": [
+        "will",
         "give",
-        "it",
-        "a",
+        "ita",
         "blow",
         "with",
         "this",
-        "hammer."
-      ]
+        "hammer,"
+      ],
+      "conf": 89.8934,
+      "source": "psm-11"
     },
     {
-      "text": "No, you will not. I see what pain is now. I see what the sense of the word \"pain\" is now. This is another use of the word \"sense\".",
-      "x": 0.11,
-      "y": 0.72,
-      "w": 0.4,
-      "h": 0.2,
-      "id": "r3",
-      "order": 2,
+      "id": "r6",
+      "order": 5,
+      "text": "Why not?",
+      "x": 0.1322,
+      "y": 0.3383,
+      "w": 0.15,
+      "h": 0.024,
       "words": [
-        "No,",
-        "you",
-        "will",
-        "not.",
-        "I",
-        "see",
-        "what",
-        "pain",
-        "is",
-        "now.",
-        "I",
-        "see",
-        "what",
-        "the",
-        "sense",
-        "of",
-        "the",
-        "word",
-        "\"pain\"",
-        "is",
-        "now.",
-        "This",
-        "is",
-        "another",
-        "use",
-        "of",
-        "the",
-        "word",
-        "\"sense\"."
-      ]
+        "Why",
+        "not?"
+      ],
+      "conf": 96.6352,
+      "source": "psm-11"
     },
     {
-      "text": "That is pain. Pleasure is the opposite of pain. \"Opposite\"? Good is the opposite of bad.",
-      "x": 0.53,
-      "y": 0.62,
-      "w": 0.4,
-      "h": 0.15,
-      "id": "r4",
-      "order": 3,
+      "id": "r7",
+      "order": 6,
+      "text": "Because of the pain.",
+      "x": 0.1331,
+      "y": 0.3628,
+      "w": 0.2263,
+      "h": 0.0498,
+      "words": [
+        "Because",
+        "of",
+        "the",
+        "pain."
+      ],
+      "conf": 96.3302,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "That is pain. Pleasure is the opposite of pain.",
+      "x": 0.5331,
+      "y": 0.6268,
+      "w": 0.3653,
+      "h": 0.0497,
       "words": [
         "That",
         "is",
@@ -181,15 +214,84 @@
         "the",
         "opposite",
         "of",
-        "pain.",
-        "\"Opposite\"?",
+        "pain."
+      ],
+      "conf": 96.3936,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "“Opposite”? Good is the opposite of bad.",
+      "x": 0.5356,
+      "y": 0.6781,
+      "w": 0.372,
+      "h": 0.0607,
+      "words": [
+        "“Opposite”?",
         "Good",
         "is",
         "the",
         "opposite",
         "of",
         "bad."
-      ]
+      ],
+      "conf": 93.8844,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "No, you will not. f see what pain is now. see what the sense of the word “pain” is now.",
+      "x": 0.1169,
+      "y": 0.7213,
+      "w": 0.3475,
+      "h": 0.1016,
+      "words": [
+        "No,",
+        "you",
+        "will",
+        "not.",
+        "f",
+        "see",
+        "what",
+        "pain",
+        "is",
+        "now.",
+        "see",
+        "what",
+        "the",
+        "sense",
+        "of",
+        "the",
+        "word",
+        "“pain”",
+        "is",
+        "now."
+      ],
+      "conf": 90.2367,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "This is another use of the word “sense”.",
+      "x": 0.1186,
+      "y": 0.8246,
+      "w": 0.3746,
+      "h": 0.0448,
+      "words": [
+        "This",
+        "is",
+        "another",
+        "use",
+        "of",
+        "the",
+        "word",
+        "“sense”."
+      ],
+      "conf": 96.6292,
+      "source": "psm-11"
     }
   ]
 }

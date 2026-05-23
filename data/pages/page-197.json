@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20197.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 12,
-    "wordCount": 85,
+    "regionCount": 8,
+    "wordCount": 83,
     "imageWidth": 1234,
     "imageHeight": 1838
   },
@@ -18,9 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3",
-        "r4"
+        "r1",
+        "r3"
       ]
     },
     {
@@ -31,10 +30,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r5",
-        "r6",
-        "r7"
+        "r2",
+        "r4"
       ]
     },
     {
@@ -45,8 +42,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r8",
-        "r9"
+        "r5",
+        "r7"
       ]
     },
     {
@@ -57,46 +54,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r10",
-        "r11",
-        "r12"
+        "r6",
+        "r8"
       ]
     }
   ],
   "regions": [
     {
-      "text": "QUESTIONS",
-      "x": 0.4,
-      "y": 0.08,
-      "w": 0.2,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "QUESTIONS a Is the boy nearer to the woman than the girl is?",
+      "x": 0.1248,
+      "y": 0.0783,
+      "w": 0.4635,
+      "h": 0.128,
       "words": [
-        "QUESTIONS"
-      ]
-    },
-    {
-      "text": "a",
-      "x": 0.12,
-      "y": 0.13,
-      "w": 0.02,
-      "h": 0.02,
-      "id": "r2",
-      "order": 1,
-      "words": [
-        "a"
-      ]
-    },
-    {
-      "text": "Is the boy nearer to the woman than the girl is?",
-      "x": 0.15,
-      "y": 0.13,
-      "w": 0.3,
-      "h": 0.08,
-      "id": "r3",
-      "order": 2,
-      "words": [
+        "QUESTIONS",
+        "a",
         "Is",
         "the",
         "boy",
@@ -108,18 +82,43 @@
         "the",
         "girl",
         "is?"
-      ]
+      ],
+      "conf": 96.3921,
+      "source": "psm-11"
     },
     {
-      "text": "Is the girl nearer to the boy than to the woman?",
-      "x": 0.15,
-      "y": 0.37,
-      "w": 0.3,
-      "h": 0.08,
-      "id": "r4",
-      "order": 3,
+      "id": "r2",
+      "order": 1,
+      "text": "b Which of these two is farther from the tree?",
+      "x": 0.5332,
+      "y": 0.1311,
+      "w": 0.3225,
+      "h": 0.0718,
       "words": [
-        "Is",
+        "b",
+        "Which",
+        "of",
+        "these",
+        "two",
+        "is",
+        "farther",
+        "from",
+        "the",
+        "tree?"
+      ],
+      "conf": 95.7687,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "is the girl nearer to the boy than to the woman?",
+      "x": 0.1491,
+      "y": 0.3705,
+      "w": 0.2844,
+      "h": 0.0707,
+      "words": [
+        "is",
         "the",
         "girl",
         "nearer",
@@ -130,48 +129,18 @@
         "to",
         "the",
         "woman?"
-      ]
+      ],
+      "conf": 90.9936,
+      "source": "psm-11"
     },
     {
-      "text": "b",
-      "x": 0.53,
-      "y": 0.13,
-      "w": 0.02,
-      "h": 0.02,
-      "id": "r5",
-      "order": 4,
-      "words": [
-        "b"
-      ]
-    },
-    {
-      "text": "Which of these two is farther from the tree?",
-      "x": 0.57,
-      "y": 0.13,
-      "w": 0.3,
-      "h": 0.08,
-      "id": "r6",
-      "order": 5,
-      "words": [
-        "Which",
-        "of",
-        "these",
-        "two",
-        "is",
-        "farther",
-        "from",
-        "the",
-        "tree?"
-      ]
-    },
-    {
+      "id": "r4",
+      "order": 3,
       "text": "Is the boy farther from the tree than from the girl?",
-      "x": 0.56,
-      "y": 0.37,
-      "w": 0.3,
-      "h": 0.08,
-      "id": "r7",
-      "order": 6,
+      "x": 0.5575,
+      "y": 0.3705,
+      "w": 0.269,
+      "h": 0.0751,
       "words": [
         "Is",
         "the",
@@ -184,28 +153,18 @@
         "from",
         "the",
         "girl?"
-      ]
+      ],
+      "conf": 95.881,
+      "source": "psm-11"
     },
     {
-      "text": "c",
-      "x": 0.12,
-      "y": 0.55,
-      "w": 0.02,
-      "h": 0.02,
-      "id": "r8",
-      "order": 7,
-      "words": [
-        "c"
-      ]
-    },
-    {
+      "id": "r5",
+      "order": 4,
       "text": "Which of these two glasses is full of water, the glass to the right or the glass to the left?",
-      "x": 0.16,
-      "y": 0.55,
-      "w": 0.3,
-      "h": 0.15,
-      "id": "r9",
-      "order": 8,
+      "x": 0.1596,
+      "y": 0.5511,
+      "w": 0.3063,
+      "h": 0.1224,
       "words": [
         "Which",
         "of",
@@ -227,29 +186,20 @@
         "to",
         "the",
         "left?"
-      ]
+      ],
+      "conf": 96.5018,
+      "source": "psm-11"
     },
     {
-      "text": "d",
-      "x": 0.53,
-      "y": 0.63,
-      "w": 0.02,
-      "h": 0.02,
-      "id": "r10",
-      "order": 9,
+      "id": "r6",
+      "order": 5,
+      "text": "d Is there more land than water on the south side of the eorth?",
+      "x": 0.5389,
+      "y": 0.6279,
+      "w": 0.3079,
+      "h": 0.0963,
       "words": [
-        "d"
-      ]
-    },
-    {
-      "text": "Is there more land than water on the south side of the earth?",
-      "x": 0.57,
-      "y": 0.63,
-      "w": 0.3,
-      "h": 0.1,
-      "id": "r11",
-      "order": 10,
-      "words": [
+        "d",
         "Is",
         "there",
         "more",
@@ -262,24 +212,40 @@
         "side",
         "of",
         "the",
-        "earth?"
-      ]
+        "eorth?"
+      ],
+      "conf": 90.4804,
+      "source": "psm-11"
     },
     {
-      "text": "Answers are on page 194.",
-      "x": 0.3,
-      "y": 0.89,
-      "w": 0.4,
-      "h": 0.03,
-      "id": "r12",
-      "order": 11,
+      "id": "r7",
+      "order": 6,
+      "text": "Answers are on",
+      "x": 0.2966,
+      "y": 0.8955,
+      "w": 0.2293,
+      "h": 0.0185,
       "words": [
         "Answers",
         "are",
-        "on",
-        "page",
-        "194."
-      ]
+        "on"
+      ],
+      "conf": 96.3511,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "page",
+      "x": 0.5381,
+      "y": 0.901,
+      "w": 0.0754,
+      "h": 0.018,
+      "words": [
+        "page"
+      ],
+      "conf": 93.0625,
+      "source": "psm-11"
     }
   ]
 }

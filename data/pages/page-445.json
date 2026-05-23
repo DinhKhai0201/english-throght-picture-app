@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20445.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 64,
+    "regionCount": 11,
+    "wordCount": 103,
     "imageWidth": 1234,
     "imageHeight": 1859
   },
@@ -18,7 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r1",
+        "r3"
       ]
     },
     {
@@ -29,7 +30,22 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8",
+        "r10"
       ]
     },
     {
@@ -40,47 +56,84 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r7",
+        "r9",
+        "r11"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Air travel would have seemed strange 3000 years ago. Modern changes come from the invention of numbers.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.12,
       "id": "r1",
       "order": 0,
+      "text": "Air travel would have seemed thousand years ago, to men mountainsides. All these changes great step taken in the invention",
+      "x": 0.1005,
+      "y": 0.0387,
+      "w": 0.4651,
+      "h": 0.1001,
       "words": [
         "Air",
         "travel",
         "would",
         "have",
         "seemed",
-        "strange",
-        "3000",
+        "thousand",
         "years",
-        "ago.",
-        "Modern",
+        "ago,",
+        "to",
+        "men",
+        "mountainsides.",
+        "All",
+        "these",
         "changes",
-        "come",
-        "from",
+        "great",
+        "step",
+        "taken",
+        "in",
         "the",
-        "invention",
-        "of",
-        "numbers."
-      ]
+        "invention"
+      ],
+      "conf": 96.3755,
+      "source": "psm-11"
     },
     {
-      "text": "Before men could count, how did they know which sheep were theirs? He put a mark on his sheep. He was their owner.",
-      "x": 0.1,
-      "y": 0.25,
-      "w": 0.45,
-      "h": 0.2,
       "id": "r2",
       "order": 1,
+      "text": "very strange two or threo keeping their sheep on the are the outcome of the of numbers.",
+      "x": 0.513,
+      "y": 0.036,
+      "w": 0.3841,
+      "h": 0.0974,
+      "words": [
+        "very",
+        "strange",
+        "two",
+        "or",
+        "threo",
+        "keeping",
+        "their",
+        "sheep",
+        "on",
+        "the",
+        "are",
+        "the",
+        "outcome",
+        "of",
+        "the",
+        "of",
+        "numbers."
+      ],
+      "conf": 88.8841,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Before men could count, how did anyone know which were his sheep and which were another man’s?",
+      "x": 0.1013,
+      "y": 0.2474,
+      "w": 0.4003,
+      "h": 0.1238,
       "words": [
         "Before",
         "men",
@@ -88,59 +141,173 @@
         "count,",
         "how",
         "did",
-        "they",
+        "anyone",
         "know",
         "which",
-        "sheep",
         "were",
-        "theirs?",
+        "his",
+        "sheep",
+        "and",
+        "which",
+        "were",
+        "another",
+        "man’s?"
+      ],
+      "conf": 96.519,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "A Ww)",
+      "x": 0.6062,
+      "y": 0.3287,
+      "w": 0.1321,
+      "h": 0.0409,
+      "words": [
+        "A",
+        "Ww)"
+      ],
+      "conf": 54.5547,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "rT ae",
+      "x": 0.7958,
+      "y": 0.3416,
+      "w": 0.0843,
+      "h": 0.0237,
+      "words": [
+        "rT",
+        "ae"
+      ],
+      "conf": 68.0771,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "He put his mark on his sheep.",
+      "x": 0.1045,
+      "y": 0.6633,
+      "w": 0.4222,
+      "h": 0.0221,
+      "words": [
         "He",
         "put",
-        "a",
+        "his",
         "mark",
         "on",
         "his",
-        "sheep.",
+        "sheep."
+      ],
+      "conf": 96.1677,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "He was their owner. They them.",
+      "x": 0.5381,
+      "y": 0.6627,
+      "w": 0.3663,
+      "h": 0.0441,
+      "words": [
         "He",
         "was",
         "their",
-        "owner."
-      ]
+        "owner.",
+        "They",
+        "them."
+      ],
+      "conf": 96.6265,
+      "source": "psm-11"
     },
     {
-      "text": "He owned his own sheep. Sometimes he gave them names to see if they were all there. FUTURE: will own. PRESENT: own(s). PAST: owned.",
-      "x": 0.1,
-      "y": 0.65,
-      "w": 0.85,
-      "h": 0.25,
-      "id": "r3",
-      "order": 2,
+      "id": "r8",
+      "order": 7,
+      "text": "were his own sheep. He owned Sometimes he gave his sheep go through all the names—with were all there.",
+      "x": 0.1037,
+      "y": 0.6891,
+      "w": 0.4473,
+      "h": 0.1232,
       "words": [
-        "He",
-        "owned",
+        "were",
         "his",
         "own",
         "sheep.",
+        "He",
+        "owned",
         "Sometimes",
         "he",
         "gave",
-        "them",
-        "names",
-        "to",
-        "see",
-        "if",
-        "they",
+        "his",
+        "sheep",
+        "go",
+        "through",
+        "all",
+        "the",
+        "names—with",
         "were",
         "all",
-        "there.",
-        "FUTURE:",
+        "there."
+      ],
+      "conf": 96.6373,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "names, and then he would his sheep—to see if they",
+      "x": 0.5276,
+      "y": 0.7413,
+      "w": 0.3776,
+      "h": 0.0495,
+      "words": [
+        "names,",
+        "and",
+        "then",
+        "he",
+        "would",
+        "his",
+        "sheep—to",
+        "see",
+        "if",
+        "they"
+      ],
+      "conf": 96.5641,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "will ows",
+      "x": 0.1053,
+      "y": 0.8526,
+      "w": 0.1037,
+      "h": 0.0134,
+      "words": [
         "will",
-        "own.",
-        "PRESENT:",
-        "own(s).",
-        "PAST:",
-        "owned."
-      ]
+        "ows"
+      ],
+      "conf": 93.6917,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "owned",
+      "x": 0.8233,
+      "y": 0.8526,
+      "w": 0.0827,
+      "h": 0.0134,
+      "words": [
+        "owned"
+      ],
+      "conf": 95.1239,
+      "source": "psm-11"
     }
   ]
 }

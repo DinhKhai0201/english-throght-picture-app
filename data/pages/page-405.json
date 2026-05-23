@@ -4,12 +4,26 @@
   "imageApiPath": "/api/books/page%20405.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 94,
+    "regionCount": 14,
+    "wordCount": 116,
     "imageWidth": 1225,
     "imageHeight": 1850
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5",
+        "r8"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +32,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r4",
+        "r6",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r10",
+        "r11"
       ]
     },
     {
@@ -30,20 +59,21 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r12",
+        "r13",
+        "r14"
       ]
     }
   ],
   "regions": [
     {
-      "text": "There are about five million red cells in one cubic millimeter of our blood. One millimeter is a thousandth part of a meter and a tenth of a centimeter.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.1,
       "id": "r1",
       "order": 0,
+      "text": "There are about five million red meter of our blood. One millimeter of a meter and a tenth of a centimeter.",
+      "x": 0.0776,
+      "y": 0.0335,
+      "w": 0.8073,
+      "h": 0.0795,
       "words": [
         "There",
         "are",
@@ -51,20 +81,12 @@
         "five",
         "million",
         "red",
-        "cells",
-        "in",
-        "one",
-        "cubic",
-        "millimeter",
+        "meter",
         "of",
         "our",
         "blood.",
         "One",
         "millimeter",
-        "is",
-        "a",
-        "thousandth",
-        "part",
         "of",
         "a",
         "meter",
@@ -74,26 +96,76 @@
         "of",
         "a",
         "centimeter."
-      ]
+      ],
+      "conf": 96.6545,
+      "source": "psm-11"
     },
     {
-      "text": "One cubic centimeter—how much space does that take up? Here is a picture of a cube which is one centimeter long, one centimeter wide and one centimeter high.",
-      "x": 0.1,
-      "y": 0.15,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r2",
       "order": 1,
+      "text": "cells in one cubic milli- is a thousandth part",
+      "x": 0.5469,
+      "y": 0.0335,
+      "w": 0.3421,
+      "h": 0.0541,
+      "words": [
+        "cells",
+        "in",
+        "one",
+        "cubic",
+        "milli-",
+        "is",
+        "a",
+        "thousandth",
+        "part"
+      ],
+      "conf": 94.3788,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "One cubic centimeter—how much up?",
+      "x": 0.0792,
+      "y": 0.1427,
+      "w": 0.4906,
+      "h": 0.0492,
       "words": [
         "One",
         "cubic",
         "centimeter—how",
         "much",
+        "up?"
+      ],
+      "conf": 94.6785,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "space does that take",
+      "x": 0.5837,
+      "y": 0.1416,
+      "w": 0.302,
+      "h": 0.0232,
+      "words": [
         "space",
         "does",
         "that",
-        "take",
-        "up?",
+        "take"
+      ],
+      "conf": 96.6302,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Here is a picture of a cube which one centimeter wide and one centimeter one cubic centimeter of space.",
+      "x": 0.0767,
+      "y": 0.2789,
+      "w": 0.5641,
+      "h": 0.0973,
+      "words": [
         "Here",
         "is",
         "a",
@@ -102,77 +174,195 @@
         "a",
         "cube",
         "which",
-        "is",
-        "one",
-        "centimeter",
-        "long,",
         "one",
         "centimeter",
         "wide",
         "and",
         "one",
         "centimeter",
-        "high."
-      ]
+        "one",
+        "cubic",
+        "centimeter",
+        "of",
+        "space."
+      ],
+      "conf": 95.5753,
+      "source": "psm-11"
     },
     {
-      "text": "A centimeter is a little less than half an inch. millimeter (mm): .001 of a meter. centimeter (cm): .01 of a meter. cube: solid with six equal square sides.",
-      "x": 0.1,
-      "y": 0.35,
-      "w": 0.85,
-      "h": 0.45,
-      "id": "r3",
-      "order": 2,
+      "id": "r6",
+      "order": 5,
+      "text": "is one centimeter long,",
+      "x": 0.5641,
+      "y": 0.2995,
+      "w": 0.3208,
+      "h": 0.0211,
       "words": [
+        "is",
+        "one",
+        "centimeter",
+        "long,"
+      ],
+      "conf": 96.4753,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "high. It takes up A centimeter is a little less",
+      "x": 0.5216,
+      "y": 0.3227,
+      "w": 0.3691,
+      "h": 0.0535,
+      "words": [
+        "high.",
+        "It",
+        "takes",
+        "up",
         "A",
         "centimeter",
         "is",
         "a",
         "little",
-        "less",
+        "less"
+      ],
+      "conf": 96.9773,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "than half an inch.",
+      "x": 0.0808,
+      "y": 0.3778,
+      "w": 0.249,
+      "h": 0.0178,
+      "words": [
         "than",
         "half",
         "an",
-        "inch.",
-        "millimeter",
-        "(mm):",
-        ".001",
-        "of",
-        "a",
-        "meter.",
-        "centimeter",
-        "(cm):",
-        ".01",
-        "of",
-        "a",
-        "meter.",
-        "cube:",
-        "solid",
-        "with",
-        "six",
-        "equal",
-        "square",
-        "sides."
-      ]
+        "inch."
+      ],
+      "conf": 95.1041,
+      "source": "psm-11"
     },
     {
-      "text": "square: four equal sides and four right angles.",
-      "x": 0.1,
-      "y": 0.82,
-      "w": 0.85,
-      "h": 0.08,
-      "id": "r4",
-      "order": 3,
+      "id": "r9",
+      "order": 8,
+      "text": "centimeter: cm. of o meter, or",
+      "x": 0.0792,
+      "y": 0.8049,
+      "w": 0.4131,
+      "h": 0.0157,
       "words": [
-        "square:",
-        "four",
-        "equal",
+        "centimeter:",
+        "cm.",
+        "of",
+        "o",
+        "meter,",
+        "or"
+      ],
+      "conf": 87.4132,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "mm. of a meter.",
+      "x": 0.2212,
+      "y": 0.7897,
+      "w": 0.258,
+      "h": 0.0119,
+      "words": [
+        "mm.",
+        "of",
+        "a",
+        "meter."
+      ],
+      "conf": 94.2987,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "evber a solid the six sides of which are square: a square has four sides which are right angles",
+      "x": 0.0784,
+      "y": 0.8227,
+      "w": 0.431,
+      "h": 0.0502,
+      "words": [
+        "evber",
+        "a",
+        "solid",
+        "the",
+        "six",
         "sides",
+        "of",
+        "which",
+        "are",
+        "square:",
+        "a",
+        "square",
+        "has",
+        "four",
+        "sides",
+        "which",
+        "are",
+        "right",
+        "angles"
+      ],
+      "conf": 90.4538,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "equal squares.",
+      "x": 0.5118,
+      "y": 0.8254,
+      "w": 0.1592,
+      "h": 0.0146,
+      "words": [
+        "equal",
+        "squares."
+      ],
+      "conf": 95.9956,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "of an inch.",
+      "x": 0.5665,
+      "y": 0.8076,
+      "w": 0.1151,
+      "h": 0.0124,
+      "words": [
+        "of",
+        "an",
+        "inch."
+      ],
+      "conf": 93.1095,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "are equal and four angles which",
+      "x": 0.52,
+      "y": 0.8427,
+      "w": 0.3633,
+      "h": 0.0151,
+      "words": [
+        "are",
+        "equal",
         "and",
         "four",
-        "right",
-        "angles."
-      ]
+        "angles",
+        "which"
+      ],
+      "conf": 93.627,
+      "source": "psm-11"
     }
   ]
 }

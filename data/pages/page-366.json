@@ -2,49 +2,95 @@
   "page": 366,
   "image": "/books/page 366.png",
   "imageApiPath": "/api/books/page%20366.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 1,
-    "wordCount": 12,
+    "regionCount": 4,
+    "wordCount": 14,
     "imageWidth": 1250,
     "imageHeight": 1850
   },
   "panels": [
     {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
+      "y": 0,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
+        "r1",
+        "r2",
+        "r3",
+        "r4"
       ]
     }
   ],
   "regions": [
     {
-      "text": "A solid line represents an artery and a broken line a vein.",
-      "x": 0.1,
-      "y": 0.82,
-      "w": 0.85,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "WY",
+      "x": 0.4592,
+      "y": 0.1178,
+      "w": 0.1096,
+      "h": 0.0546,
+      "words": [
+        "WY"
+      ],
+      "conf": 53.4488,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "A solid line represents an",
+      "x": 0.12,
+      "y": 0.833,
+      "w": 0.372,
+      "h": 0.0454,
       "words": [
         "A",
         "solid",
         "line",
         "represents",
-        "an",
+        "an"
+      ],
+      "conf": 90.7474,
+      "source": "psm-6"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "artery and a broken line a",
+      "x": 0.5088,
+      "y": 0.833,
+      "w": 0.3952,
+      "h": 0.0454,
+      "words": [
         "artery",
         "and",
         "a",
         "broken",
         "line",
-        "a",
-        "vein."
-      ]
+        "a"
+      ],
+      "conf": 75.4254,
+      "source": "psm-6"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "and broken",
+      "x": 0.616,
+      "y": 0.833,
+      "w": 0.1856,
+      "h": 0.0519,
+      "words": [
+        "and",
+        "broken"
+      ],
+      "conf": 88.4697,
+      "source": "psm-11"
     }
   ]
 }

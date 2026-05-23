@@ -4,12 +4,24 @@
   "imageApiPath": "/api/books/page%20370.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 107,
+    "regionCount": 16,
+    "wordCount": 156,
     "imageWidth": 1259,
     "imageHeight": 1842
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +30,25 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r4",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r8",
+        "r10",
+        "r12",
+        "r13",
+        "r14"
       ]
     },
     {
@@ -30,20 +59,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r7",
+        "r9",
+        "r11",
+        "r15",
+        "r16"
       ]
     }
   ],
   "regions": [
     {
-      "text": "These boys are outside in the fresh air, breathing deeply while their teacher is saying: IN / OUT for every breath which they take.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.1,
       "id": "r1",
       "order": 0,
+      "text": "These boys are outside in the while their teacher is saying:",
+      "x": 0.1112,
+      "y": 0.0402,
+      "w": 0.4051,
+      "h": 0.0477,
       "words": [
         "These",
         "boys",
@@ -51,82 +83,159 @@
         "outside",
         "in",
         "the",
-        "fresh",
-        "air,",
-        "breathing",
-        "deeply",
         "while",
         "their",
         "teacher",
         "is",
-        "saying:",
-        "IN",
-        "/",
-        "OUT",
+        "saying:"
+      ],
+      "conf": 96.5107,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "fresh air, breathing deeply",
+      "x": 0.525,
+      "y": 0.0391,
+      "w": 0.3638,
+      "h": 0.0228,
+      "words": [
+        "fresh",
+        "air,",
+        "breathing",
+        "deeply"
+      ],
+      "conf": 96.7318,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "for every breath which they them you would see their chests then smaller in size, as their",
+      "x": 0.1104,
+      "y": 0.3849,
+      "w": 0.4678,
+      "h": 0.0771,
+      "words": [
         "for",
         "every",
         "breath",
         "which",
         "they",
-        "take."
-      ]
-    },
-    {
-      "text": "If you could watch them you would see their chests becoming first larger, then smaller in size, as their lungs breathed air in and out. Breathing goes on when we are awake and when we are sleeping.",
-      "x": 0.1,
-      "y": 0.38,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r2",
-      "order": 1,
-      "words": [
-        "If",
-        "you",
-        "could",
-        "watch",
         "them",
         "you",
         "would",
         "see",
         "their",
         "chests",
-        "becoming",
-        "first",
-        "larger,",
         "then",
         "smaller",
         "in",
         "size,",
         "as",
-        "their",
+        "their"
+      ],
+      "conf": 96.6628,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "take. If you could watch becoming first larger, lungs breathed air in and out.",
+      "x": 0.5028,
+      "y": 0.3849,
+      "w": 0.3924,
+      "h": 0.0771,
+      "words": [
+        "take.",
+        "If",
+        "you",
+        "could",
+        "watch",
+        "becoming",
+        "first",
+        "larger,",
         "lungs",
         "breathed",
         "air",
         "in",
         "and",
-        "out.",
+        "out."
+      ],
+      "conf": 96.1113,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Breathing goes on when we sleeping. Most of the time breathing.",
+      "x": 0.1112,
+      "y": 0.4908,
+      "w": 0.3876,
+      "h": 0.0743,
+      "words": [
         "Breathing",
         "goes",
         "on",
         "when",
         "we",
+        "sleeping.",
+        "Most",
+        "of",
+        "the",
+        "time",
+        "breathing."
+      ],
+      "conf": 96.4801,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "are awake and when we are",
+      "x": 0.5091,
+      "y": 0.4908,
+      "w": 0.3868,
+      "h": 0.0179,
+      "words": [
         "are",
         "awake",
         "and",
         "when",
         "we",
-        "are",
-        "sleeping."
-      ]
+        "are"
+      ],
+      "conf": 96.1373,
+      "source": "psm-11"
     },
     {
-      "text": "The motion of our lungs as we breathe is automatic. It goes on by itself about eighteen times a minute. We become conscious of our breathing if anything shuts the air off from us.",
-      "x": 0.1,
-      "y": 0.6,
-      "w": 0.85,
-      "h": 0.2,
-      "id": "r3",
-      "order": 2,
+      "id": "r7",
+      "order": 6,
+      "text": "we are not conscious of our",
+      "x": 0.5004,
+      "y": 0.5152,
+      "w": 0.3995,
+      "h": 0.0266,
+      "words": [
+        "we",
+        "are",
+        "not",
+        "conscious",
+        "of",
+        "our"
+      ],
+      "conf": 96.6693,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "The motion of our lungs as goes on by itself, the lungs taking used air out about eighteen common rate of breathing.",
+      "x": 0.1144,
+      "y": 0.5955,
+      "w": 0.4662,
+      "h": 0.1005,
       "words": [
         "The",
         "motion",
@@ -134,58 +243,194 @@
         "our",
         "lungs",
         "as",
+        "goes",
+        "on",
+        "by",
+        "itself,",
+        "the",
+        "lungs",
+        "taking",
+        "used",
+        "air",
+        "out",
+        "about",
+        "eighteen",
+        "common",
+        "rate",
+        "of",
+        "breathing."
+      ],
+      "conf": 96.5888,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "we breathe is automatic. It fresh air in and letting times a minute. This is the",
+      "x": 0.5171,
+      "y": 0.5955,
+      "w": 0.3828,
+      "h": 0.0701,
+      "words": [
         "we",
         "breathe",
         "is",
         "automatic.",
         "It",
-        "goes",
-        "on",
-        "by",
-        "itself",
-        "about",
-        "eighteen",
+        "fresh",
+        "air",
+        "in",
+        "and",
+        "letting",
         "times",
         "a",
         "minute.",
+        "This",
+        "is",
+        "the"
+      ],
+      "conf": 96.4758,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "We become conscious of our the air off from us, so that we for our needs.",
+      "x": 0.1168,
+      "y": 0.728,
+      "w": 0.417,
+      "h": 0.07,
+      "words": [
         "We",
         "become",
         "conscious",
         "of",
         "our",
-        "breathing",
-        "if",
-        "anything",
-        "shuts",
         "the",
         "air",
         "off",
         "from",
-        "us."
-      ]
+        "us,",
+        "so",
+        "that",
+        "we",
+        "for",
+        "our",
+        "needs."
+      ],
+      "conf": 96.6073,
+      "source": "psm-11"
     },
     {
-      "text": "awake: not sleeping. conscious of: taking note of. automatic: working by itself.",
-      "x": 0.1,
-      "y": 0.82,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r4",
-      "order": 3,
+      "id": "r11",
+      "order": 10,
+      "text": "breathing if anything shuts do not get enough oxygen",
+      "x": 0.5282,
+      "y": 0.7269,
+      "w": 0.3717,
+      "h": 0.0495,
       "words": [
-        "awake:",
+        "breathing",
+        "if",
+        "anything",
+        "shuts",
+        "do",
         "not",
-        "sleeping.",
-        "conscious",
+        "get",
+        "enough",
+        "oxygen"
+      ],
+      "conf": 96.7508,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "consclous of: taking note of; feeling;",
+      "x": 0.1176,
+      "y": 0.8388,
+      "w": 0.4027,
+      "h": 0.0152,
+      "words": [
+        "consclous",
         "of:",
         "taking",
         "note",
-        "of.",
-        "automatic:",
+        "of;",
+        "feeling;"
+      ],
+      "conf": 94.9779,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "awake: not sleeping.",
+      "x": 0.1183,
+      "y": 0.8219,
+      "w": 0.2327,
+      "h": 0.0152,
+      "words": [
+        "awake:",
+        "not",
+        "sleeping."
+      ],
+      "conf": 94.4193,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "working by itself, without about it consciously.",
+      "x": 0.1716,
+      "y": 0.8561,
+      "w": 0.3741,
+      "h": 0.0331,
+      "words": [
         "working",
         "by",
-        "itself."
-      ]
+        "itself,",
+        "without",
+        "about",
+        "it",
+        "consciously."
+      ],
+      "conf": 85.4892,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "having in mind.",
+      "x": 0.5266,
+      "y": 0.8388,
+      "w": 0.1652,
+      "h": 0.0152,
+      "words": [
+        "having",
+        "in",
+        "mind."
+      ],
+      "conf": 90.5231,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "anyone having to do anything",
+      "x": 0.5568,
+      "y": 0.8561,
+      "w": 0.3423,
+      "h": 0.0157,
+      "words": [
+        "anyone",
+        "having",
+        "to",
+        "do",
+        "anything"
+      ],
+      "conf": 95.6224,
+      "source": "psm-11"
     }
   ]
 }

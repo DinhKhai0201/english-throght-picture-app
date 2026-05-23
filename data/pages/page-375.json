@@ -2,48 +2,45 @@
   "page": 375,
   "image": "/books/page 375.png",
   "imageApiPath": "/api/books/page%20375.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 107,
+    "regionCount": 11,
+    "wordCount": 121,
     "imageWidth": 1188,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r2",
         "r3",
-        "r4"
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11"
       ]
     }
   ],
   "regions": [
     {
-      "text": "When a man is running, his heart is working much harder than when he is sitting down. His blood is being pumped more quickly through his body.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.4,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "When a man is running, his heart is working much harder than when he is sitting down. His blood is be- ing pumped more quickly through his body. The blood must carry a greater supply of oxygen to the mus- cles all over the body.",
+      "x": 0.1035,
+      "y": 0.043,
+      "w": 0.3418,
+      "h": 0.29,
       "words": [
         "When",
         "a",
@@ -65,24 +62,14 @@
         "His",
         "blood",
         "is",
-        "being",
+        "be-",
+        "ing",
         "pumped",
         "more",
         "quickly",
         "through",
         "his",
-        "body."
-      ]
-    },
-    {
-      "text": "The blood must carry a greater supply of oxygen to the muscles all over the body. Our hearts work for us automatically. A man’s heart can pump as much as three thousand gallons of blood a day.",
-      "x": 0.1,
-      "y": 0.25,
-      "w": 0.4,
-      "h": 0.2,
-      "id": "r2",
-      "order": 1,
-      "words": [
+        "body.",
         "The",
         "blood",
         "must",
@@ -94,11 +81,25 @@
         "oxygen",
         "to",
         "the",
-        "muscles",
+        "mus-",
+        "cles",
         "all",
         "over",
         "the",
-        "body.",
+        "body."
+      ],
+      "conf": 93.0267,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Our hearts work for us automatically. A man’s heart can pump as much as three thousand gallons of blood a day.",
+      "x": 0.1094,
+      "y": 0.3351,
+      "w": 0.3418,
+      "h": 0.1291,
+      "words": [
         "Our",
         "hearts",
         "work",
@@ -120,16 +121,18 @@
         "blood",
         "a",
         "day."
-      ]
+      ],
+      "conf": 96.2021,
+      "source": "psm-11"
     },
     {
-      "text": "The amount pumped at any time is controlled automatically. After running hard a man breathes very quickly. He is 'out of breath,' as we say.",
-      "x": 0.1,
-      "y": 0.45,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r3",
       "order": 2,
+      "text": "The amount pumped at any time is controlled automatically.",
+      "x": 0.1094,
+      "y": 0.4685,
+      "w": 0.5371,
+      "h": 0.0495,
       "words": [
         "The",
         "amount",
@@ -139,53 +142,160 @@
         "time",
         "is",
         "controlled",
-        "automatically.",
+        "automatically."
+      ],
+      "conf": 96.5395,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "After running hard because while running he for his oxygen needs. He is",
+      "x": 0.5295,
+      "y": 0.4944,
+      "w": 0.4065,
+      "h": 0.0737,
+      "words": [
         "After",
         "running",
         "hard",
+        "because",
+        "while",
+        "running",
+        "he",
+        "for",
+        "his",
+        "oxygen",
+        "needs.",
+        "He",
+        "is"
+      ],
+      "conf": 96.8625,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "a man breathes very quickly couldn’t take in enough air “out of breath,” as we say.",
+      "x": 0.1094,
+      "y": 0.5207,
+      "w": 0.4335,
+      "h": 0.0738,
+      "words": [
         "a",
         "man",
         "breathes",
         "very",
-        "quickly.",
-        "He",
-        "is",
-        "'out",
+        "quickly",
+        "couldn’t",
+        "take",
+        "in",
+        "enough",
+        "air",
+        "“out",
         "of",
-        "breath,'",
+        "breath,”",
         "as",
         "we",
         "say."
-      ]
+      ],
+      "conf": 95.422,
+      "source": "psm-11"
     },
     {
-      "text": "running: going faster than walking. automatically: in an automatic way. FUTURE: will run. PRESENT: run(s). PAST: ran, run.",
-      "x": 0.1,
-      "y": 0.8,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r4",
-      "order": 3,
+      "id": "r6",
+      "order": 5,
+      "text": "runaing: going faster on foot than",
+      "x": 0.1128,
+      "y": 0.815,
+      "w": 0.4066,
+      "h": 0.0151,
       "words": [
-        "running:",
+        "runaing:",
         "going",
         "faster",
-        "than",
-        "walking.",
-        "automatically:",
+        "on",
+        "foot",
+        "than"
+      ],
+      "conf": 89.0693,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "ably: in an automatic way.",
+      "x": 0.2374,
+      "y": 0.8316,
+      "w": 0.2971,
+      "h": 0.0161,
+      "words": [
+        "ably:",
         "in",
         "an",
         "automatic",
-        "way.",
-        "FUTURE:",
+        "way."
+      ],
+      "conf": 78.2256,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "wolking.",
+      "x": 0.5295,
+      "y": 0.8166,
+      "w": 0.096,
+      "h": 0.0151,
+      "words": [
+        "wolking."
+      ],
+      "conf": 84.1949,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "will run",
+      "x": 0.1153,
+      "y": 0.8623,
+      "w": 0.0951,
+      "h": 0.0124,
+      "words": [
         "will",
-        "run.",
-        "PRESENT:",
-        "run(s).",
-        "PAST:",
+        "run"
+      ],
+      "conf": 85.2467,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "run(s)",
+      "x": 0.4832,
+      "y": 0.8515,
+      "w": 0.085,
+      "h": 0.0301,
+      "words": [
+        "run(s)"
+      ],
+      "conf": 87.8156,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "ran, run",
+      "x": 0.8401,
+      "y": 0.8661,
+      "w": 0.0976,
+      "h": 0.0108,
+      "words": [
         "ran,",
-        "run."
-      ]
+        "run"
+      ],
+      "conf": 79.1777,
+      "source": "psm-11"
     }
   ]
 }

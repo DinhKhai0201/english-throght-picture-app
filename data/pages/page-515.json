@@ -4,12 +4,26 @@
   "imageApiPath": "/api/books/page%20515.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 79,
+    "regionCount": 11,
+    "wordCount": 106,
     "imageWidth": 1259,
     "imageHeight": 1875
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5",
+        "r6"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +32,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r8"
       ]
     },
     {
@@ -30,134 +56,261 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r9",
+        "r10",
+        "r11"
       ]
     }
   ],
   "regions": [
     {
-      "text": "John Amos Comenius (1592-1670) was the first to use pictures for teaching languages. He almost became the first head of Harvard.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.2,
       "id": "r1",
       "order": 0,
+      "text": "John Amos Comenius know, the first man to use pictures beginning readers and for beginners guage. (It was Latin.) He head of Harvard College, where ten, but could not come.",
+      "x": 0.1041,
+      "y": 0.0448,
+      "w": 0.5266,
+      "h": 0.1493,
       "words": [
         "John",
         "Amos",
         "Comenius",
-        "(1592-1670)",
-        "was",
+        "know,",
         "the",
         "first",
+        "man",
         "to",
         "use",
         "pictures",
+        "beginning",
+        "readers",
+        "and",
         "for",
-        "teaching",
-        "languages.",
+        "beginners",
+        "guage.",
+        "(It",
+        "was",
+        "Latin.)",
         "He",
-        "almost",
-        "became",
-        "the",
-        "first",
         "head",
         "of",
-        "Harvard."
-      ]
+        "Harvard",
+        "College,",
+        "where",
+        "ten,",
+        "but",
+        "could",
+        "not",
+        "come."
+      ],
+      "conf": 96.4192,
+      "source": "psm-11"
     },
     {
-      "text": "His famous book, 'Orbis Pictus' (1657), started with this image. (Illustration: A teacher and a young student).",
-      "x": 0.1,
-      "y": 0.28,
-      "w": 0.85,
-      "h": 0.1,
       "id": "r2",
       "order": 1,
+      "text": "was, so far as we in books written for in a second lan- was to have been the first this book is being writ-",
+      "x": 0.5083,
+      "y": 0.0448,
+      "w": 0.382,
+      "h": 0.1243,
       "words": [
-        "His",
-        "famous",
-        "book,",
-        "'Orbis",
-        "Pictus'",
-        "(1657),",
-        "started",
-        "with",
-        "this",
-        "image.",
-        "(Illustration:",
-        "A",
-        "teacher",
-        "and",
+        "was,",
+        "so",
+        "far",
+        "as",
+        "we",
+        "in",
+        "books",
+        "written",
+        "for",
+        "in",
         "a",
-        "young",
-        "student)."
-      ]
+        "second",
+        "lan-",
+        "was",
+        "to",
+        "have",
+        "been",
+        "the",
+        "first",
+        "this",
+        "book",
+        "is",
+        "being",
+        "writ-"
+      ],
+      "conf": 96.4012,
+      "source": "psm-11"
     },
     {
-      "text": "(Illustration: A 17th-century teacher instructing a boy in an open field, with a town in the distance).",
-      "x": 0.1,
-      "y": 0.4,
-      "w": 0.85,
-      "h": 0.38,
       "id": "r3",
       "order": 2,
+      "text": "Comenius began his reader,",
+      "x": 0.1033,
+      "y": 0.2597,
+      "w": 0.4091,
+      "h": 0.0203,
       "words": [
-        "(Illustration:",
-        "A",
-        "17th-century",
-        "teacher",
-        "instructing",
-        "a",
-        "boy",
-        "in",
-        "an",
-        "open",
-        "field,",
-        "with",
-        "a",
-        "town",
-        "in",
-        "the",
-        "distance)."
-      ]
+        "Comenius",
+        "began",
+        "his",
+        "reader,"
+      ],
+      "conf": 96.1728,
+      "source": "psm-11"
     },
     {
-      "text": "The teacher: 'Come, Boy, learn to be wise.' The boy: 'What is it to be wise?' The teacher: 'To understand, act, and speak rightly.'",
-      "x": 0.1,
-      "y": 0.8,
-      "w": 0.85,
-      "h": 0.18,
       "id": "r4",
       "order": 3,
+      "text": "Orbis Pictus (Niirnberg,",
+      "x": 0.5338,
+      "y": 0.2597,
+      "w": 0.3495,
+      "h": 0.0203,
+      "words": [
+        "Orbis",
+        "Pictus",
+        "(Niirnberg,"
+      ],
+      "conf": 91.149,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "with this picture.",
+      "x": 0.2025,
+      "y": 0.2853,
+      "w": 0.2288,
+      "h": 0.0203,
+      "words": [
+        "with",
+        "this",
+        "picture."
+      ],
+      "conf": 96.793,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "wae”",
+      "x": 0.1517,
+      "y": 0.3915,
+      "w": 0.1827,
+      "h": 0.0368,
+      "words": [
+        "wae”"
+      ],
+      "conf": 51.046,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "av G",
+      "x": 0.2407,
+      "y": 0.5499,
+      "w": 0.085,
+      "h": 0.032,
+      "words": [
+        "av",
+        "G"
+      ],
+      "conf": 66.0804,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "The teacher is saying: “Come, And the boy asks: “What does The teacher answers: “To rightly and to speak out rightly",
+      "x": 0.1064,
+      "y": 0.8043,
+      "w": 0.4559,
+      "h": 0.0986,
       "words": [
         "The",
-        "teacher:",
-        "'Come,",
+        "teacher",
+        "is",
+        "saying:",
+        "“Come,",
+        "And",
+        "the",
+        "boy",
+        "asks:",
+        "“What",
+        "does",
+        "The",
+        "teacher",
+        "answers:",
+        "“To",
+        "rightly",
+        "and",
+        "to",
+        "speak",
+        "out",
+        "rightly"
+      ],
+      "conf": 95.9026,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Boy, learn to be wise.”",
+      "x": 0.5584,
+      "y": 0.8043,
+      "w": 0.3304,
+      "h": 0.0208,
+      "words": [
         "Boy,",
         "learn",
         "to",
         "be",
-        "wise.'",
-        "The",
-        "boy:",
-        "'What",
-        "is",
-        "it",
+        "wise.”"
+      ],
+      "conf": 96.3108,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "this mean, to be wise?”",
+      "x": 0.5592,
+      "y": 0.8304,
+      "w": 0.3296,
+      "h": 0.0187,
+      "words": [
+        "this",
+        "mean,",
         "to",
         "be",
-        "wise?'",
-        "The",
-        "teacher:",
-        "'To",
-        "understand,",
-        "act,",
-        "and",
-        "speak",
-        "rightly.'"
-      ]
+        "wise?”"
+      ],
+      "conf": 96.1818,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "understand rightly, to do all that is necessary.”",
+      "x": 0.5171,
+      "y": 0.856,
+      "w": 0.3717,
+      "h": 0.0464,
+      "words": [
+        "understand",
+        "rightly,",
+        "to",
+        "do",
+        "all",
+        "that",
+        "is",
+        "necessary.”"
+      ],
+      "conf": 95.9625,
+      "source": "psm-11"
     }
   ]
 }

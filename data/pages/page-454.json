@@ -4,12 +4,26 @@
   "imageApiPath": "/api/books/page%20454.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 68,
+    "regionCount": 15,
+    "wordCount": 122,
     "imageWidth": 1180,
     "imageHeight": 1867
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4",
+        "r6",
+        "r8"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,9 +32,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
         "r2",
-        "r3"
+        "r3",
+        "r5",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r10",
+        "r12"
       ]
     },
     {
@@ -31,122 +59,330 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r11",
+        "r13",
+        "r14",
+        "r15"
       ]
     }
   ],
   "regions": [
     {
-      "text": "The most important number today is zero (0). It is about a thousand years old, but no one knows who invented it.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "The most important number commonly today is zero is hard to understand why It is thought to be not much old and no one knows who",
+      "x": 0.111,
+      "y": 0.0466,
+      "w": 0.4263,
+      "h": 0.1226,
       "words": [
         "The",
         "most",
         "important",
         "number",
+        "commonly",
         "today",
         "is",
         "zero",
-        "(0).",
+        "is",
+        "hard",
+        "to",
+        "understand",
+        "why",
         "It",
         "is",
-        "about",
-        "a",
-        "thousand",
-        "years",
-        "old,",
-        "but",
+        "thought",
+        "to",
+        "be",
+        "not",
+        "much",
+        "old",
+        "and",
         "no",
         "one",
         "knows",
-        "who",
-        "invented",
-        "it."
-      ]
+        "who"
+      ],
+      "conf": 96.5737,
+      "source": "psm-11"
     },
     {
-      "text": "Zeroes change numbers: one zero makes a number ten times larger, two zeroes a hundred times, and six zeroes make a million.",
-      "x": 0.1,
-      "y": 0.22,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r2",
       "order": 1,
+      "text": "in the number system used Zero is so easy to use that it it was not invented long ago.",
+      "x": 0.5153,
+      "y": 0.0461,
+      "w": 0.422,
+      "h": 0.0745,
       "words": [
-        "Zeroes",
-        "change",
-        "numbers:",
-        "one",
-        "zero",
-        "makes",
-        "a",
+        "in",
+        "the",
         "number",
-        "ten",
-        "times",
-        "larger,",
-        "two",
-        "zeroes",
-        "a",
-        "hundred",
-        "times,",
-        "and",
-        "six",
-        "zeroes",
-        "make",
-        "a",
-        "million."
-      ]
+        "system",
+        "used",
+        "Zero",
+        "is",
+        "so",
+        "easy",
+        "to",
+        "use",
+        "that",
+        "it",
+        "it",
+        "was",
+        "not",
+        "invented",
+        "long",
+        "ago."
+      ],
+      "conf": 96.6012,
+      "source": "psm-11"
     },
     {
-      "text": "Schools teach addition, subtraction, multiplication, and division. 5+5=10, 5-5=0, 5x5=25, 5÷5=1.",
-      "x": 0.1,
-      "y": 0.42,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r3",
       "order": 2,
+      "text": "more than a thousand years invented it.",
+      "x": 0.5008,
+      "y": 0.1253,
+      "w": 0.4364,
+      "h": 0.0439,
       "words": [
-        "Schools",
-        "teach",
-        "addition,",
-        "subtraction,",
-        "multiplication,",
-        "and",
-        "division.",
-        "5+5=10,",
-        "5-5=0,",
-        "5x5=25,",
-        "5÷5=1."
-      ]
+        "more",
+        "than",
+        "a",
+        "thousand",
+        "years",
+        "invented",
+        "it."
+      ],
+      "conf": 96.2839,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will add, subtract, multiply. PRESENT: add(s), subtract(s), multiply(ies). PAST: added, subtracted, multiplied.",
-      "x": 0.1,
-      "y": 0.82,
-      "w": 0.85,
-      "h": 0.12,
       "id": "r4",
       "order": 3,
+      "text": "We use zeroes to change numbers tight of a number makes it make it a hundred times its it mean one million.",
+      "x": 0.1085,
+      "y": 0.2282,
+      "w": 0.5076,
+      "h": 0.0979,
       "words": [
-        "FUTURE:",
-        "will",
+        "We",
+        "use",
+        "zeroes",
+        "to",
+        "change",
+        "numbers",
+        "tight",
+        "of",
+        "a",
+        "number",
+        "makes",
+        "it",
+        "make",
+        "it",
+        "a",
+        "hundred",
+        "times",
+        "its",
+        "it",
+        "mean",
+        "one",
+        "million."
+      ],
+      "conf": 96.7102,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "to others. Zero to the ten times its size. Two zeroes size. Six zeroes after one make",
+      "x": 0.5068,
+      "y": 0.2287,
+      "w": 0.4322,
+      "h": 0.0718,
+      "words": [
+        "to",
+        "others.",
+        "Zero",
+        "to",
+        "the",
+        "ten",
+        "times",
+        "its",
+        "size.",
+        "Two",
+        "zeroes",
+        "size.",
+        "Six",
+        "zeroes",
+        "after",
+        "one",
+        "make"
+      ],
+      "conf": 96.9037,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Schools today teach a child divide numbers. Here are examples.",
+      "x": 0.1076,
+      "y": 0.3835,
+      "w": 0.5212,
+      "h": 0.0503,
+      "words": [
+        "Schools",
+        "today",
+        "teach",
+        "a",
+        "child",
+        "divide",
+        "numbers.",
+        "Here",
+        "are",
+        "examples."
+      ],
+      "conf": 96.714,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "to add, subtract, multiply and",
+      "x": 0.511,
+      "y": 0.3846,
+      "w": 0.4254,
+      "h": 0.023,
+      "words": [
+        "to",
         "add,",
         "subtract,",
-        "multiply.",
-        "PRESENT:",
-        "add(s),",
-        "subtract(s),",
-        "multiply(ies).",
-        "PAST:",
-        "added,",
-        "subtracted,",
-        "multiplied."
-      ]
+        "multiply",
+        "and"
+      ],
+      "conf": 96.6193,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "addition: subtraction:",
+      "x": 0.1771,
+      "y": 0.4638,
+      "w": 0.1669,
+      "h": 0.0386,
+      "words": [
+        "addition:",
+        "subtraction:"
+      ],
+      "conf": 96.3717,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "multiplication: division:",
+      "x": 0.1763,
+      "y": 0.5083,
+      "w": 0.2042,
+      "h": 0.0375,
+      "words": [
+        "multiplication:",
+        "division:"
+      ],
+      "conf": 95.8509,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "will add will subtract will multiply",
+      "x": 0.1008,
+      "y": 0.8184,
+      "w": 0.1636,
+      "h": 0.0525,
+      "words": [
+        "will",
+        "add",
+        "will",
+        "subtract",
+        "will",
+        "multiply"
+      ],
+      "conf": 95.7593,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "add(s) (les)",
+      "x": 0.4763,
+      "y": 0.82,
+      "w": 0.1313,
+      "h": 0.0499,
+      "words": [
+        "add(s)",
+        "(les)"
+      ],
+      "conf": 70.9352,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "multiply",
+      "x": 0.4364,
+      "y": 0.8538,
+      "w": 0.1059,
+      "h": 0.0161,
+      "words": [
+        "multiply"
+      ],
+      "conf": 88.6163,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "(s)",
+      "x": 0.5576,
+      "y": 0.8366,
+      "w": 0.0373,
+      "h": 0.0155,
+      "words": [
+        "(s)"
+      ],
+      "conf": 72.6781,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "subtracted",
+      "x": 0.8042,
+      "y": 0.8361,
+      "w": 0.1339,
+      "h": 0.0134,
+      "words": [
+        "subtracted"
+      ],
+      "conf": 86.5569,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "added",
+      "x": 0.8585,
+      "y": 0.8195,
+      "w": 0.0788,
+      "h": 0.0134,
+      "words": [
+        "added"
+      ],
+      "conf": 95.1213,
+      "source": "psm-11"
     }
   ]
 }

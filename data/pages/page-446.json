@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20446.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 63,
+    "regionCount": 12,
+    "wordCount": 129,
     "imageWidth": 1196,
     "imageHeight": 1875
   },
@@ -18,7 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r1",
+        "r4",
+        "r6"
       ]
     },
     {
@@ -29,7 +31,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r3",
+        "r5",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r9",
+        "r11"
       ]
     },
     {
@@ -40,106 +58,296 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r10",
+        "r12"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Before writing, men made pictures on earth or sand, but rain washed them away. Stone and wood were better, especially cave walls.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "Before the invention of writing ords? They made pictures on and wind and waves quickly Smooth stone or wood was smooth stone walls of caves and wind away.",
+      "x": 0.112,
+      "y": 0.0389,
+      "w": 0.4616,
+      "h": 0.151,
       "words": [
         "Before",
-        "writing,",
-        "men",
+        "the",
+        "invention",
+        "of",
+        "writing",
+        "ords?",
+        "They",
         "made",
         "pictures",
         "on",
-        "earth",
-        "or",
-        "sand,",
-        "but",
-        "rain",
-        "washed",
-        "them",
-        "away.",
-        "Stone",
         "and",
+        "wind",
+        "and",
+        "waves",
+        "quickly",
+        "Smooth",
+        "stone",
+        "or",
         "wood",
-        "were",
-        "better,",
-        "especially",
-        "cave",
-        "walls."
-      ]
+        "was",
+        "smooth",
+        "stone",
+        "walls",
+        "of",
+        "caves",
+        "and",
+        "wind",
+        "away."
+      ],
+      "conf": 96.6546,
+      "source": "psm-11"
     },
     {
-      "text": "Ancient drawings were records. A man recording animals on a cave wall may have become the first artist.",
-      "x": 0.1,
-      "y": 0.22,
-      "w": 0.45,
-      "h": 0.35,
       "id": "r2",
       "order": 1,
+      "text": "how did men keep rec- soft earth or sand. But rain washed away such records.",
+      "x": 0.5376,
+      "y": 0.0395,
+      "w": 0.3863,
+      "h": 0.073,
       "words": [
-        "Ancient",
+        "how",
+        "did",
+        "men",
+        "keep",
+        "rec-",
+        "soft",
+        "earth",
+        "or",
+        "sand.",
+        "But",
+        "rain",
+        "washed",
+        "away",
+        "such",
+        "records."
+      ],
+      "conf": 95.1875,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "better, and best of all, the whose roofs kept the rain",
+      "x": 0.5368,
+      "y": 0.1179,
+      "w": 0.3888,
+      "h": 0.0463,
+      "words": [
+        "better,",
+        "and",
+        "best",
+        "of",
+        "all,",
+        "the",
+        "whose",
+        "roofs",
+        "kept",
+        "the",
+        "rain"
+      ],
+      "conf": 96.7306,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "It may be that the drawings or others like them, were records made by early men.",
+      "x": 0.1104,
+      "y": 0.2208,
+      "w": 0.4323,
+      "h": 0.0741,
+      "words": [
+        "It",
+        "may",
+        "be",
+        "that",
+        "the",
         "drawings",
+        "or",
+        "others",
+        "like",
+        "them,",
         "were",
-        "records.",
-        "A",
+        "records",
+        "made",
+        "by",
+        "early",
+        "men."
+      ],
+      "conf": 96.5923,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "copied on page",
+      "x": 0.5426,
+      "y": 0.2213,
+      "w": 0.2232,
+      "h": 0.0213,
+      "words": [
+        "copied",
+        "on",
+        "page"
+      ],
+      "conf": 96.5375,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "(Some man recording animals on his cave wall may have taken pleasure in the drawing for itself and become the",
+      "x": 0.1079,
+      "y": 0.2997,
+      "w": 0.3144,
+      "h": 0.1985,
+      "words": [
+        "(Some",
         "man",
         "recording",
         "animals",
         "on",
-        "a",
+        "his",
         "cave",
         "wall",
         "may",
         "have",
-        "become",
+        "taken",
+        "pleasure",
+        "in",
         "the",
-        "first",
-        "artist."
-      ]
+        "drawing",
+        "for",
+        "itself",
+        "and",
+        "become",
+        "the"
+      ],
+      "conf": 96.43,
+      "source": "psm-11"
     },
     {
-      "text": "cave: deep hole in a mountain. Men lived in caves before they built houses. wash away: take away by the motion of water.",
-      "x": 0.1,
-      "y": 0.8,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r3",
-      "order": 2,
+      "id": "r7",
+      "order": 6,
+      "text": "XG",
+      "x": 0.6087,
+      "y": 0.4251,
+      "w": 0.0242,
+      "h": 0.0187,
+      "words": [
+        "XG"
+      ],
+      "conf": 40.2373,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "first artist.)",
+      "x": 0.1095,
+      "y": 0.5077,
+      "w": 0.1614,
+      "h": 0.0197,
+      "words": [
+        "first",
+        "artist.)"
+      ],
+      "conf": 91.3931,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "cave: deep hole or hollow in side wash away: take away by the motion",
+      "x": 0.1045,
+      "y": 0.8128,
+      "w": 0.4465,
+      "h": 0.0502,
       "words": [
         "cave:",
         "deep",
         "hole",
+        "or",
+        "hollow",
         "in",
-        "a",
-        "mountain.",
-        "Men",
-        "lived",
-        "in",
-        "caves",
-        "before",
-        "they",
-        "built",
-        "houses.",
+        "side",
         "wash",
         "away:",
         "take",
         "away",
         "by",
         "the",
-        "motion",
+        "motion"
+      ],
+      "conf": 96.0792,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "of mountain. Men lived in caves long themselves houses.",
+      "x": 0.505,
+      "y": 0.8096,
+      "w": 0.4164,
+      "h": 0.032,
+      "words": [
         "of",
-        "water."
-      ]
+        "mountain.",
+        "Men",
+        "lived",
+        "in",
+        "caves",
+        "long",
+        "themselves",
+        "houses."
+      ],
+      "conf": 96.3723,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "before they knew how to build",
+      "x": 0.1589,
+      "y": 0.8304,
+      "w": 0.3386,
+      "h": 0.0149,
+      "words": [
+        "before",
+        "they",
+        "knew",
+        "how",
+        "to",
+        "build"
+      ],
+      "conf": 96.4257,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "of water over something.",
+      "x": 0.5619,
+      "y": 0.8453,
+      "w": 0.2801,
+      "h": 0.0139,
+      "words": [
+        "of",
+        "water",
+        "over",
+        "something."
+      ],
+      "conf": 96.6894,
+      "source": "psm-11"
     }
   ]
 }

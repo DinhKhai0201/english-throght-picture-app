@@ -4,7 +4,7 @@
   "imageApiPath": "/api/books/page%20235.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
+    "regionCount": 10,
     "wordCount": 55,
     "imageWidth": 1259,
     "imageHeight": 1875
@@ -18,7 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r3",
+        "r4"
       ]
     },
     {
@@ -29,7 +31,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r1",
+        "r5"
       ]
     },
     {
@@ -40,7 +43,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r7",
+        "r9"
       ]
     },
     {
@@ -51,32 +55,77 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r6",
+        "r8",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "We keep money in banks. Banking is an important sort of business. Men and women in banks and business houses keep accounts.",
-      "x": 0.12,
-      "y": 0.16,
-      "w": 0.35,
-      "h": 0.2,
       "id": "r1",
       "order": 0,
+      "text": "This is an account.",
+      "x": 0.5933,
+      "y": 0.1179,
+      "w": 0.2661,
+      "h": 0.0187,
+      "words": [
+        "This",
+        "is",
+        "an",
+        "account."
+      ],
+      "conf": 95.1192,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "We keep money in banks.",
+      "x": 0.1342,
+      "y": 0.1664,
+      "w": 0.2748,
+      "h": 0.0443,
       "words": [
         "We",
         "keep",
         "money",
         "in",
-        "banks.",
+        "banks."
+      ],
+      "conf": 96.3181,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Banking is an important sort of business.",
+      "x": 0.1358,
+      "y": 0.2171,
+      "w": 0.3503,
+      "h": 0.0453,
+      "words": [
         "Banking",
         "is",
         "an",
         "important",
         "sort",
         "of",
-        "business.",
+        "business."
+      ],
+      "conf": 96.474,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Men and women in banks and business houses keep accounts.",
+      "x": 0.1382,
+      "y": 0.2683,
+      "w": 0.3217,
+      "h": 0.0741,
+      "words": [
         "Men",
         "and",
         "women",
@@ -87,21 +136,19 @@
         "houses",
         "keep",
         "accounts."
-      ]
+      ],
+      "conf": 95.5034,
+      "source": "psm-11"
     },
     {
-      "text": "This is an account. Keeping accounts is an important part of business.",
-      "x": 0.52,
-      "y": 0.11,
-      "w": 0.4,
-      "h": 0.35,
-      "id": "r2",
-      "order": 1,
+      "id": "r5",
+      "order": 4,
+      "text": "Keeping accounts is an important part of business.",
+      "x": 0.5353,
+      "y": 0.3861,
+      "w": 0.3408,
+      "h": 0.0683,
       "words": [
-        "This",
-        "is",
-        "an",
-        "account.",
         "Keeping",
         "accounts",
         "is",
@@ -110,16 +157,37 @@
         "part",
         "of",
         "business."
-      ]
+      ],
+      "conf": 96.3277,
+      "source": "psm-11"
     },
     {
-      "text": "Keeping accounts is one sort of work. These are account books.",
-      "x": 0.1,
-      "y": 0.56,
-      "w": 0.38,
-      "h": 0.35,
-      "id": "r3",
-      "order": 2,
+      "id": "r6",
+      "order": 5,
+      "text": "Farming is another sort of work.",
+      "x": 0.5306,
+      "y": 0.5072,
+      "w": 0.3408,
+      "h": 0.0453,
+      "words": [
+        "Farming",
+        "is",
+        "another",
+        "sort",
+        "of",
+        "work."
+      ],
+      "conf": 96.8514,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Keeping accounts is one sort of work.",
+      "x": 0.1382,
+      "y": 0.5589,
+      "w": 0.3479,
+      "h": 0.0486,
       "words": [
         "Keeping",
         "accounts",
@@ -127,33 +195,57 @@
         "one",
         "sort",
         "of",
-        "work.",
+        "work."
+      ],
+      "conf": 92.6223,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "oa",
+      "x": 0.78,
+      "y": 0.5787,
+      "w": 0.05,
+      "h": 0.0171,
+      "words": [
+        "oa"
+      ],
+      "conf": 92.339,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "These are account books.",
+      "x": 0.1334,
+      "y": 0.8245,
+      "w": 0.3542,
+      "h": 0.0208,
+      "words": [
         "These",
         "are",
         "account",
         "books."
-      ]
+      ],
+      "conf": 96.0887,
+      "source": "psm-11"
     },
     {
-      "text": "Farming is another sort of work. This is a farm.",
-      "x": 0.52,
-      "y": 0.51,
-      "w": 0.38,
-      "h": 0.4,
-      "id": "r4",
-      "order": 3,
+      "id": "r10",
+      "order": 9,
+      "text": "This, isa farm.",
+      "x": 0.6084,
+      "y": 0.84,
+      "w": 0.2033,
+      "h": 0.0315,
       "words": [
-        "Farming",
-        "is",
-        "another",
-        "sort",
-        "of",
-        "work.",
-        "This",
-        "is",
-        "a",
+        "This,",
+        "isa",
         "farm."
-      ]
+      ],
+      "conf": 83.8034,
+      "source": "psm-11"
     }
   ]
 }

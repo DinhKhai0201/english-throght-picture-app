@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20367.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 145,
+    "regionCount": 13,
+    "wordCount": 159,
     "imageWidth": 1196,
     "imageHeight": 1875
   },
@@ -18,7 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r3",
+        "r4"
       ]
     },
     {
@@ -29,7 +31,24 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r2",
+        "r5",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9",
+        "r10",
+        "r12",
+        "r13"
       ]
     },
     {
@@ -40,20 +59,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r8",
+        "r11"
       ]
     }
   ],
   "regions": [
     {
-      "text": "The first man to discover that the blood goes to all parts of the body, out through the valves of the heart through one system of pipes and back again through another, was the seventeenth-century doctor William Harvey.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.45,
-      "h": 0.2,
       "id": "r1",
       "order": 0,
+      "text": "The first man to discover that the blood goes to all parts of the body, out through the valves of the heart through one system of pipes and back again through another, was tor William Harvey.",
+      "x": 0.1012,
+      "y": 0.0469,
+      "w": 0.4206,
+      "h": 0.207,
       "words": [
         "The",
         "first",
@@ -88,21 +107,51 @@
         "through",
         "another,",
         "was",
-        "the",
-        "seventeenth-century",
-        "doctor",
+        "tor",
         "William",
         "Harvey."
-      ]
+      ],
+      "conf": 96.7395,
+      "source": "psm-11"
     },
     {
-      "text": "The journey of our blood all round the body is the circulation of the blood. As you see in the picture opposite, the branches of the arteries are like the branches of a tree which get smaller and smaller the farther they are from the roots.",
-      "x": 0.1,
-      "y": 0.35,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r2",
       "order": 1,
+      "text": "PS",
+      "x": 0.7157,
+      "y": 0.1339,
+      "w": 0.1798,
+      "h": 0.0741,
+      "words": [
+        "PS"
+      ],
+      "conf": 39.228,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "the seventeenth-century doc-",
+      "x": 0.1037,
+      "y": 0.2037,
+      "w": 0.4156,
+      "h": 0.0219,
+      "words": [
+        "the",
+        "seventeenth-century",
+        "doc-"
+      ],
+      "conf": 92.6438,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "The journey of our blood all lation of the blood. As you the branches of the arteries which get smaller and smaller the roots. The small branches They go to the ends of your",
+      "x": 0.102,
+      "y": 0.3419,
+      "w": 0.4457,
+      "h": 0.1557,
       "words": [
         "The",
         "journey",
@@ -110,27 +159,58 @@
         "our",
         "blood",
         "all",
-        "round",
-        "the",
-        "body",
-        "is",
-        "the",
-        "circulation",
+        "lation",
         "of",
         "the",
         "blood.",
         "As",
         "you",
-        "see",
-        "in",
-        "the",
-        "picture",
-        "opposite,",
         "the",
         "branches",
         "of",
         "the",
         "arteries",
+        "which",
+        "get",
+        "smaller",
+        "and",
+        "smaller",
+        "the",
+        "roots.",
+        "The",
+        "small",
+        "branches",
+        "They",
+        "go",
+        "to",
+        "the",
+        "ends",
+        "of",
+        "your"
+      ],
+      "conf": 96.0995,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "round the body is the circu- see in the picture opposite, are like the branches of a tree the farther they are from go to all parts of the body.",
+      "x": 0.5033,
+      "y": 0.3419,
+      "w": 0.4223,
+      "h": 0.1295,
+      "words": [
+        "round",
+        "the",
+        "body",
+        "is",
+        "the",
+        "circu-",
+        "see",
+        "in",
+        "the",
+        "picture",
+        "opposite,",
         "are",
         "like",
         "the",
@@ -138,102 +218,180 @@
         "of",
         "a",
         "tree",
-        "which",
-        "get",
-        "smaller",
-        "and",
-        "smaller",
         "the",
         "farther",
         "they",
         "are",
         "from",
-        "the",
-        "roots."
-      ]
-    },
-    {
-      "text": "The small branches go to all parts of the body. They go to the ends of your fingers and toes, to all the muscles—those parts by which you move your arms and legs and head and other parts of the body.",
-      "x": 0.1,
-      "y": 0.5,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r3",
-      "order": 2,
-      "words": [
-        "The",
-        "small",
-        "branches",
         "go",
         "to",
         "all",
         "parts",
         "of",
         "the",
-        "body.",
-        "They",
-        "go",
-        "to",
-        "the",
-        "ends",
-        "of",
-        "your",
+        "body."
+      ],
+      "conf": 95.3924,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "fingers and toes, to all the",
+      "x": 0.5334,
+      "y": 0.4709,
+      "w": 0.3913,
+      "h": 0.0267,
+      "words": [
         "fingers",
         "and",
         "toes,",
         "to",
         "all",
-        "the",
+        "the"
+      ],
+      "conf": 96.6754,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "muscles—those parts by which legs and head and other parts",
+      "x": 0.1037,
+      "y": 0.4992,
+      "w": 0.4448,
+      "h": 0.0496,
+      "words": [
         "muscles—those",
         "parts",
         "by",
         "which",
-        "you",
-        "move",
-        "your",
-        "arms",
-        "and",
         "legs",
         "and",
         "head",
         "and",
         "other",
-        "parts",
+        "parts"
+      ],
+      "conf": 94.0076,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "you move your arms and of the body.",
+      "x": 0.5301,
+      "y": 0.4997,
+      "w": 0.3938,
+      "h": 0.0491,
+      "words": [
+        "you",
+        "move",
+        "your",
+        "arms",
+        "and",
         "of",
         "the",
         "body."
-      ]
+      ],
+      "conf": 96.0751,
+      "source": "psm-11"
     },
     {
-      "text": "doctor: man with training who keeps people healthy. circulation: motion round and round. picture opposite: picture on the facing page.",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.85,
-      "h": 0.12,
-      "id": "r4",
-      "order": 3,
+      "id": "r9",
+      "order": 8,
+      "text": "doctor: man with training which circulation: motion round and round.",
+      "x": 0.1054,
+      "y": 0.784,
+      "w": 0.4322,
+      "h": 0.0469,
       "words": [
         "doctor:",
         "man",
         "with",
         "training",
-        "who",
-        "keeps",
-        "people",
-        "healthy.",
+        "which",
         "circulation:",
         "motion",
         "round",
         "and",
-        "round.",
-        "picture",
-        "opposite:",
-        "picture",
+        "round."
+      ],
+      "conf": 96.4189,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "healthy.",
+      "x": 0.1605,
+      "y": 0.8016,
+      "w": 0.0878,
+      "h": 0.0123,
+      "words": [
+        "healthy."
+      ],
+      "conf": 94.6071,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "helps him to make and keep people is on the opposite page; picture on",
+      "x": 0.5033,
+      "y": 0.784,
+      "w": 0.4257,
+      "h": 0.0688,
+      "words": [
+        "helps",
+        "him",
+        "to",
+        "make",
+        "and",
+        "keep",
+        "people",
+        "is",
         "on",
         "the",
-        "facing",
+        "opposite",
+        "page;",
+        "picture",
+        "on"
+      ],
+      "conf": 93.6316,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "the opposite page.",
+      "x": 0.1564,
+      "y": 0.8501,
+      "w": 0.2232,
+      "h": 0.0192,
+      "words": [
+        "the",
+        "opposite",
         "page."
-      ]
+      ],
+      "conf": 95.856,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "opposite: picture which",
+      "x": 0.204,
+      "y": 0.8331,
+      "w": 0.2893,
+      "h": 0.0197,
+      "words": [
+        "opposite:",
+        "picture",
+        "which"
+      ],
+      "conf": 94.9966,
+      "source": "psm-11"
     }
   ]
 }

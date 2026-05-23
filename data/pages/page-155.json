@@ -2,7 +2,7 @@
   "page": 155,
   "image": "/books/page 155.png",
   "imageApiPath": "/api/books/page%20155.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
     "regionCount": 4,
     "wordCount": 22,
@@ -11,116 +11,94 @@
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r1",
+        "r2",
+        "r3",
         "r4"
       ]
     }
   ],
   "regions": [
     {
-      "text": "This boy's name is Tom.",
-      "x": 0.12,
-      "y": 0.17,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "This boy's name is Tom.",
+      "x": 0.1394,
+      "y": 0.1735,
+      "w": 0.3403,
+      "h": 0.0259,
       "words": [
         "This",
         "boy's",
         "name",
         "is",
         "Tom."
-      ]
+      ],
+      "conf": 92.7516,
+      "source": "psm-11"
     },
     {
-      "text": "This girl's name is Jane.",
-      "x": 0.52,
-      "y": 0.17,
-      "w": 0.4,
-      "h": 0.05,
       "id": "r2",
       "order": 1,
+      "text": "This girl's name is Jane.",
+      "x": 0.5296,
+      "y": 0.1746,
+      "w": 0.3458,
+      "h": 0.0243,
       "words": [
         "This",
         "girl's",
         "name",
         "is",
         "Jane."
-      ]
+      ],
+      "conf": 83.0924,
+      "source": "psm-11"
     },
     {
-      "text": "Tom is making something.",
-      "x": 0.15,
-      "y": 0.58,
-      "w": 0.3,
-      "h": 0.05,
       "id": "r3",
       "order": 2,
+      "text": "Jane is saying, “What are you making, Tom?\"",
+      "x": 0.5389,
+      "y": 0.5346,
+      "w": 0.3404,
+      "h": 0.0502,
+      "words": [
+        "Jane",
+        "is",
+        "saying,",
+        "“What",
+        "are",
+        "you",
+        "making,",
+        "Tom?\""
+      ],
+      "conf": 96.4455,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Tom is making something.",
+      "x": 0.2103,
+      "y": 0.573,
+      "w": 0.2095,
+      "h": 0.0497,
       "words": [
         "Tom",
         "is",
         "making",
         "something."
-      ]
-    },
-    {
-      "text": "Jane is saying, \"What are you making, Tom?\"",
-      "x": 0.53,
-      "y": 0.54,
-      "w": 0.4,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "Jane",
-        "is",
-        "saying,",
-        "\"What",
-        "are",
-        "you",
-        "making,",
-        "Tom?\""
-      ]
+      ],
+      "conf": 95.5717,
+      "source": "psm-11"
     }
   ]
 }

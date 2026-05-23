@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20144.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 118,
+    "regionCount": 15,
+    "wordCount": 123,
     "imageWidth": 1117,
     "imageHeight": 1825
   },
@@ -19,9 +19,10 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
         "r3",
-        "r4"
+        "r4",
+        "r5",
+        "r8"
       ]
     },
     {
@@ -32,7 +33,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5"
+        "r2",
+        "r6",
+        "r7"
       ]
     },
     {
@@ -43,7 +46,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6"
+        "r9",
+        "r11",
+        "r12"
       ]
     },
     {
@@ -54,22 +59,22 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r8",
-        "r9",
-        "r10"
+        "r10",
+        "r13",
+        "r14",
+        "r15"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Now Tom and Jane are back from school. Jane is reading a story.",
-      "x": 0.08,
-      "y": 0.08,
-      "w": 0.4,
-      "h": 0.08,
       "id": "r1",
       "order": 0,
+      "text": "Now Tom and Jane are back from school. Jane is reading a story.",
+      "x": 0.0698,
+      "y": 0.0789,
+      "w": 0.3859,
+      "h": 0.0784,
       "words": [
         "Now",
         "Tom",
@@ -84,70 +89,18 @@
         "reading",
         "a",
         "story."
-      ]
+      ],
+      "conf": 81.8316,
+      "source": "psm-11"
     },
     {
-      "text": "It is eight-thirty.",
-      "x": 0.08,
-      "y": 0.17,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r2",
       "order": 1,
-      "words": [
-        "It",
-        "is",
-        "eight-thirty."
-      ]
-    },
-    {
-      "text": "Tom is writing at the table. Tom's dog is at his feet.",
-      "x": 0.08,
-      "y": 0.2,
-      "w": 0.4,
-      "h": 0.08,
-      "id": "r3",
-      "order": 2,
-      "words": [
-        "Tom",
-        "is",
-        "writing",
-        "at",
-        "the",
-        "table.",
-        "Tom's",
-        "dog",
-        "is",
-        "at",
-        "his",
-        "feet."
-      ]
-    },
-    {
-      "text": "Mrs. Smith is reading the newspaper.",
-      "x": 0.08,
-      "y": 0.37,
-      "w": 0.4,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "Mrs.",
-        "Smith",
-        "is",
-        "reading",
-        "the",
-        "newspaper."
-      ]
-    },
-    {
-      "text": "Tom and Jane are getting a good education. They get some of it at school, and they get some of it from their mother and father. Mrs. Smith is taking a look at Tom's work. It is good work.",
-      "x": 0.52,
-      "y": 0.09,
-      "w": 0.4,
-      "h": 0.25,
-      "id": "r5",
-      "order": 4,
+      "text": "Tom and Jane are getting a good education. They get some of it at school, and they get some of it from their mother and father.",
+      "x": 0.5157,
+      "y": 0.0948,
+      "w": 0.3993,
+      "h": 0.149,
       "words": [
         "Tom",
         "and",
@@ -174,7 +127,72 @@
         "their",
         "mother",
         "and",
-        "father.",
+        "father."
+      ],
+      "conf": 96.1624,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Itis eight-thirty.",
+      "x": 0.0788,
+      "y": 0.1732,
+      "w": 0.2668,
+      "h": 0.0236,
+      "words": [
+        "Itis",
+        "eight-thirty."
+      ],
+      "conf": 78.3939,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "is writing at the table.",
+      "x": 0.0797,
+      "y": 0.2318,
+      "w": 0.359,
+      "h": 0.023,
+      "words": [
+        "is",
+        "writing",
+        "at",
+        "the",
+        "table."
+      ],
+      "conf": 96.4764,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Tom's dog is at his feet.",
+      "x": 0.0752,
+      "y": 0.2668,
+      "w": 0.3814,
+      "h": 0.0236,
+      "words": [
+        "Tom's",
+        "dog",
+        "is",
+        "at",
+        "his",
+        "feet."
+      ],
+      "conf": 93.9874,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Mrs. Smith is taking a look at Tom's work.",
+      "x": 0.5175,
+      "y": 0.2499,
+      "w": 0.3509,
+      "h": 0.0454,
+      "words": [
         "Mrs.",
         "Smith",
         "is",
@@ -183,21 +201,55 @@
         "look",
         "at",
         "Tom's",
-        "work.",
+        "work."
+      ],
+      "conf": 95.9699,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "It is good work,",
+      "x": 0.5192,
+      "y": 0.3019,
+      "w": 0.2507,
+      "h": 0.0241,
+      "words": [
         "It",
         "is",
         "good",
-        "work."
-      ]
+        "work,"
+      ],
+      "conf": 90.6519,
+      "source": "psm-11"
     },
     {
-      "text": "Now Mrs. Smith is writing a letter to Mr. Smith. She sends love from Tom and Jane to their father.",
-      "x": 0.09,
-      "y": 0.51,
-      "w": 0.4,
-      "h": 0.15,
-      "id": "r6",
-      "order": 5,
+      "id": "r8",
+      "order": 7,
+      "text": "Mrs. Smith is reading the newspaper.",
+      "x": 0.1074,
+      "y": 0.3677,
+      "w": 0.3429,
+      "h": 0.051,
+      "words": [
+        "Mrs.",
+        "Smith",
+        "is",
+        "reading",
+        "the",
+        "newspaper."
+      ],
+      "conf": 96.2665,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Now Mrs. Smith is writing a letter to Mr.",
+      "x": 0.0949,
+      "y": 0.5025,
+      "w": 0.35,
+      "h": 0.0493,
       "words": [
         "Now",
         "Mrs.",
@@ -207,7 +259,41 @@
         "a",
         "letter",
         "to",
+        "Mr."
+      ],
+      "conf": 96.3634,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "She will send the letter to Mr. Smith.",
+      "x": 0.5201,
+      "y": 0.5222,
+      "w": 0.3715,
+      "h": 0.046,
+      "words": [
+        "She",
+        "will",
+        "send",
+        "the",
+        "letter",
+        "to",
         "Mr.",
+        "Smith."
+      ],
+      "conf": 96.4358,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "Smith. She sends love from Tom and Jane to their father, Dass Joke.",
+      "x": 0.0949,
+      "y": 0.554,
+      "w": 0.3617,
+      "h": 0.1206,
+      "words": [
         "Smith.",
         "She",
         "sends",
@@ -218,36 +304,39 @@
         "Jane",
         "to",
         "their",
-        "father."
-      ]
+        "father,",
+        "Dass",
+        "Joke."
+      ],
+      "conf": 96.3532,
+      "source": "psm-11"
     },
     {
-      "text": "She will send the letter to Mr. Smith.",
-      "x": 0.52,
-      "y": 0.52,
-      "w": 0.4,
-      "h": 0.05,
-      "id": "r7",
-      "order": 6,
+      "id": "r12",
+      "order": 11,
+      "text": "Ac arn afl Mary aual",
+      "x": 0.162,
+      "y": 0.6756,
+      "w": 0.1872,
+      "h": 0.0729,
       "words": [
-        "She",
-        "will",
-        "send",
-        "the",
-        "letter",
-        "to",
-        "Mr.",
-        "Smith."
-      ]
+        "Ac",
+        "arn",
+        "afl",
+        "Mary",
+        "aual"
+      ],
+      "conf": 54.1334,
+      "source": "psm-11"
     },
     {
+      "id": "r13",
+      "order": 12,
       "text": "She has the letter in her hand.",
-      "x": 0.52,
-      "y": 0.69,
-      "w": 0.4,
-      "h": 0.05,
-      "id": "r8",
-      "order": 7,
+      "x": 0.5228,
+      "y": 0.691,
+      "w": 0.3876,
+      "h": 0.0466,
       "words": [
         "She",
         "has",
@@ -256,16 +345,18 @@
         "in",
         "her",
         "hand."
-      ]
+      ],
+      "conf": 95.4336,
+      "source": "psm-11"
     },
     {
+      "id": "r14",
+      "order": 13,
       "text": "Now she is sending the letter.",
-      "x": 0.53,
-      "y": 0.78,
-      "w": 0.4,
-      "h": 0.05,
-      "id": "r9",
-      "order": 8,
+      "x": 0.5416,
+      "y": 0.7737,
+      "w": 0.188,
+      "h": 0.0713,
       "words": [
         "Now",
         "she",
@@ -273,22 +364,26 @@
         "sending",
         "the",
         "letter."
-      ]
+      ],
+      "conf": 96.4135,
+      "source": "psm-11"
     },
     {
-      "text": "She sent the letter.",
-      "x": 0.54,
-      "y": 0.88,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r10",
-      "order": 9,
+      "id": "r15",
+      "order": 14,
+      "text": "She sent th letter.",
+      "x": 0.5398,
+      "y": 0.8784,
+      "w": 0.1746,
+      "h": 0.0449,
       "words": [
         "She",
         "sent",
-        "the",
+        "th",
         "letter."
-      ]
+      ],
+      "conf": 96.3549,
+      "source": "psm-11"
     }
   ]
 }

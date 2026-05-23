@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20145.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 38,
+    "regionCount": 12,
+    "wordCount": 42,
     "imageWidth": 1275,
     "imageHeight": 1834
   },
@@ -19,7 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r2",
-        "r3"
+        "r5"
       ]
     },
     {
@@ -31,8 +31,9 @@
       "h": 0.5,
       "regionIds": [
         "r1",
+        "r3",
         "r4",
-        "r5"
+        "r6"
       ]
     },
     {
@@ -43,8 +44,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r7"
+        "r7",
+        "r9",
+        "r11"
       ]
     },
     {
@@ -56,159 +58,209 @@
       "h": 0.5,
       "regionIds": [
         "r8",
-        "r9",
-        "r10"
+        "r10",
+        "r12"
       ]
     }
   ],
   "regions": [
     {
-      "text": "QUESTIONS",
-      "x": 0.35,
-      "y": 0.08,
-      "w": 0.3,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "QUESTIONS",
+      "x": 0.4259,
+      "y": 0.0829,
+      "w": 0.1843,
+      "h": 0.0207,
       "words": [
         "QUESTIONS"
-      ]
+      ],
+      "conf": 96.6673,
+      "source": "psm-11"
     },
     {
-      "text": "What are these?",
-      "x": 0.15,
-      "y": 0.16,
-      "w": 0.3,
-      "h": 0.03,
       "id": "r2",
       "order": 1,
+      "text": "a What are these?",
+      "x": 0.1725,
+      "y": 0.1701,
+      "w": 0.2745,
+      "h": 0.0207,
       "words": [
+        "a",
         "What",
         "are",
         "these?"
-      ]
+      ],
+      "conf": 94.4427,
+      "source": "psm-11"
     },
     {
-      "text": "What is this boy doing?",
-      "x": 0.15,
-      "y": 0.31,
-      "w": 0.3,
-      "h": 0.05,
       "id": "r3",
       "order": 2,
+      "text": "b What are these?",
+      "x": 0.56,
+      "y": 0.1516,
+      "w": 0.2784,
+      "h": 0.0207,
+      "words": [
+        "b",
+        "What",
+        "are",
+        "these?"
+      ],
+      "conf": 95.898,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "ve",
+      "x": 0.6282,
+      "y": 0.1843,
+      "w": 0.0392,
+      "h": 0.0142,
+      "words": [
+        "ve"
+      ],
+      "conf": 87.6115,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "What is this boy doing?",
+      "x": 0.2008,
+      "y": 0.3146,
+      "w": 0.2337,
+      "h": 0.0501,
       "words": [
         "What",
         "is",
         "this",
         "boy",
         "doing?"
-      ]
+      ],
+      "conf": 96.2044,
+      "source": "psm-11"
     },
     {
-      "text": "What are these?",
-      "x": 0.58,
-      "y": 0.15,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "What",
-        "are",
-        "these?"
-      ]
-    },
-    {
+      "id": "r6",
+      "order": 5,
       "text": "What is the man doing?",
-      "x": 0.58,
-      "y": 0.37,
-      "w": 0.3,
-      "h": 0.08,
-      "id": "r5",
-      "order": 4,
+      "x": 0.5898,
+      "y": 0.3659,
+      "w": 0.1161,
+      "h": 0.0747,
       "words": [
         "What",
         "is",
         "the",
         "man",
         "doing?"
-      ]
+      ],
+      "conf": 96.5828,
+      "source": "psm-11"
     },
     {
-      "text": "What are these?",
-      "x": 0.15,
-      "y": 0.54,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r6",
-      "order": 5,
+      "id": "r7",
+      "order": 6,
+      "text": "c What are these?",
+      "x": 0.1686,
+      "y": 0.5403,
+      "w": 0.2745,
+      "h": 0.0202,
       "words": [
+        "c",
         "What",
         "are",
         "these?"
-      ]
+      ],
+      "conf": 90.8011,
+      "source": "psm-11"
     },
     {
+      "id": "r8",
+      "order": 7,
+      "text": "d What is this?",
+      "x": 0.5875,
+      "y": 0.5763,
+      "w": 0.2235,
+      "h": 0.0207,
+      "words": [
+        "d",
+        "What",
+        "is",
+        "this?"
+      ],
+      "conf": 94.8742,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
       "text": "What is the girl doing?",
-      "x": 0.15,
-      "y": 0.7,
-      "w": 0.3,
-      "h": 0.08,
-      "id": "r7",
-      "order": 6,
+      "x": 0.1867,
+      "y": 0.6968,
+      "w": 0.2243,
+      "h": 0.0496,
       "words": [
         "What",
         "is",
         "the",
         "girl",
         "doing?"
-      ]
+      ],
+      "conf": 95.1812,
+      "source": "psm-11"
     },
     {
-      "text": "What is this?",
-      "x": 0.58,
-      "y": 0.58,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r8",
-      "order": 7,
-      "words": [
-        "What",
-        "is",
-        "this?"
-      ]
-    },
-    {
+      "id": "r10",
+      "order": 9,
       "text": "What is the woman doing?",
-      "x": 0.57,
-      "y": 0.72,
-      "w": 0.3,
-      "h": 0.08,
-      "id": "r9",
-      "order": 8,
+      "x": 0.578,
+      "y": 0.7137,
+      "w": 0.28,
+      "h": 0.0491,
       "words": [
         "What",
         "is",
         "the",
         "woman",
         "doing?"
-      ]
+      ],
+      "conf": 94.3478,
+      "source": "psm-11"
     },
     {
-      "text": "Answers are on page 148.",
-      "x": 0.3,
-      "y": 0.92,
-      "w": 0.4,
-      "h": 0.03,
-      "id": "r10",
-      "order": 9,
+      "id": "r11",
+      "order": 10,
+      "text": "Answers are",
+      "x": 0.3192,
+      "y": 0.9138,
+      "w": 0.1796,
+      "h": 0.0185,
       "words": [
         "Answers",
-        "are",
+        "are"
+      ],
+      "conf": 96.287,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "on page",
+      "x": 0.5106,
+      "y": 0.9193,
+      "w": 0.1216,
+      "h": 0.0174,
+      "words": [
         "on",
-        "page",
-        "148."
-      ]
+        "page"
+      ],
+      "conf": 95.8935,
+      "source": "psm-11"
     }
   ]
 }

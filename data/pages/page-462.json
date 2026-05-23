@@ -2,121 +2,234 @@
   "page": 462,
   "image": "/books/page 462.png",
   "imageApiPath": "/api/books/page%20462.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 50,
+    "regionCount": 10,
+    "wordCount": 69,
     "imageWidth": 1188,
     "imageHeight": 1846
   },
   "panels": [
     {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r1",
         "r2",
-        "r3"
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "They saw how to split fields in half horizontally or vertically before they knew formal geometry.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "They saw that they could",
+      "x": 0.1077,
+      "y": 0.0363,
+      "w": 0.399,
+      "h": 0.0314,
       "words": [
         "They",
         "saw",
-        "how",
-        "to",
-        "split",
-        "fields",
-        "in",
+        "that",
+        "they",
+        "could"
+      ],
+      "conf": 96.7601,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "get",
+      "x": 0.5185,
+      "y": 0.0363,
+      "w": 0.053,
+      "h": 0.0314,
+      "words": [
+        "get"
+      ],
+      "conf": 96.069,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "half a field in this way...",
+      "x": 0.1052,
+      "y": 0.0618,
+      "w": 0.399,
+      "h": 0.0293,
+      "words": [
         "half",
-        "horizontally",
+        "a",
+        "field",
+        "in",
+        "this",
+        "way..."
+      ],
+      "conf": 96.4237,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "or in this way,",
+      "x": 0.1027,
+      "y": 0.1945,
+      "w": 0.2197,
+      "h": 0.0282,
+      "words": [
         "or",
-        "vertically",
+        "in",
+        "this",
+        "way,"
+      ],
+      "conf": 96.7699,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "before they knew how to measure Can you see whether these two",
+      "x": 0.0968,
+      "y": 0.3256,
+      "w": 0.4882,
+      "h": 0.0807,
+      "words": [
         "before",
         "they",
         "knew",
-        "formal",
-        "geometry."
-      ]
-    },
-    {
-      "text": "Can you see if these two fields have the same area? (Trapezoid and Triangle)",
-      "x": 0.1,
-      "y": 0.35,
-      "w": 0.85,
-      "h": 0.4,
-      "id": "r2",
-      "order": 1,
-      "words": [
+        "how",
+        "to",
+        "measure",
         "Can",
         "you",
         "see",
-        "if",
+        "whether",
         "these",
-        "two",
+        "two"
+      ],
+      "conf": 96.7461,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "rectangles or triangles.",
+      "x": 0.6002,
+      "y": 0.3256,
+      "w": 0.3308,
+      "h": 0.0303,
+      "words": [
+        "rectangles",
+        "or",
+        "triangles."
+      ],
+      "conf": 96.6564,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "fields have the same area?",
+      "x": 0.5488,
+      "y": 0.3781,
+      "w": 0.3763,
+      "h": 0.0282,
+      "words": [
         "fields",
         "have",
         "the",
         "same",
-        "area?",
-        "(Trapezoid",
-        "and",
-        "Triangle)"
-      ]
+        "area?"
+      ],
+      "conf": 96.7649,
+      "source": "psm-11"
     },
     {
-      "text": "Put in lines to prove if they are equal. rectangle: a shape with four straight sides and four right angles.",
-      "x": 0.1,
-      "y": 0.8,
-      "w": 0.85,
-      "h": 0.12,
-      "id": "r3",
-      "order": 2,
+      "id": "r8",
+      "order": 7,
+      "text": "Put in lines to prove that area. The answer is at the bottom rectangle: a rectangle bas four",
+      "x": 0.0968,
+      "y": 0.792,
+      "w": 0.5051,
+      "h": 0.0861,
       "words": [
         "Put",
         "in",
         "lines",
         "to",
         "prove",
-        "if",
-        "they",
-        "are",
-        "equal.",
+        "that",
+        "area.",
+        "The",
+        "answer",
+        "is",
+        "at",
+        "the",
+        "bottom",
         "rectangle:",
         "a",
-        "shape",
-        "with",
-        "four",
+        "rectangle",
+        "bas",
+        "four"
+      ],
+      "conf": 96.5705,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "they are or are not equal in",
+      "x": 0.5034,
+      "y": 0.792,
+      "w": 0.4226,
+      "h": 0.0271,
+      "words": [
+        "they",
+        "are",
+        "or",
+        "are",
+        "not",
+        "equal",
+        "in"
+      ],
+      "conf": 96.6531,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "of page straight sides aad four righ? angles.",
+      "x": 0.5008,
+      "y": 0.8207,
+      "w": 0.4234,
+      "h": 0.0558,
+      "words": [
+        "of",
+        "page",
         "straight",
         "sides",
-        "and",
+        "aad",
         "four",
-        "right",
+        "righ?",
         "angles."
-      ]
+      ],
+      "conf": 95.5397,
+      "source": "psm-11"
     }
   ]
 }

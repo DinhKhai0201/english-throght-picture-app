@@ -2,68 +2,42 @@
   "page": 189,
   "image": "/books/page 189.png",
   "imageApiPath": "/api/books/page%20189.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 83,
+    "regionCount": 8,
+    "wordCount": 76,
     "imageWidth": 1221,
     "imageHeight": 1871
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8"
       ]
     }
   ],
   "regions": [
     {
-      "text": "We may go on our feet from one place to another. When we go on our feet, we are walking.",
-      "x": 0.12,
-      "y": 0.12,
-      "w": 0.38,
-      "h": 0.35,
       "id": "r1",
       "order": 0,
+      "text": "We may go on our feet fram one place to another.",
+      "x": 0.122,
+      "y": 0.1149,
+      "w": 0.349,
+      "h": 0.0711,
       "words": [
         "We",
         "may",
@@ -71,11 +45,49 @@
         "on",
         "our",
         "feet",
-        "from",
+        "fram",
         "one",
         "place",
         "to",
-        "another.",
+        "another."
+      ],
+      "conf": 96.8017,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Or we may go in a train automobile or in a plane.",
+      "x": 0.5217,
+      "y": 0.1887,
+      "w": 0.3644,
+      "h": 0.101,
+      "words": [
+        "Or",
+        "we",
+        "may",
+        "go",
+        "in",
+        "a",
+        "train",
+        "automobile",
+        "or",
+        "in",
+        "a",
+        "plane."
+      ],
+      "conf": 93.3871,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "When we go on our feet, we are walking.",
+      "x": 0.1212,
+      "y": 0.3944,
+      "w": 0.3137,
+      "h": 0.0482,
+      "words": [
         "When",
         "we",
         "go",
@@ -85,46 +97,18 @@
         "we",
         "are",
         "walking."
-      ]
+      ],
+      "conf": 96.3243,
+      "source": "psm-11"
     },
     {
-      "text": "Or we may go in a train or in a ship or in an automobile or in a plane",
-      "x": 0.52,
-      "y": 0.18,
-      "w": 0.4,
-      "h": 0.12,
-      "id": "r2",
-      "order": 1,
-      "words": [
-        "Or",
-        "we",
-        "may",
-        "go",
-        "in",
-        "a",
-        "train",
-        "or",
-        "in",
-        "a",
-        "ship",
-        "or",
-        "in",
-        "an",
-        "automobile",
-        "or",
-        "in",
-        "a",
-        "plane"
-      ]
-    },
-    {
-      "text": "Some places are near to one another. Some places are far from one another.",
-      "x": 0.12,
-      "y": 0.54,
-      "w": 0.38,
-      "h": 0.3,
-      "id": "r3",
-      "order": 2,
+      "id": "r4",
+      "order": 3,
+      "text": "Some places are near to one another.",
+      "x": 0.131,
+      "y": 0.5361,
+      "w": 0.3244,
+      "h": 0.0433,
       "words": [
         "Some",
         "places",
@@ -132,24 +116,19 @@
         "near",
         "to",
         "one",
-        "another.",
-        "Some",
-        "places",
-        "are",
-        "far",
-        "from",
-        "one",
         "another."
-      ]
+      ],
+      "conf": 92.651,
+      "source": "psm-11"
     },
     {
-      "text": "Places in Washington are near to one another. The distance from one place to another is not far. But some places in the United States are far from one another.",
-      "x": 0.54,
-      "y": 0.53,
-      "w": 0.4,
-      "h": 0.38,
-      "id": "r4",
-      "order": 3,
+      "id": "r5",
+      "order": 4,
+      "text": "Places in Washington are near to one another.",
+      "x": 0.5373,
+      "y": 0.535,
+      "w": 0.3202,
+      "h": 0.0679,
       "words": [
         "Places",
         "in",
@@ -158,7 +137,20 @@
         "near",
         "to",
         "one",
-        "another.",
+        "another."
+      ],
+      "conf": 96.265,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The distance from one place to another is not far.",
+      "x": 0.5348,
+      "y": 0.6724,
+      "w": 0.3366,
+      "h": 0.0689,
+      "words": [
         "The",
         "distance",
         "from",
@@ -168,7 +160,40 @@
         "another",
         "is",
         "not",
-        "far.",
+        "far."
+      ],
+      "conf": 96.2158,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Some places are far from one another.",
+      "x": 0.1409,
+      "y": 0.7221,
+      "w": 0.2997,
+      "h": 0.0454,
+      "words": [
+        "Some",
+        "places",
+        "are",
+        "far",
+        "from",
+        "one",
+        "another."
+      ],
+      "conf": 96.3236,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "But some places in the United States are far from one another.",
+      "x": 0.5348,
+      "y": 0.814,
+      "w": 0.3292,
+      "h": 0.0674,
+      "words": [
         "But",
         "some",
         "places",
@@ -181,7 +206,9 @@
         "from",
         "one",
         "another."
-      ]
+      ],
+      "conf": 96.6196,
+      "source": "psm-11"
     }
   ]
 }

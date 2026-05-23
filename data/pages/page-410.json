@@ -4,12 +4,25 @@
   "imageApiPath": "/api/books/page%20410.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 69,
+    "regionCount": 18,
+    "wordCount": 151,
     "imageWidth": 1188,
     "imageHeight": 1850
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r5",
+        "r7"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +31,26 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r3",
+        "r4",
+        "r6",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r11",
+        "r13",
+        "r16",
+        "r18"
       ]
     },
     {
@@ -30,112 +61,399 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r10",
+        "r12",
+        "r14",
+        "r15",
+        "r17"
       ]
     }
   ],
   "regions": [
     {
-      "text": "The most important materials in our bodies are the proteins. We can see how complex they are by comparing their formula with water (H2O) or carbon dioxide (CO2).",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "The most important of the the proteins (from Greek proteios, place”). Among them are plex structures known to idea of how complex proteins formula for one of them with or for carbon dioxide (CO,).",
+      "x": 0.1187,
+      "y": 0.0508,
+      "w": 0.5016,
+      "h": 0.1779,
       "words": [
         "The",
         "most",
         "important",
+        "of",
+        "the",
+        "the",
+        "proteins",
+        "(from",
+        "Greek",
+        "proteios,",
+        "place”).",
+        "Among",
+        "them",
+        "are",
+        "plex",
+        "structures",
+        "known",
+        "to",
+        "idea",
+        "of",
+        "how",
+        "complex",
+        "proteins",
+        "formula",
+        "for",
+        "one",
+        "of",
+        "them",
+        "with",
+        "or",
+        "for",
+        "carbon",
+        "dioxide",
+        "(CO,)."
+      ],
+      "conf": 96.3862,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "materials in our bodies are",
+      "x": 0.5362,
+      "y": 0.0508,
+      "w": 0.3981,
+      "h": 0.0178,
+      "words": [
         "materials",
         "in",
         "our",
         "bodies",
-        "are",
+        "are"
+      ],
+      "conf": 96.6599,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "meaning “having first materials with the most com- the chemist. We can get some",
+      "x": 0.5008,
+      "y": 0.0773,
+      "w": 0.4377,
+      "h": 0.0741,
+      "words": [
+        "meaning",
+        "“having",
+        "first",
+        "materials",
+        "with",
         "the",
-        "proteins.",
+        "most",
+        "com-",
+        "the",
+        "chemist.",
         "We",
         "can",
-        "see",
-        "how",
-        "complex",
-        "they",
+        "get",
+        "some"
+      ],
+      "conf": 96.2426,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "are by comparing the the formula for water (H.0O)",
+      "x": 0.5421,
+      "y": 0.1557,
+      "w": 0.3948,
+      "h": 0.047,
+      "words": [
         "are",
         "by",
         "comparing",
-        "their",
+        "the",
+        "the",
         "formula",
-        "with",
+        "for",
         "water",
-        "(H2O)",
-        "or",
-        "carbon",
-        "dioxide",
-        "(CO2)."
-      ]
+        "(H.0O)"
+      ],
+      "conf": 96.5273,
+      "source": "psm-11"
     },
     {
-      "text": "Formula for a protein from milk: C1864 H3012 N468 S21 O576. Water: H2O. Carbon dioxide: CO2.",
-      "x": 0.1,
-      "y": 0.25,
-      "w": 0.85,
-      "h": 0.2,
-      "id": "r2",
-      "order": 1,
+      "id": "r5",
+      "order": 4,
+      "text": "Compare this formula for",
+      "x": 0.1195,
+      "y": 0.2595,
+      "w": 0.3729,
+      "h": 0.0216,
       "words": [
-        "Formula",
-        "for",
+        "Compare",
+        "this",
+        "formula",
+        "for"
+      ],
+      "conf": 96.6948,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "a protein from milk:",
+      "x": 0.5008,
+      "y": 0.26,
+      "w": 0.2955,
+      "h": 0.0216,
+      "words": [
         "a",
         "protein",
         "from",
-        "milk:",
-        "C1864",
-        "H3012",
-        "N468",
-        "S21",
-        "O576.",
-        "Water:",
-        "H2O.",
-        "Carbon",
-        "dioxide:",
-        "CO2."
-      ]
+        "milk:"
+      ],
+      "conf": 96.5102,
+      "source": "psm-11"
     },
     {
-      "text": "The letter N represents nitrogen and S represents sulphur. among: being part of a group. nitrogen: a gas in the air. sulphur: a yellow material.",
-      "x": 0.1,
-      "y": 0.65,
-      "w": 0.85,
-      "h": 0.25,
-      "id": "r3",
-      "order": 2,
+      "id": "r7",
+      "order": 6,
+      "text": "with the simple formulas",
+      "x": 0.1195,
+      "y": 0.407,
+      "w": 0.3687,
+      "h": 0.0216,
+      "words": [
+        "with",
+        "the",
+        "simple",
+        "formulas"
+      ],
+      "conf": 96.2012,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "for water: HO",
+      "x": 0.4747,
+      "y": 0.4076,
+      "w": 0.1751,
+      "h": 0.1065,
+      "words": [
+        "for",
+        "water:",
+        "HO"
+      ],
+      "conf": 95.8251,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "or carbon dioxide:",
+      "x": 0.1178,
+      "y": 0.5405,
+      "w": 0.2727,
+      "h": 0.0184,
+      "words": [
+        "or",
+        "carbon",
+        "dioxide:"
+      ],
+      "conf": 95.7019,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "CO.",
+      "x": 0.4697,
+      "y": 0.587,
+      "w": 0.1221,
+      "h": 0.0616,
+      "words": [
+        "CO."
+      ],
+      "conf": 88.8532,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "The letter N in this formula letter S represents sulphur,",
+      "x": 0.1162,
+      "y": 0.6757,
+      "w": 0.4124,
+      "h": 0.0481,
       "words": [
         "The",
         "letter",
         "N",
+        "in",
+        "this",
+        "formula",
+        "letter",
+        "S",
+        "represents",
+        "sulphur,"
+      ],
+      "conf": 95.5991,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "represents nitrogen and the",
+      "x": 0.5387,
+      "y": 0.6768,
+      "w": 0.3973,
+      "h": 0.0222,
+      "words": [
         "represents",
         "nitrogen",
         "and",
-        "S",
-        "represents",
-        "sulphur.",
-        "among:",
+        "the"
+      ],
+      "conf": 96.7388,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "among; in, in the sense of being part nitrogen: a gas which makes up breathed in and out unchanged.",
+      "x": 0.117,
+      "y": 0.7816,
+      "w": 0.4268,
+      "h": 0.0497,
+      "words": [
+        "among;",
+        "in,",
+        "in",
+        "the",
+        "sense",
+        "of",
         "being",
         "part",
-        "of",
-        "a",
-        "group.",
         "nitrogen:",
         "a",
         "gas",
+        "which",
+        "makes",
+        "up",
+        "breathed",
         "in",
-        "the",
+        "and",
+        "out",
+        "unchanged."
+      ],
+      "conf": 95.0477,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "about four fifths of air. Nitrogen is",
+      "x": 0.5244,
+      "y": 0.7984,
+      "w": 0.415,
+      "h": 0.0157,
+      "words": [
+        "about",
+        "four",
+        "fifths",
+        "of",
         "air.",
+        "Nitrogen",
+        "is"
+      ],
+      "conf": 90.089,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "of a group.",
+      "x": 0.5463,
+      "y": 0.7827,
+      "w": 0.1221,
+      "h": 0.0141,
+      "words": [
+        "of",
+        "a",
+        "group."
+      ],
+      "conf": 94.3976,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "gen they need in other ways.",
+      "x": 0.1726,
+      "y": 0.8335,
+      "w": 0.3224,
+      "h": 0.0157,
+      "words": [
+        "gen",
+        "they",
+        "need",
+        "in",
+        "other",
+        "ways."
+      ],
+      "conf": 95.6284,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "Our bodies have to get the nitro- found in some parts of the earth In",
+      "x": 0.5109,
+      "y": 0.8162,
+      "w": 0.426,
+      "h": 0.0508,
+      "words": [
+        "Our",
+        "bodies",
+        "have",
+        "to",
+        "get",
+        "the",
+        "nitro-",
+        "found",
+        "in",
+        "some",
+        "parts",
+        "of",
+        "the",
+        "earth",
+        "In"
+      ],
+      "conf": 94.9267,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "sulphur: a light-yellow material great amounts.",
+      "x": 0.117,
+      "y": 0.8503,
+      "w": 0.3788,
+      "h": 0.0335,
+      "words": [
         "sulphur:",
         "a",
-        "yellow",
-        "material."
-      ]
+        "light-yellow",
+        "material",
+        "great",
+        "amounts."
+      ],
+      "conf": 73.5798,
+      "source": "psm-11"
     }
   ]
 }

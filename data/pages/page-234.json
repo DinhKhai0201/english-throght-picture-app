@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20234.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 85,
+    "regionCount": 9,
+    "wordCount": 65,
     "imageWidth": 1180,
     "imageHeight": 1875
   },
@@ -18,7 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r3",
+        "r4"
       ]
     },
     {
@@ -29,7 +30,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r1",
+        "r2",
+        "r5"
       ]
     },
     {
@@ -40,7 +43,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r7",
+        "r8"
       ]
     },
     {
@@ -51,25 +55,73 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r6",
+        "r9"
       ]
     }
   ],
   "regions": [
     {
-      "text": "What is this man doing? He is putting paint on the door. He is painting the door. He is a painter. That is his work.",
-      "x": 0.12,
-      "y": 0.31,
-      "w": 0.38,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "This is his paint,",
+      "x": 0.6068,
+      "y": 0.128,
+      "w": 0.2398,
+      "h": 0.024,
+      "words": [
+        "This",
+        "is",
+        "his",
+        "paint,"
+      ],
+      "conf": 93.187,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is his brush",
+      "x": 0.5992,
+      "y": 0.2805,
+      "w": 0.2364,
+      "h": 0.0197,
+      "words": [
+        "This",
+        "is",
+        "his",
+        "brush"
+      ],
+      "conf": 96.5899,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "What is this man doing?",
+      "x": 0.122,
+      "y": 0.3163,
+      "w": 0.3678,
+      "h": 0.0235,
       "words": [
         "What",
         "is",
         "this",
         "man",
-        "doing?",
+        "doing?"
+      ],
+      "conf": 96.5477,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "He is putting paint on the door. He is painting the door. He is a painter That is his work",
+      "x": 0.1237,
+      "y": 0.3419,
+      "w": 0.3763,
+      "h": 0.0944,
+      "words": [
         "He",
         "is",
         "putting",
@@ -85,31 +137,24 @@
         "He",
         "is",
         "a",
-        "painter.",
+        "painter",
         "That",
         "is",
         "his",
-        "work."
-      ]
+        "work"
+      ],
+      "conf": 96.1241,
+      "source": "psm-11"
     },
     {
-      "text": "This is his paint. This is his brush. He puts the paint on with his paint brush.",
-      "x": 0.53,
-      "y": 0.12,
-      "w": 0.38,
-      "h": 0.35,
-      "id": "r2",
-      "order": 1,
+      "id": "r5",
+      "order": 4,
+      "text": "puts the paint on with his paint brush,",
+      "x": 0.5364,
+      "y": 0.3867,
+      "w": 0.3712,
+      "h": 0.049,
       "words": [
-        "This",
-        "is",
-        "his",
-        "paint.",
-        "This",
-        "is",
-        "his",
-        "brush.",
-        "He",
         "puts",
         "the",
         "paint",
@@ -117,36 +162,54 @@
         "with",
         "his",
         "paint",
-        "brush."
-      ]
+        "brush,"
+      ],
+      "conf": 96.3089,
+      "source": "psm-11"
     },
     {
-      "text": "2 + 2 = 4. 3 + 7 = 10. 14 + 26 = 40. This is addition. The boy is doing addition. That is his work.",
-      "x": 0.12,
-      "y": 0.51,
-      "w": 0.35,
-      "h": 0.4,
-      "id": "r3",
-      "order": 2,
+      "id": "r6",
+      "order": 5,
+      "text": "This is a bank",
+      "x": 0.578,
+      "y": 0.5168,
+      "w": 0.2102,
+      "h": 0.0192,
       "words": [
-        "2",
-        "+",
-        "2",
-        "=",
-        "4.",
-        "3",
-        "+",
-        "7",
-        "=",
-        "10.",
-        "14",
-        "+",
-        "26",
-        "=",
-        "40.",
         "This",
         "is",
-        "addition.",
+        "a",
+        "bank"
+      ],
+      "conf": 96.0911,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "qo This is addition,",
+      "x": 0.1915,
+      "y": 0.5685,
+      "w": 0.2441,
+      "h": 0.047,
+      "words": [
+        "qo",
+        "This",
+        "is",
+        "addition,"
+      ],
+      "conf": 86.5777,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "The boy is doing addition. That is his work.",
+      "x": 0.1619,
+      "y": 0.7963,
+      "w": 0.3059,
+      "h": 0.0699,
+      "words": [
         "The",
         "boy",
         "is",
@@ -156,34 +219,29 @@
         "is",
         "his",
         "work."
-      ]
+      ],
+      "conf": 96.7912,
+      "source": "psm-11"
     },
     {
-      "text": "This is a bank. This is a check. Bank of Middletown fifteen dollars $15 John Jones",
-      "x": 0.53,
-      "y": 0.51,
-      "w": 0.4,
-      "h": 0.4,
-      "id": "r4",
-      "order": 3,
+      "id": "r9",
+      "order": 8,
+      "text": "This is a check Bank of Mubdlrtown",
+      "x": 0.6831,
+      "y": 0.7824,
+      "w": 0.2322,
+      "h": 0.064,
       "words": [
         "This",
         "is",
         "a",
-        "bank.",
-        "This",
-        "is",
-        "a",
-        "check.",
+        "check",
         "Bank",
         "of",
-        "Middletown",
-        "fifteen",
-        "dollars",
-        "$15",
-        "John",
-        "Jones"
-      ]
+        "Mubdlrtown"
+      ],
+      "conf": 93.0687,
+      "source": "psm-11"
     }
   ]
 }

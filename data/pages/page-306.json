@@ -4,12 +4,24 @@
   "imageApiPath": "/api/books/page%20306.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 107,
+    "regionCount": 14,
+    "wordCount": 150,
     "imageWidth": 1188,
     "imageHeight": 1830
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +30,22 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r3"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8",
+        "r11",
+        "r13"
       ]
     },
     {
@@ -30,20 +56,24 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r5",
+        "r7",
+        "r9",
+        "r10",
+        "r12",
+        "r14"
       ]
     }
   ],
   "regions": [
     {
-      "text": "We are living at a time when machines do work which men used to do. Now materials and things of all sorts can be transported long distances quickly. Its transport lines are very important to any great city.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "We are living at a time when men used to do. Now materials can be transported long distances lines are very important to any",
+      "x": 0.0833,
+      "y": 0.0393,
+      "w": 0.5001,
+      "h": 0.1028,
       "words": [
         "We",
         "are",
@@ -52,105 +82,163 @@
         "a",
         "time",
         "when",
-        "machines",
-        "do",
-        "work",
-        "which",
         "men",
         "used",
         "to",
         "do.",
         "Now",
         "materials",
-        "and",
-        "things",
-        "of",
-        "all",
-        "sorts",
         "can",
         "be",
         "transported",
         "long",
         "distances",
-        "quickly.",
-        "Its",
-        "transport",
         "lines",
         "are",
         "very",
         "important",
         "to",
-        "any",
-        "great",
-        "city."
-      ]
+        "any"
+      ],
+      "conf": 96.6685,
+      "source": "psm-11"
     },
     {
-      "text": "IRON MINE. STEEL PLANT. TRANSPORTING MATERIALS.",
-      "x": 0.1,
-      "y": 0.25,
-      "w": 0.85,
-      "h": 0.35,
       "id": "r2",
       "order": 1,
+      "text": "machines do work which and things of all sorts quickly. Its transport great city.",
+      "x": 0.5387,
+      "y": 0.0388,
+      "w": 0.3662,
+      "h": 0.1017,
       "words": [
-        "IRON",
-        "MINE.",
-        "STEEL",
-        "PLANT.",
-        "TRANSPORTING",
-        "MATERIALS."
-      ]
+        "machines",
+        "do",
+        "work",
+        "which",
+        "and",
+        "things",
+        "of",
+        "all",
+        "sorts",
+        "quickly.",
+        "Its",
+        "transport",
+        "great",
+        "city."
+      ],
+      "conf": 96.1848,
+      "source": "psm-11"
     },
     {
-      "text": "Materials such as iron, which is mined from the earth in some places, and steel, which is made from iron, are used to make machines. Iron and steel are metals.",
-      "x": 0.1,
-      "y": 0.65,
-      "w": 0.85,
-      "h": 0.1,
       "id": "r3",
       "order": 2,
+      "text": "IRON MIN®",
+      "x": 0.7239,
+      "y": 0.1536,
+      "w": 0.1178,
+      "h": 0.012,
+      "words": [
+        "IRON",
+        "MIN®"
+      ],
+      "conf": 79.3019,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "STEEL PLANT",
+      "x": 0.1439,
+      "y": 0.2393,
+      "w": 0.1355,
+      "h": 0.0109,
+      "words": [
+        "STEEL",
+        "PLANT"
+      ],
+      "conf": 94.3563,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "TRANSPORTING MATERIALS",
+      "x": 0.5194,
+      "y": 0.5541,
+      "w": 0.2828,
+      "h": 0.0137,
+      "words": [
+        "TRANSPORTING",
+        "MATERIALS"
+      ],
+      "conf": 95.2699,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Materials such as iron, which some places, and steel, which used to make machines. Iron",
+      "x": 0.0926,
+      "y": 0.6372,
+      "w": 0.4562,
+      "h": 0.071,
       "words": [
         "Materials",
         "such",
         "as",
         "iron,",
         "which",
+        "some",
+        "places,",
+        "and",
+        "steel,",
+        "which",
+        "used",
+        "to",
+        "make",
+        "machines.",
+        "Iron"
+      ],
+      "conf": 96.2709,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "is mined from the earth in is made from iron, are and steel are metals.",
+      "x": 0.5345,
+      "y": 0.6372,
+      "w": 0.3788,
+      "h": 0.0716,
+      "words": [
         "is",
         "mined",
         "from",
         "the",
         "earth",
         "in",
-        "some",
-        "places,",
-        "and",
-        "steel,",
-        "which",
         "is",
         "made",
         "from",
         "iron,",
         "are",
-        "used",
-        "to",
-        "make",
-        "machines.",
-        "Iron",
         "and",
         "steel",
         "are",
         "metals."
-      ]
+      ],
+      "conf": 96.7557,
+      "source": "psm-11"
     },
     {
-      "text": "material: that from which things can be made. any: every. plant: factory. metal: any material of a certain sort, such as iron and steel. Metals are hard and are got from the earth.",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r4",
-      "order": 3,
+      "id": "r8",
+      "order": 7,
+      "text": "material: that from which things can which much of our furniture is windows. Much of our clothing any: in this sense, every.",
+      "x": 0.0934,
+      "y": 0.7585,
+      "w": 0.4226,
+      "h": 0.0863,
       "words": [
         "material:",
         "that",
@@ -158,12 +246,120 @@
         "which",
         "things",
         "can",
-        "be",
-        "made.",
+        "which",
+        "much",
+        "of",
+        "our",
+        "furniture",
+        "is",
+        "windows.",
+        "Much",
+        "of",
+        "our",
+        "clothing",
         "any:",
-        "every.",
+        "in",
+        "this",
+        "sense,",
+        "every."
+      ],
+      "conf": 96.0259,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "be made, Wood is a material from of metal.",
+      "x": 0.5017,
+      "y": 0.759,
+      "w": 0.4099,
+      "h": 0.0651,
+      "words": [
+        "be",
+        "made,",
+        "Wood",
+        "is",
+        "a",
+        "material",
+        "from",
+        "of",
+        "metal."
+      ],
+      "conf": 95.5367,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "made. Glass is the material used in",
+      "x": 0.5093,
+      "y": 0.7765,
+      "w": 0.4024,
+      "h": 0.0126,
+      "words": [
+        "made.",
+        "Glass",
+        "is",
+        "the",
+        "material",
+        "used",
+        "in"
+      ],
+      "conf": 96.0095,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "materials. Machines are mode plant: in this sense, factory.",
+      "x": 0.0934,
+      "y": 0.812,
+      "w": 0.3965,
+      "h": 0.0513,
+      "words": [
+        "materials.",
+        "Machines",
+        "are",
+        "mode",
         "plant:",
-        "factory.",
+        "in",
+        "this",
+        "sense,",
+        "factory."
+      ],
+      "conf": 90.1057,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "is made of wool or cotton or silk",
+      "x": 0.5227,
+      "y": 0.794,
+      "w": 0.3897,
+      "h": 0.0131,
+      "words": [
+        "is",
+        "made",
+        "of",
+        "wool",
+        "or",
+        "cotton",
+        "or",
+        "silk"
+      ],
+      "conf": 94.0366,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "metal: any material of a certain sort, hard and are got from the earth,",
+      "x": 0.0951,
+      "y": 0.865,
+      "w": 0.4318,
+      "h": 0.0329,
+      "words": [
         "metal:",
         "any",
         "material",
@@ -171,21 +367,36 @@
         "a",
         "certain",
         "sort,",
-        "such",
-        "as",
-        "iron",
-        "and",
-        "steel.",
-        "Metals",
-        "are",
         "hard",
         "and",
         "are",
         "got",
         "from",
         "the",
-        "earth."
-      ]
+        "earth,"
+      ],
+      "conf": 93.7139,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "such as iron and steel. Metals ore",
+      "x": 0.5362,
+      "y": 0.865,
+      "w": 0.3771,
+      "h": 0.0131,
+      "words": [
+        "such",
+        "as",
+        "iron",
+        "and",
+        "steel.",
+        "Metals",
+        "ore"
+      ],
+      "conf": 84.9081,
+      "source": "psm-11"
     }
   ]
 }

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20230.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 72,
+    "regionCount": 11,
+    "wordCount": 78,
     "imageWidth": 1180,
     "imageHeight": 1875
   },
@@ -18,7 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r3",
+        "r6"
       ]
     },
     {
@@ -29,7 +31,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r2",
+        "r4",
+        "r5"
       ]
     },
     {
@@ -40,7 +44,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r7",
+        "r11"
       ]
     },
     {
@@ -51,19 +56,21 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r8",
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Where the light goes into the glass, it is bent. It is bent again where it comes out of the glass into the air.",
-      "x": 0.08,
-      "y": 0.12,
-      "w": 0.38,
-      "h": 0.3,
       "id": "r1",
       "order": 0,
+      "text": "Where the light goes into the glass, it is bent.",
+      "x": 0.0992,
+      "y": 0.1285,
+      "w": 0.3492,
+      "h": 0.0475,
       "words": [
         "Where",
         "the",
@@ -74,7 +81,38 @@
         "glass,",
         "it",
         "is",
-        "bent.",
+        "bent."
+      ],
+      "conf": 93.6429,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Here is your eye lg",
+      "x": 0.5322,
+      "y": 0.128,
+      "w": 0.3195,
+      "h": 0.0469,
+      "words": [
+        "Here",
+        "is",
+        "your",
+        "eye",
+        "lg"
+      ],
+      "conf": 84.9496,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "It is bent again where it comes out of the glass into the air.",
+      "x": 0.0958,
+      "y": 0.3328,
+      "w": 0.3601,
+      "h": 0.0693,
+      "words": [
         "It",
         "is",
         "bent",
@@ -89,42 +127,73 @@
         "into",
         "the",
         "air."
-      ]
+      ],
+      "conf": 92.8171,
+      "source": "psm-11"
     },
     {
-      "text": "Here is your eye. You are looking at the pencil in the glass of water.",
-      "x": 0.51,
-      "y": 0.12,
-      "w": 0.4,
-      "h": 0.35,
-      "id": "r2",
-      "order": 1,
+      "id": "r4",
+      "order": 3,
+      "text": "You are looking at the",
+      "x": 0.5144,
+      "y": 0.3637,
+      "w": 0.3373,
+      "h": 0.0251,
       "words": [
-        "Here",
-        "is",
-        "your",
-        "eye.",
         "You",
         "are",
         "looking",
         "at",
-        "the",
-        "pencil",
-        "in",
-        "the",
-        "glass",
-        "of",
-        "water."
-      ]
+        "the"
+      ],
+      "conf": 96.496,
+      "source": "psm-11"
     },
     {
-      "text": "The light from the pencil is bent where it comes out of the water into the air. It is bent here.",
-      "x": 0.08,
-      "y": 0.54,
-      "w": 0.38,
-      "h": 0.4,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "in the gloss of water",
+      "x": 0.5144,
+      "y": 0.3904,
+      "w": 0.3093,
+      "h": 0.0427,
+      "words": [
+        "in",
+        "the",
+        "gloss",
+        "of",
+        "water"
+      ],
+      "conf": 96.8232,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "FOSS OS FC OO CECB OF",
+      "x": 0.072,
+      "y": 0.4661,
+      "w": 0.4144,
+      "h": 0.0176,
+      "words": [
+        "FOSS",
+        "OS",
+        "FC",
+        "OO",
+        "CECB",
+        "OF"
+      ],
+      "conf": 49.5025,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "The light from the pencil is bent where it comes out of the water into the oir,",
+      "x": 0.0924,
+      "y": 0.5397,
+      "w": 0.3915,
+      "h": 0.0934,
       "words": [
         "The",
         "light",
@@ -142,35 +211,78 @@
         "water",
         "into",
         "the",
-        "air.",
-        "It",
-        "is",
-        "bent",
-        "here."
-      ]
+        "oir,"
+      ],
+      "conf": 95.5763,
+      "source": "psm-11"
     },
     {
-      "text": "The pencil is not bent. But the light from it is bent.",
-      "x": 0.52,
-      "y": 0.54,
-      "w": 0.38,
-      "h": 0.1,
-      "id": "r4",
-      "order": 3,
+      "id": "r8",
+      "order": 7,
+      "text": "The pencil is not bent.",
+      "x": 0.5203,
+      "y": 0.5408,
+      "w": 0.3271,
+      "h": 0.0245,
       "words": [
         "The",
         "pencil",
         "is",
         "not",
-        "bent.",
+        "bent."
+      ],
+      "conf": 91.8645,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "But the light from it is",
+      "x": 0.522,
+      "y": 0.5632,
+      "w": 0.3178,
+      "h": 0.0395,
+      "words": [
         "But",
         "the",
         "light",
         "from",
         "it",
-        "is",
+        "is"
+      ],
+      "conf": 95.7403,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "bent.",
+      "x": 0.5203,
+      "y": 0.5904,
+      "w": 0.0763,
+      "h": 0.0192,
+      "words": [
         "bent."
-      ]
+      ],
+      "conf": 95.6986,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "It is bent here,",
+      "x": 0.1034,
+      "y": 0.8768,
+      "w": 0.2127,
+      "h": 0.0192,
+      "words": [
+        "It",
+        "is",
+        "bent",
+        "here,"
+      ],
+      "conf": 89.7919,
+      "source": "psm-11"
     }
   ]
 }

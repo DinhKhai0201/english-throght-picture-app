@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2045.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 77,
+    "regionCount": 22,
+    "wordCount": 76,
     "imageWidth": 1188,
     "imageHeight": 1838
   },
@@ -19,8 +19,11 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r3"
+        "r3",
+        "r5",
+        "r7",
+        "r9",
+        "r11"
       ]
     },
     {
@@ -31,8 +34,12 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r2",
         "r4",
-        "r5"
+        "r6",
+        "r8",
+        "r10",
+        "r12"
       ]
     },
     {
@@ -43,9 +50,11 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6",
-        "r7",
-        "r8"
+        "r13",
+        "r15",
+        "r17",
+        "r19",
+        "r21"
       ]
     },
     {
@@ -56,210 +65,376 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r10",
-        "r11"
+        "r14",
+        "r16",
+        "r18",
+        "r20",
+        "r22"
       ]
     }
   ],
   "regions": [
     {
-      "text": "My eyes are open. I see.",
-      "x": 0.15,
-      "y": 0.11,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "My eyes are open.",
+      "x": 0.1549,
+      "y": 0.1083,
+      "w": 0.2828,
+      "h": 0.0234,
       "words": [
         "My",
         "eyes",
         "are",
-        "open.",
-        "I",
-        "see."
-      ]
+        "open."
+      ],
+      "conf": 94.9706,
+      "source": "psm-11"
     },
     {
-      "text": "Her eyes are shut. She does not see.",
-      "x": 0.15,
-      "y": 0.16,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r2",
       "order": 1,
-      "words": [
-        "Her",
-        "eyes",
-        "are",
-        "shut.",
-        "She",
-        "does",
-        "not",
-        "see."
-      ]
-    },
-    {
-      "text": "I see her. She does not see me.",
-      "x": 0.15,
-      "y": 0.4,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r3",
-      "order": 2,
-      "words": [
-        "I",
-        "see",
-        "her.",
-        "She",
-        "does",
-        "not",
-        "see",
-        "me."
-      ]
-    },
-    {
-      "text": "Now her eyes are open. She sees. What does she see? She sees me.",
-      "x": 0.55,
-      "y": 0.11,
-      "w": 0.4,
-      "h": 0.1,
-      "id": "r4",
-      "order": 3,
+      "text": "Now her eyes are open.",
+      "x": 0.569,
+      "y": 0.1083,
+      "w": 0.3678,
+      "h": 0.0245,
       "words": [
         "Now",
         "her",
         "eyes",
         "are",
-        "open.",
-        "She",
-        "sees.",
-        "What",
-        "does",
-        "she",
-        "see?",
-        "She",
-        "sees",
-        "me."
-      ]
+        "open."
+      ],
+      "conf": 96.5491,
+      "source": "psm-11"
     },
     {
-      "text": "I see her. Our eyes are open.",
-      "x": 0.58,
-      "y": 0.4,
-      "w": 0.35,
-      "h": 0.05,
+      "id": "r3",
+      "order": 2,
+      "text": "see.",
+      "x": 0.1692,
+      "y": 0.1371,
+      "w": 0.0614,
+      "h": 0.0185,
+      "words": [
+        "see."
+      ],
+      "conf": 67.8328,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "She sees.",
+      "x": 0.5673,
+      "y": 0.1333,
+      "w": 0.1364,
+      "h": 0.0196,
+      "words": [
+        "She",
+        "sees."
+      ],
+      "conf": 94.5368,
+      "source": "psm-11"
+    },
+    {
       "id": "r5",
       "order": 4,
-      "words": [
-        "I",
-        "see",
-        "her.",
-        "Our",
-        "eyes",
-        "are",
-        "open."
-      ]
-    },
-    {
-      "text": "Her eyes are open.",
-      "x": 0.15,
-      "y": 0.58,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r6",
-      "order": 5,
-      "words": [
-        "Her",
-        "eyes",
-        "are",
-        "open."
-      ]
-    },
-    {
-      "text": "She sees. They were shut. She did not see.",
-      "x": 0.18,
-      "y": 0.7,
-      "w": 0.3,
-      "h": 0.08,
-      "id": "r7",
-      "order": 6,
-      "words": [
-        "She",
-        "sees.",
-        "They",
-        "were",
-        "shut.",
-        "She",
-        "did",
-        "not",
-        "see."
-      ]
-    },
-    {
-      "text": "She did not see me.",
-      "x": 0.15,
-      "y": 0.87,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r8",
-      "order": 7,
-      "words": [
-        "She",
-        "did",
-        "not",
-        "see",
-        "me."
-      ]
-    },
-    {
       "text": "Her eyes are shut.",
-      "x": 0.6,
-      "y": 0.58,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r9",
-      "order": 8,
+      "x": 0.1549,
+      "y": 0.1572,
+      "w": 0.2753,
+      "h": 0.025,
       "words": [
         "Her",
         "eyes",
         "are",
         "shut."
-      ]
+      ],
+      "conf": 96.7035,
+      "source": "psm-11"
     },
     {
-      "text": "They were open. She saw. What did she see?",
-      "x": 0.6,
-      "y": 0.7,
-      "w": 0.35,
-      "h": 0.08,
+      "id": "r6",
+      "order": 5,
+      "text": "What does she see?",
+      "x": 0.5673,
+      "y": 0.1589,
+      "w": 0.3005,
+      "h": 0.0196,
+      "words": [
+        "What",
+        "does",
+        "she",
+        "see?"
+      ],
+      "conf": 95.7522,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "She does not see.",
+      "x": 0.1507,
+      "y": 0.1817,
+      "w": 0.2685,
+      "h": 0.0261,
+      "words": [
+        "She",
+        "does",
+        "not",
+        "see."
+      ],
+      "conf": 96.1419,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "She sees me.",
+      "x": 0.5665,
+      "y": 0.1844,
+      "w": 0.1936,
+      "h": 0.0196,
+      "words": [
+        "She",
+        "sees",
+        "me."
+      ],
+      "conf": 96.5922,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "i see her.",
+      "x": 0.1625,
+      "y": 0.3885,
+      "w": 0.1355,
+      "h": 0.019,
+      "words": [
+        "i",
+        "see",
+        "her."
+      ],
+      "conf": 74.4476,
+      "source": "psm-11"
+    },
+    {
       "id": "r10",
       "order": 9,
+      "text": "I see her.",
+      "x": 0.5825,
+      "y": 0.3885,
+      "w": 0.1355,
+      "h": 0.0201,
+      "words": [
+        "I",
+        "see",
+        "her."
+      ],
+      "conf": 88.6446,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "She does not see me.",
+      "x": 0.1616,
+      "y": 0.4135,
+      "w": 0.3182,
+      "h": 0.0196,
+      "words": [
+        "She",
+        "does",
+        "not",
+        "see",
+        "me."
+      ],
+      "conf": 96.5215,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "Our eyes are open.",
+      "x": 0.5808,
+      "y": 0.4151,
+      "w": 0.2963,
+      "h": 0.0234,
+      "words": [
+        "Our",
+        "eyes",
+        "are",
+        "open."
+      ],
+      "conf": 95.6695,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Her eyes are open.",
+      "x": 0.1549,
+      "y": 0.5664,
+      "w": 0.2904,
+      "h": 0.0234,
+      "words": [
+        "Her",
+        "eyes",
+        "are",
+        "open."
+      ],
+      "conf": 96.3128,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "Her eyes are shui.",
+      "x": 0.6195,
+      "y": 0.5653,
+      "w": 0.2719,
+      "h": 0.0239,
+      "words": [
+        "Her",
+        "eyes",
+        "are",
+        "shui."
+      ],
+      "conf": 95.4029,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "She sees.",
+      "x": 0.1818,
+      "y": 0.6872,
+      "w": 0.1364,
+      "h": 0.0196,
+      "words": [
+        "She",
+        "sees."
+      ],
+      "conf": 95.0849,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "They were open.",
+      "x": 0.6263,
+      "y": 0.6899,
+      "w": 0.2508,
+      "h": 0.0229,
       "words": [
         "They",
         "were",
-        "open.",
+        "open."
+      ],
+      "conf": 96.5732,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "They were shut.",
+      "x": 0.181,
+      "y": 0.7138,
+      "w": 0.2382,
+      "h": 0.0239,
+      "words": [
+        "They",
+        "were",
+        "shut."
+      ],
+      "conf": 96.3929,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "She saw.",
+      "x": 0.6237,
+      "y": 0.7155,
+      "w": 0.133,
+      "h": 0.018,
+      "words": [
         "She",
-        "saw.",
+        "saw."
+      ],
+      "conf": 96.5084,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "She did not see.",
+      "x": 0.181,
+      "y": 0.7394,
+      "w": 0.2416,
+      "h": 0.0196,
+      "words": [
+        "She",
+        "did",
+        "not",
+        "see."
+      ],
+      "conf": 96.0623,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "What did she see?",
+      "x": 0.6237,
+      "y": 0.7394,
+      "w": 0.282,
+      "h": 0.0196,
+      "words": [
         "What",
         "did",
         "she",
         "see?"
-      ]
+      ],
+      "conf": 96.6128,
+      "source": "psm-11"
     },
     {
+      "id": "r21",
+      "order": 20,
+      "text": "She did not see me.",
+      "x": 0.1768,
+      "y": 0.8596,
+      "w": 0.2988,
+      "h": 0.019,
+      "words": [
+        "She",
+        "did",
+        "not",
+        "see",
+        "me."
+      ],
+      "conf": 96.3314,
+      "source": "psm-11"
+    },
+    {
+      "id": "r22",
+      "order": 21,
       "text": "She saw me.",
-      "x": 0.65,
-      "y": 0.87,
-      "w": 0.25,
-      "h": 0.03,
-      "id": "r11",
-      "order": 10,
+      "x": 0.6582,
+      "y": 0.8585,
+      "w": 0.1886,
+      "h": 0.0196,
       "words": [
         "She",
         "saw",
         "me."
-      ]
+      ],
+      "conf": 96.7149,
+      "source": "psm-11"
     }
   ]
 }

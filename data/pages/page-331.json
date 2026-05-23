@@ -4,12 +4,26 @@
   "imageApiPath": "/api/books/page%20331.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 82,
+    "regionCount": 16,
+    "wordCount": 81,
     "imageWidth": 1242,
     "imageHeight": 1875
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3",
+        "r5",
+        "r6"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +32,25 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r4",
+        "r7",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r14"
       ]
     },
     {
@@ -30,46 +61,62 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r13",
+        "r15",
+        "r16"
       ]
     }
   ],
   "regions": [
     {
-      "text": "But people can’t know what any man is saying if they don’t know his language.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "But people can’t know what don’t know his language.",
+      "x": 0.1047,
+      "y": 0.0384,
+      "w": 0.4098,
+      "h": 0.0474,
       "words": [
         "But",
         "people",
         "can’t",
         "know",
         "what",
+        "don’t",
+        "know",
+        "his",
+        "language."
+      ],
+      "conf": 96.1788,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "any man is saying if they",
+      "x": 0.529,
+      "y": 0.0368,
+      "w": 0.3696,
+      "h": 0.0235,
+      "words": [
         "any",
         "man",
         "is",
         "saying",
         "if",
-        "they",
-        "don’t",
-        "know",
-        "his",
-        "language."
-      ]
+        "they"
+      ],
+      "conf": 95.8351,
+      "source": "psm-11"
     },
     {
-      "text": "Up to a hundred years ago few people needed to learn foreign languages because not many people went into foreign countries. Now, the need to learn other people’s languages is becoming greater every day.",
-      "x": 0.1,
-      "y": 0.12,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r2",
-      "order": 1,
+      "id": "r3",
+      "order": 2,
+      "text": "Up to a hundred years ago foreign languages because not foreign countries.",
+      "x": 0.1047,
+      "y": 0.1163,
+      "w": 0.4388,
+      "h": 0.0725,
       "words": [
         "Up",
         "to",
@@ -77,90 +124,238 @@
         "hundred",
         "years",
         "ago",
+        "foreign",
+        "languages",
+        "because",
+        "not",
+        "foreign",
+        "countries."
+      ],
+      "conf": 95.9367,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "few people needed to learn many people went into",
+      "x": 0.5089,
+      "y": 0.1163,
+      "w": 0.3913,
+      "h": 0.0474,
+      "words": [
         "few",
         "people",
         "needed",
         "to",
         "learn",
-        "foreign",
-        "languages",
-        "because",
-        "not",
         "many",
         "people",
         "went",
-        "into",
-        "foreign",
-        "countries.",
+        "into"
+      ],
+      "conf": 95.4009,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "coming greater every day.",
+      "x": 0.1014,
+      "y": 0.2379,
+      "w": 0.3639,
+      "h": 0.0411,
+      "words": [
+        "coming",
+        "greater",
+        "every",
+        "day."
+      ],
+      "conf": 94.0448,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Now, the need to learn other",
+      "x": 0.1047,
+      "y": 0.2197,
+      "w": 0.4243,
+      "h": 0.0197,
+      "words": [
         "Now,",
         "the",
         "need",
         "to",
         "learn",
-        "other",
+        "other"
+      ],
+      "conf": 96.1127,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "people’s languages is be-",
+      "x": 0.5427,
+      "y": 0.2197,
+      "w": 0.3559,
+      "h": 0.0219,
+      "words": [
         "people’s",
         "languages",
         "is",
-        "becoming",
-        "greater",
-        "every",
-        "day."
-      ]
+        "be-"
+      ],
+      "conf": 93.0122,
+      "source": "psm-11"
     },
     {
-      "text": "learn: get knowledge of, be learning. foreign language: a language different from the language of your family. foreign country: a country which is not yours.",
-      "x": 0.1,
-      "y": 0.75,
-      "w": 0.85,
-      "h": 0.12,
-      "id": "r3",
-      "order": 2,
+      "id": "r8",
+      "order": 7,
+      "text": "NY",
+      "x": 0.566,
+      "y": 0.3973,
+      "w": 0.1006,
+      "h": 0.0587,
       "words": [
-        "learn:",
-        "get",
-        "knowledge",
-        "of,",
-        "be",
-        "learning.",
+        "NY"
+      ],
+      "conf": 35.5936,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "foreign language: a language different",
+      "x": 0.0982,
+      "y": 0.7803,
+      "w": 0.4726,
+      "h": 0.0165,
+      "words": [
         "foreign",
         "language:",
         "a",
         "language",
-        "different",
-        "from",
-        "the",
-        "language",
-        "of",
-        "your",
-        "family.",
+        "different"
+      ],
+      "conf": 83.2527,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "learn: get knowledge of; be learning.",
+      "x": 0.0998,
+      "y": 0.7637,
+      "w": 0.4082,
+      "h": 0.016,
+      "words": [
+        "learn:",
+        "get",
+        "knowledge",
+        "of;",
+        "be",
+        "learning."
+      ],
+      "conf": 91.1586,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "foreign country: a country which is not",
+      "x": 0.0974,
+      "y": 0.8155,
+      "w": 0.4332,
+      "h": 0.016,
+      "words": [
         "foreign",
         "country:",
         "a",
         "country",
         "which",
         "is",
-        "not",
-        "yours."
-      ]
+        "not"
+      ],
+      "conf": 91.6766,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will learn. PRESENT: learn(s). PAST: learned, learnt.",
-      "x": 0.1,
-      "y": 0.88,
-      "w": 0.85,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
+      "id": "r12",
+      "order": 11,
+      "text": "family.",
+      "x": 0.1498,
+      "y": 0.7989,
+      "w": 0.0717,
+      "h": 0.0149,
       "words": [
-        "FUTURE:",
+        "family."
+      ],
+      "conf": 63.9034,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "from the languoge of your yours.",
+      "x": 0.5378,
+      "y": 0.7829,
+      "w": 0.3575,
+      "h": 0.0496,
+      "words": [
+        "from",
+        "the",
+        "languoge",
+        "of",
+        "your",
+        "yours."
+      ],
+      "conf": 88.3398,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "will learn",
+      "x": 0.0942,
+      "y": 0.8437,
+      "w": 0.1248,
+      "h": 0.0197,
+      "words": [
         "will",
-        "learn.",
-        "PRESENT:",
-        "learn(s).",
-        "PAST:",
+        "learn"
+      ],
+      "conf": 83.3929,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "(s)",
+      "x": 0.504,
+      "y": 0.8469,
+      "w": 0.0354,
+      "h": 0.016,
+      "words": [
+        "(s)"
+      ],
+      "conf": 79.8856,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "learned, learnt",
+      "x": 0.7013,
+      "y": 0.8464,
+      "w": 0.1916,
+      "h": 0.0197,
+      "words": [
         "learned,",
-        "learnt."
-      ]
+        "learnt"
+      ],
+      "conf": 65.5188,
+      "source": "psm-11"
     }
   ]
 }

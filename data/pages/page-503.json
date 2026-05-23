@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20503.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 78,
+    "regionCount": 14,
+    "wordCount": 120,
     "imageWidth": 1242,
     "imageHeight": 1859
   },
@@ -18,7 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r1",
+        "r3",
+        "r5"
       ]
     },
     {
@@ -29,7 +31,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r4"
       ]
     },
     {
@@ -40,7 +43,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r6",
+        "r9",
+        "r11"
       ]
     },
     {
@@ -51,106 +56,261 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r7",
+        "r8",
+        "r10",
+        "r12",
+        "r13",
+        "r14"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Let's change the scale to 10,000 years. (Diagram: Graph showing a sharp upward turn around 700-400 BC).",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "Let us change our time scale represent years.",
+      "x": 0.0982,
+      "y": 0.0387,
+      "w": 0.4235,
+      "h": 0.0484,
       "words": [
-        "Let's",
+        "Let",
+        "us",
         "change",
-        "the",
+        "our",
+        "time",
         "scale",
-        "to",
-        "10,000",
-        "years.",
-        "(Diagram:",
-        "Graph",
-        "showing",
-        "a",
-        "sharp",
-        "upward",
-        "turn",
-        "around",
-        "700-400",
-        "BC)."
-      ]
+        "represent",
+        "years."
+      ],
+      "conf": 96.3483,
+      "source": "psm-11"
     },
     {
-      "text": "2,500 years ago, people developed clear ideas about themselves and the world. (Illustration: Bust of a Greek philosopher).",
-      "x": 0.1,
-      "y": 0.35,
-      "w": 0.55,
-      "h": 0.25,
       "id": "r2",
       "order": 1,
+      "text": "again and make our line",
+      "x": 0.5354,
+      "y": 0.0382,
+      "w": 0.3567,
+      "h": 0.0226,
       "words": [
-        "2,500",
-        "years",
-        "ago,",
-        "people",
-        "developed",
-        "clear",
-        "ideas",
-        "about",
-        "themselves",
+        "again",
         "and",
-        "the",
-        "world.",
-        "(Illustration:",
-        "Bust",
-        "of",
-        "a",
-        "Greek",
-        "philosopher)."
-      ]
+        "make",
+        "our",
+        "line"
+      ],
+      "conf": 96.4742,
+      "source": "psm-11"
     },
     {
-      "text": "In Greece: The Iliad, Socrates, and Plato. In Palestine: Amos, Hosea, and Isaiah. (Diagram: Stone tablet with biblical text).",
-      "x": 0.1,
-      "y": 0.62,
-      "w": 0.45,
-      "h": 0.22,
       "id": "r3",
       "order": 2,
+      "text": "The next great upward tum twenty-five hundred years ago.",
+      "x": 0.0894,
+      "y": 0.418,
+      "w": 0.4428,
+      "h": 0.058,
       "words": [
-        "In",
-        "Greece:",
         "The",
-        "Iliad,",
-        "Socrates,",
-        "and",
-        "Plato.",
-        "In",
-        "Palestine:",
-        "Amos,",
-        "Hosea,",
-        "and",
-        "Isaiah.",
-        "(Diagram:",
-        "Stone",
-        "tablet",
-        "with",
-        "biblical",
-        "text)."
-      ]
+        "next",
+        "great",
+        "upward",
+        "tum",
+        "twenty-five",
+        "hundred",
+        "years",
+        "ago."
+      ],
+      "conf": 92.2738,
+      "source": "psm-11"
     },
     {
-      "text": "“You may not make for yourselves an image of anything...” (Deuteronomy 5:8). image: a picture or sculpture. FUTURE: will imagine. PRESENT: imagine(s). PAST: imagined.",
-      "x": 0.55,
-      "y": 0.55,
-      "w": 0.4,
-      "h": 0.38,
       "id": "r4",
       "order": 3,
+      "text": "of our curve came some In many different parts then his first full and",
+      "x": 0.5225,
+      "y": 0.4212,
+      "w": 0.3647,
+      "h": 0.077,
+      "words": [
+        "of",
+        "our",
+        "curve",
+        "came",
+        "some",
+        "In",
+        "many",
+        "different",
+        "parts",
+        "then",
+        "his",
+        "first",
+        "full",
+        "and"
+      ],
+      "conf": 96.1497,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "of the earth, Man was discovering",
+      "x": 0.0894,
+      "y": 0.4809,
+      "w": 0.4879,
+      "h": 0.021,
+      "words": [
+        "of",
+        "the",
+        "earth,",
+        "Man",
+        "was",
+        "discovering"
+      ],
+      "conf": 96.2655,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "clear ideas of himself and of his In Greece, the great poem, the Socrates and Plato.",
+      "x": 0.0886,
+      "y": 0.5067,
+      "w": 0.4283,
+      "h": 0.0835,
+      "words": [
+        "clear",
+        "ideas",
+        "of",
+        "himself",
+        "and",
+        "of",
+        "his",
+        "In",
+        "Greece,",
+        "the",
+        "great",
+        "poem,",
+        "the",
+        "Socrates",
+        "and",
+        "Plato."
+      ],
+      "conf": 96.5442,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "world.",
+      "x": 0.5242,
+      "y": 0.5073,
+      "w": 0.0886,
+      "h": 0.0172,
+      "words": [
+        "world."
+      ],
+      "conf": 96.6316,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Iliad, and",
+      "x": 0.5242,
+      "y": 0.5465,
+      "w": 0.1361,
+      "h": 0.0194,
+      "words": [
+        "Iliad,",
+        "and"
+      ],
+      "conf": 86.3612,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "In Palestine, Amos, Hosea and",
+      "x": 0.0878,
+      "y": 0.6116,
+      "w": 0.4227,
+      "h": 0.0199,
+      "words": [
+        "In",
+        "Palestine,",
+        "Amos,",
+        "Hosea",
+        "and"
+      ],
+      "conf": 96.2199,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Isaiah.",
+      "x": 0.5177,
+      "y": 0.6122,
+      "w": 0.0918,
+      "h": 0.0172,
+      "words": [
+        "Isaiah."
+      ],
+      "conf": 96.0248,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "You MAY NOT E for an IMAGE of any THING in the SKY or ON EARTH or inthe WATERS under the EARTH image: picture or sculpture representing",
+      "x": 0.0853,
+      "y": 0.6391,
+      "w": 0.4388,
+      "h": 0.2334,
+      "words": [
+        "You",
+        "MAY",
+        "NOT",
+        "E",
+        "for",
+        "an",
+        "IMAGE",
+        "of",
+        "any",
+        "THING",
+        "in",
+        "the",
+        "SKY",
+        "or",
+        "ON",
+        "EARTH",
+        "or",
+        "inthe",
+        "WATERS",
+        "under",
+        "the",
+        "EARTH",
+        "image:",
+        "picture",
+        "or",
+        "sculpture",
+        "representing"
+      ],
+      "conf": 79.3172,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "“You may not make for yourselves an image of anything in the sky or on earth or in the waters un- der the earth.”",
+      "x": 0.5201,
+      "y": 0.6374,
+      "w": 0.3631,
+      "h": 0.1222,
       "words": [
         "“You",
         "may",
@@ -161,22 +321,52 @@
         "an",
         "image",
         "of",
-        "anything...”",
-        "(Deuteronomy",
-        "5:8).",
-        "image:",
-        "a",
-        "picture",
+        "anything",
+        "in",
+        "the",
+        "sky",
         "or",
-        "sculpture.",
-        "FUTURE:",
-        "will",
-        "imagine.",
-        "PRESENT:",
-        "imagine(s).",
-        "PAST:",
-        "imagined."
-      ]
+        "on",
+        "earth",
+        "or",
+        "in",
+        "the",
+        "waters",
+        "un-",
+        "der",
+        "the",
+        "earth.”"
+      ],
+      "conf": 96.6828,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "(Deuteronomy,",
+      "x": 0.5878,
+      "y": 0.7687,
+      "w": 0.2118,
+      "h": 0.021,
+      "words": [
+        "(Deuteronomy,"
+      ],
+      "conf": 96.2237,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "something.",
+      "x": 0.533,
+      "y": 0.8575,
+      "w": 0.1167,
+      "h": 0.0151,
+      "words": [
+        "something."
+      ],
+      "conf": 95.6463,
+      "source": "psm-11"
     }
   ]
 }

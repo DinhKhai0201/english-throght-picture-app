@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20266.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 49,
+    "regionCount": 14,
+    "wordCount": 56,
     "imageWidth": 1188,
     "imageHeight": 1838
   },
@@ -18,7 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r3",
+        "r4"
       ]
     },
     {
@@ -29,6 +30,7 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r1",
         "r2"
       ]
     },
@@ -40,7 +42,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r5",
+        "r8",
+        "r9",
+        "r14"
       ]
     },
     {
@@ -51,19 +56,60 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r6",
+        "r7",
+        "r10",
+        "r11",
+        "r12",
+        "r13"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Which of these is a high building? What is the other?",
-      "x": 0.1,
-      "y": 0.2,
-      "w": 0.25,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "What is the opposite of narrow?",
+      "x": 0.5219,
+      "y": 0.1159,
+      "w": 0.3544,
+      "h": 0.0436,
+      "words": [
+        "What",
+        "is",
+        "the",
+        "opposite",
+        "of",
+        "narrow?"
+      ],
+      "conf": 90.5122,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Is this street narrow?",
+      "x": 0.5227,
+      "y": 0.1654,
+      "w": 0.3072,
+      "h": 0.019,
+      "words": [
+        "Is",
+        "this",
+        "street",
+        "narrow?"
+      ],
+      "conf": 95.7636,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Which of these is a high building? What is the other?",
+      "x": 0.1069,
+      "y": 0.2198,
+      "w": 0.2348,
+      "h": 0.0946,
       "words": [
         "Which",
         "of",
@@ -76,78 +122,187 @@
         "is",
         "the",
         "other?"
-      ]
+      ],
+      "conf": 93.9551,
+      "source": "psm-11"
     },
     {
-      "text": "What is the opposite of narrow? Is this street narrow?",
-      "x": 0.52,
-      "y": 0.12,
-      "w": 0.4,
-      "h": 0.1,
-      "id": "r2",
-      "order": 1,
+      "id": "r4",
+      "order": 3,
+      "text": "OC.",
+      "x": 0.1633,
+      "y": 0.3852,
+      "w": 0.037,
+      "h": 0.0223,
       "words": [
-        "What",
-        "is",
-        "the",
-        "opposite",
-        "of",
-        "narrow?",
-        "Is",
-        "this",
-        "street",
-        "narrow?"
-      ]
+        "OC."
+      ],
+      "conf": 37.8615,
+      "source": "psm-11"
     },
     {
-      "text": "Up is the opposite of down. In is the opposite of out. OUT IN OUT OUT",
-      "x": 0.1,
-      "y": 0.5,
-      "w": 0.38,
-      "h": 0.4,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "Up is the",
+      "x": 0.1574,
+      "y": 0.5092,
+      "w": 0.0774,
+      "h": 0.043,
       "words": [
         "Up",
         "is",
-        "the",
+        "the"
+      ],
+      "conf": 96.9861,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "TO FROM TO FROM",
+      "x": 0.5918,
+      "y": 0.5441,
+      "w": 0.2719,
+      "h": 0.1517,
+      "words": [
+        "TO",
+        "FROM",
+        "TO",
+        "FROM"
+      ],
+      "conf": 95.2059,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "FROM",
+      "x": 0.5926,
+      "y": 0.5582,
+      "w": 0.0909,
+      "h": 0.0185,
+      "words": [
+        "FROM"
+      ],
+      "conf": 96.4556,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "opposite of own.",
+      "x": 0.3056,
+      "y": 0.6017,
+      "w": 0.17,
+      "h": 0.0431,
+      "words": [
         "opposite",
         "of",
-        "down.",
+        "own."
+      ],
+      "conf": 96.1378,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "In is the opposite of out.",
+      "x": 0.1094,
+      "y": 0.6616,
+      "w": 0.3653,
+      "h": 0.0201,
+      "words": [
         "In",
         "is",
         "the",
         "opposite",
         "of",
-        "out.",
-        "OUT",
-        "IN",
-        "OUT",
-        "OUT"
-      ]
+        "out."
+      ],
+      "conf": 89.4409,
+      "source": "psm-11"
     },
     {
-      "text": "To is the opposite of from. Pleasure is the opposite of pain.",
-      "x": 0.52,
-      "y": 0.72,
-      "w": 0.4,
-      "h": 0.15,
-      "id": "r4",
-      "order": 3,
+      "id": "r10",
+      "order": 9,
+      "text": "TO",
+      "x": 0.7088,
+      "y": 0.6676,
+      "w": 0.0455,
+      "h": 0.018,
+      "words": [
+        "TO"
+      ],
+      "conf": 94.6013,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "FROM",
+      "x": 0.7702,
+      "y": 0.6523,
+      "w": 0.0918,
+      "h": 0.018,
+      "words": [
+        "FROM"
+      ],
+      "conf": 92.0938,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "To is the opposite of from.",
+      "x": 0.5152,
+      "y": 0.7209,
+      "w": 0.3872,
+      "h": 0.0245,
       "words": [
         "To",
         "is",
         "the",
         "opposite",
         "of",
-        "from.",
+        "from."
+      ],
+      "conf": 93.3428,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Pleasure is the opposite of pain.",
+      "x": 0.5328,
+      "y": 0.7998,
+      "w": 0.3443,
+      "h": 0.0489,
+      "words": [
         "Pleasure",
         "is",
         "the",
         "opposite",
         "of",
         "pain."
-      ]
+      ],
+      "conf": 95.8616,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "OUT out out",
+      "x": 0.1625,
+      "y": 0.8281,
+      "w": 0.2407,
+      "h": 0.0576,
+      "words": [
+        "OUT",
+        "out",
+        "out"
+      ],
+      "conf": 95.4087,
+      "source": "psm-11"
     }
   ]
 }

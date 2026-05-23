@@ -2,68 +2,43 @@
   "page": 210,
   "image": "/books/page 210.png",
   "imageApiPath": "/api/books/page%20210.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
+    "regionCount": 9,
     "wordCount": 69,
     "imageWidth": 1134,
     "imageHeight": 1846
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9"
       ]
     }
   ],
   "regions": [
     {
-      "text": "The pull of the cord in my hand kept the weight from going off in a straight line.",
-      "x": 0.1,
-      "y": 0.13,
-      "w": 0.38,
-      "h": 0.12,
       "id": "r1",
       "order": 0,
+      "text": "The pull of the cord in my hand kept the weight from going off in a straight line.",
+      "x": 0.1005,
+      "y": 0.1425,
+      "w": 0.3545,
+      "h": 0.1029,
       "words": [
         "The",
         "pull",
@@ -83,20 +58,35 @@
         "a",
         "straight",
         "line."
-      ]
+      ],
+      "conf": 96.553,
+      "source": "psm-11"
     },
     {
-      "text": "The attraction between the earth and the moon keeps the moon from going off in a straight line.",
-      "x": 0.52,
-      "y": 0.13,
-      "w": 0.4,
-      "h": 0.12,
       "id": "r2",
       "order": 1,
+      "text": "The attraction between",
+      "x": 0.5265,
+      "y": 0.1289,
+      "w": 0.366,
+      "h": 0.0417,
       "words": [
         "The",
         "attraction",
-        "between",
+        "between"
+      ],
+      "conf": 94.9153,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "the earth and the moon keeps the moon from",
+      "x": 0.5212,
+      "y": 0.1587,
+      "w": 0.3756,
+      "h": 0.0688,
+      "words": [
         "the",
         "earth",
         "and",
@@ -105,23 +95,90 @@
         "keeps",
         "the",
         "moon",
-        "from",
+        "from"
+      ],
+      "conf": 92.033,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "going off in a straight line.",
+      "x": 0.5229,
+      "y": 0.2194,
+      "w": 0.351,
+      "h": 0.0499,
+      "words": [
         "going",
         "off",
         "in",
         "a",
         "straight",
         "line."
-      ]
+      ],
+      "conf": 93.3438,
+      "source": "psm-11"
     },
     {
+      "id": "r5",
+      "order": 4,
+      "text": "It does not get farther",
+      "x": 0.5547,
+      "y": 0.5775,
+      "w": 0.3457,
+      "h": 0.0238,
+      "words": [
+        "It",
+        "does",
+        "not",
+        "get",
+        "farther"
+      ],
+      "conf": 92.9737,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "om the earth",
+      "x": 0.672,
+      "y": 0.6067,
+      "w": 0.2011,
+      "h": 0.019,
+      "words": [
+        "om",
+        "the",
+        "earth"
+      ],
+      "conf": 89.3821,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "OF nearer to the earth.",
+      "x": 0.5291,
+      "y": 0.7124,
+      "w": 0.3563,
+      "h": 0.0211,
+      "words": [
+        "OF",
+        "nearer",
+        "to",
+        "the",
+        "earth."
+      ],
+      "conf": 89.4685,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
       "text": "The moon goes round and round the earth month after month",
-      "x": 0.08,
-      "y": 0.78,
-      "w": 0.38,
-      "h": 0.12,
-      "id": "r3",
-      "order": 2,
+      "x": 0.0732,
+      "y": 0.7914,
+      "w": 0.3563,
+      "h": 0.0743,
       "words": [
         "The",
         "moon",
@@ -134,30 +191,19 @@
         "month",
         "after",
         "month"
-      ]
+      ],
+      "conf": 96.6643,
+      "source": "psm-11"
     },
     {
-      "text": "It does not get farther from the earth or nearer to the earth. It keeps about the same distance from the earth.",
-      "x": 0.52,
-      "y": 0.58,
-      "w": 0.4,
-      "h": 0.3,
-      "id": "r4",
-      "order": 3,
+      "id": "r9",
+      "order": 8,
+      "text": "It keeps about the same distance from the earth",
+      "x": 0.5159,
+      "y": 0.8174,
+      "w": 0.3809,
+      "h": 0.045,
       "words": [
-        "It",
-        "does",
-        "not",
-        "get",
-        "farther",
-        "from",
-        "the",
-        "earth",
-        "or",
-        "nearer",
-        "to",
-        "the",
-        "earth.",
         "It",
         "keeps",
         "about",
@@ -166,8 +212,10 @@
         "distance",
         "from",
         "the",
-        "earth."
-      ]
+        "earth"
+      ],
+      "conf": 96.4269,
+      "source": "psm-11"
     }
   ]
 }

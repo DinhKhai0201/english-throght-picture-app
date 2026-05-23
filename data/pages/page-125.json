@@ -2,67 +2,115 @@
   "page": 125,
   "image": "/books/page 125.png",
   "imageApiPath": "/api/books/page%20125.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 9,
-    "wordCount": 111,
+    "regionCount": 13,
+    "wordCount": 112,
     "imageWidth": 1275,
     "imageHeight": 1863
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
         "r3",
-        "r4",
         "r5",
-        "r6",
         "r7",
-        "r8",
+        "r8"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4",
+        "r6",
         "r9"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r12"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r11",
+        "r13"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Answers to questions on page 117.",
-      "x": 0.25,
-      "y": 0.12,
-      "w": 0.5,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "Answers fo questions",
+      "x": 0.2698,
+      "y": 0.1181,
+      "w": 0.3027,
+      "h": 0.0247,
       "words": [
         "Answers",
-        "to",
-        "questions",
-        "on",
-        "page",
-        "117."
-      ]
+        "fo",
+        "questions"
+      ],
+      "conf": 96.4635,
+      "source": "psm-11"
     },
     {
-      "text": "They are in a store. It is a clothing store. She has two dresses in her hands.",
-      "x": 0.14,
-      "y": 0.19,
-      "w": 0.35,
-      "h": 0.12,
       "id": "r2",
       "order": 1,
+      "text": "on page",
+      "x": 0.5851,
+      "y": 0.1235,
+      "w": 0.1224,
+      "h": 0.0188,
       "words": [
+        "on",
+        "page"
+      ],
+      "conf": 96.7463,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "a They are in-a store. ff is a clothing store. She has two dresses in her hands.",
+      "x": 0.1176,
+      "y": 0.1932,
+      "w": 0.3545,
+      "h": 0.0978,
+      "words": [
+        "a",
         "They",
         "are",
-        "in",
-        "a",
+        "in-a",
         "store.",
-        "It",
+        "ff",
         "is",
         "a",
         "clothing",
@@ -74,17 +122,20 @@
         "in",
         "her",
         "hands."
-      ]
+      ],
+      "conf": 85.0459,
+      "source": "psm-11"
     },
     {
-      "text": "These are shoes (women's shoes) and stockings and gloves.",
-      "x": 0.58,
-      "y": 0.19,
-      "w": 0.35,
-      "h": 0.1,
-      "id": "r3",
-      "order": 2,
+      "id": "r4",
+      "order": 3,
+      "text": "b These are shoes (women's shoes) and stockings and gloves",
+      "x": 0.5427,
+      "y": 0.1922,
+      "w": 0.3357,
+      "h": 0.0768,
       "words": [
+        "b",
         "These",
         "are",
         "shoes",
@@ -93,17 +144,19 @@
         "and",
         "stockings",
         "and",
-        "gloves."
-      ]
+        "gloves"
+      ],
+      "conf": 95.5494,
+      "source": "psm-11"
     },
     {
-      "text": "The girl is putting her hand up to the apple. It is on a branch of an apple tree.",
-      "x": 0.14,
-      "y": 0.33,
-      "w": 0.35,
-      "h": 0.12,
-      "id": "r4",
-      "order": 3,
+      "id": "r5",
+      "order": 4,
+      "text": "The girl is putting her hand up to the apple.",
+      "x": 0.1498,
+      "y": 0.329,
+      "w": 0.3184,
+      "h": 0.051,
       "words": [
         "The",
         "girl",
@@ -114,27 +167,21 @@
         "up",
         "to",
         "the",
-        "apple.",
-        "It",
-        "is",
-        "on",
-        "a",
-        "branch",
-        "of",
-        "an",
-        "apple",
-        "tree."
-      ]
+        "apple."
+      ],
+      "conf": 96.182,
+      "source": "psm-11"
     },
     {
-      "text": "She will put it in her basket. Before she took the apple it was on the tree.",
-      "x": 0.58,
-      "y": 0.33,
-      "w": 0.35,
-      "h": 0.12,
-      "id": "r5",
-      "order": 4,
+      "id": "r6",
+      "order": 5,
+      "text": "d She will put it in her basket. Before she took the apple it was on the tree.",
+      "x": 0.5412,
+      "y": 0.3285,
+      "w": 0.3373,
+      "h": 0.1004,
       "words": [
+        "d",
         "She",
         "will",
         "put",
@@ -152,20 +199,73 @@
         "on",
         "the",
         "tree."
-      ]
+      ],
+      "conf": 95.933,
+      "source": "psm-11"
     },
     {
-      "text": "Bread, butter, milk, cheese, meat, eggs, and fruit are different sorts of food.",
-      "x": 0.14,
-      "y": 0.47,
-      "w": 0.35,
-      "h": 0.12,
-      "id": "r6",
-      "order": 5,
+      "id": "r7",
+      "order": 6,
+      "text": "It is on a branch of an apple tree.",
+      "x": 0.149,
+      "y": 0.3806,
+      "w": 0.3185,
+      "h": 0.0504,
+      "words": [
+        "It",
+        "is",
+        "on",
+        "a",
+        "branch",
+        "of",
+        "an",
+        "apple",
+        "tree."
+      ],
+      "conf": 94.7416,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Bread, butter, milk,",
+      "x": 0.1506,
+      "y": 0.4654,
+      "w": 0.2855,
+      "h": 0.0242,
       "words": [
         "Bread,",
         "butter,",
-        "milk,",
+        "milk,"
+      ],
+      "conf": 96.666,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Cows, pigs, sheep,",
+      "x": 0.578,
+      "y": 0.4654,
+      "w": 0.2682,
+      "h": 0.0252,
+      "words": [
+        "Cows,",
+        "pigs,",
+        "sheep,"
+      ],
+      "conf": 96.6141,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "cheese, meat, eggs, and fruit are different sorts.of food,",
+      "x": 0.1498,
+      "y": 0.4928,
+      "w": 0.3192,
+      "h": 0.0714,
+      "words": [
         "cheese,",
         "meat,",
         "eggs,",
@@ -173,23 +273,21 @@
         "fruit",
         "are",
         "different",
-        "sorts",
-        "of",
-        "food."
-      ]
+        "sorts.of",
+        "food,"
+      ],
+      "conf": 96.3588,
+      "source": "psm-11"
     },
     {
-      "text": "Cows, pigs, sheep, goats, and horses are different sorts of animals.",
-      "x": 0.58,
-      "y": 0.47,
-      "w": 0.35,
-      "h": 0.12,
-      "id": "r7",
-      "order": 6,
+      "id": "r11",
+      "order": 10,
+      "text": "goats, and horses are different sorts of animals.",
+      "x": 0.5765,
+      "y": 0.4922,
+      "w": 0.3176,
+      "h": 0.0709,
       "words": [
-        "Cows,",
-        "pigs,",
-        "sheep,",
         "goats,",
         "and",
         "horses",
@@ -198,16 +296,18 @@
         "sorts",
         "of",
         "animals."
-      ]
+      ],
+      "conf": 96.4462,
+      "source": "psm-11"
     },
     {
+      "id": "r12",
+      "order": 11,
       "text": "Apples and oranges are different sorts of fruit.",
-      "x": 0.14,
-      "y": 0.62,
-      "w": 0.35,
-      "h": 0.08,
-      "id": "r8",
-      "order": 7,
+      "x": 0.1475,
+      "y": 0.6146,
+      "w": 0.2964,
+      "h": 0.0704,
       "words": [
         "Apples",
         "and",
@@ -217,17 +317,20 @@
         "sorts",
         "of",
         "fruit."
-      ]
+      ],
+      "conf": 92.1676,
+      "source": "psm-11"
     },
     {
-      "text": "Men, women, boys, girls, and babies are different sorts of persons.",
-      "x": 0.58,
-      "y": 0.62,
-      "w": 0.35,
-      "h": 0.12,
-      "id": "r9",
-      "order": 8,
+      "id": "r13",
+      "order": 12,
+      "text": "h Men, women, boys, girls, and babies are different sorts of persons,",
+      "x": 0.5388,
+      "y": 0.6125,
+      "w": 0.3365,
+      "h": 0.102,
       "words": [
+        "h",
         "Men,",
         "women,",
         "boys,",
@@ -238,8 +341,10 @@
         "different",
         "sorts",
         "of",
-        "persons."
-      ]
+        "persons,"
+      ],
+      "conf": 95.6586,
+      "source": "psm-11"
     }
   ]
 }

@@ -2,102 +2,100 @@
   "page": 259,
   "image": "/books/page 259.png",
   "imageApiPath": "/api/books/page%20259.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 88,
+    "regionCount": 10,
+    "wordCount": 89,
     "imageWidth": 1242,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Noises and songs are sounds. What are sounds? They are the effects of waves in the air. These are waves in the sea.",
-      "x": 0.12,
-      "y": 0.14,
-      "w": 0.35,
-      "h": 0.35,
       "id": "r1",
       "order": 0,
+      "text": "Noises and songs are sounds.",
+      "x": 0.124,
+      "y": 0.1447,
+      "w": 0.2528,
+      "h": 0.0436,
       "words": [
         "Noises",
         "and",
         "songs",
         "are",
-        "sounds.",
+        "sounds."
+      ],
+      "conf": 91.5282,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "What are sounds?",
+      "x": 0.124,
+      "y": 0.1942,
+      "w": 0.2649,
+      "h": 0.0188,
+      "words": [
         "What",
         "are",
-        "sounds?",
+        "sounds?"
+      ],
+      "conf": 96.5047,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "They are the effects of woves in the air.",
+      "x": 0.1232,
+      "y": 0.2189,
+      "w": 0.3245,
+      "h": 0.0442,
+      "words": [
         "They",
         "are",
         "the",
         "effects",
         "of",
-        "waves",
+        "woves",
         "in",
         "the",
-        "air.",
-        "These",
-        "are",
-        "waves",
-        "in",
-        "the",
-        "sea."
-      ]
+        "air."
+      ],
+      "conf": 96.5638,
+      "source": "psm-11"
     },
     {
-      "text": "These are waves in a cord. One end of the cord is fixed to a tree and the boy has the other end. He is shaking it up and down.",
-      "x": 0.52,
-      "y": 0.24,
-      "w": 0.4,
-      "h": 0.2,
-      "id": "r2",
-      "order": 1,
+      "id": "r4",
+      "order": 3,
+      "text": "These are waves in a cord. One.end of the cord is fixed to a tree and the boy has the other end. He is shaking it up and down,,",
+      "x": 0.5169,
+      "y": 0.2356,
+      "w": 0.3567,
+      "h": 0.1479,
       "words": [
         "These",
         "are",
@@ -105,8 +103,7 @@
         "in",
         "a",
         "cord.",
-        "One",
-        "end",
+        "One.end",
         "of",
         "the",
         "cord",
@@ -128,17 +125,78 @@
         "it",
         "up",
         "and",
-        "down."
-      ]
+        "down,,"
+      ],
+      "conf": 87.7989,
+      "source": "psm-11"
     },
     {
-      "text": "With every shake he sends a wave down the cord to the tree.",
-      "x": 0.12,
-      "y": 0.65,
-      "w": 0.35,
-      "h": 0.1,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "These are waves in the sea.",
+      "x": 0.1135,
+      "y": 0.4287,
+      "w": 0.3068,
+      "h": 0.0485,
+      "words": [
+        "These",
+        "are",
+        "waves",
+        "in",
+        "the",
+        "sea."
+      ],
+      "conf": 96.7611,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Wy, leno”",
+      "x": 0.0789,
+      "y": 0.5229,
+      "w": 0.3269,
+      "h": 0.0489,
+      "words": [
+        "Wy,",
+        "leno”"
+      ],
+      "conf": 52.0966,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "As the wave goes down the cord this part, which was up,",
+      "x": 0.5169,
+      "y": 0.5105,
+      "w": 0.3382,
+      "h": 0.0737,
+      "words": [
+        "As",
+        "the",
+        "wave",
+        "goes",
+        "down",
+        "the",
+        "cord",
+        "this",
+        "part,",
+        "which",
+        "was",
+        "up,"
+      ],
+      "conf": 92.3667,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "With every shake he sends a wave down the cord to the tree,",
+      "x": 0.1103,
+      "y": 0.6525,
+      "w": 0.3406,
+      "h": 0.0888,
       "words": [
         "With",
         "every",
@@ -152,41 +210,46 @@
         "cord",
         "to",
         "the",
-        "tree."
-      ]
+        "tree,"
+      ],
+      "conf": 96.5561,
+      "source": "psm-11"
     },
     {
-      "text": "As the wave goes down the cord this part, which was up, goes down. And this part, which was down, goes up.",
-      "x": 0.51,
-      "y": 0.52,
-      "w": 0.4,
-      "h": 0.25,
-      "id": "r4",
-      "order": 3,
+      "id": "r9",
+      "order": 8,
+      "text": "goes down. And which was down,",
+      "x": 0.6087,
+      "y": 0.6563,
+      "w": 0.2528,
+      "h": 0.0763,
       "words": [
-        "As",
-        "the",
-        "wave",
-        "goes",
-        "down",
-        "the",
-        "cord",
-        "this",
-        "part,",
-        "which",
-        "was",
-        "up,",
         "goes",
         "down.",
         "And",
-        "this",
-        "part,",
         "which",
         "was",
-        "down,",
+        "down,"
+      ],
+      "conf": 96.3455,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "this part, goes up.",
+      "x": 0.6079,
+      "y": 0.688,
+      "w": 0.1288,
+      "h": 0.0731,
+      "words": [
+        "this",
+        "part,",
         "goes",
         "up."
-      ]
+      ],
+      "conf": 96.6447,
+      "source": "psm-11"
     }
   ]
 }

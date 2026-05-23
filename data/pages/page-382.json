@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20382.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 116,
+    "regionCount": 18,
+    "wordCount": 136,
     "imageWidth": 1250,
     "imageHeight": 1830
   },
@@ -18,7 +18,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r2",
+        "r4",
+        "r5"
       ]
     },
     {
@@ -29,7 +32,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r3",
+        "r6"
       ]
     },
     {
@@ -40,7 +44,13 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r7",
+        "r10",
+        "r11",
+        "r13",
+        "r15",
+        "r16",
+        "r17"
       ]
     },
     {
@@ -51,19 +61,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r8",
+        "r9",
+        "r12",
+        "r14",
+        "r18"
       ]
     }
   ],
   "regions": [
     {
-      "text": "To see if he was right about the motion of the light, Galileo put his fingers on his wrist. He timed the motion of the light as it went forward and back on its chain, measuring it by his pulse rate.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.45,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "To see if he was right about the motion of the light, Gali- leo put his fingers on his wrist. He timed the motion of the light as it went forward and back on its chain, meas- uring it by his pulse rate,",
+      "x": 0.096,
+      "y": 0.0995,
+      "w": 0.4,
+      "h": 0.1869,
       "words": [
         "To",
         "see",
@@ -77,7 +91,8 @@
         "of",
         "the",
         "light,",
-        "Galileo",
+        "Gali-",
+        "leo",
         "put",
         "his",
         "fingers",
@@ -100,22 +115,25 @@
         "on",
         "its",
         "chain,",
-        "measuring",
+        "meas-",
+        "uring",
         "it",
         "by",
         "his",
         "pulse",
-        "rate."
-      ]
+        "rate,"
+      ],
+      "conf": 96.6543,
+      "source": "psm-11"
     },
     {
-      "text": "He was right. He had the proof. He could prove that the time was the same, however short or long the journey of the light through the air was.",
-      "x": 0.1,
-      "y": 0.35,
-      "w": 0.85,
-      "h": 0.1,
       "id": "r2",
       "order": 1,
+      "text": "He was right. He had the proof.",
+      "x": 0.0992,
+      "y": 0.3437,
+      "w": 0.4448,
+      "h": 0.023,
       "words": [
         "He",
         "was",
@@ -123,98 +141,304 @@
         "He",
         "had",
         "the",
-        "proof.",
+        "proof."
+      ],
+      "conf": 96.5597,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "He could prove that the short or long the journey of Galileo had made a great a pendu- discovery",
+      "x": 0.5024,
+      "y": 0.3443,
+      "w": 0.3872,
+      "h": 0.1284,
+      "words": [
         "He",
         "could",
         "prove",
         "that",
         "the",
-        "time",
-        "was",
-        "the",
-        "same,",
-        "however",
         "short",
         "or",
         "long",
         "the",
         "journey",
         "of",
+        "Galileo",
+        "had",
+        "made",
+        "a",
+        "great",
+        "a",
+        "pendu-",
+        "discovery"
+      ],
+      "conf": 96.5755,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "time was the same, however the light through the air was.",
+      "x": 0.0992,
+      "y": 0.371,
+      "w": 0.4144,
+      "h": 0.0487,
+      "words": [
+        "time",
+        "was",
+        "the",
+        "same,",
+        "however",
         "the",
         "light",
         "through",
         "the",
         "air",
         "was."
-      ]
+      ],
+      "conf": 96.4563,
+      "source": "psm-11"
     },
     {
-      "text": "Galileo had made a great discovery about the motion of a pendulum. This discovery made possible a better instrument for measuring time—the pendulum clock.",
-      "x": 0.1,
-      "y": 0.45,
-      "w": 0.6,
-      "h": 0.25,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "discovery about the motion of lum. Among other things this made possible a better instrument",
+      "x": 0.1008,
+      "y": 0.4246,
+      "w": 0.4952,
+      "h": 0.0754,
       "words": [
-        "Galileo",
-        "had",
-        "made",
-        "a",
-        "great",
         "discovery",
         "about",
         "the",
         "motion",
         "of",
-        "a",
-        "pendulum.",
-        "This",
-        "discovery",
+        "lum.",
+        "Among",
+        "other",
+        "things",
+        "this",
         "made",
         "possible",
         "a",
         "better",
-        "instrument",
-        "for",
-        "measuring",
-        "time—the",
-        "pendulum",
-        "clock."
-      ]
+        "instrument"
+      ],
+      "conf": 96.5585,
+      "source": "psm-11"
     },
     {
-      "text": "proof: making clear something is so. timed: measured time. prove: give proof. pendulum: hanging weight. FUTURE: will prove/time. PRESENT: prove(s)/time(s). PAST: proved/timed.",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r4",
-      "order": 3,
+      "id": "r6",
+      "order": 5,
+      "text": "for",
+      "x": 0.6104,
+      "y": 0.4781,
+      "w": 0.0424,
+      "h": 0.0169,
       "words": [
-        "proof:",
-        "making",
+        "for"
+      ],
+      "conf": 96.2924,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "measuring time—the pendulum",
+      "x": 0.1016,
+      "y": 0.5044,
+      "w": 0.4216,
+      "h": 0.0224,
+      "words": [
+        "measuring",
+        "time—the",
+        "pendulum"
+      ],
+      "conf": 93.9701,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "clock.",
+      "x": 0.5304,
+      "y": 0.5038,
+      "w": 0.0824,
+      "h": 0.0186,
+      "words": [
+        "clock."
+      ],
+      "conf": 95.8055,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Qn,",
+      "x": 0.6952,
+      "y": 0.6492,
+      "w": 0.0552,
+      "h": 0.0137,
+      "words": [
+        "Qn,"
+      ],
+      "conf": 43.896,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "proof; that which makes clear thot something pendulum: hanging weight free to move",
+      "x": 0.1,
+      "y": 0.7803,
+      "w": 0.488,
+      "h": 0.0694,
+      "words": [
+        "proof;",
+        "that",
+        "which",
+        "makes",
         "clear",
+        "thot",
         "something",
-        "is",
-        "so.",
-        "timed:",
-        "measured",
-        "time.",
-        "prove:",
-        "give",
-        "proof.",
         "pendulum:",
         "hanging",
-        "weight.",
-        "FUTURE:",
+        "weight",
+        "free",
+        "to",
+        "move"
+      ],
+      "conf": 91.2981,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "timed: measured the time token by.",
+      "x": 0.1008,
+      "y": 0.7984,
+      "w": 0.3864,
+      "h": 0.0158,
+      "words": [
+        "timed:",
+        "measured",
+        "the",
+        "time",
+        "token",
+        "by."
+      ],
+      "conf": 94.8252,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "is so.",
+      "x": 0.596,
+      "y": 0.7809,
+      "w": 0.0528,
+      "h": 0.0131,
+      "words": [
+        "is",
+        "so."
+      ],
+      "conf": 87.144,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "prove: give proof,",
+      "x": 0.1016,
+      "y": 0.8164,
+      "w": 0.204,
+      "h": 0.0153,
+      "words": [
+        "prove:",
+        "give",
+        "proof,"
+      ],
+      "conf": 92.67,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "from side to side,",
+      "x": 0.5576,
+      "y": 0.8333,
+      "w": 0.1896,
+      "h": 0.0142,
+      "words": [
+        "from",
+        "side",
+        "to",
+        "side,"
+      ],
+      "conf": 92.8359,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "will time",
+      "x": 0.1,
+      "y": 0.8831,
+      "w": 0.1056,
+      "h": 0.0126,
+      "words": [
         "will",
-        "prove/time.",
-        "PRESENT:",
-        "prove(s)/time(s).",
-        "PAST:",
-        "proved/timed."
-      ]
+        "time"
+      ],
+      "conf": 95.9363,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "will prove",
+      "x": 0.1008,
+      "y": 0.865,
+      "w": 0.1216,
+      "h": 0.0158,
+      "words": [
+        "will",
+        "prove"
+      ],
+      "conf": 96.1339,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "prove(s) time(s)",
+      "x": 0.4384,
+      "y": 0.865,
+      "w": 0.1096,
+      "h": 0.035,
+      "words": [
+        "prove(s)",
+        "time(s)"
+      ],
+      "conf": 71.853,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "proved",
+      "x": 0.804,
+      "y": 0.8639,
+      "w": 0.0864,
+      "h": 0.0169,
+      "words": [
+        "proved"
+      ],
+      "conf": 96.1868,
+      "source": "psm-11"
     }
   ]
 }

@@ -2,100 +2,59 @@
   "page": 69,
   "image": "/books/page 69.png",
   "imageApiPath": "/api/books/page%2069.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 6,
-    "wordCount": 27,
+    "regionCount": 4,
+    "wordCount": 22,
     "imageWidth": 1134,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
         "r2",
-        "r3"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r3",
         "r4"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r5"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r6"
       ]
     }
   ],
   "regions": [
     {
-      "text": "She saw it.",
-      "x": 0.08,
-      "y": 0.08,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "She saw it When did she see it?",
+      "x": 0.0723,
+      "y": 0.0834,
+      "w": 0.3342,
+      "h": 0.0452,
       "words": [
         "She",
         "saw",
-        "it."
-      ]
-    },
-    {
-      "text": "When did she see it?",
-      "x": 0.08,
-      "y": 0.11,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r2",
-      "order": 1,
-      "words": [
+        "it",
         "When",
         "did",
         "she",
         "see",
         "it?"
-      ]
+      ],
+      "conf": 95.2783,
+      "source": "psm-11"
     },
     {
-      "text": "She saw it after she went to the table.",
-      "x": 0.08,
-      "y": 0.14,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r3",
-      "order": 2,
+      "id": "r2",
+      "order": 1,
+      "text": "She saw it after she went to the table",
+      "x": 0.0705,
+      "y": 0.135,
+      "w": 0.3986,
+      "h": 0.0441,
       "words": [
         "She",
         "saw",
@@ -105,51 +64,41 @@
         "went",
         "to",
         "the",
-        "table."
-      ]
+        "table"
+      ],
+      "conf": 96.0135,
+      "source": "psm-11"
     },
     {
+      "id": "r3",
+      "order": 2,
       "text": "What is that?",
-      "x": 0.58,
-      "y": 0.11,
-      "w": 0.25,
-      "h": 0.03,
-      "id": "r4",
-      "order": 3,
+      "x": 0.5776,
+      "y": 0.5438,
+      "w": 0.2169,
+      "h": 0.0334,
       "words": [
         "What",
         "is",
         "that?"
-      ]
+      ],
+      "conf": 91.7742,
+      "source": "psm-11"
     },
     {
+      "id": "r4",
+      "order": 3,
       "text": "John's hat!",
-      "x": 0.16,
-      "y": 0.56,
-      "w": 0.2,
-      "h": 0.03,
-      "id": "r5",
-      "order": 4,
+      "x": 0.5661,
+      "y": 0.5858,
+      "w": 0.1984,
+      "h": 0.0382,
       "words": [
         "John's",
         "hat!"
-      ]
-    },
-    {
-      "text": "What is that? John's hat!",
-      "x": 0.58,
-      "y": 0.56,
-      "w": 0.25,
-      "h": 0.05,
-      "id": "r6",
-      "order": 5,
-      "words": [
-        "What",
-        "is",
-        "that?",
-        "John's",
-        "hat!"
-      ]
+      ],
+      "conf": 87.07,
+      "source": "psm-11"
     }
   ]
 }

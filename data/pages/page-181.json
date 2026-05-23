@@ -4,7 +4,7 @@
   "imageApiPath": "/api/books/page%20181.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
+    "regionCount": 15,
     "wordCount": 122,
     "imageWidth": 1250,
     "imageHeight": 1871
@@ -18,7 +18,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r5",
+        "r7",
+        "r10"
       ]
     },
     {
@@ -29,7 +32,12 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r1",
+        "r3",
+        "r4",
+        "r6",
+        "r8",
+        "r9"
       ]
     },
     {
@@ -40,7 +48,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r11",
+        "r12",
+        "r13"
       ]
     },
     {
@@ -51,62 +61,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r14",
+        "r15"
       ]
     }
   ],
   "regions": [
     {
-      "text": "These are the winter months: December, January, February. These are the summer months: June, July, August. These are the spring months: March, April, May. These are the fall months: September, October, November.",
-      "x": 0.12,
-      "y": 0.1,
-      "w": 0.38,
-      "h": 0.35,
       "id": "r1",
       "order": 0,
-      "words": [
-        "These",
-        "are",
-        "the",
-        "winter",
-        "months:",
-        "December,",
-        "January,",
-        "February.",
-        "These",
-        "are",
-        "the",
-        "summer",
-        "months:",
-        "June,",
-        "July,",
-        "August.",
-        "These",
-        "are",
-        "the",
-        "spring",
-        "months:",
-        "March,",
-        "April,",
-        "May.",
-        "These",
-        "are",
-        "the",
-        "fall",
-        "months:",
-        "September,",
-        "October,",
-        "November."
-      ]
-    },
-    {
-      "text": "In the North, the earth is cold in the winter. The wind is cold. Snow comes down from the sky. There are no leaves on the trees. There is ice over the water. The days are short.",
-      "x": 0.52,
-      "y": 0.08,
-      "w": 0.4,
-      "h": 0.25,
-      "id": "r2",
-      "order": 1,
+      "text": "In the North, the earth is cold in the winter.",
+      "x": 0.5312,
+      "y": 0.0844,
+      "w": 0.328,
+      "h": 0.0444,
       "words": [
         "In",
         "the",
@@ -117,44 +85,195 @@
         "cold",
         "in",
         "the",
-        "winter.",
+        "winter."
+      ],
+      "conf": 96.2834,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "These are the winter months: December, Janvary, February.",
+      "x": 0.1392,
+      "y": 0.1251,
+      "w": 0.2952,
+      "h": 0.0738,
+      "words": [
+        "These",
+        "are",
+        "the",
+        "winter",
+        "months:",
+        "December,",
+        "Janvary,",
+        "February."
+      ],
+      "conf": 96.3685,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "The wind is cold.",
+      "x": 0.5296,
+      "y": 0.1352,
+      "w": 0.2416,
+      "h": 0.0182,
+      "words": [
         "The",
         "wind",
         "is",
-        "cold.",
+        "cold."
+      ],
+      "conf": 95.1702,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Snow comes down from the sky.",
+      "x": 0.5296,
+      "y": 0.1598,
+      "w": 0.3456,
+      "h": 0.0492,
+      "words": [
         "Snow",
         "comes",
         "down",
         "from",
         "the",
-        "sky.",
+        "sky."
+      ],
+      "conf": 96.4025,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "These are the summer months: June, July, August.",
+      "x": 0.14,
+      "y": 0.2004,
+      "w": 0.3168,
+      "h": 0.0727,
+      "words": [
+        "These",
+        "are",
+        "the",
+        "summer",
+        "months:",
+        "June,",
+        "July,",
+        "August."
+      ],
+      "conf": 96.2289,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "There are no leaves on the trees.",
+      "x": 0.5296,
+      "y": 0.21,
+      "w": 0.3336,
+      "h": 0.0444,
+      "words": [
         "There",
         "are",
         "no",
         "leaves",
         "on",
         "the",
-        "trees.",
+        "trees."
+      ],
+      "conf": 96.1841,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "These are the spring months: March, April, May.",
+      "x": 0.1392,
+      "y": 0.2763,
+      "w": 0.3136,
+      "h": 0.0684,
+      "words": [
+        "These",
+        "are",
+        "the",
+        "spring",
+        "months:",
+        "March,",
+        "April,",
+        "May."
+      ],
+      "conf": 96.6166,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "There is ice over the water.",
+      "x": 0.5288,
+      "y": 0.2614,
+      "w": 0.2928,
+      "h": 0.0427,
+      "words": [
         "There",
         "is",
         "ice",
         "over",
         "the",
-        "water.",
-        "The",
-        "days",
-        "are",
-        "short."
-      ]
+        "water."
+      ],
+      "conf": 96.2869,
+      "source": "psm-11"
     },
     {
-      "text": "In the North, the earth and the air are warm in the summer. There are leaves on the trees. The days are long. There is no ice or snow.",
-      "x": 0.1,
-      "y": 0.54,
-      "w": 0.4,
-      "h": 0.15,
-      "id": "r3",
-      "order": 2,
+      "id": "r9",
+      "order": 8,
+      "text": "The deys are short,",
+      "x": 0.5288,
+      "y": 0.31,
+      "w": 0.2776,
+      "h": 0.0454,
+      "words": [
+        "The",
+        "deys",
+        "are",
+        "short,"
+      ],
+      "conf": 75.5654,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "These are the fall months: September, October, November.",
+      "x": 0.1392,
+      "y": 0.3511,
+      "w": 0.3008,
+      "h": 0.0701,
+      "words": [
+        "These",
+        "are",
+        "the",
+        "fall",
+        "months:",
+        "September,",
+        "October,",
+        "November."
+      ],
+      "conf": 96.474,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "In the North, the earth and the air are warm in the summer. There are leaves on the trees.",
+      "x": 0.1144,
+      "y": 0.5468,
+      "w": 0.3464,
+      "h": 0.0962,
       "words": [
         "In",
         "the",
@@ -174,27 +293,55 @@
         "leaves",
         "on",
         "the",
-        "trees.",
+        "trees."
+      ],
+      "conf": 96.6972,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "The days are long.",
+      "x": 0.1144,
+      "y": 0.6478,
+      "w": 0.2704,
+      "h": 0.0241,
+      "words": [
         "The",
         "days",
         "are",
-        "long.",
+        "long."
+      ],
+      "conf": 96.4419,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "There is no ice or snow.",
+      "x": 0.1144,
+      "y": 0.6724,
+      "w": 0.3376,
+      "h": 0.0203,
+      "words": [
         "There",
         "is",
         "no",
         "ice",
         "or",
         "snow."
-      ]
+      ],
+      "conf": 95.7844,
+      "source": "psm-11"
     },
     {
-      "text": "In the spring the leaves come out on the trees. Plants come up out of the earth, and flowers come out on the plants.",
-      "x": 0.52,
-      "y": 0.74,
-      "w": 0.4,
-      "h": 0.15,
-      "id": "r4",
-      "order": 3,
+      "id": "r14",
+      "order": 13,
+      "text": "In the spring the leaves come out on the trees.",
+      "x": 0.5296,
+      "y": 0.736,
+      "w": 0.3392,
+      "h": 0.0454,
       "words": [
         "In",
         "the",
@@ -205,7 +352,20 @@
         "out",
         "on",
         "the",
-        "trees.",
+        "trees."
+      ],
+      "conf": 96.5939,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "Plants come up out of the earth, and flowers come out on the plants,",
+      "x": 0.5288,
+      "y": 0.7862,
+      "w": 0.3408,
+      "h": 0.0759,
+      "words": [
         "Plants",
         "come",
         "up",
@@ -219,8 +379,10 @@
         "out",
         "on",
         "the",
-        "plants."
-      ]
+        "plants,"
+      ],
+      "conf": 96.6711,
+      "source": "psm-11"
     }
   ]
 }

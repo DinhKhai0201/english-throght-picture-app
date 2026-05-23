@@ -2,84 +2,73 @@
   "page": 132,
   "image": "/books/page 132.png",
   "imageApiPath": "/api/books/page%20132.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 5,
+    "regionCount": 6,
     "wordCount": 39,
     "imageWidth": 1225,
     "imageHeight": 1846
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
-        "r2"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r5"
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
       ]
     }
   ],
   "regions": [
     {
-      "text": "This is a basin.",
-      "x": 0.15,
-      "y": 0.13,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "This is a basin.",
+      "x": 0.2106,
+      "y": 0.1268,
+      "w": 0.2171,
+      "h": 0.0195,
       "words": [
         "This",
         "is",
         "a",
         "basin."
-      ]
+      ],
+      "conf": 96.5028,
+      "source": "psm-11"
     },
     {
-      "text": "This is warm water in it.",
-      "x": 0.1,
-      "y": 0.33,
-      "w": 0.4,
-      "h": 0.03,
       "id": "r2",
       "order": 1,
+      "text": "This is soap.",
+      "x": 0.6588,
+      "y": 0.1544,
+      "w": 0.1771,
+      "h": 0.0244,
+      "words": [
+        "This",
+        "is",
+        "soap."
+      ],
+      "conf": 96.5358,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This is warm water in it.",
+      "x": 0.1437,
+      "y": 0.3223,
+      "w": 0.3437,
+      "h": 0.02,
       "words": [
         "This",
         "is",
@@ -87,55 +76,35 @@
         "water",
         "in",
         "it."
-      ]
+      ],
+      "conf": 94.874,
+      "source": "psm-11"
     },
     {
-      "text": "This is soap.",
-      "x": 0.55,
-      "y": 0.15,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r3",
-      "order": 2,
-      "words": [
-        "This",
-        "is",
-        "soap."
-      ]
-    },
-    {
-      "text": "What is she doing? She is washing her hands with soap and warm water.",
-      "x": 0.1,
-      "y": 0.54,
-      "w": 0.4,
-      "h": 0.25,
       "id": "r4",
       "order": 3,
+      "text": "What is she doing?",
+      "x": 0.1592,
+      "y": 0.539,
+      "w": 0.289,
+      "h": 0.0238,
       "words": [
         "What",
         "is",
         "she",
-        "doing?",
-        "She",
-        "is",
-        "washing",
-        "her",
-        "hands",
-        "with",
-        "soap",
-        "and",
-        "warm",
-        "water."
-      ]
+        "doing?"
+      ],
+      "conf": 96.0322,
+      "source": "psm-11"
     },
     {
-      "text": "Her hands are wet now but they are clean. They were dirty.",
-      "x": 0.54,
-      "y": 0.77,
-      "w": 0.4,
-      "h": 0.08,
       "id": "r5",
       "order": 4,
+      "text": "Her hands are wet now but they are clean. They were dirty.",
+      "x": 0.5559,
+      "y": 0.76,
+      "w": 0.3616,
+      "h": 0.0753,
       "words": [
         "Her",
         "hands",
@@ -149,7 +118,32 @@
         "They",
         "were",
         "dirty."
-      ]
+      ],
+      "conf": 96.2584,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "She is washing her hands with soap and warm water.",
+      "x": 0.1543,
+      "y": 0.8007,
+      "w": 0.28,
+      "h": 0.0752,
+      "words": [
+        "She",
+        "is",
+        "washing",
+        "her",
+        "hands",
+        "with",
+        "soap",
+        "and",
+        "warm",
+        "water."
+      ],
+      "conf": 96.4081,
+      "source": "psm-11"
     }
   ]
 }

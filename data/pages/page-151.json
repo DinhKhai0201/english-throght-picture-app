@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20151.png",
   "layout": "single",
   "stats": {
-    "regionCount": 2,
-    "wordCount": 9,
+    "regionCount": 7,
+    "wordCount": 16,
     "imageWidth": 1221,
     "imageHeight": 1821
   },
@@ -19,41 +19,122 @@
       "h": 1,
       "regionIds": [
         "r1",
-        "r2"
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7"
       ]
     }
   ],
   "regions": [
     {
-      "text": "WHAT ARE THESE THINGS?",
-      "x": 0.25,
-      "y": 0.07,
-      "w": 0.5,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "WHAT ARE THESE a b",
+      "x": 0.1867,
+      "y": 0.0692,
+      "w": 0.3817,
+      "h": 0.0555,
       "words": [
         "WHAT",
         "ARE",
         "THESE",
-        "THINGS?"
-      ]
+        "a",
+        "b"
+      ],
+      "conf": 96.6149,
+      "source": "psm-6"
     },
     {
-      "text": "Answers are on page 149.",
-      "x": 0.3,
-      "y": 0.92,
-      "w": 0.4,
-      "h": 0.03,
       "id": "r2",
       "order": 1,
+      "text": "WHAT ARE THESE",
+      "x": 0.258,
+      "y": 0.0692,
+      "w": 0.3104,
+      "h": 0.0192,
+      "words": [
+        "WHAT",
+        "ARE",
+        "THESE"
+      ],
+      "conf": 96.3461,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "THINGS?",
+      "x": 0.5897,
+      "y": 0.0697,
+      "w": 0.1458,
+      "h": 0.0187,
+      "words": [
+        "THINGS?"
+      ],
+      "conf": 96.4367,
+      "source": "psm-6"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "v w",
+      "x": 0.5233,
+      "y": 0.7238,
+      "w": 0.1818,
+      "h": 0.0159,
+      "words": [
+        "v",
+        "w"
+      ],
+      "conf": 72.7495,
+      "source": "psm-6"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "SS",
+      "x": 0.6978,
+      "y": 0.7304,
+      "w": 0.2211,
+      "h": 0.0549,
+      "words": [
+        "SS"
+      ],
+      "conf": 55.053,
+      "source": "psm-6"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Answers are",
+      "x": 0.3161,
+      "y": 0.9088,
+      "w": 0.19,
+      "h": 0.0187,
       "words": [
         "Answers",
-        "are",
+        "are"
+      ],
+      "conf": 96.3369,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "on page",
+      "x": 0.5168,
+      "y": 0.9154,
+      "w": 0.1278,
+      "h": 0.0176,
+      "words": [
         "on",
-        "page",
-        "149."
-      ]
+        "page"
+      ],
+      "conf": 95.6826,
+      "source": "psm-11"
     }
   ]
 }

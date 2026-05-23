@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20379.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 128,
+    "regionCount": 15,
+    "wordCount": 149,
     "imageWidth": 1163,
     "imageHeight": 1859
   },
@@ -19,7 +19,36 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2"
+        "r4"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12"
       ]
     },
     {
@@ -30,20 +59,22 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r7",
+        "r13",
+        "r14",
+        "r15"
       ]
     }
   ],
   "regions": [
     {
-      "text": "This man is in training. He is going to run a distance of one mile in the shortest possible time. The fastest runners before him have taken a little under four minutes and he wants to make a new record.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.5,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "This man is in training. He to run a distance of one mile shortest possible time. The runners before him have taken under four minutes and he make a new record.",
+      "x": 0.0774,
+      "y": 0.1415,
+      "w": 0.4548,
+      "h": 0.1554,
       "words": [
         "This",
         "man",
@@ -51,8 +82,6 @@
         "in",
         "training.",
         "He",
-        "is",
-        "going",
         "to",
         "run",
         "a",
@@ -60,41 +89,71 @@
         "of",
         "one",
         "mile",
-        "in",
-        "the",
         "shortest",
         "possible",
         "time.",
         "The",
-        "fastest",
         "runners",
         "before",
         "him",
         "have",
         "taken",
-        "a",
-        "little",
         "under",
         "four",
         "minutes",
         "and",
         "he",
-        "wants",
-        "to",
         "make",
         "a",
         "new",
         "record."
-      ]
+      ],
+      "conf": 95.9066,
+      "source": "psm-11"
     },
     {
-      "text": "When a man runs a mile in four minutes he is going at a rate of fifteen miles an hour, but it is not possible to keep running at this rate very long.",
-      "x": 0.1,
-      "y": 0.4,
-      "w": 0.55,
-      "h": 0.15,
       "id": "r2",
       "order": 1,
+      "text": "No” in fastest a little wants to",
+      "x": 0.5039,
+      "y": 0.1425,
+      "w": 0.2398,
+      "h": 0.1237,
+      "words": [
+        "No”",
+        "in",
+        "fastest",
+        "a",
+        "little",
+        "wants",
+        "to"
+      ],
+      "conf": 49.7541,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "is going",
+      "x": 0.5107,
+      "y": 0.1415,
+      "w": 0.1273,
+      "h": 0.0264,
+      "words": [
+        "is",
+        "going"
+      ],
+      "conf": 96.6002,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "When a man runs a mile in four utes he is going at a rate of miles an hour, but it is not to keep running at this rate very",
+      "x": 0.08,
+      "y": 0.3997,
+      "w": 0.4772,
+      "h": 0.1081,
       "words": [
         "When",
         "a",
@@ -104,7 +163,7 @@
         "mile",
         "in",
         "four",
-        "minutes",
+        "utes",
         "he",
         "is",
         "going",
@@ -112,7 +171,6 @@
         "a",
         "rate",
         "of",
-        "fifteen",
         "miles",
         "an",
         "hour,",
@@ -120,93 +178,238 @@
         "it",
         "is",
         "not",
-        "possible",
         "to",
         "keep",
         "running",
         "at",
         "this",
         "rate",
-        "very",
-        "long."
-      ]
+        "very"
+      ],
+      "conf": 95.8367,
+      "source": "psm-11"
     },
     {
-      "text": "The runner is standing now in front of his doctor who has an instrument in his hand. Through this the doctor can hear the sounds made by the runner’s heart.",
-      "x": 0.1,
-      "y": 0.62,
-      "w": 0.85,
-      "h": 0.12,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "min- fifteen possible long.",
+      "x": 0.5176,
+      "y": 0.3997,
+      "w": 0.1222,
+      "h": 0.1081,
+      "words": [
+        "min-",
+        "fifteen",
+        "possible",
+        "long."
+      ],
+      "conf": 91.3226,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The runner is standing now has an instrument in his hand.",
+      "x": 0.0834,
+      "y": 0.6111,
+      "w": 0.4729,
+      "h": 0.0532,
       "words": [
         "The",
         "runner",
         "is",
         "standing",
         "now",
+        "has",
+        "an",
+        "instrument",
+        "in",
+        "his",
+        "hand."
+      ],
+      "conf": 96.5139,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "in front of his doctor who Through this the doctor the runner’s heart.",
+      "x": 0.5185,
+      "y": 0.6111,
+      "w": 0.4187,
+      "h": 0.0796,
+      "words": [
         "in",
         "front",
         "of",
         "his",
         "doctor",
         "who",
-        "has",
-        "an",
-        "instrument",
-        "in",
-        "his",
-        "hand.",
         "Through",
         "this",
         "the",
         "doctor",
+        "the",
+        "runner’s",
+        "heart."
+      ],
+      "conf": 96.3164,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "can hear the sounds made by",
+      "x": 0.0834,
+      "y": 0.6643,
+      "w": 0.4222,
+      "h": 0.0264,
+      "words": [
         "can",
         "hear",
         "the",
         "sounds",
         "made",
-        "by",
-        "the",
-        "runner’s",
-        "heart."
-      ]
+        "by"
+      ],
+      "conf": 96.613,
+      "source": "psm-11"
     },
     {
-      "text": "possible: able to be done. under: less than. record: doing better than before. standing: on feet, not moving. FUTURE: will stand. PRESENT: stand(s). PAST: stood.",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.85,
-      "h": 0.18,
-      "id": "r4",
-      "order": 3,
+      "id": "r9",
+      "order": 8,
+      "text": "possible: able to be done.",
+      "x": 0.0886,
+      "y": 0.7617,
+      "w": 0.313,
+      "h": 0.0161,
       "words": [
         "possible:",
         "able",
         "to",
         "be",
-        "done.",
-        "under:",
+        "done."
+      ],
+      "conf": 90.4557,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "vecord: this is another sense of “record.”",
+      "x": 0.0877,
+      "y": 0.7961,
+      "w": 0.5116,
+      "h": 0.0129,
+      "words": [
+        "vecord:",
+        "this",
+        "is",
+        "another",
+        "sense",
+        "of",
+        "“record.”"
+      ],
+      "conf": 89.6518,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "wader: in this sense, less than.",
+      "x": 0.0886,
+      "y": 0.7789,
+      "w": 0.3568,
+      "h": 0.0145,
+      "words": [
+        "wader:",
+        "in",
+        "this",
+        "sense,",
         "less",
-        "than.",
-        "record:",
-        "doing",
+        "than."
+      ],
+      "conf": 90.8057,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "thing better than it has been standing: on his feet, not moving, will stand",
+      "x": 0.0894,
+      "y": 0.8117,
+      "w": 0.4067,
+      "h": 0.0807,
+      "words": [
+        "thing",
         "better",
         "than",
-        "before.",
+        "it",
+        "has",
+        "been",
         "standing:",
         "on",
+        "his",
         "feet,",
         "not",
-        "moving.",
-        "FUTURE:",
+        "moving,",
         "will",
-        "stand.",
-        "PRESENT:",
-        "stand(s).",
-        "PAST:",
-        "stood."
-      ]
+        "stand"
+      ],
+      "conf": 88.4329,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "done before we say he has made",
+      "x": 0.5116,
+      "y": 0.8117,
+      "w": 0.4015,
+      "h": 0.0204,
+      "words": [
+        "done",
+        "before",
+        "we",
+        "say",
+        "he",
+        "has",
+        "made"
+      ],
+      "conf": 93.5408,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "When a person does some-",
+      "x": 0.6113,
+      "y": 0.7967,
+      "w": 0.3267,
+      "h": 0.0151,
+      "words": [
+        "When",
+        "a",
+        "person",
+        "does",
+        "some-"
+      ],
+      "conf": 93.5679,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "stand(s)",
+      "x": 0.4557,
+      "y": 0.879,
+      "w": 0.1126,
+      "h": 0.0172,
+      "words": [
+        "stand(s)"
+      ],
+      "conf": 87.0788,
+      "source": "psm-11"
     }
   ]
 }

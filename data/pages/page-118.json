@@ -2,31 +2,62 @@
   "page": 118,
   "image": "/books/page 118.png",
   "imageApiPath": "/api/books/page%20118.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 9,
+    "regionCount": 10,
     "wordCount": 35,
     "imageWidth": 1150,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
         "r3",
-        "r4",
-        "r5",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r6",
         "r7",
-        "r8",
         "r9"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r10"
       ]
     }
   ],
@@ -169,18 +200,31 @@
     {
       "id": "r9",
       "order": 8,
-      "text": "Answers are on page",
+      "text": "Answers are",
       "x": 0.3313,
       "y": 0.8913,
-      "w": 0.3348,
-      "h": 0.0231,
+      "w": 0.1948,
+      "h": 0.0183,
       "words": [
         "Answers",
-        "are",
+        "are"
+      ],
+      "conf": 96.7295,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "on page",
+      "x": 0.5357,
+      "y": 0.8978,
+      "w": 0.1304,
+      "h": 0.0167,
+      "words": [
         "on",
         "page"
       ],
-      "conf": 96.2121,
+      "conf": 95.6947,
       "source": "psm-11"
     }
   ]

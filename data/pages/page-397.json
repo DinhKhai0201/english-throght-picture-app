@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20397.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 102,
+    "regionCount": 15,
+    "wordCount": 147,
     "imageWidth": 1234,
     "imageHeight": 1850
   },
@@ -18,7 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r1",
+        "r4"
       ]
     },
     {
@@ -29,7 +30,24 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8",
+        "r9",
+        "r10",
+        "r12"
       ]
     },
     {
@@ -40,42 +58,39 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r7",
+        "r11",
+        "r13",
+        "r14",
+        "r15"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Through about two billion years the development of plants and animals has been going on. At first both were very small, much less than a pin point in size.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.1,
       "id": "r1",
       "order": 0,
+      "text": "Through about two billion entists say, the development of earth has been going on. At much less than a pin point in first plants or animals were bodies houses, too small for man’s keeping went on in one room. Such cells take food in and let waste out. They do not give birth to new cells but divide to become two daugh- ter cells.",
+      "x": 0.0981,
+      "y": 0.0411,
+      "w": 0.4902,
+      "h": 0.3589,
       "words": [
         "Through",
         "about",
         "two",
         "billion",
-        "years",
+        "entists",
+        "say,",
         "the",
         "development",
         "of",
-        "plants",
-        "and",
-        "animals",
+        "earth",
         "has",
         "been",
         "going",
         "on.",
         "At",
-        "first",
-        "both",
-        "were",
-        "very",
-        "small,",
         "much",
         "less",
         "than",
@@ -83,114 +98,316 @@
         "pin",
         "point",
         "in",
-        "size."
-      ]
-    },
-    {
-      "text": "The first plants or animals were bodies living in one-roomed houses (cells). They do not give birth but divide to become two daughter cells.",
-      "x": 0.1,
-      "y": 0.15,
-      "w": 0.45,
-      "h": 0.25,
-      "id": "r2",
-      "order": 1,
-      "words": [
-        "The",
         "first",
         "plants",
         "or",
         "animals",
         "were",
         "bodies",
-        "living",
+        "houses,",
+        "too",
+        "small",
+        "for",
+        "man’s",
+        "keeping",
+        "went",
+        "on",
         "in",
-        "one-roomed",
-        "houses",
-        "(cells).",
+        "one",
+        "room.",
+        "Such",
+        "cells",
+        "take",
+        "food",
+        "in",
+        "and",
+        "let",
+        "waste",
+        "out.",
         "They",
         "do",
         "not",
         "give",
         "birth",
+        "to",
+        "new",
+        "cells",
         "but",
         "divide",
         "to",
         "become",
         "two",
-        "daughter",
+        "daugh-",
+        "ter",
         "cells."
-      ]
+      ],
+      "conf": 95.024,
+      "source": "psm-11"
     },
     {
-      "text": "These three pictures show the division of a cell into two separate cells each of which may in turn divide into two more.",
-      "x": 0.1,
-      "y": 0.45,
-      "w": 0.85,
-      "h": 0.12,
+      "id": "r2",
+      "order": 1,
+      "text": "years, sci- plants and animals on our first both were very small, size. We might say that the",
+      "x": 0.5122,
+      "y": 0.0405,
+      "w": 0.3848,
+      "h": 0.1033,
+      "words": [
+        "years,",
+        "sci-",
+        "plants",
+        "and",
+        "animals",
+        "on",
+        "our",
+        "first",
+        "both",
+        "were",
+        "very",
+        "small,",
+        "size.",
+        "We",
+        "might",
+        "say",
+        "that",
+        "the"
+      ],
+      "conf": 93.0225,
+      "source": "psm-11"
+    },
+    {
       "id": "r3",
       "order": 2,
+      "text": "living in one-roomed eye to see. All the house-",
+      "x": 0.5162,
+      "y": 0.1454,
+      "w": 0.3793,
+      "h": 0.0519,
+      "words": [
+        "living",
+        "in",
+        "one-roomed",
+        "eye",
+        "to",
+        "see.",
+        "All",
+        "the",
+        "house-"
+      ],
+      "conf": 94.0156,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "These three pictures show",
+      "x": 0.1005,
+      "y": 0.46,
+      "w": 0.3857,
+      "h": 0.0276,
       "words": [
         "These",
         "three",
         "pictures",
-        "show",
+        "show"
+      ],
+      "conf": 88.7052,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "the division of a cell into",
+      "x": 0.5032,
+      "y": 0.46,
+      "w": 0.3963,
+      "h": 0.0276,
+      "words": [
         "the",
         "division",
         "of",
         "a",
         "cell",
-        "into",
+        "into"
+      ],
+      "conf": 95.7114,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "two separate cells each of which two more,",
+      "x": 0.0997,
+      "y": 0.4865,
+      "w": 0.4595,
+      "h": 0.0524,
+      "words": [
         "two",
         "separate",
         "cells",
         "each",
         "of",
         "which",
+        "two",
+        "more,"
+      ],
+      "conf": 96.3062,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "may in turn divide into",
+      "x": 0.5721,
+      "y": 0.4865,
+      "w": 0.3258,
+      "h": 0.027,
+      "words": [
         "may",
         "in",
         "turn",
         "divide",
-        "into",
-        "two",
-        "more."
-      ]
+        "into"
+      ],
+      "conf": 96.5186,
+      "source": "psm-11"
     },
     {
-      "text": "much less: a great amount less. show: make clear. division: becoming two. separate: not together. divide: become two. FUTURE: will divide/show. PRESENT: divide(s)/shows(s). PAST: divided/showed, shown.",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r4",
-      "order": 3,
+      "id": "r8",
+      "order": 7,
+      "text": "much less: co great amount less.",
+      "x": 0.0989,
+      "y": 0.7362,
+      "w": 0.3574,
+      "h": 0.0195,
       "words": [
         "much",
         "less:",
-        "a",
+        "co",
         "great",
         "amount",
-        "less.",
-        "show:",
-        "make",
-        "clear.",
+        "less."
+      ],
+      "conf": 85.2613,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "division: becoming two (or more) in place divide: division, become fwo will show",
+      "x": 0.0989,
+      "y": 0.7735,
+      "w": 0.4578,
+      "h": 0.1,
+      "words": [
         "division:",
         "becoming",
-        "two.",
-        "separate:",
-        "not",
-        "together.",
+        "two",
+        "(or",
+        "more)",
+        "in",
+        "place",
         "divide:",
+        "division,",
         "become",
-        "two.",
-        "FUTURE:",
+        "fwo",
         "will",
-        "divide/show.",
-        "PRESENT:",
-        "divide(s)/shows(s).",
-        "PAST:",
-        "divided/showed,",
-        "shown."
-      ]
+        "show"
+      ],
+      "conf": 95.5921,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "show: make clear, jet be seen.",
+      "x": 0.1005,
+      "y": 0.7562,
+      "w": 0.3314,
+      "h": 0.0146,
+      "words": [
+        "show:",
+        "make",
+        "clear,",
+        "jet",
+        "be",
+        "seen."
+      ],
+      "conf": 88.4018,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "of one.",
+      "x": 0.5632,
+      "y": 0.7746,
+      "w": 0.0762,
+      "h": 0.0124,
+      "words": [
+        "of",
+        "one."
+      ],
+      "conf": 93.644,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "wilt divide",
+      "x": 0.1021,
+      "y": 0.8384,
+      "w": 0.1321,
+      "h": 0.013,
+      "words": [
+        "wilt",
+        "divide"
+      ],
+      "conf": 81.4746,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "divide(s)",
+      "x": 0.4538,
+      "y": 0.8384,
+      "w": 0.1159,
+      "h": 0.0162,
+      "words": [
+        "divide(s)"
+      ],
+      "conf": 88.306,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "showed, shown",
+      "x": 0.7123,
+      "y": 0.8562,
+      "w": 0.188,
+      "h": 0.0151,
+      "words": [
+        "showed,",
+        "shown"
+      ],
+      "conf": 85.3089,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "divided",
+      "x": 0.8071,
+      "y": 0.8389,
+      "w": 0.0924,
+      "h": 0.013,
+      "words": [
+        "divided"
+      ],
+      "conf": 91.3994,
+      "source": "psm-11"
     }
   ]
 }

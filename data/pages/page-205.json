@@ -2,111 +2,46 @@
   "page": 205,
   "image": "/books/page 205.png",
   "imageApiPath": "/api/books/page%20205.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
+    "regionCount": 12,
     "wordCount": 103,
     "imageWidth": 1234,
     "imageHeight": 1821
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Here are two bodies. One is a great body. It is the earth. The other is a small body. It is an apple. The apple is coming down to the earth. Why?",
-      "x": 0.12,
-      "y": 0.23,
-      "w": 0.35,
-      "h": 0.22,
       "id": "r1",
       "order": 0,
-      "words": [
-        "Here",
-        "are",
-        "two",
-        "bodies.",
-        "One",
-        "is",
-        "a",
-        "great",
-        "body.",
-        "It",
-        "is",
-        "the",
-        "earth.",
-        "The",
-        "other",
-        "is",
-        "a",
-        "small",
-        "body.",
-        "It",
-        "is",
-        "an",
-        "apple.",
-        "The",
-        "apple",
-        "is",
-        "coming",
-        "down",
-        "to",
-        "the",
-        "earth.",
-        "Why?"
-      ]
-    },
-    {
-      "text": "It is coming down because there is an attraction between the two bodies. The attraction between them makes the apple come down.",
-      "x": 0.54,
-      "y": 0.13,
-      "w": 0.38,
-      "h": 0.18,
-      "id": "r2",
-      "order": 1,
+      "text": "It is coming down because there is an attraction between the two bodies.",
+      "x": 0.5429,
+      "y": 0.1406,
+      "w": 0.338,
+      "h": 0.0977,
       "words": [
         "It",
         "is",
@@ -120,26 +55,86 @@
         "between",
         "the",
         "two",
-        "bodies.",
+        "bodies."
+      ],
+      "conf": 83.3634,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Here are two bodies One is a great body It is the earth The other is a small body. It is an apple The apple is coming down to the earth Why?",
+      "x": 0.1564,
+      "y": 0.2433,
+      "w": 0.3022,
+      "h": 0.2059,
+      "words": [
+        "Here",
+        "are",
+        "two",
+        "bodies",
+        "One",
+        "is",
+        "a",
+        "great",
+        "body",
+        "It",
+        "is",
+        "the",
+        "earth",
         "The",
-        "attraction",
+        "other",
+        "is",
+        "a",
+        "small",
+        "body.",
+        "It",
+        "is",
+        "an",
+        "apple",
+        "The",
+        "apple",
+        "is",
+        "coming",
+        "down",
+        "to",
+        "the",
+        "earth",
+        "Why?"
+      ],
+      "conf": 96.4222,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "The between i them makes the apple come Gown",
+      "x": 0.5122,
+      "y": 0.2433,
+      "w": 0.3751,
+      "h": 0.0719,
+      "words": [
+        "The",
         "between",
+        "i",
         "them",
         "makes",
         "the",
         "apple",
         "come",
-        "down."
-      ]
+        "Gown"
+      ],
+      "conf": 94.5861,
+      "source": "psm-11"
     },
     {
-      "text": "All bodies which have weight have an attraction for one another. Here are two bodies. These are springs. Which body has the greater weight?",
-      "x": 0.12,
-      "y": 0.54,
-      "w": 0.38,
-      "h": 0.35,
-      "id": "r3",
-      "order": 2,
+      "id": "r4",
+      "order": 3,
+      "text": "All bodies which have weight have an attraction for one another Here are two bodies.",
+      "x": 0.1515,
+      "y": 0.5277,
+      "w": 0.3306,
+      "h": 0.1648,
       "words": [
         "All",
         "bodies",
@@ -151,57 +146,152 @@
         "attraction",
         "for",
         "one",
-        "another.",
+        "another",
         "Here",
         "are",
         "two",
-        "bodies.",
+        "bodies."
+      ],
+      "conf": 96.1094,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Here are two men.",
+      "x": 0.5818,
+      "y": 0.536,
+      "w": 0.2747,
+      "h": 0.0198,
+      "words": [
+        "Here",
+        "are",
+        "two",
+        "men."
+      ],
+      "conf": 93.6604,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "These are springs",
+      "x": 0.1499,
+      "y": 0.698,
+      "w": 0.2593,
+      "h": 0.0247,
+      "words": [
         "These",
         "are",
-        "springs.",
+        "springs"
+      ],
+      "conf": 90.3812,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This man",
+      "x": 0.5543,
+      "y": 0.7013,
+      "w": 0.1321,
+      "h": 0.0192,
+      "words": [
+        "This",
+        "man"
+      ],
+      "conf": 96.1121,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This man is thin",
+      "x": 0.5721,
+      "y": 0.7007,
+      "w": 0.3177,
+      "h": 0.0483,
+      "words": [
+        "This",
+        "man",
+        "is",
+        "thin"
+      ],
+      "conf": 96.6375,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "is fat His body",
+      "x": 0.5535,
+      "y": 0.7298,
+      "w": 0.3031,
+      "h": 0.0654,
+      "words": [
+        "is",
+        "fat",
+        "His",
+        "body"
+      ],
+      "conf": 94.4099,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "His body is thin",
+      "x": 0.5697,
+      "y": 0.771,
+      "w": 0.3177,
+      "h": 0.0478,
+      "words": [
+        "His",
+        "body",
+        "is",
+        "thin"
+      ],
+      "conf": 96.5438,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "is fat Which man's weight is greater?",
+      "x": 0.5478,
+      "y": 0.7996,
+      "w": 0.3274,
+      "h": 0.1186,
+      "words": [
+        "is",
+        "fat",
+        "Which",
+        "man's",
+        "weight",
+        "is",
+        "greater?"
+      ],
+      "conf": 96.15,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "Which body has the greater weight?",
+      "x": 0.1524,
+      "y": 0.8627,
+      "w": 0.2958,
+      "h": 0.0495,
+      "words": [
         "Which",
         "body",
         "has",
         "the",
         "greater",
         "weight?"
-      ]
-    },
-    {
-      "text": "Here are two men. This man is thin. His body is thin. This man is fat. His body is fat. Which man's weight is greater?",
-      "x": 0.54,
-      "y": 0.54,
-      "w": 0.38,
-      "h": 0.38,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "Here",
-        "are",
-        "two",
-        "men.",
-        "This",
-        "man",
-        "is",
-        "thin.",
-        "His",
-        "body",
-        "is",
-        "thin.",
-        "This",
-        "man",
-        "is",
-        "fat.",
-        "His",
-        "body",
-        "is",
-        "fat.",
-        "Which",
-        "man's",
-        "weight",
-        "is",
-        "greater?"
-      ]
+      ],
+      "conf": 96.1482,
+      "source": "psm-11"
     }
   ]
 }

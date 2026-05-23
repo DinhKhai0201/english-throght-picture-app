@@ -4,12 +4,24 @@
   "imageApiPath": "/api/books/page%20294.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 120,
+    "regionCount": 15,
+    "wordCount": 153,
     "imageWidth": 1188,
     "imageHeight": 1875
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,7 +30,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r3",
+        "r5"
       ]
     },
     {
@@ -29,7 +43,12 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r6",
+        "r8",
+        "r9",
+        "r11",
+        "r12",
+        "r14"
       ]
     },
     {
@@ -40,85 +59,171 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r4"
+        "r7",
+        "r10",
+        "r13",
+        "r15"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Here are some people who live in the United States of America, the U.S.A. The fathers and mothers of these people went to the U.S.A. from England, France, Italy, Switzerland, Poland, Russia and other countries. Some of them sailed there in sailing ships before the days of steamships.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.2,
       "id": "r1",
       "order": 0,
+      "text": "Here are some people who America, the U.S.A. The fathers people went to the U.S.A.",
+      "x": 0.1044,
+      "y": 0.0411,
+      "w": 0.4915,
+      "h": 0.0731,
       "words": [
         "Here",
         "are",
         "some",
         "people",
         "who",
-        "live",
-        "in",
-        "the",
-        "United",
-        "States",
-        "of",
         "America,",
         "the",
         "U.S.A.",
         "The",
         "fathers",
-        "and",
-        "mothers",
-        "of",
-        "these",
         "people",
         "went",
         "to",
         "the",
-        "U.S.A.",
+        "U.S.A."
+      ],
+      "conf": 96.6337,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "live in the United States of",
+      "x": 0.5219,
+      "y": 0.0421,
+      "w": 0.4007,
+      "h": 0.0171,
+      "words": [
+        "live",
+        "in",
+        "the",
+        "United",
+        "States",
+        "of"
+      ],
+      "conf": 96.5187,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "and mothers of these from England, France, Italy, and other countries. Some ships before the days of",
+      "x": 0.5025,
+      "y": 0.0683,
+      "w": 0.4218,
+      "h": 0.0981,
+      "words": [
+        "and",
+        "mothers",
+        "of",
+        "these",
         "from",
         "England,",
         "France,",
         "Italy,",
-        "Switzerland,",
-        "Poland,",
-        "Russia",
         "and",
         "other",
         "countries.",
         "Some",
+        "ships",
+        "before",
+        "the",
+        "days",
+        "of"
+      ],
+      "conf": 96.6941,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Switzerland, Poland, Russia of them sailed there in sailing steamships.",
+      "x": 0.1044,
+      "y": 0.1189,
+      "w": 0.4503,
+      "h": 0.0731,
+      "words": [
+        "Switzerland,",
+        "Poland,",
+        "Russia",
         "of",
         "them",
         "sailed",
         "there",
         "in",
         "sailing",
-        "ships",
-        "before",
-        "the",
-        "days",
-        "of",
         "steamships."
-      ]
+      ],
+      "conf": 96.1612,
+      "source": "psm-11"
     },
     {
-      "text": "Now the sons and daughters live in the U.S.A. and most of them are Americans. Some of them were born in the U.S.A. They got their start in America, but they have many relations in the old country.",
-      "x": 0.1,
-      "y": 0.55,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r2",
-      "order": 1,
+      "id": "r5",
+      "order": 4,
+      "text": "LLUL",
+      "x": 0.633,
+      "y": 0.2192,
+      "w": 0.0842,
+      "h": 0.0155,
+      "words": [
+        "LLUL"
+      ],
+      "conf": 41.5103,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Now the sons and daughters of them are Americans. Some U.S.A. They got their start many relations in the old country.",
+      "x": 0.1019,
+      "y": 0.5563,
+      "w": 0.5142,
+      "h": 0.0965,
       "words": [
         "Now",
         "the",
         "sons",
         "and",
         "daughters",
+        "of",
+        "them",
+        "are",
+        "Americans.",
+        "Some",
+        "U.S.A.",
+        "They",
+        "got",
+        "their",
+        "start",
+        "many",
+        "relations",
+        "in",
+        "the",
+        "old",
+        "country."
+      ],
+      "conf": 96.6894,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "live in the U.S.A. and most of them were born in the in America, but they have",
+      "x": 0.5303,
+      "y": 0.5552,
+      "w": 0.3964,
+      "h": 0.072,
+      "words": [
         "live",
         "in",
         "the",
@@ -127,88 +232,188 @@
         "most",
         "of",
         "them",
-        "are",
-        "Americans.",
-        "Some",
-        "of",
-        "them",
         "were",
         "born",
         "in",
         "the",
-        "U.S.A.",
-        "They",
-        "got",
-        "their",
-        "start",
         "in",
         "America,",
         "but",
         "they",
-        "have",
-        "many",
-        "relations",
-        "in",
-        "the",
-        "old",
-        "country."
-      ]
+        "have"
+      ],
+      "conf": 96.4351,
+      "source": "psm-11"
     },
     {
-      "text": "sail: sailing ships have sails and sail by using the push of the wind. start: the very first step. Being born is the start of a person.",
-      "x": 0.1,
-      "y": 0.72,
-      "w": 0.55,
-      "h": 0.15,
-      "id": "r3",
-      "order": 2,
+      "id": "r8",
+      "order": 7,
+      "text": "sall: sailing ships have sails and start: if a person goes for a walk,",
+      "x": 0.1044,
+      "y": 0.7115,
+      "w": 0.4015,
+      "h": 0.0501,
       "words": [
-        "sail:",
+        "sall:",
         "sailing",
         "ships",
         "have",
         "sails",
         "and",
-        "sail",
-        "by",
+        "start:",
+        "if",
+        "a",
+        "person",
+        "goes",
+        "for",
+        "a",
+        "walk,"
+      ],
+      "conf": 94.8732,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "using the push of the wind.",
+      "x": 0.1599,
+      "y": 0.7291,
+      "w": 0.3013,
+      "h": 0.0155,
+      "words": [
         "using",
         "the",
         "push",
         "of",
         "the",
-        "wind.",
-        "start:",
+        "wind."
+      ],
+      "conf": 96.4788,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "sail by the start Being date is the time he has been living",
+      "x": 0.5093,
+      "y": 0.7109,
+      "w": 0.4192,
+      "h": 0.1008,
+      "words": [
+        "sail",
+        "by",
+        "the",
+        "start",
+        "Being",
+        "date",
+        "is",
+        "the",
+        "time",
+        "he",
+        "has",
+        "been",
+        "living"
+      ],
+      "conf": 96.0598,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "of his walk is the very first step.",
+      "x": 0.1591,
+      "y": 0.7643,
+      "w": 0.3712,
+      "h": 0.0149,
+      "words": [
+        "of",
+        "his",
+        "walk",
+        "is",
         "the",
         "very",
         "first",
-        "step.",
-        "Being",
+        "step."
+      ],
+      "conf": 96.1077,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "born is the stort or starting point person, and his age at a given from the stort (from his birth).",
+      "x": 0.1608,
+      "y": 0.7813,
+      "w": 0.3838,
+      "h": 0.0486,
+      "words": [
         "born",
         "is",
         "the",
-        "start",
-        "of",
+        "stort",
+        "or",
+        "starting",
+        "point",
+        "person,",
+        "and",
+        "his",
+        "age",
+        "at",
         "a",
-        "person."
-      ]
+        "given",
+        "from",
+        "the",
+        "stort",
+        "(from",
+        "his",
+        "birth)."
+      ],
+      "conf": 96.1462,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will sail. PRESENT: sail(s). PAST: sailed.",
-      "x": 0.1,
-      "y": 0.88,
-      "w": 0.85,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
+      "id": "r13",
+      "order": 12,
+      "text": "of a",
+      "x": 0.5564,
+      "y": 0.7813,
+      "w": 0.0471,
+      "h": 0.0117,
       "words": [
-        "FUTURE:",
+        "of",
+        "a"
+      ],
+      "conf": 96.7862,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "will sall",
+      "x": 0.1052,
+      "y": 0.8459,
+      "w": 0.1019,
+      "h": 0.0117,
+      "words": [
         "will",
-        "sail.",
-        "PRESENT:",
-        "sail(s).",
-        "PAST:",
-        "sailed."
-      ]
+        "sall"
+      ],
+      "conf": 84.6615,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "sall(s)",
+      "x": 0.4907,
+      "y": 0.8448,
+      "w": 0.0825,
+      "h": 0.0149,
+      "words": [
+        "sall(s)"
+      ],
+      "conf": 78.4188,
+      "source": "psm-11"
     }
   ]
 }

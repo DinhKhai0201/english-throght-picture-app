@@ -2,69 +2,44 @@
   "page": 137,
   "image": "/books/page 137.png",
   "imageApiPath": "/api/books/page%20137.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 5,
-    "wordCount": 63,
+    "regionCount": 10,
+    "wordCount": 66,
     "imageWidth": 1213,
     "imageHeight": 1834
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
-        "r2"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r5"
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Mr. Smith will go to the station in a taxi.",
-      "x": 0.1,
-      "y": 0.13,
-      "w": 0.4,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "Mr. Smith will go to the station in a taxi.",
+      "x": 0.1113,
+      "y": 0.1298,
+      "w": 0.3504,
+      "h": 0.0463,
       "words": [
         "Mr.",
         "Smith",
@@ -76,48 +51,71 @@
         "in",
         "a",
         "taxi."
-      ]
+      ],
+      "conf": 91.372,
+      "source": "psm-11"
     },
     {
-      "text": "This is a taxi. Mr. Smith is getting into it. He has his bag with him.",
-      "x": 0.12,
-      "y": 0.36,
-      "w": 0.4,
-      "h": 0.1,
       "id": "r2",
       "order": 1,
+      "text": "Y) IJ) This is a taxi.",
+      "x": 0.1146,
+      "y": 0.2454,
+      "w": 0.3059,
+      "h": 0.133,
       "words": [
+        "Y)",
+        "IJ)",
         "This",
         "is",
         "a",
-        "taxi.",
-        "Mr.",
-        "Smith",
-        "is",
-        "getting",
-        "into",
-        "it.",
-        "He",
-        "has",
-        "his",
-        "bag",
-        "with",
-        "him."
-      ]
+        "taxi."
+      ],
+      "conf": 57.7241,
+      "source": "psm-11"
     },
     {
-      "text": "This is the station. The taxi is in front of the station. The time is 8:00. The train will go at 8:30.",
-      "x": 0.55,
-      "y": 0.33,
-      "w": 0.4,
-      "h": 0.15,
       "id": "r3",
       "order": 2,
+      "text": "E,",
+      "x": 0.2597,
+      "y": 0.2306,
+      "w": 0.0305,
+      "h": 0.0251,
       "words": [
+        "E,"
+      ],
+      "conf": 52.1243,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "(as un This is the station.",
+      "x": 0.5491,
+      "y": 0.2721,
+      "w": 0.2655,
+      "h": 0.0769,
+      "words": [
+        "(as",
+        "un",
         "This",
         "is",
         "the",
-        "station.",
+        "station."
+      ],
+      "conf": 63.2583,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "The taxi is in front of the station.",
+      "x": 0.5499,
+      "y": 0.3555,
+      "w": 0.3141,
+      "h": 0.0458,
+      "words": [
         "The",
         "taxi",
         "is",
@@ -125,27 +123,78 @@
         "front",
         "of",
         "the",
-        "station.",
+        "station."
+      ],
+      "conf": 96.0704,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Mr. Smith is getting into it.",
+      "x": 0.1146,
+      "y": 0.386,
+      "w": 0.2918,
+      "h": 0.0442,
+      "words": [
+        "Mr.",
+        "Smith",
+        "is",
+        "getting",
+        "into",
+        "it."
+      ],
+      "conf": 93.0509,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "The time is The train will go at",
+      "x": 0.5482,
+      "y": 0.4079,
+      "w": 0.2853,
+      "h": 0.0485,
+      "words": [
         "The",
         "time",
         "is",
-        "8:00.",
         "The",
         "train",
         "will",
         "go",
-        "at",
-        "8:30."
-      ]
+        "at"
+      ],
+      "conf": 96.2159,
+      "source": "psm-11"
     },
     {
+      "id": "r8",
+      "order": 7,
+      "text": "He has his bag with him.t",
+      "x": 0.1162,
+      "y": 0.4318,
+      "w": 0.3759,
+      "h": 0.0382,
+      "words": [
+        "He",
+        "has",
+        "his",
+        "bag",
+        "with",
+        "him.t"
+      ],
+      "conf": 88.3178,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
       "text": "Mr. Smith is getting out of the taxi.",
-      "x": 0.12,
-      "y": 0.54,
-      "w": 0.38,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
+      "x": 0.1171,
+      "y": 0.5376,
+      "w": 0.3495,
+      "h": 0.0447,
       "words": [
         "Mr.",
         "Smith",
@@ -155,16 +204,18 @@
         "of",
         "the",
         "taxi."
-      ]
+      ],
+      "conf": 96.6826,
+      "source": "psm-11"
     },
     {
+      "id": "r10",
+      "order": 9,
       "text": "Now he is going into the station.",
-      "x": 0.54,
-      "y": 0.54,
-      "w": 0.38,
-      "h": 0.05,
-      "id": "r5",
-      "order": 4,
+      "x": 0.5449,
+      "y": 0.5398,
+      "w": 0.3133,
+      "h": 0.0447,
       "words": [
         "Now",
         "he",
@@ -173,7 +224,9 @@
         "into",
         "the",
         "station."
-      ]
+      ],
+      "conf": 96.4362,
+      "source": "psm-11"
     }
   ]
 }

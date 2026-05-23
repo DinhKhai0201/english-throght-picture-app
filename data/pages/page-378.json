@@ -4,12 +4,24 @@
   "imageApiPath": "/api/books/page%20378.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 109,
+    "regionCount": 11,
+    "wordCount": 104,
     "imageWidth": 1225,
     "imageHeight": 1850
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,7 +30,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r8",
+        "r9",
+        "r10",
+        "r11"
       ]
     },
     {
@@ -29,21 +57,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3",
-        "r4"
+        "r6",
+        "r7"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Our bodies give off some of their heat all the time by sending a little liquid out through the skin. Sometimes the amount gets greater and our skin becomes wet. This cools the body quickly.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "Our bodies give off some of sending a little liquid out through amount gets greater and our the body quickly.",
+      "x": 0.098,
+      "y": 0.0303,
+      "w": 0.4636,
+      "h": 0.1065,
       "words": [
         "Our",
         "bodies",
@@ -51,57 +78,99 @@
         "off",
         "some",
         "of",
-        "their",
-        "heat",
-        "all",
-        "the",
-        "time",
-        "by",
         "sending",
         "a",
         "little",
         "liquid",
         "out",
         "through",
-        "the",
-        "skin.",
-        "Sometimes",
-        "the",
         "amount",
         "gets",
         "greater",
         "and",
         "our",
+        "the",
+        "body",
+        "quickly."
+      ],
+      "conf": 96.3339,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "their heat all the time by the skin. Sometimes the skin becomes wet. This cools",
+      "x": 0.5004,
+      "y": 0.0303,
+      "w": 0.3992,
+      "h": 0.0811,
+      "words": [
+        "their",
+        "heat",
+        "all",
+        "the",
+        "time",
+        "by",
+        "the",
+        "skin.",
+        "Sometimes",
+        "the",
         "skin",
         "becomes",
         "wet.",
         "This",
-        "cools",
-        "the",
-        "body",
-        "quickly."
-      ]
+        "cools"
+      ],
+      "conf": 96.483,
+      "source": "psm-11"
     },
     {
-      "text": "The man on the left is shivering because he has been waiting in line for a long time in the cold wind. The man on the right is wet all over because he got too hot in the sun.",
-      "x": 0.1,
-      "y": 0.48,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r2",
-      "order": 1,
+      "id": "r3",
+      "order": 2,
+      "text": "Here the man on the left is shivering",
+      "x": 0.1029,
+      "y": 0.473,
+      "w": 0.5094,
+      "h": 0.0259,
       "words": [
-        "The",
+        "Here",
+        "the",
         "man",
         "on",
         "the",
         "left",
         "is",
-        "shivering",
+        "shivering"
+      ],
+      "conf": 96.2457,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "because he has been",
+      "x": 0.6253,
+      "y": 0.473,
+      "w": 0.2743,
+      "h": 0.0259,
+      "words": [
         "because",
         "he",
         "has",
-        "been",
+        "been"
+      ],
+      "conf": 96.3764,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "waiting in line for a long time on the right is wet all over because sun. He is drinking water because it. He is thirsty.",
+      "x": 0.1004,
+      "y": 0.5016,
+      "w": 0.4972,
+      "h": 0.1001,
+      "words": [
         "waiting",
         "in",
         "line",
@@ -109,12 +178,6 @@
         "a",
         "long",
         "time",
-        "in",
-        "the",
-        "cold",
-        "wind.",
-        "The",
-        "man",
         "on",
         "the",
         "right",
@@ -123,71 +186,129 @@
         "all",
         "over",
         "because",
+        "sun.",
+        "He",
+        "is",
+        "drinking",
+        "water",
+        "because",
+        "it.",
+        "He",
+        "is",
+        "thirsty."
+      ],
+      "conf": 96.1635,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "in the cold wind. The man",
+      "x": 0.5265,
+      "y": 0.5016,
+      "w": 0.3706,
+      "h": 0.0173,
+      "words": [
+        "in",
+        "the",
+        "cold",
+        "wind.",
+        "The",
+        "man"
+      ],
+      "conf": 96.5145,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "he got too hot in the he feels the need of",
+      "x": 0.6082,
+      "y": 0.5222,
+      "w": 0.2914,
+      "h": 0.0492,
+      "words": [
         "he",
         "got",
         "too",
         "hot",
         "in",
         "the",
-        "sun."
-      ]
-    },
-    {
-      "text": "He is drinking water because he feels the need of it. He is thirsty. cool: make less warm. too: more than enough. thirsty: feeling the need to drink.",
-      "x": 0.1,
-      "y": 0.65,
-      "w": 0.85,
-      "h": 0.2,
-      "id": "r3",
-      "order": 2,
-      "words": [
-        "He",
-        "is",
-        "drinking",
-        "water",
-        "because",
         "he",
         "feels",
         "the",
         "need",
-        "of",
-        "it.",
-        "He",
-        "is",
-        "thirsty.",
-        "cool:",
+        "of"
+      ],
+      "conf": 96.8544,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "cook make less warm.",
+      "x": 0.102,
+      "y": 0.787,
+      "w": 0.2392,
+      "h": 0.013,
+      "words": [
+        "cook",
         "make",
         "less",
-        "warm.",
-        "too:",
+        "warm."
+      ],
+      "conf": 93.9503,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "foot more than enough.",
+      "x": 0.102,
+      "y": 0.8049,
+      "w": 0.2571,
+      "h": 0.0146,
+      "words": [
+        "foot",
         "more",
         "than",
-        "enough.",
+        "enough."
+      ],
+      "conf": 76.7885,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "thirsty: feeling the aced to drink.",
+      "x": 0.1029,
+      "y": 0.8216,
+      "w": 0.378,
+      "h": 0.0162,
+      "words": [
         "thirsty:",
         "feeling",
         "the",
-        "need",
+        "aced",
         "to",
         "drink."
-      ]
+      ],
+      "conf": 88.5998,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will cool. PRESENT: cool(s). PAST: cooled.",
-      "x": 0.1,
-      "y": 0.85,
-      "w": 0.85,
-      "h": 0.08,
-      "id": "r4",
-      "order": 3,
+      "id": "r11",
+      "order": 10,
+      "text": "will",
+      "x": 0.1004,
+      "y": 0.8497,
+      "w": 0.0498,
+      "h": 0.0205,
       "words": [
-        "FUTURE:",
-        "will",
-        "cool.",
-        "PRESENT:",
-        "cool(s).",
-        "PAST:",
-        "cooled."
-      ]
+        "will"
+      ],
+      "conf": 89.9854,
+      "source": "psm-11"
     }
   ]
 }

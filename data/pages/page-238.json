@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20238.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 89,
+    "regionCount": 10,
+    "wordCount": 87,
     "imageWidth": 1163,
     "imageHeight": 1884
   },
@@ -18,7 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r6"
       ]
     },
     {
@@ -29,7 +30,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r2",
+        "r3",
+        "r4",
+        "r5"
       ]
     },
     {
@@ -40,7 +44,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r7",
+        "r9"
       ]
     },
     {
@@ -51,19 +56,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r8",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Put your fingers across one another like this. I have my first and second fingers across one another.",
-      "x": 0.12,
-      "y": 0.11,
-      "w": 0.38,
-      "h": 0.35,
       "id": "r1",
       "order": 0,
+      "text": "Put your fingers across one another like this.",
+      "x": 0.1445,
+      "y": 0.1168,
+      "w": 0.3542,
+      "h": 0.0435,
       "words": [
         "Put",
         "your",
@@ -72,36 +78,54 @@
         "one",
         "another",
         "like",
-        "this.",
-        "I",
-        "have",
-        "my",
-        "first",
-        "and",
-        "second",
-        "fingers",
-        "across",
-        "one",
-        "another."
-      ]
+        "this."
+      ],
+      "conf": 96.6759,
+      "source": "psm-11"
     },
     {
-      "text": "Across? These two lines go across one another. My second finger is over and across my first finger. These are finger nails.",
-      "x": 0.54,
-      "y": 0.11,
-      "w": 0.38,
-      "h": 0.3,
       "id": "r2",
       "order": 1,
+      "text": "Across?",
+      "x": 0.5572,
+      "y": 0.1168,
+      "w": 0.1187,
+      "h": 0.018,
       "words": [
-        "Across?",
+        "Across?"
+      ],
+      "conf": 96.4418,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "These two lines go across one another.",
+      "x": 0.5563,
+      "y": 0.1407,
+      "w": 0.3792,
+      "h": 0.044,
+      "words": [
         "These",
         "two",
         "lines",
         "go",
         "across",
         "one",
-        "another.",
+        "another."
+      ],
+      "conf": 96.3159,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "My second finger is over and across my first finger.",
+      "x": 0.5529,
+      "y": 0.2511,
+      "w": 0.3809,
+      "h": 0.0722,
+      "words": [
         "My",
         "second",
         "finger",
@@ -111,21 +135,58 @@
         "across",
         "my",
         "first",
-        "finger.",
+        "finger."
+      ],
+      "conf": 94.6127,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "These are finger nails.",
+      "x": 0.7429,
+      "y": 0.3562,
+      "w": 0.1797,
+      "h": 0.0462,
+      "words": [
         "These",
         "are",
         "finger",
         "nails."
-      ]
+      ],
+      "conf": 96.2543,
+      "source": "psm-11"
     },
     {
-      "text": "Did you put your fingers across one another? That is right. You have your fingers across one another.",
-      "x": 0.12,
-      "y": 0.51,
-      "w": 0.38,
-      "h": 0.3,
-      "id": "r3",
-      "order": 2,
+      "id": "r6",
+      "order": 5,
+      "text": "have my first and second fingers across one another",
+      "x": 0.1548,
+      "y": 0.3944,
+      "w": 0.331,
+      "h": 0.0685,
+      "words": [
+        "have",
+        "my",
+        "first",
+        "and",
+        "second",
+        "fingers",
+        "across",
+        "one",
+        "another"
+      ],
+      "conf": 94.0088,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Did you put your fingers across one another?",
+      "x": 0.1333,
+      "y": 0.5021,
+      "w": 0.3809,
+      "h": 0.0436,
       "words": [
         "Did",
         "you",
@@ -134,27 +195,19 @@
         "fingers",
         "across",
         "one",
-        "another?",
-        "That",
-        "is",
-        "right.",
-        "You",
-        "have",
-        "your",
-        "fingers",
-        "across",
-        "one",
-        "another."
-      ]
+        "another?"
+      ],
+      "conf": 96.486,
+      "source": "psm-11"
     },
     {
-      "text": "Now take a pencil and give a touch to one finger, and then a touch to the other and then put the pencil between them. Do this with your eyes shut.",
-      "x": 0.54,
-      "y": 0.51,
-      "w": 0.38,
-      "h": 0.35,
-      "id": "r4",
-      "order": 3,
+      "id": "r8",
+      "order": 7,
+      "text": "Now take a pencil and give a touch to one finger, and then a touch tothe other and then put the pencil between them.",
+      "x": 0.5503,
+      "y": 0.5027,
+      "w": 0.3801,
+      "h": 0.1226,
       "words": [
         "Now",
         "take",
@@ -171,8 +224,7 @@
         "then",
         "a",
         "touch",
-        "to",
-        "the",
+        "tothe",
         "other",
         "and",
         "then",
@@ -180,14 +232,52 @@
         "the",
         "pencil",
         "between",
-        "them.",
+        "them."
+      ],
+      "conf": 96.3462,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "That is right You have your fingers across one another.",
+      "x": 0.1324,
+      "y": 0.552,
+      "w": 0.3431,
+      "h": 0.068,
+      "words": [
+        "That",
+        "is",
+        "right",
+        "You",
+        "have",
+        "your",
+        "fingers",
+        "across",
+        "one",
+        "another."
+      ],
+      "conf": 96.8844,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Do this with your eyes shut.",
+      "x": 0.5477,
+      "y": 0.6269,
+      "w": 0.3414,
+      "h": 0.0424,
+      "words": [
         "Do",
         "this",
         "with",
         "your",
         "eyes",
         "shut."
-      ]
+      ],
+      "conf": 96.7535,
+      "source": "psm-11"
     }
   ]
 }

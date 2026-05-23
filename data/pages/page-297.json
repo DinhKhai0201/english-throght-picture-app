@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20297.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 100,
+    "regionCount": 17,
+    "wordCount": 89,
     "imageWidth": 1242,
     "imageHeight": 1838
   },
@@ -18,7 +18,11 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r1",
+        "r3",
+        "r4",
+        "r8",
+        "r9"
       ]
     },
     {
@@ -29,7 +33,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r5",
+        "r6",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r13",
+        "r16"
       ]
     },
     {
@@ -40,53 +60,135 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r11",
+        "r12",
+        "r14",
+        "r15",
+        "r17"
       ]
     }
   ],
   "regions": [
     {
-      "text": "This is a picture of the increasing population of the United States in the last hundred years. One man in the picture represents ten million (10,000,000) people. This picture is a graph. This graph lets us see relations between times and numbers of people.",
-      "x": 0.45,
-      "y": 0.05,
-      "w": 0.5,
-      "h": 0.3,
       "id": "r1",
       "order": 0,
+      "text": "This is a KX",
+      "x": 0.2504,
+      "y": 0.0392,
+      "w": 0.2625,
+      "h": 0.0827,
       "words": [
         "This",
         "is",
         "a",
+        "KX"
+      ],
+      "conf": 96.8259,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "picture of the increasing of the United States in hundred years. One man the picture represents ten million",
+      "x": 0.4919,
+      "y": 0.0386,
+      "w": 0.3978,
+      "h": 0.1236,
+      "words": [
         "picture",
         "of",
         "the",
         "increasing",
-        "population",
         "of",
         "the",
         "United",
         "States",
         "in",
-        "the",
-        "last",
         "hundred",
         "years.",
         "One",
         "man",
-        "in",
         "the",
         "picture",
         "represents",
         "ten",
-        "million",
-        "(10,000,000)",
-        "people.",
+        "million"
+      ],
+      "conf": 96.6736,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "population the last KX",
+      "x": 0.2472,
+      "y": 0.0658,
+      "w": 0.2978,
+      "h": 0.1165,
+      "words": [
+        "population",
+        "the",
+        "last",
+        "KX"
+      ],
+      "conf": 96.3196,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "in",
+      "x": 0.4565,
+      "y": 0.1186,
+      "w": 0.0266,
+      "h": 0.0169,
+      "words": [
+        "in"
+      ],
+      "conf": 96.5981,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "people.",
+      "x": 0.789,
+      "y": 0.1453,
+      "w": 0.0982,
+      "h": 0.0207,
+      "words": [
+        "people."
+      ],
+      "conf": 96.7454,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "This picture is a graph.",
+      "x": 0.5338,
+      "y": 0.1719,
+      "w": 0.3527,
+      "h": 0.0223,
+      "words": [
         "This",
         "picture",
         "is",
         "a",
-        "graph.",
+        "graph."
+      ],
+      "conf": 96.6314,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This graph lets us see relations between times and numbers of people.",
+      "x": 0.5733,
+      "y": 0.1991,
+      "w": 0.3172,
+      "h": 0.1029,
+      "words": [
         "This",
         "graph",
         "lets",
@@ -99,38 +201,90 @@
         "numbers",
         "of",
         "people."
-      ]
+      ],
+      "conf": 96.5934,
+      "source": "psm-11"
     },
     {
-      "text": "1850, 1860, 1870, 1880, 1890, 1900, 1910, 1920, 1930, 1940, 1950",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.1,
-      "h": 0.7,
-      "id": "r2",
-      "order": 1,
+      "id": "r8",
+      "order": 7,
+      "text": "KKKKK",
+      "x": 0.244,
+      "y": 0.2546,
+      "w": 0.2118,
+      "h": 0.0501,
       "words": [
-        "1850,",
-        "1860,",
-        "1870,",
-        "1880,",
-        "1890,",
-        "1900,",
-        "1910,",
-        "1920,",
-        "1930,",
-        "1940,",
-        "1950"
-      ]
+        "KKKKK"
+      ],
+      "conf": 58.5728,
+      "source": "psm-11"
     },
     {
-      "text": "represents: takes the place of; puts before the mind. graph: picture which represents changes in amounts in relation to other changes. relation: there is the same relation between 2 and 4 as there is between 3 and 6.",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r3",
-      "order": 2,
+      "id": "r9",
+      "order": 8,
+      "text": "KKKKKXX?",
+      "x": 0.2415,
+      "y": 0.3874,
+      "w": 0.3205,
+      "h": 0.0365,
+      "words": [
+        "KKKKKXX?"
+      ],
+      "conf": 42.6015,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "a> ab ab",
+      "x": 0.3084,
+      "y": 0.494,
+      "w": 0.1562,
+      "h": 0.0343,
+      "words": [
+        "a>",
+        "ab",
+        "ab"
+      ],
+      "conf": 47.5506,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "ROOK",
+      "x": 0.2359,
+      "y": 0.6181,
+      "w": 0.5499,
+      "h": 0.0452,
+      "words": [
+        "ROOK"
+      ],
+      "conf": 49.9176,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "UO",
+      "x": 0.8591,
+      "y": 0.6725,
+      "w": 0.0298,
+      "h": 0.0201,
+      "words": [
+        "UO"
+      ],
+      "conf": 42.0543,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "represents: takes the place of; puts graph: picture which represents changes chonges.",
+      "x": 0.1119,
+      "y": 0.7688,
+      "w": 0.446,
+      "h": 0.0506,
       "words": [
         "represents:",
         "takes",
@@ -138,57 +292,92 @@
         "place",
         "of;",
         "puts",
-        "before",
-        "the",
-        "mind.",
         "graph:",
         "picture",
         "which",
         "represents",
         "changes",
+        "chonges."
+      ],
+      "conf": 95.4429,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "in amounts in relation to other between and as there is between",
+      "x": 0.5056,
+      "y": 0.7878,
+      "w": 0.3929,
+      "h": 0.0474,
+      "words": [
         "in",
         "amounts",
         "in",
         "relation",
         "to",
         "other",
-        "changes.",
+        "between",
+        "and",
+        "as",
+        "there",
+        "is",
+        "between"
+      ],
+      "conf": 95.9758,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "before the mind.",
+      "x": 0.5081,
+      "y": 0.7699,
+      "w": 0.1739,
+      "h": 0.012,
+      "words": [
+        "before",
+        "the",
+        "mind."
+      ],
+      "conf": 96.3347,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "relation: there is the some relation and will represent",
+      "x": 0.1127,
+      "y": 0.8215,
+      "w": 0.3833,
+      "h": 0.0637,
+      "words": [
         "relation:",
         "there",
         "is",
         "the",
-        "same",
+        "some",
         "relation",
-        "between",
-        "2",
         "and",
-        "4",
-        "as",
-        "there",
-        "is",
-        "between",
-        "3",
-        "and",
-        "6."
-      ]
+        "will",
+        "represent"
+      ],
+      "conf": 96.0285,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will represent. PRESENT: represent(s). PAST: represented.",
-      "x": 0.1,
-      "y": 0.88,
-      "w": 0.85,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
+      "id": "r17",
+      "order": 16,
+      "text": "represented",
+      "x": 0.7536,
+      "y": 0.8705,
+      "w": 0.1457,
+      "h": 0.0152,
       "words": [
-        "FUTURE:",
-        "will",
-        "represent.",
-        "PRESENT:",
-        "represent(s).",
-        "PAST:",
-        "represented."
-      ]
+        "represented"
+      ],
+      "conf": 88.0664,
+      "source": "psm-11"
     }
   ]
 }

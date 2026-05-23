@@ -4,12 +4,26 @@
   "imageApiPath": "/api/books/page%20472.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 68,
+    "regionCount": 15,
+    "wordCount": 116,
     "imageWidth": 1171,
     "imageHeight": 1875
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r6",
+        "r7",
+        "r9"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +32,25 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r8"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r10",
+        "r11",
+        "r13",
+        "r14"
       ]
     },
     {
@@ -30,123 +61,322 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r12",
+        "r15"
       ]
     }
   ],
   "regions": [
     {
-      "text": "A thermostat's design uses the fact that metals expand when heated. Different metals expand by different amounts.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "A thermostat is designed makes use of our knowledge heated.",
+      "x": 0.0897,
+      "y": 0.0395,
+      "w": 0.4475,
+      "h": 0.0687,
       "words": [
         "A",
-        "thermostat's",
-        "design",
-        "uses",
-        "the",
-        "fact",
-        "that",
-        "metals",
-        "expand",
-        "when",
-        "heated.",
-        "Different",
-        "metals",
-        "expand",
-        "by",
-        "different",
-        "amounts."
-      ]
+        "thermostat",
+        "is",
+        "designed",
+        "makes",
+        "use",
+        "of",
+        "our",
+        "knowledge",
+        "heated."
+      ],
+      "conf": 96.4094,
+      "source": "psm-11"
     },
     {
-      "text": "(Diagram: Comparing metals at low and high temperatures. Two metals are bent together inside the device).",
-      "x": 0.45,
-      "y": 0.2,
-      "w": 0.5,
-      "h": 0.35,
       "id": "r2",
       "order": 1,
+      "text": "for this purpose. Its design of what metals do when",
+      "x": 0.5013,
+      "y": 0.0389,
+      "w": 0.4261,
+      "h": 0.0433,
       "words": [
-        "(Diagram:",
-        "Comparing",
+        "for",
+        "this",
+        "purpose.",
+        "Its",
+        "design",
+        "of",
+        "what",
         "metals",
-        "at",
-        "low",
-        "and",
-        "high",
-        "temperatures.",
+        "do",
+        "when"
+      ],
+      "conf": 96.627,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "TEMPERATU",
+      "x": 0.4611,
+      "y": 0.1285,
+      "w": 0.1196,
+      "h": 0.0309,
+      "words": [
+        "TEMPERATU"
+      ],
+      "conf": 90.3834,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "RE",
+      "x": 0.5798,
+      "y": 0.1408,
+      "w": 0.0256,
+      "h": 0.0187,
+      "words": [
+        "RE"
+      ],
+      "conf": 95.1657,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "RE",
+      "x": 0.8002,
+      "y": 0.1435,
+      "w": 0.0222,
+      "h": 0.0107,
+      "words": [
+        "RE"
+      ],
+      "conf": 94.5877,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "This is the way it works.",
+      "x": 0.0922,
+      "y": 0.168,
+      "w": 0.3484,
+      "h": 0.0213,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "way",
+        "it",
+        "works."
+      ],
+      "conf": 96.5504,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Different metals get larger by are heated.",
+      "x": 0.0888,
+      "y": 0.296,
+      "w": 0.4475,
+      "h": 0.0426,
+      "words": [
+        "Different",
+        "metals",
+        "get",
+        "larger",
+        "by",
+        "are",
+        "heated."
+      ],
+      "conf": 96.3873,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "different amounts as they",
+      "x": 0.5482,
+      "y": 0.296,
+      "w": 0.3792,
+      "h": 0.0208,
+      "words": [
+        "different",
+        "amounts",
+        "as",
+        "they"
+      ],
+      "conf": 96.3445,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Two long thin pieces of such different metals are bent together like",
+      "x": 0.0905,
+      "y": 0.4245,
+      "w": 0.3407,
+      "h": 0.0726,
+      "words": [
         "Two",
+        "long",
+        "thin",
+        "pieces",
+        "of",
+        "such",
+        "different",
         "metals",
         "are",
         "bent",
         "together",
-        "inside",
-        "the",
-        "device)."
-      ]
+        "like"
+      ],
+      "conf": 96.2908,
+      "source": "psm-11"
     },
     {
-      "text": "When the room gets too hot, one metal expands more, moving an arm that shuts off the heating fuel.",
-      "x": 0.1,
-      "y": 0.6,
-      "w": 0.85,
-      "h": 0.2,
-      "id": "r3",
-      "order": 2,
+      "id": "r10",
+      "order": 9,
+      "text": "this inside the thermo- Stat.",
+      "x": 0.0897,
+      "y": 0.5024,
+      "w": 0.3416,
+      "h": 0.0427,
+      "words": [
+        "this",
+        "inside",
+        "the",
+        "thermo-",
+        "Stat."
+      ],
+      "conf": 94.7436,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "When the temperature in a metal on the outside gets longer inside. This moves the arm fuel in the heating system of",
+      "x": 0.0905,
+      "y": 0.6053,
+      "w": 0.4953,
+      "h": 0.0987,
       "words": [
         "When",
         "the",
-        "room",
-        "gets",
-        "too",
-        "hot,",
-        "one",
+        "temperature",
+        "in",
+        "a",
         "metal",
-        "expands",
-        "more,",
-        "moving",
-        "an",
+        "on",
+        "the",
+        "outside",
+        "gets",
+        "longer",
+        "inside.",
+        "This",
+        "moves",
+        "the",
         "arm",
-        "that",
+        "fuel",
+        "in",
+        "the",
+        "heating",
+        "system",
+        "of"
+      ],
+      "conf": 96.2111,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "room goes above 70°F the than the metal on the to the right and shuts off the the house.",
+      "x": 0.509,
+      "y": 0.6053,
+      "w": 0.4209,
+      "h": 0.095,
+      "words": [
+        "room",
+        "goes",
+        "above",
+        "70°F",
+        "the",
+        "than",
+        "the",
+        "metal",
+        "on",
+        "the",
+        "to",
+        "the",
+        "right",
+        "and",
         "shuts",
         "off",
         "the",
-        "heating",
-        "fuel."
-      ]
+        "the",
+        "house."
+      ],
+      "conf": 94.8224,
+      "source": "psm-11"
     },
     {
-      "text": "purpose: what a thing is designed to do. (Illustrations of thermal expansion and bimetallic strip mechanics).",
-      "x": 0.1,
-      "y": 0.82,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r4",
-      "order": 3,
+      "id": "r13",
+      "order": 12,
+      "text": "for this purpose: to do this work.",
+      "x": 0.0956,
+      "y": 0.8309,
+      "w": 0.392,
+      "h": 0.0155,
       "words": [
+        "for",
+        "this",
         "purpose:",
-        "what",
+        "to",
+        "do",
+        "this",
+        "work."
+      ],
+      "conf": 92.4213,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "purposes a thing’s purpose is what",
+      "x": 0.0965,
+      "y": 0.8485,
+      "w": 0.4014,
+      "h": 0.0155,
+      "words": [
+        "purposes",
         "a",
-        "thing",
+        "thing’s",
+        "purpose",
+        "is",
+        "what"
+      ],
+      "conf": 89.6342,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "It is designed to do.",
+      "x": 0.5064,
+      "y": 0.8485,
+      "w": 0.2237,
+      "h": 0.0144,
+      "words": [
+        "It",
         "is",
         "designed",
         "to",
-        "do.",
-        "(Illustrations",
-        "of",
-        "thermal",
-        "expansion",
-        "and",
-        "bimetallic",
-        "strip",
-        "mechanics)."
-      ]
+        "do."
+      ],
+      "conf": 95.792,
+      "source": "psm-11"
     }
   ]
 }

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20318.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 88,
+    "regionCount": 9,
+    "wordCount": 84,
     "imageWidth": 1171,
     "imageHeight": 1855
   },
@@ -18,7 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r3"
       ]
     },
     {
@@ -29,7 +30,21 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r2",
+        "r4",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r8"
       ]
     },
     {
@@ -40,39 +55,37 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r7",
+        "r9"
       ]
     }
   ],
   "regions": [
     {
-      "text": "The vitamins are named by letters of the alphabet. Vitamin A is needed by the eyes. There is Vitamin A in milk, butter and green vegetables. It can be stored by the body.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.45,
-      "h": 0.3,
       "id": "r1",
       "order": 0,
+      "text": "The vitamins are named by ters of the alphabet. Vitamin is needed by the eyes. There Vitamin A in milk, butter and green vegetables. It can stored by the body.",
+      "x": 0.0871,
+      "y": 0.1024,
+      "w": 0.4629,
+      "h": 0.1537,
       "words": [
         "The",
         "vitamins",
         "are",
         "named",
         "by",
-        "letters",
+        "ters",
         "of",
         "the",
         "alphabet.",
         "Vitamin",
-        "A",
         "is",
         "needed",
         "by",
         "the",
         "eyes.",
         "There",
-        "is",
         "Vitamin",
         "A",
         "in",
@@ -83,63 +96,108 @@
         "vegetables.",
         "It",
         "can",
-        "be",
         "stored",
         "by",
         "the",
         "body."
-      ]
+      ],
+      "conf": 95.8109,
+      "source": "psm-11"
     },
     {
-      "text": "Vitamin B cannot be stored. It must be supplied all the time by some of the food we eat. The skins of grain of all sorts have Vitamin B in them.",
-      "x": 0.3,
-      "y": 0.35,
-      "w": 0.65,
-      "h": 0.25,
       "id": "r2",
       "order": 1,
+      "text": "is be",
+      "x": 0.5141,
+      "y": 0.1553,
+      "w": 0.0367,
+      "h": 0.0695,
+      "words": [
+        "is",
+        "be"
+      ],
+      "conf": 95.9813,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Vitamin B cannot supplied ali the we eat. The skins Vitamin B in them.",
+      "x": 0.2972,
+      "y": 0.3375,
+      "w": 0.2783,
+      "h": 0.0948,
       "words": [
         "Vitamin",
         "B",
         "cannot",
+        "supplied",
+        "ali",
+        "the",
+        "we",
+        "eat.",
+        "The",
+        "skins",
+        "Vitamin",
+        "B",
+        "in",
+        "them."
+      ],
+      "conf": 93.3543,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "be stored. It must be time by some of the food of grain of all sorts have",
+      "x": 0.5423,
+      "y": 0.3358,
+      "w": 0.38,
+      "h": 0.0744,
+      "words": [
         "be",
         "stored.",
         "It",
         "must",
         "be",
-        "supplied",
-        "all",
-        "the",
         "time",
         "by",
         "some",
         "of",
         "the",
         "food",
-        "we",
-        "eat.",
-        "The",
-        "skins",
         "of",
         "grain",
         "of",
         "all",
         "sorts",
-        "have",
-        "Vitamin",
-        "B",
-        "in",
-        "them."
-      ]
+        "have"
+      ],
+      "conf": 94.8605,
+      "source": "psm-11"
     },
     {
-      "text": "alphabet: all the letters used in writing (see page 61). eat: take food by the mouth.",
-      "x": 0.1,
-      "y": 0.8,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "SO",
+      "x": 0.7737,
+      "y": 0.4841,
+      "w": 0.047,
+      "h": 0.0205,
+      "words": [
+        "SO"
+      ],
+      "conf": 46.3404,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "alphabet: all the letters used in writing eat: toke food by the mouth.",
+      "x": 0.0956,
+      "y": 0.7989,
+      "w": 0.4552,
+      "h": 0.0334,
       "words": [
         "alphabet:",
         "all",
@@ -148,35 +206,61 @@
         "used",
         "in",
         "writing",
-        "(see",
-        "page",
-        "61).",
         "eat:",
-        "take",
+        "toke",
         "food",
         "by",
         "the",
         "mouth."
-      ]
+      ],
+      "conf": 95.4225,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will eat. PRESENT: eat(s). PAST: ate, eaten.",
-      "x": 0.1,
-      "y": 0.88,
-      "w": 0.85,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
+      "id": "r7",
+      "order": 6,
+      "text": "(see page eat(s)",
+      "x": 0.4714,
+      "y": 0.7989,
+      "w": 0.1955,
+      "h": 0.0631,
       "words": [
-        "FUTURE:",
+        "(see",
+        "page",
+        "eat(s)"
+      ],
+      "conf": 96.5818,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "will eat",
+      "x": 0.0948,
+      "y": 0.8469,
+      "w": 0.0974,
+      "h": 0.0119,
+      "words": [
         "will",
-        "eat.",
-        "PRESENT:",
-        "eat(s).",
-        "PAST:",
+        "eat"
+      ],
+      "conf": 95.9317,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "ate, eaten",
+      "x": 0.7993,
+      "y": 0.8474,
+      "w": 0.1281,
+      "h": 0.0119,
+      "words": [
         "ate,",
-        "eaten."
-      ]
+        "eaten"
+      ],
+      "conf": 89.5672,
+      "source": "psm-11"
     }
   ]
 }

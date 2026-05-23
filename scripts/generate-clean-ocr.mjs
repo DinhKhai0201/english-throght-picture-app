@@ -16,8 +16,8 @@ const pageFiles = readdirSync(booksDir)
 console.log(`Starting clean high-precision column-split OCR generation...`);
 console.log(`Total book pages found: ${pageFiles.length}`);
 
-// We migrate page 40 to the end
-const startPage = 40;
+// We migrate page 45 to the end
+const startPage = 45;
 const pagesToMigrate = pageFiles.filter((name) => pageNumber(name) >= startPage);
 
 console.log(`Migrating ${pagesToMigrate.length} pages (from page ${startPage} onwards)...`);
@@ -80,7 +80,9 @@ function buildRegionsFromTsv(passes, dimensions) {
   const secondaryPass = passes.find((pass) => pass.psm === 6);
 
   let primaryRegions = extractRegionsFromPass(primaryPass, dimensions);
-  primaryRegions = dedupeRegions(mergeWrappedLines(sortRegions(primaryRegions)));
+  primaryRegions = dedupeRegions(sortRegions(primaryRegions));
+  const primaryLayout = guessLayout(primaryRegions);
+  primaryRegions = mergeWrappedLines(primaryRegions, primaryLayout);
 
   if (!secondaryPass) {
     return primaryRegions;
@@ -91,8 +93,13 @@ function buildRegionsFromTsv(passes, dimensions) {
     return primaryRegions;
   }
 
-  const secondaryRegions = dedupeRegions(mergeWrappedLines(sortRegions(extractRegionsFromPass(secondaryPass, dimensions))));
-  return dedupeRegions([...primaryRegions, ...secondaryRegions]);
+  let secondaryRegions = dedupeRegions(sortRegions(extractRegionsFromPass(secondaryPass, dimensions)));
+  const secondaryLayout = guessLayout(secondaryRegions);
+  secondaryRegions = mergeWrappedLines(secondaryRegions, secondaryLayout);
+
+  const combinedRegions = dedupeRegions([...primaryRegions, ...secondaryRegions]);
+  const combinedLayout = guessLayout(combinedRegions);
+  return mergeWrappedLines(combinedRegions, combinedLayout);
 }
 
 function extractRegionsFromPass(pass, dimensions) {
@@ -180,14 +187,14 @@ function sortRegions(regions) {
     .map((region, index) => ({ ...region, order: index, id: `r${index + 1}` }));
 }
 
-function mergeWrappedLines(regions) {
+function mergeWrappedLines(regions, layout) {
   const merged = [];
-  const lastByQuadrant = new Map();
+  const lastByPartition = new Map();
 
   for (const region of regions) {
-    const quadrant = quadrantOf(region);
-    const previous = lastByQuadrant.get(quadrant);
-    if (previous && shouldMergeRegions(previous, region)) {
+    const partition = layout === "quad" ? quadrantOf(region) : columnOf(region);
+    const previous = lastByPartition.get(partition);
+    if (previous && shouldMergeRegions(previous, region, layout)) {
       const previousRight = previous.x + previous.w;
       const previousBottom = previous.y + previous.h;
       const nextRight = region.x + region.w;
@@ -205,18 +212,21 @@ function mergeWrappedLines(regions) {
 
     const nextRegion = { ...region, words: [...region.words] };
     merged.push(nextRegion);
-    lastByQuadrant.set(quadrant, nextRegion);
+    lastByPartition.set(partition, nextRegion);
   }
 
   return sortRegions(merged);
 }
 
-function shouldMergeRegions(previous, current) {
-  if (quadrantOf(previous) !== quadrantOf(current)) return false;
+function shouldMergeRegions(previous, current, layout) {
+  const partPrev = layout === "quad" ? quadrantOf(previous) : columnOf(previous);
+  const partCurr = layout === "quad" ? quadrantOf(current) : columnOf(current);
+  if (partPrev !== partCurr) return false;
 
   const previousBottom = previous.y + previous.h;
   const verticalGap = current.y - previousBottom;
-  if (verticalGap < -0.002 || verticalGap > 0.04) return false;
+  // Let's allow slightly larger gap (up to 4.5% of page height) for paragraphs
+  if (verticalGap < -0.005 || verticalGap > 0.045) return false;
 
   const leftAligned = Math.abs(previous.x - current.x) <= 0.08;
   const continuationIndent = current.x <= previous.x + 0.08;
@@ -234,6 +244,11 @@ function quadrantOf(region) {
   if (centerX >= 0.5 && centerY < 0.5) return "top-right";
   if (centerX < 0.5 && centerY >= 0.5) return "bottom-left";
   return "bottom-right";
+}
+
+function columnOf(region) {
+  const centerX = region.x + region.w / 2;
+  return centerX < 0.5 ? "left" : "right";
 }
 
 function endsSentence(text) {

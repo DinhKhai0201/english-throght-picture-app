@@ -2,73 +2,42 @@
   "page": 93,
   "image": "/books/page 93.png",
   "imageApiPath": "/api/books/page%2093.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 9,
+    "regionCount": 8,
     "wordCount": 52,
     "imageWidth": 1142,
     "imageHeight": 1838
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r1",
         "r2",
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r3",
         "r4",
         "r5",
-        "r6"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r6",
         "r7",
-        "r8",
-        "r9"
+        "r8"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Mary Smith will go from the table to the door.",
-      "x": 0.08,
-      "y": 0.13,
-      "w": 0.4,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "Mary Smith will go from the table to the door.",
+      "x": 0.0954,
+      "y": 0.1257,
+      "w": 0.3975,
+      "h": 0.0457,
       "words": [
         "Mary",
         "Smith",
@@ -80,16 +49,18 @@
         "to",
         "the",
         "door."
-      ]
+      ],
+      "conf": 96.7028,
+      "source": "psm-11"
     },
     {
-      "text": "She is going to the door.",
-      "x": 0.54,
-      "y": 0.12,
-      "w": 0.4,
-      "h": 0.03,
       "id": "r2",
       "order": 1,
+      "text": "She is going to the door.",
+      "x": 0.5534,
+      "y": 0.1251,
+      "w": 0.3914,
+      "h": 0.025,
       "words": [
         "She",
         "is",
@@ -97,78 +68,58 @@
         "to",
         "the",
         "door."
-      ]
+      ],
+      "conf": 96.7089,
+      "source": "psm-11"
     },
     {
-      "text": "The door is shut.",
-      "x": 0.54,
-      "y": 0.15,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r3",
       "order": 2,
+      "text": "The door is shut,",
+      "x": 0.5525,
+      "y": 0.1513,
+      "w": 0.2618,
+      "h": 0.0218,
       "words": [
         "The",
         "door",
         "is",
-        "shut."
-      ]
+        "shut,"
+      ],
+      "conf": 91.1553,
+      "source": "psm-11"
     },
     {
-      "text": "She went out of the room.",
-      "x": 0.1,
-      "y": 0.52,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r4",
       "order": 3,
+      "text": "She went out of the The door is open now.",
+      "x": 0.1235,
+      "y": 0.5196,
+      "w": 0.3581,
+      "h": 0.0794,
       "words": [
         "She",
         "went",
         "out",
         "of",
         "the",
-        "room."
-      ]
-    },
-    {
-      "text": "The door is open now.",
-      "x": 0.1,
-      "y": 0.57,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r5",
-      "order": 4,
-      "words": [
         "The",
         "door",
         "is",
         "open",
         "now."
-      ]
+      ],
+      "conf": 96.8031,
+      "source": "psm-11"
     },
     {
-      "text": "It was shut.",
-      "x": 0.1,
-      "y": 0.6,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r6",
-      "order": 5,
-      "words": [
-        "It",
-        "was",
-        "shut."
-      ]
-    },
-    {
-      "text": "Mary Smith is not in the room.",
-      "x": 0.55,
-      "y": 0.51,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r7",
-      "order": 6,
+      "id": "r5",
+      "order": 4,
+      "text": "Mary Smith is not in the room. She was in the room.",
+      "x": 0.5771,
+      "y": 0.5175,
+      "w": 0.3792,
+      "h": 0.0746,
       "words": [
         "Mary",
         "Smith",
@@ -176,33 +127,54 @@
         "not",
         "in",
         "the",
-        "room."
-      ]
-    },
-    {
-      "text": "She was in the room.",
-      "x": 0.55,
-      "y": 0.56,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r8",
-      "order": 7,
-      "words": [
+        "room.",
         "She",
         "was",
         "in",
         "the",
         "room."
-      ]
+      ],
+      "conf": 96.4429,
+      "source": "psm-11"
     },
     {
+      "id": "r6",
+      "order": 5,
+      "text": "room.",
+      "x": 0.1252,
+      "y": 0.555,
+      "w": 0.0911,
+      "h": 0.0125,
+      "words": [
+        "room."
+      ],
+      "conf": 94.9782,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "It was shut.",
+      "x": 0.1252,
+      "y": 0.5996,
+      "w": 0.1751,
+      "h": 0.0201,
+      "words": [
+        "It",
+        "was",
+        "shut."
+      ],
+      "conf": 80.0676,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
       "text": "She went out of the room.",
-      "x": 0.55,
-      "y": 0.59,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r9",
-      "order": 8,
+      "x": 0.5753,
+      "y": 0.5947,
+      "w": 0.3108,
+      "h": 0.0468,
       "words": [
         "She",
         "went",
@@ -210,7 +182,9 @@
         "of",
         "the",
         "room."
-      ]
+      ],
+      "conf": 96.6211,
+      "source": "psm-11"
     }
   ]
 }

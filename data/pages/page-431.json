@@ -2,73 +2,90 @@
   "page": 431,
   "image": "/books/page 431.png",
   "imageApiPath": "/api/books/page%20431.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 73,
+    "regionCount": 12,
+    "wordCount": 117,
     "imageWidth": 1242,
     "imageHeight": 1850
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r1",
+        "r2",
         "r3",
-        "r4"
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Great cities have theaters for plays, music buildings for great works, and libraries for the best that has been thought and written.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.45,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "Great cities have theaters where plays of the past and the present are acted.",
+      "x": 0.124,
+      "y": 0.0605,
+      "w": 0.3583,
+      "h": 0.0741,
       "words": [
         "Great",
         "cities",
         "have",
         "theaters",
-        "for",
-        "plays,",
-        "music",
-        "buildings",
-        "for",
-        "great",
-        "works,",
+        "where",
+        "plays",
+        "of",
+        "the",
+        "past",
         "and",
+        "the",
+        "present",
+        "are",
+        "acted."
+      ],
+      "conf": 96.5901,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "They have music build- ings where great works of music are played. They have libraries where the best that has been thought and written can be found.",
+      "x": 0.1224,
+      "y": 0.14,
+      "w": 0.3591,
+      "h": 0.1487,
+      "words": [
+        "They",
+        "have",
+        "music",
+        "build-",
+        "ings",
+        "where",
+        "great",
+        "works",
+        "of",
+        "music",
+        "are",
+        "played.",
+        "They",
+        "have",
         "libraries",
-        "for",
+        "where",
         "the",
         "best",
         "that",
@@ -76,92 +93,219 @@
         "been",
         "thought",
         "and",
-        "written."
-      ]
+        "written",
+        "can",
+        "be",
+        "found."
+      ],
+      "conf": 94.1956,
+      "source": "psm-11"
     },
     {
-      "text": "Art, music, and poetry come from man’s greatest hours with himself and give others their greatest hours.",
-      "x": 0.1,
-      "y": 0.48,
-      "w": 0.45,
-      "h": 0.15,
-      "id": "r2",
-      "order": 1,
+      "id": "r3",
+      "order": 2,
+      "text": "T od",
+      "x": 0.624,
+      "y": 0.2011,
+      "w": 0.0266,
+      "h": 0.0216,
       "words": [
-        "Art,",
-        "music,",
+        "T",
+        "od"
+      ],
+      "conf": 47.5305,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Art and music and poetry come out of man’s great- est hours with himself and give other men some of their greatest hours.",
+      "x": 0.12,
+      "y": 0.48,
+      "w": 0.3575,
+      "h": 0.1254,
+      "words": [
+        "Art",
+        "and",
+        "music",
         "and",
         "poetry",
         "come",
-        "from",
+        "out",
+        "of",
         "man’s",
-        "greatest",
+        "great-",
+        "est",
         "hours",
         "with",
         "himself",
         "and",
         "give",
-        "others",
+        "other",
+        "men",
+        "some",
+        "of",
         "their",
         "greatest",
         "hours."
-      ]
+      ],
+      "conf": 96.6131,
+      "source": "psm-11"
     },
     {
-      "text": "theater: building for plays. acted: when a play is given. library: building for keeping books.",
-      "x": 0.1,
-      "y": 0.75,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "theater: building where plays are given.",
+      "x": 0.1167,
+      "y": 0.7476,
+      "w": 0.4444,
+      "h": 0.0162,
       "words": [
         "theater:",
         "building",
-        "for",
-        "plays.",
+        "where",
+        "plays",
+        "are",
+        "given."
+      ],
+      "conf": 96.405,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "acted: when a ploy is given, it is acted library: building or room for keeping try: words put together in the feel what they mean.",
+      "x": 0.1167,
+      "y": 0.7654,
+      "w": 0.4332,
+      "h": 0.067,
+      "words": [
         "acted:",
         "when",
         "a",
-        "play",
+        "ploy",
         "is",
-        "given.",
+        "given,",
+        "it",
+        "is",
+        "acted",
         "library:",
         "building",
+        "or",
+        "room",
         "for",
         "keeping",
-        "books."
-      ]
-    },
-    {
-      "text": "poetry: words put together in the best way for others to feel. FUTURE: will act. PRESENT: act(s). PAST: acted.",
-      "x": 0.1,
-      "y": 0.85,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "poetry:",
+        "try:",
         "words",
         "put",
         "together",
         "in",
         "the",
+        "feel",
+        "what",
+        "they",
+        "mean."
+      ],
+      "conf": 92.1034,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "best way so that others can see and",
+      "x": 0.5081,
+      "y": 0.8011,
+      "w": 0.401,
+      "h": 0.0151,
+      "words": [
         "best",
         "way",
-        "for",
+        "so",
+        "that",
         "others",
-        "to",
-        "feel.",
-        "FUTURE:",
+        "can",
+        "see",
+        "and"
+      ],
+      "conf": 92.942,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "books; the books kept there.",
+      "x": 0.5491,
+      "y": 0.7843,
+      "w": 0.3116,
+      "h": 0.0141,
+      "words": [
+        "books;",
+        "the",
+        "books",
+        "kept",
+        "there."
+      ],
+      "conf": 94.7101,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "by actors (players)",
+      "x": 0.5604,
+      "y": 0.767,
+      "w": 0.1981,
+      "h": 0.0146,
+      "words": [
+        "by",
+        "actors",
+        "(players)"
+      ],
+      "conf": 91.5483,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "will act",
+      "x": 0.1176,
+      "y": 0.8476,
+      "w": 0.0886,
+      "h": 0.0124,
+      "words": [
         "will",
-        "act.",
-        "PRESENT:",
-        "act(s).",
-        "PAST:",
-        "acted."
-      ]
+        "act"
+      ],
+      "conf": 94.1485,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "act(s)",
+      "x": 0.4847,
+      "y": 0.8481,
+      "w": 0.0733,
+      "h": 0.0157,
+      "words": [
+        "act(s)"
+      ],
+      "conf": 92.0621,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "acted",
+      "x": 0.8438,
+      "y": 0.8476,
+      "w": 0.0644,
+      "h": 0.013,
+      "words": [
+        "acted"
+      ],
+      "conf": 95.3986,
+      "source": "psm-11"
     }
   ]
 }

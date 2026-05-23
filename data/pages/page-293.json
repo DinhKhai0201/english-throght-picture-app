@@ -2,58 +2,44 @@
   "page": 293,
   "image": "/books/page 293.png",
   "imageApiPath": "/api/books/page%20293.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 58,
+    "regionCount": 10,
+    "wordCount": 56,
     "imageWidth": 1225,
     "imageHeight": 1850
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r1",
         "r2",
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Here are some people of different countries. This is a Japanese girl. She lives in Japan. Japan is her country. She is Japanese.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.35,
-      "h": 0.4,
       "id": "r1",
       "order": 0,
+      "text": "Here are some people of different countries.",
+      "x": 0.0939,
+      "y": 0.0665,
+      "w": 0.3436,
+      "h": 0.0432,
       "words": [
         "Here",
         "are",
@@ -61,12 +47,38 @@
         "people",
         "of",
         "different",
-        "countries.",
+        "countries."
+      ],
+      "conf": 96.5173,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is a Japanese girl.",
+      "x": 0.698,
+      "y": 0.2481,
+      "w": 0.191,
+      "h": 0.0476,
+      "words": [
         "This",
         "is",
         "a",
         "Japanese",
-        "girl.",
+        "girl."
+      ],
+      "conf": 95.9067,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "She lives in Japan. Japan is her country She is Japanese.",
+      "x": 0.6971,
+      "y": 0.3,
+      "w": 0.1968,
+      "h": 0.1254,
+      "words": [
         "She",
         "lives",
         "in",
@@ -74,26 +86,41 @@
         "Japan",
         "is",
         "her",
-        "country.",
+        "country",
         "She",
         "is",
         "Japanese."
-      ]
+      ],
+      "conf": 96.7128,
+      "source": "psm-11"
     },
     {
-      "text": "This is an Indian boy. He lives in India. India is his country.",
-      "x": 0.1,
-      "y": 0.45,
-      "w": 0.25,
-      "h": 0.2,
-      "id": "r2",
-      "order": 1,
+      "id": "r4",
+      "order": 3,
+      "text": "This is an Indian boy.",
+      "x": 0.0996,
+      "y": 0.4578,
+      "w": 0.1608,
+      "h": 0.0481,
       "words": [
         "This",
         "is",
         "an",
         "Indian",
-        "boy.",
+        "boy."
+      ],
+      "conf": 96.6119,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "He lives in India. India is his country.",
+      "x": 0.102,
+      "y": 0.5103,
+      "w": 0.1968,
+      "h": 0.074,
+      "words": [
         "He",
         "lives",
         "in",
@@ -102,39 +129,67 @@
         "is",
         "his",
         "country."
-      ]
+      ],
+      "conf": 96.7522,
+      "source": "psm-11"
     },
     {
-      "text": "Are you Japanese?... Chinese?... German?... French?... Polish?... Swiss? What is your country?",
-      "x": 0.1,
-      "y": 0.72,
-      "w": 0.5,
-      "h": 0.15,
-      "id": "r3",
-      "order": 2,
+      "id": "r6",
+      "order": 5,
+      "text": "Are you Japanese?...",
+      "x": 0.1053,
+      "y": 0.7314,
+      "w": 0.3118,
+      "h": 0.0216,
       "words": [
         "Are",
         "you",
-        "Japanese?...",
-        "Chinese?...",
-        "German?...",
-        "French?...",
-        "Polish?...",
+        "Japanese?..."
+      ],
+      "conf": 90.8326,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Chinese?...German?...",
+      "x": 0.1012,
+      "y": 0.7551,
+      "w": 0.3486,
+      "h": 0.0243,
+      "words": [
+        "Chinese?",
+        "...German?..."
+      ],
+      "conf": 77.3614,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Swiss? What is your country?",
+      "x": 0.1053,
+      "y": 0.8103,
+      "w": 0.4302,
+      "h": 0.0211,
+      "words": [
         "Swiss?",
         "What",
         "is",
         "your",
         "country?"
-      ]
+      ],
+      "conf": 96.655,
+      "source": "psm-11"
     },
     {
-      "text": "people: men and women and boys and girls are people.",
-      "x": 0.1,
-      "y": 0.88,
-      "w": 0.8,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
+      "id": "r9",
+      "order": 8,
+      "text": "people: men and women and boys and",
+      "x": 0.1078,
+      "y": 0.8816,
+      "w": 0.4302,
+      "h": 0.0151,
       "words": [
         "people:",
         "men",
@@ -142,11 +197,26 @@
         "women",
         "and",
         "boys",
-        "and",
+        "and"
+      ],
+      "conf": 96.0451,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "girls are people.",
+      "x": 0.5461,
+      "y": 0.8811,
+      "w": 0.1788,
+      "h": 0.0151,
+      "words": [
         "girls",
         "are",
         "people."
-      ]
+      ],
+      "conf": 94.6242,
+      "source": "psm-11"
     }
   ]
 }

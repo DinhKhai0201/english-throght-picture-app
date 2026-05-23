@@ -2,111 +2,44 @@
   "page": 188,
   "image": "/books/page 188.png",
   "imageApiPath": "/api/books/page%20188.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 83,
+    "regionCount": 10,
+    "wordCount": 74,
     "imageWidth": 1180,
     "imageHeight": 1871
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "A train may go eighty (80) miles in an hour. An airplane may go three hundred (300) miles in an hour. Trains and airplanes are different sorts (see page 106) of transport.",
-      "x": 0.12,
-      "y": 0.13,
-      "w": 0.38,
-      "h": 0.3,
       "id": "r1",
       "order": 0,
-      "words": [
-        "A",
-        "train",
-        "may",
-        "go",
-        "eighty",
-        "(80)",
-        "miles",
-        "in",
-        "an",
-        "hour.",
-        "An",
-        "airplane",
-        "may",
-        "go",
-        "three",
-        "hundred",
-        "(300)",
-        "miles",
-        "in",
-        "an",
-        "hour.",
-        "Trains",
-        "and",
-        "airplanes",
-        "are",
-        "different",
-        "sorts",
-        "(see",
-        "page",
-        "106)",
-        "of",
-        "transport."
-      ]
-    },
-    {
-      "text": "What are some other sorts of transport? Ships are another sort of transport. How far may a quick ship go in an hour? A quick ship may go thirty miles in an hour.",
-      "x": 0.54,
-      "y": 0.11,
-      "w": 0.4,
-      "h": 0.35,
-      "id": "r2",
-      "order": 1,
+      "text": "What are some other sorts of transport?",
+      "x": 0.5593,
+      "y": 0.117,
+      "w": 0.3221,
+      "h": 0.0711,
       "words": [
         "What",
         "are",
@@ -114,23 +47,126 @@
         "other",
         "sorts",
         "of",
-        "transport?",
+        "transport?"
+      ],
+      "conf": 96.4721,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "A train may go eighty miles in an hour.",
+      "x": 0.1441,
+      "y": 0.1427,
+      "w": 0.378,
+      "h": 0.0438,
+      "words": [
+        "A",
+        "train",
+        "may",
+        "go",
+        "eighty",
+        "miles",
+        "in",
+        "an",
+        "hour."
+      ],
+      "conf": 87.194,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "three hundred miles in an hour,",
+      "x": 0.1449,
+      "y": 0.2619,
+      "w": 0.2441,
+      "h": 0.0433,
+      "words": [
+        "three",
+        "hundred",
+        "miles",
+        "in",
+        "an",
+        "hour,"
+      ],
+      "conf": 96.321,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Ships are another sort of transport.",
+      "x": 0.561,
+      "y": 0.2699,
+      "w": 0.3508,
+      "h": 0.063,
+      "words": [
         "Ships",
         "are",
         "another",
         "sort",
         "of",
-        "transport.",
-        "How",
+        "transport."
+      ],
+      "conf": 81.5564,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Trains arid airplanes are different sorts (see page of transport.",
+      "x": 0.1398,
+      "y": 0.3533,
+      "w": 0.356,
+      "h": 0.0743,
+      "words": [
+        "Trains",
+        "arid",
+        "airplanes",
+        "are",
+        "different",
+        "sorts",
+        "(see",
+        "page",
+        "of",
+        "transport."
+      ],
+      "conf": 79.9954,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Héw far may d quick ship go in an hour?",
+      "x": 0.5619,
+      "y": 0.3335,
+      "w": 0.3177,
+      "h": 0.0497,
+      "words": [
+        "Héw",
         "far",
         "may",
-        "a",
+        "d",
         "quick",
         "ship",
         "go",
         "in",
         "an",
-        "hour?",
+        "hour?"
+      ],
+      "conf": 84.0773,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "A quick ship may go thirty miles in an hovr.",
+      "x": 0.561,
+      "y": 0.3854,
+      "w": 0.3543,
+      "h": 0.0486,
+      "words": [
         "A",
         "quick",
         "ship",
@@ -140,48 +176,65 @@
         "miles",
         "in",
         "an",
-        "hour."
-      ]
+        "hovr."
+      ],
+      "conf": 96.0949,
+      "source": "psm-11"
     },
     {
-      "text": "Automobiles are an other sort of transport.",
-      "x": 0.12,
-      "y": 0.65,
-      "w": 0.38,
-      "h": 0.1,
-      "id": "r3",
-      "order": 2,
+      "id": "r8",
+      "order": 7,
+      "text": "i trains, dutomobiles take us from one place another.",
+      "x": 0.5195,
+      "y": 0.6029,
+      "w": 0.3839,
+      "h": 0.1303,
       "words": [
-        "Automobiles",
+        "i",
+        "trains,",
+        "dutomobiles",
+        "take",
+        "us",
+        "from",
+        "one",
+        "place",
+        "another."
+      ],
+      "conf": 84.763,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Automobiles",
+      "x": 0.1305,
+      "y": 0.659,
+      "w": 0.1915,
+      "h": 0.0187,
+      "words": [
+        "Automobiles"
+      ],
+      "conf": 95.5798,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "are an other sort of transport.",
+      "x": 0.1314,
+      "y": 0.6884,
+      "w": 0.3643,
+      "h": 0.0449,
+      "words": [
         "are",
         "an",
         "other",
         "sort",
         "of",
         "transport."
-      ]
-    },
-    {
-      "text": "Airplanes, trains, ships, automobiles take us from one place to another.",
-      "x": 0.52,
-      "y": 0.6,
-      "w": 0.4,
-      "h": 0.15,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "Airplanes,",
-        "trains,",
-        "ships,",
-        "automobiles",
-        "take",
-        "us",
-        "from",
-        "one",
-        "place",
-        "to",
-        "another."
-      ]
+      ],
+      "conf": 93.3704,
+      "source": "psm-11"
     }
   ]
 }

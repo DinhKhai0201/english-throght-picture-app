@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20199.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 19,
-    "wordCount": 155,
+    "regionCount": 8,
+    "wordCount": 144,
     "imageWidth": 1225,
     "imageHeight": 1859
   },
@@ -18,11 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3",
-        "r4",
-        "r7",
-        "r8"
+        "r1",
+        "r3"
       ]
     },
     {
@@ -33,11 +30,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r5",
-        "r6",
-        "r9",
-        "r10"
+        "r2",
+        "r4"
       ]
     },
     {
@@ -48,11 +42,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r11",
-        "r12",
-        "r13",
-        "r16",
-        "r17"
+        "r5",
+        "r8"
       ]
     },
     {
@@ -63,65 +54,54 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r14",
-        "r15",
-        "r18",
-        "r19"
+        "r6",
+        "r7"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Answers to questions on pages 192-193.",
-      "x": 0.22,
-      "y": 0.08,
-      "w": 0.6,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "Answers to questions",
+      "x": 0.2278,
+      "y": 0.0748,
+      "w": 0.311,
+      "h": 0.0226,
       "words": [
         "Answers",
         "to",
-        "questions",
-        "on",
-        "pages",
-        "192-193."
-      ]
+        "questions"
+      ],
+      "conf": 96.0922,
+      "source": "psm-11"
     },
     {
-      "text": "Page 192",
-      "x": 0.14,
-      "y": 0.15,
-      "w": 0.2,
-      "h": 0.03,
       "id": "r2",
       "order": 1,
+      "text": "on pages",
+      "x": 0.5494,
+      "y": 0.0791,
+      "w": 0.138,
+      "h": 0.0183,
       "words": [
-        "Page",
-        "192"
-      ]
+        "on",
+        "pages"
+      ],
+      "conf": 96.2011,
+      "source": "psm-11"
     },
     {
-      "text": "a",
-      "x": 0.14,
-      "y": 0.2,
-      "w": 0.02,
-      "h": 0.02,
       "id": "r3",
       "order": 2,
+      "text": "Page a No, the girl is nearer to the woman. Yes, the girl is nearer to the boy than to the woman c The glass to the left is full of water.",
+      "x": 0.1437,
+      "y": 0.1549,
+      "w": 0.3518,
+      "h": 0.2469,
       "words": [
-        "a"
-      ]
-    },
-    {
-      "text": "No, the girl is nearer to the woman. Yes, the girl is nearer to the boy than to the woman.",
-      "x": 0.18,
-      "y": 0.2,
-      "w": 0.32,
-      "h": 0.15,
-      "id": "r4",
-      "order": 3,
-      "words": [
+        "Page",
+        "a",
         "No,",
         "the",
         "girl",
@@ -141,30 +121,31 @@
         "than",
         "to",
         "the",
-        "woman."
-      ]
+        "woman",
+        "c",
+        "The",
+        "glass",
+        "to",
+        "the",
+        "left",
+        "is",
+        "full",
+        "of",
+        "water."
+      ],
+      "conf": 96.7217,
+      "source": "psm-11"
     },
     {
-      "text": "b",
-      "x": 0.56,
-      "y": 0.15,
-      "w": 0.02,
-      "h": 0.02,
-      "id": "r5",
-      "order": 4,
+      "id": "r4",
+      "order": 3,
+      "text": "b The girl is farther from the tree. Yes, the boy is farther from the tree than from the girl d No. There is more water than:land on the south side of the earth",
+      "x": 0.5633,
+      "y": 0.1528,
+      "w": 0.3371,
+      "h": 0.248,
       "words": [
-        "b"
-      ]
-    },
-    {
-      "text": "The girl is farther from the tree. Yes, the boy is farther from the tree than from the girl.",
-      "x": 0.6,
-      "y": 0.15,
-      "w": 0.32,
-      "h": 0.15,
-      "id": "r6",
-      "order": 5,
-      "words": [
+        "b",
         "The",
         "girl",
         "is",
@@ -183,116 +164,38 @@
         "than",
         "from",
         "the",
-        "girl."
-      ]
-    },
-    {
-      "text": "c",
-      "x": 0.14,
-      "y": 0.36,
-      "w": 0.02,
-      "h": 0.02,
-      "id": "r7",
-      "order": 6,
-      "words": [
-        "c"
-      ]
-    },
-    {
-      "text": "The glass to the left is full of water.",
-      "x": 0.18,
-      "y": 0.36,
-      "w": 0.32,
-      "h": 0.05,
-      "id": "r8",
-      "order": 7,
-      "words": [
-        "The",
-        "glass",
-        "to",
-        "the",
-        "left",
-        "is",
-        "full",
-        "of",
-        "water."
-      ]
-    },
-    {
-      "text": "d",
-      "x": 0.56,
-      "y": 0.31,
-      "w": 0.02,
-      "h": 0.02,
-      "id": "r9",
-      "order": 8,
-      "words": [
-        "d"
-      ]
-    },
-    {
-      "text": "No. There is more water than land on the south side of the earth.",
-      "x": 0.6,
-      "y": 0.31,
-      "w": 0.32,
-      "h": 0.1,
-      "id": "r10",
-      "order": 9,
-      "words": [
+        "girl",
+        "d",
         "No.",
         "There",
         "is",
         "more",
         "water",
-        "than",
-        "land",
+        "than:land",
         "on",
         "the",
         "south",
         "side",
         "of",
         "the",
-        "earth."
-      ]
+        "earth"
+      ],
+      "conf": 95.6772,
+      "source": "psm-11"
     },
     {
-      "text": "Page 193",
-      "x": 0.14,
-      "y": 0.53,
-      "w": 0.2,
-      "h": 0.03,
-      "id": "r11",
-      "order": 10,
+      "id": "r5",
+      "order": 4,
+      "text": "Page a Cis ahalf moon; B is a full moon; D is a quarter moon; and A is a new moon.",
+      "x": 0.138,
+      "y": 0.5358,
+      "w": 0.364,
+      "h": 0.149,
       "words": [
         "Page",
-        "193"
-      ]
-    },
-    {
-      "text": "a",
-      "x": 0.14,
-      "y": 0.59,
-      "w": 0.02,
-      "h": 0.02,
-      "id": "r12",
-      "order": 11,
-      "words": [
-        "a"
-      ]
-    },
-    {
-      "text": "C is a half moon; B is a full moon; D is a quarter moon; and A is a new moon.",
-      "x": 0.17,
-      "y": 0.59,
-      "w": 0.35,
-      "h": 0.12,
-      "id": "r13",
-      "order": 12,
-      "words": [
-        "C",
-        "is",
         "a",
-        "half",
+        "Cis",
+        "ahalf",
         "moon;",
         "B",
         "is",
@@ -310,110 +213,47 @@
         "a",
         "new",
         "moon."
-      ]
+      ],
+      "conf": 96.1657,
+      "source": "psm-11"
     },
     {
-      "text": "b",
-      "x": 0.53,
-      "y": 0.53,
-      "w": 0.02,
-      "h": 0.02,
-      "id": "r14",
-      "order": 13,
+      "id": "r6",
+      "order": 5,
+      "text": "tb The price of the book was It was",
+      "x": 0.5151,
+      "y": 0.5342,
+      "w": 0.3845,
+      "h": 0.0441,
       "words": [
-        "b"
-      ]
-    },
-    {
-      "text": "The price of the book was $2.50. It was $2.50. He gave me 50 cents change.",
-      "x": 0.57,
-      "y": 0.53,
-      "w": 0.35,
-      "h": 0.12,
-      "id": "r15",
-      "order": 14,
-      "words": [
+        "tb",
         "The",
         "price",
         "of",
         "the",
         "book",
         "was",
-        "$2.50.",
         "It",
-        "was",
-        "$2.50.",
+        "was"
+      ],
+      "conf": 94.2729,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "He gave me cents change 1d Ships, trains, horses and carriages, and airplanes are different sorts of transport. The airplane is the quickest of these.",
+      "x": 0.5135,
+      "y": 0.5869,
+      "w": 0.3543,
+      "h": 0.2506,
+      "words": [
         "He",
         "gave",
         "me",
-        "50",
         "cents",
-        "change."
-      ]
-    },
-    {
-      "text": "c",
-      "x": 0.13,
-      "y": 0.72,
-      "w": 0.02,
-      "h": 0.02,
-      "id": "r16",
-      "order": 15,
-      "words": [
-        "c"
-      ]
-    },
-    {
-      "text": "A quick train may go a hundred miles in an hour. I may go four miles but not forty.",
-      "x": 0.17,
-      "y": 0.72,
-      "w": 0.35,
-      "h": 0.15,
-      "id": "r17",
-      "order": 16,
-      "words": [
-        "A",
-        "quick",
-        "train",
-        "may",
-        "go",
-        "a",
-        "hundred",
-        "miles",
-        "in",
-        "an",
-        "hour.",
-        "I",
-        "may",
-        "go",
-        "four",
-        "miles",
-        "but",
-        "not",
-        "forty."
-      ]
-    },
-    {
-      "text": "d",
-      "x": 0.53,
-      "y": 0.66,
-      "w": 0.02,
-      "h": 0.02,
-      "id": "r18",
-      "order": 17,
-      "words": [
-        "d"
-      ]
-    },
-    {
-      "text": "Ships, trains, horses and carriages, and airplanes are different sorts of transport. The airplane is the quickest of these.",
-      "x": 0.57,
-      "y": 0.66,
-      "w": 0.35,
-      "h": 0.2,
-      "id": "r19",
-      "order": 18,
-      "words": [
+        "change",
+        "1d",
         "Ships,",
         "trains,",
         "horses",
@@ -433,7 +273,40 @@
         "quickest",
         "of",
         "these."
-      ]
+      ],
+      "conf": 96.7355,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "A quick train may go a hundred miles in an hour. may go four miles but not forty",
+      "x": 0.1722,
+      "y": 0.7133,
+      "w": 0.316,
+      "h": 0.1237,
+      "words": [
+        "A",
+        "quick",
+        "train",
+        "may",
+        "go",
+        "a",
+        "hundred",
+        "miles",
+        "in",
+        "an",
+        "hour.",
+        "may",
+        "go",
+        "four",
+        "miles",
+        "but",
+        "not",
+        "forty"
+      ],
+      "conf": 94.2787,
+      "source": "psm-11"
     }
   ]
 }

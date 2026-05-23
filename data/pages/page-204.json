@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20204.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 141,
+    "regionCount": 20,
+    "wordCount": 136,
     "imageWidth": 1171,
     "imageHeight": 1838
   },
@@ -18,7 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r4"
       ]
     },
     {
@@ -29,7 +30,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r1",
+        "r3",
+        "r5"
       ]
     },
     {
@@ -40,7 +43,13 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r12",
+        "r14",
+        "r18"
       ]
     },
     {
@@ -51,46 +60,26 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r10",
+        "r11",
+        "r13",
+        "r15",
+        "r16",
+        "r17",
+        "r19",
+        "r20"
       ]
     }
   ],
   "regions": [
     {
-      "text": "He sent the last apple up. But then it came down. Why did it come down?",
-      "x": 0.1,
-      "y": 0.38,
-      "w": 0.38,
-      "h": 0.1,
       "id": "r1",
       "order": 0,
-      "words": [
-        "He",
-        "sent",
-        "the",
-        "last",
-        "apple",
-        "up.",
-        "But",
-        "then",
-        "it",
-        "came",
-        "down.",
-        "Why",
-        "did",
-        "it",
-        "come",
-        "down?"
-      ]
-    },
-    {
-      "text": "The first apple went north and then it came down. The other apples went south and east and west and then they all came down to the earth. They all came down to the earth? Why did they come down?",
-      "x": 0.52,
-      "y": 0.13,
-      "w": 0.4,
-      "h": 0.35,
-      "id": "r2",
-      "order": 1,
+      "text": "The first apple went north and then it came down. The other apples went south and east and west and then they alll came down to the earth.",
+      "x": 0.5457,
+      "y": 0.1355,
+      "w": 0.3792,
+      "h": 0.1474,
       "words": [
         "The",
         "first",
@@ -114,94 +103,260 @@
         "and",
         "then",
         "they",
-        "all",
+        "alll",
         "came",
         "down",
         "to",
         "the",
-        "earth.",
+        "earth."
+      ],
+      "conf": 96.7328,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "He sent the last apple up. But then it came Why did it come down?",
+      "x": 0.1272,
+      "y": 0.3721,
+      "w": 0.3715,
+      "h": 0.1013,
+      "words": [
+        "He",
+        "sent",
+        "the",
+        "last",
+        "apple",
+        "up.",
+        "But",
+        "then",
+        "it",
+        "came",
+        "Why",
+        "did",
+        "it",
+        "come",
+        "down?"
+      ],
+      "conf": 96.646,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "They ail came down to the earth?",
+      "x": 0.5662,
+      "y": 0.3689,
+      "w": 0.3108,
+      "h": 0.062,
+      "words": [
         "They",
-        "all",
+        "ail",
         "came",
         "down",
         "to",
         "the",
-        "earth?",
+        "earth?"
+      ],
+      "conf": 89.4953,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "own.",
+      "x": 0.1494,
+      "y": 0.4304,
+      "w": 0.0726,
+      "h": 0.0125,
+      "words": [
+        "own."
+      ],
+      "conf": 89.658,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Why did they come down?",
+      "x": 0.5662,
+      "y": 0.4374,
+      "w": 0.3031,
+      "h": 0.0446,
+      "words": [
         "Why",
         "did",
         "they",
         "come",
         "down?"
-      ]
+      ],
+      "conf": 96.511,
+      "source": "psm-11"
     },
     {
-      "text": "The first apple ... The last apple ... What is \"the first\" ...? What is \"the last\" ...? These men are in a line. This is the first man. This is the last man.",
-      "x": 0.1,
-      "y": 0.52,
-      "w": 0.4,
-      "h": 0.32,
-      "id": "r3",
-      "order": 2,
+      "id": "r6",
+      "order": 5,
+      "text": "The first apple...",
+      "x": 0.1307,
+      "y": 0.5201,
+      "w": 0.2844,
+      "h": 0.0245,
       "words": [
         "The",
         "first",
-        "apple",
-        "...",
-        "The",
-        "last",
-        "apple",
-        "...",
-        "What",
-        "is",
-        "\"the",
-        "first\"",
-        "...?",
-        "What",
-        "is",
-        "\"the",
-        "last\"",
-        "...?",
-        "These",
-        "men",
-        "are",
-        "in",
-        "a",
-        "line.",
-        "This",
-        "is",
-        "the",
-        "first",
-        "man.",
-        "This",
-        "is",
-        "the",
-        "last",
-        "man."
-      ]
+        "apple..."
+      ],
+      "conf": 92.5917,
+      "source": "psm-11"
     },
     {
-      "text": "Here are three dogs. Which is the first dog? Which is the last dog? The other dog is the dog in the middle. He is between the first dog and the last dog. Two of the dogs are white. The other dog is black. The dog in the middle is black.",
-      "x": 0.54,
-      "y": 0.6,
-      "w": 0.4,
-      "h": 0.3,
-      "id": "r4",
-      "order": 3,
+      "id": "r7",
+      "order": 6,
+      "text": "The last apple...",
+      "x": 0.1307,
+      "y": 0.5462,
+      "w": 0.2818,
+      "h": 0.0239,
+      "words": [
+        "The",
+        "last",
+        "apple..."
+      ],
+      "conf": 84.4556,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "What is “the first”...",
+      "x": 0.1315,
+      "y": 0.5718,
+      "w": 0.3279,
+      "h": 0.0196,
+      "words": [
+        "What",
+        "is",
+        "“the",
+        "first”..."
+      ],
+      "conf": 88.9388,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "What is “the last”.",
+      "x": 0.1315,
+      "y": 0.5974,
+      "w": 0.2921,
+      "h": 0.019,
+      "words": [
+        "What",
+        "is",
+        "“the",
+        "last”."
+      ],
+      "conf": 89.3779,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Here are three dogs.",
+      "x": 0.5576,
+      "y": 0.6045,
+      "w": 0.3177,
+      "h": 0.0234,
       "words": [
         "Here",
         "are",
         "three",
-        "dogs.",
+        "dogs."
+      ],
+      "conf": 96.6592,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "Which is the first dog?",
+      "x": 0.5568,
+      "y": 0.63,
+      "w": 0.3407,
+      "h": 0.0234,
+      "words": [
         "Which",
         "is",
         "the",
         "first",
-        "dog?",
+        "dog?"
+      ],
+      "conf": 96.4745,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "These men are ina line.",
+      "x": 0.1281,
+      "y": 0.6572,
+      "w": 0.374,
+      "h": 0.019,
+      "words": [
+        "These",
+        "men",
+        "are",
+        "ina",
+        "line."
+      ],
+      "conf": 91.7721,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Which is the last dog?",
+      "x": 0.5551,
+      "y": 0.6556,
+      "w": 0.3433,
+      "h": 0.0234,
+      "words": [
         "Which",
         "is",
         "the",
         "last",
-        "dog?",
+        "dog?"
+      ],
+      "conf": 96.6455,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "This is the first man.",
+      "x": 0.1375,
+      "y": 0.6839,
+      "w": 0.3074,
+      "h": 0.0185,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "first",
+        "man."
+      ],
+      "conf": 96.3091,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "The other dog is the dog in the middle.",
+      "x": 0.5559,
+      "y": 0.6806,
+      "w": 0.31,
+      "h": 0.049,
+      "words": [
         "The",
         "other",
         "dog",
@@ -210,7 +365,20 @@
         "dog",
         "in",
         "the",
-        "middle.",
+        "middle."
+      ],
+      "conf": 96.7098,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "He is between the first dog and the last dog.",
+      "x": 0.5559,
+      "y": 0.7323,
+      "w": 0.345,
+      "h": 0.0495,
+      "words": [
         "He",
         "is",
         "between",
@@ -220,18 +388,75 @@
         "and",
         "the",
         "last",
-        "dog.",
+        "dog."
+      ],
+      "conf": 95.4729,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "Two of the dogs are white.",
+      "x": 0.5551,
+      "y": 0.784,
+      "w": 0.3108,
+      "h": 0.0451,
+      "words": [
         "Two",
         "of",
         "the",
         "dogs",
         "are",
-        "white.",
+        "white."
+      ],
+      "conf": 96.0682,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "This is the last man.",
+      "x": 0.1939,
+      "y": 0.8248,
+      "w": 0.304,
+      "h": 0.0196,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "last",
+        "man."
+      ],
+      "conf": 95.6143,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "The other dog is black.",
+      "x": 0.5534,
+      "y": 0.8357,
+      "w": 0.3544,
+      "h": 0.0239,
+      "words": [
         "The",
         "other",
         "dog",
         "is",
-        "black.",
+        "black."
+      ],
+      "conf": 96.3137,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "The dog in the middle is black.",
+      "x": 0.5534,
+      "y": 0.8618,
+      "w": 0.3416,
+      "h": 0.0441,
+      "words": [
         "The",
         "dog",
         "in",
@@ -239,7 +464,9 @@
         "middle",
         "is",
         "black."
-      ]
+      ],
+      "conf": 96.3186,
+      "source": "psm-11"
     }
   ]
 }

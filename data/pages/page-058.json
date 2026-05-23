@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2058.png",
   "layout": "single",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 13,
+    "regionCount": 1,
+    "wordCount": 4,
     "imageWidth": 1263,
     "imageHeight": 1830
   },
@@ -18,58 +18,27 @@
       "w": 1,
       "h": 1,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3"
+        "r1"
       ]
     }
   ],
   "regions": [
     {
-      "text": "QUESTIONS",
-      "x": 0.15,
-      "y": 0.08,
-      "w": 0.2,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "words": [
-        "QUESTIONS"
-      ]
-    },
-    {
-      "text": "What is he saying?",
-      "x": 0.42,
-      "y": 0.08,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r2",
-      "order": 1,
-      "words": [
-        "What",
-        "is",
-        "he",
-        "saying?"
-      ]
-    },
-    {
-      "text": "Answers to these questions are on page 57.",
-      "x": 0.23,
-      "y": 0.88,
-      "w": 0.6,
-      "h": 0.03,
-      "id": "r3",
-      "order": 2,
+      "text": "Answers to these questions",
+      "x": 0.4721,
+      "y": 0,
+      "w": 0.3872,
+      "h": 0.0246,
       "words": [
         "Answers",
         "to",
         "these",
-        "questions",
-        "are",
-        "on",
-        "page",
-        "57."
-      ]
+        "questions"
+      ],
+      "conf": 96.2837,
+      "source": "psm-11"
     }
   ]
 }

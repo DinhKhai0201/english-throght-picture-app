@@ -2,89 +2,63 @@
   "page": 301,
   "image": "/books/page 301.png",
   "imageApiPath": "/api/books/page%20301.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 95,
+    "regionCount": 5,
+    "wordCount": 79,
     "imageWidth": 1242,
     "imageHeight": 1884
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r1",
+        "r2",
         "r3",
-        "r4"
+        "r4",
+        "r5"
       ]
     }
   ],
   "regions": [
     {
-      "text": "There were more than twice as many people in the world in the year 1850 as in 1650. There were more than twice as many in 1950 as in 1850. Will the population of the world go on increasing? Look at the curve in this picture.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.5,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "There were more than twice many people in the world in year as in There more than twice as many in as in Will the population of the world go on in- creasing? Look at the curve in this picture.",
+      "x": 0.1006,
+      "y": 0.0488,
+      "w": 0.43,
+      "h": 0.2517,
       "words": [
         "There",
         "were",
         "more",
         "than",
         "twice",
-        "as",
         "many",
         "people",
         "in",
         "the",
         "world",
         "in",
-        "the",
         "year",
-        "1850",
         "as",
         "in",
-        "1650.",
         "There",
-        "were",
         "more",
         "than",
         "twice",
         "as",
         "many",
         "in",
-        "1950",
         "as",
         "in",
-        "1850.",
         "Will",
         "the",
         "population",
@@ -93,7 +67,8 @@
         "world",
         "go",
         "on",
-        "increasing?",
+        "in-",
+        "creasing?",
         "Look",
         "at",
         "the",
@@ -101,40 +76,34 @@
         "in",
         "this",
         "picture."
-      ]
+      ],
+      "conf": 96.2218,
+      "source": "psm-11"
     },
     {
-      "text": "Graph: years 1650, 1750, 1850, 1950. Billions: 0, 1/2, 1, 2, 2 1/2.",
-      "x": 0.65,
-      "y": 0.1,
-      "w": 0.3,
-      "h": 0.6,
       "id": "r2",
       "order": 1,
+      "text": "as the were",
+      "x": 0.5121,
+      "y": 0.0531,
+      "w": 0.0668,
+      "h": 0.0626,
       "words": [
-        "Graph:",
-        "years",
-        "1650,",
-        "1750,",
-        "1850,",
-        "1950.",
-        "Billions:",
-        "0,",
-        "1/2,",
-        "1,",
-        "2,",
-        "2",
-        "1/2."
-      ]
+        "as",
+        "the",
+        "were"
+      ],
+      "conf": 96.2134,
+      "source": "psm-11"
     },
     {
-      "text": "twice: twice a thing is two times it. world: the earth and all that (which) is on it—people, other living things and the things that man has made.",
-      "x": 0.1,
-      "y": 0.8,
-      "w": 0.85,
-      "h": 0.08,
       "id": "r3",
       "order": 2,
+      "text": "twice: twice a thing is two times it world: the earth ond all that (which) curves line that goes on changing Its",
+      "x": 0.1063,
+      "y": 0.8004,
+      "w": 0.4002,
+      "h": 0.0664,
       "words": [
         "twice:",
         "twice",
@@ -143,47 +112,64 @@
         "is",
         "two",
         "times",
-        "it.",
+        "it",
         "world:",
         "the",
         "earth",
-        "and",
+        "ond",
         "all",
         "that",
         "(which)",
+        "curves",
+        "line",
+        "that",
+        "goes",
+        "on",
+        "changing",
+        "Its"
+      ],
+      "conf": 84.6161,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "and the things thot mon has made.",
+      "x": 0.1578,
+      "y": 0.8344,
+      "w": 0.3808,
+      "h": 0.0149,
+      "words": [
+        "and",
+        "the",
+        "things",
+        "thot",
+        "mon",
+        "has",
+        "made."
+      ],
+      "conf": 91.0397,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "is on it—people, other living things direction.",
+      "x": 0.5137,
+      "y": 0.8179,
+      "w": 0.3816,
+      "h": 0.0462,
+      "words": [
         "is",
         "on",
         "it—people,",
         "other",
         "living",
         "things",
-        "and",
-        "the",
-        "things",
-        "that",
-        "man",
-        "has",
-        "made."
-      ]
-    },
-    {
-      "text": "curve: line that goes on changing its direction.",
-      "x": 0.1,
-      "y": 0.88,
-      "w": 0.85,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "curve:",
-        "line",
-        "that",
-        "goes",
-        "on",
-        "changing",
-        "its",
         "direction."
-      ]
+      ],
+      "conf": 94.7428,
+      "source": "psm-11"
     }
   ]
 }

@@ -2,68 +2,49 @@
   "page": 221,
   "image": "/books/page 221.png",
   "imageApiPath": "/api/books/page%20221.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 107,
+    "regionCount": 15,
+    "wordCount": 104,
     "imageWidth": 1226,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r13",
+        "r14",
+        "r15"
       ]
     }
   ],
   "regions": [
     {
-      "text": "What are the causes of these changes in the weather? Change? What is that? (See page 190.) Here is a line. Here is a change in the direction of the line.",
-      "x": 0.12,
-      "y": 0.11,
-      "w": 0.38,
-      "h": 0.35,
       "id": "r1",
       "order": 0,
+      "text": "What are the causes of these changes in the weather? Change?",
+      "x": 0.124,
+      "y": 0.0976,
+      "w": 0.3401,
+      "h": 0.0885,
       "words": [
         "What",
         "are",
@@ -75,17 +56,123 @@
         "in",
         "the",
         "weather?",
-        "Change?",
+        "Change?"
+      ],
+      "conf": 95.4724,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This bird was wet.",
+      "x": 0.5661,
+      "y": 0.1109,
+      "w": 0.1337,
+      "h": 0.0449,
+      "words": [
+        "This",
+        "bird",
+        "was",
+        "wet."
+      ],
+      "conf": 96.3652,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "It was in the rain.",
+      "x": 0.5693,
+      "y": 0.1632,
+      "w": 0.1264,
+      "h": 0.0437,
+      "words": [
+        "It",
+        "was",
+        "in",
+        "the",
+        "rain."
+      ],
+      "conf": 89.7168,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "What is that?(See page",
+      "x": 0.124,
+      "y": 0.1867,
+      "w": 0.3524,
+      "h": 0.0251,
+      "words": [
         "What",
         "is",
-        "that?",
-        "(See",
-        "page",
-        "190.)",
+        "that?(See",
+        "page"
+      ],
+      "conf": 93.5039,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Here is a line.",
+      "x": 0.1199,
+      "y": 0.2853,
+      "w": 0.1044,
+      "h": 0.039,
+      "words": [
         "Here",
         "is",
         "a",
-        "line.",
+        "line."
+      ],
+      "conf": 95.3345,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Now it is dry.",
+      "x": 0.5636,
+      "y": 0.3008,
+      "w": 0.2015,
+      "h": 0.024,
+      "words": [
+        "Now",
+        "it",
+        "is",
+        "dry."
+      ],
+      "conf": 94.6145,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "That is a change.",
+      "x": 0.5653,
+      "y": 0.3403,
+      "w": 0.1248,
+      "h": 0.0485,
+      "words": [
+        "That",
+        "is",
+        "a",
+        "change."
+      ],
+      "conf": 86.6355,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Here is a change in the direction of the line.",
+      "x": 0.1183,
+      "y": 0.4048,
+      "w": 0.3434,
+      "h": 0.0672,
+      "words": [
         "Here",
         "is",
         "a",
@@ -96,50 +183,37 @@
         "of",
         "the",
         "line."
-      ]
+      ],
+      "conf": 96.333,
+      "source": "psm-11"
     },
     {
-      "text": "This bird was wet. It was in the rain. Now it is dry. That is a change. It was wet. It is dry.",
-      "x": 0.54,
-      "y": 0.11,
-      "w": 0.25,
-      "h": 0.35,
-      "id": "r2",
-      "order": 1,
+      "id": "r9",
+      "order": 8,
+      "text": "it was wet. It Is dry",
+      "x": 0.5636,
+      "y": 0.392,
+      "w": 0.1272,
+      "h": 0.0736,
       "words": [
-        "This",
-        "bird",
-        "was",
-        "wet.",
-        "It",
-        "was",
-        "in",
-        "the",
-        "rain.",
-        "Now",
         "it",
-        "is",
-        "dry.",
-        "That",
-        "is",
-        "a",
-        "change.",
-        "It",
         "was",
         "wet.",
         "It",
-        "is",
-        "dry."
-      ]
+        "Is",
+        "dry"
+      ],
+      "conf": 80.4544,
+      "source": "psm-11"
     },
     {
-      "text": "What is the cause of these changes in the weather? Good Bad Dry Wet Warm Cold Weather Why are there these changes of weather?",
-      "x": 0.12,
-      "y": 0.52,
-      "w": 0.38,
-      "h": 0.35,
-      "id": "r3",
-      "order": 2,
+      "id": "r10",
+      "order": 9,
+      "text": "What is the cause of these changes in the weather?",
+      "x": 0.1403,
+      "y": 0.5243,
+      "w": 0.3132,
+      "h": 0.0719,
       "words": [
         "What",
         "is",
@@ -150,31 +224,19 @@
         "changes",
         "in",
         "the",
-        "weather?",
-        "Good",
-        "Bad",
-        "Dry",
-        "Wet",
-        "Warm",
-        "Cold",
-        "Weather",
-        "Why",
-        "are",
-        "there",
-        "these",
-        "changes",
-        "of",
         "weather?"
-      ]
+      ],
+      "conf": 96.3931,
+      "source": "psm-11"
     },
     {
+      "id": "r11",
+      "order": 10,
       "text": "There is not one cause only. There are numbers of causes. Changes in the heat which comes to us from the sun are one cause of changes of weather.",
-      "x": 0.52,
-      "y": 0.53,
-      "w": 0.4,
-      "h": 0.22,
-      "id": "r4",
-      "order": 3,
+      "x": 0.5253,
+      "y": 0.5269,
+      "w": 0.363,
+      "h": 0.1707,
       "words": [
         "There",
         "is",
@@ -205,7 +267,74 @@
         "changes",
         "of",
         "weather."
-      ]
+      ],
+      "conf": 96.4264,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "Good",
+      "x": 0.1713,
+      "y": 0.6427,
+      "w": 0.0865,
+      "h": 0.0197,
+      "words": [
+        "Good"
+      ],
+      "conf": 96.7075,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Bad Wet Warm",
+      "x": 0.1721,
+      "y": 0.6427,
+      "w": 0.2415,
+      "h": 0.0698,
+      "words": [
+        "Bad",
+        "Wet",
+        "Warm"
+      ],
+      "conf": 95.9238,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "Cold Weather",
+      "x": 0.2121,
+      "y": 0.6933,
+      "w": 0.2072,
+      "h": 0.0443,
+      "words": [
+        "Cold",
+        "Weather"
+      ],
+      "conf": 96.0218,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "Why are there these changes of weather?",
+      "x": 0.1378,
+      "y": 0.8123,
+      "w": 0.3116,
+      "h": 0.0491,
+      "words": [
+        "Why",
+        "are",
+        "there",
+        "these",
+        "changes",
+        "of",
+        "weather?"
+      ],
+      "conf": 96.5787,
+      "source": "psm-11"
     }
   ]
 }

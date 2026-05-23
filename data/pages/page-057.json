@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2057.png",
   "layout": "single",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 13,
+    "regionCount": 1,
+    "wordCount": 4,
     "imageWidth": 1142,
     "imageHeight": 1867
   },
@@ -18,58 +18,27 @@
       "w": 1,
       "h": 1,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3"
+        "r1"
       ]
     }
   ],
   "regions": [
     {
-      "text": "QUESTIONS",
-      "x": 0.08,
-      "y": 0.08,
-      "w": 0.2,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
-      "words": [
-        "QUESTIONS"
-      ]
-    },
-    {
-      "text": "What do you see?",
-      "x": 0.4,
-      "y": 0.08,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r2",
-      "order": 1,
-      "words": [
-        "What",
-        "do",
-        "you",
-        "see?"
-      ]
-    },
-    {
-      "text": "Answers to these questions are on page 56.",
-      "x": 0.15,
-      "y": 0.88,
-      "w": 0.7,
-      "h": 0.03,
-      "id": "r3",
-      "order": 2,
+      "text": "Answers to these questions",
+      "x": 0.372,
+      "y": 0,
+      "w": 0.4291,
+      "h": 0.0311,
       "words": [
         "Answers",
         "to",
         "these",
-        "questions",
-        "are",
-        "on",
-        "page",
-        "56."
-      ]
+        "questions"
+      ],
+      "conf": 96.7619,
+      "source": "psm-11"
     }
   ]
 }

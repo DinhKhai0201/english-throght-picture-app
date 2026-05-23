@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20364.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 98,
+    "regionCount": 11,
+    "wordCount": 93,
     "imageWidth": 1250,
     "imageHeight": 1859
   },
@@ -18,7 +18,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r3",
+        "r4",
+        "r5"
       ]
     },
     {
@@ -29,7 +32,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r2",
+        "r6"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r7",
+        "r9"
       ]
     },
     {
@@ -40,20 +56,21 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r8",
+        "r10",
+        "r11"
       ]
     }
   ],
   "regions": [
     {
-      "text": "What makes the blood go on moving round the body in a stream? The heart sends it round. The heart is between the lungs. A man’s heart is the size of his shut hand.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.35,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "What makes the blood go on stream?",
+      "x": 0.1176,
+      "y": 0.0344,
+      "w": 0.3944,
+      "h": 0.0452,
       "words": [
         "What",
         "makes",
@@ -61,18 +78,57 @@
         "blood",
         "go",
         "on",
+        "stream?"
+      ],
+      "conf": 96.756,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "moving round the body in a",
+      "x": 0.5256,
+      "y": 0.0344,
+      "w": 0.376,
+      "h": 0.0274,
+      "words": [
         "moving",
         "round",
         "the",
         "body",
         "in",
-        "a",
-        "stream?",
+        "a"
+      ],
+      "conf": 96.4577,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "The heart sends it round.",
+      "x": 0.1192,
+      "y": 0.1404,
+      "w": 0.3144,
+      "h": 0.043,
+      "words": [
         "The",
         "heart",
         "sends",
         "it",
-        "round.",
+        "round."
+      ],
+      "conf": 95.9507,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "The heart is between the lungs. A man’s heart is the size of his shut hand.",
+      "x": 0.116,
+      "y": 0.2162,
+      "w": 0.3184,
+      "h": 0.0985,
+      "words": [
         "The",
         "heart",
         "is",
@@ -89,16 +145,18 @@
         "his",
         "shut",
         "hand."
-      ]
+      ],
+      "conf": 96.4622,
+      "source": "psm-11"
     },
     {
-      "text": "The heart is a pump. If you put your hand under water like this, and keep letting a little water into it and sending it out again, you are pumping the water. The heart pumps blood in a way a little like this.",
-      "x": 0.1,
-      "y": 0.35,
-      "w": 0.85,
-      "h": 0.25,
-      "id": "r2",
-      "order": 1,
+      "id": "r5",
+      "order": 4,
+      "text": "The heart is a pump. If you like this, and keep letting a little",
+      "x": 0.1176,
+      "y": 0.3324,
+      "w": 0.4312,
+      "h": 0.0635,
       "words": [
         "The",
         "heart",
@@ -107,35 +165,74 @@
         "pump.",
         "If",
         "you",
-        "put",
-        "your",
-        "hand",
-        "under",
-        "water",
         "like",
         "this,",
         "and",
         "keep",
         "letting",
         "a",
-        "little",
+        "little"
+      ],
+      "conf": 96.4951,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "put your hand under water water into it",
+      "x": 0.5208,
+      "y": 0.3367,
+      "w": 0.3792,
+      "h": 0.0555,
+      "words": [
+        "put",
+        "your",
+        "hand",
+        "under",
+        "water",
         "water",
         "into",
-        "it",
+        "it"
+      ],
+      "conf": 91.9889,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "and sending it out again, water. The heart pumps blood",
+      "x": 0.1136,
+      "y": 0.6084,
+      "w": 0.452,
+      "h": 0.0479,
+      "words": [
         "and",
         "sending",
         "it",
         "out",
         "again,",
-        "you",
-        "are",
-        "pumping",
-        "the",
         "water.",
         "The",
         "heart",
         "pumps",
-        "blood",
+        "blood"
+      ],
+      "conf": 96.4257,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "you are pumping the in a way a little like this.",
+      "x": 0.5496,
+      "y": 0.6111,
+      "w": 0.348,
+      "h": 0.051,
+      "words": [
+        "you",
+        "are",
+        "pumping",
+        "the",
         "in",
         "a",
         "way",
@@ -143,23 +240,39 @@
         "little",
         "like",
         "this."
-      ]
+      ],
+      "conf": 96.3717,
+      "source": "psm-11"
     },
     {
-      "text": "pump: machine for pushing liquid or air or gas in or out of something.",
-      "x": 0.1,
-      "y": 0.8,
-      "w": 0.85,
-      "h": 0.08,
-      "id": "r3",
-      "order": 2,
+      "id": "r9",
+      "order": 8,
+      "text": "machine for pushing liquid or will pump",
+      "x": 0.1072,
+      "y": 0.8182,
+      "w": 0.404,
+      "h": 0.0462,
       "words": [
-        "pump:",
         "machine",
         "for",
         "pushing",
         "liquid",
         "or",
+        "will",
+        "pump"
+      ],
+      "conf": 92.7841,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "air or gas in or out of something.",
+      "x": 0.5192,
+      "y": 0.8198,
+      "w": 0.3544,
+      "h": 0.0172,
+      "words": [
         "air",
         "or",
         "gas",
@@ -168,25 +281,23 @@
         "out",
         "of",
         "something."
-      ]
+      ],
+      "conf": 94.5157,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will pump. PRESENT: pump(s). PAST: pumped.",
-      "x": 0.1,
-      "y": 0.88,
-      "w": 0.85,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
+      "id": "r11",
+      "order": 10,
+      "text": "(s)",
+      "x": 0.5184,
+      "y": 0.8467,
+      "w": 0.0352,
+      "h": 0.0237,
       "words": [
-        "FUTURE:",
-        "will",
-        "pump.",
-        "PRESENT:",
-        "pump(s).",
-        "PAST:",
-        "pumped."
-      ]
+        "(s)"
+      ],
+      "conf": 79.2172,
+      "source": "psm-11"
     }
   ]
 }

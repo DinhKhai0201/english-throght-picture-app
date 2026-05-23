@@ -4,12 +4,57 @@
   "imageApiPath": "/api/books/page%20284.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 1,
-    "wordCount": 36,
+    "regionCount": 22,
+    "wordCount": 63,
     "imageWidth": 1196,
     "imageHeight": 1855
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r3",
+        "r8",
+        "r12"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r2",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r9",
+        "r10",
+        "r11",
+        "r13"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r14",
+        "r21"
+      ]
+    },
     {
       "id": "bottom-right",
       "label": "Bottom Right",
@@ -18,57 +63,365 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r15",
+        "r16",
+        "r17",
+        "r18",
+        "r19",
+        "r20",
+        "r22"
       ]
     }
   ],
   "regions": [
     {
-      "text": "He/She/It conjugation table: Past, Present, Future. had/has/will have; did/does/will do; seemed/seems/will seem; came/comes/will come; went/goes/will go; put/puts/will put; took/takes/will take; gave/gives/will give; got/gets/will get; kept/keeps/will keep; let/lets/will let; made/makes/will make; sent/sends/will send; saw/sees/will see; said/says/will say.",
-      "x": 0.1,
-      "y": 0.15,
-      "w": 0.8,
-      "h": 0.75,
       "id": "r1",
       "order": 0,
+      "text": "Present",
+      "x": 0.5284,
+      "y": 0.2512,
+      "w": 0.1104,
+      "h": 0.0183,
       "words": [
-        "He/She/It",
-        "conjugation",
-        "table:",
-        "Past,",
-        "Present,",
-        "Future.",
-        "had/has/will",
-        "have;",
-        "did/does/will",
-        "do;",
-        "seemed/seems/will",
-        "seem;",
-        "came/comes/will",
-        "come;",
-        "went/goes/will",
-        "go;",
-        "put/puts/will",
-        "put;",
-        "took/takes/will",
-        "take;",
-        "gave/gives/will",
-        "give;",
-        "got/gets/will",
-        "get;",
-        "kept/keeps/will",
-        "keep;",
-        "let/lets/will",
-        "let;",
-        "made/makes/will",
-        "make;",
-        "sent/sends/will",
-        "send;",
-        "saw/sees/will",
-        "see;",
-        "said/says/will",
-        "say."
-      ]
+        "Present"
+      ],
+      "conf": 95.8638,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Future has",
+      "x": 0.5326,
+      "y": 0.2518,
+      "w": 0.2693,
+      "h": 0.0689,
+      "words": [
+        "Future",
+        "has"
+      ],
+      "conf": 93.7271,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "had did seemed came He",
+      "x": 0.1789,
+      "y": 0.3013,
+      "w": 0.2902,
+      "h": 0.1202,
+      "words": [
+        "had",
+        "did",
+        "seemed",
+        "came",
+        "He"
+      ],
+      "conf": 96.2205,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "will have does",
+      "x": 0.5309,
+      "y": 0.3008,
+      "w": 0.312,
+      "h": 0.0453,
+      "words": [
+        "will",
+        "have",
+        "does"
+      ],
+      "conf": 96.6576,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "will do seems",
+      "x": 0.5318,
+      "y": 0.3267,
+      "w": 0.2776,
+      "h": 0.0447,
+      "words": [
+        "will",
+        "do",
+        "seems"
+      ],
+      "conf": 95.3787,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "will seem comes",
+      "x": 0.5309,
+      "y": 0.352,
+      "w": 0.3136,
+      "h": 0.0447,
+      "words": [
+        "will",
+        "seem",
+        "comes"
+      ],
+      "conf": 95.6445,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "will come goes",
+      "x": 0.5301,
+      "y": 0.3774,
+      "w": 0.316,
+      "h": 0.0485,
+      "words": [
+        "will",
+        "come",
+        "goes"
+      ],
+      "conf": 96.3301,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "went put took She",
+      "x": 0.1773,
+      "y": 0.4065,
+      "w": 0.2499,
+      "h": 0.0906,
+      "words": [
+        "went",
+        "put",
+        "took",
+        "She"
+      ],
+      "conf": 96.932,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "will go puts",
+      "x": 0.5318,
+      "y": 0.4027,
+      "w": 0.2759,
+      "h": 0.0491,
+      "words": [
+        "will",
+        "go",
+        "puts"
+      ],
+      "conf": 96.987,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "will put takes",
+      "x": 0.5301,
+      "y": 0.4275,
+      "w": 0.2893,
+      "h": 0.0442,
+      "words": [
+        "will",
+        "put",
+        "takes"
+      ],
+      "conf": 96.6109,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "will take gives",
+      "x": 0.5318,
+      "y": 0.4528,
+      "w": 0.3035,
+      "h": 0.048,
+      "words": [
+        "will",
+        "take",
+        "gives"
+      ],
+      "conf": 96.8484,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "gave",
+      "x": 0.3554,
+      "y": 0.4846,
+      "w": 0.0744,
+      "h": 0.0162,
+      "words": [
+        "gave"
+      ],
+      "conf": 96.7078,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "will give",
+      "x": 0.7074,
+      "y": 0.4776,
+      "w": 0.1254,
+      "h": 0.0232,
+      "words": [
+        "will",
+        "give"
+      ],
+      "conf": 96.7081,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "got kept let made sent said",
+      "x": 0.3528,
+      "y": 0.5067,
+      "w": 0.0861,
+      "h": 0.1677,
+      "words": [
+        "got",
+        "kept",
+        "let",
+        "made",
+        "sent",
+        "said"
+      ],
+      "conf": 96.8264,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "gets",
+      "x": 0.5309,
+      "y": 0.5067,
+      "w": 0.0619,
+      "h": 0.0194,
+      "words": [
+        "gets"
+      ],
+      "conf": 96.4719,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "will get keeps",
+      "x": 0.5318,
+      "y": 0.503,
+      "w": 0.286,
+      "h": 0.049,
+      "words": [
+        "will",
+        "get",
+        "keeps"
+      ],
+      "conf": 96.4711,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "will keep lets",
+      "x": 0.5326,
+      "y": 0.5288,
+      "w": 0.3094,
+      "h": 0.0437,
+      "words": [
+        "will",
+        "keep",
+        "lets"
+      ],
+      "conf": 96.7917,
+      "source": "psm-11"
+    },
+    {
+      "id": "r18",
+      "order": 17,
+      "text": "will let makes",
+      "x": 0.5318,
+      "y": 0.5542,
+      "w": 0.2751,
+      "h": 0.0442,
+      "words": [
+        "will",
+        "let",
+        "makes"
+      ],
+      "conf": 96.0814,
+      "source": "psm-11"
+    },
+    {
+      "id": "r19",
+      "order": 18,
+      "text": "will make sends",
+      "x": 0.5301,
+      "y": 0.579,
+      "w": 0.3219,
+      "h": 0.0453,
+      "words": [
+        "will",
+        "make",
+        "sends"
+      ],
+      "conf": 95.9903,
+      "source": "psm-11"
+    },
+    {
+      "id": "r20",
+      "order": 19,
+      "text": "will send sees",
+      "x": 0.5284,
+      "y": 0.6049,
+      "w": 0.3102,
+      "h": 0.0447,
+      "words": [
+        "will",
+        "send",
+        "sees"
+      ],
+      "conf": 96.588,
+      "source": "psm-11"
+    },
+    {
+      "id": "r21",
+      "order": 20,
+      "text": "saw",
+      "x": 0.3537,
+      "y": 0.6372,
+      "w": 0.0577,
+      "h": 0.0113,
+      "words": [
+        "saw"
+      ],
+      "conf": 94.7225,
+      "source": "psm-11"
+    },
+    {
+      "id": "r22",
+      "order": 21,
+      "text": "will see will say",
+      "x": 0.7057,
+      "y": 0.6307,
+      "w": 0.1129,
+      "h": 0.0485,
+      "words": [
+        "will",
+        "see",
+        "will",
+        "say"
+      ],
+      "conf": 96.4068,
+      "source": "psm-11"
     }
   ]
 }

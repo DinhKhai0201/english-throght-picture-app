@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20153.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 7,
-    "wordCount": 125,
+    "regionCount": 17,
+    "wordCount": 120,
     "imageWidth": 1209,
     "imageHeight": 1859
   },
@@ -18,8 +18,11 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3"
+        "r1",
+        "r3",
+        "r5",
+        "r7",
+        "r9"
       ]
     },
     {
@@ -30,8 +33,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r4"
+        "r2",
+        "r4",
+        "r6",
+        "r8"
       ]
     },
     {
@@ -42,8 +47,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r6"
+        "r10",
+        "r12",
+        "r13",
+        "r15"
       ]
     },
     {
@@ -54,53 +61,89 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7"
+        "r11",
+        "r14",
+        "r16",
+        "r17"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Answers to questions on pages 140-141.",
-      "x": 0.2,
-      "y": 0.09,
-      "w": 0.6,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "Answers to questions",
+      "x": 0.2018,
+      "y": 0.0866,
+      "w": 0.3234,
+      "h": 0.0387,
       "words": [
         "Answers",
         "to",
-        "questions",
-        "on",
-        "pages",
-        "140-141."
-      ]
+        "questions"
+      ],
+      "conf": 95.8197,
+      "source": "psm-11"
     },
     {
-      "text": "Page 140",
-      "x": 0.12,
-      "y": 0.18,
-      "w": 0.3,
-      "h": 0.03,
       "id": "r2",
       "order": 1,
+      "text": "on pages",
+      "x": 0.5368,
+      "y": 0.0925,
+      "w": 0.1447,
+      "h": 0.0178,
       "words": [
-        "Page",
-        "140"
-      ]
+        "on",
+        "pages"
+      ],
+      "conf": 95.887,
+      "source": "psm-11"
     },
     {
-      "text": "They are shoes. He is putting his shoes on his feet. They are toothpaste and a toothbrush. She is brushing her teeth.",
-      "x": 0.12,
-      "y": 0.2,
-      "w": 0.38,
-      "h": 0.2,
       "id": "r3",
       "order": 2,
+      "text": "Page a They are shoes.",
+      "x": 0.1249,
+      "y": 0.1797,
+      "w": 0.2804,
+      "h": 0.0489,
       "words": [
+        "Page",
+        "a",
         "They",
         "are",
-        "shoes.",
+        "shoes."
+      ],
+      "conf": 96.7749,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "b They are shirts.",
+      "x": 0.5567,
+      "y": 0.2044,
+      "w": 0.2763,
+      "h": 0.0242,
+      "words": [
+        "b",
+        "They",
+        "are",
+        "shirts."
+      ],
+      "conf": 93.1446,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "He is putting his shoes on his feet.",
+      "x": 0.1646,
+      "y": 0.2308,
+      "w": 0.2605,
+      "h": 0.0457,
+      "words": [
         "He",
         "is",
         "putting",
@@ -108,32 +151,20 @@
         "shoes",
         "on",
         "his",
-        "feet.",
-        "They",
-        "are",
-        "toothpaste",
-        "and",
-        "a",
-        "toothbrush.",
-        "She",
-        "is",
-        "brushing",
-        "her",
-        "teeth."
-      ]
+        "feet."
+      ],
+      "conf": 96.4634,
+      "source": "psm-11"
     },
     {
-      "text": "They are shirts. He is putting his things in his bag. It is soap. She is washing her hands.",
-      "x": 0.54,
-      "y": 0.2,
-      "w": 0.38,
-      "h": 0.2,
-      "id": "r4",
-      "order": 3,
+      "id": "r6",
+      "order": 5,
+      "text": "He is putting his things in his bag.",
+      "x": 0.5947,
+      "y": 0.2313,
+      "w": 0.2639,
+      "h": 0.0501,
       "words": [
-        "They",
-        "are",
-        "shirts.",
         "He",
         "is",
         "putting",
@@ -141,39 +172,77 @@
         "things",
         "in",
         "his",
-        "bag.",
-        "It",
-        "is",
-        "soap.",
+        "bag."
+      ],
+      "conf": 96.4572,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "They are toothpaste and a toothbrush.",
+      "x": 0.1646,
+      "y": 0.2835,
+      "w": 0.3118,
+      "h": 0.0451,
+      "words": [
+        "They",
+        "are",
+        "toothpaste",
+        "and",
+        "a",
+        "toothbrush."
+      ],
+      "conf": 96.4903,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "She is washing her hands.",
+      "x": 0.5964,
+      "y": 0.3098,
+      "w": 0.2903,
+      "h": 0.0453,
+      "words": [
         "She",
         "is",
         "washing",
         "her",
         "hands."
-      ]
+      ],
+      "conf": 96.7649,
+      "source": "psm-11"
     },
     {
-      "text": "Page 141",
-      "x": 0.12,
-      "y": 0.56,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r5",
-      "order": 4,
+      "id": "r9",
+      "order": 8,
+      "text": "She is brushing her teeth.",
+      "x": 0.1654,
+      "y": 0.3346,
+      "w": 0.2945,
+      "h": 0.0457,
+      "words": [
+        "She",
+        "is",
+        "brushing",
+        "her",
+        "teeth."
+      ],
+      "conf": 96.4665,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "Page a He got his ticket at the ticket office in the station.",
+      "x": 0.1166,
+      "y": 0.567,
+      "w": 0.3689,
+      "h": 0.0963,
       "words": [
         "Page",
-        "141"
-      ]
-    },
-    {
-      "text": "He got his ticket at the ticket office in the station. The journey was four days long. They said, \"Did you have a good journey?\" They are learning reading and writing at school.",
-      "x": 0.12,
-      "y": 0.59,
-      "w": 0.38,
-      "h": 0.3,
-      "id": "r6",
-      "order": 5,
-      "words": [
+        "a",
         "He",
         "got",
         "his",
@@ -184,44 +253,24 @@
         "office",
         "in",
         "the",
-        "station.",
-        "The",
-        "journey",
-        "was",
-        "four",
-        "days",
-        "long.",
-        "They",
-        "said,",
-        "\"Did",
-        "you",
-        "have",
-        "a",
-        "good",
-        "journey?\"",
-        "They",
-        "are",
-        "learning",
-        "reading",
-        "and",
-        "writing",
-        "at",
-        "school."
-      ]
+        "station."
+      ],
+      "conf": 96.2781,
+      "source": "psm-11"
     },
     {
-      "text": "The ticket was $132.35. No. He did not go in an airplane. He went in a train. He said, \"I had a good journey and will send you a long letter tomorrow. Love. John.\" She sent love from Tom and Jane.",
-      "x": 0.54,
-      "y": 0.59,
-      "w": 0.38,
-      "h": 0.3,
-      "id": "r7",
-      "order": 6,
+      "id": "r11",
+      "order": 10,
+      "text": "b The ticket was No. He did not go in an airplane. He went in a train.",
+      "x": 0.5451,
+      "y": 0.5917,
+      "w": 0.373,
+      "h": 0.1232,
       "words": [
+        "b",
         "The",
         "ticket",
         "was",
-        "$132.35.",
         "No.",
         "He",
         "did",
@@ -234,11 +283,62 @@
         "went",
         "in",
         "a",
-        "train.",
+        "train."
+      ],
+      "conf": 94.9023,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "The journey was four days long.",
+      "x": 0.1563,
+      "y": 0.6697,
+      "w": 0.3259,
+      "h": 0.05,
+      "words": [
+        "The",
+        "journey",
+        "was",
+        "four",
+        "days",
+        "long."
+      ],
+      "conf": 96.5904,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "They said, “Did you have a good journey?”",
+      "x": 0.1572,
+      "y": 0.7219,
+      "w": 0.3011,
+      "h": 0.0774,
+      "words": [
+        "They",
+        "said,",
+        "“Did",
+        "you",
+        "have",
+        "a",
+        "good",
+        "journey?”"
+      ],
+      "conf": 96.5575,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "He said, a good journey and will send you a long letter tomorrow.",
+      "x": 0.5856,
+      "y": 0.7224,
+      "w": 0.3151,
+      "h": 0.099,
+      "words": [
         "He",
         "said,",
-        "\"I",
-        "had",
         "a",
         "good",
         "journey",
@@ -249,9 +349,56 @@
         "a",
         "long",
         "letter",
-        "tomorrow.",
+        "tomorrow."
+      ],
+      "conf": 88.0942,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "They are learning reading and writing at school.",
+      "x": 0.1563,
+      "y": 0.801,
+      "w": 0.311,
+      "h": 0.0715,
+      "words": [
+        "They",
+        "are",
+        "learning",
+        "reading",
+        "and",
+        "writing",
+        "at",
+        "school."
+      ],
+      "conf": 95.8916,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "Love. John.”",
+      "x": 0.5873,
+      "y": 0.8279,
+      "w": 0.1878,
+      "h": 0.0188,
+      "words": [
         "Love.",
-        "John.\"",
+        "John.”"
+      ],
+      "conf": 90.8819,
+      "source": "psm-11"
+    },
+    {
+      "id": "r17",
+      "order": 16,
+      "text": "She sent love from Tom and Jane.",
+      "x": 0.5856,
+      "y": 0.8526,
+      "w": 0.2862,
+      "h": 0.0463,
+      "words": [
         "She",
         "sent",
         "love",
@@ -259,7 +406,9 @@
         "Tom",
         "and",
         "Jane."
-      ]
+      ],
+      "conf": 96.0665,
+      "source": "psm-11"
     }
   ]
 }

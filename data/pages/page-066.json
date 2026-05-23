@@ -4,7 +4,7 @@
   "imageApiPath": "/api/books/page%2066.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 11,
+    "regionCount": 14,
     "wordCount": 82,
     "imageWidth": 1217,
     "imageHeight": 1830
@@ -18,8 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r5"
       ]
     },
     {
@@ -30,10 +30,11 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r1",
         "r3",
         "r4",
-        "r5",
-        "r6"
+        "r6",
+        "r7"
       ]
     },
     {
@@ -44,8 +45,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r8"
+        "r9",
+        "r10",
+        "r11",
+        "r13"
       ]
     },
     {
@@ -56,21 +59,43 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
-        "r10",
-        "r11"
+        "r8",
+        "r12",
+        "r14"
       ]
     }
   ],
   "regions": [
     {
-      "text": "This is one of the doors of the room.",
-      "x": 0.1,
-      "y": 0.11,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "This is one of the windows of the room.",
+      "x": 0.5604,
+      "y": 0.0869,
+      "w": 0.3237,
+      "h": 0.0448,
+      "words": [
+        "This",
+        "is",
+        "one",
+        "of",
+        "the",
+        "windows",
+        "of",
+        "the",
+        "room."
+      ],
+      "conf": 96.6169,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This is one of the doors of the room.",
+      "x": 0.1126,
+      "y": 0.118,
+      "w": 0.3377,
+      "h": 0.0454,
       "words": [
         "This",
         "is",
@@ -81,146 +106,106 @@
         "of",
         "the",
         "room."
-      ]
+      ],
+      "conf": 96.6237,
+      "source": "psm-11"
     },
     {
-      "text": "This is the other door.",
-      "x": 0.08,
-      "y": 0.41,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r2",
-      "order": 1,
-      "words": [
-        "This",
-        "is",
-        "the",
-        "other",
-        "door."
-      ]
-    },
-    {
-      "text": "This is one of the windows of the room.",
-      "x": 0.53,
-      "y": 0.08,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r3",
       "order": 2,
-      "words": [
-        "This",
-        "is",
-        "one",
-        "of",
-        "the",
-        "windows",
-        "of",
-        "the",
-        "room."
-      ]
-    },
-    {
       "text": "This is another window.",
-      "x": 0.53,
-      "y": 0.18,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r4",
-      "order": 3,
+      "x": 0.5382,
+      "y": 0.1858,
+      "w": 0.3517,
+      "h": 0.0191,
       "words": [
         "This",
         "is",
         "another",
         "window."
-      ]
+      ],
+      "conf": 96.1823,
+      "source": "psm-11"
     },
     {
+      "id": "r4",
+      "order": 3,
       "text": "And this is another window.",
-      "x": 0.58,
-      "y": 0.34,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r5",
-      "order": 4,
+      "x": 0.5267,
+      "y": 0.3481,
+      "w": 0.3369,
+      "h": 0.044,
       "words": [
         "And",
         "this",
         "is",
         "another",
         "window."
-      ]
+      ],
+      "conf": 96.4578,
+      "source": "psm-11"
     },
     {
-      "text": "One window is open. The other windows are shut.",
-      "x": 0.56,
-      "y": 0.4,
-      "w": 0.35,
-      "h": 0.08,
+      "id": "r5",
+      "order": 4,
+      "text": "This is the other door.",
+      "x": 0.097,
+      "y": 0.4137,
+      "w": 0.3213,
+      "h": 0.0197,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "other",
+        "door."
+      ],
+      "conf": 96.798,
+      "source": "psm-11"
+    },
+    {
       "id": "r6",
       "order": 5,
+      "text": "One window is open.",
+      "x": 0.5727,
+      "y": 0.4016,
+      "w": 0.3155,
+      "h": 0.0246,
       "words": [
         "One",
         "window",
         "is",
-        "open.",
+        "open."
+      ],
+      "conf": 95.8293,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "The other windows are shut.",
+      "x": 0.5711,
+      "y": 0.4284,
+      "w": 0.3402,
+      "h": 0.0448,
+      "words": [
         "The",
         "other",
         "windows",
         "are",
         "shut."
-      ]
+      ],
+      "conf": 96.4817,
+      "source": "psm-11"
     },
     {
-      "text": "This is one of my hands. It is my left hand.",
-      "x": 0.1,
-      "y": 0.55,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r7",
-      "order": 6,
-      "words": [
-        "This",
-        "is",
-        "one",
-        "of",
-        "my",
-        "hands.",
-        "It",
-        "is",
-        "my",
-        "left",
-        "hand."
-      ]
-    },
-    {
-      "text": "This is my other hand. It is my right hand.",
-      "x": 0.12,
-      "y": 0.82,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r8",
       "order": 7,
-      "words": [
-        "This",
-        "is",
-        "my",
-        "other",
-        "hand.",
-        "It",
-        "is",
-        "my",
-        "right",
-        "hand."
-      ]
-    },
-    {
       "text": "This is one of my fingers.",
-      "x": 0.52,
-      "y": 0.5,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r9",
-      "order": 8,
+      "x": 0.53,
+      "y": 0.5027,
+      "w": 0.3657,
+      "h": 0.024,
       "words": [
         "This",
         "is",
@@ -228,32 +213,109 @@
         "of",
         "my",
         "fingers."
-      ]
+      ],
+      "conf": 96.8023,
+      "source": "psm-11"
     },
     {
-      "text": "This is my left thumb.",
-      "x": 0.52,
-      "y": 0.82,
-      "w": 0.35,
-      "h": 0.03,
+      "id": "r9",
+      "order": 8,
+      "text": "This is one of my hands.",
+      "x": 0.1167,
+      "y": 0.5536,
+      "w": 0.3558,
+      "h": 0.0257,
+      "words": [
+        "This",
+        "is",
+        "one",
+        "of",
+        "my",
+        "hands."
+      ],
+      "conf": 96.2659,
+      "source": "psm-11"
+    },
+    {
       "id": "r10",
       "order": 9,
+      "text": "It is my left hand.",
+      "x": 0.1191,
+      "y": 0.5809,
+      "w": 0.2555,
+      "h": 0.0235,
+      "words": [
+        "It",
+        "is",
+        "my",
+        "left",
+        "hand."
+      ],
+      "conf": 95.3586,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "This is my other hand.",
+      "x": 0.1249,
+      "y": 0.8213,
+      "w": 0.3246,
+      "h": 0.0251,
+      "words": [
+        "This",
+        "is",
+        "my",
+        "other",
+        "hand."
+      ],
+      "conf": 96.5381,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "This is my left thumb.",
+      "x": 0.5292,
+      "y": 0.8219,
+      "w": 0.3131,
+      "h": 0.0251,
       "words": [
         "This",
         "is",
         "my",
         "left",
         "thumb."
-      ]
+      ],
+      "conf": 96.5522,
+      "source": "psm-11"
     },
     {
+      "id": "r13",
+      "order": 12,
+      "text": "It is my right hand.",
+      "x": 0.1274,
+      "y": 0.8475,
+      "w": 0.2777,
+      "h": 0.0246,
+      "words": [
+        "It",
+        "is",
+        "my",
+        "right",
+        "hand."
+      ],
+      "conf": 96.2091,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
       "text": "These are the other fingers of my left hand.",
-      "x": 0.53,
-      "y": 0.86,
-      "w": 0.4,
-      "h": 0.05,
-      "id": "r11",
-      "order": 10,
+      "x": 0.5423,
+      "y": 0.8585,
+      "w": 0.35,
+      "h": 0.0503,
       "words": [
         "These",
         "are",
@@ -264,7 +326,9 @@
         "my",
         "left",
         "hand."
-      ]
+      ],
+      "conf": 96.6681,
+      "source": "psm-11"
     }
   ]
 }

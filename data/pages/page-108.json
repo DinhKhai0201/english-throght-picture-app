@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20108.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 11,
-    "wordCount": 58,
+    "regionCount": 10,
+    "wordCount": 56,
     "imageWidth": 1196,
     "imageHeight": 1830
   },
@@ -19,9 +19,8 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
         "r3",
-        "r4"
+        "r5"
       ]
     },
     {
@@ -32,9 +31,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
-        "r6",
-        "r7"
+        "r2",
+        "r4",
+        "r6"
       ]
     },
     {
@@ -57,20 +56,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r10",
-        "r11"
+        "r7",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Mary put the potatoes and the milk and other things into the pot.",
-      "x": 0.1,
-      "y": 0.13,
-      "w": 0.4,
-      "h": 0.08,
       "id": "r1",
       "order": 0,
+      "text": "Mary put the potatoes and the milk and other things into the pot.",
+      "x": 0.112,
+      "y": 0.1262,
+      "w": 0.3504,
+      "h": 0.077,
       "words": [
         "Mary",
         "put",
@@ -85,56 +84,18 @@
         "into",
         "the",
         "pot."
-      ]
+      ],
+      "conf": 96.5767,
+      "source": "psm-11"
     },
     {
-      "text": "This is salt.",
-      "x": 0.1,
-      "y": 0.2,
-      "w": 0.25,
-      "h": 0.03,
       "id": "r2",
       "order": 1,
-      "words": [
-        "This",
-        "is",
-        "salt."
-      ]
-    },
-    {
-      "text": "(See page 242)",
-      "x": 0.1,
-      "y": 0.23,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r3",
-      "order": 2,
-      "words": [
-        "(See",
-        "page",
-        "242)"
-      ]
-    },
-    {
-      "text": "SALT",
-      "x": 0.28,
-      "y": 0.33,
-      "w": 0.1,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "SALT"
-      ]
-    },
-    {
       "text": "She put the pot over a low flame.",
-      "x": 0.53,
-      "y": 0.13,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r5",
-      "order": 4,
+      "x": 0.5393,
+      "y": 0.1361,
+      "w": 0.3102,
+      "h": 0.047,
       "words": [
         "She",
         "put",
@@ -144,16 +105,34 @@
         "a",
         "low",
         "flame."
-      ]
+      ],
+      "conf": 96.2134,
+      "source": "psm-11"
     },
     {
+      "id": "r3",
+      "order": 2,
+      "text": "This is salt.",
+      "x": 0.1129,
+      "y": 0.2038,
+      "w": 0.1622,
+      "h": 0.0202,
+      "words": [
+        "This",
+        "is",
+        "salt."
+      ],
+      "conf": 93.6632,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
       "text": "She put the cover on the pot.",
-      "x": 0.53,
-      "y": 0.19,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r6",
-      "order": 5,
+      "x": 0.5393,
+      "y": 0.1885,
+      "w": 0.3118,
+      "h": 0.0514,
       "words": [
         "She",
         "put",
@@ -162,85 +141,112 @@
         "on",
         "the",
         "pot."
-      ]
+      ],
+      "conf": 95.1066,
+      "source": "psm-11"
     },
     {
-      "text": "The low flame is under the pot.",
-      "x": 0.53,
-      "y": 0.4,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r7",
-      "order": 6,
+      "id": "r5",
+      "order": 4,
+      "text": "(See page",
+      "x": 0.112,
+      "y": 0.2306,
+      "w": 0.1555,
+      "h": 0.024,
+      "words": [
+        "(See",
+        "page"
+      ],
+      "conf": 96.4043,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The low flame ts under the pot.",
+      "x": 0.5418,
+      "y": 0.4005,
+      "w": 0.347,
+      "h": 0.0492,
       "words": [
         "The",
         "low",
         "flame",
-        "is",
+        "ts",
         "under",
         "the",
         "pot."
-      ]
+      ],
+      "conf": 92.6324,
+      "source": "psm-11"
     },
     {
-      "text": "This flame is low.",
-      "x": 0.14,
-      "y": 0.59,
-      "w": 0.3,
-      "h": 0.03,
+      "id": "r7",
+      "order": 6,
+      "text": "This building is high.",
+      "x": 0.5635,
+      "y": 0.5475,
+      "w": 0.3161,
+      "h": 0.0246,
+      "words": [
+        "This",
+        "building",
+        "is",
+        "high."
+      ],
+      "conf": 96.4581,
+      "source": "psm-11"
+    },
+    {
       "id": "r8",
       "order": 7,
+      "text": "This flame is low.",
+      "x": 0.148,
+      "y": 0.5885,
+      "w": 0.26,
+      "h": 0.0213,
       "words": [
         "This",
         "flame",
         "is",
         "low."
-      ]
+      ],
+      "conf": 95.9275,
+      "source": "psm-11"
     },
     {
-      "text": "This flame is high.",
-      "x": 0.14,
-      "y": 0.77,
-      "w": 0.3,
-      "h": 0.03,
       "id": "r9",
       "order": 8,
+      "text": "This flame is high.",
+      "x": 0.1472,
+      "y": 0.7678,
+      "w": 0.2742,
+      "h": 0.0246,
       "words": [
         "This",
         "flame",
         "is",
         "high."
-      ]
+      ],
+      "conf": 91.6382,
+      "source": "psm-11"
     },
     {
-      "text": "This building is high.",
-      "x": 0.55,
-      "y": 0.55,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r10",
       "order": 9,
-      "words": [
-        "This",
-        "building",
-        "is",
-        "high."
-      ]
-    },
-    {
       "text": "This building is low.",
-      "x": 0.55,
-      "y": 0.82,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r11",
-      "order": 10,
+      "x": 0.5619,
+      "y": 0.812,
+      "w": 0.3027,
+      "h": 0.024,
       "words": [
         "This",
         "building",
         "is",
         "low."
-      ]
+      ],
+      "conf": 96.716,
+      "source": "psm-11"
     }
   ]
 }

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20268.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 64,
+    "regionCount": 10,
+    "wordCount": 63,
     "imageWidth": 1196,
     "imageHeight": 1884
   },
@@ -18,7 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r1",
+        "r5"
       ]
     },
     {
@@ -29,7 +30,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r2",
+        "r3",
+        "r4",
+        "r6"
       ]
     },
     {
@@ -40,7 +44,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r7",
+        "r9"
       ]
     },
     {
@@ -51,19 +56,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r8",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "This is a great painting by Leonardo. Its name is the Mona Lisa.",
-      "x": 0.12,
-      "y": 0.12,
-      "w": 0.35,
-      "h": 0.35,
       "id": "r1",
       "order": 0,
+      "text": "This is a great painting by Leonardo.",
+      "x": 0.1263,
+      "y": 0.1014,
+      "w": 0.3445,
+      "h": 0.0472,
       "words": [
         "This",
         "is",
@@ -71,31 +77,53 @@
         "great",
         "painting",
         "by",
-        "Leonardo.",
-        "Its",
-        "name",
-        "is",
-        "the",
-        "Mona",
-        "Lisa."
-      ]
+        "Leonardo."
+      ],
+      "conf": 96.5212,
+      "source": "psm-11"
     },
     {
-      "text": "The picture is beautiful. That is certain. Was the woman beautiful? Was Lisa herself beautiful? That is not certain.",
-      "x": 0.54,
-      "y": 0.12,
-      "w": 0.4,
-      "h": 0.25,
       "id": "r2",
       "order": 1,
+      "text": "The picture is beautiful.",
+      "x": 0.5418,
+      "y": 0.1237,
+      "w": 0.347,
+      "h": 0.0239,
       "words": [
         "The",
         "picture",
         "is",
-        "beautiful.",
+        "beautiful."
+      ],
+      "conf": 95.7913,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "That is certain,",
+      "x": 0.5426,
+      "y": 0.1492,
+      "w": 0.2224,
+      "h": 0.0186,
+      "words": [
         "That",
         "is",
-        "certain.",
+        "certain,"
+      ],
+      "conf": 94.3169,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Was the woman beautiful? Was Lisa herself beautiful?",
+      "x": 0.5803,
+      "y": 0.3386,
+      "w": 0.2917,
+      "h": 0.0669,
+      "words": [
         "Was",
         "the",
         "woman",
@@ -103,42 +131,73 @@
         "Was",
         "Lisa",
         "herself",
-        "beautiful?",
+        "beautiful?"
+      ],
+      "conf": 96.1132,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Its name is the Mona Lisa.",
+      "x": 0.1873,
+      "y": 0.3954,
+      "w": 0.2173,
+      "h": 0.0419,
+      "words": [
+        "Its",
+        "name",
+        "is",
+        "the",
+        "Mona",
+        "Lisa."
+      ],
+      "conf": 96.2135,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "That is not certain.",
+      "x": 0.5794,
+      "y": 0.4114,
+      "w": 0.2793,
+      "h": 0.0196,
+      "words": [
         "That",
         "is",
         "not",
         "certain."
-      ]
+      ],
+      "conf": 96.2298,
+      "source": "psm-11"
     },
     {
-      "text": "I have my idea of that. He has his idea.",
-      "x": 0.12,
-      "y": 0.51,
-      "w": 0.35,
-      "h": 0.3,
-      "id": "r3",
-      "order": 2,
+      "id": "r7",
+      "order": 6,
+      "text": "have my idea of that.",
+      "x": 0.1438,
+      "y": 0.5042,
+      "w": 0.3286,
+      "h": 0.0239,
       "words": [
-        "I",
         "have",
         "my",
         "idea",
         "of",
-        "that.",
-        "He",
-        "has",
-        "his",
-        "idea."
-      ]
+        "that."
+      ],
+      "conf": 96.313,
+      "source": "psm-11"
     },
     {
-      "text": "She had her idea. We may have different ideas of how beautiful that woman was. There is no measure of the beautiful.",
-      "x": 0.52,
-      "y": 0.65,
-      "w": 0.4,
-      "h": 0.25,
-      "id": "r4",
-      "order": 3,
+      "id": "r8",
+      "order": 7,
+      "text": "She had her idea. We may have different ideas of how beautiful that There is no measure of",
+      "x": 0.5234,
+      "y": 0.6332,
+      "w": 0.3754,
+      "h": 0.1184,
       "words": [
         "She",
         "had",
@@ -153,16 +212,48 @@
         "how",
         "beautiful",
         "that",
-        "woman",
-        "was.",
         "There",
         "is",
         "no",
         "measure",
-        "of",
+        "of"
+      ],
+      "conf": 95.9605,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "He has his idea.",
+      "x": 0.1789,
+      "y": 0.6996,
+      "w": 0.2349,
+      "h": 0.0186,
+      "words": [
+        "He",
+        "has",
+        "his",
+        "idea."
+      ],
+      "conf": 96.1433,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "woman was, the beautiful.",
+      "x": 0.5242,
+      "y": 0.7139,
+      "w": 0.2023,
+      "h": 0.0626,
+      "words": [
+        "woman",
+        "was,",
         "the",
         "beautiful."
-      ]
+      ],
+      "conf": 82.3272,
+      "source": "psm-11"
     }
   ]
 }

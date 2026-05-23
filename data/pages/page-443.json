@@ -2,165 +2,323 @@
   "page": 443,
   "image": "/books/page 443.png",
   "imageApiPath": "/api/books/page%20443.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 82,
+    "regionCount": 14,
+    "wordCount": 102,
     "imageWidth": 1225,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
+      "id": "full-page",
+      "label": "Full Page",
+      "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r1",
         "r2",
         "r3",
-        "r4"
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r12",
+        "r13",
+        "r14"
       ]
     }
   ],
   "regions": [
     {
-      "text": "It is hard to say what Time is. One man has time on his hands. Another man has not enough time for his reading.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.35,
       "id": "r1",
       "order": 0,
+      "text": "say what Time is,",
+      "x": 0.098,
+      "y": 0.1099,
+      "w": 0.2441,
+      "h": 0.0261,
       "words": [
-        "It",
-        "is",
-        "hard",
-        "to",
         "say",
         "what",
         "Time",
-        "is.",
-        "One",
+        "is,"
+      ],
+      "conf": 93.6334,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This man has time on his hands.",
+      "x": 0.6196,
+      "y": 0.2395,
+      "w": 0.2849,
+      "h": 0.0538,
+      "words": [
+        "This",
         "man",
         "has",
         "time",
         "on",
         "his",
-        "hands.",
-        "Another",
+        "hands."
+      ],
+      "conf": 96.3534,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This other man has not enough The same amount of time may person and very long to another.",
+      "x": 0.0947,
+      "y": 0.4955,
+      "w": 0.4734,
+      "h": 0.1024,
+      "words": [
+        "This",
+        "other",
         "man",
         "has",
         "not",
         "enough",
-        "time",
-        "for",
-        "his",
-        "reading."
-      ]
-    },
-    {
-      "text": "The same amount of time may seem short to one person and long to another. A sense of time changes with feelings.",
-      "x": 0.1,
-      "y": 0.52,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r2",
-      "order": 1,
-      "words": [
         "The",
         "same",
         "amount",
         "of",
         "time",
         "may",
+        "person",
+        "and",
+        "very",
+        "long",
+        "to",
+        "another."
+      ],
+      "conf": 92.524,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "time for his reading.",
+      "x": 0.5608,
+      "y": 0.4955,
+      "w": 0.3045,
+      "h": 0.0261,
+      "words": [
+        "time",
+        "for",
+        "his",
+        "reading."
+      ],
+      "conf": 93.7609,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "seem very short to one A man’s sense of time Some days go by much hours seem as if they before they seem to have",
+      "x": 0.551,
+      "y": 0.5504,
+      "w": 0.3519,
+      "h": 0.1243,
+      "words": [
         "seem",
+        "very",
         "short",
         "to",
         "one",
-        "person",
-        "and",
-        "long",
-        "to",
-        "another.",
         "A",
+        "man’s",
         "sense",
         "of",
         "time",
-        "changes",
-        "with",
-        "feelings."
-      ]
-    },
-    {
-      "text": "Some hours seem like they will never end. Others are past before they begin. Time goes quickly as you get older.",
-      "x": 0.1,
-      "y": 0.7,
-      "w": 0.85,
-      "h": 0.12,
-      "id": "r3",
-      "order": 2,
-      "words": [
         "Some",
+        "days",
+        "go",
+        "by",
+        "much",
         "hours",
         "seem",
-        "like",
+        "as",
+        "if",
         "they",
-        "will",
-        "never",
-        "end.",
-        "Others",
-        "are",
-        "past",
         "before",
         "they",
-        "begin.",
-        "Time",
-        "goes",
-        "quickly",
-        "as",
-        "you",
-        "get",
-        "older."
-      ]
+        "seem",
+        "to",
+        "have"
+      ],
+      "conf": 96.4768,
+      "source": "psm-11"
     },
     {
-      "text": "never: not ever. end: come to an end. FUTURE: will end. PRESENT: end(s). PAST: ended.",
-      "x": 0.1,
-      "y": 0.82,
-      "w": 0.85,
-      "h": 0.12,
-      "id": "r4",
-      "order": 3,
+      "id": "r6",
+      "order": 5,
+      "text": "changes as his feelings change.",
+      "x": 0.0963,
+      "y": 0.6016,
+      "w": 0.4482,
+      "h": 0.0219,
+      "words": [
+        "changes",
+        "as",
+        "his",
+        "feelings",
+        "change."
+      ],
+      "conf": 96.0598,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "more quickly than others. Some would never end. Some are past",
+      "x": 0.0955,
+      "y": 0.6277,
+      "w": 0.4735,
+      "h": 0.048,
+      "words": [
+        "more",
+        "quickly",
+        "than",
+        "others.",
+        "Some",
+        "would",
+        "never",
+        "end.",
+        "Some",
+        "are",
+        "past"
+      ],
+      "conf": 96.0978,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Most people find that time older they get.",
+      "x": 0.0939,
+      "y": 0.7317,
+      "w": 0.4057,
+      "h": 0.0475,
+      "words": [
+        "Most",
+        "people",
+        "find",
+        "that",
+        "time",
+        "older",
+        "they",
+        "get."
+      ],
+      "conf": 96.1375,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "goes by more quickly the",
+      "x": 0.5151,
+      "y": 0.7312,
+      "w": 0.3845,
+      "h": 0.0224,
+      "words": [
+        "goes",
+        "by",
+        "more",
+        "quickly",
+        "the"
+      ],
+      "conf": 96.3352,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "never: no! ever.",
+      "x": 0.0947,
+      "y": 0.8005,
+      "w": 0.1804,
+      "h": 0.0123,
       "words": [
         "never:",
-        "not",
-        "ever.",
+        "no!",
+        "ever."
+      ],
+      "conf": 81.115,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "end: come to an end) opposite of begin.",
+      "x": 0.0955,
+      "y": 0.8165,
+      "w": 0.4612,
+      "h": 0.0165,
+      "words": [
         "end:",
         "come",
         "to",
         "an",
-        "end.",
-        "FUTURE:",
+        "end)",
+        "opposite",
+        "of",
+        "begin."
+      ],
+      "conf": 82.9188,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "will ead.",
+      "x": 0.0955,
+      "y": 0.8464,
+      "w": 0.102,
+      "h": 0.0128,
+      "words": [
         "will",
-        "end.",
-        "PRESENT:",
-        "end(s).",
-        "PAST:",
-        "ended."
-      ]
+        "ead."
+      ],
+      "conf": 94.3434,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "ead(s)",
+      "x": 0.4506,
+      "y": 0.8475,
+      "w": 0.0857,
+      "h": 0.016,
+      "words": [
+        "ead(s)"
+      ],
+      "conf": 54.9491,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "ended",
+      "x": 0.8229,
+      "y": 0.8459,
+      "w": 0.0751,
+      "h": 0.0133,
+      "words": [
+        "ended"
+      ],
+      "conf": 95.3982,
+      "source": "psm-11"
     }
   ]
 }

@@ -2,105 +2,80 @@
   "page": 97,
   "image": "/books/page 97.png",
   "imageApiPath": "/api/books/page%2097.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 57,
+    "regionCount": 11,
+    "wordCount": 59,
     "imageWidth": 1280,
     "imageHeight": 1942
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r1",
         "r2",
         "r3",
-        "r4"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r4",
         "r5",
         "r6",
-        "r8"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
         "r7",
+        "r8",
         "r9",
-        "r10"
+        "r10",
+        "r11"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Mary is making the soup.",
-      "x": 0.21,
-      "y": 0.18,
-      "w": 0.25,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "This is the pot.",
+      "x": 0.675,
+      "y": 0.1514,
+      "w": 0.2227,
+      "h": 0.0216,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "pot."
+      ],
+      "conf": 96.2575,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Mary is making the soup.",
+      "x": 0.2125,
+      "y": 0.1818,
+      "w": 0.275,
+      "h": 0.0505,
       "words": [
         "Mary",
         "is",
         "making",
         "the",
         "soup."
-      ]
+      ],
+      "conf": 96.0394,
+      "source": "psm-11"
     },
     {
-      "text": "This is the pot.",
-      "x": 0.67,
-      "y": 0.15,
-      "w": 0.25,
-      "h": 0.03,
-      "id": "r2",
-      "order": 1,
-      "words": [
-        "This",
-        "is",
-        "the",
-        "pot."
-      ]
-    },
-    {
-      "text": "This is the cover of the pot.",
-      "x": 0.56,
-      "y": 0.29,
-      "w": 0.3,
-      "h": 0.05,
       "id": "r3",
       "order": 2,
+      "text": "This is the cover of the pot.",
+      "x": 0.5648,
+      "y": 0.2966,
+      "w": 0.2414,
+      "h": 0.0468,
       "words": [
         "This",
         "is",
@@ -109,16 +84,18 @@
         "of",
         "the",
         "pot."
-      ]
+      ],
+      "conf": 96.6152,
+      "source": "psm-11"
     },
     {
-      "text": "She will make the soup in this pot.",
-      "x": 0.56,
-      "y": 0.38,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r4",
       "order": 3,
+      "text": "She will make the soup in this pot.",
+      "x": 0.5672,
+      "y": 0.3728,
+      "w": 0.332,
+      "h": 0.0551,
       "words": [
         "She",
         "will",
@@ -128,16 +105,33 @@
         "in",
         "this",
         "pot."
-      ]
+      ],
+      "conf": 96.3102,
+      "source": "psm-11"
     },
     {
-      "text": "She put the potatoes in the pot.",
-      "x": 0.17,
-      "y": 0.55,
-      "w": 0.3,
-      "h": 0.05,
       "id": "r5",
       "order": 4,
+      "text": "ese ean",
+      "x": 0.5492,
+      "y": 0.4809,
+      "w": 0.2633,
+      "h": 0.0144,
+      "words": [
+        "ese",
+        "ean"
+      ],
+      "conf": 53.5752,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "She put the potatoes in the pot.",
+      "x": 0.1766,
+      "y": 0.5515,
+      "w": 0.3257,
+      "h": 0.0469,
       "words": [
         "She",
         "put",
@@ -146,16 +140,18 @@
         "in",
         "the",
         "pot."
-      ]
+      ],
+      "conf": 96.2854,
+      "source": "psm-11"
     },
     {
+      "id": "r7",
+      "order": 6,
       "text": "The water in the pot is boiling.",
-      "x": 0.17,
-      "y": 0.6,
-      "w": 0.3,
-      "h": 0.05,
-      "id": "r6",
-      "order": 5,
+      "x": 0.1766,
+      "y": 0.5989,
+      "w": 0.318,
+      "h": 0.0464,
       "words": [
         "The",
         "water",
@@ -164,70 +160,80 @@
         "pot",
         "is",
         "boiling."
-      ]
+      ],
+      "conf": 96.3959,
+      "source": "psm-11"
     },
     {
+      "id": "r8",
+      "order": 7,
       "text": "This is a flame.",
-      "x": 0.63,
-      "y": 0.64,
-      "w": 0.25,
-      "h": 0.03,
-      "id": "r7",
-      "order": 6,
+      "x": 0.6359,
+      "y": 0.6344,
+      "w": 0.2094,
+      "h": 0.0191,
       "words": [
         "This",
         "is",
         "a",
         "flame."
-      ]
+      ],
+      "conf": 96.5093,
+      "source": "psm-11"
     },
     {
+      "id": "r9",
+      "order": 8,
       "text": "This is steam.",
-      "x": 0.24,
-      "y": 0.72,
-      "w": 0.2,
-      "h": 0.03,
-      "id": "r8",
-      "order": 7,
+      "x": 0.243,
+      "y": 0.7219,
+      "w": 0.1875,
+      "h": 0.0185,
       "words": [
         "This",
         "is",
         "steam."
-      ]
+      ],
+      "conf": 96.271,
+      "source": "psm-11"
     },
     {
-      "text": "The pot is over the flame.",
-      "x": 0.58,
-      "y": 0.71,
-      "w": 0.3,
-      "h": 0.05,
-      "id": "r9",
-      "order": 8,
+      "id": "r10",
+      "order": 9,
+      "text": "The pot is over the The flame is under the",
+      "x": 0.5906,
+      "y": 0.708,
+      "w": 0.3133,
+      "h": 0.0768,
       "words": [
         "The",
         "pot",
         "is",
         "over",
         "the",
-        "flame."
-      ]
-    },
-    {
-      "text": "The flame is under the pot.",
-      "x": 0.58,
-      "y": 0.76,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r10",
-      "order": 9,
-      "words": [
         "The",
         "flame",
         "is",
         "under",
-        "the",
+        "the"
+      ],
+      "conf": 96.6041,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "ame, pot.",
+      "x": 0.5922,
+      "y": 0.7487,
+      "w": 0.0852,
+      "h": 0.0633,
+      "words": [
+        "ame,",
         "pot."
-      ]
+      ],
+      "conf": 78.4462,
+      "source": "psm-11"
     }
   ]
 }

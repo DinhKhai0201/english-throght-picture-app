@@ -4,12 +4,25 @@
   "imageApiPath": "/api/books/page%20409.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 76,
+    "regionCount": 16,
+    "wordCount": 149,
     "imageWidth": 1242,
     "imageHeight": 1850
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r5",
+        "r9"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +31,26 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r3",
+        "r4",
+        "r6",
+        "r7",
+        "r8",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r11",
+        "r13",
+        "r15"
       ]
     },
     {
@@ -30,74 +61,155 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r12",
+        "r14",
+        "r16"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Even the simplest living organism is far more complex than any machines men have made. Organisms are built up of parts which are the most complex things chemistry knows.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "Even the simplest living organism than any machines that men built up of parts which are themseives any machine. And these parts plex things the science of chemistry they are so complex that they organism in so many different Chemistry is about the different materials are built up. For exampie:",
+      "x": 0.0805,
+      "y": 0.0362,
+      "w": 0.5241,
+      "h": 0.259,
       "words": [
         "Even",
         "the",
         "simplest",
         "living",
         "organism",
-        "is",
-        "far",
-        "more",
-        "complex",
         "than",
         "any",
         "machines",
+        "that",
         "men",
-        "have",
-        "made.",
-        "Organisms",
-        "are",
         "built",
         "up",
         "of",
         "parts",
         "which",
         "are",
-        "the",
-        "most",
-        "complex",
+        "themseives",
+        "any",
+        "machine.",
+        "And",
+        "these",
+        "parts",
+        "plex",
         "things",
+        "the",
+        "science",
+        "of",
         "chemistry",
-        "knows."
-      ]
-    },
-    {
-      "text": "Chemistry is about the different ways in which materials are built up. For example: Water is made up of oxygen and hydrogen (H2O). Carbon dioxide is carbon and oxygen (CO2).",
-      "x": 0.1,
-      "y": 0.25,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r2",
-      "order": 1,
-      "words": [
+        "they",
+        "are",
+        "so",
+        "complex",
+        "that",
+        "they",
+        "organism",
+        "in",
+        "so",
+        "many",
+        "different",
         "Chemistry",
         "is",
         "about",
         "the",
         "different",
-        "ways",
-        "in",
-        "which",
         "materials",
         "are",
         "built",
         "up.",
         "For",
-        "example:",
+        "exampie:"
+      ],
+      "conf": 96.6791,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "is far more complex have made. Organisms are",
+      "x": 0.5,
+      "y": 0.0362,
+      "w": 0.3809,
+      "h": 0.0476,
+      "words": [
+        "is",
+        "far",
+        "more",
+        "complex",
+        "have",
+        "made.",
+        "Organisms",
+        "are"
+      ],
+      "conf": 96.61,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "more complex than in turn are the most com- knows. It is because can work together in an ways.",
+      "x": 0.5081,
+      "y": 0.0892,
+      "w": 0.3743,
+      "h": 0.126,
+      "words": [
+        "more",
+        "complex",
+        "than",
+        "in",
+        "turn",
+        "are",
+        "the",
+        "most",
+        "com-",
+        "knows.",
+        "It",
+        "is",
+        "because",
+        "can",
+        "work",
+        "together",
+        "in",
+        "an",
+        "ways."
+      ],
+      "conf": 96.7739,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "ways in which different",
+      "x": 0.5491,
+      "y": 0.2465,
+      "w": 0.3325,
+      "h": 0.0216,
+      "words": [
+        "ways",
+        "in",
+        "which",
+        "different"
+      ],
+      "conf": 96.4951,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Water is made up of oxygen and gen united in a way which may sented like this.",
+      "x": 0.0797,
+      "y": 0.3524,
+      "w": 0.4597,
+      "h": 0.0757,
+      "words": [
         "Water",
         "is",
         "made",
@@ -105,44 +217,213 @@
         "of",
         "oxygen",
         "and",
-        "hydrogen",
-        "(H2O).",
+        "gen",
+        "united",
+        "in",
+        "a",
+        "way",
+        "which",
+        "may",
+        "sented",
+        "like",
+        "this."
+      ],
+      "conf": 95.6141,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "hydro-",
+      "x": 0.5499,
+      "y": 0.3524,
+      "w": 0.095,
+      "h": 0.0216,
+      "words": [
+        "hydro-"
+      ],
+      "conf": 91.6707,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "oD,",
+      "x": 0.686,
+      "y": 0.3405,
+      "w": 0.1828,
+      "h": 0.0719,
+      "words": [
+        "oD,"
+      ],
+      "conf": 40.587,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "be repre-",
+      "x": 0.5177,
+      "y": 0.38,
+      "w": 0.1264,
+      "h": 0.0205,
+      "words": [
+        "be",
+        "repre-"
+      ],
+      "conf": 87.1256,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Carbon dioxide is made up",
+      "x": 0.0837,
+      "y": 0.4843,
+      "w": 0.4026,
+      "h": 0.0222,
+      "words": [
         "Carbon",
         "dioxide",
         "is",
-        "carbon",
-        "and",
-        "oxygen",
-        "(CO2)."
-      ]
+        "made",
+        "up"
+      ],
+      "conf": 96.4032,
+      "source": "psm-11"
     },
     {
-      "text": "Chemists use formulas to represent the structure of all material things. formula: chemists’ way of representing structures.",
-      "x": 0.1,
-      "y": 0.65,
-      "w": 0.85,
-      "h": 0.25,
-      "id": "r3",
-      "order": 2,
+      "id": "r10",
+      "order": 9,
+      "text": "of carbon",
+      "x": 0.5032,
+      "y": 0.4843,
+      "w": 0.1401,
+      "h": 0.0178,
+      "words": [
+        "of",
+        "carbon"
+      ],
+      "conf": 96.4613,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "and oxygen in a way which may resented like this.",
+      "x": 0.0821,
+      "y": 0.5108,
+      "w": 0.4509,
+      "h": 0.0433,
+      "words": [
+        "and",
+        "oxygen",
+        "in",
+        "a",
+        "way",
+        "which",
+        "may",
+        "resented",
+        "like",
+        "this."
+      ],
+      "conf": 96.0429,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "be",
+      "x": 0.5427,
+      "y": 0.5114,
+      "w": 0.0322,
+      "h": 0.0157,
+      "words": [
+        "be"
+      ],
+      "conf": 93.2956,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Chemists make use of the formula writing. They use formulas to all material things.",
+      "x": 0.0805,
+      "y": 0.6173,
+      "w": 0.4807,
+      "h": 0.0779,
       "words": [
         "Chemists",
+        "make",
+        "use",
+        "of",
+        "the",
+        "formula",
+        "writing.",
+        "They",
         "use",
         "formulas",
         "to",
+        "all",
+        "material",
+        "things."
+      ],
+      "conf": 95.5783,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "H.O for water in their represent the structure of",
+      "x": 0.5177,
+      "y": 0.6173,
+      "w": 0.36,
+      "h": 0.0481,
+      "words": [
+        "H.O",
+        "for",
+        "water",
+        "in",
+        "their",
         "represent",
         "the",
         "structure",
-        "of",
-        "all",
-        "material",
-        "things.",
-        "formula:",
+        "of"
+      ],
+      "conf": 90.8986,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "formuta: chemists’ woy of representing",
+      "x": 0.0757,
+      "y": 0.8568,
+      "w": 0.4283,
+      "h": 0.0151,
+      "words": [
+        "formuta:",
         "chemists’",
-        "way",
+        "woy",
         "of",
-        "representing",
+        "representing"
+      ],
+      "conf": 87.0962,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "structures.",
+      "x": 0.5129,
+      "y": 0.8578,
+      "w": 0.1071,
+      "h": 0.0119,
+      "words": [
         "structures."
-      ]
+      ],
+      "conf": 60.1203,
+      "source": "psm-11"
     }
   ]
 }

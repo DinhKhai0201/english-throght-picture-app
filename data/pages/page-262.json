@@ -4,7 +4,7 @@
   "imageApiPath": "/api/books/page%20262.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
+    "regionCount": 15,
     "wordCount": 93,
     "imageWidth": 1205,
     "imageHeight": 1855
@@ -18,7 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r3",
+        "r5",
+        "r6"
       ]
     },
     {
@@ -29,7 +31,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r1",
+        "r2",
+        "r4",
+        "r7"
       ]
     },
     {
@@ -40,7 +45,11 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r8",
+        "r10",
+        "r11",
+        "r14",
+        "r15"
       ]
     },
     {
@@ -51,46 +60,21 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r9",
+        "r12",
+        "r13"
       ]
     }
   ],
   "regions": [
     {
-      "text": "This mine is deep. This mine is deeper. This mine is the deepest of the three.",
-      "x": 0.1,
-      "y": 0.27,
-      "w": 0.38,
-      "h": 0.18,
       "id": "r1",
       "order": 0,
-      "words": [
-        "This",
-        "mine",
-        "is",
-        "deep.",
-        "This",
-        "mine",
-        "is",
-        "deeper.",
-        "This",
-        "mine",
-        "is",
-        "the",
-        "deepest",
-        "of",
-        "the",
-        "three."
-      ]
-    },
-    {
-      "text": "This plate has some salt on it. This plate has more salt on it. This plate has the most salt on it. It has more salt on it than the other plates.",
-      "x": 0.52,
-      "y": 0.1,
-      "w": 0.4,
-      "h": 0.35,
-      "id": "r2",
-      "order": 1,
+      "text": "This plate has some salt on it",
+      "x": 0.5237,
+      "y": 0.0997,
+      "w": 0.3643,
+      "h": 0.0437,
       "words": [
         "This",
         "plate",
@@ -98,14 +82,61 @@
         "some",
         "salt",
         "on",
-        "it.",
+        "it"
+      ],
+      "conf": 93.6637,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "This plate has more salt on it",
+      "x": 0.5245,
+      "y": 0.2102,
+      "w": 0.366,
+      "h": 0.0448,
+      "words": [
         "This",
         "plate",
         "has",
         "more",
         "salt",
         "on",
-        "it.",
+        "it"
+      ],
+      "conf": 96.9295,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This mine is deep This mine is deeper.",
+      "x": 0.1012,
+      "y": 0.2717,
+      "w": 0.2846,
+      "h": 0.0862,
+      "words": [
+        "This",
+        "mine",
+        "is",
+        "deep",
+        "This",
+        "mine",
+        "is",
+        "deeper."
+      ],
+      "conf": 96.2322,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "This plate has the most salt on it.",
+      "x": 0.5311,
+      "y": 0.3213,
+      "w": 0.3461,
+      "h": 0.0448,
+      "words": [
         "This",
         "plate",
         "has",
@@ -113,7 +144,54 @@
         "most",
         "salt",
         "on",
-        "it.",
+        "it."
+      ],
+      "conf": 96.6948,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "This mine is the deepest!",
+      "x": 0.1344,
+      "y": 0.3784,
+      "w": 0.3676,
+      "h": 0.0415,
+      "words": [
+        "This",
+        "mine",
+        "is",
+        "the",
+        "deepest!"
+      ],
+      "conf": 95.1313,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "of the three.",
+      "x": 0.1361,
+      "y": 0.4194,
+      "w": 0.1817,
+      "h": 0.0189,
+      "words": [
+        "of",
+        "the",
+        "three."
+      ],
+      "conf": 96.4121,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "It has more salt on it than the other plates,",
+      "x": 0.5469,
+      "y": 0.4108,
+      "w": 0.3137,
+      "h": 0.0501,
+      "words": [
         "It",
         "has",
         "more",
@@ -123,29 +201,127 @@
         "than",
         "the",
         "other",
-        "plates."
-      ]
+        "plates,"
+      ],
+      "conf": 89.0944,
+      "source": "psm-11"
     },
     {
-      "text": "This is a good book. These are two other good books. One of them is better than the others. It is the best book of the three.",
-      "x": 0.12,
-      "y": 0.52,
-      "w": 0.38,
-      "h": 0.4,
-      "id": "r3",
-      "order": 2,
+      "id": "r8",
+      "order": 7,
+      "text": "This is a good book.",
+      "x": 0.1402,
+      "y": 0.5299,
+      "w": 0.1693,
+      "h": 0.0459,
       "words": [
         "This",
         "is",
         "a",
         "good",
-        "book.",
-        "These",
-        "are",
+        "book."
+      ],
+      "conf": 91.5182,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "This is a bad fire,",
+      "x": 0.5743,
+      "y": 0.5121,
+      "w": 0.2515,
+      "h": 0.0205,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "bad",
+        "fire,"
+      ],
+      "conf": 94.6982,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "two ot er good books.",
+      "x": 0.127,
+      "y": 0.6129,
+      "w": 0.1826,
+      "h": 0.0598,
+      "words": [
         "two",
-        "other",
+        "ot",
+        "er",
         "good",
-        "books.",
+        "books."
+      ],
+      "conf": 94.1268,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "These",
+      "x": 0.1444,
+      "y": 0.6059,
+      "w": 0.0838,
+      "h": 0.0183,
+      "words": [
+        "These"
+      ],
+      "conf": 96.9594,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "This is a worse fire.",
+      "x": 0.5519,
+      "y": 0.6388,
+      "w": 0.278,
+      "h": 0.0199,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "worse",
+        "fire."
+      ],
+      "conf": 95.2265,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "This is the worst fire of the three",
+      "x": 0.5344,
+      "y": 0.7687,
+      "w": 0.3461,
+      "h": 0.0448,
+      "words": [
+        "This",
+        "is",
+        "the",
+        "worst",
+        "fire",
+        "of",
+        "the",
+        "three"
+      ],
+      "conf": 96.555,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "One of them is better than the others.",
+      "x": 0.1187,
+      "y": 0.8016,
+      "w": 0.317,
+      "h": 0.0442,
+      "words": [
         "One",
         "of",
         "them",
@@ -153,7 +329,20 @@
         "better",
         "than",
         "the",
-        "others.",
+        "others."
+      ],
+      "conf": 90.6685,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "It is the best book of the three.",
+      "x": 0.1187,
+      "y": 0.8512,
+      "w": 0.3593,
+      "h": 0.0442,
+      "words": [
         "It",
         "is",
         "the",
@@ -162,36 +351,9 @@
         "of",
         "the",
         "three."
-      ]
-    },
-    {
-      "text": "This is a bad fire. This is a worse fire. This is the worst fire of the three.",
-      "x": 0.52,
-      "y": 0.51,
-      "w": 0.4,
-      "h": 0.35,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "bad",
-        "fire.",
-        "This",
-        "is",
-        "a",
-        "worse",
-        "fire.",
-        "This",
-        "is",
-        "the",
-        "worst",
-        "fire",
-        "of",
-        "the",
-        "three."
-      ]
+      ],
+      "conf": 90.867,
+      "source": "psm-11"
     }
   ]
 }

@@ -2,57 +2,45 @@
   "page": 423,
   "image": "/books/page 423.png",
   "imageApiPath": "/api/books/page%20423.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 68,
+    "regionCount": 11,
+    "wordCount": 91,
     "imageWidth": 1242,
     "imageHeight": 1850
   },
   "panels": [
     {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
+      "y": 0,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11"
       ]
     }
   ],
   "regions": [
     {
-      "text": "All our lives we need other people. In many parts of the world families do everything for themselves. Until the nineteenth century families were self-supporting.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.2,
       "id": "r1",
       "order": 0,
+      "text": "All our lives we need other people.",
+      "x": 0.0862,
+      "y": 0.0314,
+      "w": 0.4734,
+      "h": 0.0259,
       "words": [
         "All",
         "our",
@@ -60,52 +48,165 @@
         "we",
         "need",
         "other",
-        "people.",
+        "people."
+      ],
+      "conf": 96.5757,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "In many parts of the world themselves.",
+      "x": 0.0878,
+      "y": 0.0822,
+      "w": 0.3994,
+      "h": 0.0465,
+      "words": [
         "In",
         "many",
         "parts",
         "of",
         "the",
         "world",
+        "themselves."
+      ],
+      "conf": 96.4066,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "families do everything for",
+      "x": 0.5024,
+      "y": 0.0822,
+      "w": 0.376,
+      "h": 0.027,
+      "words": [
         "families",
         "do",
         "everything",
-        "for",
-        "themselves.",
+        "for"
+      ],
+      "conf": 96.6693,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Until the nineteenth century this where outside the cities. Families They grew the food they needed,",
+      "x": 0.087,
+      "y": 0.1632,
+      "w": 0.4799,
+      "h": 0.1022,
+      "words": [
         "Until",
         "the",
         "nineteenth",
         "century",
-        "families",
-        "were",
-        "self-supporting."
-      ]
-    },
-    {
-      "text": "They grew their food, built their houses, made their clothing and furniture, candles for lighting, and plows and carts for work on the farm.",
-      "x": 0.1,
-      "y": 0.25,
-      "w": 0.5,
-      "h": 0.5,
-      "id": "r2",
-      "order": 1,
-      "words": [
+        "this",
+        "where",
+        "outside",
+        "the",
+        "cities.",
+        "Families",
         "They",
         "grew",
-        "their",
-        "food,",
+        "the",
+        "food",
+        "they",
+        "needed,"
+      ],
+      "conf": 96.8078,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "was true almost every- were self-supporting.",
+      "x": 0.5564,
+      "y": 0.1638,
+      "w": 0.3221,
+      "h": 0.0595,
+      "words": [
+        "was",
+        "true",
+        "almost",
+        "every-",
+        "were",
+        "self-supporting."
+      ],
+      "conf": 94.6459,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "built their own houses, and",
+      "x": 0.0894,
+      "y": 0.347,
+      "w": 0.38,
+      "h": 0.0211,
+      "words": [
         "built",
         "their",
+        "own",
         "houses,",
+        "and"
+      ],
+      "conf": 96.4479,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "made their own clothing and furniture,",
+      "x": 0.091,
+      "y": 0.4643,
+      "w": 0.5209,
+      "h": 0.0222,
+      "words": [
         "made",
         "their",
+        "own",
         "clothing",
         "and",
-        "furniture,",
+        "furniture,"
+      ],
+      "conf": 96.1647,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "the candles for lighting the rooms at night,",
+      "x": 0.0926,
+      "y": 0.5827,
+      "w": 0.4847,
+      "h": 0.047,
+      "words": [
+        "the",
         "candles",
         "for",
-        "lighting,",
+        "lighting",
+        "the",
+        "rooms",
+        "at",
+        "night,"
+      ],
+      "conf": 96.3102,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "and the plows and carts for work on the farm by day...",
+      "x": 0.091,
+      "y": 0.7124,
+      "w": 0.4758,
+      "h": 0.0487,
+      "words": [
         "and",
+        "the",
         "plows",
         "and",
         "carts",
@@ -113,17 +214,21 @@
         "work",
         "on",
         "the",
-        "farm."
-      ]
+        "farm",
+        "by",
+        "day..."
+      ],
+      "conf": 96.4522,
+      "source": "psm-11"
     },
     {
-      "text": "In every way they took care of themselves. Living like this, a family is very like a simple organism.",
-      "x": 0.1,
-      "y": 0.8,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r3",
-      "order": 2,
+      "id": "r10",
+      "order": 9,
+      "text": "In every way they took care of selves. Living like this, a family very like a simple organism.",
+      "x": 0.0958,
+      "y": 0.7924,
+      "w": 0.4775,
+      "h": 0.0747,
       "words": [
         "In",
         "every",
@@ -132,19 +237,35 @@
         "took",
         "care",
         "of",
-        "themselves.",
+        "selves.",
         "Living",
         "like",
         "this,",
         "a",
         "family",
-        "is",
         "very",
         "like",
         "a",
         "simple",
         "organism."
-      ]
+      ],
+      "conf": 95.8736,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "them- is",
+      "x": 0.5306,
+      "y": 0.793,
+      "w": 0.0821,
+      "h": 0.0427,
+      "words": [
+        "them-",
+        "is"
+      ],
+      "conf": 92.3434,
+      "source": "psm-11"
     }
   ]
 }

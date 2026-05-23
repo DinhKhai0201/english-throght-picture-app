@@ -2,75 +2,84 @@
   "page": 273,
   "image": "/books/page 273.png",
   "imageApiPath": "/api/books/page%20273.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
+    "regionCount": 10,
     "wordCount": 104,
     "imageWidth": 1250,
     "imageHeight": 1855
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Some desires are stronger than others. This baby sees the cat and he sees his ball. The cat has an attraction for him. He has a desire for the cat.",
-      "x": 0.1,
-      "y": 0.09,
-      "w": 0.38,
-      "h": 0.35,
       "id": "r1",
       "order": 0,
+      "text": "Some desires are stronger than others.",
+      "x": 0.1496,
+      "y": 0.0906,
+      "w": 0.3088,
+      "h": 0.0479,
       "words": [
         "Some",
         "desires",
         "are",
         "stronger",
         "than",
-        "others.",
+        "others."
+      ],
+      "conf": 95.8783,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "His ball has an attraction for him.",
+      "x": 0.5256,
+      "y": 0.0916,
+      "w": 0.36,
+      "h": 0.0442,
+      "words": [
+        "His",
+        "ball",
+        "has",
+        "an",
+        "attraction",
+        "for",
+        "him."
+      ],
+      "conf": 95.2827,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "This baby sees the cat and he sees his ball.",
+      "x": 0.1496,
+      "y": 0.1412,
+      "w": 0.3224,
+      "h": 0.0443,
+      "words": [
         "This",
         "baby",
         "sees",
@@ -80,51 +89,78 @@
         "he",
         "sees",
         "his",
-        "ball.",
+        "ball."
+      ],
+      "conf": 96.6625,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "He has a desire for the ball.",
+      "x": 0.5272,
+      "y": 0.1396,
+      "w": 0.3304,
+      "h": 0.0663,
+      "words": [
+        "He",
+        "has",
+        "a",
+        "desire",
+        "for",
+        "the",
+        "ball."
+      ],
+      "conf": 96.3575,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Which will he go to?",
+      "x": 0.5312,
+      "y": 0.2916,
+      "w": 0.2984,
+      "h": 0.0485,
+      "words": [
+        "Which",
+        "will",
+        "he",
+        "go",
+        "to?"
+      ],
+      "conf": 96.0576,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "The cat has an attraction for him.",
+      "x": 0.1264,
+      "y": 0.338,
+      "w": 0.3576,
+      "h": 0.0442,
+      "words": [
         "The",
         "cat",
         "has",
         "an",
         "attraction",
         "for",
-        "him.",
-        "He",
-        "has",
-        "a",
-        "desire",
-        "for",
-        "the",
-        "cat."
-      ]
+        "him."
+      ],
+      "conf": 90.523,
+      "source": "psm-11"
     },
     {
-      "text": "His ball has an attraction for him. He has a desire for the ball. Which will he go to? If his desire for the cat is stronger than his desire for the ball, he will go to the cat.",
-      "x": 0.52,
-      "y": 0.09,
-      "w": 0.4,
-      "h": 0.35,
-      "id": "r2",
-      "order": 1,
+      "id": "r7",
+      "order": 6,
+      "text": "If his desire for the cat is stronger than his desire for the ball, he will go to the cat.",
+      "x": 0.5248,
+      "y": 0.3391,
+      "w": 0.36,
+      "h": 0.0954,
       "words": [
-        "His",
-        "ball",
-        "has",
-        "an",
-        "attraction",
-        "for",
-        "him.",
-        "He",
-        "has",
-        "a",
-        "desire",
-        "for",
-        "the",
-        "ball.",
-        "Which",
-        "will",
-        "he",
-        "go",
-        "to?",
         "If",
         "his",
         "desire",
@@ -145,39 +181,38 @@
         "to",
         "the",
         "cat."
-      ]
+      ],
+      "conf": 96.4738,
+      "source": "psm-11"
     },
     {
-      "text": "He went to the cat. His desire for the cat was stronger.",
-      "x": 0.1,
-      "y": 0.72,
-      "w": 0.38,
-      "h": 0.1,
-      "id": "r3",
-      "order": 2,
+      "id": "r8",
+      "order": 7,
+      "text": "He has a desire for the cat.",
+      "x": 0.128,
+      "y": 0.3887,
+      "w": 0.3288,
+      "h": 0.0432,
       "words": [
         "He",
-        "went",
-        "to",
-        "the",
-        "cat.",
-        "His",
+        "has",
+        "a",
         "desire",
         "for",
         "the",
-        "cat",
-        "was",
-        "stronger."
-      ]
+        "cat."
+      ],
+      "conf": 95.3285,
+      "source": "psm-11"
     },
     {
-      "text": "All our desires are for things which seem good to us. They may not be good. Our ideas of them may be wrong.",
-      "x": 0.52,
-      "y": 0.61,
-      "w": 0.4,
-      "h": 0.25,
-      "id": "r4",
-      "order": 3,
+      "id": "r9",
+      "order": 8,
+      "text": "All our desires are for things which seem good to us. They may not be good. Our ideas of them may be wrong",
+      "x": 0.5288,
+      "y": 0.6022,
+      "w": 0.3584,
+      "h": 0.1267,
       "words": [
         "All",
         "our",
@@ -201,8 +236,35 @@
         "them",
         "may",
         "be",
-        "wrong."
-      ]
+        "wrong"
+      ],
+      "conf": 96.5677,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "He went to the cat His desire for the cat was stronger,",
+      "x": 0.1256,
+      "y": 0.7127,
+      "w": 0.3576,
+      "h": 0.0749,
+      "words": [
+        "He",
+        "went",
+        "to",
+        "the",
+        "cat",
+        "His",
+        "desire",
+        "for",
+        "the",
+        "cat",
+        "was",
+        "stronger,"
+      ],
+      "conf": 96.883,
+      "source": "psm-11"
     }
   ]
 }

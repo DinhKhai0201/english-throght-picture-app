@@ -2,7 +2,7 @@
   "page": 76,
   "image": "/books/page 76.png",
   "imageApiPath": "/api/books/page%2076.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
     "regionCount": 5,
     "wordCount": 40,
@@ -11,82 +11,30 @@
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r1",
         "r2",
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r3",
+        "r4",
         "r5"
       ]
     }
   ],
   "regions": [
     {
-      "text": "When he saw the hat he took it off the hook.",
-      "x": 0.12,
-      "y": 0.16,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
-      "words": [
-        "When",
-        "he",
-        "saw",
-        "the",
-        "hat",
-        "he",
-        "took",
-        "it",
-        "off",
-        "the",
-        "hook."
-      ]
-    },
-    {
       "text": "He came into the room again with the hat in his hands.",
-      "x": 0.54,
-      "y": 0.08,
-      "w": 0.35,
-      "h": 0.08,
-      "id": "r2",
-      "order": 1,
+      "x": 0.5441,
+      "y": 0.085,
+      "w": 0.366,
+      "h": 0.0716,
       "words": [
         "He",
         "came",
@@ -100,30 +48,58 @@
         "in",
         "his",
         "hands."
-      ]
+      ],
+      "conf": 95.7451,
+      "source": "psm-11"
     },
     {
-      "text": "He got it.",
-      "x": 0.54,
-      "y": 0.16,
-      "w": 0.35,
-      "h": 0.03,
+      "id": "r2",
+      "order": 1,
+      "text": "When he saw the hat he took it off the hook.",
+      "x": 0.1252,
+      "y": 0.1631,
+      "w": 0.3684,
+      "h": 0.0465,
+      "words": [
+        "When",
+        "he",
+        "saw",
+        "the",
+        "hat",
+        "he",
+        "took",
+        "it",
+        "off",
+        "the",
+        "hook."
+      ],
+      "conf": 96.5835,
+      "source": "psm-11"
+    },
+    {
       "id": "r3",
       "order": 2,
+      "text": "He got it.",
+      "x": 0.5441,
+      "y": 0.1647,
+      "w": 0.1388,
+      "h": 0.0222,
       "words": [
         "He",
         "got",
         "it."
-      ]
+      ],
+      "conf": 95.5102,
+      "source": "psm-11"
     },
     {
-      "text": "He is giving the hat to Mary.",
-      "x": 0.14,
-      "y": 0.58,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r4",
       "order": 3,
+      "text": "He is giving the hat to Mary.",
+      "x": 0.1445,
+      "y": 0.5845,
+      "w": 0.3307,
+      "h": 0.0499,
       "words": [
         "He",
         "is",
@@ -132,25 +108,29 @@
         "hat",
         "to",
         "Mary."
-      ]
+      ],
+      "conf": 96.3745,
+      "source": "psm-11"
     },
     {
-      "text": "\"See what is in the hat, Mary!\"",
-      "x": 0.56,
-      "y": 0.61,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r5",
       "order": 4,
+      "text": "“See what is in the hat, Mary!\"",
+      "x": 0.5602,
+      "y": 0.6111,
+      "w": 0.3443,
+      "h": 0.0514,
       "words": [
-        "\"See",
+        "“See",
         "what",
         "is",
         "in",
         "the",
         "hat,",
         "Mary!\""
-      ]
+      ],
+      "conf": 95.4854,
+      "source": "psm-11"
     }
   ]
 }

@@ -2,47 +2,44 @@
   "page": 369,
   "image": "/books/page 369.png",
   "imageApiPath": "/api/books/page%20369.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 96,
+    "regionCount": 10,
+    "wordCount": 127,
     "imageWidth": 1188,
     "imageHeight": 1875
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r1",
         "r2",
-        "r3"
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9",
+        "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "When you see someone opening a window in a room full of people, you know that he is letting in air from outside. As good air comes in through the window, bad, used air, with more carbon dioxide and water in it and less oxygen, goes out.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.45,
-      "h": 0.25,
       "id": "r1",
       "order": 0,
+      "text": "When you see someone opening a window in a room full of people, you know that he is letting in air from out- side. As good air comes in through the window, bad, used air, with more carbon dioxide and water in it and less oxygen, goes out.",
+      "x": 0.1086,
+      "y": 0.0432,
+      "w": 0.4217,
+      "h": 0.2288,
       "words": [
         "When",
         "you",
@@ -66,7 +63,8 @@
         "in",
         "air",
         "from",
-        "outside.",
+        "out-",
+        "side.",
         "As",
         "good",
         "air",
@@ -91,16 +89,32 @@
         "oxygen,",
         "goes",
         "out."
-      ]
+      ],
+      "conf": 95.9016,
+      "source": "psm-11"
     },
     {
-      "text": "We say good air is fresh air. Fresh air is clean and good to breathe and has enough oxygen in it for our needs.",
-      "x": 0.1,
-      "y": 0.52,
-      "w": 0.85,
-      "h": 0.1,
       "id": "r2",
       "order": 1,
+      "text": "WG",
+      "x": 0.4335,
+      "y": 0.2928,
+      "w": 0.186,
+      "h": 0.0763,
+      "words": [
+        "WG"
+      ],
+      "conf": 51.3639,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "We say good air is fresh air.",
+      "x": 0.1027,
+      "y": 0.5024,
+      "w": 0.4158,
+      "h": 0.0261,
       "words": [
         "We",
         "say",
@@ -108,61 +122,172 @@
         "air",
         "is",
         "fresh",
-        "air.",
+        "air."
+      ],
+      "conf": 96.512,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Fresh air is clean and good oxygen in it for our needs.",
+      "x": 0.5236,
+      "y": 0.5024,
+      "w": 0.4048,
+      "h": 0.0496,
+      "words": [
         "Fresh",
         "air",
         "is",
         "clean",
         "and",
         "good",
-        "to",
-        "breathe",
-        "and",
-        "has",
-        "enough",
         "oxygen",
         "in",
         "it",
         "for",
         "our",
         "needs."
-      ]
+      ],
+      "conf": 96.7491,
+      "source": "psm-11"
     },
     {
-      "text": "carbon dioxide: gas in the air made of carbon and oxygen united. fresh: clean (air), not salt (water), new (bread), or newly put on (paint).",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "to breathe and has enough",
+      "x": 0.1019,
+      "y": 0.5307,
+      "w": 0.4074,
+      "h": 0.0213,
+      "words": [
+        "to",
+        "breathe",
+        "and",
+        "has",
+        "enough"
+      ],
+      "conf": 95.9163,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "carbon dioxide: one of the gases fresh: here are some other senses:",
+      "x": 0.0985,
+      "y": 0.7829,
+      "w": 0.4209,
+      "h": 0.0491,
       "words": [
         "carbon",
         "dioxide:",
-        "gas",
-        "in",
-        "the",
-        "air",
-        "made",
+        "one",
         "of",
+        "the",
+        "gases",
+        "fresh:",
+        "here",
+        "are",
+        "some",
+        "other",
+        "senses:"
+      ],
+      "conf": 94.2141,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "carbon (present in coal) and oxygen salt like sea water, Fresh bread which has bees newly put om",
+      "x": 0.1515,
+      "y": 0.8,
+      "w": 0.4108,
+      "h": 0.0688,
+      "words": [
         "carbon",
+        "(present",
+        "in",
+        "coal)",
         "and",
         "oxygen",
-        "united.",
-        "fresh:",
-        "clean",
-        "(air),",
-        "not",
         "salt",
-        "(water),",
-        "new",
-        "(bread),",
-        "or",
+        "like",
+        "sea",
+        "water,",
+        "Fresh",
+        "bread",
+        "which",
+        "has",
+        "bees",
         "newly",
         "put",
-        "on",
-        "(paint)."
-      ]
+        "om"
+      ],
+      "conf": 91.7713,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "present in the air, It is made up of Fresh water is water which is not",
+      "x": 0.5194,
+      "y": 0.7819,
+      "w": 0.4066,
+      "h": 0.0469,
+      "words": [
+        "present",
+        "in",
+        "the",
+        "air,",
+        "It",
+        "is",
+        "made",
+        "up",
+        "of",
+        "Fresh",
+        "water",
+        "is",
+        "water",
+        "which",
+        "is",
+        "not"
+      ],
+      "conf": 93.4537,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "united.",
+      "x": 0.5732,
+      "y": 0.7995,
+      "w": 0.0774,
+      "h": 0.0117,
+      "words": [
+        "united."
+      ],
+      "conf": 88.2112,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "is new bread. Fresh paint is paint",
+      "x": 0.5337,
+      "y": 0.8331,
+      "w": 0.3906,
+      "h": 0.0149,
+      "words": [
+        "is",
+        "new",
+        "bread.",
+        "Fresh",
+        "paint",
+        "is",
+        "paint"
+      ],
+      "conf": 93.9944,
+      "source": "psm-11"
     }
   ]
 }

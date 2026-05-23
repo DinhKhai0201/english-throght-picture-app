@@ -4,12 +4,24 @@
   "imageApiPath": "/api/books/page%20362.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 103,
+    "regionCount": 15,
+    "wordCount": 128,
     "imageWidth": 1242,
     "imageHeight": 1892
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r3"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,8 +30,24 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2"
+        "r2",
+        "r4"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r5",
+        "r6",
+        "r9",
+        "r10",
+        "r11",
+        "r13"
       ]
     },
     {
@@ -30,20 +58,23 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r7",
+        "r8",
+        "r12",
+        "r14",
+        "r15"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Cells are like little flames. A flame needs food. We get a quick flame—for a fire or a cigarette—by lighting a match or using a lighter.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.1,
       "id": "r1",
       "order": 0,
+      "text": "Cells are like little flames. A a quick flame-for a fire or match or using a lighter. The the match and the flame of in the lighter, if there is air for",
+      "x": 0.1047,
+      "y": 0.056,
+      "w": 0.434,
+      "h": 0.1227,
       "words": [
         "Cells",
         "are",
@@ -51,54 +82,24 @@
         "little",
         "flames.",
         "A",
-        "flame",
-        "needs",
-        "food.",
-        "We",
-        "get",
         "a",
         "quick",
-        "flame—for",
+        "flame-for",
         "a",
         "fire",
         "or",
-        "a",
-        "cigarette—by",
-        "lighting",
-        "a",
         "match",
         "or",
         "using",
         "a",
-        "lighter."
-      ]
-    },
-    {
-      "text": "The flame of the match burns the match and the flame of the lighter burns the liquid in the lighter, if there is air for them to burn in. All fires burn something. What they burn is their fuel. Fuel is food for fire.",
-      "x": 0.1,
-      "y": 0.15,
-      "w": 0.85,
-      "h": 0.25,
-      "id": "r2",
-      "order": 1,
-      "words": [
+        "lighter.",
         "The",
-        "flame",
-        "of",
-        "the",
-        "match",
-        "burns",
         "the",
         "match",
         "and",
         "the",
         "flame",
         "of",
-        "the",
-        "lighter",
-        "burns",
-        "the",
-        "liquid",
         "in",
         "the",
         "lighter,",
@@ -106,82 +107,288 @@
         "there",
         "is",
         "air",
-        "for",
+        "for"
+      ],
+      "conf": 96.5789,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "flame needs food. We get a cigarette—by lighting a flame of the match burns the lighter burns the liquid them to burn in.",
+      "x": 0.5113,
+      "y": 0.0566,
+      "w": 0.3857,
+      "h": 0.1184,
+      "words": [
+        "flame",
+        "needs",
+        "food.",
+        "We",
+        "get",
+        "a",
+        "cigarette—by",
+        "lighting",
+        "a",
+        "flame",
+        "of",
+        "the",
+        "match",
+        "burns",
+        "the",
+        "lighter",
+        "burns",
+        "the",
+        "liquid",
         "them",
         "to",
         "burn",
-        "in.",
+        "in."
+      ],
+      "conf": 96.466,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "All fires burn something. What Fuel is food for fire.",
+      "x": 0.1079,
+      "y": 0.3636,
+      "w": 0.4501,
+      "h": 0.0423,
+      "words": [
         "All",
         "fires",
         "burn",
         "something.",
         "What",
-        "they",
-        "burn",
-        "is",
-        "their",
-        "fuel.",
         "Fuel",
         "is",
         "food",
         "for",
         "fire."
-      ]
+      ],
+      "conf": 96.5933,
+      "source": "psm-11"
     },
     {
-      "text": "cigarette: roll of tobacco for smoking. cigarette lighter: box with liquid. tobacco: dried leaves. burn: changed by fire. match: gives flame. fuel: material for fire.",
-      "x": 0.1,
-      "y": 0.65,
-      "w": 0.85,
-      "h": 0.2,
-      "id": "r3",
-      "order": 2,
+      "id": "r4",
+      "order": 3,
+      "text": "they burn is their fuel",
+      "x": 0.5725,
+      "y": 0.3589,
+      "w": 0.3261,
+      "h": 0.0254,
+      "words": [
+        "they",
+        "burn",
+        "is",
+        "their",
+        "fuel"
+      ],
+      "conf": 91.5653,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "cigarette: thin rofl of cut tobacco in paper for smoking.",
+      "x": 0.1119,
+      "y": 0.6189,
+      "w": 0.3969,
+      "h": 0.0318,
       "words": [
         "cigarette:",
-        "roll",
+        "thin",
+        "rofl",
         "of",
+        "cut",
         "tobacco",
+        "in",
+        "paper",
         "for",
-        "smoking.",
+        "smoking."
+      ],
+      "conf": 90.8365,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "cigarette lighter: box with liquid which tobacco: dried leaves of the tobacco",
+      "x": 0.1135,
+      "y": 0.6654,
+      "w": 0.4428,
+      "h": 0.0661,
+      "words": [
         "cigarette",
         "lighter:",
         "box",
         "with",
-        "liquid.",
+        "liquid",
+        "which",
         "tobacco:",
         "dried",
-        "leaves.",
+        "leaves",
+        "of",
+        "the",
+        "tobacco"
+      ],
+      "conf": 93.214,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "will burn in it.",
+      "x": 0.5652,
+      "y": 0.6654,
+      "w": 0.149,
+      "h": 0.0116,
+      "words": [
+        "will",
+        "burn",
+        "in",
+        "it."
+      ],
+      "conf": 95.0074,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "plant.",
+      "x": 0.5692,
+      "y": 0.7188,
+      "w": 0.0596,
+      "h": 0.0143,
+      "words": [
+        "plant."
+      ],
+      "conf": 93.4641,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "match: small stick of wood or paper",
+      "x": 0.1151,
+      "y": 0.7928,
+      "w": 0.438,
+      "h": 0.0143,
+      "words": [
+        "match:",
+        "small",
+        "stick",
+        "of",
+        "wood",
+        "or",
+        "paper"
+      ],
+      "conf": 95.4725,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "burn: be changed by fire.",
+      "x": 0.1159,
+      "y": 0.7754,
+      "w": 0.289,
+      "h": 0.0148,
+      "words": [
         "burn:",
+        "be",
         "changed",
         "by",
-        "fire.",
-        "match:",
+        "fire."
+      ],
+      "conf": 93.9695,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "gives flame.",
+      "x": 0.1659,
+      "y": 0.8097,
+      "w": 0.1304,
+      "h": 0.0148,
+      "words": [
         "gives",
-        "flame.",
+        "flame."
+      ],
+      "conf": 92.612,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "which solid, liquid or gas.",
+      "x": 0.5,
+      "y": 0.7923,
+      "w": 0.2045,
+      "h": 0.0486,
+      "words": [
+        "which",
+        "solid,",
+        "liquid",
+        "or",
+        "gas."
+      ],
+      "conf": 96.3397,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "fuel: material for fire. Fuel moy be will burn",
+      "x": 0.1151,
+      "y": 0.8266,
+      "w": 0.376,
+      "h": 0.0418,
+      "words": [
         "fuel:",
         "material",
         "for",
-        "fire."
-      ]
+        "fire.",
+        "Fuel",
+        "moy",
+        "be",
+        "will",
+        "burn"
+      ],
+      "conf": 93.948,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will burn. PRESENT: burn(s). PAST: burned, burnt.",
-      "x": 0.1,
-      "y": 0.88,
-      "w": 0.85,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
+      "id": "r14",
+      "order": 13,
+      "text": "burn(s)",
+      "x": 0.4622,
+      "y": 0.8557,
+      "w": 0.0934,
+      "h": 0.0153,
       "words": [
-        "FUTURE:",
-        "will",
-        "burn.",
-        "PRESENT:",
-        "burn(s).",
-        "PAST:",
+        "burn(s)"
+      ],
+      "conf": 90.5401,
+      "source": "psm-11"
+    },
+    {
+      "id": "r15",
+      "order": 14,
+      "text": "burned, burnt",
+      "x": 0.7407,
+      "y": 0.8552,
+      "w": 0.1659,
+      "h": 0.0132,
+      "words": [
         "burned,",
-        "burnt."
-      ]
+        "burnt"
+      ],
+      "conf": 96.3245,
+      "source": "psm-11"
     }
   ]
 }

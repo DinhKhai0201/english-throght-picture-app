@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2056.png",
   "layout": "single",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 13,
+    "regionCount": 1,
+    "wordCount": 3,
     "imageWidth": 1221,
     "imageHeight": 1846
   },
@@ -18,58 +18,26 @@
       "w": 1,
       "h": 1,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3"
+        "r1"
       ]
     }
   ],
   "regions": [
     {
-      "text": "QUESTIONS",
-      "x": 0.13,
-      "y": 0.08,
-      "w": 0.2,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "est eae es",
+      "x": 0.5127,
+      "y": 0.4729,
+      "w": 0.4349,
+      "h": 0.0152,
       "words": [
-        "QUESTIONS"
-      ]
-    },
-    {
-      "text": "Where is the dog?",
-      "x": 0.42,
-      "y": 0.08,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r2",
-      "order": 1,
-      "words": [
-        "Where",
-        "is",
-        "the",
-        "dog?"
-      ]
-    },
-    {
-      "text": "Answers to these questions are on page 56.",
-      "x": 0.2,
-      "y": 0.88,
-      "w": 0.6,
-      "h": 0.03,
-      "id": "r3",
-      "order": 2,
-      "words": [
-        "Answers",
-        "to",
-        "these",
-        "questions",
-        "are",
-        "on",
-        "page",
-        "56."
-      ]
+        "est",
+        "eae",
+        "es"
+      ],
+      "conf": 54.6371,
+      "source": "psm-11"
     }
   ]
 }

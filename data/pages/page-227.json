@@ -2,68 +2,43 @@
   "page": 227,
   "image": "/books/page 227.png",
   "imageApiPath": "/api/books/page%20227.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 112,
+    "regionCount": 9,
+    "wordCount": 110,
     "imageWidth": 1205,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6",
+        "r7",
+        "r8",
+        "r9"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Wool, cotton, and silk are different sorts of cloth. We make clothing of all these sorts of cloth. (See page 81.)",
-      "x": 0.08,
-      "y": 0.09,
-      "w": 0.4,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "Wool, cotton, and silk are different sorts of cloth. We make clothing",
+      "x": 0.1004,
+      "y": 0.099,
+      "w": 0.3892,
+      "h": 0.0801,
       "words": [
         "Wool,",
         "cotton,",
@@ -76,26 +51,38 @@
         "cloth.",
         "We",
         "make",
-        "clothing",
+        "clothing"
+      ],
+      "conf": 96.3726,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "of all these sorts of cloth.",
+      "x": 0.1021,
+      "y": 0.1732,
+      "w": 0.3685,
+      "h": 0.05,
+      "words": [
         "of",
         "all",
         "these",
         "sorts",
         "of",
-        "cloth.",
-        "(See",
-        "page",
-        "81.)"
-      ]
+        "cloth."
+      ],
+      "conf": 92.9589,
+      "source": "psm-11"
     },
     {
-      "text": "When the weather is cold we put on thick warm wool clothing. When the weather is warm we put on thin cotton clothing. Cotton clothing is not as warm as wool clothing.",
-      "x": 0.52,
-      "y": 0.16,
-      "w": 0.38,
-      "h": 0.25,
-      "id": "r2",
-      "order": 1,
+      "id": "r3",
+      "order": 2,
+      "text": "When the weather is cold we put on thick warm wool clothing When the weather is warm we put on thin cotton clothing. Cotton Sig is not os worm as wool clothing.",
+      "x": 0.5245,
+      "y": 0.1635,
+      "w": 0.3551,
+      "h": 0.2017,
       "words": [
         "When",
         "the",
@@ -108,7 +95,7 @@
         "thick",
         "warm",
         "wool",
-        "clothing.",
+        "clothing",
         "When",
         "the",
         "weather",
@@ -121,37 +108,66 @@
         "cotton",
         "clothing.",
         "Cotton",
-        "clothing",
+        "Sig",
         "is",
         "not",
-        "as",
-        "warm",
+        "os",
+        "worm",
         "as",
         "wool",
         "clothing."
-      ]
+      ],
+      "conf": 96.6747,
+      "source": "psm-11"
     },
     {
-      "text": "Thick clothing keeps us warm. It keeps us warmer than thin clothing. Thick cloth keeps air in it, between the threads. The air does not let heat go through it.",
-      "x": 0.1,
-      "y": 0.53,
-      "w": 0.38,
-      "h": 0.2,
-      "id": "r3",
-      "order": 2,
+      "id": "r4",
+      "order": 3,
+      "text": "(See page",
+      "x": 0.1029,
+      "y": 0.1996,
+      "w": 0.1452,
+      "h": 0.0339,
+      "words": [
+        "(See",
+        "page"
+      ],
+      "conf": 96.889,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "Thick clothing keeps us warm. Itkeeps us warmer than thin clothing.",
+      "x": 0.1087,
+      "y": 0.5374,
+      "w": 0.3693,
+      "h": 0.0743,
       "words": [
         "Thick",
         "clothing",
         "keeps",
         "us",
         "warm.",
-        "It",
-        "keeps",
+        "Itkeeps",
         "us",
         "warmer",
         "than",
         "thin",
-        "clothing.",
+        "clothing."
+      ],
+      "conf": 95.7981,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Thick cloth keeps air in it, between the threads.",
+      "x": 0.1079,
+      "y": 0.6132,
+      "w": 0.3602,
+      "h": 0.0474,
+      "words": [
         "Thick",
         "cloth",
         "keeps",
@@ -160,7 +176,20 @@
         "it,",
         "between",
         "the",
-        "threads.",
+        "threads."
+      ],
+      "conf": 74.3917,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "The air does not let heat go through it.",
+      "x": 0.1095,
+      "y": 0.6638,
+      "w": 0.361,
+      "h": 0.05,
+      "words": [
         "The",
         "air",
         "does",
@@ -170,16 +199,18 @@
         "go",
         "through",
         "it."
-      ]
+      ],
+      "conf": 95.8964,
+      "source": "psm-11"
     },
     {
-      "text": "A thick roof keeps the heat of the house in. A thin roof lets the heat go through it. A thick roof keeps the heat of the sun out.",
-      "x": 0.52,
-      "y": 0.65,
-      "w": 0.38,
-      "h": 0.25,
-      "id": "r4",
-      "order": 3,
+      "id": "r8",
+      "order": 7,
+      "text": "A thick roof keeps the heat of the house in A thin roof lets the heat go through it",
+      "x": 0.5295,
+      "y": 0.6611,
+      "w": 0.3635,
+      "h": 0.0995,
       "words": [
         "A",
         "thick",
@@ -190,7 +221,7 @@
         "of",
         "the",
         "house",
-        "in.",
+        "in",
         "A",
         "thin",
         "roof",
@@ -199,7 +230,20 @@
         "heat",
         "go",
         "through",
-        "it.",
+        "it"
+      ],
+      "conf": 96.6664,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "A thick roof keeps the heat of the sun out,",
+      "x": 0.5311,
+      "y": 0.8618,
+      "w": 0.3369,
+      "h": 0.0511,
+      "words": [
         "A",
         "thick",
         "roof",
@@ -209,8 +253,10 @@
         "of",
         "the",
         "sun",
-        "out."
-      ]
+        "out,"
+      ],
+      "conf": 96.6471,
+      "source": "psm-11"
     }
   ]
 }

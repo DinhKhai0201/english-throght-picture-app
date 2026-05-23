@@ -2,7 +2,7 @@
   "page": 90,
   "image": "/books/page 90.png",
   "imageApiPath": "/api/books/page%2090.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
     "regionCount": 9,
     "wordCount": 51,
@@ -11,124 +11,50 @@
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
         "r2",
         "r3",
-        "r4"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r4",
         "r5",
         "r6",
-        "r7"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r8"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r7",
+        "r8",
         "r9"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Who is this?",
-      "x": 0.16,
-      "y": 0.12,
-      "w": 0.25,
-      "h": 0.03,
       "id": "r1",
       "order": 0,
+      "text": "Who Is this?",
+      "x": 0.1644,
+      "y": 0.1262,
+      "w": 0.1739,
+      "h": 0.0197,
       "words": [
         "Who",
-        "is",
+        "Is",
         "this?"
-      ]
+      ],
+      "conf": 84.5933,
+      "source": "psm-11"
     },
     {
-      "text": "This is Mrs. Smith.",
-      "x": 0.16,
-      "y": 0.15,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r2",
       "order": 1,
-      "words": [
-        "This",
-        "is",
-        "Mrs.",
-        "Smith."
-      ]
-    },
-    {
-      "text": "She is Mary Smith.",
-      "x": 0.16,
-      "y": 0.18,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r3",
-      "order": 2,
-      "words": [
-        "She",
-        "is",
-        "Mary",
-        "Smith."
-      ]
-    },
-    {
-      "text": "\"Mary Smith\" is her name.",
-      "x": 0.16,
-      "y": 0.21,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "\"Mary",
-        "Smith\"",
-        "is",
-        "her",
-        "name."
-      ]
-    },
-    {
       "text": "What is that? What is in her hands?",
-      "x": 0.53,
-      "y": 0.11,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r5",
-      "order": 4,
+      "x": 0.5374,
+      "y": 0.1093,
+      "w": 0.3186,
+      "h": 0.0459,
       "words": [
         "What",
         "is",
@@ -138,31 +64,69 @@
         "in",
         "her",
         "hands?"
-      ]
+      ],
+      "conf": 94.0151,
+      "source": "psm-11"
     },
     {
+      "id": "r3",
+      "order": 2,
+      "text": "This is Mrs. Smith.",
+      "x": 0.1637,
+      "y": 0.1525,
+      "w": 0.2541,
+      "h": 0.0197,
+      "words": [
+        "This",
+        "is",
+        "Mrs.",
+        "Smith."
+      ],
+      "conf": 95.8822,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "She is Mary Smith.",
+      "x": 0.1637,
+      "y": 0.1787,
+      "w": 0.2659,
+      "h": 0.0246,
+      "words": [
+        "She",
+        "is",
+        "Mary",
+        "Smith."
+      ],
+      "conf": 89.5955,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
       "text": "It is a tray.",
-      "x": 0.53,
-      "y": 0.16,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r6",
-      "order": 5,
+      "x": 0.5382,
+      "y": 0.1634,
+      "w": 0.1534,
+      "h": 0.023,
       "words": [
         "It",
         "is",
         "a",
         "tray."
-      ]
+      ],
+      "conf": 88.7394,
+      "source": "psm-11"
     },
     {
+      "id": "r6",
+      "order": 5,
       "text": "She has a tray in her hands.",
-      "x": 0.53,
-      "y": 0.19,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r7",
-      "order": 6,
+      "x": 0.5374,
+      "y": 0.1852,
+      "w": 0.3029,
+      "h": 0.0503,
       "words": [
         "She",
         "has",
@@ -171,16 +135,36 @@
         "in",
         "her",
         "hands."
-      ]
+      ],
+      "conf": 95.6593,
+      "source": "psm-11"
     },
     {
-      "text": "She will put the tray on the table.",
-      "x": 0.11,
-      "y": 0.57,
-      "w": 0.35,
-      "h": 0.05,
+      "id": "r7",
+      "order": 6,
+      "text": "“Mary Smith” is her name.",
+      "x": 0.1621,
+      "y": 0.2055,
+      "w": 0.2785,
+      "h": 0.0459,
+      "words": [
+        "“Mary",
+        "Smith”",
+        "is",
+        "her",
+        "name."
+      ],
+      "conf": 95.6058,
+      "source": "psm-11"
+    },
+    {
       "id": "r8",
       "order": 7,
+      "text": "She will put the tray on the table.",
+      "x": 0.1196,
+      "y": 0.5754,
+      "w": 0.336,
+      "h": 0.047,
       "words": [
         "She",
         "will",
@@ -190,26 +174,30 @@
         "on",
         "the",
         "table."
-      ]
+      ],
+      "conf": 96.8522,
+      "source": "psm-11"
     },
     {
-      "text": "She is putting the tray on the table.",
-      "x": 0.52,
-      "y": 0.57,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r9",
       "order": 8,
+      "text": "She Is putting the tray on the table.",
+      "x": 0.5319,
+      "y": 0.5765,
+      "w": 0.321,
+      "h": 0.0459,
       "words": [
         "She",
-        "is",
+        "Is",
         "putting",
         "the",
         "tray",
         "on",
         "the",
         "table."
-      ]
+      ],
+      "conf": 96.0182,
+      "source": "psm-11"
     }
   ]
 }

@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20206.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 84,
+    "regionCount": 13,
+    "wordCount": 85,
     "imageWidth": 1171,
     "imageHeight": 1855
   },
@@ -18,7 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r4",
+        "r5",
+        "r7"
       ]
     },
     {
@@ -29,7 +31,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r1",
+        "r2",
+        "r3",
+        "r6"
       ]
     },
     {
@@ -40,7 +45,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r9",
+        "r11",
+        "r12"
       ]
     },
     {
@@ -51,24 +58,96 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r8",
+        "r10",
+        "r13"
       ]
     }
   ],
   "regions": [
     {
-      "text": "This is a scale. A scale is an instrument for measuring weight.",
-      "x": 0.1,
-      "y": 0.28,
-      "w": 0.38,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "Which man's weight is greater?",
+      "x": 0.5875,
+      "y": 0.0825,
+      "w": 0.3126,
+      "h": 0.0474,
+      "words": [
+        "Which",
+        "man's",
+        "weight",
+        "is",
+        "greater?"
+      ],
+      "conf": 94.0597,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "They are on the scale.",
+      "x": 0.5875,
+      "y": 0.1326,
+      "w": 0.3407,
+      "h": 0.0232,
+      "words": [
+        "They",
+        "are",
+        "on",
+        "the",
+        "scale."
+      ],
+      "conf": 92.6405,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "The weight of the thin man is pounds.",
+      "x": 0.5867,
+      "y": 0.2038,
+      "w": 0.228,
+      "h": 0.0754,
+      "words": [
+        "The",
+        "weight",
+        "of",
+        "the",
+        "thin",
+        "man",
+        "is",
+        "pounds."
+      ],
+      "conf": 96.7848,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "This is a scale.",
+      "x": 0.1725,
+      "y": 0.2782,
+      "w": 0.222,
+      "h": 0.0183,
       "words": [
         "This",
         "is",
         "a",
-        "scale.",
+        "scale."
+      ],
+      "conf": 96.6975,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "A scale is an instrument for measuring weight.",
+      "x": 0.1161,
+      "y": 0.352,
+      "w": 0.3689,
+      "h": 0.0528,
+      "words": [
         "A",
         "scale",
         "is",
@@ -77,36 +156,19 @@
         "for",
         "measuring",
         "weight."
-      ]
+      ],
+      "conf": 96.169,
+      "source": "psm-11"
     },
     {
-      "text": "Which man's weight is greater? They are on the scale. The weight of the thin man is 100 pounds. The weight of the fat man is 200 pounds.",
-      "x": 0.58,
-      "y": 0.08,
-      "w": 0.38,
-      "h": 0.38,
-      "id": "r2",
-      "order": 1,
+      "id": "r6",
+      "order": 5,
+      "text": "The weight of the fat man is pounds.",
+      "x": 0.5858,
+      "y": 0.3558,
+      "w": 0.2126,
+      "h": 0.0738,
       "words": [
-        "Which",
-        "man's",
-        "weight",
-        "is",
-        "greater?",
-        "They",
-        "are",
-        "on",
-        "the",
-        "scale.",
-        "The",
-        "weight",
-        "of",
-        "the",
-        "thin",
-        "man",
-        "is",
-        "100",
-        "pounds.",
         "The",
         "weight",
         "of",
@@ -114,47 +176,35 @@
         "fat",
         "man",
         "is",
-        "200",
         "pounds."
-      ]
+      ],
+      "conf": 96.2987,
+      "source": "psm-11"
     },
     {
-      "text": "Clocks are instruments for measuring time. This is a watch. Watches and clocks are instruments for measuring time.",
-      "x": 0.1,
-      "y": 0.56,
-      "w": 0.38,
-      "h": 0.32,
-      "id": "r3",
-      "order": 2,
+      "id": "r7",
+      "order": 6,
+      "text": "ese eee eee",
+      "x": 0.1307,
+      "y": 0.4771,
+      "w": 0.181,
+      "h": 0.0151,
       "words": [
-        "Clocks",
-        "are",
-        "instruments",
-        "for",
-        "measuring",
-        "time.",
-        "This",
-        "is",
-        "a",
-        "watch.",
-        "Watches",
-        "and",
-        "clocks",
-        "are",
-        "instruments",
-        "for",
-        "measuring",
-        "time."
-      ]
+        "ese",
+        "eee",
+        "eee"
+      ],
+      "conf": 46.6273,
+      "source": "psm-11"
     },
     {
-      "text": "This is an instrument for measuring heat. A yard measure is an instrument for measuring distance. Inches, feet, yards, metres, and miles are measures of distance.",
-      "x": 0.58,
-      "y": 0.5,
-      "w": 0.38,
-      "h": 0.42,
-      "id": "r4",
-      "order": 3,
+      "id": "r8",
+      "order": 7,
+      "text": "This is an instrument for measuring heat.",
+      "x": 0.649,
+      "y": 0.4949,
+      "w": 0.2152,
+      "h": 0.0965,
       "words": [
         "This",
         "is",
@@ -162,7 +212,39 @@
         "instrument",
         "for",
         "measuring",
-        "heat.",
+        "heat."
+      ],
+      "conf": 95.6535,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "Clocks are instruments for measuring time.",
+      "x": 0.1161,
+      "y": 0.5569,
+      "w": 0.3493,
+      "h": 0.0485,
+      "words": [
+        "Clocks",
+        "are",
+        "instruments",
+        "for",
+        "measuring",
+        "time."
+      ],
+      "conf": 96.0807,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "A yard measure is an instrument for measuring distance.",
+      "x": 0.5995,
+      "y": 0.6005,
+      "w": 0.216,
+      "h": 0.1191,
+      "words": [
         "A",
         "yard",
         "measure",
@@ -171,7 +253,58 @@
         "instrument",
         "for",
         "measuring",
-        "distance.",
+        "distance."
+      ],
+      "conf": 78.3386,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "This is a watch.",
+      "x": 0.1879,
+      "y": 0.6706,
+      "w": 0.2357,
+      "h": 0.0194,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "watch."
+      ],
+      "conf": 95.4187,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "Watches and clocks are instruments for measuring time.",
+      "x": 0.1289,
+      "y": 0.7871,
+      "w": 0.3091,
+      "h": 0.0743,
+      "words": [
+        "Watches",
+        "and",
+        "clocks",
+        "are",
+        "instruments",
+        "for",
+        "measuring",
+        "time."
+      ],
+      "conf": 96.0201,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "Inches, feet, yards, metres, and miles are measures of distance.",
+      "x": 0.6012,
+      "y": 0.8491,
+      "w": 0.3313,
+      "h": 0.0695,
+      "words": [
         "Inches,",
         "feet,",
         "yards,",
@@ -182,7 +315,9 @@
         "measures",
         "of",
         "distance."
-      ]
+      ],
+      "conf": 96.7777,
+      "source": "psm-11"
     }
   ]
 }

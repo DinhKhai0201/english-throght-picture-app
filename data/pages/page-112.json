@@ -5,7 +5,7 @@
   "layout": "quad",
   "stats": {
     "regionCount": 14,
-    "wordCount": 82,
+    "wordCount": 83,
     "imageWidth": 1205,
     "imageHeight": 1821
   },
@@ -19,9 +19,8 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
         "r3",
-        "r4"
+        "r5"
       ]
     },
     {
@@ -32,7 +31,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r5",
+        "r2",
+        "r4",
         "r6",
         "r7"
       ]
@@ -46,8 +46,8 @@
       "h": 0.5,
       "regionIds": [
         "r8",
-        "r9",
-        "r10"
+        "r10",
+        "r12"
       ]
     },
     {
@@ -58,8 +58,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r9",
         "r11",
-        "r12",
         "r13",
         "r14"
       ]
@@ -67,13 +67,13 @@
   ],
   "regions": [
     {
-      "text": "Here are a woman and a boy.",
-      "x": 0.15,
-      "y": 0.13,
-      "w": 0.3,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "Here are a woman and a boy.",
+      "x": 0.1535,
+      "y": 0.134,
+      "w": 0.283,
+      "h": 0.0511,
       "words": [
         "Here",
         "are",
@@ -82,63 +82,18 @@
         "and",
         "a",
         "boy."
-      ]
+      ],
+      "conf": 90.6732,
+      "source": "psm-11"
     },
     {
-      "text": "The boy is the woman's son.",
-      "x": 0.14,
-      "y": 0.35,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r2",
       "order": 1,
-      "words": [
-        "The",
-        "boy",
-        "is",
-        "the",
-        "woman's",
-        "son."
-      ]
-    },
-    {
-      "text": "She is his mother.",
-      "x": 0.14,
-      "y": 0.4,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r3",
-      "order": 2,
-      "words": [
-        "She",
-        "is",
-        "his",
-        "mother."
-      ]
-    },
-    {
-      "text": "He is her son.",
-      "x": 0.14,
-      "y": 0.43,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r4",
-      "order": 3,
-      "words": [
-        "He",
-        "is",
-        "her",
-        "son."
-      ]
-    },
-    {
       "text": "Here are a woman and a girl.",
-      "x": 0.55,
-      "y": 0.14,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r5",
-      "order": 4,
+      "x": 0.5593,
+      "y": 0.1472,
+      "w": 0.2855,
+      "h": 0.051,
       "words": [
         "Here",
         "are",
@@ -147,16 +102,39 @@
         "and",
         "a",
         "girl."
-      ]
+      ],
+      "conf": 95.3957,
+      "source": "psm-11"
     },
     {
+      "id": "r3",
+      "order": 2,
+      "text": "The boy is the She is his mother.",
+      "x": 0.1519,
+      "y": 0.3504,
+      "w": 0.2647,
+      "h": 0.073,
+      "words": [
+        "The",
+        "boy",
+        "is",
+        "the",
+        "She",
+        "is",
+        "his",
+        "mother."
+      ],
+      "conf": 96.808,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
       "text": "The girl is the woman's daughter.",
-      "x": 0.54,
-      "y": 0.35,
-      "w": 0.38,
-      "h": 0.05,
-      "id": "r6",
-      "order": 5,
+      "x": 0.5527,
+      "y": 0.3509,
+      "w": 0.2896,
+      "h": 0.0494,
       "words": [
         "The",
         "girl",
@@ -164,32 +142,69 @@
         "the",
         "woman's",
         "daughter."
-      ]
+      ],
+      "conf": 89.2042,
+      "source": "psm-11"
     },
     {
+      "id": "r5",
+      "order": 4,
+      "text": "son, He is her son.",
+      "x": 0.1544,
+      "y": 0.3844,
+      "w": 0.2008,
+      "h": 0.0654,
+      "words": [
+        "son,",
+        "He",
+        "is",
+        "her",
+        "son."
+      ],
+      "conf": 83.5517,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
       "text": "The woman is her mother.",
-      "x": 0.54,
-      "y": 0.4,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r7",
-      "order": 6,
+      "x": 0.5527,
+      "y": 0.4031,
+      "w": 0.2656,
+      "h": 0.045,
       "words": [
         "The",
         "woman",
         "is",
         "her",
         "mother."
-      ]
+      ],
+      "conf": 96.2193,
+      "source": "psm-11"
     },
     {
-      "text": "Here are a man and his son.",
-      "x": 0.13,
-      "y": 0.55,
-      "w": 0.35,
-      "h": 0.05,
+      "id": "r7",
+      "order": 6,
+      "text": "ese eevee",
+      "x": 0.5021,
+      "y": 0.486,
+      "w": 0.127,
+      "h": 0.0154,
+      "words": [
+        "ese",
+        "eevee"
+      ],
+      "conf": 47.9811,
+      "source": "psm-11"
+    },
+    {
       "id": "r8",
       "order": 7,
+      "text": "Here are a man and his son.",
+      "x": 0.1369,
+      "y": 0.5519,
+      "w": 0.3071,
+      "h": 0.0456,
       "words": [
         "Here",
         "are",
@@ -198,16 +213,38 @@
         "and",
         "his",
         "son."
-      ]
+      ],
+      "conf": 96.2972,
+      "source": "psm-11"
     },
     {
-      "text": "The man is the father of the boy.",
-      "x": 0.11,
-      "y": 0.78,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r9",
       "order": 8,
+      "text": "Here are a man and his daughter.",
+      "x": 0.5427,
+      "y": 0.5541,
+      "w": 0.2697,
+      "h": 0.0472,
+      "words": [
+        "Here",
+        "are",
+        "a",
+        "man",
+        "and",
+        "his",
+        "daughter."
+      ],
+      "conf": 95.8625,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "The man is the father of the boy.",
+      "x": 0.1154,
+      "y": 0.7825,
+      "w": 0.3203,
+      "h": 0.0505,
       "words": [
         "The",
         "man",
@@ -217,50 +254,18 @@
         "of",
         "the",
         "boy."
-      ]
+      ],
+      "conf": 96.0864,
+      "source": "psm-11"
     },
     {
-      "text": "He is the boy's father.",
-      "x": 0.11,
-      "y": 0.83,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r10",
-      "order": 9,
-      "words": [
-        "He",
-        "is",
-        "the",
-        "boy's",
-        "father."
-      ]
-    },
-    {
-      "text": "Here are a man and his daughter.",
-      "x": 0.53,
-      "y": 0.55,
-      "w": 0.38,
-      "h": 0.05,
       "id": "r11",
       "order": 10,
-      "words": [
-        "Here",
-        "are",
-        "a",
-        "man",
-        "and",
-        "his",
-        "daughter."
-      ]
-    },
-    {
       "text": "He is the father of the girl.",
-      "x": 0.52,
-      "y": 0.78,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r12",
-      "order": 11,
+      "x": 0.5311,
+      "y": 0.782,
+      "w": 0.2349,
+      "h": 0.0494,
       "words": [
         "He",
         "is",
@@ -269,38 +274,62 @@
         "of",
         "the",
         "girl."
-      ]
+      ],
+      "conf": 95.7421,
+      "source": "psm-11"
     },
     {
-      "text": "He is the girl's father.",
-      "x": 0.52,
-      "y": 0.83,
-      "w": 0.35,
-      "h": 0.03,
+      "id": "r12",
+      "order": 11,
+      "text": "He is the boy’s father.",
+      "x": 0.1162,
+      "y": 0.8358,
+      "w": 0.3295,
+      "h": 0.0247,
+      "words": [
+        "He",
+        "is",
+        "the",
+        "boy’s",
+        "father."
+      ],
+      "conf": 93.8146,
+      "source": "psm-11"
+    },
+    {
       "id": "r13",
       "order": 12,
+      "text": "He is the girl's father.",
+      "x": 0.5336,
+      "y": 0.8331,
+      "w": 0.3228,
+      "h": 0.0242,
       "words": [
         "He",
         "is",
         "the",
         "girl's",
         "father."
-      ]
+      ],
+      "conf": 88.8707,
+      "source": "psm-11"
     },
     {
-      "text": "She is his daughter.",
-      "x": 0.52,
-      "y": 0.86,
-      "w": 0.35,
-      "h": 0.03,
       "id": "r14",
       "order": 13,
+      "text": "She is his daughter.",
+      "x": 0.5328,
+      "y": 0.86,
+      "w": 0.2963,
+      "h": 0.0225,
       "words": [
         "She",
         "is",
         "his",
         "daughter."
-      ]
+      ],
+      "conf": 95.7371,
+      "source": "psm-11"
     }
   ]
 }

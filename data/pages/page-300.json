@@ -4,12 +4,24 @@
   "imageApiPath": "/api/books/page%20300.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 97,
+    "regionCount": 11,
+    "wordCount": 89,
     "imageWidth": 1196,
     "imageHeight": 1884
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,7 +30,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r3"
       ]
     },
     {
@@ -29,7 +42,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r5",
+        "r6",
+        "r7",
+        "r10"
       ]
     },
     {
@@ -40,152 +56,244 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3",
-        "r4"
+        "r8",
+        "r9",
+        "r11"
       ]
     }
   ],
   "regions": [
     {
-      "text": "The population of the earth has increased more than the amount of food. There is a great need for more food. More than a billion people on the earth today need more food than they can get. They cannot get enough food to keep them well and strong. The relation between amount of food and size of population has been changing.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r1",
       "order": 0,
+      "text": "The population of the earth amount of food. There is More than a billion people food than they can get. They keep them well and strong.",
+      "x": 0.107,
+      "y": 0.0393,
+      "w": 0.4281,
+      "h": 0.1237,
       "words": [
         "The",
         "population",
         "of",
         "the",
         "earth",
-        "has",
-        "increased",
-        "more",
-        "than",
-        "the",
         "amount",
         "of",
         "food.",
         "There",
         "is",
-        "a",
-        "great",
-        "need",
-        "for",
-        "more",
-        "food.",
         "More",
         "than",
         "a",
         "billion",
         "people",
-        "on",
-        "the",
-        "earth",
-        "today",
-        "need",
-        "more",
         "food",
         "than",
         "they",
         "can",
         "get.",
         "They",
+        "keep",
+        "them",
+        "well",
+        "and",
+        "strong."
+      ],
+      "conf": 96.5036,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "has increased more than the a great need for more food.",
+      "x": 0.5075,
+      "y": 0.0387,
+      "w": 0.4172,
+      "h": 0.0478,
+      "words": [
+        "has",
+        "increased",
+        "more",
+        "than",
+        "the",
+        "a",
+        "great",
+        "need",
+        "for",
+        "more",
+        "food."
+      ],
+      "conf": 96.2762,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "on the earth today need more cannot get enough food to The relation between amount has been changing",
+      "x": 0.505,
+      "y": 0.0897,
+      "w": 0.4214,
+      "h": 0.0992,
+      "words": [
+        "on",
+        "the",
+        "earth",
+        "today",
+        "need",
+        "more",
         "cannot",
         "get",
         "enough",
         "food",
         "to",
-        "keep",
-        "them",
-        "well",
-        "and",
-        "strong.",
         "The",
         "relation",
         "between",
         "amount",
+        "has",
+        "been",
+        "changing"
+      ],
+      "conf": 96.8629,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "of food and size of population",
+      "x": 0.107,
+      "y": 0.1672,
+      "w": 0.4423,
+      "h": 0.0223,
+      "words": [
         "of",
         "food",
         "and",
         "size",
         "of",
-        "population",
-        "has",
-        "been",
-        "changing."
-      ]
+        "population"
+      ],
+      "conf": 96.6907,
+      "source": "psm-11"
     },
     {
-      "text": "1650, 1750, 1850, 1950",
-      "x": 0.1,
-      "y": 0.25,
-      "w": 0.1,
-      "h": 0.5,
-      "id": "r2",
-      "order": 1,
+      "id": "r5",
+      "order": 4,
+      "text": "biilion: in American numbers, a cannot: are not able to.",
+      "x": 0.1087,
+      "y": 0.7436,
+      "w": 0.393,
+      "h": 0.0642,
       "words": [
-        "1650,",
-        "1750,",
-        "1850,",
-        "1950"
-      ]
-    },
-    {
-      "text": "a billion: 1,000,000,000. need: something important which is not present. can: are able to. cannot: are not able to.",
-      "x": 0.1,
-      "y": 0.75,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r3",
-      "order": 2,
-      "words": [
+        "biilion:",
+        "in",
+        "American",
+        "numbers,",
         "a",
-        "billion:",
-        "1,000,000,000.",
-        "need:",
-        "something",
-        "important",
-        "which",
-        "is",
-        "not",
-        "present.",
-        "can:",
-        "are",
-        "able",
-        "to.",
         "cannot:",
         "are",
         "not",
         "able",
         "to."
-      ]
+      ],
+      "conf": 83.8039,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will need (will be able to). PRESENT: need(s) (can). PAST: needed (could).",
-      "x": 0.1,
-      "y": 0.85,
-      "w": 0.85,
-      "h": 0.05,
-      "id": "r4",
-      "order": 3,
+      "id": "r6",
+      "order": 5,
+      "text": "can: are able to.",
+      "x": 0.1087,
+      "y": 0.7787,
+      "w": 0.1865,
+      "h": 0.0122,
       "words": [
-        "FUTURE:",
-        "will",
-        "need",
+        "can:",
+        "are",
+        "able",
+        "to."
+      ],
+      "conf": 88.2724,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "need: something important which",
+      "x": 0.1095,
+      "y": 0.7606,
+      "w": 0.3838,
+      "h": 0.0154,
+      "words": [
+        "need:",
+        "something",
+        "important",
+        "which"
+      ],
+      "conf": 93.6298,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Is not present.",
+      "x": 0.505,
+      "y": 0.7622,
+      "w": 0.1522,
+      "h": 0.0143,
+      "words": [
+        "Is",
+        "not",
+        "present."
+      ],
+      "conf": 95.8415,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "thousand million,",
+      "x": 0.5117,
+      "y": 0.7442,
+      "w": 0.194,
+      "h": 0.0143,
+      "words": [
+        "thousand",
+        "million,"
+      ],
+      "conf": 94.2263,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "(will be able to)",
+      "x": 0.112,
+      "y": 0.8413,
+      "w": 0.2099,
+      "h": 0.0159,
+      "words": [
         "(will",
         "be",
         "able",
-        "to).",
-        "PRESENT:",
-        "need(s)",
-        "(can).",
-        "PAST:",
-        "needed",
-        "(could)."
-      ]
+        "to)"
+      ],
+      "conf": 95.6469,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "could",
+      "x": 0.8662,
+      "y": 0.8418,
+      "w": 0.0644,
+      "h": 0.0127,
+      "words": [
+        "could"
+      ],
+      "conf": 93.6231,
+      "source": "psm-11"
     }
   ]
 }

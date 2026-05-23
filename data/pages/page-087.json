@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%2087.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 10,
-    "wordCount": 97,
+    "regionCount": 11,
+    "wordCount": 99,
     "imageWidth": 1146,
     "imageHeight": 1867
   },
@@ -19,8 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r3"
+        "r2"
       ]
     },
     {
@@ -31,9 +30,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r3",
         "r4",
-        "r5",
-        "r6"
+        "r5"
       ]
     },
     {
@@ -44,8 +43,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r7",
-        "r8"
+        "r6",
+        "r8",
+        "r9",
+        "r11"
       ]
     },
     {
@@ -56,20 +57,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r9",
+        "r7",
         "r10"
       ]
     }
   ],
   "regions": [
     {
-      "text": "When was the apple on the branch?",
-      "x": 0.11,
-      "y": 0.28,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "When was the apple on the branch?",
+      "x": 0.1169,
+      "y": 0.2791,
+      "w": 0.3805,
+      "h": 0.045,
       "words": [
         "When",
         "was",
@@ -78,34 +79,25 @@
         "on",
         "the",
         "branch?"
-      ]
+      ],
+      "conf": 95.0282,
+      "source": "psm-11"
     },
     {
-      "text": "When was it over her head?",
-      "x": 0.11,
-      "y": 0.33,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r2",
       "order": 1,
+      "text": "When was it over her hea It was on the branch before she took it. It was on the branch then.",
+      "x": 0.1178,
+      "y": 0.3299,
+      "w": 0.3927,
+      "h": 0.12,
       "words": [
         "When",
         "was",
         "it",
         "over",
         "her",
-        "head?"
-      ]
-    },
-    {
-      "text": "It was on the branch before she took it. It was on the branch then.",
-      "x": 0.11,
-      "y": 0.38,
-      "w": 0.35,
-      "h": 0.08,
-      "id": "r3",
-      "order": 2,
-      "words": [
+        "hea",
         "It",
         "was",
         "on",
@@ -121,32 +113,36 @@
         "the",
         "branch",
         "then."
-      ]
+      ],
+      "conf": 96.4936,
+      "source": "psm-11"
     },
     {
+      "id": "r3",
+      "order": 2,
       "text": "When did she take it?",
-      "x": 0.55,
-      "y": 0.34,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r4",
-      "order": 3,
+      "x": 0.5567,
+      "y": 0.3401,
+      "w": 0.3473,
+      "h": 0.0204,
       "words": [
         "When",
         "did",
         "she",
         "take",
         "it?"
-      ]
+      ],
+      "conf": 89.3032,
+      "source": "psm-11"
     },
     {
+      "id": "r4",
+      "order": 3,
       "text": "She took it after she put her hand up.",
-      "x": 0.55,
-      "y": 0.37,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r5",
-      "order": 4,
+      "x": 0.5576,
+      "y": 0.3658,
+      "w": 0.3883,
+      "h": 0.0568,
       "words": [
         "She",
         "took",
@@ -157,31 +153,35 @@
         "her",
         "hand",
         "up."
-      ]
+      ],
+      "conf": 95.2569,
+      "source": "psm-11"
     },
     {
+      "id": "r5",
+      "order": 4,
       "text": "She took it then.",
-      "x": 0.55,
-      "y": 0.42,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r6",
-      "order": 5,
+      "x": 0.5576,
+      "y": 0.4162,
+      "w": 0.2565,
+      "h": 0.0198,
       "words": [
         "She",
         "took",
         "it",
         "then."
-      ]
+      ],
+      "conf": 96.5063,
+      "source": "psm-11"
     },
     {
-      "text": "When did she put it in the basket?",
-      "x": 0.13,
-      "y": 0.56,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r7",
-      "order": 6,
+      "id": "r6",
+      "order": 5,
+      "text": "When did she put it in the",
+      "x": 0.1431,
+      "y": 0.5619,
+      "w": 0.3525,
+      "h": 0.045,
       "words": [
         "When",
         "did",
@@ -189,42 +189,19 @@
         "put",
         "it",
         "in",
-        "the",
-        "basket?"
-      ]
+        "the"
+      ],
+      "conf": 95.6418,
+      "source": "psm-11"
     },
     {
-      "text": "She put it in the basket after she took it from the branch.",
-      "x": 0.12,
-      "y": 0.83,
-      "w": 0.35,
-      "h": 0.08,
-      "id": "r8",
-      "order": 7,
-      "words": [
-        "She",
-        "put",
-        "it",
-        "in",
-        "the",
-        "basket",
-        "after",
-        "she",
-        "took",
-        "it",
-        "from",
-        "the",
-        "branch."
-      ]
-    },
-    {
+      "id": "r7",
+      "order": 6,
       "text": "When did she have the apple in her hand?",
-      "x": 0.56,
-      "y": 0.56,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r9",
-      "order": 8,
+      "x": 0.5768,
+      "y": 0.5635,
+      "w": 0.3674,
+      "h": 0.0509,
       "words": [
         "When",
         "did",
@@ -235,16 +212,47 @@
         "in",
         "her",
         "hand?"
-      ]
+      ],
+      "conf": 96.2435,
+      "source": "psm-11"
     },
     {
-      "text": "She had it in her hand after she took it from the branch and before she put it in the basket.",
-      "x": 0.56,
-      "y": 0.72,
-      "w": 0.35,
-      "h": 0.1,
+      "id": "r8",
+      "order": 7,
+      "text": "sket?",
+      "x": 0.2461,
+      "y": 0.5881,
+      "w": 0.0794,
+      "h": 0.0193,
+      "words": [
+        "sket?"
+      ],
+      "conf": 92.7339,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "f\\_{ Y",
+      "x": 0.3002,
+      "y": 0.7386,
+      "w": 0.1998,
+      "h": 0.0305,
+      "words": [
+        "f\\_{",
+        "Y"
+      ],
+      "conf": 40.3137,
+      "source": "psm-11"
+    },
+    {
       "id": "r10",
       "order": 9,
+      "text": "She had it in her hand after she took it from the branch and before she put it in the basket",
+      "x": 0.5733,
+      "y": 0.7268,
+      "w": 0.3604,
+      "h": 0.1018,
       "words": [
         "She",
         "had",
@@ -266,8 +274,36 @@
         "it",
         "in",
         "the",
-        "basket."
-      ]
+        "basket"
+      ],
+      "conf": 96.0429,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "She put it in the basket after she took it from the branch",
+      "x": 0.1335,
+      "y": 0.8302,
+      "w": 0.3669,
+      "h": 0.0826,
+      "words": [
+        "She",
+        "put",
+        "it",
+        "in",
+        "the",
+        "basket",
+        "after",
+        "she",
+        "took",
+        "it",
+        "from",
+        "the",
+        "branch"
+      ],
+      "conf": 94.2847,
+      "source": "psm-11"
     }
   ]
 }

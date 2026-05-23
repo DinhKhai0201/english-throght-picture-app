@@ -4,12 +4,24 @@
   "imageApiPath": "/api/books/page%20430.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 3,
-    "wordCount": 55,
+    "regionCount": 9,
+    "wordCount": 69,
     "imageWidth": 1188,
     "imageHeight": 1867
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r4"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,7 +30,21 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r3",
+        "r5"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r6",
+        "r7"
       ]
     },
     {
@@ -29,53 +55,121 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3"
+        "r8",
+        "r9"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Men need to make beautiful things. Today cities have public art galleries and museums for everyone to see art through the centuries.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.1,
       "id": "r1",
       "order": 0,
+      "text": "Men need to make beautiful",
+      "x": 0.101,
+      "y": 0.0343,
+      "w": 0.3998,
+      "h": 0.0171,
       "words": [
         "Men",
         "need",
         "to",
         "make",
-        "beautiful",
-        "things.",
+        "beautiful"
+      ],
+      "conf": 95.1411,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "things.",
+      "x": 0.5084,
+      "y": 0.0348,
+      "w": 0.0943,
+      "h": 0.0209,
+      "words": [
+        "things."
+      ],
+      "conf": 95.3781,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "(/o/)",
+      "x": 0.8266,
+      "y": 0.1955,
+      "w": 0.048,
+      "h": 0.0262,
+      "words": [
+        "(/o/)"
+      ],
+      "conf": 52.7766,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Today the great cities of the leries and museums where anyone and drawings and sculpture of artists through the cen-",
+      "x": 0.0968,
+      "y": 0.3669,
+      "w": 0.4991,
+      "h": 0.1007,
+      "words": [
         "Today",
+        "the",
+        "great",
         "cities",
+        "of",
+        "the",
+        "leries",
+        "and",
+        "museums",
+        "where",
+        "anyone",
+        "and",
+        "drawings",
+        "and",
+        "sculpture",
+        "of",
+        "artists",
+        "through",
+        "the",
+        "cen-"
+      ],
+      "conf": 96.4838,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "world have public art gal- may see the paintings",
+      "x": 0.5354,
+      "y": 0.3674,
+      "w": 0.3796,
+      "h": 0.0482,
+      "words": [
+        "world",
         "have",
         "public",
         "art",
-        "galleries",
-        "and",
-        "museums",
-        "for",
-        "everyone",
-        "to",
+        "gal-",
+        "may",
         "see",
-        "art",
-        "through",
         "the",
-        "centuries."
-      ]
+        "paintings"
+      ],
+      "conf": 94.9492,
+      "source": "psm-11"
     },
     {
-      "text": "artist: worker at one of the arts. art gallery: building where works of art are kept for people to look at.",
-      "x": 0.1,
-      "y": 0.78,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r2",
-      "order": 1,
+      "id": "r6",
+      "order": 5,
+      "text": "artist: worker at one of the arts.",
+      "x": 0.0918,
+      "y": 0.7916,
+      "w": 0.3636,
+      "h": 0.0129,
       "words": [
         "artist:",
         "worker",
@@ -83,13 +177,64 @@
         "one",
         "of",
         "the",
-        "arts.",
+        "arts."
+      ],
+      "conf": 95.6008,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "art gallery: building where works of museum: building where important are housed,",
+      "x": 0.0918,
+      "y": 0.8082,
+      "w": 0.4301,
+      "h": 0.0482,
+      "words": [
         "art",
         "gallery:",
         "building",
         "where",
         "works",
         "of",
+        "museum:",
+        "building",
+        "where",
+        "important",
+        "are",
+        "housed,"
+      ],
+      "conf": 79.5342,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "works of art, science, history, etc.,",
+      "x": 0.5202,
+      "y": 0.8243,
+      "w": 0.3931,
+      "h": 0.0155,
+      "words": [
+        "works",
+        "of",
+        "art,",
+        "science,",
+        "history,",
+        "etc.,"
+      ],
+      "conf": 91.3205,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "art are kept for people to look at.",
+      "x": 0.5311,
+      "y": 0.8072,
+      "w": 0.3813,
+      "h": 0.0155,
+      "words": [
         "art",
         "are",
         "kept",
@@ -98,30 +243,9 @@
         "to",
         "look",
         "at."
-      ]
-    },
-    {
-      "text": "museum: building where important works of art, science, history, etc., are housed.",
-      "x": 0.1,
-      "y": 0.88,
-      "w": 0.85,
-      "h": 0.08,
-      "id": "r3",
-      "order": 2,
-      "words": [
-        "museum:",
-        "building",
-        "where",
-        "important",
-        "works",
-        "of",
-        "art,",
-        "science,",
-        "history,",
-        "etc.,",
-        "are",
-        "housed."
-      ]
+      ],
+      "conf": 96.3541,
+      "source": "psm-11"
     }
   ]
 }

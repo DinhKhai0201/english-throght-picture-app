@@ -2,105 +2,120 @@
   "page": 126,
   "image": "/books/page 126.png",
   "imageApiPath": "/api/books/page%20126.png",
-  "layout": "single",
+  "layout": "quad",
   "stats": {
-    "regionCount": 17,
-    "wordCount": 188,
+    "regionCount": 16,
+    "wordCount": 186,
     "imageWidth": 1180,
     "imageHeight": 1871
   },
   "panels": [
     {
-      "id": "full-page",
-      "label": "Full Page",
+      "id": "top-left",
+      "label": "Top Left",
       "x": 0,
       "y": 0,
-      "w": 1,
-      "h": 1,
+      "w": 0.5,
+      "h": 0.5,
       "regionIds": [
         "r1",
-        "r2",
-        "r3",
         "r4",
         "r5",
-        "r6",
         "r7",
+        "r9"
+      ]
+    },
+    {
+      "id": "top-right",
+      "label": "Top Right",
+      "x": 0.5,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r2",
+        "r3",
+        "r6",
         "r8",
-        "r9",
-        "r10",
+        "r10"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r11",
+        "r14",
+        "r16"
+      ]
+    },
+    {
+      "id": "bottom-right",
+      "label": "Bottom Right",
+      "x": 0.5,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
         "r12",
         "r13",
-        "r14",
-        "r15",
-        "r16",
-        "r17"
+        "r15"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Answers to questions on pages 118-119.",
-      "x": 0.2,
-      "y": 0.09,
-      "w": 0.6,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "Answers to questions Page a No, it is not clear.",
+      "x": 0.1195,
+      "y": 0.0887,
+      "w": 0.4305,
+      "h": 0.0989,
       "words": [
         "Answers",
         "to",
         "questions",
-        "on",
-        "pages",
-        "118-119."
-      ]
-    },
-    {
-      "text": "Page 118",
-      "x": 0.1,
-      "y": 0.14,
-      "w": 0.2,
-      "h": 0.03,
-      "id": "r2",
-      "order": 1,
-      "words": [
         "Page",
-        "118"
-      ]
-    },
-    {
-      "text": "No, it is not clear. No, I do not see through it.",
-      "x": 0.14,
-      "y": 0.16,
-      "w": 0.35,
-      "h": 0.1,
-      "id": "r3",
-      "order": 2,
-      "words": [
+        "a",
         "No,",
         "it",
         "is",
         "not",
-        "clear.",
-        "No,",
-        "I",
-        "do",
-        "not",
-        "see",
-        "through",
-        "it."
-      ]
+        "clear."
+      ],
+      "conf": 96.5032,
+      "source": "psm-11"
     },
     {
-      "text": "Yes. The glass in the window is clear. I see some mountains and a house.",
-      "x": 0.58,
-      "y": 0.16,
-      "w": 0.38,
-      "h": 0.12,
-      "id": "r4",
-      "order": 3,
+      "id": "r2",
+      "order": 1,
+      "text": "on pages",
+      "x": 0.5602,
+      "y": 0.0951,
+      "w": 0.1415,
+      "h": 0.0171,
       "words": [
+        "on",
+        "pages"
+      ],
+      "conf": 96.4884,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "b Yes. The glass in the window is clear. see some mountains and a house.",
+      "x": 0.5831,
+      "y": 0.1678,
+      "w": 0.3661,
+      "h": 0.0968,
+      "words": [
+        "b",
         "Yes.",
         "The",
         "glass",
@@ -109,38 +124,61 @@
         "window",
         "is",
         "clear.",
-        "I",
         "see",
         "some",
         "mountains",
         "and",
         "a",
         "house."
-      ]
+      ],
+      "conf": 96.2651,
+      "source": "psm-11"
     },
     {
-      "text": "Yes. Glass is hard.",
-      "x": 0.14,
-      "y": 0.27,
-      "w": 0.3,
-      "h": 0.03,
+      "id": "r4",
+      "order": 3,
+      "text": "No, I do not see through it.",
+      "x": 0.1585,
+      "y": 0.1929,
+      "w": 0.2483,
+      "h": 0.0482,
+      "words": [
+        "No,",
+        "I",
+        "do",
+        "not",
+        "see",
+        "through",
+        "it."
+      ],
+      "conf": 93.8409,
+      "source": "psm-11"
+    },
+    {
       "id": "r5",
       "order": 4,
+      "text": "Yes. Glass is hard.",
+      "x": 0.1602,
+      "y": 0.2699,
+      "w": 0.2839,
+      "h": 0.0192,
       "words": [
         "Yes.",
         "Glass",
         "is",
         "hard."
-      ]
+      ],
+      "conf": 95.5225,
+      "source": "psm-11"
     },
     {
-      "text": "Yes. Some meat is soft. But some meat is hard.",
-      "x": 0.58,
-      "y": 0.27,
-      "w": 0.38,
-      "h": 0.08,
       "id": "r6",
       "order": 5,
+      "text": "Yes. Some meat is soft. But some meat is hard.",
+      "x": 0.622,
+      "y": 0.272,
+      "w": 0.2992,
+      "h": 0.0684,
       "words": [
         "Yes.",
         "Some",
@@ -152,48 +190,56 @@
         "meat",
         "is",
         "hard."
-      ]
+      ],
+      "conf": 95.7547,
+      "source": "psm-11"
     },
     {
-      "text": "No. Ice is cold.",
-      "x": 0.14,
-      "y": 0.35,
-      "w": 0.3,
-      "h": 0.03,
       "id": "r7",
       "order": 6,
+      "text": "e No. ice is cold.",
+      "x": 0.1195,
+      "y": 0.3463,
+      "w": 0.2695,
+      "h": 0.0187,
       "words": [
+        "e",
         "No.",
-        "Ice",
+        "ice",
         "is",
         "cold."
-      ]
+      ],
+      "conf": 93.2067,
+      "source": "psm-11"
     },
     {
-      "text": "No. Flames are not cold.",
-      "x": 0.58,
-      "y": 0.35,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r8",
       "order": 7,
+      "text": "No. Flames are not cold.",
+      "x": 0.622,
+      "y": 0.3469,
+      "w": 0.295,
+      "h": 0.0438,
       "words": [
         "No.",
         "Flames",
         "are",
         "not",
         "cold."
-      ]
+      ],
+      "conf": 95.9095,
+      "source": "psm-11"
     },
     {
-      "text": "He is taking potatoes out of the earth with a fork.",
-      "x": 0.14,
-      "y": 0.4,
-      "w": 0.38,
-      "h": 0.08,
       "id": "r9",
       "order": 8,
+      "text": "g He is taking potatoes out of the earth with a fork.",
+      "x": 0.1203,
+      "y": 0.3982,
+      "w": 0.378,
+      "h": 0.0684,
       "words": [
+        "g",
         "He",
         "is",
         "taking",
@@ -205,16 +251,18 @@
         "with",
         "a",
         "fork."
-      ]
+      ],
+      "conf": 95.2621,
+      "source": "psm-11"
     },
     {
-      "text": "She is putting some salt in the potato soup.",
-      "x": 0.58,
-      "y": 0.4,
-      "w": 0.38,
-      "h": 0.08,
       "id": "r10",
       "order": 9,
+      "text": "She is putting some salt in the potato soup.",
+      "x": 0.6229,
+      "y": 0.3976,
+      "w": 0.2949,
+      "h": 0.0743,
       "words": [
         "She",
         "is",
@@ -225,32 +273,20 @@
         "the",
         "potato",
         "soup."
-      ]
+      ],
+      "conf": 96.8135,
+      "source": "psm-11"
     },
     {
-      "text": "Page 119",
-      "x": 0.1,
-      "y": 0.51,
-      "w": 0.2,
-      "h": 0.03,
       "id": "r11",
       "order": 10,
+      "text": "Page a man. He is in a street. His hat is in the air. The wind is taking it up. The wind took it off his head.",
+      "x": 0.1212,
+      "y": 0.5003,
+      "w": 0.3822,
+      "h": 0.1448,
       "words": [
         "Page",
-        "119"
-      ]
-    },
-    {
-      "text": "I see a man. He is in a street. His hat is in the air. The wind is taking it up. The wind took it off his head.",
-      "x": 0.14,
-      "y": 0.53,
-      "w": 0.38,
-      "h": 0.15,
-      "id": "r12",
-      "order": 11,
-      "words": [
-        "I",
-        "see",
         "a",
         "man.",
         "He",
@@ -277,18 +313,20 @@
         "off",
         "his",
         "head."
-      ]
+      ],
+      "conf": 96.2462,
+      "source": "psm-11"
     },
     {
-      "text": "He is putting his hat on his head.",
-      "x": 0.58,
-      "y": 0.53,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r13",
-      "order": 12,
+      "id": "r12",
+      "order": 11,
+      "text": "b<He is putting his hat on his head.",
+      "x": 0.5839,
+      "y": 0.5238,
+      "w": 0.3466,
+      "h": 0.047,
       "words": [
-        "He",
+        "b<He",
         "is",
         "putting",
         "his",
@@ -296,16 +334,46 @@
         "on",
         "his",
         "head."
-      ]
+      ],
+      "conf": 87.183,
+      "source": "psm-11"
     },
     {
-      "text": "They are in their seats at the table. They have their spoons in their hands. They are taking their soup.",
-      "x": 0.14,
-      "y": 0.65,
-      "w": 0.38,
-      "h": 0.15,
+      "id": "r13",
+      "order": 12,
+      "text": "d One of them is a clock. The other is an instrument for measuring heat.",
+      "x": 0.5831,
+      "y": 0.5885,
+      "w": 0.3177,
+      "h": 0.0988,
+      "words": [
+        "d",
+        "One",
+        "of",
+        "them",
+        "is",
+        "a",
+        "clock.",
+        "The",
+        "other",
+        "is",
+        "an",
+        "instrument",
+        "for",
+        "measuring",
+        "heat."
+      ],
+      "conf": 95.5465,
+      "source": "psm-11"
+    },
+    {
       "id": "r14",
       "order": 13,
+      "text": "They are in their seats at the table. They have their spoons in their hands. They are taking their soup.",
+      "x": 0.1636,
+      "y": 0.6521,
+      "w": 0.3432,
+      "h": 0.1228,
       "words": [
         "They",
         "are",
@@ -327,65 +395,18 @@
         "taking",
         "their",
         "soup."
-      ]
+      ],
+      "conf": 96.6905,
+      "source": "psm-11"
     },
     {
-      "text": "One of them is a clock. The other is an instrument for measuring heat.",
-      "x": 0.58,
-      "y": 0.59,
-      "w": 0.38,
-      "h": 0.12,
       "id": "r15",
       "order": 14,
-      "words": [
-        "One",
-        "of",
-        "them",
-        "is",
-        "a",
-        "clock.",
-        "The",
-        "other",
-        "is",
-        "an",
-        "instrument",
-        "for",
-        "measuring",
-        "heat."
-      ]
-    },
-    {
-      "text": "We keep the milk, butter, cheese, eggs, meat, and fruit in the fridge.",
-      "x": 0.14,
-      "y": 0.78,
-      "w": 0.38,
-      "h": 0.12,
-      "id": "r16",
-      "order": 15,
-      "words": [
-        "We",
-        "keep",
-        "the",
-        "milk,",
-        "butter,",
-        "cheese,",
-        "eggs,",
-        "meat,",
-        "and",
-        "fruit",
-        "in",
-        "the",
-        "fridge."
-      ]
-    },
-    {
-      "text": "Rooms and doors and windows and tables and seats and boxes and knives and spoons and forks and shelves ... are different sorts of things.",
-      "x": 0.58,
-      "y": 0.7,
-      "w": 0.4,
-      "h": 0.25,
-      "id": "r17",
-      "order": 16,
+      "text": "Rooms and doors and windows and tables and seats and boxes and knives and spoons and forks and shelves... are different sorts of things.",
+      "x": 0.6229,
+      "y": 0.7007,
+      "w": 0.3407,
+      "h": 0.202,
       "words": [
         "Rooms",
         "and",
@@ -405,14 +426,41 @@
         "and",
         "forks",
         "and",
-        "shelves",
-        "...",
+        "shelves...",
         "are",
         "different",
         "sorts",
         "of",
         "things."
-      ]
+      ],
+      "conf": 94.9171,
+      "source": "psm-11"
+    },
+    {
+      "id": "r16",
+      "order": 15,
+      "text": "We keep the milk, butter, cheese, eggs, meat, and fruit in the fridge.",
+      "x": 0.1636,
+      "y": 0.7798,
+      "w": 0.333,
+      "h": 0.0988,
+      "words": [
+        "We",
+        "keep",
+        "the",
+        "milk,",
+        "butter,",
+        "cheese,",
+        "eggs,",
+        "meat,",
+        "and",
+        "fruit",
+        "in",
+        "the",
+        "fridge."
+      ],
+      "conf": 95.9832,
+      "source": "psm-11"
     }
   ]
 }

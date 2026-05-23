@@ -2,48 +2,41 @@
   "page": 315,
   "image": "/books/page 315.png",
   "imageApiPath": "/api/books/page%20315.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 94,
+    "regionCount": 7,
+    "wordCount": 79,
     "imageWidth": 1242,
     "imageHeight": 1838
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r2",
         "r3",
-        "r4"
+        "r4",
+        "r5",
+        "r6",
+        "r7"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Grain and meat and milk and fruit and vegetables must be transported into the cities of the world day and night all through the year to feed its city populations. Much of this food comes great distances in ships, trains, or trucks, and must be kept cold and clean all the way.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.45,
-      "h": 0.35,
       "id": "r1",
       "order": 0,
+      "text": "Grain and meat and milk and fruit and vegetables must be transported into the cities of day and night all through the year to feed its city popu-, lations. Much of this food comes great distances in ships, trains, or trucks, and must be kept cold and clean all the way.",
+      "x": 0.0998,
+      "y": 0.0392,
+      "w": 0.3688,
+      "h": 0.29,
       "words": [
         "Grain",
         "and",
@@ -61,8 +54,6 @@
         "the",
         "cities",
         "of",
-        "the",
-        "world",
         "day",
         "and",
         "night",
@@ -74,7 +65,8 @@
         "feed",
         "its",
         "city",
-        "populations.",
+        "popu-,",
+        "lations.",
         "Much",
         "of",
         "this",
@@ -97,82 +89,115 @@
         "all",
         "the",
         "way."
-      ]
+      ],
+      "conf": 93.4379,
+      "source": "psm-11"
     },
     {
-      "text": "This is a bag of grain.",
-      "x": 0.1,
-      "y": 0.42,
-      "w": 0.45,
-      "h": 0.1,
       "id": "r2",
       "order": 1,
+      "text": "VW,",
+      "x": 0.504,
+      "y": 0.2247,
+      "w": 0.0548,
+      "h": 0.0326,
       "words": [
-        "This",
-        "is",
-        "a",
-        "bag",
-        "of",
-        "grain."
-      ]
+        "VW,"
+      ],
+      "conf": 59.508,
+      "source": "psm-11"
     },
     {
-      "text": "grain: seeds of some grass plants used for making bread and some other cooked foods. feed: when we give people food, we feed them. truck: road transport for goods.",
-      "x": 0.1,
-      "y": 0.72,
-      "w": 0.85,
-      "h": 0.15,
       "id": "r3",
       "order": 2,
+      "text": "graim: seeds of tome grass plants feed: when we give people food, we",
+      "x": 0.1039,
+      "y": 0.7301,
+      "w": 0.3986,
+      "h": 0.0528,
       "words": [
-        "grain:",
+        "graim:",
         "seeds",
         "of",
-        "some",
+        "tome",
         "grass",
         "plants",
-        "used",
-        "for",
-        "making",
-        "bread",
-        "and",
-        "some",
-        "other",
-        "cooked",
-        "foods.",
         "feed:",
         "when",
         "we",
         "give",
         "people",
         "food,",
-        "we",
-        "feed",
-        "them.",
-        "truck:",
-        "road",
-        "transport",
-        "for",
-        "goods."
-      ]
+        "we"
+      ],
+      "conf": 86.7402,
+      "source": "psm-11"
     },
     {
-      "text": "FUTURE: will feed. PRESENT: feed(s). PAST: fed.",
-      "x": 0.1,
-      "y": 0.88,
-      "w": 0.85,
-      "h": 0.05,
       "id": "r4",
       "order": 3,
+      "text": "other cooked foods,",
+      "x": 0.1586,
+      "y": 0.7486,
+      "w": 0.2174,
+      "h": 0.0125,
       "words": [
-        "FUTURE:",
+        "other",
+        "cooked",
+        "foods,"
+      ],
+      "conf": 95.5471,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "used for making bread and some feed them.",
+      "x": 0.5105,
+      "y": 0.7301,
+      "w": 0.3905,
+      "h": 0.0501,
+      "words": [
+        "used",
+        "for",
+        "making",
+        "bread",
+        "and",
+        "some",
+        "feed",
+        "them."
+      ],
+      "conf": 95.7403,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "will feed",
+      "x": 0.1047,
+      "y": 0.8645,
+      "w": 0.1127,
+      "h": 0.0212,
+      "words": [
         "will",
-        "feed.",
-        "PRESENT:",
-        "feed(s).",
-        "PAST:",
-        "fed."
-      ]
+        "feed"
+      ],
+      "conf": 96.2789,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "fed",
+      "x": 0.8631,
+      "y": 0.8662,
+      "w": 0.0386,
+      "h": 0.0125,
+      "words": [
+        "fed"
+      ],
+      "conf": 95.172,
+      "source": "psm-11"
     }
   ]
 }

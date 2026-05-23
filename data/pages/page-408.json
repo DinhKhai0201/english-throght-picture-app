@@ -4,12 +4,25 @@
   "imageApiPath": "/api/books/page%20408.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 91,
+    "regionCount": 14,
+    "wordCount": 121,
     "imageWidth": 1188,
     "imageHeight": 1850
   },
   "panels": [
+    {
+      "id": "top-left",
+      "label": "Top Left",
+      "x": 0,
+      "y": 0,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r1",
+        "r5",
+        "r6"
+      ]
+    },
     {
       "id": "top-right",
       "label": "Top Right",
@@ -18,7 +31,24 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r3",
+        "r4",
+        "r7"
+      ]
+    },
+    {
+      "id": "bottom-left",
+      "label": "Bottom Left",
+      "x": 0,
+      "y": 0.5,
+      "w": 0.5,
+      "h": 0.5,
+      "regionIds": [
+        "r8",
+        "r9",
+        "r11",
+        "r13"
       ]
     },
     {
@@ -29,59 +59,167 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2",
-        "r3",
-        "r4"
+        "r10",
+        "r12",
+        "r14"
       ]
     }
   ],
   "regions": [
     {
-      "text": "All organisms which you see in the world about you have grown by cell division. You and I have become what we are through billions of divisions.",
-      "x": 0.1,
-      "y": 0.05,
-      "w": 0.85,
-      "h": 0.1,
       "id": "r1",
       "order": 0,
+      "text": "All organisms which you see grown by cell division.",
+      "x": 0.1221,
+      "y": 0.0389,
+      "w": 0.4158,
+      "h": 0.0492,
       "words": [
         "All",
         "organisms",
         "which",
         "you",
         "see",
+        "grown",
+        "by",
+        "cell",
+        "division."
+      ],
+      "conf": 95.7228,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "in the world about you:have",
+      "x": 0.5463,
+      "y": 0.0389,
+      "w": 0.4007,
+      "h": 0.0238,
+      "words": [
         "in",
         "the",
         "world",
         "about",
-        "you",
-        "have",
-        "grown",
-        "by",
-        "cell",
-        "division.",
+        "you:have"
+      ],
+      "conf": 94.7843,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "AN",
+      "x": 0.5202,
+      "y": 0.1357,
+      "w": 0.0901,
+      "h": 0.0335,
+      "words": [
+        "AN"
+      ],
+      "conf": 48.5126,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "BIS WN",
+      "x": 0.7054,
+      "y": 0.1638,
+      "w": 0.1987,
+      "h": 0.08,
+      "words": [
+        "BIS",
+        "WN"
+      ],
+      "conf": 37.6347,
+      "source": "psm-11"
+    },
+    {
+      "id": "r5",
+      "order": 4,
+      "text": "WY",
+      "x": 0.2778,
+      "y": 0.3676,
+      "w": 0.1549,
+      "h": 0.0432,
+      "words": [
+        "WY"
+      ],
+      "conf": 49.5356,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "You and I have become what divisions in the cells whose",
+      "x": 0.1237,
+      "y": 0.4562,
+      "w": 0.4386,
+      "h": 0.0438,
+      "words": [
         "You",
         "and",
         "I",
         "have",
         "become",
         "what",
+        "divisions",
+        "in",
+        "the",
+        "cells",
+        "whose"
+      ],
+      "conf": 96.3897,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "we are through billions: of outcome is our cell. structure",
+      "x": 0.5337,
+      "y": 0.4541,
+      "w": 0.4217,
+      "h": 0.0465,
+      "words": [
         "we",
         "are",
         "through",
-        "billions",
+        "billions:",
         "of",
-        "divisions."
-      ]
+        "outcome",
+        "is",
+        "our",
+        "cell.",
+        "structure"
+      ],
+      "conf": 88.5835,
+      "source": "psm-11"
     },
     {
-      "text": "In cell division the two halves of the cell (picture four) become ready to separate. In picture five they have separated. The daughter cells do the same as their mother cell.",
-      "x": 0.1,
-      "y": 0.55,
-      "w": 0.85,
-      "h": 0.15,
-      "id": "r2",
-      "order": 1,
+      "id": "r8",
+      "order": 7,
+      "text": "at this minute.",
+      "x": 0.1263,
+      "y": 0.5086,
+      "w": 0.2062,
+      "h": 0.0178,
+      "words": [
+        "at",
+        "this",
+        "minute."
+      ],
+      "conf": 96.5081,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "In cell division the two halves picture four) become ready you see that they have separated.",
+      "x": 0.1263,
+      "y": 0.5611,
+      "w": 0.4806,
+      "h": 0.0762,
       "words": [
         "In",
         "cell",
@@ -89,87 +227,147 @@
         "the",
         "two",
         "halves",
-        "of",
-        "the",
-        "cell",
-        "(picture",
+        "picture",
         "four)",
         "become",
         "ready",
+        "you",
+        "see",
+        "that",
+        "they",
+        "have",
+        "separated."
+      ],
+      "conf": 96.5251,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "of the cell (as you see in to separate. In picture five The cell in picture one, separate cells. The daughter same as their did.",
+      "x": 0.5126,
+      "y": 0.5589,
+      "w": 0.4411,
+      "h": 0.1265,
+      "words": [
+        "of",
+        "the",
+        "cell",
+        "(as",
+        "you",
+        "see",
+        "in",
         "to",
         "separate.",
         "In",
         "picture",
         "five",
-        "they",
-        "have",
-        "separated.",
+        "The",
+        "cell",
+        "in",
+        "picture",
+        "one,",
+        "separate",
+        "cells.",
         "The",
         "daughter",
-        "cells",
-        "do",
-        "the",
         "same",
         "as",
         "their",
-        "mother",
-        "cell."
-      ]
+        "did."
+      ],
+      "conf": 87.4664,
+      "source": "psm-11"
     },
     {
-      "text": "One of the greatest questions scientists are working on is: What keeps the daughter cells doing what they have to do?",
-      "x": 0.1,
-      "y": 0.72,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r3",
-      "order": 2,
+      "id": "r11",
+      "order": 10,
+      "text": "by division, has become two cells do in every way the One of the greatest questions What keeps the daughter to do?",
+      "x": 0.1254,
+      "y": 0.6411,
+      "w": 0.4193,
+      "h": 0.1232,
       "words": [
+        "by",
+        "division,",
+        "has",
+        "become",
+        "two",
+        "cells",
+        "do",
+        "in",
+        "every",
+        "way",
+        "the",
         "One",
         "of",
         "the",
         "greatest",
         "questions",
+        "What",
+        "keeps",
+        "the",
+        "daughter",
+        "to",
+        "do?"
+      ],
+      "conf": 96.4958,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "scientists are working on is: celis doing what they have",
+      "x": 0.537,
+      "y": 0.6924,
+      "w": 0.4175,
+      "h": 0.0509,
+      "words": [
         "scientists",
         "are",
         "working",
         "on",
         "is:",
-        "What",
-        "keeps",
-        "the",
-        "daughter",
-        "cells",
+        "celis",
         "doing",
         "what",
         "they",
-        "have",
-        "to",
-        "do?"
-      ]
+        "have"
+      ],
+      "conf": 95.5164,
+      "source": "psm-11"
     },
     {
-      "text": "separate: become or make separate. FUTURE: will separate. PRESENT: separate(s). PAST: separated.",
-      "x": 0.1,
-      "y": 0.82,
-      "w": 0.85,
-      "h": 0.1,
-      "id": "r4",
-      "order": 3,
+      "id": "r13",
+      "order": 12,
+      "text": "separate: become or moke separate.",
+      "x": 0.1279,
+      "y": 0.8319,
+      "w": 0.4234,
+      "h": 0.0162,
       "words": [
         "separate:",
         "become",
         "or",
-        "make",
-        "separate.",
-        "FUTURE:",
-        "will",
-        "separate.",
-        "PRESENT:",
-        "separate(s).",
-        "PAST:",
-        "separated."
-      ]
+        "moke",
+        "separate."
+      ],
+      "conf": 89.1373,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "seporate(s)",
+      "x": 0.4655,
+      "y": 0.8627,
+      "w": 0.1524,
+      "h": 0.0157,
+      "words": [
+        "seporate(s)"
+      ],
+      "conf": 86.8,
+      "source": "psm-11"
     }
   ]
 }

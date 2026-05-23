@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20272.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 129,
+    "regionCount": 9,
+    "wordCount": 125,
     "imageWidth": 1150,
     "imageHeight": 1821
   },
@@ -18,7 +18,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1"
+        "r2",
+        "r3"
       ]
     },
     {
@@ -29,7 +30,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r2"
+        "r1",
+        "r4",
+        "r5"
       ]
     },
     {
@@ -40,7 +43,8 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r6",
+        "r8"
       ]
     },
     {
@@ -51,25 +55,70 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4"
+        "r7",
+        "r9"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Pleasure and pain are feelings. When we put our fingers on things we have feelings—feelings of touch or of heat and cold. But this is another use of the word \"feeling.\"",
-      "x": 0.08,
-      "y": 0.12,
-      "w": 0.4,
-      "h": 0.28,
       "id": "r1",
       "order": 0,
+      "text": "The man is feeling the bit Of wood with his fingers Is it rough or is it smooth?",
+      "x": 0.5296,
+      "y": 0.0961,
+      "w": 0.3861,
+      "h": 0.0764,
+      "words": [
+        "The",
+        "man",
+        "is",
+        "feeling",
+        "the",
+        "bit",
+        "Of",
+        "wood",
+        "with",
+        "his",
+        "fingers",
+        "Is",
+        "it",
+        "rough",
+        "or",
+        "is",
+        "it",
+        "smooth?"
+      ],
+      "conf": 96.5988,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "Pleasure and pain are feelings.",
+      "x": 0.1104,
+      "y": 0.1236,
+      "w": 0.3566,
+      "h": 0.0494,
       "words": [
         "Pleasure",
         "and",
         "pain",
         "are",
-        "feelings.",
+        "feelings."
+      ],
+      "conf": 96.378,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "When we put our fingers on things we have feelings—feelings of touch or of heat and cold But this is another use of the word “feeling",
+      "x": 0.0957,
+      "y": 0.3031,
+      "w": 0.3904,
+      "h": 0.1785,
+      "words": [
         "When",
         "we",
         "put",
@@ -86,7 +135,7 @@
         "of",
         "heat",
         "and",
-        "cold.",
+        "cold",
         "But",
         "this",
         "is",
@@ -95,52 +144,51 @@
         "of",
         "the",
         "word",
-        "\"feeling.\""
-      ]
+        "“feeling"
+      ],
+      "conf": 96.457,
+      "source": "psm-11"
     },
     {
-      "text": "The man is feeling the bit of wood with his fingers. Is it rough or is it smooth? This is rough. This is smooth.",
-      "x": 0.51,
-      "y": 0.1,
-      "w": 0.4,
-      "h": 0.38,
-      "id": "r2",
-      "order": 1,
+      "id": "r4",
+      "order": 3,
+      "text": "This is rough",
+      "x": 0.667,
+      "y": 0.313,
+      "w": 0.1922,
+      "h": 0.0231,
       "words": [
-        "The",
-        "man",
-        "is",
-        "feeling",
-        "the",
-        "bit",
-        "of",
-        "wood",
-        "with",
-        "his",
-        "fingers.",
-        "Is",
-        "it",
-        "rough",
-        "or",
-        "is",
-        "it",
-        "smooth?",
         "This",
         "is",
-        "rough.",
-        "This",
-        "is",
-        "smooth."
-      ]
+        "rough"
+      ],
+      "conf": 96.6169,
+      "source": "psm-11"
     },
     {
-      "text": "Things which give us pleasure have an attraction for us. But it is not the same sort of attraction as the attraction between the earth and the moon. (See pages 202-203.)",
-      "x": 0.08,
-      "y": 0.55,
-      "w": 0.4,
-      "h": 0.25,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "oF This isismooth",
+      "x": 0.5243,
+      "y": 0.4075,
+      "w": 0.3313,
+      "h": 0.0527,
+      "words": [
+        "oF",
+        "This",
+        "isismooth"
+      ],
+      "conf": 76.7591,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Things which give us pleasure have an attraction for us.",
+      "x": 0.0965,
+      "y": 0.5343,
+      "w": 0.3191,
+      "h": 0.0725,
       "words": [
         "Things",
         "which",
@@ -151,14 +199,48 @@
         "an",
         "attraction",
         "for",
-        "us.",
+        "us."
+      ],
+      "conf": 96.6716,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "Our feeling of this attraction is named “desire.”",
+      "x": 0.5322,
+      "y": 0.5332,
+      "w": 0.3052,
+      "h": 0.0708,
+      "words": [
+        "Our",
+        "feeling",
+        "of",
+        "this",
+        "attraction",
+        "is",
+        "named",
+        "“desire.”"
+      ],
+      "conf": 96.6086,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "But it is not the same sort} of attraction as the attraction between the earth and the moon (See pages",
+      "x": 0.0965,
+      "y": 0.609,
+      "w": 0.4035,
+      "h": 0.1296,
+      "words": [
         "But",
         "it",
         "is",
         "not",
         "the",
         "same",
-        "sort",
+        "sort}",
         "of",
         "attraction",
         "as",
@@ -169,29 +251,22 @@
         "earth",
         "and",
         "the",
-        "moon.",
+        "moon",
         "(See",
-        "pages",
-        "202-203.)"
-      ]
+        "pages"
+      ],
+      "conf": 91.9165,
+      "source": "psm-11"
     },
     {
-      "text": "Our feeling of this attraction is named \"desire.\" When we have pleasure we have a desire for the pleasure to go on and go on... Time goes on. The hands of the clock go on. Our feelings may or may not go on.",
-      "x": 0.52,
-      "y": 0.53,
-      "w": 0.4,
-      "h": 0.35,
-      "id": "r4",
-      "order": 3,
+      "id": "r9",
+      "order": 8,
+      "text": "When we have pleasure we have a desire for the pleasure to go on and goon Time goes on. The hands of the clock Our feelings may or may not go on.",
+      "x": 0.5304,
+      "y": 0.6101,
+      "w": 0.3905,
+      "h": 0.206,
       "words": [
-        "Our",
-        "feeling",
-        "of",
-        "this",
-        "attraction",
-        "is",
-        "named",
-        "\"desire.\"",
         "When",
         "we",
         "have",
@@ -207,8 +282,7 @@
         "go",
         "on",
         "and",
-        "go",
-        "on...",
+        "goon",
         "Time",
         "goes",
         "on.",
@@ -217,8 +291,6 @@
         "of",
         "the",
         "clock",
-        "go",
-        "on.",
         "Our",
         "feelings",
         "may",
@@ -227,7 +299,9 @@
         "not",
         "go",
         "on."
-      ]
+      ],
+      "conf": 96.1209,
+      "source": "psm-11"
     }
   ]
 }

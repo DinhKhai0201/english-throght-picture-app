@@ -2,109 +2,65 @@
   "page": 92,
   "image": "/books/page 92.png",
   "imageApiPath": "/api/books/page%2092.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 6,
-    "wordCount": 55,
+    "regionCount": 4,
+    "wordCount": 52,
     "imageWidth": 1288,
     "imageHeight": 1859
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
         "r1",
-        "r2"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
+        "r2",
+        "r3",
         "r4"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r5",
-        "r6"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Mrs. Smith is taking a knife and fork off the tray.",
-      "x": 0.12,
-      "y": 0.1,
-      "w": 0.35,
-      "h": 0.08,
       "id": "r1",
       "order": 0,
+      "text": "Mrs. Smith is taking a and fork off the She has them in her",
+      "x": 0.1398,
+      "y": 0.1022,
+      "w": 0.3058,
+      "h": 0.1178,
       "words": [
         "Mrs.",
         "Smith",
         "is",
         "taking",
         "a",
-        "knife",
         "and",
         "fork",
         "off",
         "the",
-        "tray."
-      ]
-    },
-    {
-      "text": "She has them in her hands.",
-      "x": 0.12,
-      "y": 0.18,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r2",
-      "order": 1,
-      "words": [
         "She",
         "has",
         "them",
         "in",
-        "her",
-        "hands."
-      ]
+        "her"
+      ],
+      "conf": 92.2537,
+      "source": "psm-11"
     },
     {
+      "id": "r2",
+      "order": 1,
       "text": "She is putting them on the table.",
-      "x": 0.52,
-      "y": 0.12,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r3",
-      "order": 2,
+      "x": 0.5326,
+      "y": 0.1296,
+      "w": 0.3121,
+      "h": 0.0441,
       "words": [
         "She",
         "is",
@@ -113,16 +69,18 @@
         "on",
         "the",
         "table."
-      ]
+      ],
+      "conf": 96.4887,
+      "source": "psm-11"
     },
     {
-      "text": "Now she is putting the plates on the table.",
-      "x": 0.12,
-      "y": 0.53,
-      "w": 0.35,
+      "id": "r3",
+      "order": 2,
+      "text": "Now she is putting the plates on the table",
+      "x": 0.1328,
+      "y": 0.5412,
+      "w": 0.3152,
       "h": 0.05,
-      "id": "r4",
-      "order": 3,
       "words": [
         "Now",
         "she",
@@ -132,17 +90,19 @@
         "plates",
         "on",
         "the",
-        "table."
-      ]
+        "table"
+      ],
+      "conf": 96.4655,
+      "source": "psm-11"
     },
     {
-      "text": "She put the knives and forks and spoons and plates and glasses on the table.",
-      "x": 0.52,
-      "y": 0.52,
-      "w": 0.35,
-      "h": 0.1,
-      "id": "r5",
-      "order": 4,
+      "id": "r4",
+      "order": 3,
+      "text": "She put the knives and forks and spoons and plates and glasses on the table She put these things on the table",
+      "x": 0.5264,
+      "y": 0.5288,
+      "w": 0.3253,
+      "h": 0.1463,
       "words": [
         "She",
         "put",
@@ -158,26 +118,17 @@
         "glasses",
         "on",
         "the",
-        "table."
-      ]
-    },
-    {
-      "text": "She put these things on the table.",
-      "x": 0.52,
-      "y": 0.63,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r6",
-      "order": 5,
-      "words": [
+        "table",
         "She",
         "put",
         "these",
         "things",
         "on",
         "the",
-        "table."
-      ]
+        "table"
+      ],
+      "conf": 96.6507,
+      "source": "psm-11"
     }
   ]
 }

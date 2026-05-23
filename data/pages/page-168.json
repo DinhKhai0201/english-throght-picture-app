@@ -4,8 +4,8 @@
   "imageApiPath": "/api/books/page%20168.png",
   "layout": "quad",
   "stats": {
-    "regionCount": 6,
-    "wordCount": 63,
+    "regionCount": 14,
+    "wordCount": 62,
     "imageWidth": 1142,
     "imageHeight": 1859
   },
@@ -19,7 +19,7 @@
       "h": 0.5,
       "regionIds": [
         "r1",
-        "r2"
+        "r4"
       ]
     },
     {
@@ -30,7 +30,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r3"
+        "r2",
+        "r3",
+        "r5",
+        "r6"
       ]
     },
     {
@@ -41,8 +44,12 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r4",
-        "r5"
+        "r7",
+        "r8",
+        "r9",
+        "r10",
+        "r11",
+        "r14"
       ]
     },
     {
@@ -53,19 +60,20 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r6"
+        "r12",
+        "r13"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Here are the supports for the roof.",
-      "x": 0.1,
-      "y": 0.13,
-      "w": 0.38,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "Here are the supports for the roof.",
+      "x": 0.0692,
+      "y": 0.1339,
+      "w": 0.3931,
+      "h": 0.0447,
       "words": [
         "Here",
         "are",
@@ -74,16 +82,46 @@
         "for",
         "the",
         "roof."
-      ]
+      ],
+      "conf": 96.7368,
+      "source": "psm-11"
     },
     {
-      "text": "Will you put another support for it in the middle?",
-      "x": 0.1,
-      "y": 0.34,
-      "w": 0.4,
-      "h": 0.08,
       "id": "r2",
       "order": 1,
+      "text": "Where?",
+      "x": 0.6375,
+      "y": 0.1146,
+      "w": 0.1252,
+      "h": 0.0194,
+      "words": [
+        "Where?"
+      ],
+      "conf": 96.6462,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Here.",
+      "x": 0.6594,
+      "y": 0.2125,
+      "w": 0.0849,
+      "h": 0.0344,
+      "words": [
+        "Here."
+      ],
+      "conf": 96.894,
+      "source": "psm-11"
+    },
+    {
+      "id": "r4",
+      "order": 3,
+      "text": "Will you put another support for it in the middle?",
+      "x": 0.0954,
+      "y": 0.3389,
+      "w": 0.3301,
+      "h": 0.071,
       "words": [
         "Will",
         "you",
@@ -95,97 +133,182 @@
         "in",
         "the",
         "middle?"
-      ]
+      ],
+      "conf": 96.9376,
+      "source": "psm-11"
     },
     {
-      "text": "Where? Here. In the middle. Yes, that is better.",
-      "x": 0.54,
-      "y": 0.11,
-      "w": 0.4,
-      "h": 0.25,
-      "id": "r3",
-      "order": 2,
+      "id": "r5",
+      "order": 4,
+      "text": "In the middle.",
+      "x": 0.5989,
+      "y": 0.3324,
+      "w": 0.2163,
+      "h": 0.0194,
       "words": [
-        "Where?",
-        "Here.",
         "In",
         "the",
-        "middle.",
+        "middle."
+      ],
+      "conf": 96.0765,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "Yes, that is better.",
+      "x": 0.5665,
+      "y": 0.4126,
+      "w": 0.2863,
+      "h": 0.0221,
+      "words": [
         "Yes,",
         "that",
         "is",
         "better."
-      ]
+      ],
+      "conf": 96.7554,
+      "source": "psm-11"
     },
     {
-      "text": "This is a straight line. This is one end of it. This is the other end. This is the middle of it.",
-      "x": 0.1,
-      "y": 0.59,
-      "w": 0.38,
-      "h": 0.2,
-      "id": "r4",
-      "order": 3,
+      "id": "r7",
+      "order": 6,
+      "text": "This is a straight line.",
+      "x": 0.0902,
+      "y": 0.5928,
+      "w": 0.3406,
+      "h": 0.0231,
       "words": [
         "This",
         "is",
         "a",
         "straight",
-        "line.",
+        "line."
+      ],
+      "conf": 96.1175,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "This is one",
+      "x": 0.0534,
+      "y": 0.6686,
+      "w": 0.1637,
+      "h": 0.0194,
+      "words": [
         "This",
         "is",
-        "one",
-        "end",
-        "of",
-        "it.",
+        "one"
+      ],
+      "conf": 96.3881,
+      "source": "psm-11"
+    },
+    {
+      "id": "r9",
+      "order": 8,
+      "text": "This is the end of it.",
+      "x": 0.0753,
+      "y": 0.6703,
+      "w": 0.3836,
+      "h": 0.0436,
+      "words": [
         "This",
         "is",
         "the",
+        "end",
+        "of",
+        "it."
+      ],
+      "conf": 96.5215,
+      "source": "psm-11"
+    },
+    {
+      "id": "r10",
+      "order": 9,
+      "text": "other end.",
+      "x": 0.2995,
+      "y": 0.695,
+      "w": 0.1611,
+      "h": 0.0194,
+      "words": [
         "other",
-        "end.",
+        "end."
+      ],
+      "conf": 96.6399,
+      "source": "psm-11"
+    },
+    {
+      "id": "r11",
+      "order": 10,
+      "text": "This is the middle of it.",
+      "x": 0.1585,
+      "y": 0.7316,
+      "w": 0.2005,
+      "h": 0.0694,
+      "words": [
         "This",
         "is",
         "the",
         "middle",
         "of",
         "it."
-      ]
+      ],
+      "conf": 95.8124,
+      "source": "psm-11"
     },
     {
-      "text": "This is a bent line.",
-      "x": 0.1,
-      "y": 0.86,
-      "w": 0.35,
-      "h": 0.03,
-      "id": "r5",
-      "order": 4,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "bent",
-        "line."
-      ]
-    },
-    {
-      "text": "That will be better. That will make the roof stronger.",
-      "x": 0.52,
-      "y": 0.74,
-      "w": 0.4,
-      "h": 0.08,
-      "id": "r6",
-      "order": 5,
+      "id": "r12",
+      "order": 11,
+      "text": "That will be better.",
+      "x": 0.5193,
+      "y": 0.7396,
+      "w": 0.3056,
+      "h": 0.0204,
       "words": [
         "That",
         "will",
         "be",
-        "better.",
+        "better."
+      ],
+      "conf": 95.9788,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "That will make the roof stronger.",
+      "x": 0.5175,
+      "y": 0.7655,
+      "w": 0.3722,
+      "h": 0.0484,
+      "words": [
         "That",
         "will",
         "make",
         "the",
         "roof",
         "stronger."
-      ]
+      ],
+      "conf": 96.5289,
+      "source": "psm-11"
+    },
+    {
+      "id": "r14",
+      "order": 13,
+      "text": "This is a bent",
+      "x": 0.1296,
+      "y": 0.8596,
+      "w": 0.211,
+      "h": 0.0188,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "bent"
+      ],
+      "conf": 96.5511,
+      "source": "psm-11"
     }
   ]
 }

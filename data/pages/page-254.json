@@ -2,68 +2,40 @@
   "page": 254,
   "image": "/books/page 254.png",
   "imageApiPath": "/api/books/page%20254.png",
-  "layout": "quad",
+  "layout": "single",
   "stats": {
-    "regionCount": 4,
-    "wordCount": 112,
+    "regionCount": 6,
+    "wordCount": 110,
     "imageWidth": 1150,
     "imageHeight": 1830
   },
   "panels": [
     {
-      "id": "top-left",
-      "label": "Top Left",
+      "id": "full-page",
+      "label": "Full Page",
       "x": 0,
       "y": 0,
-      "w": 0.5,
-      "h": 0.5,
+      "w": 1,
+      "h": 1,
       "regionIds": [
-        "r1"
-      ]
-    },
-    {
-      "id": "top-right",
-      "label": "Top Right",
-      "x": 0.5,
-      "y": 0,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r2"
-      ]
-    },
-    {
-      "id": "bottom-left",
-      "label": "Bottom Left",
-      "x": 0,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r3"
-      ]
-    },
-    {
-      "id": "bottom-right",
-      "label": "Bottom Right",
-      "x": 0.5,
-      "y": 0.5,
-      "w": 0.5,
-      "h": 0.5,
-      "regionIds": [
-        "r4"
+        "r1",
+        "r2",
+        "r3",
+        "r4",
+        "r5",
+        "r6"
       ]
     }
   ],
   "regions": [
     {
-      "text": "Another sense is our sense of motion. Here is a seat which goes round and round.",
-      "x": 0.1,
-      "y": 0.1,
-      "w": 0.38,
-      "h": 0.12,
       "id": "r1",
       "order": 0,
+      "text": "Another sense is our sense of motion.",
+      "x": 0.1104,
+      "y": 0.094,
+      "w": 0.3191,
+      "h": 0.0442,
       "words": [
         "Another",
         "sense",
@@ -71,7 +43,45 @@
         "our",
         "sense",
         "of",
-        "motion.",
+        "motion."
+      ],
+      "conf": 96.2975,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "A man is in the seat, He is going round and round...",
+      "x": 0.5504,
+      "y": 0.0934,
+      "w": 0.3539,
+      "h": 0.0711,
+      "words": [
+        "A",
+        "man",
+        "is",
+        "in",
+        "the",
+        "seat,",
+        "He",
+        "is",
+        "going",
+        "round",
+        "and",
+        "round..."
+      ],
+      "conf": 90.9795,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "Here is a seat which goes round and round.",
+      "x": 0.1104,
+      "y": 0.1448,
+      "w": 0.3635,
+      "h": 0.0492,
+      "words": [
         "Here",
         "is",
         "a",
@@ -81,39 +91,18 @@
         "round",
         "and",
         "round."
-      ]
+      ],
+      "conf": 96.154,
+      "source": "psm-11"
     },
     {
-      "text": "A man is in the seat. He is going round and round...",
-      "x": 0.53,
-      "y": 0.1,
-      "w": 0.38,
-      "h": 0.12,
-      "id": "r2",
-      "order": 1,
-      "words": [
-        "A",
-        "man",
-        "is",
-        "in",
-        "the",
-        "seat.",
-        "He",
-        "is",
-        "going",
-        "round",
-        "and",
-        "round..."
-      ]
-    },
-    {
-      "text": "At first he has a feeling that he is in motion. He has the feeling that he is going round. The seat, with the man in it, keeps on turning round at the same rate. It does not go quicker. It does not go slower.",
-      "x": 0.1,
-      "y": 0.59,
-      "w": 0.4,
-      "h": 0.3,
-      "id": "r3",
-      "order": 2,
+      "id": "r4",
+      "order": 3,
+      "text": "At first he has a feeling that he is in motion.",
+      "x": 0.1113,
+      "y": 0.5781,
+      "w": 0.4026,
+      "h": 0.0492,
       "words": [
         "At",
         "first",
@@ -125,51 +114,19 @@
         "he",
         "is",
         "in",
-        "motion.",
-        "He",
-        "has",
-        "the",
-        "feeling",
-        "that",
-        "he",
-        "is",
-        "going",
-        "round.",
-        "The",
-        "seat,",
-        "with",
-        "the",
-        "man",
-        "in",
-        "it,",
-        "keeps",
-        "on",
-        "turning",
-        "round",
-        "at",
-        "the",
-        "same",
-        "rate.",
-        "It",
-        "does",
-        "not",
-        "go",
-        "quicker.",
-        "It",
-        "does",
-        "not",
-        "go",
-        "slower."
-      ]
+        "motion."
+      ],
+      "conf": 94.0281,
+      "source": "psm-11"
     },
     {
-      "text": "After a time the man has a feeling that he is not in motion. But there is no change in the rate at which the seat is turning. It is going round the same number of times a minute.",
-      "x": 0.53,
-      "y": 0.59,
-      "w": 0.4,
-      "h": 0.3,
-      "id": "r4",
-      "order": 3,
+      "id": "r5",
+      "order": 4,
+      "text": "After a time the man has a feeljng that he Is not in motion. But there is no change in the rate at which the seat is turning. It is going round the same number of times a minute.",
+      "x": 0.5383,
+      "y": 0.5787,
+      "w": 0.3851,
+      "h": 0.1984,
       "words": [
         "After",
         "a",
@@ -178,10 +135,10 @@
         "man",
         "has",
         "a",
-        "feeling",
+        "feeljng",
         "that",
         "he",
-        "is",
+        "Is",
         "not",
         "in",
         "motion.",
@@ -210,7 +167,54 @@
         "times",
         "a",
         "minute."
-      ]
+      ],
+      "conf": 96.018,
+      "source": "psm-11"
+    },
+    {
+      "id": "r6",
+      "order": 5,
+      "text": "He has the-feeling that he is going round The seat,with the man in it, keeps on turning round at the same rate It does not go quicker It does not go slower,",
+      "x": 0.1104,
+      "y": 0.629,
+      "w": 0.3591,
+      "h": 0.177,
+      "words": [
+        "He",
+        "has",
+        "the-feeling",
+        "that",
+        "he",
+        "is",
+        "going",
+        "round",
+        "The",
+        "seat,with",
+        "the",
+        "man",
+        "in",
+        "it,",
+        "keeps",
+        "on",
+        "turning",
+        "round",
+        "at",
+        "the",
+        "same",
+        "rate",
+        "It",
+        "does",
+        "not",
+        "go",
+        "quicker",
+        "It",
+        "does",
+        "not",
+        "go",
+        "slower,"
+      ],
+      "conf": 91.3225,
+      "source": "psm-11"
     }
   ]
 }

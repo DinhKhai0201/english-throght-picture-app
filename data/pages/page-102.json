@@ -5,7 +5,7 @@
   "layout": "quad",
   "stats": {
     "regionCount": 14,
-    "wordCount": 89,
+    "wordCount": 87,
     "imageWidth": 1167,
     "imageHeight": 1838
   },
@@ -18,9 +18,9 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r1",
-        "r2",
-        "r3"
+        "r3",
+        "r6",
+        "r7"
       ]
     },
     {
@@ -31,12 +31,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
+        "r1",
+        "r2",
         "r4",
-        "r5",
-        "r6",
-        "r7",
-        "r8",
-        "r9"
+        "r5"
       ]
     },
     {
@@ -47,9 +45,10 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r10",
-        "r11",
-        "r12"
+        "r8",
+        "r9",
+        "r12",
+        "r13"
       ]
     },
     {
@@ -60,20 +59,52 @@
       "w": 0.5,
       "h": 0.5,
       "regionIds": [
-        "r13",
+        "r10",
+        "r11",
         "r14"
       ]
     }
   ],
   "regions": [
     {
-      "text": "The walls and floor of the fridge are thick.",
-      "x": 0.12,
-      "y": 0.15,
-      "w": 0.35,
-      "h": 0.05,
       "id": "r1",
       "order": 0,
+      "text": "Warm y",
+      "x": 0.5287,
+      "y": 0.1045,
+      "w": 0.1362,
+      "h": 0.0299,
+      "words": [
+        "Warm",
+        "y"
+      ],
+      "conf": 69.6249,
+      "source": "psm-11"
+    },
+    {
+      "id": "r2",
+      "order": 1,
+      "text": "y Warm alr",
+      "x": 0.5441,
+      "y": 0.1088,
+      "w": 0.3513,
+      "h": 0.0479,
+      "words": [
+        "y",
+        "Warm",
+        "alr"
+      ],
+      "conf": 65.983,
+      "source": "psm-11"
+    },
+    {
+      "id": "r3",
+      "order": 2,
+      "text": "The walls and floor of the fridge are thick",
+      "x": 0.1328,
+      "y": 0.1518,
+      "w": 0.3453,
+      "h": 0.0473,
       "words": [
         "The",
         "walls",
@@ -83,131 +114,53 @@
         "the",
         "fridge",
         "are",
-        "thick."
-      ]
+        "thick"
+      ],
+      "conf": 93.4673,
+      "source": "psm-11"
     },
     {
-      "text": "This is a thin line.",
-      "x": 0.18,
-      "y": 0.39,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r2",
-      "order": 1,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "thin",
-        "line."
-      ]
-    },
-    {
-      "text": "This is a thick line.",
-      "x": 0.17,
-      "y": 0.45,
-      "w": 0.3,
-      "h": 0.03,
-      "id": "r3",
-      "order": 2,
-      "words": [
-        "This",
-        "is",
-        "a",
-        "thick",
-        "line."
-      ]
-    },
-    {
-      "text": "Warm air",
-      "x": 0.51,
-      "y": 0.11,
-      "w": 0.12,
-      "h": 0.05,
       "id": "r4",
       "order": 3,
+      "text": "air",
+      "x": 0.8226,
+      "y": 0.1387,
+      "w": 0.0446,
+      "h": 0.0185,
       "words": [
-        "Warm",
         "air"
-      ]
+      ],
+      "conf": 95.1999,
+      "source": "psm-11"
     },
     {
-      "text": "Cold air",
-      "x": 0.67,
-      "y": 0.11,
-      "w": 0.1,
-      "h": 0.05,
       "id": "r5",
       "order": 4,
-      "words": [
-        "Cold",
-        "air"
-      ]
-    },
-    {
-      "text": "Warm air",
-      "x": 0.79,
-      "y": 0.11,
-      "w": 0.12,
-      "h": 0.05,
-      "id": "r6",
-      "order": 5,
-      "words": [
-        "Warm",
-        "air"
-      ]
-    },
-    {
-      "text": "The thick walls keep the heat of the room out of the fridge.",
-      "x": 0.53,
-      "y": 0.23,
-      "w": 0.4,
-      "h": 0.08,
-      "id": "r7",
-      "order": 6,
+      "text": "The thick walls keep the eat of the room out the fridge They keep the heat from the milk The cold air in the fridge keeps the milk good",
+      "x": 0.5321,
+      "y": 0.235,
+      "w": 0.389,
+      "h": 0.203,
       "words": [
         "The",
         "thick",
         "walls",
         "keep",
         "the",
-        "heat",
+        "eat",
         "of",
         "the",
         "room",
         "out",
-        "of",
         "the",
-        "fridge."
-      ]
-    },
-    {
-      "text": "They keep the heat from the milk.",
-      "x": 0.53,
-      "y": 0.31,
-      "w": 0.4,
-      "h": 0.05,
-      "id": "r8",
-      "order": 7,
-      "words": [
+        "fridge",
         "They",
         "keep",
         "the",
         "heat",
         "from",
         "the",
-        "milk."
-      ]
-    },
-    {
-      "text": "The cold air in the fridge keeps the milk good.",
-      "x": 0.53,
-      "y": 0.36,
-      "w": 0.38,
-      "h": 0.08,
-      "id": "r9",
-      "order": 8,
-      "words": [
+        "milk",
         "The",
         "cold",
         "air",
@@ -217,33 +170,72 @@
         "keeps",
         "the",
         "milk",
-        "good."
-      ]
+        "good"
+      ],
+      "conf": 96.5966,
+      "source": "psm-11"
     },
     {
-      "text": "John is having a drink.",
-      "x": 0.1,
-      "y": 0.54,
-      "w": 0.38,
-      "h": 0.03,
-      "id": "r10",
-      "order": 9,
+      "id": "r6",
+      "order": 5,
+      "text": "This is a thin line.",
+      "x": 0.1979,
+      "y": 0.3912,
+      "w": 0.2614,
+      "h": 0.0207,
       "words": [
-        "John",
+        "This",
         "is",
+        "a",
+        "thin",
+        "line."
+      ],
+      "conf": 89.5321,
+      "source": "psm-11"
+    },
+    {
+      "id": "r7",
+      "order": 6,
+      "text": "This is a thick line.",
+      "x": 0.1851,
+      "y": 0.445,
+      "w": 0.2785,
+      "h": 0.0207,
+      "words": [
+        "This",
+        "is",
+        "a",
+        "thick",
+        "line."
+      ],
+      "conf": 88.559,
+      "source": "psm-11"
+    },
+    {
+      "id": "r8",
+      "order": 7,
+      "text": "Is having a drink.",
+      "x": 0.1971,
+      "y": 0.5375,
+      "w": 0.2691,
+      "h": 0.0288,
+      "words": [
+        "Is",
         "having",
         "a",
         "drink."
-      ]
+      ],
+      "conf": 93.1298,
+      "source": "psm-11"
     },
     {
+      "id": "r9",
+      "order": 8,
       "text": "He is having a drink of milk from a glass.",
-      "x": 0.1,
-      "y": 0.56,
-      "w": 0.38,
-      "h": 0.05,
-      "id": "r11",
-      "order": 10,
+      "x": 0.1123,
+      "y": 0.5653,
+      "w": 0.3565,
+      "h": 0.0495,
       "words": [
         "He",
         "is",
@@ -255,59 +247,93 @@
         "from",
         "a",
         "glass."
-      ]
+      ],
+      "conf": 96.12,
+      "source": "psm-11"
     },
     {
-      "text": "The milk is good. John is happy.",
-      "x": 0.14,
-      "y": 0.79,
-      "w": 0.3,
-      "h": 0.05,
-      "id": "r12",
-      "order": 11,
-      "words": [
-        "The",
-        "milk",
-        "is",
-        "good.",
-        "John",
-        "is",
-        "happy."
-      ]
-    },
-    {
-      "text": "This milk is not good. It is bad.",
-      "x": 0.56,
-      "y": 0.58,
-      "w": 0.35,
-      "h": 0.05,
-      "id": "r13",
-      "order": 12,
+      "id": "r10",
+      "order": 9,
+      "text": "This milk is not good.",
+      "x": 0.563,
+      "y": 0.5843,
+      "w": 0.3222,
+      "h": 0.0239,
       "words": [
         "This",
         "milk",
         "is",
         "not",
-        "good.",
-        "It",
-        "is",
-        "bad."
-      ]
+        "good."
+      ],
+      "conf": 93.6853,
+      "source": "psm-11"
     },
     {
-      "text": "John is not happy.",
-      "x": 0.56,
-      "y": 0.8,
-      "w": 0.3,
-      "h": 0.03,
+      "id": "r11",
+      "order": 10,
+      "text": "it is bad",
+      "x": 0.5656,
+      "y": 0.6104,
+      "w": 0.1251,
+      "h": 0.0196,
+      "words": [
+        "it",
+        "is",
+        "bad"
+      ],
+      "conf": 88.4908,
+      "source": "psm-11"
+    },
+    {
+      "id": "r12",
+      "order": 11,
+      "text": "The milk is good.",
+      "x": 0.1585,
+      "y": 0.7905,
+      "w": 0.2656,
+      "h": 0.0245,
+      "words": [
+        "The",
+        "milk",
+        "is",
+        "good."
+      ],
+      "conf": 96.2225,
+      "source": "psm-11"
+    },
+    {
+      "id": "r13",
+      "order": 12,
+      "text": "John Is happy.",
+      "x": 0.1602,
+      "y": 0.8161,
+      "w": 0.2271,
+      "h": 0.025,
+      "words": [
+        "John",
+        "Is",
+        "happy."
+      ],
+      "conf": 92.5186,
+      "source": "psm-11"
+    },
+    {
       "id": "r14",
       "order": 13,
+      "text": "John is not happy.",
+      "x": 0.5707,
+      "y": 0.8041,
+      "w": 0.2896,
+      "h": 0.025,
       "words": [
         "John",
         "is",
         "not",
         "happy."
-      ]
+      ],
+      "conf": 94.0722,
+      "source": "psm-11"
     }
   ]
 }
