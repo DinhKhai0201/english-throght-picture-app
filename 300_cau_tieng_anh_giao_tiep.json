@@ -1,0 +1,3012 @@
+{
+  "title": "300 câu tiếng Anh giao tiếp cốt lõi",
+  "language": "English-Vietnamese",
+  "total_sentences": 300,
+  "recommended_daily_target": 10,
+  "fields": {
+    "priority": "5 = học trước, 1 = học sau",
+    "learned": "đánh dấu true khi đã thuộc"
+  },
+  "sentences": [
+    {
+      "id": 1,
+      "category": "greetings",
+      "english": "Hi.",
+      "vietnamese": "Chào.",
+      "suggested_reply": "Hello!",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 2,
+      "category": "greetings",
+      "english": "Hello.",
+      "vietnamese": "Xin chào.",
+      "suggested_reply": "Hi!",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 3,
+      "category": "greetings",
+      "english": "Good morning.",
+      "vietnamese": "Chào buổi sáng.",
+      "suggested_reply": "Good morning!",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 4,
+      "category": "greetings",
+      "english": "Good afternoon.",
+      "vietnamese": "Chào buổi chiều.",
+      "suggested_reply": "Good afternoon!",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 5,
+      "category": "greetings",
+      "english": "Good evening.",
+      "vietnamese": "Chào buổi tối.",
+      "suggested_reply": "Good evening!",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 6,
+      "category": "greetings",
+      "english": "How are you?",
+      "vietnamese": "Bạn khỏe không?",
+      "suggested_reply": "I'm good, thanks.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 7,
+      "category": "greetings",
+      "english": "How's it going?",
+      "vietnamese": "Dạo này thế nào?",
+      "suggested_reply": "Pretty good.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 8,
+      "category": "greetings",
+      "english": "How have you been?",
+      "vietnamese": "Dạo này bạn thế nào?",
+      "suggested_reply": "I've been good.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 9,
+      "category": "greetings",
+      "english": "Nice to meet you.",
+      "vietnamese": "Rất vui được gặp bạn.",
+      "suggested_reply": "Nice to meet you too.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 10,
+      "category": "greetings",
+      "english": "Long time no see.",
+      "vietnamese": "Lâu rồi không gặp.",
+      "suggested_reply": "Yeah, it's been a while.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 11,
+      "category": "greetings",
+      "english": "What's up?",
+      "vietnamese": "Có chuyện gì vậy?",
+      "suggested_reply": "Not much.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 12,
+      "category": "greetings",
+      "english": "How are things?",
+      "vietnamese": "Mọi việc thế nào?",
+      "suggested_reply": "Things are good.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 13,
+      "category": "greetings",
+      "english": "See you later.",
+      "vietnamese": "Hẹn gặp lại.",
+      "suggested_reply": "See you.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 14,
+      "category": "greetings",
+      "english": "See you tomorrow.",
+      "vietnamese": "Hẹn gặp ngày mai.",
+      "suggested_reply": "See you tomorrow.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 15,
+      "category": "greetings",
+      "english": "Take care.",
+      "vietnamese": "Giữ gìn sức khỏe nhé.",
+      "suggested_reply": "You too.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 16,
+      "category": "greetings",
+      "english": "Have a nice day.",
+      "vietnamese": "Chúc một ngày tốt lành.",
+      "suggested_reply": "You too.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 17,
+      "category": "greetings",
+      "english": "Good night.",
+      "vietnamese": "Chúc ngủ ngon.",
+      "suggested_reply": "Good night.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 18,
+      "category": "greetings",
+      "english": "Welcome!",
+      "vietnamese": "Chào mừng!",
+      "suggested_reply": "Thank you.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 19,
+      "category": "greetings",
+      "english": "It's good to see you.",
+      "vietnamese": "Rất vui được gặp lại bạn.",
+      "suggested_reply": "Good to see you too.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 20,
+      "category": "greetings",
+      "english": "Have a good weekend.",
+      "vietnamese": "Chúc cuối tuần vui vẻ.",
+      "suggested_reply": "You too.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 21,
+      "category": "introductions",
+      "english": "What's your name?",
+      "vietnamese": "Bạn tên gì?",
+      "suggested_reply": "My name is ...",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 22,
+      "category": "introductions",
+      "english": "My name is ...",
+      "vietnamese": "Tên tôi là ...",
+      "suggested_reply": "Nice to meet you.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 23,
+      "category": "introductions",
+      "english": "Where are you from?",
+      "vietnamese": "Bạn đến từ đâu?",
+      "suggested_reply": "I'm from Vietnam.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 24,
+      "category": "introductions",
+      "english": "I'm from Vietnam.",
+      "vietnamese": "Tôi đến từ Việt Nam.",
+      "suggested_reply": "That's nice.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 25,
+      "category": "introductions",
+      "english": "Where do you live?",
+      "vietnamese": "Bạn sống ở đâu?",
+      "suggested_reply": "I live in ...",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 26,
+      "category": "introductions",
+      "english": "I live in Ho Chi Minh City.",
+      "vietnamese": "Tôi sống ở Thành phố Hồ Chí Minh.",
+      "suggested_reply": "How do you like it there?",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 27,
+      "category": "introductions",
+      "english": "How old are you?",
+      "vietnamese": "Bạn bao nhiêu tuổi?",
+      "suggested_reply": "I'm ... years old.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 28,
+      "category": "introductions",
+      "english": "What do you do?",
+      "vietnamese": "Bạn làm nghề gì?",
+      "suggested_reply": "I'm a ...",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 29,
+      "category": "introductions",
+      "english": "I'm a student.",
+      "vietnamese": "Tôi là sinh viên.",
+      "suggested_reply": "What do you study?",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 30,
+      "category": "introductions",
+      "english": "I'm a software developer.",
+      "vietnamese": "Tôi là lập trình viên.",
+      "suggested_reply": "That sounds interesting.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 31,
+      "category": "introductions",
+      "english": "What do you study?",
+      "vietnamese": "Bạn học ngành gì?",
+      "suggested_reply": "I study ...",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 32,
+      "category": "introductions",
+      "english": "Do you speak English?",
+      "vietnamese": "Bạn có nói tiếng Anh không?",
+      "suggested_reply": "A little.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 33,
+      "category": "introductions",
+      "english": "I'm learning English.",
+      "vietnamese": "Tôi đang học tiếng Anh.",
+      "suggested_reply": "That's great.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 34,
+      "category": "introductions",
+      "english": "How long have you been learning English?",
+      "vietnamese": "Bạn học tiếng Anh bao lâu rồi?",
+      "suggested_reply": "For about two years.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 35,
+      "category": "introductions",
+      "english": "What are your hobbies?",
+      "vietnamese": "Sở thích của bạn là gì?",
+      "suggested_reply": "I like reading and music.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 36,
+      "category": "introductions",
+      "english": "I like watching movies.",
+      "vietnamese": "Tôi thích xem phim.",
+      "suggested_reply": "What kind of movies?",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 37,
+      "category": "introductions",
+      "english": "I enjoy traveling.",
+      "vietnamese": "Tôi thích đi du lịch.",
+      "suggested_reply": "Where have you been?",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 38,
+      "category": "introductions",
+      "english": "This is my friend.",
+      "vietnamese": "Đây là bạn của tôi.",
+      "suggested_reply": "Nice to meet you.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 39,
+      "category": "introductions",
+      "english": "Let me introduce myself.",
+      "vietnamese": "Để tôi tự giới thiệu.",
+      "suggested_reply": "Sure.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 40,
+      "category": "introductions",
+      "english": "Tell me about yourself.",
+      "vietnamese": "Hãy kể về bạn.",
+      "suggested_reply": "I'm from ... and I work as ...",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 41,
+      "category": "basic_responses",
+      "english": "Yes.",
+      "vietnamese": "Vâng.",
+      "suggested_reply": "Okay.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 42,
+      "category": "basic_responses",
+      "english": "No.",
+      "vietnamese": "Không.",
+      "suggested_reply": "I understand.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 43,
+      "category": "basic_responses",
+      "english": "Maybe.",
+      "vietnamese": "Có lẽ.",
+      "suggested_reply": "Let's see.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 44,
+      "category": "basic_responses",
+      "english": "Of course.",
+      "vietnamese": "Tất nhiên.",
+      "suggested_reply": "Thank you.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 45,
+      "category": "basic_responses",
+      "english": "Sure.",
+      "vietnamese": "Được thôi.",
+      "suggested_reply": "Great.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 46,
+      "category": "basic_responses",
+      "english": "No problem.",
+      "vietnamese": "Không vấn đề gì.",
+      "suggested_reply": "Thanks.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 47,
+      "category": "basic_responses",
+      "english": "That's okay.",
+      "vietnamese": "Không sao.",
+      "suggested_reply": "Thank you.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 48,
+      "category": "basic_responses",
+      "english": "I understand.",
+      "vietnamese": "Tôi hiểu.",
+      "suggested_reply": "Great.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 49,
+      "category": "basic_responses",
+      "english": "I don't understand.",
+      "vietnamese": "Tôi không hiểu.",
+      "suggested_reply": "Let me explain.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 50,
+      "category": "basic_responses",
+      "english": "I agree.",
+      "vietnamese": "Tôi đồng ý.",
+      "suggested_reply": "Exactly.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 51,
+      "category": "basic_responses",
+      "english": "I disagree.",
+      "vietnamese": "Tôi không đồng ý.",
+      "suggested_reply": "I see your point.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 52,
+      "category": "basic_responses",
+      "english": "Exactly.",
+      "vietnamese": "Chính xác.",
+      "suggested_reply": "That's right.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 53,
+      "category": "basic_responses",
+      "english": "Not really.",
+      "vietnamese": "Không hẳn.",
+      "suggested_reply": "Why not?",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 54,
+      "category": "basic_responses",
+      "english": "I think so.",
+      "vietnamese": "Tôi nghĩ vậy.",
+      "suggested_reply": "Me too.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 55,
+      "category": "basic_responses",
+      "english": "I don't think so.",
+      "vietnamese": "Tôi không nghĩ vậy.",
+      "suggested_reply": "Why?",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 56,
+      "category": "basic_responses",
+      "english": "It depends.",
+      "vietnamese": "Còn tùy.",
+      "suggested_reply": "On what?",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 57,
+      "category": "basic_responses",
+      "english": "I have no idea.",
+      "vietnamese": "Tôi không biết.",
+      "suggested_reply": "Let's find out.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 58,
+      "category": "basic_responses",
+      "english": "That makes sense.",
+      "vietnamese": "Điều đó hợp lý.",
+      "suggested_reply": "I'm glad you agree.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 59,
+      "category": "basic_responses",
+      "english": "Sounds good.",
+      "vietnamese": "Nghe ổn đấy.",
+      "suggested_reply": "Let's do it.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 60,
+      "category": "basic_responses",
+      "english": "That's interesting.",
+      "vietnamese": "Thú vị đấy.",
+      "suggested_reply": "Tell me more.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 61,
+      "category": "clarification",
+      "english": "Could you repeat that?",
+      "vietnamese": "Bạn có thể nhắc lại không?",
+      "suggested_reply": "Sure.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 62,
+      "category": "clarification",
+      "english": "Please speak more slowly.",
+      "vietnamese": "Xin hãy nói chậm hơn.",
+      "suggested_reply": "Of course.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 63,
+      "category": "clarification",
+      "english": "What do you mean?",
+      "vietnamese": "Ý bạn là gì?",
+      "suggested_reply": "I mean ...",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 64,
+      "category": "clarification",
+      "english": "How do you say this in English?",
+      "vietnamese": "Cái này nói bằng tiếng Anh thế nào?",
+      "suggested_reply": "You say ...",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 65,
+      "category": "clarification",
+      "english": "How do you spell that?",
+      "vietnamese": "Từ đó đánh vần thế nào?",
+      "suggested_reply": "It's spelled ...",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 66,
+      "category": "clarification",
+      "english": "Can you explain that?",
+      "vietnamese": "Bạn có thể giải thích không?",
+      "suggested_reply": "Sure.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 67,
+      "category": "clarification",
+      "english": "I didn't catch that.",
+      "vietnamese": "Tôi không nghe kịp.",
+      "suggested_reply": "Let me say it again.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 68,
+      "category": "clarification",
+      "english": "Could you say that again?",
+      "vietnamese": "Bạn có thể nói lại không?",
+      "suggested_reply": "Of course.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 69,
+      "category": "clarification",
+      "english": "What does this word mean?",
+      "vietnamese": "Từ này nghĩa là gì?",
+      "suggested_reply": "It means ...",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 70,
+      "category": "clarification",
+      "english": "Is this correct?",
+      "vietnamese": "Cái này đúng không?",
+      "suggested_reply": "Yes, it is.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 71,
+      "category": "clarification",
+      "english": "Did you say ...?",
+      "vietnamese": "Bạn vừa nói ... phải không?",
+      "suggested_reply": "Yes, that's right.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 72,
+      "category": "clarification",
+      "english": "Can you give me an example?",
+      "vietnamese": "Bạn có thể cho tôi ví dụ không?",
+      "suggested_reply": "Sure.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 73,
+      "category": "clarification",
+      "english": "I'm not sure I understand.",
+      "vietnamese": "Tôi không chắc mình hiểu.",
+      "suggested_reply": "Let me explain.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 74,
+      "category": "clarification",
+      "english": "Could you write it down?",
+      "vietnamese": "Bạn có thể viết ra không?",
+      "suggested_reply": "Sure.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 75,
+      "category": "clarification",
+      "english": "What should I say?",
+      "vietnamese": "Tôi nên nói gì?",
+      "suggested_reply": "You can say ...",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 76,
+      "category": "clarification",
+      "english": "Can you correct me?",
+      "vietnamese": "Bạn có thể sửa cho tôi không?",
+      "suggested_reply": "Of course.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 77,
+      "category": "clarification",
+      "english": "Is there another way to say it?",
+      "vietnamese": "Có cách nói khác không?",
+      "suggested_reply": "Yes, you can also say ...",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 78,
+      "category": "clarification",
+      "english": "What is the difference?",
+      "vietnamese": "Sự khác nhau là gì?",
+      "suggested_reply": "The difference is ...",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 79,
+      "category": "clarification",
+      "english": "Can you speak louder?",
+      "vietnamese": "Bạn có thể nói to hơn không?",
+      "suggested_reply": "Sure.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 80,
+      "category": "clarification",
+      "english": "Let me make sure I understand.",
+      "vietnamese": "Để tôi chắc rằng mình hiểu.",
+      "suggested_reply": "Go ahead.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 81,
+      "category": "daily_life",
+      "english": "What are you doing?",
+      "vietnamese": "Bạn đang làm gì?",
+      "suggested_reply": "I'm working.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 82,
+      "category": "daily_life",
+      "english": "I'm working.",
+      "vietnamese": "Tôi đang làm việc.",
+      "suggested_reply": "Are you busy?",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 83,
+      "category": "daily_life",
+      "english": "I'm studying.",
+      "vietnamese": "Tôi đang học.",
+      "suggested_reply": "What are you studying?",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 84,
+      "category": "daily_life",
+      "english": "I'm cooking.",
+      "vietnamese": "Tôi đang nấu ăn.",
+      "suggested_reply": "What are you making?",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 85,
+      "category": "daily_life",
+      "english": "I'm eating.",
+      "vietnamese": "Tôi đang ăn.",
+      "suggested_reply": "Enjoy your meal.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 86,
+      "category": "daily_life",
+      "english": "I'm watching TV.",
+      "vietnamese": "Tôi đang xem TV.",
+      "suggested_reply": "What are you watching?",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 87,
+      "category": "daily_life",
+      "english": "I'm going out.",
+      "vietnamese": "Tôi đang ra ngoài.",
+      "suggested_reply": "Where are you going?",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 88,
+      "category": "daily_life",
+      "english": "I'm staying home.",
+      "vietnamese": "Tôi sẽ ở nhà.",
+      "suggested_reply": "Sounds relaxing.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 89,
+      "category": "daily_life",
+      "english": "I'm tired.",
+      "vietnamese": "Tôi mệt.",
+      "suggested_reply": "You should rest.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 90,
+      "category": "daily_life",
+      "english": "I'm hungry.",
+      "vietnamese": "Tôi đói.",
+      "suggested_reply": "Let's get something to eat.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 91,
+      "category": "daily_life",
+      "english": "I'm thirsty.",
+      "vietnamese": "Tôi khát.",
+      "suggested_reply": "Do you want some water?",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 92,
+      "category": "daily_life",
+      "english": "I'm busy right now.",
+      "vietnamese": "Hiện giờ tôi đang bận.",
+      "suggested_reply": "No problem.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 93,
+      "category": "daily_life",
+      "english": "I'm free now.",
+      "vietnamese": "Bây giờ tôi rảnh.",
+      "suggested_reply": "Great, let's talk.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 94,
+      "category": "daily_life",
+      "english": "What time is it?",
+      "vietnamese": "Mấy giờ rồi?",
+      "suggested_reply": "It's eight o'clock.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 95,
+      "category": "daily_life",
+      "english": "What day is it today?",
+      "vietnamese": "Hôm nay là thứ mấy?",
+      "suggested_reply": "It's Monday.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 96,
+      "category": "daily_life",
+      "english": "What's the date today?",
+      "vietnamese": "Hôm nay là ngày bao nhiêu?",
+      "suggested_reply": "It's August first.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 97,
+      "category": "daily_life",
+      "english": "What are your plans today?",
+      "vietnamese": "Hôm nay bạn có kế hoạch gì?",
+      "suggested_reply": "I'm going to work.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 98,
+      "category": "daily_life",
+      "english": "What did you do today?",
+      "vietnamese": "Hôm nay bạn đã làm gì?",
+      "suggested_reply": "I went to work.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 99,
+      "category": "daily_life",
+      "english": "How was your day?",
+      "vietnamese": "Ngày hôm nay của bạn thế nào?",
+      "suggested_reply": "It was good.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 100,
+      "category": "daily_life",
+      "english": "Did you sleep well?",
+      "vietnamese": "Bạn ngủ ngon không?",
+      "suggested_reply": "Yes, I did.",
+      "level": "A1-A2",
+      "priority": 5,
+      "learned": false
+    },
+    {
+      "id": 101,
+      "category": "daily_life",
+      "english": "I just woke up.",
+      "vietnamese": "Tôi vừa thức dậy.",
+      "suggested_reply": "Good morning.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 102,
+      "category": "daily_life",
+      "english": "I'm getting ready.",
+      "vietnamese": "Tôi đang chuẩn bị.",
+      "suggested_reply": "Take your time.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 103,
+      "category": "daily_life",
+      "english": "I'm on my way.",
+      "vietnamese": "Tôi đang trên đường tới.",
+      "suggested_reply": "See you soon.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 104,
+      "category": "daily_life",
+      "english": "I'm almost there.",
+      "vietnamese": "Tôi gần tới rồi.",
+      "suggested_reply": "Okay.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 105,
+      "category": "daily_life",
+      "english": "I'm running late.",
+      "vietnamese": "Tôi đang đến muộn.",
+      "suggested_reply": "No worries.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 106,
+      "category": "daily_life",
+      "english": "Wait a minute.",
+      "vietnamese": "Đợi một chút.",
+      "suggested_reply": "Sure.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 107,
+      "category": "daily_life",
+      "english": "Give me a second.",
+      "vietnamese": "Cho tôi một giây.",
+      "suggested_reply": "Okay.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 108,
+      "category": "daily_life",
+      "english": "Let's go.",
+      "vietnamese": "Đi thôi.",
+      "suggested_reply": "I'm ready.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 109,
+      "category": "daily_life",
+      "english": "Let's take a break.",
+      "vietnamese": "Nghỉ một chút nhé.",
+      "suggested_reply": "Good idea.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 110,
+      "category": "daily_life",
+      "english": "What happened?",
+      "vietnamese": "Có chuyện gì vậy?",
+      "suggested_reply": "Nothing serious.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 111,
+      "category": "daily_life",
+      "english": "Are you okay?",
+      "vietnamese": "Bạn ổn chứ?",
+      "suggested_reply": "Yes, I'm fine.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 112,
+      "category": "daily_life",
+      "english": "I'm feeling better.",
+      "vietnamese": "Tôi cảm thấy khá hơn.",
+      "suggested_reply": "That's good.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 113,
+      "category": "daily_life",
+      "english": "I'm not feeling well.",
+      "vietnamese": "Tôi cảm thấy không khỏe.",
+      "suggested_reply": "You should rest.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 114,
+      "category": "daily_life",
+      "english": "It's raining.",
+      "vietnamese": "Trời đang mưa.",
+      "suggested_reply": "Take an umbrella.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 115,
+      "category": "daily_life",
+      "english": "It's hot today.",
+      "vietnamese": "Hôm nay trời nóng.",
+      "suggested_reply": "Yes, very hot.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 116,
+      "category": "daily_life",
+      "english": "It's cold today.",
+      "vietnamese": "Hôm nay trời lạnh.",
+      "suggested_reply": "Wear a jacket.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 117,
+      "category": "daily_life",
+      "english": "The weather is nice.",
+      "vietnamese": "Thời tiết đẹp.",
+      "suggested_reply": "Let's go outside.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 118,
+      "category": "daily_life",
+      "english": "I'm bored.",
+      "vietnamese": "Tôi chán.",
+      "suggested_reply": "Let's do something.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 119,
+      "category": "daily_life",
+      "english": "I'm excited.",
+      "vietnamese": "Tôi hào hứng.",
+      "suggested_reply": "Me too.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 120,
+      "category": "daily_life",
+      "english": "I'm worried.",
+      "vietnamese": "Tôi lo lắng.",
+      "suggested_reply": "Don't worry.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 121,
+      "category": "daily_life",
+      "english": "I'm happy for you.",
+      "vietnamese": "Tôi vui cho bạn.",
+      "suggested_reply": "Thank you.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 122,
+      "category": "daily_life",
+      "english": "That's great news.",
+      "vietnamese": "Đó là tin tuyệt vời.",
+      "suggested_reply": "Thanks.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 123,
+      "category": "daily_life",
+      "english": "I'm sorry to hear that.",
+      "vietnamese": "Tôi rất tiếc khi nghe điều đó.",
+      "suggested_reply": "Thank you.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 124,
+      "category": "daily_life",
+      "english": "Don't worry about it.",
+      "vietnamese": "Đừng lo về chuyện đó.",
+      "suggested_reply": "Okay.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 125,
+      "category": "daily_life",
+      "english": "Take your time.",
+      "vietnamese": "Cứ từ từ.",
+      "suggested_reply": "Thanks.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 126,
+      "category": "daily_life",
+      "english": "What do you want to do?",
+      "vietnamese": "Bạn muốn làm gì?",
+      "suggested_reply": "Let's get some coffee.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 127,
+      "category": "daily_life",
+      "english": "Do you want to come?",
+      "vietnamese": "Bạn có muốn đi cùng không?",
+      "suggested_reply": "Sure.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 128,
+      "category": "daily_life",
+      "english": "Let's meet later.",
+      "vietnamese": "Gặp nhau sau nhé.",
+      "suggested_reply": "Okay.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 129,
+      "category": "daily_life",
+      "english": "Call me when you're free.",
+      "vietnamese": "Gọi cho tôi khi bạn rảnh.",
+      "suggested_reply": "I will.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 130,
+      "category": "daily_life",
+      "english": "Text me when you arrive.",
+      "vietnamese": "Nhắn tôi khi bạn tới.",
+      "suggested_reply": "Okay.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 131,
+      "category": "work",
+      "english": "What are you working on?",
+      "vietnamese": "Bạn đang làm gì?",
+      "suggested_reply": "I'm working on a new project.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 132,
+      "category": "work",
+      "english": "I'm working on a new project.",
+      "vietnamese": "Tôi đang làm một dự án mới.",
+      "suggested_reply": "How is it going?",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 133,
+      "category": "work",
+      "english": "Are you busy?",
+      "vietnamese": "Bạn có bận không?",
+      "suggested_reply": "A little.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 134,
+      "category": "work",
+      "english": "Do you have a minute?",
+      "vietnamese": "Bạn có một phút không?",
+      "suggested_reply": "Sure.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 135,
+      "category": "work",
+      "english": "Can we talk?",
+      "vietnamese": "Chúng ta nói chuyện được không?",
+      "suggested_reply": "Of course.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 136,
+      "category": "work",
+      "english": "Let's have a meeting.",
+      "vietnamese": "Hãy họp nhé.",
+      "suggested_reply": "What time?",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 137,
+      "category": "work",
+      "english": "What time is the meeting?",
+      "vietnamese": "Cuộc họp lúc mấy giờ?",
+      "suggested_reply": "At ten.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 138,
+      "category": "work",
+      "english": "The meeting starts at ten.",
+      "vietnamese": "Cuộc họp bắt đầu lúc mười giờ.",
+      "suggested_reply": "Got it.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 139,
+      "category": "work",
+      "english": "I'm joining the meeting now.",
+      "vietnamese": "Tôi đang vào cuộc họp.",
+      "suggested_reply": "See you there.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 140,
+      "category": "work",
+      "english": "Can you send me the file?",
+      "vietnamese": "Bạn gửi tôi tệp được không?",
+      "suggested_reply": "Sure.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 141,
+      "category": "work",
+      "english": "I'll send it today.",
+      "vietnamese": "Tôi sẽ gửi hôm nay.",
+      "suggested_reply": "Thank you.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 142,
+      "category": "work",
+      "english": "Did you get my email?",
+      "vietnamese": "Bạn nhận được email của tôi chưa?",
+      "suggested_reply": "Yes, I did.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 143,
+      "category": "work",
+      "english": "I'll check my email.",
+      "vietnamese": "Tôi sẽ kiểm tra email.",
+      "suggested_reply": "Okay.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 144,
+      "category": "work",
+      "english": "Can you review this?",
+      "vietnamese": "Bạn có thể xem lại cái này không?",
+      "suggested_reply": "Sure.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 145,
+      "category": "work",
+      "english": "I need your feedback.",
+      "vietnamese": "Tôi cần phản hồi của bạn.",
+      "suggested_reply": "I'll take a look.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 146,
+      "category": "work",
+      "english": "This looks good.",
+      "vietnamese": "Cái này trông ổn.",
+      "suggested_reply": "Thanks.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 147,
+      "category": "work",
+      "english": "We need to make some changes.",
+      "vietnamese": "Chúng ta cần sửa một số chỗ.",
+      "suggested_reply": "Okay.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 148,
+      "category": "work",
+      "english": "What's the deadline?",
+      "vietnamese": "Hạn chót là khi nào?",
+      "suggested_reply": "It's Friday.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 149,
+      "category": "work",
+      "english": "The deadline is Friday.",
+      "vietnamese": "Hạn chót là thứ Sáu.",
+      "suggested_reply": "Got it.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 150,
+      "category": "work",
+      "english": "I'm almost finished.",
+      "vietnamese": "Tôi gần xong rồi.",
+      "suggested_reply": "Great.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 151,
+      "category": "work",
+      "english": "I finished the task.",
+      "vietnamese": "Tôi đã hoàn thành công việc.",
+      "suggested_reply": "Well done.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 152,
+      "category": "work",
+      "english": "I need more time.",
+      "vietnamese": "Tôi cần thêm thời gian.",
+      "suggested_reply": "How much time?",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 153,
+      "category": "work",
+      "english": "Can you help me with this?",
+      "vietnamese": "Bạn có thể giúp tôi việc này không?",
+      "suggested_reply": "Sure.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 154,
+      "category": "work",
+      "english": "Let's work on it together.",
+      "vietnamese": "Hãy cùng làm việc này.",
+      "suggested_reply": "Good idea.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 155,
+      "category": "work",
+      "english": "What do you think?",
+      "vietnamese": "Bạn nghĩ sao?",
+      "suggested_reply": "I think it's good.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 156,
+      "category": "work",
+      "english": "I have a suggestion.",
+      "vietnamese": "Tôi có một đề xuất.",
+      "suggested_reply": "Go ahead.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 157,
+      "category": "work",
+      "english": "That's a good idea.",
+      "vietnamese": "Đó là ý hay.",
+      "suggested_reply": "Let's try it.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 158,
+      "category": "work",
+      "english": "We have a problem.",
+      "vietnamese": "Chúng ta có một vấn đề.",
+      "suggested_reply": "What happened?",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 159,
+      "category": "work",
+      "english": "Let's find a solution.",
+      "vietnamese": "Hãy tìm giải pháp.",
+      "suggested_reply": "Okay.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 160,
+      "category": "work",
+      "english": "I'll handle it.",
+      "vietnamese": "Tôi sẽ xử lý.",
+      "suggested_reply": "Thank you.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 161,
+      "category": "work",
+      "english": "Can you take care of this?",
+      "vietnamese": "Bạn xử lý việc này được không?",
+      "suggested_reply": "Sure.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 162,
+      "category": "work",
+      "english": "I'll get back to you.",
+      "vietnamese": "Tôi sẽ phản hồi lại.",
+      "suggested_reply": "Okay.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 163,
+      "category": "work",
+      "english": "Let's discuss this later.",
+      "vietnamese": "Chúng ta thảo luận sau nhé.",
+      "suggested_reply": "Sure.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 164,
+      "category": "work",
+      "english": "I'm available after lunch.",
+      "vietnamese": "Tôi rảnh sau bữa trưa.",
+      "suggested_reply": "Let's talk then.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 165,
+      "category": "work",
+      "english": "I'm in a meeting.",
+      "vietnamese": "Tôi đang họp.",
+      "suggested_reply": "I'll call you later.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 166,
+      "category": "work",
+      "english": "Could you clarify the requirements?",
+      "vietnamese": "Bạn có thể làm rõ yêu cầu không?",
+      "suggested_reply": "Sure.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 167,
+      "category": "work",
+      "english": "What is the next step?",
+      "vietnamese": "Bước tiếp theo là gì?",
+      "suggested_reply": "We need to test it.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 168,
+      "category": "work",
+      "english": "We are on schedule.",
+      "vietnamese": "Chúng ta đang đúng tiến độ.",
+      "suggested_reply": "Great.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 169,
+      "category": "work",
+      "english": "We are behind schedule.",
+      "vietnamese": "Chúng ta đang chậm tiến độ.",
+      "suggested_reply": "Let's catch up.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 170,
+      "category": "work",
+      "english": "Thanks for your hard work.",
+      "vietnamese": "Cảm ơn bạn đã làm việc chăm chỉ.",
+      "suggested_reply": "You're welcome.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 171,
+      "category": "food",
+      "english": "I'm hungry.",
+      "vietnamese": "Tôi đói.",
+      "suggested_reply": "Let's eat.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 172,
+      "category": "food",
+      "english": "Let's get something to eat.",
+      "vietnamese": "Đi ăn gì đó nhé.",
+      "suggested_reply": "Good idea.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 173,
+      "category": "food",
+      "english": "What do you want to eat?",
+      "vietnamese": "Bạn muốn ăn gì?",
+      "suggested_reply": "Anything is fine.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 174,
+      "category": "food",
+      "english": "Where should we eat?",
+      "vietnamese": "Chúng ta nên ăn ở đâu?",
+      "suggested_reply": "Let's try that restaurant.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 175,
+      "category": "food",
+      "english": "Do you have a table for two?",
+      "vietnamese": "Bạn có bàn cho hai người không?",
+      "suggested_reply": "Yes, this way please.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 176,
+      "category": "food",
+      "english": "Can I see the menu?",
+      "vietnamese": "Tôi xem thực đơn được không?",
+      "suggested_reply": "Of course.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 177,
+      "category": "food",
+      "english": "What do you recommend?",
+      "vietnamese": "Bạn gợi ý món gì?",
+      "suggested_reply": "I recommend the chicken.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 178,
+      "category": "food",
+      "english": "I'd like this one.",
+      "vietnamese": "Tôi muốn món này.",
+      "suggested_reply": "Anything else?",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 179,
+      "category": "food",
+      "english": "I'll have the chicken.",
+      "vietnamese": "Tôi sẽ dùng món gà.",
+      "suggested_reply": "Great choice.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 180,
+      "category": "food",
+      "english": "Can I have some water?",
+      "vietnamese": "Cho tôi xin ít nước được không?",
+      "suggested_reply": "Sure.",
+      "level": "A1-A2",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 181,
+      "category": "food",
+      "english": "No ice, please.",
+      "vietnamese": "Không đá nhé.",
+      "suggested_reply": "Okay.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 182,
+      "category": "food",
+      "english": "Is this spicy?",
+      "vietnamese": "Món này có cay không?",
+      "suggested_reply": "A little.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 183,
+      "category": "food",
+      "english": "I'm allergic to peanuts.",
+      "vietnamese": "Tôi dị ứng đậu phộng.",
+      "suggested_reply": "Thank you for telling us.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 184,
+      "category": "food",
+      "english": "I'm vegetarian.",
+      "vietnamese": "Tôi ăn chay.",
+      "suggested_reply": "We have vegetarian options.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 185,
+      "category": "food",
+      "english": "This is delicious.",
+      "vietnamese": "Món này ngon.",
+      "suggested_reply": "I'm glad you like it.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 186,
+      "category": "food",
+      "english": "This is too salty.",
+      "vietnamese": "Món này quá mặn.",
+      "suggested_reply": "I'm sorry.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 187,
+      "category": "food",
+      "english": "Could I get the bill?",
+      "vietnamese": "Cho tôi xin hóa đơn.",
+      "suggested_reply": "Sure.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 188,
+      "category": "food",
+      "english": "Can we split the bill?",
+      "vietnamese": "Chúng ta chia hóa đơn được không?",
+      "suggested_reply": "Of course.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 189,
+      "category": "food",
+      "english": "Keep the change.",
+      "vietnamese": "Cứ giữ tiền thừa.",
+      "suggested_reply": "Thank you.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 190,
+      "category": "food",
+      "english": "Enjoy your meal.",
+      "vietnamese": "Chúc ngon miệng.",
+      "suggested_reply": "Thank you.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 191,
+      "category": "food",
+      "english": "Would you like some coffee?",
+      "vietnamese": "Bạn muốn uống cà phê không?",
+      "suggested_reply": "Yes, please.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 192,
+      "category": "food",
+      "english": "I'll have a coffee.",
+      "vietnamese": "Tôi sẽ uống cà phê.",
+      "suggested_reply": "Hot or iced?",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 193,
+      "category": "food",
+      "english": "Hot or iced?",
+      "vietnamese": "Nóng hay đá?",
+      "suggested_reply": "Iced, please.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 194,
+      "category": "food",
+      "english": "With sugar or without?",
+      "vietnamese": "Có đường hay không đường?",
+      "suggested_reply": "Without sugar.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 195,
+      "category": "food",
+      "english": "I'm full.",
+      "vietnamese": "Tôi no rồi.",
+      "suggested_reply": "Me too.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 196,
+      "category": "food",
+      "english": "Do you want dessert?",
+      "vietnamese": "Bạn muốn món tráng miệng không?",
+      "suggested_reply": "No, thanks.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 197,
+      "category": "food",
+      "english": "Let's cook at home.",
+      "vietnamese": "Hãy nấu ăn ở nhà.",
+      "suggested_reply": "Sounds good.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 198,
+      "category": "food",
+      "english": "What are you cooking?",
+      "vietnamese": "Bạn đang nấu gì?",
+      "suggested_reply": "I'm making soup.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 199,
+      "category": "food",
+      "english": "The food is ready.",
+      "vietnamese": "Đồ ăn xong rồi.",
+      "suggested_reply": "Great.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 200,
+      "category": "food",
+      "english": "Let's order delivery.",
+      "vietnamese": "Hãy đặt đồ ăn giao tận nơi.",
+      "suggested_reply": "Okay.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 201,
+      "category": "shopping",
+      "english": "How much is this?",
+      "vietnamese": "Cái này bao nhiêu tiền?",
+      "suggested_reply": "It's ten dollars.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 202,
+      "category": "shopping",
+      "english": "That's too expensive.",
+      "vietnamese": "Cái đó quá đắt.",
+      "suggested_reply": "We have a cheaper one.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 203,
+      "category": "shopping",
+      "english": "Do you have a cheaper one?",
+      "vietnamese": "Bạn có loại rẻ hơn không?",
+      "suggested_reply": "Yes.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 204,
+      "category": "shopping",
+      "english": "Can I try this on?",
+      "vietnamese": "Tôi thử cái này được không?",
+      "suggested_reply": "Sure.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 205,
+      "category": "shopping",
+      "english": "Where is the fitting room?",
+      "vietnamese": "Phòng thử đồ ở đâu?",
+      "suggested_reply": "Over there.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 206,
+      "category": "shopping",
+      "english": "Do you have this in a larger size?",
+      "vietnamese": "Bạn có cỡ lớn hơn không?",
+      "suggested_reply": "Let me check.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 207,
+      "category": "shopping",
+      "english": "Do you have this in black?",
+      "vietnamese": "Bạn có màu đen không?",
+      "suggested_reply": "Yes, we do.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 208,
+      "category": "shopping",
+      "english": "I'll take it.",
+      "vietnamese": "Tôi sẽ lấy nó.",
+      "suggested_reply": "Great.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 209,
+      "category": "shopping",
+      "english": "Can I pay by card?",
+      "vietnamese": "Tôi trả bằng thẻ được không?",
+      "suggested_reply": "Yes.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 210,
+      "category": "shopping",
+      "english": "Do you accept cash?",
+      "vietnamese": "Bạn có nhận tiền mặt không?",
+      "suggested_reply": "Yes.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 211,
+      "category": "shopping",
+      "english": "Can I get a receipt?",
+      "vietnamese": "Cho tôi xin hóa đơn được không?",
+      "suggested_reply": "Sure.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 212,
+      "category": "shopping",
+      "english": "I'm just looking.",
+      "vietnamese": "Tôi chỉ xem thôi.",
+      "suggested_reply": "No problem.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 213,
+      "category": "shopping",
+      "english": "Can you help me find this?",
+      "vietnamese": "Bạn giúp tôi tìm món này được không?",
+      "suggested_reply": "Of course.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 214,
+      "category": "shopping",
+      "english": "Is there a discount?",
+      "vietnamese": "Có giảm giá không?",
+      "suggested_reply": "Yes, ten percent.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 215,
+      "category": "shopping",
+      "english": "This is on sale.",
+      "vietnamese": "Món này đang giảm giá.",
+      "suggested_reply": "Great.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 216,
+      "category": "shopping",
+      "english": "Can I return this?",
+      "vietnamese": "Tôi có thể trả lại món này không?",
+      "suggested_reply": "Do you have the receipt?",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 217,
+      "category": "shopping",
+      "english": "I'd like to exchange this.",
+      "vietnamese": "Tôi muốn đổi món này.",
+      "suggested_reply": "Sure.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 218,
+      "category": "shopping",
+      "english": "It doesn't fit.",
+      "vietnamese": "Nó không vừa.",
+      "suggested_reply": "Would you like another size?",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 219,
+      "category": "shopping",
+      "english": "Where can I pay?",
+      "vietnamese": "Tôi thanh toán ở đâu?",
+      "suggested_reply": "At the counter.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 220,
+      "category": "shopping",
+      "english": "The price is reasonable.",
+      "vietnamese": "Giá hợp lý.",
+      "suggested_reply": "I think so too.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 221,
+      "category": "travel",
+      "english": "Where are you going?",
+      "vietnamese": "Bạn đang đi đâu?",
+      "suggested_reply": "I'm going to the airport.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 222,
+      "category": "travel",
+      "english": "I'm going to the airport.",
+      "vietnamese": "Tôi đang đi sân bay.",
+      "suggested_reply": "Have a safe trip.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 223,
+      "category": "travel",
+      "english": "How can I get there?",
+      "vietnamese": "Tôi đến đó bằng cách nào?",
+      "suggested_reply": "Take the bus.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 224,
+      "category": "travel",
+      "english": "Is it far from here?",
+      "vietnamese": "Nó có xa đây không?",
+      "suggested_reply": "Not very far.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 225,
+      "category": "travel",
+      "english": "How long does it take?",
+      "vietnamese": "Mất bao lâu?",
+      "suggested_reply": "About twenty minutes.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 226,
+      "category": "travel",
+      "english": "Where is the bus stop?",
+      "vietnamese": "Trạm xe buýt ở đâu?",
+      "suggested_reply": "It's across the street.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 227,
+      "category": "travel",
+      "english": "Which bus should I take?",
+      "vietnamese": "Tôi nên đi xe buýt nào?",
+      "suggested_reply": "Take bus number five.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 228,
+      "category": "travel",
+      "english": "Does this bus go downtown?",
+      "vietnamese": "Xe này có đi trung tâm không?",
+      "suggested_reply": "Yes, it does.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 229,
+      "category": "travel",
+      "english": "Where should I get off?",
+      "vietnamese": "Tôi nên xuống ở đâu?",
+      "suggested_reply": "At the next stop.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 230,
+      "category": "travel",
+      "english": "One ticket, please.",
+      "vietnamese": "Cho tôi một vé.",
+      "suggested_reply": "Here you go.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 231,
+      "category": "travel",
+      "english": "What time does the train leave?",
+      "vietnamese": "Tàu khởi hành lúc mấy giờ?",
+      "suggested_reply": "At nine.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 232,
+      "category": "travel",
+      "english": "What platform is it?",
+      "vietnamese": "Ở sân ga nào?",
+      "suggested_reply": "Platform three.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 233,
+      "category": "travel",
+      "english": "Is this seat taken?",
+      "vietnamese": "Ghế này có người ngồi chưa?",
+      "suggested_reply": "No, it's free.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 234,
+      "category": "travel",
+      "english": "Can I sit here?",
+      "vietnamese": "Tôi ngồi đây được không?",
+      "suggested_reply": "Sure.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 235,
+      "category": "travel",
+      "english": "Where is the restroom?",
+      "vietnamese": "Nhà vệ sinh ở đâu?",
+      "suggested_reply": "Down the hall.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 236,
+      "category": "travel",
+      "english": "I have a reservation.",
+      "vietnamese": "Tôi đã đặt chỗ.",
+      "suggested_reply": "May I have your name?",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 237,
+      "category": "travel",
+      "english": "I'd like to check in.",
+      "vietnamese": "Tôi muốn làm thủ tục nhận phòng.",
+      "suggested_reply": "Sure.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 238,
+      "category": "travel",
+      "english": "I'd like to check out.",
+      "vietnamese": "Tôi muốn trả phòng.",
+      "suggested_reply": "How was your stay?",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 239,
+      "category": "travel",
+      "english": "What time is check-out?",
+      "vietnamese": "Mấy giờ trả phòng?",
+      "suggested_reply": "At noon.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 240,
+      "category": "travel",
+      "english": "Is breakfast included?",
+      "vietnamese": "Bữa sáng có bao gồm không?",
+      "suggested_reply": "Yes, it is.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 241,
+      "category": "travel",
+      "english": "Can I have the Wi-Fi password?",
+      "vietnamese": "Cho tôi xin mật khẩu Wi-Fi.",
+      "suggested_reply": "Sure.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 242,
+      "category": "travel",
+      "english": "My room key doesn't work.",
+      "vietnamese": "Chìa khóa phòng của tôi không hoạt động.",
+      "suggested_reply": "We'll replace it.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 243,
+      "category": "travel",
+      "english": "Can you call a taxi?",
+      "vietnamese": "Bạn gọi taxi giúp tôi được không?",
+      "suggested_reply": "Of course.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 244,
+      "category": "travel",
+      "english": "I need a ride.",
+      "vietnamese": "Tôi cần xe đi.",
+      "suggested_reply": "Where are you going?",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 245,
+      "category": "travel",
+      "english": "Please take me to this address.",
+      "vietnamese": "Hãy đưa tôi đến địa chỉ này.",
+      "suggested_reply": "Okay.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 246,
+      "category": "travel",
+      "english": "How much is the fare?",
+      "vietnamese": "Cước phí bao nhiêu?",
+      "suggested_reply": "About fifteen dollars.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 247,
+      "category": "travel",
+      "english": "Can you stop here?",
+      "vietnamese": "Bạn dừng ở đây được không?",
+      "suggested_reply": "Sure.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 248,
+      "category": "travel",
+      "english": "I think I'm lost.",
+      "vietnamese": "Tôi nghĩ tôi bị lạc.",
+      "suggested_reply": "Let me help you.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 249,
+      "category": "travel",
+      "english": "Can you show me on the map?",
+      "vietnamese": "Bạn chỉ tôi trên bản đồ được không?",
+      "suggested_reply": "Sure.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 250,
+      "category": "travel",
+      "english": "Is it safe to walk there?",
+      "vietnamese": "Đi bộ tới đó có an toàn không?",
+      "suggested_reply": "Yes, during the day.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 251,
+      "category": "travel",
+      "english": "Where can I buy a SIM card?",
+      "vietnamese": "Tôi có thể mua SIM ở đâu?",
+      "suggested_reply": "At the airport.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 252,
+      "category": "travel",
+      "english": "Do you speak English?",
+      "vietnamese": "Bạn có nói tiếng Anh không?",
+      "suggested_reply": "A little.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 253,
+      "category": "travel",
+      "english": "I need help.",
+      "vietnamese": "Tôi cần giúp đỡ.",
+      "suggested_reply": "What happened?",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 254,
+      "category": "travel",
+      "english": "My bag is missing.",
+      "vietnamese": "Túi của tôi bị mất.",
+      "suggested_reply": "Let's report it.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 255,
+      "category": "travel",
+      "english": "I lost my passport.",
+      "vietnamese": "Tôi bị mất hộ chiếu.",
+      "suggested_reply": "Contact your embassy.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 256,
+      "category": "travel",
+      "english": "Can you take a photo for me?",
+      "vietnamese": "Bạn chụp ảnh giúp tôi được không?",
+      "suggested_reply": "Sure.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 257,
+      "category": "travel",
+      "english": "What time does this place open?",
+      "vietnamese": "Nơi này mở cửa lúc mấy giờ?",
+      "suggested_reply": "At eight.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 258,
+      "category": "travel",
+      "english": "What time does it close?",
+      "vietnamese": "Nơi này đóng cửa lúc mấy giờ?",
+      "suggested_reply": "At nine.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 259,
+      "category": "travel",
+      "english": "How much is the entrance fee?",
+      "vietnamese": "Vé vào cửa bao nhiêu?",
+      "suggested_reply": "It's five dollars.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 260,
+      "category": "travel",
+      "english": "Have a safe trip.",
+      "vietnamese": "Chúc chuyến đi an toàn.",
+      "suggested_reply": "Thank you.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 261,
+      "category": "social",
+      "english": "What do you do for fun?",
+      "vietnamese": "Bạn làm gì để giải trí?",
+      "suggested_reply": "I like listening to music.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 262,
+      "category": "social",
+      "english": "What kind of music do you like?",
+      "vietnamese": "Bạn thích thể loại nhạc nào?",
+      "suggested_reply": "I like pop music.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 263,
+      "category": "social",
+      "english": "What movies do you like?",
+      "vietnamese": "Bạn thích phim gì?",
+      "suggested_reply": "I like action movies.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 264,
+      "category": "social",
+      "english": "Have you seen this movie?",
+      "vietnamese": "Bạn đã xem phim này chưa?",
+      "suggested_reply": "Yes, I have.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 265,
+      "category": "social",
+      "english": "What did you think of it?",
+      "vietnamese": "Bạn thấy nó thế nào?",
+      "suggested_reply": "It was great.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 266,
+      "category": "social",
+      "english": "Do you like sports?",
+      "vietnamese": "Bạn có thích thể thao không?",
+      "suggested_reply": "Yes, I do.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 267,
+      "category": "social",
+      "english": "What do you do on weekends?",
+      "vietnamese": "Cuối tuần bạn làm gì?",
+      "suggested_reply": "I usually relax.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 268,
+      "category": "social",
+      "english": "Do you want to hang out?",
+      "vietnamese": "Bạn có muốn đi chơi không?",
+      "suggested_reply": "Sure.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 269,
+      "category": "social",
+      "english": "Are you free tonight?",
+      "vietnamese": "Tối nay bạn rảnh không?",
+      "suggested_reply": "Yes, I am.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 270,
+      "category": "social",
+      "english": "Let's get some coffee.",
+      "vietnamese": "Đi uống cà phê nhé.",
+      "suggested_reply": "Sounds good.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 271,
+      "category": "social",
+      "english": "What time should we meet?",
+      "vietnamese": "Chúng ta gặp lúc mấy giờ?",
+      "suggested_reply": "At seven.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 272,
+      "category": "social",
+      "english": "Where should we meet?",
+      "vietnamese": "Chúng ta gặp ở đâu?",
+      "suggested_reply": "At the café.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 273,
+      "category": "social",
+      "english": "I'll see you there.",
+      "vietnamese": "Tôi sẽ gặp bạn ở đó.",
+      "suggested_reply": "See you.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 274,
+      "category": "social",
+      "english": "Thanks for inviting me.",
+      "vietnamese": "Cảm ơn đã mời tôi.",
+      "suggested_reply": "You're welcome.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 275,
+      "category": "social",
+      "english": "I had a great time.",
+      "vietnamese": "Tôi đã có khoảng thời gian rất vui.",
+      "suggested_reply": "Me too.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 276,
+      "category": "social",
+      "english": "Let's do this again.",
+      "vietnamese": "Lần sau lại đi nhé.",
+      "suggested_reply": "Definitely.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 277,
+      "category": "social",
+      "english": "Happy birthday!",
+      "vietnamese": "Chúc mừng sinh nhật!",
+      "suggested_reply": "Thank you.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 278,
+      "category": "social",
+      "english": "Congratulations!",
+      "vietnamese": "Chúc mừng!",
+      "suggested_reply": "Thank you.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 279,
+      "category": "social",
+      "english": "Good luck!",
+      "vietnamese": "Chúc may mắn!",
+      "suggested_reply": "Thanks.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 280,
+      "category": "social",
+      "english": "What are you thinking about?",
+      "vietnamese": "Bạn đang nghĩ gì?",
+      "suggested_reply": "Nothing much.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 281,
+      "category": "social",
+      "english": "Tell me more.",
+      "vietnamese": "Kể thêm đi.",
+      "suggested_reply": "Sure.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 282,
+      "category": "social",
+      "english": "That's funny.",
+      "vietnamese": "Buồn cười thật.",
+      "suggested_reply": "I know.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 283,
+      "category": "social",
+      "english": "You're right.",
+      "vietnamese": "Bạn nói đúng.",
+      "suggested_reply": "Thanks.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 284,
+      "category": "social",
+      "english": "I see your point.",
+      "vietnamese": "Tôi hiểu quan điểm của bạn.",
+      "suggested_reply": "I'm glad.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 285,
+      "category": "social",
+      "english": "What would you do?",
+      "vietnamese": "Bạn sẽ làm gì?",
+      "suggested_reply": "I'd wait.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 286,
+      "category": "social",
+      "english": "In my opinion, ...",
+      "vietnamese": "Theo ý kiến của tôi, ...",
+      "suggested_reply": "I understand.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 287,
+      "category": "social",
+      "english": "To be honest, ...",
+      "vietnamese": "Thành thật mà nói, ...",
+      "suggested_reply": "Go on.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 288,
+      "category": "social",
+      "english": "I'm just kidding.",
+      "vietnamese": "Tôi chỉ đùa thôi.",
+      "suggested_reply": "You got me.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 289,
+      "category": "social",
+      "english": "Don't take it personally.",
+      "vietnamese": "Đừng để bụng.",
+      "suggested_reply": "Okay.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 290,
+      "category": "social",
+      "english": "Can I ask you something?",
+      "vietnamese": "Tôi hỏi bạn điều này được không?",
+      "suggested_reply": "Sure.",
+      "level": "A2-B1",
+      "priority": 3,
+      "learned": false
+    },
+    {
+      "id": 291,
+      "category": "phone_and_emergency",
+      "english": "Can you hear me?",
+      "vietnamese": "Bạn có nghe thấy tôi không?",
+      "suggested_reply": "Yes, I can.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 292,
+      "category": "phone_and_emergency",
+      "english": "The connection is bad.",
+      "vietnamese": "Kết nối không tốt.",
+      "suggested_reply": "I'll call you back.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 293,
+      "category": "phone_and_emergency",
+      "english": "I'll call you back.",
+      "vietnamese": "Tôi sẽ gọi lại.",
+      "suggested_reply": "Okay.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 294,
+      "category": "phone_and_emergency",
+      "english": "Please leave a message.",
+      "vietnamese": "Vui lòng để lại lời nhắn.",
+      "suggested_reply": "Sure.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 295,
+      "category": "phone_and_emergency",
+      "english": "Who is calling?",
+      "vietnamese": "Ai đang gọi vậy?",
+      "suggested_reply": "This is ...",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 296,
+      "category": "phone_and_emergency",
+      "english": "It's an emergency.",
+      "vietnamese": "Đây là trường hợp khẩn cấp.",
+      "suggested_reply": "What happened?",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 297,
+      "category": "phone_and_emergency",
+      "english": "Call the police.",
+      "vietnamese": "Hãy gọi cảnh sát.",
+      "suggested_reply": "Okay.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 298,
+      "category": "phone_and_emergency",
+      "english": "Call an ambulance.",
+      "vietnamese": "Hãy gọi xe cấp cứu.",
+      "suggested_reply": "Right away.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 299,
+      "category": "phone_and_emergency",
+      "english": "I need a doctor.",
+      "vietnamese": "Tôi cần bác sĩ.",
+      "suggested_reply": "We'll get help.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    },
+    {
+      "id": 300,
+      "category": "phone_and_emergency",
+      "english": "Where is the nearest hospital?",
+      "vietnamese": "Bệnh viện gần nhất ở đâu?",
+      "suggested_reply": "It's two blocks away.",
+      "level": "A2-B1",
+      "priority": 4,
+      "learned": false
+    }
+  ]
+}
