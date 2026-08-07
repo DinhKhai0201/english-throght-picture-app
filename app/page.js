@@ -20,6 +20,7 @@ const CATEGORY_MAP = {
 export default function Home() {
   const [sentences, setSentences] = useState([]);
   const [learnedIds, setLearnedIds] = useState(new Set());
+  const [studyCounts, setStudyCounts] = useState({});
   const [activeCategory, setActiveCategory] = useState("all");
   const [searchQuery, setSearchQuery] = useState("");
   const [filterType, setFilterType] = useState("all"); // 'all', 'learned', 'unlearned'
@@ -61,6 +62,16 @@ export default function Home() {
           console.error("Error loading progress", e);
         }
       }
+
+      const storedCounts = localStorage.getItem("english_300_study_counts");
+      if (storedCounts) {
+        try {
+          setStudyCounts(JSON.parse(storedCounts));
+        } catch (e) {
+          console.error("Error loading study counts", e);
+        }
+      }
+
       setSentences(rawData.sentences || []);
       setIsLoaded(true);
     }
@@ -78,10 +89,20 @@ export default function Home() {
     localStorage.setItem("english_300_progress", JSON.stringify(Array.from(next)));
   };
 
+  const incrementStudyCount = (id) => {
+    setStudyCounts(prev => {
+      const next = { ...prev, [id]: (prev[id] || 0) + 1 };
+      localStorage.setItem("english_300_study_counts", JSON.stringify(next));
+      return next;
+    });
+  };
+
   const resetProgress = () => {
-    if (confirm("Bạn có chắc chắn muốn thiết lập lại toàn bộ tiến trình học không?")) {
+    if (confirm("Bạn có chắc chắn muốn thiết lập lại toàn bộ tiến trình học và số lần đọc không?")) {
       setLearnedIds(new Set());
+      setStudyCounts({});
       localStorage.removeItem("english_300_progress");
+      localStorage.removeItem("english_300_study_counts");
     }
   };
 
@@ -111,14 +132,14 @@ export default function Home() {
   // Filters and search logic
   const filteredSentences = sentences.filter(s => {
     const matchesCategory = activeCategory === "all" || s.category === activeCategory;
-    
+
     const isLearned = learnedIds.has(s.id);
-    const matchesFilterType = 
-      filterType === "all" || 
-      (filterType === "learned" && isLearned) || 
+    const matchesFilterType =
+      filterType === "all" ||
+      (filterType === "learned" && isLearned) ||
       (filterType === "unlearned" && !isLearned);
 
-    const matchesSearch = 
+    const matchesSearch =
       searchQuery.trim() === "" ||
       s.english.toLowerCase().includes(searchQuery.toLowerCase()) ||
       s.vietnamese.toLowerCase().includes(searchQuery.toLowerCase()) ||
@@ -147,7 +168,7 @@ export default function Home() {
           <h1>⚡ 300 Câu Giao Tiếp Cốt Lõi</h1>
           <p className="hero-subtitle">Bấm vào câu tiếng Anh để nghe phát âm giọng bản xứ</p>
         </div>
-        
+
         {/* Progress Card */}
         <div className="progress-card">
           <div className="progress-stats">
@@ -169,9 +190,9 @@ export default function Home() {
       <section className="control-panel">
         <div className="search-box">
           <span className="search-icon">🔍</span>
-          <input 
-            type="text" 
-            placeholder="Tìm kiếm theo tiếng Anh hoặc tiếng Việt..." 
+          <input
+            type="text"
+            placeholder="Tìm kiếm theo tiếng Anh hoặc tiếng Việt..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
           />
@@ -183,9 +204,9 @@ export default function Home() {
         <div className="tts-controls">
           <div className="control-group">
             <label htmlFor="voice-select">Giọng đọc:</label>
-            <select 
-              id="voice-select" 
-              value={selectedVoice} 
+            <select
+              id="voice-select"
+              value={selectedVoice}
               onChange={(e) => setSelectedVoice(e.target.value)}
             >
               {voices.map(v => (
@@ -199,12 +220,12 @@ export default function Home() {
 
           <div className="control-group">
             <label htmlFor="rate-range">Tốc độ ({speechRate}x):</label>
-            <input 
-              id="rate-range" 
-              type="range" 
-              min="0.5" 
-              max="1.5" 
-              step="0.1" 
+            <input
+              id="rate-range"
+              type="range"
+              min="0.5"
+              max="1.5"
+              step="0.1"
               value={speechRate}
               onChange={(e) => setSpeechRate(parseFloat(e.target.value))}
             />
@@ -214,7 +235,7 @@ export default function Home() {
 
       {/* Category Navigation */}
       <section className="categories-nav">
-        <button 
+        <button
           onClick={() => setActiveCategory("all")}
           className={`category-pill ${activeCategory === "all" ? "active" : ""}`}
         >
@@ -224,7 +245,7 @@ export default function Home() {
           const count = sentences.filter(s => s.category === key).length;
           const completed = sentences.filter(s => s.category === key && learnedIds.has(s.id)).length;
           return (
-            <button 
+            <button
               key={key}
               onClick={() => setActiveCategory(key)}
               className={`category-pill ${activeCategory === key ? "active" : ""}`}
@@ -237,20 +258,20 @@ export default function Home() {
 
       {/* Filter Tabs (All, Learned, Unlearned) */}
       <div className="filter-tabs">
-        <button 
-          onClick={() => setFilterType("all")} 
+        <button
+          onClick={() => setFilterType("all")}
           className={`filter-tab ${filterType === "all" ? "active" : ""}`}
         >
           🎯 Tất cả câu ({filteredSentences.length})
         </button>
-        <button 
-          onClick={() => setFilterType("unlearned")} 
+        <button
+          onClick={() => setFilterType("unlearned")}
           className={`filter-tab ${filterType === "unlearned" ? "active" : ""}`}
         >
           📖 Chưa học ({sentences.filter(s => !learnedIds.has(s.id)).length})
         </button>
-        <button 
-          onClick={() => setFilterType("learned")} 
+        <button
+          onClick={() => setFilterType("learned")}
           className={`filter-tab ${filterType === "learned" ? "active" : ""}`}
         >
           ✅ Đã thuộc ({learnedIds.size})
@@ -262,10 +283,10 @@ export default function Home() {
         {filteredSentences.map((s, index) => {
           const isLearned = learnedIds.has(s.id);
           const isPlaying = playingId === s.id;
-          
+
           return (
-            <article 
-              key={s.id} 
+            <article
+              key={s.id}
               className={`sentence-card ${isLearned ? "learned" : ""} ${isPlaying ? "playing" : ""}`}
             >
               <div className="card-top">
@@ -274,7 +295,7 @@ export default function Home() {
                 {s.level && <span className="card-level">{s.level}</span>}
               </div>
 
-              <div className="card-body" onClick={() => playSpeech(s.english, s.id)}>
+              <div className="card-body" onClick={() => { playSpeech(s.english, s.id); incrementStudyCount(s.id); }}>
                 <div className="english-wrapper">
                   <h2 className="english-text">{s.english}</h2>
                   <button className="play-button" aria-label="Nghe phát âm">
@@ -285,15 +306,16 @@ export default function Home() {
                     )}
                   </button>
                 </div>
-                
+
                 <p className="vietnamese-text">{s.vietnamese}</p>
-                
+
                 {s.suggested_reply && (
                   <div className="reply-box">
                     <span className="reply-label">Gợi ý đáp:</span>
                     <span className="reply-text" onClick={(e) => {
                       e.stopPropagation(); // Avoid playing main sentence when clicking reply
                       playSpeech(s.suggested_reply, `reply-${s.id}`);
+                      incrementStudyCount(s.id);
                     }}>
                       {s.suggested_reply} 🗣️
                     </span>
@@ -303,14 +325,18 @@ export default function Home() {
 
               <div className="card-footer">
                 <label className="checkbox-container">
-                  <input 
-                    type="checkbox" 
+                  <input
+                    type="checkbox"
                     checked={isLearned}
                     onChange={() => toggleLearned(s.id)}
                   />
                   <span className="checkmark"></span>
                   <span className="checkbox-label">{isLearned ? "Đã thuộc 🎉" : "Đánh dấu đã thuộc"}</span>
                 </label>
+
+                <div className="study-counter">
+                  <span className="counter-num">{studyCounts[s.id] || 0}</span>
+                </div>
               </div>
             </article>
           );
