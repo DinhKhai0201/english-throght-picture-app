@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import Link from "next/link";
 import rawData from "../300_cau_tieng_anh_giao_tiep.json";
 
 const CATEGORY_MAP = {
@@ -167,6 +168,24 @@ export default function Home() {
         <div className="hero-content">
           <h1>⚡ 300 Câu Giao Tiếp Cốt Lõi</h1>
           <p className="hero-subtitle">Bấm vào câu tiếng Anh để nghe phát âm giọng bản xứ</p>
+          <div style={{ marginTop: "12px" }}>
+            <Link
+              href="/chunks"
+              style={{
+                display: "inline-block",
+                padding: "10px 20px",
+                background: "linear-gradient(135deg, #10b981 0%, #06b6d4 100%)",
+                color: "white",
+                borderRadius: "20px",
+                textDecoration: "none",
+                fontWeight: 700,
+                fontSize: "0.95rem",
+                boxShadow: "0 4px 12px rgba(16,185,129,0.3)",
+              }}
+            >
+              🧩 Học 1000 English Chunks →
+            </Link>
+          </div>
         </div>
 
         {/* Progress Card */}
