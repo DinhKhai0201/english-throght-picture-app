@@ -29,7 +29,7 @@ export default function ChunksPage() {
   const [voices, setVoices] = useState([]);
   const [selectedVoice, setSelectedVoice] = useState("");
   const [isLoaded, setIsLoaded] = useState(false);
-  const [expandedId, setExpandedId] = useState(null);
+
 
   // Initialize Speech Voices
   useEffect(() => {
@@ -273,7 +273,6 @@ export default function ChunksPage() {
         {filteredChunks.map((c) => {
           const isLearned = learnedIds.has(c.id);
           const isPlaying = playingId === c.id;
-          const isExpanded = expandedId === c.id;
 
           return (
             <article
@@ -314,49 +313,30 @@ export default function ChunksPage() {
                 )}
               </div>
 
-              {/* Expandable detail */}
-              <div>
-                <button
-                  onClick={() => setExpandedId(isExpanded ? null : c.id)}
-                  style={{
-                    background: "none",
-                    border: "none",
-                    fontSize: "0.85rem",
-                    fontWeight: 700,
-                    color: "var(--color-primary)",
-                    cursor: "pointer",
-                    padding: "0",
-                  }}
-                >
-                  {isExpanded ? "▲ Ẩn chi tiết" : "▼ Xem ví dụ & ghi chú"}
-                </button>
-
-                {isExpanded && (
-                  <div style={{ marginTop: "10px", display: "flex", flexDirection: "column", gap: "8px" }}>
-                    {c.example_en && (
-                      <div
-                        className="reply-box"
-                        style={{ cursor: "pointer" }}
-                        onClick={() => {
-                          playSpeech(c.example_en, `ex-${c.id}`);
-                          incrementStudyCount(c.id);
-                        }}
-                      >
-                        <span className="reply-label">Ví dụ:</span>
-                        <span className="reply-text">{c.example_en} 🗣️</span>
-                      </div>
-                    )}
-                    {c.example_vi && (
-                      <p style={{ fontSize: "0.95rem", color: "var(--color-text-muted)", paddingLeft: "4px" }}>
-                        → {c.example_vi}
-                      </p>
-                    )}
-                    {c.usage_note_vi && (
-                      <p style={{ fontSize: "0.9rem", color: "#64748b", fontStyle: "italic", paddingLeft: "4px" }}>
-                        💡 {c.usage_note_vi}
-                      </p>
-                    )}
+              {/* Detail section - always visible */}
+              <div style={{ marginTop: "4px", display: "flex", flexDirection: "column", gap: "8px" }}>
+                {c.example_en && (
+                  <div
+                    className="reply-box"
+                    style={{ cursor: "pointer" }}
+                    onClick={() => {
+                      playSpeech(c.example_en, `ex-${c.id}`);
+                      incrementStudyCount(c.id);
+                    }}
+                  >
+                    <span className="reply-label">Ví dụ:</span>
+                    <span className="reply-text">{c.example_en} 🗣️</span>
                   </div>
+                )}
+                {c.example_vi && (
+                  <p style={{ fontSize: "0.95rem", color: "var(--color-text-muted)", paddingLeft: "4px" }}>
+                    → {c.example_vi}
+                  </p>
+                )}
+                {c.usage_note_vi && (
+                  <p style={{ fontSize: "0.9rem", color: "#64748b", fontStyle: "italic", paddingLeft: "4px" }}>
+                    💡 {c.usage_note_vi}
+                  </p>
                 )}
               </div>
 
