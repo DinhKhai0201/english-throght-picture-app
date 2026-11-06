@@ -176,6 +176,9 @@ export default function English300Page() {
         <Link href="/chinese" className="section-nav-link">
           🇨🇳 500 Chunks Tiếng Trung
         </Link>
+        <Link href="/japanese" className="section-nav-link">
+          🇯🇵 300 Chunks Tiếng Nhật
+        </Link>
       </nav>
 
       <header className="hero">

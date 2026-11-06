@@ -1,0 +1,3224 @@
+{
+  "title": "Japanese Communication Chunks – Bộ cụm giao tiếp tiếng Nhật",
+  "language": "ja-JP",
+  "translation_language": "vi",
+  "writing_systems": [
+    "kanji",
+    "hiragana",
+    "katakana"
+  ],
+  "method": "chunking",
+  "version": "1.0",
+  "total_chunks": 301,
+  "description": "Bộ cụm từ/câu mẫu tiếng Nhật theo phương pháp chunking, ưu tiên tình huống giao tiếp thực tế từ cơ bản đến trung cấp. Có chữ Nhật, kana, romaji, nghĩa tiếng Việt, cấp độ và gợi ý luyện tập.",
+  "fields": [
+    "id",
+    "category",
+    "japanese",
+    "kana",
+    "romaji",
+    "meaning_vi",
+    "level",
+    "register",
+    "practice_type",
+    "learning_tip_vi",
+    "example_use",
+    "example_translation"
+  ],
+  "categories": [
+    {
+      "name": "Chào hỏi và làm quen",
+      "count": 15
+    },
+    {
+      "name": "Giới thiệu bản thân",
+      "count": 10
+    },
+    {
+      "name": "Lịch sự và phản hồi",
+      "count": 12
+    },
+    {
+      "name": "Nhờ vả và yêu cầu",
+      "count": 10
+    },
+    {
+      "name": "Nghe hiểu và xử lý hội thoại",
+      "count": 10
+    },
+    {
+      "name": "Trò chuyện hằng ngày",
+      "count": 12
+    },
+    {
+      "name": "Thời gian và lịch hẹn",
+      "count": 10
+    },
+    {
+      "name": "Ăn uống và nhà hàng",
+      "count": 12
+    },
+    {
+      "name": "Mua sắm và thanh toán",
+      "count": 10
+    },
+    {
+      "name": "Di chuyển và hỏi đường",
+      "count": 11
+    },
+    {
+      "name": "Du lịch và khách sạn",
+      "count": 10
+    },
+    {
+      "name": "Trường học và học tập",
+      "count": 10
+    },
+    {
+      "name": "Công việc và văn phòng",
+      "count": 10
+    },
+    {
+      "name": "Cảm xúc và ý kiến",
+      "count": 11
+    },
+    {
+      "name": "Điện thoại và internet",
+      "count": 9
+    },
+    {
+      "name": "Sức khỏe và hiệu thuốc",
+      "count": 10
+    },
+    {
+      "name": "Nhà ở và sinh hoạt",
+      "count": 8
+    },
+    {
+      "name": "Khẩn cấp và sự cố",
+      "count": 8
+    },
+    {
+      "name": "Mời mọc và quan hệ xã hội",
+      "count": 8
+    },
+    {
+      "name": "Chunk mẫu và cấu trúc linh hoạt",
+      "count": 20
+    },
+    {
+      "name": "Ngữ điệu tự nhiên và từ đệm",
+      "count": 12
+    },
+    {
+      "name": "Kết thúc hội thoại",
+      "count": 7
+    },
+    {
+      "name": "Mở rộng câu hỏi",
+      "count": 10
+    },
+    {
+      "name": "Ứng xử tự nhiên",
+      "count": 8
+    },
+    {
+      "name": "Giải quyết vấn đề",
+      "count": 8
+    },
+    {
+      "name": "Giao tiếp dịch vụ",
+      "count": 7
+    },
+    {
+      "name": "Cảm nhận và đánh giá",
+      "count": 8
+    },
+    {
+      "name": "Giao tiếp qua điện thoại",
+      "count": 6
+    },
+    {
+      "name": "Kế hoạch và dự định",
+      "count": 6
+    },
+    {
+      "name": "Cách diễn đạt ý kiến",
+      "count": 8
+    },
+    {
+      "name": "Giao tiếp thân mật",
+      "count": 5
+    }
+  ],
+  "chunks": [
+    {
+      "id": "JP001",
+      "category": "Chào hỏi và làm quen",
+      "japanese": "こんにちは",
+      "kana": "こんにちは",
+      "romaji": "Konnichiwa",
+      "meaning_vi": "Xin chào",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP002",
+      "category": "Chào hỏi và làm quen",
+      "japanese": "おはようございます",
+      "kana": "おはようございます",
+      "romaji": "Ohayou gozaimasu",
+      "meaning_vi": "Chào buổi sáng (lịch sự)",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP003",
+      "category": "Chào hỏi và làm quen",
+      "japanese": "こんばんは",
+      "kana": "こんばんは",
+      "romaji": "Konbanwa",
+      "meaning_vi": "Chào buổi tối",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP004",
+      "category": "Chào hỏi và làm quen",
+      "japanese": "お久しぶりです",
+      "kana": "おひさしぶりです",
+      "romaji": "Ohisashiburi desu",
+      "meaning_vi": "Lâu rồi không gặp",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP005",
+      "category": "Chào hỏi và làm quen",
+      "japanese": "はじめまして",
+      "kana": "はじめまして",
+      "romaji": "Hajimemashite",
+      "meaning_vi": "Rất vui được gặp lần đầu",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP006",
+      "category": "Chào hỏi và làm quen",
+      "japanese": "どうぞよろしくお願いします",
+      "kana": "どうぞよろしくおねがいします",
+      "romaji": "Douzo yoroshiku onegaishimasu",
+      "meaning_vi": "Mong được giúp đỡ / Rất mong được làm quen",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP007",
+      "category": "Chào hỏi và làm quen",
+      "japanese": "お元気ですか",
+      "kana": "おげんきですか",
+      "romaji": "Ogenki desu ka",
+      "meaning_vi": "Bạn khỏe không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP008",
+      "category": "Chào hỏi và làm quen",
+      "japanese": "元気です",
+      "kana": "げんきです",
+      "romaji": "Genki desu",
+      "meaning_vi": "Tôi khỏe",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP009",
+      "category": "Chào hỏi và làm quen",
+      "japanese": "まあまあです",
+      "kana": "まあまあです",
+      "romaji": "Maa maa desu",
+      "meaning_vi": "Cũng bình thường",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP010",
+      "category": "Chào hỏi và làm quen",
+      "japanese": "お名前は何ですか",
+      "kana": "おなまえはなんですか",
+      "romaji": "Onamae wa nan desu ka",
+      "meaning_vi": "Bạn tên là gì?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP011",
+      "category": "Chào hỏi và làm quen",
+      "japanese": "私の名前は＿＿です",
+      "kana": "わたしのなまえは＿＿です",
+      "romaji": "Watashi no namae wa __ desu",
+      "meaning_vi": "Tên tôi là __",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP012",
+      "category": "Chào hỏi và làm quen",
+      "japanese": "どちらから来ましたか",
+      "kana": "どちらからきましたか",
+      "romaji": "Dochira kara kimashita ka",
+      "meaning_vi": "Bạn đến từ đâu?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP013",
+      "category": "Chào hỏi và làm quen",
+      "japanese": "ベトナムから来ました",
+      "kana": "ベトナムからきました",
+      "romaji": "Betonamu kara kimashita",
+      "meaning_vi": "Tôi đến từ Việt Nam",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP014",
+      "category": "Chào hỏi và làm quen",
+      "japanese": "お会いできてうれしいです",
+      "kana": "おあいできてうれしいです",
+      "romaji": "Oai dekite ureshii desu",
+      "meaning_vi": "Rất vui được gặp bạn",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP015",
+      "category": "Chào hỏi và làm quen",
+      "japanese": "またお会いしましょう",
+      "kana": "またおあいしましょう",
+      "romaji": "Mata oai shimashou",
+      "meaning_vi": "Hẹn gặp lại nhé",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP016",
+      "category": "Giới thiệu bản thân",
+      "japanese": "私は大学生です",
+      "kana": "わたしはだいがくせいです",
+      "romaji": "Watashi wa daigakusei desu",
+      "meaning_vi": "Tôi là sinh viên đại học",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP017",
+      "category": "Giới thiệu bản thân",
+      "japanese": "大学で日本語を勉強しています",
+      "kana": "だいがくでにほんごをべんきょうしています",
+      "romaji": "Daigaku de nihongo o benkyou shite imasu",
+      "meaning_vi": "Tôi đang học tiếng Nhật ở đại học",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP018",
+      "category": "Giới thiệu bản thân",
+      "japanese": "日本語を勉強し始めたばかりです",
+      "kana": "にほんごをべんきょうしはじめたばかりです",
+      "romaji": "Nihongo o benkyou shihajimeta bakari desu",
+      "meaning_vi": "Tôi mới bắt đầu học tiếng Nhật",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP019",
+      "category": "Giới thiệu bản thân",
+      "japanese": "趣味は音楽を聞くことです",
+      "kana": "しゅみはおんがくをきくことです",
+      "romaji": "Shumi wa ongaku o kiku koto desu",
+      "meaning_vi": "Sở thích của tôi là nghe nhạc",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP020",
+      "category": "Giới thiệu bản thân",
+      "japanese": "休みの日はよく映画を見ます",
+      "kana": "やすみのひはよくえいがをみます",
+      "romaji": "Yasumi no hi wa yoku eiga o mimasu",
+      "meaning_vi": "Ngày nghỉ tôi thường xem phim",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP021",
+      "category": "Giới thiệu bản thân",
+      "japanese": "今、＿＿に住んでいます",
+      "kana": "いま、＿＿にすんでいます",
+      "romaji": "Ima, __ ni sunde imasu",
+      "meaning_vi": "Hiện tại tôi sống ở __",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP022",
+      "category": "Giới thiệu bản thân",
+      "japanese": "家族は四人です",
+      "kana": "かぞくはよにんです",
+      "romaji": "Kazoku wa yonin desu",
+      "meaning_vi": "Gia đình tôi có bốn người",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP023",
+      "category": "Giới thiệu bản thân",
+      "japanese": "兄弟が二人います",
+      "kana": "きょうだいがふたりいます",
+      "romaji": "Kyoudai ga futari imasu",
+      "meaning_vi": "Tôi có hai anh chị em",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP024",
+      "category": "Giới thiệu bản thân",
+      "japanese": "大学を卒業したら、働きたいです",
+      "kana": "だいがくをそつぎょうしたら、はたらきたいです",
+      "romaji": "Daigaku o sotsugyou shitara, hatarakitai desu",
+      "meaning_vi": "Sau khi tốt nghiệp đại học, tôi muốn đi làm",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP025",
+      "category": "Giới thiệu bản thân",
+      "japanese": "将来は日本で働いてみたいです",
+      "kana": "しょうらいはにほんではたらいてみたいです",
+      "romaji": "Shourai wa Nihon de hataraite mitai desu",
+      "meaning_vi": "Tương lai tôi muốn thử làm việc ở Nhật",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP026",
+      "category": "Lịch sự và phản hồi",
+      "japanese": "ありがとうございます",
+      "kana": "ありがとうございます",
+      "romaji": "Arigatou gozaimasu",
+      "meaning_vi": "Xin cảm ơn",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP027",
+      "category": "Lịch sự và phản hồi",
+      "japanese": "どうもありがとうございます",
+      "kana": "どうもありがとうございます",
+      "romaji": "Doumo arigatou gozaimasu",
+      "meaning_vi": "Cảm ơn rất nhiều",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP028",
+      "category": "Lịch sự và phản hồi",
+      "japanese": "どういたしまして",
+      "kana": "どういたしまして",
+      "romaji": "Dou itashimashite",
+      "meaning_vi": "Không có gì",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP029",
+      "category": "Lịch sự và phản hồi",
+      "japanese": "すみません",
+      "kana": "すみません",
+      "romaji": "Sumimasen",
+      "meaning_vi": "Xin lỗi / Làm phiền / Cảm ơn nhẹ",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP030",
+      "category": "Lịch sự và phản hồi",
+      "japanese": "申し訳ありません",
+      "kana": "もうしわけありません",
+      "romaji": "Moushiwake arimasen",
+      "meaning_vi": "Thành thật xin lỗi",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP031",
+      "category": "Lịch sự và phản hồi",
+      "japanese": "大丈夫です",
+      "kana": "だいじょうぶです",
+      "romaji": "Daijoubu desu",
+      "meaning_vi": "Không sao / Tôi ổn",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP032",
+      "category": "Lịch sự và phản hồi",
+      "japanese": "お願いします",
+      "kana": "おねがいします",
+      "romaji": "Onegaishimasu",
+      "meaning_vi": "Làm ơn / Nhờ bạn",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP033",
+      "category": "Lịch sự và phản hồi",
+      "japanese": "はい、分かりました",
+      "kana": "はい、わかりました",
+      "romaji": "Hai, wakarimashita",
+      "meaning_vi": "Vâng, tôi hiểu rồi",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP034",
+      "category": "Lịch sự và phản hồi",
+      "japanese": "いいえ、気にしないでください",
+      "kana": "いいえ、きにしないでください",
+      "romaji": "Iie, ki ni shinaide kudasai",
+      "meaning_vi": "Không đâu, đừng bận tâm",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP035",
+      "category": "Lịch sự và phản hồi",
+      "japanese": "お待たせしました",
+      "kana": "おまたせしました",
+      "romaji": "Omatase shimashita",
+      "meaning_vi": "Xin lỗi đã để bạn chờ",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP036",
+      "category": "Lịch sự và phản hồi",
+      "japanese": "失礼します",
+      "kana": "しつれいします",
+      "romaji": "Shitsurei shimasu",
+      "meaning_vi": "Xin phép / Xin thất lễ",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP037",
+      "category": "Lịch sự và phản hồi",
+      "japanese": "お疲れさまです",
+      "kana": "おつかれさまです",
+      "romaji": "Otsukaresama desu",
+      "meaning_vi": "Bạn đã vất vả rồi (lời chào nơi làm việc)",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP038",
+      "category": "Nhờ vả và yêu cầu",
+      "japanese": "ちょっと手伝ってもらえますか",
+      "kana": "ちょっとてつだってもらえますか",
+      "romaji": "Chotto tetsudatte moraemasu ka",
+      "meaning_vi": "Bạn giúp tôi một chút được không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP039",
+      "category": "Nhờ vả và yêu cầu",
+      "japanese": "写真を撮っていただけますか",
+      "kana": "しゃしんをとっていただけますか",
+      "romaji": "Shashin o totte itadakemasu ka",
+      "meaning_vi": "Bạn có thể chụp giúp tôi một tấm ảnh không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP040",
+      "category": "Nhờ vả và yêu cầu",
+      "japanese": "もう一度言ってください",
+      "kana": "もういちどいってください",
+      "romaji": "Mou ichido itte kudasai",
+      "meaning_vi": "Xin hãy nói lại một lần nữa",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP041",
+      "category": "Nhờ vả và yêu cầu",
+      "japanese": "ゆっくり話してください",
+      "kana": "ゆっくりはなしてください",
+      "romaji": "Yukkuri hanashite kudasai",
+      "meaning_vi": "Xin hãy nói chậm lại",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP042",
+      "category": "Nhờ vả và yêu cầu",
+      "japanese": "ここに書いてもらえますか",
+      "kana": "ここにかいてもらえますか",
+      "romaji": "Koko ni kaite moraemasu ka",
+      "meaning_vi": "Bạn viết vào đây giúp tôi được không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP043",
+      "category": "Nhờ vả và yêu cầu",
+      "japanese": "少し待ってください",
+      "kana": "すこしまってください",
+      "romaji": "Sukoshi matte kudasai",
+      "meaning_vi": "Xin chờ một chút",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP044",
+      "category": "Nhờ vả và yêu cầu",
+      "japanese": "ドアを開けてもらえますか",
+      "kana": "ドアをあけてもらえますか",
+      "romaji": "Doa o akete moraemasu ka",
+      "meaning_vi": "Bạn mở cửa giúp tôi được không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP045",
+      "category": "Nhờ vả và yêu cầu",
+      "japanese": "手伝いましょうか",
+      "kana": "てつだいましょうか",
+      "romaji": "Tetsudaimashou ka",
+      "meaning_vi": "Để tôi giúp nhé?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP046",
+      "category": "Nhờ vả và yêu cầu",
+      "japanese": "ちょっとお願いがあるんですが",
+      "kana": "ちょっとおねがいがあるんですが",
+      "romaji": "Chotto onegai ga arun desu ga",
+      "meaning_vi": "Tôi có một việc muốn nhờ bạn",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP047",
+      "category": "Nhờ vả và yêu cầu",
+      "japanese": "それを見せてもらえますか",
+      "kana": "それをみせてもらえますか",
+      "romaji": "Sore o misete moraemasu ka",
+      "meaning_vi": "Bạn cho tôi xem cái đó được không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP048",
+      "category": "Nghe hiểu và xử lý hội thoại",
+      "japanese": "すみません、よく聞き取れませんでした",
+      "kana": "すみません、よくききとれませんでした",
+      "romaji": "Sumimasen, yoku kikitoremasen deshita",
+      "meaning_vi": "Xin lỗi, tôi nghe không rõ",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP049",
+      "category": "Nghe hiểu và xử lý hội thoại",
+      "japanese": "もう少し簡単に説明してもらえますか",
+      "kana": "もうすこしかんたんにせつめいしてもらえますか",
+      "romaji": "Mou sukoshi kantan ni setsumei shite moraemasu ka",
+      "meaning_vi": "Bạn giải thích đơn giản hơn một chút được không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP050",
+      "category": "Nghe hiểu và xử lý hội thoại",
+      "japanese": "つまり、＿＿ということですか",
+      "kana": "つまり、＿＿ということですか",
+      "romaji": "Tsumari, __ to iu koto desu ka",
+      "meaning_vi": "Tức là ý bạn là __ phải không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP051",
+      "category": "Nghe hiểu và xử lý hội thoại",
+      "japanese": "どういう意味ですか",
+      "kana": "どういういみですか",
+      "romaji": "Dou iu imi desu ka",
+      "meaning_vi": "Có nghĩa là gì?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP052",
+      "category": "Nghe hiểu và xử lý hội thoại",
+      "japanese": "日本語で何と言いますか",
+      "kana": "にほんごでなんといいますか",
+      "romaji": "Nihongo de nan to iimasu ka",
+      "meaning_vi": "Trong tiếng Nhật nói thế nào?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP053",
+      "category": "Nghe hiểu và xử lý hội thoại",
+      "japanese": "少し考えさせてください",
+      "kana": "すこしかんがえさせてください",
+      "romaji": "Sukoshi kangaesasete kudasai",
+      "meaning_vi": "Cho tôi suy nghĩ một chút",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP054",
+      "category": "Nghe hiểu và xử lý hội thoại",
+      "japanese": "分かったような気がします",
+      "kana": "わかったようなきがします",
+      "romaji": "Wakatta you na ki ga shimasu",
+      "meaning_vi": "Tôi nghĩ là mình hiểu rồi",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP055",
+      "category": "Nghe hiểu và xử lý hội thoại",
+      "japanese": "まだよく分かりません",
+      "kana": "まだよくわかりません",
+      "romaji": "Mada yoku wakarimasen",
+      "meaning_vi": "Tôi vẫn chưa hiểu rõ",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP056",
+      "category": "Nghe hiểu và xử lý hội thoại",
+      "japanese": "例を挙げてもらえますか",
+      "kana": "れいをあげてもらえますか",
+      "romaji": "Rei o agete moraemasu ka",
+      "meaning_vi": "Bạn có thể đưa ví dụ không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP057",
+      "category": "Nghe hiểu và xử lý hội thoại",
+      "japanese": "もう一度確認してもいいですか",
+      "kana": "もういちどかくにんしてもいいですか",
+      "romaji": "Mou ichido kakunin shite mo ii desu ka",
+      "meaning_vi": "Tôi xác nhận lại một lần nữa được không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP058",
+      "category": "Trò chuyện hằng ngày",
+      "japanese": "今日はいい天気ですね",
+      "kana": "きょうはいいてんきですね",
+      "romaji": "Kyou wa ii tenki desu ne",
+      "meaning_vi": "Hôm nay thời tiết đẹp nhỉ",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP059",
+      "category": "Trò chuyện hằng ngày",
+      "japanese": "最近どうですか",
+      "kana": "さいきんどうですか",
+      "romaji": "Saikin dou desu ka",
+      "meaning_vi": "Dạo này thế nào?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP060",
+      "category": "Trò chuyện hằng ngày",
+      "japanese": "最近忙しいですか",
+      "kana": "さいきんいそがしいですか",
+      "romaji": "Saikin isogashii desu ka",
+      "meaning_vi": "Dạo này bạn bận không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP061",
+      "category": "Trò chuyện hằng ngày",
+      "japanese": "週末は何をしましたか",
+      "kana": "しゅうまつはなにをしましたか",
+      "romaji": "Shuumatsu wa nani o shimashita ka",
+      "meaning_vi": "Cuối tuần bạn đã làm gì?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP062",
+      "category": "Trò chuyện hằng ngày",
+      "japanese": "特に何もしていません",
+      "kana": "とくになにもしていません",
+      "romaji": "Toku ni nani mo shite imasen",
+      "meaning_vi": "Tôi không làm gì đặc biệt",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP063",
+      "category": "Trò chuyện hằng ngày",
+      "japanese": "それは面白そうですね",
+      "kana": "それはおもしろそうですね",
+      "romaji": "Sore wa omoshirosou desu ne",
+      "meaning_vi": "Nghe có vẻ thú vị nhỉ",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP064",
+      "category": "Trò chuyện hằng ngày",
+      "japanese": "本当ですか",
+      "kana": "ほんとうですか",
+      "romaji": "Hontou desu ka",
+      "meaning_vi": "Thật sao?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP065",
+      "category": "Trò chuyện hằng ngày",
+      "japanese": "そうなんですね",
+      "kana": "そうなんですね",
+      "romaji": "Sou nan desu ne",
+      "meaning_vi": "Ra là vậy",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP066",
+      "category": "Trò chuyện hằng ngày",
+      "japanese": "私もそう思います",
+      "kana": "わたしもそうおもいます",
+      "romaji": "Watashi mo sou omoimasu",
+      "meaning_vi": "Tôi cũng nghĩ vậy",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP067",
+      "category": "Trò chuyện hằng ngày",
+      "japanese": "ところで、最近どうしていますか",
+      "kana": "ところで、さいきんどうしていますか",
+      "romaji": "Tokoro de, saikin dou shite imasu ka",
+      "meaning_vi": "À mà, dạo này bạn thế nào?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP068",
+      "category": "Trò chuyện hằng ngày",
+      "japanese": "それで、どうなりましたか",
+      "kana": "それで、どうなりましたか",
+      "romaji": "Sore de, dou narimashita ka",
+      "meaning_vi": "Rồi sau đó thế nào?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP069",
+      "category": "Trò chuyện hằng ngày",
+      "japanese": "話は変わりますが",
+      "kana": "はなしはかわりますが",
+      "romaji": "Hanashi wa kawarimasu ga",
+      "meaning_vi": "Chuyển chủ đề một chút",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP070",
+      "category": "Thời gian và lịch hẹn",
+      "japanese": "今、何時ですか",
+      "kana": "いま、なんじですか",
+      "romaji": "Ima, nanji desu ka",
+      "meaning_vi": "Bây giờ là mấy giờ?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP071",
+      "category": "Thời gian và lịch hẹn",
+      "japanese": "何時に会いましょうか",
+      "kana": "なんじにあいましょうか",
+      "romaji": "Nanji ni aimashou ka",
+      "meaning_vi": "Mấy giờ chúng ta gặp nhau?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP072",
+      "category": "Thời gian và lịch hẹn",
+      "japanese": "三時ごろはどうですか",
+      "kana": "さんじごろはどうですか",
+      "romaji": "Sanji goro wa dou desu ka",
+      "meaning_vi": "Khoảng 3 giờ thì sao?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP073",
+      "category": "Thời gian và lịch hẹn",
+      "japanese": "今日はちょっと都合が悪いです",
+      "kana": "きょうはちょっとつごうがわるいです",
+      "romaji": "Kyou wa chotto tsugou ga warui desu",
+      "meaning_vi": "Hôm nay tôi hơi không tiện",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP074",
+      "category": "Thời gian và lịch hẹn",
+      "japanese": "明日なら大丈夫です",
+      "kana": "あしたならだいじょうぶです",
+      "romaji": "Ashita nara daijoubu desu",
+      "meaning_vi": "Nếu là ngày mai thì được",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP075",
+      "category": "Thời gian và lịch hẹn",
+      "japanese": "予定を確認します",
+      "kana": "よていをかくにんします",
+      "romaji": "Yotei o kakunin shimasu",
+      "meaning_vi": "Tôi sẽ kiểm tra lịch",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP076",
+      "category": "Thời gian và lịch hẹn",
+      "japanese": "少し遅れそうです",
+      "kana": "すこしおくれそうです",
+      "romaji": "Sukoshi okuresou desu",
+      "meaning_vi": "Có lẽ tôi sẽ đến muộn một chút",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP077",
+      "category": "Thời gian và lịch hẹn",
+      "japanese": "あと十分で着きます",
+      "kana": "あとじゅっぷんでつきます",
+      "romaji": "Ato juppun de tsukimasu",
+      "meaning_vi": "Mười phút nữa tôi sẽ tới",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP078",
+      "category": "Thời gian và lịch hẹn",
+      "japanese": "約束の時間を変更できますか",
+      "kana": "やくそくのじかんをへんこうできますか",
+      "romaji": "Yakusoku no jikan o henkou dekimasu ka",
+      "meaning_vi": "Có thể đổi giờ hẹn không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP079",
+      "category": "Thời gian và lịch hẹn",
+      "japanese": "また連絡します",
+      "kana": "またれんらくします",
+      "romaji": "Mata renraku shimasu",
+      "meaning_vi": "Tôi sẽ liên lạc lại",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP080",
+      "category": "Ăn uống và nhà hàng",
+      "japanese": "メニューを見せてください",
+      "kana": "メニューをみせてください",
+      "romaji": "Menyuu o misete kudasai",
+      "meaning_vi": "Cho tôi xem thực đơn",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP081",
+      "category": "Ăn uống và nhà hàng",
+      "japanese": "おすすめは何ですか",
+      "kana": "おすすめはなんですか",
+      "romaji": "Osusume wa nan desu ka",
+      "meaning_vi": "Món nào được đề xuất?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP082",
+      "category": "Ăn uống và nhà hàng",
+      "japanese": "これを一つください",
+      "kana": "これをひとつください",
+      "romaji": "Kore o hitotsu kudasai",
+      "meaning_vi": "Cho tôi một phần món này",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP083",
+      "category": "Ăn uống và nhà hàng",
+      "japanese": "水をお願いします",
+      "kana": "みずをおねがいします",
+      "romaji": "Mizu o onegaishimasu",
+      "meaning_vi": "Cho tôi xin nước",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP084",
+      "category": "Ăn uống và nhà hàng",
+      "japanese": "辛くしないでください",
+      "kana": "からくしないでください",
+      "romaji": "Karaku shinaide kudasai",
+      "meaning_vi": "Xin đừng làm cay",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP085",
+      "category": "Ăn uống và nhà hàng",
+      "japanese": "肉は入っていますか",
+      "kana": "にくははいっていますか",
+      "romaji": "Niku wa haitte imasu ka",
+      "meaning_vi": "Có thịt trong món này không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP086",
+      "category": "Ăn uống và nhà hàng",
+      "japanese": "アレルギーがあります",
+      "kana": "アレルギーがあります",
+      "romaji": "Arerugii ga arimasu",
+      "meaning_vi": "Tôi bị dị ứng",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP087",
+      "category": "Ăn uống và nhà hàng",
+      "japanese": "持ち帰りできますか",
+      "kana": "もちかえりできますか",
+      "romaji": "Mochikaeri dekimasu ka",
+      "meaning_vi": "Có thể mang về không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP088",
+      "category": "Ăn uống và nhà hàng",
+      "japanese": "お会計をお願いします",
+      "kana": "おかいけいをおねがいします",
+      "romaji": "Okaikei o onegaishimasu",
+      "meaning_vi": "Cho tôi thanh toán",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP089",
+      "category": "Ăn uống và nhà hàng",
+      "japanese": "別々に払えますか",
+      "kana": "べつべつにはらえますか",
+      "romaji": "Betsubetsu ni haraemasu ka",
+      "meaning_vi": "Có thể trả riêng không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP090",
+      "category": "Ăn uống và nhà hàng",
+      "japanese": "とてもおいしかったです",
+      "kana": "とてもおいしかったです",
+      "romaji": "Totemo oishikatta desu",
+      "meaning_vi": "Rất ngon",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP091",
+      "category": "Ăn uống và nhà hàng",
+      "japanese": "もう少し注文してもいいですか",
+      "kana": "もうすこしちゅうもんしてもいいですか",
+      "romaji": "Mou sukoshi chuumon shite mo ii desu ka",
+      "meaning_vi": "Tôi gọi thêm một chút được không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP092",
+      "category": "Mua sắm và thanh toán",
+      "japanese": "これはいくらですか",
+      "kana": "これはいくらですか",
+      "romaji": "Kore wa ikura desu ka",
+      "meaning_vi": "Cái này bao nhiêu tiền?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP093",
+      "category": "Mua sắm và thanh toán",
+      "japanese": "もう少し安くなりますか",
+      "kana": "もうすこしやすくなりますか",
+      "romaji": "Mou sukoshi yasuku narimasu ka",
+      "meaning_vi": "Có thể rẻ hơn một chút không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP094",
+      "category": "Mua sắm và thanh toán",
+      "japanese": "ほかの色はありますか",
+      "kana": "ほかのいろはありますか",
+      "romaji": "Hoka no iro wa arimasu ka",
+      "meaning_vi": "Có màu khác không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP095",
+      "category": "Mua sắm và thanh toán",
+      "japanese": "試着してもいいですか",
+      "kana": "しちゃくしてもいいですか",
+      "romaji": "Shichaku shite mo ii desu ka",
+      "meaning_vi": "Tôi thử đồ được không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP096",
+      "category": "Mua sắm và thanh toán",
+      "japanese": "これにします",
+      "kana": "これにします",
+      "romaji": "Kore ni shimasu",
+      "meaning_vi": "Tôi lấy cái này",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP097",
+      "category": "Mua sắm và thanh toán",
+      "japanese": "ちょっと考えます",
+      "kana": "ちょっとかんがえます",
+      "romaji": "Chotto kangaemasu",
+      "meaning_vi": "Tôi suy nghĩ thêm",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP098",
+      "category": "Mua sắm và thanh toán",
+      "japanese": "カードで払えますか",
+      "kana": "カードではらえますか",
+      "romaji": "Kaado de haraemasu ka",
+      "meaning_vi": "Có thể trả bằng thẻ không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP099",
+      "category": "Mua sắm và thanh toán",
+      "japanese": "現金で払います",
+      "kana": "げんきんではらいます",
+      "romaji": "Genkin de haraimasu",
+      "meaning_vi": "Tôi trả bằng tiền mặt",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP100",
+      "category": "Mua sắm và thanh toán",
+      "japanese": "レシートをください",
+      "kana": "レシートをください",
+      "romaji": "Reshiito o kudasai",
+      "meaning_vi": "Cho tôi hóa đơn",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP101",
+      "category": "Mua sắm và thanh toán",
+      "japanese": "返品できますか",
+      "kana": "へんぴんできますか",
+      "romaji": "Henpin dekimasu ka",
+      "meaning_vi": "Có thể trả hàng không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP102",
+      "category": "Di chuyển và hỏi đường",
+      "japanese": "駅はどこですか",
+      "kana": "えきはどこですか",
+      "romaji": "Eki wa doko desu ka",
+      "meaning_vi": "Nhà ga ở đâu?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP103",
+      "category": "Di chuyển và hỏi đường",
+      "japanese": "ここから遠いですか",
+      "kana": "ここからとおいですか",
+      "romaji": "Koko kara tooi desu ka",
+      "meaning_vi": "Từ đây có xa không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP104",
+      "category": "Di chuyển và hỏi đường",
+      "japanese": "歩いて行けますか",
+      "kana": "あるいていけますか",
+      "romaji": "Aruite ikemasu ka",
+      "meaning_vi": "Có thể đi bộ đến đó không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP105",
+      "category": "Di chuyển và hỏi đường",
+      "japanese": "右に曲がってください",
+      "kana": "みぎにまがってください",
+      "romaji": "Migi ni magatte kudasai",
+      "meaning_vi": "Xin rẽ phải",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP106",
+      "category": "Di chuyển và hỏi đường",
+      "japanese": "左に曲がってください",
+      "kana": "ひだりにまがってください",
+      "romaji": "Hidari ni magatte kudasai",
+      "meaning_vi": "Xin rẽ trái",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP107",
+      "category": "Di chuyển và hỏi đường",
+      "japanese": "まっすぐ行ってください",
+      "kana": "まっすぐいってください",
+      "romaji": "Massugu itte kudasai",
+      "meaning_vi": "Xin đi thẳng",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP108",
+      "category": "Di chuyển và hỏi đường",
+      "japanese": "このバスは＿＿へ行きますか",
+      "kana": "このバスは＿＿へいきますか",
+      "romaji": "Kono basu wa __ e ikimasu ka",
+      "meaning_vi": "Xe buýt này có đi đến __ không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP109",
+      "category": "Di chuyển và hỏi đường",
+      "japanese": "次の駅で降ります",
+      "kana": "つぎのえきでおります",
+      "romaji": "Tsugi no eki de orimasu",
+      "meaning_vi": "Tôi xuống ở ga tiếp theo",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP110",
+      "category": "Di chuyển và hỏi đường",
+      "japanese": "タクシーを呼んでもらえますか",
+      "kana": "タクシーをよんでもらえますか",
+      "romaji": "Takushii o yonde moraemasu ka",
+      "meaning_vi": "Gọi taxi giúp tôi được không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP111",
+      "category": "Di chuyển và hỏi đường",
+      "japanese": "ここで降ろしてください",
+      "kana": "ここでおろしてください",
+      "romaji": "Koko de oroshite kudasai",
+      "meaning_vi": "Cho tôi xuống ở đây",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP112",
+      "category": "Di chuyển và hỏi đường",
+      "japanese": "道に迷ってしまいました",
+      "kana": "みちにまよってしまいました",
+      "romaji": "Michi ni mayotte shimaimashita",
+      "meaning_vi": "Tôi bị lạc đường",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP113",
+      "category": "Du lịch và khách sạn",
+      "japanese": "予約しています",
+      "kana": "よやくしています",
+      "romaji": "Yoyaku shite imasu",
+      "meaning_vi": "Tôi đã đặt chỗ",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP114",
+      "category": "Du lịch và khách sạn",
+      "japanese": "チェックインをお願いします",
+      "kana": "チェックインをおねがいします",
+      "romaji": "Chekkuin o onegaishimasu",
+      "meaning_vi": "Tôi muốn làm thủ tục nhận phòng",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP115",
+      "category": "Du lịch và khách sạn",
+      "japanese": "チェックアウトは何時ですか",
+      "kana": "チェックアウトはなんじですか",
+      "romaji": "Chekkuauto wa nanji desu ka",
+      "meaning_vi": "Mấy giờ trả phòng?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP116",
+      "category": "Du lịch và khách sạn",
+      "japanese": "荷物を預かってもらえますか",
+      "kana": "にもつをあずかってもらえますか",
+      "romaji": "Nimotsu o azukatte moraemasu ka",
+      "meaning_vi": "Có thể giữ hành lý giúp tôi không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP117",
+      "category": "Du lịch và khách sạn",
+      "japanese": "Wi-Fiのパスワードは何ですか",
+      "kana": "ワイファイのパスワードはなんですか",
+      "romaji": "Waifai no pasuwaado wa nan desu ka",
+      "meaning_vi": "Mật khẩu Wi-Fi là gì?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP118",
+      "category": "Du lịch và khách sạn",
+      "japanese": "部屋に問題があります",
+      "kana": "へやにもんだいがあります",
+      "romaji": "Heya ni mondai ga arimasu",
+      "meaning_vi": "Phòng có vấn đề",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP119",
+      "category": "Du lịch và khách sạn",
+      "japanese": "タオルをもう一枚ください",
+      "kana": "タオルをもういちまいください",
+      "romaji": "Taoru o mou ichimai kudasai",
+      "meaning_vi": "Cho tôi thêm một chiếc khăn",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP120",
+      "category": "Du lịch và khách sạn",
+      "japanese": "近くに観光地はありますか",
+      "kana": "ちかくにかんこうちはありますか",
+      "romaji": "Chikaku ni kankouchi wa arimasu ka",
+      "meaning_vi": "Gần đây có điểm tham quan nào không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP121",
+      "category": "Du lịch và khách sạn",
+      "japanese": "写真を撮ってもいいですか",
+      "kana": "しゃしんをとってもいいですか",
+      "romaji": "Shashin o totte mo ii desu ka",
+      "meaning_vi": "Tôi chụp ảnh được không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP122",
+      "category": "Du lịch và khách sạn",
+      "japanese": "とても楽しかったです",
+      "kana": "とてもたのしかったです",
+      "romaji": "Totemo tanoshikatta desu",
+      "meaning_vi": "Tôi đã rất vui",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP123",
+      "category": "Trường học và học tập",
+      "japanese": "宿題を提出しました",
+      "kana": "しゅくだいをていしゅつしました",
+      "romaji": "Shukudai o teishutsu shimashita",
+      "meaning_vi": "Tôi đã nộp bài tập",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP124",
+      "category": "Trường học và học tập",
+      "japanese": "この言葉の意味は何ですか",
+      "kana": "このことばのいみはなんですか",
+      "romaji": "Kono kotoba no imi wa nan desu ka",
+      "meaning_vi": "Từ này có nghĩa là gì?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP125",
+      "category": "Trường học và học tập",
+      "japanese": "漢字の読み方を教えてください",
+      "kana": "かんじのよみかたをおしえてください",
+      "romaji": "Kanji no yomikata o oshiete kudasai",
+      "meaning_vi": "Hãy chỉ tôi cách đọc chữ kanji này",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP126",
+      "category": "Trường học và học tập",
+      "japanese": "試験はいつですか",
+      "kana": "しけんはいつですか",
+      "romaji": "Shiken wa itsu desu ka",
+      "meaning_vi": "Khi nào thi?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP127",
+      "category": "Trường học và học tập",
+      "japanese": "授業に遅れてしまいました",
+      "kana": "じゅぎょうにおくれてしまいました",
+      "romaji": "Jugyou ni okurete shimaimashita",
+      "meaning_vi": "Tôi đã đến lớp muộn",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP128",
+      "category": "Trường học và học tập",
+      "japanese": "ノートを見せてもらえますか",
+      "kana": "ノートをみせてもらえますか",
+      "romaji": "Nooto o misete moraemasu ka",
+      "meaning_vi": "Cho tôi xem vở ghi được không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP129",
+      "category": "Trường học và học tập",
+      "japanese": "もう一度説明していただけますか",
+      "kana": "もういちどせつめいしていただけますか",
+      "romaji": "Mou ichido setsumei shite itadakemasu ka",
+      "meaning_vi": "Thầy/cô có thể giải thích lại không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP130",
+      "category": "Trường học và học tập",
+      "japanese": "発音を直してもらえますか",
+      "kana": "はつおんをなおしてもらえますか",
+      "romaji": "Hatsuon o naoshite moraemasu ka",
+      "meaning_vi": "Bạn sửa phát âm giúp tôi được không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP131",
+      "category": "Trường học và học tập",
+      "japanese": "毎日少しずつ練習しています",
+      "kana": "まいにちすこしずつれんしゅうしています",
+      "romaji": "Mainichi sukoshi zutsu renshuu shite imasu",
+      "meaning_vi": "Tôi luyện tập từng chút mỗi ngày",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP132",
+      "category": "Trường học và học tập",
+      "japanese": "目標は日本語で会話できるようになることです",
+      "kana": "もくひょうはにほんごでかいわできるようになることです",
+      "romaji": "Mokuhyou wa nihongo de kaiwa dekiru you ni naru koto desu",
+      "meaning_vi": "Mục tiêu là có thể giao tiếp bằng tiếng Nhật",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP133",
+      "category": "Công việc và văn phòng",
+      "japanese": "今、少しお時間よろしいでしょうか",
+      "kana": "いま、すこしおじかんよろしいでしょうか",
+      "romaji": "Ima, sukoshi ojikan yoroshii deshou ka",
+      "meaning_vi": "Bây giờ tôi xin anh/chị chút thời gian được không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP134",
+      "category": "Công việc và văn phòng",
+      "japanese": "確認してからご連絡します",
+      "kana": "かくにんしてからごれんらくします",
+      "romaji": "Kakunin shite kara gorenraku shimasu",
+      "meaning_vi": "Tôi sẽ xác nhận rồi liên lạc lại",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP135",
+      "category": "Công việc và văn phòng",
+      "japanese": "資料を送っていただけますか",
+      "kana": "しりょうをおくっていただけますか",
+      "romaji": "Shiryou o okutte itadakemasu ka",
+      "meaning_vi": "Anh/chị gửi tài liệu giúp tôi được không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP136",
+      "category": "Công việc và văn phòng",
+      "japanese": "会議は何時からですか",
+      "kana": "かいぎはなんじからですか",
+      "romaji": "Kaigi wa nanji kara desu ka",
+      "meaning_vi": "Cuộc họp bắt đầu từ mấy giờ?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP137",
+      "category": "Công việc và văn phòng",
+      "japanese": "少し遅れるかもしれません",
+      "kana": "すこしおくれるかもしれません",
+      "romaji": "Sukoshi okureru kamoshiremasen",
+      "meaning_vi": "Có thể tôi sẽ đến muộn một chút",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP138",
+      "category": "Công việc và văn phòng",
+      "japanese": "こちらで対応いたします",
+      "kana": "こちらでたいおういたします",
+      "romaji": "Kochira de taiou itashimasu",
+      "meaning_vi": "Bên tôi sẽ xử lý việc này",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP139",
+      "category": "Công việc và văn phòng",
+      "japanese": "ご確認をお願いいたします",
+      "kana": "ごかくにんをおねがいいたします",
+      "romaji": "Gokakunin o onegai itashimasu",
+      "meaning_vi": "Kính mong anh/chị xác nhận",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP140",
+      "category": "Công việc và văn phòng",
+      "japanese": "お手数をおかけします",
+      "kana": "おてすうをおかけします",
+      "romaji": "Otesuu o okake shimasu",
+      "meaning_vi": "Xin lỗi vì đã làm phiền / mất công",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP141",
+      "category": "Công việc và văn phòng",
+      "japanese": "先ほどメールをお送りしました",
+      "kana": "さきほどメールをおおくりしました",
+      "romaji": "Sakihodo meeru o ookuri shimashita",
+      "meaning_vi": "Tôi vừa gửi email lúc nãy",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP142",
+      "category": "Công việc và văn phòng",
+      "japanese": "進捗はいかがですか",
+      "kana": "しんちょくはいかがですか",
+      "romaji": "Shinchoku wa ikaga desu ka",
+      "meaning_vi": "Tiến độ thế nào rồi?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP143",
+      "category": "Cảm xúc và ý kiến",
+      "japanese": "うれしいです",
+      "kana": "うれしいです",
+      "romaji": "Ureshii desu",
+      "meaning_vi": "Tôi vui",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP144",
+      "category": "Cảm xúc và ý kiến",
+      "japanese": "少し心配です",
+      "kana": "すこししんぱいです",
+      "romaji": "Sukoshi shinpai desu",
+      "meaning_vi": "Tôi hơi lo",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP145",
+      "category": "Cảm xúc và ý kiến",
+      "japanese": "ちょっと疲れています",
+      "kana": "ちょっとつかれています",
+      "romaji": "Chotto tsukarete imasu",
+      "meaning_vi": "Tôi hơi mệt",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP146",
+      "category": "Cảm xúc và ý kiến",
+      "japanese": "それは残念ですね",
+      "kana": "それはざんねんですね",
+      "romaji": "Sore wa zannen desu ne",
+      "meaning_vi": "Thật đáng tiếc nhỉ",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP147",
+      "category": "Cảm xúc và ý kiến",
+      "japanese": "私は＿＿だと思います",
+      "kana": "わたしは＿＿だとおもいます",
+      "romaji": "Watashi wa __ da to omoimasu",
+      "meaning_vi": "Tôi nghĩ rằng __",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP148",
+      "category": "Cảm xúc và ý kiến",
+      "japanese": "私の意見では",
+      "kana": "わたしのいけんでは",
+      "romaji": "Watashi no iken dewa",
+      "meaning_vi": "Theo ý kiến của tôi",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP149",
+      "category": "Cảm xúc và ý kiến",
+      "japanese": "確かにそうですね",
+      "kana": "たしかにそうですね",
+      "romaji": "Tashika ni sou desu ne",
+      "meaning_vi": "Đúng là như vậy",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP150",
+      "category": "Cảm xúc và ý kiến",
+      "japanese": "一方で、別の考え方もあります",
+      "kana": "いっぽうで、べつのかんがえかたもあります",
+      "romaji": "Ippou de, betsu no kangaekata mo arimasu",
+      "meaning_vi": "Mặt khác, cũng có cách nhìn khác",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP151",
+      "category": "Cảm xúc và ý kiến",
+      "japanese": "まだ決めていません",
+      "kana": "まだきめていません",
+      "romaji": "Mada kimete imasen",
+      "meaning_vi": "Tôi vẫn chưa quyết định",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP152",
+      "category": "Cảm xúc và ý kiến",
+      "japanese": "どちらかと言えば、＿＿のほうが好きです",
+      "kana": "どちらかといえば、＿＿のほうがすきです",
+      "romaji": "Dochira ka to ieba, __ no hou ga suki desu",
+      "meaning_vi": "Nếu phải chọn thì tôi thích __ hơn",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP153",
+      "category": "Cảm xúc và ý kiến",
+      "japanese": "それについて、もう少し詳しく聞きたいです",
+      "kana": "それについて、もうすこしくわしくききたいです",
+      "romaji": "Sore ni tsuite, mou sukoshi kuwashiku kikitai desu",
+      "meaning_vi": "Tôi muốn nghe chi tiết hơn về việc đó",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP154",
+      "category": "Điện thoại và internet",
+      "japanese": "電話してもいいですか",
+      "kana": "でんわしてもいいですか",
+      "romaji": "Denwa shite mo ii desu ka",
+      "meaning_vi": "Tôi gọi điện được không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP155",
+      "category": "Điện thoại và internet",
+      "japanese": "後でかけ直します",
+      "kana": "あとでかけなおします",
+      "romaji": "Ato de kakenaoshimasu",
+      "meaning_vi": "Tôi sẽ gọi lại sau",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP156",
+      "category": "Điện thoại và internet",
+      "japanese": "電波が悪いです",
+      "kana": "でんぱがわるいです",
+      "romaji": "Denpa ga warui desu",
+      "meaning_vi": "Sóng yếu",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP157",
+      "category": "Điện thoại và internet",
+      "japanese": "声が聞こえません",
+      "kana": "こえがきこえません",
+      "romaji": "Koe ga kikoemasen",
+      "meaning_vi": "Tôi không nghe thấy tiếng",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP158",
+      "category": "Điện thoại và internet",
+      "japanese": "メッセージを送りました",
+      "kana": "メッセージをおくりました",
+      "romaji": "Messeeji o okurimashita",
+      "meaning_vi": "Tôi đã gửi tin nhắn",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP159",
+      "category": "Điện thoại và internet",
+      "japanese": "写真を送ってください",
+      "kana": "しゃしんをおくってください",
+      "romaji": "Shashin o okutte kudasai",
+      "meaning_vi": "Gửi ảnh cho tôi nhé",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP160",
+      "category": "Điện thoại và internet",
+      "japanese": "インターネットにつながりません",
+      "kana": "インターネットにつながりません",
+      "romaji": "Intaanetto ni tsunagarimasen",
+      "meaning_vi": "Không kết nối được internet",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP161",
+      "category": "Điện thoại và internet",
+      "japanese": "充電が切れそうです",
+      "kana": "じゅうでんがきれそうです",
+      "romaji": "Juuden ga kiresou desu",
+      "meaning_vi": "Điện thoại sắp hết pin",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP162",
+      "category": "Điện thoại và internet",
+      "japanese": "もう一度メッセージを送ってもらえますか",
+      "kana": "もういちどメッセージをおくってもらえますか",
+      "romaji": "Mou ichido messeeji o okutte moraemasu ka",
+      "meaning_vi": "Bạn gửi lại tin nhắn được không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP163",
+      "category": "Sức khỏe và hiệu thuốc",
+      "japanese": "気分が悪いです",
+      "kana": "きぶんがわるいです",
+      "romaji": "Kibun ga warui desu",
+      "meaning_vi": "Tôi cảm thấy không khỏe",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP164",
+      "category": "Sức khỏe và hiệu thuốc",
+      "japanese": "頭が痛いです",
+      "kana": "あたまがいたいです",
+      "romaji": "Atama ga itai desu",
+      "meaning_vi": "Tôi bị đau đầu",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP165",
+      "category": "Sức khỏe và hiệu thuốc",
+      "japanese": "お腹が痛いです",
+      "kana": "おなかがいたいです",
+      "romaji": "Onaka ga itai desu",
+      "meaning_vi": "Tôi bị đau bụng",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP166",
+      "category": "Sức khỏe và hiệu thuốc",
+      "japanese": "熱があります",
+      "kana": "ねつがあります",
+      "romaji": "Netsu ga arimasu",
+      "meaning_vi": "Tôi bị sốt",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP167",
+      "category": "Sức khỏe và hiệu thuốc",
+      "japanese": "薬を飲みました",
+      "kana": "くすりをのみました",
+      "romaji": "Kusuri o nomimashita",
+      "meaning_vi": "Tôi đã uống thuốc",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP168",
+      "category": "Sức khỏe và hiệu thuốc",
+      "japanese": "病院はどこにありますか",
+      "kana": "びょういんはどこにありますか",
+      "romaji": "Byouin wa doko ni arimasu ka",
+      "meaning_vi": "Bệnh viện ở đâu?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP169",
+      "category": "Sức khỏe và hiệu thuốc",
+      "japanese": "予約なしでも診てもらえますか",
+      "kana": "よやくなしでもみてもらえますか",
+      "romaji": "Yoyaku nashi demo mite moraemasu ka",
+      "meaning_vi": "Không đặt lịch vẫn được khám chứ?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP170",
+      "category": "Sức khỏe và hiệu thuốc",
+      "japanese": "薬局は近くにありますか",
+      "kana": "やっきょくはちかくにありますか",
+      "romaji": "Yakkyoku wa chikaku ni arimasu ka",
+      "meaning_vi": "Gần đây có hiệu thuốc không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP171",
+      "category": "Sức khỏe và hiệu thuốc",
+      "japanese": "この薬は一日に何回飲みますか",
+      "kana": "このくすりはいちにちになんかいのみますか",
+      "romaji": "Kono kusuri wa ichinichi ni nankai nomimasu ka",
+      "meaning_vi": "Thuốc này uống mấy lần một ngày?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP172",
+      "category": "Sức khỏe và hiệu thuốc",
+      "japanese": "アレルギーの薬はありますか",
+      "kana": "アレルギーのくすりはありますか",
+      "romaji": "Arerugii no kusuri wa arimasu ka",
+      "meaning_vi": "Có thuốc dị ứng không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP173",
+      "category": "Nhà ở và sinh hoạt",
+      "japanese": "家賃はいくらですか",
+      "kana": "やちんはいくらですか",
+      "romaji": "Yachin wa ikura desu ka",
+      "meaning_vi": "Tiền thuê nhà bao nhiêu?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP174",
+      "category": "Nhà ở và sinh hoạt",
+      "japanese": "駅から近いですか",
+      "kana": "えきからちかいですか",
+      "romaji": "Eki kara chikai desu ka",
+      "meaning_vi": "Có gần ga không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP175",
+      "category": "Nhà ở và sinh hoạt",
+      "japanese": "ここに住んでどのくらいですか",
+      "kana": "ここにすんでどのくらいですか",
+      "romaji": "Koko ni sunde dono kurai desu ka",
+      "meaning_vi": "Bạn sống ở đây bao lâu rồi?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP176",
+      "category": "Nhà ở và sinh hoạt",
+      "japanese": "鍵をなくしてしまいました",
+      "kana": "かぎをなくしてしまいました",
+      "romaji": "Kagi o nakushite shimaimashita",
+      "meaning_vi": "Tôi lỡ làm mất chìa khóa",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP177",
+      "category": "Nhà ở và sinh hoạt",
+      "japanese": "お湯が出ません",
+      "kana": "おゆがでません",
+      "romaji": "Oyu ga demasen",
+      "meaning_vi": "Không có nước nóng",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP178",
+      "category": "Nhà ở và sinh hoạt",
+      "japanese": "エアコンが動きません",
+      "kana": "エアコンがうごきません",
+      "romaji": "Eakon ga ugokimasen",
+      "meaning_vi": "Điều hòa không hoạt động",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP179",
+      "category": "Nhà ở và sinh hoạt",
+      "japanese": "ゴミはどこに捨てればいいですか",
+      "kana": "ゴミはどこにすてればいいですか",
+      "romaji": "Gomi wa doko ni sutereba ii desu ka",
+      "meaning_vi": "Tôi nên vứt rác ở đâu?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP180",
+      "category": "Nhà ở và sinh hoạt",
+      "japanese": "近くにスーパーはありますか",
+      "kana": "ちかくにスーパーはありますか",
+      "romaji": "Chikaku ni suupaa wa arimasu ka",
+      "meaning_vi": "Gần đây có siêu thị không?",
+      "level": "N5-N4",
+      "register": "polite"
+    },
+    {
+      "id": "JP181",
+      "category": "Khẩn cấp và sự cố",
+      "japanese": "助けてください",
+      "kana": "たすけてください",
+      "romaji": "Tasukete kudasai",
+      "meaning_vi": "Xin hãy giúp tôi",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP182",
+      "category": "Khẩn cấp và sự cố",
+      "japanese": "警察を呼んでください",
+      "kana": "けいさつをよんでください",
+      "romaji": "Keisatsu o yonde kudasai",
+      "meaning_vi": "Hãy gọi cảnh sát",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP183",
+      "category": "Khẩn cấp và sự cố",
+      "japanese": "救急車を呼んでください",
+      "kana": "きゅうきゅうしゃをよんでください",
+      "romaji": "Kyuukyuusha o yonde kudasai",
+      "meaning_vi": "Hãy gọi xe cấp cứu",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP184",
+      "category": "Khẩn cấp và sự cố",
+      "japanese": "財布をなくしました",
+      "kana": "さいふをなくしました",
+      "romaji": "Saifu o nakushimashita",
+      "meaning_vi": "Tôi bị mất ví",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP185",
+      "category": "Khẩn cấp và sự cố",
+      "japanese": "パスポートをなくしました",
+      "kana": "パスポートをなくしました",
+      "romaji": "Pasupooto o nakushimashita",
+      "meaning_vi": "Tôi bị mất hộ chiếu",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP186",
+      "category": "Khẩn cấp và sự cố",
+      "japanese": "事故がありました",
+      "kana": "じこがありました",
+      "romaji": "Jiko ga arimashita",
+      "meaning_vi": "Đã xảy ra tai nạn",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP187",
+      "category": "Khẩn cấp và sự cố",
+      "japanese": "ここは危ないです",
+      "kana": "ここはあぶないです",
+      "romaji": "Koko wa abunai desu",
+      "meaning_vi": "Ở đây nguy hiểm",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP188",
+      "category": "Khẩn cấp và sự cố",
+      "japanese": "気をつけてください",
+      "kana": "きをつけてください",
+      "romaji": "Ki o tsukete kudasai",
+      "meaning_vi": "Hãy cẩn thận",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP189",
+      "category": "Mời mọc và quan hệ xã hội",
+      "japanese": "一緒に行きませんか",
+      "kana": "いっしょにいきませんか",
+      "romaji": "Issho ni ikimasen ka",
+      "meaning_vi": "Đi cùng nhau không?",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP190",
+      "category": "Mời mọc và quan hệ xã hội",
+      "japanese": "今度、一緒に食事しませんか",
+      "kana": "こんど、いっしょにしょくじしませんか",
+      "romaji": "Kondo, issho ni shokuji shimasen ka",
+      "meaning_vi": "Lần tới đi ăn cùng nhau nhé?",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP191",
+      "category": "Mời mọc và quan hệ xã hội",
+      "japanese": "ぜひ行きたいです",
+      "kana": "ぜひいきたいです",
+      "romaji": "Zehi ikitai desu",
+      "meaning_vi": "Tôi rất muốn đi",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP192",
+      "category": "Mời mọc và quan hệ xã hội",
+      "japanese": "誘ってくれてありがとう",
+      "kana": "さそってくれてありがとう",
+      "romaji": "Sasotte kurete arigatou",
+      "meaning_vi": "Cảm ơn vì đã rủ tôi",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP193",
+      "category": "Mời mọc và quan hệ xã hội",
+      "japanese": "今日は行けそうにありません",
+      "kana": "きょうはいけそうにありません",
+      "romaji": "Kyou wa ikesou ni arimasen",
+      "meaning_vi": "Hôm nay có lẽ tôi không đi được",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP194",
+      "category": "Mời mọc và quan hệ xã hội",
+      "japanese": "また今度誘ってください",
+      "kana": "またこんどさそってください",
+      "romaji": "Mata kondo sasotte kudasai",
+      "meaning_vi": "Lần sau lại rủ tôi nhé",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP195",
+      "category": "Mời mọc và quan hệ xã hội",
+      "japanese": "何か趣味はありますか",
+      "kana": "なにかしゅみはありますか",
+      "romaji": "Nanika shumi wa arimasu ka",
+      "meaning_vi": "Bạn có sở thích gì không?",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP196",
+      "category": "Mời mọc và quan hệ xã hội",
+      "japanese": "休日は何をするのが好きですか",
+      "kana": "きゅうじつはなにをするのがすきですか",
+      "romaji": "Kyuujitsu wa nani o suru no ga suki desu ka",
+      "meaning_vi": "Ngày nghỉ bạn thích làm gì?",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP197",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿が好きです",
+      "kana": "＿＿がすきです",
+      "romaji": "__ ga suki desu",
+      "meaning_vi": "Tôi thích __",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP198",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿が苦手です",
+      "kana": "＿＿がにがてです",
+      "romaji": "__ ga nigate desu",
+      "meaning_vi": "Tôi không giỏi / không thích __",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP199",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿に興味があります",
+      "kana": "＿＿にきょうみがあります",
+      "romaji": "__ ni kyoumi ga arimasu",
+      "meaning_vi": "Tôi có hứng thú với __",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP200",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿について知りたいです",
+      "kana": "＿＿についてしりたいです",
+      "romaji": "__ ni tsuite shiritai desu",
+      "meaning_vi": "Tôi muốn biết về __",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP201",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿したことがあります",
+      "kana": "＿＿したことがあります",
+      "romaji": "__ shita koto ga arimasu",
+      "meaning_vi": "Tôi đã từng __",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP202",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿したことがありません",
+      "kana": "＿＿したことがありません",
+      "romaji": "__ shita koto ga arimasen",
+      "meaning_vi": "Tôi chưa từng __",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP203",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿するつもりです",
+      "kana": "＿＿するつもりです",
+      "romaji": "__ suru tsumori desu",
+      "meaning_vi": "Tôi dự định __",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP204",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿したいんですが",
+      "kana": "＿＿したいんですが",
+      "romaji": "__ shitain desu ga",
+      "meaning_vi": "Tôi muốn __ (mở lời nhờ/trao đổi)",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP205",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿てもいいですか",
+      "kana": "＿＿てもいいですか",
+      "romaji": "__ temo ii desu ka",
+      "meaning_vi": "Tôi làm __ có được không?",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP206",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿てはいけませんか",
+      "kana": "＿＿てはいけませんか",
+      "romaji": "__ te wa ikemasen ka",
+      "meaning_vi": "Không được __ sao?",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP207",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿たほうがいいと思います",
+      "kana": "＿＿たほうがいいとおもいます",
+      "romaji": "__ ta hou ga ii to omoimasu",
+      "meaning_vi": "Tôi nghĩ nên __",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP208",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿かもしれません",
+      "kana": "＿＿かもしれません",
+      "romaji": "__ kamoshiremasen",
+      "meaning_vi": "Có lẽ __",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP209",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿ので、＿＿",
+      "kana": "＿＿ので、＿＿",
+      "romaji": "__ node, __",
+      "meaning_vi": "Vì __ nên __",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP210",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿のに、＿＿",
+      "kana": "＿＿のに、＿＿",
+      "romaji": "__ noni, __",
+      "meaning_vi": "Mặc dù __ nhưng __",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP211",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿ながら、＿＿",
+      "kana": "＿＿ながら、＿＿",
+      "romaji": "__ nagara, __",
+      "meaning_vi": "Vừa __ vừa __",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP212",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿ようにしています",
+      "kana": "＿＿ようにしています",
+      "romaji": "__ you ni shite imasu",
+      "meaning_vi": "Tôi cố gắng duy trì thói quen __",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP213",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿ことになりました",
+      "kana": "＿＿ことになりました",
+      "romaji": "__ koto ni narimashita",
+      "meaning_vi": "Đã có quyết định là __",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP214",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿てもらえませんか",
+      "kana": "＿＿てもらえませんか",
+      "romaji": "__ temo moraemasen ka",
+      "meaning_vi": "Bạn có thể làm __ giúp tôi không?",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP215",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿という意味ですか",
+      "kana": "＿＿といういみですか",
+      "romaji": "__ to iu imi desu ka",
+      "meaning_vi": "Có nghĩa là __ phải không?",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP216",
+      "category": "Chunk mẫu và cấu trúc linh hoạt",
+      "japanese": "＿＿のほうが＿＿より好きです",
+      "kana": "＿＿のほうが＿＿よりすきです",
+      "romaji": "__ no hou ga __ yori suki desu",
+      "meaning_vi": "Tôi thích __ hơn __",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP217",
+      "category": "Ngữ điệu tự nhiên và từ đệm",
+      "japanese": "ええと",
+      "kana": "ええと",
+      "romaji": "Eeto",
+      "meaning_vi": "Ừm… (đang suy nghĩ)",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP218",
+      "category": "Ngữ điệu tự nhiên và từ đệm",
+      "japanese": "そうですね",
+      "kana": "そうですね",
+      "romaji": "Sou desu ne",
+      "meaning_vi": "Để xem… / Đúng vậy nhỉ",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP219",
+      "category": "Ngữ điệu tự nhiên và từ đệm",
+      "japanese": "なるほど",
+      "kana": "なるほど",
+      "romaji": "Naruhodo",
+      "meaning_vi": "Ra vậy",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP220",
+      "category": "Ngữ điệu tự nhiên và từ đệm",
+      "japanese": "たしかに",
+      "kana": "たしかに",
+      "romaji": "Tashika ni",
+      "meaning_vi": "Đúng thật",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP221",
+      "category": "Ngữ điệu tự nhiên và từ đệm",
+      "japanese": "実は",
+      "kana": "じつは",
+      "romaji": "Jitsu wa",
+      "meaning_vi": "Thật ra là",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP222",
+      "category": "Ngữ điệu tự nhiên và từ đệm",
+      "japanese": "例えば",
+      "kana": "たとえば",
+      "romaji": "Tatoeba",
+      "meaning_vi": "Ví dụ như",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP223",
+      "category": "Ngữ điệu tự nhiên và từ đệm",
+      "japanese": "ちなみに",
+      "kana": "ちなみに",
+      "romaji": "Chinami ni",
+      "meaning_vi": "Nhân tiện",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP224",
+      "category": "Ngữ điệu tự nhiên và từ đệm",
+      "japanese": "それはそうですが",
+      "kana": "それはそうですが",
+      "romaji": "Sore wa sou desu ga",
+      "meaning_vi": "Điều đó đúng, nhưng…",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP225",
+      "category": "Ngữ điệu tự nhiên và từ đệm",
+      "japanese": "というか",
+      "kana": "というか",
+      "romaji": "To iu ka",
+      "meaning_vi": "Nói đúng hơn là…",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP226",
+      "category": "Ngữ điệu tự nhiên và từ đệm",
+      "japanese": "なんて言えばいいかな",
+      "kana": "なんていえばいいかな",
+      "romaji": "Nante ieba ii kana",
+      "meaning_vi": "Nói thế nào nhỉ…",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP227",
+      "category": "Ngữ điệu tự nhiên và từ đệm",
+      "japanese": "ちょっと待ってくださいね",
+      "kana": "ちょっとまってくださいね",
+      "romaji": "Chotto matte kudasai ne",
+      "meaning_vi": "Chờ tôi chút nhé",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP228",
+      "category": "Ngữ điệu tự nhiên và từ đệm",
+      "japanese": "まあ、そんな感じです",
+      "kana": "まあ、そんなかんじです",
+      "romaji": "Maa, sonna kanji desu",
+      "meaning_vi": "Đại khái là vậy",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP229",
+      "category": "Kết thúc hội thoại",
+      "japanese": "今日はありがとうございました",
+      "kana": "きょうはありがとうございました",
+      "romaji": "Kyou wa arigatou gozaimashita",
+      "meaning_vi": "Cảm ơn bạn vì hôm nay",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP230",
+      "category": "Kết thúc hội thoại",
+      "japanese": "お話しできてよかったです",
+      "kana": "おはなしできてよかったです",
+      "romaji": "Ohanashi dekite yokatta desu",
+      "meaning_vi": "Rất vui vì được trò chuyện",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP231",
+      "category": "Kết thúc hội thoại",
+      "japanese": "そろそろ失礼します",
+      "kana": "そろそろしつれいします",
+      "romaji": "Sorosoro shitsurei shimasu",
+      "meaning_vi": "Tôi xin phép về / kết thúc ở đây",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP232",
+      "category": "Kết thúc hội thoại",
+      "japanese": "また連絡しますね",
+      "kana": "またれんらくしますね",
+      "romaji": "Mata renraku shimasu ne",
+      "meaning_vi": "Tôi sẽ liên lạc lại nhé",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP233",
+      "category": "Kết thúc hội thoại",
+      "japanese": "気をつけて帰ってください",
+      "kana": "きをつけてかえってください",
+      "romaji": "Ki o tsukete kaette kudasai",
+      "meaning_vi": "Về cẩn thận nhé",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP234",
+      "category": "Kết thúc hội thoại",
+      "japanese": "では、また",
+      "kana": "では、また",
+      "romaji": "Dewa, mata",
+      "meaning_vi": "Vậy nhé, hẹn gặp lại",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP235",
+      "category": "Kết thúc hội thoại",
+      "japanese": "お先に失礼します",
+      "kana": "おさきにしつれいします",
+      "romaji": "Osaki ni shitsurei shimasu",
+      "meaning_vi": "Tôi xin phép về trước (nơi làm việc)",
+      "level": "N4-N3",
+      "register": "polite"
+    },
+    {
+      "id": "JP236",
+      "category": "Mở rộng câu hỏi",
+      "japanese": "どのくらい時間がかかりますか",
+      "kana": "どのくらいじかんがかかりますか",
+      "romaji": "Dono kurai jikan ga kakarimasu ka",
+      "meaning_vi": "Mất khoảng bao lâu?",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP237",
+      "category": "Mở rộng câu hỏi",
+      "japanese": "何かおすすめがありますか",
+      "kana": "なにかおすすめがありますか",
+      "romaji": "Nanika osusume ga arimasu ka",
+      "meaning_vi": "Có gợi ý nào không?",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP238",
+      "category": "Mở rộng câu hỏi",
+      "japanese": "いつまでに必要ですか",
+      "kana": "いつまでにひつようですか",
+      "romaji": "Itsu made ni hitsuyou desu ka",
+      "meaning_vi": "Cần trước khi nào?",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP239",
+      "category": "Mở rộng câu hỏi",
+      "japanese": "どこで申し込めますか",
+      "kana": "どこでもうしこめますか",
+      "romaji": "Doko de moushikomemasu ka",
+      "meaning_vi": "Có thể đăng ký ở đâu?",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP240",
+      "category": "Mở rộng câu hỏi",
+      "japanese": "どうやって使いますか",
+      "kana": "どうやってつかいますか",
+      "romaji": "Dou yatte tsukaimasu ka",
+      "meaning_vi": "Sử dụng như thế nào?",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP241",
+      "category": "Mở rộng câu hỏi",
+      "japanese": "何か問題がありますか",
+      "kana": "なにかもんだいがありますか",
+      "romaji": "Nanika mondai ga arimasu ka",
+      "meaning_vi": "Có vấn đề gì không?",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP242",
+      "category": "Mở rộng câu hỏi",
+      "japanese": "誰に聞けばいいですか",
+      "kana": "だれにきけばいいですか",
+      "romaji": "Dare ni kikeba ii desu ka",
+      "meaning_vi": "Tôi nên hỏi ai?",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP243",
+      "category": "Mở rộng câu hỏi",
+      "japanese": "どちらを選べばいいですか",
+      "kana": "どちらをえらべばいいですか",
+      "romaji": "Dochira o erabeba ii desu ka",
+      "meaning_vi": "Tôi nên chọn cái nào?",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP244",
+      "category": "Mở rộng câu hỏi",
+      "japanese": "もう決まりましたか",
+      "kana": "もうきまりましたか",
+      "romaji": "Mou kimarimashita ka",
+      "meaning_vi": "Đã quyết định chưa?",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP245",
+      "category": "Mở rộng câu hỏi",
+      "japanese": "何か手伝えることはありますか",
+      "kana": "なにかてつだえることはありますか",
+      "romaji": "Nanika tetsudaeru koto wa arimasu ka",
+      "meaning_vi": "Có việc gì tôi có thể giúp không?",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP246",
+      "category": "Ứng xử tự nhiên",
+      "japanese": "そういうこともありますね",
+      "kana": "そういうこともありますね",
+      "romaji": "Sou iu koto mo arimasu ne",
+      "meaning_vi": "Cũng có những chuyện như vậy nhỉ",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP247",
+      "category": "Ứng xử tự nhiên",
+      "japanese": "無理しないでください",
+      "kana": "むりしないでください",
+      "romaji": "Muri shinaide kudasai",
+      "meaning_vi": "Đừng cố quá nhé",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP248",
+      "category": "Ứng xử tự nhiên",
+      "japanese": "気にしなくていいですよ",
+      "kana": "きにしなくていいですよ",
+      "romaji": "Ki ni shinakute ii desu yo",
+      "meaning_vi": "Bạn không cần bận tâm đâu",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP249",
+      "category": "Ứng xử tự nhiên",
+      "japanese": "それならよかったです",
+      "kana": "それならよかったです",
+      "romaji": "Sore nara yokatta desu",
+      "meaning_vi": "Nếu vậy thì tốt quá",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP250",
+      "category": "Ứng xử tự nhiên",
+      "japanese": "残念ですが、仕方がありません",
+      "kana": "ざんねんですが、しかたがありません",
+      "romaji": "Zannen desu ga, shikata ga arimasen",
+      "meaning_vi": "Đáng tiếc nhưng cũng đành chịu",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP251",
+      "category": "Ứng xử tự nhiên",
+      "japanese": "急がなくても大丈夫です",
+      "kana": "いそがなくてもだいじょうぶです",
+      "romaji": "Isoganakute mo daijoubu desu",
+      "meaning_vi": "Không cần vội đâu",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP252",
+      "category": "Ứng xử tự nhiên",
+      "japanese": "念のため確認します",
+      "kana": "ねんのためかくにんします",
+      "romaji": "Nen no tame kakunin shimasu",
+      "meaning_vi": "Tôi xác nhận lại cho chắc",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP253",
+      "category": "Ứng xử tự nhiên",
+      "japanese": "おかげさまで元気です",
+      "kana": "おかげさまでげんきです",
+      "romaji": "Okagesama de genki desu",
+      "meaning_vi": "Nhờ ơn bạn, tôi vẫn khỏe",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP254",
+      "category": "Giải quyết vấn đề",
+      "japanese": "どうすればいいですか",
+      "kana": "どうすればいいですか",
+      "romaji": "Dou sureba ii desu ka",
+      "meaning_vi": "Tôi nên làm thế nào?",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP255",
+      "category": "Giải quyết vấn đề",
+      "japanese": "原因が分かりません",
+      "kana": "げんいんがわかりません",
+      "romaji": "Genin ga wakarimasen",
+      "meaning_vi": "Tôi không biết nguyên nhân",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP256",
+      "category": "Giải quyết vấn đề",
+      "japanese": "もう一度試してみます",
+      "kana": "もういちどためしてみます",
+      "romaji": "Mou ichido tameshite mimasu",
+      "meaning_vi": "Tôi sẽ thử lại lần nữa",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP257",
+      "category": "Giải quyết vấn đề",
+      "japanese": "すぐに直せますか",
+      "kana": "すぐになおせますか",
+      "romaji": "Sugu ni naosemasu ka",
+      "meaning_vi": "Có thể sửa ngay được không?",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP258",
+      "category": "Giải quyết vấn đề",
+      "japanese": "予定より時間がかかっています",
+      "kana": "よていよりじかんがかかっています",
+      "romaji": "Yotei yori jikan ga kakatte imasu",
+      "meaning_vi": "Đang mất nhiều thời gian hơn dự kiến",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP259",
+      "category": "Giải quyết vấn đề",
+      "japanese": "別の方法はありますか",
+      "kana": "べつのほうほうはありますか",
+      "romaji": "Betsu no houhou wa arimasu ka",
+      "meaning_vi": "Có cách nào khác không?",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP260",
+      "category": "Giải quyết vấn đề",
+      "japanese": "こちらの勘違いでした",
+      "kana": "こちらのかんちがいでした",
+      "romaji": "Kochira no kanchigai deshita",
+      "meaning_vi": "Là do phía tôi hiểu nhầm",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP261",
+      "category": "Giải quyết vấn đề",
+      "japanese": "ご迷惑をおかけしてすみません",
+      "kana": "ごめいわくをおかけしてすみません",
+      "romaji": "Gomeiwaku o okake shite sumimasen",
+      "meaning_vi": "Xin lỗi vì đã gây phiền phức",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP262",
+      "category": "Giao tiếp dịch vụ",
+      "japanese": "予約を変更したいです",
+      "kana": "よやくをへんこうしたいです",
+      "romaji": "Yoyaku o henkou shitai desu",
+      "meaning_vi": "Tôi muốn đổi đặt chỗ",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP263",
+      "category": "Giao tiếp dịch vụ",
+      "japanese": "キャンセルできますか",
+      "kana": "キャンセルできますか",
+      "romaji": "Kyanseru dekimasu ka",
+      "meaning_vi": "Có thể hủy không?",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP264",
+      "category": "Giao tiếp dịch vụ",
+      "japanese": "追加料金はかかりますか",
+      "kana": "ついかりょうきんはかかりますか",
+      "romaji": "Tsuika ryoukin wa kakarimasu ka",
+      "meaning_vi": "Có mất thêm phí không?",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP265",
+      "category": "Giao tiếp dịch vụ",
+      "japanese": "領収書をいただけますか",
+      "kana": "りょうしゅうしょをいただけますか",
+      "romaji": "Ryoushuusho o itadakemasu ka",
+      "meaning_vi": "Tôi xin hóa đơn/biên lai được không?",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP266",
+      "category": "Giao tiếp dịch vụ",
+      "japanese": "こちらで少々お待ちください",
+      "kana": "こちらでしょうしょうおまちください",
+      "romaji": "Kochira de shoushou omachi kudasai",
+      "meaning_vi": "Xin vui lòng đợi ở đây một lát",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP267",
+      "category": "Giao tiếp dịch vụ",
+      "japanese": "担当者に確認いたします",
+      "kana": "たんとうしゃにかくにんいたします",
+      "romaji": "Tantousha ni kakunin itashimasu",
+      "meaning_vi": "Tôi sẽ xác nhận với người phụ trách",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP268",
+      "category": "Giao tiếp dịch vụ",
+      "japanese": "ご希望をお聞かせください",
+      "kana": "ごきぼうをおきかせください",
+      "romaji": "Gokibou o okikase kudasai",
+      "meaning_vi": "Xin cho biết mong muốn của anh/chị",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP269",
+      "category": "Cảm nhận và đánh giá",
+      "japanese": "思ったより簡単でした",
+      "kana": "おもったよりかんたんでした",
+      "romaji": "Omotta yori kantan deshita",
+      "meaning_vi": "Dễ hơn tôi nghĩ",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP270",
+      "category": "Cảm nhận và đánh giá",
+      "japanese": "想像していたより大変でした",
+      "kana": "そうぞうしていたよりたいへんでした",
+      "romaji": "Souzou shite ita yori taihen deshita",
+      "meaning_vi": "Vất vả hơn tôi tưởng tượng",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP271",
+      "category": "Cảm nhận và đánh giá",
+      "japanese": "一度行ってみたいです",
+      "kana": "いちどいってみたいです",
+      "romaji": "Ichido itte mitai desu",
+      "meaning_vi": "Tôi muốn thử đến đó một lần",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP272",
+      "category": "Cảm nhận và đánh giá",
+      "japanese": "また食べたいです",
+      "kana": "またたべたいです",
+      "romaji": "Mata tabetai desu",
+      "meaning_vi": "Tôi muốn ăn lại lần nữa",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP273",
+      "category": "Cảm nhận và đánh giá",
+      "japanese": "期待していた以上によかったです",
+      "kana": "きたいしていたいじょうによかったです",
+      "romaji": "Kitai shite ita ijou ni yokatta desu",
+      "meaning_vi": "Tốt hơn cả mong đợi",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP274",
+      "category": "Cảm nhận và đánh giá",
+      "japanese": "少しイメージと違いました",
+      "kana": "すこしイメージとちがいました",
+      "romaji": "Sukoshi imeeji to chigaimashita",
+      "meaning_vi": "Hơi khác so với hình dung của tôi",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP275",
+      "category": "Cảm nhận và đánh giá",
+      "japanese": "個人的にはこちらが好きです",
+      "kana": "こじんてきにはこちらがすきです",
+      "romaji": "Kojinteki ni wa kochira ga suki desu",
+      "meaning_vi": "Cá nhân tôi thích cái này hơn",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP276",
+      "category": "Cảm nhận và đánh giá",
+      "japanese": "人によって違うと思います",
+      "kana": "ひとによってちがうとおもいます",
+      "romaji": "Hito ni yotte chigau to omoimasu",
+      "meaning_vi": "Tôi nghĩ tùy từng người mà khác nhau",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP277",
+      "category": "Giao tiếp qua điện thoại",
+      "japanese": "今、お話ししてもよろしいでしょうか",
+      "kana": "いま、おはなししてもよろしいでしょうか",
+      "romaji": "Ima, ohanashi shite mo yoroshii deshou ka",
+      "meaning_vi": "Bây giờ tôi nói chuyện một chút có tiện không?",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP278",
+      "category": "Giao tiếp qua điện thoại",
+      "japanese": "＿＿さんはいらっしゃいますか",
+      "kana": "＿＿さんはいらっしゃいますか",
+      "romaji": "__ san wa irasshaimasu ka",
+      "meaning_vi": "Cho hỏi anh/chị __ có ở đó không?",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP279",
+      "category": "Giao tiếp qua điện thoại",
+      "japanese": "伝言をお願いできますか",
+      "kana": "でんごんをおねがいできますか",
+      "romaji": "Dengon o onegai dekimasu ka",
+      "meaning_vi": "Tôi có thể nhờ nhắn lại lời nhắn không?",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP280",
+      "category": "Giao tiếp qua điện thoại",
+      "japanese": "折り返しお電話いたします",
+      "kana": "おりかえしおでんわいたします",
+      "romaji": "Orikaeshi o denwa itashimasu",
+      "meaning_vi": "Tôi sẽ gọi điện lại",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP281",
+      "category": "Giao tiếp qua điện thoại",
+      "japanese": "電車の中なので、後で連絡します",
+      "kana": "でんしゃのなかなので、あとでれんらくします",
+      "romaji": "Densha no naka na node, ato de renraku shimasu",
+      "meaning_vi": "Tôi đang ở trên tàu nên sẽ liên lạc sau",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP282",
+      "category": "Giao tiếp qua điện thoại",
+      "japanese": "少々お待ちいただけますか",
+      "kana": "しょうしょうおまちいただけますか",
+      "romaji": "Shoushou omachi itadakemasu ka",
+      "meaning_vi": "Anh/chị vui lòng chờ một chút được không?",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP283",
+      "category": "Kế hoạch và dự định",
+      "japanese": "まだ予定は決まっていません",
+      "kana": "まだよていはきまっていません",
+      "romaji": "Mada yotei wa kimatte imasen",
+      "meaning_vi": "Lịch trình vẫn chưa được quyết định",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP284",
+      "category": "Kế hoạch và dự định",
+      "japanese": "できれば午前中がいいです",
+      "kana": "できればごぜんちゅうがいいです",
+      "romaji": "Dekireba gozenchuu ga ii desu",
+      "meaning_vi": "Nếu được thì buổi sáng sẽ tốt hơn",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP285",
+      "category": "Kế hoạch và dự định",
+      "japanese": "都合のいい日を教えてください",
+      "kana": "つごうのいいひをおしえてください",
+      "romaji": "Tsugou no ii hi o oshiete kudasai",
+      "meaning_vi": "Hãy cho tôi biết ngày bạn tiện",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP286",
+      "category": "Kế hoạch và dự định",
+      "japanese": "その日は先約があります",
+      "kana": "そのひはせんやくがあります",
+      "romaji": "Sono hi wa senyaku ga arimasu",
+      "meaning_vi": "Ngày đó tôi có hẹn trước rồi",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP287",
+      "category": "Kế hoạch và dự định",
+      "japanese": "時間があれば参加したいです",
+      "kana": "じかんがあればさんかしたいです",
+      "romaji": "Jikan ga areba sanka shitai desu",
+      "meaning_vi": "Nếu có thời gian tôi muốn tham gia",
+      "level": "A2",
+      "register": "polite"
+    },
+    {
+      "id": "JP288",
+      "category": "Kế hoạch và dự định",
+      "japanese": "今回は見送ることにします",
+      "kana": "こんかいはみおくることにします",
+      "romaji": "Konkai wa miokuru koto ni shimasu",
+      "meaning_vi": "Lần này tôi quyết định không tham gia/hoãn lại",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP289",
+      "category": "Cách diễn đạt ý kiến",
+      "japanese": "その点については賛成です",
+      "kana": "そのてんについてはさんせいです",
+      "romaji": "Sono ten ni tsuite wa sansei desu",
+      "meaning_vi": "Về điểm đó, tôi đồng ý",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP290",
+      "category": "Cách diễn đạt ý kiến",
+      "japanese": "少し違う意見があります",
+      "kana": "すこしちがういけんがあります",
+      "romaji": "Sukoshi chigau iken ga arimasu",
+      "meaning_vi": "Tôi có ý kiến hơi khác một chút",
+      "level": "B1",
+      "register": "polite"
+    },
+    {
+      "id": "JP291",
+      "category": "Cách diễn đạt ý kiến",
+      "japanese": "理由は二つあります",
+      "kana": "りゆうはふたつあります",
+      "romaji": "Riyuu wa futatsu arimasu",
+      "meaning_vi": "Có hai lý do",
+      "level": "A2",
+      "register": "polite",
+      "practice_type": "active_recall",
+      "learning_tip_vi": "Học cả cụm như một đơn vị; thay phần thông tin trong dấu ＿＿ để tạo câu mới.",
+      "example_use": "理由は二つあります",
+      "example_translation": "Có hai lý do"
+    },
+    {
+      "id": "JP292",
+      "category": "Cách diễn đạt ý kiến",
+      "japanese": "まず、＿＿。次に、＿＿",
+      "kana": "まず、＿＿。つぎに、＿＿",
+      "romaji": "Mazu, __. Tsugi ni, __",
+      "meaning_vi": "Trước hết __. Tiếp theo __",
+      "level": "A2",
+      "register": "polite",
+      "practice_type": "active_recall",
+      "learning_tip_vi": "Học cả cụm như một đơn vị; thay phần thông tin trong dấu ＿＿ để tạo câu mới.",
+      "example_use": "まず、日本語。次に、日本語",
+      "example_translation": "Trước hết tiếng Nhật. Tiếp theo tiếng Nhật"
+    },
+    {
+      "id": "JP293",
+      "category": "Cách diễn đạt ý kiến",
+      "japanese": "結論から言うと",
+      "kana": "けつろんからいうと",
+      "romaji": "Ketsuron kara iu to",
+      "meaning_vi": "Nói từ kết luận trước thì…",
+      "level": "B1",
+      "register": "polite",
+      "practice_type": "active_recall",
+      "learning_tip_vi": "Học cả cụm như một đơn vị; thay phần thông tin trong dấu ＿＿ để tạo câu mới.",
+      "example_use": "結論から言うと",
+      "example_translation": "Nói từ kết luận trước thì…"
+    },
+    {
+      "id": "JP294",
+      "category": "Cách diễn đạt ý kiến",
+      "japanese": "必ずしもそうとは限りません",
+      "kana": "かならずしもそうとはかぎりません",
+      "romaji": "Kanarazushimo sou to wa kagirimasen",
+      "meaning_vi": "Không nhất thiết lúc nào cũng như vậy",
+      "level": "B2",
+      "register": "polite",
+      "practice_type": "active_recall",
+      "learning_tip_vi": "Học cả cụm như một đơn vị; thay phần thông tin trong dấu ＿＿ để tạo câu mới.",
+      "example_use": "必ずしもそうとは限りません",
+      "example_translation": "Không nhất thiết lúc nào cũng như vậy"
+    },
+    {
+      "id": "JP295",
+      "category": "Cách diễn đạt ý kiến",
+      "japanese": "具体的にはどういうことですか",
+      "kana": "ぐたいてきにはどういうことですか",
+      "romaji": "Gutaiteki ni wa dou iu koto desu ka",
+      "meaning_vi": "Cụ thể là như thế nào?",
+      "level": "B1",
+      "register": "polite",
+      "practice_type": "active_recall",
+      "learning_tip_vi": "Học cả cụm như một đơn vị; thay phần thông tin trong dấu ＿＿ để tạo câu mới.",
+      "example_use": "具体的にはどういうことですか",
+      "example_translation": "Cụ thể là như thế nào?"
+    },
+    {
+      "id": "JP296",
+      "category": "Cách diễn đạt ý kiến",
+      "japanese": "その考え方には納得できます",
+      "kana": "そのかんがえかたにはなっとくできます",
+      "romaji": "Sono kangaekata ni wa nattoku dekimasu",
+      "meaning_vi": "Tôi có thể đồng tình với cách nghĩ đó",
+      "level": "B2",
+      "register": "polite",
+      "practice_type": "active_recall",
+      "learning_tip_vi": "Học cả cụm như một đơn vị; thay phần thông tin trong dấu ＿＿ để tạo câu mới.",
+      "example_use": "その考え方には納得できます",
+      "example_translation": "Tôi có thể đồng tình với cách nghĩ đó"
+    },
+    {
+      "id": "JP297",
+      "category": "Giao tiếp thân mật",
+      "japanese": "最近ハマっていることはありますか",
+      "kana": "さいきんハマっていることはありますか",
+      "romaji": "Saikin hamatte iru koto wa arimasu ka",
+      "meaning_vi": "Dạo này bạn đang mê điều gì?",
+      "level": "B1",
+      "register": "polite",
+      "practice_type": "active_recall",
+      "learning_tip_vi": "Học cả cụm như một đơn vị; thay phần thông tin trong dấu ＿＿ để tạo câu mới.",
+      "example_use": "最近ハマっていることはありますか",
+      "example_translation": "Dạo này bạn đang mê điều gì?"
+    },
+    {
+      "id": "JP298",
+      "category": "Giao tiếp thân mật",
+      "japanese": "それ、めっちゃいいですね",
+      "kana": "それ、めっちゃいいですね",
+      "romaji": "Sore, meccha ii desu ne",
+      "meaning_vi": "Cái đó hay thật đấy (thân mật)",
+      "level": "B1",
+      "register": "polite",
+      "practice_type": "active_recall",
+      "learning_tip_vi": "Học cả cụm như một đơn vị; thay phần thông tin trong dấu ＿＿ để tạo câu mới.",
+      "example_use": "それ、めっちゃいいですね",
+      "example_translation": "Cái đó hay thật đấy (thân mật)"
+    },
+    {
+      "id": "JP299",
+      "category": "Giao tiếp thân mật",
+      "japanese": "私もやってみたいです",
+      "kana": "わたしもやってみたいです",
+      "romaji": "Watashi mo yatte mitai desu",
+      "meaning_vi": "Tôi cũng muốn thử làm",
+      "level": "A2",
+      "register": "polite",
+      "practice_type": "active_recall",
+      "learning_tip_vi": "Học cả cụm như một đơn vị; thay phần thông tin trong dấu ＿＿ để tạo câu mới.",
+      "example_use": "私もやってみたいです",
+      "example_translation": "Tôi cũng muốn thử làm"
+    },
+    {
+      "id": "JP300",
+      "category": "Giao tiếp thân mật",
+      "japanese": "最近全然休めていません",
+      "kana": "さいきんぜんぜんやすめていません",
+      "romaji": "Saikin zenzen yasumete imasen",
+      "meaning_vi": "Dạo này tôi chẳng nghỉ ngơi được chút nào",
+      "level": "A2",
+      "register": "polite",
+      "practice_type": "active_recall",
+      "learning_tip_vi": "Học cả cụm như một đơn vị; thay phần thông tin trong dấu ＿＿ để tạo câu mới.",
+      "example_use": "最近全然休めていません",
+      "example_translation": "Dạo này tôi chẳng nghỉ ngơi được chút nào"
+    },
+    {
+      "id": "JP301",
+      "category": "Giao tiếp thân mật",
+      "japanese": "また時間があるときに話そう",
+      "kana": "またじかんがあるときにはなそう",
+      "romaji": "Mata jikan ga aru toki ni hanasou",
+      "meaning_vi": "Khi nào có thời gian lại nói chuyện nhé (thân mật)",
+      "level": "B1",
+      "register": "polite",
+      "practice_type": "active_recall",
+      "learning_tip_vi": "Học cả cụm như một đơn vị; thay phần thông tin trong dấu ＿＿ để tạo câu mới.",
+      "example_use": "また時間があるときに話そう",
+      "example_translation": "Khi nào có thời gian lại nói chuyện nhé (thân mật)"
+    }
+  ],
+  "study_method": [
+    "Bước 1: Nghe/đọc cả cụm, không tách từng từ để dịch.",
+    "Bước 2: Đọc to câu tiếng Nhật 3–5 lần, chú ý nhịp và trường âm.",
+    "Bước 3: Che phần tiếng Nhật, nhìn nghĩa tiếng Việt và tự nói lại.",
+    "Bước 4: Thay phần ＿＿ bằng tên, địa điểm, thời gian hoặc hành động của bạn.",
+    "Bước 5: Tự tạo hội thoại 2–4 lượt dùng các chunk cùng chủ đề.",
+    "Bước 6: Ôn lặp lại sau 1 ngày, 3 ngày, 7 ngày và 14 ngày."
+  ],
+  "notes_vi": [
+    "Romaji chỉ là cầu nối ban đầu; nên chuyển dần sang đọc kana và kanji.",
+    "Một số cụm lịch sự dùng trong công việc/dịch vụ; không nên dùng kính ngữ với bạn thân.",
+    "Tiếng Nhật thường lược chủ ngữ khi ngữ cảnh đã rõ; không cần cố thêm 私は vào mọi câu.",
+    "＿＿ là vị trí thay thế linh hoạt, không phải từ vựng cần đọc."
+  ]
+}

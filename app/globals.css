@@ -687,6 +687,12 @@ body {
   box-shadow: 0 4px 12px rgba(225, 29, 72, 0.3);
 }
 
+.section-nav-link.active-japanese {
+  background: linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(139, 92, 246, 0.3);
+}
+
 .section-nav-link.active-chunks {
   background: linear-gradient(135deg, #059669 0%, #0284c7 100%);
   color: white;
@@ -703,7 +709,13 @@ body {
 
 @media(min-width: 768px) {
   .home-sections-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media(min-width: 1024px) {
+  .home-sections-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
@@ -744,6 +756,11 @@ body {
   box-shadow: 0 16px 32px -8px rgba(225, 29, 72, 0.25);
 }
 
+.home-section-card.card-japanese:hover {
+  border-color: #8b5cf6;
+  box-shadow: 0 16px 32px -8px rgba(139, 92, 246, 0.25);
+}
+
 .home-section-badge {
   display: inline-flex;
   align-items: center;
@@ -770,6 +787,11 @@ body {
 .badge-chinese {
   background-color: rgba(225, 29, 72, 0.1);
   color: #e11d48;
+}
+
+.badge-japanese {
+  background-color: rgba(139, 92, 246, 0.1);
+  color: #8b5cf6;
 }
 
 .home-section-title {
@@ -832,6 +854,11 @@ body {
   color: white;
 }
 
+.home-section-card.card-japanese:hover .home-section-cta {
+  background-color: #8b5cf6;
+  color: white;
+}
+
 /* Chinese specific styling */
 .hanzi-text {
   font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
@@ -849,4 +876,34 @@ body {
   margin-top: 4px;
   letter-spacing: 0.03em;
 }
+
+/* Japanese specific styling */
+.japanese-text {
+  font-family: -apple-system, BlinkMacSystemFont, "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+  font-size: 1.85rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+  line-height: 1.35;
+}
+
+.kana-romaji-text {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 4px;
+}
+
+.kana-badge {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: #8b5cf6;
+}
+
+.romaji-badge {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: var(--color-text-muted);
+}
+
 
