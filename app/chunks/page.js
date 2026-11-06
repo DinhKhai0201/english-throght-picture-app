@@ -148,19 +148,32 @@ export default function ChunksPage() {
 
   return (
     <main className="container">
+      {/* Multi-Section Navigation Bar */}
+      <nav className="section-nav-bar">
+        <Link href="/" className="section-nav-link">
+          🏠 Trang chủ
+        </Link>
+        <Link href="/english-300" className="section-nav-link">
+          ⚡ 300 Câu Giao Tiếp
+        </Link>
+        <Link href="/chunks" className="section-nav-link active-chunks">
+          🧩 1000 Chunks Tiếng Anh
+        </Link>
+        <Link href="/chinese" className="section-nav-link">
+          🇨🇳 500 Chunks Tiếng Trung
+        </Link>
+      </nav>
+
       <header className="hero">
         <div className="hero-content">
-          <div style={{ marginBottom: "8px" }}>
-            <Link href="/" style={{ fontSize: "0.9rem", color: "var(--color-text-muted)", textDecoration: "none", fontWeight: 600 }}>
-              ← Về trang chủ
-            </Link>
-          </div>
-          <h1>🧩 1000 English Chunks</h1>
+          <h1 style={{ background: "linear-gradient(135deg, #059669 0%, #0284c7 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
+            🧩 1000 English Chunks
+          </h1>
           <p className="hero-subtitle">Bấm vào chunk tiếng Anh để nghe phát âm giọng bản xứ</p>
         </div>
 
         {/* Progress Card */}
-        <div className="progress-card">
+        <div className="progress-card" style={{ background: "linear-gradient(135deg, #059669 0%, #0284c7 100%)", boxShadow: "0 10px 25px -5px rgba(5, 150, 105, 0.3)" }}>
           <div className="progress-stats">
             <span className="stat-label">Tiến trình học của bạn</span>
             <span className="stat-value">{learnedCount}/{totalCount} chunks ({progressPercent}%)</span>

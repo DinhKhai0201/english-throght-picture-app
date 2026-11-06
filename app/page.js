@@ -1,376 +1,195 @@
 "use client";
 
-import { useState, useEffect, useRef } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
-import rawData from "../300_cau_tieng_anh_giao_tiep.json";
-
-const CATEGORY_MAP = {
-  greetings: "👋 Chào hỏi",
-  introductions: "🤝 Giới thiệu bản thân",
-  basic_responses: "💬 Phản hồi cơ bản",
-  clarification: "🤔 Hỏi lại & Làm rõ",
-  daily_life: "🏡 Đời sống hàng ngày",
-  work: "💼 Công việc & Học tập",
-  food: "🍔 Ăn uống & Nhà hàng",
-  shopping: "🛒 Mua sắm",
-  travel: "✈️ Đi lại & Du lịch",
-  social: "🎉 Giao tiếp xã hội",
-  phone_and_emergency: "🚨 Điện thoại & Khẩn cấp"
-};
+import en300Data from "../300_cau_tieng_anh_giao_tiep.json";
+import chunksData from "../english_chunks_1000.json";
+import zhData from "../chinese_communication_chunks_v3_500plus.json";
 
 export default function Home() {
-  const [sentences, setSentences] = useState([]);
-  const [learnedIds, setLearnedIds] = useState(new Set());
-  const [studyCounts, setStudyCounts] = useState({});
-  const [activeCategory, setActiveCategory] = useState("all");
-  const [searchQuery, setSearchQuery] = useState("");
-  const [filterType, setFilterType] = useState("all"); // 'all', 'learned', 'unlearned'
-  const [playingId, setPlayingId] = useState(null);
-  const [speechRate, setSpeechRate] = useState(0.9);
-  const [voices, setVoices] = useState([]);
-  const [selectedVoice, setSelectedVoice] = useState("");
+  const [en300Count, setEn300Count] = useState(0);
+  const [chunksCount, setChunksCount] = useState(0);
+  const [zhCount, setZhCount] = useState(0);
   const [isLoaded, setIsLoaded] = useState(false);
 
-  // Initialize Speech Voices
-  useEffect(() => {
-    if (typeof window !== "undefined" && window.speechSynthesis) {
-      const updateVoices = () => {
-        const availableVoices = window.speechSynthesis.getVoices();
-        // Filter English voices
-        const engVoices = availableVoices.filter(v => v.lang.startsWith("en"));
-        setVoices(engVoices);
-        if (engVoices.length > 0) {
-          // Default to a US or UK voice if available, otherwise the first english voice
-          const defaultVoice = engVoices.find(v => v.name.includes("Google US English") || v.name.includes("Google UK English Male") || v.name.includes("Samantha")) || engVoices[0];
-          setSelectedVoice(defaultVoice.name);
-        }
-      };
-
-      updateVoices();
-      window.speechSynthesis.onvoiceschanged = updateVoices;
-    }
-  }, []);
-
-  // Load progress from localStorage
   useEffect(() => {
     if (typeof window !== "undefined") {
-      const stored = localStorage.getItem("english_300_progress");
-      if (stored) {
-        try {
-          const ids = JSON.parse(stored);
-          setLearnedIds(new Set(ids));
-        } catch (e) {
-          console.error("Error loading progress", e);
+      try {
+        const en300Stored = localStorage.getItem("english_300_progress");
+        if (en300Stored) {
+          setEn300Count(JSON.parse(en300Stored).length);
         }
-      }
+      } catch (e) {}
 
-      const storedCounts = localStorage.getItem("english_300_study_counts");
-      if (storedCounts) {
-        try {
-          setStudyCounts(JSON.parse(storedCounts));
-        } catch (e) {
-          console.error("Error loading study counts", e);
+      try {
+        const chunksStored = localStorage.getItem("chunks_1000_progress");
+        if (chunksStored) {
+          setChunksCount(JSON.parse(chunksStored).length);
         }
-      }
+      } catch (e) {}
 
-      setSentences(rawData.sentences || []);
+      try {
+        const zhStored = localStorage.getItem("chinese_500_progress");
+        if (zhStored) {
+          setZhCount(JSON.parse(zhStored).length);
+        }
+      } catch (e) {}
+
       setIsLoaded(true);
     }
   }, []);
 
-  // Save progress to localStorage
-  const toggleLearned = (id) => {
-    const next = new Set(learnedIds);
-    if (next.has(id)) {
-      next.delete(id);
-    } else {
-      next.add(id);
-    }
-    setLearnedIds(next);
-    localStorage.setItem("english_300_progress", JSON.stringify(Array.from(next)));
-  };
+  const totalEn300 = en300Data.sentences?.length || 300;
+  const totalChunks = chunksData.chunks?.length || 1000;
+  const totalZh = zhData.chunks?.length || 500;
 
-  const incrementStudyCount = (id) => {
-    setStudyCounts(prev => {
-      const next = { ...prev, [id]: (prev[id] || 0) + 1 };
-      localStorage.setItem("english_300_study_counts", JSON.stringify(next));
-      return next;
-    });
-  };
+  const en300Percent = Math.round((en300Count / totalEn300) * 100);
+  const chunksPercent = Math.round((chunksCount / totalChunks) * 100);
+  const zhPercent = Math.round((zhCount / totalZh) * 100);
 
-  const resetProgress = () => {
-    if (confirm("Bạn có chắc chắn muốn thiết lập lại toàn bộ tiến trình học và số lần đọc không?")) {
-      setLearnedIds(new Set());
-      setStudyCounts({});
-      localStorage.removeItem("english_300_progress");
-      localStorage.removeItem("english_300_study_counts");
-    }
-  };
-
-  const playSpeech = (text, id) => {
-    if (typeof window === "undefined" || !window.speechSynthesis) return;
-
-    window.speechSynthesis.cancel();
-
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "en-US";
-    utterance.rate = speechRate;
-
-    if (selectedVoice) {
-      const voiceObj = voices.find(v => v.name === selectedVoice);
-      if (voiceObj) {
-        utterance.voice = voiceObj;
-      }
-    }
-
-    utterance.onstart = () => setPlayingId(id);
-    utterance.onend = () => setPlayingId(null);
-    utterance.onerror = () => setPlayingId(null);
-
-    window.speechSynthesis.speak(utterance);
-  };
-
-  // Filters and search logic
-  const filteredSentences = sentences.filter(s => {
-    const matchesCategory = activeCategory === "all" || s.category === activeCategory;
-
-    const isLearned = learnedIds.has(s.id);
-    const matchesFilterType =
-      filterType === "all" ||
-      (filterType === "learned" && isLearned) ||
-      (filterType === "unlearned" && !isLearned);
-
-    const matchesSearch =
-      searchQuery.trim() === "" ||
-      s.english.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      s.vietnamese.toLowerCase().includes(searchQuery.toLowerCase()) ||
-      (s.suggested_reply && s.suggested_reply.toLowerCase().includes(searchQuery.toLowerCase()));
-
-    return matchesCategory && matchesFilterType && matchesSearch;
-  });
-
-  const totalCount = sentences.length;
-  const learnedCount = learnedIds.size;
-  const progressPercent = totalCount > 0 ? Math.round((learnedCount / totalCount) * 100) : 0;
-
-  if (!isLoaded) {
-    return (
-      <div className="loading-screen">
-        <div className="spinner"></div>
-        <p>Đang tải dữ liệu học...</p>
-      </div>
-    );
-  }
+  const totalLearned = en300Count + chunksCount + zhCount;
+  const totalAll = totalEn300 + totalChunks + totalZh;
+  const totalOverallPercent = Math.round((totalLearned / totalAll) * 100);
 
   return (
     <main className="container">
+      {/* Multi-Section Navigation Bar */}
+      <nav className="section-nav-bar">
+        <Link href="/" className="section-nav-link active">
+          🏠 Trang chủ
+        </Link>
+        <Link href="/english-300" className="section-nav-link">
+          ⚡ 300 Câu Giao Tiếp
+        </Link>
+        <Link href="/chunks" className="section-nav-link">
+          🧩 1000 Chunks Tiếng Anh
+        </Link>
+        <Link href="/chinese" className="section-nav-link">
+          🇨🇳 500 Chunks Tiếng Trung
+        </Link>
+      </nav>
+
+      {/* Hero Welcome */}
       <header className="hero">
         <div className="hero-content">
-          <h1>⚡ 300 Câu Giao Tiếp Cốt Lõi</h1>
-          <p className="hero-subtitle">Bấm vào câu tiếng Anh để nghe phát âm giọng bản xứ</p>
-          <div style={{ marginTop: "12px" }}>
-            <Link
-              href="/chunks"
-              style={{
-                display: "inline-block",
-                padding: "10px 20px",
-                background: "linear-gradient(135deg, #10b981 0%, #06b6d4 100%)",
-                color: "white",
-                borderRadius: "20px",
-                textDecoration: "none",
-                fontWeight: 700,
-                fontSize: "0.95rem",
-                boxShadow: "0 4px 12px rgba(16,185,129,0.3)",
-              }}
-            >
-              🧩 Học 1000 English Chunks →
-            </Link>
-          </div>
+          <h1>🎯 Học Ngoại Ngữ Qua Chunks & Phản Xạ</h1>
+          <p className="hero-subtitle">
+            Phương pháp học cụm từ tự nhiên, nghe phát âm bản xứ, ghi nhớ lâu và tự tin giao tiếp
+          </p>
         </div>
 
-        {/* Progress Card */}
+        {/* Global Progress Card */}
         <div className="progress-card">
           <div className="progress-stats">
-            <span className="stat-label">Tiến trình học của bạn</span>
-            <span className="stat-value">{learnedCount}/{totalCount} câu ({progressPercent}%)</span>
+            <span className="stat-label">Tổng tiến trình học của bạn</span>
+            <span className="stat-value">
+              {totalLearned}/{totalAll} mục ({totalOverallPercent}%)
+            </span>
           </div>
           <div className="progress-bar-container">
-            <div className="progress-bar" style={{ width: `${progressPercent}%` }}></div>
-          </div>
-          <div className="progress-actions">
-            <button onClick={resetProgress} className="btn-reset" title="Xóa toàn bộ tiến trình học">
-              🔄 Reset tiến trình
-            </button>
+            <div className="progress-bar" style={{ width: `${totalOverallPercent}%` }}></div>
           </div>
         </div>
       </header>
 
-      {/* Control Panel (Search, voice, rate) */}
-      <section className="control-panel">
-        <div className="search-box">
-          <span className="search-icon">🔍</span>
-          <input
-            type="text"
-            placeholder="Tìm kiếm theo tiếng Anh hoặc tiếng Việt..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-          />
-          {searchQuery && (
-            <button onClick={() => setSearchQuery("")} className="clear-search">✕</button>
-          )}
-        </div>
-
-        <div className="tts-controls">
-          <div className="control-group">
-            <label htmlFor="voice-select">Giọng đọc:</label>
-            <select
-              id="voice-select"
-              value={selectedVoice}
-              onChange={(e) => setSelectedVoice(e.target.value)}
-            >
-              {voices.map(v => (
-                <option key={v.name} value={v.name}>
-                  {v.name} ({v.lang})
-                </option>
-              ))}
-              {voices.length === 0 && <option>Mặc định hệ thống</option>}
-            </select>
+      {/* 3 Main Sections Grid */}
+      <section className="home-sections-grid">
+        {/* Section 1: 300 English Sentences */}
+        <Link href="/english-300" className="home-section-card card-en300">
+          <div>
+            <span className="home-section-badge badge-en300">
+              ⚡ Tiếng Anh • Giao Tiếp Nền Tảng
+            </span>
+            <h2 className="home-section-title">300 Câu Giao Tiếp Cốt Lõi</h2>
+            <p className="home-section-desc">
+              Các mẫu câu thông dụng nhất chia theo 11 chủ đề thực tế, kèm gợi ý câu phản hồi và phát âm chuẩn US/UK.
+            </p>
           </div>
 
-          <div className="control-group">
-            <label htmlFor="rate-range">Tốc độ ({speechRate}x):</label>
-            <input
-              id="rate-range"
-              type="range"
-              min="0.5"
-              max="1.5"
-              step="0.1"
-              value={speechRate}
-              onChange={(e) => setSpeechRate(parseFloat(e.target.value))}
-            />
+          <div className="home-section-progress-wrap">
+            <div className="home-section-stats">
+              <span style={{ color: "var(--color-text-muted)" }}>Tiến độ:</span>
+              <span style={{ color: "#4f46e5" }}>
+                {en300Count}/{totalEn300} ({en300Percent}%)
+              </span>
+            </div>
+            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "#e2e8f0" }}>
+              <div
+                className="progress-bar"
+                style={{ width: `${en300Percent}%`, backgroundColor: "#4f46e5" }}
+              ></div>
+            </div>
+            <div className="home-section-cta">
+              Vào học ngay →
+            </div>
           </div>
-        </div>
-      </section>
+        </Link>
 
-      {/* Category Navigation */}
-      <section className="categories-nav">
-        <button
-          onClick={() => setActiveCategory("all")}
-          className={`category-pill ${activeCategory === "all" ? "active" : ""}`}
-        >
-          📂 Tất cả ({totalCount})
-        </button>
-        {Object.entries(CATEGORY_MAP).map(([key, label]) => {
-          const count = sentences.filter(s => s.category === key).length;
-          const completed = sentences.filter(s => s.category === key && learnedIds.has(s.id)).length;
-          return (
-            <button
-              key={key}
-              onClick={() => setActiveCategory(key)}
-              className={`category-pill ${activeCategory === key ? "active" : ""}`}
-            >
-              {label} <span className="cat-count">({completed}/{count})</span>
-            </button>
-          );
-        })}
-      </section>
-
-      {/* Filter Tabs (All, Learned, Unlearned) */}
-      <div className="filter-tabs">
-        <button
-          onClick={() => setFilterType("all")}
-          className={`filter-tab ${filterType === "all" ? "active" : ""}`}
-        >
-          🎯 Tất cả câu ({filteredSentences.length})
-        </button>
-        <button
-          onClick={() => setFilterType("unlearned")}
-          className={`filter-tab ${filterType === "unlearned" ? "active" : ""}`}
-        >
-          📖 Chưa học ({sentences.filter(s => !learnedIds.has(s.id)).length})
-        </button>
-        <button
-          onClick={() => setFilterType("learned")}
-          className={`filter-tab ${filterType === "learned" ? "active" : ""}`}
-        >
-          ✅ Đã thuộc ({learnedIds.size})
-        </button>
-      </div>
-
-      {/* Sentences List */}
-      <section className="sentences-list">
-        {filteredSentences.map((s, index) => {
-          const isLearned = learnedIds.has(s.id);
-          const isPlaying = playingId === s.id;
-
-          return (
-            <article
-              key={s.id}
-              className={`sentence-card ${isLearned ? "learned" : ""} ${isPlaying ? "playing" : ""}`}
-            >
-              <div className="card-top">
-                <span className="card-index">#{s.id}</span>
-                <span className="card-category">{CATEGORY_MAP[s.category] || s.category}</span>
-                {s.level && <span className="card-level">{s.level}</span>}
-              </div>
-
-              <div className="card-body" onClick={() => { playSpeech(s.english, s.id); incrementStudyCount(s.id); }}>
-                <div className="english-wrapper">
-                  <h2 className="english-text">{s.english}</h2>
-                  <button className="play-button" aria-label="Nghe phát âm">
-                    {isPlaying ? (
-                      <span className="playing-animation">🔊</span>
-                    ) : (
-                      <span className="play-icon">🗣️</span>
-                    )}
-                  </button>
-                </div>
-
-                <p className="vietnamese-text">{s.vietnamese}</p>
-
-                {s.suggested_reply && (
-                  <div className="reply-box">
-                    <span className="reply-label">Gợi ý đáp:</span>
-                    <span className="reply-text" onClick={(e) => {
-                      e.stopPropagation(); // Avoid playing main sentence when clicking reply
-                      playSpeech(s.suggested_reply, `reply-${s.id}`);
-                      incrementStudyCount(s.id);
-                    }}>
-                      {s.suggested_reply} 🗣️
-                    </span>
-                  </div>
-                )}
-              </div>
-
-              <div className="card-footer">
-                <label className="checkbox-container">
-                  <input
-                    type="checkbox"
-                    checked={isLearned}
-                    onChange={() => toggleLearned(s.id)}
-                  />
-                  <span className="checkmark"></span>
-                  <span className="checkbox-label">{isLearned ? "Đã thuộc 🎉" : "Đánh dấu đã thuộc"}</span>
-                </label>
-
-                <div className="study-counter">
-                  <span className="counter-num">{studyCounts[s.id] || 0}</span>
-                </div>
-              </div>
-            </article>
-          );
-        })}
-
-        {filteredSentences.length === 0 && (
-          <div className="empty-state">
-            <span className="empty-icon">🏜️</span>
-            <p>Không tìm thấy câu nào phù hợp với bộ lọc hiện tại.</p>
+        {/* Section 2: 1000 English Chunks */}
+        <Link href="/chunks" className="home-section-card card-chunks">
+          <div>
+            <span className="home-section-badge badge-chunks">
+              🧩 Tiếng Anh • Chunking Collocations
+            </span>
+            <h2 className="home-section-title">1000 English Chunks</h2>
+            <p className="home-section-desc">
+              1000 cụm từ và mẫu liên kết tự nhiên theo 10 chủ đề IELTS & giao tiếp, kèm cấu trúc pattern và câu ví dụ minh họa.
+            </p>
           </div>
-        )}
+
+          <div className="home-section-progress-wrap">
+            <div className="home-section-stats">
+              <span style={{ color: "var(--color-text-muted)" }}>Tiến độ:</span>
+              <span style={{ color: "#059669" }}>
+                {chunksCount}/{totalChunks} ({chunksPercent}%)
+              </span>
+            </div>
+            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "#e2e8f0" }}>
+              <div
+                className="progress-bar"
+                style={{ width: `${chunksPercent}%`, backgroundColor: "#059669" }}
+              ></div>
+            </div>
+            <div className="home-section-cta">
+              Vào học ngay →
+            </div>
+          </div>
+        </Link>
+
+        {/* Section 3: 500 Chinese Chunks */}
+        <Link href="/chinese" className="home-section-card card-chinese">
+          <div>
+            <span className="home-section-badge badge-chinese">
+              🇨🇳 Tiếng Trung • Hán Tự & Pinyin
+            </span>
+            <h2 className="home-section-title">500 Chunks Tiếng Trung</h2>
+            <p className="home-section-desc">
+              500 mẫu chunks và phản xạ hội thoại tiếng Trung thông dụng nhất, đầy đủ Pinyin thanh điệu, giải nghĩa và mẹo học nhanh.
+            </p>
+          </div>
+
+          <div className="home-section-progress-wrap">
+            <div className="home-section-stats">
+              <span style={{ color: "var(--color-text-muted)" }}>Tiến độ:</span>
+              <span style={{ color: "#e11d48" }}>
+                {zhCount}/{totalZh} ({zhPercent}%)
+              </span>
+            </div>
+            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "#e2e8f0" }}>
+              <div
+                className="progress-bar"
+                style={{ width: `${zhPercent}%`, backgroundColor: "#e11d48" }}
+              ></div>
+            </div>
+            <div className="home-section-cta">
+              Vào học ngay →
+            </div>
+          </div>
+        </Link>
       </section>
 
       <footer className="app-footer">
-        <p>💡 Tip: Bạn có thể chọn giọng phát âm và chỉnh tốc độ đọc phù hợp ở phần trên.</p>
+        <p>💡 Tip: Bấm vào bất kỳ section nào ở trên hoặc dùng thanh điều hướng phía trên để bắt đầu học.</p>
       </footer>
     </main>
   );
