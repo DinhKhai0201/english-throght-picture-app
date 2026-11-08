@@ -165,6 +165,9 @@ export default function JapanesePage() {
         <Link href="/chunks" className="section-nav-link">
           🧩 1000 Chunks Tiếng Anh
         </Link>
+        <Link href="/ielts-words" className="section-nav-link">
+          🎯 IELTS Words
+        </Link>
         <Link href="/chinese" className="section-nav-link">
           🇨🇳 500 Chunks Tiếng Trung
         </Link>

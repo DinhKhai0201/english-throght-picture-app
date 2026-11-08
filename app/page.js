@@ -6,12 +6,14 @@ import en300Data from "../300_cau_tieng_anh_giao_tiep.json";
 import chunksData from "../english_chunks_1000.json";
 import zhData from "../chinese_communication_chunks_v3_500plus.json";
 import jaData from "../japanese_communication_chunks.json";
+import ieltsData from "../ielts_vocabulary.json";
 
 export default function Home() {
   const [en300Count, setEn300Count] = useState(0);
   const [chunksCount, setChunksCount] = useState(0);
   const [zhCount, setZhCount] = useState(0);
   const [jaCount, setJaCount] = useState(0);
+  const [ieltsCount, setIeltsCount] = useState(0);
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
@@ -44,6 +46,13 @@ export default function Home() {
         }
       } catch (e) {}
 
+      try {
+        const ieltsStored = localStorage.getItem("ielts_words_progress");
+        if (ieltsStored) {
+          setIeltsCount(JSON.parse(ieltsStored).length);
+        }
+      } catch (e) {}
+
       setIsLoaded(true);
     }
   }, []);
@@ -52,14 +61,16 @@ export default function Home() {
   const totalChunks = chunksData.chunks?.length || 1000;
   const totalZh = zhData.chunks?.length || 500;
   const totalJa = jaData.chunks?.length || 300;
+  const totalIelts = Array.isArray(ieltsData) ? ieltsData.length : 3517;
 
   const en300Percent = Math.round((en300Count / totalEn300) * 100);
   const chunksPercent = Math.round((chunksCount / totalChunks) * 100);
   const zhPercent = Math.round((zhCount / totalZh) * 100);
   const jaPercent = Math.round((jaCount / totalJa) * 100);
+  const ieltsPercent = Math.round((ieltsCount / totalIelts) * 100);
 
-  const totalLearned = en300Count + chunksCount + zhCount + jaCount;
-  const totalAll = totalEn300 + totalChunks + totalZh + totalJa;
+  const totalLearned = en300Count + chunksCount + zhCount + jaCount + ieltsCount;
+  const totalAll = totalEn300 + totalChunks + totalZh + totalJa + totalIelts;
   const totalOverallPercent = Math.round((totalLearned / totalAll) * 100);
 
   return (
@@ -74,6 +85,9 @@ export default function Home() {
         </Link>
         <Link href="/chunks" className="section-nav-link">
           🧩 1000 Chunks Tiếng Anh
+        </Link>
+        <Link href="/ielts-words" className="section-nav-link">
+          🎯 IELTS Word Trainer
         </Link>
         <Link href="/chinese" className="section-nav-link">
           🇨🇳 500 Chunks Tiếng Trung
@@ -162,6 +176,37 @@ export default function Home() {
               <div
                 className="progress-bar"
                 style={{ width: `${chunksPercent}%`, backgroundColor: "#059669" }}
+              ></div>
+            </div>
+            <div className="home-section-cta">
+              Vào học ngay →
+            </div>
+          </div>
+        </Link>
+
+        {/* Section: IELTS Word Trainer */}
+        <Link href="/ielts-words" className="home-section-card card-ielts">
+          <div>
+            <span className="home-section-badge badge-ielts">
+              🎯 Học Thuật • 3,500+ IELTS Words
+            </span>
+            <h2 className="home-section-title">IELTS Word Trainer</h2>
+            <p className="home-section-desc">
+              Hơn 3,500 từ vựng IELTS học thuật phân loại theo chủ đề, cấp độ, câu ví dụ và từ đồng nghĩa/trái nghĩa.
+            </p>
+          </div>
+
+          <div className="home-section-progress-wrap">
+            <div className="home-section-stats">
+              <span style={{ color: "var(--color-text-muted)" }}>Tiến độ:</span>
+              <span style={{ color: "#d97706" }}>
+                {ieltsCount}/{totalIelts} ({ieltsPercent}%)
+              </span>
+            </div>
+            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "#e2e8f0" }}>
+              <div
+                className="progress-bar"
+                style={{ width: `${ieltsPercent}%`, backgroundColor: "#f59e0b" }}
               ></div>
             </div>
             <div className="home-section-cta">
