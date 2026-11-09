@@ -2,11 +2,13 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import SectionNav from "./components/SectionNav";
 import en300Data from "../300_cau_tieng_anh_giao_tiep.json";
 import chunksData from "../english_chunks_1000.json";
 import zhData from "../chinese_communication_chunks_v3_500plus.json";
 import jaData from "../japanese_communication_chunks.json";
 import ieltsData from "../ielts_vocabulary.json";
+import interviewData from "../interview_500_qa.json";
 
 export default function Home() {
   const [en300Count, setEn300Count] = useState(0);
@@ -14,6 +16,7 @@ export default function Home() {
   const [zhCount, setZhCount] = useState(0);
   const [jaCount, setJaCount] = useState(0);
   const [ieltsCount, setIeltsCount] = useState(0);
+  const [interviewCount, setInterviewCount] = useState(0);
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
@@ -53,6 +56,13 @@ export default function Home() {
         }
       } catch (e) {}
 
+      try {
+        const interviewStored = localStorage.getItem("interview_qa_progress");
+        if (interviewStored) {
+          setInterviewCount(JSON.parse(interviewStored).length);
+        }
+      } catch (e) {}
+
       setIsLoaded(true);
     }
   }, []);
@@ -62,40 +72,23 @@ export default function Home() {
   const totalZh = zhData.chunks?.length || 500;
   const totalJa = jaData.chunks?.length || 300;
   const totalIelts = Array.isArray(ieltsData) ? ieltsData.length : 3517;
+  const totalInterview = interviewData.total_questions || 155;
 
   const en300Percent = Math.round((en300Count / totalEn300) * 100);
   const chunksPercent = Math.round((chunksCount / totalChunks) * 100);
   const zhPercent = Math.round((zhCount / totalZh) * 100);
   const jaPercent = Math.round((jaCount / totalJa) * 100);
   const ieltsPercent = Math.round((ieltsCount / totalIelts) * 100);
+  const interviewPercent = Math.round((interviewCount / totalInterview) * 100);
 
-  const totalLearned = en300Count + chunksCount + zhCount + jaCount + ieltsCount;
-  const totalAll = totalEn300 + totalChunks + totalZh + totalJa + totalIelts;
+  const totalLearned = en300Count + chunksCount + zhCount + jaCount + ieltsCount + interviewCount;
+  const totalAll = totalEn300 + totalChunks + totalZh + totalJa + totalIelts + totalInterview;
   const totalOverallPercent = Math.round((totalLearned / totalAll) * 100);
 
   return (
     <main className="container">
       {/* Multi-Section Navigation Bar */}
-      <nav className="section-nav-bar">
-        <Link href="/" className="section-nav-link active">
-          🏠 Trang chủ
-        </Link>
-        <Link href="/english-300" className="section-nav-link">
-          ⚡ 300 Câu Giao Tiếp
-        </Link>
-        <Link href="/chunks" className="section-nav-link">
-          🧩 1000 Chunks Tiếng Anh
-        </Link>
-        <Link href="/ielts-words" className="section-nav-link">
-          🎯 IELTS Word Trainer
-        </Link>
-        <Link href="/chinese" className="section-nav-link">
-          🇨🇳 500 Chunks Tiếng Trung
-        </Link>
-        <Link href="/japanese" className="section-nav-link">
-          🇯🇵 300 Chunks Tiếng Nhật
-        </Link>
-      </nav>
+      <SectionNav />
 
       {/* Hero Welcome */}
       <header className="hero">
@@ -207,6 +200,37 @@ export default function Home() {
               <div
                 className="progress-bar"
                 style={{ width: `${ieltsPercent}%`, backgroundColor: "#f59e0b" }}
+              ></div>
+            </div>
+            <div className="home-section-cta">
+              Vào học ngay →
+            </div>
+          </div>
+        </Link>
+
+        {/* Section: 500 Interview Q&A */}
+        <Link href="/interview-qa" className="home-section-card card-interview">
+          <div>
+            <span className="home-section-badge badge-interview">
+              💼 Phỏng Vấn • 500 Q&A Xin Việc
+            </span>
+            <h2 className="home-section-title">500 Phỏng Vấn Xin Việc</h2>
+            <p className="home-section-desc">
+              155 câu hỏi phỏng vấn tiếng Anh cốt lõi và 350 phương án trả lời mẫu ghi điểm với nhà tuyển dụng.
+            </p>
+          </div>
+
+          <div className="home-section-progress-wrap">
+            <div className="home-section-stats">
+              <span style={{ color: "var(--color-text-muted)" }}>Tiến độ:</span>
+              <span style={{ color: "#0284c7" }}>
+                {interviewCount}/{totalInterview} ({interviewPercent}%)
+              </span>
+            </div>
+            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "#e2e8f0" }}>
+              <div
+                className="progress-bar"
+                style={{ width: `${interviewPercent}%`, backgroundColor: "#0284c7" }}
               ></div>
             </div>
             <div className="home-section-cta">

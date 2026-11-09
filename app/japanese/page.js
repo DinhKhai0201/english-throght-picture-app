@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import Link from "next/link";
+import SectionNav from "../components/SectionNav";
 import rawData from "../../japanese_communication_chunks.json";
 
 const REGISTER_MAP = {
@@ -155,26 +156,7 @@ export default function JapanesePage() {
   return (
     <main className="container">
       {/* Multi-Section Navigation Bar */}
-      <nav className="section-nav-bar">
-        <Link href="/" className="section-nav-link">
-          🏠 Trang chủ
-        </Link>
-        <Link href="/english-300" className="section-nav-link">
-          ⚡ 300 Câu Giao Tiếp
-        </Link>
-        <Link href="/chunks" className="section-nav-link">
-          🧩 1000 Chunks Tiếng Anh
-        </Link>
-        <Link href="/ielts-words" className="section-nav-link">
-          🎯 IELTS Words
-        </Link>
-        <Link href="/chinese" className="section-nav-link">
-          🇨🇳 500 Chunks Tiếng Trung
-        </Link>
-        <Link href="/japanese" className="section-nav-link active-japanese">
-          🇯🇵 300 Chunks Tiếng Nhật
-        </Link>
-      </nav>
+      <SectionNav />
 
       <header className="hero">
         <div className="hero-content">

@@ -699,6 +699,12 @@ body {
   box-shadow: 0 4px 12px rgba(245, 158, 11, 0.3);
 }
 
+.section-nav-link.active-interview {
+  background: linear-gradient(135deg, #0284c7 0%, #2563eb 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
+}
+
 .section-nav-link.active-chunks {
   background: linear-gradient(135deg, #059669 0%, #0284c7 100%);
   color: white;
@@ -772,6 +778,11 @@ body {
   box-shadow: 0 16px 32px -8px rgba(245, 158, 11, 0.25);
 }
 
+.home-section-card.card-interview:hover {
+  border-color: #0284c7;
+  box-shadow: 0 16px 32px -8px rgba(2, 132, 199, 0.25);
+}
+
 .home-section-badge {
   display: inline-flex;
   align-items: center;
@@ -808,6 +819,11 @@ body {
 .badge-ielts {
   background-color: rgba(245, 158, 11, 0.15);
   color: #d97706;
+}
+
+.badge-interview {
+  background-color: rgba(2, 132, 199, 0.15);
+  color: #0284c7;
 }
 
 .home-section-title {
@@ -877,6 +893,11 @@ body {
 
 .home-section-card.card-ielts:hover .home-section-cta {
   background-color: #f59e0b;
+  color: white;
+}
+
+.home-section-card.card-interview:hover .home-section-cta {
+  background-color: #0284c7;
   color: white;
 }
 
@@ -1027,6 +1048,64 @@ body {
   border-radius: 4px;
   font-weight: 500;
 }
+
+/* Interview Q&A specific styles */
+.interview-answers-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.interview-answer-item {
+  background-color: #f8fafc;
+  border: 1px solid var(--color-border);
+  border-left: 4px solid #0284c7;
+  border-radius: 0 var(--border-radius-sm) var(--border-radius-sm) 0;
+  padding: 12px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  transition: all 0.2s ease;
+}
+
+.interview-answer-item:hover {
+  background-color: #f0f9ff;
+  border-left-color: #0369a1;
+}
+
+.interview-answer-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.interview-option-badge {
+  font-size: 0.8rem;
+  font-weight: 700;
+  color: #0284c7;
+  text-transform: uppercase;
+}
+
+.interview-answer-en {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--color-text-main);
+  line-height: 1.45;
+  cursor: pointer;
+}
+
+.interview-answer-en:hover {
+  color: #0284c7;
+}
+
+.interview-answer-vi {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  line-height: 1.45;
+}
+
 
 
 
