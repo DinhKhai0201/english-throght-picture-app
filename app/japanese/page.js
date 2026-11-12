@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import SectionNav from "../components/SectionNav";
+import LessonMode from "../components/LessonMode";
 import rawData from "../../japanese_communication_chunks.json";
 
 const REGISTER_MAP = {
@@ -23,6 +24,7 @@ export default function JapanesePage() {
   const [voices, setVoices] = useState([]);
   const [selectedVoice, setSelectedVoice] = useState("");
   const [isLoaded, setIsLoaded] = useState(false);
+  const [studyMode, setStudyMode] = useState("browse");
 
   // Initialize Speech Voices for Japanese (ja-JP)
   useEffect(() => {
@@ -64,6 +66,8 @@ export default function JapanesePage() {
       }
 
       setChunks(rawData.chunks || []);
+      const savedMode = localStorage.getItem("japanese_chunks_study_mode");
+      if (savedMode === "lesson" || savedMode === "browse") setStudyMode(savedMode);
       setIsLoaded(true);
     }
   }, []);
@@ -158,6 +162,22 @@ export default function JapanesePage() {
       {/* Multi-Section Navigation Bar */}
       <SectionNav />
 
+      {/* Study Mode Toggle */}
+      <div className="mode-toggle-strip">
+        <button
+          className={`mode-toggle-btn ${studyMode === "browse" ? "active" : ""}`}
+          onClick={() => { setStudyMode("browse"); localStorage.setItem("japanese_chunks_study_mode", "browse"); }}
+        >
+          🔍 Duyệt tất cả
+        </button>
+        <button
+          className={`mode-toggle-btn ${studyMode === "lesson" ? "active" : ""}`}
+          onClick={() => { setStudyMode("lesson"); localStorage.setItem("japanese_chunks_study_mode", "lesson"); }}
+        >
+          📚 Học theo bài (10 chunks/bài)
+        </button>
+      </div>
+
       <header className="hero">
         <div className="hero-content">
           <h1 style={{ background: "linear-gradient(135deg, #8b5cf6 0%, #ec4899 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
@@ -184,7 +204,7 @@ export default function JapanesePage() {
       </header>
 
       {/* Control Panel */}
-      <section className="control-panel">
+      <section className="control-panel" style={{ display: studyMode === "lesson" ? "none" : undefined }}>
         <div className="search-box">
           <span className="search-icon">🔍</span>
           <input
@@ -231,7 +251,7 @@ export default function JapanesePage() {
       </section>
 
       {/* Category Navigation */}
-      <section className="categories-nav">
+      <section className="categories-nav" style={{ display: studyMode === "lesson" ? "none" : undefined }}>
         <button
           onClick={() => setActiveCategory("all")}
           className={`category-pill ${activeCategory === "all" ? "active" : ""}`}
@@ -254,7 +274,7 @@ export default function JapanesePage() {
       </section>
 
       {/* Filter Tabs */}
-      <div className="filter-tabs">
+      <div className="filter-tabs" style={{ display: studyMode === "lesson" ? "none" : undefined }}>
         <button
           onClick={() => setFilterType("all")}
           className={`filter-tab ${filterType === "all" ? "active" : ""}`}
@@ -276,6 +296,69 @@ export default function JapanesePage() {
       </div>
 
       {/* Chunks List */}
+      {studyMode === "lesson" ? (
+        <LessonMode
+          items={chunks}
+          storageKey="japanese_chunks"
+          learnedIds={learnedIds}
+          renderItem={(c) => {
+            const isLearned = learnedIds.has(c.id);
+            const isPlaying = playingId === c.id;
+            const hasKanaDifferent = c.kana && c.kana !== c.japanese;
+            return (
+              <article key={c.id} className={`sentence-card ${isLearned ? "learned" : ""} ${isPlaying ? "playing" : ""}`}>
+                <div className="card-top">
+                  <span className="card-index" style={{ color: "#8b5cf6", backgroundColor: "rgba(139, 92, 246, 0.08)" }}>#{c.id}</span>
+                  <span className="card-category">{c.category}</span>
+                  {c.register && (
+                    <span style={{ fontSize: "0.8rem", color: "#6b7280", backgroundColor: "#f3f4f6", padding: "2px 6px", borderRadius: "4px" }}>
+                      {REGISTER_MAP[c.register] || c.register}
+                    </span>
+                  )}
+                  {c.level && <span className="card-level">{c.level}</span>}
+                </div>
+                <div className="card-body" onClick={() => { playSpeech(c.japanese, c.id); incrementStudyCount(c.id); }}>
+                  <div className="english-wrapper">
+                    <div>
+                      <h2 className="japanese-text">{c.japanese}</h2>
+                      <div className="kana-romaji-text">
+                        {hasKanaDifferent && <span className="kana-badge">{c.kana}</span>}
+                        {c.romaji && <span className="romaji-badge">{hasKanaDifferent ? `• ${c.romaji}` : c.romaji}</span>}
+                      </div>
+                    </div>
+                    <button className="play-button" aria-label="Nghe phát âm">
+                      {isPlaying ? <span className="playing-animation">🔊</span> : <span className="play-icon">🗣️</span>}
+                    </button>
+                  </div>
+                  <p className="vietnamese-text" style={{ marginTop: "4px" }}>{c.meaning_vi}</p>
+                  {c.example_use && c.example_use !== c.japanese && (
+                    <div style={{ marginTop: "8px" }}>
+                      <div className="reply-box" style={{ cursor: "pointer", borderLeftColor: "#8b5cf6" }}
+                        onClick={(e) => { e.stopPropagation(); playSpeech(c.example_use, `ex-${c.id}`); incrementStudyCount(c.id); }}>
+                        <span className="reply-label" style={{ color: "#7c3aed" }}>Ví dụ:</span>
+                        <span className="reply-text" style={{ color: "#6d28d9" }}>{c.example_use} 🗣️</span>
+                      </div>
+                      {c.example_translation && (
+                        <p style={{ fontSize: "0.9rem", color: "var(--color-text-muted)", paddingLeft: "4px", marginTop: "4px" }}>→ {c.example_translation}</p>
+                      )}
+                    </div>
+                  )}
+                </div>
+                <div className="card-footer">
+                  <label className="checkbox-container">
+                    <input type="checkbox" checked={isLearned} onChange={() => toggleLearned(c.id)} />
+                    <span className="checkmark"></span>
+                    <span className="checkbox-label">{isLearned ? "Đã thuộc 🎉" : "Đánh dấu đã thuộc"}</span>
+                  </label>
+                  <div className="study-counter" style={{ color: "#8b5cf6", backgroundColor: "rgba(139, 92, 246, 0.08)" }}>
+                    <span className="counter-num">{studyCounts[c.id] || 0}</span>
+                  </div>
+                </div>
+              </article>
+            );
+          }}
+        />
+      ) : (
       <section className="sentences-list">
         {filteredChunks.map((c) => {
           const isLearned = learnedIds.has(c.id);
@@ -386,6 +469,7 @@ export default function JapanesePage() {
           </div>
         )}
       </section>
+      )}
 
       <footer className="app-footer">
         <p>💡 Tip: Bấm vào câu tiếng Nhật để nghe phát âm giọng bản xứ chuẩn.</p>

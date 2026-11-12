@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo, Suspense } from "react";
 import Link from "next/link";
 import SectionNav from "../components/SectionNav";
+import LessonMode from "../components/LessonMode";
 import { useSearchParams } from "next/navigation";
 import rawData from "../../ielts_vocabulary.json";
 
@@ -58,6 +59,13 @@ function IeltsWordsContent() {
   const [voices, setVoices] = useState([]);
   const [selectedVoice, setSelectedVoice] = useState("");
   const [isLoaded, setIsLoaded] = useState(false);
+  const [studyMode, setStudyMode] = useState(() => {
+    if (typeof window !== "undefined") {
+      const m = localStorage.getItem("ielts_words_study_mode");
+      return m === "lesson" ? "lesson" : "browse";
+    }
+    return "browse";
+  });
 
   // Helper to sync all filter states to URL query params
   const updateUrl = (overrides = {}) => {
@@ -312,6 +320,22 @@ function IeltsWordsContent() {
       {/* Multi-Section Navigation Bar */}
       <SectionNav />
 
+      {/* Study Mode Toggle */}
+      <div className="mode-toggle-strip">
+        <button
+          className={`mode-toggle-btn ${studyMode === "browse" ? "active" : ""}`}
+          onClick={() => { setStudyMode("browse"); localStorage.setItem("ielts_words_study_mode", "browse"); }}
+        >
+          🔍 Duyệt tất cả
+        </button>
+        <button
+          className={`mode-toggle-btn ${studyMode === "lesson" ? "active" : ""}`}
+          onClick={() => { setStudyMode("lesson"); localStorage.setItem("ielts_words_study_mode", "lesson"); }}
+        >
+          📚 Học theo bài (10 từ/bài)
+        </button>
+      </div>
+
       <header className="hero">
         <div className="hero-content">
           <h1 style={{ background: "linear-gradient(135deg, #f59e0b 0%, #d97706 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
@@ -340,7 +364,7 @@ function IeltsWordsContent() {
       </header>
 
       {/* Control Panel */}
-      <section className="control-panel">
+      <section className="control-panel" style={{ display: studyMode === "lesson" ? "none" : undefined }}>
         <div className="search-box">
           <span className="search-icon">🔍</span>
           <input
@@ -387,7 +411,7 @@ function IeltsWordsContent() {
       </section>
 
       {/* Topic Filters */}
-      <section className="categories-nav">
+      <section className="categories-nav" style={{ display: studyMode === "lesson" ? "none" : undefined }}>
         {POPULAR_TOPICS.map((topicName) => {
           const label = topicName === "all" ? `📂 Tất cả (${totalCount})` : topicName;
           return (
@@ -404,7 +428,7 @@ function IeltsWordsContent() {
       </section>
 
       {/* Filter Tabs & Difficulty Selector */}
-      <div style={{ display: "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "12px", marginBottom: "20px" }}>
+      <div style={{ display: studyMode === "lesson" ? "none" : "flex", flexWrap: "wrap", justifyContent: "space-between", alignItems: "center", gap: "12px", marginBottom: "20px" }}>
         <div className="filter-tabs" style={{ marginBottom: "0", borderBottom: "none" }}>
           <button
             onClick={() => handleFilterChange("all")}
@@ -455,6 +479,74 @@ function IeltsWordsContent() {
       </div>
 
       {/* Words List */}
+      {studyMode === "lesson" ? (
+        <LessonMode
+          items={rawData}
+          storageKey="ielts_words"
+          learnedIds={learnedIds}
+          renderItem={(item) => {
+            const isLearned = learnedIds.has(item.id);
+            const isPlaying = playingId === item.id;
+            const topicNames = item.topics ? item.topics.map((t) => t.name).join(", ") : "";
+            return (
+              <article key={item.id} className={`sentence-card ${isLearned ? "learned" : ""} ${isPlaying ? "playing" : ""}`} style={isPlaying ? { borderColor: "#f59e0b" } : {}}>
+                <div className="card-top">
+                  <span className="card-index" style={{ color: "#d97706", backgroundColor: "rgba(245, 158, 11, 0.1)" }}>{item.partOfSpeech || "word"}</span>
+                  {topicNames && <span className="card-category" style={{ maxWidth: "200px", overflow: "hidden", textOverflow: "ellipsis", whiteSpace: "nowrap" }}>{topicNames}</span>}
+                  {item.difficulty && <span className={`difficulty-badge difficulty-${item.difficulty.toLowerCase()}`}>{item.difficulty}</span>}
+                </div>
+                <div className="card-body" onClick={() => { playSpeech(item.word, item.id); incrementStudyCount(item.id); }}>
+                  <div className="english-wrapper">
+                    <div>
+                      <div style={{ display: "flex", alignItems: "baseline", gap: "10px", flexWrap: "wrap" }}>
+                        <h2 className="english-text" style={{ fontSize: "1.7rem" }}>{item.word}</h2>
+                        {item.ipa && <span style={{ fontSize: "1.1rem", color: "#d97706", fontWeight: "600", letterSpacing: "0.02em" }}>{item.ipa}</span>}
+                      </div>
+                    </div>
+                    <button className="play-button" aria-label="Nghe phát âm">
+                      {isPlaying ? <span className="playing-animation">🔊</span> : <span className="play-icon">🗣️</span>}
+                    </button>
+                  </div>
+                  <p className="vietnamese-text" style={{ color: "#334155", fontWeight: "600", fontSize: "1.05rem" }}>{item.meaning}</p>
+                  {item.exampleSentence && (
+                    <div className="reply-box" style={{ cursor: "pointer", borderLeftColor: "#f59e0b" }}
+                      onClick={(e) => { e.stopPropagation(); playSpeech(item.exampleSentence, `ex-${item.id}`); incrementStudyCount(item.id); }}>
+                      <span className="reply-label" style={{ color: "#b45309" }}>Ví dụ:</span>
+                      <span className="reply-text" style={{ color: "#92400e" }}>&quot;{item.exampleSentence}&quot; 🗣️</span>
+                    </div>
+                  )}
+                  {((item.synonyms && item.synonyms.length > 0) || (item.antonyms && item.antonyms.length > 0)) && (
+                    <div style={{ marginTop: "6px", display: "flex", flexDirection: "column", gap: "4px" }}>
+                      {item.synonyms && item.synonyms.length > 0 && (
+                        <div className="synonyms-box">
+                          <span style={{ fontSize: "0.8rem", fontWeight: "700", color: "#64748b" }}>Đồng nghĩa:</span>
+                          {item.synonyms.map((s, idx) => <span key={idx} className="synonym-tag">{s}</span>)}
+                        </div>
+                      )}
+                      {item.antonyms && item.antonyms.length > 0 && (
+                        <div className="synonyms-box">
+                          <span style={{ fontSize: "0.8rem", fontWeight: "700", color: "#64748b" }}>Trái nghĩa:</span>
+                          {item.antonyms.map((a, idx) => <span key={idx} className="antonym-tag">{a}</span>)}
+                        </div>
+                      )}
+                    </div>
+                  )}
+                </div>
+                <div className="card-footer">
+                  <label className="checkbox-container">
+                    <input type="checkbox" checked={isLearned} onChange={() => toggleLearned(item.id)} />
+                    <span className="checkmark"></span>
+                    <span className="checkbox-label">{isLearned ? "Đã thuộc 🎉" : "Đánh dấu đã thuộc"}</span>
+                  </label>
+                  <div className="study-counter" style={{ color: "#d97706", backgroundColor: "rgba(245, 158, 11, 0.1)" }}>
+                    <span className="counter-num">{studyCounts[item.id] || 0}</span>
+                  </div>
+                </div>
+              </article>
+            );
+          }}
+        />
+      ) : (
       <section className="sentences-list">
         {paginatedWords.map((item) => {
           const isLearned = learnedIds.has(item.id);
@@ -581,9 +673,10 @@ function IeltsWordsContent() {
           </div>
         )}
       </section>
+      )}
 
       {/* Pagination Controls */}
-      {totalPages > 1 && (
+      {totalPages > 1 && studyMode !== "lesson" && (
         <div className="pagination-controls">
           <button
             onClick={() => changePage(currentPage - 1)}

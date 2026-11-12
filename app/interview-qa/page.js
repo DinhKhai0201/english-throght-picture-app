@@ -3,6 +3,7 @@
 import { useState, useEffect, useMemo, Suspense } from "react";
 import Link from "next/link";
 import SectionNav from "../components/SectionNav";
+import LessonMode from "../components/LessonMode";
 import { useSearchParams } from "next/navigation";
 import rawData from "../../interview_500_qa.json";
 
@@ -46,6 +47,13 @@ function InterviewQAContent() {
   const [voices, setVoices] = useState([]);
   const [selectedVoice, setSelectedVoice] = useState("");
   const [isLoaded, setIsLoaded] = useState(false);
+  const [studyMode, setStudyMode] = useState(() => {
+    if (typeof window !== "undefined") {
+      const m = localStorage.getItem("interview_qa_study_mode");
+      return m === "lesson" ? "lesson" : "browse";
+    }
+    return "browse";
+  });
 
   // Synchronize URL
   const updateUrl = (overrides = {}) => {
@@ -283,6 +291,22 @@ function InterviewQAContent() {
       {/* Multi-Section Navigation Bar */}
       <SectionNav />
 
+      {/* Study Mode Toggle */}
+      <div className="mode-toggle-strip">
+        <button
+          className={`mode-toggle-btn ${studyMode === "browse" ? "active" : ""}`}
+          onClick={() => { setStudyMode("browse"); localStorage.setItem("interview_qa_study_mode", "browse"); }}
+        >
+          🔍 Duyệt tất cả
+        </button>
+        <button
+          className={`mode-toggle-btn ${studyMode === "lesson" ? "active" : ""}`}
+          onClick={() => { setStudyMode("lesson"); localStorage.setItem("interview_qa_study_mode", "lesson"); }}
+        >
+          📚 Học theo bài (10 câu/bài)
+        </button>
+      </div>
+
       <header className="hero">
         <div className="hero-content">
           <h1 style={{ background: "linear-gradient(135deg, #0284c7 0%, #2563eb 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
@@ -311,7 +335,7 @@ function InterviewQAContent() {
       </header>
 
       {/* Control Panel */}
-      <section className="control-panel">
+      <section className="control-panel" style={{ display: studyMode === "lesson" ? "none" : undefined }}>
         <div className="search-box">
           <span className="search-icon">🔍</span>
           <input
@@ -358,7 +382,7 @@ function InterviewQAContent() {
       </section>
 
       {/* Part Navigation */}
-      <section className="categories-nav">
+      <section className="categories-nav" style={{ display: studyMode === "lesson" ? "none" : undefined }}>
         <button
           onClick={() => handlePartChange("all")}
           className={`category-pill ${activePart === "all" ? "active" : ""}`}
@@ -383,7 +407,7 @@ function InterviewQAContent() {
       </section>
 
       {/* Filter Tabs */}
-      <div className="filter-tabs">
+      <div className="filter-tabs" style={{ display: studyMode === "lesson" ? "none" : undefined }}>
         <button
           onClick={() => handleFilterChange("all")}
           className={`filter-tab ${filterType === "all" ? "active" : ""}`}
@@ -408,6 +432,71 @@ function InterviewQAContent() {
       </div>
 
       {/* Questions List */}
+      {studyMode === "lesson" ? (
+        <LessonMode
+          items={allQuestions}
+          storageKey="interview_qa"
+          learnedIds={learnedIds}
+          renderItem={(q) => {
+            const isLearned = learnedIds.has(q.id);
+            const isPlayingQ = playingId === q.id;
+            return (
+              <article key={q.id} className={`sentence-card ${isLearned ? "learned" : ""} ${isPlayingQ ? "playing" : ""}`} style={isPlayingQ ? { borderColor: "#0284c7" } : {}}>
+                <div className="card-top">
+                  <span className="card-index" style={{ color: "#0284c7", backgroundColor: "rgba(2, 132, 199, 0.1)" }}>
+                    #{q.part === 1 ? `Phần 1 - Câu ${q.question_number}` : `Phần 2 - Câu ${q.question_number}`}
+                  </span>
+                  <span className="card-category">{q.part === 1 ? "Nhà tuyển dụng hỏi" : "Ứng viên hỏi"}</span>
+                </div>
+                <div className="card-body" onClick={() => { playSpeech(q.question_en, q.id); incrementStudyCount(q.id); }}>
+                  <div className="english-wrapper">
+                    <h2 className="english-text" style={{ fontSize: "1.45rem", color: "#0f172a" }}>{q.question_en}</h2>
+                    <button className="play-button" aria-label="Nghe câu hỏi">
+                      {isPlayingQ ? <span className="playing-animation">🔊</span> : <span className="play-icon">🗣️</span>}
+                    </button>
+                  </div>
+                  <p className="vietnamese-text" style={{ fontSize: "1.05rem", color: "#475569", fontWeight: "600" }}>{q.question_vi}</p>
+                </div>
+                {q.answers && q.answers.length > 0 && (
+                  <div style={{ marginTop: "12px", borderTop: "1px dashed var(--color-border)", paddingTop: "12px" }}>
+                    <div style={{ fontSize: "0.85rem", fontWeight: "700", color: "#0284c7", textTransform: "uppercase", marginBottom: "8px" }}>
+                      💡 Các phương án trả lời gợi ý ({q.answers.length}):
+                    </div>
+                    <div className="interview-answers-list">
+                      {q.answers.map((ans, aIdx) => {
+                        const isPlayingA = playingId === `${q.id}_ans_${aIdx}`;
+                        return (
+                          <div key={aIdx} className="interview-answer-item">
+                            <div className="interview-answer-head">
+                              <span className="interview-option-badge">Phương án {aIdx + 1}</span>
+                              <button className="play-button" style={{ width: "32px", height: "32px", fontSize: "0.95rem" }}
+                                onClick={(e) => { e.stopPropagation(); playSpeech(ans.answer_en, `${q.id}_ans_${aIdx}`); incrementStudyCount(q.id); }} aria-label="Nghe phương án này">
+                                {isPlayingA ? "🔊" : "🗣️"}
+                              </button>
+                            </div>
+                            <p className="interview-answer-en" onClick={() => { playSpeech(ans.answer_en, `${q.id}_ans_${aIdx}`); incrementStudyCount(q.id); }}>{ans.answer_en}</p>
+                            <p className="interview-answer-vi">{ans.answer_vi}</p>
+                          </div>
+                        );
+                      })}
+                    </div>
+                  </div>
+                )}
+                <div className="card-footer">
+                  <label className="checkbox-container">
+                    <input type="checkbox" checked={isLearned} onChange={() => toggleLearned(q.id)} />
+                    <span className="checkmark"></span>
+                    <span className="checkbox-label">{isLearned ? "Đã thuộc 🎉" : "Đánh dấu đã thuộc"}</span>
+                  </label>
+                  <div className="study-counter" style={{ color: "#0284c7", backgroundColor: "rgba(2, 132, 199, 0.1)" }}>
+                    <span className="counter-num">{studyCounts[q.id] || 0}</span>
+                  </div>
+                </div>
+              </article>
+            );
+          }}
+        />
+      ) : (
       <section className="sentences-list">
         {paginatedQuestions.map((q) => {
           const isLearned = learnedIds.has(q.id);
@@ -527,9 +616,10 @@ function InterviewQAContent() {
           </div>
         )}
       </section>
+      )}
 
       {/* Pagination Controls */}
-      {totalPages > 1 && (
+      {totalPages > 1 && studyMode !== "lesson" && (
         <div className="pagination-controls">
           <button
             onClick={() => changePage(currentPage - 1)}

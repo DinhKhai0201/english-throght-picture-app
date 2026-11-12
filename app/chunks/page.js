@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import rawData from "../../english_chunks_1000.json";
 import Link from "next/link";
 import SectionNav from "../components/SectionNav";
+import LessonMode from "../components/LessonMode";
 
 const TOPIC_MAP = {
   topic_01: "⭐ Core Chunks",
@@ -30,6 +31,7 @@ export default function ChunksPage() {
   const [voices, setVoices] = useState([]);
   const [selectedVoice, setSelectedVoice] = useState("");
   const [isLoaded, setIsLoaded] = useState(false);
+  const [studyMode, setStudyMode] = useState("browse");
 
 
   // Initialize Speech Voices
@@ -71,6 +73,8 @@ export default function ChunksPage() {
         } catch (e) {}
       }
       setChunks(rawData.chunks || []);
+      const savedMode = localStorage.getItem("chunks_1000_study_mode");
+      if (savedMode === "lesson" || savedMode === "browse") setStudyMode(savedMode);
       setIsLoaded(true);
     }
   }, []);
@@ -152,6 +156,22 @@ export default function ChunksPage() {
       {/* Multi-Section Navigation Bar */}
       <SectionNav />
 
+      {/* Study Mode Toggle */}
+      <div className="mode-toggle-strip">
+        <button
+          className={`mode-toggle-btn ${studyMode === "browse" ? "active" : ""}`}
+          onClick={() => { setStudyMode("browse"); localStorage.setItem("chunks_1000_study_mode", "browse"); }}
+        >
+          🔍 Duyệt tất cả
+        </button>
+        <button
+          className={`mode-toggle-btn ${studyMode === "lesson" ? "active" : ""}`}
+          onClick={() => { setStudyMode("lesson"); localStorage.setItem("chunks_1000_study_mode", "lesson"); }}
+        >
+          📚 Học theo bài (10 chunks/bài)
+        </button>
+      </div>
+
       <header className="hero">
         <div className="hero-content">
           <h1 style={{ background: "linear-gradient(135deg, #059669 0%, #0284c7 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
@@ -178,7 +198,7 @@ export default function ChunksPage() {
       </header>
 
       {/* Control Panel */}
-      <section className="control-panel">
+      <section className="control-panel" style={{ display: studyMode === "lesson" ? "none" : undefined }}>
         <div className="search-box">
           <span className="search-icon">🔍</span>
           <input
@@ -225,7 +245,7 @@ export default function ChunksPage() {
       </section>
 
       {/* Topic Navigation */}
-      <section className="categories-nav">
+      <section className="categories-nav" style={{ display: studyMode === "lesson" ? "none" : undefined }}>
         <button
           onClick={() => setActiveTopic("all")}
           className={`category-pill ${activeTopic === "all" ? "active" : ""}`}
@@ -248,7 +268,7 @@ export default function ChunksPage() {
       </section>
 
       {/* Filter Tabs */}
-      <div className="filter-tabs">
+      <div className="filter-tabs" style={{ display: studyMode === "lesson" ? "none" : undefined }}>
         <button
           onClick={() => setFilterType("all")}
           className={`filter-tab ${filterType === "all" ? "active" : ""}`}
@@ -270,6 +290,54 @@ export default function ChunksPage() {
       </div>
 
       {/* Chunks List */}
+      {studyMode === "lesson" ? (
+        <LessonMode
+          items={chunks}
+          storageKey="chunks_1000"
+          learnedIds={learnedIds}
+          renderItem={(c) => {
+            const isLearned = learnedIds.has(c.id);
+            const isPlaying = playingId === c.id;
+            return (
+              <article key={c.id} className={`sentence-card ${isLearned ? "learned" : ""} ${isPlaying ? "playing" : ""}`}>
+                <div className="card-top">
+                  <span className="card-index">#{c.id}</span>
+                  <span className="card-category">{TOPIC_MAP[c.topic_id] || c.topic_id}</span>
+                  {c.level && <span className="card-level">{c.level}</span>}
+                </div>
+                <div className="card-body" onClick={() => { playSpeech(c.chunk, c.id); incrementStudyCount(c.id); }}>
+                  <div className="english-wrapper">
+                    <h2 className="english-text">{c.chunk}</h2>
+                    <button className="play-button" aria-label="Nghe phát âm">
+                      {isPlaying ? <span className="playing-animation">🔊</span> : <span className="play-icon">🗣️</span>}
+                    </button>
+                  </div>
+                  <p className="vietnamese-text">{c.meaning_vi}</p>
+                  {c.pattern && <div className="reply-box"><span className="reply-label">Pattern:</span><span className="reply-text">{c.pattern}</span></div>}
+                </div>
+                <div style={{ marginTop: "4px", display: "flex", flexDirection: "column", gap: "8px" }}>
+                  {c.example_en && (
+                    <div className="reply-box" style={{ cursor: "pointer" }} onClick={() => { playSpeech(c.example_en, `ex-${c.id}`); incrementStudyCount(c.id); }}>
+                      <span className="reply-label">Ví dụ:</span>
+                      <span className="reply-text">{c.example_en} 🗣️</span>
+                    </div>
+                  )}
+                  {c.example_vi && <p style={{ fontSize: "0.95rem", color: "var(--color-text-muted)", paddingLeft: "4px" }}>→ {c.example_vi}</p>}
+                  {c.usage_note_vi && <p style={{ fontSize: "0.9rem", color: "#64748b", fontStyle: "italic", paddingLeft: "4px" }}>💡 {c.usage_note_vi}</p>}
+                </div>
+                <div className="card-footer">
+                  <label className="checkbox-container">
+                    <input type="checkbox" checked={isLearned} onChange={() => toggleLearned(c.id)} />
+                    <span className="checkmark"></span>
+                    <span className="checkbox-label">{isLearned ? "Đã thuộc 🎉" : "Đánh dấu đã thuộc"}</span>
+                  </label>
+                  <div className="study-counter"><span className="counter-num">{studyCounts[c.id] || 0}</span></div>
+                </div>
+              </article>
+            );
+          }}
+        />
+      ) : (
       <section className="sentences-list">
         {filteredChunks.map((c) => {
           const isLearned = learnedIds.has(c.id);
@@ -367,6 +435,7 @@ export default function ChunksPage() {
           </div>
         )}
       </section>
+      )}
 
       <footer className="app-footer">
         <p>💡 Tip: Bấm vào chunk để nghe phát âm, bấm &quot;Xem ví dụ&quot; để học sâu hơn.</p>

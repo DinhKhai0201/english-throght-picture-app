@@ -3,6 +3,7 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import SectionNav from "../components/SectionNav";
+import LessonMode from "../components/LessonMode";
 import rawData from "../../300_cau_tieng_anh_giao_tiep.json";
 
 const CATEGORY_MAP = {
@@ -31,6 +32,7 @@ export default function English300Page() {
   const [voices, setVoices] = useState([]);
   const [selectedVoice, setSelectedVoice] = useState("");
   const [isLoaded, setIsLoaded] = useState(false);
+  const [studyMode, setStudyMode] = useState("browse"); // "browse" | "lesson"
 
   // Initialize Speech Voices
   useEffect(() => {
@@ -73,6 +75,8 @@ export default function English300Page() {
       }
 
       setSentences(rawData.sentences || []);
+      const savedMode = localStorage.getItem("english_300_study_mode");
+      if (savedMode === "lesson" || savedMode === "browse") setStudyMode(savedMode);
       setIsLoaded(true);
     }
   }, []);
@@ -166,6 +170,22 @@ export default function English300Page() {
       {/* Multi-Section Navigation Bar */}
       <SectionNav />
 
+      {/* Study Mode Toggle */}
+      <div className="mode-toggle-strip">
+        <button
+          className={`mode-toggle-btn ${studyMode === "browse" ? "active" : ""}`}
+          onClick={() => { setStudyMode("browse"); localStorage.setItem("english_300_study_mode", "browse"); }}
+        >
+          🔍 Duyệt tất cả
+        </button>
+        <button
+          className={`mode-toggle-btn ${studyMode === "lesson" ? "active" : ""}`}
+          onClick={() => { setStudyMode("lesson"); localStorage.setItem("english_300_study_mode", "lesson"); }}
+        >
+          📚 Học theo bài (10 câu/bài)
+        </button>
+      </div>
+
       <header className="hero">
         <div className="hero-content">
           <h1>⚡ 300 Câu Giao Tiếp Cốt Lõi</h1>
@@ -190,7 +210,7 @@ export default function English300Page() {
       </header>
 
       {/* Control Panel (Search, voice, rate) */}
-      <section className="control-panel">
+      <section className="control-panel" style={{ display: studyMode === "lesson" ? "none" : undefined }}>
         <div className="search-box">
           <span className="search-icon">🔍</span>
           <input
@@ -237,7 +257,7 @@ export default function English300Page() {
       </section>
 
       {/* Category Navigation */}
-      <section className="categories-nav">
+      <section className="categories-nav" style={{ display: studyMode === "lesson" ? "none" : undefined }}>
         <button
           onClick={() => setActiveCategory("all")}
           className={`category-pill ${activeCategory === "all" ? "active" : ""}`}
@@ -260,7 +280,7 @@ export default function English300Page() {
       </section>
 
       {/* Filter Tabs (All, Learned, Unlearned) */}
-      <div className="filter-tabs">
+      <div className="filter-tabs" style={{ display: studyMode === "lesson" ? "none" : undefined }}>
         <button
           onClick={() => setFilterType("all")}
           className={`filter-tab ${filterType === "all" ? "active" : ""}`}
@@ -282,6 +302,54 @@ export default function English300Page() {
       </div>
 
       {/* Sentences List */}
+      {studyMode === "lesson" ? (
+        <LessonMode
+          items={sentences}
+          storageKey="english_300"
+          learnedIds={learnedIds}
+          renderItem={(s) => {
+            const isLearned = learnedIds.has(s.id);
+            const isPlaying = playingId === s.id;
+            return (
+              <article
+                key={s.id}
+                className={`sentence-card ${isLearned ? "learned" : ""} ${isPlaying ? "playing" : ""}`}
+              >
+                <div className="card-top">
+                  <span className="card-index">#{s.id}</span>
+                  <span className="card-category">{CATEGORY_MAP[s.category] || s.category}</span>
+                  {s.level && <span className="card-level">{s.level}</span>}
+                </div>
+                <div className="card-body" onClick={() => { playSpeech(s.english, s.id); incrementStudyCount(s.id); }}>
+                  <div className="english-wrapper">
+                    <h2 className="english-text">{s.english}</h2>
+                    <button className="play-button" aria-label="Nghe phát âm">
+                      {isPlaying ? <span className="playing-animation">🔊</span> : <span className="play-icon">🗣️</span>}
+                    </button>
+                  </div>
+                  <p className="vietnamese-text">{s.vietnamese}</p>
+                  {s.suggested_reply && (
+                    <div className="reply-box">
+                      <span className="reply-label">Gợi ý đáp:</span>
+                      <span className="reply-text" onClick={(e) => { e.stopPropagation(); playSpeech(s.suggested_reply, `reply-${s.id}`); incrementStudyCount(s.id); }}>
+                        {s.suggested_reply} 🗣️
+                      </span>
+                    </div>
+                  )}
+                </div>
+                <div className="card-footer">
+                  <label className="checkbox-container">
+                    <input type="checkbox" checked={isLearned} onChange={() => toggleLearned(s.id)} />
+                    <span className="checkmark"></span>
+                    <span className="checkbox-label">{isLearned ? "Đã thuộc 🎉" : "Đánh dấu đã thuộc"}</span>
+                  </label>
+                  <div className="study-counter"><span className="counter-num">{studyCounts[s.id] || 0}</span></div>
+                </div>
+              </article>
+            );
+          }}
+        />
+      ) : (
       <section className="sentences-list">
         {filteredSentences.map((s) => {
           const isLearned = learnedIds.has(s.id);
@@ -352,6 +420,7 @@ export default function English300Page() {
           </div>
         )}
       </section>
+      )}
 
       <footer className="app-footer">
         <p>💡 Tip: Bạn có thể chọn giọng phát âm và chỉnh tốc độ đọc phù hợp ở phần trên.</p>
