@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 
 const LESSON_SIZE = 10;
 
@@ -21,7 +21,7 @@ export default function LessonMode({
   renderItem,
   lessonSize = LESSON_SIZE,
 }) {
-  const totalLessons = Math.ceil(items.length / lessonSize);
+  const totalLessons = Math.ceil(items.length / lessonSize) || 1;
 
   // Restore lesson from localStorage
   const [currentLesson, setCurrentLesson] = useState(() => {
@@ -32,6 +32,11 @@ export default function LessonMode({
     return 1;
   });
 
+  // View mode: "lesson" (normal lesson) or "unlearned" (list of unlearned items)
+  const [viewUnlearned, setViewUnlearned] = useState(false);
+  // Unlearned scope: "up_to_current" (from Lesson 1 to currentLesson) or "all"
+  const [unlearnedScope, setUnlearnedScope] = useState("up_to_current");
+
   // Persist lesson to localStorage whenever it changes
   useEffect(() => {
     if (typeof window !== "undefined" && storageKey) {
@@ -41,15 +46,67 @@ export default function LessonMode({
 
   const lesson = Math.min(Math.max(1, currentLesson), Math.max(1, totalLessons));
   const startIdx = (lesson - 1) * lessonSize;
-  const lessonItems = items.slice(startIdx, startIdx + lessonSize);
+  const lessonItems = useMemo(() => {
+    return items.slice(startIdx, startIdx + lessonSize);
+  }, [items, startIdx, lessonSize]);
 
-  const learnedInLesson = lessonItems.filter((item) => learnedIds.has(item.id)).length;
+  // Statistics for all lessons
+  const lessonStats = useMemo(() => {
+    return Array.from({ length: totalLessons }, (_, i) => {
+      const bStart = i * lessonSize;
+      const bItems = items.slice(bStart, bStart + lessonSize);
+      const learnedCount = bItems.filter((it) => learnedIds.has(it.id)).length;
+      const totalCount = bItems.length;
+      const unlearnedCount = totalCount - learnedCount;
+      const isCompleted = totalCount > 0 && learnedCount === totalCount;
+      return {
+        lessonNum: i + 1,
+        bStart: bStart + 1,
+        bEnd: Math.min(bStart + lessonSize, items.length),
+        learnedCount,
+        totalCount,
+        unlearnedCount,
+        isCompleted,
+      };
+    });
+  }, [items, totalLessons, lessonSize, learnedIds]);
+
+  const currentLessonStat = lessonStats[lesson - 1] || {
+    learnedCount: 0,
+    totalCount: lessonItems.length,
+    unlearnedCount: lessonItems.length,
+    isCompleted: false,
+  };
+
+  const learnedInLesson = currentLessonStat.learnedCount;
   const lessonProgress = lessonItems.length > 0 ? Math.round((learnedInLesson / lessonItems.length) * 100) : 0;
+
+  // Unlearned items up to current lesson (Lesson 1 to currentLesson)
+  const unlearnedUpToCurrent = useMemo(() => {
+    const sliceEnd = Math.min(lesson * lessonSize, items.length);
+    const subset = items.slice(0, sliceEnd);
+    return subset
+      .map((item, idx) => ({ item, originalIndex: idx, lessonNum: Math.floor(idx / lessonSize) + 1 }))
+      .filter(({ item }) => !learnedIds.has(item.id));
+  }, [items, lesson, lessonSize, learnedIds]);
+
+  // All unlearned items
+  const allUnlearned = useMemo(() => {
+    return items
+      .map((item, idx) => ({ item, originalIndex: idx, lessonNum: Math.floor(idx / lessonSize) + 1 }))
+      .filter(({ item }) => !learnedIds.has(item.id));
+  }, [items, lessonSize, learnedIds]);
+
+  // Next incomplete lesson
+  const nextIncompleteLesson = useMemo(() => {
+    const found = lessonStats.find((s) => !s.isCompleted && s.lessonNum !== lesson);
+    return found ? found.lessonNum : null;
+  }, [lessonStats, lesson]);
 
   const goToLesson = (n) => {
     const clamped = Math.max(1, Math.min(n, totalLessons));
     setCurrentLesson(clamped);
-    // Scroll to top of lesson content
+    setViewUnlearned(false);
     if (typeof window !== "undefined") {
       const el = document.getElementById("lesson-content-top");
       if (el) el.scrollIntoView({ behavior: "smooth", block: "start" });
@@ -65,9 +122,11 @@ export default function LessonMode({
     );
   }
 
+  const displayedUnlearnedItems = unlearnedScope === "up_to_current" ? unlearnedUpToCurrent : allUnlearned;
+
   return (
     <div className="lesson-mode-wrapper">
-      {/* Lesson Header */}
+      {/* Lesson Header Box */}
       <div className="lesson-header">
         <div className="lesson-title-row">
           <span className="lesson-title">
@@ -76,8 +135,9 @@ export default function LessonMode({
           <span className="lesson-range">
             (#{startIdx + 1} – #{Math.min(startIdx + lessonSize, items.length)})
           </span>
-          <span className="lesson-done-badge">
-            {learnedInLesson}/{lessonItems.length} đã thuộc
+
+          <span className={`lesson-done-badge ${currentLessonStat.isCompleted ? "completed" : ""}`}>
+            {currentLessonStat.isCompleted ? "🎉 Đã hoàn thành 100%" : `${learnedInLesson}/${lessonItems.length} đã thuộc`}
           </span>
         </div>
 
@@ -89,7 +149,7 @@ export default function LessonMode({
           />
         </div>
 
-        {/* Navigation buttons */}
+        {/* Navigation & Action Controls */}
         <div className="lesson-nav-controls">
           <button
             className="lesson-nav-btn"
@@ -107,21 +167,17 @@ export default function LessonMode({
             ← Bài trước
           </button>
 
-          {/* Lesson picker */}
+          {/* Lesson picker with completion status in each option */}
           <select
             className="lesson-select"
             value={lesson}
             onChange={(e) => goToLesson(parseInt(e.target.value, 10))}
           >
-            {Array.from({ length: totalLessons }, (_, i) => {
-              const bStart = i * lessonSize + 1;
-              const bEnd = Math.min((i + 1) * lessonSize, items.length);
-              return (
-                <option key={i + 1} value={i + 1}>
-                  Bài {i + 1} (#{bStart}–#{bEnd})
-                </option>
-              );
-            })}
+            {lessonStats.map((st) => (
+              <option key={st.lessonNum} value={st.lessonNum}>
+                Bài {st.lessonNum} ({st.isCompleted ? `✅ Đã xong 10/${st.totalCount}` : `${st.learnedCount}/${st.totalCount} • Còn ${st.unlearnedCount}`})
+              </option>
+            ))}
           </select>
 
           <button
@@ -139,40 +195,124 @@ export default function LessonMode({
           >
             ⏭
           </button>
+
+          {/* Button to jump to next incomplete lesson if available */}
+          {nextIncompleteLesson && (
+            <button
+              className="lesson-jump-incomplete-btn"
+              onClick={() => goToLesson(nextIncompleteLesson)}
+              title={`Nhảy tới Bài ${nextIncompleteLesson} còn mục chưa thuộc`}
+            >
+              ⚡ Tới bài chưa xong: Bài {nextIncompleteLesson}
+            </button>
+          )}
+        </div>
+
+        {/* Unlearned Quick Filter Bar */}
+        <div className="lesson-unlearned-toolbar">
+          <button
+            className={`btn-toggle-unlearned ${viewUnlearned ? "active" : ""}`}
+            onClick={() => setViewUnlearned(!viewUnlearned)}
+          >
+            {viewUnlearned ? "📖 Xem lại bài đang học" : `⚠️ Xem từ/câu chưa thuộc (${unlearnedUpToCurrent.length})`}
+          </button>
+
+          {viewUnlearned && (
+            <div className="unlearned-scope-selector">
+              <span className="scope-label">Phạm vi:</span>
+              <button
+                className={`scope-pill ${unlearnedScope === "up_to_current" ? "active" : ""}`}
+                onClick={() => setUnlearnedScope("up_to_current")}
+              >
+                Bài 1 → Bài {lesson} ({unlearnedUpToCurrent.length})
+              </button>
+              <button
+                className={`scope-pill ${unlearnedScope === "all" ? "active" : ""}`}
+                onClick={() => setUnlearnedScope("all")}
+              >
+                Tất cả các bài ({allUnlearned.length})
+              </button>
+            </div>
+          )}
         </div>
       </div>
 
-      {/* Lesson Content */}
+      {/* Main Content Area */}
       <div id="lesson-content-top" className="lesson-items">
-        {lessonItems.map((item, idx) => renderItem(item, startIdx + idx))}
+        {viewUnlearned ? (
+          <div>
+            <div className="unlearned-view-header">
+              <h3>
+                ⚠️ Danh sách câu/từ chưa thuộc {unlearnedScope === "up_to_current" ? `(từ Bài 1 đến Bài ${lesson})` : "(Toàn bộ)"}: {displayedUnlearnedItems.length} mục
+              </h3>
+              <p>Bạn có thể nghe và bấm &quot;Đã thuộc 🎉&quot; trực tiếp tại đây để hoàn thiện bài học.</p>
+            </div>
+
+            {displayedUnlearnedItems.length === 0 ? (
+              <div className="empty-state" style={{ marginTop: "16px" }}>
+                <span className="empty-icon">🎉</span>
+                <p>Tuyệt vời! Bạn đã thuộc toàn bộ câu/từ trong phạm vi này!</p>
+                <button className="lesson-nav-btn lesson-nav-btn--large" onClick={() => setViewUnlearned(false)} style={{ marginTop: "12px" }}>
+                  ← Quay lại Bài {lesson}
+                </button>
+              </div>
+            ) : (
+              <div className="lesson-items" style={{ marginTop: "14px" }}>
+                {displayedUnlearnedItems.map(({ item, originalIndex, lessonNum }) => (
+                  <div key={item.id} className="unlearned-item-container">
+                    <div className="unlearned-item-lesson-tag">
+                      <span className="badge-lesson">Thuộc Bài {lessonNum}</span>
+                      <button
+                        className="btn-link-lesson"
+                        onClick={() => goToLesson(lessonNum)}
+                        title={`Mở Bài ${lessonNum}`}
+                      >
+                        Đến bài này ↗
+                      </button>
+                    </div>
+                    {renderItem(item, originalIndex)}
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        ) : (
+          lessonItems.map((item, idx) => renderItem(item, startIdx + idx))
+        )}
       </div>
 
-      {/* Bottom navigation (repeat for convenience) */}
-      <div className="lesson-bottom-nav">
-        <button
-          className="lesson-nav-btn lesson-nav-btn--large"
-          onClick={() => goToLesson(lesson - 1)}
-          disabled={lesson <= 1}
-        >
-          ← Bài {lesson - 1}
-        </button>
+      {/* Bottom navigation */}
+      {!viewUnlearned && (
+        <div className="lesson-bottom-nav">
+          <button
+            className="lesson-nav-btn lesson-nav-btn--large"
+            onClick={() => goToLesson(lesson - 1)}
+            disabled={lesson <= 1}
+          >
+            ← Bài {lesson - 1}
+          </button>
 
-        <span className="lesson-bottom-info">
-          Bài {lesson} / {totalLessons}
-          {lessonProgress === 100 && (
-            <span className="lesson-complete-badge">🎉 Hoàn thành!</span>
-          )}
-        </span>
+          <span className="lesson-bottom-info">
+            Bài {lesson} / {totalLessons}
+            {lessonProgress === 100 && (
+              <span className="lesson-complete-badge">🎉 Hoàn thành!</span>
+            )}
+            {currentLessonStat.unlearnedCount > 0 && (
+              <span className="lesson-remaining-badge">
+                Còn {currentLessonStat.unlearnedCount} chưa thuộc
+              </span>
+            )}
+          </span>
 
-        <button
-          className="lesson-nav-btn lesson-nav-btn--large"
-          onClick={() => goToLesson(lesson + 1)}
-          disabled={lesson >= totalLessons}
-        >
-          Bài {lesson + 1} →
-        </button>
-      </div>
+          <button
+            className="lesson-nav-btn lesson-nav-btn--large"
+            onClick={() => goToLesson(lesson + 1)}
+            disabled={lesson >= totalLessons}
+          >
+            Bài {lesson + 1} →
+          </button>
+        </div>
+      )}
     </div>
   );
 }
-

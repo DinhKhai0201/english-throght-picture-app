@@ -17,10 +17,18 @@ export default function Home() {
   const [jaCount, setJaCount] = useState(0);
   const [ieltsCount, setIeltsCount] = useState(0);
   const [interviewCount, setInterviewCount] = useState(0);
+  const [listenDrillFound, setListenDrillFound] = useState(0);
+  const [listenDrillFirstTry, setListenDrillFirstTry] = useState(0);
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
+      try {
+        const found = parseInt(localStorage.getItem("listen_drill_found") || "0", 10);
+        const firstTry = parseInt(localStorage.getItem("listen_drill_first_try") || "0", 10);
+        if (!isNaN(found)) setListenDrillFound(found);
+        if (!isNaN(firstTry)) setListenDrillFirstTry(firstTry);
+      } catch (e) {}
       try {
         const en300Stored = localStorage.getItem("english_300_progress");
         if (en300Stored) {
@@ -115,6 +123,37 @@ export default function Home() {
 
       {/* 3 Main Sections Grid */}
       <section className="home-sections-grid">
+        {/* Section 0: Listen & Find Drill (Alphabet & Numbers) */}
+        <Link href="/listen-drill" className="home-section-card card-drill" style={{ borderLeftColor: "#0e7490" }}>
+          <div>
+            <span className="home-section-badge badge-drill" style={{ background: "#e0f2fe", color: "#0369a1" }}>
+              🎧 Phản Xạ Nghe • Alphabet & Numbers
+            </span>
+            <h2 className="home-section-title">Listen & Find (Luyện Nghe Phản Xạ)</h2>
+            <p className="home-section-desc">
+              Nghe âm thanh và tìm nhanh chữ cái (Alphabet a-z, A-Z) và số đếm (Numbers), hỗ trợ bấm phím máy tính trực tiếp siêu nhanh.
+            </p>
+          </div>
+
+          <div className="home-section-progress-wrap">
+            <div className="home-section-stats">
+              <span style={{ color: "var(--color-text-muted)" }}>Đã tìm đúng:</span>
+              <span style={{ color: "#0e7490", fontWeight: "700" }}>
+                {listenDrillFound} lần (First Try: {listenDrillFirstTry})
+              </span>
+            </div>
+            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "#e2e8f0" }}>
+              <div
+                className="progress-bar"
+                style={{ width: `${Math.min(100, Math.round((listenDrillFound / 50) * 100))}%`, backgroundColor: "#0e7490" }}
+              ></div>
+            </div>
+            <div className="home-section-cta" style={{ color: "#0e7490" }}>
+              Vào luyện phản xạ ngay →
+            </div>
+          </div>
+        </Link>
+
         {/* Section 1: 300 English Sentences */}
         <Link href="/english-300" className="home-section-card card-en300">
           <div>
