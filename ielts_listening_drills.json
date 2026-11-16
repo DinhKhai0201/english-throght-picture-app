@@ -1,0 +1,1861 @@
+{
+  "title": "IELTS Listening Part 1 & Part 2 Drills",
+  "version": "2.0",
+  "categories": [
+    {
+      "id": "names_postcodes",
+      "name": "Bài 1: Names & Postcodes (Đánh vần Tên & Mã bưu điện)",
+      "description": "Kho 75 câu luyện nghe đánh vần tên người, tên đường phố và mã bưu điện chuẩn UK/AU/NZ trong IELTS Part 1.",
+      "items": [
+        {
+          "id": "np_01",
+          "target": "Smith",
+          "display": "Smith",
+          "type": "name",
+          "spelling_tts": "S - M - I - T - H",
+          "full_tts": "Smith, that's S - M - I - T - H",
+          "meaning_vi": "Họ Smith (Họ phổ biến nhất nước Anh)",
+          "trap_note": "Họ siêu phổ biến, đôi khi trong bài thi người bản xứ không đánh vần."
+        },
+        {
+          "id": "np_02",
+          "target": "Campbell",
+          "display": "Campbell",
+          "type": "name",
+          "spelling_tts": "C - A - M - P - B - E - double L",
+          "full_tts": "Campbell, spelt C - A - M - P - B - E - double L",
+          "meaning_vi": "Họ Campbell",
+          "trap_note": "Chữ 'p' câm khi phát âm, nhưng chính tả bắt buộc có 'p' và 'double L'."
+        },
+        {
+          "id": "np_03",
+          "target": "Macfarlane",
+          "display": "Macfarlane",
+          "type": "name",
+          "spelling_tts": "M - A - C - F - A - R - L - A - N - E",
+          "full_tts": "Macfarlane, that's M - A - C - F - A - R - L - A - N - E",
+          "meaning_vi": "Họ Macfarlane (Gốc Scotland)",
+          "trap_note": "Bẫy âm 'ar' và đuôi 'lane' có chữ e cuối."
+        },
+        {
+          "id": "np_04",
+          "target": "Gallagher",
+          "display": "Gallagher",
+          "type": "name",
+          "spelling_tts": "G - A - double L - A - G - H - E - R",
+          "full_tts": "Gallagher, G - A - double L - A - G - H - E - R",
+          "meaning_vi": "Họ Gallagher",
+          "trap_note": "Phân biệt G và J; chú ý double L và âm gh."
+        },
+        {
+          "id": "np_05",
+          "target": "Featherstone",
+          "display": "Featherstone",
+          "type": "name",
+          "spelling_tts": "F - E - A - T - H - E - R - S - T - O - N - E",
+          "full_tts": "Featherstone, F - E - A - T - H - E - R - S - T - O - N - E",
+          "meaning_vi": "Họ Featherstone",
+          "trap_note": "Tên dài, nghe kỹ cặp 'ea' và đuôi 'stone'."
+        },
+        {
+          "id": "np_06",
+          "target": "Richardson",
+          "display": "Richardson",
+          "type": "name",
+          "spelling_tts": "R - I - C - H - A - R - D - S - O - N",
+          "full_tts": "Richardson, R - I - C - H - A - R - D - S - O - N",
+          "meaning_vi": "Họ Richardson",
+          "trap_note": "Đuôi là -son chứ không phải -sen."
+        },
+        {
+          "id": "np_07",
+          "target": "Abercrombie",
+          "display": "Abercrombie",
+          "type": "name",
+          "spelling_tts": "A - B - E - R - C - R - O - M - B - I - E",
+          "full_tts": "Abercrombie, A - B - E - R - C - R - O - M - B - I - E",
+          "meaning_vi": "Họ Abercrombie",
+          "trap_note": "Bẫy âm 'bie' ở đuôi (i-e chứ không phải y)."
+        },
+        {
+          "id": "np_08",
+          "target": "Henderson",
+          "display": "Henderson",
+          "type": "name",
+          "spelling_tts": "H - E - N - D - E - R - S - O - N",
+          "full_tts": "Henderson, H - E - N - D - E - R - S - O - N",
+          "meaning_vi": "Họ Henderson",
+          "trap_note": "Chú ý đuôi -son."
+        },
+        {
+          "id": "np_09",
+          "target": "Montgomery",
+          "display": "Montgomery",
+          "type": "name",
+          "spelling_tts": "M - O - N - T - G - O - M - E - R - Y",
+          "full_tts": "Montgomery, M - O - N - T - G - O - M - E - R - Y",
+          "meaning_vi": "Họ Montgomery",
+          "trap_note": "Chữ 't' và 'g' đứng cạnh nhau, đuôi -ery."
+        },
+        {
+          "id": "np_10",
+          "target": "Faulkner",
+          "display": "Faulkner",
+          "type": "name",
+          "spelling_tts": "F - A - U - L - K - N - E - R",
+          "full_tts": "Faulkner, that's F - A - U - L - K - N - E - R",
+          "meaning_vi": "Họ Faulkner",
+          "trap_note": "Chữ 'l' câm khi đọc /fɔːknər/, nhưng phải viết chữ l."
+        },
+        {
+          "id": "np_11",
+          "target": "Beaumont",
+          "display": "Beaumont",
+          "type": "name",
+          "spelling_tts": "B - E - A - U - M - O - N - T",
+          "full_tts": "Beaumont, spelt B - E - A - U - M - O - N - T",
+          "meaning_vi": "Họ Beaumont (Gốc Pháp)",
+          "trap_note": "Âm /boʊmɒnt/ viết là Beau-mont."
+        },
+        {
+          "id": "np_12",
+          "target": "Willoughby",
+          "display": "Willoughby",
+          "type": "name",
+          "spelling_tts": "W - I - double L - O - U - G - H - B - Y",
+          "full_tts": "Willoughby, W - I - double L - O - U - G - H - B - Y",
+          "meaning_vi": "Họ Willoughby",
+          "trap_note": "Bẫy chữ 'ough' và double L."
+        },
+        {
+          "id": "np_13",
+          "target": "Cunningham",
+          "display": "Cunningham",
+          "type": "name",
+          "spelling_tts": "C - U - double N - I - N - G - H - A - M",
+          "full_tts": "Cunningham, C - U - double N - I - N - G - H - A - M",
+          "meaning_vi": "Họ Cunningham",
+          "trap_note": "Double n ở giữa, đuôi -ham."
+        },
+        {
+          "id": "np_14",
+          "target": "Davenport",
+          "display": "Davenport",
+          "type": "name",
+          "spelling_tts": "D - A - V - E - N - P - O - R - T",
+          "full_tts": "Davenport, D - A - V - E - N - P - O - R - T",
+          "meaning_vi": "Họ Davenport",
+          "trap_note": "Bẫy âm v và p."
+        },
+        {
+          "id": "np_15",
+          "target": "Sinclair",
+          "display": "Sinclair",
+          "type": "name",
+          "spelling_tts": "S - I - N - C - L - A - I - R",
+          "full_tts": "Sinclair, S - I - N - C - L - A - I - R",
+          "meaning_vi": "Họ Sinclair",
+          "trap_note": "Đuôi là -clair (c-l-a-i-r)."
+        },
+        {
+          "id": "np_16",
+          "target": "Harrington",
+          "display": "Harrington",
+          "type": "name",
+          "spelling_tts": "H - A - double R - I - N - G - T - O - N",
+          "full_tts": "Harrington, H - A - double R - I - N - G - T - O - N",
+          "meaning_vi": "Họ Harrington",
+          "trap_note": "Double r ở giữa."
+        },
+        {
+          "id": "np_17",
+          "target": "Fitzpatrick",
+          "display": "Fitzpatrick",
+          "type": "name",
+          "spelling_tts": "F - I - T - Z - P - A - T - R - I - C - K",
+          "full_tts": "Fitzpatrick, F - I - T - Z - P - A - T - R - I - C - K",
+          "meaning_vi": "Họ Fitzpatrick (Gốc Ireland)",
+          "trap_note": "Tiền tố Fitz- (f-i-t-z) và Patrick."
+        },
+        {
+          "id": "np_18",
+          "target": "Carmichael",
+          "display": "Carmichael",
+          "type": "name",
+          "spelling_tts": "C - A - R - M - I - C - H - A - E - L",
+          "full_tts": "Carmichael, C - A - R - M - I - C - H - A - E - L",
+          "meaning_vi": "Họ Carmichael",
+          "trap_note": "Đuôi -chael (c-h-a-e-l)."
+        },
+        {
+          "id": "np_19",
+          "target": "Blackwood",
+          "display": "Blackwood",
+          "type": "name",
+          "spelling_tts": "B - L - A - C - K - W - O - O - D",
+          "full_tts": "Blackwood, B - L - A - C - K - W - O - O - D",
+          "meaning_vi": "Họ Blackwood",
+          "trap_note": "Black ghép với wood."
+        },
+        {
+          "id": "np_20",
+          "target": "Reynolds",
+          "display": "Reynolds",
+          "type": "name",
+          "spelling_tts": "R - E - Y - N - O - L - D - S",
+          "full_tts": "Reynolds, that's R - E - Y - N - O - L - D - S",
+          "meaning_vi": "Họ Reynolds",
+          "trap_note": "Chữ y sau e: Rey-nolds."
+        },
+        {
+          "id": "np_21",
+          "target": "Fletcher",
+          "display": "Fletcher",
+          "type": "name",
+          "spelling_tts": "F - L - E - T - C - H - E - R",
+          "full_tts": "Fletcher, F - L - E - T - C - H - E - R",
+          "meaning_vi": "Họ Fletcher",
+          "trap_note": "Có chữ t trước ch: Flet-cher."
+        },
+        {
+          "id": "np_22",
+          "target": "Patterson",
+          "display": "Patterson",
+          "type": "name",
+          "spelling_tts": "P - A - double T - E - R - S - O - N",
+          "full_tts": "Patterson, P - A - double T - E - R - S - O - N",
+          "meaning_vi": "Họ Patterson",
+          "trap_note": "Double t, đuôi -son."
+        },
+        {
+          "id": "np_23",
+          "target": "Zimmerman",
+          "display": "Zimmerman",
+          "type": "name",
+          "spelling_tts": "Z - I - double M - E - R - M - A - N",
+          "full_tts": "Zimmerman, Z - I - double M - E - R - M - A - N",
+          "meaning_vi": "Họ Zimmerman",
+          "trap_note": "Double m ở giữa."
+        },
+        {
+          "id": "np_24",
+          "target": "O'Connor",
+          "display": "O'Connor",
+          "type": "name",
+          "spelling_tts": "O - apostrophe - C - O - double N - O - R",
+          "full_tts": "O'Connor, that is O apostrophe C - O - double N - O - R",
+          "meaning_vi": "Họ O'Connor",
+          "trap_note": "Có dấu nháy đơn và double n."
+        },
+        {
+          "id": "np_25",
+          "target": "Mackenzie",
+          "display": "Mackenzie",
+          "type": "name",
+          "spelling_tts": "M - A - C - K - E - N - Z - I - E",
+          "full_tts": "Mackenzie, M - A - C - K - E - N - Z - I - E",
+          "meaning_vi": "Họ Mackenzie",
+          "trap_note": "Đuôi -zie (z-i-e)."
+        },
+        {
+          "id": "np_26",
+          "target": "Buchanan",
+          "display": "Buchanan",
+          "type": "name",
+          "spelling_tts": "B - U - C - H - A - N - A - N",
+          "full_tts": "Buchanan, B - U - C - H - A - N - A - N",
+          "meaning_vi": "Họ Buchanan",
+          "trap_note": "Âm /bjuːˈkænən/, viết Bu-chan-an."
+        },
+        {
+          "id": "np_27",
+          "target": "Sutherland",
+          "display": "Sutherland",
+          "type": "name",
+          "spelling_tts": "S - U - T - H - E - R - L - A - N - D",
+          "full_tts": "Sutherland, S - U - T - H - E - R - L - A - N - D",
+          "meaning_vi": "Họ Sutherland",
+          "trap_note": "Có âm th: Suther-land."
+        },
+        {
+          "id": "np_28",
+          "target": "Ferguson",
+          "display": "Ferguson",
+          "type": "name",
+          "spelling_tts": "F - E - R - G - U - S - O - N",
+          "full_tts": "Ferguson, that is F - E - R - G - U - S - O - N",
+          "meaning_vi": "Họ Ferguson",
+          "trap_note": "Đuôi -son."
+        },
+        {
+          "id": "np_29",
+          "target": "Lennox",
+          "display": "Lennox",
+          "type": "name",
+          "spelling_tts": "L - E - double N - O - X",
+          "full_tts": "Lennox, L - E - double N - O - X",
+          "meaning_vi": "Họ Lennox",
+          "trap_note": "Double n, kết thúc bằng x."
+        },
+        {
+          "id": "np_30",
+          "target": "Livingstone",
+          "display": "Livingstone",
+          "type": "name",
+          "spelling_tts": "L - I - V - I - N - G - S - T - O - N - E",
+          "full_tts": "Livingstone, L - I - V - I - N - G - S - T - O - N - E",
+          "meaning_vi": "Họ Livingstone",
+          "trap_note": "Livingstone có chữ e ở cuối."
+        },
+        {
+          "id": "np_31",
+          "target": "Brampton",
+          "display": "Brampton Road",
+          "target_clean": "Brampton",
+          "type": "street",
+          "spelling_tts": "B - R - A - M - P - T - O - N",
+          "full_tts": "Brampton Road, B - R - A - M - P - T - O - N Road",
+          "meaning_vi": "Đường Brampton",
+          "trap_note": "Hay nhầm B và P khi nghe đánh vần nhanh."
+        },
+        {
+          "id": "np_32",
+          "target": "Thornton",
+          "display": "Thornton Street",
+          "target_clean": "Thornton",
+          "type": "street",
+          "spelling_tts": "T - H - O - R - N - T - O - N",
+          "full_tts": "Thornton Street, T - H - O - R - N - T - O - N Street",
+          "meaning_vi": "Đường Thornton",
+          "trap_note": "Bẫy âm /θ/ và đuôi -ton."
+        },
+        {
+          "id": "np_33",
+          "target": "Kensington",
+          "display": "Kensington Avenue",
+          "target_clean": "Kensington",
+          "type": "street",
+          "spelling_tts": "K - E - N - S - I - N - G - T - O - N",
+          "full_tts": "Kensington Avenue, K - E - N - S - I - N - G - T - O - N Avenue",
+          "meaning_vi": "Đại lộ Kensington",
+          "trap_note": "Địa danh nổi tiếng London, bẫy âm 'ken' vs 'can'."
+        },
+        {
+          "id": "np_34",
+          "target": "Crescent",
+          "display": "Crescent",
+          "type": "street",
+          "spelling_tts": "C - R - E - S - C - E - N - T",
+          "full_tts": "Crescent, that's C - R - E - S - C - E - N - T",
+          "meaning_vi": "Đường hình bán nguyệt (Loại đường thường gặp)",
+          "trap_note": "Chữ 'sc' trong crescent hay bị viết thiếu c hoặc s."
+        },
+        {
+          "id": "np_35",
+          "target": "Avenue",
+          "display": "Avenue",
+          "type": "street",
+          "spelling_tts": "A - V - E - N - U - E",
+          "full_tts": "Park Avenue, Avenue is A - V - E - N - U - E",
+          "meaning_vi": "Đại lộ",
+          "trap_note": "Viết tắt là Ave., chính tả có chữ e cuối."
+        },
+        {
+          "id": "np_36",
+          "target": "Boulevard",
+          "display": "Boulevard",
+          "type": "street",
+          "spelling_tts": "B - O - U - L - E - V - A - R - D",
+          "full_tts": "Sunset Boulevard, B - O - U - L - E - V - A - R - D",
+          "meaning_vi": "Đại lộ rợp bóng cây",
+          "trap_note": "Chữ ou và đuôi -vard."
+        },
+        {
+          "id": "np_37",
+          "target": "Terrace",
+          "display": "Terrace",
+          "type": "street",
+          "spelling_tts": "T - E - double R - A - C - E",
+          "full_tts": "Victoria Terrace, T - E - double R - A - C - E",
+          "meaning_vi": "Dãy nhà bậc thang / Tên đường Terrace",
+          "trap_note": "Double r và đuôi -ace."
+        },
+        {
+          "id": "np_38",
+          "target": "Wellington",
+          "display": "Wellington Place",
+          "target_clean": "Wellington",
+          "type": "street",
+          "spelling_tts": "W - E - double L - I - N - G - T - O - N",
+          "full_tts": "Wellington Place, W - E - double L - I - N - G - T - O - N Place",
+          "meaning_vi": "Khu Wellington",
+          "trap_note": "Double l ở giữa."
+        },
+        {
+          "id": "np_39",
+          "target": "High Street",
+          "display": "High Street",
+          "type": "street",
+          "spelling_tts": "H - I - G - H",
+          "full_tts": "15 High Street, H - I - G - H Street",
+          "meaning_vi": "Phố chính (Tên phố phổ biến nhất nước Anh)",
+          "trap_note": "Âm /haɪ/ viết là H-I-G-H."
+        },
+        {
+          "id": "np_40",
+          "target": "Church Lane",
+          "display": "Church Lane",
+          "type": "street",
+          "spelling_tts": "C - H - U - R - C - H",
+          "full_tts": "Church Lane, that's C - H - U - R - C - H Lane",
+          "meaning_vi": "Ngõ Nhà Thờ",
+          "trap_note": "Lane nghĩa là đường nhỏ, ngõ nhỏ."
+        },
+        {
+          "id": "np_41",
+          "target": "Victoria Road",
+          "display": "Victoria Road",
+          "type": "street",
+          "spelling_tts": "V - I - C - T - O - R - I - A",
+          "full_tts": "Victoria Road, V - I - C - T - O - R - I - A Road",
+          "meaning_vi": "Đường Victoria",
+          "trap_note": "Tên Nữ hoàng Victoria, cực hay gặp."
+        },
+        {
+          "id": "np_42",
+          "target": "Station Avenue",
+          "display": "Station Avenue",
+          "type": "street",
+          "spelling_tts": "S - T - A - T - I - O - N",
+          "full_tts": "Station Avenue, S - T - A - T - I - O - N Avenue",
+          "meaning_vi": "Đại lộ Nhà Ga",
+          "trap_note": "Đuôi -tion."
+        },
+        {
+          "id": "np_43",
+          "target": "Green Gardens",
+          "display": "Green Gardens",
+          "type": "street",
+          "spelling_tts": "G - R - E - E - N",
+          "full_tts": "Green Gardens, G - R - E - E - N Gardens",
+          "meaning_vi": "Khu vườn Green",
+          "trap_note": "Gardens thường có chữ s."
+        },
+        {
+          "id": "np_44",
+          "target": "Castle Court",
+          "display": "Castle Court",
+          "type": "street",
+          "spelling_tts": "C - A - S - T - L - E",
+          "full_tts": "Castle Court, C - A - S - T - L - E Court",
+          "meaning_vi": "Khu toà án Castle",
+          "trap_note": "Chữ t câm trong castle."
+        },
+        {
+          "id": "np_45",
+          "target": "Meadow Way",
+          "display": "Meadow Way",
+          "type": "street",
+          "spelling_tts": "M - E - A - D - O - W",
+          "full_tts": "Meadow Way, M - E - A - D - O - W Way",
+          "meaning_vi": "Đường Đồng Cỏ",
+          "trap_note": "Chữ e-a-d-o-w."
+        },
+        {
+          "id": "np_46",
+          "target": "SW1A 1AA",
+          "display": "SW1A 1AA",
+          "type": "postcode",
+          "spelling_tts": "S - W - 1 - A, 1 - double A",
+          "full_tts": "The postcode is SW1A 1AA. That is S - W - 1 - A, 1 - double A",
+          "meaning_vi": "Mã bưu điện Cung điện Buckingham, London",
+          "trap_note": "Chữ và số xen kẽ, phân biệt A và 8 (eight), double A."
+        },
+        {
+          "id": "np_47",
+          "target": "MK42 8TX",
+          "display": "MK42 8TX",
+          "type": "postcode",
+          "spelling_tts": "M - K - 4 - 2 - 8 - T - X",
+          "full_tts": "MK42 8TX, that's M - K - 4 - 2 - 8 - T - X",
+          "meaning_vi": "Mã bưu điện Milton Keynes",
+          "trap_note": "Bẫy phân biệt M vs N và T vs D."
+        },
+        {
+          "id": "np_48",
+          "target": "BS8 2EU",
+          "display": "BS8 2EU",
+          "type": "postcode",
+          "spelling_tts": "B - S - 8 - 2 - E - U",
+          "full_tts": "Postcode BS8 2EU, B - S - 8 - 2 - E - U",
+          "meaning_vi": "Mã bưu điện Bristol",
+          "trap_note": "Bẫy E vs U (nguyên âm dễ nhầm khi đọc nhanh)."
+        },
+        {
+          "id": "np_49",
+          "target": "EC1A 1BB",
+          "display": "EC1A 1BB",
+          "type": "postcode",
+          "spelling_tts": "E - C - 1 - A, 1 - double B",
+          "full_tts": "EC1A 1BB, that's E - C - 1 - A, 1 - double B",
+          "meaning_vi": "Mã bưu điện Trung tâm London",
+          "trap_note": "Bẫy âm E vs C và double B."
+        },
+        {
+          "id": "np_50",
+          "target": "W1D 3QU",
+          "display": "W1D 3QU",
+          "type": "postcode",
+          "spelling_tts": "W - 1 - D, 3 - Q - U",
+          "full_tts": "Postcode W1D 3QU, W - 1 - D, 3 - Q - U",
+          "meaning_vi": "Mã bưu điện Soho, London",
+          "trap_note": "Phân biệt Q và U khi đọc liền."
+        },
+        {
+          "id": "np_51",
+          "target": "EH1 1YZ",
+          "display": "EH1 1YZ",
+          "type": "postcode",
+          "spelling_tts": "E - H - 1, 1 - Y - Z",
+          "full_tts": "EH1 1YZ, E - H - 1, 1 - Y - Z",
+          "meaning_vi": "Mã bưu điện Edinburgh, Scotland",
+          "trap_note": "Phân biệt Z (zed trong tiếng Anh-Anh)."
+        },
+        {
+          "id": "np_52",
+          "target": "CB2 1TN",
+          "display": "CB2 1TN",
+          "type": "postcode",
+          "spelling_tts": "C - B - 2, 1 - T - N",
+          "full_tts": "The postcode is CB2 1TN, that is C - B - 2, 1 - T - N",
+          "meaning_vi": "Mã bưu điện Cambridge",
+          "trap_note": "Phân biệt T và N."
+        },
+        {
+          "id": "np_53",
+          "target": "OX1 3PT",
+          "display": "OX1 3PT",
+          "type": "postcode",
+          "spelling_tts": "O - X - 1, 3 - P - T",
+          "full_tts": "Postcode OX1 3PT, O - X - 1, 3 - P - T",
+          "meaning_vi": "Mã bưu điện Oxford",
+          "trap_note": "Phân biệt P và B."
+        },
+        {
+          "id": "np_54",
+          "target": "G12 8QQ",
+          "display": "G12 8QQ",
+          "type": "postcode",
+          "spelling_tts": "G - 1 - 2, 8 - double Q",
+          "full_tts": "G12 8QQ, that's G - 1 - 2, 8 - double Q",
+          "meaning_vi": "Mã bưu điện Glasgow, Scotland",
+          "trap_note": "Double Q."
+        },
+        {
+          "id": "np_55",
+          "target": "BT1 5GS",
+          "display": "BT1 5GS",
+          "type": "postcode",
+          "spelling_tts": "B - T - 1, 5 - G - S",
+          "full_tts": "Postcode BT1 5GS, B - T - 1, 5 - G - S",
+          "meaning_vi": "Mã bưu điện Belfast, Bắc Ireland",
+          "trap_note": "Bẫy G và J."
+        },
+        {
+          "id": "np_56",
+          "target": "M1 4BT",
+          "display": "M1 4BT",
+          "type": "postcode",
+          "spelling_tts": "M - 1, 4 - B - T",
+          "full_tts": "M1 4BT, M - 1, 4 - B - T",
+          "meaning_vi": "Mã bưu điện Manchester",
+          "trap_note": "Mã ngắn gọn trung tâm Manchester."
+        },
+        {
+          "id": "np_57",
+          "target": "LS1 2TW",
+          "display": "LS1 2TW",
+          "type": "postcode",
+          "spelling_tts": "L - S - 1, 2 - T - W",
+          "full_tts": "Postcode LS1 2TW, L - S - 1, 2 - T - W",
+          "meaning_vi": "Mã bưu điện Leeds",
+          "trap_note": "Phân biệt T và D."
+        },
+        {
+          "id": "np_58",
+          "target": "B1 1TT",
+          "display": "B1 1TT",
+          "type": "postcode",
+          "spelling_tts": "B - 1, 1 - double T",
+          "full_tts": "B1 1TT, B - 1, 1 - double T",
+          "meaning_vi": "Mã bưu điện Birmingham",
+          "trap_note": "Double T."
+        },
+        {
+          "id": "np_59",
+          "target": "NE1 7RU",
+          "display": "NE1 7RU",
+          "type": "postcode",
+          "spelling_tts": "N - E - 1, 7 - R - U",
+          "full_tts": "NE1 7RU, N - E - 1, 7 - R - U",
+          "meaning_vi": "Mã bưu điện Newcastle",
+          "trap_note": "Bẫy N và M, R và U."
+        },
+        {
+          "id": "np_60",
+          "target": "CF10 1EP",
+          "display": "CF10 1EP",
+          "type": "postcode",
+          "spelling_tts": "C - F - 1 - 0, 1 - E - P",
+          "full_tts": "Postcode CF10 1EP, C - F - 1 - 0, 1 - E - P",
+          "meaning_vi": "Mã bưu điện Cardiff, Wales",
+          "trap_note": "Số 10 và chữ EP."
+        },
+        {
+          "id": "np_61",
+          "target": "PL4 8AA",
+          "display": "PL4 8AA",
+          "type": "postcode",
+          "spelling_tts": "P - L - 4, 8 - double A",
+          "full_tts": "PL4 8AA, P - L - 4, 8 - double A",
+          "meaning_vi": "Mã bưu điện Plymouth",
+          "trap_note": "Số 8 và chữ A đứng cạnh nhau."
+        },
+        {
+          "id": "np_62",
+          "target": "EX4 4QJ",
+          "display": "EX4 4QJ",
+          "type": "postcode",
+          "spelling_tts": "E - X - 4, 4 - Q - J",
+          "full_tts": "Postcode EX4 4QJ, E - X - 4, 4 - Q - J",
+          "meaning_vi": "Mã bưu điện Exeter",
+          "trap_note": "Cặp Q và J rất dễ nhầm."
+        },
+        {
+          "id": "np_63",
+          "target": "SO14 0YN",
+          "display": "SO14 0YN",
+          "type": "postcode",
+          "spelling_tts": "S - O - 1 - 4, 0 - Y - N",
+          "full_tts": "SO14 0YN, S - O - 1 - 4, 0 - Y - N",
+          "meaning_vi": "Mã bưu điện Southampton",
+          "trap_note": "Chữ O và số 0."
+        },
+        {
+          "id": "np_64",
+          "target": "BN1 1EE",
+          "display": "BN1 1EE",
+          "type": "postcode",
+          "spelling_tts": "B - N - 1, 1 - double E",
+          "full_tts": "BN1 1EE, B - N - 1, 1 - double E",
+          "meaning_vi": "Mã bưu điện Brighton",
+          "trap_note": "Double E."
+        },
+        {
+          "id": "np_65",
+          "target": "CT1 2EZ",
+          "display": "CT1 2EZ",
+          "type": "postcode",
+          "spelling_tts": "C - T - 1, 2 - E - Z",
+          "full_tts": "Postcode CT1 2EZ, C - T - 1, 2 - E - Z",
+          "meaning_vi": "Mã bưu điện Canterbury",
+          "trap_note": "Chữ Z đọc là zed."
+        },
+        {
+          "id": "np_66",
+          "target": "NR2 1TF",
+          "display": "NR2 1TF",
+          "type": "postcode",
+          "spelling_tts": "N - R - 2, 1 - T - F",
+          "full_tts": "NR2 1TF, N - R - 2, 1 - T - F",
+          "meaning_vi": "Mã bưu điện Norwich",
+          "trap_note": "Phân biệt T và F."
+        },
+        {
+          "id": "np_67",
+          "target": "PE1 1HA",
+          "display": "PE1 1HA",
+          "type": "postcode",
+          "spelling_tts": "P - E - 1, 1 - H - A",
+          "full_tts": "PE1 1HA, P - E - 1, 1 - H - A",
+          "meaning_vi": "Mã bưu điện Peterborough",
+          "trap_note": "Bẫy H và A."
+        },
+        {
+          "id": "np_68",
+          "target": "LE1 7HA",
+          "display": "LE1 7HA",
+          "type": "postcode",
+          "spelling_tts": "L - E - 1, 7 - H - A",
+          "full_tts": "Postcode LE1 7HA, L - E - 1, 7 - H - A",
+          "meaning_vi": "Mã bưu điện Leicester",
+          "trap_note": "Số 7 và chữ H."
+        },
+        {
+          "id": "np_69",
+          "target": "NG1 1AA",
+          "display": "NG1 1AA",
+          "type": "postcode",
+          "spelling_tts": "N - G - 1, 1 - double A",
+          "full_tts": "NG1 1AA, N - G - 1, 1 - double A",
+          "meaning_vi": "Mã bưu điện Nottingham",
+          "trap_note": "Double A."
+        },
+        {
+          "id": "np_70",
+          "target": "S1 2HE",
+          "display": "S1 2HE",
+          "type": "postcode",
+          "spelling_tts": "S - 1, 2 - H - E",
+          "full_tts": "Postcode S1 2HE, S - 1, 2 - H - E",
+          "meaning_vi": "Mã bưu điện Sheffield",
+          "trap_note": "Chữ H và E."
+        },
+        {
+          "id": "np_71",
+          "target": "YO1 7HH",
+          "display": "YO1 7HH",
+          "type": "postcode",
+          "spelling_tts": "Y - O - 1, 7 - double H",
+          "full_tts": "YO1 7HH, Y - O - 1, 7 - double H",
+          "meaning_vi": "Mã bưu điện York",
+          "trap_note": "Double H."
+        },
+        {
+          "id": "np_72",
+          "target": "CH1 2HJ",
+          "display": "CH1 2HJ",
+          "type": "postcode",
+          "spelling_tts": "C - H - 1, 2 - H - J",
+          "full_tts": "Postcode CH1 2HJ, C - H - 1, 2 - H - J",
+          "meaning_vi": "Mã bưu điện Chester",
+          "trap_note": "H và J."
+        },
+        {
+          "id": "np_73",
+          "target": "GL1 2TG",
+          "display": "GL1 2TG",
+          "type": "postcode",
+          "spelling_tts": "G - L - 1, 2 - T - G",
+          "full_tts": "GL1 2TG, G - L - 1, 2 - T - G",
+          "meaning_vi": "Mã bưu điện Gloucester",
+          "trap_note": "T và G."
+        },
+        {
+          "id": "np_74",
+          "target": "LN1 1XZ",
+          "display": "LN1 1XZ",
+          "type": "postcode",
+          "spelling_tts": "L - N - 1, 1 - X - Z",
+          "full_tts": "LN1 1XZ, that's L - N - 1, 1 - X - Z",
+          "meaning_vi": "Mã bưu điện Lincoln",
+          "trap_note": "X và Z."
+        },
+        {
+          "id": "np_75",
+          "target": "NSW 2000",
+          "display": "NSW 2000",
+          "type": "postcode",
+          "spelling_tts": "N - S - W, 2 - triple zero",
+          "full_tts": "Sydney, NSW 2000. That's N - S - W, 2 - triple zero",
+          "meaning_vi": "Mã bang & bưu điện Sydney (Úc)",
+          "trap_note": "Format bưu điện Úc: Tên bang + 4 chữ số."
+        }
+      ]
+    },
+    {
+      "id": "spelling_traps",
+      "name": "Bài 2: Common Words & Spelling Traps (Bẫy chính tả & Từ vựng)",
+      "description": "Kho 70 từ vựng và bẫy chính tả kinh điển thường xuyên xuất hiện trong Part 1 & 2.",
+      "items": [
+        {
+          "id": "st_01",
+          "target": "Wednesday",
+          "display": "Wednesday",
+          "full_tts": "Wednesday. We meet every Wednesday at nine.",
+          "meaning_vi": "Thứ Tư",
+          "trap_note": "Thường quên chữ 'd' đầu: Wed-nes-day."
+        },
+        {
+          "id": "st_02",
+          "target": "February",
+          "display": "February",
+          "full_tts": "February. The course starts in February.",
+          "meaning_vi": "Tháng Hai",
+          "trap_note": "80% thí sinh quên chữ 'r' đầu tiên: Feb-ru-ary."
+        },
+        {
+          "id": "st_03",
+          "target": "Tuesday",
+          "display": "Tuesday",
+          "full_tts": "Tuesday. The museum is closed on Tuesday.",
+          "meaning_vi": "Thứ Ba",
+          "trap_note": "Hay nhầm thứ Ba (Tuesday) và thứ Năm (Thursday)."
+        },
+        {
+          "id": "st_04",
+          "target": "Thursday",
+          "display": "Thursday",
+          "full_tts": "Thursday. Submission deadline is Thursday afternoon.",
+          "meaning_vi": "Thứ Năm",
+          "trap_note": "Thurs-day."
+        },
+        {
+          "id": "st_05",
+          "target": "Saturday",
+          "display": "Saturday",
+          "full_tts": "Saturday. A guided tour every Saturday morning.",
+          "meaning_vi": "Thứ Bảy",
+          "trap_note": "Satur-day."
+        },
+        {
+          "id": "st_06",
+          "target": "August",
+          "display": "August",
+          "full_tts": "August. The festival takes place in August.",
+          "meaning_vi": "Tháng Tám",
+          "trap_note": "Viết hoa chữ A đầu, đuôi -ust."
+        },
+        {
+          "id": "st_07",
+          "target": "October",
+          "display": "October",
+          "full_tts": "October. Applications close in October.",
+          "meaning_vi": "Tháng Mười",
+          "trap_note": "Oc-to-ber."
+        },
+        {
+          "id": "st_08",
+          "target": "Autumn",
+          "display": "Autumn",
+          "full_tts": "Autumn. Beautiful golden leaves in autumn.",
+          "meaning_vi": "Mùa Thu",
+          "trap_note": "Chữ 'n' ở cuối là âm câm nhưng bắt buộc phải viết: Au-tumn."
+        },
+        {
+          "id": "st_09",
+          "target": "Accommodation",
+          "display": "Accommodation",
+          "full_tts": "Accommodation. Does the price include accommodation?",
+          "meaning_vi": "Chỗ ở, phòng nghỉ",
+          "trap_note": "Bắt buộc 2 chữ 'c' và 2 chữ 'm': ac-com-mo-da-tion."
+        },
+        {
+          "id": "st_10",
+          "target": "Environment",
+          "display": "Environment",
+          "full_tts": "Environment. We need to protect the natural environment.",
+          "meaning_vi": "Môi trường",
+          "trap_note": "Hay quên chữ 'n' ở giữa: envi-ron-ment."
+        },
+        {
+          "id": "st_11",
+          "target": "Government",
+          "display": "Government",
+          "full_tts": "Government. A grant from the local government.",
+          "meaning_vi": "Chính phủ",
+          "trap_note": "Hay quên chữ 'n' ở giữa: govern-ment."
+        },
+        {
+          "id": "st_12",
+          "target": "Restaurant",
+          "display": "Restaurant",
+          "full_tts": "Restaurant. A table reservation at the Italian restaurant.",
+          "meaning_vi": "Nhà hàng",
+          "trap_note": "Đuôi là -ant chứ không phải -ent: res-tau-rant."
+        },
+        {
+          "id": "st_13",
+          "target": "Necessary",
+          "display": "Necessary",
+          "full_tts": "Necessary. Bring only the necessary equipment.",
+          "meaning_vi": "Cần thiết",
+          "trap_note": "Một chữ 'c' và hai chữ 's': ne-ces-sa-ry."
+        },
+        {
+          "id": "st_14",
+          "target": "Apartment",
+          "display": "Apartment",
+          "full_tts": "Apartment. Renting a two-bedroom apartment.",
+          "meaning_vi": "Căn hộ",
+          "trap_note": "Chỉ 1 chữ 'p': a-part-ment (hay nhầm với 2 chữ p)."
+        },
+        {
+          "id": "st_15",
+          "target": "Cafeteria",
+          "display": "Cafeteria",
+          "full_tts": "Cafeteria. Lunch is available at the cafeteria.",
+          "meaning_vi": "Quán ăn tự phục vụ, căng tin",
+          "trap_note": "Đuôi -ria chứ không phải -rea."
+        },
+        {
+          "id": "st_16",
+          "target": "Corridor",
+          "display": "Corridor",
+          "full_tts": "Corridor. Walk straight down the main corridor.",
+          "meaning_vi": "Hành lang (Rất hay gặp trong sơ đồ Map Part 2)",
+          "trap_note": "Hai chữ 'r': cor-ri-dor."
+        },
+        {
+          "id": "st_17",
+          "target": "Exhibition",
+          "display": "Exhibition",
+          "full_tts": "Exhibition. An art exhibition in the gallery.",
+          "meaning_vi": "Triển lãm",
+          "trap_note": "Có chữ 'h' sau x: ex-hi-bi-tion."
+        },
+        {
+          "id": "st_18",
+          "target": "Reception",
+          "display": "Reception",
+          "full_tts": "Reception. Please check in at the reception desk.",
+          "meaning_vi": "Bàn lễ tân, tiếp đón",
+          "trap_note": "Có chữ 'p': re-cep-tion."
+        },
+        {
+          "id": "st_19",
+          "target": "Auditorium",
+          "display": "Auditorium",
+          "full_tts": "Auditorium. The speech takes place in the auditorium.",
+          "meaning_vi": "Khán phòng, hội trường lớn (Part 2)",
+          "trap_note": "Bắt đầu bằng 'Au-', đuôi '-ium'."
+        },
+        {
+          "id": "st_20",
+          "target": "Cloakroom",
+          "display": "Cloakroom",
+          "full_tts": "Cloakroom. Leave your heavy coats in the cloakroom.",
+          "meaning_vi": "Phòng gửi áo khoác / hành lý (Part 2)",
+          "trap_note": "Chữ 'cloak' ghép với 'room'."
+        },
+        {
+          "id": "st_21",
+          "target": "Balcony",
+          "display": "Balcony",
+          "full_tts": "Balcony. A beautiful sea view from the balcony.",
+          "meaning_vi": "Ban công",
+          "trap_note": "Đuôi -ny chứ không phải -ney."
+        },
+        {
+          "id": "st_22",
+          "target": "Separate",
+          "display": "Separate",
+          "full_tts": "Separate. Keep personal items in separate bags.",
+          "meaning_vi": "Tách biệt, riêng rẽ",
+          "trap_note": "Chữ 'a' ở giữa: sep-a-rate (thường viết nhầm thành e)."
+        },
+        {
+          "id": "st_23",
+          "target": "Dormitory",
+          "display": "Dormitory",
+          "full_tts": "Dormitory. Staying at the student dormitory.",
+          "meaning_vi": "Ký túc xá",
+          "trap_note": "Đuôi -ory chứ không phải -ary."
+        },
+        {
+          "id": "st_24",
+          "target": "Questionnaire",
+          "display": "Questionnaire",
+          "full_tts": "Questionnaire. Please fill out this short questionnaire.",
+          "meaning_vi": "Bảng câu hỏi khảo sát",
+          "trap_note": "Hai chữ 'n': question-naire."
+        },
+        {
+          "id": "st_25",
+          "target": "Maintenance",
+          "display": "Maintenance",
+          "full_tts": "Maintenance. Routine building maintenance on Friday.",
+          "meaning_vi": "Bảo trì, sửa chữa",
+          "trap_note": "Dù động từ là 'maintain', danh từ viết là 'main-ten-ance'."
+        },
+        {
+          "id": "st_26",
+          "target": "Terraced",
+          "display": "Terraced",
+          "full_tts": "Terraced. Living in a traditional terraced house.",
+          "meaning_vi": "Nhà liền kề (Kiểu nhà phổ biến ở Anh)",
+          "trap_note": "Hai chữ 'r': ter-raced."
+        },
+        {
+          "id": "st_27",
+          "target": "Definitely",
+          "display": "Definitely",
+          "full_tts": "Definitely. I definitely want to attend that workshop.",
+          "meaning_vi": "Chắc chắn, nhất định",
+          "trap_note": "Chữ 'i' ở giữa: de-fi-nite-ly (không phải de-fi-nate-ly)."
+        },
+        {
+          "id": "st_28",
+          "target": "Secretary",
+          "display": "Secretary",
+          "full_tts": "Secretary. Contact the departmental secretary.",
+          "meaning_vi": "Thư ký",
+          "trap_note": "Se-cre-ta-ry (đuôi -ary)."
+        },
+        {
+          "id": "st_29",
+          "target": "Privilege",
+          "display": "Privilege",
+          "full_tts": "Privilege. Free admission is a special privilege.",
+          "meaning_vi": "Đặc quyền, ưu đãi",
+          "trap_note": "Hai chữ 'i' và đuôi -ege: pri-vi-lege."
+        },
+        {
+          "id": "st_30",
+          "target": "Occurrence",
+          "display": "Occurrence",
+          "full_tts": "Occurrence. Severe storms are a rare occurrence.",
+          "meaning_vi": "Sự cố, biến cố",
+          "trap_note": "Hai chữ 'c' và hai chữ 'r': oc-cur-rence."
+        },
+        {
+          "id": "st_31",
+          "target": "Equipment",
+          "display": "Equipment",
+          "full_tts": "Equipment. Modern diving equipment is provided.",
+          "meaning_vi": "Trang thiết bị (Danh từ không đếm được)",
+          "trap_note": "Equipment KHÔNG bao giờ thêm 's'."
+        },
+        {
+          "id": "st_32",
+          "target": "Discipline",
+          "display": "Discipline",
+          "full_tts": "Discipline. Sports help develop self discipline.",
+          "meaning_vi": "Kỷ luật, rèn luyện",
+          "trap_note": "Dis-ci-pline (có chữ c sau s)."
+        },
+        {
+          "id": "st_33",
+          "target": "Laboratory",
+          "display": "Laboratory",
+          "full_tts": "Laboratory. Research conducted in the science laboratory.",
+          "meaning_vi": "Phòng thí nghiệm",
+          "trap_note": "La-bor-a-to-ry (người Anh đọc /ləˈbɒrətri/)."
+        },
+        {
+          "id": "st_34",
+          "target": "Temperature",
+          "display": "Temperature",
+          "full_tts": "Temperature. The average daytime temperature in summer.",
+          "meaning_vi": "Nhiệt độ",
+          "trap_note": "Tem-per-a-ture."
+        },
+        {
+          "id": "st_35",
+          "target": "Parallel",
+          "display": "Parallel",
+          "full_tts": "Parallel. Two parallel railway tracks.",
+          "meaning_vi": "Song song",
+          "trap_note": "Một chữ 'r' và hai cặp 'l': par-al-lel."
+        },
+        {
+          "id": "st_36",
+          "target": "Guarantee",
+          "display": "Guarantee",
+          "full_tts": "Guarantee. A two-year money-back guarantee.",
+          "meaning_vi": "Bảo hành, cam kết",
+          "trap_note": "G-u-a-r-a-n-t-e-e (có u sau g)."
+        },
+        {
+          "id": "st_37",
+          "target": "Schedule",
+          "display": "Schedule",
+          "full_tts": "Schedule. Here is the bus schedule for weekends.",
+          "meaning_vi": "Lịch trình",
+          "trap_note": "Người Anh phát âm /ˈʃedʒuːl/, viết là S-C-H-E-D-U-L-E."
+        },
+        {
+          "id": "st_38",
+          "target": "Millennium",
+          "display": "Millennium",
+          "full_tts": "Millennium. Built to celebrate the new millennium.",
+          "meaning_vi": "Thiên niên kỷ",
+          "trap_note": "Hai chữ 'l' và hai chữ 'n': mil-len-ni-um."
+        },
+        {
+          "id": "st_39",
+          "target": "Leisure",
+          "display": "Leisure",
+          "full_tts": "Leisure. The local council leisure centre.",
+          "meaning_vi": "Nghỉ ngơi, giải trí",
+          "trap_note": "Lei-sure (e trước i)."
+        },
+        {
+          "id": "st_40",
+          "target": "Basement",
+          "display": "Basement",
+          "full_tts": "Basement. Storage units located in the basement.",
+          "meaning_vi": "Tầng hầm",
+          "trap_note": "Base ghép với ment."
+        },
+        {
+          "id": "st_41",
+          "target": "Lobby",
+          "display": "Lobby",
+          "full_tts": "Lobby. Meet the group in the hotel lobby.",
+          "meaning_vi": "Tiền sảnh",
+          "trap_note": "Hai chữ b: lob-by."
+        },
+        {
+          "id": "st_42",
+          "target": "Foyer",
+          "display": "Foyer",
+          "full_tts": "Foyer. Refreshments are served in the theatre foyer.",
+          "meaning_vi": "Sảnh chờ nhà hát/khán phòng",
+          "trap_note": "Foy-er (người Anh đọc /ˈfɔɪeɪ/)."
+        },
+        {
+          "id": "st_43",
+          "target": "Gymnasium",
+          "display": "Gymnasium",
+          "full_tts": "Gymnasium. Basketball training in the gymnasium.",
+          "meaning_vi": "Nhà tập thể dục",
+          "trap_note": "Dạng đầy đủ của gym: gym-na-si-um."
+        },
+        {
+          "id": "st_44",
+          "target": "Courtyard",
+          "display": "Courtyard",
+          "full_tts": "Courtyard. An open courtyard with a stone fountain.",
+          "meaning_vi": "Sân trong toà nhà (Part 2 Map)",
+          "trap_note": "Court ghép với yard."
+        },
+        {
+          "id": "st_45",
+          "target": "Canteen",
+          "display": "Canteen",
+          "full_tts": "Canteen. Hot meals are served daily in the staff canteen.",
+          "meaning_vi": "Nhà ăn, căng tin",
+          "trap_note": "Hai chữ e ở cuối: can-teen."
+        },
+        {
+          "id": "st_46",
+          "target": "Pavilion",
+          "display": "Pavilion",
+          "full_tts": "Pavilion. The cricket players gathered by the pavilion.",
+          "meaning_vi": "Gian đình, lều lớn thể thao",
+          "trap_note": "Pa-vil-ion (chỉ 1 chữ l)."
+        },
+        {
+          "id": "st_47",
+          "target": "Aquarium",
+          "display": "Aquarium",
+          "full_tts": "Aquarium. Tropical fish display at the marine aquarium.",
+          "meaning_vi": "Thủy cung",
+          "trap_note": "A-quar-i-um."
+        },
+        {
+          "id": "st_48",
+          "target": "Planetarium",
+          "display": "Planetarium",
+          "full_tts": "Planetarium. Stargazing session at the city planetarium.",
+          "meaning_vi": "Cung thiên văn",
+          "trap_note": "Planet-ar-i-um."
+        },
+        {
+          "id": "st_49",
+          "target": "Monument",
+          "display": "Monument",
+          "full_tts": "Monument. A memorial monument erected in the town square.",
+          "meaning_vi": "Tượng đài, đài tưởng niệm",
+          "trap_note": "Mo-nu-ment."
+        },
+        {
+          "id": "st_50",
+          "target": "Roundabout",
+          "display": "Roundabout",
+          "full_tts": "Roundabout. Take the second exit at the roundabout.",
+          "meaning_vi": "Vòng xuyến, bùng binh (Map Part 2)",
+          "trap_note": "Round-about."
+        },
+        {
+          "id": "st_51",
+          "target": "Furnished",
+          "display": "Furnished",
+          "full_tts": "Furnished. A fully furnished one-bedroom flat.",
+          "meaning_vi": "Có sẵn nội thất",
+          "trap_note": "Fur-nished (đuôi -ed)."
+        },
+        {
+          "id": "st_52",
+          "target": "Unfurnished",
+          "display": "Unfurnished",
+          "full_tts": "Unfurnished. The house is completely unfurnished.",
+          "meaning_vi": "Nhà trống, chưa có đồ",
+          "trap_note": "Tiền tố un-."
+        },
+        {
+          "id": "st_53",
+          "target": "Microwave",
+          "display": "Microwave",
+          "full_tts": "Microwave. The kitchen includes a modern microwave oven.",
+          "meaning_vi": "Lò vi sóng",
+          "trap_note": "Micro ghép với wave."
+        },
+        {
+          "id": "st_54",
+          "target": "Dishwasher",
+          "display": "Dishwasher",
+          "full_tts": "Dishwasher. Save time by using the electric dishwasher.",
+          "meaning_vi": "Máy rửa bát",
+          "trap_note": "Dish-wash-er."
+        },
+        {
+          "id": "st_55",
+          "target": "Refrigerator",
+          "display": "Refrigerator",
+          "full_tts": "Refrigerator. Store fresh produce in the refrigerator.",
+          "meaning_vi": "Tủ lạnh (dạng đầy đủ)",
+          "trap_note": "Re-frig-er-a-tor (chữ g, không có d; khác với fridge)."
+        },
+        {
+          "id": "st_56",
+          "target": "Homestay",
+          "display": "Homestay",
+          "full_tts": "Homestay. International students prefer living in a homestay.",
+          "meaning_vi": "Ở cùng nhà dân bản xứ",
+          "trap_note": "Home-stay."
+        },
+        {
+          "id": "st_57",
+          "target": "Bungalow",
+          "display": "Bungalow",
+          "full_tts": "Bungalow. A single-storey bungalow with a private lawn.",
+          "meaning_vi": "Nhà một tầng kiểu bungalow",
+          "trap_note": "Bun-ga-low."
+        },
+        {
+          "id": "st_58",
+          "target": "Radiator",
+          "display": "Radiator",
+          "full_tts": "Radiator. The bedroom radiator can be adjusted manually.",
+          "meaning_vi": "Lò sưởi nước nóng trong phòng",
+          "trap_note": "Ra-di-a-tor."
+        },
+        {
+          "id": "st_59",
+          "target": "Wardrobe",
+          "display": "Wardrobe",
+          "full_tts": "Wardrobe. A spacious built-in wooden wardrobe.",
+          "meaning_vi": "Tủ quần áo",
+          "trap_note": "Ward-robe."
+        },
+        {
+          "id": "st_60",
+          "target": "Locker",
+          "display": "Locker",
+          "full_tts": "Locker. You will receive a key to your personal locker.",
+          "meaning_vi": "Tủ đồ cá nhân có khóa",
+          "trap_note": "Lock-er."
+        },
+        {
+          "id": "st_61",
+          "target": "Receptionist",
+          "display": "Receptionist",
+          "full_tts": "Receptionist. Working part-time as a hotel receptionist.",
+          "meaning_vi": "Nhân viên lễ tân",
+          "trap_note": "Re-cep-tion-ist."
+        },
+        {
+          "id": "st_62",
+          "target": "Lifeguard",
+          "display": "Lifeguard",
+          "full_tts": "Lifeguard. Qualified lifeguard on duty at the beach.",
+          "meaning_vi": "Nhân viên cứu hộ bể bơi/bãi biển",
+          "trap_note": "Life-guard (có chữ u sau g)."
+        },
+        {
+          "id": "st_63",
+          "target": "Volunteer",
+          "display": "Volunteer",
+          "full_tts": "Volunteer. Looking for volunteer helpers this weekend.",
+          "meaning_vi": "Tình nguyện viên",
+          "trap_note": "Vo-lun-teer (hai chữ e)."
+        },
+        {
+          "id": "st_64",
+          "target": "Caretaker",
+          "display": "Caretaker",
+          "full_tts": "Caretaker. The school caretaker maintains all facilities.",
+          "meaning_vi": "Người trông coi toà nhà",
+          "trap_note": "Care-tak-er."
+        },
+        {
+          "id": "st_65",
+          "target": "Gardening",
+          "display": "Gardening",
+          "full_tts": "Gardening. Weekend gardening club activities.",
+          "meaning_vi": "Làm vườn",
+          "trap_note": "Gar-den-ing."
+        },
+        {
+          "id": "st_66",
+          "target": "Pottery",
+          "display": "Pottery",
+          "full_tts": "Pottery. Evening classes in clay pottery making.",
+          "meaning_vi": "Nghề làm đồ gốm",
+          "trap_note": "Hai chữ t: pot-ter-y."
+        },
+        {
+          "id": "st_67",
+          "target": "Photography",
+          "display": "Photography",
+          "full_tts": "Photography. Learn digital landscape photography.",
+          "meaning_vi": "Nhiếp ảnh",
+          "trap_note": "Pho-tog-ra-phy."
+        },
+        {
+          "id": "st_68",
+          "target": "Backpack",
+          "display": "Backpack",
+          "full_tts": "Backpack. Pack water and sunscreen in your backpack.",
+          "meaning_vi": "Balo đeo lưng",
+          "trap_note": "Back-pack (hoặc rucksack)."
+        },
+        {
+          "id": "st_69",
+          "target": "Helmet",
+          "display": "Helmet",
+          "full_tts": "Helmet. Wearing a safety helmet is mandatory for cyclists.",
+          "meaning_vi": "Mũ bảo hiểm",
+          "trap_note": "Hel-met."
+        },
+        {
+          "id": "st_70",
+          "target": "Compass",
+          "display": "Compass",
+          "full_tts": "Compass. Navigate through the woods using a map and compass.",
+          "meaning_vi": "La bàn",
+          "trap_note": "Hai chữ s: com-pass."
+        }
+      ]
+    },
+    {
+      "id": "numbers_prices_times",
+      "name": "Bài 3: Numbers, Codes & Prices (Số teen/ty, SĐT, Giá tiền, Giờ)",
+      "description": "Kho 65 câu luyện phản xạ bắt chuẩn số điện thoại, giá tiền bảng Anh, số teen/ty và mốc thời gian.",
+      "items": [
+        {
+          "id": "nt_01",
+          "target": "13",
+          "display": "13 (thirteen)",
+          "full_tts": "thirteen. Room number thirteen on the first floor.",
+          "meaning_vi": "Số 13 (thirteen)",
+          "trap_note": "Nhấn thir-TEEN (phân biệt với THIR-ty 30)."
+        },
+        {
+          "id": "nt_02",
+          "target": "30",
+          "display": "30 (thirty)",
+          "full_tts": "thirty. The presentation lasts thirty minutes.",
+          "meaning_vi": "Số 30 (thirty)",
+          "trap_note": "Nhấn THIR-ty (âm đuôi ngắn dứt khoát)."
+        },
+        {
+          "id": "nt_03",
+          "target": "14",
+          "display": "14 (fourteen)",
+          "full_tts": "fourteen. She will be fourteen next month.",
+          "meaning_vi": "Số 14 (fourteen)",
+          "trap_note": "Nhấn four-TEEN (phân biệt với FOR-ty 40)."
+        },
+        {
+          "id": "nt_04",
+          "target": "40",
+          "display": "40 (forty)",
+          "full_tts": "forty. The speed limit is forty miles per hour.",
+          "meaning_vi": "Số 40 (forty)",
+          "trap_note": "Lưu ý chính tả: forty KHÔNG có chữ 'u' (khác với four và fourteen)."
+        },
+        {
+          "id": "nt_05",
+          "target": "15",
+          "display": "15 (fifteen)",
+          "full_tts": "fifteen. The ticket costs fifteen pounds.",
+          "meaning_vi": "Số 15 (fifteen)",
+          "trap_note": "Nhấn fif-TEEN (phân biệt với FIF-ty 50)."
+        },
+        {
+          "id": "nt_06",
+          "target": "50",
+          "display": "50 (fifty)",
+          "full_tts": "fifty. A group of fifty students.",
+          "meaning_vi": "Số 50 (fifty)",
+          "trap_note": "Nhấn FIF-ty."
+        },
+        {
+          "id": "nt_07",
+          "target": "16",
+          "display": "16 (sixteen)",
+          "full_tts": "sixteen. Sixteen passengers on board the coach.",
+          "meaning_vi": "Số 16 (sixteen)",
+          "trap_note": "Nhấn six-TEEN."
+        },
+        {
+          "id": "nt_08",
+          "target": "60",
+          "display": "60 (sixty)",
+          "full_tts": "sixty. An entrance fee of sixty dollars per couple.",
+          "meaning_vi": "Số 60 (sixty)",
+          "trap_note": "Nhấn SIX-ty."
+        },
+        {
+          "id": "nt_09",
+          "target": "17",
+          "display": "17 (seventeen)",
+          "full_tts": "seventeen. Only seventeen seats remaining.",
+          "meaning_vi": "Số 17 (seventeen)",
+          "trap_note": "Nhấn seven-TEEN."
+        },
+        {
+          "id": "nt_10",
+          "target": "70",
+          "display": "70 (seventy)",
+          "full_tts": "seventy. Seventy percent discount on second items.",
+          "meaning_vi": "Số 70 (seventy)",
+          "trap_note": "Nhấn SEV-en-ty."
+        },
+        {
+          "id": "nt_11",
+          "target": "18",
+          "display": "18 (eighteen)",
+          "full_tts": "eighteen. Only persons aged eighteen and over.",
+          "meaning_vi": "Số 18 (eighteen)",
+          "trap_note": "eigh-TEEN (phân biệt với EIGH-ty 80)."
+        },
+        {
+          "id": "nt_12",
+          "target": "80",
+          "display": "80 (eighty)",
+          "full_tts": "eighty. Approximately eighty percent of participants.",
+          "meaning_vi": "Số 80 (eighty)",
+          "trap_note": "EIGH-ty (trọng âm đầu)."
+        },
+        {
+          "id": "nt_13",
+          "target": "19",
+          "display": "19 (nineteen)",
+          "full_tts": "nineteen. Flight nineteen from Sydney has landed.",
+          "meaning_vi": "Số 19 (nineteen)",
+          "trap_note": "nine-TEEN (phân biệt với NINE-ty 90)."
+        },
+        {
+          "id": "nt_14",
+          "target": "90",
+          "display": "90 (ninety)",
+          "full_tts": "ninety. The hall seats ninety spectators.",
+          "meaning_vi": "Số 90 (ninety)",
+          "trap_note": "NINE-ty."
+        },
+        {
+          "id": "nt_15",
+          "target": "115",
+          "display": "115",
+          "full_tts": "one hundred and fifteen. Room one hundred and fifteen.",
+          "meaning_vi": "115 (Một trăm mười lăm)",
+          "trap_note": "Người bản xứ thường lướt 'one hundred and fifteen'."
+        },
+        {
+          "id": "nt_16",
+          "target": "150",
+          "display": "150",
+          "full_tts": "one hundred and fifty. Approximately one hundred and fifty visitors.",
+          "meaning_vi": "150 (Một trăm năm mươi)",
+          "trap_note": "Phân biệt 115 và 150."
+        },
+        {
+          "id": "nt_17",
+          "target": "314",
+          "display": "314",
+          "full_tts": "three hundred and fourteen. Dial extension three hundred and fourteen.",
+          "meaning_vi": "Số 314",
+          "trap_note": "Số đuôi teen trong số 3 chữ số."
+        },
+        {
+          "id": "nt_18",
+          "target": "340",
+          "display": "340",
+          "full_tts": "three hundred and forty. The flight distance is three hundred and forty miles.",
+          "meaning_vi": "Số 340",
+          "trap_note": "Số đuôi ty."
+        },
+        {
+          "id": "nt_19",
+          "target": "07946 092817",
+          "display": "07946 092817",
+          "full_tts": "My mobile number is 0 7 9 4 6, 0 9 2 8 1 7",
+          "meaning_vi": "Số điện thoại di động UK",
+          "trap_note": "Số 0 thường đọc là 'oh' thay vì 'zero'."
+        },
+        {
+          "id": "nt_20",
+          "target": "020 7946 0192",
+          "display": "020 7946 0192",
+          "full_tts": "You can call us on 0 2 0, 7 9 4 6, 0 1 9 2",
+          "meaning_vi": "Số điện thoại bàn London (mã 020)",
+          "trap_note": "Nhịp ngắt 3-4-4 chữ số quen thuộc."
+        },
+        {
+          "id": "nt_21",
+          "target": "0161 496 0345",
+          "display": "0161 496 0345",
+          "full_tts": "Please reach our office at 0 1 6 1, 4 9 6, 0 3 4 5",
+          "meaning_vi": "Số điện thoại Manchester (0161)",
+          "trap_note": "Số 0 đọc 'oh', đọc tách từng con số."
+        },
+        {
+          "id": "nt_22",
+          "target": "0131 496 0872",
+          "display": "0131 496 0872",
+          "full_tts": "Contact the Edinburgh branch on 0 1 3 1, 4 9 6, 0 8 7 2",
+          "meaning_vi": "Số điện thoại Edinburgh (0131)",
+          "trap_note": "Bẫy 'oh' và 'eight'."
+        },
+        {
+          "id": "nt_23",
+          "target": "0117 496 0523",
+          "display": "0117 496 0523",
+          "full_tts": "Customer care line is 0 1 1 7, 4 9 6, 0 5 2 3",
+          "meaning_vi": "Số điện thoại Bristol",
+          "trap_note": "Đọc 0-1-1-7."
+        },
+        {
+          "id": "nt_24",
+          "target": "0121 496 0634",
+          "display": "0121 496 0634",
+          "full_tts": "Call the Birmingham clinic at 0 1 2 1, 4 9 6, 0 6 3 4",
+          "meaning_vi": "Số điện thoại Birmingham",
+          "trap_note": "Nhịp đọc ngắt quãng."
+        },
+        {
+          "id": "nt_25",
+          "target": "07700 900123",
+          "display": "07700 900123",
+          "full_tts": "Emergency helpline 0 7 7 0 0, 9 0 0, 1 2 3",
+          "meaning_vi": "Đường dây khẩn cấp UK",
+          "trap_note": "Bẫy double 7, double 0, double 0."
+        },
+        {
+          "id": "nt_26",
+          "target": "0412 345 678",
+          "display": "0412 345 678",
+          "full_tts": "Australian mobile number 0 4 1 2, 3 4 5, 6 7 8",
+          "meaning_vi": "Số di động Úc (bắt đầu bằng 04)",
+          "trap_note": "Mã di động Úc gồm 10 chữ số."
+        },
+        {
+          "id": "nt_27",
+          "target": "45.50",
+          "display": "£45.50",
+          "full_tts": "The total fee is forty-five pounds fifty.",
+          "meaning_vi": "45 bảng 50 xu (£45.50)",
+          "trap_note": "Người bản xứ thường nói 'forty-five pounds fifty' (bỏ chữ pence)."
+        },
+        {
+          "id": "nt_28",
+          "target": "17.50",
+          "display": "£17.50",
+          "full_tts": "Standard admission is seventeen pounds fifty.",
+          "meaning_vi": "17 bảng 50 xu (£17.50)",
+          "trap_note": "Phân biệt 17 (seventeen) vs 70 (seventy)."
+        },
+        {
+          "id": "nt_29",
+          "target": "8.75",
+          "display": "£8.75",
+          "full_tts": "The parking fee for the day is eight pounds seventy-five.",
+          "meaning_vi": "8 bảng 75 xu",
+          "trap_note": "Nghe số thập phân và mệnh giá tiền."
+        },
+        {
+          "id": "nt_30",
+          "target": "3.60",
+          "display": "£3.60",
+          "full_tts": "A single bus fare is three pounds sixty.",
+          "meaning_vi": "3 bảng 60 xu (£3.60)",
+          "trap_note": "Số 60 đọc sixty."
+        },
+        {
+          "id": "nt_31",
+          "target": "250",
+          "display": "£250",
+          "full_tts": "A refundable deposit of two hundred and fifty pounds.",
+          "meaning_vi": "250 bảng tiền cọc",
+          "trap_note": "Người nói hay lướt 'two hundred and fifty'."
+        },
+        {
+          "id": "nt_32",
+          "target": "120",
+          "display": "£120",
+          "full_tts": "The annual club membership is one hundred and twenty pounds.",
+          "meaning_vi": "120 bảng tiền hội phí",
+          "trap_note": "One hundred and twenty."
+        },
+        {
+          "id": "nt_33",
+          "target": "375",
+          "display": "£375",
+          "full_tts": "The monthly rent per room is three hundred and seventy-five pounds.",
+          "meaning_vi": "375 bảng tiền thuê",
+          "trap_note": "Three hundred and seventy-five."
+        },
+        {
+          "id": "nt_34",
+          "target": "450",
+          "display": "£450",
+          "full_tts": "Course tuition fee is four hundred and fifty pounds.",
+          "meaning_vi": "450 bảng học phí",
+          "trap_note": "Four hundred and fifty."
+        },
+        {
+          "id": "nt_35",
+          "target": "850",
+          "display": "£850",
+          "full_tts": "A security bond of eight hundred and fifty pounds.",
+          "meaning_vi": "850 bảng",
+          "trap_note": "Eight hundred and fifty."
+        },
+        {
+          "id": "nt_36",
+          "target": "1200",
+          "display": "£1,200",
+          "full_tts": "The full semester costs one thousand two hundred pounds.",
+          "meaning_vi": "1,200 bảng",
+          "trap_note": "Có thể nói 'twelve hundred pounds' hoặc 'one thousand two hundred'."
+        },
+        {
+          "id": "nt_37",
+          "target": "24.95",
+          "display": "£24.95",
+          "full_tts": "Special student discount price is twenty-four pounds ninety-five.",
+          "meaning_vi": "24 bảng 95 xu",
+          "trap_note": "Số lẻ thập phân."
+        },
+        {
+          "id": "nt_38",
+          "target": "39.50",
+          "display": "£39.50",
+          "full_tts": "The evening buffet is thirty-nine pounds fifty per person.",
+          "meaning_vi": "39 bảng 50 xu",
+          "trap_note": "Thirty-nine pounds fifty."
+        },
+        {
+          "id": "nt_39",
+          "target": "7:15",
+          "display": "7:15 (a quarter past seven)",
+          "full_tts": "The coach leaves at a quarter past seven in the morning.",
+          "meaning_vi": "7 giờ 15 phút sáng",
+          "trap_note": "'Quarter past' là qua 15 phút (7:15), 'Quarter to' là kém 15 phút (6:45)."
+        },
+        {
+          "id": "nt_40",
+          "target": "3:45",
+          "display": "3:45 (a quarter to four)",
+          "full_tts": "The tour concludes at a quarter to four in the afternoon.",
+          "meaning_vi": "3 giờ 45 phút chiều (4 giờ kém 15)",
+          "trap_note": "A quarter to four = 3:45 (nghe four nhưng viết số 3)."
+        },
+        {
+          "id": "nt_41",
+          "target": "10:30",
+          "display": "10:30 (half past ten)",
+          "full_tts": "Registration opens at half past ten sharp.",
+          "meaning_vi": "10 giờ 30 phút",
+          "trap_note": "'Half past' là rưỡi (30 phút)."
+        },
+        {
+          "id": "nt_42",
+          "target": "8:20",
+          "display": "8:20 (twenty past eight)",
+          "full_tts": "The library doors unlock at twenty past eight.",
+          "meaning_vi": "8 giờ 20 phút",
+          "trap_note": "Twenty past eight = 8:20."
+        },
+        {
+          "id": "nt_43",
+          "target": "5:40",
+          "display": "5:40 (twenty to six)",
+          "full_tts": "The last ferry departs at twenty to six in the evening.",
+          "meaning_vi": "5 giờ 40 phút chiều (6 giờ kém 20)",
+          "trap_note": "Twenty to six = 5:40 (nghe six nhưng viết số 5)."
+        },
+        {
+          "id": "nt_44",
+          "target": "11:50",
+          "display": "11:50 (ten to twelve)",
+          "full_tts": "Boarding closes at ten to twelve midday.",
+          "meaning_vi": "11 giờ 50 phút trưa",
+          "trap_note": "Ten to twelve = 11:50."
+        },
+        {
+          "id": "nt_45",
+          "target": "9:05",
+          "display": "9:05 (five past nine)",
+          "full_tts": "Lecture begins at five past nine prompt.",
+          "meaning_vi": "9 giờ 5 phút",
+          "trap_note": "Five past nine = 9:05."
+        },
+        {
+          "id": "nt_46",
+          "target": "12:00",
+          "display": "12:00 (midday)",
+          "full_tts": "Lunch is served from twelve midday.",
+          "meaning_vi": "12 giờ trưa (midday / noon)",
+          "trap_note": "Từ 'midday' hoặc 'noon' tương đương 12:00."
+        },
+        {
+          "id": "nt_47",
+          "target": "14:30",
+          "display": "14:30 (half past two)",
+          "full_tts": "The afternoon seminar starts at half past two.",
+          "meaning_vi": "2 giờ 30 phút chiều (14:30)",
+          "trap_note": "Half past two = 2:30 pm."
+        },
+        {
+          "id": "nt_48",
+          "target": "18:15",
+          "display": "18:15 (a quarter past six)",
+          "full_tts": "Evening concert opens at a quarter past six.",
+          "meaning_vi": "6 giờ 15 phút tối",
+          "trap_note": "A quarter past six = 6:15 pm."
+        },
+        {
+          "id": "nt_49",
+          "target": "25",
+          "display": "25 metres",
+          "full_tts": "The heated indoor pool is twenty-five metres long.",
+          "meaning_vi": "25 mét",
+          "trap_note": "Đơn vị đo lường độ dài metres."
+        },
+        {
+          "id": "nt_50",
+          "target": "15",
+          "display": "15 kilograms",
+          "full_tts": "Maximum cabin baggage weight is fifteen kilograms.",
+          "meaning_vi": "15 kg",
+          "trap_note": "Khối lượng hành lý."
+        },
+        {
+          "id": "nt_51",
+          "target": "50",
+          "display": "50 kilometres",
+          "full_tts": "The nature reserve covers fifty square kilometres.",
+          "meaning_vi": "50 ki-lô-mét",
+          "trap_note": "Đơn vị km."
+        },
+        {
+          "id": "nt_52",
+          "target": "45",
+          "display": "45 minutes",
+          "full_tts": "The boat cruise takes forty-five minutes.",
+          "meaning_vi": "45 phút",
+          "trap_note": "Thời lượng chuyến đi."
+        },
+        {
+          "id": "nt_53",
+          "target": "1.5",
+          "display": "1.5 litres",
+          "full_tts": "Please drink at least one point five litres of water daily.",
+          "meaning_vi": "1.5 lít",
+          "trap_note": "Số thập phân đọc 'one point five'."
+        },
+        {
+          "id": "nt_54",
+          "target": "2.5",
+          "display": "2.5 hours",
+          "full_tts": "The walking trail takes approximately two point five hours.",
+          "meaning_vi": "2.5 giờ (2 tiếng rưỡi)",
+          "trap_note": "Two point five hours."
+        },
+        {
+          "id": "nt_55",
+          "target": "35",
+          "display": "35 square metres",
+          "full_tts": "The studio flat measures thirty-five square metres.",
+          "meaning_vi": "35 mét vuông",
+          "trap_note": "Diện tích căn phòng."
+        },
+        {
+          "id": "nt_56",
+          "target": "15 August",
+          "display": "15 August (15th of August)",
+          "full_tts": "The summer camp commences on the fifteenth of August.",
+          "meaning_vi": "Ngày 15 tháng 8",
+          "trap_note": "Quy chuẩn IELTS viết: 15 August hoặc August 15."
+        },
+        {
+          "id": "nt_57",
+          "target": "3 October",
+          "display": "3 October (3rd of October)",
+          "full_tts": "Term starts on the third of October.",
+          "meaning_vi": "Ngày 3 tháng 10",
+          "trap_note": "The third of October = 3 October."
+        },
+        {
+          "id": "nt_58",
+          "target": "22 July",
+          "display": "22 July (22nd of July)",
+          "full_tts": "Flight tickets booked for the twenty-second of July.",
+          "meaning_vi": "Ngày 22 tháng 7",
+          "trap_note": "Twenty-second = 22."
+        },
+        {
+          "id": "nt_59",
+          "target": "1 May",
+          "display": "1 May (1st of May)",
+          "full_tts": "Bank holiday on the first of May.",
+          "meaning_vi": "Ngày 1 tháng 5",
+          "trap_note": "The first of May = 1 May."
+        },
+        {
+          "id": "nt_60",
+          "target": "31 December",
+          "display": "31 December (31st of December)",
+          "full_tts": "New Year's Eve gala on the thirty-first of December.",
+          "meaning_vi": "Ngày 31 tháng 12",
+          "trap_note": "Thirty-first = 31."
+        },
+        {
+          "id": "nt_61",
+          "target": "28 February",
+          "display": "28 February",
+          "full_tts": "The special offer expires on the twenty-eighth of February.",
+          "meaning_vi": "Ngày 28 tháng 2",
+          "trap_note": "28 February."
+        },
+        {
+          "id": "nt_62",
+          "target": "4 July",
+          "display": "4 July",
+          "full_tts": "The anniversary celebration is on the fourth of July.",
+          "meaning_vi": "Ngày 4 tháng 7",
+          "trap_note": "Fourth of July = 4 July."
+        },
+        {
+          "id": "nt_63",
+          "target": "11 November",
+          "display": "11 November",
+          "full_tts": "Remember to attend the ceremony on the eleventh of November.",
+          "meaning_vi": "Ngày 11 tháng 11",
+          "trap_note": "Eleventh = 11."
+        },
+        {
+          "id": "nt_64",
+          "target": "21 June",
+          "display": "21 June (21st of June)",
+          "full_tts": "Summer solstice on the twenty-first of June.",
+          "meaning_vi": "Ngày 21 tháng 6",
+          "trap_note": "Twenty-first = 21."
+        },
+        {
+          "id": "nt_65",
+          "target": "30 April",
+          "display": "30 April (30th of April)",
+          "full_tts": "Tax return deadline is the thirtieth of April.",
+          "meaning_vi": "Ngày 30 tháng 4",
+          "trap_note": "Thirtieth = 30."
+        }
+      ]
+    }
+  ]
+}

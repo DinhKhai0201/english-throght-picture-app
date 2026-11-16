@@ -19,10 +19,17 @@ export default function Home() {
   const [interviewCount, setInterviewCount] = useState(0);
   const [listenDrillFound, setListenDrillFound] = useState(0);
   const [listenDrillFirstTry, setListenDrillFirstTry] = useState(0);
+  const [ieltsListeningCount, setIeltsListeningCount] = useState(0);
   const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
+      try {
+        const ieltsListeningStored = localStorage.getItem("ielts_listening_progress");
+        if (ieltsListeningStored) {
+          setIeltsListeningCount(JSON.parse(ieltsListeningStored).length);
+        }
+      } catch (e) {}
       try {
         const found = parseInt(localStorage.getItem("listen_drill_found") || "0", 10);
         const firstTry = parseInt(localStorage.getItem("listen_drill_first_try") || "0", 10);
@@ -150,6 +157,37 @@ export default function Home() {
             </div>
             <div className="home-section-cta" style={{ color: "#0e7490" }}>
               Vào luyện phản xạ ngay →
+            </div>
+          </div>
+        </Link>
+
+        {/* Section IELTS Listening Part 1 & 2 Trainer */}
+        <Link href="/ielts-listening" className="home-section-card card-ielts-listening" style={{ borderLeftColor: "#0d9488" }}>
+          <div>
+            <span className="home-section-badge badge-ielts-listening" style={{ background: "#ccfbf1", color: "#0f766e" }}>
+              🎯 Luyện Part 1 & 2 • Names, Traps & Numbers
+            </span>
+            <h2 className="home-section-title">IELTS Listening Part 1 & 2 Trainer</h2>
+            <p className="home-section-desc">
+              Luyện phản xạ gõ phím bắt chuẩn 3 mỏ điểm: Đánh vần Tên & Mã bưu điện, Bẫy chính tả thường gặp, Số đếm teen/ty & Giá tiền.
+            </p>
+          </div>
+
+          <div className="home-section-progress-wrap">
+            <div className="home-section-stats">
+              <span style={{ color: "var(--color-text-muted)" }}>Tiến độ:</span>
+              <span style={{ color: "#0d9488", fontWeight: "700" }}>
+                {ieltsListeningCount}/210 mục ({Math.round((ieltsListeningCount / 210) * 100)}%)
+              </span>
+            </div>
+            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "#e2e8f0" }}>
+              <div
+                className="progress-bar"
+                style={{ width: `${Math.round((ieltsListeningCount / 210) * 100)}%`, backgroundColor: "#0d9488" }}
+              ></div>
+            </div>
+            <div className="home-section-cta" style={{ color: "#0d9488" }}>
+              Vào luyện Part 1 & 2 ngay →
             </div>
           </div>
         </Link>

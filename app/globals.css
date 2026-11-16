@@ -2001,3 +2001,284 @@ body {
   from { opacity: 0.85; transform: scale(0.98); }
   to { opacity: 1; transform: scale(1.02); }
 }
+
+/* ============================================
+   IELTS LISTENING PART 1 & 2 TRAINER STYLES
+   ============================================ */
+
+.ielts-drill-wrapper {
+  max-width: 860px;
+  margin: 12px auto 32px;
+}
+
+.ielts-drill-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  padding: 28px 32px 36px;
+  box-shadow: var(--shadow-sm);
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.drill-top-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-wrap: wrap;
+  padding-bottom: 12px;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.drill-question-number {
+  font-size: 1.05rem;
+  font-weight: 800;
+  color: #0e7490;
+}
+
+.drill-cat-badge {
+  font-size: 0.8rem;
+  font-weight: 700;
+  background: #e0f2fe;
+  color: #0369a1;
+  padding: 3px 10px;
+  border-radius: 999px;
+}
+
+.drill-audio-center {
+  background: linear-gradient(180deg, #f0fdfa 0%, #e6f6f5 100%);
+  border: 1px solid #ccfbf1;
+  border-radius: 18px;
+  padding: 34px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.audio-label-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+/* Drill Input Form */
+.drill-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.drill-input-wrapper {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+}
+
+.drill-text-input {
+  flex: 1;
+  padding: 14px 18px;
+  border-radius: 12px;
+  border: 2px solid var(--color-border);
+  background: var(--color-bg-card);
+  color: var(--color-text-main);
+  font-size: 1.3rem;
+  font-weight: 700;
+  outline: none;
+  transition: all 0.2s ease;
+}
+
+.drill-text-input:focus {
+  border-color: #0e7490;
+  box-shadow: 0 0 0 3px rgba(14, 116, 144, 0.15);
+}
+
+.drill-text-input.input-correct {
+  border-color: #22c55e !important;
+  background: #f0fdf4 !important;
+  color: #15803d !important;
+}
+
+.drill-text-input.input-wrong {
+  border-color: #ef4444 !important;
+  background: #fef2f2 !important;
+  color: #b91c1c !important;
+  animation: key-shake 0.35s ease;
+}
+
+.drill-submit-btn {
+  padding: 14px 24px;
+  border-radius: 12px;
+  border: none;
+  background: #0e7490;
+  color: #ffffff;
+  font-size: 1.05rem;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.2s ease, transform 0.1s ease;
+}
+
+.drill-submit-btn:hover {
+  background: #0a495d;
+}
+
+.drill-submit-btn:active {
+  transform: translateY(1px);
+}
+
+/* Feedback Box */
+.feedback-message {
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 0.95rem;
+  font-weight: 600;
+}
+
+.feedback-success {
+  background: #dcfce7;
+  color: #15803d;
+  border: 1px solid #bbf7d0;
+}
+
+.feedback-danger {
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fecaca;
+}
+
+/* Revealed Answer Box */
+.drill-revealed-box {
+  background: #fffbeb;
+  border: 1.5px solid #fed7aa;
+  border-radius: 14px;
+  padding: 18px 22px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  animation: fade-in 0.25s ease;
+}
+
+.revealed-header {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.revealed-title {
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #9a3412;
+}
+
+.revealed-target {
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #c2410c;
+  letter-spacing: 0.02em;
+}
+
+.revealed-meaning {
+  font-size: 0.98rem;
+  color: #7c2d12;
+  margin: 0;
+  font-weight: 600;
+}
+
+.revealed-trap {
+  font-size: 0.92rem;
+  color: #b45309;
+  background: #fef3c7;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin: 2px 0 0;
+  line-height: 1.45;
+}
+
+/* Bottom Navigation */
+.drill-actions-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  padding-top: 14px;
+  border-top: 1px solid var(--color-border);
+  flex-wrap: wrap;
+}
+
+.btn-drill-secondary {
+  padding: 9px 16px;
+  border-radius: var(--border-radius-sm);
+  border: 1.5px solid var(--color-border);
+  background: var(--color-bg-card);
+  color: var(--color-text-main);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-drill-secondary:hover {
+  border-color: #0e7490;
+  color: #0e7490;
+}
+
+.drill-nav-right {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-drill-nav {
+  padding: 9px 18px;
+  border-radius: var(--border-radius-sm);
+  border: 1.5px solid var(--color-border);
+  background: var(--color-bg-card);
+  color: var(--color-text-main);
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-drill-nav:hover {
+  background: #f8fafc;
+  border-color: #94a3b8;
+}
+
+.btn-drill-next {
+  background: #0e7490;
+  color: #ffffff;
+  border-color: #0e7490;
+}
+
+.btn-drill-next:hover {
+  background: #0a495d;
+  border-color: #0a495d;
+}
+
+.ielts-list-wrapper {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.ielts-study-items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (max-width: 600px) {
+  .ielts-drill-card {
+    padding: 20px 16px 24px;
+  }
+  .drill-input-wrapper {
+    flex-direction: column;
+  }
+  .drill-submit-btn {
+    width: 100%;
+  }
+}
