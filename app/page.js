@@ -9,6 +9,7 @@ import zhData from "../chinese_communication_chunks_v3_500plus.json";
 import jaData from "../japanese_communication_chunks.json";
 import ieltsData from "../ielts_vocabulary.json";
 import interviewData from "../interview_500_qa.json";
+import speakingData from "../ielts_speaking_30_days.json";
 
 export default function Home() {
   const [en300Count, setEn300Count] = useState(0);
@@ -17,6 +18,7 @@ export default function Home() {
   const [jaCount, setJaCount] = useState(0);
   const [ieltsCount, setIeltsCount] = useState(0);
   const [interviewCount, setInterviewCount] = useState(0);
+  const [speakingDaysCount, setSpeakingDaysCount] = useState(0);
   const [listenDrillFound, setListenDrillFound] = useState(0);
   const [listenDrillFirstTry, setListenDrillFirstTry] = useState(0);
   const [ieltsListeningCount, setIeltsListeningCount] = useState(0);
@@ -78,6 +80,13 @@ export default function Home() {
         }
       } catch (e) {}
 
+      try {
+        const speakingStored = localStorage.getItem("ielts_speaking_completed_days");
+        if (speakingStored) {
+          setSpeakingDaysCount(JSON.parse(speakingStored).length);
+        }
+      } catch (e) {}
+
       setIsLoaded(true);
     }
   }, []);
@@ -88,6 +97,7 @@ export default function Home() {
   const totalJa = jaData.chunks?.length || 300;
   const totalIelts = Array.isArray(ieltsData) ? ieltsData.length : 3517;
   const totalInterview = interviewData.total_questions || 155;
+  const totalSpeakingDays = speakingData.days?.length || 30;
 
   const en300Percent = Math.round((en300Count / totalEn300) * 100);
   const chunksPercent = Math.round((chunksCount / totalChunks) * 100);
@@ -95,9 +105,10 @@ export default function Home() {
   const jaPercent = Math.round((jaCount / totalJa) * 100);
   const ieltsPercent = Math.round((ieltsCount / totalIelts) * 100);
   const interviewPercent = Math.round((interviewCount / totalInterview) * 100);
+  const speakingPercent = Math.round((speakingDaysCount / totalSpeakingDays) * 100);
 
-  const totalLearned = en300Count + chunksCount + zhCount + jaCount + ieltsCount + interviewCount;
-  const totalAll = totalEn300 + totalChunks + totalZh + totalJa + totalIelts + totalInterview;
+  const totalLearned = en300Count + chunksCount + zhCount + jaCount + ieltsCount + interviewCount + speakingDaysCount;
+  const totalAll = totalEn300 + totalChunks + totalZh + totalJa + totalIelts + totalInterview + totalSpeakingDays;
   const totalOverallPercent = Math.round((totalLearned / totalAll) * 100);
 
   return (
@@ -289,11 +300,11 @@ export default function Home() {
         <Link href="/interview-qa" className="home-section-card card-interview">
           <div>
             <span className="home-section-badge badge-interview">
-              💼 Phỏng Vấn • 500 Q&A Xin Việc
+              💼 Phỏng Vấn • Web Developer Q&A
             </span>
-            <h2 className="home-section-title">500 Phỏng Vấn Xin Việc</h2>
+            <h2 className="home-section-title">Phỏng Vấn Web Developer</h2>
             <p className="home-section-desc">
-              155 câu hỏi phỏng vấn tiếng Anh cốt lõi và 350 phương án trả lời mẫu ghi điểm với nhà tuyển dụng.
+              155 câu hỏi phỏng vấn tiếng Anh thực chiến và câu trả lời mẫu tối ưu dành cho Web Developer.
             </p>
           </div>
 
@@ -312,6 +323,37 @@ export default function Home() {
             </div>
             <div className="home-section-cta">
               Vào học ngay →
+            </div>
+          </div>
+        </Link>
+
+        {/* Section: IELTS Speaking 30-Day Plan */}
+        <Link href="/ielts-speaking" className="home-section-card card-speaking">
+          <div>
+            <span className="home-section-badge badge-speaking">
+              🎙️ IELTS Speaking • 30-Day Mastery
+            </span>
+            <h2 className="home-section-title">IELTS Speaking 30 Ngày</h2>
+            <p className="home-section-desc">
+              Lộ trình 30 ngày phản xạ Chunking & tư duy A-R-D chinh phục IELTS Speaking Band 7.0 - 8.0+.
+            </p>
+          </div>
+
+          <div className="home-section-progress-wrap">
+            <div className="home-section-stats">
+              <span style={{ color: "var(--color-text-muted)" }}>Tiến độ:</span>
+              <span style={{ color: "#059669" }}>
+                {speakingDaysCount}/{totalSpeakingDays} ngày ({speakingPercent}%)
+              </span>
+            </div>
+            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "#e2e8f0" }}>
+              <div
+                className="progress-bar"
+                style={{ width: `${speakingPercent}%`, backgroundColor: "#059669" }}
+              ></div>
+            </div>
+            <div className="home-section-cta">
+              Vào luyện nói ngay →
             </div>
           </div>
         </Link>

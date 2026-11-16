@@ -313,7 +313,7 @@ function InterviewQAContent() {
             💼 500 Câu Hỏi & Trả Lời Phỏng Vấn Xin Việc
           </h1>
           <p className="hero-subtitle">
-            Bộ câu hỏi phỏng vấn tiếng Anh thực chiến và các phương án trả lời mẫu ghi điểm với nhà tuyển dụng
+            Bộ câu hỏi phỏng vấn tiếng Anh thực chiến với câu trả lời mẫu chuyên sâu dành riêng cho Web Developer
           </p>
         </div>
 
@@ -395,7 +395,7 @@ function InterviewQAContent() {
           className={`category-pill ${activePart === "1" ? "active" : ""}`}
           style={activePart === "1" ? { backgroundColor: "#0284c7", borderColor: "#0284c7" } : {}}
         >
-          👔 Phần I: Nhà tuyển dụng hỏi ({rawData.parts[0]?.questions.length || 128} câu • 350 cách trả lời)
+          👔 Phần I: Nhà tuyển dụng hỏi ({rawData.parts[0]?.questions.length || 128} câu • Câu trả lời chuẩn Web Dev)
         </button>
         <button
           onClick={() => handlePartChange("2")}
@@ -460,7 +460,7 @@ function InterviewQAContent() {
                 {q.answers && q.answers.length > 0 && (
                   <div style={{ marginTop: "12px", borderTop: "1px dashed var(--color-border)", paddingTop: "12px" }}>
                     <div style={{ fontSize: "0.85rem", fontWeight: "700", color: "#0284c7", textTransform: "uppercase", marginBottom: "8px" }}>
-                      💡 Các phương án trả lời gợi ý ({q.answers.length}):
+                      {q.answers.length > 1 ? `💡 Các phương án trả lời gợi ý (${q.answers.length}):` : "💻 Câu trả lời mẫu (Web Developer):"}
                     </div>
                     <div className="interview-answers-list">
                       {q.answers.map((ans, aIdx) => {
@@ -468,9 +468,11 @@ function InterviewQAContent() {
                         return (
                           <div key={aIdx} className="interview-answer-item">
                             <div className="interview-answer-head">
-                              <span className="interview-option-badge">Phương án {aIdx + 1}</span>
+                              <span className="interview-option-badge">
+                                {q.answers.length > 1 ? `Phương án ${aIdx + 1}` : "💻 Web Developer Answer"}
+                              </span>
                               <button className="play-button" style={{ width: "32px", height: "32px", fontSize: "0.95rem" }}
-                                onClick={(e) => { e.stopPropagation(); playSpeech(ans.answer_en, `${q.id}_ans_${aIdx}`); incrementStudyCount(q.id); }} aria-label="Nghe phương án này">
+                                onClick={(e) => { e.stopPropagation(); playSpeech(ans.answer_en, `${q.id}_ans_${aIdx}`); incrementStudyCount(q.id); }} aria-label="Nghe câu trả lời này">
                                 {isPlayingA ? "🔊" : "🗣️"}
                               </button>
                             </div>
@@ -546,7 +548,7 @@ function InterviewQAContent() {
               {q.answers && q.answers.length > 0 && (
                 <div style={{ marginTop: "12px", borderTop: "1px dashed var(--color-border)", paddingTop: "12px" }}>
                   <div style={{ fontSize: "0.85rem", fontWeight: "700", color: "#0284c7", textTransform: "uppercase", marginBottom: "8px" }}>
-                    💡 Các phương án trả lời gợi ý ({q.answers.length}):
+                    {q.answers.length > 1 ? `💡 Các phương án trả lời gợi ý (${q.answers.length}):` : "💻 Câu trả lời mẫu (Web Developer):"}
                   </div>
                   <div className="interview-answers-list">
                     {q.answers.map((ans, aIdx) => {
@@ -555,7 +557,7 @@ function InterviewQAContent() {
                         <div key={aIdx} className="interview-answer-item">
                           <div className="interview-answer-head">
                             <span className="interview-option-badge">
-                              Phương án {aIdx + 1}
+                              {q.answers.length > 1 ? `Phương án ${aIdx + 1}` : "💻 Web Developer Answer"}
                             </span>
                             <button
                               className="play-button"
@@ -565,7 +567,7 @@ function InterviewQAContent() {
                                 playSpeech(ans.answer_en, `${q.id}_ans_${aIdx}`);
                                 incrementStudyCount(q.id);
                               }}
-                              aria-label="Nghe phương án này"
+                              aria-label="Nghe câu trả lời này"
                             >
                               {isPlayingA ? "🔊" : "🗣️"}
                             </button>
@@ -672,7 +674,7 @@ function InterviewQAContent() {
       )}
 
       <footer className="app-footer">
-        <p>💡 Tip: Bấm vào câu hỏi hoặc từng phương án trả lời để nghe phát âm và ngữ điệu trả lời tự nhiên.</p>
+        <p>💡 Tip: Bấm vào câu hỏi hoặc câu trả lời mẫu để nghe phát âm và ngữ điệu trả lời tự nhiên.</p>
       </footer>
     </main>
   );

@@ -1,0 +1,2182 @@
+{
+  "title": "IELTS Speaking 30-Day Chunking Study Plan",
+  "subtitle": "Lộ trình 30 ngày luyện nói IELTS Speaking từ phản xạ Chunking & phương pháp A-R-D hướng tới Band 7.0 - 8.0+",
+  "duration": "30 ngày",
+  "suggested_time": "60 - 90 phút/ngày",
+  "target_band": "Band 7.0 - 8.0+",
+  "overview": {
+    "rule": "Ghi nhớ các cụm từ (language chunks) dùng linh hoạt, không học vẹt nguyên bài mẫu.",
+    "routine": [
+      {
+        "time": "10 phút",
+        "activity": "Ôn lại các chunk hôm trước mà không nhìn tài liệu"
+      },
+      {
+        "time": "15 phút",
+        "activity": "Học 5-8 chunks mới kèm câu ví dụ cụ thể"
+      },
+      {
+        "time": "10 phút",
+        "activity": "Nắm vững 1 điểm ngữ pháp hoặc phát âm / nhịp điệu"
+      },
+      {
+        "time": "15 phút",
+        "activity": "Trả lời câu hỏi thành tiếng và ghi âm lại giọng nói"
+      },
+      {
+        "time": "10 phút",
+        "activity": "Nghe lại bản ghi âm, phát hiện lỗi và nói lại câu hoàn thiện hơn"
+      }
+    ],
+    "four_criteria": [
+      {
+        "name": "Fluency and Coherence",
+        "vi": "Độ trôi chảy & mạch lạc",
+        "desc": "Nói với tốc độ tự nhiên, nối kết các ý liền mạch và phát triển câu trả lời hợp lý."
+      },
+      {
+        "name": "Lexical Resource",
+        "vi": "Vốn từ vựng & Collocation",
+        "desc": "Sử dụng từ vựng chính xác theo ngữ cảnh, kết hợp từ tự nhiên (collocations) và biết diễn giải (paraphrase)."
+      },
+      {
+        "name": "Grammatical Range and Accuracy",
+        "vi": "Độ đa dạng & chính xác ngữ pháp",
+        "desc": "Sử dụng linh hoạt các cấu trúc câu đơn, câu ghép, mệnh đề quan hệ và thì chuẩn xác."
+      },
+      {
+        "name": "Pronunciation",
+        "vi": "Phát âm & Ngữ điệu",
+        "desc": "Rõ ràng, dễ hiểu; phát âm đúng âm đuôi, trọng âm từ (word stress), nhịp điệu (rhythm) và ngữ điệu (intonation)."
+      }
+    ],
+    "ard_method": {
+      "title": "Phương pháp xây dựng câu trả lời A-R-D (Part 1)",
+      "steps": [
+        {
+          "letter": "A",
+          "name": "Answer",
+          "desc": "Trả lời trực tiếp câu hỏi của giám khảo."
+        },
+        {
+          "letter": "R",
+          "name": "Reason",
+          "desc": "Giải thích lý do vì sao (Why)."
+        },
+        {
+          "letter": "D",
+          "name": "Detail",
+          "desc": "Thêm chi tiết cụ thể (ví dụ, thời gian, địa điểm, cảm xúc)."
+        }
+      ],
+      "example_q": "What do you usually do at weekends?",
+      "example_a": "I usually go fishing (A). It helps me relax after a busy week of coding (R). I often go with my close friends when we have free time (D)."
+    }
+  },
+  "weeks": [
+    {
+      "week_number": 1,
+      "title_en": "Building the Foundation",
+      "title_vi": "Xây dựng nền tảng",
+      "goal": "Tạo câu cơ bản chính xác và làm chủ các chunk tần suất cao cho thông tin cá nhân và đời sống hàng ngày.",
+      "day_range": "Ngày 1 - 7"
+    },
+    {
+      "week_number": 2,
+      "title_en": "Developing Natural Answers",
+      "title_vi": "Phát triển câu trả lời tự nhiên",
+      "goal": "Mở rộng câu trả lời, nói về trải nghiệm quá khứ, dự định tương lai và so sánh đối chiếu linh hoạt.",
+      "day_range": "Ngày 8 - 14"
+    },
+    {
+      "week_number": 3,
+      "title_en": "IELTS Part 1 & Part 2 Mastery",
+      "title_vi": "Làm chủ IELTS Part 1 & Part 2",
+      "goal": "Xử lý trôi chảy các chủ đề Part 1 phổ biến và thành thạo phương pháp chuẩn bị Cue Card Part 2 trong 1 phút.",
+      "day_range": "Ngày 15 - 21"
+    },
+    {
+      "week_number": 4,
+      "title_en": "Part 3 & Higher-Level Speaking",
+      "title_vi": "Part 3 & Lập luận chuyên sâu",
+      "goal": "Giải thích các ý trừu tượng, phân tích nguyên nhân - kết quả, nêu quan điểm đa chiều và thi thử toàn diện.",
+      "day_range": "Ngày 22 - 30"
+    }
+  ],
+  "days": [
+    {
+      "day": 1,
+      "week": 1,
+      "title_en": "Introducing yourself",
+      "title_vi": "Giới thiệu bản thân",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "My name is...",
+          "meaning_vi": "Tên tôi là...",
+          "example": "My name is Nam."
+        },
+        {
+          "chunk": "I live in...",
+          "meaning_vi": "Tôi sống ở...",
+          "example": "I live in Da Nang with my family."
+        },
+        {
+          "chunk": "I'm originally from...",
+          "meaning_vi": "Quê gốc của tôi ở...",
+          "example": "I'm originally from Quang Nam province."
+        },
+        {
+          "chunk": "I currently work as...",
+          "meaning_vi": "Hiện tại tôi làm nghề...",
+          "example": "I currently work as a web developer."
+        },
+        {
+          "chunk": "I'm a university student.",
+          "meaning_vi": "Tôi là sinh viên đại học.",
+          "example": "I'm a university student majoring in Computer Science."
+        },
+        {
+          "chunk": "I study... at...",
+          "meaning_vi": "Tôi học... tại...",
+          "example": "I study Software Engineering at university."
+        },
+        {
+          "chunk": "I live with my family.",
+          "meaning_vi": "Tôi sống cùng gia đình.",
+          "example": "I live with my family in a peaceful coastal area."
+        },
+        {
+          "chunk": "In my free time, I...",
+          "meaning_vi": "Trong thời gian rảnh, tôi...",
+          "example": "In my free time, I enjoy fishing and watching films."
+        },
+        {
+          "chunk": "I'm really interested in...",
+          "meaning_vi": "Tôi thực sự quan tâm / thích...",
+          "example": "I'm really interested in web development and artificial intelligence."
+        },
+        {
+          "chunk": "These days, I'm trying to...",
+          "meaning_vi": "Dạo gần đây tôi đang cố gắng...",
+          "example": "These days, I'm trying to improve my English speaking skills."
+        }
+      ],
+      "model_en": "I live in Da Nang with my family. I work as a web developer. In my free time, I enjoy fishing and watching films. These days, I'm also working on improving my English.",
+      "model_vi": "Tôi sống ở Đà Nẵng cùng gia đình. Tôi làm nghề lập trình viên web. Khi rảnh rỗi, tôi thích đi câu cá và xem phim. Dạo gần đây, tôi cũng đang tập trung nâng cao kỹ năng tiếng Anh của mình.",
+      "questions": [
+        "Where do you live?",
+        "Do you work or study?",
+        "Who do you live with?",
+        "What do you enjoy doing in your free time?"
+      ]
+    },
+    {
+      "day": 2,
+      "week": 1,
+      "title_en": "Talking about routines",
+      "title_vi": "Nói về thói quen hàng ngày",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "I usually start my day by...",
+          "meaning_vi": "Tôi thường bắt đầu ngày mới bằng...",
+          "example": "I usually start my day by checking my schedule and having coffee."
+        },
+        {
+          "chunk": "I tend to...",
+          "meaning_vi": "Tôi thường có xu hướng...",
+          "example": "I tend to wake up early on weekdays."
+        },
+        {
+          "chunk": "I spend most of my day...",
+          "meaning_vi": "Tôi dành phần lớn thời gian trong ngày để...",
+          "example": "I spend most of my day working on web applications."
+        },
+        {
+          "chunk": "I make time for...",
+          "meaning_vi": "Tôi dành thời gian cho...",
+          "example": "I try to make time for daily English practice."
+        },
+        {
+          "chunk": "I'm responsible for...",
+          "meaning_vi": "Tôi chịu trách nhiệm về...",
+          "example": "I'm responsible for building front-end user interfaces."
+        },
+        {
+          "chunk": "It depends on my schedule.",
+          "meaning_vi": "Điều đó tùy vào lịch trình của tôi.",
+          "example": "My evening routine depends on my workload."
+        },
+        {
+          "chunk": "From time to time,...",
+          "meaning_vi": "Thỉnh thoảng...",
+          "example": "From time to time, I go out for dinner with colleagues."
+        },
+        {
+          "chunk": "I'm not really a morning person.",
+          "meaning_vi": "Tôi không phải người thích dậy sớm.",
+          "example": "I'm not really a morning person, but I make sure to start work on time."
+        },
+        {
+          "chunk": "I try to maintain a routine.",
+          "meaning_vi": "Tôi cố gắng duy trì nếp sinh hoạt.",
+          "example": "I try to maintain a routine by sleeping at midnight."
+        },
+        {
+          "chunk": "At the end of the day,...",
+          "meaning_vi": "Vào cuối ngày,...",
+          "example": "At the end of the day, I like to unwind by listening to music."
+        }
+      ],
+      "model_en": "I usually start my day with a warm cup of coffee and a quick look at my daily tasks. I spend most of my day coding and testing features. At the end of the day, I always make time for English practice and relaxation.",
+      "model_vi": "Tôi thường bắt đầu ngày mới với một tách cà phê ấm và xem nhanh các đầu việc trong ngày. Tôi dành phần lớn thời gian viết code và kiểm thử tính năng. Vào cuối ngày, tôi luôn dành thời gian để luyện tiếng Anh và thư giãn.",
+      "questions": [
+        "What do you usually do in the morning?",
+        "Are your weekdays busy?",
+        "Do you have a daily routine?",
+        "Is your routine different at weekends?"
+      ]
+    },
+    {
+      "day": 3,
+      "week": 1,
+      "title_en": "Likes, dislikes, and preferences",
+      "title_vi": "Sở thích, điều không thích và sự lựa chọn",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "I'm really into...",
+          "meaning_vi": "Tôi rất thích / mê...",
+          "example": "I'm really into animated films and technology."
+        },
+        {
+          "chunk": "I'm quite fond of...",
+          "meaning_vi": "Tôi khá yêu thích...",
+          "example": "I'm quite fond of outdoor activities like fishing."
+        },
+        {
+          "chunk": "I have a preference for...",
+          "meaning_vi": "Tôi có thiên hướng thích... hơn",
+          "example": "I have a preference for working in a quiet space."
+        },
+        {
+          "chunk": "I enjoy... because...",
+          "meaning_vi": "Tôi thích... bởi vì...",
+          "example": "I enjoy programming because it allows me to solve real problems."
+        },
+        {
+          "chunk": "What I like most about... is...",
+          "meaning_vi": "Điều tôi thích nhất ở... là...",
+          "example": "What I like most about fishing is the peaceful atmosphere."
+        },
+        {
+          "chunk": "I'm not particularly keen on...",
+          "meaning_vi": "Tôi không đặc biệt hứng thú với...",
+          "example": "I'm not particularly keen on crowded clubs."
+        },
+        {
+          "chunk": "It's not really my cup of tea.",
+          "meaning_vi": "Nó không phải gu của tôi.",
+          "example": "Noisy parties are not really my cup of tea."
+        },
+        {
+          "chunk": "I'd rather... than...",
+          "meaning_vi": "Tôi thích... hơn là...",
+          "example": "I'd rather spend a quiet evening at home than go somewhere crowded."
+        },
+        {
+          "chunk": "I find... relaxing/interesting.",
+          "meaning_vi": "Tôi thấy... rất thư giãn / thú vị.",
+          "example": "I find listening to podcasts very relaxing."
+        },
+        {
+          "chunk": "It gives me a chance to...",
+          "meaning_vi": "Nó cho tôi cơ hội để...",
+          "example": "It gives me a chance to recharge my batteries."
+        }
+      ],
+      "model_en": "I'm really into outdoor activities, especially fishing by the beach. What I like most about it is the peaceful atmosphere. It gives me a great chance to clear my head after staring at code all week.",
+      "model_vi": "Tôi rất thích các hoạt động ngoài trời, đặc biệt là đi câu cá gần biển. Điều tôi thích nhất ở đó là bầu không khí yên bình. Nó cho tôi cơ hội tuyệt vời để thanh thản đầu óc sau cả tuần nhìn vào màn hình máy tính.",
+      "questions": [
+        "What kind of films do you enjoy?",
+        "Do you prefer staying at home or going out?",
+        "Is there anything you dislike doing?",
+        "What do you like most about your hobby?"
+      ]
+    },
+    {
+      "day": 4,
+      "week": 1,
+      "title_en": "Frequency and habits",
+      "title_vi": "Tần suất và thói quen sinh hoạt",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "Almost every day",
+          "meaning_vi": "Gần như mỗi ngày",
+          "example": "I code and practice English almost every day."
+        },
+        {
+          "chunk": "Once or twice a week",
+          "meaning_vi": "Một hoặc hai lần mỗi tuần",
+          "example": "I exercise once or twice a week."
+        },
+        {
+          "chunk": "Every now and then",
+          "meaning_vi": "Thỉnh thoảng, đôi khi",
+          "example": "Every now and then, I treat myself to a nice meal."
+        },
+        {
+          "chunk": "On a regular basis",
+          "meaning_vi": "Một cách thường xuyên, đều đặn",
+          "example": "I read tech blogs on a regular basis."
+        },
+        {
+          "chunk": "I rarely get the chance to...",
+          "meaning_vi": "Tôi hiếm khi có dịp / cơ hội để...",
+          "example": "I rarely get the chance to travel abroad."
+        },
+        {
+          "chunk": "I used to..., but now...",
+          "meaning_vi": "Trước đây tôi từng..., nhưng giờ...",
+          "example": "I used to stay up late, but now I try to sleep earlier."
+        },
+        {
+          "chunk": "I'm getting into the habit of...",
+          "meaning_vi": "Tôi đang hình thành thói quen...",
+          "example": "I'm getting into the habit of reviewing chunks every morning."
+        },
+        {
+          "chunk": "I try to avoid...",
+          "meaning_vi": "Tôi cố tránh...",
+          "example": "I try to avoid eating fast food."
+        },
+        {
+          "chunk": "It has become part of my routine.",
+          "meaning_vi": "Nó đã trở thành một phần nếp sinh hoạt của tôi.",
+          "example": "Practicing English has become part of my routine."
+        },
+        {
+          "chunk": "Whenever I have time,...",
+          "meaning_vi": "Bất cứ khi nào có thời gian,...",
+          "example": "Whenever I have time, I like to go fishing."
+        }
+      ],
+      "model_en": "I used to watch TV every evening, but now I spend that time learning English. I'm getting into the habit of listening to English podcasts on a regular basis, and it has already become part of my daily routine.",
+      "model_vi": "Trước đây tôi từng xem TV mỗi tối, nhưng giờ tôi dành thời gian đó để học tiếng Anh. Tôi đang hình thành thói quen nghe podcast tiếng Anh đều đặn, và nó đã trở thành một phần quen thuộc trong ngày của tôi.",
+      "questions": [
+        "How often do you exercise?",
+        "Have your habits changed over the past few years?",
+        "What is a habit you would like to develop?",
+        "How often do you meet your friends?"
+      ]
+    },
+    {
+      "day": 5,
+      "week": 1,
+      "title_en": "Places and hometown",
+      "title_vi": "Địa điểm và quê hương",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "It's located in...",
+          "meaning_vi": "Nó nằm ở...",
+          "example": "Da Nang is located in central Vietnam."
+        },
+        {
+          "chunk": "It's well known for...",
+          "meaning_vi": "Nơi đó nổi tiếng về...",
+          "example": "It's well known for its stunning bridges and beautiful beaches."
+        },
+        {
+          "chunk": "One thing I like about the area is...",
+          "meaning_vi": "Một điều tôi thích ở khu vực đó là...",
+          "example": "One thing I like about the area is the relaxed lifestyle."
+        },
+        {
+          "chunk": "It's within walking distance of...",
+          "meaning_vi": "Nó cách... một quãng đi bộ ngắn.",
+          "example": "My apartment is within walking distance of the beach."
+        },
+        {
+          "chunk": "It's a relatively peaceful place.",
+          "meaning_vi": "Đó là một nơi tương đối yên bình.",
+          "example": "Compared to big cities, it's a relatively peaceful place."
+        },
+        {
+          "chunk": "It can get quite crowded.",
+          "meaning_vi": "Nơi đó có thể trở nên khá đông đúc.",
+          "example": "During tourist season, the waterfront can get quite crowded."
+        },
+        {
+          "chunk": "There are plenty of...",
+          "meaning_vi": "Có rất nhiều...",
+          "example": "There are plenty of seafood restaurants and coffee shops."
+        },
+        {
+          "chunk": "The area has changed considerably.",
+          "meaning_vi": "Khu vực này đã thay đổi đáng kể.",
+          "example": "The area has changed considerably over the last decade."
+        },
+        {
+          "chunk": "It's a convenient place to live.",
+          "meaning_vi": "Đó là nơi sống rất tiện lợi.",
+          "example": "Everything is close by, so it's a convenient place to live."
+        },
+        {
+          "chunk": "I feel a strong connection to...",
+          "meaning_vi": "Tôi có sự gắn bó sâu sắc với...",
+          "example": "I feel a strong connection to my hometown."
+        }
+      ],
+      "model_en": "I live in Da Nang, which is located in central Vietnam. It's well known for beautiful beaches and modern bridges. What I like most is that it's a convenient place to live with a relatively peaceful atmosphere.",
+      "model_vi": "Tôi sống ở Đà Nẵng, thành phố nằm ở miền Trung Việt Nam. Nơi đây nổi tiếng với những bãi biển đẹp và các cây cầu hiện đại. Điều tôi thích nhất là nơi đây sống rất tiện lợi và có bầu không khí tương đối thanh bình.",
+      "questions": [
+        "Where is your hometown located?",
+        "What do you like most about your hometown?",
+        "Has your hometown changed much recently?",
+        "Would you prefer to live in a big city or a small town?"
+      ]
+    },
+    {
+      "day": 6,
+      "week": 1,
+      "title_en": "Giving reasons and examples",
+      "title_vi": "Nêu lý do và đưa ví dụ minh họa",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "The main reason is that...",
+          "meaning_vi": "Lý do chính là vì...",
+          "example": "The main reason is that it gives me access to global opportunities."
+        },
+        {
+          "chunk": "One reason for this is...",
+          "meaning_vi": "Một lý do cho điều này là...",
+          "example": "One reason for this is the rapid growth of remote work."
+        },
+        {
+          "chunk": "This is mainly because...",
+          "meaning_vi": "Điều này chủ yếu là vì...",
+          "example": "This is mainly because web technologies evolve very fast."
+        },
+        {
+          "chunk": "Another factor is...",
+          "meaning_vi": "Một yếu tố khác là...",
+          "example": "Another factor is personal interest in problem-solving."
+        },
+        {
+          "chunk": "For example,...",
+          "meaning_vi": "Ví dụ,...",
+          "example": "For example, I can communicate with international clients."
+        },
+        {
+          "chunk": "A good example would be...",
+          "meaning_vi": "Một ví dụ điển hình là...",
+          "example": "A good example would be reading technical documentation in English."
+        },
+        {
+          "chunk": "This means that...",
+          "meaning_vi": "Điều này có nghĩa là...",
+          "example": "This means that developers must keep learning continuously."
+        },
+        {
+          "chunk": "As a result,...",
+          "meaning_vi": "Kết quả là,...",
+          "example": "As a result, my confidence in speaking has improved."
+        },
+        {
+          "chunk": "That's why...",
+          "meaning_vi": "Đó là lý do tại sao...",
+          "example": "That's why I spend an hour every evening practicing."
+        },
+        {
+          "chunk": "In particular,...",
+          "meaning_vi": "Đặc biệt là...",
+          "example": "I enjoy front-end frameworks, in particular React and Next.js."
+        }
+      ],
+      "model_en": "I enjoy learning English. The main reason is that it gives me access to international tech resources. For example, I can watch programming tutorials, read official docs, and understand discussions on GitHub.",
+      "model_vi": "Tôi thích học tiếng Anh. Lý do chính là nó giúp tôi tiếp cận các nguồn tài liệu công nghệ quốc tế. Ví dụ, tôi có thể xem video hướng dẫn lập trình, đọc tài liệu chính thức và hiểu thảo luận trên GitHub.",
+      "questions": [
+        "Why did you choose your current career?",
+        "Why is learning English important to you?",
+        "Why do many people like living in coastal cities?",
+        "Can you give an example of a difficult problem you solved?"
+      ]
+    },
+    {
+      "day": 7,
+      "week": 1,
+      "title_en": "Review & speaking checkpoint 1",
+      "title_vi": "Ôn tập & Kiểm tra phản xạ tuần 1",
+      "type": "checkpoint",
+      "chunks": [
+        {
+          "chunk": "Self-introduction recall",
+          "meaning_vi": "Nói 5 cách giới thiệu bản thân không cần nhìn tài liệu.",
+          "example": "My name is... / I currently work as... / I'm originally from..."
+        },
+        {
+          "chunk": "Likes & preferences recall",
+          "meaning_vi": "Nói 5 cụm từ biểu đạt sở thích.",
+          "example": "I'm really into... / What I like most about... is... / I'd rather... than..."
+        },
+        {
+          "chunk": "Habits & frequency recall",
+          "meaning_vi": "Nói 5 cụm từ chỉ tần suất.",
+          "example": "Almost every day / On a regular basis / Every now and then"
+        },
+        {
+          "chunk": "Reasons & examples recall",
+          "meaning_vi": "Nói 5 cụm từ nêu lý do và ví dụ.",
+          "example": "The main reason is that... / For example... / A good example would be..."
+        }
+      ],
+      "checkpoint_task": {
+        "instructions": "Hãy bấm nút thu âm trên điện thoại/máy tính và trả lời lần lượt 5 câu hỏi dưới đây thành tiếng không ngừng nghỉ (45-60 giây/câu). Sau đó nghe lại để tự đánh giá.",
+        "questions": [
+          "Where do you live and what do you like about it?",
+          "What do you do for a living?",
+          "What do you usually do in your free time?",
+          "Do you prefer spending time alone or with friends?",
+          "Why is learning English important for your future?"
+        ],
+        "checklist": [
+          "Bạn có trả lời trực tiếp câu hỏi (A) không?",
+          "Bạn có thêm lý do (R) và ví dụ/chi tiết (D) không?",
+          "Bạn có bị ngập ngừng quá lâu ở chỗ nào không?",
+          "Có lỗi ngữ pháp nào bị lặp lại nhiều lần không?"
+        ]
+      }
+    },
+    {
+      "day": 8,
+      "week": 2,
+      "title_en": "Describing people",
+      "title_vi": "Miêu tả người",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "Someone I really admire is...",
+          "meaning_vi": "Người mà tôi thực sự ngưỡng mộ là...",
+          "example": "Someone I really admire is my team leader."
+        },
+        {
+          "chunk": "I've known them for...",
+          "meaning_vi": "Tôi đã biết họ được...",
+          "example": "I've known them for about three years."
+        },
+        {
+          "chunk": "We first met when...",
+          "meaning_vi": "Chúng tôi gặp nhau lần đầu khi...",
+          "example": "We first met when I joined the company."
+        },
+        {
+          "chunk": "What stands out about them is...",
+          "meaning_vi": "Điều nổi bật nhất ở họ là...",
+          "example": "What stands out about them is their calm attitude under pressure."
+        },
+        {
+          "chunk": "They have a great sense of humour.",
+          "meaning_vi": "Họ có khiếu hài hước tuyệt vời.",
+          "example": "They have a great sense of humour, which makes meetings fun."
+        },
+        {
+          "chunk": "They're easy to get along with.",
+          "meaning_vi": "Họ rất dễ hòa đồng và gần gũi.",
+          "example": "She is very approachable and easy to get along with."
+        },
+        {
+          "chunk": "I can always count on them.",
+          "meaning_vi": "Tôi luôn có thể tin cậy ở họ.",
+          "example": "Whenever I run into a complex bug, I can always count on them."
+        },
+        {
+          "chunk": "They have had a positive influence on me.",
+          "meaning_vi": "Họ có ảnh hưởng tích cực lớn đến tôi.",
+          "example": "He has had a positive influence on my coding habits."
+        },
+        {
+          "chunk": "I look up to them because...",
+          "meaning_vi": "Tôi noi gương / kính trọng họ vì...",
+          "example": "I look up to them because of their deep technical expertise."
+        },
+        {
+          "chunk": "We have a lot in common.",
+          "meaning_vi": "Chúng tôi có rất nhiều điểm chung.",
+          "example": "We have a lot in common, including a passion for web development."
+        }
+      ],
+      "model_en": "Someone I really admire is my senior colleague at work. I've known him for two years. What stands out about him is his patience when explaining complex technical concepts. He has had a very positive influence on my career.",
+      "model_vi": "Người tôi rất ngưỡng mộ là một đồng nghiệp cấp cao tại nơi làm việc. Tôi quen anh ấy được hai năm. Điều nổi bật ở anh là sự kiên nhẫn khi giải thích các khái niệm kỹ thuật phức tạp. Anh ấy đã có ảnh hưởng rất tích cực đến sự nghiệp của tôi.",
+      "questions": [
+        "Who is a person you admire most?",
+        "Do you have a close friend from work or university?",
+        "What qualities make someone a good leader?",
+        "How has a mentor helped you in your life?"
+      ]
+    },
+    {
+      "day": 9,
+      "week": 2,
+      "title_en": "Describing experiences",
+      "title_vi": "Miêu tả trải nghiệm đáng nhớ",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "I'll never forget the time when...",
+          "meaning_vi": "Tôi sẽ không bao giờ quên lần...",
+          "example": "I'll never forget the time when we launched our first web project."
+        },
+        {
+          "chunk": "It happened a few years ago.",
+          "meaning_vi": "Chuyện đó xảy ra vài năm trước.",
+          "example": "It happened a few years ago when I was junior developer."
+        },
+        {
+          "chunk": "At first,...",
+          "meaning_vi": "Ban đầu,...",
+          "example": "At first, I felt nervous and overwhelmed."
+        },
+        {
+          "chunk": "As the day went on,...",
+          "meaning_vi": "Khi ngày hôm đó trôi qua,...",
+          "example": "As the day went on, things started falling into place."
+        },
+        {
+          "chunk": "To my surprise,...",
+          "meaning_vi": "Thật bất ngờ,...",
+          "example": "To my surprise, the website received thousands of visits."
+        },
+        {
+          "chunk": "The most memorable part was...",
+          "meaning_vi": "Phần đáng nhớ nhất là...",
+          "example": "The most memorable part was seeing positive feedback from real users."
+        },
+        {
+          "chunk": "I learned a valuable lesson.",
+          "meaning_vi": "Tôi đã học được một bài học quý giá.",
+          "example": "I learned a valuable lesson about testing before deploying."
+        },
+        {
+          "chunk": "Looking back,...",
+          "meaning_vi": "Nhìn lại chuyện đã qua,...",
+          "example": "Looking back, that challenge helped me mature a lot."
+        },
+        {
+          "chunk": "It turned out to be...",
+          "meaning_vi": "Hóa ra đó lại là...",
+          "example": "It turned out to be one of the best decisions of my life."
+        },
+        {
+          "chunk": "It was an experience I'll always remember.",
+          "meaning_vi": "Đó là một trải nghiệm tôi sẽ luôn ghi nhớ.",
+          "example": "Working through the night with my team was an experience I'll always remember."
+        }
+      ],
+      "model_en": "I'll never forget the time when our team released a major update for a client's website. At first, there were some unexpected bugs, but we stayed calm and fixed them. Looking back, it was an experience that taught me the value of teamwork.",
+      "model_vi": "Tôi sẽ không bao giờ quên lần đội ngũ của chúng tôi phát hành bản cập nhật lớn cho website của khách hàng. Ban đầu có vài lỗi phát sinh ngoài dự kiến, nhưng chúng tôi giữ bình tĩnh và xử lý xong. Nhìn lại, đó là trải nghiệm dạy cho tôi giá trị của tinh thần đồng đội.",
+      "questions": [
+        "Describe a memorable experience from your work or studies.",
+        "Have you ever experienced a difficult situation that turned out well?",
+        "What was the most exciting trip you have ever taken?",
+        "Can you share an experience where you learned an important lesson?"
+      ]
+    },
+    {
+      "day": 10,
+      "week": 2,
+      "title_en": "Talking about the past",
+      "title_vi": "Kể về quá khứ và sự đổi thay",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "When I was younger,...",
+          "meaning_vi": "Khi tôi còn nhỏ hơn / trẻ hơn,...",
+          "example": "When I was younger, I spent a lot of time playing video games."
+        },
+        {
+          "chunk": "I used to...",
+          "meaning_vi": "Trước đây tôi từng thường...",
+          "example": "I used to write code without proper version control."
+        },
+        {
+          "chunk": "Back then,...",
+          "meaning_vi": "Hồi đó,...",
+          "example": "Back then, there were fewer online learning resources."
+        },
+        {
+          "chunk": "I remember that...",
+          "meaning_vi": "Tôi nhớ rằng...",
+          "example": "I remember that building my first website took weeks."
+        },
+        {
+          "chunk": "I didn't use to..., but now I...",
+          "meaning_vi": "Trước đây tôi không..., nhưng giờ tôi...",
+          "example": "I didn't use to exercise, but now I stay active regularly."
+        },
+        {
+          "chunk": "It was quite different from...",
+          "meaning_vi": "Nó khá khác so với...",
+          "example": "My lifestyle back then was quite different from what it is today."
+        },
+        {
+          "chunk": "Over the years,...",
+          "meaning_vi": "Qua nhiều năm,...",
+          "example": "Over the years, web development tools have become much more powerful."
+        },
+        {
+          "chunk": "Since then,...",
+          "meaning_vi": "Kể từ đó đến nay,...",
+          "example": "Since then, I have built dozens of web applications."
+        },
+        {
+          "chunk": "I have gradually become...",
+          "meaning_vi": "Tôi đã dần dần trở nên...",
+          "example": "I have gradually become much more confident in my skills."
+        },
+        {
+          "chunk": "It brings back memories of...",
+          "meaning_vi": "Nó gợi lại kỷ niệm về...",
+          "example": "Visiting my old school always brings back memories of my student days."
+        }
+      ],
+      "model_en": "When I was younger, I used to spend hours tinkering with computer hardware. Over the years, I gradually became more interested in software and web development. Since then, technology has become an essential part of my life.",
+      "model_vi": "Khi còn nhỏ, tôi từng dành hàng giờ mày mò phần cứng máy tính. Qua năm tháng, tôi dần chuyển sang đam mê phần mềm và phát triển web. Kể từ đó, công nghệ đã trở thành một phần không thể thiếu trong cuộc sống của tôi.",
+      "questions": [
+        "How has your hometown changed compared to the past?",
+        "What hobbies did you enjoy when you were younger?",
+        "Has technology changed the way people communicate?",
+        "What did you use to do on school holidays?"
+      ]
+    },
+    {
+      "day": 11,
+      "week": 2,
+      "title_en": "Talking about the future",
+      "title_vi": "Nói về dự định và tương lai",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "I'm hoping to...",
+          "meaning_vi": "Tôi đang hy vọng sẽ...",
+          "example": "I'm hoping to achieve an IELTS Band 7.5 or higher."
+        },
+        {
+          "chunk": "I plan to...",
+          "meaning_vi": "Tôi dự định sẽ...",
+          "example": "I plan to work on remote projects for international companies."
+        },
+        {
+          "chunk": "I'm thinking of...",
+          "meaning_vi": "Tôi đang cân nhắc việc...",
+          "example": "I'm thinking of learning cloud computing and DevOps."
+        },
+        {
+          "chunk": "I'd love to...",
+          "meaning_vi": "Tôi rất muốn / khao khát...",
+          "example": "I'd love to travel to English-speaking countries."
+        },
+        {
+          "chunk": "My long-term goal is to...",
+          "meaning_vi": "Mục tiêu dài hạn của tôi là...",
+          "example": "My long-term goal is to become a technical lead."
+        },
+        {
+          "chunk": "I'm working towards...",
+          "meaning_vi": "Tôi đang nỗ lực hướng tới...",
+          "example": "I'm working towards mastering full-stack web architecture."
+        },
+        {
+          "chunk": "If everything goes well,...",
+          "meaning_vi": "Nếu mọi việc diễn ra thuận lợi,...",
+          "example": "If everything goes well, I will take the IELTS test next year."
+        },
+        {
+          "chunk": "In the next few years,...",
+          "meaning_vi": "Trong vài năm tới,...",
+          "example": "In the next few years, I expect AI tools to change software development."
+        },
+        {
+          "chunk": "I'm not entirely sure yet.",
+          "meaning_vi": "Tôi vẫn chưa hoàn toàn chắc chắn.",
+          "example": "Whether I will relocate or stay in Da Nang, I'm not entirely sure yet."
+        },
+        {
+          "chunk": "It's something I'd like to pursue.",
+          "meaning_vi": "Đó là điều tôi muốn theo đuổi.",
+          "example": "Building my own SaaS product is something I'd like to pursue."
+        }
+      ],
+      "model_en": "My long-term goal is to become a lead developer working with international clients. If everything goes well, I'm hoping to achieve high English fluency to collaborate seamlessly with engineers across the world.",
+      "model_vi": "Mục tiêu dài hạn của tôi là trở thành lập trình viên trưởng làm việc cùng các đối tác quốc tế. Nếu mọi việc thuận lợi, tôi hy vọng đạt trình độ tiếng Anh thông thạo để làm việc ăn ý với các kỹ sư trên toàn cầu.",
+      "questions": [
+        "What are your career plans for the next few years?",
+        "Where do you see yourself in five years' time?",
+        "Is there a country you would love to visit in the future?",
+        "What new skill are you planning to learn next?"
+      ]
+    },
+    {
+      "day": 12,
+      "week": 2,
+      "title_en": "Comparing and contrasting",
+      "title_vi": "So sánh và đối chiếu",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "Compared with...",
+          "meaning_vi": "So sánh với...",
+          "example": "Compared with living in a mega-city, Da Nang offers a much calmer life."
+        },
+        {
+          "chunk": "In contrast,...",
+          "meaning_vi": "Ngược lại,...",
+          "example": "Big cities are bustling; in contrast, coastal towns are peaceful."
+        },
+        {
+          "chunk": "Whereas...",
+          "meaning_vi": "Trong khi đó,...",
+          "example": "Some people prefer office work, whereas I prefer remote flexibility."
+        },
+        {
+          "chunk": "Both... and...",
+          "meaning_vi": "Cả... và...",
+          "example": "Both front-end and back-end skills are essential for full-stack work."
+        },
+        {
+          "chunk": "The main difference is...",
+          "meaning_vi": "Khác biệt cốt lõi là...",
+          "example": "The main difference is the level of autonomy you have."
+        },
+        {
+          "chunk": "One advantage of... is...",
+          "meaning_vi": "Một lợi thế của... là...",
+          "example": "One advantage of working remotely is saving commute time."
+        },
+        {
+          "chunk": "On the other hand,...",
+          "meaning_vi": "Mặt khác,...",
+          "example": "On the other hand, it requires high self-discipline."
+        },
+        {
+          "chunk": "It's more convenient than...",
+          "meaning_vi": "Nó tiện lợi hơn...",
+          "example": "Online communication is more convenient than meeting in person."
+        },
+        {
+          "chunk": "They have quite different features.",
+          "meaning_vi": "Chúng có các đặc điểm khá khác nhau.",
+          "example": "Native apps and web apps have quite different features."
+        },
+        {
+          "chunk": "It depends on the situation.",
+          "meaning_vi": "Điều đó tùy thuộc vào hoàn cảnh cụ thể.",
+          "example": "Whether to choose React or Vue depends on the situation."
+        }
+      ],
+      "model_en": "Compared with working in a crowded office, working from home saves me a lot of commute time. One major advantage is having a flexible schedule. On the other hand, it requires much stronger self-discipline.",
+      "model_vi": "So với làm việc tại văn phòng đông đúc, làm việc từ xa giúp tôi tiết kiệm nhiều thời gian di chuyển. Một lợi thế lớn là lịch trình linh hoạt. Mặt khác, nó đòi hỏi tính kỷ luật bản thân cao hơn rất nhiều.",
+      "questions": [
+        "Do you prefer living in a house or an apartment?",
+        "Is it better to work for a large company or a small start-up?",
+        "How does online shopping compare with traditional shopping?",
+        "Do young people today have different hobbies compared to their parents?"
+      ]
+    },
+    {
+      "day": 13,
+      "week": 2,
+      "title_en": "Explaining problems and solutions",
+      "title_vi": "Trình bày vấn đề và giải pháp",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "One common problem is...",
+          "meaning_vi": "Một vấn đề phổ biến là...",
+          "example": "One common problem is sitting in front of a screen for too long."
+        },
+        {
+          "chunk": "This can lead to...",
+          "meaning_vi": "Điều này có thể dẫn tới...",
+          "example": "This can lead to eye strain and back pain."
+        },
+        {
+          "chunk": "One possible solution would be to...",
+          "meaning_vi": "Một giải pháp khả thi là...",
+          "example": "One possible solution would be to take regular 5-minute breaks."
+        },
+        {
+          "chunk": "It would be helpful if...",
+          "meaning_vi": "Sẽ rất hữu ích nếu...",
+          "example": "It would be helpful if companies encouraged ergonomic workplaces."
+        },
+        {
+          "chunk": "The best way to deal with this is...",
+          "meaning_vi": "Cách tốt nhất để xử lý việc này là...",
+          "example": "The best way to deal with this is establishing a healthy daily routine."
+        },
+        {
+          "chunk": "We should take steps to...",
+          "meaning_vi": "Chúng ta nên thực hiện các bước để...",
+          "example": "We should take steps to protect our physical and mental health."
+        },
+        {
+          "chunk": "It may not be easy to...",
+          "meaning_vi": "Có thể không dễ dàng để...",
+          "example": "It may not be easy to maintain consistency, but it pays off."
+        },
+        {
+          "chunk": "In the long run,...",
+          "meaning_vi": "Về lâu dài,...",
+          "example": "In the long run, small daily habits make a big difference."
+        },
+        {
+          "chunk": "This could make a real difference.",
+          "meaning_vi": "Điều này có thể tạo nên sự khác biệt thực sự.",
+          "example": "Practicing English aloud every day could make a real difference."
+        },
+        {
+          "chunk": "It's important to strike a balance.",
+          "meaning_vi": "Điều quan trọng là phải tạo được sự cân bằng.",
+          "example": "It's important to strike a balance between work and relaxation."
+        }
+      ],
+      "model_en": "One common problem in the tech industry is burnout caused by tight deadlines. One effective solution would be for teams to manage workloads realistically. In the long run, it's essential to strike a healthy balance between hard work and rest.",
+      "model_vi": "Một vấn đề phổ biến trong ngành công nghệ là kiệt sức do áp lực tiến độ. Một giải pháp hiệu quả là các đội ngũ cần quản lý khối lượng công việc thực tế hơn. Về lâu dài, điều thiết yếu là duy trì sự cân bằng giữa làm việc hết mình và nghỉ ngơi.",
+      "questions": [
+        "What is a major problem people face in modern workplaces?",
+        "How can people reduce stress in daily life?",
+        "What can be done to solve traffic congestion in big cities?",
+        "How can students stay motivated when learning languages?"
+      ]
+    },
+    {
+      "day": 14,
+      "week": 2,
+      "title_en": "Review & speaking checkpoint 2",
+      "title_vi": "Ôn tập & Kiểm tra phản xạ tuần 2",
+      "type": "checkpoint",
+      "chunks": [
+        {
+          "chunk": "Describing people recall",
+          "meaning_vi": "Nói về 1 người bạn ngưỡng mộ trong 60 giây.",
+          "example": "Someone I really admire is... / What stands out about them is..."
+        },
+        {
+          "chunk": "Describing experiences recall",
+          "meaning_vi": "Kể về 1 kỷ niệm đáng nhớ trong 60 giây.",
+          "example": "I'll never forget the time when... / Looking back..."
+        },
+        {
+          "chunk": "Future goals recall",
+          "meaning_vi": "Nói về dự định tương lai trong 60 giây.",
+          "example": "My long-term goal is to... / I'm working towards..."
+        },
+        {
+          "chunk": "Comparing & solving recall",
+          "meaning_vi": "So sánh 2 thứ và đề xuất giải pháp.",
+          "example": "Compared with... / One common problem is... / One possible solution would be to..."
+        }
+      ],
+      "checkpoint_task": {
+        "instructions": "Chọn 3 chủ đề: 1 người bạn ngưỡng mộ, 1 kỷ niệm đáng nhớ, và 1 kế hoạch tương lai. Nói mỗi chủ đề 45-60 giây, áp dụng ít nhất 3 chunks của tuần 2. Ghi âm và so sánh độ trôi chảy với tuần 1.",
+        "questions": [
+          "Describe a person who has had a positive influence on you.",
+          "Describe a memorable challenge you experienced and overcame.",
+          "What are your main ambitions for the next five years?"
+        ],
+        "checklist": [
+          "Bạn đã dùng liên từ so sánh (compared with, whereas, on the other hand) chưa?",
+          "Bạn có kể chuyện theo tiến trình thời gian (At first, As time went on, Looking back) không?",
+          "Độ ngập ngừng có giảm so với tuần 1 không?"
+        ]
+      }
+    },
+    {
+      "day": 15,
+      "week": 3,
+      "title_en": "Work and study",
+      "title_vi": "Công việc và học tập (IELTS Part 1 & 2)",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "I'm currently working as...",
+          "meaning_vi": "Hiện tôi đang làm việc với tư cách là...",
+          "example": "I'm currently working as a front-end developer."
+        },
+        {
+          "chunk": "My main responsibilities include...",
+          "meaning_vi": "Trách nhiệm chính của tôi bao gồm...",
+          "example": "My main responsibilities include developing web interfaces and writing tests."
+        },
+        {
+          "chunk": "What I enjoy most about my work is...",
+          "meaning_vi": "Điều tôi thích nhất ở công việc là...",
+          "example": "What I enjoy most about my work is building tools that people use every day."
+        },
+        {
+          "chunk": "It can be challenging at times.",
+          "meaning_vi": "Đôi lúc công việc có thể đầy thách thức.",
+          "example": "Debugging tricky performance issues can be challenging at times."
+        },
+        {
+          "chunk": "I'm studying... because...",
+          "meaning_vi": "Tôi đang học... bởi vì...",
+          "example": "I'm studying English because it expands my career horizons."
+        },
+        {
+          "chunk": "I'm particularly interested in...",
+          "meaning_vi": "Tôi đặc biệt quan tâm đến...",
+          "example": "I'm particularly interested in modern web frameworks."
+        },
+        {
+          "chunk": "It requires a lot of...",
+          "meaning_vi": "Nó đòi hỏi nhiều...",
+          "example": "Web development requires a lot of continuous learning."
+        },
+        {
+          "chunk": "I've gained valuable experience in...",
+          "meaning_vi": "Tôi đã tích lũy kinh nghiệm quý báu về...",
+          "example": "I've gained valuable experience in agile teamwork."
+        },
+        {
+          "chunk": "I'd like to develop my skills in...",
+          "meaning_vi": "Tôi muốn nâng cao kỹ năng về...",
+          "example": "I'd like to develop my skills in software architecture."
+        },
+        {
+          "chunk": "It opens up more opportunities.",
+          "meaning_vi": "Nó mở ra nhiều cơ hội hơn.",
+          "example": "Having solid English skills opens up more international job opportunities."
+        }
+      ],
+      "model_en": "I'm currently working as a web developer. My main responsibilities include building responsive user interfaces and integrating backend APIs. What I enjoy most is turning complex requirements into clean, user-friendly applications.",
+      "model_vi": "Hiện tôi đang làm lập trình viên web. Trách nhiệm chính của tôi bao gồm xây dựng giao diện người dùng thích ứng và tích hợp API backend. Điều tôi thích nhất là biến các yêu cầu phức tạp thành ứng dụng trực quan, thân thiện với người dùng.",
+      "questions": [
+        "What is your current job or area of study?",
+        "What do you find most interesting about your field?",
+        "What are the biggest challenges you face at work or university?",
+        "How do you think your profession will change in the future?"
+      ]
+    },
+    {
+      "day": 16,
+      "week": 3,
+      "title_en": "Home, hometown, and accommodation",
+      "title_vi": "Nhà ở, quê hương và không gian sống",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "I live in a...",
+          "meaning_vi": "Tôi sống trong một...",
+          "example": "I live in a modern apartment with my family."
+        },
+        {
+          "chunk": "It's situated in...",
+          "meaning_vi": "Nó tọa lạc tại...",
+          "example": "It's situated in a quiet residential district."
+        },
+        {
+          "chunk": "The thing I like most about my home is...",
+          "meaning_vi": "Điều tôi thích nhất về ngôi nhà của mình là...",
+          "example": "The thing I like most about my home is the natural sunlight in my room."
+        },
+        {
+          "chunk": "My neighbourhood is fairly...",
+          "meaning_vi": "Khu dân cư nơi tôi sống khá...",
+          "example": "My neighbourhood is fairly safe and friendly."
+        },
+        {
+          "chunk": "It's close to...",
+          "meaning_vi": "Nó rất gần với...",
+          "example": "It's close to local supermarkets and coffee shops."
+        },
+        {
+          "chunk": "One drawback is that...",
+          "meaning_vi": "Một điểm trừ là...",
+          "example": "One drawback is that public transport is somewhat limited."
+        },
+        {
+          "chunk": "If I could change one thing, I'd...",
+          "meaning_vi": "Nếu có thể thay đổi một điều, tôi sẽ...",
+          "example": "If I could change one thing, I'd set up a larger home office."
+        },
+        {
+          "chunk": "I've lived there for...",
+          "meaning_vi": "Tôi đã sống ở đó được...",
+          "example": "I've lived there for over five years."
+        },
+        {
+          "chunk": "It's a convenient place for...",
+          "meaning_vi": "Đó là nơi rất tiện cho...",
+          "example": "It's a convenient place for both working from home and relaxing."
+        },
+        {
+          "chunk": "I can see myself living there in the future.",
+          "meaning_vi": "Tôi có thể thấy mình sẽ tiếp tục sống ở đó trong tương lai.",
+          "example": "Because of its great atmosphere, I can see myself living there for many more years."
+        }
+      ],
+      "model_en": "I live in an apartment with my family in Da Nang. It's situated in a convenient neighbourhood, close to the beach and local markets. The thing I like most about my home is that it feels peaceful and comfortable.",
+      "model_vi": "Tôi sống trong một căn hộ cùng gia đình ở Đà Nẵng. Nó tọa lạc tại khu dân cư tiện lợi, gần bãi biển và chợ địa phương. Điều tôi thích nhất ở ngôi nhà là cảm giác bình yên và ấm cúng.",
+      "questions": [
+        "Can you describe the home you currently live in?",
+        "What is your favourite room in your house?",
+        "What kind of accommodation would you like to live in in the future?",
+        "How well do you know your neighbours?"
+      ]
+    },
+    {
+      "day": 17,
+      "week": 3,
+      "title_en": "Hobbies, entertainment, and free time",
+      "title_vi": "Sở thích, giải trí và thời gian rảnh",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "I usually spend my free time...",
+          "meaning_vi": "Tôi thường dành thời gian rảnh để...",
+          "example": "I usually spend my free time fishing or reading tech articles."
+        },
+        {
+          "chunk": "I'm a big fan of...",
+          "meaning_vi": "Tôi là một người rất hâm mộ / thích...",
+          "example": "I'm a big fan of anime and animated films."
+        },
+        {
+          "chunk": "I find it a great way to...",
+          "meaning_vi": "Tôi thấy đó là cách tuyệt vời để...",
+          "example": "I find fishing a great way to escape the busy screen life."
+        },
+        {
+          "chunk": "It helps me take my mind off...",
+          "meaning_vi": "Nó giúp tôi giải tỏa tâm trí khỏi...",
+          "example": "It helps me take my mind off work pressure."
+        },
+        {
+          "chunk": "I recently got into...",
+          "meaning_vi": "Gần đây tôi mới bắt đầu thích...",
+          "example": "I recently got into listening to IELTS speaking podcasts."
+        },
+        {
+          "chunk": "I used to be more interested in...",
+          "meaning_vi": "Trước đây tôi từng hứng thú hơn với...",
+          "example": "I used to be more interested in video games, but now I prefer outdoor activities."
+        },
+        {
+          "chunk": "I enjoy it mainly because...",
+          "meaning_vi": "Tôi thích nó chủ yếu là vì...",
+          "example": "I enjoy it mainly because of the peaceful sensation it brings."
+        },
+        {
+          "chunk": "It's something I can do on my own.",
+          "meaning_vi": "Đó là điều tôi có thể tự làm một mình.",
+          "example": "Coding personal projects is something I can do on my own."
+        },
+        {
+          "chunk": "It's a good opportunity to spend time with...",
+          "meaning_vi": "Đó là cơ hội tốt để dành thời gian cùng...",
+          "example": "Weekend dinners are a good opportunity to spend time with family."
+        },
+        {
+          "chunk": "I would recommend it to anyone who...",
+          "meaning_vi": "Tôi khuyên việc này cho bất cứ ai...",
+          "example": "I would recommend fishing to anyone who needs mental relaxation."
+        }
+      ],
+      "model_en": "In my free time, I'm a big fan of fishing by the sea. I find it a great way to unwind and take my mind off deadlines. It's something I can do either on my own or with good friends.",
+      "model_vi": "Vào thời gian rảnh, tôi rất thích đi câu cá bên bờ biển. Tôi thấy đó là cách tuyệt vời để xả hơi và giải tỏa tâm trí khỏi các deadline. Đó là thú vui tôi có thể tận hưởng một mình hoặc cùng bạn bè thân thiết.",
+      "questions": [
+        "What do you usually do at weekends?",
+        "Do you have any hobbies that help you relax?",
+        "Did you have different hobbies when you were a child?",
+        "If you had more free time, what new activity would you take up?"
+      ]
+    },
+    {
+      "day": 18,
+      "week": 3,
+      "title_en": "Food, health, and lifestyle",
+      "title_vi": "Ẩm thực, sức khỏe và lối sống",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "I try to eat a balanced diet.",
+          "meaning_vi": "Tôi cố gắng ăn uống theo chế độ cân bằng.",
+          "example": "I try to eat a balanced diet with plenty of vegetables and fish."
+        },
+        {
+          "chunk": "I don't always have time to cook.",
+          "meaning_vi": "Tôi không phải lúc nào cũng có thời gian nấu nướng.",
+          "example": "On busy workdays, I don't always have time to cook elaborate meals."
+        },
+        {
+          "chunk": "I'm quite conscious of my health.",
+          "meaning_vi": "Tôi khá chú ý đến sức khỏe của mình.",
+          "example": "Sitting long hours makes me conscious of my physical health."
+        },
+        {
+          "chunk": "I try to stay physically active.",
+          "meaning_vi": "Tôi cố gắng duy trì vận động thể chất.",
+          "example": "I try to stay physically active by going for walks near the beach."
+        },
+        {
+          "chunk": "It's important to get enough sleep.",
+          "meaning_vi": "Việc ngủ đủ giấc là rất quan trọng.",
+          "example": "It's important to get enough sleep so you can focus during work."
+        },
+        {
+          "chunk": "I occasionally treat myself to...",
+          "meaning_vi": "Thỉnh thoảng tôi tự thưởng cho mình...",
+          "example": "I occasionally treat myself to fresh seafood with friends."
+        },
+        {
+          "chunk": "I prefer home-cooked meals.",
+          "meaning_vi": "Tôi thích các bữa cơm nấu tại nhà hơn.",
+          "example": "I prefer home-cooked meals because they are healthier and fresher."
+        },
+        {
+          "chunk": "It depends on my appetite.",
+          "meaning_vi": "Điều đó tùy thuộc vào khẩu vị / cảm giác thèm ăn.",
+          "example": "What I have for breakfast depends on my appetite."
+        },
+        {
+          "chunk": "I've been trying to cut down on...",
+          "meaning_vi": "Tôi đang cố gắng giảm bớt...",
+          "example": "I've been trying to cut down on sugary drinks and late snacks."
+        },
+        {
+          "chunk": "A healthy lifestyle requires consistency.",
+          "meaning_vi": "Lối sống lành mạnh đòi hỏi sự kiên trì đều đặn.",
+          "example": "Staying fit is not about quick fixes; it requires consistency."
+        }
+      ],
+      "model_en": "I try to maintain a healthy lifestyle by eating balanced, home-cooked meals and staying physically active. Since I spend most of my working hours sitting in front of a computer, I've been trying to cut down on late-night snacks.",
+      "model_vi": "Tôi cố gắng duy trì lối sống lành mạnh bằng các bữa cơm nấu tại nhà đầy đủ dinh dưỡng và vận động thể chất. Vì phần lớn thời gian làm việc phải ngồi trước máy tính, tôi đang cố gắng cắt giảm đồ ăn vặt ban đêm.",
+      "questions": [
+        "What kind of food do you like to eat?",
+        "Do you prefer eating at home or eating out?",
+        "What do you do to stay healthy?",
+        "Has the diet of people in your country changed recently?"
+      ]
+    },
+    {
+      "day": 19,
+      "week": 3,
+      "title_en": "Travel, transport, and places",
+      "title_vi": "Du lịch, phương tiện và khám phá",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "I enjoy exploring new places.",
+          "meaning_vi": "Tôi thích khám phá những địa điểm mới.",
+          "example": "Whenever I have a long holiday, I enjoy exploring new places."
+        },
+        {
+          "chunk": "It's a popular destination among tourists.",
+          "meaning_vi": "Nơi đó là điểm đến rất được khách du lịch ưa chuộng.",
+          "example": "Hoi An is a popular destination among international tourists."
+        },
+        {
+          "chunk": "The journey takes approximately...",
+          "meaning_vi": "Chuyến đi mất khoảng...",
+          "example": "The drive from Da Nang to Hue takes approximately two hours."
+        },
+        {
+          "chunk": "I'd rather travel by...",
+          "meaning_vi": "Tôi thích di chuyển bằng... hơn",
+          "example": "I'd rather travel by motorbike to enjoy the fresh sea breeze."
+        },
+        {
+          "chunk": "One attraction worth visiting is...",
+          "meaning_vi": "Một điểm tham quan rất đáng ghé thăm là...",
+          "example": "One attraction worth visiting is the Marble Mountains."
+        },
+        {
+          "chunk": "The scenery is absolutely beautiful.",
+          "meaning_vi": "Phong cảnh tuyệt đẹp không chê vào đâu được.",
+          "example": "The coastal scenery along Hai Van Pass is absolutely beautiful."
+        },
+        {
+          "chunk": "It's a great place to unwind.",
+          "meaning_vi": "Đó là nơi tuyệt vời để xả hơi và thư giãn.",
+          "example": "Quiet beaches are a great place to unwind after long workweeks."
+        },
+        {
+          "chunk": "I'd definitely consider going back.",
+          "meaning_vi": "Tôi chắc chắn sẽ cân nhắc quay lại nơi đó.",
+          "example": "I had such a pleasant trip that I'd definitely consider going back."
+        },
+        {
+          "chunk": "It was well worth the trip.",
+          "meaning_vi": "Chuyến đi thực sự rất xứng đáng.",
+          "example": "Even though the climb was tiring, it was well worth the trip."
+        },
+        {
+          "chunk": "I prefer travelling with...",
+          "meaning_vi": "Tôi thích đi du lịch cùng với...",
+          "example": "I prefer travelling with close friends who share similar interests."
+        }
+      ],
+      "model_en": "I enjoy exploring coastal areas across Vietnam. One attraction worth visiting is Hoi An ancient town, which is just a short drive from Da Nang. The historic architecture and vibrant lanterns make it well worth the trip.",
+      "model_vi": "Tôi rất thích khám phá các vùng biển ven dải đất miền Trung. Một điểm đến rất đáng ghé thăm là phố cổ Hội An, chỉ cách Đà Nẵng một quãng lái xe ngắn. Kiến trúc cổ kính và những chiếc đèn lồng rực rỡ khiến chuyến đi thực sự rất xứng đáng.",
+      "questions": [
+        "Do you like travelling?",
+        "What is the most memorable place you have visited?",
+        "How do you prefer to travel: alone or with others?",
+        "What means of transport do you usually use?"
+      ]
+    },
+    {
+      "day": 20,
+      "week": 3,
+      "title_en": "Part 2: 1-minute prep method",
+      "title_vi": "Phương pháp chuẩn bị Cue Card Part 2 trong 1 phút",
+      "type": "method",
+      "chunks": [
+        {
+          "chunk": "I'd like to talk about...",
+          "meaning_vi": "Tôi muốn chia sẻ về...",
+          "example": "I'd like to talk about my close friend who helped me during university."
+        },
+        {
+          "chunk": "I first met this person...",
+          "meaning_vi": "Tôi gặp người này lần đầu khi...",
+          "example": "I first met this person when we were freshmen in college."
+        },
+        {
+          "chunk": "What happened was that...",
+          "meaning_vi": "Chuyện đã diễn ra là...",
+          "example": "What happened was that I was struggling with a complex programming assignment."
+        },
+        {
+          "chunk": "One thing I particularly remember is...",
+          "meaning_vi": "Một điều tôi đặc biệt nhớ là...",
+          "example": "One thing I particularly remember is how patiently he explained the logic."
+        },
+        {
+          "chunk": "What made this experience special was...",
+          "meaning_vi": "Điều khiến trải nghiệm này đặc biệt là...",
+          "example": "What made this experience special was the genuine encouragement he gave me."
+        },
+        {
+          "chunk": "Looking back, I realize that...",
+          "meaning_vi": "Nhìn lại, tôi nhận ra rằng...",
+          "example": "Looking back, I realize that having supportive peers is invaluable."
+        }
+      ],
+      "cue_card_method": {
+        "title": "Quy tắc 5 ngón tay ghi chú nhanh trong 60 giây (Không viết cả câu, chỉ ghi từ khóa):",
+        "steps": [
+          {
+            "step": 1,
+            "name": "Identify",
+            "prompt": "Ai / Cái gì?",
+            "note": "close friend (Nam)"
+          },
+          {
+            "step": 2,
+            "name": "Background",
+            "prompt": "Khi nào & Ở đâu?",
+            "note": "university project, 3 yrs ago"
+          },
+          {
+            "step": 3,
+            "name": "Details",
+            "prompt": "Chuyện gì xảy ra cụ thể?",
+            "note": "buggy project, stayed up late explaining"
+          },
+          {
+            "step": 4,
+            "name": "Reaction",
+            "prompt": "Cảm xúc của bạn lúc đó?",
+            "note": "grateful, relieved"
+          },
+          {
+            "step": 5,
+            "name": "Reflection",
+            "prompt": "Bài học / Ý nghĩa sâu xa?",
+            "note": "teamwork, peer support matters"
+          }
+        ],
+        "sample_card": "Describe a person who has helped you."
+      }
+    },
+    {
+      "day": 21,
+      "week": 3,
+      "title_en": "Part 2 cue-card practice",
+      "title_vi": "Luyện tập 5 đề Cue Card kinh điển",
+      "type": "cue_cards",
+      "chunks": [
+        {
+          "chunk": "Starting the talk",
+          "meaning_vi": "Mở đầu tự nhiên",
+          "example": "I'm going to talk about a memorable trip I took last summer."
+        },
+        {
+          "chunk": "Adding depth",
+          "meaning_vi": "Đào sâu chi tiết",
+          "example": "What struck me most was the contrast between modern buildings and nature."
+        },
+        {
+          "chunk": "Expressing feelings",
+          "meaning_vi": "Bộc lộ cảm xúc",
+          "example": "It gave me a tremendous sense of accomplishment."
+        },
+        {
+          "chunk": "Concluding the monologue",
+          "meaning_vi": "Kết bài gọn gàng",
+          "example": "Overall, it remains one of the most rewarding experiences of my life."
+        }
+      ],
+      "cue_cards": [
+        {
+          "id": "cc_1",
+          "topic": "Describe a person you admire.",
+          "prompts": [
+            "Who this person is",
+            "How you know them",
+            "What they are like",
+            "And explain why you admire them so much."
+          ]
+        },
+        {
+          "id": "cc_2",
+          "topic": "Describe a place you enjoyed visiting.",
+          "prompts": [
+            "Where it was",
+            "When you went there",
+            "What you did there",
+            "And explain why you enjoyed visiting this place."
+          ]
+        },
+        {
+          "id": "cc_3",
+          "topic": "Describe a memorable experience you had.",
+          "prompts": [
+            "What happened",
+            "When and where it took place",
+            "Who was with you",
+            "And explain why it was so memorable."
+          ]
+        },
+        {
+          "id": "cc_4",
+          "topic": "Describe a skill you would like to learn.",
+          "prompts": [
+            "What skill it is",
+            "Why you want to learn it",
+            "How you plan to learn it",
+            "And explain how this skill would benefit you."
+          ]
+        },
+        {
+          "id": "cc_5",
+          "topic": "Describe a useful piece of technology you use.",
+          "prompts": [
+            "What it is",
+            "What you use it for",
+            "How often you use it",
+            "And explain why it is so useful in your daily life."
+          ]
+        }
+      ]
+    },
+    {
+      "day": 22,
+      "week": 4,
+      "title_en": "Giving opinions in Part 3",
+      "title_vi": "Nêu quan điểm trong Part 3",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "From my perspective,...",
+          "meaning_vi": "Theo góc nhìn của tôi,...",
+          "example": "From my perspective, remote work brings far more advantages than disadvantages."
+        },
+        {
+          "chunk": "As far as I'm concerned,...",
+          "meaning_vi": "Theo quan điểm của tôi,...",
+          "example": "As far as I'm concerned, digital literacy is essential for modern jobs."
+        },
+        {
+          "chunk": "I would argue that...",
+          "meaning_vi": "Tôi cho rằng / biện luận rằng...",
+          "example": "I would argue that technology enhances rather than replaces human teachers."
+        },
+        {
+          "chunk": "I tend to believe that...",
+          "meaning_vi": "Tôi có xu hướng tin rằng...",
+          "example": "I tend to believe that practical skills are just as valuable as university degrees."
+        },
+        {
+          "chunk": "To some extent,...",
+          "meaning_vi": "Ở một mức độ nhất định,...",
+          "example": "To some extent, social media creates pressure on young people."
+        },
+        {
+          "chunk": "I partly agree with this view.",
+          "meaning_vi": "Tôi đồng ý một phần với quan điểm này.",
+          "example": "I partly agree with this view, although there are exceptions."
+        },
+        {
+          "chunk": "There is some truth in that.",
+          "meaning_vi": "Điều đó cũng có phần đúng.",
+          "example": "There is some truth in that, but we cannot ignore other factors."
+        },
+        {
+          "chunk": "I wouldn't necessarily say that...",
+          "meaning_vi": "Tôi không hẳn sẽ khẳng định rằng...",
+          "example": "I wouldn't necessarily say that AI will make developers obsolete."
+        },
+        {
+          "chunk": "It largely depends on...",
+          "meaning_vi": "Điều đó phần lớn phụ thuộc vào...",
+          "example": "Whether technology is beneficial largely depends on how we use it."
+        },
+        {
+          "chunk": "There are arguments on both sides.",
+          "meaning_vi": "Có những lập luận thuyết phục ở cả hai phía.",
+          "example": "When it comes to urbanization, there are valid arguments on both sides."
+        }
+      ],
+      "model_en": "From my perspective, artificial intelligence will transform the job market rather than eliminate jobs entirely. I tend to believe that professionals who leverage AI tools effectively will become significantly more productive.",
+      "model_vi": "Theo góc nhìn của tôi, trí tuệ nhân tạo sẽ chuyển đổi thị trường việc làm thay vì triệt tiêu hoàn toàn công việc. Tôi có xu hướng tin rằng những ai biết ứng dụng công cụ AI một cách hiệu quả sẽ nâng cao năng suất vượt bậc.",
+      "questions": [
+        "Do you think artificial intelligence will replace human workers?",
+        "Is online education as effective as classroom learning?",
+        "Should governments spend more money on public healthcare?",
+        "Why do some people find it difficult to adapt to new technology?"
+      ]
+    },
+    {
+      "day": 23,
+      "week": 4,
+      "title_en": "Causes and effects",
+      "title_vi": "Phân tích nguyên nhân và hệ quả",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "There are several reasons why...",
+          "meaning_vi": "Có nhiều lý do giải thích vì sao...",
+          "example": "There are several reasons why people choose to live in coastal cities."
+        },
+        {
+          "chunk": "One contributing factor is...",
+          "meaning_vi": "Một yếu tố đóng góp là...",
+          "example": "One contributing factor is the growth of flexible remote work."
+        },
+        {
+          "chunk": "This is partly due to...",
+          "meaning_vi": "Điều này một phần là do...",
+          "example": "This is partly due to advances in high-speed internet."
+        },
+        {
+          "chunk": "A major consequence is...",
+          "meaning_vi": "Một hệ quả lớn là...",
+          "example": "A major consequence is increased competition for digital roles."
+        },
+        {
+          "chunk": "This can have a significant impact on...",
+          "meaning_vi": "Điều này có thể có tác động đáng kể đến...",
+          "example": "This can have a significant impact on local housing markets."
+        },
+        {
+          "chunk": "It may result in...",
+          "meaning_vi": "Nó có thể dẫn đến kết quả là...",
+          "example": "Prolonged screen time may result in physical fatigue."
+        },
+        {
+          "chunk": "This is likely to lead to...",
+          "meaning_vi": "Điều này có khả năng sẽ dẫn tới...",
+          "example": "Over-reliance on automation is likely to lead to skill gaps."
+        },
+        {
+          "chunk": "Another possible explanation is...",
+          "meaning_vi": "Một cách giải thích khả dĩ khác là...",
+          "example": "Another possible explanation is changing consumer preferences."
+        },
+        {
+          "chunk": "The effects can be seen in...",
+          "meaning_vi": "Những tác động có thể được thấy rõ ở...",
+          "example": "The effects can be seen in the rise of e-commerce platforms."
+        },
+        {
+          "chunk": "Over time, this may...",
+          "meaning_vi": "Theo thời gian, điều này có thể...",
+          "example": "Over time, this may redefine how global teams communicate."
+        }
+      ],
+      "model_en": "There are several reasons why people spend more time online. One contributing factor is the sheer convenience of digital platforms. Over time, this may permanently shift how individuals socialize and conduct business.",
+      "model_vi": "Có nhiều nguyên nhân giải thích vì sao con người dành nhiều thời gian trên mạng hơn. Một yếu tố tác động là sự tiện lợi vượt trội của các nền tảng số. Về lâu dài, điều này có thể làm thay đổi vĩnh viễn cách mọi người giao tiếp và kinh doanh.",
+      "questions": [
+        "What causes people to move from rural areas to large cities?",
+        "What are the consequences of excessive screen time for children?",
+        "Why is environmental awareness growing among younger generations?",
+        "What impacts does international tourism have on local culture?"
+      ]
+    },
+    {
+      "day": 24,
+      "week": 4,
+      "title_en": "Society and education",
+      "title_vi": "Xã hội và giáo dục",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "Education plays a crucial role in...",
+          "meaning_vi": "Giáo dục đóng vai trò tối quan trọng trong việc...",
+          "example": "Education plays a crucial role in shaping a country's future."
+        },
+        {
+          "chunk": "It helps individuals develop...",
+          "meaning_vi": "Nó giúp các cá nhân phát triển...",
+          "example": "It helps individuals develop critical thinking and problem-solving abilities."
+        },
+        {
+          "chunk": "Access to education should be...",
+          "meaning_vi": "Cơ hội tiếp cận giáo dục nên là...",
+          "example": "Access to quality education should be equal for all citizens."
+        },
+        {
+          "chunk": "Society benefits when...",
+          "meaning_vi": "Xã hội sẽ được hưởng lợi khi...",
+          "example": "Society benefits when students are equipped with practical skills."
+        },
+        {
+          "chunk": "Young people are increasingly exposed to...",
+          "meaning_vi": "Thế hệ trẻ ngày càng tiếp xúc nhiều với...",
+          "example": "Young people are increasingly exposed to diverse global perspectives."
+        },
+        {
+          "chunk": "There is growing pressure to...",
+          "meaning_vi": "Ngày càng có nhiều áp lực phải...",
+          "example": "There is growing pressure to excel in standardized examinations."
+        },
+        {
+          "chunk": "It can create opportunities for...",
+          "meaning_vi": "Nó có thể tạo ra cơ hội cho...",
+          "example": "Digital literacy can create lucrative career opportunities for youth."
+        },
+        {
+          "chunk": "It may widen the gap between...",
+          "meaning_vi": "Nó có thể nới rộng khoảng cách giữa...",
+          "example": "Unequal access to tech may widen the gap between rich and poor."
+        },
+        {
+          "chunk": "Schools should place greater emphasis on...",
+          "meaning_vi": "Nhà trường nên chú trọng nhiều hơn vào...",
+          "example": "Schools should place greater emphasis on communication and soft skills."
+        },
+        {
+          "chunk": "A balanced approach would be...",
+          "meaning_vi": "Một cách tiếp cận cân bằng sẽ là...",
+          "example": "A balanced approach would be combining theory with hands-on projects."
+        }
+      ],
+      "model_en": "Education plays a crucial role in economic mobility. In my opinion, schools should place greater emphasis on practical problem-solving skills rather than pure memorization, ensuring students can thrive in a tech-driven world.",
+      "model_vi": "Giáo dục đóng vai trò trọng yếu trong việc nâng cao cơ hội đổi đời. Theo tôi, trường học cần chú trọng nhiều hơn vào kỹ năng giải quyết vấn đề thực tế thay vì chỉ học vẹt lý thuyết, đảm bảo học sinh vững bước trong thời đại công nghệ.",
+      "questions": [
+        "What makes a good teacher in modern schools?",
+        "Should universities focus more on job-ready skills or academic theory?",
+        "How has the internet changed the way students do research?",
+        "What are the benefits of continuous lifelong learning?"
+      ]
+    },
+    {
+      "day": 25,
+      "week": 4,
+      "title_en": "Technology and AI",
+      "title_vi": "Công nghệ và trí tuệ nhân tạo (AI)",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "Technology has transformed the way we...",
+          "meaning_vi": "Công nghệ đã thay đổi hoàn toàn cách chúng ta...",
+          "example": "Technology has transformed the way we work and collaborate."
+        },
+        {
+          "chunk": "It has made it easier to...",
+          "meaning_vi": "Nó đã giúp cho việc... trở nên dễ dàng hơn.",
+          "example": "It has made it easier to build web apps and distribute software worldwide."
+        },
+        {
+          "chunk": "One major benefit is...",
+          "meaning_vi": "Một lợi ích lớn là...",
+          "example": "One major benefit is automating repetitive coding and testing tasks."
+        },
+        {
+          "chunk": "A potential drawback is...",
+          "meaning_vi": "Một mặt hạn chế tiềm ẩn là...",
+          "example": "A potential drawback is reduced human oversight in critical decisions."
+        },
+        {
+          "chunk": "It raises concerns about...",
+          "meaning_vi": "Nó dấy lên những lo ngại về...",
+          "example": "It raises concerns about data privacy and algorithmic bias."
+        },
+        {
+          "chunk": "Human judgement is still essential.",
+          "meaning_vi": "Sự suy xét và phán đoán của con người vẫn là điều tối cần thiết.",
+          "example": "No matter how advanced AI becomes, human judgement is still essential."
+        },
+        {
+          "chunk": "It should be used as a tool rather than...",
+          "meaning_vi": "Nó nên được dùng như một công cụ hỗ trợ hơn là...",
+          "example": "AI should be used as a tool rather than a total replacement for engineers."
+        },
+        {
+          "chunk": "There is a risk of becoming overly dependent on...",
+          "meaning_vi": "Có nguy cơ con người quá phụ thuộc vào...",
+          "example": "There is a risk of becoming overly dependent on automated code suggestions."
+        },
+        {
+          "chunk": "It can improve efficiency.",
+          "meaning_vi": "Nó có thể nâng cao hiệu quả đáng kể.",
+          "example": "Using generative AI can improve coding efficiency tremendously."
+        },
+        {
+          "chunk": "We need to consider the long-term implications.",
+          "meaning_vi": "Chúng ta cần cân nhắc các hệ lụy dài hạn.",
+          "example": "We need to consider the long-term ethical implications of machine learning."
+        }
+      ],
+      "model_en": "Technology has transformed the software engineering industry. While generative AI tools improve developer efficiency, human judgement and architectural thinking remain essential. AI should be treated as a powerful assistant rather than a replacement.",
+      "model_vi": "Công nghệ đã làm thay đổi hoàn toàn ngành kỹ nghệ phần mềm. Mặc dù các công cụ AI tạo sinh giúp gia tăng năng suất của lập trình viên, tư duy kiến trúc và óc phán đoán của con người vẫn là không thể thay thế. AI nên được coi như một trợ lý đắc lực hơn là sự thay thế.",
+      "questions": [
+        "How has technology changed your daily life?",
+        "Do you think AI will create more jobs or destroy more jobs?",
+        "What are the privacy risks associated with smart devices?",
+        "Will humans become too dependent on computers in the future?"
+      ]
+    },
+    {
+      "day": 26,
+      "week": 4,
+      "title_en": "Environment and cities",
+      "title_vi": "Môi trường và đô thị hóa",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "Environmental protection should be a priority.",
+          "meaning_vi": "Bảo vệ môi trường nên là một ưu tiên hàng đầu.",
+          "example": "Environmental protection should be a priority for every modern government."
+        },
+        {
+          "chunk": "Urban areas are becoming increasingly crowded.",
+          "meaning_vi": "Các khu đô thị đang ngày càng trở nên đông đúc.",
+          "example": "Major urban areas are becoming increasingly crowded due to migration."
+        },
+        {
+          "chunk": "Public transport can help reduce...",
+          "meaning_vi": "Phương tiện công cộng có thể giúp giảm thiểu...",
+          "example": "Clean public transport can help reduce carbon emissions and traffic jams."
+        },
+        {
+          "chunk": "One effective measure would be to...",
+          "meaning_vi": "Một biện pháp hiệu quả sẽ là...",
+          "example": "One effective measure would be investing in solar and wind power."
+        },
+        {
+          "chunk": "Governments have a responsibility to...",
+          "meaning_vi": "Chính phủ có trách nhiệm phải...",
+          "example": "Governments have a responsibility to enforce strict pollution standards."
+        },
+        {
+          "chunk": "Individuals can make a difference by...",
+          "meaning_vi": "Từng cá nhân có thể tạo ra khác biệt bằng cách...",
+          "example": "Individuals can make a difference by reducing single-use plastic."
+        },
+        {
+          "chunk": "Sustainable development requires...",
+          "meaning_vi": "Sự phát triển bền vững đòi hỏi...",
+          "example": "Sustainable development requires long-term planning."
+        },
+        {
+          "chunk": "Air pollution poses a serious challenge.",
+          "meaning_vi": "Ô nhiễm không khí đặt ra một thách thức nghiêm trọng.",
+          "example": "In rapidly growing cities, air pollution poses a serious challenge."
+        },
+        {
+          "chunk": "Green spaces improve people's quality of life.",
+          "meaning_vi": "Không gian xanh nâng cao chất lượng cuộc sống của người dân.",
+          "example": "Parks and beaches provide green spaces that improve well-being."
+        },
+        {
+          "chunk": "It is essential to strike a balance between...",
+          "meaning_vi": "Điều cốt yếu là tạo được sự cân bằng giữa...",
+          "example": "It is essential to strike a balance between economic growth and conservation."
+        }
+      ],
+      "model_en": "Urban areas are expanding rapidly, which poses serious environmental challenges like traffic congestion and pollution. One effective measure would be upgrading public transit and expanding green spaces to improve the quality of life.",
+      "model_vi": "Các đô thị đang mở rộng nhanh chóng, đặt ra nhiều thách thức môi trường như tắc đường và ô nhiễm. Một giải pháp hiệu quả là nâng cấp giao thông công cộng và mở rộng không gian cây xanh để nâng cao chất lượng sống.",
+      "questions": [
+        "What environmental problems are most pressing in your country?",
+        "How can cities be designed to be more eco-friendly?",
+        "What can individuals do to protect the environment?",
+        "Do you think governments are doing enough to fight climate change?"
+      ]
+    },
+    {
+      "day": 27,
+      "week": 4,
+      "title_en": "Culture, media, and globalization",
+      "title_vi": "Văn hóa, truyền thông và toàn cầu hóa",
+      "type": "chunks",
+      "chunks": [
+        {
+          "chunk": "Cultural traditions help preserve...",
+          "meaning_vi": "Các truyền thống văn hóa giúp gìn giữ...",
+          "example": "Cultural traditions help preserve national identity across generations."
+        },
+        {
+          "chunk": "Younger generations may have different attitudes towards...",
+          "meaning_vi": "Thế hệ trẻ có thể có thái độ khác đối với...",
+          "example": "Younger generations may have different attitudes towards career stability."
+        },
+        {
+          "chunk": "Globalization has brought people closer together.",
+          "meaning_vi": "Toàn cầu hóa đã đưa con người xích lại gần nhau hơn.",
+          "example": "Through the internet, globalization has brought developers worldwide together."
+        },
+        {
+          "chunk": "It has made cultural exchange easier.",
+          "meaning_vi": "Nó đã giúp cho việc giao lưu văn hóa trở nên dễ dàng hơn.",
+          "example": "Online streaming platforms have made cultural exchange easier than ever."
+        },
+        {
+          "chunk": "Local traditions can be overshadowed by...",
+          "meaning_vi": "Các truyền thống địa phương có nguy cơ bị lấn át bởi...",
+          "example": "Unique local crafts can be overshadowed by mass-produced goods."
+        },
+        {
+          "chunk": "The media has a powerful influence on...",
+          "meaning_vi": "Truyền thông có tầm ảnh hưởng mạnh mẽ lên...",
+          "example": "Social media has a powerful influence on public opinions and trends."
+        },
+        {
+          "chunk": "People are exposed to a wider range of...",
+          "meaning_vi": "Mọi người được tiếp xúc với một phổ rộng hơn các...",
+          "example": "Consumers are exposed to a wider range of international content."
+        },
+        {
+          "chunk": "It is important to preserve cultural identity.",
+          "meaning_vi": "Điều quan trọng là phải bảo tồn bản sắc văn hóa.",
+          "example": "While embracing global trends, it is important to preserve cultural identity."
+        },
+        {
+          "chunk": "There are both benefits and drawbacks.",
+          "meaning_vi": "Có cả mặt tích cực lẫn mặt hạn chế song hành.",
+          "example": "Regarding globalization, there are both substantial benefits and drawbacks."
+        },
+        {
+          "chunk": "Cultural diversity should be respected.",
+          "meaning_vi": "Sự đa dạng văn hóa cần được tôn trọng.",
+          "example": "In multinational teams, cultural diversity should be celebrated and respected."
+        }
+      ],
+      "model_en": "Globalization and digital media have brought people across the globe closer together. While it facilitates rapid cultural exchange, it is equally important for communities to preserve their local customs and heritage.",
+      "model_vi": "Toàn cầu hóa và truyền thông số đã kéo con người trên khắp thế giới lại gần nhau hơn. Dù nó tạo điều kiện cho sự giao lưu văn hóa nhanh chóng, việc các cộng đồng bảo tồn bản sắc và phong tục truyền thống cũng quan trọng không kém.",
+      "questions": [
+        "How has globalization affected traditional cultures in your country?",
+        "Does media influence the way young people behave?",
+        "Is it important to protect traditional festivals and holidays?",
+        "What are the benefits of working in a multicultural team?"
+      ]
+    },
+    {
+      "day": 28,
+      "week": 4,
+      "title_en": "Part 3 answer development",
+      "title_vi": "Công thức mở rộng câu trả lời Part 3 (O-R-E-Q)",
+      "type": "method",
+      "chunks": [
+        {
+          "chunk": "On the whole, I think...",
+          "meaning_vi": "Nhìn chung, tôi nghĩ rằng...",
+          "example": "On the whole, I think technology has made education much more accessible."
+        },
+        {
+          "chunk": "The primary driver is...",
+          "meaning_vi": "Động lực chủ yếu là...",
+          "example": "The primary driver is the widespread availability of online learning courses."
+        },
+        {
+          "chunk": "Take... as an example.",
+          "meaning_vi": "Hãy lấy... làm ví dụ điển hình.",
+          "example": "Take platforms like YouTube or Coursera as an example."
+        },
+        {
+          "chunk": "Having said that,...",
+          "meaning_vi": "Dù nói là vậy (nhưng mặt khác),...",
+          "example": "Having said that, online learning cannot entirely replace teacher guidance."
+        }
+      ],
+      "part3_framework": {
+        "formula": "Opinion → Reason → Example → Qualification (O - R - E - Q)",
+        "steps": [
+          {
+            "code": "O",
+            "name": "Opinion (Quan điểm)",
+            "desc": "Khẳng định rõ quan điểm góc nhìn của bạn."
+          },
+          {
+            "code": "R",
+            "name": "Reason (Lý do)",
+            "desc": "Giải thích tại sao bạn lại nghĩ như vậy."
+          },
+          {
+            "code": "E",
+            "name": "Example (Ví dụ)",
+            "desc": "Dẫn chứng thực tế để minh chứng cho lý lẽ."
+          },
+          {
+            "code": "Q",
+            "name": "Qualification (Phản biện/Giới hạn)",
+            "desc": "Nêu mặt đối lập hoặc điều kiện giới hạn để câu trả lời mang tính chiều sâu (Band 7.5 - 8.0)."
+          }
+        ],
+        "sample_q": "Do you think technology has improved education?",
+        "sample_a": "On the whole, I think technology has drastically improved education (O) because it provides learners with instant access to an enormous wealth of knowledge (R). For example, students anywhere can take courses taught by top university professors online (E). Having said that, technology is not a magic substitute for dedicated teaching, so guidance remains indispensable (Q)."
+      },
+      "practice_topics": [
+        "Should schools teach practical life skills alongside academic subjects?",
+        "Has modern technology made people more isolated or more connected?",
+        "Should governments subsidize public transportation entirely?",
+        "Why do some people prefer living in mega-cities despite high stress?"
+      ]
+    },
+    {
+      "day": 29,
+      "week": 4,
+      "title_en": "Full mock speaking practice",
+      "title_vi": "Thi thử trọn vẹn 3 Part (Full Mock Test)",
+      "type": "mock_test",
+      "chunks": [
+        {
+          "chunk": "Warm-up confidence",
+          "meaning_vi": "Bình tĩnh, tự tin",
+          "example": "Take a deep breath and maintain eye contact."
+        },
+        {
+          "chunk": "Natural pacing",
+          "meaning_vi": "Tốc độ nói đều đặn",
+          "example": "Don't rush; speak in clear thought groups."
+        },
+        {
+          "chunk": "Self-correction",
+          "meaning_vi": "Tự sửa lỗi tự nhiên",
+          "example": "What I mean to say is... / More specifically,..."
+        },
+        {
+          "chunk": "Paraphrasing on the fly",
+          "meaning_vi": "Diễn giải khi quên từ",
+          "example": "It's essentially a device that helps people..."
+        }
+      ],
+      "mock_test_flow": {
+        "part1": {
+          "time": "4 - 5 phút",
+          "description": "Giám khảo hỏi các câu hỏi quen thuộc về công việc, quê quán, sở thích.",
+          "questions": [
+            "Let's talk about your work. What do you do?",
+            "What do you enjoy most about your daily tasks?",
+            "Let's move on to talk about hometown. What is special about where you grew up?",
+            "Do you often spend time outdoors in your free time?"
+          ]
+        },
+        "part2": {
+          "time": "3 - 4 phút (1 phút chuẩn bị, 2 phút nói liên tục)",
+          "cue_card": "Describe an achievement you are particularly proud of.",
+          "prompts": [
+            "What the achievement was",
+            "When you achieved it",
+            "What obstacles you had to overcome",
+            "And explain why you feel proud of this achievement."
+          ]
+        },
+        "part3": {
+          "time": "4 - 5 phút (Thảo luận sâu mở rộng từ Part 2)",
+          "questions": [
+            "How do people's definitions of success change over their lifetime?",
+            "Is personal achievement more valued than team achievement in modern society?",
+            "Should schools reward students based on effort or results?"
+          ]
+        }
+      }
+    },
+    {
+      "day": 30,
+      "week": 4,
+      "title_en": "Final review & self-assessment",
+      "title_vi": "Tổng kết 30 ngày & Đánh giá năng lực",
+      "type": "assessment",
+      "chunks": [
+        {
+          "chunk": "Fluency reflection",
+          "meaning_vi": "Tự đánh giá độ trôi chảy",
+          "example": "I pause significantly less than I did on Day 1."
+        },
+        {
+          "chunk": "Lexical mastery",
+          "meaning_vi": "Vốn cụm từ phản xạ",
+          "example": "I now use natural chunks automatically without translating from Vietnamese."
+        },
+        {
+          "chunk": "Sentence variety",
+          "meaning_vi": "Độ đa dạng cấu trúc",
+          "example": "I regularly combine conditional clauses and contrast connectors."
+        },
+        {
+          "chunk": "Sustainable routine",
+          "meaning_vi": "Duy trì thói quen luyện nói",
+          "example": "Speaking aloud every day is now part of my daily routine."
+        }
+      ],
+      "rubric": [
+        {
+          "skill": "Fluency (Độ trôi chảy)",
+          "max": 5,
+          "target": "Nói nhịp nhàng, ít 'ừm à', ngắt theo cụm nghĩa"
+        },
+        {
+          "skill": "Coherence (Tính mạch lạc)",
+          "max": 5,
+          "target": "Có mở đầu, lý do, dẫn chứng và kết luận rõ ràng"
+        },
+        {
+          "skill": "Vocabulary / Chunks (Từ vựng)",
+          "max": 5,
+          "target": "Vận dụng tự nhiên ít nhất 40-50 chunks trong 30 ngày"
+        },
+        {
+          "skill": "Grammar Accuracy (Ngữ pháp)",
+          "max": 5,
+          "target": "Dùng chuẩn thì, mệnh đề quan hệ và câu phức"
+        },
+        {
+          "skill": "Pronunciation (Phát âm & Nhịp điệu)",
+          "max": 5,
+          "target": "Âm cuối rõ, nhấn đúng trọng âm từ và trọng âm câu"
+        },
+        {
+          "skill": "Confidence (Sự tự tin)",
+          "max": 5,
+          "target": "Tự nhiên, phản xạ tức thì, không ngại diễn đạt ý mới"
+        }
+      ],
+      "next_steps": [
+        "Tiếp tục thói quen 20-30 phút mỗi ngày: Chọn 1 câu hỏi Part 1 hoặc Part 3 bất kỳ và nói thành tiếng.",
+        "Ghi âm định kỳ mỗi tuần 1 lần để theo dõi sự tiến bộ về ngữ điệu và phát âm.",
+        "Ứng dụng tiếng Anh vào giao tiếp công việc hàng ngày hoặc thảo luận kỹ thuật cùng đồng nghiệp."
+      ]
+    }
+  ],
+  "toolkits": {
+    "grammar_patterns": [
+      {
+        "pattern": "Subject + Verb",
+        "example": "I code.",
+        "vi": "Tôi viết code."
+      },
+      {
+        "pattern": "Subject + Verb + Object",
+        "example": "I enjoy fishing.",
+        "vi": "Tôi thích câu cá."
+      },
+      {
+        "pattern": "Subject + Linking Verb + Complement",
+        "example": "I am a web developer.",
+        "vi": "Tôi là lập trình viên web."
+      },
+      {
+        "pattern": "Subject + Verb + Place/Time",
+        "example": "I live in Da Nang.",
+        "vi": "Tôi sống ở Đà Nẵng."
+      },
+      {
+        "pattern": "Subject + Verb + Object + Complement",
+        "example": "The challenge made me confident.",
+        "vi": "Thử thách đó làm tôi trở nên tự tin."
+      }
+    ],
+    "common_mistakes": [
+      {
+        "wrong": "I am agree.",
+        "correct": "I agree.",
+        "reason": "'Agree' là động từ, không dùng với 'am'."
+      },
+      {
+        "wrong": "I very like it.",
+        "correct": "I really like it.",
+        "reason": "Dùng 'really' trước động từ để nhấn mạnh, không dùng 'very'."
+      },
+      {
+        "wrong": "I enjoy to fish.",
+        "correct": "I enjoy fishing.",
+        "reason": "Sau động từ 'enjoy' luôn dùng V-ing (gerund)."
+      },
+      {
+        "wrong": "I live in Da Nang city.",
+        "correct": "I live in Da Nang.",
+        "reason": "Trong tiếng Anh chỉ cần nói tên thành phố, không cần thêm chữ 'city'."
+      },
+      {
+        "wrong": "People is friendly.",
+        "correct": "People are friendly.",
+        "reason": "'People' là danh từ số nhiều, đi với động từ to-be 'are'."
+      },
+      {
+        "wrong": "He go to work.",
+        "correct": "He goes to work.",
+        "reason": "Chủ ngữ số ít ngôi thứ 3 (He/She/It) phải chia động từ 'goes' ở hiện tại đơn."
+      },
+      {
+        "wrong": "I have 28 years old.",
+        "correct": "I'm 28 years old.",
+        "reason": "Nói về tuổi tác dùng to-be (I am...), không dùng 'have'."
+      },
+      {
+        "wrong": "I very interested in it.",
+        "correct": "I'm very interested in it.",
+        "reason": "'Interested' là tính từ, cần có to-be 'am'."
+      },
+      {
+        "wrong": "It make me relax.",
+        "correct": "It makes me relax.",
+        "reason": "Chủ ngữ 'It' cần chia động từ 'makes'."
+      },
+      {
+        "wrong": "Although it rained, but I went.",
+        "correct": "Although it rained, I went.",
+        "reason": "Trong tiếng Anh không dùng cả 'Although' và 'But' trong cùng một câu."
+      }
+    ],
+    "hesitation_fillers": [
+      {
+        "en": "That's an interesting question.",
+        "vi": "Đó là một câu hỏi rất thú vị."
+      },
+      {
+        "en": "I've never really thought about that before, but...",
+        "vi": "Tôi chưa từng thực sự nghĩ về điều này trước đây, nhưng..."
+      },
+      {
+        "en": "Let me think for a moment.",
+        "vi": "Để tôi suy nghĩ một chút nhé."
+      },
+      {
+        "en": "I suppose it depends on the situation.",
+        "vi": "Tôi cho rằng điều này tùy thuộc vào hoàn cảnh."
+      },
+      {
+        "en": "The first thing that comes to mind is...",
+        "vi": "Điều đầu tiên nảy ra trong đầu tôi là..."
+      }
+    ]
+  }
+}

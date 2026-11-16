@@ -9,6 +9,7 @@ const SECTIONS = [
   { href: "/chunks", label: "🧩 1000 Chunks EN", activeClass: "active-chunks" },
   { href: "/ielts-words", label: "🎯 IELTS Words", activeClass: "active-ielts" },
   { href: "/interview-qa", label: "💼 500 Q&A Phỏng Vấn", activeClass: "active-interview" },
+  { href: "/ielts-speaking", label: "🎙️ IELTS Speaking 30D", activeClass: "active-speaking" },
   { href: "/chinese", label: "🇨🇳 500 Chunks Tiếng Trung", activeClass: "active-chinese" },
   { href: "/japanese", label: "🇯🇵 300 Chunks Tiếng Nhật", activeClass: "active-japanese" },
 ];

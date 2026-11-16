@@ -705,6 +705,12 @@ body {
   box-shadow: 0 4px 12px rgba(2, 132, 199, 0.3);
 }
 
+.section-nav-link.active-speaking {
+  background: linear-gradient(135deg, #059669 0%, #10b981 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+}
+
 .section-nav-link.active-chunks {
   background: linear-gradient(135deg, #059669 0%, #0284c7 100%);
   color: white;
@@ -783,6 +789,11 @@ body {
   box-shadow: 0 16px 32px -8px rgba(2, 132, 199, 0.25);
 }
 
+.home-section-card.card-speaking:hover {
+  border-color: #059669;
+  box-shadow: 0 16px 32px -8px rgba(5, 150, 105, 0.25);
+}
+
 .home-section-badge {
   display: inline-flex;
   align-items: center;
@@ -824,6 +835,11 @@ body {
 .badge-interview {
   background-color: rgba(2, 132, 199, 0.15);
   color: #0284c7;
+}
+
+.badge-speaking {
+  background-color: rgba(5, 150, 105, 0.15);
+  color: #059669;
 }
 
 .home-section-title {
