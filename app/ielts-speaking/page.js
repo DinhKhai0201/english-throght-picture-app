@@ -13,6 +13,7 @@ function IeltsSpeakingContent() {
   const [learnedChunkIds, setLearnedChunkIds] = useState(new Set());
   const [searchQuery, setSearchQuery] = useState("");
   const [chunkFilter, setChunkFilter] = useState("all"); // "all" | "unlearned" | "learned"
+  const [studyCounts, setStudyCounts] = useState({});
 
   // TTS audio state
   const [playingId, setPlayingId] = useState(null);
@@ -72,6 +73,11 @@ function IeltsSpeakingContent() {
         const storedChunks = localStorage.getItem("ielts_speaking_learned_chunks");
         if (storedChunks) {
           setLearnedChunkIds(new Set(JSON.parse(storedChunks)));
+        }
+
+        const storedCounts = localStorage.getItem("ielts_speaking_study_counts");
+        if (storedCounts) {
+          setStudyCounts(JSON.parse(storedCounts));
         }
 
         const storedDayNum = localStorage.getItem("ielts_speaking_current_day");
@@ -170,6 +176,16 @@ function IeltsSpeakingContent() {
     localStorage.setItem("ielts_speaking_learned_chunks", JSON.stringify(Array.from(next)));
   };
 
+  const incrementStudyCount = (id) => {
+    setStudyCounts((prev) => {
+      const next = { ...prev, [id]: (prev[id] || 0) + 1 };
+      try {
+        localStorage.setItem("ielts_speaking_study_counts", JSON.stringify(next));
+      } catch (e) {}
+      return next;
+    });
+  };
+
   const selectDay = (dayNum) => {
     setSelectedDayNum(dayNum);
     localStorage.setItem("ielts_speaking_current_day", dayNum.toString());
@@ -185,12 +201,14 @@ function IeltsSpeakingContent() {
   };
 
   const resetAllProgress = () => {
-    if (confirm("Bạn có chắc chắn muốn đặt lại toàn bộ tiến trình học IELTS Speaking 30 ngày không?")) {
+    if (confirm("Bạn có chắc chắn muốn đặt lại toàn bộ tiến trình học và số lần luyện tập IELTS Speaking 30 ngày không?")) {
       setCompletedDays(new Set());
       setLearnedChunkIds(new Set());
+      setStudyCounts({});
       setSelectedDayNum(1);
       localStorage.removeItem("ielts_speaking_completed_days");
       localStorage.removeItem("ielts_speaking_learned_chunks");
+      localStorage.removeItem("ielts_speaking_study_counts");
       localStorage.removeItem("ielts_speaking_current_day");
       localStorage.removeItem("ielts_speaking_rubric_scores");
     }
@@ -525,7 +543,7 @@ function IeltsSpeakingContent() {
                       >
                         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "8px" }}>
                           <span
-                            onClick={() => playSpeech(c.chunk, chunkId)}
+                            onClick={() => { playSpeech(c.chunk, chunkId); incrementStudyCount(chunkId); }}
                             style={{
                               fontSize: "1.1rem",
                               fontWeight: "700",
@@ -537,9 +555,9 @@ function IeltsSpeakingContent() {
                             {c.chunk}
                           </span>
 
-                          <div style={{ display: "flex", alignItems: "center", gap: "4px" }}>
+                          <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
                             <button
-                              onClick={() => playSpeech(c.chunk, chunkId)}
+                              onClick={() => { playSpeech(c.chunk, chunkId); incrementStudyCount(chunkId); }}
                               style={{
                                 width: "30px",
                                 height: "30px",
@@ -563,6 +581,19 @@ function IeltsSpeakingContent() {
                               title="Đánh dấu đã thuộc"
                               style={{ width: "18px", height: "18px", cursor: "pointer", accentColor: "#16a34a" }}
                             />
+                            <div
+                              className="study-counter"
+                              style={{
+                                color: "#059669",
+                                backgroundColor: "rgba(5, 150, 105, 0.1)",
+                                padding: "2px 8px",
+                                borderRadius: "6px",
+                                fontWeight: "700"
+                              }}
+                              title="Số lần bấm luyện tập"
+                            >
+                              <span className="counter-num" style={{ fontSize: "0.95rem" }}>{studyCounts[chunkId] || 0}</span>
+                            </div>
                           </div>
                         </div>
 
@@ -572,7 +603,7 @@ function IeltsSpeakingContent() {
 
                         {c.example && (
                           <div
-                            onClick={() => playSpeech(c.example, `${chunkId}_ex`)}
+                            onClick={() => { playSpeech(c.example, `${chunkId}_ex`); incrementStudyCount(chunkId); }}
                             style={{
                               background: "#ffffff",
                               padding: "8px 10px",
@@ -604,17 +635,38 @@ function IeltsSpeakingContent() {
                   <h3 style={{ fontSize: "1rem", color: "#059669", fontWeight: "800", textTransform: "uppercase", margin: 0, display: "flex", alignItems: "center", gap: "6px" }}>
                     <span>💡</span> Bài Nói Mẫu Kết Hợp Chunks (Model Answer):
                   </h3>
-                  <button
-                    onClick={() => playSpeech(currentDay.model_en, `d${currentDay.day}_model`)}
-                    className="play-button"
-                    style={{ width: "34px", height: "34px", fontSize: "1rem", background: "#ffffff" }}
-                    title="Nghe toàn bộ bài nói mẫu"
-                  >
-                    {playingId === `d${currentDay.day}_model` ? "🔊" : "🗣️"}
-                  </button>
+                  <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                    <div
+                      className="study-counter"
+                      style={{
+                        color: "#059669",
+                        backgroundColor: "#dcfce7",
+                        padding: "4px 10px",
+                        borderRadius: "6px",
+                        fontWeight: "700"
+                      }}
+                      title="Số lần bấm luyện nghe bài mẫu"
+                    >
+                      <span className="counter-num" style={{ fontSize: "0.95rem" }}>{studyCounts[`d${currentDay.day}_model`] || 0}</span>
+                    </div>
+                    <button
+                      onClick={() => {
+                        playSpeech(currentDay.model_en, `d${currentDay.day}_model`);
+                        incrementStudyCount(`d${currentDay.day}_model`);
+                      }}
+                      className="play-button"
+                      style={{ width: "34px", height: "34px", fontSize: "1rem", background: "#ffffff" }}
+                      title="Nghe toàn bộ bài nói mẫu"
+                    >
+                      {playingId === `d${currentDay.day}_model` ? "🔊" : "🗣️"}
+                    </button>
+                  </div>
                 </div>
                 <p
-                  onClick={() => playSpeech(currentDay.model_en, `d${currentDay.day}_model`)}
+                  onClick={() => {
+                    playSpeech(currentDay.model_en, `d${currentDay.day}_model`);
+                    incrementStudyCount(`d${currentDay.day}_model`);
+                  }}
                   style={{ fontSize: "1.1rem", color: "#0f172a", lineHeight: "1.55", fontWeight: "500", margin: "0 0 10px 0", cursor: "pointer" }}
                 >
                   "{currentDay.model_en}"
@@ -635,7 +687,10 @@ function IeltsSpeakingContent() {
                   {currentDay.questions.map((q, qIdx) => (
                     <div
                       key={qIdx}
-                      onClick={() => playSpeech(q, `d${currentDay.day}_q_${qIdx}`)}
+                      onClick={() => {
+                        playSpeech(q, `d${currentDay.day}_q_${qIdx}`);
+                        incrementStudyCount(`d${currentDay.day}_q_${qIdx}`);
+                      }}
                       style={{
                         display: "flex",
                         alignItems: "center",
@@ -644,27 +699,43 @@ function IeltsSpeakingContent() {
                         background: "#ffffff",
                         borderRadius: "8px",
                         border: "1px solid #e2e8f0",
-                        cursor: "pointer"
+                        cursor: "pointer",
+                        gap: "10px"
                       }}
                       title="Bấm để nghe câu hỏi"
                     >
                       <span style={{ fontSize: "1.05rem", fontWeight: "600", color: "#1e293b" }}>
                         {qIdx + 1}. {q}
                       </span>
-                      <button
-                        style={{
-                          width: "30px",
-                          height: "30px",
-                          borderRadius: "50%",
-                          border: "none",
-                          background: "#ecfdf5",
-                          color: "#059669",
-                          cursor: "pointer",
-                          fontSize: "0.85rem"
-                        }}
-                      >
-                        {playingId === `d${currentDay.day}_q_${qIdx}` ? "🔊" : "🗣️"}
-                      </button>
+                      <div style={{ display: "flex", alignItems: "center", gap: "8px", flexShrink: 0 }}>
+                        <div
+                          className="study-counter"
+                          style={{
+                            color: "#059669",
+                            backgroundColor: "rgba(5, 150, 105, 0.1)",
+                            padding: "2px 8px",
+                            borderRadius: "6px",
+                            fontWeight: "700"
+                          }}
+                          title="Số lần bấm luyện câu hỏi"
+                        >
+                          <span className="counter-num" style={{ fontSize: "0.95rem" }}>{studyCounts[`d${currentDay.day}_q_${qIdx}`] || 0}</span>
+                        </div>
+                        <button
+                          style={{
+                            width: "30px",
+                            height: "30px",
+                            borderRadius: "50%",
+                            border: "none",
+                            background: "#ecfdf5",
+                            color: "#059669",
+                            cursor: "pointer",
+                            fontSize: "0.85rem"
+                          }}
+                        >
+                          {playingId === `d${currentDay.day}_q_${qIdx}` ? "🔊" : "🗣️"}
+                        </button>
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -776,8 +847,15 @@ function IeltsSpeakingContent() {
                     </div>
                     <ul style={{ margin: 0, paddingLeft: "20px", color: "#1e293b", lineHeight: "1.6" }}>
                       {currentDay.mock_test_flow.part1.questions.map((q, idx) => (
-                        <li key={idx} style={{ cursor: "pointer" }} onClick={() => playSpeech(q, `mock_p1_${idx}`)}>
-                          {q} 🗣️
+                        <li
+                          key={idx}
+                          style={{ cursor: "pointer", marginBottom: "6px" }}
+                          onClick={() => {
+                            playSpeech(q, `mock_p1_${idx}`);
+                            incrementStudyCount(`mock_p1_${idx}`);
+                          }}
+                        >
+                          {q} 🗣️ {studyCounts[`mock_p1_${idx}`] ? `(Đã luyện: ${studyCounts[`mock_p1_${idx}`]})` : ""}
                         </li>
                       ))}
                     </ul>
@@ -805,8 +883,15 @@ function IeltsSpeakingContent() {
                     <span style={{ fontWeight: "800", color: "#b45309", display: "block", marginBottom: "8px" }}>Part 3: Thảo luận sâu ({currentDay.mock_test_flow.part3.time})</span>
                     <ul style={{ margin: 0, paddingLeft: "20px", color: "#1e293b", lineHeight: "1.6" }}>
                       {currentDay.mock_test_flow.part3.questions.map((q, idx) => (
-                        <li key={idx} style={{ cursor: "pointer" }} onClick={() => playSpeech(q, `mock_p3_${idx}`)}>
-                          {q} 🗣️
+                        <li
+                          key={idx}
+                          style={{ cursor: "pointer", marginBottom: "6px" }}
+                          onClick={() => {
+                            playSpeech(q, `mock_p3_${idx}`);
+                            incrementStudyCount(`mock_p3_${idx}`);
+                          }}
+                        >
+                          {q} 🗣️ {studyCounts[`mock_p3_${idx}`] ? `(Đã luyện: ${studyCounts[`mock_p3_${idx}`]})` : ""}
                         </li>
                       ))}
                     </ul>
@@ -879,8 +964,15 @@ function IeltsSpeakingContent() {
                   <span style={{ fontWeight: "700", color: "#92400e", display: "block", marginBottom: "8px" }}>Các câu hỏi luyện nói:</span>
                   <ul style={{ margin: 0, paddingLeft: "20px", color: "#1e293b", lineHeight: "1.6" }}>
                     {currentDay.checkpoint_task.questions.map((q, idx) => (
-                      <li key={idx} style={{ cursor: "pointer" }} onClick={() => playSpeech(q, `chk_q_${idx}`)}>
-                        {q} 🗣️
+                      <li
+                        key={idx}
+                        style={{ cursor: "pointer", marginBottom: "6px" }}
+                        onClick={() => {
+                          playSpeech(q, `chk_q_${idx}`);
+                          incrementStudyCount(`chk_q_${idx}`);
+                        }}
+                      >
+                        {q} 🗣️ {studyCounts[`chk_q_${idx}`] ? `(Đã luyện: ${studyCounts[`chk_q_${idx}`]})` : ""}
                       </li>
                     ))}
                   </ul>
@@ -988,22 +1080,40 @@ function IeltsSpeakingContent() {
                     <span style={{ fontSize: "0.8rem", color: "#059669", fontWeight: "700" }}>
                       Ngày {c.day} • {c.dayTitle}
                     </span>
-                    <label className="checkbox-container" style={{ margin: 0 }}>
-                      <input
-                        type="checkbox"
-                        checked={isLearned}
-                        onChange={() => toggleChunkLearned(c.id)}
-                      />
-                      <span className="checkmark" style={{ width: "18px", height: "18px" }}></span>
-                      <span className="checkbox-label" style={{ fontSize: "0.8rem" }}>
-                        {isLearned ? "Đã thuộc" : "Chưa thuộc"}
-                      </span>
-                    </label>
+                    <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
+                      <label className="checkbox-container" style={{ margin: 0 }}>
+                        <input
+                          type="checkbox"
+                          checked={isLearned}
+                          onChange={() => toggleChunkLearned(c.id)}
+                        />
+                        <span className="checkmark" style={{ width: "18px", height: "18px" }}></span>
+                        <span className="checkbox-label" style={{ fontSize: "0.8rem" }}>
+                          {isLearned ? "Đã thuộc" : "Chưa thuộc"}
+                        </span>
+                      </label>
+                      <div
+                        className="study-counter"
+                        style={{
+                          color: "#059669",
+                          backgroundColor: "rgba(5, 150, 105, 0.1)",
+                          padding: "2px 8px",
+                          borderRadius: "6px",
+                          fontWeight: "700"
+                        }}
+                        title="Số lần bấm luyện tập"
+                      >
+                        <span className="counter-num" style={{ fontSize: "0.95rem" }}>{studyCounts[c.id] || 0}</span>
+                      </div>
+                    </div>
                   </div>
 
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "8px" }}>
                     <h3
-                      onClick={() => playSpeech(c.chunk, c.id)}
+                      onClick={() => {
+                        playSpeech(c.chunk, c.id);
+                        incrementStudyCount(c.id);
+                      }}
                       style={{
                         fontSize: "1.15rem",
                         color: "#0f172a",
@@ -1015,7 +1125,10 @@ function IeltsSpeakingContent() {
                       {c.chunk}
                     </h3>
                     <button
-                      onClick={() => playSpeech(c.chunk, c.id)}
+                      onClick={() => {
+                        playSpeech(c.chunk, c.id);
+                        incrementStudyCount(c.id);
+                      }}
                       className="play-button"
                       style={{ width: "32px", height: "32px", fontSize: "0.9rem", flexShrink: 0 }}
                       title="Nghe phát âm chunk"
@@ -1030,7 +1143,10 @@ function IeltsSpeakingContent() {
 
                   {c.example && (
                     <div
-                      onClick={() => playSpeech(c.example, `${c.id}_ex`)}
+                      onClick={() => {
+                        playSpeech(c.example, `${c.id}_ex`);
+                        incrementStudyCount(c.id);
+                      }}
                       style={{
                         background: "#f8fafc",
                         padding: "8px 12px",
@@ -1113,15 +1229,35 @@ function IeltsSpeakingContent() {
               {rawData.toolkits.hesitation_fillers.map((f, idx) => (
                 <div
                   key={idx}
-                  onClick={() => playSpeech(f.en, `filler_${idx}`)}
-                  style={{ background: "#f0f9ff", padding: "12px 14px", borderRadius: "8px", border: "1px solid #bae6fd", cursor: "pointer" }}
+                  onClick={() => {
+                    playSpeech(f.en, `filler_${idx}`);
+                    incrementStudyCount(`filler_${idx}`);
+                  }}
+                  style={{ background: "#f0f9ff", padding: "12px 14px", borderRadius: "8px", border: "1px solid #bae6fd", cursor: "pointer", display: "flex", flexDirection: "column", justifyContent: "space-between" }}
                   title="Bấm để nghe phát âm"
                 >
-                  <div style={{ fontWeight: "700", color: "#0369a1", fontSize: "1rem", marginBottom: "4px" }}>
-                    🗣️ {f.en}
+                  <div>
+                    <div style={{ fontWeight: "700", color: "#0369a1", fontSize: "1rem", marginBottom: "4px" }}>
+                      🗣️ {f.en}
+                    </div>
+                    <div style={{ fontSize: "0.85rem", color: "#64748b" }}>
+                      👉 {f.vi}
+                    </div>
                   </div>
-                  <div style={{ fontSize: "0.85rem", color: "#64748b" }}>
-                    👉 {f.vi}
+                  <div style={{ display: "flex", justifyContent: "flex-end", marginTop: "8px" }}>
+                    <div
+                      className="study-counter"
+                      style={{
+                        color: "#0284c7",
+                        backgroundColor: "rgba(2, 132, 199, 0.1)",
+                        padding: "2px 8px",
+                        borderRadius: "6px",
+                        fontWeight: "700"
+                      }}
+                      title="Số lần luyện tập"
+                    >
+                      <span className="counter-num" style={{ fontSize: "0.85rem" }}>{studyCounts[`filler_${idx}`] || 0}</span>
+                    </div>
                   </div>
                 </div>
               ))}
