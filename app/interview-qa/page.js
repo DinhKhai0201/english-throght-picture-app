@@ -4,20 +4,21 @@ import { useState, useEffect, useMemo, Suspense } from "react";
 import SectionNav from "../components/SectionNav";
 import LessonMode from "../components/LessonMode";
 import { useSearchParams } from "next/navigation";
+import { Volume2Icon } from "../components/Icons";
+import { isTextSelected } from "../lib/uiUtils";
+import { useSpeechSynthesis } from "../hooks/useSpeechSynthesis";
+import { useStudyProgress } from "../hooks/useStudyProgress";
 import {
-  SearchIcon,
-  XIcon,
-  Volume2Icon,
-  RotateCcwIcon,
-  BookOpenIcon,
-  ListIcon,
-  InboxIcon,
-  LightbulbIcon,
-  CheckIcon,
-  ArrowLeftIcon,
-  ArrowRightIcon,
-} from "../components/Icons";
-import { isTextSelected, isAudioMuted } from "../lib/uiUtils";
+  StudyLoading,
+  StudyModeStrip,
+  StudyHeroHeader,
+  StudyControlPanel,
+  StudyFilterTabs,
+  StudyCardFooter,
+  StudyEmptyState,
+  StudyFooterTip,
+  StudyPagination,
+} from "../components/study/StudyLayoutParts";
 import rawData from "../../interview_500_qa.json";
 
 const ITEMS_PER_PAGE = 15;
@@ -49,20 +50,28 @@ function InterviewQAContent() {
   const [currentPage, setCurrentPage] = useState(initialPage);
   const [pageInput, setPageInput] = useState(initialPage.toString());
 
-  const [learnedIds, setLearnedIds] = useState(new Set());
-  const [studyCounts, setStudyCounts] = useState({});
-  const [playingId, setPlayingId] = useState(null);
-  const [speechRate, setSpeechRate] = useState(0.9);
-  const [voices, setVoices] = useState([]);
-  const [selectedVoice, setSelectedVoice] = useState("");
-  const [isLoaded, setIsLoaded] = useState(false);
-  const [studyMode, setStudyMode] = useState(() => {
-    if (typeof window !== "undefined") {
-      const m = localStorage.getItem("interview_qa_study_mode");
-      return m === "lesson" ? "lesson" : "browse";
-    }
-    return "browse";
+  const {
+    learnedIds,
+    studyCounts,
+    studyMode,
+    switchStudyMode,
+    isLoaded,
+    toggleLearned,
+    incrementStudyCount,
+    resetProgress,
+  } = useStudyProgress("interview_qa", {
+    resetConfirmMsg: "Bạn có chắc chắn muốn thiết lập lại toàn bộ tiến trình học phỏng vấn không?",
   });
+
+  const {
+    voices,
+    selectedVoice,
+    setSelectedVoice,
+    speechRate,
+    setSpeechRate,
+    playingId,
+    playSpeech,
+  } = useSpeechSynthesis({ lang: "en-US", defaultRate: 0.9 });
 
   const updateUrl = (overrides = {}) => {
     if (typeof window === "undefined") return;
@@ -123,106 +132,8 @@ function InterviewQAContent() {
     updateUrl({ q, page: 1 });
   };
 
-  const changePage = (newPage, maxPages) => {
-    const limit = maxPages || totalPages;
-    const target = Math.max(1, Math.min(limit, newPage));
-    setCurrentPage(target);
-    setPageInput(target.toString());
-    updateUrl({ page: target });
-
-    if (typeof window !== "undefined") {
-      window.scrollTo({ top: 0, behavior: "smooth" });
-    }
-  };
-
-  useEffect(() => {
-    if (typeof window !== "undefined" && window.speechSynthesis) {
-      const updateVoices = () => {
-        const availableVoices = window.speechSynthesis.getVoices();
-        const engVoices = availableVoices.filter((v) => v.lang.startsWith("en"));
-        setVoices(engVoices);
-        if (engVoices.length > 0) {
-          const defaultVoice =
-            engVoices.find(
-              (v) =>
-                v.name.includes("Google US English") ||
-                v.name.includes("Google UK English Male") ||
-                v.name.includes("Samantha")
-            ) || engVoices[0];
-          setSelectedVoice(defaultVoice.name);
-        }
-      };
-      updateVoices();
-      window.speechSynthesis.onvoiceschanged = updateVoices;
-    }
-  }, []);
-
-  useEffect(() => {
-    if (typeof window !== "undefined") {
-      const stored = localStorage.getItem("interview_qa_progress");
-      if (stored) {
-        try {
-          setLearnedIds(new Set(JSON.parse(stored)));
-        } catch (e) {}
-      }
-
-      const storedCounts = localStorage.getItem("interview_qa_study_counts");
-      if (storedCounts) {
-        try {
-          setStudyCounts(JSON.parse(storedCounts));
-        } catch (e) {}
-      }
-
-      setIsLoaded(true);
-    }
-  }, []);
-
-  const toggleLearned = (id) => {
-    const next = new Set(learnedIds);
-    if (next.has(id)) next.delete(id);
-    else next.add(id);
-    setLearnedIds(next);
-    localStorage.setItem("interview_qa_progress", JSON.stringify(Array.from(next)));
-  };
-
-  const incrementStudyCount = (id) => {
-    setStudyCounts((prev) => {
-      const next = { ...prev, [id]: (prev[id] || 0) + 1 };
-      localStorage.setItem("interview_qa_study_counts", JSON.stringify(next));
-      return next;
-    });
-  };
-
-  const resetProgress = () => {
-    if (confirm("Bạn có chắc chắn muốn thiết lập lại toàn bộ tiến trình học phỏng vấn không?")) {
-      setLearnedIds(new Set());
-      setStudyCounts({});
-      localStorage.removeItem("interview_qa_progress");
-      localStorage.removeItem("interview_qa_study_counts");
-    }
-  };
-
-  const playSpeech = (text, id) => {
-    if (typeof window === "undefined" || !window.speechSynthesis) return;
-    window.speechSynthesis.cancel();
-    if (isAudioMuted()) {
-      setPlayingId(null);
-      return;
-    }
-    const utterance = new SpeechSynthesisUtterance(text);
-    utterance.lang = "en-US";
-    utterance.rate = speechRate;
-    if (selectedVoice) {
-      const voiceObj = voices.find((v) => v.name === selectedVoice);
-      if (voiceObj) utterance.voice = voiceObj;
-    }
-    utterance.onstart = () => setPlayingId(id);
-    utterance.onend = () => setPlayingId(null);
-    utterance.onerror = () => setPlayingId(null);
-    window.speechSynthesis.speak(utterance);
-  };
-
   const filteredQuestions = useMemo(() => {
+    const query = searchQuery.trim().toLowerCase();
     return allQuestions.filter((item) => {
       const matchesPart =
         activePart === "all" ||
@@ -235,7 +146,6 @@ function InterviewQAContent() {
         (filterType === "learned" && isLearned) ||
         (filterType === "unlearned" && !isLearned);
 
-      const query = searchQuery.trim().toLowerCase();
       const matchesSearch =
         query === "" ||
         item.question_en.toLowerCase().includes(query) ||
@@ -251,6 +161,18 @@ function InterviewQAContent() {
 
   const totalPages = Math.ceil(filteredQuestions.length / ITEMS_PER_PAGE) || 1;
 
+  const changePage = (newPage, maxPages) => {
+    const limit = maxPages || totalPages;
+    const target = Math.max(1, Math.min(limit, newPage));
+    setCurrentPage(target);
+    setPageInput(target.toString());
+    updateUrl({ page: target });
+
+    if (typeof window !== "undefined") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  };
+
   useEffect(() => {
     if (currentPage > totalPages && totalPages > 0) {
       changePage(1, totalPages);
@@ -262,18 +184,7 @@ function InterviewQAContent() {
     return filteredQuestions.slice(start, start + ITEMS_PER_PAGE);
   }, [filteredQuestions, currentPage]);
 
-  const totalCount = allQuestions.length;
-  const learnedCount = learnedIds.size;
-  const progressPercent = totalCount > 0 ? Math.round((learnedCount / totalCount) * 100) : 0;
-
-  if (!isLoaded) {
-    return (
-      <div className="loading-screen">
-        <div className="spinner" />
-        <p>Đang tải dữ liệu phỏng vấn tiếng Anh...</p>
-      </div>
-    );
-  }
+  if (!isLoaded) return <StudyLoading message="Đang tải dữ liệu phỏng vấn tiếng Anh..." />;
 
   const renderQuestionCard = (q) => {
     const isLearned = learnedIds.has(q.id);
@@ -351,24 +262,11 @@ function InterviewQAContent() {
           </div>
         )}
 
-        <div className="card-footer">
-          <label className="checkbox-container">
-            <input type="checkbox" checked={isLearned} onChange={() => toggleLearned(q.id)} />
-            <span className="checkmark" />
-            <span className="checkbox-label">
-              {isLearned ? (
-                <span className="learned-label-inline">
-                  <CheckIcon size={14} /> Đã thuộc
-                </span>
-              ) : (
-                "Đánh dấu đã thuộc"
-              )}
-            </span>
-          </label>
-          <div className="study-counter" title="Số lần luyện tập">
-            <span className="counter-num">{studyCounts[q.id] || 0}</span>
-          </div>
-        </div>
+        <StudyCardFooter
+          isLearned={isLearned}
+          onToggleLearned={() => toggleLearned(q.id)}
+          studyCount={studyCounts[q.id] || 0}
+        />
       </article>
     );
   };
@@ -377,106 +275,37 @@ function InterviewQAContent() {
     <main className="container">
       <SectionNav />
 
-      <div className="mode-toggle-strip" role="tablist" aria-label="Chế độ học">
-        <button
-          type="button"
-          className={`mode-toggle-btn ${studyMode === "browse" ? "active" : ""}`}
-          onClick={() => {
-            setStudyMode("browse");
-            localStorage.setItem("interview_qa_study_mode", "browse");
-          }}
-        >
-          <ListIcon size={15} />
-          <span>Duyệt tất cả</span>
-        </button>
-        <button
-          type="button"
-          className={`mode-toggle-btn ${studyMode === "lesson" ? "active" : ""}`}
-          onClick={() => {
-            setStudyMode("lesson");
-            localStorage.setItem("interview_qa_study_mode", "lesson");
-          }}
-        >
-          <BookOpenIcon size={15} />
-          <span>Học theo bài (10 câu/bài)</span>
-        </button>
-      </div>
+      <StudyModeStrip
+        mode={studyMode}
+        onChange={switchStudyMode}
+        browseLabel="Duyệt tất cả"
+        lessonLabel="Học theo bài (10 câu/bài)"
+      />
 
-      <header className="hero">
-        <div className="hero-content">
-          <span className="hero-eyebrow">DEV • Technical &amp; Behavioral Q&amp;A</span>
-          <h1>Phỏng Vấn Web Developer</h1>
-          <p className="hero-subtitle">
-            Câu hỏi phỏng vấn tiếng Anh thực chiến kèm phương án trả lời mẫu cho Web Developer
-          </p>
-        </div>
-
-        <div className="progress-card">
-          <div className="progress-stats">
-            <span className="stat-label">Tiến trình học phỏng vấn</span>
-            <span className="stat-value">
-              {learnedCount}/{totalCount} câu hỏi ({progressPercent}%)
-            </span>
-          </div>
-          <div className="progress-bar-container">
-            <div className="progress-bar" style={{ width: `${progressPercent}%` }} />
-          </div>
-          <div className="progress-actions">
-            <button type="button" onClick={resetProgress} className="btn-reset" title="Xóa toàn bộ tiến trình học">
-              <RotateCcwIcon size={14} />
-              <span>Reset tiến trình</span>
-            </button>
-          </div>
-        </div>
-      </header>
+      <StudyHeroHeader
+        eyebrow="DEV • Technical & Behavioral Q&A"
+        title="Phỏng Vấn Web Developer"
+        subtitle="Câu hỏi phỏng vấn tiếng Anh thực chiến kèm phương án trả lời mẫu cho Web Developer"
+        statLabel="Tiến trình học phỏng vấn"
+        learnedCount={learnedIds.size}
+        totalCount={allQuestions.length}
+        unitLabel="câu hỏi"
+        onReset={resetProgress}
+      />
 
       {studyMode !== "lesson" && (
         <>
-          <section className="control-panel">
-            <div className="search-box">
-              <span className="search-icon">
-                <SearchIcon size={16} />
-              </span>
-              <input
-                type="text"
-                placeholder="Tìm theo câu hỏi, câu trả lời tiếng Anh hoặc tiếng Việt..."
-                value={searchQuery}
-                onChange={(e) => handleSearchChange(e.target.value)}
-              />
-              {searchQuery && (
-                <button type="button" onClick={() => handleSearchChange("")} className="clear-search" aria-label="Xóa tìm kiếm">
-                  <XIcon size={15} />
-                </button>
-              )}
-            </div>
-
-            <div className="tts-controls">
-              <div className="control-group">
-                <label htmlFor="voice-select">Giọng đọc tiếng Anh</label>
-                <select id="voice-select" value={selectedVoice} onChange={(e) => setSelectedVoice(e.target.value)}>
-                  {voices.map((v) => (
-                    <option key={v.name} value={v.name}>
-                      {v.name} ({v.lang})
-                    </option>
-                  ))}
-                  {voices.length === 0 && <option value="">Mặc định hệ thống</option>}
-                </select>
-              </div>
-
-              <div className="control-group">
-                <label htmlFor="rate-range">Tốc độ ({speechRate}x)</label>
-                <input
-                  id="rate-range"
-                  type="range"
-                  min="0.5"
-                  max="1.5"
-                  step="0.05"
-                  value={speechRate}
-                  onChange={(e) => setSpeechRate(parseFloat(e.target.value))}
-                />
-              </div>
-            </div>
-          </section>
+          <StudyControlPanel
+            searchQuery={searchQuery}
+            onSearchChange={handleSearchChange}
+            searchPlaceholder="Tìm theo câu hỏi, câu trả lời tiếng Anh hoặc tiếng Việt..."
+            voices={voices}
+            selectedVoice={selectedVoice}
+            onVoiceChange={setSelectedVoice}
+            voiceLabel="Giọng đọc tiếng Anh"
+            speechRate={speechRate}
+            onRateChange={setSpeechRate}
+          />
 
           <section className="categories-nav">
             <button
@@ -484,7 +313,7 @@ function InterviewQAContent() {
               onClick={() => handlePartChange("all")}
               className={`category-pill ${activePart === "all" ? "active" : ""}`}
             >
-              Tất cả ({totalCount} câu hỏi)
+              Tất cả ({allQuestions.length} câu hỏi)
             </button>
             <button
               type="button"
@@ -502,29 +331,13 @@ function InterviewQAContent() {
             </button>
           </section>
 
-          <div className="filter-tabs">
-            <button
-              type="button"
-              onClick={() => handleFilterChange("all")}
-              className={`filter-tab ${filterType === "all" ? "active" : ""}`}
-            >
-              Tất cả ({filteredQuestions.length})
-            </button>
-            <button
-              type="button"
-              onClick={() => handleFilterChange("unlearned")}
-              className={`filter-tab ${filterType === "unlearned" ? "active" : ""}`}
-            >
-              Chưa học ({allQuestions.filter((q) => !learnedIds.has(q.id)).length})
-            </button>
-            <button
-              type="button"
-              onClick={() => handleFilterChange("learned")}
-              className={`filter-tab ${filterType === "learned" ? "active" : ""}`}
-            >
-              Đã thuộc ({learnedIds.size})
-            </button>
-          </div>
+          <StudyFilterTabs
+            filterType={filterType}
+            onFilterChange={handleFilterChange}
+            allCount={filteredQuestions.length}
+            unlearnedCount={allQuestions.filter((q) => !learnedIds.has(q.id)).length}
+            learnedCount={learnedIds.size}
+          />
         </>
       )}
 
@@ -533,89 +346,32 @@ function InterviewQAContent() {
       ) : (
         <section className="sentences-list">
           {paginatedQuestions.map(renderQuestionCard)}
-
           {filteredQuestions.length === 0 && (
-            <div className="empty-state">
-              <span className="empty-icon">
-                <InboxIcon size={36} />
-              </span>
-              <p>Không tìm thấy câu hỏi phỏng vấn nào phù hợp với bộ lọc hiện tại.</p>
-            </div>
+            <StudyEmptyState message="Không tìm thấy câu hỏi phỏng vấn nào phù hợp với bộ lọc hiện tại." />
           )}
         </section>
       )}
 
-      {totalPages > 1 && studyMode !== "lesson" && (
-        <div className="pagination-controls">
-          <button
-            type="button"
-            onClick={() => changePage(currentPage - 1)}
-            disabled={currentPage <= 1}
-            className="pagination-btn"
-          >
-            <ArrowLeftIcon size={14} />
-            <span>Trang trước</span>
-          </button>
-
-          <div className="pagination-jump">
-            <span className="pagination-info">Trang</span>
-            <input
-              type="number"
-              min="1"
-              max={totalPages}
-              value={pageInput}
-              onChange={(e) => setPageInput(e.target.value)}
-              onKeyDown={(e) => {
-                if (e.key === "Enter") {
-                  const p = parseInt(pageInput, 10);
-                  if (!isNaN(p)) changePage(p);
-                }
-              }}
-              onBlur={() => {
-                const p = parseInt(pageInput, 10);
-                if (!isNaN(p)) changePage(p);
-                else setPageInput(currentPage.toString());
-              }}
-              className="pagination-input"
-              aria-label="Số trang"
-            />
-            <span className="pagination-info">
-              / {totalPages} ({filteredQuestions.length} câu)
-            </span>
-          </div>
-
-          <button
-            type="button"
-            onClick={() => changePage(currentPage + 1)}
-            disabled={currentPage >= totalPages}
-            className="pagination-btn"
-          >
-            <span>Trang sau</span>
-            <ArrowRightIcon size={14} />
-          </button>
-        </div>
+      {studyMode !== "lesson" && (
+        <StudyPagination
+          currentPage={currentPage}
+          totalPages={totalPages}
+          totalItems={filteredQuestions.length}
+          unitLabel="câu"
+          pageInput={pageInput}
+          setPageInput={setPageInput}
+          onChangePage={changePage}
+        />
       )}
 
-      <footer className="app-footer">
-        <p>
-          <LightbulbIcon size={15} />
-          <span>Tip: Bấm vào câu hỏi hoặc câu trả lời mẫu để nghe phát âm và ngữ điệu trả lời tự nhiên.</span>
-        </p>
-      </footer>
+      <StudyFooterTip text="Tip: Bấm vào câu hỏi hoặc câu trả lời mẫu để nghe phát âm và ngữ điệu trả lời tự nhiên." />
     </main>
   );
 }
 
 export default function InterviewQAPage() {
   return (
-    <Suspense
-      fallback={
-        <div className="loading-screen">
-          <div className="spinner" />
-          <p>Đang tải dữ liệu phỏng vấn tiếng Anh...</p>
-        </div>
-      }
-    >
+    <Suspense fallback={<StudyLoading message="Đang tải dữ liệu phỏng vấn tiếng Anh..." />}>
       <InterviewQAContent />
     </Suspense>
   );

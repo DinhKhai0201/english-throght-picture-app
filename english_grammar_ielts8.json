@@ -2,16 +2,46 @@
   "title": "English Grammar Mastery: Basic to IELTS 8.0+",
   "description_vi": "Hệ thống ngữ pháp tiếng Anh toàn diện từ nền tảng (A1-A2) đến IELTS 7.0-8.0+ theo từng dạng bài, kèm công thức, ví dụ phát âm và lỗi sai thường gặp.",
   "categories": [
-    { "id": "tenses", "name": "Thì & Hòa Hợp Thì (Tenses)" },
-    { "id": "modals", "name": "Động Từ Khuyết Thiếu (Modals)" },
-    { "id": "conditionals", "name": "Câu Điều Kiện & Câu Ước" },
-    { "id": "passive", "name": "Câu Bị Động & Nhờ Vả" },
-    { "id": "relatives", "name": "Mệnh Đề Quan Hệ & Rút Gọn" },
-    { "id": "verb_forms", "name": "V-ing, To-V & Thức Giả Định" },
-    { "id": "comparison_emphasis", "name": "So Sánh & Câu Chẻ Nhấn Mạnh" },
-    { "id": "reported_questions", "name": "Câu Gián Tiếp & Câu Hỏi Gián Tiếp" },
-    { "id": "nouns_articles", "name": "Mạo Từ, Lượng Từ & Hòa Hợp S-V" },
-    { "id": "cohesion_inversion", "name": "Nhượng Bộ, Đảo Ngữ & Academic Hedging" }
+    {
+      "id": "tenses",
+      "name": "Thì & Hòa Hợp Thì (Tenses)"
+    },
+    {
+      "id": "modals",
+      "name": "Động Từ Khuyết Thiếu (Modals)"
+    },
+    {
+      "id": "conditionals",
+      "name": "Câu Điều Kiện & Câu Ước"
+    },
+    {
+      "id": "passive",
+      "name": "Câu Bị Động & Nhờ Vả"
+    },
+    {
+      "id": "relatives",
+      "name": "Mệnh Đề Quan Hệ & Rút Gọn"
+    },
+    {
+      "id": "verb_forms",
+      "name": "V-ing, To-V & Thức Giả Định"
+    },
+    {
+      "id": "comparison_emphasis",
+      "name": "So Sánh & Câu Chẻ Nhấn Mạnh"
+    },
+    {
+      "id": "reported_questions",
+      "name": "Câu Gián Tiếp & Câu Hỏi Gián Tiếp"
+    },
+    {
+      "id": "nouns_articles",
+      "name": "Mạo Từ, Lượng Từ & Hòa Hợp S-V"
+    },
+    {
+      "id": "cohesion_inversion",
+      "name": "Nhượng Bộ, Đảo Ngữ & Academic Hedging"
+    }
   ],
   "items": [
     {
@@ -35,6 +65,30 @@
         {
           "en": "Public transport plays a vital role in reducing urban congestion.",
           "vi": "Giao thông công cộng đóng vai trò thiết yếu trong việc giảm ùn tắc đô thị."
+        },
+        {
+          "en": "The government allocates a significant budget to education each year.",
+          "vi": "Chính phủ phân bổ ngân sách đáng kể cho giáo dục mỗi năm."
+        },
+        {
+          "en": "She teaches English at a local secondary school and loves her job.",
+          "vi": "Cô ấy dạy tiếng Anh tại một trường trung học địa phương và yêu công việc của mình."
+        },
+        {
+          "en": "Water freezes at zero degrees Celsius under normal conditions.",
+          "vi": "Nước đông đặc ở 0 độ C trong điều kiện bình thường."
+        },
+        {
+          "en": "Many young people prefer online shopping to visiting physical stores.",
+          "vi": "Nhiều người trẻ thích mua sắm trực tuyến hơn đến cửa hàng thực tế."
+        },
+        {
+          "en": "The chart shows the percentage of households that own a car in 2020.",
+          "vi": "Biểu đồ cho thấy tỷ lệ hộ gia đình sở hữu ô tô vào năm 2020."
+        },
+        {
+          "en": "He rarely exercises, which contributes to his poor health.",
+          "vi": "Anh ấy hiếm khi tập thể dục, điều này góp phần vào sức khỏe kém của anh ấy."
         }
       ]
     },
@@ -59,6 +113,26 @@
         {
           "en": "We are meeting the client at three o'clock tomorrow.",
           "vi": "Chúng tôi sẽ gặp khách hàng lúc 3 giờ chiều mai."
+        },
+        {
+          "en": "More and more people are choosing to work remotely these days.",
+          "vi": "Ngày càng nhiều người đang chọn làm việc từ xa ngày nay."
+        },
+        {
+          "en": "The government is currently investing heavily in renewable energy infrastructure.",
+          "vi": "Chính phủ hiện đang đầu tư mạnh vào cơ sở hạ tầng năng lượng tái tạo."
+        },
+        {
+          "en": "She is studying for her IELTS exam and practising every day.",
+          "vi": "Cô ấy đang ôn thi IELTS và luyện tập mỗi ngày."
+        },
+        {
+          "en": "Rising temperatures are causing glaciers to melt at an alarming rate.",
+          "vi": "Nhiệt độ tăng đang khiến băng hà tan chảy ở mức đáng báo động."
+        },
+        {
+          "en": "They are building a new hospital in the city centre this year.",
+          "vi": "Họ đang xây dựng một bệnh viện mới ở trung tâm thành phố năm nay."
         }
       ]
     },
@@ -83,6 +157,26 @@
         {
           "en": "Between 2010 and 2015, solar energy output rose sharply.",
           "vi": "Từ năm 2010 đến 2015, sản lượng điện mặt trời đã tăng mạnh."
+        },
+        {
+          "en": "The industrial revolution transformed society and created new social classes.",
+          "vi": "Cuộc cách mạng công nghiệp đã biến đổi xã hội và tạo ra các tầng lớp xã hội mới."
+        },
+        {
+          "en": "She graduated from university in 2019 and immediately found a job.",
+          "vi": "Cô ấy tốt nghiệp đại học năm 2019 và ngay lập tức tìm được việc làm."
+        },
+        {
+          "en": "The government introduced stricter environmental laws two decades ago.",
+          "vi": "Chính phủ đã ban hành các luật môi trường nghiêm ngặt hơn hai thập kỷ trước."
+        },
+        {
+          "en": "He spent three years abroad studying engineering before returning home.",
+          "vi": "Anh ấy dành ba năm ở nước ngoài học kỹ thuật trước khi về nước."
+        },
+        {
+          "en": "The company launched its first product in 2010 and saw immediate success.",
+          "vi": "Công ty ra mắt sản phẩm đầu tiên vào năm 2010 và ngay lập tức thành công."
         }
       ]
     },
@@ -107,6 +201,26 @@
         {
           "en": "While other students were memorizing rules, she was practicing real conversations.",
           "vi": "Trong khi các bạn khác học vẹt quy tắc, cô ấy lại luyện hội thoại thực tế."
+        },
+        {
+          "en": "While she was presenting her findings, the power suddenly went out.",
+          "vi": "Trong khi cô ấy đang trình bày kết quả của mình, điện đột ngột bị mất."
+        },
+        {
+          "en": "He was working on his thesis when his supervisor called with feedback.",
+          "vi": "Anh ấy đang làm luận văn thì người hướng dẫn gọi điện với nhận xét."
+        },
+        {
+          "en": "They were having a meeting when the earthquake struck the city.",
+          "vi": "Họ đang họp thì trận động đất xảy ra ở thành phố."
+        },
+        {
+          "en": "I was commuting to work when I heard the breaking news on the radio.",
+          "vi": "Tôi đang đi làm thì nghe tin tức nóng hổi trên đài phát thanh."
+        },
+        {
+          "en": "The children were playing in the park when it started to rain heavily.",
+          "vi": "Những đứa trẻ đang chơi trong công viên thì trời bắt đầu mưa to."
         }
       ]
     },
@@ -131,6 +245,30 @@
         {
           "en": "Digital payments have significantly changed how people shop daily.",
           "vi": "Thanh toán số đã thay đổi đáng kể cách mọi người mua sắm hàng ngày."
+        },
+        {
+          "en": "Scientists have recently discovered a new species of deep-sea fish.",
+          "vi": "Các nhà khoa học gần đây đã khám phá ra một loài cá biển sâu mới."
+        },
+        {
+          "en": "The government has introduced several policies to address homelessness.",
+          "vi": "Chính phủ đã ban hành một số chính sách để giải quyết vấn đề vô gia cư."
+        },
+        {
+          "en": "She has lived in three different countries and speaks four languages.",
+          "vi": "Cô ấy đã sống ở ba quốc gia khác nhau và nói được bốn thứ tiếng."
+        },
+        {
+          "en": "Technology has revolutionised the way we communicate and access information.",
+          "vi": "Công nghệ đã cách mạng hóa cách chúng ta giao tiếp và tiếp cận thông tin."
+        },
+        {
+          "en": "He has never tried sushi, so he is excited about visiting Japan.",
+          "vi": "Anh ấy chưa bao giờ ăn sushi nên rất háo hức khi thăm Nhật Bản."
+        },
+        {
+          "en": "The pollution levels have increased dramatically over the past decade.",
+          "vi": "Mức độ ô nhiễm đã tăng mạnh trong thập kỷ qua."
         }
       ]
     },
@@ -155,6 +293,26 @@
         {
           "en": "Governments have been investing heavily in renewable infrastructure.",
           "vi": "Các chính phủ vẫn đang đầu tư mạnh vào hạ tầng năng lượng tái tạo."
+        },
+        {
+          "en": "Researchers have been studying the effects of social media on mental health for years.",
+          "vi": "Các nhà nghiên cứu đã nghiên cứu tác động của mạng xã hội đến sức khỏe tâm thần trong nhiều năm."
+        },
+        {
+          "en": "She has been practising her speaking skills every day this month.",
+          "vi": "Cô ấy đã luyện kỹ năng nói mỗi ngày trong tháng này."
+        },
+        {
+          "en": "The city has been experiencing a housing shortage for the past five years.",
+          "vi": "Thành phố đã trải qua tình trạng thiếu nhà ở trong năm năm qua."
+        },
+        {
+          "en": "He has been working overtime to meet the project deadline.",
+          "vi": "Anh ấy đã làm thêm giờ để đáp ứng thời hạn dự án."
+        },
+        {
+          "en": "They have been negotiating a trade deal for several months without success.",
+          "vi": "Họ đã đàm phán một thỏa thuận thương mại trong vài tháng mà không thành công."
         }
       ]
     },
@@ -179,6 +337,26 @@
         {
           "en": "By 2020, smartphone ownership had surpassed ninety percent.",
           "vi": "Tính đến năm 2020, tỷ lệ sở hữu điện thoại thông minh đã vượt mốc 90%."
+        },
+        {
+          "en": "By the time the rescue team arrived, the survivors had already built a shelter.",
+          "vi": "Vào thời điểm đội cứu hộ đến, những người sống sót đã xây dựng được nơi trú ẩn."
+        },
+        {
+          "en": "She had already submitted her application before the deadline was extended.",
+          "vi": "Cô ấy đã nộp đơn trước khi hạn chót được gia hạn."
+        },
+        {
+          "en": "The company had invested millions in the project before it was cancelled.",
+          "vi": "Công ty đã đầu tư hàng triệu đô la vào dự án trước khi nó bị hủy bỏ."
+        },
+        {
+          "en": "By 2000, the internet had already changed the way businesses operated.",
+          "vi": "Vào năm 2000, internet đã thay đổi cách các doanh nghiệp hoạt động."
+        },
+        {
+          "en": "He had studied French for years before he moved to Paris.",
+          "vi": "Anh ấy đã học tiếng Pháp trong nhiều năm trước khi chuyển đến Paris."
         }
       ]
     },
@@ -203,6 +381,26 @@
         {
           "en": "This time next month, I will be presenting my project to the panel.",
           "vi": "Vào giờ này tháng tới, tôi sẽ đang thuyết trình dự án trước hội đồng."
+        },
+        {
+          "en": "By 2030, scientists will have developed more effective treatments for cancer.",
+          "vi": "Đến năm 2030, các nhà khoa học sẽ phát triển được phương pháp điều trị ung thư hiệu quả hơn."
+        },
+        {
+          "en": "At this time next year, she will be studying medicine at university.",
+          "vi": "Lúc này năm sau, cô ấy sẽ đang học y khoa tại trường đại học."
+        },
+        {
+          "en": "By the end of this decade, renewable energy will have replaced most fossil fuels.",
+          "vi": "Trước cuối thập kỷ này, năng lượng tái tạo sẽ đã thay thế phần lớn nhiên liệu hóa thạch."
+        },
+        {
+          "en": "They will have completed the construction of the bridge by next spring.",
+          "vi": "Họ sẽ hoàn thành việc xây dựng cầu vào mùa xuân tới."
+        },
+        {
+          "en": "In fifty years, people will be living on Mars, according to some scientists.",
+          "vi": "Theo một số nhà khoa học, trong 50 năm nữa, người ta sẽ đang sống trên Sao Hỏa."
         }
       ]
     },
@@ -227,6 +425,26 @@
         {
           "en": "Despite the heavy traffic, we were able to arrive on schedule.",
           "vi": "Dù giao thông đông đúc, chúng tôi vẫn kịp đến đúng giờ."
+        },
+        {
+          "en": "With the right training, anyone can develop strong leadership skills.",
+          "vi": "Với sự đào tạo phù hợp, bất kỳ ai cũng có thể phát triển kỹ năng lãnh đạo tốt."
+        },
+        {
+          "en": "She could speak two languages fluently by the age of twelve.",
+          "vi": "Cô ấy có thể nói thành thạo hai ngôn ngữ khi mới mười hai tuổi."
+        },
+        {
+          "en": "After months of therapy, he was able to walk again without assistance.",
+          "vi": "Sau nhiều tháng trị liệu, anh ấy có thể đi lại mà không cần hỗ trợ."
+        },
+        {
+          "en": "Modern technology can solve many environmental problems we face today.",
+          "vi": "Công nghệ hiện đại có thể giải quyết nhiều vấn đề môi trường chúng ta đang đối mặt."
+        },
+        {
+          "en": "Could you elaborate on the advantages of electric vehicles, please?",
+          "vi": "Bạn có thể nói rõ hơn về ưu điểm của xe điện không?"
         }
       ]
     },
@@ -251,6 +469,26 @@
         {
           "en": "You don't have to print the ticket; a digital copy is sufficient.",
           "vi": "Bạn không cần in vé đâu; bản điện tử là đủ rồi."
+        },
+        {
+          "en": "Students must cite their sources properly to avoid plagiarism.",
+          "vi": "Học sinh phải trích dẫn nguồn tài liệu đúng cách để tránh đạo văn."
+        },
+        {
+          "en": "In many countries, children have to attend school until the age of sixteen.",
+          "vi": "Ở nhiều quốc gia, trẻ em phải đi học đến năm mười sáu tuổi."
+        },
+        {
+          "en": "You mustn't share confidential information with unauthorised individuals.",
+          "vi": "Bạn không được chia sẻ thông tin mật với những người không có thẩm quyền."
+        },
+        {
+          "en": "She doesn't have to travel to the office anymore since she works remotely.",
+          "vi": "Cô ấy không cần đi đến văn phòng nữa vì cô ấy làm việc từ xa."
+        },
+        {
+          "en": "Governments must take immediate action to combat climate change.",
+          "vi": "Các chính phủ phải hành động ngay lập tức để chống lại biến đổi khí hậu."
         }
       ]
     },
@@ -275,6 +513,26 @@
         {
           "en": "We had better back up the database before running the migration.",
           "vi": "Chúng ta nên sao lưu cơ sở dữ liệu ngay trước khi chạy di trú."
+        },
+        {
+          "en": "Teenagers should limit their screen time to protect their mental wellbeing.",
+          "vi": "Thanh thiếu niên nên hạn chế thời gian sử dụng màn hình để bảo vệ sức khỏe tâm thần."
+        },
+        {
+          "en": "The government ought to invest more in public healthcare systems.",
+          "vi": "Chính phủ nên đầu tư nhiều hơn vào hệ thống y tế công cộng."
+        },
+        {
+          "en": "You had better revise your essay before submitting it to avoid losing marks.",
+          "vi": "Bạn nên sửa lại bài luận trước khi nộp để tránh mất điểm."
+        },
+        {
+          "en": "Society should recognise and reward volunteers for their contributions.",
+          "vi": "Xã hội nên công nhận và khen thưởng các tình nguyện viên vì những đóng góp của họ."
+        },
+        {
+          "en": "Ought we not to consider the long-term consequences of our decisions?",
+          "vi": "Chúng ta không nên cân nhắc hậu quả lâu dài của các quyết định của mình sao?"
         }
       ]
     },
@@ -299,6 +557,26 @@
         {
           "en": "City planners should have expanded the metro network decades ago.",
           "vi": "Các nhà quy hoạch đáng lẽ nên mở rộng mạng lưới tàu điện ngầm từ nhiều thập kỷ trước."
+        },
+        {
+          "en": "She must have worked incredibly hard to achieve such outstanding results.",
+          "vi": "Cô ấy chắc hẳn đã làm việc cực kỳ chăm chỉ để đạt được kết quả xuất sắc như vậy."
+        },
+        {
+          "en": "They might have misunderstood the instructions, which led to the error.",
+          "vi": "Họ có thể đã hiểu nhầm hướng dẫn, dẫn đến lỗi đó."
+        },
+        {
+          "en": "He should have consulted a doctor sooner instead of ignoring the symptoms.",
+          "vi": "Anh ấy lẽ ra nên đi khám bác sĩ sớm hơn thay vì bỏ qua các triệu chứng."
+        },
+        {
+          "en": "The government could have implemented better policies to prevent the crisis.",
+          "vi": "Chính phủ đáng lẽ có thể thực hiện các chính sách tốt hơn để ngăn chặn cuộc khủng hoảng."
+        },
+        {
+          "en": "I shouldn't have spent so much time on social media before the exam.",
+          "vi": "Tôi lẽ ra không nên dành quá nhiều thời gian trên mạng xã hội trước kỳ thi."
         }
       ]
     },
@@ -323,6 +601,26 @@
         {
           "en": "Unless governments enforce stricter regulations, air quality will worsen.",
           "vi": "Trừ khi chính phủ áp dụng quy định chặt chẽ hơn, chất lượng không khí sẽ tệ đi."
+        },
+        {
+          "en": "If people recycle more, they reduce the amount of waste in landfills.",
+          "vi": "Nếu mọi người tái chế nhiều hơn, họ sẽ giảm lượng rác thải trong các bãi chôn lấp."
+        },
+        {
+          "en": "If the government increases taxes, some businesses will relocate abroad.",
+          "vi": "Nếu chính phủ tăng thuế, một số doanh nghiệp sẽ chuyển ra nước ngoài."
+        },
+        {
+          "en": "Unless we act now, the environmental damage will become irreversible.",
+          "vi": "Trừ khi chúng ta hành động ngay bây giờ, thiệt hại môi trường sẽ trở nên không thể phục hồi."
+        },
+        {
+          "en": "Water boils if you heat it to one hundred degrees Celsius.",
+          "vi": "Nước sôi nếu bạn đun nóng đến một trăm độ C."
+        },
+        {
+          "en": "If she passes the exam, she will celebrate with her family.",
+          "vi": "Nếu cô ấy đỗ kỳ thi, cô ấy sẽ ăn mừng cùng gia đình."
         }
       ]
     },
@@ -347,6 +645,26 @@
         {
           "en": "Many employees could achieve better work-life balance if flexible hours became standard.",
           "vi": "Nhiều nhân viên có thể cân bằng cuộc sống tốt hơn nếu giờ làm linh hoạt trở thành tiêu chuẩn."
+        },
+        {
+          "en": "If I were the prime minister, I would prioritise education funding.",
+          "vi": "Nếu tôi là thủ tướng, tôi sẽ ưu tiên ngân sách giáo dục."
+        },
+        {
+          "en": "If public transport were free, more people would stop using private cars.",
+          "vi": "Nếu giao thông công cộng miễn phí, nhiều người sẽ ngừng dùng xe cá nhân."
+        },
+        {
+          "en": "She would travel the world if she had enough savings.",
+          "vi": "Cô ấy sẽ du lịch thế giới nếu cô ấy có đủ tiền tiết kiệm."
+        },
+        {
+          "en": "If technology could solve all problems, life would be much simpler.",
+          "vi": "Nếu công nghệ có thể giải quyết mọi vấn đề, cuộc sống sẽ đơn giản hơn nhiều."
+        },
+        {
+          "en": "If we invested more in renewable energy, we would significantly reduce pollution.",
+          "vi": "Nếu chúng ta đầu tư nhiều hơn vào năng lượng tái tạo, chúng ta sẽ giảm đáng kể ô nhiễm."
         }
       ]
     },
@@ -371,6 +689,26 @@
         {
           "en": "If I hadn't moved to this city five years ago, I wouldn't be working in tech today.",
           "vi": "Nếu 5 năm trước tôi không chuyển đến thành phố này, hôm nay tôi đã không làm trong ngành công nghệ."
+        },
+        {
+          "en": "If the scientists had acted sooner, the species might not have become extinct.",
+          "vi": "Nếu các nhà khoa học hành động sớm hơn, loài đó có thể đã không tuyệt chủng."
+        },
+        {
+          "en": "If she had studied harder, she would have got a higher band score.",
+          "vi": "Nếu cô ấy học chăm chỉ hơn, cô ấy đã đạt band điểm cao hơn."
+        },
+        {
+          "en": "If they had invested in education earlier, the country would be more developed now.",
+          "vi": "Nếu họ đầu tư vào giáo dục sớm hơn, đất nước đã phát triển hơn bây giờ."
+        },
+        {
+          "en": "He wouldn't be in debt now if he had managed his finances better.",
+          "vi": "Anh ấy đã không nợ nần bây giờ nếu anh ấy quản lý tài chính tốt hơn."
+        },
+        {
+          "en": "If the earthquake had hit a densely populated area, the casualties would have been enormous.",
+          "vi": "Nếu trận động đất xảy ra ở khu vực đông dân, thương vong đã rất lớn."
         }
       ]
     },
@@ -395,6 +733,26 @@
         {
           "en": "Had the company listened to user feedback, it could have avoided that crisis.",
           "vi": "Nếu công ty lắng nghe phản hồi người dùng, họ đã có thể tránh được cuộc khủng hoảng đó."
+        },
+        {
+          "en": "Were the government to invest more in infrastructure, economic growth would follow.",
+          "vi": "Nếu chính phủ đầu tư nhiều hơn vào cơ sở hạ tầng, tăng trưởng kinh tế sẽ theo sau."
+        },
+        {
+          "en": "Had the authorities responded faster, many lives could have been saved.",
+          "vi": "Nếu chính quyền phản ứng nhanh hơn, nhiều sinh mạng đã có thể được cứu."
+        },
+        {
+          "en": "Should you require further information, please do not hesitate to contact us.",
+          "vi": "Nếu bạn cần thêm thông tin, xin đừng ngần ngại liên hệ với chúng tôi."
+        },
+        {
+          "en": "Were renewable energy cheaper, businesses would adopt it far more readily.",
+          "vi": "Nếu năng lượng tái tạo rẻ hơn, các doanh nghiệp sẽ áp dụng nó dễ dàng hơn nhiều."
+        },
+        {
+          "en": "Had the policy been implemented earlier, the crisis would have been avoided.",
+          "vi": "Nếu chính sách được thực hiện sớm hơn, cuộc khủng hoảng đã có thể tránh được."
         }
       ]
     },
@@ -419,6 +777,26 @@
         {
           "en": "Many graduates wish they had gained more practical experience before leaving school.",
           "vi": "Nhiều sinh viên mới tốt nghiệp ước rằng họ đã tích lũy nhiều kinh nghiệm thực tế hơn trước khi ra trường."
+        },
+        {
+          "en": "I wish the government would take more decisive action on climate change.",
+          "vi": "Tôi ước chính phủ sẽ hành động quyết đoán hơn về biến đổi khí hậu."
+        },
+        {
+          "en": "If only she had taken the job offer — she would be earning twice as much now.",
+          "vi": "Giá như cô ấy nhận lời mời việc làm đó — cô ấy đã kiếm được gấp đôi bây giờ."
+        },
+        {
+          "en": "He wishes he could speak English as naturally as a native speaker.",
+          "vi": "Anh ấy ước mình có thể nói tiếng Anh tự nhiên như người bản ngữ."
+        },
+        {
+          "en": "If only people were more aware of the consequences of plastic pollution.",
+          "vi": "Giá như mọi người ý thức hơn về hậu quả của ô nhiễm nhựa."
+        },
+        {
+          "en": "She wishes she had chosen a different career path when she was younger.",
+          "vi": "Cô ấy ước mình đã chọn con đường sự nghiệp khác khi còn trẻ."
         }
       ]
     },
@@ -443,6 +821,26 @@
         {
           "en": "A new community library is being constructed near the central park.",
           "vi": "Một thư viện cộng đồng mới đang được xây dựng gần công viên trung tâm."
+        },
+        {
+          "en": "Thousands of trees are planted every year by environmental organisations.",
+          "vi": "Hàng nghìn cây xanh được trồng mỗi năm bởi các tổ chức môi trường."
+        },
+        {
+          "en": "The new policy was introduced to reduce carbon emissions significantly.",
+          "vi": "Chính sách mới được ban hành để giảm đáng kể lượng khí thải carbon."
+        },
+        {
+          "en": "The data will be analysed by researchers before the report is published.",
+          "vi": "Dữ liệu sẽ được các nhà nghiên cứu phân tích trước khi báo cáo được công bố."
+        },
+        {
+          "en": "Several rare species have been discovered in the Amazon rainforest recently.",
+          "vi": "Một số loài quý hiếm đã được phát hiện trong rừng mưa Amazon gần đây."
+        },
+        {
+          "en": "The bridge was being repaired when the storm caused further damage.",
+          "vi": "Cây cầu đang được sửa chữa khi cơn bão gây ra thiệt hại thêm."
         }
       ]
     },
@@ -467,6 +865,26 @@
         {
           "en": "She has her essays proofread by a native speaker.",
           "vi": "Cô ấy nhờ một người bản xứ hiệu đính các bài luận của mình."
+        },
+        {
+          "en": "She had her essay proofread by a professional editor before submission.",
+          "vi": "Cô ấy nhờ một biên tập viên chuyên nghiệp đọc lại bài luận trước khi nộp."
+        },
+        {
+          "en": "The company got its annual report audited by an independent firm.",
+          "vi": "Công ty nhờ một công ty độc lập kiểm toán báo cáo thường niên của mình."
+        },
+        {
+          "en": "He had his blood pressure checked regularly by his doctor.",
+          "vi": "Anh ấy được bác sĩ kiểm tra huyết áp thường xuyên."
+        },
+        {
+          "en": "They got the entire office repainted to create a more productive environment.",
+          "vi": "Họ nhờ sơn lại toàn bộ văn phòng để tạo ra môi trường làm việc hiệu quả hơn."
+        },
+        {
+          "en": "The government should get its infrastructure assessed before allocating funds.",
+          "vi": "Chính phủ nên nhờ đánh giá cơ sở hạ tầng trước khi phân bổ ngân sách."
         }
       ]
     },
@@ -491,6 +909,26 @@
         {
           "en": "Automation is projected to reshape millions of administrative jobs.",
           "vi": "Tự động hóa được dự báo sẽ tái định hình hàng triệu công việc hành chính."
+        },
+        {
+          "en": "It is widely believed that education is the foundation of economic development.",
+          "vi": "Người ta tin rộng rãi rằng giáo dục là nền tảng của phát triển kinh tế."
+        },
+        {
+          "en": "Air pollution is known to cause serious respiratory diseases.",
+          "vi": "Ô nhiễm không khí được biết là gây ra các bệnh hô hấp nghiêm trọng."
+        },
+        {
+          "en": "It has been reported that the unemployment rate has reached a record low.",
+          "vi": "Có báo cáo rằng tỷ lệ thất nghiệp đã đạt mức thấp kỷ lục."
+        },
+        {
+          "en": "Social media is said to have a significant impact on teenagers' self-esteem.",
+          "vi": "Mạng xã hội được cho là có tác động đáng kể đến lòng tự trọng của thanh thiếu niên."
+        },
+        {
+          "en": "It is thought that the population will reach ten billion by the end of this century.",
+          "vi": "Người ta cho rằng dân số sẽ đạt mười tỷ người vào cuối thế kỷ này."
         }
       ]
     },
@@ -515,6 +953,26 @@
         {
           "en": "Cities whose public transit is reliable attract more talent.",
           "vi": "Những thành phố có giao thông công cộng đáng tin cậy thu hút nhiều nhân tài hơn."
+        },
+        {
+          "en": "The students who perform best in examinations often receive scholarships.",
+          "vi": "Học sinh đạt kết quả tốt nhất trong kỳ thi thường nhận học bổng."
+        },
+        {
+          "en": "The country that invests most in education tends to have the strongest economy.",
+          "vi": "Quốc gia đầu tư nhiều nhất vào giáo dục có xu hướng có nền kinh tế mạnh nhất."
+        },
+        {
+          "en": "The technology which has transformed modern life most is arguably the internet.",
+          "vi": "Công nghệ đã biến đổi cuộc sống hiện đại nhất có thể nói là internet."
+        },
+        {
+          "en": "The hospital where she works specialises in treating rare diseases.",
+          "vi": "Bệnh viện nơi cô ấy làm việc chuyên điều trị các bệnh hiếm gặp."
+        },
+        {
+          "en": "The year when the policy was introduced saw a dramatic fall in crime rates.",
+          "vi": "Năm chính sách được ban hành chứng kiến sự giảm mạnh về tỷ lệ tội phạm."
         }
       ]
     },
@@ -539,6 +997,26 @@
         {
           "en": "She practiced speaking for an hour daily, which boosted her confidence.",
           "vi": "Cô ấy luyện nói một giờ mỗi ngày, điều đó đã nâng cao sự tự tin của cô ấy."
+        },
+        {
+          "en": "The government cut funding for public arts, which many citizens strongly opposed.",
+          "vi": "Chính phủ cắt giảm tài trợ cho nghệ thuật công cộng, điều mà nhiều người dân phản đối mạnh mẽ."
+        },
+        {
+          "en": "She was promoted to director at the age of thirty, which was a remarkable achievement.",
+          "vi": "Cô ấy được thăng chức lên giám đốc lúc ba mươi tuổi, đây là một thành tích đáng kể."
+        },
+        {
+          "en": "The company merged with its competitor, which led to significant job losses.",
+          "vi": "Công ty sáp nhập với đối thủ cạnh tranh, dẫn đến việc mất nhiều việc làm đáng kể."
+        },
+        {
+          "en": "He failed to submit his assignment on time, which affected his final grade.",
+          "vi": "Anh ấy không nộp bài tập đúng hạn, điều này ảnh hưởng đến điểm cuối kỳ của anh ấy."
+        },
+        {
+          "en": "The new law bans single-use plastic bags, which is a step in the right direction.",
+          "vi": "Luật mới cấm túi nhựa dùng một lần, đây là một bước đi đúng hướng."
         }
       ]
     },
@@ -563,6 +1041,26 @@
         {
           "en": "Education is the primary mechanism through which social mobility is achieved.",
           "vi": "Giáo dục là cơ chế chính yếu mà qua đó sự dịch chuyển xã hội đạt được."
+        },
+        {
+          "en": "The issue about which politicians disagree most is immigration policy.",
+          "vi": "Vấn đề mà các chính trị gia bất đồng nhiều nhất là chính sách nhập cư."
+        },
+        {
+          "en": "The charity for which she volunteers provides meals for the homeless.",
+          "vi": "Tổ chức từ thiện mà cô ấy tình nguyện cung cấp bữa ăn cho người vô gia cư."
+        },
+        {
+          "en": "The theory on which this research is based was first proposed in the 1980s.",
+          "vi": "Lý thuyết mà nghiên cứu này dựa trên được đề xuất lần đầu vào những năm 1980."
+        },
+        {
+          "en": "The community in which he grew up had very limited educational resources.",
+          "vi": "Cộng đồng nơi anh ấy lớn lên có rất ít tài nguyên giáo dục."
+        },
+        {
+          "en": "The colleagues with whom she collaborated received an award for their project.",
+          "vi": "Những đồng nghiệp mà cô ấy cộng tác cùng đã nhận giải thưởng cho dự án của họ."
         }
       ]
     },
@@ -587,6 +1085,26 @@
         {
           "en": "Having analyzed the survey data, the researchers proposed three reforms.",
           "vi": "Sau khi phân tích dữ liệu khảo sát, các nhà nghiên cứu đã đề xuất ba cải cách."
+        },
+        {
+          "en": "Having studied abroad for two years, she returned with a broader perspective.",
+          "vi": "Sau khi học ở nước ngoài hai năm, cô ấy trở về với tầm nhìn rộng hơn."
+        },
+        {
+          "en": "Lacking sufficient funding, the research project was eventually cancelled.",
+          "vi": "Do thiếu kinh phí, dự án nghiên cứu cuối cùng đã bị hủy bỏ."
+        },
+        {
+          "en": "Developed in the early twentieth century, penicillin saved millions of lives.",
+          "vi": "Được phát triển vào đầu thế kỷ XX, penicillin đã cứu hàng triệu sinh mạng."
+        },
+        {
+          "en": "Considering all the evidence, the committee decided to approve the proposal.",
+          "vi": "Xem xét tất cả bằng chứng, ủy ban quyết định chấp thuận đề xuất."
+        },
+        {
+          "en": "Using public transport regularly, residents can significantly reduce their carbon footprint.",
+          "vi": "Bằng cách thường xuyên sử dụng phương tiện công cộng, cư dân có thể giảm đáng kể dấu chân carbon."
         }
       ]
     },
@@ -611,6 +1129,30 @@
         {
           "en": "The city council decided to subsidize electric buses starting next year.",
           "vi": "Hội đồng thành phố quyết định trợ giá xe buýt điện từ năm tới."
+        },
+        {
+          "en": "She enjoys reading academic journals to stay updated with the latest research.",
+          "vi": "Cô ấy thích đọc các tạp chí học thuật để cập nhật nghiên cứu mới nhất."
+        },
+        {
+          "en": "The government decided to invest more in public healthcare after the pandemic.",
+          "vi": "Chính phủ quyết định đầu tư nhiều hơn vào y tế công cộng sau đại dịch."
+        },
+        {
+          "en": "He avoided using his car by cycling to work every day.",
+          "vi": "Anh ấy tránh sử dụng ô tô bằng cách đạp xe đi làm mỗi ngày."
+        },
+        {
+          "en": "They managed to complete the project two weeks ahead of schedule.",
+          "vi": "Họ đã hoàn thành dự án sớm hơn hai tuần so với kế hoạch."
+        },
+        {
+          "en": "Learning a foreign language requires dedicating considerable time and effort.",
+          "vi": "Học một ngoại ngữ đòi hỏi dành nhiều thời gian và công sức đáng kể."
+        },
+        {
+          "en": "The company promised to reduce its carbon emissions by fifty percent.",
+          "vi": "Công ty cam kết giảm lượng khí thải carbon xuống năm mươi phần trăm."
         }
       ]
     },
@@ -635,6 +1177,30 @@
         {
           "en": "You should try taking short breaks to prevent mental fatigue.",
           "vi": "Bạn nên thử nghỉ giải lao ngắn để tránh mệt mỏi tinh thần."
+        },
+        {
+          "en": "She stopped to check her phone every few minutes during the meeting.",
+          "vi": "Cô ấy dừng lại để kiểm tra điện thoại vài phút một lần trong cuộc họp."
+        },
+        {
+          "en": "He stopped smoking after his doctor warned him about the health risks.",
+          "vi": "Anh ấy bỏ hút thuốc sau khi bác sĩ cảnh báo về nguy cơ sức khỏe."
+        },
+        {
+          "en": "I remember meeting her at the conference in Singapore last year.",
+          "vi": "Tôi nhớ đã gặp cô ấy tại hội nghị ở Singapore năm ngoái."
+        },
+        {
+          "en": "Please remember to submit your application before the deadline.",
+          "vi": "Vui lòng nhớ nộp đơn trước thời hạn."
+        },
+        {
+          "en": "She tried practising mindfulness every morning to reduce stress.",
+          "vi": "Cô ấy thử thực hành chánh niệm mỗi buổi sáng để giảm căng thẳng."
+        },
+        {
+          "en": "He tried to lift the heavy box but couldn't manage it alone.",
+          "vi": "Anh ấy cố nâng chiếc hộp nặng nhưng không tự làm được một mình."
         }
       ]
     },
@@ -659,6 +1225,26 @@
         {
           "en": "She is slowly getting used to living in a fast-paced metropolis.",
           "vi": "Cô ấy đang dần quen với việc sống ở một đô thị nhịp sống nhanh."
+        },
+        {
+          "en": "People used to rely entirely on newspapers for information before the internet.",
+          "vi": "Mọi người từng hoàn toàn dựa vào báo giấy để lấy thông tin trước khi có internet."
+        },
+        {
+          "en": "She is getting used to working from home after several months of adjustment.",
+          "vi": "Cô ấy đang quen dần với việc làm ở nhà sau vài tháng thích nghi."
+        },
+        {
+          "en": "He used to walk to school when he was young, but now he drives.",
+          "vi": "Anh ấy từng đi bộ đến trường khi còn nhỏ, nhưng bây giờ anh ấy lái xe."
+        },
+        {
+          "en": "Workers in many industries are getting used to collaborating with AI tools.",
+          "vi": "Người lao động trong nhiều ngành đang quen dần với việc hợp tác cùng các công cụ AI."
+        },
+        {
+          "en": "She was used to travelling long distances for work before the pandemic.",
+          "vi": "Cô ấy đã quen với việc đi xa để làm việc trước đại dịch."
         }
       ]
     },
@@ -683,6 +1269,26 @@
         {
           "en": "The committee recommended that the policy be reviewed annually.",
           "vi": "Ủy ban khuyến nghị rằng chính sách nên được rà soát hàng năm."
+        },
+        {
+          "en": "The committee recommended that the government invest in more affordable housing.",
+          "vi": "Ủy ban khuyến nghị rằng chính phủ đầu tư vào nhà ở giá cả phải chăng hơn."
+        },
+        {
+          "en": "It is vital that every citizen be informed of their legal rights.",
+          "vi": "Điều thiết yếu là mọi công dân phải được thông báo về các quyền pháp lý của họ."
+        },
+        {
+          "en": "The doctor insisted that the patient reduce his sugar intake immediately.",
+          "vi": "Bác sĩ nhấn mạnh rằng bệnh nhân cần giảm lượng đường ngay lập tức."
+        },
+        {
+          "en": "It is essential that applicants submit all required documents before the closing date.",
+          "vi": "Điều cần thiết là người nộp đơn phải nộp tất cả tài liệu yêu cầu trước ngày đóng hồ sơ."
+        },
+        {
+          "en": "The judge ordered that the defendant appear in court the following week.",
+          "vi": "Thẩm phán ra lệnh bị cáo phải xuất hiện tại tòa án vào tuần sau."
         }
       ]
     },
@@ -707,6 +1313,26 @@
         {
           "en": "Cycling in winter is not nearly as convenient as taking the subway.",
           "vi": "Đạp xe vào mùa đông không thuận tiện bằng đi tàu điện ngầm."
+        },
+        {
+          "en": "Electric vehicles are becoming more affordable as technology advances.",
+          "vi": "Xe điện đang trở nên phải chăng hơn khi công nghệ phát triển."
+        },
+        {
+          "en": "Air quality in rural areas is generally far better than in major cities.",
+          "vi": "Chất lượng không khí ở vùng nông thôn thường tốt hơn nhiều so với các thành phố lớn."
+        },
+        {
+          "en": "The gap between the rich and the poor is not as wide in Nordic countries.",
+          "vi": "Khoảng cách giữa người giàu và người nghèo không rộng như ở các nước Bắc Âu."
+        },
+        {
+          "en": "She performed better in the second interview than in the first.",
+          "vi": "Cô ấy thể hiện tốt hơn trong buổi phỏng vấn thứ hai so với buổi đầu tiên."
+        },
+        {
+          "en": "Singapore is one of the safest cities in the world.",
+          "vi": "Singapore là một trong những thành phố an toàn nhất thế giới."
         }
       ]
     },
@@ -731,6 +1357,26 @@
         {
           "en": "The more convenient online delivery becomes, the less time people spend cooking.",
           "vi": "Giao đồ ăn trực tuyến càng tiện lợi, mọi người càng dành ít thời gian nấu nướng."
+        },
+        {
+          "en": "The more we invest in education, the stronger our economy will become.",
+          "vi": "Chúng ta đầu tư vào giáo dục càng nhiều, nền kinh tế của chúng ta sẽ càng mạnh."
+        },
+        {
+          "en": "The less sleep people get, the more vulnerable they become to illness.",
+          "vi": "Người ta ngủ càng ít, họ càng dễ bị ốm hơn."
+        },
+        {
+          "en": "The faster technology develops, the more difficult it becomes to regulate.",
+          "vi": "Công nghệ phát triển càng nhanh, việc quản lý càng trở nên khó khăn hơn."
+        },
+        {
+          "en": "The more people work together, the better the results tend to be.",
+          "vi": "Mọi người hợp tác với nhau càng nhiều, kết quả có xu hướng càng tốt hơn."
+        },
+        {
+          "en": "The higher the demand for housing, the more prices will rise.",
+          "vi": "Nhu cầu nhà ở càng cao, giá cả sẽ càng tăng cao hơn."
         }
       ]
     },
@@ -755,6 +1401,26 @@
         {
           "en": "It is poor urban planning, rather than population growth alone, that worsens congestion.",
           "vi": "Chính quy hoạch đô thị kém, chứ không chỉ riêng tăng dân số, mới làm ùn tắc trầm trọng hơn."
+        },
+        {
+          "en": "It is poor urban planning that contributes most to traffic congestion in cities.",
+          "vi": "Chính quy hoạch đô thị kém là điều góp phần nhiều nhất vào tắc nghẽn giao thông ở thành phố."
+        },
+        {
+          "en": "What concerns experts most is the rapidly declining biodiversity on Earth.",
+          "vi": "Điều khiến các chuyên gia lo ngại nhất là sự suy giảm nhanh chóng đa dạng sinh học trên Trái Đất."
+        },
+        {
+          "en": "It was the invention of the internet that most transformed modern communication.",
+          "vi": "Chính sự phát minh ra internet đã biến đổi nhiều nhất truyền thông hiện đại."
+        },
+        {
+          "en": "What she values most about her job is the opportunity to help others.",
+          "vi": "Điều cô ấy trân trọng nhất về công việc của mình là cơ hội giúp đỡ người khác."
+        },
+        {
+          "en": "It is through education that societies achieve long-term prosperity.",
+          "vi": "Chính thông qua giáo dục mà các xã hội đạt được sự thịnh vượng lâu dài."
         }
       ]
     },
@@ -779,6 +1445,26 @@
         {
           "en": "Housing has become too expensive for single-income families to afford.",
           "vi": "Nhà ở đã trở nên quá đắt đỏ đối với các gia đình có một nguồn thu nhập."
+        },
+        {
+          "en": "The pollution was so severe that residents were advised to stay indoors.",
+          "vi": "Ô nhiễm nghiêm trọng đến mức cư dân được khuyến cáo ở trong nhà."
+        },
+        {
+          "en": "It was such a compelling argument that everyone in the room agreed.",
+          "vi": "Đó là một lập luận thuyết phục đến mức mọi người trong phòng đều đồng ý."
+        },
+        {
+          "en": "The traffic was too heavy for us to reach the airport in time.",
+          "vi": "Giao thông quá dày đặc để chúng tôi đến sân bay kịp giờ."
+        },
+        {
+          "en": "She was talented enough to secure a scholarship at a prestigious university.",
+          "vi": "Cô ấy đủ tài năng để giành được học bổng tại một trường đại học uy tín."
+        },
+        {
+          "en": "The issue is too complex to be resolved with a single policy change.",
+          "vi": "Vấn đề quá phức tạp để được giải quyết bằng một thay đổi chính sách đơn lẻ."
         }
       ]
     },
@@ -803,6 +1489,26 @@
         {
           "en": "I was wondering if you have any feedback on my proposal.",
           "vi": "Tôi đang băn khoăn không biết bạn có góp ý nào cho đề xuất của tôi không."
+        },
+        {
+          "en": "Could you explain why the government decided to cut arts funding?",
+          "vi": "Bạn có thể giải thích tại sao chính phủ quyết định cắt giảm tài trợ cho nghệ thuật không?"
+        },
+        {
+          "en": "I wonder what the most effective solution to urban poverty is.",
+          "vi": "Tôi tự hỏi đâu là giải pháp hiệu quả nhất cho nghèo đô thị."
+        },
+        {
+          "en": "She asked whether the new policy would benefit low-income families.",
+          "vi": "Cô ấy hỏi liệu chính sách mới có lợi ích cho các gia đình thu nhập thấp không."
+        },
+        {
+          "en": "Do you know how long it takes to become fluent in a second language?",
+          "vi": "Bạn có biết mất bao lâu để thành thạo một ngôn ngữ thứ hai không?"
+        },
+        {
+          "en": "It is unclear whether technology will create more jobs than it eliminates.",
+          "vi": "Chưa rõ liệu công nghệ có tạo ra nhiều việc làm hơn số việc nó xóa bỏ hay không."
         }
       ]
     },
@@ -827,6 +1533,26 @@
         {
           "en": "Critics warn that unchecked screen time may impair children's attention spans.",
           "vi": "Các nhà phê bình cảnh báo rằng thời gian xem màn hình không kiểm soát có thể làm suy giảm khả năng tập trung của trẻ."
+        },
+        {
+          "en": "The expert warned that climate change would have devastating consequences.",
+          "vi": "Chuyên gia cảnh báo rằng biến đổi khí hậu sẽ có những hậu quả tàn khốc."
+        },
+        {
+          "en": "She admitted that she had underestimated the difficulty of the task.",
+          "vi": "Cô ấy thừa nhận rằng cô ấy đã đánh giá thấp độ khó của nhiệm vụ."
+        },
+        {
+          "en": "The government announced that it would introduce stricter environmental regulations.",
+          "vi": "Chính phủ thông báo rằng họ sẽ ban hành các quy định môi trường nghiêm ngặt hơn."
+        },
+        {
+          "en": "He claimed that the new treatment had no harmful side effects.",
+          "vi": "Anh ấy khẳng định rằng phương pháp điều trị mới không có tác dụng phụ có hại."
+        },
+        {
+          "en": "The report suggested that more investment in infrastructure was urgently needed.",
+          "vi": "Báo cáo đề xuất rằng cần đầu tư nhiều hơn vào cơ sở hạ tầng một cách cấp bách."
         }
       ]
     },
@@ -851,6 +1577,30 @@
         {
           "en": "I bought a notebook yesterday, and the notebook has grid pages.",
           "vi": "Hôm qua tôi mua một cuốn sổ, và cuốn sổ đó có trang kẻ ô."
+        },
+        {
+          "en": "The government announced a new initiative to combat unemployment.",
+          "vi": "Chính phủ công bố một sáng kiến mới để chống thất nghiệp."
+        },
+        {
+          "en": "She works as an engineer for an international company.",
+          "vi": "Cô ấy làm kỹ sư cho một công ty quốc tế."
+        },
+        {
+          "en": "Education is considered the most powerful tool for social progress.",
+          "vi": "Giáo dục được coi là công cụ mạnh mẽ nhất cho tiến bộ xã hội."
+        },
+        {
+          "en": "The Amazon is the largest tropical rainforest in the world.",
+          "vi": "Amazon là rừng mưa nhiệt đới lớn nhất thế giới."
+        },
+        {
+          "en": "She plays the violin in a professional orchestra.",
+          "vi": "Cô ấy chơi violin trong một dàn nhạc chuyên nghiệp."
+        },
+        {
+          "en": "Life in the countryside is often considered more peaceful than in a city.",
+          "vi": "Cuộc sống ở nông thôn thường được coi là yên bình hơn ở thành phố."
         }
       ]
     },
@@ -875,6 +1625,26 @@
         {
           "en": "The laboratory requires modern equipment to conduct accurate tests.",
           "vi": "Phòng thí nghiệm cần thiết bị hiện đại để thực hiện các phép thử chính xác."
+        },
+        {
+          "en": "The research carried out by the team provided valuable evidence.",
+          "vi": "Nghiên cứu được thực hiện bởi nhóm cung cấp bằng chứng có giá trị."
+        },
+        {
+          "en": "She gave me helpful advice on how to prepare for the IELTS exam.",
+          "vi": "Cô ấy cho tôi lời khuyên hữu ích về cách chuẩn bị cho kỳ thi IELTS."
+        },
+        {
+          "en": "The government needs more information before making a final decision.",
+          "vi": "Chính phủ cần thêm thông tin trước khi đưa ra quyết định cuối cùng."
+        },
+        {
+          "en": "He showed great courage and honesty when dealing with the crisis.",
+          "vi": "Anh ấy cho thấy sự can đảm và trung thực khi đối phó với cuộc khủng hoảng."
+        },
+        {
+          "en": "Progress in medicine has led to significantly longer life expectancy.",
+          "vi": "Tiến bộ trong y học đã dẫn đến tuổi thọ dài hơn đáng kể."
         }
       ]
     },
@@ -899,6 +1669,30 @@
         {
           "en": "Low-income households have few opportunities to access private healthcare.",
           "vi": "Các hộ gia đình thu nhập thấp có rất ít cơ hội tiếp cận y tế tư nhân."
+        },
+        {
+          "en": "Few governments have succeeded in eliminating poverty entirely.",
+          "vi": "Rất ít chính phủ thành công trong việc xóa bỏ hoàn toàn nghèo đói."
+        },
+        {
+          "en": "A few simple lifestyle changes can have a major impact on your health.",
+          "vi": "Một vài thay đổi lối sống đơn giản có thể có tác động lớn đến sức khỏe của bạn."
+        },
+        {
+          "en": "There is little evidence to support the claim that social media causes depression.",
+          "vi": "Có ít bằng chứng để ủng hộ tuyên bố rằng mạng xã hội gây ra trầm cảm."
+        },
+        {
+          "en": "A little patience and persistence can go a long way in achieving your goals.",
+          "vi": "Một chút kiên nhẫn và kiên trì có thể giúp ích rất nhiều trong việc đạt được mục tiêu."
+        },
+        {
+          "en": "Most young people today prefer digital media over traditional newspapers.",
+          "vi": "Hầu hết giới trẻ ngày nay thích phương tiện kỹ thuật số hơn báo giấy truyền thống."
+        },
+        {
+          "en": "Each student is responsible for managing their own time effectively.",
+          "vi": "Mỗi học sinh chịu trách nhiệm quản lý thời gian của mình một cách hiệu quả."
         }
       ]
     },
@@ -923,6 +1717,26 @@
         {
           "en": "Neither the manager nor the developers were aware of that edge case.",
           "vi": "Cả người quản lý lẫn các lập trình viên đều không nhận ra trường hợp biên đó."
+        },
+        {
+          "en": "The number of people living in cities has increased dramatically.",
+          "vi": "Số lượng người sống ở thành thị đã tăng lên đáng kể."
+        },
+        {
+          "en": "A number of factors contribute to the success of a business.",
+          "vi": "Một số yếu tố góp phần vào sự thành công của một doanh nghiệp."
+        },
+        {
+          "en": "Neither the teacher nor the students were aware of the schedule change.",
+          "vi": "Cả giáo viên lẫn học sinh đều không biết về sự thay đổi lịch trình."
+        },
+        {
+          "en": "The committee has reached a unanimous decision after lengthy discussions.",
+          "vi": "Ủy ban đã đạt được quyết định nhất trí sau các cuộc thảo luận dài."
+        },
+        {
+          "en": "Everyone in the room was asked to submit their feedback in writing.",
+          "vi": "Mọi người trong phòng đều được yêu cầu nộp phản hồi bằng văn bản."
         }
       ]
     },
@@ -947,6 +1761,26 @@
         {
           "en": "Electric cars produce zero tailpipe emissions, albeit at a higher upfront cost.",
           "vi": "Xe điện không phát thải từ ống xả, mặc dù chi phí mua ban đầu cao hơn."
+        },
+        {
+          "en": "Although technology has many benefits, it also poses significant risks to privacy.",
+          "vi": "Mặc dù công nghệ có nhiều lợi ích, nó cũng gây ra rủi ro đáng kể cho quyền riêng tư."
+        },
+        {
+          "en": "Even though she had little experience, she performed exceptionally well.",
+          "vi": "Mặc dù cô ấy có ít kinh nghiệm, cô ấy vẫn thể hiện xuất sắc."
+        },
+        {
+          "en": "Despite the economic downturn, the company managed to increase its revenue.",
+          "vi": "Bất chấp suy thoái kinh tế, công ty vẫn tăng được doanh thu."
+        },
+        {
+          "en": "In spite of the high costs involved, the project was deemed worthwhile.",
+          "vi": "Mặc dù chi phí cao, dự án vẫn được coi là đáng giá."
+        },
+        {
+          "en": "While some people embrace globalisation, others are deeply concerned about its effects.",
+          "vi": "Trong khi một số người ủng hộ toàn cầu hóa, những người khác lại lo ngại sâu sắc về tác động của nó."
         }
       ]
     },
@@ -971,6 +1805,26 @@
         {
           "en": "Urban areas enjoy rapid connectivity; conversely, rural regions still lag behind.",
           "vi": "Khu vực đô thị có kết nối nhanh; ngược lại, vùng nông thôn vẫn còn tụt hậu."
+        },
+        {
+          "en": "Developed nations tend to have higher living standards, whereas developing countries often struggle with poverty.",
+          "vi": "Các quốc gia phát triển có xu hướng có mức sống cao hơn, trong khi các nước đang phát triển thường phải vật lộn với nghèo đói."
+        },
+        {
+          "en": "Some people prioritise career success; however, others value personal relationships above all else.",
+          "vi": "Một số người ưu tiên thành công sự nghiệp; tuy nhiên, những người khác coi trọng các mối quan hệ cá nhân hơn tất cả."
+        },
+        {
+          "en": "Rural areas offer a quieter lifestyle, while cities provide more economic opportunities.",
+          "vi": "Vùng nông thôn mang lại lối sống yên tĩnh hơn, trong khi thành phố cung cấp nhiều cơ hội kinh tế hơn."
+        },
+        {
+          "en": "On the one hand, globalisation promotes cultural exchange; on the other hand, it threatens local traditions.",
+          "vi": "Một mặt, toàn cầu hóa thúc đẩy trao đổi văn hóa; mặt khác, nó đe dọa các truyền thống địa phương."
+        },
+        {
+          "en": "In contrast to previous generations, young people today have access to vast amounts of information online.",
+          "vi": "Trái ngược với các thế hệ trước, giới trẻ ngày nay có quyền truy cập vào lượng thông tin khổng lồ trực tuyến."
         }
       ]
     },
@@ -995,6 +1849,26 @@
         {
           "en": "Seldom have technological breakthroughs reshaped daily life so rapidly.",
           "vi": "Hiếm khi nào các đột phá công nghệ lại tái định hình đời sống hàng ngày nhanh đến vậy."
+        },
+        {
+          "en": "Not only does pollution harm human health, but it also damages ecosystems.",
+          "vi": "Ô nhiễm không chỉ gây hại cho sức khỏe con người mà còn phá hủy hệ sinh thái."
+        },
+        {
+          "en": "Rarely have scientists witnessed such rapid changes in global temperatures.",
+          "vi": "Các nhà khoa học hiếm khi chứng kiến sự thay đổi nhiệt độ toàn cầu nhanh chóng như vậy."
+        },
+        {
+          "en": "Never before has access to information been so widespread and instantaneous.",
+          "vi": "Chưa bao giờ việc tiếp cận thông tin lại phổ biến và tức thì đến vậy."
+        },
+        {
+          "en": "Seldom does the government implement policies that satisfy all stakeholders.",
+          "vi": "Chính phủ hiếm khi thực hiện các chính sách thỏa mãn tất cả các bên liên quan."
+        },
+        {
+          "en": "Not only is regular exercise beneficial for physical health, but it also improves mental wellbeing.",
+          "vi": "Tập thể dục thường xuyên không chỉ có lợi cho sức khỏe thể chất mà còn cải thiện sức khỏe tinh thần."
         }
       ]
     },
@@ -1019,6 +1893,26 @@
         {
           "en": "No sooner had the new policy taken effect than complaints dropped sharply.",
           "vi": "Ngay khi chính sách mới có hiệu lực, số lượng khiếu nại đã giảm mạnh."
+        },
+        {
+          "en": "Only by working collaboratively can we address global challenges effectively.",
+          "vi": "Chỉ bằng cách làm việc hợp tác chúng ta mới có thể giải quyết hiệu quả các thách thức toàn cầu."
+        },
+        {
+          "en": "No sooner had the rescue team arrived than the building collapsed.",
+          "vi": "Đội cứu hộ vừa đến thì tòa nhà sụp đổ."
+        },
+        {
+          "en": "Only after extensive research did the scientists announce their findings.",
+          "vi": "Chỉ sau khi nghiên cứu kỹ lưỡng, các nhà khoa học mới công bố kết quả của họ."
+        },
+        {
+          "en": "Only if we reduce carbon emissions now will future generations have a liveable planet.",
+          "vi": "Chỉ khi chúng ta giảm khí thải carbon ngay bây giờ, các thế hệ tương lai mới có hành tinh đáng sống."
+        },
+        {
+          "en": "No sooner had the law been passed than activists began challenging it in court.",
+          "vi": "Luật vừa được thông qua thì các nhà hoạt động bắt đầu tranh chấp nó tại tòa án."
         }
       ]
     },
@@ -1043,6 +1937,26 @@
         {
           "en": "Flexible scheduling may well boost productivity without increasing burnout.",
           "vi": "Lịch làm việc linh hoạt rất có thể sẽ nâng cao năng suất mà không làm tăng kiệt sức."
+        },
+        {
+          "en": "It could be argued that social media has had a largely negative effect on communication.",
+          "vi": "Có thể lập luận rằng mạng xã hội đã có tác động phần lớn tiêu cực đến giao tiếp."
+        },
+        {
+          "en": "The findings tend to suggest that early childhood education leads to better outcomes.",
+          "vi": "Các phát hiện có xu hướng gợi ý rằng giáo dục thời thơ ấu dẫn đến kết quả tốt hơn."
+        },
+        {
+          "en": "There appears to be a correlation between income inequality and poor mental health.",
+          "vi": "Có vẻ như có mối tương quan giữa bất bình đẳng thu nhập và sức khỏe tâm thần kém."
+        },
+        {
+          "en": "This phenomenon may partly be attributed to rapid urbanisation in recent decades.",
+          "vi": "Hiện tượng này có thể một phần do quá trình đô thị hóa nhanh chóng trong những thập kỷ gần đây."
+        },
+        {
+          "en": "It seems likely that artificial intelligence will transform most industries within a generation.",
+          "vi": "Có vẻ như trí tuệ nhân tạo sẽ biến đổi hầu hết các ngành công nghiệp trong một thế hệ."
         }
       ]
     },
@@ -1067,6 +1981,26 @@
         {
           "en": "Lack of affordable childcare often hinders parents from returning to work.",
           "vi": "Việc thiếu dịch vụ giữ trẻ giá hợp lý thường cản trở cha mẹ quay lại làm việc."
+        },
+        {
+          "en": "The development of renewable energy sources is crucial for environmental sustainability.",
+          "vi": "Sự phát triển của các nguồn năng lượng tái tạo là cực kỳ quan trọng cho sự bền vững môi trường."
+        },
+        {
+          "en": "There has been a significant improvement in living standards over the past century.",
+          "vi": "Đã có sự cải thiện đáng kể về mức sống trong thế kỷ qua."
+        },
+        {
+          "en": "The implementation of stricter regulations requires cooperation between governments.",
+          "vi": "Việc thực hiện các quy định nghiêm ngặt hơn đòi hỏi sự hợp tác giữa các chính phủ."
+        },
+        {
+          "en": "The acquisition of a second language in early childhood has long-lasting cognitive benefits.",
+          "vi": "Việc tiếp thu ngôn ngữ thứ hai trong giai đoạn thơ ấu mang lại lợi ích nhận thức lâu dài."
+        },
+        {
+          "en": "An investigation into the causes of poverty reveals complex social and economic factors.",
+          "vi": "Việc điều tra nguyên nhân của nghèo đói tiết lộ các yếu tố xã hội và kinh tế phức tạp."
         }
       ]
     },
@@ -1091,9 +2025,32 @@
         {
           "en": "We documented every API endpoint clearly so that new teammates could onboard quickly.",
           "vi": "Chúng tôi viết tài liệu rõ cho từng API endpoint để thành viên mới bắt nhịp nhanh."
+        },
+        {
+          "en": "Many people move to cities because of the greater employment opportunities available there.",
+          "vi": "Nhiều người chuyển đến thành phố vì cơ hội việc làm lớn hơn ở đó."
+        },
+        {
+          "en": "The government introduced the new law so that companies would reduce their emissions.",
+          "vi": "Chính phủ ban hành luật mới để các công ty giảm lượng khí thải của họ."
+        },
+        {
+          "en": "She studied hard in order to achieve the best possible result in her exams.",
+          "vi": "Cô ấy học chăm chỉ để đạt được kết quả tốt nhất có thể trong kỳ thi."
+        },
+        {
+          "en": "Since pollution is a global issue, international cooperation is absolutely necessary.",
+          "vi": "Vì ô nhiễm là vấn đề toàn cầu, hợp tác quốc tế là hoàn toàn cần thiết."
+        },
+        {
+          "en": "Due to the rise in living costs, many families are struggling to make ends meet.",
+          "vi": "Do chi phí sinh hoạt tăng, nhiều gia đình đang vật lộn để kiếm sống."
+        },
+        {
+          "en": "The company invested in training programmes with a view to improving employee performance.",
+          "vi": "Công ty đầu tư vào các chương trình đào tạo nhằm cải thiện hiệu suất của nhân viên."
         }
       ]
     }
   ]
 }
-

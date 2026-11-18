@@ -7,13 +7,13 @@ import {
   SlidersIcon,
   EyeIcon,
   KeyboardIcon,
-  XIcon,
-  RotateCcwIcon,
   CheckIcon,
   AlertTriangleIcon,
   ArrowRightIcon,
 } from "../components/Icons";
-import { isAudioMuted } from "../lib/uiUtils";
+import { playAudioFeedback } from "../lib/uiUtils";
+import { useSpeechSynthesis } from "../hooks/useSpeechSynthesis";
+import DrillSettingsModal from "../components/study/DrillSettingsModal";
 import {
   NUMBER_RANGE_CONFIG,
   generateNumberPrompt,
@@ -48,74 +48,35 @@ const DRILL_MODES = [
   { id: "mixed", label: "Tổng hợp Task 1", desc: "Trộn ngẫu nhiên tất cả các dạng Part 1" },
 ];
 
-function playAudioFeedback(type) {
-  if (typeof window === "undefined" || isAudioMuted()) return;
-  try {
-    const AudioContext = window.AudioContext || window.webkitAudioContext;
-    if (!AudioContext) return;
-    const ctx = new AudioContext();
-
-    if (type === "correct") {
-      const now = ctx.currentTime;
-      [
-        { freq: 523.25, time: 0 },
-        { freq: 659.25, time: 0.1 },
-        { freq: 783.99, time: 0.2 },
-      ].forEach(({ freq, time }) => {
-        const osc = ctx.createOscillator();
-        const gain = ctx.createGain();
-        osc.type = "sine";
-        osc.frequency.setValueAtTime(freq, now + time);
-        gain.gain.setValueAtTime(0.18, now + time);
-        gain.gain.exponentialRampToValueAtTime(0.001, now + time + 0.35);
-        osc.connect(gain);
-        gain.connect(ctx.destination);
-        osc.start(now + time);
-        osc.stop(now + time + 0.35);
-      });
-    } else if (type === "wrong") {
-      const now = ctx.currentTime;
-      const osc = ctx.createOscillator();
-      const gain = ctx.createGain();
-      osc.type = "sawtooth";
-      osc.frequency.setValueAtTime(160, now);
-      osc.frequency.linearRampToValueAtTime(120, now + 0.2);
-      gain.gain.setValueAtTime(0.12, now);
-      gain.gain.exponentialRampToValueAtTime(0.001, now + 0.22);
-      osc.connect(gain);
-      gain.connect(ctx.destination);
-      osc.start(now);
-      osc.stop(now + 0.22);
-    }
-  } catch (e) {}
-}
-
 export default function ListenDrillPage() {
   const [drillType, setDrillType] = useState("alphabet");
   const [caseType, setCaseType] = useState("lower");
   const [numberRange, setNumberRange] = useState("0-20");
-  const [speechRate, setSpeechRate] = useState(0.85);
-  const [selectedVoice, setSelectedVoice] = useState("");
-  const [voices, setVoices] = useState([]);
 
-  // Current challenge state
   const [currentTarget, setCurrentTarget] = useState("");
   const [currentPrompt, setCurrentPrompt] = useState(null);
   const [currentResolvedMode, setCurrentResolvedMode] = useState("alphabet");
-  const [isPlaying, setIsPlaying] = useState(false);
 
-  // Stats
   const [foundCount, setFoundCount] = useState(0);
   const [firstTryCount, setFirstTryCount] = useState(0);
   const [hasAttemptedCurrent, setHasAttemptedCurrent] = useState(false);
 
-  // Grid & Dictation feedback
   const [lastFeedback, setLastFeedback] = useState(null);
   const [dictationInput, setDictationInput] = useState("");
-  const [dictationStatus, setDictationStatus] = useState(null); // "correct" | "wrong" | null
+  const [dictationStatus, setDictationStatus] = useState(null);
   const [showingAnswer, setShowingAnswer] = useState(false);
   const [showSettingsModal, setShowSettingsModal] = useState(false);
   const [inputBuffer, setInputBuffer] = useState("");
+
+  const {
+    voices,
+    selectedVoice,
+    setSelectedVoice,
+    speechRate,
+    setSpeechRate,
+    isPlaying,
+    playSpeech,
+  } = useSpeechSynthesis({ lang: "en-GB", defaultRate: 0.85, preferUk: true });
 
   const targetRef = useRef(currentTarget);
   targetRef.current = currentTarget;
@@ -126,28 +87,6 @@ export default function ListenDrillPage() {
   const dictationInputRef = useRef(null);
 
   const isGridMode = drillType === "alphabet" || (drillType === "number" && numberRange === "0-20");
-
-  useEffect(() => {
-    if (typeof window !== "undefined" && window.speechSynthesis) {
-      const updateVoices = () => {
-        const avail = window.speechSynthesis.getVoices();
-        const en = avail.filter((v) => v.lang.startsWith("en"));
-        setVoices(en);
-        if (en.length > 0 && !selectedVoice) {
-          const pref =
-            en.find(
-              (v) =>
-                v.name.includes("Google UK English Male") ||
-                v.name.includes("Google US English") ||
-                v.name.includes("Samantha")
-            ) || en[0];
-          setSelectedVoice(pref.name);
-        }
-      };
-      updateVoices();
-      window.speechSynthesis.onvoiceschanged = updateVoices;
-    }
-  }, [selectedVoice]);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
@@ -169,39 +108,19 @@ export default function ListenDrillPage() {
 
   const speakText = useCallback(
     (textToSpeak, rateOverride) => {
-      if (typeof window === "undefined" || !window.speechSynthesis) return;
-      if (!textToSpeak) return;
-
-      window.speechSynthesis.cancel();
-      if (isAudioMuted()) {
-        setIsPlaying(false);
-        return;
-      }
-      const utterance = new SpeechSynthesisUtterance(textToSpeak);
-      utterance.lang = "en-GB";
-      utterance.rate = rateOverride || speechRate;
-
-      if (selectedVoice) {
-        const v = voices.find((item) => item.name === selectedVoice);
-        if (v) utterance.voice = v;
-      }
-
-      utterance.onstart = () => setIsPlaying(true);
-      utterance.onend = () => setIsPlaying(false);
-      utterance.onerror = () => setIsPlaying(false);
-
-      window.speechSynthesis.speak(utterance);
+      playSpeech(textToSpeak, "drill_item", rateOverride);
     },
-    [speechRate, selectedVoice, voices]
+    [playSpeech]
   );
 
   const speakCurrent = useCallback(
     (slow = false) => {
       const p = promptRef.current;
+      const effectiveRate = slow ? Math.max(0.55, speechRate - 0.2) : speechRate;
       if (p) {
-        speakText(slow && p.slowTts ? p.slowTts : p.tts, slow ? Math.max(0.55, speechRate - 0.2) : speechRate);
+        speakText(slow && p.slowTts ? p.slowTts : p.tts, effectiveRate);
       } else if (targetRef.current) {
-        speakText(targetRef.current, slow ? Math.max(0.55, speechRate - 0.2) : speechRate);
+        speakText(targetRef.current, effectiveRate);
       }
     },
     [speakText, speechRate]
@@ -243,7 +162,6 @@ export default function ListenDrillPage() {
         return;
       }
 
-      // Dictation / IELTS Part 1 modes
       let resolved = type;
       if (type === "mixed") {
         const poolModes = ["number", "phone", "date", "name", "address", "word"];
@@ -340,7 +258,6 @@ export default function ListenDrillPage() {
     }
   };
 
-  // Physical Keyboard Listener (Grid modes + global Space replay outside input)
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (showSettingsModal) return;
@@ -482,7 +399,6 @@ export default function ListenDrillPage() {
     <main className="container">
       <SectionNav />
 
-      {/* Quick Category Pills for All IELTS Task 1 Formats */}
       <section className="categories-nav" aria-label="Chọn dạng bài Listening Part 1">
         {DRILL_MODES.map((m) => (
           <button
@@ -496,7 +412,6 @@ export default function ListenDrillPage() {
         ))}
       </section>
 
-      {/* Contextual Sub-Options for Numbers / Alphabet */}
       {drillType === "number" && (
         <section className="drill-subbar" aria-label="Chọn phạm vi số">
           <span className="drill-subbar-label">Phạm vi số:</span>
@@ -585,11 +500,8 @@ export default function ListenDrillPage() {
           </button>
         </div>
 
-        {/* Central Audio Bubble */}
         <div className="listen-player-card">
-          {currentPrompt && (
-            <span className="drill-cat-badge">{currentPrompt.label}</span>
-          )}
+          {currentPrompt && <span className="drill-cat-badge">{currentPrompt.label}</span>}
           <button
             type="button"
             className={`listen-big-btn ${isPlaying ? "playing" : ""}`}
@@ -615,12 +527,13 @@ export default function ListenDrillPage() {
                 Nhấn <b>Space</b> hoặc <b>Enter</b> để nghe lại • Gõ trực tiếp chữ/số trên bàn phím
               </>
             ) : (
-              <>Gõ đáp án vào ô bên dưới rồi nhấn <b>Enter ↵</b> để kiểm tra</>
+              <>
+                Gõ đáp án vào ô bên dưới rồi nhấn <b>Enter ↵</b> để kiểm tra
+              </>
             )}
           </span>
         </div>
 
-        {/* MODE A: Fast Grid (Alphabet / 0-20) */}
         {isGridMode ? (
           <div className="listen-keyboard-wrapper">
             {drillType === "number" && inputBuffer && (
@@ -660,7 +573,6 @@ export default function ListenDrillPage() {
             ))}
           </div>
         ) : (
-          /* MODE B: IELTS Task 1 Dictation Input (Millions, Phone, Date, Name, Address, Word) */
           <div className="drill-dictation-area">
             <form onSubmit={handleDictationSubmit} className="drill-form">
               <div className="drill-input-wrapper">
@@ -740,11 +652,7 @@ export default function ListenDrillPage() {
               <span>Xem đáp án</span>
             </button>
 
-            <button
-              type="button"
-              className="btn-drill-nav btn-drill-next"
-              onClick={() => nextTarget()}
-            >
+            <button type="button" className="btn-drill-nav btn-drill-next" onClick={() => nextTarget()}>
               <span>Câu mới</span>
               <ArrowRightIcon size={14} />
             </button>
@@ -761,74 +669,16 @@ export default function ListenDrillPage() {
         </div>
       </section>
 
-      {showSettingsModal && (
-        <div className="drill-modal-overlay" onClick={() => setShowSettingsModal(false)}>
-          <div className="drill-modal-content" onClick={(e) => e.stopPropagation()}>
-            <div className="drill-modal-header">
-              <h2>
-                <SlidersIcon size={18} />
-                <span>Cài Đặt Giọng Đọc &amp; Thống Kê</span>
-              </h2>
-              <button
-                type="button"
-                className="drill-modal-close"
-                onClick={() => setShowSettingsModal(false)}
-                aria-label="Đóng"
-              >
-                <XIcon size={18} />
-              </button>
-            </div>
-
-            <div className="drill-modal-body">
-              <div className="drill-setting-group">
-                <label className="drill-setting-label">Giọng đọc tiếng Anh (Ưu tiên UK cho IELTS)</label>
-                <select
-                  className="drill-select"
-                  value={selectedVoice}
-                  onChange={(e) => setSelectedVoice(e.target.value)}
-                >
-                  {voices.map((v) => (
-                    <option key={v.name} value={v.name}>
-                      {v.name} ({v.lang})
-                    </option>
-                  ))}
-                  {voices.length === 0 && <option value="">Mặc định hệ thống</option>}
-                </select>
-              </div>
-
-              <div className="drill-setting-group">
-                <label className="drill-setting-label">Tốc độ đọc: {speechRate}x</label>
-                <input
-                  type="range"
-                  min="0.5"
-                  max="1.3"
-                  step="0.05"
-                  value={speechRate}
-                  onChange={(e) => setSpeechRate(parseFloat(e.target.value))}
-                  className="drill-range-input"
-                />
-              </div>
-
-              <div className="drill-reset-row">
-                <button type="button" className="btn-reset btn-reset--danger" onClick={resetStats}>
-                  <RotateCcwIcon size={14} />
-                  <span>Đặt lại điểm số Found &amp; First Try</span>
-                </button>
-              </div>
-            </div>
-
-            <div className="drill-modal-footer">
-              <button
-                type="button"
-                className="drill-btn-done"
-                onClick={() => setShowSettingsModal(false)}
-              >
-                Đóng &amp; Tiếp tục luyện
-              </button>
-            </div>
-          </div>
-        </div>
-      )}
+      <DrillSettingsModal
+        isOpen={showSettingsModal}
+        onClose={() => setShowSettingsModal(false)}
+        voices={voices}
+        selectedVoice={selectedVoice}
+        onSelectVoice={setSelectedVoice}
+        speechRate={speechRate}
+        onChangeRate={setSpeechRate}
+        onResetStats={resetStats}
+      />
     </main>
   );
 }
