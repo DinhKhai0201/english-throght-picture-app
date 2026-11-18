@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import ThemeToggle from "./ThemeToggle";
@@ -15,6 +16,8 @@ import {
   MicIcon,
   LanguagesIcon,
   AwardIcon,
+  MenuIcon,
+  XIcon,
 } from "./Icons";
 
 const SECTIONS = [
@@ -33,27 +36,116 @@ const SECTIONS = [
 
 export default function SectionNav() {
   const pathname = usePathname();
+  const [drawerOpen, setDrawerOpen] = useState(false);
+
+  // Close drawer automatically on route change or Escape key
+  useEffect(() => {
+    setDrawerOpen(false);
+  }, [pathname]);
+
+  useEffect(() => {
+    if (!drawerOpen) return;
+    const handleKeyDown = (e) => {
+      if (e.key === "Escape") setDrawerOpen(false);
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [drawerOpen]);
 
   return (
-    <div className="section-nav-wrapper">
-      <nav className="section-nav-bar" aria-label="Điều hướng phân hệ học tập">
-        {SECTIONS.map(({ href, label, Icon }) => {
-          const isActive = pathname === href;
-          return (
-            <Link
-              key={href}
-              href={href}
-              className={`section-nav-link ${isActive ? "active" : ""}`}
-              aria-current={isActive ? "page" : undefined}
-            >
-              <Icon size={15} />
-              <span>{label}</span>
-            </Link>
-          );
-        })}
-      </nav>
-      <StudyTimer />
-      <ThemeToggle />
-    </div>
+    <>
+      <div className="section-nav-wrapper">
+        {/* Compact Mobile/Narrow Bar: Hamburger Icon + Home Button */}
+        <div className="section-nav-mobile-left">
+          <button
+            type="button"
+            className="nav-hamburger-btn"
+            onClick={() => setDrawerOpen(true)}
+            aria-label="Mở danh mục học tập"
+            aria-expanded={drawerOpen}
+            title="Danh mục các phần học"
+          >
+            <MenuIcon size={18} />
+          </button>
+
+          <Link
+            href="/"
+            className={`nav-mobile-home-btn ${pathname === "/" ? "active" : ""}`}
+            aria-current={pathname === "/" ? "page" : undefined}
+          >
+            <HomeIcon size={15} />
+            <span>Trang chủ</span>
+          </Link>
+        </div>
+
+        {/* Full Desktop Bar */}
+        <nav className="section-nav-bar" aria-label="Điều hướng phân hệ học tập">
+          {SECTIONS.map(({ href, label, Icon }) => {
+            const isActive = pathname === href;
+            return (
+              <Link
+                key={href}
+                href={href}
+                className={`section-nav-link ${isActive ? "active" : ""}`}
+                aria-current={isActive ? "page" : undefined}
+              >
+                <Icon size={15} />
+                <span>{label}</span>
+              </Link>
+            );
+          })}
+        </nav>
+
+        <div className="section-nav-right-utils">
+          <StudyTimer />
+          <ThemeToggle />
+        </div>
+      </div>
+
+      {/* Slide-out Mobile Navigation Drawer */}
+      {drawerOpen && (
+        <div
+          className="nav-drawer-backdrop"
+          onClick={() => setDrawerOpen(false)}
+          role="presentation"
+        >
+          <aside
+            className="nav-drawer-panel"
+            onClick={(e) => e.stopPropagation()}
+            aria-label="Menu danh mục học tập"
+          >
+            <div className="nav-drawer-header">
+              <span className="nav-drawer-title">Danh mục học tập</span>
+              <button
+                type="button"
+                className="nav-drawer-close"
+                onClick={() => setDrawerOpen(false)}
+                aria-label="Đóng menu"
+              >
+                <XIcon size={18} />
+              </button>
+            </div>
+
+            <nav className="nav-drawer-list">
+              {SECTIONS.map(({ href, label, Icon }) => {
+                const isActive = pathname === href;
+                return (
+                  <Link
+                    key={href}
+                    href={href}
+                    onClick={() => setDrawerOpen(false)}
+                    className={`nav-drawer-item ${isActive ? "active" : ""}`}
+                    aria-current={isActive ? "page" : undefined}
+                  >
+                    <Icon size={17} />
+                    <span>{label}</span>
+                  </Link>
+                );
+              })}
+            </nav>
+          </aside>
+        </div>
+      )}
+    </>
   );
 }
