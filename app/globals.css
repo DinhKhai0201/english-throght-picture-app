@@ -7,7 +7,9 @@
   --color-text-main: #0f172a;
   --color-text-muted: #475569;
   --color-card-bg: #ffffff;
+  --color-bg-card: #ffffff;
   --color-border: #e2e8f0;
+  --color-subtle-bg: #f1f5f9;
   --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.05), 0 1px 2px -1px rgba(0, 0, 0, 0.05);
   --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -2px rgba(0, 0, 0, 0.08);
   --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.06), 0 4px 6px -4px rgba(0, 0, 0, 0.06);
@@ -15,6 +17,24 @@
   --border-radius-sm: 8px;
   --border-radius-md: 12px;
   --border-radius-lg: 20px;
+}
+
+[data-theme="dark"],
+.dark {
+  --bg-app: #0b0f19;
+  --color-primary: #818cf8;
+  --color-primary-hover: #a5b4fc;
+  --color-primary-soft: rgba(129, 140, 248, 0.16);
+  --color-text-main: #f1f5f9;
+  --color-text-muted: #94a3b8;
+  --color-card-bg: #151d2f;
+  --color-bg-card: #151d2f;
+  --color-border: #243046;
+  --color-subtle-bg: #1c263c;
+  --shadow-sm: 0 1px 3px 0 rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.5);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.6);
+  --shadow-glow: 0 10px 25px -5px rgba(99, 102, 241, 0.4);
 }
 
 /* Reset & Base styles */
@@ -637,6 +657,70 @@ body {
 }
 
 /* Multi-Section Navigation Bar */
+.section-nav-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.section-nav-wrapper .section-nav-bar {
+  flex: 1;
+  min-width: 0;
+  margin-bottom: 0;
+}
+
+.theme-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background-color: var(--color-card-bg);
+  color: var(--color-text-main);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-lg);
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: var(--shadow-sm);
+  transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  flex-shrink: 0;
+  user-select: none;
+}
+
+.theme-toggle-btn:hover {
+  background-color: var(--color-primary-soft);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+  transform: translateY(-1px);
+}
+
+.theme-toggle-btn--dark {
+  border-color: #3b82f6;
+  background-color: #1e293b;
+}
+
+.theme-toggle-icon {
+  font-size: 1.15rem;
+  line-height: 1;
+}
+
+.theme-toggle-text {
+  font-size: 0.88rem;
+  letter-spacing: -0.01em;
+}
+
+@media (max-width: 640px) {
+  .theme-toggle-text {
+    display: none;
+  }
+  .theme-toggle-btn {
+    padding: 10px 12px;
+  }
+}
+
 .section-nav-bar {
   display: flex;
   align-items: center;
@@ -840,6 +924,16 @@ body {
 .badge-speaking {
   background-color: rgba(5, 150, 105, 0.15);
   color: #059669;
+}
+
+.badge-drill {
+  background-color: rgba(14, 165, 233, 0.12);
+  color: #0369a1;
+}
+
+.badge-ielts-listening {
+  background-color: rgba(13, 148, 136, 0.12);
+  color: #0f766e;
 }
 
 .home-section-title {
@@ -2298,3 +2392,841 @@ body {
     width: 100%;
   }
 }
+
+/* ==========================================================================
+   GLOBAL DARK MODE POLISH & COMPONENT OVERRIDES
+   ========================================================================== */
+
+[data-theme="dark"],
+.dark {
+  color-scheme: dark;
+}
+
+[data-theme="dark"] .search-box input {
+  background-color: var(--color-card-bg);
+  border-color: var(--color-border);
+  color: var(--color-text-main);
+}
+
+[data-theme="dark"] .search-box input:focus {
+  background-color: #1a2337;
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 3px rgba(129, 140, 248, 0.2);
+}
+
+[data-theme="dark"] .control-group select {
+  background-color: var(--color-card-bg);
+  border-color: var(--color-border);
+  color: var(--color-text-main);
+}
+
+[data-theme="dark"] .category-pill {
+  background-color: var(--color-card-bg);
+  border-color: var(--color-border);
+  color: var(--color-text-muted);
+}
+
+[data-theme="dark"] .category-pill:hover {
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  background-color: var(--color-primary-soft);
+}
+
+[data-theme="dark"] .sentence-card {
+  background-color: var(--color-card-bg);
+  border-color: var(--color-border);
+}
+
+[data-theme="dark"] .sentence-card.learned {
+  background-color: rgba(21, 29, 47, 0.6);
+  border-color: #1e293b;
+  opacity: 0.85;
+}
+
+[data-theme="dark"] .card-level {
+  background-color: #1e293b;
+  color: var(--color-text-muted);
+}
+
+[data-theme="dark"] .play-button {
+  background-color: #1e293b;
+  color: var(--color-text-main);
+}
+
+[data-theme="dark"] .reply-box {
+  background-color: rgba(255, 255, 255, 0.04);
+  border-left-color: #475569;
+}
+
+[data-theme="dark"] .reply-text {
+  color: #a5b4fc;
+}
+
+[data-theme="dark"] .checkmark {
+  background-color: #293548;
+}
+
+[data-theme="dark"] .checkbox-container:hover input ~ .checkmark {
+  background-color: #3b4c68;
+}
+
+[data-theme="dark"] .home-section-cta {
+  background-color: #1e293b;
+  color: #e2e8f0;
+}
+
+[data-theme="dark"] .interview-answer-item {
+  background-color: rgba(2, 132, 199, 0.08);
+  border-color: #243046;
+  border-left-color: #38bdf8;
+}
+
+[data-theme="dark"] .interview-answer-item:hover {
+  background-color: rgba(2, 132, 199, 0.14);
+}
+
+[data-theme="dark"] .listen-player-card {
+  background: var(--color-card-bg);
+  border-color: var(--color-border);
+}
+
+[data-theme="dark"] .listen-key-btn {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f8fafc;
+  box-shadow: 0 2px 0 #0f172a;
+}
+
+[data-theme="dark"] .listen-key-btn:hover {
+  background: #283548;
+  border-color: #475569;
+  box-shadow: 0 3px 0 #0f172a;
+}
+
+[data-theme="dark"] .listen-key-btn.is-vowel {
+  background: #3f1d24;
+  color: #fca5a5;
+  border-color: #7f1d1d;
+  box-shadow: 0 2px 0 #450a0a;
+}
+
+[data-theme="dark"] .listen-key-btn.is-vowel:hover {
+  background: #501e28;
+  border-color: #991b1b;
+}
+
+[data-theme="dark"] .listen-key-btn.btn-correct {
+  background: #064e3b;
+  color: #6ee7b7;
+  border-color: #059669;
+  box-shadow: 0 2px 0 #022c22;
+}
+
+[data-theme="dark"] .listen-key-btn.btn-wrong {
+  background: #7f1d1d;
+  color: #fecaca;
+  border-color: #dc2626;
+  box-shadow: 0 2px 0 #450a0a;
+}
+
+[data-theme="dark"] .listen-typing-indicator {
+  background: #1e293b;
+  border-color: #334155;
+}
+
+[data-theme="dark"] .listen-typing-indicator .typing-label {
+  color: #94a3b8;
+}
+
+[data-theme="dark"] .drill-modal-content {
+  background: var(--color-card-bg);
+  color: var(--color-text-main);
+  border: 1px solid var(--color-border);
+}
+
+[data-theme="dark"] .drill-modal-header {
+  border-bottom-color: var(--color-border);
+}
+
+[data-theme="dark"] .drill-modal-footer {
+  border-top-color: var(--color-border);
+}
+
+[data-theme="dark"] .drill-modal-close {
+  color: var(--color-text-muted);
+}
+
+[data-theme="dark"] .drill-modal-close:hover {
+  background: #1e293b;
+  color: #f1f5f9;
+}
+
+[data-theme="dark"] .drill-pill-btn {
+  background: #1e293b;
+  border-color: #334155;
+  color: #cbd5e1;
+}
+
+[data-theme="dark"] .drill-pill-btn:hover {
+  background: #283548;
+  border-color: #475569;
+}
+
+[data-theme="dark"] .drill-select {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f1f5f9;
+}
+
+[data-theme="dark"] .ielts-drill-card {
+  background: var(--color-card-bg);
+  border-color: var(--color-border);
+}
+
+[data-theme="dark"] .drill-text-input {
+  background: #0b0f19;
+  border-color: #334155;
+  color: #f8fafc;
+}
+
+[data-theme="dark"] .drill-text-input:focus {
+  border-color: #0e7490;
+  background: #0f172a;
+}
+
+[data-theme="dark"] .drill-audio-center {
+  background: rgba(14, 116, 144, 0.08);
+  border-color: #243046;
+}
+
+[data-theme="dark"] .drill-revealed-box {
+  background: rgba(245, 158, 11, 0.08);
+  border-color: #78350f;
+}
+
+[data-theme="dark"] .revealed-meaning {
+  color: #fdba74;
+}
+
+[data-theme="dark"] .revealed-trap {
+  background: rgba(180, 83, 9, 0.25);
+  color: #fef3c7;
+}
+
+[data-theme="dark"] .btn-drill-secondary,
+[data-theme="dark"] .btn-drill-nav {
+  background: #1e293b;
+  border-color: #334155;
+  color: #e2e8f0;
+}
+
+[data-theme="dark"] .btn-drill-nav:hover,
+[data-theme="dark"] .btn-drill-secondary:hover {
+  background: #283548;
+  border-color: #475569;
+}
+
+/* IELTS Speaking 30-Day Base Utility Classes */
+.speaking-header-badge {
+  background: rgba(5, 150, 105, 0.12);
+  color: #059669;
+}
+
+.speaking-chunk-badge {
+  color: #059669;
+}
+
+.speaking-active-timer {
+  background: #fef3c7;
+  border: 1px solid #f59e0b;
+  color: #b45309;
+}
+
+.speaking-active-timer .speaking-timer-label {
+  color: #b45309;
+}
+
+.speaking-timer-btn-prep {
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #f59e0b;
+}
+
+.speaking-timer-btn-speak {
+  background: #dcfce7;
+  color: #166534;
+  border: 1px solid #22c55e;
+}
+
+/* IELTS Speaking 30-Day Dark Mode Utility Classes */
+[data-theme="dark"] .speaking-day-picker {
+  background: var(--color-card-bg) !important;
+  border-color: var(--color-border) !important;
+}
+
+[data-theme="dark"] .speaking-day-btn {
+  background: var(--color-card-bg) !important;
+  color: var(--color-text-main) !important;
+  border-color: var(--color-border) !important;
+}
+
+[data-theme="dark"] .speaking-day-btn.is-selected {
+  background: rgba(5, 150, 105, 0.2) !important;
+  color: #34d399 !important;
+  border-color: #10b981 !important;
+}
+
+[data-theme="dark"] .speaking-day-btn.is-done {
+  background: rgba(16, 185, 129, 0.1) !important;
+  border-color: #065f46 !important;
+}
+
+[data-theme="dark"] .speaking-card-box {
+  background: var(--color-card-bg) !important;
+  color: var(--color-text-main) !important;
+  border-color: var(--color-border) !important;
+}
+
+[data-theme="dark"] .speaking-tint-green {
+  background: rgba(5, 150, 105, 0.14) !important;
+  border-color: #065f46 !important;
+}
+
+[data-theme="dark"] .speaking-tint-amber {
+  background: rgba(245, 158, 11, 0.12) !important;
+  border-color: #78350f !important;
+}
+
+[data-theme="dark"] .speaking-tint-blue {
+  background: rgba(2, 132, 199, 0.12) !important;
+  border-color: #075985 !important;
+}
+
+[data-theme="dark"] .speaking-tint-purple {
+  background: rgba(139, 92, 246, 0.12) !important;
+  border-color: #5b21b6 !important;
+}
+
+[data-theme="dark"] .speaking-header-badge {
+  background: rgba(16, 185, 129, 0.18) !important;
+  color: #34d399 !important;
+  border: 1px solid rgba(52, 211, 153, 0.25);
+}
+
+[data-theme="dark"] .speaking-chunk-badge {
+  color: #34d399 !important;
+}
+
+[data-theme="dark"] .speaking-active-timer {
+  background: rgba(245, 158, 11, 0.16) !important;
+  border: 1px solid rgba(245, 158, 11, 0.35) !important;
+}
+
+[data-theme="dark"] .speaking-active-timer .speaking-timer-label {
+  color: #fbbf24 !important;
+}
+
+[data-theme="dark"] .speaking-timer-btn-prep {
+  background: rgba(245, 158, 11, 0.18) !important;
+  color: #fbbf24 !important;
+  border: 1px solid rgba(245, 158, 11, 0.35) !important;
+}
+
+[data-theme="dark"] .speaking-timer-btn-speak {
+  background: rgba(16, 185, 129, 0.18) !important;
+  color: #34d399 !important;
+  border: 1px solid rgba(52, 211, 153, 0.35) !important;
+}
+
+/* ==========================================================================
+   COMPREHENSIVE DARK MODE: BADGES, TAGS, PILLS & COUNTERS
+   ========================================================================== */
+
+/* Home Section Hub Badges */
+[data-theme="dark"] .badge-en300 {
+  background-color: rgba(129, 140, 248, 0.18);
+  color: #a5b4fc;
+  border: 1px solid rgba(165, 180, 252, 0.25);
+}
+
+[data-theme="dark"] .badge-chunks {
+  background-color: rgba(16, 185, 129, 0.18);
+  color: #34d399;
+  border: 1px solid rgba(52, 211, 153, 0.25);
+}
+
+[data-theme="dark"] .badge-chinese {
+  background-color: rgba(244, 63, 94, 0.18);
+  color: #fb7185;
+  border: 1px solid rgba(251, 113, 133, 0.25);
+}
+
+[data-theme="dark"] .badge-japanese {
+  background-color: rgba(168, 85, 247, 0.18);
+  color: #c084fc;
+  border: 1px solid rgba(192, 132, 252, 0.25);
+}
+
+[data-theme="dark"] .badge-ielts {
+  background-color: rgba(245, 158, 11, 0.18);
+  color: #fbbf24;
+  border: 1px solid rgba(251, 191, 36, 0.25);
+}
+
+[data-theme="dark"] .badge-interview {
+  background-color: rgba(14, 165, 233, 0.18);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.25);
+}
+
+[data-theme="dark"] .badge-speaking {
+  background-color: rgba(16, 185, 129, 0.18);
+  color: #34d399;
+  border: 1px solid rgba(52, 211, 153, 0.25);
+}
+
+[data-theme="dark"] .badge-drill {
+  background-color: rgba(14, 165, 233, 0.18);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.25);
+}
+
+[data-theme="dark"] .badge-ielts-listening {
+  background-color: rgba(20, 184, 166, 0.18);
+  color: #2dd4bf;
+  border: 1px solid rgba(45, 212, 191, 0.25);
+}
+
+/* Card indices & numbers */
+[data-theme="dark"] .card-index {
+  background-color: rgba(255, 255, 255, 0.08) !important;
+}
+
+/* IELTS Words: Difficulty & Pos Badges, Synonym & Antonym Tags */
+[data-theme="dark"] .difficulty-beginner {
+  background-color: rgba(22, 163, 74, 0.2);
+  color: #4ade80;
+  border: 1px solid rgba(74, 222, 128, 0.25);
+}
+
+[data-theme="dark"] .difficulty-intermediate {
+  background-color: rgba(217, 119, 6, 0.2);
+  color: #fbbf24;
+  border: 1px solid rgba(251, 191, 36, 0.25);
+}
+
+[data-theme="dark"] .difficulty-advanced {
+  background-color: rgba(220, 38, 38, 0.2);
+  color: #f87171;
+  border: 1px solid rgba(248, 113, 113, 0.25);
+}
+
+[data-theme="dark"] .word-pos-badge {
+  background-color: #1e293b;
+  color: #94a3b8;
+  border: 1px solid #334155;
+}
+
+[data-theme="dark"] .synonym-tag {
+  background-color: #1e293b;
+  color: #cbd5e1;
+  border: 1px solid #334155;
+}
+
+[data-theme="dark"] .antonym-tag {
+  background-color: rgba(239, 68, 68, 0.15);
+  color: #fca5a5;
+  border: 1px solid rgba(239, 68, 68, 0.25);
+}
+
+/* Interview Q&A Option Badge */
+[data-theme="dark"] .interview-option-badge {
+  color: #38bdf8;
+}
+
+/* Japanese Kana & Romaji */
+[data-theme="dark"] .kana-badge {
+  color: #c084fc;
+}
+
+[data-theme="dark"] .romaji-badge {
+  color: #94a3b8;
+}
+
+/* Lesson Mode Tags & Badges */
+[data-theme="dark"] .badge-lesson {
+  background-color: rgba(99, 102, 241, 0.2);
+  color: #a5b4fc;
+  border: 1px solid rgba(99, 102, 241, 0.3);
+}
+
+[data-theme="dark"] .lesson-done-badge {
+  background: rgba(22, 163, 74, 0.15);
+  color: #4ade80;
+  border-color: rgba(74, 222, 128, 0.3);
+}
+
+[data-theme="dark"] .lesson-done-badge.completed {
+  background: rgba(16, 185, 129, 0.2);
+  color: #34d399;
+  border-color: rgba(52, 211, 153, 0.4);
+}
+
+[data-theme="dark"] .lesson-remaining-badge {
+  background: rgba(239, 68, 68, 0.18);
+  color: #f87171;
+  border: 1px solid rgba(239, 68, 68, 0.25);
+}
+
+[data-theme="dark"] .lesson-jump-incomplete-btn {
+  background: rgba(245, 158, 11, 0.15);
+  color: #fbbf24;
+  border: 1px dashed rgba(245, 158, 11, 0.5);
+}
+
+[data-theme="dark"] .lesson-nav-btn {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f1f5f9;
+}
+
+[data-theme="dark"] .lesson-select {
+  background: #1e293b;
+  border-color: #334155;
+  color: #f1f5f9;
+}
+
+/* Listen Drill & IELTS Listening Badges */
+[data-theme="dark"] .listen-icon-badge {
+  background: rgba(14, 165, 233, 0.18);
+  border: 1px solid rgba(56, 189, 248, 0.25);
+}
+
+[data-theme="dark"] .drill-cat-badge {
+  background: rgba(14, 165, 233, 0.18);
+  color: #38bdf8;
+  border: 1px solid rgba(56, 189, 248, 0.25);
+}
+
+[data-theme="dark"] .stat-pill .stat-number {
+  color: #38bdf8;
+}
+
+/* Study Counters Universal */
+[data-theme="dark"] .study-counter {
+  background-color: rgba(129, 140, 248, 0.16) !important;
+  color: #a5b4fc !important;
+  border: 1px solid rgba(129, 140, 248, 0.2);
+}
+
+/* ==========================================================================
+   SIDE DRAWER AUDIO CONTROL & SCROLL TO TOP
+   ========================================================================== */
+
+/* 1. Side Drawer: Docked to Right Screen Edge */
+.audio-side-drawer {
+  position: fixed;
+  right: 0;
+  top: 45%;
+  transform: translateY(-50%);
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  filter: drop-shadow(-4px 4px 12px rgba(0, 0, 0, 0.1));
+}
+
+/* Docked Tab Button (Label mũi tên nhô ra mép màn hình) */
+.drawer-tab-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 10px 8px 10px 12px;
+  border: 1.5px solid var(--color-border);
+  border-right: none;
+  border-radius: 24px 0 0 24px;
+  background-color: var(--color-card-bg);
+  color: var(--color-text-main);
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  white-space: nowrap;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.drawer-tab-btn:hover {
+  background-color: var(--color-primary-soft);
+  color: var(--color-primary);
+  border-color: var(--color-primary);
+}
+
+.drawer-tab-btn.tab-is-active {
+  border-color: #10b981;
+}
+
+.drawer-tab-btn.tab-is-muted {
+  border-color: #ef4444;
+  background-color: #fff1f2;
+}
+
+.drawer-arrow-icon {
+  font-size: 0.85rem;
+  font-weight: 800;
+  color: var(--color-text-muted);
+  transition: transform 0.25s ease;
+}
+
+.drawer-tab-icon {
+  font-size: 1.25rem;
+  line-height: 1;
+}
+
+/* Sliding Drawer Body */
+.drawer-body {
+  background-color: var(--color-card-bg);
+  border: 1.5px solid var(--color-border);
+  border-right: none;
+  border-radius: 16px 0 0 16px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  white-space: nowrap;
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: max-width 0.35s cubic-bezier(0.4, 0, 0.2, 1),
+              opacity 0.25s ease,
+              padding 0.35s ease,
+              border-width 0.35s ease;
+}
+
+.audio-side-drawer:not(.is-open) .drawer-body {
+  max-width: 0;
+  padding: 0;
+  opacity: 0;
+  border-width: 0;
+  pointer-events: none;
+}
+
+.audio-side-drawer.is-open .drawer-body {
+  max-width: 320px;
+  opacity: 1;
+  padding: 8px 12px;
+}
+
+/* Drawer Audio Action Button */
+.drawer-audio-toggle {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 8px 14px;
+  background: var(--color-subtle-bg);
+  border: 1.5px solid var(--color-border);
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  user-select: none;
+  text-align: left;
+}
+
+.drawer-audio-toggle:hover {
+  transform: translateY(-1px);
+  border-color: var(--color-primary);
+}
+
+.drawer-audio-toggle.toggle-active {
+  border-color: #10b981;
+  background-color: rgba(16, 185, 129, 0.08);
+}
+
+.drawer-audio-toggle.toggle-muted {
+  border-color: #ef4444;
+  background-color: rgba(239, 68, 68, 0.08);
+}
+
+.drawer-toggle-icon-wrap {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.25rem;
+  flex-shrink: 0;
+}
+
+.drawer-toggle-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.drawer-toggle-title {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+  line-height: 1.2;
+}
+
+.drawer-toggle-desc {
+  font-size: 0.78rem;
+  color: var(--color-text-muted);
+  font-weight: 500;
+}
+
+/* Mini iOS-style switch pill */
+.drawer-switch-pill {
+  width: 38px;
+  height: 22px;
+  border-radius: 11px;
+  padding: 2px;
+  transition: all 0.25s ease;
+  flex-shrink: 0;
+  margin-left: 6px;
+}
+
+.drawer-switch-pill.is-on {
+  background-color: #10b981;
+}
+
+.drawer-switch-pill.is-off {
+  background-color: #94a3b8;
+}
+
+.drawer-switch-knob {
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.3);
+  transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.drawer-switch-pill.is-on .drawer-switch-knob {
+  transform: translateX(16px);
+}
+
+.drawer-switch-pill.is-off .drawer-switch-knob {
+  transform: translateX(0);
+}
+
+/* 2. Floating Scroll to Top Button (Góc dưới bên phải) */
+.scroll-to-top-btn {
+  position: fixed;
+  bottom: 24px;
+  right: 20px;
+  z-index: 9998;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1.5px solid var(--color-border);
+  background-color: var(--color-card-bg);
+  color: var(--color-primary);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  user-select: none;
+  animation: floatFadeIn 0.25s ease-out;
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+}
+
+.scroll-to-top-btn:hover {
+  transform: translateY(-3px) scale(1.06);
+  background-color: var(--color-primary);
+  color: #ffffff;
+  border-color: var(--color-primary);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+}
+
+.scroll-to-top-btn:active {
+  transform: translateY(0) scale(0.96);
+}
+
+.scroll-top-icon {
+  font-size: 1.15rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+@keyframes floatFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px) scale(0.85);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* Dark Mode Overrides */
+[data-theme="dark"] .drawer-tab-btn {
+  background-color: rgba(21, 29, 47, 0.95);
+  border-color: #334155;
+  color: #f1f5f9;
+}
+
+[data-theme="dark"] .drawer-tab-btn.tab-is-muted {
+  border-color: #f87171;
+  background-color: rgba(239, 68, 68, 0.18);
+}
+
+[data-theme="dark"] .drawer-body {
+  background-color: rgba(21, 29, 47, 0.95);
+  border-color: #334155;
+}
+
+[data-theme="dark"] .drawer-audio-toggle {
+  background-color: #1a2337;
+  border-color: #334155;
+}
+
+[data-theme="dark"] .drawer-audio-toggle.toggle-active {
+  border-color: #10b981;
+  background-color: rgba(16, 185, 129, 0.15);
+}
+
+[data-theme="dark"] .drawer-audio-toggle.toggle-muted {
+  border-color: #f87171;
+  background-color: rgba(239, 68, 68, 0.15);
+}
+
+[data-theme="dark"] .drawer-toggle-icon-wrap {
+  background-color: #151d2f;
+  border-color: #334155;
+}
+
+[data-theme="dark"] .scroll-to-top-btn {
+  background-color: rgba(21, 29, 47, 0.95);
+  border-color: #334155;
+  color: #818cf8;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.45);
+}
+
+[data-theme="dark"] .scroll-to-top-btn:hover {
+  background-color: var(--color-primary);
+  color: #0b0f19;
+  border-color: var(--color-primary);
+}
+
+@media (max-width: 600px) {
+  .audio-side-drawer {
+    top: 50%;
+  }
+  .drawer-tab-btn {
+    padding: 8px 6px 8px 10px;
+  }
+  .scroll-to-top-btn {
+    bottom: 20px;
+    right: 16px;
+    width: 42px;
+    height: 42px;
+  }
+}
+
+
+

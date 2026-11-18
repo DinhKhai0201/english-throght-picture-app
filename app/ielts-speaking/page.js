@@ -385,8 +385,8 @@ function IeltsSpeakingContent() {
           </div>
 
           {timerSeconds !== null && (
-            <div style={{ display: "flex", alignItems: "center", gap: "10px", background: "#fef3c7", padding: "6px 14px", borderRadius: "8px", border: "1px solid #f59e0b" }}>
-              <span style={{ fontWeight: "700", color: "#b45309" }}>
+            <div className="speaking-active-timer" style={{ display: "flex", alignItems: "center", gap: "10px", padding: "6px 14px", borderRadius: "8px" }}>
+              <span className="speaking-timer-label" style={{ fontWeight: "700" }}>
                 ⏱️ {timerType === "prep" ? "Thời gian chuẩn bị (1p):" : "Thời gian nói liên tục (2p):"} {Math.floor(timerSeconds / 60)}:{(timerSeconds % 60).toString().padStart(2, "0")}
               </span>
               <button onClick={stopTimer} style={{ background: "#dc2626", color: "#fff", border: "none", borderRadius: "4px", padding: "4px 8px", cursor: "pointer", fontSize: "0.8rem", fontWeight: "700" }}>
@@ -424,12 +424,12 @@ function IeltsSpeakingContent() {
           </div>
 
           {/* 30 Days Horizontal Picker Carousel / Grid */}
-          <div style={{
+          <div className="speaking-day-picker" style={{
             display: "grid",
             gridTemplateColumns: "repeat(auto-fill, minmax(88px, 1fr))",
             gap: "8px",
             marginBottom: "24px",
-            background: "#ffffff",
+            background: "var(--color-card-bg)",
             padding: "16px",
             borderRadius: "12px",
             border: "1px solid var(--color-border)",
@@ -442,12 +442,13 @@ function IeltsSpeakingContent() {
                 <button
                   key={d.day}
                   onClick={() => selectDay(d.day)}
+                  className={`speaking-day-btn ${isSelected ? "is-selected" : ""} ${isDone ? "is-done" : ""}`}
                   style={{
                     padding: "10px 4px",
                     borderRadius: "8px",
-                    border: isSelected ? "2px solid #059669" : "1px solid #e2e8f0",
-                    background: isSelected ? "#ecfdf5" : isDone ? "#f0fdf4" : "#ffffff",
-                    color: isSelected ? "#065f46" : "#334155",
+                    border: isSelected ? "2px solid #059669" : "1px solid var(--color-border)",
+                    background: isSelected ? "rgba(5, 150, 105, 0.15)" : isDone ? "rgba(16, 185, 129, 0.1)" : "var(--color-card-bg)",
+                    color: isSelected ? "#059669" : "var(--color-text-main)",
                     cursor: "pointer",
                     display: "flex",
                     flexDirection: "column",
@@ -467,20 +468,20 @@ function IeltsSpeakingContent() {
           {/* ACTIVE DAY DETAIL VIEW */}
           <article className="sentence-card" style={{ borderLeft: "5px solid #059669", padding: "24px" }}>
             {/* Header: Day number, title, week badge, mark completed button */}
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "12px", borderBottom: "1px solid #e2e8f0", paddingBottom: "16px", marginBottom: "20px" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "12px", borderBottom: "1px solid var(--color-border)", paddingBottom: "16px", marginBottom: "20px" }}>
               <div>
                 <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "6px" }}>
-                  <span style={{ background: "#ecfdf5", color: "#059669", fontWeight: "800", padding: "4px 12px", borderRadius: "20px", fontSize: "0.85rem", textTransform: "uppercase" }}>
+                  <span className="speaking-header-badge" style={{ fontWeight: "800", padding: "4px 12px", borderRadius: "20px", fontSize: "0.85rem", textTransform: "uppercase" }}>
                     Tuần {currentDay.week} • Ngày {currentDay.day}/30
                   </span>
-                  <span style={{ fontSize: "0.85rem", color: "#64748b", fontWeight: "600" }}>
+                  <span style={{ fontSize: "0.85rem", color: "var(--color-text-muted)", fontWeight: "600" }}>
                     {currentDay.type === "checkpoint" ? "🎯 Bài kiểm tra tuần" : currentDay.type === "cue_cards" ? "🗂️ Luyện Cue Cards Part 2" : currentDay.type === "mock_test" ? "🏆 Thi thử Full 3 Part" : currentDay.type === "assessment" ? "📊 Đánh giá 30 ngày" : "🗣️ Bài học Chunks"}
                   </span>
                 </div>
-                <h2 style={{ fontSize: "1.6rem", color: "#0f172a", margin: "0 0 4px 0", fontWeight: "800" }}>
+                <h2 style={{ fontSize: "1.6rem", color: "var(--color-text-main)", margin: "0 0 4px 0", fontWeight: "800" }}>
                   {currentDay.title_en}
                 </h2>
-                <p style={{ fontSize: "1.1rem", color: "#475569", margin: 0, fontWeight: "600" }}>
+                <p style={{ fontSize: "1.1rem", color: "var(--color-text-muted)", margin: 0, fontWeight: "600" }}>
                   {currentDay.title_vi}
                 </p>
               </div>
@@ -489,7 +490,7 @@ function IeltsSpeakingContent() {
                 <button
                   onClick={() => toggleDayCompletion(currentDay.day)}
                   style={{
-                    background: completedDays.has(currentDay.day) ? "#059669" : "#ffffff",
+                    background: completedDays.has(currentDay.day) ? "#059669" : "var(--color-card-bg)",
                     color: completedDays.has(currentDay.day) ? "#ffffff" : "#059669",
                     border: "2px solid #059669",
                     padding: "8px 16px",
@@ -530,8 +531,8 @@ function IeltsSpeakingContent() {
                       <div
                         key={cIdx}
                         style={{
-                          background: isLearned ? "#f0fdf4" : "#f8fafc",
-                          border: isLearned ? "1px solid #86efac" : "1px solid #e2e8f0",
+                          background: isLearned ? "rgba(16, 185, 129, 0.12)" : "var(--color-subtle-bg)",
+                          border: isLearned ? "1px solid #86efac" : "1px solid var(--color-border)",
                           borderLeft: isLearned ? "4px solid #16a34a" : "4px solid #059669",
                           borderRadius: "8px",
                           padding: "14px",
@@ -547,7 +548,7 @@ function IeltsSpeakingContent() {
                             style={{
                               fontSize: "1.1rem",
                               fontWeight: "700",
-                              color: "#0f172a",
+                              color: "var(--color-text-main)",
                               cursor: "pointer"
                             }}
                             title="Bấm để nghe phát âm"
@@ -562,8 +563,9 @@ function IeltsSpeakingContent() {
                                 width: "30px",
                                 height: "30px",
                                 borderRadius: "50%",
-                                border: "1px solid #cbd5e1",
-                                background: "#ffffff",
+                                border: "1px solid var(--color-border)",
+                                background: "var(--color-card-bg)",
+                                color: "var(--color-text-main)",
                                 cursor: "pointer",
                                 fontSize: "0.85rem",
                                 display: "flex",
@@ -605,18 +607,18 @@ function IeltsSpeakingContent() {
                           <div
                             onClick={() => { playSpeech(c.example, `${chunkId}_ex`); incrementStudyCount(chunkId); }}
                             style={{
-                              background: "#ffffff",
+                              background: "var(--color-card-bg)",
                               padding: "8px 10px",
                               borderRadius: "6px",
-                              border: "1px dashed #cbd5e1",
+                              border: "1px dashed var(--color-border)",
                               fontSize: "0.9rem",
-                              color: "#334155",
+                              color: "var(--color-text-main)",
                               lineHeight: "1.4",
                               cursor: "pointer"
                             }}
                             title="Bấm để nghe câu ví dụ hoàn chỉnh"
                           >
-                            <span style={{ fontWeight: "700", color: "#64748b" }}>Ex: </span>
+                            <span style={{ fontWeight: "700", color: "var(--color-text-muted)" }}>Ex: </span>
                             {c.example}
                             {isPlayingEx && <span style={{ marginLeft: "6px", color: "#059669" }}>🔊</span>}
                           </div>
@@ -630,7 +632,7 @@ function IeltsSpeakingContent() {
 
             {/* Model Answer Section */}
             {currentDay.model_en && (
-              <div style={{ marginBottom: "28px", background: "#f0fdf4", border: "1px solid #bbf7d0", borderRadius: "12px", padding: "18px" }}>
+              <div className="speaking-tint-green" style={{ marginBottom: "28px", background: "#f0fdf4", border: "1px solid #bbf7d0", borderRadius: "12px", padding: "18px" }}>
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
                   <h3 style={{ fontSize: "1rem", color: "#059669", fontWeight: "800", textTransform: "uppercase", margin: 0, display: "flex", alignItems: "center", gap: "6px" }}>
                     <span>💡</span> Bài Nói Mẫu Kết Hợp Chunks (Model Answer):
@@ -640,7 +642,7 @@ function IeltsSpeakingContent() {
                       className="study-counter"
                       style={{
                         color: "#059669",
-                        backgroundColor: "#dcfce7",
+                        backgroundColor: "rgba(5, 150, 105, 0.15)",
                         padding: "4px 10px",
                         borderRadius: "6px",
                         fontWeight: "700"
@@ -655,7 +657,7 @@ function IeltsSpeakingContent() {
                         incrementStudyCount(`d${currentDay.day}_model`);
                       }}
                       className="play-button"
-                      style={{ width: "34px", height: "34px", fontSize: "1rem", background: "#ffffff" }}
+                      style={{ width: "34px", height: "34px", fontSize: "1rem", background: "var(--color-card-bg)" }}
                       title="Nghe toàn bộ bài nói mẫu"
                     >
                       {playingId === `d${currentDay.day}_model` ? "🔊" : "🗣️"}
@@ -667,11 +669,11 @@ function IeltsSpeakingContent() {
                     playSpeech(currentDay.model_en, `d${currentDay.day}_model`);
                     incrementStudyCount(`d${currentDay.day}_model`);
                   }}
-                  style={{ fontSize: "1.1rem", color: "#0f172a", lineHeight: "1.55", fontWeight: "500", margin: "0 0 10px 0", cursor: "pointer" }}
+                  style={{ fontSize: "1.1rem", color: "var(--color-text-main)", lineHeight: "1.55", fontWeight: "500", margin: "0 0 10px 0", cursor: "pointer" }}
                 >
                   "{currentDay.model_en}"
                 </p>
-                <p style={{ fontSize: "0.95rem", color: "#475569", margin: 0, lineHeight: "1.5", fontStyle: "italic" }}>
+                <p style={{ fontSize: "0.95rem", color: "var(--color-text-muted)", margin: 0, lineHeight: "1.5", fontStyle: "italic" }}>
                   👉 {currentDay.model_vi}
                 </p>
               </div>
@@ -679,8 +681,8 @@ function IeltsSpeakingContent() {
 
             {/* Practice Questions Section */}
             {currentDay.questions && currentDay.questions.length > 0 && (
-              <div style={{ marginBottom: "24px", background: "#f8fafc", border: "1px solid #e2e8f0", borderRadius: "12px", padding: "18px" }}>
-                <h3 style={{ fontSize: "1rem", color: "#0f172a", fontWeight: "800", textTransform: "uppercase", margin: "0 0 12px 0", display: "flex", alignItems: "center", gap: "6px" }}>
+              <div style={{ marginBottom: "24px", background: "var(--color-subtle-bg)", border: "1px solid var(--color-border)", borderRadius: "12px", padding: "18px" }}>
+                <h3 style={{ fontSize: "1rem", color: "var(--color-text-main)", fontWeight: "800", textTransform: "uppercase", margin: "0 0 12px 0", display: "flex", alignItems: "center", gap: "6px" }}>
                   <span>❓</span> Câu Hỏi Tự Luyện Nói Thành Tiếng (Áp Dụng A-R-D):
                 </h3>
                 <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
@@ -696,15 +698,15 @@ function IeltsSpeakingContent() {
                         alignItems: "center",
                         justifyContent: "space-between",
                         padding: "10px 14px",
-                        background: "#ffffff",
+                        background: "var(--color-card-bg)",
                         borderRadius: "8px",
-                        border: "1px solid #e2e8f0",
+                        border: "1px solid var(--color-border)",
                         cursor: "pointer",
                         gap: "10px"
                       }}
                       title="Bấm để nghe câu hỏi"
                     >
-                      <span style={{ fontSize: "1.05rem", fontWeight: "600", color: "#1e293b" }}>
+                      <span style={{ fontSize: "1.05rem", fontWeight: "600", color: "var(--color-text-main)" }}>
                         {qIdx + 1}. {q}
                       </span>
                       <div style={{ display: "flex", alignItems: "center", gap: "8px", flexShrink: 0 }}>
@@ -727,7 +729,7 @@ function IeltsSpeakingContent() {
                             height: "30px",
                             borderRadius: "50%",
                             border: "none",
-                            background: "#ecfdf5",
+                            background: "rgba(5, 150, 105, 0.15)",
                             color: "#059669",
                             cursor: "pointer",
                             fontSize: "0.85rem"
@@ -744,18 +746,18 @@ function IeltsSpeakingContent() {
 
             {/* Day 20: 1-Minute Preparation Method */}
             {currentDay.cue_card_method && (
-              <div style={{ marginBottom: "24px", background: "#f0f9ff", border: "1px solid #bae6fd", borderRadius: "12px", padding: "20px" }}>
+              <div className="speaking-tint-blue" style={{ marginBottom: "24px", background: "#f0f9ff", border: "1px solid #bae6fd", borderRadius: "12px", padding: "20px" }}>
                 <h3 style={{ fontSize: "1.1rem", color: "#0284c7", fontWeight: "800", margin: "0 0 12px 0" }}>
                   📝 {currentDay.cue_card_method.title}
                 </h3>
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: "10px", marginBottom: "16px" }}>
                   {currentDay.cue_card_method.steps.map((st) => (
-                    <div key={st.step} style={{ background: "#ffffff", padding: "12px", borderRadius: "8px", border: "1px solid #cbd5e1" }}>
+                    <div key={st.step} style={{ background: "var(--color-card-bg)", padding: "12px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
                       <div style={{ fontWeight: "700", color: "#0369a1", fontSize: "0.95rem", marginBottom: "4px" }}>
                         Bước {st.step}: {st.name} ({st.prompt})
                       </div>
-                      <div style={{ fontSize: "0.85rem", color: "#64748b" }}>
-                        Ví dụ ghi chú: <code style={{ color: "#b91c1c", fontWeight: "700" }}>{st.note}</code>
+                      <div style={{ fontSize: "0.85rem", color: "var(--color-text-muted)" }}>
+                        Ví dụ ghi chú: <code style={{ color: "#ef4444", fontWeight: "700" }}>{st.note}</code>
                       </div>
                     </div>
                   ))}
@@ -771,32 +773,34 @@ function IeltsSpeakingContent() {
                 </h3>
                 <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
                   {currentDay.cue_cards.map((cc, ccIdx) => (
-                    <div key={cc.id} style={{ background: "#f8fafc", border: "1px solid #cbd5e1", borderRadius: "12px", padding: "18px" }}>
+                    <div key={cc.id} style={{ background: "var(--color-subtle-bg)", border: "1px solid var(--color-border)", borderRadius: "12px", padding: "18px" }}>
                       <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "10px", marginBottom: "12px" }}>
                         <div>
                           <span style={{ fontSize: "0.8rem", fontWeight: "700", color: "#059669", textTransform: "uppercase" }}>Cue Card #{ccIdx + 1}</span>
-                          <h4 style={{ fontSize: "1.2rem", color: "#0f172a", margin: "4px 0 0 0", fontWeight: "700" }}>
+                          <h4 style={{ fontSize: "1.2rem", color: "var(--color-text-main)", margin: "4px 0 0 0", fontWeight: "700" }}>
                             {cc.topic}
                           </h4>
                         </div>
                         <div style={{ display: "flex", gap: "8px" }}>
                           <button
                             onClick={() => startTimer(60, "prep")}
-                            style={{ background: "#fef3c7", color: "#92400e", border: "1px solid #f59e0b", padding: "6px 12px", borderRadius: "6px", fontWeight: "700", fontSize: "0.85rem", cursor: "pointer" }}
+                            className="speaking-timer-btn-prep"
+                            style={{ padding: "6px 12px", borderRadius: "6px", fontWeight: "700", fontSize: "0.85rem", cursor: "pointer" }}
                           >
                             ⏱️ 1 Phút Chuẩn Bị
                           </button>
                           <button
                             onClick={() => startTimer(120, "speak")}
-                            style={{ background: "#dcfce7", color: "#166534", border: "1px solid #22c55e", padding: "6px 12px", borderRadius: "6px", fontWeight: "700", fontSize: "0.85rem", cursor: "pointer" }}
+                            className="speaking-timer-btn-speak"
+                            style={{ padding: "6px 12px", borderRadius: "6px", fontWeight: "700", fontSize: "0.85rem", cursor: "pointer" }}
                           >
                             🎙️ 2 Phút Nói Liên Tục
                           </button>
                         </div>
                       </div>
-                      <div style={{ background: "#ffffff", padding: "12px 16px", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
-                        <p style={{ margin: "0 0 6px 0", fontSize: "0.9rem", fontWeight: "600", color: "#475569" }}>You should say:</p>
-                        <ul style={{ margin: 0, paddingLeft: "20px", color: "#334155", fontSize: "0.95rem", lineHeight: "1.6" }}>
+                      <div style={{ background: "var(--color-card-bg)", padding: "12px 16px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
+                        <p style={{ margin: "0 0 6px 0", fontSize: "0.9rem", fontWeight: "600", color: "var(--color-text-muted)" }}>You should say:</p>
+                        <ul style={{ margin: 0, paddingLeft: "20px", color: "var(--color-text-main)", fontSize: "0.95rem", lineHeight: "1.6" }}>
                           {cc.prompts.map((p, pIdx) => (
                             <li key={pIdx}>{p}</li>
                           ))}
@@ -810,23 +814,23 @@ function IeltsSpeakingContent() {
 
             {/* Day 28: Part 3 O-R-E-Q Framework */}
             {currentDay.part3_framework && (
-              <div style={{ marginBottom: "24px", background: "#fdf4ff", border: "1px solid #f0abfc", borderRadius: "12px", padding: "20px" }}>
+              <div className="speaking-tint-purple" style={{ marginBottom: "24px", background: "#fdf4ff", border: "1px solid #f0abfc", borderRadius: "12px", padding: "20px" }}>
                 <h3 style={{ fontSize: "1.1rem", color: "#86198f", fontWeight: "800", margin: "0 0 12px 0" }}>
                   🎯 Công Thức Triển Khai Part 3: {currentDay.part3_framework.formula}
                 </h3>
                 <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: "10px", marginBottom: "16px" }}>
                   {currentDay.part3_framework.steps.map((st) => (
-                    <div key={st.code} style={{ background: "#ffffff", padding: "10px 14px", borderRadius: "8px", border: "1px solid #e9d5ff" }}>
+                    <div key={st.code} style={{ background: "var(--color-card-bg)", padding: "10px 14px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
                       <span style={{ fontWeight: "800", color: "#9333ea", fontSize: "1rem" }}>{st.code}</span> - {st.name}
-                      <p style={{ margin: "4px 0 0 0", fontSize: "0.85rem", color: "#64748b" }}>{st.desc}</p>
+                      <p style={{ margin: "4px 0 0 0", fontSize: "0.85rem", color: "var(--color-text-muted)" }}>{st.desc}</p>
                     </div>
                   ))}
                 </div>
-                <div style={{ background: "#ffffff", padding: "14px", borderRadius: "8px", border: "1px solid #e9d5ff" }}>
+                <div style={{ background: "var(--color-card-bg)", padding: "14px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
                   <div style={{ fontWeight: "700", color: "#86198f", marginBottom: "6px" }}>
                     Câu hỏi mẫu: {currentDay.part3_framework.sample_q}
                   </div>
-                  <p style={{ fontSize: "0.95rem", color: "#1e293b", lineHeight: "1.6", margin: 0 }}>
+                  <p style={{ fontSize: "0.95rem", color: "var(--color-text-main)", lineHeight: "1.6", margin: 0 }}>
                     {currentDay.part3_framework.sample_a}
                   </p>
                 </div>
@@ -835,17 +839,17 @@ function IeltsSpeakingContent() {
 
             {/* Day 29: Full Mock Test Simulator */}
             {currentDay.mock_test_flow && (
-              <div style={{ marginBottom: "24px", background: "#fffbeb", border: "1px solid #fde68a", borderRadius: "12px", padding: "20px" }}>
+              <div className="speaking-tint-amber" style={{ marginBottom: "24px", background: "#fffbeb", border: "1px solid #fde68a", borderRadius: "12px", padding: "20px" }}>
                 <h3 style={{ fontSize: "1.2rem", color: "#b45309", fontWeight: "800", margin: "0 0 16px 0" }}>
                   🏆 Full Mock Test Simulation (11 - 14 Phút):
                 </h3>
                 <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
                   {/* Part 1 */}
-                  <div style={{ background: "#ffffff", padding: "14px", borderRadius: "8px", border: "1px solid #fcd34d" }}>
+                  <div style={{ background: "var(--color-card-bg)", padding: "14px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
                     <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "8px" }}>
                       <span style={{ fontWeight: "800", color: "#b45309" }}>Part 1: Phỏng vấn mở đầu ({currentDay.mock_test_flow.part1.time})</span>
                     </div>
-                    <ul style={{ margin: 0, paddingLeft: "20px", color: "#1e293b", lineHeight: "1.6" }}>
+                    <ul style={{ margin: 0, paddingLeft: "20px", color: "var(--color-text-main)", lineHeight: "1.6" }}>
                       {currentDay.mock_test_flow.part1.questions.map((q, idx) => (
                         <li
                           key={idx}
@@ -862,16 +866,16 @@ function IeltsSpeakingContent() {
                   </div>
 
                   {/* Part 2 */}
-                  <div style={{ background: "#ffffff", padding: "14px", borderRadius: "8px", border: "1px solid #fcd34d" }}>
+                  <div style={{ background: "var(--color-card-bg)", padding: "14px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
                       <span style={{ fontWeight: "800", color: "#b45309" }}>Part 2: Độc thoại Cue Card ({currentDay.mock_test_flow.part2.time})</span>
                       <div style={{ display: "flex", gap: "6px" }}>
-                        <button onClick={() => startTimer(60, "prep")} style={{ padding: "4px 8px", fontSize: "0.8rem", background: "#fef3c7", border: "1px solid #f59e0b", borderRadius: "4px", cursor: "pointer" }}>1p Prep</button>
-                        <button onClick={() => startTimer(120, "speak")} style={{ padding: "4px 8px", fontSize: "0.8rem", background: "#dcfce7", border: "1px solid #22c55e", borderRadius: "4px", cursor: "pointer" }}>2p Speak</button>
+                        <button onClick={() => startTimer(60, "prep")} className="speaking-timer-btn-prep" style={{ padding: "4px 8px", fontSize: "0.8rem", borderRadius: "4px", cursor: "pointer" }}>1p Prep</button>
+                        <button onClick={() => startTimer(120, "speak")} className="speaking-timer-btn-speak" style={{ padding: "4px 8px", fontSize: "0.8rem", borderRadius: "4px", cursor: "pointer" }}>2p Speak</button>
                       </div>
                     </div>
-                    <p style={{ fontWeight: "700", color: "#0f172a", margin: "0 0 6px 0" }}>{currentDay.mock_test_flow.part2.cue_card}</p>
-                    <ul style={{ margin: 0, paddingLeft: "20px", color: "#475569", lineHeight: "1.5" }}>
+                    <p style={{ fontWeight: "700", color: "var(--color-text-main)", margin: "0 0 6px 0" }}>{currentDay.mock_test_flow.part2.cue_card}</p>
+                    <ul style={{ margin: 0, paddingLeft: "20px", color: "var(--color-text-muted)", lineHeight: "1.5" }}>
                       {currentDay.mock_test_flow.part2.prompts.map((p, idx) => (
                         <li key={idx}>{p}</li>
                       ))}
@@ -879,9 +883,9 @@ function IeltsSpeakingContent() {
                   </div>
 
                   {/* Part 3 */}
-                  <div style={{ background: "#ffffff", padding: "14px", borderRadius: "8px", border: "1px solid #fcd34d" }}>
+                  <div style={{ background: "var(--color-card-bg)", padding: "14px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
                     <span style={{ fontWeight: "800", color: "#b45309", display: "block", marginBottom: "8px" }}>Part 3: Thảo luận sâu ({currentDay.mock_test_flow.part3.time})</span>
-                    <ul style={{ margin: 0, paddingLeft: "20px", color: "#1e293b", lineHeight: "1.6" }}>
+                    <ul style={{ margin: 0, paddingLeft: "20px", color: "var(--color-text-main)", lineHeight: "1.6" }}>
                       {currentDay.mock_test_flow.part3.questions.map((q, idx) => (
                         <li
                           key={idx}
@@ -902,16 +906,16 @@ function IeltsSpeakingContent() {
 
             {/* Day 30: Self-Assessment Rubric */}
             {currentDay.rubric && (
-              <div style={{ marginBottom: "24px", background: "#f0fdf4", border: "1px solid #86efac", borderRadius: "12px", padding: "20px" }}>
+              <div className="speaking-tint-green" style={{ marginBottom: "24px", background: "#f0fdf4", border: "1px solid #86efac", borderRadius: "12px", padding: "20px" }}>
                 <h3 style={{ fontSize: "1.2rem", color: "#15803d", fontWeight: "800", margin: "0 0 14px 0" }}>
                   📊 Bảng Đánh Giá Năng Lực 6 Tiêu Chí (Band 7.0 - 8.0+ Target):
                 </h3>
                 <div style={{ display: "flex", flexDirection: "column", gap: "12px", marginBottom: "18px" }}>
                   {currentDay.rubric.map((r, rIdx) => (
-                    <div key={rIdx} style={{ background: "#ffffff", padding: "12px 16px", borderRadius: "8px", border: "1px solid #bbf7d0", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "8px" }}>
+                    <div key={rIdx} style={{ background: "var(--color-card-bg)", padding: "12px 16px", borderRadius: "8px", border: "1px solid var(--color-border)", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "8px" }}>
                       <div>
                         <span style={{ fontWeight: "700", color: "#15803d" }}>{r.skill}</span>
-                        <div style={{ fontSize: "0.85rem", color: "#64748b" }}>Mục tiêu: {r.target}</div>
+                        <div style={{ fontSize: "0.85rem", color: "var(--color-text-muted)" }}>Mục tiêu: {r.target}</div>
                       </div>
                       <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
                         {[1, 2, 3, 4, 5].map((val) => (
@@ -922,9 +926,9 @@ function IeltsSpeakingContent() {
                               width: "32px",
                               height: "32px",
                               borderRadius: "6px",
-                              border: "1px solid #cbd5e1",
-                              background: (rubricScores[r.skill] || 4) >= val ? "#16a34a" : "#f1f5f9",
-                              color: (rubricScores[r.skill] || 4) >= val ? "#ffffff" : "#64748b",
+                              border: "1px solid var(--color-border)",
+                              background: (rubricScores[r.skill] || 4) >= val ? "#16a34a" : "var(--color-subtle-bg)",
+                              color: (rubricScores[r.skill] || 4) >= val ? "#ffffff" : "var(--color-text-muted)",
                               fontWeight: "700",
                               cursor: "pointer"
                             }}
@@ -940,9 +944,9 @@ function IeltsSpeakingContent() {
                   ))}
                 </div>
 
-                <div style={{ background: "#ffffff", padding: "14px", borderRadius: "8px", border: "1px solid #bbf7d0" }}>
+                <div style={{ background: "var(--color-card-bg)", padding: "14px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
                   <h4 style={{ margin: "0 0 8px 0", color: "#15803d", fontSize: "1rem", fontWeight: "700" }}>🚀 Kế Hoạch Tiếp Theo (Next Steps):</h4>
-                  <ul style={{ margin: 0, paddingLeft: "20px", color: "#334155", fontSize: "0.95rem", lineHeight: "1.6" }}>
+                  <ul style={{ margin: 0, paddingLeft: "20px", color: "var(--color-text-main)", fontSize: "0.95rem", lineHeight: "1.6" }}>
                     {currentDay.next_steps.map((st, idx) => (
                       <li key={idx}>{st}</li>
                     ))}
@@ -953,16 +957,16 @@ function IeltsSpeakingContent() {
 
             {/* Checkpoint Tasks (Day 7 & 14) */}
             {currentDay.checkpoint_task && (
-              <div style={{ marginBottom: "24px", background: "#fef3c7", border: "1px solid #fde68a", borderRadius: "12px", padding: "20px" }}>
+              <div className="speaking-tint-amber" style={{ marginBottom: "24px", background: "#fef3c7", border: "1px solid #fde68a", borderRadius: "12px", padding: "20px" }}>
                 <h3 style={{ fontSize: "1.1rem", color: "#b45309", fontWeight: "800", margin: "0 0 10px 0" }}>
                   🎯 Nhiệm Vụ Ghi Âm & Tự Đánh Giá:
                 </h3>
                 <p style={{ fontSize: "0.95rem", color: "#78350f", lineHeight: "1.5", margin: "0 0 14px 0" }}>
                   {currentDay.checkpoint_task.instructions}
                 </p>
-                <div style={{ background: "#ffffff", padding: "14px", borderRadius: "8px", border: "1px solid #fde68a", marginBottom: "14px" }}>
+                <div style={{ background: "var(--color-card-bg)", padding: "14px", borderRadius: "8px", border: "1px solid var(--color-border)", marginBottom: "14px" }}>
                   <span style={{ fontWeight: "700", color: "#92400e", display: "block", marginBottom: "8px" }}>Các câu hỏi luyện nói:</span>
-                  <ul style={{ margin: 0, paddingLeft: "20px", color: "#1e293b", lineHeight: "1.6" }}>
+                  <ul style={{ margin: 0, paddingLeft: "20px", color: "var(--color-text-main)", lineHeight: "1.6" }}>
                     {currentDay.checkpoint_task.questions.map((q, idx) => (
                       <li
                         key={idx}
@@ -977,9 +981,9 @@ function IeltsSpeakingContent() {
                     ))}
                   </ul>
                 </div>
-                <div style={{ background: "#ffffff", padding: "14px", borderRadius: "8px", border: "1px solid #fde68a" }}>
+                <div style={{ background: "var(--color-card-bg)", padding: "14px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
                   <span style={{ fontWeight: "700", color: "#92400e", display: "block", marginBottom: "8px" }}>Bảng kiểm tra lỗi (Self-audit Checklist):</span>
-                  <ul style={{ margin: 0, paddingLeft: "20px", color: "#475569", lineHeight: "1.5" }}>
+                  <ul style={{ margin: 0, paddingLeft: "20px", color: "var(--color-text-muted)", lineHeight: "1.5" }}>
                     {currentDay.checkpoint_task.checklist.map((c, idx) => (
                       <li key={idx}>{c}</li>
                     ))}
@@ -989,7 +993,7 @@ function IeltsSpeakingContent() {
             )}
 
             {/* Bottom Nav: Prev Day / Next Day */}
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: "1px solid #e2e8f0", paddingTop: "18px" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: "1px solid var(--color-border)", paddingTop: "18px" }}>
               <button
                 disabled={currentDay.day <= 1}
                 onClick={() => selectDay(currentDay.day - 1)}
@@ -1077,7 +1081,7 @@ function IeltsSpeakingContent() {
                   }}
                 >
                   <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
-                    <span style={{ fontSize: "0.8rem", color: "#059669", fontWeight: "700" }}>
+                    <span className="speaking-chunk-badge" style={{ fontSize: "0.8rem", fontWeight: "700" }}>
                       Ngày {c.day} • {c.dayTitle}
                     </span>
                     <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
@@ -1116,7 +1120,7 @@ function IeltsSpeakingContent() {
                       }}
                       style={{
                         fontSize: "1.15rem",
-                        color: "#0f172a",
+                        color: "var(--color-text-main)",
                         margin: "0 0 6px 0",
                         fontWeight: "700",
                         cursor: "pointer"
@@ -1148,17 +1152,17 @@ function IeltsSpeakingContent() {
                         incrementStudyCount(c.id);
                       }}
                       style={{
-                        background: "#f8fafc",
+                        background: "var(--color-subtle-bg)",
                         padding: "8px 12px",
                         borderRadius: "6px",
-                        border: "1px dashed #cbd5e1",
+                        border: "1px dashed var(--color-border)",
                         fontSize: "0.9rem",
-                        color: "#334155",
+                        color: "var(--color-text-main)",
                         cursor: "pointer"
                       }}
                       title="Bấm để nghe ví dụ"
                     >
-                      <span style={{ fontWeight: "700", color: "#64748b" }}>Ex: </span>
+                      <span style={{ fontWeight: "700", color: "var(--color-text-muted)" }}>Ex: </span>
                       {c.example}
                       {isPlayingEx && <span style={{ marginLeft: "6px", color: "#059669" }}>🔊</span>}
                     </div>
@@ -1189,10 +1193,10 @@ function IeltsSpeakingContent() {
             </h3>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: "12px" }}>
               {rawData.overview.four_criteria.map((cr, idx) => (
-                <div key={idx} style={{ background: "#f8fafc", padding: "14px", borderRadius: "8px", border: "1px solid #e2e8f0" }}>
-                  <div style={{ fontWeight: "800", color: "#0f172a", fontSize: "1rem" }}>{idx + 1}. {cr.name}</div>
+                <div key={idx} style={{ background: "var(--color-card-bg)", padding: "14px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
+                  <div style={{ fontWeight: "800", color: "var(--color-text-main)", fontSize: "1rem" }}>{idx + 1}. {cr.name}</div>
                   <div style={{ fontWeight: "600", color: "#059669", fontSize: "0.85rem", marginBottom: "6px" }}>{cr.vi}</div>
-                  <p style={{ margin: 0, fontSize: "0.85rem", color: "#64748b", lineHeight: "1.45" }}>{cr.desc}</p>
+                  <p style={{ margin: 0, fontSize: "0.85rem", color: "var(--color-text-muted)", lineHeight: "1.45" }}>{cr.desc}</p>
                 </div>
               ))}
             </div>
@@ -1205,14 +1209,14 @@ function IeltsSpeakingContent() {
             </h3>
             <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
               {rawData.toolkits.common_mistakes.map((m, idx) => (
-                <div key={idx} style={{ background: "#ffffff", padding: "12px 16px", borderRadius: "8px", border: "1px solid #fecaca", display: "grid", gridTemplateColumns: "1fr 1fr 1.5fr", gap: "10px", alignItems: "center" }}>
-                  <div style={{ color: "#dc2626", fontWeight: "700", textDecoration: "line-through" }}>
+                <div key={idx} style={{ background: "var(--color-card-bg)", padding: "12px 16px", borderRadius: "8px", border: "1px solid var(--color-border)", display: "grid", gridTemplateColumns: "1fr 1fr 1.5fr", gap: "10px", alignItems: "center" }}>
+                  <div style={{ color: "#ef4444", fontWeight: "700", textDecoration: "line-through" }}>
                     ❌ {m.wrong}
                   </div>
-                  <div style={{ color: "#16a34a", fontWeight: "700" }}>
+                  <div style={{ color: "#10b981", fontWeight: "700" }}>
                     ✅ {m.correct}
                   </div>
-                  <div style={{ color: "#64748b", fontSize: "0.85rem" }}>
+                  <div style={{ color: "var(--color-text-muted)", fontSize: "0.85rem" }}>
                     👉 {m.reason}
                   </div>
                 </div>
@@ -1233,14 +1237,15 @@ function IeltsSpeakingContent() {
                     playSpeech(f.en, `filler_${idx}`);
                     incrementStudyCount(`filler_${idx}`);
                   }}
+                  className="speaking-tint-blue"
                   style={{ background: "#f0f9ff", padding: "12px 14px", borderRadius: "8px", border: "1px solid #bae6fd", cursor: "pointer", display: "flex", flexDirection: "column", justifyContent: "space-between" }}
                   title="Bấm để nghe phát âm"
                 >
                   <div>
-                    <div style={{ fontWeight: "700", color: "#0369a1", fontSize: "1rem", marginBottom: "4px" }}>
+                    <div style={{ fontWeight: "700", color: "#0284c7", fontSize: "1rem", marginBottom: "4px" }}>
                       🗣️ {f.en}
                     </div>
-                    <div style={{ fontSize: "0.85rem", color: "#64748b" }}>
+                    <div style={{ fontSize: "0.85rem", color: "var(--color-text-muted)" }}>
                       👉 {f.vi}
                     </div>
                   </div>
@@ -1266,19 +1271,19 @@ function IeltsSpeakingContent() {
 
           {/* 5 Essential Sentence Patterns */}
           <div className="sentence-card" style={{ borderLeft: "5px solid #8b5cf6", padding: "24px" }}>
-            <h3 style={{ fontSize: "1.2rem", color: "#7c3aed", fontWeight: "800", textTransform: "uppercase", margin: "0 0 14px 0" }}>
+            <h3 style={{ fontSize: "1.2rem", color: "#8b5cf6", fontWeight: "800", textTransform: "uppercase", margin: "0 0 14px 0" }}>
               📐 5 Cấu Trúc Câu Thiết Yếu Trong Khẩu Ngữ:
             </h3>
             <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: "10px" }}>
               {rawData.toolkits.grammar_patterns.map((gp, idx) => (
-                <div key={idx} style={{ background: "#faf5ff", padding: "12px 14px", borderRadius: "8px", border: "1px solid #ddd6fe" }}>
-                  <div style={{ fontWeight: "800", color: "#6d28d9", fontSize: "0.95rem", marginBottom: "4px" }}>
+                <div key={idx} className="speaking-tint-purple" style={{ background: "#faf5ff", padding: "12px 14px", borderRadius: "8px", border: "1px solid #ddd6fe" }}>
+                  <div style={{ fontWeight: "800", color: "#8b5cf6", fontSize: "0.95rem", marginBottom: "4px" }}>
                     Mẫu {idx + 1}: {gp.pattern}
                   </div>
-                  <div style={{ fontSize: "0.9rem", color: "#1e293b", fontWeight: "600" }}>
+                  <div style={{ fontSize: "0.9rem", color: "var(--color-text-main)", fontWeight: "600" }}>
                     "{gp.example}"
                   </div>
-                  <div style={{ fontSize: "0.85rem", color: "#6b7280" }}>
+                  <div style={{ fontSize: "0.85rem", color: "var(--color-text-muted)" }}>
                     👉 {gp.vi}
                   </div>
                 </div>

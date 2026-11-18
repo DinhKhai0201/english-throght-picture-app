@@ -144,7 +144,7 @@ export default function Home() {
         {/* Section 0: Listen & Find Drill (Alphabet & Numbers) */}
         <Link href="/listen-drill" className="home-section-card card-drill" style={{ borderLeftColor: "#0e7490" }}>
           <div>
-            <span className="home-section-badge badge-drill" style={{ background: "#e0f2fe", color: "#0369a1" }}>
+            <span className="home-section-badge badge-drill">
               🎧 Phản Xạ Nghe • Alphabet & Numbers
             </span>
             <h2 className="home-section-title">Listen & Find (Luyện Nghe Phản Xạ)</h2>
@@ -160,7 +160,7 @@ export default function Home() {
                 {listenDrillFound} lần (First Try: {listenDrillFirstTry})
               </span>
             </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "#e2e8f0" }}>
+            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
               <div
                 className="progress-bar"
                 style={{ width: `${Math.min(100, Math.round((listenDrillFound / 50) * 100))}%`, backgroundColor: "#0e7490" }}
@@ -175,7 +175,7 @@ export default function Home() {
         {/* Section IELTS Listening Part 1 & 2 Trainer */}
         <Link href="/ielts-listening" className="home-section-card card-ielts-listening" style={{ borderLeftColor: "#0d9488" }}>
           <div>
-            <span className="home-section-badge badge-ielts-listening" style={{ background: "#ccfbf1", color: "#0f766e" }}>
+            <span className="home-section-badge badge-ielts-listening">
               🎯 Luyện Part 1 & 2 • Names, Traps & Numbers
             </span>
             <h2 className="home-section-title">IELTS Listening Part 1 & 2 Trainer</h2>
@@ -191,7 +191,7 @@ export default function Home() {
                 {ieltsListeningCount}/210 mục ({Math.round((ieltsListeningCount / 210) * 100)}%)
               </span>
             </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "#e2e8f0" }}>
+            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
               <div
                 className="progress-bar"
                 style={{ width: `${Math.round((ieltsListeningCount / 210) * 100)}%`, backgroundColor: "#0d9488" }}
@@ -222,7 +222,7 @@ export default function Home() {
                 {en300Count}/{totalEn300} ({en300Percent}%)
               </span>
             </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "#e2e8f0" }}>
+            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
               <div
                 className="progress-bar"
                 style={{ width: `${en300Percent}%`, backgroundColor: "#4f46e5" }}
@@ -253,7 +253,7 @@ export default function Home() {
                 {chunksCount}/{totalChunks} ({chunksPercent}%)
               </span>
             </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "#e2e8f0" }}>
+            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
               <div
                 className="progress-bar"
                 style={{ width: `${chunksPercent}%`, backgroundColor: "#059669" }}
@@ -284,7 +284,7 @@ export default function Home() {
                 {ieltsCount}/{totalIelts} ({ieltsPercent}%)
               </span>
             </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "#e2e8f0" }}>
+            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
               <div
                 className="progress-bar"
                 style={{ width: `${ieltsPercent}%`, backgroundColor: "#f59e0b" }}
@@ -315,7 +315,7 @@ export default function Home() {
                 {interviewCount}/{totalInterview} ({interviewPercent}%)
               </span>
             </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "#e2e8f0" }}>
+            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
               <div
                 className="progress-bar"
                 style={{ width: `${interviewPercent}%`, backgroundColor: "#0284c7" }}
@@ -346,7 +346,7 @@ export default function Home() {
                 {speakingDaysCount}/{totalSpeakingDays} ngày ({speakingPercent}%)
               </span>
             </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "#e2e8f0" }}>
+            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
               <div
                 className="progress-bar"
                 style={{ width: `${speakingPercent}%`, backgroundColor: "#059669" }}
@@ -377,7 +377,7 @@ export default function Home() {
                 {zhCount}/{totalZh} ({zhPercent}%)
               </span>
             </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "#e2e8f0" }}>
+            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
               <div
                 className="progress-bar"
                 style={{ width: `${zhPercent}%`, backgroundColor: "#e11d48" }}
@@ -408,7 +408,7 @@ export default function Home() {
                 {jaCount}/{totalJa} ({jaPercent}%)
               </span>
             </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "#e2e8f0" }}>
+            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
               <div
                 className="progress-bar"
                 style={{ width: `${jaPercent}%`, backgroundColor: "#8b5cf6" }}

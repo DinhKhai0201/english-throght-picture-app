@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import ThemeToggle from "./ThemeToggle";
 
 const SECTIONS = [
   { href: "/", label: "🏠 Trang chủ", activeClass: "active" },
@@ -18,20 +19,23 @@ export default function SectionNav() {
   const pathname = usePathname();
 
   return (
-    <nav className="section-nav-bar">
-      {SECTIONS.map((sec) => {
-        const isActive = pathname === sec.href;
-        return (
-          <Link
-            key={sec.href}
-            href={sec.href}
-            className={`section-nav-link ${isActive ? sec.activeClass : ""}`}
-          >
-            {sec.label}
-          </Link>
-        );
-      })}
-    </nav>
+    <div className="section-nav-wrapper">
+      <nav className="section-nav-bar">
+        {SECTIONS.map((sec) => {
+          const isActive = pathname === sec.href;
+          return (
+            <Link
+              key={sec.href}
+              href={sec.href}
+              className={`section-nav-link ${isActive ? sec.activeClass : ""}`}
+            >
+              {sec.label}
+            </Link>
+          );
+        })}
+      </nav>
+      <ThemeToggle />
+    </div>
   );
 }
 

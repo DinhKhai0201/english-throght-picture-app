@@ -24,7 +24,7 @@ const NUMBER_PRESETS = {
 
 // Web Audio API Sound Effects generator (Instant, no network lag)
 function playAudioFeedback(type) {
-  if (typeof window === "undefined") return;
+  if (typeof window === "undefined" || window.__ETP_AUDIO_MUTED__) return;
   try {
     const AudioContext = window.AudioContext || window.webkitAudioContext;
     if (!AudioContext) return;

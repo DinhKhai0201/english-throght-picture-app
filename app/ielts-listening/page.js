@@ -6,7 +6,7 @@ import rawData from "../../ielts_listening_drills.json";
 
 // Web Audio API Sound generator
 function playAudioFeedback(type) {
-  if (typeof window === "undefined") return;
+  if (typeof window === "undefined" || window.__ETP_AUDIO_MUTED__) return;
   try {
     const AudioContext = window.AudioContext || window.webkitAudioContext;
     if (!AudioContext) return;
@@ -511,7 +511,7 @@ export default function IeltsListeningPage() {
                   style={{ borderLeftColor: "#0e7490" }}
                 >
                   <div className="card-top">
-                    <span className="card-index" style={{ color: "#0e7490", backgroundColor: "#e0f2fe" }}>
+                    <span className="card-index" style={{ color: "#0e7490", backgroundColor: "rgba(14, 116, 144, 0.15)" }}>
                       #{idx + 1}
                     </span>
                     {item.type && (
@@ -524,7 +524,7 @@ export default function IeltsListeningPage() {
                   <div className="card-body">
                     <div className="english-wrapper">
                       <div>
-                        <h2 className="english-text" style={{ fontSize: "1.45rem", color: "#0f172a" }}>
+                        <h2 className="english-text" style={{ fontSize: "1.45rem", color: "var(--color-text-main)" }}>
                           {item.display || item.target}
                         </h2>
                       </div>
@@ -538,12 +538,12 @@ export default function IeltsListeningPage() {
                       </button>
                     </div>
 
-                    <p className="vietnamese-text" style={{ fontSize: "1rem", color: "#475569", fontWeight: "600", marginTop: "4px" }}>
+                    <p className="vietnamese-text" style={{ fontSize: "1rem", color: "var(--color-text-muted)", fontWeight: "600", marginTop: "4px" }}>
                       {item.meaning_vi}
                     </p>
 
                     {item.trap_note && (
-                      <div className="reply-box" style={{ borderLeftColor: "#f59e0b", backgroundColor: "#fffbeb", marginTop: "8px" }}>
+                      <div className="reply-box reply-box-trap" style={{ borderLeftColor: "#f59e0b", marginTop: "8px" }}>
                         <span className="reply-label" style={{ color: "#b45309" }}>⚠️ Bẫy IELTS:</span>
                         <span className="reply-text" style={{ color: "#92400e" }}>
                           {item.trap_note}
