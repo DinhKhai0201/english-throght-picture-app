@@ -14,11 +14,15 @@ import {
   MicIcon,
   LanguagesIcon,
   LightbulbIcon,
+  AwardIcon,
 } from "./components/Icons";
 import en300Data from "../300_cau_tieng_anh_giao_tiep.json";
 import chunksData from "../english_chunks_1000.json";
+import grammarData from "../english_grammar_ielts8.json";
 import zhData from "../chinese_communication_chunks_v3_500plus.json";
 import jaData from "../japanese_communication_chunks.json";
+import { ZH_EXTRA_CHUNKS } from "./lib/chineseCommModules";
+import { JA_EXTRA_CHUNKS } from "./lib/japaneseCommModules";
 import ieltsData from "../ielts_vocabulary.json";
 import interviewData from "../interview_500_qa.json";
 import speakingData from "../ielts_speaking_30_days.json";
@@ -26,6 +30,7 @@ import speakingData from "../ielts_speaking_30_days.json";
 export default function Home() {
   const [en300Count, setEn300Count] = useState(0);
   const [chunksCount, setChunksCount] = useState(0);
+  const [grammarCount, setGrammarCount] = useState(0);
   const [zhCount, setZhCount] = useState(0);
   const [jaCount, setJaCount] = useState(0);
   const [ieltsCount, setIeltsCount] = useState(0);
@@ -56,6 +61,10 @@ export default function Home() {
         if (chunksStored) setChunksCount(JSON.parse(chunksStored).length);
       } catch (e) {}
       try {
+        const grammarStored = localStorage.getItem("english_grammar_progress");
+        if (grammarStored) setGrammarCount(JSON.parse(grammarStored).length);
+      } catch (e) {}
+      try {
         const zhStored = localStorage.getItem("chinese_500_progress");
         if (zhStored) setZhCount(JSON.parse(zhStored).length);
       } catch (e) {}
@@ -80,14 +89,16 @@ export default function Home() {
 
   const totalEn300 = en300Data.sentences?.length || 300;
   const totalChunks = chunksData.chunks?.length || 1000;
-  const totalZh = zhData.chunks?.length || 500;
-  const totalJa = jaData.chunks?.length || 300;
+  const totalGrammar = grammarData.items?.length || 45;
+  const totalZh = (zhData.chunks?.length || 500) + ZH_EXTRA_CHUNKS.length;
+  const totalJa = (jaData.chunks?.length || 300) + JA_EXTRA_CHUNKS.length;
   const totalIelts = Array.isArray(ieltsData) ? ieltsData.length : 3517;
   const totalInterview = interviewData.total_questions || 155;
   const totalSpeakingDays = speakingData.days?.length || 30;
 
   const en300Percent = Math.round((en300Count / totalEn300) * 100);
   const chunksPercent = Math.round((chunksCount / totalChunks) * 100);
+  const grammarPercent = Math.round((grammarCount / totalGrammar) * 100);
   const zhPercent = Math.round((zhCount / totalZh) * 100);
   const jaPercent = Math.round((jaCount / totalJa) * 100);
   const ieltsPercent = Math.round((ieltsCount / totalIelts) * 100);
@@ -96,8 +107,10 @@ export default function Home() {
   const ieltsListeningPercent = Math.round((ieltsListeningCount / 210) * 100);
   const drillPercent = Math.min(100, Math.round((listenDrillFound / 50) * 100));
 
-  const totalLearned = en300Count + chunksCount + zhCount + jaCount + ieltsCount + interviewCount + speakingDaysCount;
-  const totalAll = totalEn300 + totalChunks + totalZh + totalJa + totalIelts + totalInterview + totalSpeakingDays;
+  const totalLearned =
+    en300Count + chunksCount + grammarCount + zhCount + jaCount + ieltsCount + interviewCount + speakingDaysCount;
+  const totalAll =
+    totalEn300 + totalChunks + totalGrammar + totalZh + totalJa + totalIelts + totalInterview + totalSpeakingDays;
   const totalOverallPercent = Math.round((totalLearned / totalAll) * 100);
 
   const tracks = [
@@ -108,9 +121,9 @@ export default function Home() {
         {
           href: "/listen-drill",
           code: "DRILL",
-          badge: "Phản xạ nghe • Alphabet & Numbers",
-          title: "Listen & Find",
-          desc: "Nghe âm thanh và chọn nhanh chữ cái (a–z, A–Z) hoặc số đếm, hỗ trợ gõ phím trực tiếp.",
+          badge: "IELTS Part 1 • 7 Dạng Phản Xạ",
+          title: "Listen & Find (Task 1 Studio)",
+          desc: "Luyện đủ mọi dạng Listening Part 1: Alphabet, Số lên tới hàng triệu, Số điện thoại, Date & Time, Tên riêng, Địa chỉ & Word.",
           statLabel: "Đã tìm đúng",
           statValue: `${listenDrillFound} lần (First try: ${listenDrillFirstTry})`,
           percent: drillPercent,
@@ -160,6 +173,18 @@ export default function Home() {
           Icon: BookOpenIcon,
         },
         {
+          href: "/grammar",
+          code: "EN",
+          badge: "Grammar • Cơ bản đến IELTS 8.0+",
+          title: "English Grammar Mastery",
+          desc: "45 chủ điểm ngữ pháp theo 10 dạng bài từ A1 đến Band 8.0+, kèm ví dụ nghe phát âm và đếm lượt đọc.",
+          statLabel: "Tiến độ",
+          statValue: `${grammarCount}/${totalGrammar} chủ điểm (${grammarPercent}%)`,
+          percent: grammarPercent,
+          cta: "Học ngữ pháp",
+          Icon: AwardIcon,
+        },
+        {
           href: "/interview-qa",
           code: "DEV",
           badge: "Phỏng vấn • Web Developer Q&A",
@@ -204,9 +229,9 @@ export default function Home() {
         {
           href: "/chinese",
           code: "ZH",
-          badge: "Tiếng Trung • Hán Tự & Pinyin",
-          title: "500 Chunks Tiếng Trung",
-          desc: "500 mẫu chunks và hội thoại tiếng Trung thông dụng kèm Pinyin thanh điệu và giải nghĩa.",
+          badge: "Tiếng Trung • HSK 1 → HSK 6",
+          title: "600 Chunks & Hội Thoại Trung",
+          desc: "600 chunks thực chiến, 15 kịch bản hội thoại, 12 mẫu câu ghép và phát âm 4 thanh điệu.",
           statLabel: "Tiến độ",
           statValue: `${zhCount}/${totalZh} (${zhPercent}%)`,
           percent: zhPercent,
@@ -216,9 +241,9 @@ export default function Home() {
         {
           href: "/japanese",
           code: "JA",
-          badge: "Tiếng Nhật • Kana & Romaji",
-          title: "300 Chunks Tiếng Nhật",
-          desc: "301 cụm giao tiếp tiếng Nhật theo 31 chủ đề kèm Kana, Romaji và sắc thái lịch sự.",
+          badge: "Tiếng Nhật • N5 → N2 (Đủ 3 sắc thái)",
+          title: "400+ Chunks & Hội Thoại Nhật",
+          desc: "401 chunks (Bạn bè, Lịch sự, Kính ngữ), 15 bài hội thoại, 12 mẫu câu và phát âm nền tảng.",
           statLabel: "Tiến độ",
           statValue: `${jaCount}/${totalJa} (${jaPercent}%)`,
           percent: jaPercent,

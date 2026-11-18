@@ -13,6 +13,7 @@ import {
   BriefcaseIcon,
   MicIcon,
   LanguagesIcon,
+  AwardIcon,
 } from "./Icons";
 
 const SECTIONS = [
@@ -21,11 +22,12 @@ const SECTIONS = [
   { href: "/ielts-listening", label: "IELTS Listening", Icon: TargetIcon },
   { href: "/english-300", label: "300 Giao Tiếp", Icon: MessageSquareIcon },
   { href: "/chunks", label: "1000 Chunks EN", Icon: LayersIcon },
+  { href: "/grammar", label: "Grammar → 8.0", Icon: AwardIcon },
   { href: "/ielts-words", label: "IELTS Words", Icon: BookOpenIcon },
   { href: "/interview-qa", label: "500 Q&A Dev", Icon: BriefcaseIcon },
   { href: "/ielts-speaking", label: "Speaking 30D", Icon: MicIcon },
-  { href: "/chinese", label: "500 Chunks ZH", Icon: LanguagesIcon },
-  { href: "/japanese", label: "300 Chunks JA", Icon: LanguagesIcon },
+  { href: "/chinese", label: "600 Chunks ZH", Icon: LanguagesIcon },
+  { href: "/japanese", label: "400 Chunks JA", Icon: LanguagesIcon },
 ];
 
 export default function SectionNav() {

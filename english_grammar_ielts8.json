@@ -1,0 +1,1099 @@
+{
+  "title": "English Grammar Mastery: Basic to IELTS 8.0+",
+  "description_vi": "Hệ thống ngữ pháp tiếng Anh toàn diện từ nền tảng (A1-A2) đến IELTS 7.0-8.0+ theo từng dạng bài, kèm công thức, ví dụ phát âm và lỗi sai thường gặp.",
+  "categories": [
+    { "id": "tenses", "name": "Thì & Hòa Hợp Thì (Tenses)" },
+    { "id": "modals", "name": "Động Từ Khuyết Thiếu (Modals)" },
+    { "id": "conditionals", "name": "Câu Điều Kiện & Câu Ước" },
+    { "id": "passive", "name": "Câu Bị Động & Nhờ Vả" },
+    { "id": "relatives", "name": "Mệnh Đề Quan Hệ & Rút Gọn" },
+    { "id": "verb_forms", "name": "V-ing, To-V & Thức Giả Định" },
+    { "id": "comparison_emphasis", "name": "So Sánh & Câu Chẻ Nhấn Mạnh" },
+    { "id": "reported_questions", "name": "Câu Gián Tiếp & Câu Hỏi Gián Tiếp" },
+    { "id": "nouns_articles", "name": "Mạo Từ, Lượng Từ & Hòa Hợp S-V" },
+    { "id": "cohesion_inversion", "name": "Nhượng Bộ, Đảo Ngữ & Academic Hedging" }
+  ],
+  "items": [
+    {
+      "id": "gr_001",
+      "category": "tenses",
+      "level": "basic",
+      "band": "Band 4.0-5.0",
+      "title": "Present Simple (Hiện tại đơn)",
+      "formula": "S + V(s/es) | S + am/is/are + N/Adj",
+      "explanation_vi": "Diễn tả thói quen, lịch trình cố định, sự thật hiển nhiên hoặc trạng thái ổn định ở hiện tại.",
+      "ielts_tip_vi": "Dùng nhiều trong IELTS Speaking Part 1 khi nói về thói quen và IELTS Writing Task 1 với biểu đồ không có năm.",
+      "common_mistake": {
+        "wrong": "She work in a hospital and she don't like traffic.",
+        "correct": "She works in a hospital and she doesn't like traffic."
+      },
+      "examples": [
+        {
+          "en": "I usually commute to work by train because it saves time.",
+          "vi": "Tôi thường đi làm bằng tàu vì nó tiết kiệm thời gian."
+        },
+        {
+          "en": "Public transport plays a vital role in reducing urban congestion.",
+          "vi": "Giao thông công cộng đóng vai trò thiết yếu trong việc giảm ùn tắc đô thị."
+        }
+      ]
+    },
+    {
+      "id": "gr_002",
+      "category": "tenses",
+      "level": "basic",
+      "band": "Band 4.5-5.5",
+      "title": "Present Continuous (Hiện tại tiếp diễn)",
+      "formula": "S + am/is/are + V-ing",
+      "explanation_vi": "Diễn tả hành động đang diễn ra lúc nói, xu hướng tạm thời hiện nay hoặc kế hoạch đã sắp xếp chắc chắn.",
+      "ielts_tip_vi": "Tránh dùng V-ing với động từ trạng thái (know, believe, own, belong, prefer).",
+      "common_mistake": {
+        "wrong": "I am knowing the answer right now.",
+        "correct": "I know the answer right now."
+      },
+      "examples": [
+        {
+          "en": "More young professionals are working remotely this year.",
+          "vi": "Năm nay ngày càng nhiều người đi làm trẻ làm việc từ xa."
+        },
+        {
+          "en": "We are meeting the client at three o'clock tomorrow.",
+          "vi": "Chúng tôi sẽ gặp khách hàng lúc 3 giờ chiều mai."
+        }
+      ]
+    },
+    {
+      "id": "gr_003",
+      "category": "tenses",
+      "level": "basic",
+      "band": "Band 4.5-5.5",
+      "title": "Past Simple (Quá khứ đơn)",
+      "formula": "S + V2/V-ed | S + did not + V0",
+      "explanation_vi": "Diễn tả sự việc đã xảy ra và chấm dứt hoàn toàn tại một mốc thời gian xác định trong quá khứ.",
+      "ielts_tip_vi": "Thì bắt buộc cho IELTS Speaking Part 2 kể chuyện kỷ niệm và Writing Task 1 có mốc năm trong quá khứ.",
+      "common_mistake": {
+        "wrong": "Did you went to the workshop yesterday?",
+        "correct": "Did you go to the workshop yesterday?"
+      },
+      "examples": [
+        {
+          "en": "Last summer, I attended an intensive coding bootcamp in Da Nang.",
+          "vi": "Mùa hè năm ngoái, tôi đã tham gia một khóa học lập trình chuyên sâu ở Đà Nẵng."
+        },
+        {
+          "en": "Between 2010 and 2015, solar energy output rose sharply.",
+          "vi": "Từ năm 2010 đến 2015, sản lượng điện mặt trời đã tăng mạnh."
+        }
+      ]
+    },
+    {
+      "id": "gr_004",
+      "category": "tenses",
+      "level": "basic",
+      "band": "Band 5.0-6.0",
+      "title": "Past Continuous vs Past Simple (Đang xảy ra thì có việc xen vào)",
+      "formula": "While S + was/were + V-ing, S + V2/V-ed",
+      "explanation_vi": "Dùng quá khứ tiếp diễn cho bối cảnh đang diễn ra, và quá khứ đơn cho hành động ngắn xen ngang.",
+      "ielts_tip_vi": "Rất tự nhiên khi mở đầu câu chuyện ở IELTS Speaking Part 2 để tạo bối cảnh sinh động.",
+      "common_mistake": {
+        "wrong": "I walked home when it suddenly was raining.",
+        "correct": "I was walking home when it suddenly started to rain."
+      },
+      "examples": [
+        {
+          "en": "I was preparing dinner when my friend unexpectedly dropped by.",
+          "vi": "Tôi đang chuẩn bị bữa tối thì bạn tôi bất ngờ ghé qua."
+        },
+        {
+          "en": "While other students were memorizing rules, she was practicing real conversations.",
+          "vi": "Trong khi các bạn khác học vẹt quy tắc, cô ấy lại luyện hội thoại thực tế."
+        }
+      ]
+    },
+    {
+      "id": "gr_005",
+      "category": "tenses",
+      "level": "intermediate",
+      "band": "Band 5.5-6.5",
+      "title": "Present Perfect (Hiện tại hoàn thành)",
+      "formula": "S + have/has + V3/V-ed",
+      "explanation_vi": "Nối quá khứ với hiện tại: trải nghiệm chưa rõ thời điểm, việc bắt đầu từ quá khứ kéo dài đến nay, hoặc tác động còn ở hiện tại.",
+      "ielts_tip_vi": "Trong Speaking Part 1/3, dùng 'Over the past decade, ... has transformed...' giúp câu trả lời nghe học thuật và tự nhiên.",
+      "common_mistake": {
+        "wrong": "I have graduated from university in 2022.",
+        "correct": "I graduated from university in 2022."
+      },
+      "examples": [
+        {
+          "en": "I have lived in this neighborhood for nearly five years.",
+          "vi": "Tôi đã sống ở khu phố này được gần năm năm rồi."
+        },
+        {
+          "en": "Digital payments have significantly changed how people shop daily.",
+          "vi": "Thanh toán số đã thay đổi đáng kể cách mọi người mua sắm hàng ngày."
+        }
+      ]
+    },
+    {
+      "id": "gr_006",
+      "category": "tenses",
+      "level": "intermediate",
+      "band": "Band 6.0-7.0",
+      "title": "Present Perfect Continuous (Hiện tại hoàn thành tiếp diễn)",
+      "formula": "S + have/has + been + V-ing",
+      "explanation_vi": "Nhấn mạnh tính liên tục và độ dài của hành động kéo dài từ quá khứ đến hiện tại (hoặc vừa dừng lại nhưng còn dấu vết).",
+      "ielts_tip_vi": "Dùng rất hay khi trả lời câu hỏi 'How long have you been learning/working...?' trong Speaking Part 1.",
+      "common_mistake": {
+        "wrong": "I am learning English since three years.",
+        "correct": "I have been learning English for three years."
+      },
+      "examples": [
+        {
+          "en": "I have been practicing IELTS speaking for thirty minutes every morning.",
+          "vi": "Tôi đã luyện nói IELTS suốt 30 phút mỗi sáng."
+        },
+        {
+          "en": "Governments have been investing heavily in renewable infrastructure.",
+          "vi": "Các chính phủ vẫn đang đầu tư mạnh vào hạ tầng năng lượng tái tạo."
+        }
+      ]
+    },
+    {
+      "id": "gr_007",
+      "category": "tenses",
+      "level": "intermediate",
+      "band": "Band 6.0-7.0",
+      "title": "Past Perfect (Quá khứ hoàn thành)",
+      "formula": "S + had + V3/V-ed (before / by the time + S + V2)",
+      "explanation_vi": "Diễn tả hành động xảy ra trước một hành động hoặc mốc thời gian khác trong quá khứ.",
+      "ielts_tip_vi": "Cực kỳ hữu ích trong Writing Task 1 quá khứ ('By 2010, the figure had doubled') và kể chuyện Part 2.",
+      "common_mistake": {
+        "wrong": "When I arrived at the station, the train already left.",
+        "correct": "When I arrived at the station, the train had already left."
+      },
+      "examples": [
+        {
+          "en": "By the time we reached the theater, the film had already started.",
+          "vi": "Lúc chúng tôi tới rạp thì bộ phim đã bắt đầu rồi."
+        },
+        {
+          "en": "By 2020, smartphone ownership had surpassed ninety percent.",
+          "vi": "Tính đến năm 2020, tỷ lệ sở hữu điện thoại thông minh đã vượt mốc 90%."
+        }
+      ]
+    },
+    {
+      "id": "gr_008",
+      "category": "tenses",
+      "level": "advanced",
+      "band": "Band 7.0-8.0+",
+      "title": "Future Perfect & Future Continuous (Tương lai hoàn thành & Tiếp diễn)",
+      "formula": "S + will have + V3 | S + will be + V-ing",
+      "explanation_vi": "Future Perfect diễn tả việc hoàn tất trước một mốc tương lai (Writing Task 1 dự báo); Future Continuous diễn tả việc đang diễn ra tại thời điểm tương lai.",
+      "ielts_tip_vi": "Dùng 'By 2035, emissions will have declined...' để ăn điểm ngữ pháp Band 7.5+ ở biểu đồ dự báo tương lai.",
+      "common_mistake": {
+        "wrong": "By next year, I will finish my degree.",
+        "correct": "By next year, I will have finished my degree."
+      },
+      "examples": [
+        {
+          "en": "By 2030, electric vehicles will have replaced a large share of petrol cars.",
+          "vi": "Đến năm 2030, xe điện sẽ thay thế một phần lớn xe chạy xăng."
+        },
+        {
+          "en": "This time next month, I will be presenting my project to the panel.",
+          "vi": "Vào giờ này tháng tới, tôi sẽ đang thuyết trình dự án trước hội đồng."
+        }
+      ]
+    },
+    {
+      "id": "gr_009",
+      "category": "modals",
+      "level": "basic",
+      "band": "Band 4.5-5.5",
+      "title": "Can / Could / Be able to (Khả năng & Yêu cầu lịch sự)",
+      "formula": "S + can/could + V0 | S + am/is/are/will be + able to + V0",
+      "explanation_vi": "'Can' dùng cho hiện tại; 'could' dùng cho khả năng chung quá khứ hoặc lời nhờ lịch sự; 'be able to' dùng được ở mọi thì (tương lai, hoàn thành).",
+      "ielts_tip_vi": "Tránh viết 'will can' — luôn dùng 'will be able to'. Với một lần xoay xở thành công trong quá khứ, dùng 'managed to / was able to' thay cho 'could'.",
+      "common_mistake": {
+        "wrong": "Next year I will can speak English more fluently.",
+        "correct": "Next year I will be able to speak English more fluently."
+      },
+      "examples": [
+        {
+          "en": "Could you speak a little more slowly, please?",
+          "vi": "Bạn có thể nói chậm hơn một chút được không?"
+        },
+        {
+          "en": "Despite the heavy traffic, we were able to arrive on schedule.",
+          "vi": "Dù giao thông đông đúc, chúng tôi vẫn kịp đến đúng giờ."
+        }
+      ]
+    },
+    {
+      "id": "gr_010",
+      "category": "modals",
+      "level": "basic",
+      "band": "Band 5.0-6.0",
+      "title": "Must vs Have to & Mustn't vs Don't have to",
+      "formula": "S + must / have to + V0 | mustn't (cấm) vs don't have to (không cần)",
+      "explanation_vi": "'Mustn't' nghĩa là cấm đoán (prohibition), còn 'don't have to' nghĩa là không bắt buộc (no obligation).",
+      "ielts_tip_vi": "Đây là cặp nghĩa hay bị nhầm nhất ở cả Speaking và Listening Part 1-2.",
+      "common_mistake": {
+        "wrong": "Tomorrow is Sunday, so I mustn't go to the office.",
+        "correct": "Tomorrow is Sunday, so I don't have to go to the office."
+      },
+      "examples": [
+        {
+          "en": "Passengers mustn't leave their luggage unattended in the terminal.",
+          "vi": "Hành khách không được phép để hành lý không có người trông coi trong nhà ga."
+        },
+        {
+          "en": "You don't have to print the ticket; a digital copy is sufficient.",
+          "vi": "Bạn không cần in vé đâu; bản điện tử là đủ rồi."
+        }
+      ]
+    },
+    {
+      "id": "gr_011",
+      "category": "modals",
+      "level": "intermediate",
+      "band": "Band 6.0-7.0",
+      "title": "Should / Ought to / Had better (Lời khuyên & Khuyến nghị)",
+      "formula": "S + should / ought to / had better + V0",
+      "explanation_vi": "'Should' đưa ra lời khuyên chung; 'had better (not) + V0' mang sắc thái cảnh báo nếu không làm sẽ có hậu quả.",
+      "ielts_tip_vi": "Trong Writing Task 2 đoạn giải pháp, thay vì lặp 'should', hãy đa dạng bằng 'ought to' hoặc 'need to'.",
+      "common_mistake": {
+        "wrong": "You had better to leave early to avoid the rush hour.",
+        "correct": "You had better leave early to avoid the rush hour."
+      },
+      "examples": [
+        {
+          "en": "Local authorities ought to allocate more funding to mental health services.",
+          "vi": "Chính quyền địa phương nên phân bổ thêm ngân sách cho dịch vụ sức khỏe tâm thần."
+        },
+        {
+          "en": "We had better back up the database before running the migration.",
+          "vi": "Chúng ta nên sao lưu cơ sở dữ liệu ngay trước khi chạy di trú."
+        }
+      ]
+    },
+    {
+      "id": "gr_012",
+      "category": "modals",
+      "level": "advanced",
+      "band": "Band 7.0-8.0+",
+      "title": "Past Modals of Deduction & Regret (Suy đoán & Tiếc nuối quá khứ)",
+      "formula": "must have V3 (chắc hẳn đã) | might have V3 (có lẽ đã) | should have V3 (lẽ ra nên) | couldn't have V3",
+      "explanation_vi": "Dùng 'modal + have + V3' để suy luận chắc chắn hay phỏng đoán về quá khứ, hoặc phê bình/tiếc nuối việc đã không xảy ra.",
+      "ielts_tip_vi": "Rất ấn tượng khi phân tích nguyên nhân trong Speaking Part 3 hoặc phản ánh bài học trong Part 2.",
+      "common_mistake": {
+        "wrong": "I should prepare earlier for the interview yesterday.",
+        "correct": "I should have prepared earlier for the interview yesterday."
+      },
+      "examples": [
+        {
+          "en": "The streets are completely flooded; it must have rained heavily overnight.",
+          "vi": "Đường phố ngập hết rồi; đêm qua chắc hẳn trời đã mưa rất to."
+        },
+        {
+          "en": "City planners should have expanded the metro network decades ago.",
+          "vi": "Các nhà quy hoạch đáng lẽ nên mở rộng mạng lưới tàu điện ngầm từ nhiều thập kỷ trước."
+        }
+      ]
+    },
+    {
+      "id": "gr_013",
+      "category": "conditionals",
+      "level": "basic",
+      "band": "Band 4.5-5.5",
+      "title": "Zero & First Conditional (Sự thật & Khả năng có thật)",
+      "formula": "Zero: If + Present, Present | First: If + Present, will/can/may + V0",
+      "explanation_vi": "Câu điều kiện loại 0 nói về quy luật/thói quen hiển nhiên; loại 1 nói về kết quả có thể xảy ra ở hiện tại/tương lai.",
+      "ielts_tip_vi": "Không dùng 'will' trong mệnh đề 'If'. Có thể nâng cấp bằng 'unless' (= if... not) hoặc 'provided that'.",
+      "common_mistake": {
+        "wrong": "If it will rain tomorrow, we will stay indoors.",
+        "correct": "If it rains tomorrow, we will stay indoors."
+      },
+      "examples": [
+        {
+          "en": "If children read daily, their vocabulary expands naturally.",
+          "vi": "Nếu trẻ em đọc sách mỗi ngày, vốn từ vựng của chúng mở rộng một cách tự nhiên."
+        },
+        {
+          "en": "Unless governments enforce stricter regulations, air quality will worsen.",
+          "vi": "Trừ khi chính phủ áp dụng quy định chặt chẽ hơn, chất lượng không khí sẽ tệ đi."
+        }
+      ]
+    },
+    {
+      "id": "gr_014",
+      "category": "conditionals",
+      "level": "intermediate",
+      "band": "Band 6.0-7.0",
+      "title": "Second Conditional (Giả định không có thật ở hiện tại)",
+      "formula": "If + S + V2/were, S + would/could/might + V0",
+      "explanation_vi": "Dùng để tưởng tượng tình huống trái ngược hiện tại hoặc đưa lời khuyên giả định.",
+      "ielts_tip_vi": "Tuyệt chiêu cho IELTS Speaking Part 3 khi hỏi về giải pháp giả định ('If cities invested in bike lanes, commuters would feel safer').",
+      "common_mistake": {
+        "wrong": "If I would have more free time, I will learn Japanese.",
+        "correct": "If I had more free time, I would learn Japanese."
+      },
+      "examples": [
+        {
+          "en": "If I were in charge of urban planning, I would create more green spaces.",
+          "vi": "Nếu tôi phụ trách quy hoạch đô thị, tôi sẽ tạo thêm nhiều không gian xanh."
+        },
+        {
+          "en": "Many employees could achieve better work-life balance if flexible hours became standard.",
+          "vi": "Nhiều nhân viên có thể cân bằng cuộc sống tốt hơn nếu giờ làm linh hoạt trở thành tiêu chuẩn."
+        }
+      ]
+    },
+    {
+      "id": "gr_015",
+      "category": "conditionals",
+      "level": "intermediate",
+      "band": "Band 6.5-7.5",
+      "title": "Third & Mixed Conditionals (Giả định trái quá khứ & Hệ quả hiện tại)",
+      "formula": "3rd: If + had V3, would have V3 | Mixed: If + had V3, would + V0 (now)",
+      "explanation_vi": "Loại 3 nói về quá khứ đã khác đi; Mixed nối nguyên nhân quá khứ với kết quả ở hiện tại.",
+      "ielts_tip_vi": "Mixed Conditional là một trong những cấu trúc chứng minh Grammatical Range mức Band 7.5+.",
+      "common_mistake": {
+        "wrong": "If I studied harder at school, I would have a better job now.",
+        "correct": "If I had studied harder at school, I would have a better job now."
+      },
+      "examples": [
+        {
+          "en": "If they had launched the product earlier, they would have captured the market.",
+          "vi": "Nếu họ ra mắt sản phẩm sớm hơn, họ đã chiếm lĩnh được thị trường rồi."
+        },
+        {
+          "en": "If I hadn't moved to this city five years ago, I wouldn't be working in tech today.",
+          "vi": "Nếu 5 năm trước tôi không chuyển đến thành phố này, hôm nay tôi đã không làm trong ngành công nghệ."
+        }
+      ]
+    },
+    {
+      "id": "gr_016",
+      "category": "conditionals",
+      "level": "advanced",
+      "band": "Band 7.5-8.0+",
+      "title": "Inverted Conditionals (Đảo ngữ câu điều kiện — Bỏ If)",
+      "formula": "Should + S + V0... (Loại 1) | Were + S + to V... (Loại 2) | Had + S + V3... (Loại 3)",
+      "explanation_vi": "Lược bỏ 'If' và đảo 'Should / Were / Had' lên đầu câu để tăng tính trang trọng và học thuật.",
+      "ielts_tip_vi": "Dùng 1 câu đảo ngữ điều kiện trong Writing Task 2 (đặc biệt 'Were governments to...') giúp tăng điểm GRA rõ rệt.",
+      "common_mistake": {
+        "wrong": "If had I known about the deadline, I would have submitted earlier.",
+        "correct": "Had I known about the deadline, I would have submitted earlier."
+      },
+      "examples": [
+        {
+          "en": "Were universities to subsidize research, more breakthroughs would emerge.",
+          "vi": "Nếu các trường đại học tài trợ cho nghiên cứu, nhiều đột phá hơn sẽ xuất hiện."
+        },
+        {
+          "en": "Had the company listened to user feedback, it could have avoided that crisis.",
+          "vi": "Nếu công ty lắng nghe phản hồi người dùng, họ đã có thể tránh được cuộc khủng hoảng đó."
+        }
+      ]
+    },
+    {
+      "id": "gr_017",
+      "category": "conditionals",
+      "level": "intermediate",
+      "band": "Band 6.0-7.0",
+      "title": "Wish / If only (Câu ước ở hiện tại & quá khứ)",
+      "formula": "wish + S + V2/were (hiện tại) | wish + S + had V3 (quá khứ) | wish + S + would V0 (phàn nàn)",
+      "explanation_vi": "Diễn tả mong muốn khác thực tế hiện tại, nuối tiếc quá khứ hoặc mong ai đó thay đổi thói quen.",
+      "ielts_tip_vi": "Không dùng 'wish I have' hay 'wish it will stop' cho điều trái hiện tại.",
+      "common_mistake": {
+        "wrong": "I wish I have more patience when learning grammar.",
+        "correct": "I wish I had more patience when learning grammar."
+      },
+      "examples": [
+        {
+          "en": "I wish I spoke Chinese fluently when I travel for business.",
+          "vi": "Ước gì tôi nói tiếng Trung trôi chảy khi đi công tác."
+        },
+        {
+          "en": "Many graduates wish they had gained more practical experience before leaving school.",
+          "vi": "Nhiều sinh viên mới tốt nghiệp ước rằng họ đã tích lũy nhiều kinh nghiệm thực tế hơn trước khi ra trường."
+        }
+      ]
+    },
+    {
+      "id": "gr_018",
+      "category": "passive",
+      "level": "basic",
+      "band": "Band 5.0-6.0",
+      "title": "Passive Voice (Câu bị động cơ bản theo thì)",
+      "formula": "S + be (chia theo thì) + V3/V-ed (+ by O)",
+      "explanation_vi": "Dùng khi muốn nhấn mạnh đối tượng chịu tác động hoặc khi không cần/không rõ ai thực hiện hành động.",
+      "ielts_tip_vi": "Cấu trúc sống còn cho IELTS Writing Task 1 dạng Process (Quy trình sản xuất).",
+      "common_mistake": {
+        "wrong": "The coffee beans are roast and pack in bags.",
+        "correct": "The coffee beans are roasted and packed in bags."
+      },
+      "examples": [
+        {
+          "en": "First, the raw materials are sorted and washed thoroughly.",
+          "vi": "Đầu tiên, nguyên liệu thô được phân loại và rửa sạch kỹ lưỡng."
+        },
+        {
+          "en": "A new community library is being constructed near the central park.",
+          "vi": "Một thư viện cộng đồng mới đang được xây dựng gần công viên trung tâm."
+        }
+      ]
+    },
+    {
+      "id": "gr_019",
+      "category": "passive",
+      "level": "intermediate",
+      "band": "Band 6.0-7.0",
+      "title": "Causative Form (Nhờ vả / Thuê làm gì: Have/Get something done)",
+      "formula": "S + have/get + O (vật) + V3/V-ed",
+      "explanation_vi": "Diễn tả việc mình thuê hoặc nhờ người khác làm một việc gì đó cho mình (hoặc gặp sự cố ngoài ý muốn).",
+      "ielts_tip_vi": "Rất tự nhiên trong Speaking Part 1/2 khi kể việc sửa xe, cắt tóc, khám răng, bảo trì.",
+      "common_mistake": {
+        "wrong": "I went to the garage to repair my car (khi tự nói mình không tự sửa).",
+        "correct": "I had my car repaired at the garage yesterday."
+      },
+      "examples": [
+        {
+          "en": "I need to get my laptop screen replaced before next week.",
+          "vi": "Tôi cần đi thay màn hình laptop trước tuần tới."
+        },
+        {
+          "en": "She has her essays proofread by a native speaker.",
+          "vi": "Cô ấy nhờ một người bản xứ hiệu đính các bài luận của mình."
+        }
+      ]
+    },
+    {
+      "id": "gr_020",
+      "category": "passive",
+      "level": "advanced",
+      "band": "Band 7.0-8.0+",
+      "title": "Impersonal Reporting Passive (Bị động khách quan học thuật)",
+      "formula": "It is widely believed/argued that + Clause | S + is/are thought to + V0 / have V3",
+      "explanation_vi": "Tránh lối viết chủ quan 'Many people say', giúp lập luận trong bài nghị luận khách quan và học thuật hơn.",
+      "ielts_tip_vi": "Dùng để giới thiệu quan điểm đối lập hoặc thực trạng trong Writing Task 2 rất hiệu quả.",
+      "common_mistake": {
+        "wrong": "It is believed that social media to cause anxiety.",
+        "correct": "Social media is believed to cause anxiety among teenagers."
+      },
+      "examples": [
+        {
+          "en": "It is widely acknowledged that early childhood education yields long-term benefits.",
+          "vi": "Người ta công nhận rộng rãi rằng giáo dục mầm non mang lại lợi ích lâu dài."
+        },
+        {
+          "en": "Automation is projected to reshape millions of administrative jobs.",
+          "vi": "Tự động hóa được dự báo sẽ tái định hình hàng triệu công việc hành chính."
+        }
+      ]
+    },
+    {
+      "id": "gr_021",
+      "category": "relatives",
+      "level": "basic",
+      "band": "Band 5.0-6.0",
+      "title": "Defining Relative Clauses (Mệnh đề quan hệ xác định)",
+      "formula": "who / whom / which / that / whose / where / when",
+      "explanation_vi": "Bổ sung thông tin cần thiết để xác định danh từ đứng trước (không có dấu phẩy). Có thể lược bỏ who/which/that khi làm tân ngữ.",
+      "ielts_tip_vi": "Tránh lỗi lặp đại từ ('the book which I bought it'). Dùng 'whose' để chỉ sở hữu cho cả người và vật.",
+      "common_mistake": {
+        "wrong": "The colleague which sits next to me is very supportive.",
+        "correct": "The colleague who sits next to me is very supportive."
+      },
+      "examples": [
+        {
+          "en": "I prefer working in an environment that encourages open feedback.",
+          "vi": "Tôi thích làm việc trong môi trường khuyến khích sự góp ý cởi mở."
+        },
+        {
+          "en": "Cities whose public transit is reliable attract more talent.",
+          "vi": "Những thành phố có giao thông công cộng đáng tin cậy thu hút nhiều nhân tài hơn."
+        }
+      ]
+    },
+    {
+      "id": "gr_022",
+      "category": "relatives",
+      "level": "intermediate",
+      "band": "Band 6.5-7.5",
+      "title": "Sentential Relative Clause (Mệnh đề ', which' bổ nghĩa cả câu)",
+      "formula": "[Main Clause], which + V (số ít)...",
+      "explanation_vi": "Đặt dấu phẩy + 'which' để nhận xét hoặc nêu hệ quả của toàn bộ mệnh đề đứng trước.",
+      "ielts_tip_vi": "Vũ khí nối ý đơn giản mà hiệu quả cực cao cho cả Speaking và Writing Task 2.",
+      "common_mistake": {
+        "wrong": "Traffic is terrible, that makes commuters stressed.",
+        "correct": "Traffic is terrible, which makes commuters stressed."
+      },
+      "examples": [
+        {
+          "en": "Remote work reduces daily commuting, which significantly lowers stress levels.",
+          "vi": "Làm việc từ xa giảm việc đi lại hàng ngày, điều này làm giảm đáng kể mức độ căng thẳng."
+        },
+        {
+          "en": "She practiced speaking for an hour daily, which boosted her confidence.",
+          "vi": "Cô ấy luyện nói một giờ mỗi ngày, điều đó đã nâng cao sự tự tin của cô ấy."
+        }
+      ]
+    },
+    {
+      "id": "gr_023",
+      "category": "relatives",
+      "level": "advanced",
+      "band": "Band 7.0-8.0+",
+      "title": "Preposition + Relative Pronoun (Giới từ + which / whom)",
+      "formula": "in/on/by/for/through + which | whom (trang trọng)",
+      "explanation_vi": "Đưa giới từ lên trước 'which' hoặc 'whom' thay vì để cuối câu, tạo văn phong trang trọng chuẩn học thuật.",
+      "ielts_tip_vi": "Đặc biệt mạnh với các cụm như 'the extent to which', 'the way in which', 'the rate at which'.",
+      "common_mistake": {
+        "wrong": "The pace in which technology evolves is astonishing.",
+        "correct": "The pace at which technology evolves is astonishing."
+      },
+      "examples": [
+        {
+          "en": "The extent to which parents influence career choices varies across cultures.",
+          "vi": "Mức độ mà cha mẹ ảnh hưởng đến lựa chọn nghề nghiệp khác nhau tùy nền văn hóa."
+        },
+        {
+          "en": "Education is the primary mechanism through which social mobility is achieved.",
+          "vi": "Giáo dục là cơ chế chính yếu mà qua đó sự dịch chuyển xã hội đạt được."
+        }
+      ]
+    },
+    {
+      "id": "gr_024",
+      "category": "relatives",
+      "level": "advanced",
+      "band": "Band 7.5-8.0+",
+      "title": "Participle Clauses (Rút gọn mệnh đề bằng V-ing / V3 / Having V3)",
+      "formula": "V-ing (chủ động) | V3/V-ed (bị động) | Having + V3 (xảy ra trước)",
+      "explanation_vi": "Rút gọn mệnh đề quan hệ hoặc mệnh đề trạng ngữ cùng chủ ngữ để câu cô đọng, giàu nhịp điệu học thuật.",
+      "ielts_tip_vi": "Kiểm tra kỹ chủ ngữ của hai vế phải giống nhau để tránh lỗi 'dangling participle' (treo chủ ngữ).",
+      "common_mistake": {
+        "wrong": "Walking down the street, the building caught my eye.",
+        "correct": "Walking down the street, I noticed the striking building."
+      },
+      "examples": [
+        {
+          "en": "Faced with rising housing costs, many young adults choose to rent longer.",
+          "vi": "Đối mặt với chi phí nhà ở tăng cao, nhiều người trẻ chọn thuê nhà lâu hơn."
+        },
+        {
+          "en": "Having analyzed the survey data, the researchers proposed three reforms.",
+          "vi": "Sau khi phân tích dữ liệu khảo sát, các nhà nghiên cứu đã đề xuất ba cải cách."
+        }
+      ]
+    },
+    {
+      "id": "gr_025",
+      "category": "verb_forms",
+      "level": "basic",
+      "band": "Band 5.0-6.0",
+      "title": "Gerunds (V-ing) vs To-Infinitives (To V)",
+      "formula": "enjoy/avoid/suggest/consider + V-ing | decide/plan/hope/manage + to V",
+      "explanation_vi": "Một số động từ đi với V-ing (thường là hành động đã/đang diễn ra, chung chung), nhóm khác đi với to-V (mục đích, dự định).",
+      "ielts_tip_vi": "Chú ý đặc biệt cụm 'look forward to + V-ing', 'be used to + V-ing', 'spend time + V-ing'.",
+      "common_mistake": {
+        "wrong": "I look forward to hear from you soon.",
+        "correct": "I look forward to hearing from you soon."
+      },
+      "examples": [
+        {
+          "en": "I avoid checking work emails right before going to sleep.",
+          "vi": "Tôi tránh kiểm tra email công việc ngay trước khi đi ngủ."
+        },
+        {
+          "en": "The city council decided to subsidize electric buses starting next year.",
+          "vi": "Hội đồng thành phố quyết định trợ giá xe buýt điện từ năm tới."
+        }
+      ]
+    },
+    {
+      "id": "gr_026",
+      "category": "verb_forms",
+      "level": "intermediate",
+      "band": "Band 6.0-7.0",
+      "title": "Verbs Changing Meaning (Remember / Stop / Try / Regret)",
+      "formula": "stop V-ing (bỏ hẳn) vs stop to V (dừng để làm) | remember V-ing (nhớ đã làm) vs remember to V (nhớ phải làm)",
+      "explanation_vi": "Cặp V-ing hướng về ký ức hoặc thói quen; cặp to-V hướng về mục đích hoặc nhiệm vụ cần thực hiện.",
+      "ielts_tip_vi": "Dùng chuẩn cặp này giúp tăng điểm chính xác từ vựng-ngữ pháp trong Speaking.",
+      "common_mistake": {
+        "wrong": "I must remember locking the door before I leave.",
+        "correct": "I must remember to lock the door before I leave."
+      },
+      "examples": [
+        {
+          "en": "On my way home, I stopped to buy some fresh fruit.",
+          "vi": "Trên đường về nhà, tôi dừng lại để mua ít trái cây tươi."
+        },
+        {
+          "en": "You should try taking short breaks to prevent mental fatigue.",
+          "vi": "Bạn nên thử nghỉ giải lao ngắn để tránh mệt mỏi tinh thần."
+        }
+      ]
+    },
+    {
+      "id": "gr_027",
+      "category": "verb_forms",
+      "level": "intermediate",
+      "band": "Band 6.0-7.0",
+      "title": "Used to vs Be/Get used to (Thói quen quá khứ vs Quen với)",
+      "formula": "used to + V0 (đã từng) | be/get used to + N / V-ing (quen với)",
+      "explanation_vi": "'Used to + V0' chỉ việc từng làm nay không còn; 'be/get used to + V-ing' chỉ sự quen thuộc.",
+      "ielts_tip_vi": "Rất hay dùng trong Speaking Part 1/2 khi so sánh bản thân ngày xưa và hiện tại.",
+      "common_mistake": {
+        "wrong": "It took me months to get used to wake up early.",
+        "correct": "It took me months to get used to waking up early."
+      },
+      "examples": [
+        {
+          "en": "I used to feel nervous speaking English, but now I enjoy it.",
+          "vi": "Tôi từng cảm thấy hồi hộp khi nói tiếng Anh, nhưng giờ tôi thấy thích."
+        },
+        {
+          "en": "She is slowly getting used to living in a fast-paced metropolis.",
+          "vi": "Cô ấy đang dần quen với việc sống ở một đô thị nhịp sống nhanh."
+        }
+      ]
+    },
+    {
+      "id": "gr_028",
+      "category": "verb_forms",
+      "level": "advanced",
+      "band": "Band 7.0-8.0+",
+      "title": "Mandative Subjunctive (Thức giả định trang trọng)",
+      "formula": "suggest / recommend / insist / demand / vital / imperative + that + S + (should) + V0",
+      "explanation_vi": "Sau các động từ/tính từ mang tính đề xuất hoặc cấp thiết, động từ trong mệnh đề 'that' giữ nguyên thể không chia thì (ngay cả với he/she/it).",
+      "ielts_tip_vi": "Cấu trúc 'It is imperative that governments prioritize...' nâng tầm ngay đoạn kết bài Writing Task 2.",
+      "common_mistake": {
+        "wrong": "It is essential that every citizen recycles plastic waste.",
+        "correct": "It is essential that every citizen recycle plastic waste."
+      },
+      "examples": [
+        {
+          "en": "It is imperative that the government regulate artificial intelligence responsibly.",
+          "vi": "Điều cấp thiết là chính phủ phải quản lý trí tuệ nhân tạo một cách có trách nhiệm."
+        },
+        {
+          "en": "The committee recommended that the policy be reviewed annually.",
+          "vi": "Ủy ban khuyến nghị rằng chính sách nên được rà soát hàng năm."
+        }
+      ]
+    },
+    {
+      "id": "gr_029",
+      "category": "comparison_emphasis",
+      "level": "basic",
+      "band": "Band 5.0-6.0",
+      "title": "Comparatives, Superlatives & As...As (So sánh cơ bản)",
+      "formula": "adj-er / more + adj + than | the + adj-est / most + adj | (not) as + adj/adv + as",
+      "explanation_vi": "So sánh hơn, nhất và ngang bằng. Có thể thêm 'much / far / significantly / slightly' để nhấn mạnh mức độ chênh lệch.",
+      "ielts_tip_vi": "Trong Writing Task 1, dùng 'far higher than', 'nearly twice as high as' để miêu tả số liệu chính xác.",
+      "common_mistake": {
+        "wrong": "This method is more easier than the old one.",
+        "correct": "This method is much easier than the old one."
+      },
+      "examples": [
+        {
+          "en": "Reading physical books is far more relaxing than scrolling through feeds.",
+          "vi": "Đọc sách giấy thư giãn hơn nhiều so với lướt bảng tin."
+        },
+        {
+          "en": "Cycling in winter is not nearly as convenient as taking the subway.",
+          "vi": "Đạp xe vào mùa đông không thuận tiện bằng đi tàu điện ngầm."
+        }
+      ]
+    },
+    {
+      "id": "gr_030",
+      "category": "comparison_emphasis",
+      "level": "intermediate",
+      "band": "Band 6.5-7.5",
+      "title": "Double Comparatives (So sánh kép: Càng... càng...)",
+      "formula": "The + comparative + S + V, the + comparative + S + V",
+      "explanation_vi": "Diễn tả mối quan hệ tỷ lệ thuận hoặc nghịch giữa hai yếu tố.",
+      "ielts_tip_vi": "Cấu trúc cực tự nhiên trong Speaking Part 3 khi giải thích nguyên nhân - kết quả.",
+      "common_mistake": {
+        "wrong": "More you practice, better you become.",
+        "correct": "The more you practice, the more confident you become."
+      },
+      "examples": [
+        {
+          "en": "The earlier children learn financial literacy, the wiser their spending habits become.",
+          "vi": "Trẻ em học kiến thức tài chính càng sớm, thói quen chi tiêu của chúng càng khôn ngoan hơn."
+        },
+        {
+          "en": "The more convenient online delivery becomes, the less time people spend cooking.",
+          "vi": "Giao đồ ăn trực tuyến càng tiện lợi, mọi người càng dành ít thời gian nấu nướng."
+        }
+      ]
+    },
+    {
+      "id": "gr_031",
+      "category": "comparison_emphasis",
+      "level": "advanced",
+      "band": "Band 7.0-8.0+",
+      "title": "Cleft Sentences (Câu chẻ nhấn mạnh: It is... that / What... is...)",
+      "formula": "It is/was + [X] + that/who + ... | What + S + V + is/was + [X]",
+      "explanation_vi": "Tách một thành phần trong câu ra để nhấn mạnh trọng tâm thông tin trong nói hoặc viết lập luận.",
+      "ielts_tip_vi": "Dùng 'What matters most is that...' để mở đầu ý chính trong Speaking Part 3 nghe rất bản xứ và mạch lạc.",
+      "common_mistake": {
+        "wrong": "What I really appreciate about this app it is the audio control.",
+        "correct": "What I really appreciate about this app is the audio control."
+      },
+      "examples": [
+        {
+          "en": "What truly distinguishes top performers is consistent daily effort.",
+          "vi": "Điều thực sự tạo nên khác biệt ở người xuất sắc chính là nỗ lực đều đặn hàng ngày."
+        },
+        {
+          "en": "It is poor urban planning, rather than population growth alone, that worsens congestion.",
+          "vi": "Chính quy hoạch đô thị kém, chứ không chỉ riêng tăng dân số, mới làm ùn tắc trầm trọng hơn."
+        }
+      ]
+    },
+    {
+      "id": "gr_032",
+      "category": "comparison_emphasis",
+      "level": "intermediate",
+      "band": "Band 6.0-7.0",
+      "title": "So...that / Such...that & Too / Enough (Mức độ & Hệ quả)",
+      "formula": "so + adj/adv + that | such + (a/an) + adj + N + that | adj + enough + to V",
+      "explanation_vi": "Nhấn mạnh mức độ dẫn đến một hệ quả cụ thể hoặc đủ/quá mức để làm việc gì.",
+      "ielts_tip_vi": "Chú ý vị trí 'enough': đứng SAU tính từ ('fast enough') nhưng đứng TRƯỚC danh từ ('enough time').",
+      "common_mistake": {
+        "wrong": "It was a so useful workshop that everyone stayed late.",
+        "correct": "It was such a useful workshop that everyone stayed late."
+      },
+      "examples": [
+        {
+          "en": "The instructions were so clear that even beginners finished the task quickly.",
+          "vi": "Hướng dẫn rõ ràng đến mức ngay cả người mới cũng hoàn thành nhanh chóng."
+        },
+        {
+          "en": "Housing has become too expensive for single-income families to afford.",
+          "vi": "Nhà ở đã trở nên quá đắt đỏ đối với các gia đình có một nguồn thu nhập."
+        }
+      ]
+    },
+    {
+      "id": "gr_033",
+      "category": "reported_questions",
+      "level": "basic",
+      "band": "Band 5.0-6.0",
+      "title": "Indirect / Embedded Questions (Câu hỏi lịch sự gián tiếp)",
+      "formula": "Could you tell me / Do you know / I wonder + Wh-/if + S + V (không đảo ngữ)",
+      "explanation_vi": "Khi lồng câu hỏi vào sau cụm mở đầu lịch sự, giữ trật tự khẳng định S + V, không đảo trợ động từ do/does/did.",
+      "ielts_tip_vi": "Cực kỳ hữu ích trong giao tiếp thực tế và phần phỏng vấn công việc khi đặt câu hỏi tinh tế.",
+      "common_mistake": {
+        "wrong": "Could you tell me where is the nearest subway station?",
+        "correct": "Could you tell me where the nearest subway station is?"
+      },
+      "examples": [
+        {
+          "en": "Could you let me know what time the interview begins?",
+          "vi": "Bạn có thể cho tôi biết buổi phỏng vấn bắt đầu lúc mấy giờ không?"
+        },
+        {
+          "en": "I was wondering if you have any feedback on my proposal.",
+          "vi": "Tôi đang băn khoăn không biết bạn có góp ý nào cho đề xuất của tôi không."
+        }
+      ]
+    },
+    {
+      "id": "gr_034",
+      "category": "reported_questions",
+      "level": "intermediate",
+      "band": "Band 6.0-7.0",
+      "title": "Reported Speech & Reporting Verbs (Tường thuật đa dạng)",
+      "formula": "advise/encourage/warn + O + to V | deny/admit/suggest + V-ing | claim/argue + that + Clause",
+      "explanation_vi": "Thay vì chỉ dùng 'said that', dùng động từ tường thuật chuyên biệt để truyền đạt đúng thái độ người nói.",
+      "ielts_tip_vi": "Dùng 'Critics argue that...', 'Proponents claim that...' giúp bài Writing Task 2 cân bằng hai chiều.",
+      "common_mistake": {
+        "wrong": "My mentor suggested me to apply for the scholarship.",
+        "correct": "My mentor advised me to apply for the scholarship."
+      },
+      "examples": [
+        {
+          "en": "My manager encouraged me to take ownership of the frontend architecture.",
+          "vi": "Quản lý của tôi đã khuyến khích tôi phụ trách kiến trúc frontend."
+        },
+        {
+          "en": "Critics warn that unchecked screen time may impair children's attention spans.",
+          "vi": "Các nhà phê bình cảnh báo rằng thời gian xem màn hình không kiểm soát có thể làm suy giảm khả năng tập trung của trẻ."
+        }
+      ]
+    },
+    {
+      "id": "gr_035",
+      "category": "nouns_articles",
+      "level": "basic",
+      "band": "Band 4.5-5.5",
+      "title": "Articles: A / An / The / Zero Article (Mạo từ)",
+      "formula": "a/an (nhắc lần đầu, đếm được số ít) | the (đã xác định, duy nhất) | Ø (danh từ chung số nhiều / không đếm được)",
+      "explanation_vi": "Nói chung chung dùng danh từ số nhiều hoặc không đếm được không có 'the'. Chỉ dùng 'the' khi người nghe biết rõ đối tượng nào.",
+      "ielts_tip_vi": "Lỗi mạo từ là lỗi phổ biến nhất khiến bài Writing/Speaking mất điểm GRA (ví dụ: viết 'the nature' hoặc 'a good advice').",
+      "common_mistake": {
+        "wrong": "The technology makes the life much easier today.",
+        "correct": "Technology makes life much easier today."
+      },
+      "examples": [
+        {
+          "en": "Education is the cornerstone of sustainable economic development.",
+          "vi": "Giáo dục là nền tảng của sự phát triển kinh tế bền vững."
+        },
+        {
+          "en": "I bought a notebook yesterday, and the notebook has grid pages.",
+          "vi": "Hôm qua tôi mua một cuốn sổ, và cuốn sổ đó có trang kẻ ô."
+        }
+      ]
+    },
+    {
+      "id": "gr_036",
+      "category": "nouns_articles",
+      "level": "basic",
+      "band": "Band 5.0-6.0",
+      "title": "Uncountable Noun Traps (Danh từ không đếm được dễ sai)",
+      "formula": "advice, information, research, equipment, knowledge, feedback, traffic, luggage (+ V số ít)",
+      "explanation_vi": "Các danh từ này KHÔNG thêm 's' và KHÔNG đi với 'a/an'. Muốn đếm phải dùng 'a piece of...'.",
+      "ielts_tip_vi": "Rất hay xuất hiện trong cả IELTS Listening (bẫy số ít/số nhiều) lẫn Writing Task 2.",
+      "common_mistake": {
+        "wrong": "She gave me many useful advices and informations.",
+        "correct": "She gave me a lot of useful advice and information."
+      },
+      "examples": [
+        {
+          "en": "Recent research indicates that sleep quality strongly affects memory.",
+          "vi": "Nghiên cứu gần đây chỉ ra rằng chất lượng giấc ngủ ảnh hưởng mạnh đến trí nhớ."
+        },
+        {
+          "en": "The laboratory requires modern equipment to conduct accurate tests.",
+          "vi": "Phòng thí nghiệm cần thiết bị hiện đại để thực hiện các phép thử chính xác."
+        }
+      ]
+    },
+    {
+      "id": "gr_037",
+      "category": "nouns_articles",
+      "level": "intermediate",
+      "band": "Band 6.0-7.0",
+      "title": "Quantifiers: Few/A few vs Little/A little & Much/Many",
+      "formula": "a few / a little (đủ dùng, tích cực) | few / little (rất ít, gần như không đủ, tiêu cực)",
+      "explanation_vi": "'Few' đi với danh từ đếm được số nhiều; 'little' đi với không đếm được. Có 'a' mang nghĩa tích cực, không có 'a' mang nghĩa thiếu thốn.",
+      "ielts_tip_vi": "Dùng 'little doubt', 'few incentives' giúp diễn đạt sắc thái học thuật tinh tế hơn 'almost no'.",
+      "common_mistake": {
+        "wrong": "There are few seats left, so let's grab them (ý tích cực còn vài chỗ).",
+        "correct": "There are a few seats left, so let's grab them."
+      },
+      "examples": [
+        {
+          "en": "With a little daily practice, your pronunciation improves noticeably.",
+          "vi": "Chỉ cần một chút luyện tập mỗi ngày, phát âm của bạn sẽ cải thiện rõ rệt."
+        },
+        {
+          "en": "Low-income households have few opportunities to access private healthcare.",
+          "vi": "Các hộ gia đình thu nhập thấp có rất ít cơ hội tiếp cận y tế tư nhân."
+        }
+      ]
+    },
+    {
+      "id": "gr_038",
+      "category": "nouns_articles",
+      "level": "intermediate",
+      "band": "Band 6.5-7.5",
+      "title": "Subject-Verb Agreement Traps (Hòa hợp Chủ ngữ - Động từ)",
+      "formula": "A number of + N(pl) + V(pl) | The number of + N(pl) + V(sg) | Each/Every + N + V(sg)",
+      "explanation_vi": "Động từ chia theo danh từ hạt nhân đứng trước giới từ 'of', hoặc theo quy tắc của 'the number of' vs 'a number of', 'neither... nor...'.",
+      "ielts_tip_vi": "Sai chia động từ số ít/nhiều trong câu dài là lý do chính khiến Writing bị kẹt ở Band 6.0-6.5.",
+      "common_mistake": {
+        "wrong": "The number of remote workers have increased dramatically.",
+        "correct": "The number of remote workers has increased dramatically."
+      },
+      "examples": [
+        {
+          "en": "A growing number of universities offer flexible online degrees.",
+          "vi": "Ngày càng nhiều trường đại học cung cấp các chương trình cấp bằng trực tuyến linh hoạt."
+        },
+        {
+          "en": "Neither the manager nor the developers were aware of that edge case.",
+          "vi": "Cả người quản lý lẫn các lập trình viên đều không nhận ra trường hợp biên đó."
+        }
+      ]
+    },
+    {
+      "id": "gr_039",
+      "category": "cohesion_inversion",
+      "level": "intermediate",
+      "band": "Band 6.0-7.0",
+      "title": "Concession & Contrast (Although / Even though vs Despite / In spite of)",
+      "formula": "Although / Even though + S + V | Despite / In spite of + N / V-ing / the fact that + S + V",
+      "explanation_vi": "Đều mang nghĩa 'mặc dù', nhưng 'Although' theo sau là mệnh đề (S + V), còn 'Despite' theo sau là cụm danh từ hoặc V-ing.",
+      "ielts_tip_vi": "Tuyệt đối KHÔNG viết 'Although... but...'. Nâng cấp lên 'Notwithstanding' hoặc 'Albeit + Adj' cho Band 7.5+.",
+      "common_mistake": {
+        "wrong": "Despite it was raining heavily, we decided to hike.",
+        "correct": "Despite the heavy rain, we decided to hike."
+      },
+      "examples": [
+        {
+          "en": "Despite facing initial setbacks, the startup reached profitability within two years.",
+          "vi": "Mặc dù gặp trở ngại ban đầu, công ty khởi nghiệp đã có lãi trong vòng hai năm."
+        },
+        {
+          "en": "Electric cars produce zero tailpipe emissions, albeit at a higher upfront cost.",
+          "vi": "Xe điện không phát thải từ ống xả, mặc dù chi phí mua ban đầu cao hơn."
+        }
+      ]
+    },
+    {
+      "id": "gr_040",
+      "category": "cohesion_inversion",
+      "level": "intermediate",
+      "band": "Band 6.5-7.5",
+      "title": "Direct Contrast (Whereas / While vs However / Conversely)",
+      "formula": "Clause 1, whereas/while Clause 2 | Sentence 1. Conversely / On the other hand, Sentence 2.",
+      "explanation_vi": "'Whereas/While' nối hai mệnh đề tương phản trong CÙNG 1 câu; 'However/Conversely' đứng đầu câu mới (hoặc sau dấu chấm phẩy).",
+      "ielts_tip_vi": "Tránh lỗi 'comma splice' (nối hai câu độc lập bằng ', however,'). Dùng '; however,' hoặc tách thành câu mới.",
+      "common_mistake": {
+        "wrong": "Online courses are flexible, however, they require strong self-discipline.",
+        "correct": "Online courses are flexible; however, they require strong self-discipline."
+      },
+      "examples": [
+        {
+          "en": "Older generations often value job stability, whereas younger workers prioritize growth.",
+          "vi": "Thế hệ lớn tuổi thường coi trọng sự ổn định công việc, trong khi người lao động trẻ ưu tiên sự phát triển."
+        },
+        {
+          "en": "Urban areas enjoy rapid connectivity; conversely, rural regions still lag behind.",
+          "vi": "Khu vực đô thị có kết nối nhanh; ngược lại, vùng nông thôn vẫn còn tụt hậu."
+        }
+      ]
+    },
+    {
+      "id": "gr_041",
+      "category": "cohesion_inversion",
+      "level": "advanced",
+      "band": "Band 7.5-8.0+",
+      "title": "Negative Inversion (Đảo ngữ phủ định: Not only / Seldom / Rarely / Little)",
+      "formula": "Not only / Seldom / Never / Rarely + Aux (do/does/did/have/can) + S + V...",
+      "explanation_vi": "Đặt trạng từ phủ định hoặc giới hạn lên đầu câu và đảo trợ động từ lên trước chủ ngữ để tạo nhịp điệu mạnh và trang trọng.",
+      "ielts_tip_vi": "'Not only does X benefit..., but it also...' là mẫu câu ghi điểm Band 8.0 dễ áp dụng nhất trong Writing Task 2.",
+      "common_mistake": {
+        "wrong": "Not only green spaces beautify cities, but they also cool the air.",
+        "correct": "Not only do green spaces beautify cities, but they also cool the air."
+      },
+      "examples": [
+        {
+          "en": "Not only does regular exercise improve physical health, but it also sharpens focus.",
+          "vi": "Tập thể dục đều đặn không chỉ cải thiện sức khỏe thể chất mà còn tăng độ tập trung."
+        },
+        {
+          "en": "Seldom have technological breakthroughs reshaped daily life so rapidly.",
+          "vi": "Hiếm khi nào các đột phá công nghệ lại tái định hình đời sống hàng ngày nhanh đến vậy."
+        }
+      ]
+    },
+    {
+      "id": "gr_042",
+      "category": "cohesion_inversion",
+      "level": "advanced",
+      "band": "Band 7.5-8.0+",
+      "title": "Inversion with 'Only' & 'No sooner... than' (Đảo ngữ ở vế chính)",
+      "formula": "Only when/after/by + [Clause/V-ing] + Aux + S + V | No sooner + had + S + V3 + than + S + V2",
+      "explanation_vi": "Với 'Only when/after/if...', KHÔNG đảo ngữ ở mệnh đề phụ ngay sau Only mà đảo ngữ ở MỆNH ĐỀ CHÍNH phía sau.",
+      "ielts_tip_vi": "Cẩn thận: đảo ngữ nằm ở vế thứ hai sau dấu phẩy (vế kết quả), rất hay bị nhầm ở câu 'Only when...'.",
+      "common_mistake": {
+        "wrong": "Only when do people lose health, they realize its value.",
+        "correct": "Only when people lose their health do they realize its value."
+      },
+      "examples": [
+        {
+          "en": "Only by investing in clean transit can megacities solve chronic air pollution.",
+          "vi": "Chỉ bằng cách đầu tư vào giao thông sạch, các siêu đô thị mới có thể giải quyết ô nhiễm không khí kéo dài."
+        },
+        {
+          "en": "No sooner had the new policy taken effect than complaints dropped sharply.",
+          "vi": "Ngay khi chính sách mới có hiệu lực, số lượng khiếu nại đã giảm mạnh."
+        }
+      ]
+    },
+    {
+      "id": "gr_043",
+      "category": "cohesion_inversion",
+      "level": "advanced",
+      "band": "Band 7.5-8.0+",
+      "title": "Academic Hedging & Modality (Ngôn ngữ giảm nhẹ khẳng định tuyệt đối)",
+      "formula": "tend to + V0 | appear/seem to | arguably | it is likely that | may well + V0",
+      "explanation_vi": "Trong văn phong học thuật IELTS 7.5–8.0+, tránh khẳng định tuyệt đối kiểu 'All/Always/Never'. Dùng hedging để lập luận khách quan, chặt chẽ.",
+      "ielts_tip_vi": "Thay 'Technology destroys communication' bằng 'Excessive screen time tends to erode face-to-face communication'.",
+      "common_mistake": {
+        "wrong": "Social media always ruins teenagers' mental health completely.",
+        "correct": "Excessive social media use can arguably undermine teenagers' mental health."
+      },
+      "examples": [
+        {
+          "en": "High tuition fees tend to discourage students from disadvantaged backgrounds.",
+          "vi": "Học phí cao có xu hướng làm nản lòng sinh viên có hoàn cảnh khó khăn."
+        },
+        {
+          "en": "Flexible scheduling may well boost productivity without increasing burnout.",
+          "vi": "Lịch làm việc linh hoạt rất có thể sẽ nâng cao năng suất mà không làm tăng kiệt sức."
+        }
+      ]
+    },
+    {
+      "id": "gr_044",
+      "category": "cohesion_inversion",
+      "level": "advanced",
+      "band": "Band 7.5-8.0+",
+      "title": "Nominalization (Danh từ hóa cụm động từ học thuật)",
+      "formula": "Chuyển V/Adj thành N: fail → the failure of | rapidly grow → the rapid expansion of",
+      "explanation_vi": "Biến mệnh đề động từ dài thành cụm danh từ gọn để đặt làm chủ ngữ hoặc tân ngữ — đặc trưng của văn viết Band 8.0.",
+      "ielts_tip_vi": "Kết hợp Nominalization + động từ mạnh (trigger, accelerate, exacerbate, alleviate) giúp câu cô đọng và học thuật.",
+      "common_mistake": {
+        "wrong": "Because people consume too much plastic, oceans get polluted.",
+        "correct": "Excessive plastic consumption has accelerated marine pollution."
+      },
+      "examples": [
+        {
+          "en": "The rapid proliferation of smartphones has transformed modern journalism.",
+          "vi": "Sự phổ biến nhanh chóng của điện thoại thông minh đã biến đổi báo chí hiện đại."
+        },
+        {
+          "en": "Lack of affordable childcare often hinders parents from returning to work.",
+          "vi": "Việc thiếu dịch vụ giữ trẻ giá hợp lý thường cản trở cha mẹ quay lại làm việc."
+        }
+      ]
+    },
+    {
+      "id": "gr_045",
+      "category": "cohesion_inversion",
+      "level": "basic",
+      "band": "Band 5.0-6.0",
+      "title": "Reason & Purpose Connectors (Because / Because of / So that / In order to)",
+      "formula": "because + S + V | because of / due to + N/V-ing | in order (not) to + V0 | so that + S + can/will + V0",
+      "explanation_vi": "Phân biệt liên từ chỉ nguyên nhân (theo sau bởi mệnh đề vs danh từ) và cụm chỉ mục đích.",
+      "ielts_tip_vi": "Trong Writing Task 2, thay thế 'because of' bằng 'owing to' hoặc 'attributable to' để đa dạng từ vựng.",
+      "common_mistake": {
+        "wrong": "The flight was delayed because of the weather was foggy.",
+        "correct": "The flight was delayed because of the dense fog."
+      },
+      "examples": [
+        {
+          "en": "Many employees relocate to suburbs due to skyrocketing city rents.",
+          "vi": "Nhiều người lao động chuyển ra ngoại ô do giá thuê nhà trong thành phố tăng vọt."
+        },
+        {
+          "en": "We documented every API endpoint clearly so that new teammates could onboard quickly.",
+          "vi": "Chúng tôi viết tài liệu rõ cho từng API endpoint để thành viên mới bắt nhịp nhanh."
+        }
+      ]
+    }
+  ]
+}
+

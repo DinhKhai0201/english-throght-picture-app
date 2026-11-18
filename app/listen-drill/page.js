@@ -9,7 +9,20 @@ import {
   KeyboardIcon,
   XIcon,
   RotateCcwIcon,
+  CheckIcon,
+  AlertTriangleIcon,
+  ArrowRightIcon,
 } from "../components/Icons";
+import {
+  NUMBER_RANGE_CONFIG,
+  generateNumberPrompt,
+  generatePhonePrompt,
+  generateDatePrompt,
+  generateNamePrompt,
+  generateAddressPrompt,
+  generateWordPrompt,
+  checkDrillAnswer,
+} from "../lib/ieltsTask1Drill";
 
 const ALPHABET_LOWER = [
   ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m"],
@@ -18,17 +31,21 @@ const ALPHABET_LOWER = [
 
 const VOWELS = new Set(["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]);
 
-const NUMBER_PRESETS = {
-  "0-9": Array.from({ length: 10 }, (_, i) => i.toString()),
-  "1-20": [
-    Array.from({ length: 10 }, (_, i) => (i + 1).toString()),
-    Array.from({ length: 10 }, (_, i) => (i + 11).toString()),
-  ],
-  "0-20": [
-    Array.from({ length: 11 }, (_, i) => i.toString()),
-    Array.from({ length: 10 }, (_, i) => (i + 11).toString()),
-  ],
-};
+const GRID_0_20 = [
+  Array.from({ length: 11 }, (_, i) => i.toString()),
+  Array.from({ length: 10 }, (_, i) => (i + 11).toString()),
+];
+
+const DRILL_MODES = [
+  { id: "alphabet", label: "Alphabet (A–Z)", desc: "Nghe và nhận diện chữ cái đánh vần" },
+  { id: "number", label: "Numbers (0 → Triệu)", desc: "Số đếm từ 0–20, bẫy teen/ty đến hàng triệu & giá tiền" },
+  { id: "phone", label: "Số điện thoại", desc: "Đọc oh, double, triple theo chuẩn IELTS Part 1" },
+  { id: "date", label: "Date & Time", desc: "Ngày tháng năm (UK/US) và giờ giấc" },
+  { id: "name", label: "Tên riêng", desc: "Đánh vần họ tên kinh điển trong đề IELTS" },
+  { id: "address", label: "Địa chỉ & Postcode", desc: "Số nhà, tên đường và mã bưu điện UK" },
+  { id: "word", label: "Word (Từ Part 1)", desc: "Từ vựng điền form hay gặp và bẫy chính tả" },
+  { id: "mixed", label: "Tổng hợp Task 1", desc: "Trộn ngẫu nhiên tất cả các dạng Part 1" },
+];
 
 function playAudioFeedback(type) {
   if (typeof window === "undefined" || window.__ETP_AUDIO_MUTED__) return;
@@ -75,25 +92,39 @@ function playAudioFeedback(type) {
 export default function ListenDrillPage() {
   const [drillType, setDrillType] = useState("alphabet");
   const [caseType, setCaseType] = useState("lower");
-  const [numberRange, setNumberRange] = useState("1-20");
+  const [numberRange, setNumberRange] = useState("0-20");
   const [speechRate, setSpeechRate] = useState(0.85);
   const [selectedVoice, setSelectedVoice] = useState("");
   const [voices, setVoices] = useState([]);
 
+  // Current challenge state
   const [currentTarget, setCurrentTarget] = useState("");
+  const [currentPrompt, setCurrentPrompt] = useState(null);
+  const [currentResolvedMode, setCurrentResolvedMode] = useState("alphabet");
   const [isPlaying, setIsPlaying] = useState(false);
+
+  // Stats
   const [foundCount, setFoundCount] = useState(0);
   const [firstTryCount, setFirstTryCount] = useState(0);
   const [hasAttemptedCurrent, setHasAttemptedCurrent] = useState(false);
+
+  // Grid & Dictation feedback
   const [lastFeedback, setLastFeedback] = useState(null);
+  const [dictationInput, setDictationInput] = useState("");
+  const [dictationStatus, setDictationStatus] = useState(null); // "correct" | "wrong" | null
   const [showingAnswer, setShowingAnswer] = useState(false);
   const [showSettingsModal, setShowSettingsModal] = useState(false);
   const [inputBuffer, setInputBuffer] = useState("");
 
   const targetRef = useRef(currentTarget);
   targetRef.current = currentTarget;
+  const promptRef = useRef(currentPrompt);
+  promptRef.current = currentPrompt;
   const bufferRef = useRef("");
   const bufferTimeoutRef = useRef(null);
+  const dictationInputRef = useRef(null);
+
+  const isGridMode = drillType === "alphabet" || (drillType === "number" && numberRange === "0-20");
 
   useEffect(() => {
     if (typeof window !== "undefined" && window.speechSynthesis) {
@@ -105,9 +136,9 @@ export default function ListenDrillPage() {
           const pref =
             en.find(
               (v) =>
+                v.name.includes("Google UK English Male") ||
                 v.name.includes("Google US English") ||
-                v.name.includes("Samantha") ||
-                v.name.includes("Google UK English Male")
+                v.name.includes("Samantha")
             ) || en[0];
           setSelectedVoice(pref.name);
         }
@@ -128,23 +159,22 @@ export default function ListenDrillPage() {
 
         if (!isNaN(savedFound)) setFoundCount(savedFound);
         if (!isNaN(savedFirstTry)) setFirstTryCount(savedFirstTry);
-        if (savedDrill === "alphabet" || savedDrill === "number") setDrillType(savedDrill);
+        if (savedDrill && DRILL_MODES.some((m) => m.id === savedDrill)) setDrillType(savedDrill);
         if (savedCase === "lower" || savedCase === "upper") setCaseType(savedCase);
-        if (savedRange && NUMBER_PRESETS[savedRange]) setNumberRange(savedRange);
+        if (savedRange && NUMBER_RANGE_CONFIG.some((r) => r.id === savedRange)) setNumberRange(savedRange);
       } catch (e) {}
     }
   }, []);
 
-  const speakTarget = useCallback(
-    (target) => {
+  const speakText = useCallback(
+    (textToSpeak, rateOverride) => {
       if (typeof window === "undefined" || !window.speechSynthesis) return;
-      const textToSpeak = target || targetRef.current;
       if (!textToSpeak) return;
 
       window.speechSynthesis.cancel();
       const utterance = new SpeechSynthesisUtterance(textToSpeak);
-      utterance.lang = "en-US";
-      utterance.rate = speechRate;
+      utterance.lang = "en-GB";
+      utterance.rate = rateOverride || speechRate;
 
       if (selectedVoice) {
         const v = voices.find((item) => item.name === selectedVoice);
@@ -160,46 +190,108 @@ export default function ListenDrillPage() {
     [speechRate, selectedVoice, voices]
   );
 
+  const speakCurrent = useCallback(
+    (slow = false) => {
+      const p = promptRef.current;
+      if (p) {
+        speakText(slow && p.slowTts ? p.slowTts : p.tts, slow ? Math.max(0.55, speechRate - 0.2) : speechRate);
+      } else if (targetRef.current) {
+        speakText(targetRef.current, slow ? Math.max(0.55, speechRate - 0.2) : speechRate);
+      }
+    },
+    [speakText, speechRate]
+  );
+
   const nextTarget = useCallback(
     (customType, customCase, customRange) => {
       const type = customType || drillType;
       const caseMode = customCase || caseType;
       const range = customRange || numberRange;
 
-      let pool = [];
-      if (type === "alphabet") {
-        pool = ALPHABET_LOWER.flat().map((ch) => (caseMode === "upper" ? ch.toUpperCase() : ch));
-      } else {
-        const preset = NUMBER_PRESETS[range] || NUMBER_PRESETS["1-20"];
-        pool = Array.isArray(preset[0]) ? preset.flat() : preset;
-      }
-
-      let randomItem = pool[Math.floor(Math.random() * pool.length)];
-      if (pool.length > 1 && randomItem === targetRef.current) {
-        const filtered = pool.filter((item) => item !== targetRef.current);
-        randomItem = filtered[Math.floor(Math.random() * filtered.length)];
-      }
-
-      setCurrentTarget(randomItem);
       setHasAttemptedCurrent(false);
       setShowingAnswer(false);
       setLastFeedback(null);
+      setDictationInput("");
+      setDictationStatus(null);
       bufferRef.current = "";
       setInputBuffer("");
       if (bufferTimeoutRef.current) clearTimeout(bufferTimeoutRef.current);
 
+      const useGrid = type === "alphabet" || (type === "number" && range === "0-20");
+
+      if (useGrid) {
+        let pool = [];
+        if (type === "alphabet") {
+          pool = ALPHABET_LOWER.flat().map((ch) => (caseMode === "upper" ? ch.toUpperCase() : ch));
+        } else {
+          pool = GRID_0_20.flat();
+        }
+        let randomItem = pool[Math.floor(Math.random() * pool.length)];
+        if (pool.length > 1 && randomItem === targetRef.current) {
+          const filtered = pool.filter((item) => item !== targetRef.current);
+          randomItem = filtered[Math.floor(Math.random() * filtered.length)];
+        }
+        setCurrentTarget(randomItem);
+        setCurrentPrompt(null);
+        setCurrentResolvedMode(type);
+        setTimeout(() => speakText(randomItem), 150);
+        return;
+      }
+
+      // Dictation / IELTS Part 1 modes
+      let resolved = type;
+      if (type === "mixed") {
+        const poolModes = ["number", "phone", "date", "name", "address", "word"];
+        resolved = poolModes[Math.floor(Math.random() * poolModes.length)];
+      }
+      setCurrentResolvedMode(resolved);
+
+      let promptObj;
+      if (resolved === "number") {
+        const effectiveRange = range === "0-20" ? "mixed-scale" : range;
+        promptObj = generateNumberPrompt(effectiveRange);
+      } else if (resolved === "phone") {
+        promptObj = generatePhonePrompt();
+      } else if (resolved === "date") {
+        promptObj = generateDatePrompt();
+      } else if (resolved === "name") {
+        promptObj = generateNamePrompt();
+      } else if (resolved === "address") {
+        promptObj = generateAddressPrompt();
+      } else {
+        promptObj = generateWordPrompt();
+      }
+
+      setCurrentPrompt(promptObj);
+      setCurrentTarget(promptObj.target);
+
       setTimeout(() => {
-        speakTarget(randomItem);
+        speakText(promptObj.tts);
+        if (dictationInputRef.current) {
+          dictationInputRef.current.focus();
+        }
       }, 150);
     },
-    [drillType, caseType, numberRange, speakTarget]
+    [drillType, caseType, numberRange, speakText]
   );
 
   useEffect(() => {
     nextTarget();
   }, [drillType, caseType, numberRange]);
 
-  const handleSelect = (key) => {
+  const recordSuccess = () => {
+    const newFound = foundCount + 1;
+    setFoundCount(newFound);
+    localStorage.setItem("listen_drill_found", newFound.toString());
+
+    if (!hasAttemptedCurrent && !showingAnswer) {
+      const newFirstTry = firstTryCount + 1;
+      setFirstTryCount(newFirstTry);
+      localStorage.setItem("listen_drill_first_try", newFirstTry.toString());
+    }
+  };
+
+  const handleSelectGrid = (key) => {
     bufferRef.current = "";
     setInputBuffer("");
     if (bufferTimeoutRef.current) clearTimeout(bufferTimeoutRef.current);
@@ -209,17 +301,7 @@ export default function ListenDrillPage() {
     if (isCorrect) {
       playAudioFeedback("correct");
       setLastFeedback({ key, status: "correct" });
-
-      const newFound = foundCount + 1;
-      setFoundCount(newFound);
-      localStorage.setItem("listen_drill_found", newFound.toString());
-
-      if (!hasAttemptedCurrent && !showingAnswer) {
-        const newFirstTry = firstTryCount + 1;
-        setFirstTryCount(newFirstTry);
-        localStorage.setItem("listen_drill_first_try", newFirstTry.toString());
-      }
-
+      recordSuccess();
       setTimeout(() => {
         nextTarget();
       }, 700);
@@ -233,9 +315,41 @@ export default function ListenDrillPage() {
     }
   };
 
+  const handleDictationSubmit = (e) => {
+    if (e) e.preventDefault();
+    if (!currentPrompt) return;
+
+    const isCorrect = checkDrillAnswer(dictationInput, currentPrompt, currentResolvedMode);
+    if (isCorrect) {
+      playAudioFeedback("correct");
+      setDictationStatus("correct");
+      recordSuccess();
+      setTimeout(() => {
+        nextTarget();
+      }, 850);
+    } else {
+      playAudioFeedback("wrong");
+      setHasAttemptedCurrent(true);
+      setDictationStatus("wrong");
+      if (dictationInputRef.current) dictationInputRef.current.focus();
+    }
+  };
+
+  // Physical Keyboard Listener (Grid modes + global Space replay outside input)
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (showSettingsModal) return;
+
+      const isTypingInDictation =
+        dictationInputRef.current && document.activeElement === dictationInputRef.current;
+
+      if (!isGridMode) {
+        if (e.key === " " && !isTypingInDictation) {
+          e.preventDefault();
+          speakCurrent(false);
+        }
+        return;
+      }
 
       const key = e.key;
 
@@ -246,9 +360,9 @@ export default function ListenDrillPage() {
           bufferRef.current = "";
           setInputBuffer("");
           if (bufferTimeoutRef.current) clearTimeout(bufferTimeoutRef.current);
-          handleSelect(pending);
+          handleSelectGrid(pending);
         } else {
-          speakTarget();
+          speakCurrent(false);
         }
         return;
       }
@@ -272,9 +386,9 @@ export default function ListenDrillPage() {
         if (/^[a-zA-Z]$/.test(key)) {
           e.preventDefault();
           const targetKey = caseType === "upper" ? key.toUpperCase() : key.toLowerCase();
-          handleSelect(targetKey);
+          handleSelectGrid(targetKey);
         }
-      } else if (drillType === "number") {
+      } else if (drillType === "number" && numberRange === "0-20") {
         if (/^[0-9]$/.test(key)) {
           e.preventDefault();
           const currentBuf = bufferRef.current;
@@ -289,20 +403,19 @@ export default function ListenDrillPage() {
           if (nextVal === targetStr) {
             bufferRef.current = "";
             setInputBuffer("");
-            handleSelect(nextVal);
+            handleSelectGrid(nextVal);
             return;
           }
 
           if (targetStr.startsWith(nextVal) && nextVal.length < targetStr.length) {
             bufferRef.current = nextVal;
             setInputBuffer(nextVal);
-
             bufferTimeoutRef.current = setTimeout(() => {
               if (bufferRef.current) {
                 const pending = bufferRef.current;
                 bufferRef.current = "";
                 setInputBuffer("");
-                handleSelect(pending);
+                handleSelectGrid(pending);
               }
             }, 1200);
             return;
@@ -310,14 +423,38 @@ export default function ListenDrillPage() {
 
           bufferRef.current = "";
           setInputBuffer("");
-          handleSelect(nextVal);
+          handleSelectGrid(nextVal);
         }
       }
     };
 
     window.addEventListener("keydown", handleKeyDown);
     return () => window.removeEventListener("keydown", handleKeyDown);
-  }, [showSettingsModal, drillType, caseType, currentTarget, hasAttemptedCurrent, showingAnswer, speakTarget]);
+  }, [
+    showSettingsModal,
+    isGridMode,
+    drillType,
+    caseType,
+    numberRange,
+    currentTarget,
+    hasAttemptedCurrent,
+    showingAnswer,
+    speakCurrent,
+  ]);
+
+  const selectMode = (modeId) => {
+    setDrillType(modeId);
+    try {
+      localStorage.setItem("listen_drill_type", modeId);
+    } catch (e) {}
+  };
+
+  const selectNumberRange = (rangeId) => {
+    setNumberRange(rangeId);
+    try {
+      localStorage.setItem("listen_drill_range", rangeId);
+    } catch (e) {}
+  };
 
   const resetStats = () => {
     if (confirm("Bạn có muốn đặt lại toàn bộ điểm số Found và First Try không?")) {
@@ -331,25 +468,91 @@ export default function ListenDrillPage() {
   const keyboardRows =
     drillType === "alphabet"
       ? ALPHABET_LOWER.map((row) => row.map((ch) => (caseType === "upper" ? ch.toUpperCase() : ch)))
-      : Array.isArray(NUMBER_PRESETS[numberRange][0])
-      ? NUMBER_PRESETS[numberRange]
-      : [NUMBER_PRESETS[numberRange]];
+      : GRID_0_20;
+
+  const activeModeMeta = DRILL_MODES.find((m) => m.id === drillType) || DRILL_MODES[0];
+  const accuracy = foundCount > 0 ? Math.round((firstTryCount / foundCount) * 100) : 0;
 
   return (
     <main className="container">
       <SectionNav />
 
+      {/* Quick Category Pills for All IELTS Task 1 Formats */}
+      <section className="categories-nav" aria-label="Chọn dạng bài Listening Part 1">
+        {DRILL_MODES.map((m) => (
+          <button
+            type="button"
+            key={m.id}
+            onClick={() => selectMode(m.id)}
+            className={`category-pill ${drillType === m.id ? "active" : ""}`}
+          >
+            {m.label}
+          </button>
+        ))}
+      </section>
+
+      {/* Contextual Sub-Options for Numbers / Alphabet */}
+      {drillType === "number" && (
+        <section className="drill-subbar" aria-label="Chọn phạm vi số">
+          <span className="drill-subbar-label">Phạm vi số:</span>
+          <div className="drill-subbar-pills">
+            {NUMBER_RANGE_CONFIG.map((cfg) => (
+              <button
+                type="button"
+                key={cfg.id}
+                onClick={() => selectNumberRange(cfg.id)}
+                className={`difficulty-filter-btn ${numberRange === cfg.id ? "active" : ""}`}
+              >
+                {cfg.label}
+              </button>
+            ))}
+          </div>
+        </section>
+      )}
+
+      {drillType === "alphabet" && (
+        <section className="drill-subbar" aria-label="Chọn kiểu chữ cái">
+          <span className="drill-subbar-label">Kiểu chữ:</span>
+          <div className="drill-subbar-pills">
+            <button
+              type="button"
+              onClick={() => {
+                setCaseType("lower");
+                localStorage.setItem("listen_drill_case", "lower");
+              }}
+              className={`difficulty-filter-btn ${caseType === "lower" ? "active" : ""}`}
+            >
+              abc (Chữ thường)
+            </button>
+            <button
+              type="button"
+              onClick={() => {
+                setCaseType("upper");
+                localStorage.setItem("listen_drill_case", "upper");
+              }}
+              className={`difficulty-filter-btn ${caseType === "upper" ? "active" : ""}`}
+            >
+              ABC (Chữ hoa)
+            </button>
+          </div>
+        </section>
+      )}
+
       <section className="listen-drill-container">
         <div className="listen-header-row">
           <div className="listen-title-group">
-            <button type="button" className="listen-icon-badge" onClick={() => speakTarget()} title="Bấm để nghe" aria-label="Nghe lại">
+            <button
+              type="button"
+              className="listen-icon-badge"
+              onClick={() => speakCurrent(false)}
+              title="Bấm để nghe"
+              aria-label="Nghe lại"
+            >
               <Volume2Icon size={22} />
             </button>
             <div>
-              <h1 className="listen-main-title">Listen &amp; Find</h1>
-              <p className="listen-sub-title">
-                {drillType === "alphabet" ? "Nghe chữ cái và chọn nhanh ký tự đúng." : "Nghe số đếm và chọn nhanh số đúng."}
-              </p>
+              <h1 className="listen-main-title">{activeModeMeta.label}</h1>
+              <p className="listen-sub-title">{activeModeMeta.desc}</p>
             </div>
           </div>
 
@@ -360,7 +563,9 @@ export default function ListenDrillPage() {
             </div>
             <div className="stat-pill">
               <span className="stat-label">FIRST TRY</span>
-              <span className="stat-number">{firstTryCount}</span>
+              <span className="stat-number">
+                {firstTryCount} ({accuracy}%)
+              </span>
             </div>
           </div>
 
@@ -368,84 +573,185 @@ export default function ListenDrillPage() {
             type="button"
             className="btn-listen-change"
             onClick={() => setShowSettingsModal(true)}
-            title="Đổi bài học & Cài đặt"
+            title="Giọng đọc, tốc độ & Đặt lại điểm"
           >
             <SlidersIcon size={15} />
-            <span>Cài đặt</span>
+            <span>Giọng &amp; Tốc độ</span>
           </button>
         </div>
 
+        {/* Central Audio Bubble */}
         <div className="listen-player-card">
+          {currentPrompt && (
+            <span className="drill-cat-badge">{currentPrompt.label}</span>
+          )}
           <button
             type="button"
             className={`listen-big-btn ${isPlaying ? "playing" : ""}`}
-            onClick={() => speakTarget()}
+            onClick={() => speakCurrent(false)}
             aria-label="Nghe lại"
           >
             <Volume2Icon size={32} />
           </button>
-          <span className="listen-btn-label" onClick={() => speakTarget()}>
-            Nghe lại
-          </span>
+          <div className="drill-audio-actions-inline">
+            <button type="button" className="btn-drill-secondary" onClick={() => speakCurrent(false)}>
+              <Volume2Icon size={14} />
+              <span>Nghe lại</span>
+            </button>
+            {!isGridMode && (
+              <button type="button" className="btn-drill-secondary" onClick={() => speakCurrent(true)}>
+                <span>Đọc chậm / Đánh vần</span>
+              </button>
+            )}
+          </div>
           <span className="listen-shortcut-hint">
-            Nhấn <b>Space</b> hoặc <b>Enter</b> trên bàn phím để nghe lại
+            {isGridMode ? (
+              <>
+                Nhấn <b>Space</b> hoặc <b>Enter</b> để nghe lại • Gõ trực tiếp chữ/số trên bàn phím
+              </>
+            ) : (
+              <>Gõ đáp án vào ô bên dưới rồi nhấn <b>Enter ↵</b> để kiểm tra</>
+            )}
           </span>
         </div>
 
-        <div className="listen-keyboard-wrapper">
-          {drillType === "number" && inputBuffer && (
-            <div className="listen-typing-indicator">
-              Đang gõ: <span className="typing-value">{inputBuffer}_</span>
-            </div>
-          )}
+        {/* MODE A: Fast Grid (Alphabet / 0-20) */}
+        {isGridMode ? (
+          <div className="listen-keyboard-wrapper">
+            {drillType === "number" && inputBuffer && (
+              <div className="listen-typing-indicator">
+                Đang gõ: <span className="typing-value">{inputBuffer}_</span>
+              </div>
+            )}
 
-          {keyboardRows.map((row, rIdx) => (
-            <div key={rIdx} className="listen-keyboard-row">
-              {row.map((item) => {
-                const isVowel = VOWELS.has(item);
-                const isTarget = item.toString().toLowerCase() === currentTarget.toString().toLowerCase();
-                const isFeedback = lastFeedback && lastFeedback.key === item;
-                const isHighlighted = showingAnswer && isTarget;
+            {keyboardRows.map((row, rIdx) => (
+              <div key={rIdx} className="listen-keyboard-row">
+                {row.map((item) => {
+                  const isVowel = VOWELS.has(item);
+                  const isTarget = item.toString().toLowerCase() === currentTarget.toString().toLowerCase();
+                  const isFeedback = lastFeedback && lastFeedback.key === item;
+                  const isHighlighted = showingAnswer && isTarget;
 
-                let stateClass = "";
-                if (isFeedback) {
-                  stateClass = lastFeedback.status === "correct" ? "btn-correct" : "btn-wrong";
-                } else if (isHighlighted) {
-                  stateClass = "btn-highlighted";
-                }
+                  let stateClass = "";
+                  if (isFeedback) {
+                    stateClass = lastFeedback.status === "correct" ? "btn-correct" : "btn-wrong";
+                  } else if (isHighlighted) {
+                    stateClass = "btn-highlighted";
+                  }
 
-                return (
-                  <button
-                    type="button"
-                    key={item}
-                    className={`listen-key-btn ${isVowel ? "is-vowel" : ""} ${stateClass}`}
-                    onClick={() => handleSelect(item)}
-                    aria-label={item}
-                  >
-                    {item}
-                  </button>
-                );
-              })}
-            </div>
-          ))}
-        </div>
+                  return (
+                    <button
+                      type="button"
+                      key={item}
+                      className={`listen-key-btn ${isVowel ? "is-vowel" : ""} ${stateClass}`}
+                      onClick={() => handleSelectGrid(item)}
+                      aria-label={item}
+                    >
+                      {item}
+                    </button>
+                  );
+                })}
+              </div>
+            ))}
+          </div>
+        ) : (
+          /* MODE B: IELTS Task 1 Dictation Input (Millions, Phone, Date, Name, Address, Word) */
+          <div className="drill-dictation-area">
+            <form onSubmit={handleDictationSubmit} className="drill-form">
+              <div className="drill-input-wrapper">
+                <input
+                  ref={dictationInputRef}
+                  type="text"
+                  className={`drill-text-input ${dictationStatus === "correct" ? "input-correct" : ""} ${
+                    dictationStatus === "wrong" ? "input-wrong" : ""
+                  }`}
+                  placeholder={
+                    currentResolvedMode === "phone"
+                      ? "Nhập số điện thoại (VD: 07700 900412)..."
+                      : currentResolvedMode === "number"
+                      ? "Nhập con số nghe được (VD: 2450000 hoặc 2,450,000)..."
+                      : currentResolvedMode === "date"
+                      ? "Nhập ngày hoặc giờ (VD: 14 October, 14/10 hoặc 9:30)..."
+                      : currentResolvedMode === "address"
+                      ? "Nhập địa chỉ hoặc postcode..."
+                      : currentResolvedMode === "name"
+                      ? "Nhập tên riêng vừa nghe đánh vần..."
+                      : "Nhập từ tiếng Anh vừa nghe..."
+                  }
+                  value={dictationInput}
+                  onChange={(e) => {
+                    setDictationInput(e.target.value);
+                    if (dictationStatus) setDictationStatus(null);
+                  }}
+                  autoFocus
+                  autoComplete="off"
+                  spellCheck="false"
+                />
+                <button type="submit" className="drill-submit-btn">
+                  Kiểm tra ↵
+                </button>
+              </div>
+
+              {dictationStatus === "correct" && currentPrompt && (
+                <div className="feedback-message feedback-success">
+                  <CheckIcon size={16} />
+                  <span>
+                    Chính xác! Đáp án: <b>{currentPrompt.display}</b>
+                  </span>
+                </div>
+              )}
+
+              {dictationStatus === "wrong" && (
+                <div className="feedback-message feedback-danger">
+                  <AlertTriangleIcon size={16} />
+                  <span>Chưa khớp, hãy bấm &quot;Đọc chậm / Đánh vần&quot; hoặc &quot;Xem đáp án&quot;.</span>
+                </div>
+              )}
+            </form>
+
+            {showingAnswer && currentPrompt && (
+              <div className="drill-revealed-box">
+                <div className="revealed-header">
+                  <span className="revealed-title">Đáp án chuẩn:</span>
+                  <span className="revealed-target">{currentPrompt.display}</span>
+                </div>
+                <p className="revealed-meaning">{currentPrompt.hint}</p>
+              </div>
+            )}
+          </div>
+        )}
 
         <div className="listen-bottom-bar">
-          <button
-            type="button"
-            className={`btn-show-me ${showingAnswer ? "active" : ""}`}
-            onClick={() => {
-              setShowingAnswer(true);
-              setHasAttemptedCurrent(true);
-            }}
-          >
-            <EyeIcon size={15} />
-            <span>Xem đáp án</span>
-          </button>
+          <div className="drill-audio-actions-inline">
+            <button
+              type="button"
+              className={`btn-show-me ${showingAnswer ? "active" : ""}`}
+              onClick={() => {
+                setShowingAnswer(true);
+                setHasAttemptedCurrent(true);
+              }}
+            >
+              <EyeIcon size={15} />
+              <span>Xem đáp án</span>
+            </button>
+
+            <button
+              type="button"
+              className="btn-drill-nav btn-drill-next"
+              onClick={() => nextTarget()}
+            >
+              <span>Câu mới</span>
+              <ArrowRightIcon size={14} />
+            </button>
+          </div>
 
           <span className="listen-keyboard-tip">
             <KeyboardIcon size={15} />
-            <span>Gõ trực tiếp chữ hoặc số trên bàn phím máy tính để trả lời nhanh.</span>
+            <span>
+              {isGridMode
+                ? "Bấm ? để xem đáp án, hoặc gõ thẳng ký tự trên bàn phím."
+                : "Đủ 7 dạng IELTS Part 1: Word, Number tới hàng triệu, Phone, Date, Name, Address."}
+            </span>
           </span>
         </div>
       </section>
@@ -456,7 +762,7 @@ export default function ListenDrillPage() {
             <div className="drill-modal-header">
               <h2>
                 <SlidersIcon size={18} />
-                <span>Cài Đặt Bài Luyện Phản Xạ</span>
+                <span>Cài Đặt Giọng Đọc &amp; Thống Kê</span>
               </h2>
               <button
                 type="button"
@@ -470,99 +776,7 @@ export default function ListenDrillPage() {
 
             <div className="drill-modal-body">
               <div className="drill-setting-group">
-                <label className="drill-setting-label">Loại bài học</label>
-                <div className="drill-option-pills">
-                  <button
-                    type="button"
-                    className={`drill-pill-btn ${drillType === "alphabet" ? "active" : ""}`}
-                    onClick={() => {
-                      setDrillType("alphabet");
-                      localStorage.setItem("listen_drill_type", "alphabet");
-                    }}
-                  >
-                    Alphabet (A–Z)
-                  </button>
-                  <button
-                    type="button"
-                    className={`drill-pill-btn ${drillType === "number" ? "active" : ""}`}
-                    onClick={() => {
-                      setDrillType("number");
-                      localStorage.setItem("listen_drill_type", "number");
-                    }}
-                  >
-                    Numbers (Số đếm)
-                  </button>
-                </div>
-              </div>
-
-              {drillType === "alphabet" && (
-                <div className="drill-setting-group">
-                  <label className="drill-setting-label">Kiểu chữ cái</label>
-                  <div className="drill-option-pills">
-                    <button
-                      type="button"
-                      className={`drill-pill-btn ${caseType === "lower" ? "active" : ""}`}
-                      onClick={() => {
-                        setCaseType("lower");
-                        localStorage.setItem("listen_drill_case", "lower");
-                      }}
-                    >
-                      abc (Chữ thường)
-                    </button>
-                    <button
-                      type="button"
-                      className={`drill-pill-btn ${caseType === "upper" ? "active" : ""}`}
-                      onClick={() => {
-                        setCaseType("upper");
-                        localStorage.setItem("listen_drill_case", "upper");
-                      }}
-                    >
-                      ABC (Chữ hoa)
-                    </button>
-                  </div>
-                </div>
-              )}
-
-              {drillType === "number" && (
-                <div className="drill-setting-group">
-                  <label className="drill-setting-label">Phạm vi số</label>
-                  <div className="drill-option-pills">
-                    <button
-                      type="button"
-                      className={`drill-pill-btn ${numberRange === "0-9" ? "active" : ""}`}
-                      onClick={() => {
-                        setNumberRange("0-9");
-                        localStorage.setItem("listen_drill_range", "0-9");
-                      }}
-                    >
-                      0 – 9
-                    </button>
-                    <button
-                      type="button"
-                      className={`drill-pill-btn ${numberRange === "1-20" ? "active" : ""}`}
-                      onClick={() => {
-                        setNumberRange("1-20");
-                        localStorage.setItem("listen_drill_range", "1-20");
-                      }}
-                    >
-                      1 – 20
-                    </button>
-                    <button
-                      type="button"
-                      className={`drill-pill-btn ${numberRange === "0-20" ? "active" : ""}`}
-                      onClick={() => {
-                        setNumberRange("0-20");
-                        localStorage.setItem("listen_drill_range", "0-20");
-                      }}
-                    >
-                      0 – 20
-                    </button>
-                  </div>
-                </div>
-              )}
-
-              <div className="drill-setting-group">
-                <label className="drill-setting-label">Giọng đọc tiếng Anh</label>
+                <label className="drill-setting-label">Giọng đọc tiếng Anh (Ưu tiên UK cho IELTS)</label>
                 <select
                   className="drill-select"
                   value={selectedVoice}
@@ -602,12 +816,9 @@ export default function ListenDrillPage() {
               <button
                 type="button"
                 className="drill-btn-done"
-                onClick={() => {
-                  setShowSettingsModal(false);
-                  nextTarget();
-                }}
+                onClick={() => setShowSettingsModal(false)}
               >
-                Hoàn tất &amp; Bắt đầu luyện
+                Đóng &amp; Tiếp tục luyện
               </button>
             </div>
           </div>
