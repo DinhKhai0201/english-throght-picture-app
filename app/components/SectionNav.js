@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import ThemeToggle from "./ThemeToggle";
+import StudyTimer from "./StudyTimer";
 import {
   HomeIcon,
   HeadphonesIcon,
@@ -51,6 +52,7 @@ export default function SectionNav() {
           );
         })}
       </nav>
+      <StudyTimer />
       <ThemeToggle />
     </div>
   );

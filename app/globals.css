@@ -285,11 +285,68 @@ select {
   font-size: 0.84rem;
 }
 
+.study-timer-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 9px 12px;
+  background-color: var(--color-card-bg);
+  color: var(--color-text-main);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-md);
+  font-size: 0.83rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  box-shadow: var(--shadow-sm);
+  transition: border-color 0.15s ease, opacity 0.2s ease;
+  flex-shrink: 0;
+  user-select: none;
+  font-variant-numeric: tabular-nums;
+}
+
+.study-timer-pill:hover {
+  border-color: var(--color-primary);
+}
+
+.study-timer-pill.is-idle {
+  opacity: 0.65;
+  color: var(--color-text-muted);
+}
+
+.study-timer-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.study-timer-dot.dot-active {
+  background-color: var(--color-success);
+  box-shadow: 0 0 0 3px var(--color-success-soft);
+}
+
+.study-timer-dot.dot-idle {
+  background-color: var(--color-text-faint);
+}
+
+.study-timer-label {
+  color: var(--color-text-muted);
+  font-size: 0.78rem;
+}
+
+.study-timer-value {
+  font-weight: 700;
+  color: var(--color-text-main);
+}
+
 @media (max-width: 640px) {
-  .theme-toggle-text {
+  .theme-toggle-text,
+  .study-timer-label {
     display: none;
   }
-  .theme-toggle-btn {
+  .theme-toggle-btn,
+  .study-timer-pill {
     padding: 9px 10px;
   }
 }
