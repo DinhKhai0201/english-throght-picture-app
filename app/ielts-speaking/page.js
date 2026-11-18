@@ -20,7 +20,7 @@ import {
   InboxIcon,
   BookOpenIcon,
 } from "../components/Icons";
-import { isTextSelected } from "../lib/uiUtils";
+import { isTextSelected, isAudioMuted } from "../lib/uiUtils";
 import rawData from "../../ielts_speaking_30_days.json";
 
 function IeltsSpeakingContent() {
@@ -108,14 +108,16 @@ function IeltsSpeakingContent() {
       }, 1000);
     } else if (timerSeconds === 0) {
       setIsTimerRunning(false);
-      try {
-        const ctx = new (window.AudioContext || window.webkitAudioContext)();
-        const osc = ctx.createOscillator();
-        osc.connect(ctx.destination);
-        osc.frequency.value = 880;
-        osc.start();
-        osc.stop(ctx.currentTime + 0.3);
-      } catch (e) {}
+      if (!isAudioMuted()) {
+        try {
+          const ctx = new (window.AudioContext || window.webkitAudioContext)();
+          const osc = ctx.createOscillator();
+          osc.connect(ctx.destination);
+          osc.frequency.value = 880;
+          osc.start();
+          osc.stop(ctx.currentTime + 0.3);
+        } catch (e) {}
+      }
     }
     return () => clearInterval(interval);
   }, [isTimerRunning, timerSeconds]);
@@ -135,6 +137,10 @@ function IeltsSpeakingContent() {
   const playSpeech = (text, id) => {
     if (typeof window === "undefined" || !window.speechSynthesis) return;
     window.speechSynthesis.cancel();
+    if (isAudioMuted()) {
+      setPlayingId(null);
+      return;
+    }
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "en-US";
     utterance.rate = speechRate;

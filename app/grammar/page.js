@@ -16,7 +16,7 @@ import {
   AlertTriangleIcon,
   AwardIcon,
 } from "../components/Icons";
-import { isTextSelected } from "../lib/uiUtils";
+import { isTextSelected, isAudioMuted } from "../lib/uiUtils";
 import rawData from "../../english_grammar_ielts8.json";
 
 const LEVEL_MAP = {
@@ -119,6 +119,10 @@ export default function GrammarPage() {
   const playSpeech = (text, id) => {
     if (typeof window === "undefined" || !window.speechSynthesis) return;
     window.speechSynthesis.cancel();
+    if (isAudioMuted()) {
+      setPlayingId(null);
+      return;
+    }
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "en-US";
     utterance.rate = speechRate;

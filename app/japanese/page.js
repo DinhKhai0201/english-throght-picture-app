@@ -18,7 +18,7 @@ import {
   LayersIcon,
   MicIcon,
 } from "../components/Icons";
-import { isTextSelected } from "../lib/uiUtils";
+import { isTextSelected, isAudioMuted } from "../lib/uiUtils";
 import rawData from "../../japanese_communication_chunks.json";
 import {
   getJaTier,
@@ -154,6 +154,10 @@ export default function JapanesePage() {
   const playSpeech = (text, id) => {
     if (typeof window === "undefined" || !window.speechSynthesis) return;
     window.speechSynthesis.cancel();
+    if (isAudioMuted()) {
+      setPlayingId(null);
+      return;
+    }
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "ja-JP";
     utterance.rate = speechRate;

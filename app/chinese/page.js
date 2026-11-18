@@ -18,7 +18,7 @@ import {
   LayersIcon,
   MicIcon,
 } from "../components/Icons";
-import { isTextSelected } from "../lib/uiUtils";
+import { isTextSelected, isAudioMuted } from "../lib/uiUtils";
 import rawData from "../../chinese_communication_chunks_v3_500plus.json";
 import {
   getZhTier,
@@ -200,6 +200,10 @@ export default function ChinesePage() {
   const playSpeech = (text, id) => {
     if (typeof window === "undefined" || !window.speechSynthesis) return;
     window.speechSynthesis.cancel();
+    if (isAudioMuted()) {
+      setPlayingId(null);
+      return;
+    }
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "zh-CN";
     utterance.rate = speechRate;

@@ -14,7 +14,7 @@ import {
   LightbulbIcon,
   CheckIcon,
 } from "../components/Icons";
-import { isTextSelected } from "../lib/uiUtils";
+import { isTextSelected, isAudioMuted } from "../lib/uiUtils";
 import rawData from "../../300_cau_tieng_anh_giao_tiep.json";
 
 const CATEGORY_MAP = {
@@ -119,6 +119,10 @@ export default function English300Page() {
   const playSpeech = (text, id) => {
     if (typeof window === "undefined" || !window.speechSynthesis) return;
     window.speechSynthesis.cancel();
+    if (isAudioMuted()) {
+      setPlayingId(null);
+      return;
+    }
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "en-US";
     utterance.rate = speechRate;

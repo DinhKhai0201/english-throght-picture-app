@@ -13,6 +13,7 @@ import {
   AlertTriangleIcon,
   ArrowRightIcon,
 } from "../components/Icons";
+import { isAudioMuted } from "../lib/uiUtils";
 import {
   NUMBER_RANGE_CONFIG,
   generateNumberPrompt,
@@ -48,7 +49,7 @@ const DRILL_MODES = [
 ];
 
 function playAudioFeedback(type) {
-  if (typeof window === "undefined" || window.__ETP_AUDIO_MUTED__) return;
+  if (typeof window === "undefined" || isAudioMuted()) return;
   try {
     const AudioContext = window.AudioContext || window.webkitAudioContext;
     if (!AudioContext) return;
@@ -172,6 +173,10 @@ export default function ListenDrillPage() {
       if (!textToSpeak) return;
 
       window.speechSynthesis.cancel();
+      if (isAudioMuted()) {
+        setIsPlaying(false);
+        return;
+      }
       const utterance = new SpeechSynthesisUtterance(textToSpeak);
       utterance.lang = "en-GB";
       utterance.rate = rateOverride || speechRate;

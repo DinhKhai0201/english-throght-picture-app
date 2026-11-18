@@ -8,6 +8,7 @@ import {
   VolumeXIcon,
   ArrowUpIcon,
 } from "./Icons";
+import { isAudioMuted } from "../lib/uiUtils";
 
 export default function FloatingControls() {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -26,25 +27,36 @@ export default function FloatingControls() {
     } catch (e) {}
 
     if (typeof window !== "undefined" && window.speechSynthesis && !window.__SPEECH_SYNTHESIS_PATCHED__) {
-      const originalSpeak = window.speechSynthesis.speak.bind(window.speechSynthesis);
-      window.speechSynthesis.speak = function (utterance) {
-        if (window.__ETP_AUDIO_MUTED__) {
-          if (utterance.onstart) {
-            try {
-              utterance.onstart(new Event("start"));
-            } catch (e) {}
-          }
-          setTimeout(() => {
-            if (utterance.onend) {
+      try {
+        const proto =
+          typeof SpeechSynthesis !== "undefined" && SpeechSynthesis.prototype
+            ? SpeechSynthesis.prototype
+            : Object.getPrototypeOf(window.speechSynthesis);
+        const origSpeak = (proto && proto.speak) || window.speechSynthesis.speak;
+
+        if (origSpeak) {
+          const wrappedSpeak = function (utterance) {
+            if (isAudioMuted()) {
+              if (utterance) utterance.volume = 0;
               try {
-                utterance.onend(new Event("end"));
+                window.speechSynthesis.cancel();
               } catch (e) {}
+              return;
             }
-          }, 80);
-          return;
+            return origSpeak.call(window.speechSynthesis, utterance);
+          };
+
+          try {
+            if (proto && proto.speak) {
+              proto.speak = wrappedSpeak;
+            }
+          } catch (e) {}
+
+          try {
+            window.speechSynthesis.speak = wrappedSpeak;
+          } catch (e) {}
         }
-        return originalSpeak(utterance);
-      };
+      } catch (e) {}
       window.__SPEECH_SYNTHESIS_PATCHED__ = true;
     }
 

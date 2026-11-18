@@ -15,10 +15,11 @@ import {
   InboxIcon,
   LightbulbIcon,
 } from "../components/Icons";
+import { isAudioMuted } from "../lib/uiUtils";
 import rawData from "../../ielts_listening_drills.json";
 
 function playAudioFeedback(type) {
-  if (typeof window === "undefined" || window.__ETP_AUDIO_MUTED__) return;
+  if (typeof window === "undefined" || isAudioMuted()) return;
   try {
     const AudioContext = window.AudioContext || window.webkitAudioContext;
     if (!AudioContext) return;
@@ -141,6 +142,10 @@ export default function IeltsListeningPage() {
       if (!it) return;
 
       window.speechSynthesis.cancel();
+      if (isAudioMuted()) {
+        setIsPlaying(false);
+        return;
+      }
       let text = it.full_tts || it.target;
       if (mode === "spelling" && it.spelling_tts) {
         text = it.spelling_tts;
