@@ -3,16 +3,29 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import ThemeToggle from "./ThemeToggle";
+import {
+  HomeIcon,
+  HeadphonesIcon,
+  TargetIcon,
+  MessageSquareIcon,
+  LayersIcon,
+  BookOpenIcon,
+  BriefcaseIcon,
+  MicIcon,
+  LanguagesIcon,
+} from "./Icons";
 
 const SECTIONS = [
-  { href: "/", label: "🏠 Trang chủ", activeClass: "active" },
-  { href: "/english-300", label: "⚡ 300 Giao Tiếp", activeClass: "active" },
-  { href: "/chunks", label: "🧩 1000 Chunks EN", activeClass: "active-chunks" },
-  { href: "/ielts-words", label: "🎯 IELTS Words", activeClass: "active-ielts" },
-  { href: "/interview-qa", label: "💼 500 Q&A Phỏng Vấn", activeClass: "active-interview" },
-  { href: "/ielts-speaking", label: "🎙️ IELTS Speaking 30D", activeClass: "active-speaking" },
-  { href: "/chinese", label: "🇨🇳 500 Chunks Tiếng Trung", activeClass: "active-chinese" },
-  { href: "/japanese", label: "🇯🇵 300 Chunks Tiếng Nhật", activeClass: "active-japanese" },
+  { href: "/", label: "Trang chủ", Icon: HomeIcon },
+  { href: "/listen-drill", label: "Listen & Find", Icon: HeadphonesIcon },
+  { href: "/ielts-listening", label: "IELTS Listening", Icon: TargetIcon },
+  { href: "/english-300", label: "300 Giao Tiếp", Icon: MessageSquareIcon },
+  { href: "/chunks", label: "1000 Chunks EN", Icon: LayersIcon },
+  { href: "/ielts-words", label: "IELTS Words", Icon: BookOpenIcon },
+  { href: "/interview-qa", label: "500 Q&A Dev", Icon: BriefcaseIcon },
+  { href: "/ielts-speaking", label: "Speaking 30D", Icon: MicIcon },
+  { href: "/chinese", label: "500 Chunks ZH", Icon: LanguagesIcon },
+  { href: "/japanese", label: "300 Chunks JA", Icon: LanguagesIcon },
 ];
 
 export default function SectionNav() {
@@ -20,16 +33,18 @@ export default function SectionNav() {
 
   return (
     <div className="section-nav-wrapper">
-      <nav className="section-nav-bar">
-        {SECTIONS.map((sec) => {
-          const isActive = pathname === sec.href;
+      <nav className="section-nav-bar" aria-label="Điều hướng phân hệ học tập">
+        {SECTIONS.map(({ href, label, Icon }) => {
+          const isActive = pathname === href;
           return (
             <Link
-              key={sec.href}
-              href={sec.href}
-              className={`section-nav-link ${isActive ? sec.activeClass : ""}`}
+              key={href}
+              href={href}
+              className={`section-nav-link ${isActive ? "active" : ""}`}
+              aria-current={isActive ? "page" : undefined}
             >
-              {sec.label}
+              <Icon size={15} />
+              <span>{label}</span>
             </Link>
           );
         })}
@@ -38,4 +53,3 @@ export default function SectionNav() {
     </div>
   );
 }
-

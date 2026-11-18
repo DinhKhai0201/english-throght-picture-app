@@ -1,10 +1,23 @@
 "use client";
 
 import { useState, useEffect, useMemo, Suspense } from "react";
-import Link from "next/link";
 import SectionNav from "../components/SectionNav";
 import LessonMode from "../components/LessonMode";
 import { useSearchParams } from "next/navigation";
+import {
+  SearchIcon,
+  XIcon,
+  Volume2Icon,
+  RotateCcwIcon,
+  BookOpenIcon,
+  ListIcon,
+  InboxIcon,
+  LightbulbIcon,
+  CheckIcon,
+  ArrowLeftIcon,
+  ArrowRightIcon,
+} from "../components/Icons";
+import { isTextSelected } from "../lib/uiUtils";
 import rawData from "../../interview_500_qa.json";
 
 const ITEMS_PER_PAGE = 15;
@@ -12,20 +25,16 @@ const ITEMS_PER_PAGE = 15;
 function InterviewQAContent() {
   const searchParams = useSearchParams();
 
-  // Flatten all questions
   const allQuestions = useMemo(() => {
     const list = [];
     if (rawData.parts) {
       rawData.parts.forEach((p) => {
-        if (p.questions) {
-          list.push(...p.questions);
-        }
+        if (p.questions) list.push(...p.questions);
       });
     }
     return list;
   }, []);
 
-  // Read initial states from URL query params
   const initialPart = searchParams.get("part") || "all";
   const initialFilter = searchParams.get("filter") || "all";
   const initialQuery = searchParams.get("q") || "";
@@ -55,7 +64,6 @@ function InterviewQAContent() {
     return "browse";
   });
 
-  // Synchronize URL
   const updateUrl = (overrides = {}) => {
     if (typeof window === "undefined") return;
     const url = new URL(window.location.href);
@@ -80,7 +88,6 @@ function InterviewQAContent() {
     window.history.replaceState(null, "", url.toString());
   };
 
-  // Sync state when browser Back/Forward is clicked
   useEffect(() => {
     const pPart = searchParams.get("part") || "all";
     const f = searchParams.get("filter") || "all";
@@ -128,7 +135,6 @@ function InterviewQAContent() {
     }
   };
 
-  // Initialize Speech Voices
   useEffect(() => {
     if (typeof window !== "undefined" && window.speechSynthesis) {
       const updateVoices = () => {
@@ -151,25 +157,20 @@ function InterviewQAContent() {
     }
   }, []);
 
-  // Load progress from localStorage
   useEffect(() => {
     if (typeof window !== "undefined") {
       const stored = localStorage.getItem("interview_qa_progress");
       if (stored) {
         try {
           setLearnedIds(new Set(JSON.parse(stored)));
-        } catch (e) {
-          console.error("Error loading interview progress", e);
-        }
+        } catch (e) {}
       }
 
       const storedCounts = localStorage.getItem("interview_qa_study_counts");
       if (storedCounts) {
         try {
           setStudyCounts(JSON.parse(storedCounts));
-        } catch (e) {
-          console.error("Error loading interview study counts", e);
-        }
+        } catch (e) {}
       }
 
       setIsLoaded(true);
@@ -178,11 +179,8 @@ function InterviewQAContent() {
 
   const toggleLearned = (id) => {
     const next = new Set(learnedIds);
-    if (next.has(id)) {
-      next.delete(id);
-    } else {
-      next.add(id);
-    }
+    if (next.has(id)) next.delete(id);
+    else next.add(id);
     setLearnedIds(next);
     localStorage.setItem("interview_qa_progress", JSON.stringify(Array.from(next)));
   };
@@ -206,44 +204,33 @@ function InterviewQAContent() {
 
   const playSpeech = (text, id) => {
     if (typeof window === "undefined" || !window.speechSynthesis) return;
-
     window.speechSynthesis.cancel();
-
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "en-US";
     utterance.rate = speechRate;
-
     if (selectedVoice) {
       const voiceObj = voices.find((v) => v.name === selectedVoice);
-      if (voiceObj) {
-        utterance.voice = voiceObj;
-      }
+      if (voiceObj) utterance.voice = voiceObj;
     }
-
     utterance.onstart = () => setPlayingId(id);
     utterance.onend = () => setPlayingId(null);
     utterance.onerror = () => setPlayingId(null);
-
     window.speechSynthesis.speak(utterance);
   };
 
-  // Filter questions
   const filteredQuestions = useMemo(() => {
     return allQuestions.filter((item) => {
-      // Filter part
       const matchesPart =
         activePart === "all" ||
         (activePart === "1" && item.part === 1) ||
         (activePart === "2" && item.part === 2);
 
-      // Filter learned
       const isLearned = learnedIds.has(item.id);
       const matchesFilterType =
         filterType === "all" ||
         (filterType === "learned" && isLearned) ||
         (filterType === "unlearned" && !isLearned);
 
-      // Search query
       const query = searchQuery.trim().toLowerCase();
       const matchesSearch =
         query === "" ||
@@ -251,9 +238,7 @@ function InterviewQAContent() {
         item.question_vi.toLowerCase().includes(query) ||
         (item.answers &&
           item.answers.some(
-            (a) =>
-              a.answer_en.toLowerCase().includes(query) ||
-              a.answer_vi.toLowerCase().includes(query)
+            (a) => a.answer_en.toLowerCase().includes(query) || a.answer_vi.toLowerCase().includes(query)
           ));
 
       return matchesPart && matchesFilterType && matchesSearch;
@@ -280,358 +265,295 @@ function InterviewQAContent() {
   if (!isLoaded) {
     return (
       <div className="loading-screen">
-        <div className="spinner"></div>
+        <div className="spinner" />
         <p>Đang tải dữ liệu phỏng vấn tiếng Anh...</p>
       </div>
     );
   }
 
+  const renderQuestionCard = (q) => {
+    const isLearned = learnedIds.has(q.id);
+    const isPlayingQ = playingId === q.id;
+    return (
+      <article key={q.id} className={`sentence-card ${isLearned ? "learned" : ""} ${isPlayingQ ? "playing" : ""}`}>
+        <div className="card-top">
+          <span className="card-index">
+            {q.part === 1 ? `Phần 1 • Câu ${q.question_number}` : `Phần 2 • Câu ${q.question_number}`}
+          </span>
+          <span className="card-category">{q.part === 1 ? "Nhà tuyển dụng hỏi" : "Ứng viên hỏi"}</span>
+        </div>
+
+        <div
+          className="card-body"
+          onClick={() => {
+            if (isTextSelected()) return;
+            playSpeech(q.question_en, q.id);
+            incrementStudyCount(q.id);
+          }}
+        >
+          <div className="english-wrapper">
+            <h2 className="english-text english-text--question">{q.question_en}</h2>
+            <button type="button" className="play-button" aria-label="Nghe câu hỏi">
+              <Volume2Icon size={18} className={isPlayingQ ? "playing-animation" : ""} />
+            </button>
+          </div>
+          <p className="vietnamese-text vietnamese-text--question">{q.question_vi}</p>
+        </div>
+
+        {q.answers && q.answers.length > 0 && (
+          <div className="interview-answers-section">
+            <div className="interview-answers-heading">
+              {q.answers.length > 1
+                ? `Các phương án trả lời gợi ý (${q.answers.length})`
+                : "Câu trả lời mẫu (Web Developer)"}
+            </div>
+            <div className="interview-answers-list">
+              {q.answers.map((ans, aIdx) => {
+                const isPlayingA = playingId === `${q.id}_ans_${aIdx}`;
+                return (
+                  <div key={aIdx} className="interview-answer-item">
+                    <div className="interview-answer-head">
+                      <span className="interview-option-badge">
+                        {q.answers.length > 1 ? `Phương án ${aIdx + 1}` : "Web Developer Answer"}
+                      </span>
+                      <button
+                        type="button"
+                        className={`play-button play-button--sm ${isPlayingA ? "playing" : ""}`}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          playSpeech(ans.answer_en, `${q.id}_ans_${aIdx}`);
+                          incrementStudyCount(q.id);
+                        }}
+                        aria-label="Nghe câu trả lời này"
+                      >
+                        <Volume2Icon size={15} className={isPlayingA ? "playing-animation" : ""} />
+                      </button>
+                    </div>
+                    <p
+                      className="interview-answer-en"
+                      onClick={() => {
+                        if (isTextSelected()) return;
+                        playSpeech(ans.answer_en, `${q.id}_ans_${aIdx}`);
+                        incrementStudyCount(q.id);
+                      }}
+                    >
+                      {ans.answer_en}
+                    </p>
+                    <p className="interview-answer-vi">{ans.answer_vi}</p>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
+        <div className="card-footer">
+          <label className="checkbox-container">
+            <input type="checkbox" checked={isLearned} onChange={() => toggleLearned(q.id)} />
+            <span className="checkmark" />
+            <span className="checkbox-label">
+              {isLearned ? (
+                <span className="learned-label-inline">
+                  <CheckIcon size={14} /> Đã thuộc
+                </span>
+              ) : (
+                "Đánh dấu đã thuộc"
+              )}
+            </span>
+          </label>
+          <div className="study-counter" title="Số lần luyện tập">
+            <span className="counter-num">{studyCounts[q.id] || 0}</span>
+          </div>
+        </div>
+      </article>
+    );
+  };
+
   return (
     <main className="container">
-      {/* Multi-Section Navigation Bar */}
       <SectionNav />
 
-      {/* Study Mode Toggle */}
-      <div className="mode-toggle-strip">
+      <div className="mode-toggle-strip" role="tablist" aria-label="Chế độ học">
         <button
+          type="button"
           className={`mode-toggle-btn ${studyMode === "browse" ? "active" : ""}`}
-          onClick={() => { setStudyMode("browse"); localStorage.setItem("interview_qa_study_mode", "browse"); }}
+          onClick={() => {
+            setStudyMode("browse");
+            localStorage.setItem("interview_qa_study_mode", "browse");
+          }}
         >
-          🔍 Duyệt tất cả
+          <ListIcon size={15} />
+          <span>Duyệt tất cả</span>
         </button>
         <button
+          type="button"
           className={`mode-toggle-btn ${studyMode === "lesson" ? "active" : ""}`}
-          onClick={() => { setStudyMode("lesson"); localStorage.setItem("interview_qa_study_mode", "lesson"); }}
+          onClick={() => {
+            setStudyMode("lesson");
+            localStorage.setItem("interview_qa_study_mode", "lesson");
+          }}
         >
-          📚 Học theo bài (10 câu/bài)
+          <BookOpenIcon size={15} />
+          <span>Học theo bài (10 câu/bài)</span>
         </button>
       </div>
 
       <header className="hero">
         <div className="hero-content">
-          <h1 style={{ background: "linear-gradient(135deg, #0284c7 0%, #2563eb 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-            💼 500 Câu Hỏi & Trả Lời Phỏng Vấn Xin Việc
-          </h1>
+          <span className="hero-eyebrow">DEV • Technical &amp; Behavioral Q&amp;A</span>
+          <h1>Phỏng Vấn Web Developer</h1>
           <p className="hero-subtitle">
-            Bộ câu hỏi phỏng vấn tiếng Anh thực chiến với câu trả lời mẫu chuyên sâu dành riêng cho Web Developer
+            Câu hỏi phỏng vấn tiếng Anh thực chiến kèm phương án trả lời mẫu cho Web Developer
           </p>
         </div>
 
-        {/* Progress Card */}
-        <div className="progress-card" style={{ background: "linear-gradient(135deg, #0284c7 0%, #2563eb 100%)", boxShadow: "0 10px 25px -5px rgba(2, 132, 199, 0.3)" }}>
+        <div className="progress-card">
           <div className="progress-stats">
             <span className="stat-label">Tiến trình học phỏng vấn</span>
-            <span className="stat-value">{learnedCount}/{totalCount} câu hỏi ({progressPercent}%)</span>
+            <span className="stat-value">
+              {learnedCount}/{totalCount} câu hỏi ({progressPercent}%)
+            </span>
           </div>
           <div className="progress-bar-container">
-            <div className="progress-bar" style={{ width: `${progressPercent}%`, backgroundColor: "#bae6fd" }}></div>
+            <div className="progress-bar" style={{ width: `${progressPercent}%` }} />
           </div>
           <div className="progress-actions">
-            <button onClick={resetProgress} className="btn-reset" title="Xóa toàn bộ tiến trình học">
-              🔄 Reset tiến trình
+            <button type="button" onClick={resetProgress} className="btn-reset" title="Xóa toàn bộ tiến trình học">
+              <RotateCcwIcon size={14} />
+              <span>Reset tiến trình</span>
             </button>
           </div>
         </div>
       </header>
 
-      {/* Control Panel */}
-      <section className="control-panel" style={{ display: studyMode === "lesson" ? "none" : undefined }}>
-        <div className="search-box">
-          <span className="search-icon">🔍</span>
-          <input
-            type="text"
-            placeholder="Tìm theo câu hỏi, câu trả lời tiếng Anh hoặc tiếng Việt..."
-            value={searchQuery}
-            onChange={(e) => handleSearchChange(e.target.value)}
-          />
-          {searchQuery && (
-            <button onClick={() => handleSearchChange("")} className="clear-search">✕</button>
-          )}
-        </div>
-
-        <div className="tts-controls">
-          <div className="control-group">
-            <label htmlFor="voice-select">Giọng đọc tiếng Anh:</label>
-            <select
-              id="voice-select"
-              value={selectedVoice}
-              onChange={(e) => setSelectedVoice(e.target.value)}
-            >
-              {voices.map((v) => (
-                <option key={v.name} value={v.name}>
-                  {v.name} ({v.lang})
-                </option>
-              ))}
-              {voices.length === 0 && <option value="">Mặc định hệ thống</option>}
-            </select>
-          </div>
-
-          <div className="control-group">
-            <label htmlFor="rate-range">Tốc độ ({speechRate}x):</label>
-            <input
-              id="rate-range"
-              type="range"
-              min="0.5"
-              max="1.5"
-              step="0.05"
-              value={speechRate}
-              onChange={(e) => setSpeechRate(parseFloat(e.target.value))}
-            />
-          </div>
-        </div>
-      </section>
-
-      {/* Part Navigation */}
-      <section className="categories-nav" style={{ display: studyMode === "lesson" ? "none" : undefined }}>
-        <button
-          onClick={() => handlePartChange("all")}
-          className={`category-pill ${activePart === "all" ? "active" : ""}`}
-          style={activePart === "all" ? { backgroundColor: "#0284c7", borderColor: "#0284c7" } : {}}
-        >
-          📂 Tất cả ({totalCount} câu hỏi)
-        </button>
-        <button
-          onClick={() => handlePartChange("1")}
-          className={`category-pill ${activePart === "1" ? "active" : ""}`}
-          style={activePart === "1" ? { backgroundColor: "#0284c7", borderColor: "#0284c7" } : {}}
-        >
-          👔 Phần I: Nhà tuyển dụng hỏi ({rawData.parts[0]?.questions.length || 128} câu • Câu trả lời chuẩn Web Dev)
-        </button>
-        <button
-          onClick={() => handlePartChange("2")}
-          className={`category-pill ${activePart === "2" ? "active" : ""}`}
-          style={activePart === "2" ? { backgroundColor: "#0284c7", borderColor: "#0284c7" } : {}}
-        >
-          🙋 Phần II: Ứng viên hỏi nhà tuyển dụng ({rawData.parts[1]?.questions.length || 27} câu hỏi hay)
-        </button>
-      </section>
-
-      {/* Filter Tabs */}
-      <div className="filter-tabs" style={{ display: studyMode === "lesson" ? "none" : undefined }}>
-        <button
-          onClick={() => handleFilterChange("all")}
-          className={`filter-tab ${filterType === "all" ? "active" : ""}`}
-          style={filterType === "all" ? { color: "#0284c7" } : {}}
-        >
-          🎯 Tất cả ({filteredQuestions.length})
-        </button>
-        <button
-          onClick={() => handleFilterChange("unlearned")}
-          className={`filter-tab ${filterType === "unlearned" ? "active" : ""}`}
-          style={filterType === "unlearned" ? { color: "#0284c7" } : {}}
-        >
-          📖 Chưa học ({allQuestions.filter((q) => !learnedIds.has(q.id)).length})
-        </button>
-        <button
-          onClick={() => handleFilterChange("learned")}
-          className={`filter-tab ${filterType === "learned" ? "active" : ""}`}
-          style={filterType === "learned" ? { color: "#0284c7" } : {}}
-        >
-          ✅ Đã thuộc ({learnedIds.size})
-        </button>
-      </div>
-
-      {/* Questions List */}
-      {studyMode === "lesson" ? (
-        <LessonMode
-          items={allQuestions}
-          storageKey="interview_qa"
-          learnedIds={learnedIds}
-          renderItem={(q) => {
-            const isLearned = learnedIds.has(q.id);
-            const isPlayingQ = playingId === q.id;
-            return (
-              <article key={q.id} className={`sentence-card ${isLearned ? "learned" : ""} ${isPlayingQ ? "playing" : ""}`} style={isPlayingQ ? { borderColor: "#0284c7" } : {}}>
-                <div className="card-top">
-                  <span className="card-index" style={{ color: "#0284c7", backgroundColor: "rgba(2, 132, 199, 0.1)" }}>
-                    #{q.part === 1 ? `Phần 1 - Câu ${q.question_number}` : `Phần 2 - Câu ${q.question_number}`}
-                  </span>
-                  <span className="card-category">{q.part === 1 ? "Nhà tuyển dụng hỏi" : "Ứng viên hỏi"}</span>
-                </div>
-                <div className="card-body" onClick={() => { playSpeech(q.question_en, q.id); incrementStudyCount(q.id); }}>
-                  <div className="english-wrapper">
-                    <h2 className="english-text" style={{ fontSize: "1.45rem", color: "#0f172a" }}>{q.question_en}</h2>
-                    <button className="play-button" aria-label="Nghe câu hỏi">
-                      {isPlayingQ ? <span className="playing-animation">🔊</span> : <span className="play-icon">🗣️</span>}
-                    </button>
-                  </div>
-                  <p className="vietnamese-text" style={{ fontSize: "1.05rem", color: "#475569", fontWeight: "600" }}>{q.question_vi}</p>
-                </div>
-                {q.answers && q.answers.length > 0 && (
-                  <div style={{ marginTop: "12px", borderTop: "1px dashed var(--color-border)", paddingTop: "12px" }}>
-                    <div style={{ fontSize: "0.85rem", fontWeight: "700", color: "#0284c7", textTransform: "uppercase", marginBottom: "8px" }}>
-                      {q.answers.length > 1 ? `💡 Các phương án trả lời gợi ý (${q.answers.length}):` : "💻 Câu trả lời mẫu (Web Developer):"}
-                    </div>
-                    <div className="interview-answers-list">
-                      {q.answers.map((ans, aIdx) => {
-                        const isPlayingA = playingId === `${q.id}_ans_${aIdx}`;
-                        return (
-                          <div key={aIdx} className="interview-answer-item">
-                            <div className="interview-answer-head">
-                              <span className="interview-option-badge">
-                                {q.answers.length > 1 ? `Phương án ${aIdx + 1}` : "💻 Web Developer Answer"}
-                              </span>
-                              <button className="play-button" style={{ width: "32px", height: "32px", fontSize: "0.95rem" }}
-                                onClick={(e) => { e.stopPropagation(); playSpeech(ans.answer_en, `${q.id}_ans_${aIdx}`); incrementStudyCount(q.id); }} aria-label="Nghe câu trả lời này">
-                                {isPlayingA ? "🔊" : "🗣️"}
-                              </button>
-                            </div>
-                            <p className="interview-answer-en" onClick={() => { playSpeech(ans.answer_en, `${q.id}_ans_${aIdx}`); incrementStudyCount(q.id); }}>{ans.answer_en}</p>
-                            <p className="interview-answer-vi">{ans.answer_vi}</p>
-                          </div>
-                        );
-                      })}
-                    </div>
-                  </div>
-                )}
-                <div className="card-footer">
-                  <label className="checkbox-container">
-                    <input type="checkbox" checked={isLearned} onChange={() => toggleLearned(q.id)} />
-                    <span className="checkmark"></span>
-                    <span className="checkbox-label">{isLearned ? "Đã thuộc 🎉" : "Đánh dấu đã thuộc"}</span>
-                  </label>
-                  <div className="study-counter" style={{ color: "#0284c7", backgroundColor: "rgba(2, 132, 199, 0.1)" }}>
-                    <span className="counter-num">{studyCounts[q.id] || 0}</span>
-                  </div>
-                </div>
-              </article>
-            );
-          }}
-        />
-      ) : (
-      <section className="sentences-list">
-        {paginatedQuestions.map((q) => {
-          const isLearned = learnedIds.has(q.id);
-          const isPlayingQ = playingId === q.id;
-
-          return (
-            <article
-              key={q.id}
-              className={`sentence-card ${isLearned ? "learned" : ""} ${isPlayingQ ? "playing" : ""}`}
-              style={isPlayingQ ? { borderColor: "#0284c7" } : {}}
-            >
-              <div className="card-top">
-                <span className="card-index" style={{ color: "#0284c7", backgroundColor: "rgba(2, 132, 199, 0.1)" }}>
-                  #{q.part === 1 ? `Phần 1 - Câu ${q.question_number}` : `Phần 2 - Câu ${q.question_number}`}
-                </span>
-                <span className="card-category">
-                  {q.part === 1 ? "Nhà tuyển dụng hỏi" : "Ứng viên hỏi"}
-                </span>
-              </div>
-
-              <div
-                className="card-body"
-                onClick={() => {
-                  playSpeech(q.question_en, q.id);
-                  incrementStudyCount(q.id);
-                }}
-              >
-                <div className="english-wrapper">
-                  <h2 className="english-text" style={{ fontSize: "1.45rem", color: "#0f172a" }}>
-                    {q.question_en}
-                  </h2>
-                  <button className="play-button" aria-label="Nghe câu hỏi">
-                    {isPlayingQ ? (
-                      <span className="playing-animation">🔊</span>
-                    ) : (
-                      <span className="play-icon">🗣️</span>
-                    )}
-                  </button>
-                </div>
-
-                <p className="vietnamese-text" style={{ fontSize: "1.05rem", color: "#475569", fontWeight: "600" }}>
-                  {q.question_vi}
-                </p>
-              </div>
-
-              {/* Answers Section */}
-              {q.answers && q.answers.length > 0 && (
-                <div style={{ marginTop: "12px", borderTop: "1px dashed var(--color-border)", paddingTop: "12px" }}>
-                  <div style={{ fontSize: "0.85rem", fontWeight: "700", color: "#0284c7", textTransform: "uppercase", marginBottom: "8px" }}>
-                    {q.answers.length > 1 ? `💡 Các phương án trả lời gợi ý (${q.answers.length}):` : "💻 Câu trả lời mẫu (Web Developer):"}
-                  </div>
-                  <div className="interview-answers-list">
-                    {q.answers.map((ans, aIdx) => {
-                      const isPlayingA = playingId === `${q.id}_ans_${aIdx}`;
-                      return (
-                        <div key={aIdx} className="interview-answer-item">
-                          <div className="interview-answer-head">
-                            <span className="interview-option-badge">
-                              {q.answers.length > 1 ? `Phương án ${aIdx + 1}` : "💻 Web Developer Answer"}
-                            </span>
-                            <button
-                              className="play-button"
-                              style={{ width: "32px", height: "32px", fontSize: "0.95rem" }}
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                playSpeech(ans.answer_en, `${q.id}_ans_${aIdx}`);
-                                incrementStudyCount(q.id);
-                              }}
-                              aria-label="Nghe câu trả lời này"
-                            >
-                              {isPlayingA ? "🔊" : "🗣️"}
-                            </button>
-                          </div>
-
-                          <p
-                            className="interview-answer-en"
-                            onClick={() => {
-                              playSpeech(ans.answer_en, `${q.id}_ans_${aIdx}`);
-                              incrementStudyCount(q.id);
-                            }}
-                          >
-                            {ans.answer_en}
-                          </p>
-                          <p className="interview-answer-vi">
-                            {ans.answer_vi}
-                          </p>
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
+      {studyMode !== "lesson" && (
+        <>
+          <section className="control-panel">
+            <div className="search-box">
+              <span className="search-icon">
+                <SearchIcon size={16} />
+              </span>
+              <input
+                type="text"
+                placeholder="Tìm theo câu hỏi, câu trả lời tiếng Anh hoặc tiếng Việt..."
+                value={searchQuery}
+                onChange={(e) => handleSearchChange(e.target.value)}
+              />
+              {searchQuery && (
+                <button type="button" onClick={() => handleSearchChange("")} className="clear-search" aria-label="Xóa tìm kiếm">
+                  <XIcon size={15} />
+                </button>
               )}
+            </div>
 
-              <div className="card-footer">
-                <label className="checkbox-container">
-                  <input
-                    type="checkbox"
-                    checked={isLearned}
-                    onChange={() => toggleLearned(q.id)}
-                  />
-                  <span className="checkmark"></span>
-                  <span className="checkbox-label">{isLearned ? "Đã thuộc 🎉" : "Đánh dấu đã thuộc"}</span>
-                </label>
-
-                <div className="study-counter" style={{ color: "#0284c7", backgroundColor: "rgba(2, 132, 199, 0.1)" }}>
-                  <span className="counter-num">{studyCounts[q.id] || 0}</span>
-                </div>
+            <div className="tts-controls">
+              <div className="control-group">
+                <label htmlFor="voice-select">Giọng đọc tiếng Anh</label>
+                <select id="voice-select" value={selectedVoice} onChange={(e) => setSelectedVoice(e.target.value)}>
+                  {voices.map((v) => (
+                    <option key={v.name} value={v.name}>
+                      {v.name} ({v.lang})
+                    </option>
+                  ))}
+                  {voices.length === 0 && <option value="">Mặc định hệ thống</option>}
+                </select>
               </div>
-            </article>
-          );
-        })}
 
-        {filteredQuestions.length === 0 && (
-          <div className="empty-state">
-            <span className="empty-icon">🏜️</span>
-            <p>Không tìm thấy câu hỏi phỏng vấn nào phù hợp với bộ lọc hiện tại.</p>
+              <div className="control-group">
+                <label htmlFor="rate-range">Tốc độ ({speechRate}x)</label>
+                <input
+                  id="rate-range"
+                  type="range"
+                  min="0.5"
+                  max="1.5"
+                  step="0.05"
+                  value={speechRate}
+                  onChange={(e) => setSpeechRate(parseFloat(e.target.value))}
+                />
+              </div>
+            </div>
+          </section>
+
+          <section className="categories-nav">
+            <button
+              type="button"
+              onClick={() => handlePartChange("all")}
+              className={`category-pill ${activePart === "all" ? "active" : ""}`}
+            >
+              Tất cả ({totalCount} câu hỏi)
+            </button>
+            <button
+              type="button"
+              onClick={() => handlePartChange("1")}
+              className={`category-pill ${activePart === "1" ? "active" : ""}`}
+            >
+              Phần I: Nhà tuyển dụng hỏi ({rawData.parts[0]?.questions.length || 128})
+            </button>
+            <button
+              type="button"
+              onClick={() => handlePartChange("2")}
+              className={`category-pill ${activePart === "2" ? "active" : ""}`}
+            >
+              Phần II: Ứng viên hỏi ({rawData.parts[1]?.questions.length || 27})
+            </button>
+          </section>
+
+          <div className="filter-tabs">
+            <button
+              type="button"
+              onClick={() => handleFilterChange("all")}
+              className={`filter-tab ${filterType === "all" ? "active" : ""}`}
+            >
+              Tất cả ({filteredQuestions.length})
+            </button>
+            <button
+              type="button"
+              onClick={() => handleFilterChange("unlearned")}
+              className={`filter-tab ${filterType === "unlearned" ? "active" : ""}`}
+            >
+              Chưa học ({allQuestions.filter((q) => !learnedIds.has(q.id)).length})
+            </button>
+            <button
+              type="button"
+              onClick={() => handleFilterChange("learned")}
+              className={`filter-tab ${filterType === "learned" ? "active" : ""}`}
+            >
+              Đã thuộc ({learnedIds.size})
+            </button>
           </div>
-        )}
-      </section>
+        </>
       )}
 
-      {/* Pagination Controls */}
+      {studyMode === "lesson" ? (
+        <LessonMode items={allQuestions} storageKey="interview_qa" learnedIds={learnedIds} renderItem={renderQuestionCard} />
+      ) : (
+        <section className="sentences-list">
+          {paginatedQuestions.map(renderQuestionCard)}
+
+          {filteredQuestions.length === 0 && (
+            <div className="empty-state">
+              <span className="empty-icon">
+                <InboxIcon size={36} />
+              </span>
+              <p>Không tìm thấy câu hỏi phỏng vấn nào phù hợp với bộ lọc hiện tại.</p>
+            </div>
+          )}
+        </section>
+      )}
+
       {totalPages > 1 && studyMode !== "lesson" && (
         <div className="pagination-controls">
           <button
+            type="button"
             onClick={() => changePage(currentPage - 1)}
             disabled={currentPage <= 1}
             className="pagination-btn"
           >
-            ← Trang trước
+            <ArrowLeftIcon size={14} />
+            <span>Trang trước</span>
           </button>
 
-          <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+          <div className="pagination-jump">
             <span className="pagination-info">Trang</span>
             <input
               type="number"
@@ -650,31 +572,31 @@ function InterviewQAContent() {
                 if (!isNaN(p)) changePage(p);
                 else setPageInput(currentPage.toString());
               }}
-              style={{
-                width: "56px",
-                textAlign: "center",
-                padding: "6px 4px",
-                border: "1px solid var(--color-border)",
-                borderRadius: "6px",
-                fontWeight: "700",
-                fontSize: "0.9rem"
-              }}
+              className="pagination-input"
+              aria-label="Số trang"
             />
-            <span className="pagination-info">/ {totalPages} ({filteredQuestions.length} câu)</span>
+            <span className="pagination-info">
+              / {totalPages} ({filteredQuestions.length} câu)
+            </span>
           </div>
 
           <button
+            type="button"
             onClick={() => changePage(currentPage + 1)}
             disabled={currentPage >= totalPages}
             className="pagination-btn"
           >
-            Trang sau →
+            <span>Trang sau</span>
+            <ArrowRightIcon size={14} />
           </button>
         </div>
       )}
 
       <footer className="app-footer">
-        <p>💡 Tip: Bấm vào câu hỏi hoặc câu trả lời mẫu để nghe phát âm và ngữ điệu trả lời tự nhiên.</p>
+        <p>
+          <LightbulbIcon size={15} />
+          <span>Tip: Bấm vào câu hỏi hoặc câu trả lời mẫu để nghe phát âm và ngữ điệu trả lời tự nhiên.</span>
+        </p>
       </footer>
     </main>
   );
@@ -682,14 +604,15 @@ function InterviewQAContent() {
 
 export default function InterviewQAPage() {
   return (
-    <Suspense fallback={
-      <div className="loading-screen">
-        <div className="spinner"></div>
-        <p>Đang tải dữ liệu phỏng vấn tiếng Anh...</p>
-      </div>
-    }>
+    <Suspense
+      fallback={
+        <div className="loading-screen">
+          <div className="spinner" />
+          <p>Đang tải dữ liệu phỏng vấn tiếng Anh...</p>
+        </div>
+      }
+    >
       <InterviewQAContent />
     </Suspense>
   );
 }
-

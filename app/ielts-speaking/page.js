@@ -1,32 +1,47 @@
 "use client";
 
 import { useState, useEffect, useMemo, Suspense } from "react";
-import Link from "next/link";
 import SectionNav from "../components/SectionNav";
+import {
+  Volume2Icon,
+  RotateCcwIcon,
+  SearchIcon,
+  XIcon,
+  CheckIcon,
+  ClockIcon,
+  MicIcon,
+  LayersIcon,
+  LightbulbIcon,
+  TargetIcon,
+  AwardIcon,
+  AlertTriangleIcon,
+  ArrowLeftIcon,
+  ArrowRightIcon,
+  InboxIcon,
+  BookOpenIcon,
+} from "../components/Icons";
+import { isTextSelected } from "../lib/uiUtils";
 import rawData from "../../ielts_speaking_30_days.json";
 
 function IeltsSpeakingContent() {
-  const [activeTab, setActiveTab] = useState("plan"); // "plan" | "chunks" | "toolkit"
+  const [activeTab, setActiveTab] = useState("plan");
   const [selectedDayNum, setSelectedDayNum] = useState(1);
-  const [selectedWeek, setSelectedWeek] = useState("all"); // "all" | 1 | 2 | 3 | 4
+  const [selectedWeek, setSelectedWeek] = useState("all");
   const [completedDays, setCompletedDays] = useState(new Set());
   const [learnedChunkIds, setLearnedChunkIds] = useState(new Set());
   const [searchQuery, setSearchQuery] = useState("");
-  const [chunkFilter, setChunkFilter] = useState("all"); // "all" | "unlearned" | "learned"
+  const [chunkFilter, setChunkFilter] = useState("all");
   const [studyCounts, setStudyCounts] = useState({});
 
-  // TTS audio state
   const [playingId, setPlayingId] = useState(null);
   const [speechRate, setSpeechRate] = useState(0.9);
   const [voices, setVoices] = useState([]);
   const [selectedVoice, setSelectedVoice] = useState("");
 
-  // Timer states for Cue Card practice (Day 21 & Day 20)
   const [timerSeconds, setTimerSeconds] = useState(null);
-  const [timerType, setTimerType] = useState(null); // "prep" (60s) | "speak" (120s)
+  const [timerType, setTimerType] = useState(null);
   const [isTimerRunning, setIsTimerRunning] = useState(false);
 
-  // Rubric scores for Day 30
   const [rubricScores, setRubricScores] = useState({
     "Fluency (Độ trôi chảy)": 4,
     "Coherence (Tính mạch lạc)": 4,
@@ -38,7 +53,6 @@ function IeltsSpeakingContent() {
 
   const [isLoaded, setIsLoaded] = useState(false);
 
-  // Initialize Speech Voices
   useEffect(() => {
     if (typeof window !== "undefined" && window.speechSynthesis) {
       const updateVoices = () => {
@@ -61,24 +75,17 @@ function IeltsSpeakingContent() {
     }
   }, []);
 
-  // Load progress from localStorage
   useEffect(() => {
     if (typeof window !== "undefined") {
       try {
         const storedDays = localStorage.getItem("ielts_speaking_completed_days");
-        if (storedDays) {
-          setCompletedDays(new Set(JSON.parse(storedDays)));
-        }
+        if (storedDays) setCompletedDays(new Set(JSON.parse(storedDays)));
 
         const storedChunks = localStorage.getItem("ielts_speaking_learned_chunks");
-        if (storedChunks) {
-          setLearnedChunkIds(new Set(JSON.parse(storedChunks)));
-        }
+        if (storedChunks) setLearnedChunkIds(new Set(JSON.parse(storedChunks)));
 
         const storedCounts = localStorage.getItem("ielts_speaking_study_counts");
-        if (storedCounts) {
-          setStudyCounts(JSON.parse(storedCounts));
-        }
+        if (storedCounts) setStudyCounts(JSON.parse(storedCounts));
 
         const storedDayNum = localStorage.getItem("ielts_speaking_current_day");
         if (storedDayNum) {
@@ -87,17 +94,12 @@ function IeltsSpeakingContent() {
         }
 
         const storedScores = localStorage.getItem("ielts_speaking_rubric_scores");
-        if (storedScores) {
-          setRubricScores(JSON.parse(storedScores));
-        }
-      } catch (e) {
-        console.error("Error loading speaking progress", e);
-      }
+        if (storedScores) setRubricScores(JSON.parse(storedScores));
+      } catch (e) {}
       setIsLoaded(true);
     }
   }, []);
 
-  // Timer effect
   useEffect(() => {
     let interval = null;
     if (isTimerRunning && timerSeconds !== null && timerSeconds > 0) {
@@ -106,7 +108,6 @@ function IeltsSpeakingContent() {
       }, 1000);
     } else if (timerSeconds === 0) {
       setIsTimerRunning(false);
-      // Play a quick browser beep if available
       try {
         const ctx = new (window.AudioContext || window.webkitAudioContext)();
         const osc = ctx.createOscillator();
@@ -133,45 +134,32 @@ function IeltsSpeakingContent() {
 
   const playSpeech = (text, id) => {
     if (typeof window === "undefined" || !window.speechSynthesis) return;
-
     window.speechSynthesis.cancel();
-
     const utterance = new SpeechSynthesisUtterance(text);
     utterance.lang = "en-US";
     utterance.rate = speechRate;
-
     if (selectedVoice) {
       const voiceObj = voices.find((v) => v.name === selectedVoice);
-      if (voiceObj) {
-        utterance.voice = voiceObj;
-      }
+      if (voiceObj) utterance.voice = voiceObj;
     }
-
     utterance.onstart = () => setPlayingId(id);
     utterance.onend = () => setPlayingId(null);
     utterance.onerror = () => setPlayingId(null);
-
     window.speechSynthesis.speak(utterance);
   };
 
   const toggleDayCompletion = (dayNum) => {
     const next = new Set(completedDays);
-    if (next.has(dayNum)) {
-      next.delete(dayNum);
-    } else {
-      next.add(dayNum);
-    }
+    if (next.has(dayNum)) next.delete(dayNum);
+    else next.add(dayNum);
     setCompletedDays(next);
     localStorage.setItem("ielts_speaking_completed_days", JSON.stringify(Array.from(next)));
   };
 
   const toggleChunkLearned = (chunkId) => {
     const next = new Set(learnedChunkIds);
-    if (next.has(chunkId)) {
-      next.delete(chunkId);
-    } else {
-      next.add(chunkId);
-    }
+    if (next.has(chunkId)) next.delete(chunkId);
+    else next.add(chunkId);
     setLearnedChunkIds(next);
     localStorage.setItem("ielts_speaking_learned_chunks", JSON.stringify(Array.from(next)));
   };
@@ -214,18 +202,15 @@ function IeltsSpeakingContent() {
     }
   };
 
-  // Days list filtered by week
   const filteredDays = useMemo(() => {
     if (selectedWeek === "all") return rawData.days;
     return rawData.days.filter((d) => d.week === parseInt(selectedWeek, 10));
   }, [selectedWeek]);
 
-  // Current selected day data
   const currentDay = useMemo(() => {
     return rawData.days.find((d) => d.day === selectedDayNum) || rawData.days[0];
   }, [selectedDayNum]);
 
-  // Flatten all chunks for Tab 2
   const allChunksList = useMemo(() => {
     const list = [];
     rawData.days.forEach((d) => {
@@ -246,7 +231,6 @@ function IeltsSpeakingContent() {
     return list;
   }, []);
 
-  // Filtered chunks for Tab 2
   const searchedChunks = useMemo(() => {
     return allChunksList.filter((item) => {
       const isLearned = learnedChunkIds.has(item.id);
@@ -266,102 +250,119 @@ function IeltsSpeakingContent() {
     });
   }, [allChunksList, chunkFilter, searchQuery, learnedChunkIds]);
 
-  const totalDays = rawData.days.length; // 30
+  const totalDays = rawData.days.length;
   const daysCompletedCount = completedDays.size;
   const daysPercent = Math.round((daysCompletedCount / totalDays) * 100);
 
-  const totalChunksCount = allChunksList.length; // 260
+  const totalChunksCount = allChunksList.length;
   const chunksLearnedCount = learnedChunkIds.size;
   const chunksPercent = Math.round((chunksLearnedCount / totalChunksCount) * 100);
 
   if (!isLoaded) {
     return (
       <div className="loading-screen">
-        <div className="spinner"></div>
+        <div className="spinner" />
         <p>Đang tải giáo trình IELTS Speaking 30 ngày...</p>
       </div>
     );
   }
 
+  const getDayTypeLabel = (type) => {
+    if (type === "checkpoint") return "Bài kiểm tra tuần";
+    if (type === "cue_cards") return "Luyện Cue Cards Part 2";
+    if (type === "mock_test") return "Thi thử Full 3 Part";
+    if (type === "assessment") return "Đánh giá 30 ngày";
+    return "Bài học Chunks";
+  };
+
+  const renderDayIcon = (type, isDone) => {
+    if (isDone) return <CheckIcon size={15} />;
+    if (type === "checkpoint") return <TargetIcon size={15} />;
+    if (type === "cue_cards") return <BookOpenIcon size={15} />;
+    if (type === "mock_test") return <AwardIcon size={15} />;
+    return <MicIcon size={15} />;
+  };
+
   return (
     <main className="container">
-      {/* Multi-Section Navigation Bar */}
       <SectionNav />
 
-      {/* Main Tab Switcher */}
-      <div className="mode-toggle-strip" style={{ marginBottom: "20px" }}>
+      <div className="mode-toggle-strip" role="tablist" aria-label="Phân mục IELTS Speaking">
         <button
+          type="button"
           className={`mode-toggle-btn ${activeTab === "plan" ? "active" : ""}`}
           onClick={() => setActiveTab("plan")}
         >
-          📅 Lộ trình 30 ngày ({daysCompletedCount}/30 hoàn thành)
+          <MicIcon size={15} />
+          <span>Lộ trình 30 ngày ({daysCompletedCount}/30)</span>
         </button>
         <button
+          type="button"
           className={`mode-toggle-btn ${activeTab === "chunks" ? "active" : ""}`}
           onClick={() => setActiveTab("chunks")}
         >
-          🧩 Kho 260 Chunks ({chunksLearnedCount}/{totalChunksCount} đã thuộc)
+          <LayersIcon size={15} />
+          <span>Kho 260 Chunks ({chunksLearnedCount}/{totalChunksCount})</span>
         </button>
         <button
+          type="button"
           className={`mode-toggle-btn ${activeTab === "toolkit" ? "active" : ""}`}
           onClick={() => setActiveTab("toolkit")}
         >
-          💡 Phương pháp & Lỗi sai kinh điển
+          <LightbulbIcon size={15} />
+          <span>Phương pháp &amp; Lỗi sai</span>
         </button>
       </div>
 
-      {/* Hero Header */}
       <header className="hero">
         <div className="hero-content">
-          <h1 style={{ background: "linear-gradient(135deg, #059669 0%, #10b981 100%)", WebkitBackgroundClip: "text", WebkitTextFillColor: "transparent" }}>
-            🎙️ IELTS Speaking — 30-Day Chunking Plan
-          </h1>
+          <span className="hero-eyebrow">IELTS • 30-Day Chunking Plan</span>
+          <h1>IELTS Speaking — 30-Day Mastery</h1>
           <p className="hero-subtitle">
-            Lộ trình 30 ngày phản xạ Chunking & phương pháp A-R-D chinh phục IELTS Speaking Band 7.0 - 8.0+
+            Lộ trình 30 ngày phản xạ Chunking &amp; phương pháp A-R-D hướng tới Band 7.0 – 8.0+
           </p>
         </div>
 
-        {/* Dual Progress Card */}
-        <div className="progress-card" style={{ background: "linear-gradient(135deg, #059669 0%, #0d9488 100%)", boxShadow: "0 10px 25px -5px rgba(5, 150, 105, 0.35)" }}>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "20px" }}>
+        <div className="progress-card">
+          <div className="speaking-dual-progress">
             <div>
               <div className="progress-stats">
                 <span className="stat-label">Tiến độ 30 ngày học</span>
-                <span className="stat-value">{daysCompletedCount}/30 ngày ({daysPercent}%)</span>
+                <span className="stat-value">
+                  {daysCompletedCount}/30 ngày ({daysPercent}%)
+                </span>
               </div>
               <div className="progress-bar-container">
-                <div className="progress-bar" style={{ width: `${daysPercent}%`, backgroundColor: "#a7f3d0" }}></div>
+                <div className="progress-bar" style={{ width: `${daysPercent}%` }} />
               </div>
             </div>
             <div>
               <div className="progress-stats">
                 <span className="stat-label">Chunks phản xạ đã thuộc</span>
-                <span className="stat-value">{chunksLearnedCount}/{totalChunksCount} cụm ({chunksPercent}%)</span>
+                <span className="stat-value">
+                  {chunksLearnedCount}/{totalChunksCount} cụm ({chunksPercent}%)
+                </span>
               </div>
               <div className="progress-bar-container">
-                <div className="progress-bar" style={{ width: `${chunksPercent}%`, backgroundColor: "#fef08a" }}></div>
+                <div className="progress-bar" style={{ width: `${chunksPercent}%` }} />
               </div>
             </div>
           </div>
 
-          <div className="progress-actions" style={{ marginTop: "12px" }}>
-            <button onClick={resetAllProgress} className="btn-reset" title="Đặt lại toàn bộ tiến trình học">
-              🔄 Reset tiến trình
+          <div className="progress-actions">
+            <button type="button" onClick={resetAllProgress} className="btn-reset" title="Đặt lại toàn bộ tiến trình học">
+              <RotateCcwIcon size={14} />
+              <span>Reset tiến trình</span>
             </button>
           </div>
         </div>
       </header>
 
-      {/* Global TTS Controls Panel */}
-      <section className="control-panel" style={{ marginBottom: "20px" }}>
-        <div className="tts-controls" style={{ width: "100%", display: "flex", justifyContent: "space-between", flexWrap: "wrap", gap: "12px" }}>
+      <section className="control-panel">
+        <div className="tts-controls speaking-tts-bar">
           <div className="control-group">
-            <label htmlFor="voice-select">Giọng đọc IELTS bản xứ:</label>
-            <select
-              id="voice-select"
-              value={selectedVoice}
-              onChange={(e) => setSelectedVoice(e.target.value)}
-            >
+            <label htmlFor="voice-select">Giọng đọc IELTS bản xứ</label>
+            <select id="voice-select" value={selectedVoice} onChange={(e) => setSelectedVoice(e.target.value)}>
               {voices.map((v) => (
                 <option key={v.name} value={v.name}>
                   {v.name} ({v.lang})
@@ -372,7 +373,7 @@ function IeltsSpeakingContent() {
           </div>
 
           <div className="control-group">
-            <label htmlFor="rate-range">Tốc độ phát âm ({speechRate}x):</label>
+            <label htmlFor="rate-range">Tốc độ phát âm ({speechRate}x)</label>
             <input
               id="rate-range"
               type="range"
@@ -385,11 +386,13 @@ function IeltsSpeakingContent() {
           </div>
 
           {timerSeconds !== null && (
-            <div className="speaking-active-timer" style={{ display: "flex", alignItems: "center", gap: "10px", padding: "6px 14px", borderRadius: "8px" }}>
-              <span className="speaking-timer-label" style={{ fontWeight: "700" }}>
-                ⏱️ {timerType === "prep" ? "Thời gian chuẩn bị (1p):" : "Thời gian nói liên tục (2p):"} {Math.floor(timerSeconds / 60)}:{(timerSeconds % 60).toString().padStart(2, "0")}
+            <div className="speaking-active-timer">
+              <ClockIcon size={16} />
+              <span className="speaking-timer-label">
+                {timerType === "prep" ? "Chuẩn bị (1p):" : "Nói liên tục (2p):"}{" "}
+                {Math.floor(timerSeconds / 60)}:{(timerSeconds % 60).toString().padStart(2, "0")}
               </span>
-              <button onClick={stopTimer} style={{ background: "#dc2626", color: "#fff", border: "none", borderRadius: "4px", padding: "4px 8px", cursor: "pointer", fontSize: "0.8rem", fontWeight: "700" }}>
+              <button type="button" onClick={stopTimer} className="speaking-timer-stop-btn">
                 Dừng
               </button>
             </div>
@@ -397,130 +400,80 @@ function IeltsSpeakingContent() {
         </div>
       </section>
 
-      {/* =========================================================================
-          TAB 1: LỘ TRÌNH 30 NGÀY (DAILY PLAN)
-          ========================================================================= */}
       {activeTab === "plan" && (
         <section>
-          {/* Week Filter Pills */}
-          <div className="categories-nav" style={{ marginBottom: "16px" }}>
+          <div className="categories-nav">
             <button
+              type="button"
               onClick={() => setSelectedWeek("all")}
               className={`category-pill ${selectedWeek === "all" ? "active" : ""}`}
-              style={selectedWeek === "all" ? { backgroundColor: "#059669", borderColor: "#059669" } : {}}
             >
-              📅 Tất cả (30 ngày)
+              Tất cả (30 ngày)
             </button>
             {rawData.weeks.map((w) => (
               <button
+                type="button"
                 key={w.week_number}
                 onClick={() => setSelectedWeek(w.week_number.toString())}
                 className={`category-pill ${selectedWeek === w.week_number.toString() ? "active" : ""}`}
-                style={selectedWeek === w.week_number.toString() ? { backgroundColor: "#059669", borderColor: "#059669" } : {}}
               >
                 Tuần {w.week_number}: {w.title_vi} ({w.day_range})
               </button>
             ))}
           </div>
 
-          {/* 30 Days Horizontal Picker Carousel / Grid */}
-          <div className="speaking-day-picker" style={{
-            display: "grid",
-            gridTemplateColumns: "repeat(auto-fill, minmax(88px, 1fr))",
-            gap: "8px",
-            marginBottom: "24px",
-            background: "var(--color-card-bg)",
-            padding: "16px",
-            borderRadius: "12px",
-            border: "1px solid var(--color-border)",
-            boxShadow: "0 2px 8px rgba(0,0,0,0.03)"
-          }}>
+          <div className="speaking-day-picker">
             {filteredDays.map((d) => {
               const isSelected = d.day === selectedDayNum;
               const isDone = completedDays.has(d.day);
               return (
                 <button
+                  type="button"
                   key={d.day}
                   onClick={() => selectDay(d.day)}
                   className={`speaking-day-btn ${isSelected ? "is-selected" : ""} ${isDone ? "is-done" : ""}`}
-                  style={{
-                    padding: "10px 4px",
-                    borderRadius: "8px",
-                    border: isSelected ? "2px solid #059669" : "1px solid var(--color-border)",
-                    background: isSelected ? "rgba(5, 150, 105, 0.15)" : isDone ? "rgba(16, 185, 129, 0.1)" : "var(--color-card-bg)",
-                    color: isSelected ? "#059669" : "var(--color-text-main)",
-                    cursor: "pointer",
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
-                    gap: "4px",
-                    transition: "all 0.15s ease",
-                    boxShadow: isSelected ? "0 4px 10px rgba(5, 150, 105, 0.15)" : "none"
-                  }}
                 >
-                  <span style={{ fontSize: "0.8rem", fontWeight: "700" }}>Ngày {d.day}</span>
-                  <span style={{ fontSize: "1.1rem" }}>{isDone ? "✅" : d.type === "checkpoint" ? "🎯" : d.type === "cue_cards" ? "🗂️" : d.type === "mock_test" ? "🏆" : "🗣️"}</span>
+                  <span className="speaking-day-num">Ngày {d.day}</span>
+                  <span className="speaking-day-icon">{renderDayIcon(d.type, isDone)}</span>
                 </button>
               );
             })}
           </div>
 
-          {/* ACTIVE DAY DETAIL VIEW */}
-          <article className="sentence-card" style={{ borderLeft: "5px solid #059669", padding: "24px" }}>
-            {/* Header: Day number, title, week badge, mark completed button */}
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "12px", borderBottom: "1px solid var(--color-border)", paddingBottom: "16px", marginBottom: "20px" }}>
+          <article className="sentence-card speaking-detail-card">
+            <div className="speaking-detail-header">
               <div>
-                <div style={{ display: "flex", alignItems: "center", gap: "10px", marginBottom: "6px" }}>
-                  <span className="speaking-header-badge" style={{ fontWeight: "800", padding: "4px 12px", borderRadius: "20px", fontSize: "0.85rem", textTransform: "uppercase" }}>
+                <div className="speaking-detail-meta">
+                  <span className="speaking-header-badge">
                     Tuần {currentDay.week} • Ngày {currentDay.day}/30
                   </span>
-                  <span style={{ fontSize: "0.85rem", color: "var(--color-text-muted)", fontWeight: "600" }}>
-                    {currentDay.type === "checkpoint" ? "🎯 Bài kiểm tra tuần" : currentDay.type === "cue_cards" ? "🗂️ Luyện Cue Cards Part 2" : currentDay.type === "mock_test" ? "🏆 Thi thử Full 3 Part" : currentDay.type === "assessment" ? "📊 Đánh giá 30 ngày" : "🗣️ Bài học Chunks"}
-                  </span>
+                  <span className="speaking-day-type">{getDayTypeLabel(currentDay.type)}</span>
                 </div>
-                <h2 style={{ fontSize: "1.6rem", color: "var(--color-text-main)", margin: "0 0 4px 0", fontWeight: "800" }}>
-                  {currentDay.title_en}
-                </h2>
-                <p style={{ fontSize: "1.1rem", color: "var(--color-text-muted)", margin: 0, fontWeight: "600" }}>
-                  {currentDay.title_vi}
-                </p>
+                <h2 className="speaking-day-title">{currentDay.title_en}</h2>
+                <p className="speaking-day-subtitle">{currentDay.title_vi}</p>
               </div>
 
-              <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-                <button
-                  onClick={() => toggleDayCompletion(currentDay.day)}
-                  style={{
-                    background: completedDays.has(currentDay.day) ? "#059669" : "var(--color-card-bg)",
-                    color: completedDays.has(currentDay.day) ? "#ffffff" : "#059669",
-                    border: "2px solid #059669",
-                    padding: "8px 16px",
-                    borderRadius: "8px",
-                    fontWeight: "700",
-                    cursor: "pointer",
-                    display: "flex",
-                    alignItems: "center",
-                    gap: "6px",
-                    transition: "all 0.2s ease"
-                  }}
-                >
-                  {completedDays.has(currentDay.day) ? "✅ Đã hoàn thành ngày này" : "⭕ Đánh dấu hoàn thành"}
-                </button>
-              </div>
+              <button
+                type="button"
+                onClick={() => toggleDayCompletion(currentDay.day)}
+                className={`speaking-complete-btn ${completedDays.has(currentDay.day) ? "is-completed" : ""}`}
+              >
+                <CheckIcon size={15} />
+                <span>{completedDays.has(currentDay.day) ? "Đã hoàn thành ngày này" : "Đánh dấu hoàn thành"}</span>
+              </button>
             </div>
 
-            {/* Day Chunks Section */}
             {currentDay.chunks && currentDay.chunks.length > 0 && (
-              <div style={{ marginBottom: "28px" }}>
-                <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", marginBottom: "14px" }}>
-                  <h3 style={{ fontSize: "1.1rem", color: "#059669", fontWeight: "800", textTransform: "uppercase", margin: 0, display: "flex", alignItems: "center", gap: "8px" }}>
-                    <span>🧩</span> Các Cụm Từ Chìa Khóa (Language Chunks) Hôm Nay:
+              <div className="speaking-section">
+                <div className="speaking-section-head">
+                  <h3 className="speaking-section-title">
+                    <LayersIcon size={16} />
+                    <span>Các cụm từ chìa khóa (Language Chunks) hôm nay</span>
                   </h3>
-                  <span style={{ fontSize: "0.85rem", color: "#64748b", fontWeight: "600" }}>
-                    {currentDay.chunks.length} cụm từ
-                  </span>
+                  <span className="speaking-section-count">{currentDay.chunks.length} cụm từ</span>
                 </div>
 
-                <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: "12px" }}>
+                <div className="speaking-chunks-grid">
                   {currentDay.chunks.map((c, cIdx) => {
                     const chunkId = `d${currentDay.day}_c${cIdx}`;
                     const isLearned = learnedChunkIds.has(chunkId);
@@ -528,99 +481,62 @@ function IeltsSpeakingContent() {
                     const isPlayingEx = playingId === `${chunkId}_ex`;
 
                     return (
-                      <div
-                        key={cIdx}
-                        style={{
-                          background: isLearned ? "rgba(16, 185, 129, 0.12)" : "var(--color-subtle-bg)",
-                          border: isLearned ? "1px solid #86efac" : "1px solid var(--color-border)",
-                          borderLeft: isLearned ? "4px solid #16a34a" : "4px solid #059669",
-                          borderRadius: "8px",
-                          padding: "14px",
-                          display: "flex",
-                          flexDirection: "column",
-                          gap: "8px",
-                          transition: "all 0.15s ease"
-                        }}
-                      >
-                        <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "8px" }}>
+                      <div key={cIdx} className={`speaking-chunk-item ${isLearned ? "is-learned" : ""}`}>
+                        <div className="speaking-chunk-top">
                           <span
-                            onClick={() => { playSpeech(c.chunk, chunkId); incrementStudyCount(chunkId); }}
-                            style={{
-                              fontSize: "1.1rem",
-                              fontWeight: "700",
-                              color: "var(--color-text-main)",
-                              cursor: "pointer"
+                            onClick={() => {
+                              if (isTextSelected()) return;
+                              playSpeech(c.chunk, chunkId);
+                              incrementStudyCount(chunkId);
                             }}
+                            className="speaking-chunk-phrase"
                             title="Bấm để nghe phát âm"
                           >
                             {c.chunk}
                           </span>
 
-                          <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                          <div className="speaking-chunk-actions">
                             <button
-                              onClick={() => { playSpeech(c.chunk, chunkId); incrementStudyCount(chunkId); }}
-                              style={{
-                                width: "30px",
-                                height: "30px",
-                                borderRadius: "50%",
-                                border: "1px solid var(--color-border)",
-                                background: "var(--color-card-bg)",
-                                color: "var(--color-text-main)",
-                                cursor: "pointer",
-                                fontSize: "0.85rem",
-                                display: "flex",
-                                alignItems: "center",
-                                justifyContent: "center"
+                              type="button"
+                              onClick={() => {
+                                playSpeech(c.chunk, chunkId);
+                                incrementStudyCount(chunkId);
                               }}
+                              className={`play-button play-button--sm ${isPlaying ? "playing" : ""}`}
                               title="Nghe phát âm chunk"
+                              aria-label="Nghe phát âm chunk"
                             >
-                              {isPlaying ? "🔊" : "🗣️"}
+                              <Volume2Icon size={14} className={isPlaying ? "playing-animation" : ""} />
                             </button>
                             <input
                               type="checkbox"
                               checked={isLearned}
                               onChange={() => toggleChunkLearned(chunkId)}
                               title="Đánh dấu đã thuộc"
-                              style={{ width: "18px", height: "18px", cursor: "pointer", accentColor: "#16a34a" }}
+                              className="speaking-native-check"
+                              aria-label="Đánh dấu đã thuộc"
                             />
-                            <div
-                              className="study-counter"
-                              style={{
-                                color: "#059669",
-                                backgroundColor: "rgba(5, 150, 105, 0.1)",
-                                padding: "2px 8px",
-                                borderRadius: "6px",
-                                fontWeight: "700"
-                              }}
-                              title="Số lần bấm luyện tập"
-                            >
-                              <span className="counter-num" style={{ fontSize: "0.95rem" }}>{studyCounts[chunkId] || 0}</span>
+                            <div className="study-counter study-counter--sm" title="Số lần bấm luyện tập">
+                              <span className="counter-num">{studyCounts[chunkId] || 0}</span>
                             </div>
                           </div>
                         </div>
 
-                        <div style={{ fontSize: "0.95rem", color: "#059669", fontWeight: "600" }}>
-                          👉 {c.meaning_vi}
-                        </div>
+                        <div className="speaking-chunk-meaning">{c.meaning_vi}</div>
 
                         {c.example && (
                           <div
-                            onClick={() => { playSpeech(c.example, `${chunkId}_ex`); incrementStudyCount(chunkId); }}
-                            style={{
-                              background: "var(--color-card-bg)",
-                              padding: "8px 10px",
-                              borderRadius: "6px",
-                              border: "1px dashed var(--color-border)",
-                              fontSize: "0.9rem",
-                              color: "var(--color-text-main)",
-                              lineHeight: "1.4",
-                              cursor: "pointer"
+                            onClick={() => {
+                              if (isTextSelected()) return;
+                              playSpeech(c.example, `${chunkId}_ex`);
+                              incrementStudyCount(chunkId);
                             }}
+                            className="speaking-chunk-example"
                             title="Bấm để nghe câu ví dụ hoàn chỉnh"
                           >
-                            <span style={{ fontWeight: "700", color: "var(--color-text-muted)" }}>Ex: </span>
-                            {c.example}
-                            {isPlayingEx && <span style={{ marginLeft: "6px", color: "#059669" }}>🔊</span>}
+                            <span className="speaking-ex-label">Ex:</span>
+                            <span>{c.example}</span>
+                            {isPlayingEx && <Volume2Icon size={13} className="speaking-ex-playing" />}
                           </div>
                         )}
                       </div>
@@ -630,134 +546,95 @@ function IeltsSpeakingContent() {
               </div>
             )}
 
-            {/* Model Answer Section */}
             {currentDay.model_en && (
-              <div className="speaking-tint-green" style={{ marginBottom: "28px", background: "#f0fdf4", border: "1px solid #bbf7d0", borderRadius: "12px", padding: "18px" }}>
-                <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "10px" }}>
-                  <h3 style={{ fontSize: "1rem", color: "#059669", fontWeight: "800", textTransform: "uppercase", margin: 0, display: "flex", alignItems: "center", gap: "6px" }}>
-                    <span>💡</span> Bài Nói Mẫu Kết Hợp Chunks (Model Answer):
+              <div className="speaking-box speaking-tint-green">
+                <div className="speaking-box-head">
+                  <h3 className="speaking-box-title">
+                    <LightbulbIcon size={16} />
+                    <span>Bài nói mẫu kết hợp Chunks (Model Answer)</span>
                   </h3>
-                  <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-                    <div
-                      className="study-counter"
-                      style={{
-                        color: "#059669",
-                        backgroundColor: "rgba(5, 150, 105, 0.15)",
-                        padding: "4px 10px",
-                        borderRadius: "6px",
-                        fontWeight: "700"
-                      }}
-                      title="Số lần bấm luyện nghe bài mẫu"
-                    >
-                      <span className="counter-num" style={{ fontSize: "0.95rem" }}>{studyCounts[`d${currentDay.day}_model`] || 0}</span>
+                  <div className="speaking-chunk-actions">
+                    <div className="study-counter study-counter--sm" title="Số lần bấm luyện nghe bài mẫu">
+                      <span className="counter-num">{studyCounts[`d${currentDay.day}_model`] || 0}</span>
                     </div>
                     <button
+                      type="button"
                       onClick={() => {
                         playSpeech(currentDay.model_en, `d${currentDay.day}_model`);
                         incrementStudyCount(`d${currentDay.day}_model`);
                       }}
-                      className="play-button"
-                      style={{ width: "34px", height: "34px", fontSize: "1rem", background: "var(--color-card-bg)" }}
+                      className={`play-button play-button--sm ${playingId === `d${currentDay.day}_model` ? "playing" : ""}`}
                       title="Nghe toàn bộ bài nói mẫu"
+                      aria-label="Nghe bài nói mẫu"
                     >
-                      {playingId === `d${currentDay.day}_model` ? "🔊" : "🗣️"}
+                      <Volume2Icon size={15} />
                     </button>
                   </div>
                 </div>
                 <p
                   onClick={() => {
+                    if (isTextSelected()) return;
                     playSpeech(currentDay.model_en, `d${currentDay.day}_model`);
                     incrementStudyCount(`d${currentDay.day}_model`);
                   }}
-                  style={{ fontSize: "1.1rem", color: "var(--color-text-main)", lineHeight: "1.55", fontWeight: "500", margin: "0 0 10px 0", cursor: "pointer" }}
+                  className="speaking-model-en"
                 >
-                  "{currentDay.model_en}"
+                  &quot;{currentDay.model_en}&quot;
                 </p>
-                <p style={{ fontSize: "0.95rem", color: "var(--color-text-muted)", margin: 0, lineHeight: "1.5", fontStyle: "italic" }}>
-                  👉 {currentDay.model_vi}
-                </p>
+                <p className="speaking-model-vi">{currentDay.model_vi}</p>
               </div>
             )}
 
-            {/* Practice Questions Section */}
             {currentDay.questions && currentDay.questions.length > 0 && (
-              <div style={{ marginBottom: "24px", background: "var(--color-subtle-bg)", border: "1px solid var(--color-border)", borderRadius: "12px", padding: "18px" }}>
-                <h3 style={{ fontSize: "1rem", color: "var(--color-text-main)", fontWeight: "800", textTransform: "uppercase", margin: "0 0 12px 0", display: "flex", alignItems: "center", gap: "6px" }}>
-                  <span>❓</span> Câu Hỏi Tự Luyện Nói Thành Tiếng (Áp Dụng A-R-D):
+              <div className="speaking-box speaking-box--neutral">
+                <h3 className="speaking-box-title">
+                  <MicIcon size={16} />
+                  <span>Câu hỏi tự luyện nói thành tiếng (Áp dụng A-R-D)</span>
                 </h3>
-                <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
-                  {currentDay.questions.map((q, qIdx) => (
-                    <div
-                      key={qIdx}
-                      onClick={() => {
-                        playSpeech(q, `d${currentDay.day}_q_${qIdx}`);
-                        incrementStudyCount(`d${currentDay.day}_q_${qIdx}`);
-                      }}
-                      style={{
-                        display: "flex",
-                        alignItems: "center",
-                        justifyContent: "space-between",
-                        padding: "10px 14px",
-                        background: "var(--color-card-bg)",
-                        borderRadius: "8px",
-                        border: "1px solid var(--color-border)",
-                        cursor: "pointer",
-                        gap: "10px"
-                      }}
-                      title="Bấm để nghe câu hỏi"
-                    >
-                      <span style={{ fontSize: "1.05rem", fontWeight: "600", color: "var(--color-text-main)" }}>
-                        {qIdx + 1}. {q}
-                      </span>
-                      <div style={{ display: "flex", alignItems: "center", gap: "8px", flexShrink: 0 }}>
-                        <div
-                          className="study-counter"
-                          style={{
-                            color: "#059669",
-                            backgroundColor: "rgba(5, 150, 105, 0.1)",
-                            padding: "2px 8px",
-                            borderRadius: "6px",
-                            fontWeight: "700"
-                          }}
-                          title="Số lần bấm luyện câu hỏi"
-                        >
-                          <span className="counter-num" style={{ fontSize: "0.95rem" }}>{studyCounts[`d${currentDay.day}_q_${qIdx}`] || 0}</span>
+                <div className="speaking-questions-list">
+                  {currentDay.questions.map((q, qIdx) => {
+                    const qKey = `d${currentDay.day}_q_${qIdx}`;
+                    const isPlayingQ = playingId === qKey;
+                    return (
+                      <div
+                        key={qIdx}
+                        onClick={() => {
+                          if (isTextSelected()) return;
+                          playSpeech(q, qKey);
+                          incrementStudyCount(qKey);
+                        }}
+                        className="speaking-question-row"
+                        title="Bấm để nghe câu hỏi"
+                      >
+                        <span className="speaking-question-text">
+                          {qIdx + 1}. {q}
+                        </span>
+                        <div className="speaking-chunk-actions">
+                          <div className="study-counter study-counter--sm" title="Số lần bấm luyện câu hỏi">
+                            <span className="counter-num">{studyCounts[qKey] || 0}</span>
+                          </div>
+                          <button type="button" className={`play-button play-button--sm ${isPlayingQ ? "playing" : ""}`} aria-label="Nghe câu hỏi">
+                            <Volume2Icon size={14} />
+                          </button>
                         </div>
-                        <button
-                          style={{
-                            width: "30px",
-                            height: "30px",
-                            borderRadius: "50%",
-                            border: "none",
-                            background: "rgba(5, 150, 105, 0.15)",
-                            color: "#059669",
-                            cursor: "pointer",
-                            fontSize: "0.85rem"
-                          }}
-                        >
-                          {playingId === `d${currentDay.day}_q_${qIdx}` ? "🔊" : "🗣️"}
-                        </button>
                       </div>
-                    </div>
-                  ))}
+                    );
+                  })}
                 </div>
               </div>
             )}
 
-            {/* Day 20: 1-Minute Preparation Method */}
             {currentDay.cue_card_method && (
-              <div className="speaking-tint-blue" style={{ marginBottom: "24px", background: "#f0f9ff", border: "1px solid #bae6fd", borderRadius: "12px", padding: "20px" }}>
-                <h3 style={{ fontSize: "1.1rem", color: "#0284c7", fontWeight: "800", margin: "0 0 12px 0" }}>
-                  📝 {currentDay.cue_card_method.title}
-                </h3>
-                <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: "10px", marginBottom: "16px" }}>
+              <div className="speaking-box speaking-tint-blue">
+                <h3 className="speaking-box-title">{currentDay.cue_card_method.title}</h3>
+                <div className="speaking-steps-grid">
                   {currentDay.cue_card_method.steps.map((st) => (
-                    <div key={st.step} style={{ background: "var(--color-card-bg)", padding: "12px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
-                      <div style={{ fontWeight: "700", color: "#0369a1", fontSize: "0.95rem", marginBottom: "4px" }}>
+                    <div key={st.step} className="speaking-subcard">
+                      <div className="speaking-subcard-title">
                         Bước {st.step}: {st.name} ({st.prompt})
                       </div>
-                      <div style={{ fontSize: "0.85rem", color: "var(--color-text-muted)" }}>
-                        Ví dụ ghi chú: <code style={{ color: "#ef4444", fontWeight: "700" }}>{st.note}</code>
+                      <div className="speaking-subcard-meta">
+                        Ví dụ ghi chú: <code className="speaking-note-code">{st.note}</code>
                       </div>
                     </div>
                   ))}
@@ -765,42 +642,31 @@ function IeltsSpeakingContent() {
               </div>
             )}
 
-            {/* Day 21: 5 Classic Cue Cards Practice with Timers */}
             {currentDay.cue_cards && (
-              <div style={{ marginBottom: "24px" }}>
-                <h3 style={{ fontSize: "1.1rem", color: "#059669", fontWeight: "800", textTransform: "uppercase", margin: "0 0 14px 0" }}>
-                  🗂️ 5 Đề Cue Cards Thực Chiến:
-                </h3>
-                <div style={{ display: "flex", flexDirection: "column", gap: "16px" }}>
+              <div className="speaking-section">
+                <h3 className="speaking-section-title">5 Đề Cue Cards thực chiến</h3>
+                <div className="speaking-cuecards-list">
                   {currentDay.cue_cards.map((cc, ccIdx) => (
-                    <div key={cc.id} style={{ background: "var(--color-subtle-bg)", border: "1px solid var(--color-border)", borderRadius: "12px", padding: "18px" }}>
-                      <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", flexWrap: "wrap", gap: "10px", marginBottom: "12px" }}>
+                    <div key={cc.id} className="speaking-box speaking-box--neutral">
+                      <div className="speaking-cuecard-head">
                         <div>
-                          <span style={{ fontSize: "0.8rem", fontWeight: "700", color: "#059669", textTransform: "uppercase" }}>Cue Card #{ccIdx + 1}</span>
-                          <h4 style={{ fontSize: "1.2rem", color: "var(--color-text-main)", margin: "4px 0 0 0", fontWeight: "700" }}>
-                            {cc.topic}
-                          </h4>
+                          <span className="speaking-chunk-badge">Cue Card #{ccIdx + 1}</span>
+                          <h4 className="speaking-cuecard-topic">{cc.topic}</h4>
                         </div>
-                        <div style={{ display: "flex", gap: "8px" }}>
-                          <button
-                            onClick={() => startTimer(60, "prep")}
-                            className="speaking-timer-btn-prep"
-                            style={{ padding: "6px 12px", borderRadius: "6px", fontWeight: "700", fontSize: "0.85rem", cursor: "pointer" }}
-                          >
-                            ⏱️ 1 Phút Chuẩn Bị
+                        <div className="speaking-timer-actions">
+                          <button type="button" onClick={() => startTimer(60, "prep")} className="speaking-timer-btn speaking-timer-btn-prep">
+                            <ClockIcon size={14} />
+                            <span>1 phút chuẩn bị</span>
                           </button>
-                          <button
-                            onClick={() => startTimer(120, "speak")}
-                            className="speaking-timer-btn-speak"
-                            style={{ padding: "6px 12px", borderRadius: "6px", fontWeight: "700", fontSize: "0.85rem", cursor: "pointer" }}
-                          >
-                            🎙️ 2 Phút Nói Liên Tục
+                          <button type="button" onClick={() => startTimer(120, "speak")} className="speaking-timer-btn speaking-timer-btn-speak">
+                            <MicIcon size={14} />
+                            <span>2 phút nói</span>
                           </button>
                         </div>
                       </div>
-                      <div style={{ background: "var(--color-card-bg)", padding: "12px 16px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
-                        <p style={{ margin: "0 0 6px 0", fontSize: "0.9rem", fontWeight: "600", color: "var(--color-text-muted)" }}>You should say:</p>
-                        <ul style={{ margin: 0, paddingLeft: "20px", color: "var(--color-text-main)", fontSize: "0.95rem", lineHeight: "1.6" }}>
+                      <div className="speaking-subcard">
+                        <p className="speaking-prompts-label">You should say:</p>
+                        <ul className="speaking-prompts-list">
                           {cc.prompts.map((p, pIdx) => (
                             <li key={pIdx}>{p}</li>
                           ))}
@@ -812,90 +678,98 @@ function IeltsSpeakingContent() {
               </div>
             )}
 
-            {/* Day 28: Part 3 O-R-E-Q Framework */}
             {currentDay.part3_framework && (
-              <div className="speaking-tint-purple" style={{ marginBottom: "24px", background: "#fdf4ff", border: "1px solid #f0abfc", borderRadius: "12px", padding: "20px" }}>
-                <h3 style={{ fontSize: "1.1rem", color: "#86198f", fontWeight: "800", margin: "0 0 12px 0" }}>
-                  🎯 Công Thức Triển Khai Part 3: {currentDay.part3_framework.formula}
+              <div className="speaking-box speaking-tint-purple">
+                <h3 className="speaking-box-title">
+                  Công thức triển khai Part 3: {currentDay.part3_framework.formula}
                 </h3>
-                <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(200px, 1fr))", gap: "10px", marginBottom: "16px" }}>
+                <div className="speaking-steps-grid">
                   {currentDay.part3_framework.steps.map((st) => (
-                    <div key={st.code} style={{ background: "var(--color-card-bg)", padding: "10px 14px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
-                      <span style={{ fontWeight: "800", color: "#9333ea", fontSize: "1rem" }}>{st.code}</span> - {st.name}
-                      <p style={{ margin: "4px 0 0 0", fontSize: "0.85rem", color: "var(--color-text-muted)" }}>{st.desc}</p>
+                    <div key={st.code} className="speaking-subcard">
+                      <span className="speaking-formula-code">{st.code}</span> — {st.name}
+                      <p className="speaking-subcard-meta">{st.desc}</p>
                     </div>
                   ))}
                 </div>
-                <div style={{ background: "var(--color-card-bg)", padding: "14px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
-                  <div style={{ fontWeight: "700", color: "#86198f", marginBottom: "6px" }}>
-                    Câu hỏi mẫu: {currentDay.part3_framework.sample_q}
-                  </div>
-                  <p style={{ fontSize: "0.95rem", color: "var(--color-text-main)", lineHeight: "1.6", margin: 0 }}>
-                    {currentDay.part3_framework.sample_a}
-                  </p>
+                <div className="speaking-subcard">
+                  <div className="speaking-subcard-title">Câu hỏi mẫu: {currentDay.part3_framework.sample_q}</div>
+                  <p className="speaking-subcard-body">{currentDay.part3_framework.sample_a}</p>
                 </div>
               </div>
             )}
 
-            {/* Day 29: Full Mock Test Simulator */}
             {currentDay.mock_test_flow && (
-              <div className="speaking-tint-amber" style={{ marginBottom: "24px", background: "#fffbeb", border: "1px solid #fde68a", borderRadius: "12px", padding: "20px" }}>
-                <h3 style={{ fontSize: "1.2rem", color: "#b45309", fontWeight: "800", margin: "0 0 16px 0" }}>
-                  🏆 Full Mock Test Simulation (11 - 14 Phút):
+              <div className="speaking-box speaking-tint-amber">
+                <h3 className="speaking-box-title">
+                  <AwardIcon size={16} />
+                  <span>Full Mock Test Simulation (11 – 14 phút)</span>
                 </h3>
-                <div style={{ display: "flex", flexDirection: "column", gap: "14px" }}>
-                  {/* Part 1 */}
-                  <div style={{ background: "var(--color-card-bg)", padding: "14px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
-                    <div style={{ display: "flex", justifyContent: "space-between", marginBottom: "8px" }}>
-                      <span style={{ fontWeight: "800", color: "#b45309" }}>Part 1: Phỏng vấn mở đầu ({currentDay.mock_test_flow.part1.time})</span>
+                <div className="speaking-cuecards-list">
+                  <div className="speaking-subcard">
+                    <div className="speaking-subcard-title">
+                      Part 1: Phỏng vấn mở đầu ({currentDay.mock_test_flow.part1.time})
                     </div>
-                    <ul style={{ margin: 0, paddingLeft: "20px", color: "var(--color-text-main)", lineHeight: "1.6" }}>
+                    <ul className="speaking-mock-list">
                       {currentDay.mock_test_flow.part1.questions.map((q, idx) => (
                         <li
                           key={idx}
-                          style={{ cursor: "pointer", marginBottom: "6px" }}
+                          className="speaking-mock-item"
                           onClick={() => {
                             playSpeech(q, `mock_p1_${idx}`);
                             incrementStudyCount(`mock_p1_${idx}`);
                           }}
                         >
-                          {q} 🗣️ {studyCounts[`mock_p1_${idx}`] ? `(Đã luyện: ${studyCounts[`mock_p1_${idx}`]})` : ""}
+                          <span>{q}</span>
+                          <span className="speaking-mock-meta">
+                            <Volume2Icon size={13} />
+                            {studyCounts[`mock_p1_${idx}`] ? `(${studyCounts[`mock_p1_${idx}`]})` : ""}
+                          </span>
                         </li>
                       ))}
                     </ul>
                   </div>
 
-                  {/* Part 2 */}
-                  <div style={{ background: "var(--color-card-bg)", padding: "14px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
-                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
-                      <span style={{ fontWeight: "800", color: "#b45309" }}>Part 2: Độc thoại Cue Card ({currentDay.mock_test_flow.part2.time})</span>
-                      <div style={{ display: "flex", gap: "6px" }}>
-                        <button onClick={() => startTimer(60, "prep")} className="speaking-timer-btn-prep" style={{ padding: "4px 8px", fontSize: "0.8rem", borderRadius: "4px", cursor: "pointer" }}>1p Prep</button>
-                        <button onClick={() => startTimer(120, "speak")} className="speaking-timer-btn-speak" style={{ padding: "4px 8px", fontSize: "0.8rem", borderRadius: "4px", cursor: "pointer" }}>2p Speak</button>
+                  <div className="speaking-subcard">
+                    <div className="speaking-cuecard-head">
+                      <span className="speaking-subcard-title">
+                        Part 2: Độc thoại Cue Card ({currentDay.mock_test_flow.part2.time})
+                      </span>
+                      <div className="speaking-timer-actions">
+                        <button type="button" onClick={() => startTimer(60, "prep")} className="speaking-timer-btn speaking-timer-btn-prep">
+                          1p Prep
+                        </button>
+                        <button type="button" onClick={() => startTimer(120, "speak")} className="speaking-timer-btn speaking-timer-btn-speak">
+                          2p Speak
+                        </button>
                       </div>
                     </div>
-                    <p style={{ fontWeight: "700", color: "var(--color-text-main)", margin: "0 0 6px 0" }}>{currentDay.mock_test_flow.part2.cue_card}</p>
-                    <ul style={{ margin: 0, paddingLeft: "20px", color: "var(--color-text-muted)", lineHeight: "1.5" }}>
+                    <p className="speaking-mock-cue">{currentDay.mock_test_flow.part2.cue_card}</p>
+                    <ul className="speaking-prompts-list">
                       {currentDay.mock_test_flow.part2.prompts.map((p, idx) => (
                         <li key={idx}>{p}</li>
                       ))}
                     </ul>
                   </div>
 
-                  {/* Part 3 */}
-                  <div style={{ background: "var(--color-card-bg)", padding: "14px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
-                    <span style={{ fontWeight: "800", color: "#b45309", display: "block", marginBottom: "8px" }}>Part 3: Thảo luận sâu ({currentDay.mock_test_flow.part3.time})</span>
-                    <ul style={{ margin: 0, paddingLeft: "20px", color: "var(--color-text-main)", lineHeight: "1.6" }}>
+                  <div className="speaking-subcard">
+                    <div className="speaking-subcard-title">
+                      Part 3: Thảo luận sâu ({currentDay.mock_test_flow.part3.time})
+                    </div>
+                    <ul className="speaking-mock-list">
                       {currentDay.mock_test_flow.part3.questions.map((q, idx) => (
                         <li
                           key={idx}
-                          style={{ cursor: "pointer", marginBottom: "6px" }}
+                          className="speaking-mock-item"
                           onClick={() => {
                             playSpeech(q, `mock_p3_${idx}`);
                             incrementStudyCount(`mock_p3_${idx}`);
                           }}
                         >
-                          {q} 🗣️ {studyCounts[`mock_p3_${idx}`] ? `(Đã luyện: ${studyCounts[`mock_p3_${idx}`]})` : ""}
+                          <span>{q}</span>
+                          <span className="speaking-mock-meta">
+                            <Volume2Icon size={13} />
+                            {studyCounts[`mock_p3_${idx}`] ? `(${studyCounts[`mock_p3_${idx}`]})` : ""}
+                          </span>
                         </li>
                       ))}
                     </ul>
@@ -904,49 +778,36 @@ function IeltsSpeakingContent() {
               </div>
             )}
 
-            {/* Day 30: Self-Assessment Rubric */}
             {currentDay.rubric && (
-              <div className="speaking-tint-green" style={{ marginBottom: "24px", background: "#f0fdf4", border: "1px solid #86efac", borderRadius: "12px", padding: "20px" }}>
-                <h3 style={{ fontSize: "1.2rem", color: "#15803d", fontWeight: "800", margin: "0 0 14px 0" }}>
-                  📊 Bảng Đánh Giá Năng Lực 6 Tiêu Chí (Band 7.0 - 8.0+ Target):
-                </h3>
-                <div style={{ display: "flex", flexDirection: "column", gap: "12px", marginBottom: "18px" }}>
+              <div className="speaking-box speaking-tint-green">
+                <h3 className="speaking-box-title">Bảng đánh giá năng lực 6 tiêu chí (Band 7.0 – 8.0+)</h3>
+                <div className="speaking-rubric-list">
                   {currentDay.rubric.map((r, rIdx) => (
-                    <div key={rIdx} style={{ background: "var(--color-card-bg)", padding: "12px 16px", borderRadius: "8px", border: "1px solid var(--color-border)", display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: "8px" }}>
+                    <div key={rIdx} className="speaking-rubric-row">
                       <div>
-                        <span style={{ fontWeight: "700", color: "#15803d" }}>{r.skill}</span>
-                        <div style={{ fontSize: "0.85rem", color: "var(--color-text-muted)" }}>Mục tiêu: {r.target}</div>
+                        <span className="speaking-subcard-title">{r.skill}</span>
+                        <div className="speaking-subcard-meta">Mục tiêu: {r.target}</div>
                       </div>
-                      <div style={{ display: "flex", alignItems: "center", gap: "6px" }}>
+                      <div className="speaking-score-group">
                         {[1, 2, 3, 4, 5].map((val) => (
                           <button
+                            type="button"
                             key={val}
                             onClick={() => handleScoreChange(r.skill, val)}
-                            style={{
-                              width: "32px",
-                              height: "32px",
-                              borderRadius: "6px",
-                              border: "1px solid var(--color-border)",
-                              background: (rubricScores[r.skill] || 4) >= val ? "#16a34a" : "var(--color-subtle-bg)",
-                              color: (rubricScores[r.skill] || 4) >= val ? "#ffffff" : "var(--color-text-muted)",
-                              fontWeight: "700",
-                              cursor: "pointer"
-                            }}
+                            className={`speaking-score-btn ${(rubricScores[r.skill] || 4) >= val ? "is-active" : ""}`}
                           >
                             {val}
                           </button>
                         ))}
-                        <span style={{ fontSize: "0.9rem", fontWeight: "700", color: "#15803d", marginLeft: "6px" }}>
-                          {rubricScores[r.skill] || 4}/5
-                        </span>
+                        <span className="speaking-score-value">{rubricScores[r.skill] || 4}/5</span>
                       </div>
                     </div>
                   ))}
                 </div>
 
-                <div style={{ background: "var(--color-card-bg)", padding: "14px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
-                  <h4 style={{ margin: "0 0 8px 0", color: "#15803d", fontSize: "1rem", fontWeight: "700" }}>🚀 Kế Hoạch Tiếp Theo (Next Steps):</h4>
-                  <ul style={{ margin: 0, paddingLeft: "20px", color: "var(--color-text-main)", fontSize: "0.95rem", lineHeight: "1.6" }}>
+                <div className="speaking-subcard">
+                  <h4 className="speaking-subcard-title">Kế hoạch tiếp theo (Next Steps)</h4>
+                  <ul className="speaking-prompts-list">
                     {currentDay.next_steps.map((st, idx) => (
                       <li key={idx}>{st}</li>
                     ))}
@@ -955,35 +816,37 @@ function IeltsSpeakingContent() {
               </div>
             )}
 
-            {/* Checkpoint Tasks (Day 7 & 14) */}
             {currentDay.checkpoint_task && (
-              <div className="speaking-tint-amber" style={{ marginBottom: "24px", background: "#fef3c7", border: "1px solid #fde68a", borderRadius: "12px", padding: "20px" }}>
-                <h3 style={{ fontSize: "1.1rem", color: "#b45309", fontWeight: "800", margin: "0 0 10px 0" }}>
-                  🎯 Nhiệm Vụ Ghi Âm & Tự Đánh Giá:
+              <div className="speaking-box speaking-tint-amber">
+                <h3 className="speaking-box-title">
+                  <TargetIcon size={16} />
+                  <span>Nhiệm vụ ghi âm &amp; tự đánh giá</span>
                 </h3>
-                <p style={{ fontSize: "0.95rem", color: "#78350f", lineHeight: "1.5", margin: "0 0 14px 0" }}>
-                  {currentDay.checkpoint_task.instructions}
-                </p>
-                <div style={{ background: "var(--color-card-bg)", padding: "14px", borderRadius: "8px", border: "1px solid var(--color-border)", marginBottom: "14px" }}>
-                  <span style={{ fontWeight: "700", color: "#92400e", display: "block", marginBottom: "8px" }}>Các câu hỏi luyện nói:</span>
-                  <ul style={{ margin: 0, paddingLeft: "20px", color: "var(--color-text-main)", lineHeight: "1.6" }}>
+                <p className="speaking-checkpoint-desc">{currentDay.checkpoint_task.instructions}</p>
+                <div className="speaking-subcard">
+                  <span className="speaking-subcard-title">Các câu hỏi luyện nói:</span>
+                  <ul className="speaking-mock-list">
                     {currentDay.checkpoint_task.questions.map((q, idx) => (
                       <li
                         key={idx}
-                        style={{ cursor: "pointer", marginBottom: "6px" }}
+                        className="speaking-mock-item"
                         onClick={() => {
                           playSpeech(q, `chk_q_${idx}`);
                           incrementStudyCount(`chk_q_${idx}`);
                         }}
                       >
-                        {q} 🗣️ {studyCounts[`chk_q_${idx}`] ? `(Đã luyện: ${studyCounts[`chk_q_${idx}`]})` : ""}
+                        <span>{q}</span>
+                        <span className="speaking-mock-meta">
+                          <Volume2Icon size={13} />
+                          {studyCounts[`chk_q_${idx}`] ? `(${studyCounts[`chk_q_${idx}`]})` : ""}
+                        </span>
                       </li>
                     ))}
                   </ul>
                 </div>
-                <div style={{ background: "var(--color-card-bg)", padding: "14px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
-                  <span style={{ fontWeight: "700", color: "#92400e", display: "block", marginBottom: "8px" }}>Bảng kiểm tra lỗi (Self-audit Checklist):</span>
-                  <ul style={{ margin: 0, paddingLeft: "20px", color: "var(--color-text-muted)", lineHeight: "1.5" }}>
+                <div className="speaking-subcard">
+                  <span className="speaking-subcard-title">Bảng kiểm tra lỗi (Self-audit Checklist):</span>
+                  <ul className="speaking-prompts-list">
                     {currentDay.checkpoint_task.checklist.map((c, idx) => (
                       <li key={idx}>{c}</li>
                     ))}
@@ -992,179 +855,142 @@ function IeltsSpeakingContent() {
               </div>
             )}
 
-            {/* Bottom Nav: Prev Day / Next Day */}
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", borderTop: "1px solid var(--color-border)", paddingTop: "18px" }}>
+            <div className="speaking-bottom-nav">
               <button
+                type="button"
                 disabled={currentDay.day <= 1}
                 onClick={() => selectDay(currentDay.day - 1)}
                 className="pagination-btn"
-                style={{ opacity: currentDay.day <= 1 ? 0.4 : 1 }}
               >
-                ← Ngày {currentDay.day - 1}
+                <ArrowLeftIcon size={14} />
+                <span>Ngày {currentDay.day - 1}</span>
               </button>
 
-              <span style={{ fontWeight: "700", color: "#64748b", fontSize: "0.95rem" }}>
-                Ngày {currentDay.day} / 30
-              </span>
+              <span className="speaking-bottom-counter">Ngày {currentDay.day} / 30</span>
 
               <button
+                type="button"
                 disabled={currentDay.day >= 30}
                 onClick={() => selectDay(currentDay.day + 1)}
                 className="pagination-btn"
-                style={{ opacity: currentDay.day >= 30 ? 0.4 : 1 }}
               >
-                Ngày {currentDay.day + 1} →
+                <span>Ngày {currentDay.day + 1}</span>
+                <ArrowRightIcon size={14} />
               </button>
             </div>
           </article>
         </section>
       )}
 
-      {/* =========================================================================
-          TAB 2: KHO 260 CHUNKS (SEARCH & FLASHCARD)
-          ========================================================================= */}
       {activeTab === "chunks" && (
         <section>
-          {/* Search Box */}
-          <div className="search-box" style={{ marginBottom: "16px" }}>
-            <span className="search-icon">🔍</span>
-            <input
-              type="text"
-              placeholder="Tìm kiếm cụm từ tiếng Anh, nghĩa tiếng Việt hoặc câu ví dụ..."
-              value={searchQuery}
-              onChange={(e) => setSearchQuery(e.target.value)}
-            />
-            {searchQuery && (
-              <button onClick={() => setSearchQuery("")} className="clear-search">✕</button>
-            )}
+          <div className="control-panel">
+            <div className="search-box">
+              <span className="search-icon">
+                <SearchIcon size={16} />
+              </span>
+              <input
+                type="text"
+                placeholder="Tìm kiếm cụm từ tiếng Anh, nghĩa tiếng Việt hoặc câu ví dụ..."
+                value={searchQuery}
+                onChange={(e) => setSearchQuery(e.target.value)}
+              />
+              {searchQuery && (
+                <button type="button" onClick={() => setSearchQuery("")} className="clear-search" aria-label="Xóa tìm kiếm">
+                  <XIcon size={15} />
+                </button>
+              )}
+            </div>
           </div>
 
-          {/* Filter Tabs */}
-          <div className="filter-tabs" style={{ marginBottom: "20px" }}>
+          <div className="filter-tabs">
             <button
+              type="button"
               onClick={() => setChunkFilter("all")}
               className={`filter-tab ${chunkFilter === "all" ? "active" : ""}`}
-              style={chunkFilter === "all" ? { color: "#059669" } : {}}
             >
-              🎯 Tất cả ({allChunksList.length})
+              Tất cả ({allChunksList.length})
             </button>
             <button
+              type="button"
               onClick={() => setChunkFilter("unlearned")}
               className={`filter-tab ${chunkFilter === "unlearned" ? "active" : ""}`}
-              style={chunkFilter === "unlearned" ? { color: "#059669" } : {}}
             >
-              📖 Chưa thuộc ({allChunksList.filter((c) => !learnedChunkIds.has(c.id)).length})
+              Chưa thuộc ({allChunksList.filter((c) => !learnedChunkIds.has(c.id)).length})
             </button>
             <button
+              type="button"
               onClick={() => setChunkFilter("learned")}
               className={`filter-tab ${chunkFilter === "learned" ? "active" : ""}`}
-              style={chunkFilter === "learned" ? { color: "#059669" } : {}}
             >
-              ✅ Đã thuộc ({learnedChunkIds.size})
+              Đã thuộc ({learnedChunkIds.size})
             </button>
           </div>
 
-          {/* Chunks Grid */}
-          <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(320px, 1fr))", gap: "14px" }}>
+          <div className="speaking-chunks-grid">
             {searchedChunks.map((c) => {
               const isLearned = learnedChunkIds.has(c.id);
               const isPlaying = playingId === c.id;
               const isPlayingEx = playingId === `${c.id}_ex`;
 
               return (
-                <article
-                  key={c.id}
-                  className={`sentence-card ${isLearned ? "learned" : ""}`}
-                  style={{
-                    padding: "16px",
-                    borderLeft: isLearned ? "4px solid #16a34a" : "4px solid #059669"
-                  }}
-                >
-                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "8px" }}>
-                    <span className="speaking-chunk-badge" style={{ fontSize: "0.8rem", fontWeight: "700" }}>
+                <article key={c.id} className={`sentence-card speaking-chunk-card ${isLearned ? "learned" : ""}`}>
+                  <div className="speaking-chunk-card-top">
+                    <span className="speaking-chunk-badge">
                       Ngày {c.day} • {c.dayTitle}
                     </span>
-                    <div style={{ display: "flex", alignItems: "center", gap: "8px" }}>
-                      <label className="checkbox-container" style={{ margin: 0 }}>
-                        <input
-                          type="checkbox"
-                          checked={isLearned}
-                          onChange={() => toggleChunkLearned(c.id)}
-                        />
-                        <span className="checkmark" style={{ width: "18px", height: "18px" }}></span>
-                        <span className="checkbox-label" style={{ fontSize: "0.8rem" }}>
-                          {isLearned ? "Đã thuộc" : "Chưa thuộc"}
-                        </span>
+                    <div className="speaking-chunk-actions">
+                      <label className="checkbox-container checkbox-container--compact">
+                        <input type="checkbox" checked={isLearned} onChange={() => toggleChunkLearned(c.id)} />
+                        <span className="checkmark" />
+                        <span className="checkbox-label">{isLearned ? "Đã thuộc" : "Chưa thuộc"}</span>
                       </label>
-                      <div
-                        className="study-counter"
-                        style={{
-                          color: "#059669",
-                          backgroundColor: "rgba(5, 150, 105, 0.1)",
-                          padding: "2px 8px",
-                          borderRadius: "6px",
-                          fontWeight: "700"
-                        }}
-                        title="Số lần bấm luyện tập"
-                      >
-                        <span className="counter-num" style={{ fontSize: "0.95rem" }}>{studyCounts[c.id] || 0}</span>
+                      <div className="study-counter study-counter--sm" title="Số lần bấm luyện tập">
+                        <span className="counter-num">{studyCounts[c.id] || 0}</span>
                       </div>
                     </div>
                   </div>
 
-                  <div style={{ display: "flex", justifyContent: "space-between", alignItems: "flex-start", gap: "8px" }}>
+                  <div className="speaking-chunk-top">
                     <h3
                       onClick={() => {
+                        if (isTextSelected()) return;
                         playSpeech(c.chunk, c.id);
                         incrementStudyCount(c.id);
                       }}
-                      style={{
-                        fontSize: "1.15rem",
-                        color: "var(--color-text-main)",
-                        margin: "0 0 6px 0",
-                        fontWeight: "700",
-                        cursor: "pointer"
-                      }}
+                      className="speaking-chunk-phrase"
                     >
                       {c.chunk}
                     </h3>
                     <button
+                      type="button"
                       onClick={() => {
                         playSpeech(c.chunk, c.id);
                         incrementStudyCount(c.id);
                       }}
-                      className="play-button"
-                      style={{ width: "32px", height: "32px", fontSize: "0.9rem", flexShrink: 0 }}
+                      className={`play-button play-button--sm ${isPlaying ? "playing" : ""}`}
                       title="Nghe phát âm chunk"
+                      aria-label="Nghe phát âm"
                     >
-                      {isPlaying ? "🔊" : "🗣️"}
+                      <Volume2Icon size={14} />
                     </button>
                   </div>
 
-                  <p style={{ fontSize: "0.95rem", color: "#059669", fontWeight: "600", margin: "0 0 10px 0" }}>
-                    👉 {c.meaning_vi}
-                  </p>
+                  <p className="speaking-chunk-meaning">{c.meaning_vi}</p>
 
                   {c.example && (
                     <div
                       onClick={() => {
+                        if (isTextSelected()) return;
                         playSpeech(c.example, `${c.id}_ex`);
                         incrementStudyCount(c.id);
                       }}
-                      style={{
-                        background: "var(--color-subtle-bg)",
-                        padding: "8px 12px",
-                        borderRadius: "6px",
-                        border: "1px dashed var(--color-border)",
-                        fontSize: "0.9rem",
-                        color: "var(--color-text-main)",
-                        cursor: "pointer"
-                      }}
+                      className="speaking-chunk-example"
                       title="Bấm để nghe ví dụ"
                     >
-                      <span style={{ fontWeight: "700", color: "var(--color-text-muted)" }}>Ex: </span>
-                      {c.example}
-                      {isPlayingEx && <span style={{ marginLeft: "6px", color: "#059669" }}>🔊</span>}
+                      <span className="speaking-ex-label">Ex:</span>
+                      <span>{c.example}</span>
+                      {isPlayingEx && <Volume2Icon size={13} className="speaking-ex-playing" />}
                     </div>
                   )}
                 </article>
@@ -1173,95 +999,79 @@ function IeltsSpeakingContent() {
           </div>
 
           {searchedChunks.length === 0 && (
-            <div className="empty-state" style={{ marginTop: "30px" }}>
-              <span className="empty-icon">🏜️</span>
+            <div className="empty-state">
+              <span className="empty-icon">
+                <InboxIcon size={36} />
+              </span>
               <p>Không tìm thấy cụm từ nào phù hợp với bộ lọc hiện tại.</p>
             </div>
           )}
         </section>
       )}
 
-      {/* =========================================================================
-          TAB 3: PHƯƠNG PHÁP & LỖI SAI (TOOLKIT & GRAMMAR)
-          ========================================================================= */}
       {activeTab === "toolkit" && (
-        <section style={{ display: "flex", flexDirection: "column", gap: "24px" }}>
-          {/* 4 IELTS Speaking Criteria */}
-          <div className="sentence-card" style={{ borderLeft: "5px solid #059669", padding: "24px" }}>
-            <h3 style={{ fontSize: "1.2rem", color: "#059669", fontWeight: "800", textTransform: "uppercase", margin: "0 0 14px 0" }}>
-              🏆 4 Tiêu Chí Chấm Điểm IELTS Speaking:
+        <section className="speaking-toolkit-stack">
+          <div className="sentence-card speaking-detail-card">
+            <h3 className="speaking-toolkit-title">
+              <AwardIcon size={17} />
+              <span>4 Tiêu chí chấm điểm IELTS Speaking</span>
             </h3>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: "12px" }}>
+            <div className="speaking-steps-grid">
               {rawData.overview.four_criteria.map((cr, idx) => (
-                <div key={idx} style={{ background: "var(--color-card-bg)", padding: "14px", borderRadius: "8px", border: "1px solid var(--color-border)" }}>
-                  <div style={{ fontWeight: "800", color: "var(--color-text-main)", fontSize: "1rem" }}>{idx + 1}. {cr.name}</div>
-                  <div style={{ fontWeight: "600", color: "#059669", fontSize: "0.85rem", marginBottom: "6px" }}>{cr.vi}</div>
-                  <p style={{ margin: 0, fontSize: "0.85rem", color: "var(--color-text-muted)", lineHeight: "1.45" }}>{cr.desc}</p>
+                <div key={idx} className="speaking-subcard">
+                  <div className="speaking-subcard-title">
+                    {idx + 1}. {cr.name}
+                  </div>
+                  <div className="speaking-chunk-badge">{cr.vi}</div>
+                  <p className="speaking-subcard-meta">{cr.desc}</p>
                 </div>
               ))}
             </div>
           </div>
 
-          {/* Top 10 Common Mistakes */}
-          <div className="sentence-card" style={{ borderLeft: "5px solid #dc2626", padding: "24px" }}>
-            <h3 style={{ fontSize: "1.2rem", color: "#dc2626", fontWeight: "800", textTransform: "uppercase", margin: "0 0 14px 0" }}>
-              ⚠️ Top 10 Lỗi Sai Phổ Biến Của Người Việt & Cách Sửa Chuẩn:
+          <div className="sentence-card speaking-detail-card">
+            <h3 className="speaking-toolkit-title speaking-toolkit-title--danger">
+              <AlertTriangleIcon size={17} />
+              <span>Top 10 lỗi sai phổ biến của người Việt &amp; cách sửa</span>
             </h3>
-            <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+            <div className="speaking-mistakes-list">
               {rawData.toolkits.common_mistakes.map((m, idx) => (
-                <div key={idx} style={{ background: "var(--color-card-bg)", padding: "12px 16px", borderRadius: "8px", border: "1px solid var(--color-border)", display: "grid", gridTemplateColumns: "1fr 1fr 1.5fr", gap: "10px", alignItems: "center" }}>
-                  <div style={{ color: "#ef4444", fontWeight: "700", textDecoration: "line-through" }}>
-                    ❌ {m.wrong}
-                  </div>
-                  <div style={{ color: "#10b981", fontWeight: "700" }}>
-                    ✅ {m.correct}
-                  </div>
-                  <div style={{ color: "var(--color-text-muted)", fontSize: "0.85rem" }}>
-                    👉 {m.reason}
-                  </div>
+                <div key={idx} className="speaking-mistake-row">
+                  <div className="speaking-mistake-wrong">{m.wrong}</div>
+                  <div className="speaking-mistake-correct">{m.correct}</div>
+                  <div className="speaking-mistake-reason">{m.reason}</div>
                 </div>
               ))}
             </div>
           </div>
 
-          {/* Hesitation Fillers */}
-          <div className="sentence-card" style={{ borderLeft: "5px solid #0284c7", padding: "24px" }}>
-            <h3 style={{ fontSize: "1.2rem", color: "#0284c7", fontWeight: "800", textTransform: "uppercase", margin: "0 0 14px 0" }}>
-              ⏳ Cụm Từ "Câu Giờ" Tự Nhiên Khi Cần Suy Nghĩ (Hesitation Devices):
+          <div className="sentence-card speaking-detail-card">
+            <h3 className="speaking-toolkit-title">
+              <ClockIcon size={17} />
+              <span>Cụm từ &quot;câu giờ&quot; tự nhiên (Hesitation Devices)</span>
             </h3>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(280px, 1fr))", gap: "10px" }}>
+            <div className="speaking-chunks-grid">
               {rawData.toolkits.hesitation_fillers.map((f, idx) => (
                 <div
                   key={idx}
                   onClick={() => {
+                    if (isTextSelected()) return;
                     playSpeech(f.en, `filler_${idx}`);
                     incrementStudyCount(`filler_${idx}`);
                   }}
-                  className="speaking-tint-blue"
-                  style={{ background: "#f0f9ff", padding: "12px 14px", borderRadius: "8px", border: "1px solid #bae6fd", cursor: "pointer", display: "flex", flexDirection: "column", justifyContent: "space-between" }}
+                  className="speaking-filler-card"
                   title="Bấm để nghe phát âm"
                 >
                   <div>
-                    <div style={{ fontWeight: "700", color: "#0284c7", fontSize: "1rem", marginBottom: "4px" }}>
-                      🗣️ {f.en}
+                    <div className="speaking-filler-en">
+                      <Volume2Icon size={14} />
+                      <span>{f.en}</span>
                     </div>
-                    <div style={{ fontSize: "0.85rem", color: "var(--color-text-muted)" }}>
-                      👉 {f.vi}
-                    </div>
+                    <div className="speaking-subcard-meta">{f.vi}</div>
                   </div>
-                  <div style={{ display: "flex", justifyContent: "flex-end", marginTop: "8px" }}>
-                    <div
-                      className="study-counter"
-                      style={{
-                        color: "#0284c7",
-                        backgroundColor: "rgba(2, 132, 199, 0.1)",
-                        padding: "2px 8px",
-                        borderRadius: "6px",
-                        fontWeight: "700"
-                      }}
-                      title="Số lần luyện tập"
-                    >
-                      <span className="counter-num" style={{ fontSize: "0.85rem" }}>{studyCounts[`filler_${idx}`] || 0}</span>
+                  <div className="speaking-filler-foot">
+                    <div className="study-counter study-counter--sm" title="Số lần luyện tập">
+                      <span className="counter-num">{studyCounts[`filler_${idx}`] || 0}</span>
                     </div>
                   </div>
                 </div>
@@ -1269,23 +1079,19 @@ function IeltsSpeakingContent() {
             </div>
           </div>
 
-          {/* 5 Essential Sentence Patterns */}
-          <div className="sentence-card" style={{ borderLeft: "5px solid #8b5cf6", padding: "24px" }}>
-            <h3 style={{ fontSize: "1.2rem", color: "#8b5cf6", fontWeight: "800", textTransform: "uppercase", margin: "0 0 14px 0" }}>
-              📐 5 Cấu Trúc Câu Thiết Yếu Trong Khẩu Ngữ:
+          <div className="sentence-card speaking-detail-card">
+            <h3 className="speaking-toolkit-title">
+              <LayersIcon size={17} />
+              <span>5 Cấu trúc câu thiết yếu trong khẩu ngữ</span>
             </h3>
-            <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fill, minmax(240px, 1fr))", gap: "10px" }}>
+            <div className="speaking-steps-grid">
               {rawData.toolkits.grammar_patterns.map((gp, idx) => (
-                <div key={idx} className="speaking-tint-purple" style={{ background: "#faf5ff", padding: "12px 14px", borderRadius: "8px", border: "1px solid #ddd6fe" }}>
-                  <div style={{ fontWeight: "800", color: "#8b5cf6", fontSize: "0.95rem", marginBottom: "4px" }}>
+                <div key={idx} className="speaking-subcard">
+                  <div className="speaking-subcard-title">
                     Mẫu {idx + 1}: {gp.pattern}
                   </div>
-                  <div style={{ fontSize: "0.9rem", color: "var(--color-text-main)", fontWeight: "600" }}>
-                    "{gp.example}"
-                  </div>
-                  <div style={{ fontSize: "0.85rem", color: "var(--color-text-muted)" }}>
-                    👉 {gp.vi}
-                  </div>
+                  <div className="speaking-subcard-body">&quot;{gp.example}&quot;</div>
+                  <div className="speaking-subcard-meta">{gp.vi}</div>
                 </div>
               ))}
             </div>
@@ -1293,9 +1099,11 @@ function IeltsSpeakingContent() {
         </section>
       )}
 
-      {/* Footer Tip */}
-      <footer className="app-footer" style={{ marginTop: "36px" }}>
-        <p>💡 Tip: Hãy nói to thành tiếng mỗi ngày ít nhất 15-20 phút và ghi âm lại để kiểm tra ngữ điệu cũng như độ trôi chảy.</p>
+      <footer className="app-footer">
+        <p>
+          <LightbulbIcon size={15} />
+          <span>Tip: Nói to thành tiếng mỗi ngày 15–20 phút và ghi âm lại để kiểm tra ngữ điệu và độ trôi chảy.</span>
+        </p>
       </footer>
     </main>
   );
@@ -1303,14 +1111,15 @@ function IeltsSpeakingContent() {
 
 export default function IeltsSpeakingPage() {
   return (
-    <Suspense fallback={
-      <div className="loading-screen">
-        <div className="spinner"></div>
-        <p>Đang tải dữ liệu IELTS Speaking...</p>
-      </div>
-    }>
+    <Suspense
+      fallback={
+        <div className="loading-screen">
+          <div className="spinner" />
+          <p>Đang tải dữ liệu IELTS Speaking...</p>
+        </div>
+      }
+    >
       <IeltsSpeakingContent />
     </Suspense>
   );
 }
-

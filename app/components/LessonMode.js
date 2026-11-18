@@ -1,19 +1,20 @@
 "use client";
 
 import { useState, useEffect, useMemo } from "react";
+import {
+  BookOpenIcon,
+  CheckIcon,
+  ChevronsLeftIcon,
+  ChevronsRightIcon,
+  ArrowLeftIcon,
+  ArrowRightIcon,
+  ZapIcon,
+  AlertTriangleIcon,
+  InboxIcon,
+} from "./Icons";
 
 const LESSON_SIZE = 10;
 
-/**
- * LessonMode — a reusable lesson navigator component.
- *
- * Props:
- *  - items: Array — full list of items to paginate into lessons
- *  - storageKey: string — prefix for localStorage keys (e.g. "english_300")
- *  - learnedIds: Set — set of learned item ids
- *  - renderItem: (item, index) => JSX — render a single item card
- *  - lessonSize: number (default 10) — items per lesson
- */
 export default function LessonMode({
   items = [],
   storageKey,
@@ -23,7 +24,6 @@ export default function LessonMode({
 }) {
   const totalLessons = Math.ceil(items.length / lessonSize) || 1;
 
-  // Restore lesson from localStorage
   const [currentLesson, setCurrentLesson] = useState(() => {
     if (typeof window !== "undefined" && storageKey) {
       const saved = parseInt(localStorage.getItem(`${storageKey}_lesson`) || "1", 10);
@@ -32,12 +32,9 @@ export default function LessonMode({
     return 1;
   });
 
-  // View mode: "lesson" (normal lesson) or "unlearned" (list of unlearned items)
   const [viewUnlearned, setViewUnlearned] = useState(false);
-  // Unlearned scope: "up_to_current" (from Lesson 1 to currentLesson) or "all"
   const [unlearnedScope, setUnlearnedScope] = useState("up_to_current");
 
-  // Persist lesson to localStorage whenever it changes
   useEffect(() => {
     if (typeof window !== "undefined" && storageKey) {
       localStorage.setItem(`${storageKey}_lesson`, currentLesson.toString());
@@ -50,7 +47,6 @@ export default function LessonMode({
     return items.slice(startIdx, startIdx + lessonSize);
   }, [items, startIdx, lessonSize]);
 
-  // Statistics for all lessons
   const lessonStats = useMemo(() => {
     return Array.from({ length: totalLessons }, (_, i) => {
       const bStart = i * lessonSize;
@@ -81,7 +77,6 @@ export default function LessonMode({
   const learnedInLesson = currentLessonStat.learnedCount;
   const lessonProgress = lessonItems.length > 0 ? Math.round((learnedInLesson / lessonItems.length) * 100) : 0;
 
-  // Unlearned items up to current lesson (Lesson 1 to currentLesson)
   const unlearnedUpToCurrent = useMemo(() => {
     const sliceEnd = Math.min(lesson * lessonSize, items.length);
     const subset = items.slice(0, sliceEnd);
@@ -90,14 +85,12 @@ export default function LessonMode({
       .filter(({ item }) => !learnedIds.has(item.id));
   }, [items, lesson, lessonSize, learnedIds]);
 
-  // All unlearned items
   const allUnlearned = useMemo(() => {
     return items
       .map((item, idx) => ({ item, originalIndex: idx, lessonNum: Math.floor(idx / lessonSize) + 1 }))
       .filter(({ item }) => !learnedIds.has(item.id));
   }, [items, lessonSize, learnedIds]);
 
-  // Next incomplete lesson
   const nextIncompleteLesson = useMemo(() => {
     const found = lessonStats.find((s) => !s.isCompleted && s.lessonNum !== lesson);
     return found ? found.lessonNum : null;
@@ -116,7 +109,9 @@ export default function LessonMode({
   if (items.length === 0) {
     return (
       <div className="empty-state">
-        <span className="empty-icon">📚</span>
+        <span className="empty-icon">
+          <InboxIcon size={36} />
+        </span>
         <p>Không có dữ liệu để học.</p>
       </div>
     );
@@ -126,148 +121,181 @@ export default function LessonMode({
 
   return (
     <div className="lesson-mode-wrapper">
-      {/* Lesson Header Box */}
       <div className="lesson-header">
         <div className="lesson-title-row">
           <span className="lesson-title">
-            📖 Bài {lesson} / {totalLessons}
+            <BookOpenIcon size={17} />
+            Bài {lesson} / {totalLessons}
           </span>
           <span className="lesson-range">
             (#{startIdx + 1} – #{Math.min(startIdx + lessonSize, items.length)})
           </span>
 
           <span className={`lesson-done-badge ${currentLessonStat.isCompleted ? "completed" : ""}`}>
-            {currentLessonStat.isCompleted ? "🎉 Đã hoàn thành 100%" : `${learnedInLesson}/${lessonItems.length} đã thuộc`}
+            {currentLessonStat.isCompleted ? (
+              <>
+                <CheckIcon size={14} /> Hoàn thành 100%
+              </>
+            ) : (
+              `${learnedInLesson}/${lessonItems.length} đã thuộc`
+            )}
           </span>
         </div>
 
-        {/* Lesson progress bar */}
         <div className="lesson-progress-bar-container">
-          <div
-            className="lesson-progress-bar"
-            style={{ width: `${lessonProgress}%` }}
-          />
+          <div className="lesson-progress-bar" style={{ width: `${lessonProgress}%` }} />
         </div>
 
-        {/* Navigation & Action Controls */}
         <div className="lesson-nav-controls">
           <button
-            className="lesson-nav-btn"
+            type="button"
+            className="lesson-nav-btn lesson-nav-btn--icon"
             onClick={() => goToLesson(1)}
             disabled={lesson <= 1}
             title="Bài đầu tiên"
+            aria-label="Bài đầu tiên"
           >
-            ⏮
+            <ChevronsLeftIcon size={16} />
           </button>
           <button
+            type="button"
             className="lesson-nav-btn"
             onClick={() => goToLesson(lesson - 1)}
             disabled={lesson <= 1}
           >
-            ← Bài trước
+            <ArrowLeftIcon size={14} />
+            <span>Bài trước</span>
           </button>
 
-          {/* Lesson picker with completion status in each option */}
           <select
             className="lesson-select"
             value={lesson}
             onChange={(e) => goToLesson(parseInt(e.target.value, 10))}
+            aria-label="Chọn bài học"
           >
             {lessonStats.map((st) => (
               <option key={st.lessonNum} value={st.lessonNum}>
-                Bài {st.lessonNum} ({st.isCompleted ? `✅ Đã xong 10/${st.totalCount}` : `${st.learnedCount}/${st.totalCount} • Còn ${st.unlearnedCount}`})
+                Bài {st.lessonNum} ({st.isCompleted ? `Xong ${st.totalCount}/${st.totalCount}` : `${st.learnedCount}/${st.totalCount} • Còn ${st.unlearnedCount}`})
               </option>
             ))}
           </select>
 
           <button
+            type="button"
             className="lesson-nav-btn"
             onClick={() => goToLesson(lesson + 1)}
             disabled={lesson >= totalLessons}
           >
-            Bài sau →
+            <span>Bài sau</span>
+            <ArrowRightIcon size={14} />
           </button>
           <button
-            className="lesson-nav-btn"
+            type="button"
+            className="lesson-nav-btn lesson-nav-btn--icon"
             onClick={() => goToLesson(totalLessons)}
             disabled={lesson >= totalLessons}
             title="Bài cuối cùng"
+            aria-label="Bài cuối cùng"
           >
-            ⏭
+            <ChevronsRightIcon size={16} />
           </button>
 
-          {/* Button to jump to next incomplete lesson if available */}
           {nextIncompleteLesson && (
             <button
+              type="button"
               className="lesson-jump-incomplete-btn"
               onClick={() => goToLesson(nextIncompleteLesson)}
               title={`Nhảy tới Bài ${nextIncompleteLesson} còn mục chưa thuộc`}
             >
-              ⚡ Tới bài chưa xong: Bài {nextIncompleteLesson}
+              <ZapIcon size={14} />
+              <span>Tới bài chưa xong: Bài {nextIncompleteLesson}</span>
             </button>
           )}
         </div>
 
-        {/* Unlearned Quick Filter Bar */}
         <div className="lesson-unlearned-toolbar">
           <button
+            type="button"
             className={`btn-toggle-unlearned ${viewUnlearned ? "active" : ""}`}
             onClick={() => setViewUnlearned(!viewUnlearned)}
           >
-            {viewUnlearned ? "📖 Xem lại bài đang học" : `⚠️ Xem từ/câu chưa thuộc (${unlearnedUpToCurrent.length})`}
+            {viewUnlearned ? (
+              <>
+                <BookOpenIcon size={15} />
+                <span>Xem lại bài đang học</span>
+              </>
+            ) : (
+              <>
+                <AlertTriangleIcon size={15} />
+                <span>Xem từ/câu chưa thuộc ({unlearnedUpToCurrent.length})</span>
+              </>
+            )}
           </button>
 
           {viewUnlearned && (
             <div className="unlearned-scope-selector">
               <span className="scope-label">Phạm vi:</span>
               <button
+                type="button"
                 className={`scope-pill ${unlearnedScope === "up_to_current" ? "active" : ""}`}
                 onClick={() => setUnlearnedScope("up_to_current")}
               >
                 Bài 1 → Bài {lesson} ({unlearnedUpToCurrent.length})
               </button>
               <button
+                type="button"
                 className={`scope-pill ${unlearnedScope === "all" ? "active" : ""}`}
                 onClick={() => setUnlearnedScope("all")}
               >
-                Tất cả các bài ({allUnlearned.length})
+                Tất cả ({allUnlearned.length})
               </button>
             </div>
           )}
         </div>
       </div>
 
-      {/* Main Content Area */}
       <div id="lesson-content-top" className="lesson-items">
         {viewUnlearned ? (
           <div>
             <div className="unlearned-view-header">
               <h3>
-                ⚠️ Danh sách câu/từ chưa thuộc {unlearnedScope === "up_to_current" ? `(từ Bài 1 đến Bài ${lesson})` : "(Toàn bộ)"}: {displayedUnlearnedItems.length} mục
+                <AlertTriangleIcon size={16} />
+                <span>
+                  Danh sách chưa thuộc {unlearnedScope === "up_to_current" ? `(Bài 1 – Bài ${lesson})` : "(Toàn bộ)"}: {displayedUnlearnedItems.length} mục
+                </span>
               </h3>
-              <p>Bạn có thể nghe và bấm &quot;Đã thuộc 🎉&quot; trực tiếp tại đây để hoàn thiện bài học.</p>
+              <p>Nghe phát âm và đánh dấu &quot;Đã thuộc&quot; trực tiếp tại đây để hoàn tất bài học.</p>
             </div>
 
             {displayedUnlearnedItems.length === 0 ? (
-              <div className="empty-state" style={{ marginTop: "16px" }}>
-                <span className="empty-icon">🎉</span>
-                <p>Tuyệt vời! Bạn đã thuộc toàn bộ câu/từ trong phạm vi này!</p>
-                <button className="lesson-nav-btn lesson-nav-btn--large" onClick={() => setViewUnlearned(false)} style={{ marginTop: "12px" }}>
-                  ← Quay lại Bài {lesson}
+              <div className="empty-state">
+                <span className="empty-icon">
+                  <CheckIcon size={36} />
+                </span>
+                <p>Bạn đã thuộc toàn bộ mục trong phạm vi này.</p>
+                <button
+                  type="button"
+                  className="lesson-nav-btn lesson-nav-btn--large"
+                  onClick={() => setViewUnlearned(false)}
+                >
+                  <ArrowLeftIcon size={14} />
+                  <span>Quay lại Bài {lesson}</span>
                 </button>
               </div>
             ) : (
-              <div className="lesson-items" style={{ marginTop: "14px" }}>
+              <div className="lesson-items">
                 {displayedUnlearnedItems.map(({ item, originalIndex, lessonNum }) => (
                   <div key={item.id} className="unlearned-item-container">
                     <div className="unlearned-item-lesson-tag">
                       <span className="badge-lesson">Thuộc Bài {lessonNum}</span>
                       <button
+                        type="button"
                         className="btn-link-lesson"
                         onClick={() => goToLesson(lessonNum)}
                         title={`Mở Bài ${lessonNum}`}
                       >
-                        Đến bài này ↗
+                        Đến bài này
+                        <ArrowRightIcon size={13} />
                       </button>
                     </div>
                     {renderItem(item, originalIndex)}
@@ -281,21 +309,24 @@ export default function LessonMode({
         )}
       </div>
 
-      {/* Bottom navigation */}
       {!viewUnlearned && (
         <div className="lesson-bottom-nav">
           <button
+            type="button"
             className="lesson-nav-btn lesson-nav-btn--large"
             onClick={() => goToLesson(lesson - 1)}
             disabled={lesson <= 1}
           >
-            ← Bài {lesson - 1}
+            <ArrowLeftIcon size={14} />
+            <span>Bài {lesson - 1}</span>
           </button>
 
           <span className="lesson-bottom-info">
             Bài {lesson} / {totalLessons}
             {lessonProgress === 100 && (
-              <span className="lesson-complete-badge">🎉 Hoàn thành!</span>
+              <span className="lesson-complete-badge">
+                <CheckIcon size={13} /> Hoàn thành
+              </span>
             )}
             {currentLessonStat.unlearnedCount > 0 && (
               <span className="lesson-remaining-badge">
@@ -305,11 +336,13 @@ export default function LessonMode({
           </span>
 
           <button
+            type="button"
             className="lesson-nav-btn lesson-nav-btn--large"
             onClick={() => goToLesson(lesson + 1)}
             disabled={lesson >= totalLessons}
           >
-            Bài {lesson + 1} →
+            <span>Bài {lesson + 1}</span>
+            <ArrowRightIcon size={14} />
           </button>
         </div>
       )}

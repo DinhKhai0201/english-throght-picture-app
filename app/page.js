@@ -3,6 +3,18 @@
 import { useState, useEffect } from "react";
 import Link from "next/link";
 import SectionNav from "./components/SectionNav";
+import {
+  ArrowRightIcon,
+  HeadphonesIcon,
+  TargetIcon,
+  MessageSquareIcon,
+  LayersIcon,
+  BookOpenIcon,
+  BriefcaseIcon,
+  MicIcon,
+  LanguagesIcon,
+  LightbulbIcon,
+} from "./components/Icons";
 import en300Data from "../300_cau_tieng_anh_giao_tiep.json";
 import chunksData from "../english_chunks_1000.json";
 import zhData from "../chinese_communication_chunks_v3_500plus.json";
@@ -22,15 +34,12 @@ export default function Home() {
   const [listenDrillFound, setListenDrillFound] = useState(0);
   const [listenDrillFirstTry, setListenDrillFirstTry] = useState(0);
   const [ieltsListeningCount, setIeltsListeningCount] = useState(0);
-  const [isLoaded, setIsLoaded] = useState(false);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
       try {
         const ieltsListeningStored = localStorage.getItem("ielts_listening_progress");
-        if (ieltsListeningStored) {
-          setIeltsListeningCount(JSON.parse(ieltsListeningStored).length);
-        }
+        if (ieltsListeningStored) setIeltsListeningCount(JSON.parse(ieltsListeningStored).length);
       } catch (e) {}
       try {
         const found = parseInt(localStorage.getItem("listen_drill_found") || "0", 10);
@@ -40,54 +49,32 @@ export default function Home() {
       } catch (e) {}
       try {
         const en300Stored = localStorage.getItem("english_300_progress");
-        if (en300Stored) {
-          setEn300Count(JSON.parse(en300Stored).length);
-        }
+        if (en300Stored) setEn300Count(JSON.parse(en300Stored).length);
       } catch (e) {}
-
       try {
         const chunksStored = localStorage.getItem("chunks_1000_progress");
-        if (chunksStored) {
-          setChunksCount(JSON.parse(chunksStored).length);
-        }
+        if (chunksStored) setChunksCount(JSON.parse(chunksStored).length);
       } catch (e) {}
-
       try {
         const zhStored = localStorage.getItem("chinese_500_progress");
-        if (zhStored) {
-          setZhCount(JSON.parse(zhStored).length);
-        }
+        if (zhStored) setZhCount(JSON.parse(zhStored).length);
       } catch (e) {}
-
       try {
         const jaStored = localStorage.getItem("japanese_chunks_progress");
-        if (jaStored) {
-          setJaCount(JSON.parse(jaStored).length);
-        }
+        if (jaStored) setJaCount(JSON.parse(jaStored).length);
       } catch (e) {}
-
       try {
         const ieltsStored = localStorage.getItem("ielts_words_progress");
-        if (ieltsStored) {
-          setIeltsCount(JSON.parse(ieltsStored).length);
-        }
+        if (ieltsStored) setIeltsCount(JSON.parse(ieltsStored).length);
       } catch (e) {}
-
       try {
         const interviewStored = localStorage.getItem("interview_qa_progress");
-        if (interviewStored) {
-          setInterviewCount(JSON.parse(interviewStored).length);
-        }
+        if (interviewStored) setInterviewCount(JSON.parse(interviewStored).length);
       } catch (e) {}
-
       try {
         const speakingStored = localStorage.getItem("ielts_speaking_completed_days");
-        if (speakingStored) {
-          setSpeakingDaysCount(JSON.parse(speakingStored).length);
-        }
+        if (speakingStored) setSpeakingDaysCount(JSON.parse(speakingStored).length);
       } catch (e) {}
-
-      setIsLoaded(true);
     }
   }, []);
 
@@ -106,323 +93,218 @@ export default function Home() {
   const ieltsPercent = Math.round((ieltsCount / totalIelts) * 100);
   const interviewPercent = Math.round((interviewCount / totalInterview) * 100);
   const speakingPercent = Math.round((speakingDaysCount / totalSpeakingDays) * 100);
+  const ieltsListeningPercent = Math.round((ieltsListeningCount / 210) * 100);
+  const drillPercent = Math.min(100, Math.round((listenDrillFound / 50) * 100));
 
   const totalLearned = en300Count + chunksCount + zhCount + jaCount + ieltsCount + interviewCount + speakingDaysCount;
   const totalAll = totalEn300 + totalChunks + totalZh + totalJa + totalIelts + totalInterview + totalSpeakingDays;
   const totalOverallPercent = Math.round((totalLearned / totalAll) * 100);
 
+  const tracks = [
+    {
+      title: "Luyện Nghe & Phản Xạ",
+      subtitle: "Rèn tốc độ nhận diện âm thanh, đánh vần và gõ phím chính xác.",
+      cards: [
+        {
+          href: "/listen-drill",
+          code: "DRILL",
+          badge: "Phản xạ nghe • Alphabet & Numbers",
+          title: "Listen & Find",
+          desc: "Nghe âm thanh và chọn nhanh chữ cái (a–z, A–Z) hoặc số đếm, hỗ trợ gõ phím trực tiếp.",
+          statLabel: "Đã tìm đúng",
+          statValue: `${listenDrillFound} lần (First try: ${listenDrillFirstTry})`,
+          percent: drillPercent,
+          cta: "Luyện phản xạ",
+          Icon: HeadphonesIcon,
+        },
+        {
+          href: "/ielts-listening",
+          code: "IELTS",
+          badge: "Part 1 & 2 • Names, Traps & Numbers",
+          title: "IELTS Listening Trainer",
+          desc: "Luyện gõ phím bắt chuẩn 3 mỏ điểm: Đánh vần Tên & Postcode, Bẫy chính tả và Số đếm.",
+          statLabel: "Tiến độ",
+          statValue: `${ieltsListeningCount}/210 mục (${ieltsListeningPercent}%)`,
+          percent: ieltsListeningPercent,
+          cta: "Luyện Part 1 & 2",
+          Icon: TargetIcon,
+        },
+      ],
+    },
+    {
+      title: "IELTS & Phỏng Vấn",
+      subtitle: "Hệ thống lộ trình 30 ngày Speaking, từ vựng học thuật và câu hỏi phỏng vấn.",
+      cards: [
+        {
+          href: "/ielts-speaking",
+          code: "IELTS",
+          badge: "Speaking • 30-Day Chunking Plan",
+          title: "IELTS Speaking 30 Ngày",
+          desc: "Lộ trình 30 ngày phản xạ Chunking & tư duy A-R-D hướng tới Band 7.0 – 8.0+.",
+          statLabel: "Tiến độ",
+          statValue: `${speakingDaysCount}/${totalSpeakingDays} ngày (${speakingPercent}%)`,
+          percent: speakingPercent,
+          cta: "Vào luyện nói",
+          Icon: MicIcon,
+        },
+        {
+          href: "/ielts-words",
+          code: "IELTS",
+          badge: "Học thuật • 3,500+ Từ Vựng",
+          title: "IELTS Word Trainer",
+          desc: "Từ vựng IELTS phân loại theo chủ đề, cấp độ, phiên âm IPA, ví dụ và từ đồng/trái nghĩa.",
+          statLabel: "Tiến độ",
+          statValue: `${ieltsCount}/${totalIelts} (${ieltsPercent}%)`,
+          percent: ieltsPercent,
+          cta: "Học từ vựng",
+          Icon: BookOpenIcon,
+        },
+        {
+          href: "/interview-qa",
+          code: "DEV",
+          badge: "Phỏng vấn • Web Developer Q&A",
+          title: "Phỏng Vấn Web Developer",
+          desc: "155 câu hỏi phỏng vấn tiếng Anh thực chiến và câu trả lời mẫu cho Web Developer.",
+          statLabel: "Tiến độ",
+          statValue: `${interviewCount}/${totalInterview} (${interviewPercent}%)`,
+          percent: interviewPercent,
+          cta: "Luyện phỏng vấn",
+          Icon: BriefcaseIcon,
+        },
+      ],
+    },
+    {
+      title: "Giao Tiếp & Chunks Đa Ngôn Ngữ",
+      subtitle: "Nạp cụm từ tự nhiên (chunks) để phản xạ giao tiếp không dịch từng từ.",
+      cards: [
+        {
+          href: "/english-300",
+          code: "EN",
+          badge: "Tiếng Anh • Giao tiếp nền tảng",
+          title: "300 Câu Giao Tiếp Cốt Lõi",
+          desc: "Các mẫu câu thông dụng theo 11 chủ đề thực tế, kèm gợi ý đáp lại và phát âm US/UK.",
+          statLabel: "Tiến độ",
+          statValue: `${en300Count}/${totalEn300} (${en300Percent}%)`,
+          percent: en300Percent,
+          cta: "Vào học",
+          Icon: MessageSquareIcon,
+        },
+        {
+          href: "/chunks",
+          code: "EN",
+          badge: "Tiếng Anh • Chunking Collocations",
+          title: "1000 English Chunks",
+          desc: "1000 cụm từ liên kết tự nhiên theo 10 chủ đề IELTS & giao tiếp kèm pattern và ví dụ.",
+          statLabel: "Tiến độ",
+          statValue: `${chunksCount}/${totalChunks} (${chunksPercent}%)`,
+          percent: chunksPercent,
+          cta: "Vào học",
+          Icon: LayersIcon,
+        },
+        {
+          href: "/chinese",
+          code: "ZH",
+          badge: "Tiếng Trung • Hán Tự & Pinyin",
+          title: "500 Chunks Tiếng Trung",
+          desc: "500 mẫu chunks và hội thoại tiếng Trung thông dụng kèm Pinyin thanh điệu và giải nghĩa.",
+          statLabel: "Tiến độ",
+          statValue: `${zhCount}/${totalZh} (${zhPercent}%)`,
+          percent: zhPercent,
+          cta: "Học tiếng Trung",
+          Icon: LanguagesIcon,
+        },
+        {
+          href: "/japanese",
+          code: "JA",
+          badge: "Tiếng Nhật • Kana & Romaji",
+          title: "300 Chunks Tiếng Nhật",
+          desc: "301 cụm giao tiếp tiếng Nhật theo 31 chủ đề kèm Kana, Romaji và sắc thái lịch sự.",
+          statLabel: "Tiến độ",
+          statValue: `${jaCount}/${totalJa} (${jaPercent}%)`,
+          percent: jaPercent,
+          cta: "Học tiếng Nhật",
+          Icon: LanguagesIcon,
+        },
+      ],
+    },
+  ];
+
   return (
     <main className="container">
-      {/* Multi-Section Navigation Bar */}
       <SectionNav />
 
-      {/* Hero Welcome */}
       <header className="hero">
         <div className="hero-content">
-          <h1>🎯 Học Ngoại Ngữ Qua Chunks & Phản Xạ</h1>
+          <span className="hero-eyebrow">Language Study Studio</span>
+          <h1>Học Ngoại Ngữ Qua Chunks &amp; Phản Xạ</h1>
           <p className="hero-subtitle">
-            Phương pháp học cụm từ tự nhiên, nghe phát âm bản xứ, ghi nhớ lâu và tự tin giao tiếp
+            Phương pháp học cụm từ tự nhiên, luyện nghe phát âm bản xứ và theo dõi tiến độ từng ngày.
           </p>
         </div>
 
-        {/* Global Progress Card */}
         <div className="progress-card">
           <div className="progress-stats">
-            <span className="stat-label">Tổng tiến trình học của bạn</span>
+            <span className="stat-label">Tổng tiến trình toàn bộ lộ trình</span>
             <span className="stat-value">
               {totalLearned}/{totalAll} mục ({totalOverallPercent}%)
             </span>
           </div>
           <div className="progress-bar-container">
-            <div className="progress-bar" style={{ width: `${totalOverallPercent}%` }}></div>
+            <div className="progress-bar" style={{ width: `${totalOverallPercent}%` }} />
           </div>
         </div>
       </header>
 
-      {/* 3 Main Sections Grid */}
-      <section className="home-sections-grid">
-        {/* Section 0: Listen & Find Drill (Alphabet & Numbers) */}
-        <Link href="/listen-drill" className="home-section-card card-drill" style={{ borderLeftColor: "#0e7490" }}>
-          <div>
-            <span className="home-section-badge badge-drill">
-              🎧 Phản Xạ Nghe • Alphabet & Numbers
-            </span>
-            <h2 className="home-section-title">Listen & Find (Luyện Nghe Phản Xạ)</h2>
-            <p className="home-section-desc">
-              Nghe âm thanh và tìm nhanh chữ cái (Alphabet a-z, A-Z) và số đếm (Numbers), hỗ trợ bấm phím máy tính trực tiếp siêu nhanh.
-            </p>
-          </div>
+      <div className="home-tracks">
+        {tracks.map((track) => (
+          <section key={track.title} className="home-track-section">
+            <div className="home-track-header">
+              <h2 className="home-track-title">{track.title}</h2>
+              <p className="home-track-desc">{track.subtitle}</p>
+            </div>
 
-          <div className="home-section-progress-wrap">
-            <div className="home-section-stats">
-              <span style={{ color: "var(--color-text-muted)" }}>Đã tìm đúng:</span>
-              <span style={{ color: "#0e7490", fontWeight: "700" }}>
-                {listenDrillFound} lần (First Try: {listenDrillFirstTry})
-              </span>
-            </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
-              <div
-                className="progress-bar"
-                style={{ width: `${Math.min(100, Math.round((listenDrillFound / 50) * 100))}%`, backgroundColor: "#0e7490" }}
-              ></div>
-            </div>
-            <div className="home-section-cta" style={{ color: "#0e7490" }}>
-              Vào luyện phản xạ ngay →
-            </div>
-          </div>
-        </Link>
+            <div className="home-sections-grid">
+              {track.cards.map(({ href, code, badge, title, desc, statLabel, statValue, percent, cta, Icon }) => (
+                <Link key={href} href={href} className="home-section-card">
+                  <div>
+                    <div className="home-card-top">
+                      <span className="home-section-badge">
+                        <span className="badge-code">{code}</span>
+                        <span>{badge}</span>
+                      </span>
+                      <span className="home-card-icon">
+                        <Icon size={17} />
+                      </span>
+                    </div>
+                    <h3 className="home-section-title">{title}</h3>
+                    <p className="home-section-desc">{desc}</p>
+                  </div>
 
-        {/* Section IELTS Listening Part 1 & 2 Trainer */}
-        <Link href="/ielts-listening" className="home-section-card card-ielts-listening" style={{ borderLeftColor: "#0d9488" }}>
-          <div>
-            <span className="home-section-badge badge-ielts-listening">
-              🎯 Luyện Part 1 & 2 • Names, Traps & Numbers
-            </span>
-            <h2 className="home-section-title">IELTS Listening Part 1 & 2 Trainer</h2>
-            <p className="home-section-desc">
-              Luyện phản xạ gõ phím bắt chuẩn 3 mỏ điểm: Đánh vần Tên & Mã bưu điện, Bẫy chính tả thường gặp, Số đếm teen/ty & Giá tiền.
-            </p>
-          </div>
-
-          <div className="home-section-progress-wrap">
-            <div className="home-section-stats">
-              <span style={{ color: "var(--color-text-muted)" }}>Tiến độ:</span>
-              <span style={{ color: "#0d9488", fontWeight: "700" }}>
-                {ieltsListeningCount}/210 mục ({Math.round((ieltsListeningCount / 210) * 100)}%)
-              </span>
+                  <div className="home-section-progress-wrap">
+                    <div className="home-section-stats">
+                      <span className="home-stat-label">{statLabel}</span>
+                      <span className="home-stat-value">{statValue}</span>
+                    </div>
+                    <div className="progress-bar-container progress-bar-container--thin">
+                      <div className="progress-bar" style={{ width: `${percent}%` }} />
+                    </div>
+                    <div className="home-section-cta">
+                      <span>{cta}</span>
+                      <ArrowRightIcon size={15} />
+                    </div>
+                  </div>
+                </Link>
+              ))}
             </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
-              <div
-                className="progress-bar"
-                style={{ width: `${Math.round((ieltsListeningCount / 210) * 100)}%`, backgroundColor: "#0d9488" }}
-              ></div>
-            </div>
-            <div className="home-section-cta" style={{ color: "#0d9488" }}>
-              Vào luyện Part 1 & 2 ngay →
-            </div>
-          </div>
-        </Link>
-
-        {/* Section 1: 300 English Sentences */}
-        <Link href="/english-300" className="home-section-card card-en300">
-          <div>
-            <span className="home-section-badge badge-en300">
-              ⚡ Tiếng Anh • Giao Tiếp Nền Tảng
-            </span>
-            <h2 className="home-section-title">300 Câu Giao Tiếp Cốt Lõi</h2>
-            <p className="home-section-desc">
-              Các mẫu câu thông dụng nhất chia theo 11 chủ đề thực tế, kèm gợi ý câu phản hồi và phát âm chuẩn US/UK.
-            </p>
-          </div>
-
-          <div className="home-section-progress-wrap">
-            <div className="home-section-stats">
-              <span style={{ color: "var(--color-text-muted)" }}>Tiến độ:</span>
-              <span style={{ color: "#4f46e5" }}>
-                {en300Count}/{totalEn300} ({en300Percent}%)
-              </span>
-            </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
-              <div
-                className="progress-bar"
-                style={{ width: `${en300Percent}%`, backgroundColor: "#4f46e5" }}
-              ></div>
-            </div>
-            <div className="home-section-cta">
-              Vào học ngay →
-            </div>
-          </div>
-        </Link>
-
-        {/* Section 2: 1000 English Chunks */}
-        <Link href="/chunks" className="home-section-card card-chunks">
-          <div>
-            <span className="home-section-badge badge-chunks">
-              🧩 Tiếng Anh • Chunking Collocations
-            </span>
-            <h2 className="home-section-title">1000 English Chunks</h2>
-            <p className="home-section-desc">
-              1000 cụm từ và mẫu liên kết tự nhiên theo 10 chủ đề IELTS & giao tiếp, kèm cấu trúc pattern và câu ví dụ minh họa.
-            </p>
-          </div>
-
-          <div className="home-section-progress-wrap">
-            <div className="home-section-stats">
-              <span style={{ color: "var(--color-text-muted)" }}>Tiến độ:</span>
-              <span style={{ color: "#059669" }}>
-                {chunksCount}/{totalChunks} ({chunksPercent}%)
-              </span>
-            </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
-              <div
-                className="progress-bar"
-                style={{ width: `${chunksPercent}%`, backgroundColor: "#059669" }}
-              ></div>
-            </div>
-            <div className="home-section-cta">
-              Vào học ngay →
-            </div>
-          </div>
-        </Link>
-
-        {/* Section: IELTS Word Trainer */}
-        <Link href="/ielts-words" className="home-section-card card-ielts">
-          <div>
-            <span className="home-section-badge badge-ielts">
-              🎯 Học Thuật • 3,500+ IELTS Words
-            </span>
-            <h2 className="home-section-title">IELTS Word Trainer</h2>
-            <p className="home-section-desc">
-              Hơn 3,500 từ vựng IELTS học thuật phân loại theo chủ đề, cấp độ, câu ví dụ và từ đồng nghĩa/trái nghĩa.
-            </p>
-          </div>
-
-          <div className="home-section-progress-wrap">
-            <div className="home-section-stats">
-              <span style={{ color: "var(--color-text-muted)" }}>Tiến độ:</span>
-              <span style={{ color: "#d97706" }}>
-                {ieltsCount}/{totalIelts} ({ieltsPercent}%)
-              </span>
-            </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
-              <div
-                className="progress-bar"
-                style={{ width: `${ieltsPercent}%`, backgroundColor: "#f59e0b" }}
-              ></div>
-            </div>
-            <div className="home-section-cta">
-              Vào học ngay →
-            </div>
-          </div>
-        </Link>
-
-        {/* Section: 500 Interview Q&A */}
-        <Link href="/interview-qa" className="home-section-card card-interview">
-          <div>
-            <span className="home-section-badge badge-interview">
-              💼 Phỏng Vấn • Web Developer Q&A
-            </span>
-            <h2 className="home-section-title">Phỏng Vấn Web Developer</h2>
-            <p className="home-section-desc">
-              155 câu hỏi phỏng vấn tiếng Anh thực chiến và câu trả lời mẫu tối ưu dành cho Web Developer.
-            </p>
-          </div>
-
-          <div className="home-section-progress-wrap">
-            <div className="home-section-stats">
-              <span style={{ color: "var(--color-text-muted)" }}>Tiến độ:</span>
-              <span style={{ color: "#0284c7" }}>
-                {interviewCount}/{totalInterview} ({interviewPercent}%)
-              </span>
-            </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
-              <div
-                className="progress-bar"
-                style={{ width: `${interviewPercent}%`, backgroundColor: "#0284c7" }}
-              ></div>
-            </div>
-            <div className="home-section-cta">
-              Vào học ngay →
-            </div>
-          </div>
-        </Link>
-
-        {/* Section: IELTS Speaking 30-Day Plan */}
-        <Link href="/ielts-speaking" className="home-section-card card-speaking">
-          <div>
-            <span className="home-section-badge badge-speaking">
-              🎙️ IELTS Speaking • 30-Day Mastery
-            </span>
-            <h2 className="home-section-title">IELTS Speaking 30 Ngày</h2>
-            <p className="home-section-desc">
-              Lộ trình 30 ngày phản xạ Chunking & tư duy A-R-D chinh phục IELTS Speaking Band 7.0 - 8.0+.
-            </p>
-          </div>
-
-          <div className="home-section-progress-wrap">
-            <div className="home-section-stats">
-              <span style={{ color: "var(--color-text-muted)" }}>Tiến độ:</span>
-              <span style={{ color: "#059669" }}>
-                {speakingDaysCount}/{totalSpeakingDays} ngày ({speakingPercent}%)
-              </span>
-            </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
-              <div
-                className="progress-bar"
-                style={{ width: `${speakingPercent}%`, backgroundColor: "#059669" }}
-              ></div>
-            </div>
-            <div className="home-section-cta">
-              Vào luyện nói ngay →
-            </div>
-          </div>
-        </Link>
-
-        {/* Section 3: 500 Chinese Chunks */}
-        <Link href="/chinese" className="home-section-card card-chinese">
-          <div>
-            <span className="home-section-badge badge-chinese">
-              🇨🇳 Tiếng Trung • Hán Tự & Pinyin
-            </span>
-            <h2 className="home-section-title">500 Chunks Tiếng Trung</h2>
-            <p className="home-section-desc">
-              500 mẫu chunks và phản xạ hội thoại tiếng Trung thông dụng nhất, đầy đủ Pinyin thanh điệu, giải nghĩa và mẹo học nhanh.
-            </p>
-          </div>
-
-          <div className="home-section-progress-wrap">
-            <div className="home-section-stats">
-              <span style={{ color: "var(--color-text-muted)" }}>Tiến độ:</span>
-              <span style={{ color: "#e11d48" }}>
-                {zhCount}/{totalZh} ({zhPercent}%)
-              </span>
-            </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
-              <div
-                className="progress-bar"
-                style={{ width: `${zhPercent}%`, backgroundColor: "#e11d48" }}
-              ></div>
-            </div>
-            <div className="home-section-cta">
-              Vào học ngay →
-            </div>
-          </div>
-        </Link>
-
-        {/* Section 4: 300 Japanese Chunks */}
-        <Link href="/japanese" className="home-section-card card-japanese">
-          <div>
-            <span className="home-section-badge badge-japanese">
-              🇯🇵 Tiếng Nhật • Kana & Romaji
-            </span>
-            <h2 className="home-section-title">300 Chunks Tiếng Nhật</h2>
-            <p className="home-section-desc">
-              301 cụm giao tiếp tiếng Nhật thực chiến theo 31 chủ đề, kèm Kana, Romaji và phân loại sắc thái lịch sự / thân mật.
-            </p>
-          </div>
-
-          <div className="home-section-progress-wrap">
-            <div className="home-section-stats">
-              <span style={{ color: "var(--color-text-muted)" }}>Tiến độ:</span>
-              <span style={{ color: "#8b5cf6" }}>
-                {jaCount}/{totalJa} ({jaPercent}%)
-              </span>
-            </div>
-            <div className="progress-bar-container" style={{ height: "8px", backgroundColor: "var(--color-border)" }}>
-              <div
-                className="progress-bar"
-                style={{ width: `${jaPercent}%`, backgroundColor: "#8b5cf6" }}
-              ></div>
-            </div>
-            <div className="home-section-cta">
-              Vào học ngay →
-            </div>
-          </div>
-        </Link>
-      </section>
+          </section>
+        ))}
+      </div>
 
       <footer className="app-footer">
-        <p>💡 Tip: Bấm vào bất kỳ section nào ở trên hoặc dùng thanh điều hướng phía trên để bắt đầu học.</p>
+        <p>
+          <LightbulbIcon size={15} />
+          <span>Tip: Bấm vào bất kỳ phân hệ nào ở trên hoặc chuyển nhanh qua thanh điều hướng phía trên.</span>
+        </p>
       </footer>
     </main>
   );

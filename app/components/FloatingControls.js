@@ -1,6 +1,13 @@
 "use client";
 
 import { useState, useEffect, useRef } from "react";
+import {
+  ChevronLeftIcon,
+  ChevronRightIcon,
+  Volume2Icon,
+  VolumeXIcon,
+  ArrowUpIcon,
+} from "./Icons";
 
 export default function FloatingControls() {
   const [showScrollTop, setShowScrollTop] = useState(false);
@@ -12,19 +19,16 @@ export default function FloatingControls() {
   useEffect(() => {
     setMounted(true);
 
-    // Read saved audio mute state
     try {
       const savedMute = localStorage.getItem("etp_audio_muted") === "true";
       setIsMuted(savedMute);
       window.__ETP_AUDIO_MUTED__ = savedMute;
     } catch (e) {}
 
-    // Global patch for speechSynthesis.speak once
     if (typeof window !== "undefined" && window.speechSynthesis && !window.__SPEECH_SYNTHESIS_PATCHED__) {
       const originalSpeak = window.speechSynthesis.speak.bind(window.speechSynthesis);
       window.speechSynthesis.speak = function (utterance) {
         if (window.__ETP_AUDIO_MUTED__) {
-          // Trigger onstart and onend so UI states (playingId, animations) reset cleanly without playing audio
           if (utterance.onstart) {
             try {
               utterance.onstart(new Event("start"));
@@ -44,12 +48,10 @@ export default function FloatingControls() {
       window.__SPEECH_SYNTHESIS_PATCHED__ = true;
     }
 
-    // Scroll listener for Scroll to Top button
     const handleScroll = () => {
       setShowScrollTop(window.scrollY > 280);
     };
 
-    // Click outside listener to auto-close drawer
     const handleClickOutside = (e) => {
       if (drawerRef.current && !drawerRef.current.contains(e.target)) {
         setIsDrawerOpen(false);
@@ -78,7 +80,6 @@ export default function FloatingControls() {
       localStorage.setItem("etp_audio_muted", String(nextMuted));
     } catch (e) {}
 
-    // Cancel any current speaking speech when muting
     if (nextMuted && typeof window !== "undefined" && window.speechSynthesis) {
       window.speechSynthesis.cancel();
     }
@@ -95,57 +96,46 @@ export default function FloatingControls() {
 
   return (
     <>
-      {/* SIDE DRAWER: AUDIO MUTE / UNMUTE */}
       <aside
         ref={drawerRef}
         className={`audio-side-drawer ${isDrawerOpen ? "is-open" : ""}`}
         aria-label="Audio control drawer"
       >
-        {/* Docked Arrow Tab Label */}
         <button
+          type="button"
           onClick={() => setIsDrawerOpen(!isDrawerOpen)}
           className={`drawer-tab-btn ${isMuted ? "tab-is-muted" : "tab-is-active"}`}
-          title={isDrawerOpen ? "Bấm để thu gọn thanh phát âm" : "Bấm mũi tên để mở thanh phát âm"}
+          title={isDrawerOpen ? "Thu gọn" : "Mở điều khiển âm thanh"}
           aria-label="Toggle audio drawer"
+          aria-expanded={isDrawerOpen}
         >
-          <span className="drawer-arrow-icon">{isDrawerOpen ? "▶" : "◀"}</span>
-          <span className="drawer-tab-icon">{isMuted ? "🔇" : "🔊"}</span>
+          <span className="drawer-arrow-icon">
+            {isDrawerOpen ? <ChevronRightIcon size={16} /> : <ChevronLeftIcon size={16} />}
+          </span>
         </button>
 
-        {/* Drawer Sliding Body */}
         <div className="drawer-body">
           <button
+            type="button"
             onClick={toggleMute}
-            className={`drawer-audio-toggle ${isMuted ? "toggle-muted" : "toggle-active"}`}
-            title={isMuted ? "Bấm để BẬT lại phát âm" : "Bấm để TẮT âm (bấm câu chỉ tăng số đếm)"}
+            className={`drawer-audio-icon-btn ${isMuted ? "toggle-muted" : "toggle-active"}`}
+            title={isMuted ? "Đang tắt âm — Bấm để bật âm" : "Đang bật âm — Bấm để tắt âm (chỉ tăng lượt đếm)"}
+            aria-label={isMuted ? "Bật âm thanh" : "Tắt âm thanh"}
           >
-            <div className="drawer-toggle-icon-wrap">
-              <span className="drawer-toggle-main-icon">{isMuted ? "🔇" : "🔊"}</span>
-            </div>
-            <div className="drawer-toggle-info">
-              <span className="drawer-toggle-title">
-                {isMuted ? "Đang Tắt Âm" : "Đang Bật Âm"}
-              </span>
-              <span className="drawer-toggle-desc">
-                {isMuted ? "Chỉ tăng lượt đếm" : "Phát âm thanh chuẩn"}
-              </span>
-            </div>
-            <div className={`drawer-switch-pill ${isMuted ? "is-off" : "is-on"}`}>
-              <div className="drawer-switch-knob"></div>
-            </div>
+            {isMuted ? <VolumeXIcon size={18} /> : <Volume2Icon size={18} />}
           </button>
         </div>
       </aside>
 
-      {/* FLOATING SCROLL TO TOP */}
       {showScrollTop && (
         <button
+          type="button"
           onClick={scrollToTop}
           className="scroll-to-top-btn"
-          title="Cuộn lên đầu trang (Scroll to Top)"
+          title="Cuộn lên đầu trang"
           aria-label="Scroll to top"
         >
-          <span className="scroll-top-icon">▲</span>
+          <ArrowUpIcon size={18} />
         </button>
       )}
     </>

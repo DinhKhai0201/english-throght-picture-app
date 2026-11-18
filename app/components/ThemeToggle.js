@@ -1,6 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
+import { SunIcon, MoonIcon } from "./Icons";
 
 export default function ThemeToggle({ className = "" }) {
   const [theme, setTheme] = useState("light");
@@ -8,7 +9,6 @@ export default function ThemeToggle({ className = "" }) {
 
   useEffect(() => {
     setMounted(true);
-    // Read current theme
     const currentTheme =
       document.documentElement.getAttribute("data-theme") ||
       (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
@@ -33,8 +33,10 @@ export default function ThemeToggle({ className = "" }) {
 
   if (!mounted) {
     return (
-      <button className={`theme-toggle-btn ${className}`} aria-label="Toggle theme">
-        <span className="theme-toggle-icon">🌙</span>
+      <button className={`theme-toggle-btn ${className}`} aria-label="Toggle theme" type="button">
+        <span className="theme-toggle-icon">
+          <MoonIcon size={16} />
+        </span>
         <span className="theme-toggle-text">Chế độ</span>
       </button>
     );
@@ -44,14 +46,16 @@ export default function ThemeToggle({ className = "" }) {
 
   return (
     <button
+      type="button"
       onClick={toggleTheme}
       className={`theme-toggle-btn ${isDark ? "theme-toggle-btn--dark" : ""} ${className}`}
-      title={isDark ? "Chuyển sang Giao diện Sáng (Light Mode)" : "Chuyển sang Giao diện Tối (Dark Mode)"}
+      title={isDark ? "Chuyển sang giao diện Sáng" : "Chuyển sang giao diện Tối"}
       aria-label="Toggle dark mode"
     >
-      <span className="theme-toggle-icon">{isDark ? "☀️" : "🌙"}</span>
-      <span className="theme-toggle-text">{isDark ? "Giao diện Sáng" : "Giao diện Tối"}</span>
+      <span className="theme-toggle-icon">
+        {isDark ? <SunIcon size={16} /> : <MoonIcon size={16} />}
+      </span>
+      <span className="theme-toggle-text">{isDark ? "Sáng" : "Tối"}</span>
     </button>
   );
 }
-
