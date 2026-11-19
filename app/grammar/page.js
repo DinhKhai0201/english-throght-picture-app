@@ -3,6 +3,7 @@
 import { useState, useMemo } from "react";
 import SectionNav from "../components/SectionNav";
 import LessonMode from "../components/LessonMode";
+import { AwardIcon } from "../components/Icons";
 import { useSpeechSynthesis } from "../hooks/useSpeechSynthesis";
 import { useStudyProgress } from "../hooks/useStudyProgress";
 import GrammarCardItem from "../components/study/GrammarCardItem";
