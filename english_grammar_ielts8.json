@@ -90,6 +90,60 @@
           "en": "He rarely exercises, which contributes to his poor health.",
           "vi": "Anh ấy hiếm khi tập thể dục, điều này góp phần vào sức khỏe kém của anh ấy."
         }
+      ],
+      "signals": [
+        "always",
+        "usually",
+        "often",
+        "sometimes",
+        "rarely",
+        "seldom",
+        "never",
+        "every day/week/year",
+        "once/twice a week",
+        "in the morning"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Động từ thường (+)",
+          "structure": "S + V(s/es)",
+          "example": "He works in a hospital. / They live in London."
+        },
+        {
+          "form": "Động từ thường (-)",
+          "structure": "S + do/does not + V_bare",
+          "example": "She does not (doesn't) drink coffee."
+        },
+        {
+          "form": "Động từ thường (?)",
+          "structure": "Do/Does + S + V_bare?",
+          "example": "Do you travel often? - Yes, I do."
+        },
+        {
+          "form": "Động từ To Be",
+          "structure": "S + am/is/are + (not) + Adj/Noun",
+          "example": "Renewable energy is essential for the future."
+        }
+      ],
+      "usage_notes": [
+        "Quy tắc thêm s/es: Thêm 'es' sau các động từ tận cùng bằng -o, -s, -z, -ch, -x, -sh (O Sợ Z-ô Chú X-ấu Sh-ợ: passes, watches, washes, fixes, goes).",
+        "Động từ tận cùng bằng phụ âm + y: Đổi 'y' thành 'i' rồi thêm 'es' (study -> studies, carry -> carries). Nếu trước 'y' là nguyên âm thì chỉ thêm 's' (play -> plays).",
+        "Diễn tả lịch trình, thời khóa biểu cố định trong tương lai (tàu xe, máy bay, lịch học, lịch chiếu phim): 'The train leaves at 8:00 AM tomorrow.'",
+        "Mệnh đề trạng ngữ chỉ thời gian (sau when, as soon as, until, before, after) dùng thì hiện tại đơn thay vì tương lai đơn: 'I will call you when I arrive (không dùng will arrive).'"
+      ],
+      "special_cases": [
+        {
+          "title": "Động từ chỉ trạng thái (Stative Verbs) KHÔNG chia tiếp diễn",
+          "formula": "S + V_stative (s/es) [Không dùng be V-ing]",
+          "explanation": "Các động từ tri giác, nhận thức, sở hữu và cảm xúc (know, understand, believe, remember, want, need, belong, possess, prefer, exist) luôn dùng ở thì Hiện tại đơn dù hành động đang diễn ra.",
+          "example": "I understand your point completely (KHÔNG dùng: I am understanding)."
+        },
+        {
+          "title": "Từ 'Always' dùng ở thì Hiện tại tiếp diễn chỉ sự phàn nàn",
+          "formula": "S + am/is/are + always + V-ing",
+          "explanation": "Khi muốn diễn tả một thói quen gây khó chịu, bực mình cho người nói, ta dùng thì tiếp diễn với 'always' thay vì hiện tại đơn.",
+          "example": "He is always interrupting me during meetings! (Anh ta lúc nào cũng ngắt lời tôi!)"
+        }
       ]
     },
     {
@@ -133,6 +187,49 @@
         {
           "en": "They are building a new hospital in the city centre this year.",
           "vi": "Họ đang xây dựng một bệnh viện mới ở trung tâm thành phố năm nay."
+        }
+      ],
+      "signals": [
+        "now",
+        "right now",
+        "at the moment",
+        "at present",
+        "currently",
+        "Listen!",
+        "Look!",
+        "Be quiet!",
+        "these days",
+        "this semester/week"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Khẳng định (+)",
+          "structure": "S + am/is/are + V-ing",
+          "example": "The global temperature is rising at an unprecedented rate."
+        },
+        {
+          "form": "Phủ định (-)",
+          "structure": "S + am/is/are + not + V-ing",
+          "example": "We are not making sufficient progress on this target."
+        },
+        {
+          "form": "Nghi vấn (?)",
+          "structure": "Am/Is/Are + S + V-ing?",
+          "example": "Are governments investing enough in public healthcare?"
+        }
+      ],
+      "usage_notes": [
+        "Quy tắc thêm -ing: Động từ tận cùng bằng 1 'e' câm -> bỏ 'e' thêm -ing (write -> writing). Tận cùng 'ee' giữ nguyên (see -> seeing). Tận cùng 'ie' -> đổi thành 'y' + ing (lie -> lying, die -> dying).",
+        "Quy tắc gấp đôi phụ âm: Động từ 1 âm tiết (hoặc trọng âm rơi vào âm tiết cuối) tận cùng bằng 1 nguyên âm + 1 phụ âm -> gấp đôi phụ âm (run -> running, begin -> beginning, prefer -> preferring).",
+        "Diễn tả xu hướng thay đổi hoặc phát triển dần dần (kết hợp với các động từ: become, get, change, grow, increase, develop): 'More consumers are turning to eco-friendly products.'",
+        "Kế hoạch chắc chắn trong tương lai gần đã sắp xếp trước (thời gian, địa điểm cụ thể): 'I am flying to Tokyo this Friday.'"
+      ],
+      "special_cases": [
+        {
+          "title": "Động từ đa nghĩa: Vừa là Stative vừa là Dynamic",
+          "formula": "Think / Have / Look / Smell / Taste",
+          "explanation": "Khi mang nghĩa trạng thái/sở hữu/nhận thức -> chia đơn; khi mang nghĩa hành động chủ ý -> chia tiếp diễn.",
+          "example": "I think it is right (Ý kiến) VS I am thinking about changing jobs (Đang cân nhắc)."
         }
       ]
     },
@@ -178,6 +275,49 @@
           "en": "The company launched its first product in 2010 and saw immediate success.",
           "vi": "Công ty ra mắt sản phẩm đầu tiên vào năm 2010 và ngay lập tức thành công."
         }
+      ],
+      "signals": [
+        "yesterday",
+        "ago (two days ago)",
+        "last week/month/year",
+        "in 1990/in the past",
+        "the other day",
+        "when I was young"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Khẳng định (+)",
+          "structure": "S + V2/V-ed",
+          "example": "The government enacted the landmark environmental bill in 2015."
+        },
+        {
+          "form": "Phủ định (-)",
+          "structure": "S + did not (didn't) + V_bare",
+          "example": "They did not anticipate the economic repercussions."
+        },
+        {
+          "form": "Nghi vấn (?)",
+          "structure": "Did + S + V_bare?",
+          "example": "Did the intervention produce measurable outcomes?"
+        },
+        {
+          "form": "Động từ To Be",
+          "structure": "S + was/were + (not) + Adj/Noun",
+          "example": "The early industrial policies were largely ineffective."
+        }
+      ],
+      "usage_notes": [
+        "Quy tắc phát âm đuôi -ed: /id/ sau âm /t, d/ (wanted, needed); /t/ sau các phụ âm vô thanh /p, k, f, s, sh, ch/ (stopped, looked, laughed, passed, watched); /d/ sau các âm hữu thanh còn lại (played, loved, cleaned).",
+        "Chuỗi hành động liên tiếp xảy ra trong quá khứ: Dùng liên tục thì Quá khứ đơn (He entered the lecture hall, opened his laptop, and began taking notes).",
+        "Trong IELTS Writing Task 1: Với các biểu đồ có mốc thời gian kết thúc trước thời điểm hiện tại (vd: năm 1990 - 2020), 100% động từ miêu tả xu hướng phải chia ở Quá khứ đơn."
+      ],
+      "special_cases": [
+        {
+          "title": "Cấu trúc 'Used to' vs 'Past Simple' cho thói quen quá khứ",
+          "formula": "S + used to + V_bare",
+          "explanation": "Used to nhấn mạnh một trạng thái hoặc thói quen đã chấm dứt hoàn toàn và không còn ở hiện tại, trong khi Quá khứ đơn chỉ trần thuật sự việc đã diễn ra.",
+          "example": "He used to smoke a pack a day, but he quit five years ago."
+        }
       ]
     },
     {
@@ -221,6 +361,45 @@
         {
           "en": "The children were playing in the park when it started to rain heavily.",
           "vi": "Những đứa trẻ đang chơi trong công viên thì trời bắt đầu mưa to."
+        }
+      ],
+      "signals": [
+        "while",
+        "when",
+        "as",
+        "at that time",
+        "at 8 PM yesterday",
+        "from 3 PM to 5 PM yesterday"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Khẳng định (+)",
+          "structure": "S + was/were + V-ing",
+          "example": "I was conducting the field survey when the storm hit."
+        },
+        {
+          "form": "Hành động song song",
+          "structure": "While S1 + was/were V-ing, S2 + was/were V-ing",
+          "example": "While the professor was lecturing, students were taking notes."
+        },
+        {
+          "form": "Hành động xen vào",
+          "structure": "When S + V2/ed, S + was/were V-ing",
+          "example": "When the power went out, researchers were running a critical simulation."
+        }
+      ],
+      "usage_notes": [
+        "Hành động đang diễn ra (kéo dài) -> chia Quá khứ tiếp diễn (was/were + V-ing).",
+        "Hành động ngắn xen ngang bất chợt -> chia Quá khứ đơn (V2/ed).",
+        "'While' thường đi với thì tiếp diễn (While + Past Continuous), 'When' có thể đi với cả quá khứ đơn (hành động xen vào) hoặc tiếp diễn.",
+        "Diễn tả hành động diễn ra tại một thời điểm chính xác trong quá khứ: 'At 7:00 yesterday morning, she was driving to the conference.'"
+      ],
+      "special_cases": [
+        {
+          "title": "Bối cảnh nền (Atmosphere & Setting) trong Speaking Part 2",
+          "formula": "Past Continuous (Bối cảnh nền) + Past Simple (Sự kiện chính)",
+          "explanation": "Dùng thì quá khứ tiếp diễn để vẽ nên khung cảnh sống động cho câu chuyện trong bài nói IELTS Speaking Part 2.",
+          "example": "The rain was pouring down and the wind was howling when I finally reached the cabin."
         }
       ]
     },
@@ -270,6 +449,57 @@
           "en": "The pollution levels have increased dramatically over the past decade.",
           "vi": "Mức độ ô nhiễm đã tăng mạnh trong thập kỷ qua."
         }
+      ],
+      "signals": [
+        "already",
+        "yet",
+        "just",
+        "ever",
+        "never",
+        "since + mốc thời gian",
+        "for + khoảng thời gian",
+        "recently",
+        "lately",
+        "so far",
+        "up to now",
+        "over the past decade"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Khẳng định (+)",
+          "structure": "S + have/has + V3/ed",
+          "example": "Renewable energy has expanded dramatically across Europe."
+        },
+        {
+          "form": "Phủ định (-)",
+          "structure": "S + have/has not (haven't/hasn't) + V3/ed",
+          "example": "Authorities have not resolved the traffic bottleneck yet."
+        },
+        {
+          "form": "Nghi vấn (?)",
+          "structure": "Have/Has + S + V3/ed?",
+          "example": "Has the new policy generated the expected economic outcomes?"
+        }
+      ],
+      "usage_notes": [
+        "Phân biệt 'Since' vs 'For': 'Since' + mốc thời gian cụ thể (since 2010, since graduation); 'For' + khoảng thời gian đo được (for 5 years, for a long time).",
+        "Phân biệt 'Been to' vs 'Gone to': 'Have been to' = đã đến và đã trở về; 'Have gone to' = đã đi đến đó và hiện vẫn chưa về.",
+        "Tuyệt đối KHÔNG dùng Hiện tại hoàn thành với các mốc thời gian đã chấm dứt trong quá khứ (yesterday, in 2020, two years ago). Sai: 'I have seen him yesterday' -> Đúng: 'I saw him yesterday'.",
+        "Vị trí của trạng từ: 'already, just, never, ever' đứng giữa have/has và V3; 'yet' đứng cuối câu phủ định và nghi vấn; 'recently, so far' thường đứng đầu hoặc cuối câu."
+      ],
+      "special_cases": [
+        {
+          "title": "Cấu trúc 'This is the first/second time...'",
+          "formula": "It/This is the first / second / best / worst... + S + have/has + V3/ed",
+          "explanation": "Sau cấu trúc so sánh hơn nhất hoặc số thứ tự, mệnh đề sau bắt buộc chia ở thì Hiện tại hoàn thành.",
+          "example": "This is the most challenging research paper I have ever written."
+        },
+        {
+          "title": "Mẫu câu phối hợp: S + have/has V3/ed + SINCE + S + V2/ed",
+          "formula": "S + have/has + V3/ed + since + S + V2/ed",
+          "explanation": "Mệnh đề chứa 'since' chia Quá khứ đơn (mốc bắt đầu), mệnh đề chính chia Hiện tại hoàn thành.",
+          "example": "She has worked as an urban planner since she graduated from Oxford."
+        }
       ]
     },
     {
@@ -313,6 +543,42 @@
         {
           "en": "They have been negotiating a trade deal for several months without success.",
           "vi": "Họ đã đàm phán một thỏa thuận thương mại trong vài tháng mà không thành công."
+        }
+      ],
+      "signals": [
+        "all day/morning/week",
+        "for + khoảng thời gian",
+        "since + mốc thời gian",
+        "how long...?"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Khẳng định (+)",
+          "structure": "S + have/has been + V-ing",
+          "example": "Researchers have been investigating this compound for over a decade."
+        },
+        {
+          "form": "Phủ định (-)",
+          "structure": "S + have/has not been + V-ing",
+          "example": "The factory has not been operating at full capacity recently."
+        },
+        {
+          "form": "Nghi vấn (?)",
+          "structure": "Have/Has + S + been + V-ing?",
+          "example": "How long have you been studying for the IELTS examination?"
+        }
+      ],
+      "usage_notes": [
+        "So sánh với Hiện tại hoàn thành đơn: HTHT đơn nhấn mạnh KẾT QUẢ hoặc SỐ LẦN hoàn thành (I have read 3 books); HTHT tiếp diễn nhấn mạnh QUÁ TRÌNH, TÍNH LIÊN TỤC hoặc HỆ QUẢ NHÌN THẤY ĐƯỢC (I have been reading all morning; My eyes are tired because I have been reading).",
+        "Với các động từ như 'live, work, study, teach', ta có thể dùng cả 2 thì với nghĩa gần như tương đương: 'I have lived here for 5 years' = 'I have been living here for 5 years'.",
+        "Tuyệt đối KHÔNG dùng HTHT tiếp diễn với các Stative Verbs (know, believe, love, own, belong). Sai: 'I have been knowing him' -> Đúng: 'I have known him for years'."
+      ],
+      "special_cases": [
+        {
+          "title": "Hành động vừa mới dừng lại để lại dấu vết rõ rệt ở hiện tại",
+          "formula": "S + have/has been + V-ing -> Hiện tượng thực tế quan sát được",
+          "explanation": "Dùng để giải thích cho một hiện trạng thực tế đang đập vào mắt người nói.",
+          "example": "The roads are extremely wet because it has been raining heavily."
         }
       ]
     },
@@ -358,6 +624,48 @@
           "en": "He had studied French for years before he moved to Paris.",
           "vi": "Anh ấy đã học tiếng Pháp trong nhiều năm trước khi chuyển đến Paris."
         }
+      ],
+      "signals": [
+        "by the time",
+        "before",
+        "after",
+        "as soon as",
+        "by 2010",
+        "already",
+        "when",
+        "until then"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Khẳng định (+)",
+          "structure": "S + had + V3/ed",
+          "example": "By the time the policy was implemented, market dynamics had already shifted."
+        },
+        {
+          "form": "Phủ định (-)",
+          "structure": "S + had not (hadn't) + V3/ed",
+          "example": "They hadn't finalized the contract before the partner withdrew."
+        },
+        {
+          "form": "Nghi vấn (?)",
+          "structure": "Had + S + V3/ed?",
+          "example": "Had the engineers inspected the structure prior to the incident?"
+        }
+      ],
+      "usage_notes": [
+        "Bản chất cốt lõi: Quá khứ hoàn thành dùng để diễn tả một hành động xảy ra và hoàn tất TRƯỚC một hành động khác trong quá khứ hoặc trước một mốc thời gian quá khứ.",
+        "Quy tắc phối hợp thì với BEFORE và AFTER:",
+        " - Before + Past Simple (V2/ed), Past Perfect (had V3/ed): 'Before he joined the company, he had worked at Google.'",
+        " - After + Past Perfect (had V3/ed), Past Simple (V2/ed): 'After they had gathered sufficient evidence, they published the findings.'",
+        "Quy tắc với BY THE TIME: 'By the time + S + V2/ed, S + had + V3/ed'."
+      ],
+      "special_cases": [
+        {
+          "title": "Cấu trúc đảo ngữ 'No sooner... than' và 'Hardly... when'",
+          "formula": "No sooner had + S + V3 than S + V2 | Hardly/Scarcely had + S + V3 when S + V2",
+          "explanation": "Diễn tả hành động 'Vừa mới... thì đã...'. Mệnh đề đầu đảo trợ động từ 'had' lên trước chủ ngữ.",
+          "example": "No sooner had the keynote speaker stepped onto the stage than the applause erupted."
+        }
       ]
     },
     {
@@ -401,6 +709,43 @@
         {
           "en": "In fifty years, people will be living on Mars, according to some scientists.",
           "vi": "Theo một số nhà khoa học, trong 50 năm nữa, người ta sẽ đang sống trên Sao Hỏa."
+        }
+      ],
+      "signals": [
+        "by + mốc tương lai (by 2030, by next year)",
+        "by the time + S + V(hiện tại đơn)",
+        "at this time tomorrow",
+        "at 9 PM tonight",
+        "in 10 years' time"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Tương lai hoàn thành (+)",
+          "structure": "S + will have + V3/ed",
+          "example": "By 2040, electric vehicles will have replaced combustion engine cars."
+        },
+        {
+          "form": "Tương lai tiếp diễn (+)",
+          "structure": "S + will be + V-ing",
+          "example": "At this time next month, I will be attending a symposium in Geneva."
+        },
+        {
+          "form": "Tương lai hoàn thành (-)",
+          "structure": "S + will not (won't) have + V3/ed",
+          "example": "Scientists will not have eradicated the virus by the end of the year."
+        }
+      ],
+      "usage_notes": [
+        "Tương lai hoàn thành (Future Perfect): Diễn tả hành động sẽ hoàn tất TRƯỚC một thời điểm hoặc một sự việc khác trong tương lai.",
+        "Tương lai tiếp diễn (Future Continuous): Diễn tả hành động ĐANG diễn ra tại một thời điểm xác định cụ thể trong tương lai.",
+        "Quy tắc sống còn: Mệnh đề sau 'By the time' ở tương lai PHẢI chia ở thì Hiện tại đơn, KHÔNG được dùng will: 'By the time you graduate (không dùng will graduate), AI will have revolutionized software development.'"
+      ],
+      "special_cases": [
+        {
+          "title": "Tương lai tiếp diễn để hỏi lịch sự (Polite Enquiries)",
+          "formula": "Will you be + V-ing...?",
+          "explanation": "Dùng thì tương lai tiếp diễn để hỏi lịch sự về kế hoạch của người khác nhằm nhờ vả hoặc sắp xếp công việc mà không tạo áp lực.",
+          "example": "Will you be passing by the post office this afternoon? If so, could you mail this document for me?"
         }
       ]
     },
@@ -446,6 +791,48 @@
           "en": "Could you elaborate on the advantages of electric vehicles, please?",
           "vi": "Bạn có thể nói rõ hơn về ưu điểm của xe điện không?"
         }
+      ],
+      "signals": [
+        "can",
+        "could",
+        "be able to",
+        "manage to",
+        "succeed in"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Khả năng ở hiện tại",
+          "structure": "S + can / is/am/are able to + V_bare",
+          "example": "Modern AI models can process billions of parameters per second."
+        },
+        {
+          "form": "Khả năng chung trong quá khứ",
+          "structure": "S + could + V_bare",
+          "example": "She could read and write fluently by the age of four."
+        },
+        {
+          "form": "Khả năng trong tình huống cụ thể quá khứ",
+          "structure": "S + was/were able to + V_bare",
+          "example": "Despite severe weather, the pilot was able to land the plane safely."
+        },
+        {
+          "form": "Yêu cầu / Xin phép lịch sự",
+          "structure": "Could/Can you please + V_bare?",
+          "example": "Could you provide further clarification on methodology?"
+        }
+      ],
+      "usage_notes": [
+        "Bẫy thi cực kỳ phổ biến: 'Could' chỉ dùng cho KHẢ NĂNG CHUNG CHUNG trong quá khứ (general ability). Khi nói về việc XOAY XỞ THÀNH CÔNG trong một tình huống cụ thể (specific occasion), BẮT BUỘC dùng 'was/were able to' hoặc 'managed to', KHÔNG được dùng 'could'.",
+        "'Can' chỉ có 2 dạng là can và could. Muốn chia ở các thì khác (tương lai, hiện tại hoàn thành, sau to-infinitive), bắt buộc phải dùng 'be able to' (will be able to, have been able to, hope to be able to).",
+        "'Could' còn được dùng như một dạng giả định hoặc suy đoán yếu ở hiện tại: 'It could rain later today' (Khả năng xảy ra khoảng 30-40%)."
+      ],
+      "special_cases": [
+        {
+          "title": "Phủ định trong quá khứ: Couldn't dùng được cho cả 2 trường hợp",
+          "formula": "S + couldn't + V_bare = S + wasn't/weren't able to + V_bare",
+          "explanation": "Ở thể khẳng định có sự phân biệt giữa could và was able to, nhưng ở thể PHỦ ĐỊNH (không làm được), ta có thể dùng 'couldn't' cho cả khả năng chung lẫn tình huống cụ thể.",
+          "example": "He tried his best, but he couldn't convince the committee."
+        }
       ]
     },
     {
@@ -489,6 +876,50 @@
         {
           "en": "Governments must take immediate action to combat climate change.",
           "vi": "Các chính phủ phải hành động ngay lập tức để chống lại biến đổi khí hậu."
+        }
+      ],
+      "signals": [
+        "must",
+        "have to",
+        "mustn't",
+        "don't have to",
+        "needn't"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Bắt buộc từ bản thân người nói (Internal)",
+          "structure": "S + must + V_bare",
+          "example": "I must improve my academic vocabulary before taking the test."
+        },
+        {
+          "form": "Bắt buộc do luật lệ/ngoại cảnh (External)",
+          "structure": "S + have/has to + V_bare",
+          "example": "In many countries, drivers have to wear seatbelts at all times."
+        },
+        {
+          "form": "Cấm đoán tuyệt đối (Prohibition)",
+          "structure": "S + must not (mustn't) + V_bare",
+          "example": "Candidates must not use mobile phones inside examination halls."
+        },
+        {
+          "form": "Không bắt buộc / Không cần thiết (No obligation)",
+          "structure": "S + do/does not have to + V_bare (= needn't + V0)",
+          "example": "You don't have to attend the session in person; it is streamed online."
+        }
+      ],
+      "usage_notes": [
+        "Phân biệt 'Mustn't' vs 'Don't have to':",
+        " - 'Mustn't' = CẤM ĐOÁN (bị phạt hoặc trái pháp luật nếu làm).",
+        " - 'Don't have to' = KHÔNG BẮT BUỘC (làm cũng được, không làm cũng chẳng sao).",
+        "'Must' không có thì quá khứ. Khi muốn diễn tả sự bắt buộc trong quá khứ, BẮT BUỘC dùng 'had to': 'Yesterday, I had to work late to meet the deadline.'",
+        "Trong văn phong học thuật IELTS Writing Task 2: Tránh lạm dụng 'must' để thể hiện mệnh lệnh cực đoan, nên dùng 'should, ought to, need to, it is imperative that'."
+      ],
+      "special_cases": [
+        {
+          "title": "Need vừa là Động từ thường vừa là Modal Verb",
+          "formula": "S + needn't + V_bare (Modal) = S + don't need to + V_bare (Động từ thường)",
+          "explanation": "Khi đóng vai trò Modal verb, 'need' đi trực tiếp với V-bare và phủ định là 'needn't'.",
+          "example": "You needn't worry about lodging; accommodation is provided."
         }
       ]
     },
@@ -534,6 +965,43 @@
           "en": "Ought we not to consider the long-term consequences of our decisions?",
           "vi": "Chúng ta không nên cân nhắc hậu quả lâu dài của các quyết định của mình sao?"
         }
+      ],
+      "signals": [
+        "should",
+        "ought to",
+        "had better",
+        "it is advisable that"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Lời khuyên thông thường",
+          "structure": "S + should / ought to + V_bare",
+          "example": "Governments should allocate more capital to renewable infrastructure."
+        },
+        {
+          "form": "Lời khuyên mang tính cấp bách/cảnh báo",
+          "structure": "S + had better ('d better) + V_bare",
+          "example": "You had better submit the revised proposal before 5 PM, or it will be rejected."
+        },
+        {
+          "form": "Phủ định của Had better",
+          "structure": "S + had better not + V_bare",
+          "example": "We had better not underestimate the competition in this market."
+        }
+      ],
+      "usage_notes": [
+        "Phân biệt 'Should' và 'Had better': 'Had better' mang sắc thái mạnh hơn rất nhiều so với 'should', hàm ý nếu không làm theo thì sẽ có HẬU QUẢ TIÊU CỰC ngay lập tức.",
+        "Lưu ý cấu trúc phủ định: 'Had better not + V0' (Tuyệt đối KHÔNG viết 'hadn't better').",
+        "'Ought to' ít dùng trong câu phủ định và câu hỏi trong văn nói hàng ngày, thường chỉ dùng thể khẳng định 'ought to + V0'.",
+        "Trong IELTS Writing: Thay vì lặp lại 'should', hãy dùng các cấu trúc học thuật đa dạng: 'It is highly recommended that...', 'Policy makers ought to consider...', 'It would be prudent to...'."
+      ],
+      "special_cases": [
+        {
+          "title": "Should trong mệnh đề thức giả định trang trọng",
+          "formula": "S + recommend/suggest/demand + that + S + (should) + V_bare",
+          "explanation": "Trong tiếng Anh-Mỹ 'should' thường được lược bỏ hoàn toàn, chỉ giữ lại động từ nguyên thể V-bare.",
+          "example": "The committee recommended that he (should) resign immediately."
+        }
       ]
     },
     {
@@ -577,6 +1045,55 @@
         {
           "en": "I shouldn't have spent so much time on social media before the exam.",
           "vi": "Tôi lẽ ra không nên dành quá nhiều thời gian trên mạng xã hội trước kỳ thi."
+        }
+      ],
+      "signals": [
+        "must have V3",
+        "can't/couldn't have V3",
+        "should have V3",
+        "might/may have V3",
+        "needn't have V3"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Suy đoán chắc chắn đúng trong quá khứ (99%)",
+          "structure": "S + must have + V3/ed",
+          "example": "The streets are soaking wet; it must have rained heavily last night."
+        },
+        {
+          "form": "Suy đoán chắc chắn KHÔNG thể xảy ra (99%)",
+          "structure": "S + can't / couldn't have + V3/ed",
+          "example": "He couldn't have committed the theft because he was in London that day."
+        },
+        {
+          "form": "Suy đoán không chắc chắn (30-50%)",
+          "structure": "S + might / may / could have + V3/ed",
+          "example": "They might have taken a wrong turn, which explains their delay."
+        },
+        {
+          "form": "Lẽ ra nên làm nhưng đã không làm (Tiếc nuối/Trách móc)",
+          "structure": "S + should have + V3/ed",
+          "example": "The authorities should have warned residents before the hurricane struck."
+        },
+        {
+          "form": "Lẽ ra đã không cần làm nhưng lỡ làm rồi",
+          "structure": "S + needn't have + V3/ed",
+          "example": "We needn't have rushed to the station; the train was delayed by an hour."
+        }
+      ],
+      "usage_notes": [
+        "Bẫy suy đoán phủ định: Để nói 'Chắc chắn không xảy ra trong quá khứ', BẮT BUỘC dùng 'can't/couldn't have V3', TUYỆT ĐỐI KHÔNG dùng 'mustn't have V3'.",
+        "Phân biệt 'Needn't have V3' vs 'Didn't need to V':",
+        " - 'Needn't have V3': Thực tế ĐÃ LÀM việc đó rồi, dù sau đó mới nhận ra là không cần thiết (lãng phí công sức).",
+        " - 'Didn't need to V': Biết là KHÔNG CẦN THIẾT nên thực tế ĐÃ KHÔNG LÀM việc đó.",
+        "Cấu trúc này cực kỳ ăn điểm tiêu chí Grammatical Range & Accuracy trong IELTS Speaking Part 3 khi suy luận về các sự kiện lịch sử hoặc nguyên nhân hiện tượng."
+      ],
+      "special_cases": [
+        {
+          "title": "Cấu trúc Should have V3 trong lời xin lỗi và phản tư bản thân",
+          "formula": "I shouldn't have + V3/ed...",
+          "explanation": "Dùng để diễn tả sự hối hận sâu sắc về một hành vi trong quá khứ trong bài thi IELTS Speaking Part 2.",
+          "example": "In retrospect, I shouldn't have procrastinated on my graduation thesis."
         }
       ]
     },
@@ -622,6 +1139,44 @@
           "en": "If she passes the exam, she will celebrate with her family.",
           "vi": "Nếu cô ấy đỗ kỳ thi, cô ấy sẽ ăn mừng cùng gia đình."
         }
+      ],
+      "signals": [
+        "if",
+        "unless (= if not)",
+        "provided that",
+        "as long as",
+        "in case"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Zero Conditional (Sự thật khoa học / Chân lý)",
+          "structure": "If + S + V(hiện tại đơn), S + V(hiện tại đơn)",
+          "example": "If water reaches 100 degrees Celsius, it boils."
+        },
+        {
+          "form": "First Conditional (Có thể xảy ra ở tương lai)",
+          "structure": "If + S + V(hiện tại đơn), S + will/can/may + V_bare",
+          "example": "If the government subsidizes solar panels, more citizens will adopt them."
+        },
+        {
+          "form": "Biến thể mệnh lệnh thức ở câu điều kiện loại 1",
+          "structure": "If + S + V(hiện tại đơn), V_bare / Don't V_bare",
+          "example": "If you experience any adverse symptoms, contact your doctor immediately."
+        }
+      ],
+      "usage_notes": [
+        "Quy tắc tuyệt đối: Không dùng 'will' trong mệnh đề IF. Sai: 'If it will rain tomorrow...' -> Đúng: 'If it rains tomorrow...'.",
+        "Phân biệt 'Unless' và 'If': 'Unless' = 'If... not'. Sau unless luôn là mệnh đề khẳng định. Sai: 'Unless you don't study...' -> Đúng: 'Unless you study hard, you will fail.'",
+        "Các từ đồng nghĩa thay thế IF rất hay trong IELTS: 'Provided that / Providing that' (Miễn là), 'As long as' (Chỉ cần), 'On condition that' (Với điều kiện là).",
+        "Phân biệt 'In case' vs 'If': 'In case' diễn tả hành động chuẩn bị trước để phòng ngừa sự việc xảy ra ('Take an umbrella in case it rains' = Cứ mang dù đi đề phòng trời mưa, dù mưa hay không thì vẫn mang)."
+      ],
+      "special_cases": [
+        {
+          "title": "Should trong mệnh đề IF loại 1 (Giảm xác suất xảy ra)",
+          "formula": "If + S + should + V_bare, S + will + V_bare",
+          "explanation": "Thêm 'should' vào mệnh đề IF nhằm nhấn mạnh rằng khả năng xảy ra là rất thấp hoặc chỉ là tình cờ xảy ra.",
+          "example": "If you should encounter any technical errors, please alert our IT support team."
+        }
       ]
     },
     {
@@ -665,6 +1220,38 @@
         {
           "en": "If we invested more in renewable energy, we would significantly reduce pollution.",
           "vi": "Nếu chúng ta đầu tư nhiều hơn vào năng lượng tái tạo, chúng ta sẽ giảm đáng kể ô nhiễm."
+        }
+      ],
+      "signals": [
+        "if",
+        "were",
+        "would",
+        "could",
+        "might"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Cấu trúc chuẩn",
+          "structure": "If + S + V2/ed (were), S + would/could/might + V_bare",
+          "example": "If public transit were completely free, urban traffic congestion would plummet."
+        },
+        {
+          "form": "Phủ định",
+          "structure": "If + S + did not + V_bare, S + would not + V_bare",
+          "example": "If companies didn't prioritize profit above all else, employee wellbeing would improve."
+        }
+      ],
+      "usage_notes": [
+        "Quy tắc To Be trong câu điều kiện loại 2: Trong ngữ pháp chuẩn mực học thuật, 'were' được dùng cho TẤT CẢ các ngôi chủ ngữ (If I were, If he were, If she were, If it were). Trong văn nói thân mật có thể gặp 'was', nhưng trong IELTS Writing bắt buộc dùng 'were'.",
+        "Lời khuyên đưa ra trong Speaking Part 1 & Part 3: 'If I were you, I would...' hoặc 'If I were in that position, I would...'.",
+        "Mục đích sử dụng: Diễn tả một giả định hoàn toàn trái ngược với thực tế ở hiện tại hoặc tương lai, mang tính tưởng tượng hoặc giả thuyết thuần túy."
+      ],
+      "special_cases": [
+        {
+          "title": "Cấu trúc 'If it were not for...' (Nếu không nhờ có...)",
+          "formula": "If it were not for + Noun / But for + Noun, S + would + V_bare",
+          "explanation": "Cấu trúc C1/C2 cực kỳ ấn tượng để diễn tả sự phụ thuộc hoặc ghi nhận vai trò thiết yếu của một yếu tố ở hiện tại.",
+          "example": "If it were not for generous government grants, this laboratory would cease operations."
         }
       ]
     },
@@ -710,6 +1297,43 @@
           "en": "If the earthquake had hit a densely populated area, the casualties would have been enormous.",
           "vi": "Nếu trận động đất xảy ra ở khu vực đông dân, thương vong đã rất lớn."
         }
+      ],
+      "signals": [
+        "if",
+        "had V3",
+        "would have V3",
+        "would + V_bare now"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Third Conditional (Trái thực tế quá khứ)",
+          "structure": "If + S + had + V3/ed, S + would/could/might have + V3/ed",
+          "example": "If safety protocols had been enforced, the catastrophe could have been averted."
+        },
+        {
+          "form": "Mixed Conditional (Quá khứ -> Hiện tại)",
+          "structure": "If + S + had + V3/ed, S + would + V_bare (now / today)",
+          "example": "If she had taken the scholarship offer last year, she would be studying in Boston right now."
+        },
+        {
+          "form": "Mixed Conditional (Bản chất hiện tại -> Hệ quả quá khứ)",
+          "structure": "If + S + were / V2/ed, S + would have + V3/ed",
+          "example": "If he were not so stubborn, he would have accepted their financial help."
+        }
+      ],
+      "usage_notes": [
+        "Phân biệt rõ 2 loại câu điều kiện hỗn hợp (Mixed Conditionals):",
+        " - Type 3 + Type 2: Giả định một hành động trái ngược quá khứ ('had V3') dẫn đến kết quả khác đi ở HIỆN TẠI ('would V_bare now'). Đây là dạng phổ biến nhất.",
+        " - Type 2 + Type 3: Giả định một bản chất/đặc điểm vốn có ở hiện tại ('If S + were') đã dẫn đến kết quả khác đi trong QUÁ KHỨ ('would have V3').",
+        "Cấu trúc thay thế đắt giá: 'If it had not been for + Noun' = 'But for + Noun' = 'Without + Noun' (Nếu không nhờ có... trong quá khứ)."
+      ],
+      "special_cases": [
+        {
+          "title": "Cấu trúc 'But for' và 'Without' trong câu điều kiện loại 3",
+          "formula": "But for / Without + Noun Phrase, S + would have + V3/ed",
+          "explanation": "Cách diễn đạt ngắn gọn, súc tích và trang trọng thay thế cho mệnh đề 'If it had not been for...'.",
+          "example": "Without prompt medical intervention, the patient would not have survived the night."
+        }
       ]
     },
     {
@@ -753,6 +1377,49 @@
         {
           "en": "Had the policy been implemented earlier, the crisis would have been avoided.",
           "vi": "Nếu chính sách được thực hiện sớm hơn, cuộc khủng hoảng đã có thể tránh được."
+        }
+      ],
+      "signals": [
+        "Should S + V_bare",
+        "Were S (to V)",
+        "Had S + V3/ed",
+        "bỏ IF"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Đảo ngữ Loại 1 (Bỏ If -> Đưa Should lên đầu)",
+          "structure": "Should + S + V_bare, S + will/can + V_bare",
+          "example": "Should you require further documentation, please inform our department."
+        },
+        {
+          "form": "Đảo ngữ Loại 2 với To Be (Đưa Were lên đầu)",
+          "structure": "Were + S + (Adj/Noun), S + would + V_bare",
+          "example": "Were renewable technologies cheaper, emerging economies would adopt them faster."
+        },
+        {
+          "form": "Đảo ngữ Loại 2 với Động từ thường",
+          "structure": "Were + S + to + V_bare, S + would + V_bare",
+          "example": "Were the government to raise income tax, public backlash would be severe."
+        },
+        {
+          "form": "Đảo ngữ Loại 3 (Bỏ If -> Đưa Had lên đầu)",
+          "structure": "Had + S + V3/ed, S + would/could have + V3/ed",
+          "example": "Had scientists discovered the anomaly earlier, preventive measures could have been enacted."
+        }
+      ],
+      "usage_notes": [
+        "Tại sao nên dùng đảo ngữ câu điều kiện? Trong văn viết học thuật (IELTS Writing Task 2), đảo ngữ giúp câu văn trang trọng (formal), tinh tế và giúp đẩy điểm tiêu chí Grammatical Range lên Band 8.0+.",
+        "Lưu ý thể phủ định trong đảo ngữ: 'NOT' luôn đứng SAU chủ ngữ, KHÔNG viết tắt lên đầu câu:",
+        " - Loại 1: 'Should you NOT receive...' (Không viết: Shouldn't you...)",
+        " - Loại 2: 'Were it NOT for...' (Không viết: Weren't it...)",
+        " - Loại 3: 'Had they NOT intervened...' (Không viết: Hadn't they...)"
+      ],
+      "special_cases": [
+        {
+          "title": "Đảo ngữ kết hợp với 'Were it not for' và 'Had it not been for'",
+          "formula": "Were it not for + Noun (Hiện tại) | Had it not been for + Noun (Quá khứ)",
+          "explanation": "Mẫu câu đỉnh cao của câu điều kiện đảo ngữ dùng để tri ân hoặc chỉ ra nhân tố quyết định.",
+          "example": "Had it not been for substantial international donations, relief efforts would have stalled."
         }
       ]
     },
@@ -798,6 +1465,47 @@
           "en": "She wishes she had chosen a different career path when she was younger.",
           "vi": "Cô ấy ước mình đã chọn con đường sự nghiệp khác khi còn trẻ."
         }
+      ],
+      "signals": [
+        "wish",
+        "if only",
+        "would rather",
+        "it's time"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Ước ở tương lai / Phàn nàn thói quen",
+          "structure": "S + wish + S + would/could + V_bare",
+          "example": "I wish politicians would take decisive measures on emissions."
+        },
+        {
+          "form": "Ước ở hiện tại (Trái thực tế hiện tại)",
+          "structure": "S + wish + S + V2/ed (were)",
+          "example": "She wishes she possessed stronger analytical abilities for this role."
+        },
+        {
+          "form": "Ước ở quá khứ (Tiếc nuối quá khứ)",
+          "structure": "S + wish + S + had + V3/ed",
+          "example": "Many residents wish they had migrated to higher ground prior to the flood."
+        },
+        {
+          "form": "Cấu trúc IF ONLY (Mạnh mẽ hơn Wish)",
+          "structure": "If only + S + [lùi thì giống Wish]",
+          "example": "If only we had recognized the financial risks earlier!"
+        }
+      ],
+      "usage_notes": [
+        "Quy tắc lùi thì: Ước cho hiện tại -> lùi về Quá khứ đơn (V2/ed, dùng 'were' cho mọi ngôi); Ước cho quá khứ -> lùi về Quá khứ hoàn thành (had V3/ed).",
+        "Lưu ý với 'wish + would': Chỉ dùng 'would' khi chủ ngữ của 2 vế KHÁC NHAU nhằm phàn nàn hoặc yêu cầu ai đó thay đổi hành động. KHÔNG dùng 'I wish I would...'. Muốn ước cho chính mình làm được gì ở tương lai, dùng: 'I wish I could...'.",
+        "Cấu trúc liên quan: 'It's time / It's high time + S + V2/ed' (Đã đến lúc ai đó PHẢI làm gì): 'It is high time governments addressed youth unemployment.'"
+      ],
+      "special_cases": [
+        {
+          "title": "Cấu trúc 'Would rather' lùi thì cho 2 chủ ngữ khác nhau",
+          "formula": "S1 + would rather + S2 + V2/ed (hiện tại) | S1 + would rather + S2 + had V3 (quá khứ)",
+          "explanation": "Diễn tả mong muốn người khác làm hoặc không làm việc gì ở hiện tại hay quá khứ.",
+          "example": "I would rather you didn't disclose this sensitive data to external parties."
+        }
       ]
     },
     {
@@ -841,6 +1549,107 @@
         {
           "en": "The bridge was being repaired when the storm caused further damage.",
           "vi": "Cây cầu đang được sửa chữa khi cơn bão gây ra thiệt hại thêm."
+        }
+      ],
+      "signals": [
+        "by + tác nhân",
+        "be + V3/ed",
+        "được / bị trong tiếng Việt"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "1. Hiện tại đơn",
+          "structure": "S + am/is/are + V3/ed",
+          "example": "Coffee beans are harvested manually by local farmers."
+        },
+        {
+          "form": "2. Hiện tại tiếp diễn",
+          "structure": "S + am/is/are + being + V3/ed",
+          "example": "A high-speed rail network is currently being developed."
+        },
+        {
+          "form": "3. Quá khứ đơn",
+          "structure": "S + was/were + V3/ed",
+          "example": "Penicillin was discovered accidentally by Alexander Fleming in 1928."
+        },
+        {
+          "form": "4. Quá khứ tiếp diễn",
+          "structure": "S + was/were + being + V3/ed",
+          "example": "The stadium was being renovated when the financial crisis hit."
+        },
+        {
+          "form": "5. Hiện tại hoàn thành",
+          "structure": "S + have/has + been + V3/ed",
+          "example": "Millions of dollars have been allocated to climate research."
+        },
+        {
+          "form": "6. Quá khứ hoàn thành",
+          "structure": "S + had + been + V3/ed",
+          "example": "The treaty had been ratified before cross-border trade resumed."
+        },
+        {
+          "form": "7. Tương lai đơn",
+          "structure": "S + will be + V3/ed",
+          "example": "Autonomous vehicles will be deployed extensively by 2035."
+        },
+        {
+          "form": "8. Tương lai gần (Be going to)",
+          "structure": "S + am/is/are + going to be + V3/ed",
+          "example": "A new solar power plant is going to be constructed next year."
+        },
+        {
+          "form": "9. Động từ khuyết thiếu (Modal Verbs)",
+          "structure": "S + modal (can/must/should...) + be + V3/ed",
+          "example": "Strict regulations must be enforced to curb industrial dumping."
+        },
+        {
+          "form": "10. Modal hoàn thành (Past Modals)",
+          "structure": "S + modal + have been + V3/ed",
+          "example": "The disaster could have been prevented if warnings had been heeded."
+        }
+      ],
+      "usage_notes": [
+        "Vị trí trạng từ trong câu bị động: Quy tắc bất di bất dịch: [TRẠNG TỪ NƠI CHỐN] + by O + [TRẠNG TỪ THỜI GIAN]. Ví dụ: 'The package was delivered to the office (nơi chốn) by the courier (by O) yesterday morning (thời gian)'.",
+        "Vị trí trạng từ chỉ cách thức: Thường đứng TRƯỚC V3 (carefully examined, thoroughly investigated) hoặc đứng cuối câu.",
+        "Khi nào LƯỢC BỎ 'by O': Bắt buộc hoặc nên bỏ khi tác nhân là đại từ mơ hồ, không xác định hoặc không quan trọng: by someone, by people, by them, by him, by everyone, by us...",
+        "Nội động từ (Intransitive Verbs) TUYỆT ĐỐI KHÔNG chia bị động: Các động từ không có tân ngữ như: happen, occur, take place, die, arrive, appear, disappear, vanish, exist, remain, belong to... Sai: 'The accident was happened' -> Đúng: 'The accident happened'."
+      ],
+      "special_cases": [
+        {
+          "title": "Động từ có 2 tân ngữ (give, send, lend, pass, show, buy, award, offer)",
+          "formula": "Cách 1: S(người) + be + V3 + O(vật) | Cách 2: S(vật) + be + V3 + to/for + O(người)",
+          "explanation": "Ưu tiên đưa tân ngữ chỉ người lên làm chủ ngữ bị động vì tự nhiên hơn trong tiếng Anh.",
+          "example": "He was awarded a prestigious scholarship (Tự nhiên) VS A prestigious scholarship was awarded to him."
+        },
+        {
+          "title": "Động từ chỉ giác quan & Sai khiến (make, see, hear, watch, notice)",
+          "formula": "Chủ động: make/see sb DO -> Bị động: be made/seen TO DO sth (Xuất hiện 'to'!)",
+          "explanation": "Ở thể chủ động đi với V-bare, nhưng khi chuyển sang bị động BẮT BUỘC phải thêm 'to' trước động từ nguyên mẫu.",
+          "example": "Active: The teacher made him rewrite the essay -> Passive: He was made to rewrite the essay."
+        },
+        {
+          "title": "Bị động với động từ LET",
+          "formula": "Chủ động: let sb do sth -> Bị động: be allowed / permitted to do sth",
+          "explanation": "Không dùng 'be let to do', mà phải chuyển đổi sang 'be allowed/permitted to do'.",
+          "example": "Visitors are not allowed to take photographs inside the museum."
+        },
+        {
+          "title": "Bị động với động từ NEED",
+          "formula": "S(vật) + need + V-ing = S(vật) + need to be + V3/ed",
+          "explanation": "Chủ ngữ là đồ vật cần được sửa chữa hoặc bảo dưỡng có thể dùng 'need V-ing' mang nghĩa bị động.",
+          "example": "The roof needs repairing = The roof needs to be repaired."
+        },
+        {
+          "title": "Bị động với cụm động từ (Phrasal Verbs)",
+          "formula": "S + be + V3/ed + PREPOSITION (+ by O)",
+          "explanation": "Tuyệt đối không được bỏ rơi giới từ đi kèm của cụm động từ.",
+          "example": "The orphan was lovingly looked after by his grandparents (Giữ nguyên 'after')."
+        },
+        {
+          "title": "Bị động của câu mệnh lệnh",
+          "formula": "Khẳng định: Let + O + be + V3 | Phủ định: Don't let + O + be + V3 / Let + O + not be + V3",
+          "explanation": "Dùng để chuyển đổi các câu mệnh lệnh trực tiếp sang thể bị động trang trọng.",
+          "example": "Close the windows before leaving -> Let the windows be closed before leaving."
         }
       ]
     },
@@ -886,6 +1695,48 @@
           "en": "The government should get its infrastructure assessed before allocating funds.",
           "vi": "Chính phủ nên nhờ đánh giá cơ sở hạ tầng trước khi phân bổ ngân sách."
         }
+      ],
+      "signals": [
+        "have sth done",
+        "get sth done",
+        "have sb do",
+        "get sb to do"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Have chủ động (Nhờ/Giao ai làm)",
+          "structure": "S + have + O(người) + V_bare",
+          "example": "The director had his assistant schedule all bilateral meetings."
+        },
+        {
+          "form": "Get chủ động (Thuyết phục ai làm)",
+          "structure": "S + get + O(người) + to + V_bare",
+          "example": "The manager got the technical team to resolve the bug overnight."
+        },
+        {
+          "form": "Thể bị động nhờ vả (Have/Get sth done)",
+          "structure": "S + have / get + O(vật) + V3/ed (+ by O)",
+          "example": "The company had its annual financial statements audited by PwC."
+        },
+        {
+          "form": "Thể bị động gánh chịu rủi ro/tai nạn",
+          "structure": "S + have / get + O(vật) + V3/ed (Negative event)",
+          "example": "He had his passport stolen while travelling through the subway station."
+        }
+      ],
+      "usage_notes": [
+        "Phân biệt sắc thái: 'Have someone do sth' thường mang nghĩa giao việc, phân công chuyên môn; 'Get someone to do sth' mang sắc thái thuyết phục, nài nỉ hoặc nhờ vả khéo léo.",
+        "Lưu ý cốt lõi: 'Have' đi với V-bare (không có to), còn 'Get' BẮT BUỘC phải đi với 'to V'.",
+        "Thể bị động 'Have/Get something done' dùng khi chúng ta không tự làm một việc mà trả tiền, thuê mướn hoặc nhờ một bên thứ ba chuyên nghiệp thực hiện (cắt tóc, sửa xe, sơn nhà, kiểm toán, dịch tài liệu).",
+        "Ứng dụng IELTS Speaking Part 1 & 2: Rất phổ biến khi nói về cuộc sống hàng ngày: 'I usually have my car serviced twice a year.'"
+      ],
+      "special_cases": [
+        {
+          "title": "Make someone do sth vs Force someone to do sth",
+          "formula": "S + make + O + V_bare (ép buộc) = S + force + O + to V",
+          "explanation": "'Make' mang sắc thái ép buộc ai đó làm việc họ không muốn.",
+          "example": "Economic hardship made many young rural workers migrate to metropolitan cities."
+        }
       ]
     },
     {
@@ -929,6 +1780,50 @@
         {
           "en": "It is thought that the population will reach ten billion by the end of this century.",
           "vi": "Người ta cho rằng dân số sẽ đạt mười tỷ người vào cuối thế kỷ này."
+        }
+      ],
+      "signals": [
+        "it is said that",
+        "it is believed that",
+        "is reported to",
+        "is thought to have V3",
+        "impersonal passive"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Mẫu 1: Dùng Chủ ngữ giả 'It'",
+          "structure": "It + be (chia thì) + V3_reporting + that + Clause",
+          "example": "It is widely acknowledged that early childhood stimulation fosters cognitive growth."
+        },
+        {
+          "form": "Mẫu 2: Đưa S2 lên đầu + to V_bare (Cùng thì/Hiện tại)",
+          "structure": "S2 + be (chia thì) + V3_reporting + to + V_bare",
+          "example": "The new drug is believed to lower blood pressure significantly without side effects."
+        },
+        {
+          "form": "Mẫu 3: Đưa S2 lên đầu + to have V3/ed (Khác thì/Xảy ra trước)",
+          "structure": "S2 + be (chia thì) + V3_reporting + to have + V3/ed",
+          "example": "The ancient manuscripts are reported to have originated from 12th-century monasteries."
+        },
+        {
+          "form": "Mẫu 4: Đưa S2 lên đầu + to be V-ing (Đang diễn ra)",
+          "structure": "S2 + be (chia thì) + V3_reporting + to be + V-ing",
+          "example": "The executive is rumored to be negotiating a major international acquisition."
+        }
+      ],
+      "usage_notes": [
+        "Các động từ tường thuật học thuật (Reporting Verbs) phổ biến nhất: say, think, believe, consider, report, claim, allege, estimate, acknowledge, prove, understand.",
+        "Quy tắc chọn 'to V_bare' hay 'to have V3':",
+        " - Nếu hành động ở vế sau CÙNG THÌ hoặc XẢY RA SAU hành động tường thuật -> dùng 'to V_bare'.",
+        " - Nếu hành động ở vế sau XẢY RA TRƯỚC thời điểm tường thuật (ví dụ: người ta hiện nay tin rằng ông ấy ĐÃ trốn thoát trong quá khứ) -> BẮT BUỘC dùng 'to have V3'.",
+        "Vũ khí tối thượng trong IELTS Writing Task 2: Dùng để giới thiệu quan điểm của dư luận hoặc các chuyên gia một cách khách quan, tránh xưng 'I think' hay 'People say' (Band 7.5+ Lexical & Grammatical)."
+      ],
+      "special_cases": [
+        {
+          "title": "Mẫu câu với 'There' làm chủ ngữ giả",
+          "formula": "There is/are said/reported to be + Noun",
+          "explanation": "Chuyển đổi từ cấu trúc 'It is said that there is/are...'",
+          "example": "There are reported to be over 500 endangered species inhabiting this wildlife sanctuary."
         }
       ]
     },
@@ -974,6 +1869,63 @@
           "en": "The year when the policy was introduced saw a dramatic fall in crime rates.",
           "vi": "Năm chính sách được ban hành chứng kiến sự giảm mạnh về tỷ lệ tội phạm."
         }
+      ],
+      "signals": [
+        "who",
+        "whom",
+        "which",
+        "that",
+        "whose",
+        "where",
+        "when",
+        "why"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "WHO: Thay cho người làm Chủ ngữ / Tân ngữ",
+          "structure": "N(người) + who + V / S + V",
+          "example": "Students who cultivate self-discipline consistently achieve superior academic outcomes."
+        },
+        {
+          "form": "WHOM: Thay cho người làm Tân ngữ (Trang trọng)",
+          "structure": "N(người) + whom + S + V",
+          "example": "The professor whom I consulted offered invaluable dissertation guidance."
+        },
+        {
+          "form": "WHICH: Thay cho vật / con vật",
+          "structure": "N(vật) + which + V / S + V",
+          "example": "Policies which prioritize renewable energy foster sustainable urban growth."
+        },
+        {
+          "form": "THAT: Thay cho cả người và vật trong mệnh đề xác định",
+          "structure": "N(người/vật) + that + Clause",
+          "example": "The strategy that yielded the highest return was comprehensive digitalization."
+        },
+        {
+          "form": "WHOSE: Chỉ quan hệ sở hữu (của người hoặc vật)",
+          "structure": "N + whose + Noun + V",
+          "example": "Families whose incomes fall below the poverty threshold receive state subsidies."
+        },
+        {
+          "form": "WHERE / WHEN / WHY: Trạng từ quan hệ",
+          "structure": "N(nơi chốn/thời gian/lý do) + where/when/why + S + V",
+          "example": "This is the city where international climate negotiations were finalized."
+        }
+      ],
+      "usage_notes": [
+        "Mệnh đề quan hệ xác định (Defining) vs Không xác định (Non-defining):",
+        " - Mệnh đề xác định: Cung cấp thông tin thiết yếu, KHÔNG có dấu phẩy, CÓ THỂ dùng 'that'.",
+        " - Mệnh đề không xác định: Bổ sung thông tin phụ cho danh từ đã rõ (tên riêng, có this/that/my), BẮT BUỘC có dấu phẩy, TUYỆT ĐỐI KHÔNG dùng 'that'.",
+        "4 trường hợp ƯU TIÊN / BẮT BUỘC dùng THAT: (1) Sau so sánh hơn nhất (the best, the most...); (2) Sau các đại từ bất định (all, everything, nothing, anything, little, much); (3) Sau các từ the only, the first, the last; (4) Khi tiền từ gồm CẢ NGƯỜI LẪN VẬT.",
+        "Lược bỏ đại từ quan hệ: Có thể lược bỏ who/whom/which/that khi chúng đóng vai trò TÂN NGỮ trong mệnh đề xác định: 'The book (which) I read' = 'The book I read'."
+      ],
+      "special_cases": [
+        {
+          "title": "2 điều cấm kỵ tuyệt đối với đại từ THAT",
+          "formula": "KHÔNG dùng 'that' sau DẤU PHẨY và sau GIỚI TỪ",
+          "explanation": "Trong mệnh đề có dấu phẩy hoặc ngay sau giới từ, chỉ được dùng WHO/WHOM/WHICH, tuyệt đối không được thay bằng THAT.",
+          "example": "Paris, which is the capital of France (KHÔNG viết: Paris, that is...). The firm for which she works (KHÔNG viết: for that she works)."
+        }
       ]
     },
     {
@@ -1017,6 +1969,37 @@
         {
           "en": "The new law bans single-use plastic bags, which is a step in the right direction.",
           "vi": "Luật mới cấm túi nhựa dùng một lần, đây là một bước đi đúng hướng."
+        }
+      ],
+      "signals": [
+        ", which + V",
+        "mệnh đề quan hệ thay thế cả câu",
+        "comment clause"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Cấu trúc chuẩn",
+          "structure": "Clause 1, which + V(số ít) + ...",
+          "example": "The government slashed funding for public libraries, which sparked fierce civic protests."
+        },
+        {
+          "form": "Which kết hợp trạng từ",
+          "structure": "Clause 1, which subsequently / consequently / invariably + V",
+          "example": "Industrial waste polluted the river system, which consequently decimated fish stocks."
+        }
+      ],
+      "usage_notes": [
+        "Bản chất ngữ pháp: Đại từ 'which' trong cấu trúc này không thay thế cho danh từ đứng ngay trước nó, mà thay thế cho TOÀN BỘ Ý TƯỞNG CỦA CẢ MỆNH ĐỀ ĐỨNG TRƯỚC.",
+        "Quy tắc chính tả: BẮT BUỘC phải có dấu phẩy (,) trước 'which'.",
+        "Hòa hợp Chủ ngữ - Động từ: Động từ đi sau 'which' luôn luôn chia ở ngôi THỨ BA SỐ ÍT (V_s/es) vì nó đại diện cho 'sự việc phía trước' (an entire clause = singular fact).",
+        "Ứng dụng IELTS Writing Task 2: Đây là công cụ hàng đầu để phát triển luận điểm theo chuỗi Nhân - Quả (Cause and Effect), giúp bài viết đạt điểm liên kết Coherence and Cohesion tối đa."
+      ],
+      "special_cases": [
+        {
+          "title": "Lỗi 'Run-on Sentence' và cách sửa bằng ', which'",
+          "formula": "Sai: Clause 1, this caused... -> Đúng: Clause 1, which caused...",
+          "explanation": "Trong tiếng Anh, không được nối hai mệnh đề độc lập chỉ bằng dấu phẩy và 'this/it'. Phải dùng liên từ hoặc đại từ quan hệ ', which'.",
+          "example": "She passed with distinction, which delighted her mentors (Không viết: ..., this delighted...)."
         }
       ]
     },
@@ -1062,6 +2045,43 @@
           "en": "The colleagues with whom she collaborated received an award for their project.",
           "vi": "Những đồng nghiệp mà cô ấy cộng tác cùng đã nhận giải thưởng cho dự án của họ."
         }
+      ],
+      "signals": [
+        "prep + which",
+        "prep + whom",
+        "in which (= where)",
+        "at which (= when)",
+        "for which (= why)"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Giới từ + WHOM (cho người)",
+          "structure": "N(người) + PREPOSITION + whom + S + V",
+          "example": "The mentor to whom she owes her academic career retired last month."
+        },
+        {
+          "form": "Giới từ + WHICH (cho vật)",
+          "structure": "N(vật) + PREPOSITION + which + S + V",
+          "example": "The regulatory framework within which multinational corporations operate must be modernized."
+        },
+        {
+          "form": "Thay thế trạng từ quan hệ",
+          "structure": "in which = where / during which = when / for which = why",
+          "example": "The era in which the industrial transition occurred witnessed dramatic demographic shifts."
+        }
+      ],
+      "usage_notes": [
+        "Xác định giới từ phù hợp: Giới từ đứng trước which/whom phụ thuộc vào (1) Động từ/Tính từ trong mệnh đề quan hệ (depend on -> on which; participate in -> in which; contribute to -> to which); HOẶC (2) Danh từ tiền ngữ đứng trước (at the meeting -> at which; in the year -> in which).",
+        "Văn phong: Đưa giới từ lên trước which/whom là lối hành văn cực kỳ trang trọng (Formal / Academic Style), rất được đánh giá cao trong IELTS Writing Task 2 và các bài nghiên cứu.",
+        "Tuyệt đối không dùng THAT hoặc WHO ngay sau giới từ: Bắt buộc dùng WHOM (người) hoặc WHICH (vật)."
+      ],
+      "special_cases": [
+        {
+          "title": "Cấu trúc chỉ số lượng: 'All of which / None of whom / Neither of which'",
+          "formula": "N + , + some/many/all/none/most/neither/both of + which/whom + V",
+          "explanation": "Cấu trúc C1/C2 dùng để định lượng các thành phần trong nhóm được nhắc đến ở vế trước.",
+          "example": "The university received 5,000 applications, half of which met all admission prerequisites."
+        }
       ]
     },
     {
@@ -1105,6 +2125,51 @@
         {
           "en": "Using public transport regularly, residents can significantly reduce their carbon footprint.",
           "vi": "Bằng cách thường xuyên sử dụng phương tiện công cộng, cư dân có thể giảm đáng kể dấu chân carbon."
+        }
+      ],
+      "signals": [
+        "V-ing đứng đầu câu",
+        "V3/ed đứng đầu câu",
+        "Having V3 đứng đầu câu",
+        "rút gọn mệnh đề đồng chủ ngữ"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "1. Hiện tại phân từ (Present Participle - V-ing)",
+          "structure": "V-ing + ..., S + V (Chủ động, xảy ra đồng thời)",
+          "example": "Recognizing the urgent climate threats, policymakers ratified the renewable accord."
+        },
+        {
+          "form": "2. Quá khứ phân từ (Past Participle - V3/ed)",
+          "structure": "V3/ed + ..., S + V (Bị động)",
+          "example": "Constructed from recycled composites, the eco-building minimizes thermal loss."
+        },
+        {
+          "form": "3. Phân từ hoàn thành (Perfect Participle - Having V3)",
+          "structure": "Having + V3/ed + ..., S + V (Xảy ra và hoàn tất TRƯỚC)",
+          "example": "Having concluded rigorous clinical trials, the biotech firm sought regulatory clearance."
+        },
+        {
+          "form": "4. Phân từ hoàn thành bị động (Having been V3)",
+          "structure": "Having been + V3/ed + ..., S + V (Bị động, xảy ra trước)",
+          "example": "Having been warned about market volatility, investors diversified their portfolios."
+        }
+      ],
+      "usage_notes": [
+        "QUY TẮC SỐNG CÒN - ĐỒNG CHỦ NGỮ: Để rút gọn mệnh đề bằng cụm phân từ, CHỦ NGỮ CỦA HAI MỆNH ĐỀ PHẢI LÀ MỘT. Chủ ngữ xuất hiện sau dấu phẩy chính là chủ ngữ thực hiện (hoặc nhận) hành động của cụm phân từ.",
+        "Lỗi sai kinh điển 'Dangling Participle' (Phân từ treo lơ lửng):",
+        " - Sai: 'Walking into the room, the window was broken.' (Cái cửa sổ không thể tự bước vào phòng!).",
+        " - Đúng: 'Walking into the room, I noticed the broken window.'",
+        "Rút gọn mệnh đề quan hệ:",
+        " - Chủ động -> V-ing: 'The man who stands there' -> 'The man standing there'.",
+        " - Bị động -> V3/ed: 'The bridge which was built in 1990' -> 'The bridge built in 1990'."
+      ],
+      "special_cases": [
+        {
+          "title": "Rút gọn mệnh đề quan hệ bằng TO-INFINITIVE",
+          "formula": "The first / second / last / only / best + Noun + TO V",
+          "explanation": "Khi danh từ đứng trước có các từ bổ nghĩa so sánh hơn nhất hoặc thứ tự, rút gọn bằng 'to V' (chủ động) hoặc 'to be V3' (bị động).",
+          "example": "Neil Armstrong was the first human to walk on the moon."
         }
       ]
     },
@@ -1154,6 +2219,55 @@
           "en": "The company promised to reduce its carbon emissions by fifty percent.",
           "vi": "Công ty cam kết giảm lượng khí thải carbon xuống năm mươi phần trăm."
         }
+      ],
+      "signals": [
+        "admit",
+        "avoid",
+        "consider",
+        "delay",
+        "deny",
+        "enjoy",
+        "afford",
+        "agree",
+        "decide",
+        "hope",
+        "manage"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Động từ theo sau bởi GERUND (V-ing)",
+          "structure": "Verb + V-ing",
+          "example": "The report suggests postponing capital expenditure until inflation subsides."
+        },
+        {
+          "form": "Động từ theo sau bởi TO-INFINITIVE (To V)",
+          "structure": "Verb + to + V_bare",
+          "example": "The executive board agreed to allocate supplemental resources to R&D."
+        },
+        {
+          "form": "Verb + Object + To-V",
+          "structure": "Verb + O + to + V_bare",
+          "example": "Mentors encourage students to develop independent investigative skills."
+        },
+        {
+          "form": "Sau GIỚI TỪ luôn là V-ing",
+          "structure": "Preposition + V-ing",
+          "example": "The government is committed to reducing greenhouse emissions."
+        }
+      ],
+      "usage_notes": [
+        "Danh sách các động từ bắt buộc đi với V-ing (Cần học thuộc lòng): admit, avoid, consider, delay, deny, discuss, dislike, enjoy, finish, imagine, involve, keep, mind, postpone, practice, recommend, resist, risk, suggest.",
+        "Danh sách các động từ bắt buộc đi với To-V: afford, agree, appear, arrange, choose, decide, demand, expect, fail, hesitate, hope, learn, manage, offer, plan, prepare, pretend, promise, refuse, tend, threaten, want, wish.",
+        "Động từ có cấu trúc 'Verb + Object + to V': advise, allow, authorize, cause, enable, encourage, expect, forbid, force, instruct, invite, order, permit, persuade, remind, require, teach, tell, warn.",
+        "Bẫy giới từ 'TO': Nhiều cụm từ có 'to' là GIỚI TỪ chứ không phải to-infinitive, theo sau bắt buộc là V-ing: look forward to V-ing, be/get used to V-ing, commit to V-ing, object to V-ing, in addition to V-ing, with a view to V-ing."
+      ],
+      "special_cases": [
+        {
+          "title": "Bị động của Gerund và To-Infinitive",
+          "formula": "Being + V3/ed (Bị động Gerund) | To be + V3/ed (Bị động Infinitive)",
+          "explanation": "Khi đối tượng nhận tác động của hành động.",
+          "example": "He resented being treated like an apprentice. She hopes to be elected as council chair."
+        }
       ]
     },
     {
@@ -1202,6 +2316,62 @@
           "en": "He tried to lift the heavy box but couldn't manage it alone.",
           "vi": "Anh ấy cố nâng chiếc hộp nặng nhưng không tự làm được một mình."
         }
+      ],
+      "signals": [
+        "stop",
+        "remember",
+        "forget",
+        "try",
+        "regret",
+        "mean",
+        "need"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "STOP + V-ing (Dừng hẳn hành động)",
+          "structure": "stop + V-ing",
+          "example": "The physician advised him to stop smoking to mitigate cardiovascular risks."
+        },
+        {
+          "form": "STOP + To V (Dừng việc đang làm để làm việc khác)",
+          "structure": "stop + to + V_bare",
+          "example": "During the marathon, several athletes stopped to hydrate at the rest station."
+        },
+        {
+          "form": "REMEMBER / FORGET + To V (Nhớ/Quên PHẢI làm gì)",
+          "structure": "remember / forget + to + V_bare",
+          "example": "Always remember to cite primary academic sources to prevent accidental plagiarism."
+        },
+        {
+          "form": "REMEMBER / FORGET + V-ing (Nhớ/Quên ĐÃ làm gì)",
+          "structure": "remember / forget + V-ing",
+          "example": "I vividly remember attending my inaugural university lecture ten years ago."
+        },
+        {
+          "form": "TRY + To V (Cố gắng hết sức) vs TRY + V-ing (Thử nghiệm)",
+          "structure": "try to V (effort) vs try V-ing (experiment)",
+          "example": "He tried to solve the equation (nỗ lực) vs Try adding fertilizer to see if crops flourish (thử)."
+        },
+        {
+          "form": "REGRET + To V (Lấy làm tiếc phải thông báo) vs REGRET + V-ing (Hối tiếc vì ĐÃ làm)",
+          "structure": "regret to V (bad news) vs regret V-ing (past regret)",
+          "example": "We regret to inform you of rejection vs She regrets quitting university prematurely."
+        }
+      ],
+      "usage_notes": [
+        "Bản chất phân biệt thời gian giữa To-V và V-ing:",
+        " - 'To-V' thường hướng về TƯƠNG LAI, mục đích hoặc nghĩa vụ phải làm.",
+        " - 'V-ing' thường hướng về QUÁ KHỨ, sự trải nghiệm hoặc việc đã diễn ra.",
+        "Cấu trúc 'Mean': 'Mean to V' = có chủ ý, có ý định làm gì; 'Mean V-ing' = có nghĩa là, kéo theo hệ quả là ('Accepting this promotion means relocating to headquarters').",
+        "Cấu trúc 'Go on': 'Go on to V' = làm xong việc này rồi chuyển sang làm việc khác; 'Go on V-ing' = tiếp tục làm việc đang dang dở."
+      ],
+      "special_cases": [
+        {
+          "title": "Cấu trúc 'Can't help / Can't resist / Can't stand + V-ing'",
+          "formula": "can't help / can't bear / can't stand + V-ing",
+          "explanation": "Không thể nhịn được, không thể chịu đựng nổi việc gì.",
+          "example": "Critics could not help admiring the ingenuity of the architectural masterpiece."
+        }
       ]
     },
     {
@@ -1245,6 +2415,51 @@
         {
           "en": "She was used to travelling long distances for work before the pandemic.",
           "vi": "Cô ấy đã quen với việc đi xa để làm việc trước đại dịch."
+        }
+      ],
+      "signals": [
+        "used to + V0",
+        "be used to + V-ing",
+        "get used to + V-ing"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "1. USED TO + V_bare",
+          "meaning": "Thói quen hoặc trạng thái trong quá khứ nay ĐÃ CHẤM DỨT",
+          "structure": "S + used to + V_bare",
+          "example": "Families used to congregate around televisions before on-demand streaming emerged."
+        },
+        {
+          "form": "Phủ định & Nghi vấn của Used to",
+          "meaning": "Dùng trợ động từ Did",
+          "structure": "S + didn't use to + V_bare | Did + S + use to + V_bare?",
+          "example": "Urban centres didn't use to experience such extreme summer heatwaves."
+        },
+        {
+          "form": "2. BE USED TO + V-ing / Noun",
+          "meaning": "ĐÃ QUEN VỚI một việc gì ở hiện tại (trạng thái)",
+          "structure": "S + be (am/is/are/was/were) + used to + V-ing / Noun",
+          "example": "Surgeons are used to operating under intense psychological stress."
+        },
+        {
+          "form": "3. GET USED TO + V-ing / Noun",
+          "meaning": "ĐANG DẦN QUEN VỚI việc gì (quá trình thích nghi)",
+          "structure": "S + get/become + used to + V-ing / Noun",
+          "example": "International scholars rapidly get used to independent academic exploration."
+        }
+      ],
+      "usage_notes": [
+        "Bẫy kinh điển: Nhầm lẫn giữa 'used to + V0' (quá khứ) và 'be/get used to + V-ing' (quen với).",
+        " - 'Used to + V0': Động từ nguyên mẫu!",
+        " - 'Be/Get used to + V-ing': 'To' ở đây là GIỚI TỪ, theo sau bắt buộc là danh từ hoặc V-ing!",
+        "Phân biệt 'Used to' vs 'Would': 'Would' chỉ dùng cho HÀNH ĐỘNG lặp đi lặp lại trong quá khứ, TUYỆT ĐỐI KHÔNG dùng cho TRẠNG THÁI (state verbs). Ví dụ: 'I used to live in Paris' (ĐÚNG - trạng thái); 'I would live in Paris' (SAI)."
+      ],
+      "special_cases": [
+        {
+          "title": "Bị động của động từ USE (Be used to V_bare = Được dùng để làm gì)",
+          "formula": "S(vật) + be used to + V_bare = be used for + V-ing",
+          "explanation": "Mang nghĩa bị động thông thường của động từ 'use', không phải là cấu trúc quen với.",
+          "example": "Solar panels are used to generate clean electric power."
         }
       ]
     },
@@ -1290,6 +2505,51 @@
           "en": "The judge ordered that the defendant appear in court the following week.",
           "vi": "Thẩm phán ra lệnh bị cáo phải xuất hiện tại tòa án vào tuần sau."
         }
+      ],
+      "signals": [
+        "recommend that",
+        "suggest that",
+        "insist that",
+        "demand that",
+        "vital that",
+        "essential that",
+        "crucial that"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Sau các ĐỘNG TỪ giả định",
+          "structure": "S1 + suggest / recommend / demand / insist / order / require + that + S2 + (should) + V_bare",
+          "example": "The inspector recommended that the chemical facility (should) halt production immediately."
+        },
+        {
+          "form": "Sau các TÍNH TỪ mang tính cấp bách",
+          "structure": "It is essential / vital / crucial / imperative / important + that + S + (should) + V_bare",
+          "example": "It is imperative that every citizen have access to unbiased civic information."
+        },
+        {
+          "form": "Thể phủ định của thức giả định",
+          "structure": "... that + S + NOT + V_bare (Không dùng trợ động từ don't/doesn't/didn't)",
+          "example": "The committee demanded that the candidate not be disqualified without hearing."
+        },
+        {
+          "form": "Thể bị động của thức giả định",
+          "structure": "... that + S + (should) + BE + V3/ed",
+          "example": "Experts insist that clean water infrastructure be modernized nationwide."
+        }
+      ],
+      "usage_notes": [
+        "Quy tắc vàng của Mandative Subjunctive (Thức giả định mệnh lệnh): Động từ ở mệnh đề 'THAT' LUÔN Ở DẠNG NGUYÊN MẪU KHÔNG 'TO' (V_bare) cho TẤT CẢ các ngôi (kể cả he, she, it) và không phụ thuộc vào thì của mệnh đề chính.",
+        "Ví dụ: 'The doctor recommended that he TAKE (không phải takes) more rest.'",
+        "Với động từ To Be: Luôn dùng chữ 'BE' (không chia am/is/are/was/were).",
+        "Trong văn phong Anh-Anh, người ta có thể thêm 'should' trước V_bare ('that he should take'), nhưng trong văn phong Anh-Mỹ và IELTS học thuật, lược bỏ 'should' chỉ để lại V_bare tạo cảm giác cực kỳ học thuật và chuẩn mực."
+      ],
+      "special_cases": [
+        {
+          "title": "Ngoại lệ: Khi INSIST mang nghĩa 'khăng khăng một sự thật' (không phải mệnh lệnh)",
+          "formula": "S1 + insist that + S2 + V(chia thì bình thường)",
+          "explanation": "Nếu insist mang nghĩa khẳng định sự thật đã xảy ra thì chia thì bình thường, không dùng giả định.",
+          "example": "He insisted that he was innocent of the allegations (Anh ta khẳng định mình vô tội)."
+        }
       ]
     },
     {
@@ -1333,6 +2593,56 @@
         {
           "en": "Singapore is one of the safest cities in the world.",
           "vi": "Singapore là một trong những thành phố an toàn nhất thế giới."
+        }
+      ],
+      "signals": [
+        "as... as",
+        "more... than",
+        "-er than",
+        "the most",
+        "the -est",
+        "twice as... as"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "So sánh bằng",
+          "structure": "S1 + V + as + Adj/Adv + as + S2",
+          "example": "Public transit in Tokyo is as punctual as high-speed rail systems in Europe."
+        },
+        {
+          "form": "So sánh không bằng (Phủ định)",
+          "structure": "S1 + V_not + as/so + Adj/Adv + as + S2",
+          "example": "Traditional agriculture is not as efficient as hydroponic farming."
+        },
+        {
+          "form": "So sánh hơn (Tính từ ngắn vs dài)",
+          "structure": "Adj-er than / more + Adj + than",
+          "example": "Electric turbines are significantly quieter and more economical than diesel generators."
+        },
+        {
+          "form": "So sánh nhất",
+          "structure": "the + Adj-est / the most + Adj",
+          "example": "The Antarctic ice sheet represents the most extensive freshwater reservoir on Earth."
+        },
+        {
+          "form": "So sánh bội số (Multiple Comparison)",
+          "structure": "S1 + V + twice / three times + as + Adj/Adv/much/many + as + S2",
+          "example": "Renewable capacity grew three times as fast as fossil generation last decade."
+        }
+      ],
+      "usage_notes": [
+        "Quy tắc tính từ ngắn vs dài: Tính từ 1 âm tiết -> thêm -er/-est; Tính từ 2 âm tiết tận cùng bằng -y -> đổi y thành -ier/-iest (happy -> happier, easy -> easier); Tính từ 2 âm tiết tận cùng bằng -le, -er, -ow, -et có thể dùng cả 2 dạng (clever -> cleverer, narrow -> narrower); Các tính từ 2 âm tiết còn lại và 3 âm tiết trở lên -> dùng more / the most.",
+        "Các từ bổ nghĩa tăng/giảm mức độ so sánh hơn (Cực kỳ ăn điểm trong Task 1):",
+        " - Tăng mạnh: far, much, considerably, significantly, substantially ('far more expensive').",
+        " - Tăng nhẹ: slightly, marginally, a bit, a little ('marginally higher').",
+        "Các tính từ bất quy tắc: good -> better -> best; bad -> worse -> worst; far -> farther/further -> farthest/furthest; little -> less -> least; much/many -> more -> most."
+      ],
+      "special_cases": [
+        {
+          "title": "Bẫy hòa hợp đại từ thay thế trong so sánh: THAT / THOSE OF",
+          "formula": "S1's Noun is Adj-er than that / those of S2",
+          "explanation": "Không được so sánh khập khiễng giữa người và vật. Dùng 'that of' (thay cho danh từ số ít) hoặc 'those of' (thay cho danh từ số nhiều).",
+          "example": "The tuition fees of private universities are higher than those of public colleges (Không so sánh fees với colleges!)."
         }
       ]
     },
@@ -1378,6 +2688,47 @@
           "en": "The higher the demand for housing, the more prices will rise.",
           "vi": "Nhu cầu nhà ở càng cao, giá cả sẽ càng tăng cao hơn."
         }
+      ],
+      "signals": [
+        "the more... the more...",
+        "the -er... the -er...",
+        "more and more"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Cấu trúc so sánh kép 2 vế (Càng... thì càng...)",
+          "structure": "The + comparative + S1 + V1, the + comparative + S2 + V2",
+          "example": "The more sophisticated artificial intelligence becomes, the more stringent regulatory governance must be."
+        },
+        {
+          "form": "Với tính từ ngắn",
+          "structure": "The + Adj-er + S1 + V1, the + Adj-er + S2 + V2",
+          "example": "The higher the altitude, the thinner the atmospheric oxygen becomes."
+        },
+        {
+          "form": "Với Danh từ",
+          "structure": "The more + Noun + S1 + V1, the more/less + Noun + S2 + V2",
+          "example": "The more resources a society invests in early education, the fewer socioeconomic disparities emerge."
+        },
+        {
+          "form": "So sánh lũy tiến (Càng ngày càng...)",
+          "structure": "Adj-er and Adj-er | more and more + Adj",
+          "example": "Climate patterns are growing more and more unpredictable each decade."
+        }
+      ],
+      "usage_notes": [
+        "Quy tắc chính tả: BẮT BUỘC phải có dấu phẩy (,) ngăn cách giữa 2 vế.",
+        "Đều phải có mạo từ 'THE' đứng trước cấp so sánh hơn ở cả hai vế (The comparative 1..., the comparative 2...).",
+        "Có thể lược bỏ động từ 'to be' nếu ngữ cảnh đã hoàn toàn rõ ràng: 'The sooner, the better.' (Càng sớm càng tốt).",
+        "Ứng dụng IELTS: Cấu trúc số 1 để thể hiện mối quan hệ tương quan tỉ lệ thuận / nghịch trong IELTS Writing Task 2 và mô tả đồ thị biến thiên trong Task 1."
+      ],
+      "special_cases": [
+        {
+          "title": "Đảo ngữ hoặc kết hợp mệnh đề danh từ trong so sánh kép",
+          "formula": "The more S + V, the more likely S is to V",
+          "explanation": "Mẫu câu kết hợp tính từ 'likely' rất hay gặp trong văn phong nghiên cứu.",
+          "example": "The more sedentary an individual's lifestyle, the more likely they are to develop metabolic illnesses."
+        }
       ]
     },
     {
@@ -1421,6 +2772,47 @@
         {
           "en": "It is through education that societies achieve long-term prosperity.",
           "vi": "Chính thông qua giáo dục mà các xã hội đạt được sự thịnh vượng lâu dài."
+        }
+      ],
+      "signals": [
+        "it is/was... that",
+        "it is/was... who",
+        "what... is/was",
+        "all... is/was"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "1. Câu chẻ nhấn mạnh CHỦ NGỮ",
+          "structure": "It is/was + Subject + that/who + V",
+          "example": "It is innovative entrepreneurship that drives sustainable job creation in developing economies."
+        },
+        {
+          "form": "2. Câu chẻ nhấn mạnh TÂN NGỮ",
+          "structure": "It is/was + Object + that + S + V",
+          "example": "It was critical thinking skills that employers prioritized during the recruitment drive."
+        },
+        {
+          "form": "3. Câu chẻ nhấn mạnh TRẠNG NGỮ (Nơi chốn/Thời gian/Cách thức)",
+          "structure": "It is/was + Adverbial phrase + that + S + V",
+          "example": "It was only after the global financial crisis of 2008 that banking reserves were substantially tightened."
+        },
+        {
+          "form": "4. Câu chẻ giả (Wh-cleft / Pseudo-cleft with WHAT)",
+          "structure": "What + Clause + is/was + Noun / Clause",
+          "example": "What vulnerable communities require most urgently is resilient flood defense infrastructure."
+        }
+      ],
+      "usage_notes": [
+        "Sự hòa hợp thì: Nếu sự việc ở quá khứ -> dùng 'It was... that'; Nếu ở hiện tại/sự thật -> dùng 'It is... that'.",
+        "Dùng 'that' hay 'who': Khi nhấn mạnh danh từ chỉ người, có thể dùng 'who' hoặc 'that'; Khi nhấn mạnh vật, nơi chốn, thời gian, trạng ngữ BẮT BUỘC dùng 'that' (KHÔNG dùng when/where trong câu chẻ 'It is... that').",
+        "Mục đích diễn đạt: Giúp người đọc/người nghe dồn 100% sự chú ý vào thành phần được đặt giữa 'It is/was' và 'that', tạo điểm nhấn lập luận đanh thép trong bài luận nghị luận."
+      ],
+      "special_cases": [
+        {
+          "title": "Cấu trúc nhấn mạnh 'It was not until... that...'",
+          "formula": "It was not until + mốc thời gian / Clause + THAT + S + V2/ed",
+          "explanation": "Mãi cho đến khi... thì mới...",
+          "example": "It was not until late in the 19th century that germ theory gained universal medical acceptance."
         }
       ]
     },
@@ -1466,6 +2858,55 @@
           "en": "The issue is too complex to be resolved with a single policy change.",
           "vi": "Vấn đề quá phức tạp để được giải quyết bằng một thay đổi chính sách đơn lẻ."
         }
+      ],
+      "signals": [
+        "so... that",
+        "such... that",
+        "too... to",
+        "enough to",
+        "so much/many... that"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "SO... THAT với Tính từ / Trạng từ",
+          "structure": "S + V + so + Adj/Adv + that + Clause",
+          "example": "The logistical disruption was so profound that global supply chains seized up for months."
+        },
+        {
+          "form": "SUCH... THAT với Cụm danh từ",
+          "structure": "S + V + such + (a/an) + Adj + Noun + that + Clause",
+          "example": "It was such a groundbreaking discovery that the scientific consortium altered its entire curriculum."
+        },
+        {
+          "form": "SO... THAT với Lượng từ (much, many, few, little)",
+          "structure": "S + V + so + much/many/few/little + Noun + that + Clause",
+          "example": "The factory generated so much toxic effluent that local groundwater was rendered undrinkable."
+        },
+        {
+          "form": "TOO... TO (Quá... đến nỗi không thể làm gì)",
+          "structure": "S + V + too + Adj/Adv + (for sb) + to + V_bare",
+          "example": "The terrain was too treacherous for rescue vehicles to navigate safely."
+        },
+        {
+          "form": "ENOUGH TO (Đủ... để có thể làm gì)",
+          "structure": "S + V + Adj/Adv + enough + (for sb) + to + V_bare | enough + Noun",
+          "example": "The insulation is thick enough to withstand sub-zero Arctic temperatures."
+        }
+      ],
+      "usage_notes": [
+        "Vị trí của 'Enough': Tính từ/Trạng từ đứng TRƯỚC enough ('warm enough', 'fluently enough'); nhưng Danh từ đứng SAU enough ('enough financial resources', 'enough time').",
+        "Bẫy tân ngữ trong cấu trúc TOO... TO: Khi chủ ngữ là vật chịu tác động, KHÔNG lặp lại tân ngữ ở cuối câu. Sai: 'The box is too heavy to carry it' -> Đúng: 'The box is too heavy to carry.'",
+        "Đảo ngữ với SO và SUCH:",
+        " - 'So + Adj + be + S + that + Clause' (So severe was the drought that reservoirs dried completely).",
+        " - 'Such + be + S + that + Clause' (Such was the magnitude of the tremor that entire blocks collapsed)."
+      ],
+      "special_cases": [
+        {
+          "title": "Cấu trúc 'So + Adj + a/an + Noun + that'",
+          "formula": "S + V + so + Adj + a/an + singular countable noun + that",
+          "explanation": "Biến thể đặc biệt tương đương với Such a/an + Adj + Noun.",
+          "example": "It was so pivotal a turning point that historical trajectories were forever altered."
+        }
       ]
     },
     {
@@ -1510,6 +2951,45 @@
           "en": "It is unclear whether technology will create more jobs than it eliminates.",
           "vi": "Chưa rõ liệu công nghệ có tạo ra nhiều việc làm hơn số việc nó xóa bỏ hay không."
         }
+      ],
+      "signals": [
+        "could you tell me",
+        "I wonder",
+        "do you know",
+        "I would like to know",
+        "embedded questions"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Câu hỏi bắt đầu bằng Wh-words",
+          "structure": "Intro phrase + wh-word + S + V (Trật tự câu khẳng định!)",
+          "example": "Could you elucidate how municipal authorities plan to address the housing deficit?"
+        },
+        {
+          "form": "Câu hỏi Yes/No (Dùng IF hoặc WHETHER)",
+          "structure": "Intro phrase + if / whether + S + V",
+          "example": "Investigators are assessing whether current cybersecurity measures are sufficient."
+        },
+        {
+          "form": "Whether kết hợp 'or not'",
+          "structure": "Intro phrase + whether S + V or not / whether or not S + V",
+          "example": "I wonder whether the proposed monetary stimulus will curb inflation or not."
+        }
+      ],
+      "usage_notes": [
+        "QUY TẮC CỐT LÕI: Trong câu hỏi gián tiếp (Embedded Question), TRẬT TỰ TỪ TRỞ LẠI DẠNG KHẲNG ĐỊNH (Subject + Verb), KHÔNG ĐƯỢC đảo trợ động từ (do/does/did/is/can) lên trước chủ ngữ.",
+        " - Sai: 'Can you tell me where is the library?'",
+        " - Đúng: 'Can you tell me where the library is?'",
+        "Dấu câu cuối câu: Nếu mệnh đề dẫn là một câu hỏi ('Could you tell me...?') -> kết thúc bằng DẤU CHẤM HỎI (?). Nếu mệnh đề dẫn là câu trần thuật ('I wonder...', 'I want to know...') -> kết thúc bằng DẤU CHẤM (.).",
+        "Ứng dụng IELTS: Là chìa khóa để thể hiện sự lịch sự và linh hoạt trong ngôn ngữ giao tiếp trang trọng (Speaking Part 3)."
+      ],
+      "special_cases": [
+        {
+          "title": "Phân biệt IF và WHETHER trong câu hỏi gián tiếp",
+          "formula": "Whether + to V | Preposition + whether",
+          "explanation": "Bắt buộc dùng WHETHER (không dùng IF) trong các trường hợp: (1) Đi với động từ nguyên mẫu 'to V' (decide whether to stay); (2) Ngay sau giới từ (interested in whether...); (3) Đi liền với 'or not' (whether or not S + V).",
+          "example": "The committee debated whether to allocate contingency capital to infrastructure."
+        }
       ]
     },
     {
@@ -1553,6 +3033,59 @@
         {
           "en": "The report suggested that more investment in infrastructure was urgently needed.",
           "vi": "Báo cáo đề xuất rằng cần đầu tư nhiều hơn vào cơ sở hạ tầng một cách cấp bách."
+        }
+      ],
+      "signals": [
+        "said",
+        "told",
+        "advised",
+        "warned",
+        "suggested",
+        "admitted",
+        "denied",
+        "lùi thì"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "1. Bảng quy tắc lùi thì (Backshift of Tenses)",
+          "structure": "Present Simple -> Past Simple | Present Continuous -> Past Continuous | Past Simple / Present Perfect -> Past Perfect | Will -> Would | Can -> Could | Must -> Had to",
+          "example": "Direct: 'I have finished the audit.' -> Reported: She stated that she had finished the audit."
+        },
+        {
+          "form": "2. Động từ tường thuật + To V",
+          "structure": "agree / offer / promise / refuse / threaten + to + V_bare",
+          "example": "The consortium promised to release all preliminary findings by next month."
+        },
+        {
+          "form": "3. Động từ tường thuật + Object + To V",
+          "structure": "advise / ask / encourage / invite / order / remind / warn + O + to V",
+          "example": "The epidemiologist warned the public not to consume unpasteurized dairy products."
+        },
+        {
+          "form": "4. Động từ tường thuật + V-ing",
+          "structure": "admit / deny / recommend / suggest + V-ing",
+          "example": "The spokesperson denied leaking proprietary blueprints to competitors."
+        },
+        {
+          "form": "5. Động từ tường thuật + Preposition + V-ing",
+          "structure": "apologize for / insist on / accuse sb of / congratulate sb on + V-ing",
+          "example": "The company apologized for miscalculating customer utility tariffs."
+        }
+      ],
+      "usage_notes": [
+        "Quy tắc chuyển đổi trạng từ thời gian và nơi chốn:",
+        " - now -> then / at that time",
+        " - today -> that day / yesterday -> the day before (the previous day) / tomorrow -> the next day (the following day)",
+        " - here -> there / this -> that / these -> those / ago -> before",
+        "Khi nào KHÔNG lùi thì: (1) Mệnh đề tường thuật diễn tả một chân lý khoa học hoặc sự thật hiển nhiên (He explained that the earth orbits the sun); (2) Động từ dẫn ở thì hiện tại hoặc tương lai (He says that...); (3) Mệnh đề giả định hoặc câu điều kiện loại 2, 3.",
+        "Phân biệt 'Say' vs 'Tell': 'Say that...' (không có tân ngữ người); 'Tell someone that...' (bắt buộc có tân ngữ người: tell me, tell us)."
+      ],
+      "special_cases": [
+        {
+          "title": "Cấu trúc tường thuật câu hỏi gián tiếp",
+          "formula": "S + asked / inquired + (O) + wh-word / if / whether + S + V(lùi thì)",
+          "explanation": "Bỏ dấu hỏi chấm, bỏ trợ động từ do/does/did và đổi đại từ phù hợp.",
+          "example": "Direct: 'Where did you buy this?' -> He asked me where I had bought that."
         }
       ]
     },
@@ -1602,6 +3135,50 @@
           "en": "Life in the countryside is often considered more peaceful than in a city.",
           "vi": "Cuộc sống ở nông thôn thường được coi là yên bình hơn ở thành phố."
         }
+      ],
+      "signals": [
+        "a",
+        "an",
+        "the",
+        "zero article (không mạo từ)"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "1. Mạo từ bất định (A / AN)",
+          "usage": "Dùng cho danh từ đếm được số ít, nhắc đến LẦN ĐẦU TIÊN hoặc chỉ NGHỀ NGHIỆP",
+          "example": "She works as an environmental consultant for a renewable energy startup."
+        },
+        {
+          "form": "2. Mạo từ xác định (THE)",
+          "usage": "Dùng cho danh từ CẢ NGƯỜI NÓI LẪN NGƯỜI NGHE ĐỀU BIẾT RÕ, vật DUY NHẤT, hoặc đã được nhắc đến ở câu trước",
+          "example": "The sun radiates immense thermal energy; the research team captured this radiation."
+        },
+        {
+          "form": "Các trường hợp BẮT BUỘC dùng THE",
+          "usage": "Tên đại dương, biển, sông (the Pacific, the Nile); Dãy núi (the Himalayas); Quần đảo (the Philippines); Nhạc cụ (play the piano); Tên nước có Republic/Kingdom/States (the UK, the USA); Cấp so sánh hơn nhất (the highest).",
+          "example": "The Atlantic Ocean borders the United Kingdom."
+        },
+        {
+          "form": "3. Zero Article (KHÔNG dùng mạo từ)",
+          "usage": "Danh từ số nhiều hoặc không đếm được nói chung chung; Tên lục địa, hầu hết quốc gia, thành phố; Bữa ăn (breakfast); Môn học/Thể thao; Ngôn ngữ đứng một mình.",
+          "example": "Education (chung chung) empowers children across Asia to escape poverty."
+        }
+      ],
+      "usage_notes": [
+        "Phân biệt A vs AN: Căn cứ vào PHÁT ÂM của âm đầu tiên chứ không phải chữ cái viết!",
+        " - Dùng 'AN' trước nguyên âm phát âm: an hour (h câm -> âm /aʊ/), an honest mistake, an MBA student (/em/).",
+        " - Dùng 'A' trước phụ âm phát âm: a university (/j/ là bán phụ âm), a European country (/j/), a one-day trip (/w/).",
+        "Mạo từ 'THE' với danh từ đại diện cho cả loài hoặc nhóm người:",
+        " - 'The + Adjective' = tập hợp những người có đặc điểm đó (The rich, The poor, The unemployed -> luôn đi với động từ số nhiều!).",
+        " - 'The computer has transformed civilization' (The + Noun số ít chỉ cả một phát minh)."
+      ],
+      "special_cases": [
+        {
+          "title": "Sự khác biệt ý nghĩa có THE và không có THE (Bed, School, Hospital, Prison)",
+          "formula": "go to hospital (chữa bệnh) VS go to the hospital (thăm bệnh nhân)",
+          "explanation": "Không dùng 'the' khi đi đến nơi đó đúng mục đích vốn có của cơ sở; Có 'the' khi chỉ đến đó như một địa điểm cụ thể.",
+          "example": "He was admitted to hospital for surgery vs His wife drove to the hospital to visit him."
+        }
       ]
     },
     {
@@ -1645,6 +3222,54 @@
         {
           "en": "Progress in medicine has led to significantly longer life expectancy.",
           "vi": "Tiến bộ trong y học đã dẫn đến tuổi thọ dài hơn đáng kể."
+        }
+      ],
+      "signals": [
+        "uncountable nouns",
+        "information",
+        "advice",
+        "equipment",
+        "furniture",
+        "luggage",
+        "research",
+        "news",
+        "traffic"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "Danh từ trừu tượng / Khái niệm",
+          "nouns": "advice, information, evidence, knowledge, progress, research, permission",
+          "example": "Reliable scientific evidence demonstrates the reality of climate fluctuations."
+        },
+        {
+          "form": "Danh từ tập hợp / Vật liệu",
+          "nouns": "equipment, furniture, luggage/baggage, machinery, infrastructure, waste",
+          "example": "Modern laboratory equipment requires regular calibration."
+        },
+        {
+          "form": "Hiện tượng tự nhiên & Hoạt động",
+          "nouns": "weather, traffic, accommodation, homework, housework, leisure",
+          "example": "Urban traffic produces considerable particulate emissions."
+        },
+        {
+          "form": "Cụm từ đếm được (Partitives) để đo lường",
+          "nouns": "a piece of advice / information / equipment; an item of luggage",
+          "example": "The analyst presented a crucial piece of research during the symposium."
+        }
+      ],
+      "usage_notes": [
+        "3 QUY TẮC BẤT DI BẤT DỊCH VỚI DANH TỪ KHÔNG ĐẾM ĐƯỢC:",
+        " (1) TUYỆT ĐỐI KHÔNG thêm đuôi số nhiều -s/-es (Sai: advices, informations, equipments, researches).",
+        " (2) TUYỆT ĐỐI KHÔNG dùng mạo từ 'a / an' trực tiếp phía trước (Sai: an information -> Đúng: information hoặc a piece of information).",
+        " (3) Động từ đi theo LUÔN CHIA Ở NGÔI THỨ BA SỐ ÍT (is, was, has, V_s/es).",
+        "Các từ kết thúc bằng 's' nhưng vẫn là DANH TỪ SỐ ÍT KHÔNG ĐẾM ĐƯỢC: news (tin tức), physics, mathematics, economics, politics (các môn học), measles, mumps (bệnh tật). Sai: 'The news are shocking' -> Đúng: 'The news IS shocking'."
+      ],
+      "special_cases": [
+        {
+          "title": "Từ đa nghĩa: Vừa đếm được vừa không đếm được",
+          "formula": "Experience / Work / Paper / Hair / Glass",
+          "explanation": "Khi mang nghĩa trừu tượng -> không đếm được; khi mang nghĩa vật phẩm/sự việc cụ thể -> đếm được.",
+          "example": "He has ten years of experience (Kinh nghiệm - KĐĐ) VS Travelling alone was an unforgettable experience (Trải nghiệm cụ thể - Đếm được)."
         }
       ]
     },
@@ -1694,6 +3319,53 @@
           "en": "Each student is responsible for managing their own time effectively.",
           "vi": "Mỗi học sinh chịu trách nhiệm quản lý thời gian của mình một cách hiệu quả."
         }
+      ],
+      "signals": [
+        "few",
+        "a few",
+        "little",
+        "a little",
+        "many",
+        "much",
+        "a lot of",
+        "plenty of"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "FEW vs A FEW (Đi với Danh từ đếm được số nhiều)",
+          "structure": "Few + N(đếm được) (Hầu như không có, tiêu cực) | A few + N(đếm được) (Một vài, đủ dùng, tích cực)",
+          "example": "Few students passed the grueling exam (Tiêu cực) vs A few candidates demonstrated exceptional potential (Tích cực)."
+        },
+        {
+          "form": "LITTLE vs A LITTLE (Đi với Danh từ không đếm được)",
+          "structure": "Little + N(không đếm được) (Rất ít, gần như không) | A little + N(không đếm được) (Một chút, đủ dùng)",
+          "example": "There is little hope of finding survivors (Gần như không) vs A little patience will resolve this misunderstanding."
+        },
+        {
+          "form": "MANY vs MUCH",
+          "structure": "Many + N(đếm được số nhiều) | Much + N(không đếm được)",
+          "example": "Many developing countries suffer from much administrative inefficiency."
+        },
+        {
+          "form": "A LOT OF / PLENTY OF (Dùng cho cả hai)",
+          "structure": "A lot of / Lots of / Plenty of + N(plural) / N(uncountable)",
+          "example": "The government allocated plenty of resources to construct lots of schools."
+        }
+      ],
+      "usage_notes": [
+        "Bản chất tâm lý giữa 'có a' và 'không có a':",
+        " - 'Few' và 'Little' (không có a): Mang sắc thái TIÊU CỰC, nhấn mạnh sự thiếu thốn, khan hiếm, gần như bằng không.",
+        " - 'A few' và 'A little' (có a): Mang sắc thái TÍCH CỰC, tương đương với 'some' (có một ít, vẫn còn đủ để sử dụng).",
+        "Trong văn viết học thuật (Academic Writing): Hạn chế dùng 'a lot of', nên thay thế bằng các lượng từ học thuật chuẩn xác: 'a considerable amount of' (cho không đếm được), 'a significant number of' (cho đếm được), 'substantial', 'numerous'.",
+        "'Much' thường dùng trong câu phủ định và nghi vấn trong văn nói, nhưng trong văn viết học thuật có thể dùng linh hoạt trong câu khẳng định khi kết hợp trạng từ: 'much debate', 'much evidence'."
+      ],
+      "special_cases": [
+        {
+          "title": "Cụm 'Quite a few' và 'Only a few'",
+          "formula": "Quite a few = Many (Khá nhiều) | Only a few = Very few (Chỉ một số ít)",
+          "explanation": "Thêm 'quite' khiến nghĩa tăng lên thành nhiều, trong khi 'only' làm giảm số lượng.",
+          "example": "Quite a few delegates attended the summit (Rất nhiều đại biểu)."
+        }
       ]
     },
     {
@@ -1737,6 +3409,53 @@
         {
           "en": "Everyone in the room was asked to submit their feedback in writing.",
           "vi": "Mọi người trong phòng đều được yêu cầu nộp phản hồi bằng văn bản."
+        }
+      ],
+      "signals": [
+        "either... or",
+        "neither... nor",
+        "the number of",
+        "a number of",
+        "as well as",
+        "along with",
+        "every",
+        "each"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "THE NUMBER OF vs A NUMBER OF",
+          "structure": "The number of + N(plural) + V(SỐ ÍT) | A number of + N(plural) + V(SỐ NHIỀU)",
+          "example": "The number of electric cars is increasing vs A number of proposals have been submitted."
+        },
+        {
+          "form": "EITHER... OR / NEITHER... NOR / NOT ONLY... BUT ALSO",
+          "structure": "Động từ chia theo CHỦ NGỮ GẦN NÓ NHẤT (S2)",
+          "example": "Neither the supervisor nor the research assistants were aware of the chemical leak."
+        },
+        {
+          "form": "Chủ ngữ kèm theo cụm giới từ (as well as, along with, together with, in addition to)",
+          "structure": "Động từ chia theo CHỦ NGỮ ĐẦU TIÊN (S1)",
+          "example": "The prime minister, along with his senior cabinet ministers, has arrived in Geneva."
+        },
+        {
+          "form": "Đại từ bất định (Everyone, Someone, Nobody, Each, Every)",
+          "structure": "Luôn luôn chia theo NGÔI THỨ BA SỐ ÍT",
+          "example": "Each of the experimental trials requires meticulous observational logging."
+        }
+      ],
+      "usage_notes": [
+        "Bẫy khoảng cách (Intervening Phrases): Khi giữa chủ ngữ và động từ bị chèn vào một cụm giới từ dài, ĐỪNG nhìn vào danh từ đứng ngay trước động từ, hãy tìm CHỦ NGỮ CỐT LÕI. Ví dụ: 'The quality (S chính) of these imported components IS (không phải are) questionable.'",
+        "Các danh từ chỉ tập hợp (Collective Nouns: team, committee, family, government):",
+        " - Chia SỐ ÍT khi coi tập thể đó là MỘT ĐƠN VỊ THỐNG NHẤT: 'The committee has made its decision.'",
+        " - Chia SỐ NHIỀU khi nhấn mạnh TỪNG CÁ NHÂN RIÊNG LẺ trong nhóm: 'The committee are arguing among themselves.'",
+        "Khoảng cách, thời gian, số tiền và trọng lượng luôn chia SỐ ÍT: 'Ten million dollars is a substantial investment.' 'Fifty kilometers is a long distance to cycle.'"
+      ],
+      "special_cases": [
+        {
+          "title": "Cấu trúc 'None of' và các phân số / tỷ lệ phần trăm",
+          "formula": "Percentage / Fraction / None of + Noun -> Động từ chia theo NOUN đó",
+          "explanation": "Nếu Noun là số ít/không đếm được -> V số ít; Nếu Noun là số nhiều -> V số nhiều.",
+          "example": "Sixty percent of the forest has been destroyed vs Sixty percent of the trees have burned down."
         }
       ]
     },
@@ -1782,6 +3501,53 @@
           "en": "While some people embrace globalisation, others are deeply concerned about its effects.",
           "vi": "Trong khi một số người ủng hộ toàn cầu hóa, những người khác lại lo ngại sâu sắc về tác động của nó."
         }
+      ],
+      "signals": [
+        "although",
+        "even though",
+        "though",
+        "despite",
+        "in spite of",
+        "regardless of",
+        "notwithstanding"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "ALTHOUGH / EVEN THOUGH / THOUGH + Mệnh đề",
+          "structure": "Although / Even though + S + V, Main Clause",
+          "example": "Although renewable generation capacity surged, fossil fuel consumption remained stubbornly elevated."
+        },
+        {
+          "form": "DESPITE / IN SPITE OF + Cụm danh từ hoặc V-ing",
+          "structure": "Despite / In spite of + Noun phrase / V-ing, Main Clause",
+          "example": "Despite aggressive fiscal stimuli, economic growth stagnated throughout the fourth quarter."
+        },
+        {
+          "form": "DESPITE THE FACT THAT + Mệnh đề",
+          "structure": "Despite / In spite of the fact that + S + V, Main Clause",
+          "example": "In spite of the fact that substantial warnings were issued, few residents evacuated."
+        },
+        {
+          "form": "Cấu trúc đảo tính từ với THOUGH / AS",
+          "structure": "Adj / Adv + as / though + S + be/V, Main Clause",
+          "example": "Challenging though the preliminary examination was, all scholarship candidates passed."
+        }
+      ],
+      "usage_notes": [
+        "LỖI SAI SỐ 1 CỦA NGƯỜI VIỆT: Dùng cả ALTHOUGH và BUT trong cùng một câu! Trong tiếng Anh, đã có Although thì TUYỆT ĐỐI KHÔNG dùng But. Sai: 'Although it rained, but we went out' -> Đúng: 'Although it rained, we went out.'",
+        "Phân biệt cấu trúc ngữ pháp:",
+        " - 'Although / Even though' + CLAUSE (phải có cả Chủ ngữ và Động từ chia thì).",
+        " - 'Despite / In spite of' + NOUN PHRASE / V-ING (không được có mệnh đề, trừ khi dùng 'despite the fact that').",
+        "'Even though' mang sắc thái nhấn mạnh sự tương phản mạnh mẽ hơn nhiều so với 'although'.",
+        "'Though' có thể đứng ở CUỐI CÂU trong văn nói thân mật mang nghĩa 'tuy nhiên': 'The weather was cold. We enjoyed the trip, though.'"
+      ],
+      "special_cases": [
+        {
+          "title": "Cấu trúc C2: 'Much as + S + V' (Dù rất...)",
+          "formula": "Much as + S + V, Main Clause",
+          "explanation": "Cách diễn đạt nhượng bộ đỉnh cao tương đương với Although... very much.",
+          "example": "Much as I respect his theoretical acumen, I find his practical proposals untenable."
+        }
       ]
     },
     {
@@ -1825,6 +3591,52 @@
         {
           "en": "In contrast to previous generations, young people today have access to vast amounts of information online.",
           "vi": "Trái ngược với các thế hệ trước, giới trẻ ngày nay có quyền truy cập vào lượng thông tin khổng lồ trực tuyến."
+        }
+      ],
+      "signals": [
+        "whereas",
+        "while",
+        "however",
+        "conversely",
+        "on the other hand",
+        "in contrast to"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "WHEREAS / WHILE nối trực tiếp 2 vế trong câu",
+          "structure": "Clause 1, whereas / while + Clause 2 | While / Whereas + Clause 1, Clause 2",
+          "example": "Developed economies emit disproportionate carbon per capita, whereas developing states suffer severe climate repercussions."
+        },
+        {
+          "form": "HOWEVER / NEVERTHELESS (Trạng từ liên kết)",
+          "structure": "Clause 1. However, Clause 2 | Clause 1; however, Clause 2",
+          "example": "The initial pharmacological trial succeeded; however, secondary clinical phases exhibited unforeseen anomalies."
+        },
+        {
+          "form": "IN CONTRAST TO / UNLIKE (Giới từ so sánh)",
+          "structure": "In contrast to / Unlike + Noun phrase, Main Clause",
+          "example": "In contrast to conventional combustion engines, hydrogen fuel cells produce only water vapor."
+        },
+        {
+          "form": "ON THE ONE HAND... ON THE OTHER HAND",
+          "structure": "On the one hand, Clause 1. On the other hand, Clause 2",
+          "example": "On the one hand, globalization promotes trade; on the other hand, it strains local manufacturing."
+        }
+      ],
+      "usage_notes": [
+        "Bẫy dấu câu với 'However':",
+        " - 'However' là TRẠNG TỪ LIÊN KẾT (Conjunctive Adverb), KHÔNG PHẢI liên từ phụ thuộc. Vì vậy, KHÔNG ĐƯỢC nối 2 mệnh đề độc lập chỉ bằng dấu phẩy và however (Lỗi Comma Splice).",
+        " - Sai: 'He studied hard, however he failed.'",
+        " - Đúng: 'He studied hard. However, he failed.' HOẶC 'He studied hard; however, he failed.'",
+        "'Whereas' và 'While' dùng để chỉ sự TƯƠNG PHẢN ĐỐI CHIẾU TRỰC TIẾP giữa hai đối tượng độc lập có đặc điểm trái ngược nhau (Task 1 thần thánh).",
+        "'Conversely' mang nghĩa 'ngược lại hoàn toàn' về mặt logic hoặc nguyên lý."
+      ],
+      "special_cases": [
+        {
+          "title": "Vị trí linh hoạt của 'However' trong câu",
+          "formula": "S, however, + V... (Chèn giữa chủ ngữ và động từ)",
+          "explanation": "Đặt 'however' giữa 2 dấu phẩy ngay sau chủ ngữ giúp câu văn học thuật và mềm mại hơn.",
+          "example": "Subsequent empirical investigations, however, failed to replicate these sensational results."
         }
       ]
     },
@@ -1870,6 +3682,56 @@
           "en": "Not only is regular exercise beneficial for physical health, but it also improves mental wellbeing.",
           "vi": "Tập thể dục thường xuyên không chỉ có lợi cho sức khỏe thể chất mà còn cải thiện sức khỏe tinh thần."
         }
+      ],
+      "signals": [
+        "not only... but also",
+        "never",
+        "rarely",
+        "seldom",
+        "little",
+        "hardly",
+        "at no time",
+        "under no circumstances"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "1. NOT ONLY... BUT ALSO",
+          "structure": "Not only + Auxiliary + S + V, but S + also + V",
+          "example": "Not only does deforestation accelerate biodiversity loss, but it also disrupts rainfall cycles."
+        },
+        {
+          "form": "2. NEVER / RARELY / SELDOM / HARDLY",
+          "structure": "Rarely / Seldom / Never + Auxiliary + S + V",
+          "example": "Rarely have climate scientists observed such abrupt glacial melting in polar regions."
+        },
+        {
+          "form": "3. LITTLE (Hầu như không hề nhận ra/biết)",
+          "structure": "Little + did + S + know / realize + that...",
+          "example": "Little did the board realize that the merger would precipitate insolvency within a year."
+        },
+        {
+          "form": "4. UNDER NO CIRCUMSTANCES (Tuyệt đối không bao giờ)",
+          "structure": "Under no circumstances + should / must + S + V_bare",
+          "example": "Under no circumstances should sensitive patient records be transferred via unsecured protocols."
+        },
+        {
+          "form": "5. AT NO TIME / IN NO WAY",
+          "structure": "At no time + did / was + S + V",
+          "example": "At no time was the flight crew in direct communication with ground air control."
+        }
+      ],
+      "usage_notes": [
+        "BẢN CHẤT ĐẢO NGỮ PHỦ ĐỊNH: Khi các từ mang nghĩa phủ định hoặc bán phủ định (Never, Rarely, Seldom, Hardly, Little, Not only, Under no circumstances...) được đưa lên ĐẦU CÂU nhằm mục đích nhấn mạnh, ta BẮT BUỘC phải đảo TRỢ ĐỘNG TỪ (do/does/did/have/has/modal) lên TRƯỚC CHỦ NGỮ, tương tự như trật tự của một câu hỏi.",
+        "Nếu câu không có trợ động từ sẵn (như thì Hiện tại đơn hoặc Quá khứ đơn), bắt buộc phải mượn 'do / does / did': 'He rarely visits' -> 'Rarely DOES he visit.'",
+        "Lưu ý với 'Not only': Chỉ đảo ngữ ở VẾ ĐẦU TIÊN (vế chứa Not only), vế thứ hai (sau But also) giữ nguyên trật tự bình thường."
+      ],
+      "special_cases": [
+        {
+          "title": "Cấu trúc 'Not until' đảo ngữ ở vế chính",
+          "formula": "Not until + time / clause + AUXILIARY + S + V",
+          "explanation": "Đảo ngữ xảy ra ở vế thứ hai (mệnh đề chính), không đảo ở mệnh đề sau not until.",
+          "example": "Not until the audit concluded did the executives acknowledge the fiscal shortfall."
+        }
       ]
     },
     {
@@ -1913,6 +3775,50 @@
         {
           "en": "No sooner had the law been passed than activists began challenging it in court.",
           "vi": "Luật vừa được thông qua thì các nhà hoạt động bắt đầu tranh chấp nó tại tòa án."
+        }
+      ],
+      "signals": [
+        "only when",
+        "only after",
+        "only by",
+        "only if",
+        "no sooner... than",
+        "hardly... when"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "1. ONLY AFTER / ONLY WHEN / ONLY IF (Đảo ngữ ở vế chính)",
+          "structure": "Only after / when / if + Clause 1 + AUXILIARY + S2 + V2",
+          "example": "Only after rigorous peer review did the scientific journal publish the contentious paper."
+        },
+        {
+          "form": "2. ONLY BY + V-ing (Chỉ bằng cách)",
+          "structure": "Only by + V-ing + AUXILIARY + S + V",
+          "example": "Only by fostering international cooperation can mankind avert devastating climatic tipping points."
+        },
+        {
+          "form": "3. NO SOONER... THAN (Vừa mới... thì)",
+          "structure": "No sooner had + S + V3/ed + than + S + V2/ed",
+          "example": "No sooner had the central bank raised interest rates than consumer borrowing contracted."
+        },
+        {
+          "form": "4. HARDLY / SCARCELY... WHEN (Vừa mới... thì)",
+          "structure": "Hardly / Scarcely had + S + V3/ed + when + S + V2/ed",
+          "example": "Hardly had the treaty been signed when regional skirmishes erupted along the border."
+        }
+      ],
+      "usage_notes": [
+        "VỊ TRÍ ĐẢO NGỮ CỦA CÁC CỤM 'ONLY':",
+        " - Khi 'Only by + V-ing' hoặc 'Only then' đứng đầu câu -> Đảo ngữ ngay lập tức: 'Only by studying hard CAN YOU pass.'",
+        " - Khi 'Only when / Only after / Only if' đứng đầu câu -> Mệnh đề ngay sau nó giữ nguyên trật tự bình thường (S1 + V1), ĐẢO NGỮ BẮT BUỘC PHẢI DIỄN RA Ở MỆNH ĐỀ CHÍNH (Auxiliary + S2 + V2).",
+        "Phân biệt cặp từ nối: 'No sooner' luôn đi với 'THAN'; 'Hardly / Scarcely' luôn đi với 'WHEN' (hoặc 'before'). Tránh nhầm lẫn!"
+      ],
+      "special_cases": [
+        {
+          "title": "Đảo ngữ với 'Not since' (Kể từ khi... chưa hề)",
+          "formula": "Not since + time / clause + Auxiliary + S + V",
+          "explanation": "Tương tự như Not until, diễn tả sự việc chưa từng xảy ra kể từ một mốc quá khứ.",
+          "example": "Not since the Great Depression has the global banking system experienced such liquidity strains."
         }
       ]
     },
@@ -1958,6 +3864,53 @@
           "en": "It seems likely that artificial intelligence will transform most industries within a generation.",
           "vi": "Có vẻ như trí tuệ nhân tạo sẽ biến đổi hầu hết các ngành công nghiệp trong một thế hệ."
         }
+      ],
+      "signals": [
+        "hedging",
+        "tend to",
+        "seem to",
+        "appear to",
+        "it could be argued that",
+        "plausibly",
+        "tentatively"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "1. Động từ giảm nhẹ (Hedging Verbs)",
+          "structure": "S + tend to / appear to / seem to + V_bare",
+          "example": "Younger demographics appear to prioritize ethical corporate values when selecting employers."
+        },
+        {
+          "form": "2. Động từ khuyết thiếu giảm sắc thái tuyệt đối",
+          "structure": "S + may / might / could + V_bare",
+          "example": "Overreliance on automated decision systems could inadvertently entrench systemic bias."
+        },
+        {
+          "form": "3. Cấu trúc khách quan 'It is argued / suggested'",
+          "structure": "It can / could be argued that + Clause",
+          "example": "It could be argued that technological displacement generates higher-tier specialized vocations."
+        },
+        {
+          "form": "4. Trạng từ chỉ mức độ khả năng & tần suất",
+          "structure": "largely, predominantly, arguably, potentially, tentatively, relatively",
+          "example": "The discrepancy is arguably attributable to unequal regional educational resource distribution."
+        }
+      ],
+      "usage_notes": [
+        "TẠI SAO PHẢI DÙNG ACADEMIC HEDGING TRONG IELTS WRITING?",
+        "Trong văn học thuật, một luận điểm khẳng định tuyệt đối 100% ('Social media causes depression', 'All politicians are corrupt') sẽ bị giám khảo đánh giá là phiến diện, thiếu tính khoa học và giáo điều (over-generalization).",
+        "Sử dụng ngôn ngữ giảm nhẹ (Hedging) giúp bài viết thể hiện sự thận trọng, khách quan và khoa học của một nhà nghiên cứu thực thụ, đưa điểm Task Achievement và Lexical Resource lên Band 8.0 - 9.0.",
+        "Cách chuyển từ câu tuyệt đối sang câu học thuật:",
+        " - Tuyệt đối: 'Cars destroy the environment.'",
+        " - Hedged: 'Combustion vehicles tend to exert considerable detrimental pressure on atmospheric quality.'"
+      ],
+      "special_cases": [
+        {
+          "title": "Hedging bằng tính từ giả định: 'It is plausible / likely / probable that...'",
+          "formula": "It is highly probable / plausible that + Clause",
+          "explanation": "Đánh giá xác suất một giả thuyết mà không khẳng định tuyệt đối.",
+          "example": "It is highly plausible that climate migration will reshape global demographic patterns by mid-century."
+        }
       ]
     },
     {
@@ -2001,6 +3954,44 @@
         {
           "en": "An investigation into the causes of poverty reveals complex social and economic factors.",
           "vi": "Việc điều tra nguyên nhân của nghèo đói tiết lộ các yếu tố xã hội và kinh tế phức tạp."
+        }
+      ],
+      "signals": [
+        "nominalization",
+        "danh từ hóa",
+        "chuyển động từ thành danh từ học thuật"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "1. Chuyển Động từ -> Cụm Danh từ làm Chủ ngữ",
+          "structure": "The + Noun (từ Verb) + of + Object + V_academic",
+          "example": "The rapid expansion of metropolitan areas strains municipal water infrastructure."
+        },
+        {
+          "form": "2. Chuyển Mệnh đề Nhân - Quả thành Cụm Danh từ",
+          "structure": "The + Noun_cause + resulted in / led to + The + Noun_effect",
+          "example": "The eradication of malaria led to a substantial elevation in regional labor productivity."
+        },
+        {
+          "form": "3. Chuyển Tính từ mô tả -> Danh từ trừu tượng",
+          "structure": "The + Noun (từ Adj) + of...",
+          "example": "The vulnerability of coastal communities demands immediate defensive fortification."
+        }
+      ],
+      "usage_notes": [
+        "BẢN CHẤT CỦA NOMINALIZATION (DANH TỪ HÓA):",
+        "Danh từ hóa là kỹ thuật biến đổi các động từ (actions) hoặc tính từ (qualities) thành danh từ (concepts). Đây là đặc trưng quan trọng nhất phân biệt văn nói thân mật (Informal Spoken English) và văn viết học thuật hàn lâm (Academic Written English).",
+        "So sánh sự khác biệt đẳng cấp:",
+        " - Văn nói (Band 5.5): 'Because the population grew quickly, people used more water and this damaged the environment.'",
+        " - Văn học thuật (Band 8.5): 'Rapid population expansion precipitated severe environmental degradation through heightened water consumption.'",
+        "Lợi ích: Giúp câu văn cô đọng, súc tích (concise), mang tính khách quan và tăng mật độ thông tin học thuật (lexical density)."
+      ],
+      "special_cases": [
+        {
+          "title": "Bẫy lạm dụng danh từ hóa khiến câu văn tối nghĩa (Heavy Nominalization)",
+          "formula": "Cân bằng giữa động từ hành động mạnh và danh từ hóa",
+          "explanation": "Không nên lồng ghép quá 3-4 danh từ trừu tượng liên tiếp khiến câu văn trở nên khô khan, nặng nề và khó hiểu.",
+          "example": "Avoid: 'The implementation of the utilization of the technology...' -> Use: 'Implementing this technology optimizes operations.'"
         }
       ]
     },
@@ -2049,6 +4040,59 @@
         {
           "en": "The company invested in training programmes with a view to improving employee performance.",
           "vi": "Công ty đầu tư vào các chương trình đào tạo nhằm cải thiện hiệu suất của nhân viên."
+        }
+      ],
+      "signals": [
+        "because",
+        "because of",
+        "due to",
+        "owing to",
+        "so that",
+        "in order to",
+        "so as to",
+        "with a view to"
+      ],
+      "detailed_formulas": [
+        {
+          "form": "1. CHỈ LÝ DO: Because / Since / As (+ Clause)",
+          "structure": "Because / Since / As + S + V, Main Clause",
+          "example": "Since public transit subsidies were terminated, commuter reliance on personal vehicles expanded."
+        },
+        {
+          "form": "2. CHỈ LÝ DO: Because of / Due to / Owing to (+ Noun / V-ing)",
+          "structure": "Due to / Owing to / Because of + Noun phrase / V-ing, Main Clause",
+          "example": "Owing to severe supply bottlenecks, consumer inflation spiked across major product categories."
+        },
+        {
+          "form": "3. CHỈ MỤC ĐÍCH: In order to / So as to (+ V_bare)",
+          "structure": "S + V + in order to / so as to + V_bare",
+          "example": "Municipal planners introduced congestion tariffs so as to curb peak-hour vehicular emissions."
+        },
+        {
+          "form": "4. CHỈ MỤC ĐÍCH: So that / In order that (+ Clause)",
+          "structure": "S + V + so that / in order that + S + can/could/may + V_bare",
+          "example": "Curricula were overhauled so that engineering graduates could adapt to automated manufacturing."
+        },
+        {
+          "form": "5. Cấu trúc C2: With a view to + V-ing",
+          "structure": "S + V + with a view to + V-ing (Với mục đích/hướng tới)",
+          "example": "The firm acquired regional competitors with a view to establishing a pan-European monopoly."
+        }
+      ],
+      "usage_notes": [
+        "Phân biệt cấu trúc ngữ pháp:",
+        " - 'Because / Since / As' + MỆNH ĐỀ ĐẦY ĐỦ (Subject + Verb).",
+        " - 'Because of / Due to / Owing to' + CỤM DANH TỪ / V-ING.",
+        " - Nếu muốn dùng Due to / Because of với một mệnh đề, phải dùng: 'Due to the fact that + S + V'.",
+        "Phân biệt 'Due to' vs 'Because of': Trong văn phong ngữ pháp truyền thống khắt khe, 'Due to' đóng vai trò tính từ (thường đứng sau To Be: 'The cancellation was due to rain'); còn 'Because of' đóng vai trò trạng từ bổ nghĩa cho động từ hành động. Tuy nhiên ngày nay 'due to' có thể dùng linh hoạt ở đầu câu.",
+        "Thể phủ định chỉ mục đích: 'In order NOT to V' hoặc 'So as NOT to V' (Tuyệt đối không nói 'Not in order to V')."
+      ],
+      "special_cases": [
+        {
+          "title": "Cấu trúc chỉ mục đích phòng ngừa: 'Lest + S + (should) + V_bare'",
+          "formula": "S + V + lest + S + (should) + V_bare (E sợ rằng, đề phòng trường hợp)",
+          "explanation": "Cấu trúc cổ điển và trang trọng tương đương với 'for fear that' hoặc 'in case'.",
+          "example": "Central bankers monitored liquidity metrics lest commercial lenders should experience solvency crises."
         }
       ]
     }

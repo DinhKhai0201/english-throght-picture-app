@@ -3,17 +3,15 @@
 import { useState, useMemo } from "react";
 import SectionNav from "../components/SectionNav";
 import LessonMode from "../components/LessonMode";
-import { Volume2Icon, LightbulbIcon, AlertTriangleIcon, AwardIcon } from "../components/Icons";
-import { isTextSelected } from "../lib/uiUtils";
 import { useSpeechSynthesis } from "../hooks/useSpeechSynthesis";
 import { useStudyProgress } from "../hooks/useStudyProgress";
+import GrammarCardItem from "../components/study/GrammarCardItem";
 import {
   StudyLoading,
   StudyModeStrip,
   StudyHeroHeader,
   StudyControlPanel,
   StudyFilterTabs,
-  StudyCardFooter,
   StudyEmptyState,
   StudyFooterTip,
 } from "../components/study/StudyLayoutParts";
@@ -82,6 +80,23 @@ export default function GrammarPage() {
         item.formula.toLowerCase().includes(q) ||
         item.explanation_vi.toLowerCase().includes(q) ||
         (item.ielts_tip_vi && item.ielts_tip_vi.toLowerCase().includes(q)) ||
+        (item.signals && item.signals.some((s) => s.toLowerCase().includes(q))) ||
+        (item.usage_notes && item.usage_notes.some((un) => un.toLowerCase().includes(q))) ||
+        (item.special_cases &&
+          item.special_cases.some(
+            (sc) =>
+              sc.title.toLowerCase().includes(q) ||
+              sc.formula.toLowerCase().includes(q) ||
+              sc.explanation.toLowerCase().includes(q) ||
+              (sc.example && sc.example.toLowerCase().includes(q))
+          )) ||
+        (item.detailed_formulas &&
+          item.detailed_formulas.some(
+            (df) =>
+              (df.form && df.form.toLowerCase().includes(q)) ||
+              (df.structure && df.structure.toLowerCase().includes(q)) ||
+              (df.example && df.example.toLowerCase().includes(q))
+          )) ||
         (item.examples &&
           item.examples.some((ex) => ex.en.toLowerCase().includes(q) || ex.vi.toLowerCase().includes(q)));
       return matchesCat && matchesLevel && matchesFilter && matchesSearch;
@@ -95,87 +110,18 @@ export default function GrammarPage() {
     const displayNum = idx !== undefined ? idx + 1 : item.id.replace("gr_", "");
 
     return (
-      <article key={item.id} className={`sentence-card grammar-card ${isLearned ? "learned" : ""}`}>
-        <div className="card-top">
-          <span className="card-index">#{displayNum}</span>
-          <span className="card-category">{categoryNameMap[item.category] || item.category}</span>
-          <span className={`grammar-level-badge grammar-level-${item.level}`}>{item.band}</span>
-        </div>
-
-        <div className="grammar-header-block">
-          <h2 className="grammar-title">{item.title}</h2>
-          <div className="grammar-formula-box">
-            <span className="grammar-formula-label">Cấu trúc</span>
-            <code className="grammar-formula-code">{item.formula}</code>
-          </div>
-          <p className="grammar-explanation">{item.explanation_vi}</p>
-        </div>
-
-        {item.examples && item.examples.length > 0 && (
-          <div className="grammar-examples-block">
-            <div className="grammar-sub-heading">Ví dụ thực tế (Bấm để nghe &amp; tăng lượt đọc)</div>
-            <div className="grammar-examples-list">
-              {item.examples.map((ex, exIdx) => {
-                const exPlayId = `${item.id}_ex_${exIdx}`;
-                const isPlayingEx = playingId === exPlayId;
-                return (
-                  <div
-                    key={exIdx}
-                    className={`grammar-example-row ${isPlayingEx ? "is-playing" : ""}`}
-                    onClick={() => {
-                      if (isTextSelected()) return;
-                      playSpeech(ex.en, exPlayId);
-                      incrementStudyCount(item.id);
-                    }}
-                    title="Bấm để nghe ví dụ và tăng lượt đọc"
-                  >
-                    <div className="grammar-example-text">
-                      <p className="grammar-example-en">{ex.en}</p>
-                      <p className="grammar-example-vi">→ {ex.vi}</p>
-                    </div>
-                    <button
-                      type="button"
-                      className={`play-button play-button--sm ${isPlayingEx ? "playing" : ""}`}
-                      aria-label="Nghe câu ví dụ"
-                    >
-                      <Volume2Icon size={15} className={isPlayingEx ? "playing-animation" : ""} />
-                    </button>
-                  </div>
-                );
-              })}
-            </div>
-          </div>
-        )}
-
-        {item.common_mistake && (
-          <div className="grammar-mistake-box">
-            <div className="grammar-mistake-head">
-              <AlertTriangleIcon size={14} />
-              <span>Lỗi hay gặp &amp; Cách sửa chuẩn</span>
-            </div>
-            <div className="grammar-mistake-pair">
-              <span className="grammar-wrong">{item.common_mistake.wrong}</span>
-              <span className="grammar-correct">{item.common_mistake.correct}</span>
-            </div>
-          </div>
-        )}
-
-        {item.ielts_tip_vi && (
-          <div className="grammar-tip-box">
-            <LightbulbIcon size={15} />
-            <span>{item.ielts_tip_vi}</span>
-          </div>
-        )}
-
-        <StudyCardFooter
-          isLearned={isLearned}
-          onToggleLearned={() => toggleLearned(item.id)}
-          studyCount={studyCounts[item.id] || 0}
-          learnedLabel="Đã nắm vững"
-          unlearnedLabel="Đánh dấu đã nắm vững"
-          counterTitle="Số lần bấm đọc ví dụ"
-        />
-      </article>
+      <GrammarCardItem
+        key={item.id}
+        item={item}
+        displayNum={displayNum}
+        categoryName={categoryNameMap[item.category] || item.category}
+        isLearned={isLearned}
+        onToggleLearned={toggleLearned}
+        studyCount={studyCounts[item.id] || 0}
+        onIncrementStudyCount={incrementStudyCount}
+        playingId={playingId}
+        onPlaySpeech={playSpeech}
+      />
     );
   };
 
@@ -194,7 +140,7 @@ export default function GrammarPage() {
       <StudyHeroHeader
         eyebrow="EN • Grammar Mastery (Basic → IELTS 8.0+)"
         title="Ngữ Pháp Tiếng Anh Từ Cơ Bản Đến IELTS 8.0"
-        subtitle="Tổng hợp đầy đủ 10 nhóm dạng bài ngữ pháp trọng tâm kèm công thức, ví dụ phát âm chuẩn, mẹo IELTS và lưu lượt đọc"
+        subtitle="Tổng hợp đầy đủ 45 chủ điểm ngữ pháp trọng tâm kèm bảng chia thì chi tiết, nguyên tắc sống còn, trường hợp đặc biệt & bẫy thi cử, audio phát âm và mẹo IELTS 8.0+"
         statLabel="Tiến trình làm chủ Grammar"
         learnedCount={learnedIds.size}
         totalCount={items.length}
@@ -207,7 +153,7 @@ export default function GrammarPage() {
           <StudyControlPanel
             searchQuery={searchQuery}
             onSearchChange={setSearchQuery}
-            searchPlaceholder="Tìm theo tên ngữ pháp, công thức, ví dụ hoặc mẹo IELTS..."
+            searchPlaceholder="Tìm theo tên ngữ pháp, thì, công thức, trường hợp đặc biệt, bẫy thi cử hoặc từ khóa..."
             voices={voices}
             selectedVoice={selectedVoice}
             onVoiceChange={setSelectedVoice}

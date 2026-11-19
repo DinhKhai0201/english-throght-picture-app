@@ -3686,6 +3686,285 @@ select {
   margin-top: 2px;
 }
 
+/* ==========================================================================
+   GRAMMAR DEEP KNOWLEDGE ENHANCEMENTS
+   ========================================================================== */
+
+.grammar-tabs-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  padding: 4px;
+  background-color: var(--color-subtle-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+  margin-top: 4px;
+}
+
+.grammar-tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.grammar-tab-btn:hover {
+  color: var(--color-text-main);
+  background-color: var(--color-hover-bg, rgba(0, 0, 0, 0.04));
+}
+
+.grammar-tab-btn.active {
+  color: var(--color-primary);
+  background-color: var(--color-primary-soft);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.grammar-tab-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background-color: var(--color-border);
+  color: var(--color-text-muted);
+}
+
+.grammar-tab-btn.active .grammar-tab-badge {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.grammar-section-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  background-color: var(--color-subtle-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+}
+
+.grammar-section-title {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-main);
+}
+
+.grammar-section-title svg {
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+/* Signals Row */
+.grammar-signals-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.grammar-signal-label {
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.grammar-signal-pill {
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background-color: var(--color-info-soft);
+  color: var(--color-info);
+  border: 1px solid var(--color-info-border);
+}
+
+/* Detailed Formula Table / Breakdown */
+.grammar-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+  background-color: var(--color-card-bg);
+}
+
+.grammar-formula-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.86rem;
+  text-align: left;
+}
+
+.grammar-formula-table th {
+  padding: 8px 12px;
+  font-weight: 700;
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-text-muted);
+  background-color: var(--color-subtle-bg);
+  border-bottom: 1px solid var(--color-border);
+  white-space: nowrap;
+}
+
+.grammar-formula-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+
+.grammar-formula-table tr:last-child td {
+  border-bottom: none;
+}
+
+.grammar-table-form {
+  font-weight: 700;
+  color: var(--color-text-main);
+  white-space: nowrap;
+  font-size: 0.83rem;
+}
+
+.grammar-table-code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--color-primary);
+  background-color: var(--color-primary-soft);
+  padding: 3px 6px;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 1.4;
+}
+
+.grammar-table-ex {
+  color: var(--color-text-muted);
+  font-style: italic;
+  font-size: 0.84rem;
+  line-height: 1.4;
+}
+
+/* Usage Notes List */
+.grammar-notes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.grammar-note-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.88rem;
+  color: var(--color-text-main);
+  line-height: 1.5;
+  padding: 7px 10px;
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-primary);
+  border-radius: 4px;
+}
+
+.grammar-note-item svg {
+  color: var(--color-primary);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* Special Cases */
+.grammar-specials-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.grammar-special-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 12px;
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-purple);
+  border-radius: 4px;
+}
+
+.grammar-special-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--color-purple);
+}
+
+.grammar-special-formula {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.83rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+  background-color: var(--color-purple-soft);
+  border: 1px solid var(--color-purple-border);
+  padding: 5px 8px;
+  border-radius: 4px;
+  line-height: 1.4;
+}
+
+.grammar-special-desc {
+  font-size: 0.86rem;
+  color: var(--color-text-muted);
+  line-height: 1.45;
+}
+
+.grammar-special-example {
+  font-size: 0.84rem;
+  font-weight: 500;
+  color: var(--color-text-main);
+  background-color: var(--color-subtle-bg);
+  padding: 6px 10px;
+  border-radius: 4px;
+  border-left: 2px solid var(--color-info);
+  line-height: 1.4;
+}
+
+.grammar-special-example span.label {
+  font-weight: 700;
+  color: var(--color-info);
+  margin-right: 4px;
+}
+
+@media (max-width: 640px) {
+  .grammar-tabs-bar {
+    gap: 4px;
+  }
+  .grammar-tab-btn {
+    padding: 5px 8px;
+    font-size: 0.76rem;
+  }
+  .grammar-formula-table th,
+  .grammar-formula-table td {
+    padding: 6px 8px;
+  }
+}
+
+
 /* Listen Drill Task 1 Enhancements */
 .drill-subbar {
   display: flex;
@@ -4122,6 +4401,285 @@ select {
   flex-shrink: 0;
   margin-top: 2px;
 }
+
+/* ==========================================================================
+   GRAMMAR DEEP KNOWLEDGE ENHANCEMENTS
+   ========================================================================== */
+
+.grammar-tabs-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+  padding: 4px;
+  background-color: var(--color-subtle-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+  margin-top: 4px;
+}
+
+.grammar-tab-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 6px 12px;
+  font-size: 0.82rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  background: transparent;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.grammar-tab-btn:hover {
+  color: var(--color-text-main);
+  background-color: var(--color-hover-bg, rgba(0, 0, 0, 0.04));
+}
+
+.grammar-tab-btn.active {
+  color: var(--color-primary);
+  background-color: var(--color-primary-soft);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+
+.grammar-tab-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.7rem;
+  font-weight: 800;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background-color: var(--color-border);
+  color: var(--color-text-muted);
+}
+
+.grammar-tab-btn.active .grammar-tab-badge {
+  background-color: var(--color-primary);
+  color: #fff;
+}
+
+.grammar-section-block {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 12px;
+  background-color: var(--color-subtle-bg);
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+}
+
+.grammar-section-title {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 0.8rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-main);
+}
+
+.grammar-section-title svg {
+  color: var(--color-primary);
+  flex-shrink: 0;
+}
+
+/* Signals Row */
+.grammar-signals-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6px;
+}
+
+.grammar-signal-label {
+  font-size: 0.76rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.grammar-signal-pill {
+  font-size: 0.78rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background-color: var(--color-info-soft);
+  color: var(--color-info);
+  border: 1px solid var(--color-info-border);
+}
+
+/* Detailed Formula Table / Breakdown */
+.grammar-table-wrap {
+  width: 100%;
+  overflow-x: auto;
+  border: 1px solid var(--color-border);
+  border-radius: var(--border-radius-sm);
+  background-color: var(--color-card-bg);
+}
+
+.grammar-formula-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.86rem;
+  text-align: left;
+}
+
+.grammar-formula-table th {
+  padding: 8px 12px;
+  font-weight: 700;
+  font-size: 0.76rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--color-text-muted);
+  background-color: var(--color-subtle-bg);
+  border-bottom: 1px solid var(--color-border);
+  white-space: nowrap;
+}
+
+.grammar-formula-table td {
+  padding: 10px 12px;
+  border-bottom: 1px solid var(--color-border);
+  vertical-align: top;
+}
+
+.grammar-formula-table tr:last-child td {
+  border-bottom: none;
+}
+
+.grammar-table-form {
+  font-weight: 700;
+  color: var(--color-text-main);
+  white-space: nowrap;
+  font-size: 0.83rem;
+}
+
+.grammar-table-code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-weight: 700;
+  font-size: 0.85rem;
+  color: var(--color-primary);
+  background-color: var(--color-primary-soft);
+  padding: 3px 6px;
+  border-radius: 4px;
+  display: inline-block;
+  line-height: 1.4;
+}
+
+.grammar-table-ex {
+  color: var(--color-text-muted);
+  font-style: italic;
+  font-size: 0.84rem;
+  line-height: 1.4;
+}
+
+/* Usage Notes List */
+.grammar-notes-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.grammar-note-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  font-size: 0.88rem;
+  color: var(--color-text-main);
+  line-height: 1.5;
+  padding: 7px 10px;
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-primary);
+  border-radius: 4px;
+}
+
+.grammar-note-item svg {
+  color: var(--color-primary);
+  flex-shrink: 0;
+  margin-top: 2px;
+}
+
+/* Special Cases */
+.grammar-specials-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.grammar-special-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  padding: 10px 12px;
+  background-color: var(--color-card-bg);
+  border: 1px solid var(--color-border);
+  border-left: 3px solid var(--color-purple);
+  border-radius: 4px;
+}
+
+.grammar-special-title {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.88rem;
+  font-weight: 700;
+  color: var(--color-purple);
+}
+
+.grammar-special-formula {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.83rem;
+  font-weight: 700;
+  color: var(--color-text-main);
+  background-color: var(--color-purple-soft);
+  border: 1px solid var(--color-purple-border);
+  padding: 5px 8px;
+  border-radius: 4px;
+  line-height: 1.4;
+}
+
+.grammar-special-desc {
+  font-size: 0.86rem;
+  color: var(--color-text-muted);
+  line-height: 1.45;
+}
+
+.grammar-special-example {
+  font-size: 0.84rem;
+  font-weight: 500;
+  color: var(--color-text-main);
+  background-color: var(--color-subtle-bg);
+  padding: 6px 10px;
+  border-radius: 4px;
+  border-left: 2px solid var(--color-info);
+  line-height: 1.4;
+}
+
+.grammar-special-example span.label {
+  font-weight: 700;
+  color: var(--color-info);
+  margin-right: 4px;
+}
+
+@media (max-width: 640px) {
+  .grammar-tabs-bar {
+    gap: 4px;
+  }
+  .grammar-tab-btn {
+    padding: 5px 8px;
+    font-size: 0.76rem;
+  }
+  .grammar-formula-table th,
+  .grammar-formula-table td {
+    padding: 6px 8px;
+  }
+}
+
 
 /* Listen Drill Task 1 Enhancements */
 .drill-subbar {
