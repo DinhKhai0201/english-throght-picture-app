@@ -19,7 +19,7 @@ import {
 import rawData from "../../english_grammar_ielts8.json";
 
 const LEVEL_MAP = {
-  all: "Tất cả trình độ",
+  all: "Tất cả",
   basic: "Cơ bản (A1–A2)",
   intermediate: "Trung cấp (B1–B2)",
   advanced: "IELTS 7.0–8.0+",
@@ -201,7 +201,7 @@ export default function GrammarPage() {
               inline
             />
 
-            <div className="difficulty-filter-group">
+            <div className="difficulty-filter-group" role="group" aria-label="Lọc theo trình độ">
               <span className="difficulty-filter-label">
                 <AwardIcon size={13} /> Trình độ:
               </span>
