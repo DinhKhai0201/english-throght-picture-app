@@ -3496,6 +3496,10 @@ select {
 
 .grammar-card {
   gap: 14px;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .grammar-level-badge {
@@ -3504,6 +3508,7 @@ select {
   font-weight: 700;
   padding: 2px 9px;
   border-radius: 999px;
+  flex-shrink: 0;
 }
 
 .grammar-level-basic {
@@ -3528,6 +3533,7 @@ select {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  min-width: 0;
 }
 
 .grammar-title {
@@ -3536,6 +3542,8 @@ select {
   color: var(--color-text-main);
   letter-spacing: -0.015em;
   line-height: 1.3;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .grammar-formula-box {
@@ -3547,6 +3555,8 @@ select {
   border: 1px solid var(--color-primary-border);
   border-radius: var(--border-radius-sm);
   padding: 8px 12px;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .grammar-formula-label {
@@ -3555,24 +3565,30 @@ select {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--color-primary);
+  flex-shrink: 0;
 }
 
 .grammar-formula-code {
   font-size: 0.92rem;
   font-weight: 700;
   color: var(--color-text-main);
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .grammar-explanation {
   font-size: 0.95rem;
   color: var(--color-text-muted);
   line-height: 1.55;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .grammar-examples-block {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  min-width: 0;
 }
 
 .grammar-sub-heading {
@@ -3587,6 +3603,7 @@ select {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  min-width: 0;
 }
 
 .grammar-example-row {
@@ -3600,6 +3617,8 @@ select {
   border-radius: var(--border-radius-sm);
   cursor: pointer;
   transition: border-color 0.15s ease, background-color 0.15s ease;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .grammar-example-row:hover {
@@ -3612,9 +3631,13 @@ select {
 }
 
 .grammar-example-text {
+  flex: 1;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 2px;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .grammar-example-en {
@@ -3622,11 +3645,15 @@ select {
   font-weight: 600;
   color: var(--color-text-main);
   line-height: 1.45;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .grammar-example-vi {
   font-size: 0.87rem;
   color: var(--color-text-muted);
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .grammar-mistake-box {
@@ -3637,6 +3664,10 @@ select {
   display: flex;
   flex-direction: column;
   gap: 5px;
+  min-width: 0;
+  box-sizing: border-box;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .grammar-mistake-head {
@@ -3655,16 +3686,22 @@ select {
   flex-direction: column;
   gap: 3px;
   font-size: 0.88rem;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .grammar-wrong {
   color: var(--color-danger);
   text-decoration: line-through;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .grammar-correct {
   color: var(--color-success);
   font-weight: 600;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .grammar-tip-box {
@@ -3678,6 +3715,10 @@ select {
   font-size: 0.87rem;
   color: var(--color-text-main);
   line-height: 1.45;
+  min-width: 0;
+  box-sizing: border-box;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .grammar-tip-box svg {
@@ -3700,6 +3741,8 @@ select {
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius-sm);
   margin-top: 4px;
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .grammar-tab-btn {
@@ -3715,6 +3758,7 @@ select {
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.15s ease;
+  white-space: nowrap;
 }
 
 .grammar-tab-btn:hover {
@@ -3753,6 +3797,8 @@ select {
   background-color: var(--color-subtle-bg);
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius-sm);
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .grammar-section-title {
@@ -3764,6 +3810,7 @@ select {
   text-transform: uppercase;
   letter-spacing: 0.04em;
   color: var(--color-text-main);
+  word-break: break-word;
 }
 
 .grammar-section-title svg {
@@ -3777,6 +3824,7 @@ select {
   flex-wrap: wrap;
   align-items: center;
   gap: 6px;
+  min-width: 0;
 }
 
 .grammar-signal-label {
@@ -3795,6 +3843,7 @@ select {
   background-color: var(--color-info-soft);
   color: var(--color-info);
   border: 1px solid var(--color-info-border);
+  word-break: break-word;
 }
 
 /* Detailed Formula Table / Breakdown */
@@ -3804,6 +3853,8 @@ select {
   border: 1px solid var(--color-border);
   border-radius: var(--border-radius-sm);
   background-color: var(--color-card-bg);
+  min-width: 0;
+  box-sizing: border-box;
 }
 
 .grammar-formula-table {
@@ -3825,6 +3876,18 @@ select {
   white-space: nowrap;
 }
 
+.grammar-formula-table th.th-form {
+  width: 25%;
+}
+
+.grammar-formula-table th.th-struct {
+  width: 40%;
+}
+
+.grammar-formula-table th.th-ex {
+  width: 35%;
+}
+
 .grammar-formula-table td {
   padding: 10px 12px;
   border-bottom: 1px solid var(--color-border);
@@ -3838,8 +3901,8 @@ select {
 .grammar-table-form {
   font-weight: 700;
   color: var(--color-text-main);
-  white-space: nowrap;
   font-size: 0.83rem;
+  word-break: break-word;
 }
 
 .grammar-table-code {
@@ -3852,6 +3915,8 @@ select {
   border-radius: 4px;
   display: inline-block;
   line-height: 1.4;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .grammar-table-ex {
@@ -3859,6 +3924,8 @@ select {
   font-style: italic;
   font-size: 0.84rem;
   line-height: 1.4;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 /* Usage Notes List */
@@ -3866,6 +3933,7 @@ select {
   display: flex;
   flex-direction: column;
   gap: 8px;
+  min-width: 0;
 }
 
 .grammar-note-item {
@@ -3880,6 +3948,10 @@ select {
   border: 1px solid var(--color-border);
   border-left: 3px solid var(--color-primary);
   border-radius: 4px;
+  min-width: 0;
+  box-sizing: border-box;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .grammar-note-item svg {
@@ -3893,6 +3965,7 @@ select {
   display: flex;
   flex-direction: column;
   gap: 10px;
+  min-width: 0;
 }
 
 .grammar-special-card {
@@ -3904,6 +3977,10 @@ select {
   border: 1px solid var(--color-border);
   border-left: 3px solid var(--color-purple);
   border-radius: 4px;
+  min-width: 0;
+  box-sizing: border-box;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .grammar-special-title {
@@ -3913,6 +3990,7 @@ select {
   font-size: 0.88rem;
   font-weight: 700;
   color: var(--color-purple);
+  word-break: break-word;
 }
 
 .grammar-special-formula {
@@ -3925,12 +4003,16 @@ select {
   padding: 5px 8px;
   border-radius: 4px;
   line-height: 1.4;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .grammar-special-desc {
   font-size: 0.86rem;
   color: var(--color-text-muted);
   line-height: 1.45;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .grammar-special-example {
@@ -3942,6 +4024,8 @@ select {
   border-radius: 4px;
   border-left: 2px solid var(--color-info);
   line-height: 1.4;
+  word-break: break-word;
+  overflow-wrap: anywhere;
 }
 
 .grammar-special-example span.label {
@@ -3950,19 +4034,300 @@ select {
   margin-right: 4px;
 }
 
+/* ==========================================================================
+   MOBILE RESPONSIVE ENHANCEMENTS FOR GRAMMAR (<= 640px)
+   ========================================================================== */
+
 @media (max-width: 640px) {
-  .grammar-tabs-bar {
+  /* Grammar Card on Mobile */
+  .sentence-card.grammar-card {
+    padding: 12px 10px;
+    gap: 10px;
+    border-radius: var(--border-radius-sm);
+  }
+
+  .card-top {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+
+  .card-category {
+    max-width: 170px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.74rem;
+  }
+
+  .grammar-level-badge {
+    margin-left: auto;
+    font-size: 0.7rem;
+    padding: 2px 7px;
+  }
+
+  .grammar-title {
+    font-size: 1.05rem;
+    line-height: 1.35;
+  }
+
+  .grammar-formula-box {
+    padding: 6px 8px;
     gap: 4px;
   }
+
+  .grammar-formula-label {
+    font-size: 0.68rem;
+  }
+
+  .grammar-formula-code {
+    font-size: 0.82rem;
+    line-height: 1.4;
+  }
+
+  .grammar-explanation {
+    font-size: 0.86rem;
+    line-height: 1.45;
+  }
+
+  /* Sub-Tabs: Native-like Swipeable Pill Strip */
+  .grammar-tabs-bar {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding: 4px;
+    gap: 5px;
+    margin: 0;
+    border-radius: 6px;
+  }
+
+  .grammar-tabs-bar::-webkit-scrollbar {
+    display: none;
+  }
+
   .grammar-tab-btn {
-    padding: 5px 8px;
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 5px 9px;
+    font-size: 0.76rem;
+    gap: 5px;
+    border-radius: 5px;
+  }
+
+  .grammar-tab-btn svg {
+    width: 13px;
+    height: 13px;
+  }
+
+  .grammar-tab-badge {
+    font-size: 0.66rem;
+    padding: 1px 4px;
+  }
+
+  /* Section block on mobile */
+  .grammar-section-block {
+    padding: 8px 6px;
+    gap: 8px;
+  }
+
+  .grammar-section-title {
     font-size: 0.76rem;
   }
-  .grammar-formula-table th,
+
+  .grammar-signals-row {
+    gap: 4px;
+  }
+
+  .grammar-signal-label {
+    font-size: 0.7rem;
+  }
+
+  .grammar-signal-pill {
+    font-size: 0.72rem;
+    padding: 1px 6px;
+  }
+
+  /* FORMULA TABLE -> SMART RESPONSIVE CARDS */
+  .grammar-table-wrap {
+    border: none;
+    background: transparent;
+    overflow-x: visible;
+  }
+
+  .grammar-formula-table,
+  .grammar-formula-table tbody,
+  .grammar-formula-table tr,
   .grammar-formula-table td {
+    display: block;
+    width: 100% !important;
+    box-sizing: border-box;
+  }
+
+  .grammar-formula-table thead {
+    display: none; /* Hide wide table headers on small screens */
+  }
+
+  .grammar-formula-table tr {
+    background-color: var(--color-card-bg);
+    border: 1px solid var(--color-border);
+    border-radius: var(--border-radius-sm);
+    padding: 9px 10px;
+    margin-bottom: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.03);
+  }
+
+  .grammar-formula-table tr:last-child {
+    margin-bottom: 0;
+  }
+
+  .grammar-formula-table td {
+    padding: 0 !important;
+    border-bottom: none !important;
+    width: 100% !important;
+  }
+
+  .grammar-table-form {
+    font-size: 0.84rem;
+    font-weight: 800;
+    color: var(--color-primary);
+    white-space: normal;
+    line-height: 1.35;
+  }
+
+  .grammar-table-code {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 0.8rem;
+    line-height: 1.4;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+    white-space: pre-wrap;
+    padding: 5px 8px;
+    border-radius: 4px;
+  }
+
+  .grammar-table-ex {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    color: var(--color-text-muted);
+    font-style: italic;
+    padding-left: 2px;
+    word-break: break-word;
+    overflow-wrap: anywhere;
+  }
+
+  /* Usage Notes on Mobile */
+  .grammar-notes-list {
+    gap: 6px;
+  }
+
+  .grammar-note-item {
     padding: 6px 8px;
+    font-size: 0.82rem;
+    line-height: 1.4;
+  }
+
+  /* Special Cases on Mobile */
+  .grammar-specials-list {
+    gap: 8px;
+  }
+
+  .grammar-special-card {
+    padding: 8px 9px;
+    gap: 5px;
+  }
+
+  .grammar-special-title {
+    font-size: 0.82rem;
+  }
+
+  .grammar-special-formula {
+    font-size: 0.78rem;
+    line-height: 1.38;
+    padding: 4px 6px;
+  }
+
+  .grammar-special-desc {
+    font-size: 0.82rem;
+    line-height: 1.4;
+  }
+
+  .grammar-special-example {
+    font-size: 0.8rem;
+    line-height: 1.4;
+    padding: 5px 8px;
+  }
+
+  /* Examples on Mobile */
+  .grammar-example-row {
+    padding: 8px 10px;
+    gap: 8px;
+  }
+
+  .grammar-example-en {
+    font-size: 0.88rem;
+    line-height: 1.35;
+  }
+
+  .grammar-example-vi {
+    font-size: 0.8rem;
+    line-height: 1.3;
+  }
+
+  .play-button--sm {
+    width: 32px;
+    height: 32px;
+    min-width: 32px;
+    min-height: 32px;
+  }
+
+  /* Mistakes & Tips on Mobile */
+  .grammar-mistake-box {
+    padding: 8px 10px;
+    font-size: 0.82rem;
+  }
+
+  .grammar-tip-box {
+    padding: 8px 10px;
+    font-size: 0.82rem;
+    line-height: 1.4;
+  }
+
+  /* Filter & Difficulty Row on Mobile */
+  .filter-difficulty-row {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding-bottom: 10px;
+    margin-bottom: 14px;
+  }
+
+  .difficulty-filter-group {
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    padding-bottom: 4px;
+    gap: 5px;
+  }
+
+  .difficulty-filter-group::-webkit-scrollbar {
+    display: none;
+  }
+
+  .difficulty-filter-btn {
+    flex-shrink: 0;
+    white-space: nowrap;
+    padding: 5px 9px;
+    font-size: 0.76rem;
   }
 }
+
 
 
 /* Listen Drill Task 1 Enhancements */
@@ -4206,718 +4571,3 @@ select {
   margin-top: 2px;
 }
 
-/* ==========================================================================
-   ENGLISH GRAMMAR (BASIC TO IELTS 8.0+)
-   ========================================================================== */
-
-.grammar-card {
-  gap: 14px;
-}
-
-.grammar-level-badge {
-  margin-left: auto;
-  font-size: 0.74rem;
-  font-weight: 700;
-  padding: 2px 9px;
-  border-radius: 999px;
-}
-
-.grammar-level-basic {
-  background-color: var(--color-success-soft);
-  color: var(--color-success);
-  border: 1px solid var(--color-success-border);
-}
-
-.grammar-level-intermediate {
-  background-color: var(--color-info-soft);
-  color: var(--color-info);
-  border: 1px solid var(--color-info-border);
-}
-
-.grammar-level-advanced {
-  background-color: var(--color-purple-soft);
-  color: var(--color-purple);
-  border: 1px solid var(--color-purple-border);
-}
-
-.grammar-header-block {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.grammar-title {
-  font-size: 1.24rem;
-  font-weight: 800;
-  color: var(--color-text-main);
-  letter-spacing: -0.015em;
-  line-height: 1.3;
-}
-
-.grammar-formula-box {
-  display: flex;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 8px;
-  background-color: var(--color-primary-soft);
-  border: 1px solid var(--color-primary-border);
-  border-radius: var(--border-radius-sm);
-  padding: 8px 12px;
-}
-
-.grammar-formula-label {
-  font-size: 0.74rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--color-primary);
-}
-
-.grammar-formula-code {
-  font-size: 0.92rem;
-  font-weight: 700;
-  color: var(--color-text-main);
-}
-
-.grammar-explanation {
-  font-size: 0.95rem;
-  color: var(--color-text-muted);
-  line-height: 1.55;
-}
-
-.grammar-examples-block {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.grammar-sub-heading {
-  font-size: 0.76rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--color-text-muted);
-}
-
-.grammar-examples-list {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.grammar-example-row {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
-  padding: 10px 12px;
-  background-color: var(--color-subtle-bg);
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius-sm);
-  cursor: pointer;
-  transition: border-color 0.15s ease, background-color 0.15s ease;
-}
-
-.grammar-example-row:hover {
-  border-color: var(--color-primary);
-}
-
-.grammar-example-row.is-playing {
-  border-color: var(--color-primary);
-  background-color: var(--color-primary-soft);
-}
-
-.grammar-example-text {
-  display: flex;
-  flex-direction: column;
-  gap: 2px;
-}
-
-.grammar-example-en {
-  font-size: 0.98rem;
-  font-weight: 600;
-  color: var(--color-text-main);
-  line-height: 1.45;
-}
-
-.grammar-example-vi {
-  font-size: 0.87rem;
-  color: var(--color-text-muted);
-}
-
-.grammar-mistake-box {
-  background-color: var(--color-danger-soft);
-  border: 1px solid var(--color-danger-border);
-  border-radius: var(--border-radius-sm);
-  padding: 10px 12px;
-  display: flex;
-  flex-direction: column;
-  gap: 5px;
-}
-
-.grammar-mistake-head {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.76rem;
-  font-weight: 700;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  color: var(--color-danger);
-}
-
-.grammar-mistake-pair {
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-  font-size: 0.88rem;
-}
-
-.grammar-wrong {
-  color: var(--color-danger);
-  text-decoration: line-through;
-}
-
-.grammar-correct {
-  color: var(--color-success);
-  font-weight: 600;
-}
-
-.grammar-tip-box {
-  display: flex;
-  align-items: flex-start;
-  gap: 7px;
-  background-color: var(--color-amber-soft);
-  border: 1px solid var(--color-amber-border);
-  border-radius: var(--border-radius-sm);
-  padding: 9px 12px;
-  font-size: 0.87rem;
-  color: var(--color-text-main);
-  line-height: 1.45;
-}
-
-.grammar-tip-box svg {
-  color: var(--color-amber);
-  flex-shrink: 0;
-  margin-top: 2px;
-}
-
-/* ==========================================================================
-   GRAMMAR DEEP KNOWLEDGE ENHANCEMENTS
-   ========================================================================== */
-
-.grammar-tabs-bar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px;
-  padding: 4px;
-  background-color: var(--color-subtle-bg);
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius-sm);
-  margin-top: 4px;
-}
-
-.grammar-tab-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 6px;
-  padding: 6px 12px;
-  font-size: 0.82rem;
-  font-weight: 700;
-  color: var(--color-text-muted);
-  background: transparent;
-  border: none;
-  border-radius: 6px;
-  cursor: pointer;
-  transition: all 0.15s ease;
-}
-
-.grammar-tab-btn:hover {
-  color: var(--color-text-main);
-  background-color: var(--color-hover-bg, rgba(0, 0, 0, 0.04));
-}
-
-.grammar-tab-btn.active {
-  color: var(--color-primary);
-  background-color: var(--color-primary-soft);
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
-}
-
-.grammar-tab-badge {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.7rem;
-  font-weight: 800;
-  padding: 1px 6px;
-  border-radius: 999px;
-  background-color: var(--color-border);
-  color: var(--color-text-muted);
-}
-
-.grammar-tab-btn.active .grammar-tab-badge {
-  background-color: var(--color-primary);
-  color: #fff;
-}
-
-.grammar-section-block {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  padding: 12px;
-  background-color: var(--color-subtle-bg);
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius-sm);
-}
-
-.grammar-section-title {
-  display: flex;
-  align-items: center;
-  gap: 7px;
-  font-size: 0.8rem;
-  font-weight: 800;
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-  color: var(--color-text-main);
-}
-
-.grammar-section-title svg {
-  color: var(--color-primary);
-  flex-shrink: 0;
-}
-
-/* Signals Row */
-.grammar-signals-row {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 6px;
-}
-
-.grammar-signal-label {
-  font-size: 0.76rem;
-  font-weight: 700;
-  color: var(--color-text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-}
-
-.grammar-signal-pill {
-  font-size: 0.78rem;
-  font-weight: 600;
-  padding: 2px 8px;
-  border-radius: 999px;
-  background-color: var(--color-info-soft);
-  color: var(--color-info);
-  border: 1px solid var(--color-info-border);
-}
-
-/* Detailed Formula Table / Breakdown */
-.grammar-table-wrap {
-  width: 100%;
-  overflow-x: auto;
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius-sm);
-  background-color: var(--color-card-bg);
-}
-
-.grammar-formula-table {
-  width: 100%;
-  border-collapse: collapse;
-  font-size: 0.86rem;
-  text-align: left;
-}
-
-.grammar-formula-table th {
-  padding: 8px 12px;
-  font-weight: 700;
-  font-size: 0.76rem;
-  text-transform: uppercase;
-  letter-spacing: 0.03em;
-  color: var(--color-text-muted);
-  background-color: var(--color-subtle-bg);
-  border-bottom: 1px solid var(--color-border);
-  white-space: nowrap;
-}
-
-.grammar-formula-table td {
-  padding: 10px 12px;
-  border-bottom: 1px solid var(--color-border);
-  vertical-align: top;
-}
-
-.grammar-formula-table tr:last-child td {
-  border-bottom: none;
-}
-
-.grammar-table-form {
-  font-weight: 700;
-  color: var(--color-text-main);
-  white-space: nowrap;
-  font-size: 0.83rem;
-}
-
-.grammar-table-code {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  font-weight: 700;
-  font-size: 0.85rem;
-  color: var(--color-primary);
-  background-color: var(--color-primary-soft);
-  padding: 3px 6px;
-  border-radius: 4px;
-  display: inline-block;
-  line-height: 1.4;
-}
-
-.grammar-table-ex {
-  color: var(--color-text-muted);
-  font-style: italic;
-  font-size: 0.84rem;
-  line-height: 1.4;
-}
-
-/* Usage Notes List */
-.grammar-notes-list {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.grammar-note-item {
-  display: flex;
-  align-items: flex-start;
-  gap: 8px;
-  font-size: 0.88rem;
-  color: var(--color-text-main);
-  line-height: 1.5;
-  padding: 7px 10px;
-  background-color: var(--color-card-bg);
-  border: 1px solid var(--color-border);
-  border-left: 3px solid var(--color-primary);
-  border-radius: 4px;
-}
-
-.grammar-note-item svg {
-  color: var(--color-primary);
-  flex-shrink: 0;
-  margin-top: 2px;
-}
-
-/* Special Cases */
-.grammar-specials-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.grammar-special-card {
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  padding: 10px 12px;
-  background-color: var(--color-card-bg);
-  border: 1px solid var(--color-border);
-  border-left: 3px solid var(--color-purple);
-  border-radius: 4px;
-}
-
-.grammar-special-title {
-  display: flex;
-  align-items: center;
-  gap: 6px;
-  font-size: 0.88rem;
-  font-weight: 700;
-  color: var(--color-purple);
-}
-
-.grammar-special-formula {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
-  font-size: 0.83rem;
-  font-weight: 700;
-  color: var(--color-text-main);
-  background-color: var(--color-purple-soft);
-  border: 1px solid var(--color-purple-border);
-  padding: 5px 8px;
-  border-radius: 4px;
-  line-height: 1.4;
-}
-
-.grammar-special-desc {
-  font-size: 0.86rem;
-  color: var(--color-text-muted);
-  line-height: 1.45;
-}
-
-.grammar-special-example {
-  font-size: 0.84rem;
-  font-weight: 500;
-  color: var(--color-text-main);
-  background-color: var(--color-subtle-bg);
-  padding: 6px 10px;
-  border-radius: 4px;
-  border-left: 2px solid var(--color-info);
-  line-height: 1.4;
-}
-
-.grammar-special-example span.label {
-  font-weight: 700;
-  color: var(--color-info);
-  margin-right: 4px;
-}
-
-@media (max-width: 640px) {
-  .grammar-tabs-bar {
-    gap: 4px;
-  }
-  .grammar-tab-btn {
-    padding: 5px 8px;
-    font-size: 0.76rem;
-  }
-  .grammar-formula-table th,
-  .grammar-formula-table td {
-    padding: 6px 8px;
-  }
-}
-
-
-/* Listen Drill Task 1 Enhancements */
-.drill-subbar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px;
-  margin-bottom: 16px;
-}
-
-.drill-subbar-label {
-  font-size: 0.8rem;
-  font-weight: 700;
-  color: var(--color-text-muted);
-}
-
-.drill-subbar-pills {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 6px;
-}
-
-.drill-audio-actions-inline {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 8px;
-}
-
-.drill-dictation-area {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-}
-
-/* ==========================================================================
-   CHINESE & JAPANESE COMMUNICATION STUDIO
-   ========================================================================== */
-
-.comm-toolbar-row {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 10px;
-  margin-bottom: 14px;
-}
-
-.comm-recall-btn {
-  display: inline-flex;
-  align-items: center;
-  gap: 7px;
-  padding: 8px 14px;
-  border-radius: var(--border-radius-sm);
-  border: 1px solid var(--color-border);
-  background-color: var(--color-card-bg);
-  color: var(--color-text-main);
-  font-size: 0.85rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.15s ease;
-}
-
-.comm-recall-btn:hover {
-  border-color: var(--color-primary);
-  color: var(--color-primary);
-}
-
-.comm-recall-btn.is-active {
-  background-color: var(--color-amber-soft);
-  border-color: var(--color-amber-border);
-  color: var(--color-amber);
-}
-
-.comm-masked-script {
-  filter: blur(8px);
-  opacity: 0.35;
-  user-select: none;
-  transition: filter 0.2s ease, opacity 0.2s ease;
-}
-
-.comm-reveal-hint {
-  font-size: 0.78rem;
-  color: var(--color-amber);
-  font-weight: 600;
-}
-
-.comm-filters-stack {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-  margin: 14px 0 18px;
-}
-
-.comm-voice-summary {
-  font-size: 0.86rem;
-  color: var(--color-text-muted);
-}
-
-.comm-tab-stack {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-
-.comm-grid-2 {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 12px;
-  margin-top: 6px;
-}
-
-@media (min-width: 640px) {
-  .comm-grid-2 {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-.comm-sound-card {
-  background-color: var(--color-subtle-bg);
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius-sm);
-  padding: 14px;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  gap: 6px;
-  transition: border-color 0.15s ease;
-}
-
-.comm-sound-card:hover,
-.comm-sound-card.is-playing {
-  border-color: var(--color-primary);
-  background-color: var(--color-primary-soft);
-}
-
-.comm-sound-top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.comm-sound-main {
-  display: flex;
-  align-items: baseline;
-  gap: 10px;
-  flex-wrap: wrap;
-}
-
-.comm-big-script {
-  font-size: 1.65rem;
-  font-weight: 700;
-  color: var(--color-text-main);
-}
-
-.comm-sound-meaning {
-  font-size: 0.88rem;
-  color: var(--color-text-muted);
-}
-
-.comm-sound-name {
-  font-size: 0.9rem;
-  font-weight: 700;
-  color: var(--color-text-main);
-}
-
-.comm-sound-tip {
-  font-size: 0.83rem;
-  color: var(--color-text-muted);
-  line-height: 1.45;
-}
-
-/* Roleplay Dialogues */
-.comm-dialogue-list {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.comm-dialogue-line {
-  display: flex;
-  align-items: flex-start;
-  gap: 12px;
-  padding: 12px 14px;
-  background-color: var(--color-subtle-bg);
-  border: 1px solid var(--color-border);
-  border-radius: var(--border-radius-sm);
-  cursor: pointer;
-  transition: border-color 0.15s ease, background-color 0.15s ease;
-}
-
-.comm-dialogue-line.is-role-b {
-  border-left: 3px solid var(--color-primary);
-}
-
-.comm-dialogue-line:hover,
-.comm-dialogue-line.is-playing {
-  border-color: var(--color-primary);
-  background-color: var(--color-primary-soft);
-}
-
-.comm-role-badge {
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  background-color: var(--color-card-bg);
-  border: 1px solid var(--color-border-strong);
-  color: var(--color-text-main);
-  font-size: 0.78rem;
-  font-weight: 800;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  flex-shrink: 0;
-  margin-top: 2px;
-}
-
-.comm-dialogue-line.is-role-b .comm-role-badge {
-  background-color: var(--color-primary);
-  border-color: var(--color-primary);
-  color: var(--color-primary-contrast);
-}
-
-.comm-dialogue-content {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
-}
-
-.comm-dialogue-script {
-  font-size: 1.15rem;
-  font-weight: 700;
-  color: var(--color-text-main);
-}
-
-.comm-dialogue-vi {
-  font-size: 0.88rem;
-  color: var(--color-text-muted);
-  margin-top: 2px;
-}

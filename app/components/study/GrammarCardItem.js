@@ -131,9 +131,9 @@ export default function GrammarCardItem({
               <table className="grammar-formula-table">
                 <thead>
                   <tr>
-                    <th style={{ width: "24%" }}>Thì / Trường hợp</th>
-                    <th style={{ width: "38%" }}>Công thức chi tiết</th>
-                    <th style={{ width: "38%" }}>Ví dụ minh họa</th>
+                    <th className="th-form">Thì / Trường hợp</th>
+                    <th className="th-struct">Công thức chi tiết</th>
+                    <th className="th-ex">Ví dụ minh họa</th>
                   </tr>
                 </thead>
                 <tbody>
