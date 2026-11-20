@@ -15,6 +15,7 @@ import {
   LanguagesIcon,
   LightbulbIcon,
   AwardIcon,
+  FileTextIcon,
 } from "./components/Icons";
 import en300Data from "../300_cau_tieng_anh_giao_tiep.json";
 import chunksData from "../english_chunks_1000.json";
@@ -39,9 +40,17 @@ export default function Home() {
   const [listenDrillFound, setListenDrillFound] = useState(0);
   const [listenDrillFirstTry, setListenDrillFirstTry] = useState(0);
   const [ieltsListeningCount, setIeltsListeningCount] = useState(0);
+  const [ieltsReadingCount, setIeltsReadingCount] = useState(0);
 
   useEffect(() => {
     if (typeof window !== "undefined") {
+      try {
+        const ieltsReadingStored = localStorage.getItem("ielts_reading_progress");
+        if (ieltsReadingStored) {
+          const parsed = JSON.parse(ieltsReadingStored);
+          setIeltsReadingCount(Object.keys(parsed).length);
+        }
+      } catch (e) {}
       try {
         const ieltsListeningStored = localStorage.getItem("ielts_listening_progress");
         if (ieltsListeningStored) setIeltsListeningCount(JSON.parse(ieltsListeningStored).length);
@@ -95,6 +104,7 @@ export default function Home() {
   const totalIelts = Array.isArray(ieltsData) ? ieltsData.length : 3517;
   const totalInterview = interviewData.total_questions || 155;
   const totalSpeakingDays = speakingData.days?.length || 30;
+  const totalReadingTests = 304;
 
   const en300Percent = Math.round((en300Count / totalEn300) * 100);
   const chunksPercent = Math.round((chunksCount / totalChunks) * 100);
@@ -105,18 +115,19 @@ export default function Home() {
   const interviewPercent = Math.round((interviewCount / totalInterview) * 100);
   const speakingPercent = Math.round((speakingDaysCount / totalSpeakingDays) * 100);
   const ieltsListeningPercent = Math.round((ieltsListeningCount / 210) * 100);
+  const readingPercent = Math.round((ieltsReadingCount / totalReadingTests) * 100);
   const drillPercent = Math.min(100, Math.round((listenDrillFound / 50) * 100));
 
   const totalLearned =
-    en300Count + chunksCount + grammarCount + zhCount + jaCount + ieltsCount + interviewCount + speakingDaysCount;
+    en300Count + chunksCount + grammarCount + zhCount + jaCount + ieltsCount + interviewCount + speakingDaysCount + ieltsReadingCount;
   const totalAll =
-    totalEn300 + totalChunks + totalGrammar + totalZh + totalJa + totalIelts + totalInterview + totalSpeakingDays;
+    totalEn300 + totalChunks + totalGrammar + totalZh + totalJa + totalIelts + totalInterview + totalSpeakingDays + totalReadingTests;
   const totalOverallPercent = Math.round((totalLearned / totalAll) * 100);
 
   const tracks = [
     {
-      title: "Luyện Nghe & Phản Xạ",
-      subtitle: "Rèn tốc độ nhận diện âm thanh, đánh vần và gõ phím chính xác.",
+      title: "Luyện Nghe & Đọc Phản Xạ (IELTS)",
+      subtitle: "Rèn tốc độ nhận diện âm thanh, từ khóa và kỹ năng làm bài Reading Academic trên máy.",
       cards: [
         {
           href: "/listen-drill",
@@ -141,6 +152,18 @@ export default function Home() {
           percent: ieltsListeningPercent,
           cta: "Luyện Part 1 & 2",
           Icon: TargetIcon,
+        },
+        {
+          href: "/ielts-reading",
+          code: "IELTS",
+          badge: `Academic • ${totalReadingTests} Đề Chuẩn (${totalReadingTests * 40} Câu)`,
+          title: "IELTS Reading Practice",
+          desc: `Luyện trọn bộ ${totalReadingTests} đề IELTS Reading Academic với giao diện split-screen thi trên máy tính, chọn/điền đáp án, bấm Submit chấm điểm IELTS Band Score tự động.`,
+          statLabel: "Đã làm",
+          statValue: `${ieltsReadingCount}/${totalReadingTests} đề (${readingPercent}%)`,
+          percent: readingPercent,
+          cta: "Luyện Reading",
+          Icon: FileTextIcon,
         },
       ],
     },

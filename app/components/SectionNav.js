@@ -18,12 +18,14 @@ import {
   AwardIcon,
   MenuIcon,
   XIcon,
+  FileTextIcon,
 } from "./Icons";
 
 const SECTIONS = [
   { href: "/", label: "Trang chủ", Icon: HomeIcon },
   { href: "/listen-drill", label: "Listen & Find", Icon: HeadphonesIcon },
   { href: "/ielts-listening", label: "IELTS Listening", Icon: TargetIcon },
+  { href: "/ielts-reading", label: "IELTS Reading", Icon: FileTextIcon },
   { href: "/english-300", label: "300 Giao Tiếp", Icon: MessageSquareIcon },
   { href: "/chunks", label: "1000 Chunks EN", Icon: LayersIcon },
   { href: "/grammar", label: "Grammar → 8.0", Icon: AwardIcon },
