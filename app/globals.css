@@ -4867,6 +4867,28 @@ select {
 }
 
 /* Safe typography inside reading passage HTML */
+.reading-passage-pane,
+.reading-passage-inner,
+.reading-passage-html-content,
+.reading-passage-html-content * {
+  user-select: text !important;
+  -webkit-user-select: text !important;
+  -moz-user-select: text !important;
+  -ms-user-select: text !important;
+}
+
+.reading-passage-html-content ::selection,
+.reading-passage-pane ::selection {
+  background-color: rgba(37, 99, 235, 0.3) !important;
+  color: inherit !important;
+}
+
+.reading-passage-html-content ::-moz-selection,
+.reading-passage-pane ::-moz-selection {
+  background-color: rgba(37, 99, 235, 0.3) !important;
+  color: inherit !important;
+}
+
 .reading-passage-html-content {
   color: var(--color-text-main);
   word-break: break-word;
