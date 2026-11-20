@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect, useRef, useCallback, useMemo } from "react";
+import { useState, useEffect, useRef, useCallback, useMemo, memo } from "react";
 import SectionNav from "../components/SectionNav";
 import {
   FileTextIcon,
@@ -49,30 +49,24 @@ function checkUserAnswer(userAns, rawCorrectKey) {
   const uNorm = normalizeAnswer(userAns);
   const kNorm = normalizeAnswer(rawCorrectKey);
 
-  // Exact match after normalization
   if (uNorm === kNorm) return true;
 
-  // Check True / False / Not Given variations
   if (["true", "t"].includes(uNorm) && ["true", "t"].includes(kNorm)) return true;
   if (["false", "f"].includes(uNorm) && ["false", "f"].includes(kNorm)) return true;
   if (["not given", "ng"].includes(uNorm) && ["not given", "ng"].includes(kNorm)) return true;
 
-  // Check Yes / No / Not Given variations
   if (["yes", "y"].includes(uNorm) && ["yes", "y"].includes(kNorm)) return true;
   if (["no", "n"].includes(uNorm) && ["no", "n"].includes(kNorm)) return true;
 
-  // Check multiple slash or 'or' alternatives in answer key, e.g. "A / B", "two decades / 2 decades"
   const alternatives = rawCorrectKey.split(/\s*(?:\/|\bor\b)\s*/i).map(normalizeAnswer);
   if (alternatives.includes(uNorm)) return true;
 
-  // Check bracketed optional words, e.g. "slow (turning)" -> matches "slow" or "slow turning"
   if (rawCorrectKey.includes("(") && rawCorrectKey.includes(")")) {
     const withoutParens = normalizeAnswer(rawCorrectKey.replace(/\([^)]*\)/g, ""));
     const withParensWords = normalizeAnswer(rawCorrectKey.replace(/[()]/g, ""));
     if (uNorm === withoutParens || uNorm === withParensWords) return true;
   }
 
-  // Check Roman numerals (e.g. ii == 2)
   const romanMap = { i: "1", ii: "2", iii: "3", iv: "4", v: "5", vi: "6", vii: "7", viii: "8", ix: "9", x: "10" };
   if (romanMap[uNorm] && romanMap[uNorm] === romanMap[kNorm]) return true;
 
@@ -80,6 +74,95 @@ function checkUserAnswer(userAns, rawCorrectKey) {
 }
 
 const TOTAL_TIME = 60 * 60; // 60 minutes in seconds
+
+function formatTime(secs) {
+  const mins = Math.floor(secs / 60);
+  const s = secs % 60;
+  return `${String(mins).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
+}
+
+// Isolated Timer Box: updates every 1s without re-rendering parent components
+const ReadingTimerBox = memo(function ReadingTimerBox({
+  isSubmitted,
+  timerRunning,
+  setTimerRunning,
+  onAutoSubmit,
+  resetSignal,
+  onTick,
+}) {
+  const [timeLeft, setTimeLeft] = useState(TOTAL_TIME);
+
+  useEffect(() => {
+    setTimeLeft(TOTAL_TIME);
+  }, [resetSignal]);
+
+  useEffect(() => {
+    if (!timerRunning || isSubmitted || timeLeft <= 0) return;
+    const interval = setInterval(() => {
+      setTimeLeft((prev) => {
+        if (prev <= 1) {
+          clearInterval(interval);
+          onAutoSubmit();
+          return 0;
+        }
+        const next = prev - 1;
+        onTick(next);
+        return next;
+      });
+    }, 1000);
+    return () => clearInterval(interval);
+  }, [timerRunning, isSubmitted, timeLeft, onAutoSubmit, onTick]);
+
+  return (
+    <div
+      className={`reading-timer-box ${
+        timeLeft < 300 ? "timer-urgent" : timeLeft < 600 ? "timer-warning" : ""
+      }`}
+    >
+      <ClockIcon size={16} />
+      <span className="reading-timer-text">{formatTime(timeLeft)}</span>
+      {!isSubmitted && (
+        <button
+          type="button"
+          className="reading-timer-toggle-btn"
+          onClick={() => setTimerRunning((r) => !r)}
+          title={timerRunning ? "Tạm dừng" : "Tiếp tục"}
+        >
+          {timerRunning ? "Tạm dừng" : "Tiếp tục"}
+        </button>
+      )}
+    </div>
+  );
+});
+
+// Isolated Reading Passage Pane: Wrapped in memo to NEVER re-render on timer ticks
+const ReadingPassagePane = memo(function ReadingPassagePane({
+  contentHtml,
+  fontScale,
+  mobileTab,
+}) {
+  return (
+    <section
+      className={`reading-passage-pane ${mobileTab === "passage" ? "show-mobile" : "hide-mobile"}`}
+      style={{ "--reading-font-scale": fontScale }}
+    >
+      <div className="reading-passage-inner">
+        <div className="reading-passage-header-banner">
+          <span className="reading-banner-pill">IELTS Academic Test Content</span>
+          <span className="reading-banner-hint">
+            Gợi ý: Bôi đen chọn từ khóa tự do hoặc dùng Ctrl+F để tra cứu nhanh
+          </span>
+        </div>
+
+        {/* Cleaned HTML from source: user-select text is enabled */}
+        <div
+          className="reading-passage-html-content"
+          dangerouslySetInnerHTML={{ __html: contentHtml || "<p>Đang tải bài đọc...</p>" }}
+        />
+      </div>
+    </section>
+  );
+});
 
 export default function IeltsReadingPage() {
   const tests = useMemo(() => readingData.tests || [], []);
@@ -96,10 +179,12 @@ export default function IeltsReadingPage() {
   const [showConfirmSubmit, setShowConfirmSubmit] = useState(false);
 
   // Timer states
-  const [timeLeft, setTimeLeft] = useState(TOTAL_TIME);
   const [timerRunning, setTimerRunning] = useState(true);
+  const [resetTimerSignal, setResetTimerSignal] = useState(0);
+  const timeLeftRef = useRef(TOTAL_TIME);
+  const [timeSpentSeconds, setTimeSpentSeconds] = useState(0);
 
-  // Font size scale for reading passage (0.9 to 1.3)
+  // Font size scale for reading passage (0.85 to 1.35)
   const [fontScale, setFontScale] = useState(1);
 
   // Mobile tab toggle: "passage" vs "sheet"
@@ -133,43 +218,25 @@ export default function IeltsReadingPage() {
       setAnswers({});
       setIsSubmitted(false);
     }
-    setTimeLeft(TOTAL_TIME);
+    timeLeftRef.current = TOTAL_TIME;
+    setResetTimerSignal((s) => s + 1);
     setTimerRunning(true);
     setShowResultModal(false);
     setShowConfirmSubmit(false);
   }, [selectedTestIndex, history, currentTest]);
 
-  // Timer countdown effect
-  useEffect(() => {
-    if (!timerRunning || isSubmitted || timeLeft <= 0) return;
-    const interval = setInterval(() => {
-      setTimeLeft((prev) => {
-        if (prev <= 1) {
-          clearInterval(interval);
-          handleAutoSubmit();
-          return 0;
-        }
-        return prev - 1;
-      });
-    }, 1000);
-    return () => clearInterval(interval);
-  }, [timerRunning, isSubmitted, timeLeft]);
+  // Stable timer tick callback that does NOT trigger component re-render
+  const handleTimerTick = useCallback((secondsRemaining) => {
+    timeLeftRef.current = secondsRemaining;
+  }, []);
 
   // Answer change handler
-  const handleAnswerChange = (qNum, val) => {
-    if (isSubmitted) return;
+  const handleAnswerChange = useCallback((qNum, val) => {
     setAnswers((prev) => ({
       ...prev,
       [String(qNum)]: val,
     }));
-  };
-
-  // Format seconds to MM:SS
-  const formatTime = (secs) => {
-    const mins = Math.floor(secs / 60);
-    const s = secs % 60;
-    return `${String(mins).padStart(2, "0")}:${String(s).padStart(2, "0")}`;
-  };
+  }, []);
 
   // Calculate results
   const scoreResult = useMemo(() => {
@@ -220,11 +287,14 @@ export default function IeltsReadingPage() {
     }
   };
 
-  const finalizeSubmit = () => {
+  const finalizeSubmit = useCallback(() => {
     setIsSubmitted(true);
     setTimerRunning(false);
     setShowConfirmSubmit(false);
     setShowResultModal(true);
+
+    const spent = TOTAL_TIME - timeLeftRef.current;
+    setTimeSpentSeconds(spent);
 
     if (currentTest) {
       const testId = currentTest.id;
@@ -234,7 +304,7 @@ export default function IeltsReadingPage() {
         score: scoreResult.correct,
         band: scoreResult.band,
         total: 40,
-        timeSpentSeconds: TOTAL_TIME - timeLeft,
+        timeSpentSeconds: spent,
         completedAt: new Date().toISOString(),
         userAnswers: answers,
         isSubmitted: true,
@@ -247,20 +317,17 @@ export default function IeltsReadingPage() {
         return updated;
       });
     }
-  };
+  }, [currentTest, scoreResult, answers]);
 
-  const handleAutoSubmit = () => {
-    finalizeSubmit();
-  };
-
-  const handleRetakeTest = () => {
+  const handleRetakeTest = useCallback(() => {
     setAnswers({});
     setIsSubmitted(false);
-    setTimeLeft(TOTAL_TIME);
+    timeLeftRef.current = TOTAL_TIME;
+    setResetTimerSignal((s) => s + 1);
     setTimerRunning(true);
     setShowResultModal(false);
     setShowConfirmSubmit(false);
-  };
+  }, []);
 
   // Jump to specific question in answer sheet
   const scrollToQuestion = (qNum) => {
@@ -297,6 +364,7 @@ export default function IeltsReadingPage() {
               <div className="reading-test-selector-wrapper">
                 <div className="reading-nav-buttons">
                   <button
+                    type="button"
                     className="reading-nav-arrow-btn"
                     disabled={selectedTestIndex === 0}
                     onClick={() => setSelectedTestIndex((i) => Math.max(0, i - 1))}
@@ -305,6 +373,7 @@ export default function IeltsReadingPage() {
                     <ChevronLeftIcon size={16} /> Trước
                   </button>
                   <button
+                    type="button"
                     className="reading-nav-arrow-btn"
                     disabled={selectedTestIndex === tests.length - 1}
                     onClick={() => setSelectedTestIndex((i) => Math.min(tests.length - 1, i + 1))}
@@ -324,7 +393,11 @@ export default function IeltsReadingPage() {
                     onChange={(e) => setSearchTerm(e.target.value)}
                   />
                   {searchTerm && (
-                    <button className="reading-search-clear" onClick={() => setSearchTerm("")}>
+                    <button
+                      type="button"
+                      className="reading-search-clear"
+                      onClick={() => setSearchTerm("")}
+                    >
                       ×
                     </button>
                   )}
@@ -353,24 +426,20 @@ export default function IeltsReadingPage() {
                 </span>
               </div>
 
-              {/* Countdown Timer */}
-              <div className={`reading-timer-box ${timeLeft < 300 ? "timer-urgent" : timeLeft < 600 ? "timer-warning" : ""}`}>
-                <ClockIcon size={16} />
-                <span className="reading-timer-text">{formatTime(timeLeft)}</span>
-                {!isSubmitted && (
-                  <button
-                    className="reading-timer-toggle-btn"
-                    onClick={() => setTimerRunning((r) => !r)}
-                    title={timerRunning ? "Tạm dừng" : "Tiếp tục"}
-                  >
-                    {timerRunning ? "Tạm dừng" : "Tiếp tục"}
-                  </button>
-                )}
-              </div>
+              {/* Isolated Countdown Timer Component */}
+              <ReadingTimerBox
+                isSubmitted={isSubmitted}
+                timerRunning={timerRunning}
+                setTimerRunning={setTimerRunning}
+                onAutoSubmit={finalizeSubmit}
+                resetSignal={resetTimerSignal}
+                onTick={handleTimerTick}
+              />
 
               {/* Font Zoom Controls */}
               <div className="reading-font-controls" title="Cỡ chữ bài đọc">
                 <button
+                  type="button"
                   className="font-zoom-btn"
                   onClick={() => setFontScale((s) => Math.max(0.85, s - 0.1))}
                   title="Thu nhỏ chữ bài đọc"
@@ -378,6 +447,7 @@ export default function IeltsReadingPage() {
                   A-
                 </button>
                 <button
+                  type="button"
                   className="font-zoom-btn font-zoom-reset"
                   onClick={() => setFontScale(1)}
                   title="Cỡ chữ mặc định"
@@ -385,6 +455,7 @@ export default function IeltsReadingPage() {
                   100%
                 </button>
                 <button
+                  type="button"
                   className="font-zoom-btn"
                   onClick={() => setFontScale((s) => Math.min(1.35, s + 0.1))}
                   title="Phóng to chữ bài đọc"
@@ -395,7 +466,11 @@ export default function IeltsReadingPage() {
 
               {/* Reset / Retake Button */}
               {isSubmitted && (
-                <button className="reading-retake-header-btn" onClick={handleRetakeTest}>
+                <button
+                  type="button"
+                  className="reading-retake-header-btn"
+                  onClick={handleRetakeTest}
+                >
                   <RotateCcwIcon size={14} /> Làm lại đề này
                 </button>
               )}
@@ -406,12 +481,14 @@ export default function IeltsReadingPage() {
         {/* Mobile Switcher (Tabs between Passage and Sheet) */}
         <div className="reading-mobile-tabs">
           <button
+            type="button"
             className={`reading-mobile-tab-btn ${mobileTab === "passage" ? "active" : ""}`}
             onClick={() => setMobileTab("passage")}
           >
             📖 Đề bài & Bài đọc
           </button>
           <button
+            type="button"
             className={`reading-mobile-tab-btn ${mobileTab === "sheet" ? "active" : ""}`}
             onClick={() => setMobileTab("sheet")}
           >
@@ -422,24 +499,12 @@ export default function IeltsReadingPage() {
 
         {/* 2-Column Split Workspace */}
         <div className="reading-split-workspace">
-          {/* Left Column: Passage Reading Content */}
-          <section
-            className={`reading-passage-pane ${mobileTab === "passage" ? "show-mobile" : "hide-mobile"}`}
-            style={{ "--reading-font-scale": fontScale }}
-          >
-            <div className="reading-passage-inner">
-              <div className="reading-passage-header-banner">
-                <span className="reading-banner-pill">IELTS Academic Test Content</span>
-                <span className="reading-banner-hint">Gợi ý: Dùng Ctrl+F (hoặc ⌘+F) để tìm nhanh từ khóa trong bài đọc</span>
-              </div>
-
-              {/* Rendered cleaned HTML from practicepteonline.com */}
-              <div
-                className="reading-passage-html-content"
-                dangerouslySetInnerHTML={{ __html: currentTest?.contentHtml || "<p>Đang tải bài đọc...</p>" }}
-              />
-            </div>
-          </section>
+          {/* Left Column: Passage Reading Content (Memoized to prevent selection reset) */}
+          <ReadingPassagePane
+            contentHtml={currentTest?.contentHtml}
+            fontScale={fontScale}
+            mobileTab={mobileTab}
+          />
 
           {/* Right Column: Interactive Question Answer Sheet */}
           <section
@@ -494,145 +559,145 @@ export default function IeltsReadingPage() {
               {/* 40 Question Items */}
               <div className="reading-questions-list">
                 {currentTest?.questions?.map((q) => {
-                    const qNum = String(q.num);
-                    const userAns = answers[qNum] || "";
-                    const review = scoreResult.details[qNum];
-                    const isCorrect = isSubmitted && review?.isCorrect;
+                  const qNum = String(q.num);
+                  const userAns = answers[qNum] || "";
+                  const review = scoreResult.details[qNum];
+                  const isCorrect = isSubmitted && review?.isCorrect;
 
-                    return (
-                      <div
-                        key={q.num}
-                        id={`reading-q-${q.num}`}
-                        className={`reading-question-card ${
-                          isSubmitted ? (isCorrect ? "q-card-correct" : "q-card-wrong") : ""
-                        }`}
-                      >
-                        <div className="reading-q-header">
-                          <span className="reading-q-badge">Câu {q.num}</span>
-                          {isSubmitted && (
-                            <span className={`reading-q-result-tag ${isCorrect ? "tag-correct" : "tag-wrong"}`}>
-                              {isCorrect ? (
-                                <>
-                                  <CheckIcon size={13} /> Chính xác
-                                </>
-                              ) : (
-                                <>
-                                  <XIcon size={13} /> Chưa đúng
-                                </>
-                              )}
-                            </span>
-                          )}
-                        </div>
-
-                        {/* Input based on type */}
-                        <div className="reading-q-input-area">
-                          {/* Type 1: True / False / Not Given */}
-                          {q.type === "true_false_not_given" && (
-                            <div className="reading-options-group">
-                              {["TRUE", "FALSE", "NOT GIVEN"].map((opt) => (
-                                <button
-                                  key={opt}
-                                  type="button"
-                                  disabled={isSubmitted}
-                                  className={`reading-option-pill ${
-                                    userAns.toUpperCase() === opt ? "selected" : ""
-                                  }`}
-                                  onClick={() => handleAnswerChange(q.num, opt)}
-                                >
-                                  {opt}
-                                </button>
-                              ))}
-                            </div>
-                          )}
-
-                          {/* Type 2: Yes / No / Not Given */}
-                          {q.type === "yes_no_not_given" && (
-                            <div className="reading-options-group">
-                              {["YES", "NO", "NOT GIVEN"].map((opt) => (
-                                <button
-                                  key={opt}
-                                  type="button"
-                                  disabled={isSubmitted}
-                                  className={`reading-option-pill ${
-                                    userAns.toUpperCase() === opt ? "selected" : ""
-                                  }`}
-                                  onClick={() => handleAnswerChange(q.num, opt)}
-                                >
-                                  {opt}
-                                </button>
-                              ))}
-                            </div>
-                          )}
-
-                          {/* Type 3: Letter Choice (A, B, C, D...) */}
-                          {q.type === "letter_choice" && (
-                            <div className="reading-letter-group">
-                              {q.options.map((letter) => (
-                                <button
-                                  key={letter}
-                                  type="button"
-                                  disabled={isSubmitted}
-                                  className={`reading-letter-pill ${
-                                    userAns.toUpperCase() === letter ? "selected" : ""
-                                  }`}
-                                  onClick={() => handleAnswerChange(q.num, letter)}
-                                >
-                                  {letter}
-                                </button>
-                              ))}
-                            </div>
-                          )}
-
-                          {/* Type 4: Text Input (Fill in the blank / Roman numerals / Words) */}
-                          {q.type === "text_input" && (
-                            <div className="reading-text-input-group">
-                              <input
-                                type="text"
-                                disabled={isSubmitted}
-                                className="reading-text-field"
-                                placeholder="Gõ đáp án vào đây..."
-                                value={userAns}
-                                onChange={(e) => handleAnswerChange(q.num, e.target.value)}
-                              />
-
-                              {/* Mini Roman Numeral Helper Pills */}
-                              {!isSubmitted && (
-                                <div className="reading-roman-helper">
-                                  <span className="helper-label">Gợi ý gõ nhanh số La Mã:</span>
-                                  {["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x"].map((r) => (
-                                    <button
-                                      key={r}
-                                      type="button"
-                                      className="roman-pill"
-                                      onClick={() => handleAnswerChange(q.num, r)}
-                                    >
-                                      {r}
-                                    </button>
-                                  ))}
-                                </div>
-                              )}
-                            </div>
-                          )}
-                        </div>
-
-                        {/* Review details when submitted */}
+                  return (
+                    <div
+                      key={q.num}
+                      id={`reading-q-${q.num}`}
+                      className={`reading-question-card ${
+                        isSubmitted ? (isCorrect ? "q-card-correct" : "q-card-wrong") : ""
+                      }`}
+                    >
+                      <div className="reading-q-header">
+                        <span className="reading-q-badge">Câu {q.num}</span>
                         {isSubmitted && (
-                          <div className="reading-q-review-box">
-                            <div className="review-row">
-                              <span className="review-label">Bạn chọn:</span>
-                              <span className={`review-user-ans ${isCorrect ? "text-green" : "text-red"}`}>
-                                {userAns || "(Để trống)"}
-                              </span>
-                            </div>
-                            <div className="review-row">
-                              <span className="review-label">Đáp án đúng:</span>
-                              <span className="review-correct-ans">{q.correctAnswer}</span>
-                            </div>
+                          <span className={`reading-q-result-tag ${isCorrect ? "tag-correct" : "tag-wrong"}`}>
+                            {isCorrect ? (
+                              <>
+                                <CheckIcon size={13} /> Chính xác
+                              </>
+                            ) : (
+                              <>
+                                <XIcon size={13} /> Chưa đúng
+                              </>
+                            )}
+                          </span>
+                        )}
+                      </div>
+
+                      {/* Input based on type */}
+                      <div className="reading-q-input-area">
+                        {/* Type 1: True / False / Not Given */}
+                        {q.type === "true_false_not_given" && (
+                          <div className="reading-options-group">
+                            {["TRUE", "FALSE", "NOT GIVEN"].map((opt) => (
+                              <button
+                                key={opt}
+                                type="button"
+                                disabled={isSubmitted}
+                                className={`reading-option-pill ${
+                                  userAns.toUpperCase() === opt ? "selected" : ""
+                                }`}
+                                onClick={() => handleAnswerChange(q.num, opt)}
+                              >
+                                {opt}
+                              </button>
+                            ))}
+                          </div>
+                        )}
+
+                        {/* Type 2: Yes / No / Not Given */}
+                        {q.type === "yes_no_not_given" && (
+                          <div className="reading-options-group">
+                            {["YES", "NO", "NOT GIVEN"].map((opt) => (
+                              <button
+                                key={opt}
+                                type="button"
+                                disabled={isSubmitted}
+                                className={`reading-option-pill ${
+                                  userAns.toUpperCase() === opt ? "selected" : ""
+                                }`}
+                                onClick={() => handleAnswerChange(q.num, opt)}
+                              >
+                                {opt}
+                              </button>
+                            ))}
+                          </div>
+                        )}
+
+                        {/* Type 3: Letter Choice (A, B, C, D...) */}
+                        {q.type === "letter_choice" && (
+                          <div className="reading-letter-group">
+                            {q.options.map((letter) => (
+                              <button
+                                key={letter}
+                                type="button"
+                                disabled={isSubmitted}
+                                className={`reading-letter-pill ${
+                                  userAns.toUpperCase() === letter ? "selected" : ""
+                                }`}
+                                onClick={() => handleAnswerChange(q.num, letter)}
+                              >
+                                {letter}
+                              </button>
+                            ))}
+                          </div>
+                        )}
+
+                        {/* Type 4: Text Input (Fill in the blank / Roman numerals / Words) */}
+                        {q.type === "text_input" && (
+                          <div className="reading-text-input-group">
+                            <input
+                              type="text"
+                              disabled={isSubmitted}
+                              className="reading-text-field"
+                              placeholder="Gõ đáp án vào đây..."
+                              value={userAns}
+                              onChange={(e) => handleAnswerChange(q.num, e.target.value)}
+                            />
+
+                            {/* Mini Roman Numeral Helper Pills */}
+                            {!isSubmitted && (
+                              <div className="reading-roman-helper">
+                                <span className="helper-label">Gợi ý gõ nhanh số La Mã:</span>
+                                {["i", "ii", "iii", "iv", "v", "vi", "vii", "viii", "ix", "x"].map((r) => (
+                                  <button
+                                    key={r}
+                                    type="button"
+                                    className="roman-pill"
+                                    onClick={() => handleAnswerChange(q.num, r)}
+                                  >
+                                    {r}
+                                  </button>
+                                ))}
+                              </div>
+                            )}
                           </div>
                         )}
                       </div>
-                    );
-                  })}
+
+                      {/* Review details when submitted */}
+                      {isSubmitted && (
+                        <div className="reading-q-review-box">
+                          <div className="review-row">
+                            <span className="review-label">Bạn chọn:</span>
+                            <span className={`review-user-ans ${isCorrect ? "text-green" : "text-red"}`}>
+                              {userAns || "(Để trống)"}
+                            </span>
+                          </div>
+                          <div className="review-row">
+                            <span className="review-label">Đáp án đúng:</span>
+                            <span className="review-correct-ans">{q.correctAnswer}</span>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  );
+                })}
               </div>
 
               {/* Bottom Sticky Action Bar */}
@@ -683,12 +748,14 @@ export default function IeltsReadingPage() {
               </p>
               <div className="modal-actions-row">
                 <button
+                  type="button"
                   className="modal-btn-secondary"
                   onClick={() => setShowConfirmSubmit(false)}
                 >
                   Tiếp tục làm bài
                 </button>
                 <button
+                  type="button"
                   className="modal-btn-primary"
                   onClick={finalizeSubmit}
                 >
@@ -708,7 +775,7 @@ export default function IeltsReadingPage() {
                   <AwardIcon size={32} />
                 </div>
                 <h2 className="modal-result-title">Kết Quả IELTS Reading</h2>
-                <p className="modal-result-test-name">{currentTest?.title || currentTestMeta?.title}</p>
+                <p className="modal-result-test-name">{currentTest?.title}</p>
               </div>
 
               {/* Band Score Circle */}
@@ -732,28 +799,29 @@ export default function IeltsReadingPage() {
                 </div>
                 <div className="modal-stat-card">
                   <span className="stat-card-label">Thời gian làm bài</span>
-                  <span className="stat-card-value">{formatTime(TOTAL_TIME - timeLeft)}</span>
+                  <span className="stat-card-value">{formatTime(timeSpentSeconds)}</span>
                 </div>
               </div>
 
               {/* Modal Buttons */}
               <div className="modal-actions-footer">
                 <button
+                  type="button"
                   className="modal-btn-primary"
                   onClick={() => setShowResultModal(false)}
                 >
                   Xem chi tiết đáp án từng câu
                 </button>
                 <button
+                  type="button"
                   className="modal-btn-secondary"
-                  onClick={() => {
-                    handleRetakeTest();
-                  }}
+                  onClick={handleRetakeTest}
                 >
                   <RotateCcwIcon size={14} /> Làm lại đề này
                 </button>
                 {selectedTestIndex + 1 < tests.length && (
                   <button
+                    type="button"
                     className="modal-btn-accent"
                     onClick={() => {
                       setSelectedTestIndex((i) => i + 1);
