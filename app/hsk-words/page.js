@@ -64,6 +64,7 @@ function HskWordsContent() {
             exampleTranslation: w.exampleTranslation || "",
             audioUrl: w.audioUrl || "",
             exampleAudioUrl: w.exampleAudioUrl || "",
+            imageUrl: w.imageUrl || "",
           });
         });
       });
@@ -235,17 +236,35 @@ function HskWordsContent() {
             incrementStudyCount(item.id);
           }}
         >
-          <div className="english-wrapper">
-            <div className="word-title-row">
-              <h2 className="english-text english-text--word">{item.word}</h2>
-              {item.pinyin && <span className="word-ipa">{item.pinyin}</span>}
-            </div>
-            <button type="button" className="play-button" aria-label="Nghe phát âm">
-              <Volume2Icon size={18} className={isPlaying ? "playing-animation" : ""} />
-            </button>
-          </div>
+          <div className="word-card-main-row">
+            <div className="word-text-col">
+              <div className="english-wrapper">
+                <div className="word-title-row">
+                  <h2 className="english-text english-text--word">{item.word}</h2>
+                  {item.pinyin && <span className="word-ipa">{item.pinyin}</span>}
+                </div>
+                <button type="button" className="play-button" aria-label="Nghe phát âm">
+                  <Volume2Icon size={18} className={isPlaying ? "playing-animation" : ""} />
+                </button>
+              </div>
 
-          <p className="vietnamese-text vietnamese-text--word">{item.meaning}</p>
+              <p className="vietnamese-text vietnamese-text--word">{item.meaning}</p>
+            </div>
+
+            {item.imageUrl && (
+              <div className="word-thumb-wrap">
+                <img
+                  src={item.imageUrl}
+                  alt={item.word}
+                  loading="lazy"
+                  className="word-thumb-img"
+                  onError={(e) => {
+                    e.currentTarget.parentElement.style.display = "none";
+                  }}
+                />
+              </div>
+            )}
+          </div>
 
           {item.exampleSentence && (
             <div
@@ -260,27 +279,12 @@ function HskWordsContent() {
               <span className="reply-label">Ví dụ</span>
               <span className="reply-text">&quot;{item.exampleSentence}&quot;</span>
               {item.examplePinyin && (
-                <span
-                  style={{
-                    color: "#dc2626",
-                    fontSize: "0.82rem",
-                    display: "block",
-                    marginTop: "2px",
-                    fontWeight: 600,
-                  }}
-                >
+                <span className="example-pinyin-line">
                   {item.examplePinyin}
                 </span>
               )}
               {item.exampleTranslation && (
-                <span
-                  style={{
-                    color: "var(--color-text-muted)",
-                    fontSize: "0.82rem",
-                    display: "block",
-                    marginTop: "1px",
-                  }}
-                >
+                <span className="example-trans-line">
                   {item.exampleTranslation}
                 </span>
               )}

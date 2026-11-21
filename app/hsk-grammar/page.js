@@ -62,6 +62,7 @@ function HskGrammarContent() {
             levelId: lvlId,
             lessonId: gles.lessonId,
             lessonTitle: `${gles.title_zh} (${gles.title_vi})`,
+            imageUrl: c.imageUrl || "",
             examples: c.examples || [],
           });
         });
@@ -241,23 +242,41 @@ function HskGrammarContent() {
             incrementStudyCount(item.id);
           }}
         >
-          <div className="english-wrapper">
-            <div className="word-title-row">
-              <h2 className="english-text english-text--word" style={{ color: "#dc2626" }}>
-                {item.title}
-              </h2>
-              {item.pinyin && <span className="word-ipa">{item.pinyin}</span>}
-            </div>
-            <button type="button" className="play-button" aria-label="Nghe phát âm">
-              <Volume2Icon size={18} className={isPlaying ? "playing-animation" : ""} />
-            </button>
-          </div>
+          <div className="word-card-main-row">
+            <div className="word-text-col">
+              <div className="english-wrapper">
+                <div className="word-title-row">
+                  <h2 className="english-text english-text--word" style={{ color: "#dc2626" }}>
+                    {item.title}
+                  </h2>
+                  {item.pinyin && <span className="word-ipa">{item.pinyin}</span>}
+                </div>
+                <button type="button" className="play-button" aria-label="Nghe phát âm">
+                  <Volume2Icon size={18} className={isPlaying ? "playing-animation" : ""} />
+                </button>
+              </div>
 
-          {item.meaning && (
-            <p className="vietnamese-text vietnamese-text--word" style={{ fontWeight: 700 }}>
-              {item.meaning}
-            </p>
-          )}
+              {item.meaning && (
+                <p className="vietnamese-text vietnamese-text--word" style={{ fontWeight: 700 }}>
+                  {item.meaning}
+                </p>
+              )}
+            </div>
+
+            {item.imageUrl && (
+              <div className="word-thumb-wrap">
+                <img
+                  src={item.imageUrl}
+                  alt={item.title}
+                  loading="lazy"
+                  className="word-thumb-img"
+                  onError={(e) => {
+                    e.currentTarget.parentElement.style.display = "none";
+                  }}
+                />
+              </div>
+            )}
+          </div>
 
           {item.formula && (
             <div
