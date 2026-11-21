@@ -118766,5 +118766,2762 @@
     ],
     "id": "697233e3126dc87aa723b9b0",
     "ipa": "/ˌaɪˈkɑnəˌkɫæst/"
+  },
+  {
+    "word": "excavation",
+    "meaning": "Cuộc khai quật, sự đào bới — the process of digging up and removing earth carefully to find buried remains",
+    "exampleSentence": "The recent archaeological excavation uncovered the foundations of a Roman temple.",
+    "synonyms": [
+      "dig",
+      "unearthing",
+      "exhumation"
+    ],
+    "antonyms": [
+      "burial",
+      "concealment"
+    ],
+    "topics": [
+      {
+        "name": "Archaeology",
+        "slug": "archaeology",
+        "id": "69710d4233649cc84358be10"
+      },
+      {
+        "name": "History",
+        "slug": "history",
+        "id": "69710d2133649cc84358bde3"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "f2a4fdf512ea18b03c0c0879",
+    "ipa": "/ˌek.skəˈveɪ.ʃən/"
+  },
+  {
+    "word": "submerged",
+    "meaning": "Bị chìm dưới nước — completely covered by water or another liquid",
+    "exampleSentence": "Remains of the ancient city remained submerged beneath the Mediterranean Sea for centuries.",
+    "synonyms": [
+      "underwater",
+      "sunken",
+      "inundated"
+    ],
+    "antonyms": [
+      "emerged",
+      "surfaced",
+      "exposed"
+    ],
+    "topics": [
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "id": "69710d2133649cc84358bde6"
+      },
+      {
+        "name": "Archaeology",
+        "slug": "archaeology",
+        "id": "69710d4233649cc84358be10"
+      }
+    ],
+    "partOfSpeech": "adjective",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "6c1c133d0659b62997482830",
+    "ipa": "/səbˈmɜːdʒd/"
+  },
+  {
+    "word": "remnant",
+    "meaning": "Tàn tích, phần còn sót lại — a small remaining quantity of something",
+    "exampleSentence": "The stone pillars were the only visible remnants of the magnificent cathedral.",
+    "synonyms": [
+      "residue",
+      "remainder",
+      "vestige",
+      "trace"
+    ],
+    "antonyms": [
+      "whole",
+      "bulk",
+      "entirety"
+    ],
+    "topics": [
+      {
+        "name": "History",
+        "slug": "history",
+        "id": "69710d2133649cc84358bde3"
+      },
+      {
+        "name": "Archaeology",
+        "slug": "archaeology",
+        "id": "69710d4233649cc84358be10"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "6ca3919618c765953ca199d4",
+    "ipa": "/ˈrem.nənt/"
+  },
+  {
+    "word": "sediment",
+    "meaning": "Trầm tích, chất lắng đọng — matter that settles to the bottom of a liquid, or minerals deposited by water, wind, or glaciers",
+    "exampleSentence": "Analysis of the lake sediment provided valuable insights into ancient climate shifts.",
+    "synonyms": [
+      "deposit",
+      "silt",
+      "sludge",
+      "residue"
+    ],
+    "antonyms": [],
+    "topics": [
+      {
+        "name": "Geology",
+        "slug": "geology",
+        "id": "69710d4433649cc84358be13"
+      },
+      {
+        "name": "Science",
+        "slug": "science",
+        "id": "69710d2233649cc84358bde7"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "4eba3cb90f31abc3ad041ead",
+    "ipa": "/ˈsed.ɪ.mənt/"
+  },
+  {
+    "word": "archaeological",
+    "meaning": "Thuộc khảo cổ học — relating to the study of human history and prehistory through the excavation of sites",
+    "exampleSentence": "The archaeological evidence confirmed that pastoral farming began in the region earlier than previously estimated.",
+    "synonyms": [
+      "antiquarian",
+      "historical"
+    ],
+    "antonyms": [],
+    "topics": [
+      {
+        "name": "Archaeology",
+        "slug": "archaeology",
+        "id": "69710d4233649cc84358be10"
+      },
+      {
+        "name": "History",
+        "slug": "history",
+        "id": "69710d2133649cc84358bde3"
+      }
+    ],
+    "partOfSpeech": "adjective",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "7bbf953b6bb0441a4afd6104",
+    "ipa": "/ˌɑː.ki.əˈlɒdʒ.ɪ.kəl/"
+  },
+  {
+    "word": "disintegration",
+    "meaning": "Sự tan rã, phân hủy — the process of losing cohesion or breaking up into small parts",
+    "exampleSentence": "Exposure to acidic rain accelerated the disintegration of the marble monuments.",
+    "synonyms": [
+      "breakdown",
+      "decay",
+      "decomposition",
+      "dissolution"
+    ],
+    "antonyms": [
+      "integration",
+      "unification",
+      "formation"
+    ],
+    "topics": [
+      {
+        "name": "Science",
+        "slug": "science",
+        "id": "69710d2233649cc84358bde7"
+      },
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "id": "69710d2133649cc84358bde6"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "da5b9e84e4b44f7c854facb3",
+    "ipa": "/dɪsˌɪn.tɪˈɡreɪ.ʃən/"
+  },
+  {
+    "word": "colonisation",
+    "meaning": "Sự thực dân hóa — the action or process of settling among and establishing control over indigenous people",
+    "exampleSentence": "European colonisation altered trade networks and ecological landscapes across the Americas.",
+    "synonyms": [
+      "settlement",
+      "expansion",
+      "subjugation"
+    ],
+    "antonyms": [
+      "decolonisation",
+      "liberation"
+    ],
+    "topics": [
+      {
+        "name": "History",
+        "slug": "history",
+        "id": "69710d2133649cc84358bde3"
+      },
+      {
+        "name": "Society",
+        "slug": "society",
+        "id": "69710d2233649cc84358bde9"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "d89d5df2f8db6eeb1d43dd9e",
+    "ipa": "/ˌkɒl.ə.naɪˈzeɪ.ʃən/"
+  },
+  {
+    "word": "assimilation",
+    "meaning": "Sự đồng hóa, tiếp thu — the process of becoming similar to something, or integrating into a wider society",
+    "exampleSentence": "Cultural assimilation often created generational divides among immigrant communities.",
+    "synonyms": [
+      "integration",
+      "incorporation",
+      "absorption"
+    ],
+    "antonyms": [
+      "segregation",
+      "isolation",
+      "differentiation"
+    ],
+    "topics": [
+      {
+        "name": "Culture",
+        "slug": "culture",
+        "id": "69710d2533649cc84358bdf3"
+      },
+      {
+        "name": "Society",
+        "slug": "society",
+        "id": "69710d2233649cc84358bde9"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "2312b01419b0649ec1bdf7f8",
+    "ipa": "/əˌsɪm.ɪˈleɪ.ʃən/"
+  },
+  {
+    "word": "ancestral",
+    "meaning": "Thuộc về tổ tiên — inherited from or belonging to forebears or ancestors",
+    "exampleSentence": "Indigenous tribes fought to retain rights over their ancestral lands and sacred burial sites.",
+    "synonyms": [
+      "hereditary",
+      "inherited",
+      "traditional"
+    ],
+    "antonyms": [
+      "acquired",
+      "modern",
+      "contemporary"
+    ],
+    "topics": [
+      {
+        "name": "Culture",
+        "slug": "culture",
+        "id": "69710d2533649cc84358bdf3"
+      },
+      {
+        "name": "History",
+        "slug": "history",
+        "id": "69710d2133649cc84358bde3"
+      }
+    ],
+    "partOfSpeech": "adjective",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "ba23c50000547c2cdbcce832",
+    "ipa": "/ˈæn.ses.trəl/"
+  },
+  {
+    "word": "prosperity",
+    "meaning": "Sự thịnh vượng — the state of being prosperous, flourishing, or having good fortune",
+    "exampleSentence": "Investment in clean energy has brought newfound economic prosperity to rural areas.",
+    "synonyms": [
+      "affluence",
+      "wealth",
+      "opulence",
+      "success"
+    ],
+    "antonyms": [
+      "poverty",
+      "hardship",
+      "adversity"
+    ],
+    "topics": [
+      {
+        "name": "Economy",
+        "slug": "economy",
+        "id": "69710d2433649cc84358bdef"
+      },
+      {
+        "name": "Society",
+        "slug": "society",
+        "id": "69710d2233649cc84358bde9"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "f54d93092faef94425c29e61",
+    "ipa": "/prɒsˈper.ə.ti/"
+  },
+  {
+    "word": "chronological",
+    "meaning": "Trình tự thời gian — arranged in the order of time occurrence",
+    "exampleSentence": "The museum exhibition presents the development of writing in strict chronological order.",
+    "synonyms": [
+      "sequential",
+      "consecutive",
+      "temporal"
+    ],
+    "antonyms": [
+      "random",
+      "unordered",
+      "anachronistic"
+    ],
+    "topics": [
+      {
+        "name": "History",
+        "slug": "history",
+        "id": "69710d2133649cc84358bde3"
+      },
+      {
+        "name": "Academic",
+        "slug": "academic",
+        "id": "69710d2733649cc84358bdf6"
+      }
+    ],
+    "partOfSpeech": "adjective",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "f23cff76ffe1754dd3749c97",
+    "ipa": "/ˌkrɒn.əˈlɒdʒ.ɪ.kəl/"
+  },
+  {
+    "word": "authenticity",
+    "meaning": "Tính xác thực — the quality of being real, genuine, and not a copy",
+    "exampleSentence": "Curators used radiocarbon testing to verify the authenticity of the Renaissance painting.",
+    "synonyms": [
+      "genuineness",
+      "validity",
+      "legitimacy",
+      "bona fides"
+    ],
+    "antonyms": [
+      "falseness",
+      "spuriousness",
+      "inauthenticity"
+    ],
+    "topics": [
+      {
+        "name": "Arts",
+        "slug": "arts",
+        "id": "69710d2433649cc84358bded"
+      },
+      {
+        "name": "History",
+        "slug": "history",
+        "id": "69710d2133649cc84358bde3"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "c62eda8e53de8f7a7d1447fd",
+    "ipa": "/ˌɔː.θenˈtɪs.ə.ti/"
+  },
+  {
+    "word": "depiction",
+    "meaning": "Sự miêu tả, khắc họa — the representation of someone or something through art or literature",
+    "exampleSentence": "The novelist's depiction of life in Victorian workhouses shocked middle-class readers.",
+    "synonyms": [
+      "portrayal",
+      "representation",
+      "illustration",
+      "rendering"
+    ],
+    "antonyms": [],
+    "topics": [
+      {
+        "name": "Arts",
+        "slug": "arts",
+        "id": "69710d2433649cc84358bded"
+      },
+      {
+        "name": "Literature",
+        "slug": "literature",
+        "id": "69710d4833649cc84358be15"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "5b7eca90206d36f419ed18ca",
+    "ipa": "/dɪˈpɪk.ʃən/"
+  },
+  {
+    "word": "ambiguity",
+    "meaning": "Sự mơ hồ, tính đa nghĩa — the quality of being open to more than one interpretation",
+    "exampleSentence": "Legal contracts must avoid linguistic ambiguity to prevent costly disputes between parties.",
+    "synonyms": [
+      "vagueness",
+      "equivocation",
+      "obscurity"
+    ],
+    "antonyms": [
+      "clarity",
+      "certainty",
+      "lucidity"
+    ],
+    "topics": [
+      {
+        "name": "Academic",
+        "slug": "academic",
+        "id": "69710d2733649cc84358bdf6"
+      },
+      {
+        "name": "Communication",
+        "slug": "communication",
+        "id": "69710d3f33649cc84358be0b"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "0978cd572355e3636beb09e7",
+    "ipa": "/ˌæm.bɪˈɡjuː.ə.ti/"
+  },
+  {
+    "word": "distortion",
+    "meaning": "Sự bóp méo, biến dạng — the alteration of the original shape or misrepresentation of the truth",
+    "exampleSentence": "The politician accused the media of gross distortion of his economic proposals.",
+    "synonyms": [
+      "misrepresentation",
+      "falsification",
+      "perversion",
+      "deformation"
+    ],
+    "antonyms": [
+      "accuracy",
+      "truthfulness",
+      "precision"
+    ],
+    "topics": [
+      {
+        "name": "Communication",
+        "slug": "communication",
+        "id": "69710d3f33649cc84358be0b"
+      },
+      {
+        "name": "Science",
+        "slug": "science",
+        "id": "69710d2233649cc84358bde7"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "600b073e6ee64b63cadb847b",
+    "ipa": "/dɪˈstɔː.ʃən/"
+  },
+  {
+    "word": "ingenious",
+    "meaning": "Khéo léo, tài tình — clever, original, and inventive in idea or execution",
+    "exampleSentence": "The architects devised an ingenious natural cooling system that drastically reduced electricity use.",
+    "synonyms": [
+      "clever",
+      "inventive",
+      "resourceful",
+      "innovative"
+    ],
+    "antonyms": [
+      "unimaginative",
+      "clumsy",
+      "inept"
+    ],
+    "topics": [
+      {
+        "name": "Technology",
+        "slug": "technology",
+        "id": "69710d2533649cc84358bdf1"
+      },
+      {
+        "name": "Engineering",
+        "slug": "engineering",
+        "id": "69710d7f33649cc84358be35"
+      }
+    ],
+    "partOfSpeech": "adjective",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "93418be99889282ca9fdd30e",
+    "ipa": "/ɪnˈdʒiː.ni.əs/"
+  },
+  {
+    "word": "replication",
+    "meaning": "Sự sao chép, tái tạo — the action of copying or reproducing something, particularly in scientific trials",
+    "exampleSentence": "Replication of experiments across independent laboratories is fundamental to scientific rigor.",
+    "synonyms": [
+      "duplication",
+      "reproduction",
+      "cloning",
+      "repetition"
+    ],
+    "antonyms": [
+      "originality"
+    ],
+    "topics": [
+      {
+        "name": "Science",
+        "slug": "science",
+        "id": "69710d2233649cc84358bde7"
+      },
+      {
+        "name": "Research",
+        "slug": "research",
+        "id": "69710d4133649cc84358be0f"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "fbe01a3d8ed259080b919baa",
+    "ipa": "/ˌrep.lɪˈkeɪ.ʃən/"
+  },
+  {
+    "word": "composition",
+    "meaning": "Thành phần cấu tạo — the nature of something's ingredients or constituents; the way in which a whole is made up",
+    "exampleSentence": "Spectroscopic analysis revealed the chemical composition of the distant celestial body.",
+    "synonyms": [
+      "structure",
+      "makeup",
+      "configuration",
+      "formulation"
+    ],
+    "antonyms": [],
+    "topics": [
+      {
+        "name": "Chemistry",
+        "slug": "chemistry",
+        "id": "69710d2833649cc84358bdf8"
+      },
+      {
+        "name": "Science",
+        "slug": "science",
+        "id": "69710d2233649cc84358bde7"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "730d725c8a59d3a7303def2b",
+    "ipa": "/ˌkɒm.pəˈzɪʃ.ən/"
+  },
+  {
+    "word": "resilience",
+    "meaning": "Khả năng phục hồi, chống chịu — the capacity to recover quickly from difficulties, tough conditions, or damage",
+    "exampleSentence": "Coral reef ecosystems display remarkable biological resilience when spared from chronic pollution.",
+    "synonyms": [
+      "toughness",
+      "adaptability",
+      "durability",
+      "tenacity"
+    ],
+    "antonyms": [
+      "fragility",
+      "vulnerability",
+      "weakness"
+    ],
+    "topics": [
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "id": "69710d2133649cc84358bde6"
+      },
+      {
+        "name": "Psychology",
+        "slug": "psychology",
+        "id": "69710d3433649cc84358be04"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "b8cbc700577c96ee3ab0c843",
+    "ipa": "/rɪˈzɪl.i.əns/"
+  },
+  {
+    "word": "durability",
+    "meaning": "Độ bền — the ability to withstand wear, pressure, or damage over a long period",
+    "exampleSentence": "Engineers prioritized durability when selecting synthetic polymers for aerospace parts.",
+    "synonyms": [
+      "longevity",
+      "endurance",
+      "sturdiness",
+      "resilience"
+    ],
+    "antonyms": [
+      "fragility",
+      "impermanence",
+      "frailty"
+    ],
+    "topics": [
+      {
+        "name": "Engineering",
+        "slug": "engineering",
+        "id": "69710d7f33649cc84358be35"
+      },
+      {
+        "name": "Science",
+        "slug": "science",
+        "id": "69710d2233649cc84358bde7"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "2731dedfe254c1d83b35853d",
+    "ipa": "/ˌdjʊə.rəˈbɪl.ə.ti/"
+  },
+  {
+    "word": "elasticity",
+    "meaning": "Tính đàn hồi — the ability of an object or material to resume its normal shape after being stretched or compressed",
+    "exampleSentence": "As skin ages, it gradually loses elasticity due to reduced collagen synthesis.",
+    "synonyms": [
+      "flexibility",
+      "suppleness",
+      "stretchiness",
+      "springiness"
+    ],
+    "antonyms": [
+      "rigidity",
+      "stiffness",
+      "inflexibility"
+    ],
+    "topics": [
+      {
+        "name": "Physics",
+        "slug": "physics",
+        "id": "69710d5933649cc84358be20"
+      },
+      {
+        "name": "Science",
+        "slug": "science",
+        "id": "69710d2233649cc84358bde7"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "5ff40de774f0c40308e91cbe",
+    "ipa": "/ˌiː.læsˈtɪs.ə.ti/"
+  },
+  {
+    "word": "tensile",
+    "meaning": "Thuộc khả năng chịu lực kéo — relating to tension or capable of being drawn out or stretched",
+    "exampleSentence": "Carbon fiber boasts extraordinary tensile strength while maintaining minimal overall weight.",
+    "synonyms": [
+      "ductile",
+      "tractile",
+      "stretchable"
+    ],
+    "antonyms": [
+      "brittle",
+      "rigid"
+    ],
+    "topics": [
+      {
+        "name": "Engineering",
+        "slug": "engineering",
+        "id": "69710d7f33649cc84358be35"
+      },
+      {
+        "name": "Physics",
+        "slug": "physics",
+        "id": "69710d5933649cc84358be20"
+      }
+    ],
+    "partOfSpeech": "adjective",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "44ef74dee5dad564c1b42acb",
+    "ipa": "/ˈten.saɪl/"
+  },
+  {
+    "word": "synthetic",
+    "meaning": "Nhân tạo, tổng hợp — made by chemical synthesis, especially to imitate a natural product",
+    "exampleSentence": "The transition from synthetic pesticides to organic biocontrol agents protects vital soil microbes.",
+    "synonyms": [
+      "artificial",
+      "man-made",
+      "manufactured",
+      "simulated"
+    ],
+    "antonyms": [
+      "natural",
+      "organic",
+      "genuine"
+    ],
+    "topics": [
+      {
+        "name": "Chemistry",
+        "slug": "chemistry",
+        "id": "69710d2833649cc84358bdf8"
+      },
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "id": "69710d2133649cc84358bde6"
+      }
+    ],
+    "partOfSpeech": "adjective",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "b3cc0475bb78a5026098858e",
+    "ipa": "/sɪnˈθet.ɪk/"
+  },
+  {
+    "word": "permeability",
+    "meaning": "Tính thấm — the state or quality of a material or membrane that causes it to allow liquids or gases to pass through it",
+    "exampleSentence": "Urban pavements reduce ground permeability, contributing directly to flash flooding in metropolitan areas.",
+    "synonyms": [
+      "porosity",
+      "penetrability",
+      "perviousness"
+    ],
+    "antonyms": [
+      "impermeability",
+      "resistance"
+    ],
+    "topics": [
+      {
+        "name": "Geology",
+        "slug": "geology",
+        "id": "69710d4433649cc84358be13"
+      },
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "id": "69710d2133649cc84358bde6"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "492e5b8e27cab9462747f976",
+    "ipa": "/ˌpɜː.mi.əˈbɪl.ə.ti/"
+  },
+  {
+    "word": "viscosity",
+    "meaning": "Độ nhớt — the state of being thick, sticky, and semi-fluid in consistency, due to internal friction",
+    "exampleSentence": "Rising volcanic magma temperatures often cause a marked drop in its overall viscosity.",
+    "synonyms": [
+      "thickness",
+      "stickiness",
+      "density",
+      "syrupiness"
+    ],
+    "antonyms": [
+      "fluidity",
+      "wateriness"
+    ],
+    "topics": [
+      {
+        "name": "Physics",
+        "slug": "physics",
+        "id": "69710d5933649cc84358be20"
+      },
+      {
+        "name": "Science",
+        "slug": "science",
+        "id": "69710d2233649cc84358bde7"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "544d7eda1c3efb94cec3cb4a",
+    "ipa": "/vɪˈskɒs.ə.ti/"
+  },
+  {
+    "word": "filament",
+    "meaning": "Sợi mảnh, sợi tơ — a slender threadlike object or fiber, especially one found in animal or plant structures, or in bulbs",
+    "exampleSentence": "Spider silk consists of complex protein filaments capable of absorbing enormous kinetic energy.",
+    "synonyms": [
+      "thread",
+      "fiber",
+      "strand",
+      "wire"
+    ],
+    "antonyms": [],
+    "topics": [
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "id": "69710d6333649cc84358be24"
+      },
+      {
+        "name": "Science",
+        "slug": "science",
+        "id": "69710d2233649cc84358bde7"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "5696d135fe7eb0f05ce06041",
+    "ipa": "/ˈfɪl.ə.mənt/"
+  },
+  {
+    "word": "reinforcement",
+    "meaning": "Sự gia cố, tăng cường — the action of strengthening or supporting an existing structure or behavior",
+    "exampleSentence": "Steel mesh reinforcement prevents the concrete bridge columns from cracking under seismic stress.",
+    "synonyms": [
+      "strengthening",
+      "fortification",
+      "augmentation",
+      "support"
+    ],
+    "antonyms": [
+      "weakening",
+      "deterioration"
+    ],
+    "topics": [
+      {
+        "name": "Engineering",
+        "slug": "engineering",
+        "id": "69710d7f33649cc84358be35"
+      },
+      {
+        "name": "Construction",
+        "slug": "construction",
+        "id": "69710d4d33649cc84358be16"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "86032604836b277e70132886",
+    "ipa": "/ˌriː.ɪnˈfɔːs.mənt/"
+  },
+  {
+    "word": "deterioration",
+    "meaning": "Sự xuống cấp — the process of becoming progressively worse in condition or value",
+    "exampleSentence": "Without prompt historical conservation, the atmospheric deterioration of ancient frescoes will prove irreversible.",
+    "synonyms": [
+      "decline",
+      "degradation",
+      "decay",
+      "degeneration"
+    ],
+    "antonyms": [
+      "improvement",
+      "amelioration",
+      "enhancement"
+    ],
+    "topics": [
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "id": "69710d2133649cc84358bde6"
+      },
+      {
+        "name": "Architecture",
+        "slug": "architecture",
+        "id": "69710d3233649cc84358be02"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "559d264a0385cf314e4e8fbb",
+    "ipa": "/dɪˌtɪə.ri.əˈreɪ.ʃən/"
+  },
+  {
+    "word": "abrasion",
+    "meaning": "Sự mài mòn, trầy xước — the process of scraping or wearing away by friction",
+    "exampleSentence": "Coastal sandstone cliffs suffer heavy mechanical abrasion from wave-borne pebbles during winter storms.",
+    "synonyms": [
+      "erosion",
+      "wearing away",
+      "attrition",
+      "friction"
+    ],
+    "antonyms": [],
+    "topics": [
+      {
+        "name": "Geology",
+        "slug": "geology",
+        "id": "69710d4433649cc84358be13"
+      },
+      {
+        "name": "Science",
+        "slug": "science",
+        "id": "69710d2233649cc84358bde7"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "00b3d6338a6ab301276b7711",
+    "ipa": "/əˈbreɪ.ʒən/"
+  },
+  {
+    "word": "sustainability",
+    "meaning": "Tính bền vững — the ability to be maintained at a certain rate or level without exhausting natural resources",
+    "exampleSentence": "Long-term economic sustainability requires transitioning completely away from finite fossil fuel extraction.",
+    "synonyms": [
+      "viability",
+      "endurance",
+      "eco-friendliness"
+    ],
+    "antonyms": [
+      "unsustainability",
+      "depletion"
+    ],
+    "topics": [
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "id": "69710d2133649cc84358bde6"
+      },
+      {
+        "name": "Economy",
+        "slug": "economy",
+        "id": "69710d2433649cc84358bdef"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "43029a964b518f9c8281af3a",
+    "ipa": "/səˌsteɪ.nəˈbɪl.ə.ti/"
+  },
+  {
+    "word": "feasibility",
+    "meaning": "Tính khả thi — the state or degree of being easily or conveniently done",
+    "exampleSentence": "The municipal council commissioned a formal feasibility study prior to approving the underground transit line.",
+    "synonyms": [
+      "practicability",
+      "viability",
+      "workability"
+    ],
+    "antonyms": [
+      "impracticability",
+      "impossibility"
+    ],
+    "topics": [
+      {
+        "name": "Academic",
+        "slug": "academic",
+        "id": "69710d2733649cc84358bdf6"
+      },
+      {
+        "name": "Business",
+        "slug": "business",
+        "id": "69710d2533649cc84358bdf0"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "acf7b2891c73a9e5711274c1",
+    "ipa": "/ˌfiː.zəˈbɪl.ə.ti/"
+  },
+  {
+    "word": "ecological",
+    "meaning": "Thuộc sinh thái học — relating to the relations of organisms to one another and to their physical surroundings",
+    "exampleSentence": "Deforestation causes catastrophic ecological disruption by fragmenting wildlife habitats.",
+    "synonyms": [
+      "environmental",
+      "bionomic",
+      "green"
+    ],
+    "antonyms": [],
+    "topics": [
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "id": "69710d2133649cc84358bde6"
+      },
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "id": "69710d6333649cc84358be24"
+      }
+    ],
+    "partOfSpeech": "adjective",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "294a1d5ec8f7b60ad2c2d288",
+    "ipa": "/ˌiː.kəˈlɒdʒ.ɪ.kəl/"
+  },
+  {
+    "word": "invasive",
+    "meaning": "Có tính xâm lấn — tending to spread very quickly and undesirably or harmfully, especially of species",
+    "exampleSentence": "Invasive plant species outcompete endemic vegetation for soil nutrients and sunlight.",
+    "synonyms": [
+      "encroaching",
+      "intrusive",
+      "infesting"
+    ],
+    "antonyms": [
+      "native",
+      "endemic",
+      "indigenous"
+    ],
+    "topics": [
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "id": "69710d2133649cc84358bde6"
+      },
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "id": "69710d6333649cc84358be24"
+      }
+    ],
+    "partOfSpeech": "adjective",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "5e0b03e7e08a05ce44b77a82",
+    "ipa": "/ɪnˈveɪ.sɪv/"
+  },
+  {
+    "word": "proliferation",
+    "meaning": "Sự gia tăng — rapid increase in the number or amount of something",
+    "exampleSentence": "The proliferation of digital misinformation presents a formidable challenge to modern democracies.",
+    "synonyms": [
+      "rapid growth",
+      "multiplication",
+      "expansion",
+      "surge"
+    ],
+    "antonyms": [
+      "reduction",
+      "decline",
+      "stagnation"
+    ],
+    "topics": [
+      {
+        "name": "Society",
+        "slug": "society",
+        "id": "69710d2233649cc84358bde9"
+      },
+      {
+        "name": "Science",
+        "slug": "science",
+        "id": "69710d2233649cc84358bde7"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "1fd08621a576f45933c7cca1",
+    "ipa": "/prəˌlɪf.ərˈeɪ.ʃən/"
+  },
+  {
+    "word": "eradication",
+    "meaning": "Sự tiêu diệt tận gốc — the complete destruction or elimination of every trace of something",
+    "exampleSentence": "Global health initiatives achieved the complete eradication of smallpox through worldwide immunization.",
+    "synonyms": [
+      "elimination",
+      "extermination",
+      "wiping out",
+      "extinction"
+    ],
+    "antonyms": [
+      "propagation",
+      "cultivation",
+      "preservation"
+    ],
+    "topics": [
+      {
+        "name": "Health",
+        "slug": "health",
+        "id": "69710d2233649cc84358bde8"
+      },
+      {
+        "name": "Medicine",
+        "slug": "medicine",
+        "id": "69710d2a33649cc84358bdfc"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "61dd7c220bd859c27809034f",
+    "ipa": "/ɪˌræd.ɪˈkeɪ.ʃən/"
+  },
+  {
+    "word": "predation",
+    "meaning": "Hoạt động săn mồi — the preying of one animal on others",
+    "exampleSentence": "Excessive predation by introduced feral cats has driven many flightless bird species toward extinction.",
+    "synonyms": [
+      "hunting",
+      "preying",
+      "depredation"
+    ],
+    "antonyms": [],
+    "topics": [
+      {
+        "name": "Animals",
+        "slug": "animals",
+        "id": "69710d7033649cc84358be2b"
+      },
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "id": "69710d6333649cc84358be24"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "889b829cb4e2d096030b9170",
+    "ipa": "/prɪˈdeɪ.ʃən/"
+  },
+  {
+    "word": "infestation",
+    "meaning": "Sự xâm nhập của sinh vật gây hại — the presence of an unusually large number of pests or parasites causing damage",
+    "exampleSentence": "A severe locust infestation decimated cereal crops across East Africa, triggering food insecurity.",
+    "synonyms": [
+      "invasion",
+      "overrunning",
+      "plague"
+    ],
+    "antonyms": [],
+    "topics": [
+      {
+        "name": "Agriculture",
+        "slug": "agriculture",
+        "id": "6971190033649cc84358be4b"
+      },
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "id": "69710d6333649cc84358be24"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "80e41e005f88203c10813752",
+    "ipa": "/ˌɪn.fesˈteɪ.ʃən/"
+  },
+  {
+    "word": "depletion",
+    "meaning": "Sự cạn kiệt — reduction in the number or quantity of something until little remains",
+    "exampleSentence": "Groundwater depletion poses an existential threat to irrigation-dependent farming communities.",
+    "synonyms": [
+      "exhaustion",
+      "consumption",
+      "diminution",
+      "draining"
+    ],
+    "antonyms": [
+      "replenishment",
+      "restoration",
+      "accumulation"
+    ],
+    "topics": [
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "id": "69710d2133649cc84358bde6"
+      },
+      {
+        "name": "Natural Resources",
+        "slug": "natural-resources",
+        "id": "69710d2133649cc84358bde6"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "489111f65854bf6dd30bfea8",
+    "ipa": "/dɪˈpliː.ʃən/"
+  },
+  {
+    "word": "degradation",
+    "meaning": "Sự suy thoái, xuống cấp — the condition or process of deteriorating or being degraded",
+    "exampleSentence": "Land degradation caused by overgrazing has turned vast swathes of grassland into desert.",
+    "synonyms": [
+      "deterioration",
+      "decline",
+      "debasement",
+      "breakdown"
+    ],
+    "antonyms": [
+      "restoration",
+      "enhancement",
+      "improvement"
+    ],
+    "topics": [
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "id": "69710d2133649cc84358bde6"
+      },
+      {
+        "name": "Agriculture",
+        "slug": "agriculture",
+        "id": "6971190033649cc84358be4b"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "3a77a549887bce0f18a82c60",
+    "ipa": "/ˌdeɡ.rəˈdeɪ.ʃən/"
+  },
+  {
+    "word": "regeneration",
+    "meaning": "Sự tái sinh, phục hồi — the action or process of regenerating or being formed again; renewal of tissue or environment",
+    "exampleSentence": "Careful conservation management fostered the rapid natural regeneration of native hardwood forests.",
+    "synonyms": [
+      "renewal",
+      "rebirth",
+      "rejuvenation",
+      "revival"
+    ],
+    "antonyms": [
+      "degeneration",
+      "decay",
+      "destruction"
+    ],
+    "topics": [
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "id": "69710d2133649cc84358bde6"
+      },
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "id": "69710d6333649cc84358be24"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "396e9ba2beda7b4635894f96",
+    "ipa": "/rɪˌdʒen.əˈreɪ.ʃən/"
+  },
+  {
+    "word": "restoration",
+    "meaning": "Sự khôi phục — the action of returning something to a former condition, place, or position",
+    "exampleSentence": "Wetland restoration projects re-established vital natural buffers against coastal storms.",
+    "synonyms": [
+      "reinstatement",
+      "rehabilitation",
+      "reconstruction",
+      "renewal"
+    ],
+    "antonyms": [
+      "destruction",
+      "demolition",
+      "ruin"
+    ],
+    "topics": [
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "id": "69710d2133649cc84358bde6"
+      },
+      {
+        "name": "History",
+        "slug": "history",
+        "id": "69710d2133649cc84358bde3"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "a7fd11ebf9937f9d157648fe",
+    "ipa": "/ˌres.tərˈeɪ.ʃən/"
+  },
+  {
+    "word": "vulnerability",
+    "meaning": "Tính dễ bị tổn thương — the quality or state of being exposed to the possibility of being attacked or harmed",
+    "exampleSentence": "Small island developing nations share high vulnerability to rising sea levels and intense typhoons.",
+    "synonyms": [
+      "susceptibility",
+      "exposure",
+      "fragility",
+      "defenselessness"
+    ],
+    "antonyms": [
+      "invulnerability",
+      "resilience",
+      "immunity"
+    ],
+    "topics": [
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "id": "69710d2133649cc84358bde6"
+      },
+      {
+        "name": "Society",
+        "slug": "society",
+        "id": "69710d2233649cc84358bde9"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "32ceacc06e8970a0aa5554b6",
+    "ipa": "/ˌvʌl.nər.əˈbɪl.ə.ti/"
+  },
+  {
+    "word": "adaptation",
+    "meaning": "Sự thích nghi — the process of changing to suit different conditions or environments",
+    "exampleSentence": "Camels exhibit specialized physiological adaptations for surviving prolonged desert droughts.",
+    "synonyms": [
+      "adjustment",
+      "acclimatization",
+      "modification",
+      "evolution"
+    ],
+    "antonyms": [
+      "inflexibility",
+      "maladaptation"
+    ],
+    "topics": [
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "id": "69710d6333649cc84358be24"
+      },
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "id": "69710d2133649cc84358bde6"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "2fe1d615f7fb24b99fb828c5",
+    "ipa": "/ˌæd.æpˈteɪ.ʃən/"
+  },
+  {
+    "word": "symbiosis",
+    "meaning": "Sự cộng sinh — interaction between two different organisms living in close physical association",
+    "exampleSentence": "The biological symbiosis between fungi and plant roots enables nutrient exchange essential for forest growth.",
+    "synonyms": [
+      "coexistence",
+      "mutualism",
+      "interdependence"
+    ],
+    "antonyms": [
+      "parasitism",
+      "antagonism"
+    ],
+    "topics": [
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "id": "69710d6333649cc84358be24"
+      },
+      {
+        "name": "Science",
+        "slug": "science",
+        "id": "69710d2233649cc84358bde7"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "37aff8face9b6c5688d201b2",
+    "ipa": "/ˌsɪm.baɪˈəʊ.sɪs/"
+  },
+  {
+    "word": "mutualism",
+    "meaning": "Quan hệ cộng sinh hai bên cùng có lợi — symbiosis that is beneficial to both organisms involved",
+    "exampleSentence": "Pollination is a classic example of mutualism, benefiting both flowering plants and insect pollinators.",
+    "synonyms": [
+      "symbiosis",
+      "reciprocity",
+      "cooperation"
+    ],
+    "antonyms": [
+      "parasitism",
+      "predation"
+    ],
+    "topics": [
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "id": "69710d6333649cc84358be24"
+      },
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "id": "69710d2133649cc84358bde6"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "8dfe056d7dcc3ec5ba96ab84",
+    "ipa": "/ˈmjuː.tʃu.ə.lɪ.zəm/"
+  },
+  {
+    "word": "camouflage",
+    "meaning": "Sự ngụy trang — the disguising of military personnel or animals to blend with their surroundings",
+    "exampleSentence": "The arctic hare uses snowy white fur as natural camouflage against sharp-eyed aerial predators.",
+    "synonyms": [
+      "disguise",
+      "concealment",
+      "masking"
+    ],
+    "antonyms": [
+      "exposure",
+      "conspicuousness"
+    ],
+    "topics": [
+      {
+        "name": "Animals",
+        "slug": "animals",
+        "id": "69710d7033649cc84358be2b"
+      },
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "id": "69710d6333649cc84358be24"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "d51bb67453164fe77b52ee1f",
+    "ipa": "/ˈkæm.ə.flɑːʒ/"
+  },
+  {
+    "word": "mimicry",
+    "meaning": "Hiện tượng bắt chước để sinh tồn — the close external resemblance of an organism to another creature or object",
+    "exampleSentence": "Through Batesian mimicry, harmless hoverflies replicate the distinctive warning stripes of stinging wasps.",
+    "synonyms": [
+      "imitation",
+      "copying",
+      "simulation",
+      "emulation"
+    ],
+    "antonyms": [
+      "originality"
+    ],
+    "topics": [
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "id": "69710d6333649cc84358be24"
+      },
+      {
+        "name": "Animals",
+        "slug": "animals",
+        "id": "69710d7033649cc84358be2b"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "9de86b482e09cb5e5588c032",
+    "ipa": "/ˈmɪm.ɪ.kri/"
+  },
+  {
+    "word": "consciousness",
+    "meaning": "Trạng thái nhận biết, ý thức — the state of being aware of and responsive to one's surroundings",
+    "exampleSentence": "Neuroscientists continue to investigate how coordinated brain circuits generate subjective consciousness.",
+    "synonyms": [
+      "awareness",
+      "sentience",
+      "mindfulness",
+      "perception"
+    ],
+    "antonyms": [
+      "unconsciousness",
+      "insensibility"
+    ],
+    "topics": [
+      {
+        "name": "Psychology",
+        "slug": "psychology",
+        "id": "69710d3433649cc84358be04"
+      },
+      {
+        "name": "Philosophy",
+        "slug": "philosophy",
+        "id": "69710d2433649cc84358bdee"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "003a7a99f8dc0add83b823f6",
+    "ipa": "/ˈkɒn.ʃəs.nəs/"
+  },
+  {
+    "word": "susceptibility",
+    "meaning": "Tính dễ bị tác động, tính nhạy cảm — the state or fact of being likely or liable to be influenced or harmed by a particular thing",
+    "exampleSentence": "Lack of restorative sleep significantly increases genetic susceptibility to seasonal respiratory infections.",
+    "synonyms": [
+      "vulnerability",
+      "predisposition",
+      "proneness",
+      "sensitivity"
+    ],
+    "antonyms": [
+      "immunity",
+      "resistance",
+      "insusceptibility"
+    ],
+    "topics": [
+      {
+        "name": "Health",
+        "slug": "health",
+        "id": "69710d2233649cc84358bde8"
+      },
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "id": "69710d6333649cc84358be24"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "d40ef3267f0b2f693504b4dd",
+    "ipa": "/səˌsep.təˈbɪl.ə.ti/"
+  },
+  {
+    "word": "scepticism",
+    "meaning": "Thái độ hoài nghi — a skeptical attitude; doubt as to the truth of something",
+    "exampleSentence": "Initial findings met with healthy scientific scepticism until replicated by multiple independent labs.",
+    "synonyms": [
+      "doubt",
+      "distrust",
+      "disbelief",
+      "cynicism"
+    ],
+    "antonyms": [
+      "credulity",
+      "gullibility",
+      "belief"
+    ],
+    "topics": [
+      {
+        "name": "Philosophy",
+        "slug": "philosophy",
+        "id": "69710d2433649cc84358bdee"
+      },
+      {
+        "name": "Academic",
+        "slug": "academic",
+        "id": "69710d2733649cc84358bdf6"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "dc7422e9a8fd5258703c2ca3",
+    "ipa": "/ˈskep.tɪ.sɪ.zəm/"
+  },
+  {
+    "word": "preconception",
+    "meaning": "Định kiến — a preconceived idea or prejudice formed beforehand without adequate evidence",
+    "exampleSentence": "Anthropological field research dispels many cultural preconceptions about indigenous social structures.",
+    "synonyms": [
+      "prejudgment",
+      "bias",
+      "presupposition",
+      "prejudice"
+    ],
+    "antonyms": [
+      "open-mindedness",
+      "impartiality"
+    ],
+    "topics": [
+      {
+        "name": "Psychology",
+        "slug": "psychology",
+        "id": "69710d3433649cc84358be04"
+      },
+      {
+        "name": "Society",
+        "slug": "society",
+        "id": "69710d2233649cc84358bde9"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "a01a7acd8e136363ba90a070",
+    "ipa": "/ˌpriː.kənˈsep.ʃən/"
+  },
+  {
+    "word": "misconception",
+    "meaning": "Quan niệm sai lầm — a view or opinion that is incorrect because it is based on faulty thinking or understanding",
+    "exampleSentence": "A common misconception is that bats are blind, whereas most species actually possess capable eyesight.",
+    "synonyms": [
+      "delusion",
+      "fallacy",
+      "misunderstanding",
+      "mistake"
+    ],
+    "antonyms": [
+      "fact",
+      "truth",
+      "accuracy"
+    ],
+    "topics": [
+      {
+        "name": "Academic",
+        "slug": "academic",
+        "id": "69710d2733649cc84358bdf6"
+      },
+      {
+        "name": "Psychology",
+        "slug": "psychology",
+        "id": "69710d3433649cc84358be04"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "2614e7f0e5cbaca34710ed94",
+    "ipa": "/ˌmɪs.kənˈsep.ʃən/"
+  },
+  {
+    "word": "subjectivity",
+    "meaning": "Tính chủ quan — the quality of being based on or influenced by personal feelings, tastes, or opinions",
+    "exampleSentence": "Evaluating artistic merit inherently involves a substantial degree of aesthetic subjectivity.",
+    "synonyms": [
+      "bias",
+      "personal view",
+      "individuality",
+      "partiality"
+    ],
+    "antonyms": [
+      "objectivity",
+      "impartiality",
+      "neutrality"
+    ],
+    "topics": [
+      {
+        "name": "Philosophy",
+        "slug": "philosophy",
+        "id": "69710d2433649cc84358bdee"
+      },
+      {
+        "name": "Arts",
+        "slug": "arts",
+        "id": "69710d2433649cc84358bded"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "3b53f5602599f90f357e60d8",
+    "ipa": "/ˌsʌb.dʒekˈtɪv.ə.ti/"
+  },
+  {
+    "word": "objectivity",
+    "meaning": "Tính khách quan — the quality of being objective, neutral, and free from personal prejudice",
+    "exampleSentence": "Journalistic objectivity requires reporters to present verifiable facts without political distortion.",
+    "synonyms": [
+      "impartiality",
+      "neutrality",
+      "fairness",
+      "detachment"
+    ],
+    "antonyms": [
+      "subjectivity",
+      "bias",
+      "prejudice"
+    ],
+    "topics": [
+      {
+        "name": "Academic",
+        "slug": "academic",
+        "id": "69710d2733649cc84358bdf6"
+      },
+      {
+        "name": "Philosophy",
+        "slug": "philosophy",
+        "id": "69710d2433649cc84358bdee"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "558fe6684b684ec7a8157fbc",
+    "ipa": "/ˌɒb.dʒekˈtɪv.ə.ti/"
+  },
+  {
+    "word": "recollection",
+    "meaning": "Sự hồi tưởng, ký ức — the action or faculty of remembering or recalling past events",
+    "exampleSentence": "Eyewitness recollection can be subtly distorted by leading questions asked during police interrogations.",
+    "synonyms": [
+      "memory",
+      "remembrance",
+      "recall",
+      "retrospection"
+    ],
+    "antonyms": [
+      "forgetfulness",
+      "amnesia",
+      "oblivion"
+    ],
+    "topics": [
+      {
+        "name": "Psychology",
+        "slug": "psychology",
+        "id": "69710d3433649cc84358be04"
+      },
+      {
+        "name": "Health",
+        "slug": "health",
+        "id": "69710d2233649cc84358bde8"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "719732c3578cda81a4469b6c",
+    "ipa": "/ˌrek.əˈlek.ʃən/"
+  },
+  {
+    "word": "retention",
+    "meaning": "Khả năng ghi nhớ, sự duy trì — the continued possession, use, or control of something; capacity to remember",
+    "exampleSentence": "Spaced repetition techniques significantly boost long-term retention of technical terminology.",
+    "synonyms": [
+      "preservation",
+      "maintenance",
+      "withholding",
+      "memory"
+    ],
+    "antonyms": [
+      "loss",
+      "forgetting",
+      "release"
+    ],
+    "topics": [
+      {
+        "name": "Education",
+        "slug": "education",
+        "id": "69710d2133649cc84358bde4"
+      },
+      {
+        "name": "Psychology",
+        "slug": "psychology",
+        "id": "69710d3433649cc84358be04"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "8e220124401da6e1a0288a86",
+    "ipa": "/rɪˈten.ʃən/"
+  },
+  {
+    "word": "consolidation",
+    "meaning": "Sự củng cố (trí nhớ) — the process of combining into a single more effective whole, or stabilizing memory traces in the brain",
+    "exampleSentence": "Deep sleep cycles are critical for the synaptic consolidation of newly learned procedural skills.",
+    "synonyms": [
+      "strengthening",
+      "solidification",
+      "reinforcement",
+      "integration"
+    ],
+    "antonyms": [
+      "weakening",
+      "dissolution",
+      "fragmentation"
+    ],
+    "topics": [
+      {
+        "name": "Psychology",
+        "slug": "psychology",
+        "id": "69710d3433649cc84358be04"
+      },
+      {
+        "name": "Health",
+        "slug": "health",
+        "id": "69710d2233649cc84358bde8"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "ebc9b532930cb42777690502",
+    "ipa": "/kənˌsɒl.ɪˈdeɪ.ʃən/"
+  },
+  {
+    "word": "innate",
+    "meaning": "Bẩm sinh, vốn có — inborn; natural; existing from the time a person or animal is born",
+    "exampleSentence": "Chomsky famously postulated that humans possess an innate linguistic capacity for acquiring speech.",
+    "synonyms": [
+      "inborn",
+      "natural",
+      "inherent",
+      "intrinsic",
+      "congenital"
+    ],
+    "antonyms": [
+      "acquired",
+      "learned",
+      "cultivated"
+    ],
+    "topics": [
+      {
+        "name": "Psychology",
+        "slug": "psychology",
+        "id": "69710d3433649cc84358be04"
+      },
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "id": "69710d6333649cc84358be24"
+      }
+    ],
+    "partOfSpeech": "adjective",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "13d4b0ab52783ffc365a9dad",
+    "ipa": "/ɪˈneɪt/"
+  },
+  {
+    "word": "inhibition",
+    "meaning": "Sự ức chế, kìm hãm — a feeling that makes one self-conscious and unable to act naturally, or the slowdown of a process",
+    "exampleSentence": "Prefrontal cortex maturation enables greater cognitive inhibition over rash impulsive actions.",
+    "synonyms": [
+      "restraint",
+      "suppression",
+      "hindrance",
+      "reticence"
+    ],
+    "antonyms": [
+      "disinhibition",
+      "encouragement",
+      "stimulation"
+    ],
+    "topics": [
+      {
+        "name": "Psychology",
+        "slug": "psychology",
+        "id": "69710d3433649cc84358be04"
+      },
+      {
+        "name": "Health",
+        "slug": "health",
+        "id": "69710d2233649cc84358bde8"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "570f18805b0eaedc85354a57",
+    "ipa": "/ˌɪn.hɪˈbɪʃ.ən/"
+  },
+  {
+    "word": "adrenaline",
+    "meaning": "Hormone adrenaline — a hormone secreted by the adrenal glands that prepares the body for vigorous action",
+    "exampleSentence": "A sudden surge of adrenaline elevates heart rate and redirects blood circulation to major muscle groups.",
+    "synonyms": [
+      "epinephrine"
+    ],
+    "antonyms": [],
+    "topics": [
+      {
+        "name": "Health",
+        "slug": "health",
+        "id": "69710d2233649cc84358bde8"
+      },
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "id": "69710d6333649cc84358be24"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "aa0a13bcfb78751c3588b4dd",
+    "ipa": "/əˈdren.əl.ɪn/"
+  },
+  {
+    "word": "physiological",
+    "meaning": "Thuộc sinh lý học — relating to the branch of biology dealing with the normal functions of living organisms",
+    "exampleSentence": "Hibernating mammals undergo profound physiological changes, including reduced core temperature and heart rhythm.",
+    "synonyms": [
+      "biological",
+      "bodily",
+      "physical",
+      "organic"
+    ],
+    "antonyms": [
+      "psychological"
+    ],
+    "topics": [
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "id": "69710d6333649cc84358be24"
+      },
+      {
+        "name": "Health",
+        "slug": "health",
+        "id": "69710d2233649cc84358bde8"
+      }
+    ],
+    "partOfSpeech": "adjective",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "d5552dbb68681b975841ff74",
+    "ipa": "/ˌfɪz.i.əˈlɒdʒ.ɪ.kəl/"
+  },
+  {
+    "word": "neurological",
+    "meaning": "Thuộc hệ thần kinh — relating to the anatomy, functions, and organic disorders of nerves and nervous system",
+    "exampleSentence": "Clinical trials tested a novel monoclonal antibody aimed at arresting progressive neurological degeneration.",
+    "synonyms": [
+      "neural",
+      "neurobiological"
+    ],
+    "antonyms": [],
+    "topics": [
+      {
+        "name": "Health",
+        "slug": "health",
+        "id": "69710d2233649cc84358bde8"
+      },
+      {
+        "name": "Medicine",
+        "slug": "medicine",
+        "id": "69710d2a33649cc84358bdfc"
+      }
+    ],
+    "partOfSpeech": "adjective",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "98392f5e10a9e552d85a07e0",
+    "ipa": "/ˌnjʊə.rəˈlɒdʒ.ɪ.kəl/"
+  },
+  {
+    "word": "hormonal",
+    "meaning": "Thuộc hormone, nội tiết — relating to or caused by hormones",
+    "exampleSentence": "Circadian rhythms orchestrate the rhythmic hormonal release of cortisol and melatonin throughout the 24-hour cycle.",
+    "synonyms": [
+      "endocrine"
+    ],
+    "antonyms": [],
+    "topics": [
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "id": "69710d6333649cc84358be24"
+      },
+      {
+        "name": "Health",
+        "slug": "health",
+        "id": "69710d2233649cc84358bde8"
+      }
+    ],
+    "partOfSpeech": "adjective",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "d47f63b0b506589b047ba62e",
+    "ipa": "/ˈhɔː.məʊ.nəl/"
+  },
+  {
+    "word": "inflammation",
+    "meaning": "Tình trạng viêm — a localized physical condition characterized by swelling, redness, heat, and pain",
+    "exampleSentence": "Chronic systemic inflammation has been identified as a key driver of cardiovascular pathology.",
+    "synonyms": [
+      "swelling",
+      "soreness",
+      "infection",
+      "irritation"
+    ],
+    "antonyms": [],
+    "topics": [
+      {
+        "name": "Health",
+        "slug": "health",
+        "id": "69710d2233649cc84358bde8"
+      },
+      {
+        "name": "Medicine",
+        "slug": "medicine",
+        "id": "69710d2a33649cc84358bdfc"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "68235db671c098078e24e336",
+    "ipa": "/ˌɪn.fləˈmeɪ.ʃən/"
+  },
+  {
+    "word": "antioxidant",
+    "meaning": "Chất chống oxy hóa — a substance that inhibits oxidation or reactions promoted by oxygen, protecting cells from damage",
+    "exampleSentence": "Dietary antioxidants found in berries and dark greens help neutralize harmful free radicals in bodily tissues.",
+    "synonyms": [
+      "free-radical scavenger",
+      "preservative"
+    ],
+    "antonyms": [
+      "pro-oxidant"
+    ],
+    "topics": [
+      {
+        "name": "Health",
+        "slug": "health",
+        "id": "69710d2233649cc84358bde8"
+      },
+      {
+        "name": "Nutrition",
+        "slug": "nutrition",
+        "id": "69711bd433649cc84358be5e"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "7185da418047fc6830b1cfd6",
+    "ipa": "/ˌæn.tiˈɒk.sɪ.dənt/"
+  },
+  {
+    "word": "longevity",
+    "meaning": "Tuổi thọ, sự trường thọ — long life, long existence or service",
+    "exampleSentence": "Epidemiological studies in Blue Zones link caloric moderation and strong communal bonds to human longevity.",
+    "synonyms": [
+      "long life",
+      "durability",
+      "endurance"
+    ],
+    "antonyms": [
+      "brevity",
+      "short lifespan",
+      "ephemerality"
+    ],
+    "topics": [
+      {
+        "name": "Health",
+        "slug": "health",
+        "id": "69710d2233649cc84358bde8"
+      },
+      {
+        "name": "Society",
+        "slug": "society",
+        "id": "69710d2233649cc84358bde9"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "0e6609817466dcc418ad82d5",
+    "ipa": "/lɒnˈdʒev.ə.ti/"
+  },
+  {
+    "word": "fermentation",
+    "meaning": "Quá trình lên men — the chemical breakdown of a substance by bacteria, yeasts, or other microorganisms",
+    "exampleSentence": "Industrial bio-ethanol is synthesized through the microbial fermentation of agricultural waste biomass.",
+    "synonyms": [
+      "chemical conversion",
+      "brewing",
+      "zymosis"
+    ],
+    "antonyms": [],
+    "topics": [
+      {
+        "name": "Science",
+        "slug": "science",
+        "id": "69710d2233649cc84358bde7"
+      },
+      {
+        "name": "Biology",
+        "slug": "biology",
+        "id": "69710d6333649cc84358be24"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "78ede015174b4997c6a21a24",
+    "ipa": "/ˌfɜː.menˈteɪ.ʃən/"
+  },
+  {
+    "word": "commodification",
+    "meaning": "Sự hàng hóa hóa — the transformation of goods, services, ideas, or people into commodities or objects of trade",
+    "exampleSentence": "Sociologists warn against the increasing commodification of higher education and public cultural spaces.",
+    "synonyms": [
+      "commercialization",
+      "monetization",
+      "merchandising"
+    ],
+    "antonyms": [],
+    "topics": [
+      {
+        "name": "Economy",
+        "slug": "economy",
+        "id": "69710d2433649cc84358bdef"
+      },
+      {
+        "name": "Society",
+        "slug": "society",
+        "id": "69710d2233649cc84358bde9"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "b57559d1d19ef1967b6015fa",
+    "ipa": "/kəˌmɒd.ɪ.fɪˈkeɪ.ʃən/"
+  },
+  {
+    "word": "diversification",
+    "meaning": "Sự đa dạng hóa — the action of diversifying something or enlarging the range of products, investments, or activities",
+    "exampleSentence": "Economic diversification shielded the coastal economy from total collapse during the fishery crisis.",
+    "synonyms": [
+      "expansion",
+      "broadening",
+      "variation",
+      "branching out"
+    ],
+    "antonyms": [
+      "specialization",
+      "homogenization"
+    ],
+    "topics": [
+      {
+        "name": "Economy",
+        "slug": "economy",
+        "id": "69710d2433649cc84358bdef"
+      },
+      {
+        "name": "Business",
+        "slug": "business",
+        "id": "69710d2533649cc84358bdf0"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "8c4b981006ced7fdb422786a",
+    "ipa": "/daɪˌvɜː.sɪ.fɪˈkeɪ.ʃən/"
+  },
+  {
+    "word": "urbanisation",
+    "meaning": "Sự đô thị hóa — the process of making an area more urban; the progressive movement of populations from rural to city zones",
+    "exampleSentence": "Rapid urbanisation in developing economies places unprecedented pressure on municipal sanitation and transit networks.",
+    "synonyms": [
+      "city growth",
+      "metropolitan expansion"
+    ],
+    "antonyms": [
+      "ruralization"
+    ],
+    "topics": [
+      {
+        "name": "Society",
+        "slug": "society",
+        "id": "69710d2233649cc84358bde9"
+      },
+      {
+        "name": "Urban",
+        "slug": "urban",
+        "id": "697118ff33649cc84358be47"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "811dc5cedb6866925b63cc48",
+    "ipa": "/ˌɜː.bən.aɪˈzeɪ.ʃən/"
+  },
+  {
+    "word": "revitalisation",
+    "meaning": "Sự hồi sinh — the action of imbuing something with new life and vitality",
+    "exampleSentence": "The revitalisation of neglected waterfronts converted abandoned dockyards into thriving arts districts.",
+    "synonyms": [
+      "renewal",
+      "rejuvenation",
+      "resurgence",
+      "resurrection"
+    ],
+    "antonyms": [
+      "decline",
+      "stagnation",
+      "deterioration"
+    ],
+    "topics": [
+      {
+        "name": "Urban",
+        "slug": "urban",
+        "id": "697118ff33649cc84358be47"
+      },
+      {
+        "name": "Society",
+        "slug": "society",
+        "id": "69710d2233649cc84358bde9"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "431f5bad5d40d771019d5977",
+    "ipa": "/riːˌvaɪ.təl.aɪˈzeɪ.ʃən/"
+  },
+  {
+    "word": "displacement",
+    "meaning": "Sự di dời, mất nơi cư trú — the forced movement of people from their locality or environment and activities",
+    "exampleSentence": "Rising coastal flooding caused the permanent displacement of low-lying island settlements.",
+    "synonyms": [
+      "dislocation",
+      "relocation",
+      "eviction",
+      "exile"
+    ],
+    "antonyms": [
+      "settlement",
+      "retention"
+    ],
+    "topics": [
+      {
+        "name": "Society",
+        "slug": "society",
+        "id": "69710d2233649cc84358bde9"
+      },
+      {
+        "name": "Environment",
+        "slug": "environment",
+        "id": "69710d2133649cc84358bde6"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "dcd2d24e4ae90e27099f84a0",
+    "ipa": "/dɪsˈpleɪs.mənt/"
+  },
+  {
+    "word": "accountability",
+    "meaning": "Trách nhiệm giải trình — the fact or condition of being accountable; responsibility to justify actions or decisions",
+    "exampleSentence": "Public watchdog organizations demand strict financial accountability from corporations receiving state subsidies.",
+    "synonyms": [
+      "responsibility",
+      "answerability",
+      "liability"
+    ],
+    "antonyms": [
+      "irresponsibility",
+      "impunity"
+    ],
+    "topics": [
+      {
+        "name": "Politics",
+        "slug": "politics",
+        "id": "69710d2a33649cc84358bdfb"
+      },
+      {
+        "name": "Society",
+        "slug": "society",
+        "id": "69710d2233649cc84358bde9"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "03939fbeaa4a9d8549017e40",
+    "ipa": "/əˌkaʊn.təˈbɪl.ə.ti/"
+  },
+  {
+    "word": "transparency",
+    "meaning": "Tính minh bạch — the condition of being open, honest, and easy to perceive or understand",
+    "exampleSentence": "Algorithmic transparency is vital when AI models assist judges in making parole determinations.",
+    "synonyms": [
+      "openness",
+      "candor",
+      "clarity",
+      "straightforwardness"
+    ],
+    "antonyms": [
+      "opacity",
+      "secrecy",
+      "ambiguity"
+    ],
+    "topics": [
+      {
+        "name": "Politics",
+        "slug": "politics",
+        "id": "69710d2a33649cc84358bdfb"
+      },
+      {
+        "name": "Technology",
+        "slug": "technology",
+        "id": "69710d2533649cc84358bdf1"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "f45b59736bd986bf72c5aab6",
+    "ipa": "/trænsˈpær.ən.si/"
+  },
+  {
+    "word": "scrutiny",
+    "meaning": "Sự xem xét, kiểm tra kỹ lưỡng — critical observation or examination",
+    "exampleSentence": "The pharmaceutical company's trial data came under intense regulatory scrutiny following adverse patient reactions.",
+    "synonyms": [
+      "inspection",
+      "examination",
+      "investigation",
+      "surveillance"
+    ],
+    "antonyms": [
+      "glance",
+      "oversight",
+      "neglect"
+    ],
+    "topics": [
+      {
+        "name": "Academic",
+        "slug": "academic",
+        "id": "69710d2733649cc84358bdf6"
+      },
+      {
+        "name": "Law",
+        "slug": "law",
+        "id": "69710d4f33649cc84358be19"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "73043e4eaf1a8b05ab50335d",
+    "ipa": "/ˈskruː.tɪ.ni/"
+  },
+  {
+    "word": "hypothetical",
+    "meaning": "Mang tính giả định — of, based on, or serving as a hypothesis; supposed but not necessarily true",
+    "exampleSentence": "Climate modelers constructed hypothetical scenarios demonstrating sea-level rise under various emission trajectories.",
+    "synonyms": [
+      "theoretical",
+      "speculative",
+      "suppositional",
+      "conjectural"
+    ],
+    "antonyms": [
+      "actual",
+      "proven",
+      "empirical",
+      "real"
+    ],
+    "topics": [
+      {
+        "name": "Academic",
+        "slug": "academic",
+        "id": "69710d2733649cc84358bdf6"
+      },
+      {
+        "name": "Science",
+        "slug": "science",
+        "id": "69710d2233649cc84358bde7"
+      }
+    ],
+    "partOfSpeech": "adjective",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "8bc7cf60c35e3f06a7baa656",
+    "ipa": "/ˌhaɪ.pəˈθet.ɪ.kəl/"
+  },
+  {
+    "word": "refute",
+    "meaning": "Bác bỏ bằng lý lẽ hoặc bằng chứng — prove a statement, theory, or accusation to be wrong or false",
+    "exampleSentence": "Carefully controlled double-blind trials directly refuted the claim that the supplement accelerated muscle recovery.",
+    "synonyms": [
+      "disprove",
+      "debunk",
+      "rebut",
+      "confute"
+    ],
+    "antonyms": [
+      "confirm",
+      "verify",
+      "corroborate",
+      "prove"
+    ],
+    "topics": [
+      {
+        "name": "Academic",
+        "slug": "academic",
+        "id": "69710d2733649cc84358bdf6"
+      },
+      {
+        "name": "Debate",
+        "slug": "debate",
+        "id": "697118ff33649cc84358be45"
+      }
+    ],
+    "partOfSpeech": "verb",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "1bf0daf415a9141eeaa0b34d",
+    "ipa": "/rɪˈfjuːt/"
+  },
+  {
+    "word": "reconcile",
+    "meaning": "Dung hòa mâu thuẫn — restore friendly relations between; cause to coexist in harmony",
+    "exampleSentence": "Policymakers must reconcile competing demands between aggressive urban development and wetland conservation.",
+    "synonyms": [
+      "harmonize",
+      "synthesize",
+      "settle",
+      "resolve"
+    ],
+    "antonyms": [
+      "alienate",
+      "polarize",
+      "contradict"
+    ],
+    "topics": [
+      {
+        "name": "Academic",
+        "slug": "academic",
+        "id": "69710d2733649cc84358bdf6"
+      },
+      {
+        "name": "Society",
+        "slug": "society",
+        "id": "69710d2233649cc84358bde9"
+      }
+    ],
+    "partOfSpeech": "verb",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "e2c30d59264829011fe7ce30",
+    "ipa": "/ˈrek.ən.saɪl/"
+  },
+  {
+    "word": "artefact",
+    "meaning": "Hiện vật khảo cổ — an object made by a human being, typically one of cultural or historical interest (British spelling)",
+    "exampleSentence": "Archaeologists recovered an exquisite bronze artefact dating back to the Han dynasty.",
+    "synonyms": [
+      "relic",
+      "antique",
+      "antiquity",
+      "artifact"
+    ],
+    "antonyms": [
+      "natural object"
+    ],
+    "topics": [
+      {
+        "name": "Archaeology",
+        "slug": "archaeology",
+        "id": "69710d4233649cc84358be10"
+      },
+      {
+        "name": "History",
+        "slug": "history",
+        "id": "69710d2133649cc84358bde3"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "4edfbd28d0483e702f24bd52",
+    "ipa": "/ˈɑː.tɪ.fækt/"
+  },
+  {
+    "word": "civilisation",
+    "meaning": "Nền văn minh — the stage of human social and cultural development and organization that is considered most advanced (British spelling)",
+    "exampleSentence": "The Indus Valley civilisation developed sophisticated urban planning and drainage networks.",
+    "synonyms": [
+      "society",
+      "culture",
+      "nation",
+      "civilization"
+    ],
+    "antonyms": [
+      "barbarism",
+      "savagery"
+    ],
+    "topics": [
+      {
+        "name": "History",
+        "slug": "history",
+        "id": "69710d2133649cc84358bde3"
+      },
+      {
+        "name": "Culture",
+        "slug": "culture",
+        "id": "69710d2533649cc84358bdf3"
+      }
+    ],
+    "partOfSpeech": "noun",
+    "difficulty": "advanced",
+    "modules": [
+      "reading",
+      "writing"
+    ],
+    "id": "bf487e25d4996f60ee748beb",
+    "ipa": "/ˌsɪv.əl.aɪˈzeɪ.ʃən/"
   }
 ]
