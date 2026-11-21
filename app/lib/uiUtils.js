@@ -8,11 +8,67 @@ export function isTextSelected() {
 
 export function isAudioMuted() {
   if (typeof window === "undefined") return false;
-  if (window.__ETP_AUDIO_MUTED__ === true) return true;
+  if (window.__ETP_AUDIO_MUTED__ !== undefined) return window.__ETP_AUDIO_MUTED__;
   try {
     return localStorage.getItem("etp_audio_muted") === "true";
   } catch (e) {
     return false;
+  }
+}
+
+export function playMediaAudio(url, fallbackText, id, playSpeech, setPlayingId) {
+  if (isAudioMuted()) {
+    if (setPlayingId) setPlayingId(null);
+    return;
+  }
+
+  // Stop any currently playing audio element first
+  if (typeof window !== "undefined" && window.__ETP_CURRENT_AUDIO__) {
+    try {
+      window.__ETP_CURRENT_AUDIO__.pause();
+      window.__ETP_CURRENT_AUDIO__.currentTime = 0;
+    } catch (e) {}
+    window.__ETP_CURRENT_AUDIO__ = null;
+  }
+
+  if (url) {
+    try {
+      const audio = new Audio(url);
+      if (typeof window !== "undefined") {
+        window.__ETP_CURRENT_AUDIO__ = audio;
+      }
+      if (setPlayingId) setPlayingId(id);
+
+      audio.onended = () => {
+        if (setPlayingId) setPlayingId(null);
+        if (typeof window !== "undefined" && window.__ETP_CURRENT_AUDIO__ === audio) {
+          window.__ETP_CURRENT_AUDIO__ = null;
+        }
+      };
+
+      audio.onerror = () => {
+        if (fallbackText && playSpeech) {
+          playSpeech(fallbackText, id);
+        } else if (setPlayingId) {
+          setPlayingId(null);
+        }
+      };
+
+      audio.play().catch(() => {
+        if (fallbackText && playSpeech) {
+          playSpeech(fallbackText, id);
+        } else if (setPlayingId) {
+          setPlayingId(null);
+        }
+      });
+      return;
+    } catch (e) {
+      if (fallbackText && playSpeech) {
+        playSpeech(fallbackText, id);
+      }
+    }
+  } else if (fallbackText && playSpeech) {
+    playSpeech(fallbackText, id);
   }
 }
 

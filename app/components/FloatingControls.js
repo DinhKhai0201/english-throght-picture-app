@@ -92,8 +92,23 @@ export default function FloatingControls() {
       localStorage.setItem("etp_audio_muted", String(nextMuted));
     } catch (e) {}
 
-    if (nextMuted && typeof window !== "undefined" && window.speechSynthesis) {
-      window.speechSynthesis.cancel();
+    if (typeof window !== "undefined") {
+      window.dispatchEvent(
+        new CustomEvent("etp-audio-mute-change", { detail: { isMuted: nextMuted } })
+      );
+    }
+
+    if (nextMuted && typeof window !== "undefined") {
+      if (window.speechSynthesis) {
+        window.speechSynthesis.cancel();
+      }
+      if (window.__ETP_CURRENT_AUDIO__) {
+        try {
+          window.__ETP_CURRENT_AUDIO__.pause();
+          window.__ETP_CURRENT_AUDIO__.currentTime = 0;
+        } catch (e) {}
+        window.__ETP_CURRENT_AUDIO__ = null;
+      }
     }
   };
 

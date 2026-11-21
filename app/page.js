@@ -29,10 +29,13 @@ import interviewData from "../interview_500_qa.json";
 import speakingData from "../ielts_speaking_30_days.json";
 
 export default function Home() {
+  const [homeLangFilter, setHomeLangFilter] = useState("all");
   const [en300Count, setEn300Count] = useState(0);
   const [chunksCount, setChunksCount] = useState(0);
   const [grammarCount, setGrammarCount] = useState(0);
   const [zhCount, setZhCount] = useState(0);
+  const [hskCount, setHskCount] = useState(0);
+  const [hskGrammarCount, setHskGrammarCount] = useState(0);
   const [jaCount, setJaCount] = useState(0);
   const [ieltsCount, setIeltsCount] = useState(0);
   const [interviewCount, setInterviewCount] = useState(0);
@@ -78,6 +81,22 @@ export default function Home() {
         if (zhStored) setZhCount(JSON.parse(zhStored).length);
       } catch (e) {}
       try {
+        const hskStoredWords = localStorage.getItem("hsk_words_progress") || localStorage.getItem("hsk_study_words");
+        const hskOld = localStorage.getItem("hsk_study_progress");
+        const stored = hskStoredWords || hskOld;
+        if (stored) {
+          const parsed = JSON.parse(stored);
+          setHskCount(Array.isArray(parsed) ? parsed.length : Object.keys(parsed).length);
+        }
+      } catch (e) {}
+      try {
+        const hskGrammarStored = localStorage.getItem("hsk_grammar_progress") || localStorage.getItem("hsk_study_grammar");
+        if (hskGrammarStored) {
+          const parsed = JSON.parse(hskGrammarStored);
+          setHskGrammarCount(Array.isArray(parsed) ? parsed.length : Object.keys(parsed).length);
+        }
+      } catch (e) {}
+      try {
         const jaStored = localStorage.getItem("japanese_chunks_progress");
         if (jaStored) setJaCount(JSON.parse(jaStored).length);
       } catch (e) {}
@@ -100,6 +119,8 @@ export default function Home() {
   const totalChunks = chunksData.chunks?.length || 1000;
   const totalGrammar = grammarData.items?.length || 45;
   const totalZh = (zhData.chunks?.length || 500) + ZH_EXTRA_CHUNKS.length;
+  const totalHsk = 3600;
+  const totalHskGrammar = 714;
   const totalJa = (jaData.chunks?.length || 300) + JA_EXTRA_CHUNKS.length;
   const totalIelts = Array.isArray(ieltsData) ? ieltsData.length : 3517;
   const totalInterview = interviewData.total_questions || 155;
@@ -110,6 +131,8 @@ export default function Home() {
   const chunksPercent = Math.round((chunksCount / totalChunks) * 100);
   const grammarPercent = Math.round((grammarCount / totalGrammar) * 100);
   const zhPercent = Math.round((zhCount / totalZh) * 100);
+  const hskPercent = Math.round((hskCount / totalHsk) * 100);
+  const hskGrammarPercent = Math.round((hskGrammarCount / totalHskGrammar) * 100);
   const jaPercent = Math.round((jaCount / totalJa) * 100);
   const ieltsPercent = Math.round((ieltsCount / totalIelts) * 100);
   const interviewPercent = Math.round((interviewCount / totalInterview) * 100);
@@ -119,13 +142,34 @@ export default function Home() {
   const drillPercent = Math.min(100, Math.round((listenDrillFound / 50) * 100));
 
   const totalLearned =
-    en300Count + chunksCount + grammarCount + zhCount + jaCount + ieltsCount + interviewCount + speakingDaysCount + ieltsReadingCount;
+    en300Count +
+    chunksCount +
+    grammarCount +
+    zhCount +
+    hskCount +
+    hskGrammarCount +
+    jaCount +
+    ieltsCount +
+    interviewCount +
+    speakingDaysCount +
+    ieltsReadingCount;
   const totalAll =
-    totalEn300 + totalChunks + totalGrammar + totalZh + totalJa + totalIelts + totalInterview + totalSpeakingDays + totalReadingTests;
+    totalEn300 +
+    totalChunks +
+    totalGrammar +
+    totalZh +
+    totalHsk +
+    totalHskGrammar +
+    totalJa +
+    totalIelts +
+    totalInterview +
+    totalSpeakingDays +
+    totalReadingTests;
   const totalOverallPercent = Math.round((totalLearned / totalAll) * 100);
 
   const tracks = [
     {
+      lang: "en",
       title: "Luyện Nghe & Đọc Phản Xạ (IELTS)",
       subtitle: "Rèn tốc độ nhận diện âm thanh, từ khóa và kỹ năng làm bài Reading Academic trên máy.",
       cards: [
@@ -168,8 +212,9 @@ export default function Home() {
       ],
     },
     {
-      title: "IELTS & Phỏng Vấn",
-      subtitle: "Hệ thống lộ trình 30 ngày Speaking, từ vựng học thuật và câu hỏi phỏng vấn.",
+      lang: "en",
+      title: "IELTS & Phỏng Vấn Web Developer",
+      subtitle: "Hệ thống lộ trình 30 ngày Speaking, từ vựng học thuật, ngữ pháp và câu hỏi phỏng vấn.",
       cards: [
         {
           href: "/ielts-speaking",
@@ -222,8 +267,9 @@ export default function Home() {
       ],
     },
     {
-      title: "Giao Tiếp & Chunks Đa Ngôn Ngữ",
-      subtitle: "Nạp cụm từ tự nhiên (chunks) để phản xạ giao tiếp không dịch từng từ.",
+      lang: "en",
+      title: "Giao Tiếp & Chunks Tiếng Anh",
+      subtitle: "Nạp cụm từ tự nhiên (chunks) để phản xạ giao tiếp không cần dịch từng từ.",
       cards: [
         {
           href: "/english-300",
@@ -249,10 +295,41 @@ export default function Home() {
           cta: "Vào học",
           Icon: LayersIcon,
         },
+      ],
+    },
+    {
+      lang: "zh",
+      title: "Tiếng Trung & HSK 3.0",
+      subtitle: "Học từ vựng và ngữ pháp HSK 3.0 tách riêng theo bài học thực tế, kèm 600 chunks hội thoại.",
+      cards: [
+        {
+          href: "/hsk-words",
+          code: "HSK 3.0",
+          badge: "HSK 1 → 5 • 3.600 Từ Vựng",
+          title: "HSK Word Trainer (HSK 1 - 5)",
+          desc: "3.600 từ vựng cốt lõi HSK 1 đến HSK 5 phân loại theo bài học chuyên đề, kèm phát âm audio bản xứ, nghĩa tiếng Việt, ví dụ và luyện phản xạ theo bài.",
+          statLabel: "Tiến độ",
+          statValue: `${hskCount}/${totalHsk} từ (${hskPercent}%)`,
+          percent: hskPercent,
+          cta: "Học từ vựng HSK",
+          Icon: BookOpenIcon,
+        },
+        {
+          href: "/hsk-grammar",
+          code: "HSK 3.0",
+          badge: "HSK 1 → 5 • 125 Bài & 714 Cấu Trúc",
+          title: "HSK Grammar Mastery (HSK 1 - 5)",
+          desc: "125 bài học ngữ pháp chuyên đề từ HSK 1 đến HSK 5 với công thức cấu trúc câu, phân tích cách dùng, ví dụ ứng dụng thực tế và audio phát âm chuẩn.",
+          statLabel: "Tiến độ",
+          statValue: `${hskGrammarCount}/${totalHskGrammar} điểm (${hskGrammarPercent}%)`,
+          percent: hskGrammarPercent,
+          cta: "Học ngữ pháp HSK",
+          Icon: AwardIcon,
+        },
         {
           href: "/chinese",
           code: "ZH",
-          badge: "Tiếng Trung • HSK 1 → HSK 6",
+          badge: "Tiếng Trung • HSK 1 → HSK 6 Chunks",
           title: "600 Chunks & Hội Thoại Trung",
           desc: "600 chunks thực chiến, 15 kịch bản hội thoại, 12 mẫu câu ghép và phát âm 4 thanh điệu.",
           statLabel: "Tiến độ",
@@ -261,6 +338,13 @@ export default function Home() {
           cta: "Học tiếng Trung",
           Icon: LanguagesIcon,
         },
+      ],
+    },
+    {
+      lang: "ja",
+      title: "Tiếng Nhật Giao Tiếp & JLPT",
+      subtitle: "Cụm từ tự nhiên (chunks) đủ 3 sắc thái Bạn bè, Lịch sự, Kính ngữ và kịch bản hội thoại.",
+      cards: [
         {
           href: "/japanese",
           code: "JA",
@@ -276,6 +360,9 @@ export default function Home() {
       ],
     },
   ];
+
+  const visibleTracks =
+    homeLangFilter === "all" ? tracks : tracks.filter((t) => t.lang === homeLangFilter);
 
   return (
     <main className="container">
@@ -303,8 +390,29 @@ export default function Home() {
         </div>
       </header>
 
+      {/* Language Section Filter Bar */}
+      <div className="home-lang-tabs" role="tablist" aria-label="Lọc theo ngôn ngữ">
+        {[
+          { id: "all", label: "Tất cả ngôn ngữ", flag: "🌐" },
+          { id: "en", label: "🇬🇧 Tiếng Anh (IELTS & Dev)", flag: "🇬🇧" },
+          { id: "zh", label: "🇨🇳 Tiếng Trung (HSK 3.0 & Chunks)", flag: "🇨🇳" },
+          { id: "ja", label: "🇯🇵 Tiếng Nhật (JLPT & Chunks)", flag: "🇯🇵" },
+        ].map((tab) => (
+          <button
+            key={tab.id}
+            type="button"
+            role="tab"
+            aria-selected={homeLangFilter === tab.id}
+            className={`home-lang-pill ${homeLangFilter === tab.id ? "active" : ""}`}
+            onClick={() => setHomeLangFilter(tab.id)}
+          >
+            <span>{tab.label}</span>
+          </button>
+        ))}
+      </div>
+
       <div className="home-tracks">
-        {tracks.map((track) => (
+        {visibleTracks.map((track) => (
           <section key={track.title} className="home-track-section">
             <div className="home-track-header">
               <h2 className="home-track-title">{track.title}</h2>

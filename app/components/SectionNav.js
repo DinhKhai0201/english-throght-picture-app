@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import ThemeToggle from "./ThemeToggle";
@@ -21,38 +21,74 @@ import {
   FileTextIcon,
 } from "./Icons";
 
-const SECTIONS = [
-  { href: "/", label: "Trang chủ", Icon: HomeIcon },
-  { href: "/listen-drill", label: "Listen & Find", Icon: HeadphonesIcon },
-  { href: "/ielts-listening", label: "IELTS Listening", Icon: TargetIcon },
-  { href: "/ielts-reading", label: "IELTS Reading", Icon: FileTextIcon },
-  { href: "/english-300", label: "300 Giao Tiếp", Icon: MessageSquareIcon },
-  { href: "/chunks", label: "1000 Chunks EN", Icon: LayersIcon },
-  { href: "/grammar", label: "Grammar → 8.0", Icon: AwardIcon },
-  { href: "/ielts-words", label: "IELTS Words", Icon: BookOpenIcon },
-  { href: "/interview-qa", label: "500 Q&A Dev", Icon: BriefcaseIcon },
-  { href: "/ielts-speaking", label: "Speaking 30D", Icon: MicIcon },
-  { href: "/chinese", label: "600 Chunks ZH", Icon: LanguagesIcon },
-  { href: "/japanese", label: "400 Chunks JA", Icon: LanguagesIcon },
+export const SECTIONS = [
+  { href: "/", label: "Trang chủ", Icon: HomeIcon, lang: "all" },
+
+  // Tiếng Anh (IELTS & Kỹ năng)
+  { href: "/listen-drill", label: "Listen & Find", Icon: HeadphonesIcon, lang: "en" },
+  { href: "/ielts-listening", label: "IELTS Listening", Icon: TargetIcon, lang: "en" },
+  { href: "/ielts-reading", label: "IELTS Reading", Icon: FileTextIcon, lang: "en" },
+  { href: "/ielts-speaking", label: "Speaking 30D", Icon: MicIcon, lang: "en" },
+  { href: "/ielts-words", label: "IELTS Words", Icon: BookOpenIcon, lang: "en" },
+  { href: "/grammar", label: "Grammar → 8.0", Icon: AwardIcon, lang: "en" },
+
+  // Tiếng Anh (Giao tiếp & Dev)
+  { href: "/english-300", label: "300 Giao Tiếp", Icon: MessageSquareIcon, lang: "en" },
+  { href: "/chunks", label: "1000 Chunks EN", Icon: LayersIcon, lang: "en" },
+  { href: "/interview-qa", label: "500 Q&A Dev", Icon: BriefcaseIcon, lang: "en" },
+
+  // Tiếng Trung (HSK 3.0 & Giao tiếp)
+  { href: "/hsk-words", label: "HSK Words (1-5)", Icon: BookOpenIcon, lang: "zh" },
+  { href: "/hsk-grammar", label: "HSK Ngữ Pháp", Icon: AwardIcon, lang: "zh" },
+  { href: "/chinese", label: "600 Chunks ZH", Icon: LanguagesIcon, lang: "zh" },
+
+  // Tiếng Nhật (JLPT & Giao tiếp)
+  { href: "/japanese", label: "400 Chunks JA", Icon: LanguagesIcon, lang: "ja" },
 ];
 
 export default function SectionNav() {
   const pathname = usePathname();
   const [drawerOpen, setDrawerOpen] = useState(false);
 
-  // Close drawer automatically on route change or Escape key
   useEffect(() => {
     setDrawerOpen(false);
   }, [pathname]);
 
+  // Lock body scroll when mobile drawer is open
   useEffect(() => {
     if (!drawerOpen) return;
     const handleKeyDown = (e) => {
       if (e.key === "Escape") setDrawerOpen(false);
     };
+    const prevOverflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
     window.addEventListener("keydown", handleKeyDown);
-    return () => window.removeEventListener("keydown", handleKeyDown);
+    return () => {
+      document.body.style.overflow = prevOverflow;
+      window.removeEventListener("keydown", handleKeyDown);
+    };
   }, [drawerOpen]);
+
+  // Grouped sections for mobile drawer
+  const groupedSections = useMemo(() => {
+    return [
+      {
+        id: "en",
+        title: "🇬🇧 TIẾNG ANH (IELTS & DEV)",
+        items: SECTIONS.filter((s) => s.lang === "en"),
+      },
+      {
+        id: "zh",
+        title: "🇨🇳 TIẾNG TRUNG (HSK 3.0 & GIAO TIẾP)",
+        items: SECTIONS.filter((s) => s.lang === "zh"),
+      },
+      {
+        id: "ja",
+        title: "🇯🇵 TIẾNG NHẬT (GIAO TIẾP & JLPT)",
+        items: SECTIONS.filter((s) => s.lang === "ja"),
+      },
+    ];
+  }, []);
 
   return (
     <>
@@ -65,7 +101,7 @@ export default function SectionNav() {
             onClick={() => setDrawerOpen(true)}
             aria-label="Mở danh mục học tập"
             aria-expanded={drawerOpen}
-            title="Danh mục các phần học"
+            title="Danh mục các phân hệ"
           >
             <MenuIcon size={18} />
           </button>
@@ -80,7 +116,7 @@ export default function SectionNav() {
           </Link>
         </div>
 
-        {/* Full Desktop Bar */}
+        {/* Full Desktop Navigation Bar with all Sections */}
         <nav className="section-nav-bar" aria-label="Điều hướng phân hệ học tập">
           {SECTIONS.map(({ href, label, Icon }) => {
             const isActive = pathname === href;
@@ -104,7 +140,7 @@ export default function SectionNav() {
         </div>
       </div>
 
-      {/* Slide-out Mobile Navigation Drawer */}
+      {/* Slide-out Mobile Navigation Drawer with Structured Language Groups */}
       {drawerOpen && (
         <div
           className="nav-drawer-backdrop"
@@ -117,7 +153,7 @@ export default function SectionNav() {
             aria-label="Menu danh mục học tập"
           >
             <div className="nav-drawer-header">
-              <span className="nav-drawer-title">Danh mục học tập</span>
+              <span className="nav-drawer-title">Phân Hệ Học Tập</span>
               <button
                 type="button"
                 className="nav-drawer-close"
@@ -128,23 +164,41 @@ export default function SectionNav() {
               </button>
             </div>
 
-            <nav className="nav-drawer-list">
-              {SECTIONS.map(({ href, label, Icon }) => {
-                const isActive = pathname === href;
-                return (
-                  <Link
-                    key={href}
-                    href={href}
-                    onClick={() => setDrawerOpen(false)}
-                    className={`nav-drawer-item ${isActive ? "active" : ""}`}
-                    aria-current={isActive ? "page" : undefined}
-                  >
-                    <Icon size={17} />
-                    <span>{label}</span>
-                  </Link>
-                );
-              })}
-            </nav>
+            <div className="nav-drawer-content">
+              {/* Home link */}
+              <Link
+                href="/"
+                onClick={() => setDrawerOpen(false)}
+                className={`nav-drawer-item nav-drawer-home-item ${pathname === "/" ? "active" : ""}`}
+              >
+                <HomeIcon size={17} />
+                <span>Trang chủ tổng quan</span>
+              </Link>
+
+              {/* Grouped by Language */}
+              {groupedSections.map((group) => (
+                <div key={group.id} className="nav-drawer-group">
+                  <div className="nav-drawer-group-title">{group.title}</div>
+                  <div className="nav-drawer-group-items">
+                    {group.items.map(({ href, label, Icon }) => {
+                      const isActive = pathname === href;
+                      return (
+                        <Link
+                          key={href}
+                          href={href}
+                          onClick={() => setDrawerOpen(false)}
+                          className={`nav-drawer-item ${isActive ? "active" : ""}`}
+                          aria-current={isActive ? "page" : undefined}
+                        >
+                          <Icon size={17} />
+                          <span>{label}</span>
+                        </Link>
+                      );
+                    })}
+                  </div>
+                </div>
+              ))}
+            </div>
           </aside>
         </div>
       )}

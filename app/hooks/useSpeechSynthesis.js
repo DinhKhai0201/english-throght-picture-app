@@ -78,6 +78,17 @@ export function useSpeechSynthesis({ lang = "en-US", defaultRate = 0.9, preferUk
 
     updateVoices();
     window.speechSynthesis.onvoiceschanged = updateVoices;
+
+    const handleMuteChange = (e) => {
+      if (e.detail?.isMuted) {
+        setPlayingId(null);
+        if (window.speechSynthesis) window.speechSynthesis.cancel();
+      }
+    };
+    window.addEventListener("etp-audio-mute-change", handleMuteChange);
+    return () => {
+      window.removeEventListener("etp-audio-mute-change", handleMuteChange);
+    };
   }, [langPrefix, preferUk]);
 
   const playSpeech = useCallback(
